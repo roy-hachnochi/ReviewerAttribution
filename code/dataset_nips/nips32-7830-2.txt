@@ -1,0 +1,1 @@
+This paper offers a solid discussion of pruning attention heads in models using multi-headed attention mechanisms. The provided 'heuristic' strategies to do so seem effective, yet one could imagine additional variants worth evaluating.  The analysis is solid, the findings somewhat surprising and practically highly relevant as they improve inference speed considerably.

@@ -1,0 +1,72 @@
+Thank you for the opportunity to review this manuscript. It is an important topic given the
+excessive workload in academia, non-sustainable peer review system, and interesting
+research question. It is a great paper. Main comments is that the included literature could be
+improved.
+Abstract:
+• Change question to objective
+• “Out-of-hours submissions or reviews on weekends, early mornings / late nights, or
+national holidays.”. I would like to see holidays, and sick-days added. How much do
+academics work during sick leave or annual leave. I know I do, Maybe discussion item.
+• “The levels of out-of-hours work were high, with average probabilities of over 1-in-7 for
+work on the weekends and over 1-in-3 for early mornings and late nights.” Can you
+reword/simplify this sentence please?
+• I feel the conclusion doesnot match the objective and results: “culture of overwork” is a
+literal thing, not just a figure of speech.
+
+General:
+• Change ‘review’ to peer-review assessments for clarity as people might think you are
+talking about systematic reviews if they just read bits of the paper.
+Introduction
+• Line 40-52: whilst clearly written, it is written as popular press. A stronger literature
+review would benefit the reader, including but not limited to: job satisfaction and
+performance measure related to publication output amongst academics. Additionally, as the
+study analyses by country, a proper introduction of the state of the international literature or
+publishing across countries would be useful.
+Methods:
+• Patient and public reviews were included for The BMJ but were a very small proportion.”
+Can you list the proportion please?
+• If you do it by country code:
+o how did you determine what national holidays or seasons of reduced work are, as Chinese
+new year is clearly more applicable to the Peoples Republic of China and east Asian
+economies than say Northern America.
+o Please expand on ‘the R library “ggap” (4) and the time zones were added using the R
+library “geonames” (5).’ so novel readers can understand what you transformed.
+o “Some addresses were incomplete and could not be geocoded; these data were excluded
+(see online supplement).” Can you specify proportion in main text, and which countries were
+excluded
+o “Our primary aim was to examine changes over time and we anticipated that there would
+be an increase over time in out-of-hours work because of the growing pressure on
+researchers. We also expected differences between countries.” – this should go under aims/
+introduction
+o ‘The regression models used a Bayesian paradigm because this gives 95% credible
+intervalswhich are easier to interpret than 95% confidence intervals (8).’ Please add why
+this is easier? Most readers are not aware of Bayesian so please explain for novices.
+Discussion
+o “However, the trends over time were remarkably consistent, indicating stable working
+patterns since 2012.” The pressure was likely to already be there since 2012.
+o “The constant ability to work may be contributing to burn-out.” Please back this up with
+literature.
+o ‘Differences between countries’. I think you need to take into consideration the number of
+papers published by academics in these countries.
+o “There are clear incentives for researchers to “publish or perish” in China, as hiring and
+promotion is based on the quantity of papers in journals.” I don't think this is any different in
+any other country? We are trying to create different measures as the author would be aware
+and maybe these can be discussed but it still counts.
+o “We are not convinced that such a solution would be effective, but we suggest it because if
+peer review is something that becomes measured and acknowledged, this task is likely to
+become yet another metric for academics to try to achieve.” I believe it is already an official
+expected measure in Australia.
+o The authors could improve the discussion by making it clearer if there are any cross
+country comparisons on these measures.
+o The whole discussion would be benefit from improving the literature around their topic
+around international differences.
+o Is there any research on people paying others to do their work for them?
+o “Submitting a paper or review is the final step in an often long process, and even when
+submitting out-of-hours, the bulk of the thinking and writing may have been done during
+working hours.” I don't see this as a limitation
+• The what this study adds section could be more impactful and reflect the findings. Eg The
+“weekend” is a misnomer for many researchers’ sounds like emotive language to me. You
+
+did not measure what researchers classify as their weekend or what a weekend means to
+them.
+I cannot comment on the appropriateness of the Bayesian methods used.

@@ -1,0 +1,200 @@
+<b>Overview</b>
+This article compares the presence of 25 strongly positive words in the title and abstract of biomedical
+articles available on PubMed between women first and last authors versus otherwise. In a retrospective
+study of ~ 270,000 clinical medical articles and ~ 9M biomedical articles, they identify that the title and
+abstract of articles with women first and last authors on average tend to mention these words less. This
+appears to be the case in both univariable analyses, as well as multivariable analyses attempting to
+adjust for possible confounding variables, even though the absolute difference in effect is small. The
+difference in use of such words between all-women lead authors vs otherwise on average appears larger
+in titles/abstracts published in journals of impact factor > 10, even though this was never tested.
+
+I would like to congratulate the authors for studying such an interesting hypothesis of critical
+significance using a powerful approach. I would also like to commend them for presenting thoughtful
+analyses, sensitivity analyses and making use of confidence intervals more often than p-values.
+However, the analytic decisions made are often poorly justified, the presentation of effect size is often
+misleading and there is substantial residual confounding.
+As such, I believe that this study should either undergo major review before it can be published in a
+journal of as wide readership and influence as BMJ, or be rejected.
+
+<b>Main concerns (threats to validity)</b>
+1. <b>Lack of a pre-registered protocol.</b> Please make the protocol available to clarify what part of
+this study was confirmatory versus exploratory – such studies often involve a substantial amount of data
+dredging, which makes it very difficult to believe any of the effects reported without an appreciation of
+the initial plan. For example, there is a citation to ref. 13 to justify the use of the 25 positive words. Ref.
+13, however, also has a list of negative words, a list of neutral words, and a list of random words. If the
+design was based on ref. 13, then analyses with all lists should be done.
+2. <b>Misleading presentation of effect.</b> Even though absolute values are mentioned for prevalence
+of positive terms in titles and abstracts, this is not applied to the rest of the effects reported. Instead,
+the data are presented as 1 minus relative risk, which is a very misleading metric. For example, the
+absolute effect across 25 words led to a relative difference of 12%, which appears much larger than the
+absolute difference of 0.04% (3.7% - 3.4%), which essentially implies that for every 2500 women, we
+would have one extra title/abstract with a positive word if these were men – a tiny effect. If we further
+divide 0.04/25 for each word, then the effect is basically zero.
+3. <b>Substantial residual confounding.</b> Certain fields of study tend to command higher citation
+counts, but proportionally less women, confounding the estimate of effect away from the null. Even
+though this study attempts to adjust for field of study, simply using the upper level of MeSH
+categorization is inadequate. For example, we already know that there is vast variability in distribution of
+sex and citations within the Biological Sciences, yet this is only considered as a single category by the
+MeSH top categories (Category G). Indeed, ref. 13 shows that the use of positive words changes over
+time and also with journal and discipline. Importantly, it also changes with non-speaking countries
+where the prevalence of leading female scientists would be different. Thus, this manuscript should
+consider: (i) using more granular categorizations across all disciplines, (ii) covariates to capture
+country-level differences and (iii) running sensitivity analyses (e.g. Rosenbaum’s bounds) or (iv) accept
+that there is vast residual confounding that could easily nullify the small observed effect and note its
+presence in the conclusions, discussion and limitations.
+4. <b>Lack of justification for analytic choices of main effect.</b> (a) There is no justification as to why
+use the title and abstract, instead of say only the title, only the abstract, or parts of the full text –
+different combinations of such and other decisions may well sway the small effect identified to either
+direction. (b) Even though the authors provide a number of justifications for their analytic choices,
+especially in the supplement, an important analytic choice that, as far as I can see, has not been
+justified is why combine first and last author into a single coefficient. It seems that having one
+coefficient for a female first author and a second coefficient for a female last author would not only
+produce an estimate for the effects currently presented in the article, but would also create a more
+accurate representation of the effect and offer an insight into the dose-response curve, which would help
+readers appreciate whether this association truly makes sense. (c) The manuscript never provides any
+diagnostic evidence to confirm that the fit is adequate and that the mean-variance relationship assumed
+in calculating the asymptotic confidence intervals around the main effect is valid – in fact, I would urge
+the authors to use more data-driven methods, such as the bootstrap or the sandwich estimator to
+calculate their confidence intervals. (d) The manuscript uses a rather unprincipled method to account for
+the 25 categories of study field, without justification – please see elaborate comment below.
+
+5. <b>Lack of testing for heterogeneous treatment effects.</b> Even though the manuscript claims on
+several occasions that the observed effect is larger within journals with journal impact factor (JIF) >10,
+the multiplicative or additive interaction is never quantified and tested. This can be rather misleading, as
+we do not currently have a clear estimate of the magnitude of the difference or adequate statistical
+evidence to suggest that the observed difference is generally true. As such, the manuscript should
+quantify and test for heterogeneity of effects, or otherwise refrain from making general claims of
+difference across levels of JIF, such as “Clinical articles involving at least one male first or last author
+were more likely to present research findings positively in titles and abstracts compared to articles in
+which both the first and last author were women, particularly in the highest impact journals.”
+6. <b>Lack of clarity in the effect size of interest.</b> Please present a table in the main text with the
+effect size of both female first/last authors vs otherwise and a selection of the covariates deemed most
+informative, across all univariable/multivariable, clinical/PubMed and JIF > 10/JIF ≤10 analyses to aid
+comprehension of what was actually found and how it changed across different analytic choices.
+7. <b>Multiple testing.</b> Given the multiple tests presented in this article, 0.05 is too lenient a level
+of significance – this should have been at least 0.005 and the authors should consider using a principled
+procedure to adjust their p-values according to say a 5% false discovery rate (such as the
+Benjamini-Hochberg procedure).
+8. <b>Potential information bias in the ascertainment of outcome.</b> Abstracts only present a very
+limited picture in terms of statements of novelty. Indeed, in our work, we have identified that only 44%
+of the abstracts with terms of novelty in the introduction also have terms of novelty in the abstract.
+Even though the authors correctly identify that title/abstract plays a unique role in the identification of
+articles of interest, I believe that this work would substantially benefit from a sensitivity analysis where a
+small sample (say 100-150, depending on the power the authors would like to have) of introductions is
+also studied to ascertain lack of differential outcome and bias away from the null.
+9. <b>Lack of transparency. </b> (a) Please cite and follow recommendations by an appropriate
+reporting guideline (in this case, STROBE) to confirm completeness of reporting – several aspects are
+currently missing, such as clearly identified pre-study hypotheses in the introduction and details about
+sampling and eligibility criteria (e.g. were all study types eligible?) – more details in the next section. (b)
+Please share all of your data and all of your code (some of which is already being shared, thank you), to
+help readers and the scientific community understand exactly what was done, facilitate appropriate peer
+review and improve the reproducibility of this work; possible repositories include the Open Science
+Foundation, GitHub or Figshare.
+
+<b>Other concerns/recommendations</b>
+1. Abstract, Main outcome measures: Please avoid the word “likelihood” as it can be conflated with its
+statistical meaning – consider using “proportion” instead.
+2. Abstract, Results: Please clarify how many articles in total were initially identified vs how many were
+actually studied (~250,000 from Tables S2-S4 vs. originally identified ~270,000?).
+3. Abstract, Results: Citations are only mentioned in relative terms. These are very hard to interpret
+without the context of absolute terms. Please report both.
+4. P.6, lines 28-43: The manuscript needs to clarify the pre-defined hypotheses – if this was an
+exploratory analysis with no pre-defined hypotheses, then this needs to be clarified. Please follow the
+STROBE guidelines to ascertain comprehensive reporting in this manuscript and cite STROBE to promote
+knowledge of these guidelines amongst the scientific community.
+
+5. P.6, lines 49-54: Please report the website from which these were obtained for reproducibility and to
+help the scientific community.
+6. P.7, lines 41-47: Even though an accuracy of 89% is quite high, are there any evidence that its
+performance does not introduce information bias (e.g. is it better at recognizing male rather than female
+names)? If there are any evidence on this, please add a sentence to confirm that this missingness is
+random.
+7. P.8 lines 41-44: PubMed does not mention ISSN for a number of articles; was this problem
+encountered and if it was, how was it dealt with?
+8. P.8 lines 41-44: Even though this is clarified in the supplement, please also clarify in the main text
+the year from which the JIF was taken and the justification of using the JIF of a single year versus the
+year in which each paper was published.
+9. P.8 lines 41-44: How was percent female calculated in cases where at least one of the names could
+not be ascertained from Genderize?
+10. P.9, lines 3-8: (a) It should be clarified that these are the top-level categories of MeSH terms and an
+example of these terms would be useful to the readers that are not familiar with them. (b) The current
+procedure of combining the 25 categories appears rather arbitrary – two more principled approaches
+would be to (i) use the 25 categories as covariates or (ii) combine them into a “propensity” score by
+creating a logistic regression with the indicator of all-female lead authors as the independent variable
+and the 25 categories as the dependent variables – I would use the latter. (c) Sub-categorization into 25
+fields does not adequately account for confounding as detailed above.
+11. P.9, lines 20-25: Please summarize in 1-2 sentences the reasons of using multivariable linear
+probability models, as explained in your supplement.
+12. P.10, lines 17-18: Where were the citation data obtained from – these can differ substantially
+between sources (WOS vs Scopus vs Crossref)?
+13. P.10, lines 17-37: Even though this is mentioned in the caption of figure 4, please point out that
+forward citations were log-transformed to fit the model. Even though log-transformation is an acceptable
+approach, using a Poisson/Negative Binomial approach would have been more natural and would most
+probably lead to more accurate estimates of variability (and hence asymptotic confidence intervals).
+14. Methods, missing information: (a) How were the clinical medicine articles identified on PubMed? (b)
+What types of articles were they? Were they research articles or any kind of article (including reviews,
+corrections, editorials, etc.)? If any type of article was used, this could have introduced substantial
+confounding. (c) There is no description of the algorithm, presumably a regular expression, used to
+identify the 25 positive words. This is important to evaluate in confirming the validity of the approach –
+please provide these in your supplement. (c) How were the titles/abstracts in which more than one of
+the words of interest appeared handled?
+15. P.11, lines 27-28: ~270,000 was the initial count, but what was the count excluding the ones
+without a match on Genderize? If these were the ones with a match, how many were initially identified?
+16. P.11, lines 53-56: Please provide absolute numbers and absolute difference here and wherever else
+possible – these are much more meaningful and less misleading than relative measures of effect that are
+currently being used.
+17. P.12, lines 17-19: Please provide the percent for men and for women from which the difference was
+calculated here.
+
+18. P.12, line 20: Please also include the numbers.
+19. P.14, lines 12-13: Please point out in the Discussion that the absolute difference in effect was
+actually very small, even though the relative difference appears more impressive. Please help readers
+understand the meaning of this difference using “number needed to treat” wording as illustrated above.
+20. Table 1: (a) Please also report how many articles were labelled “positive” and provide the breakdown
+of the top say 3-5 most commonly identified words. (b) Please report both absolute numbers and
+proportions. Please also report how many articles were lost because of Genderize and describe these
+articles (this is important to exclude bias introduced by articles not missing at random). (c) Please also
+report a breakdown of the type of these articles (research, review, letter, editorial, etc.) – these are
+provided by PubMed, even though not always comprehensive.
+21. Figure 1: (a) Truncating the y-axis is generally not good practice as it is misleading to the eye – I
+understand that the authors want to make smaller bars visible, for which reason I would suggest using
+two graphs side-by-side, one in the current scale (without a truncated y-axis) and one in the log scale.
+(b) Diagonal x-axis labels are generally hard to read – I would suggest that the authors flip their axes,
+such that the x-axis is now the y-axis and the y-axis is now the x-axis, with horizontal bars. (c) Please
+remove the statistical significance asterisks and use 95% confidence intervals instead. (d) This figure is
+generally confusing – looking at the figure I would assume that this is a bar chart of the proportion of
+positive labels within positive articles, but reading the legend I think it presents the difference between
+sex; please clarify accordingly – if it is the latter, please also provide a frequency bar chart for each
+word with a bar for men and a bar for women. (e) Showing difference between sexes would appear more
+appropriately if negative values say refer to women and positive values refer to men with bars travelling
+towards both directions (say up or down), rather than blue/red colors. In fact, please consider using a
+dot-and-whisker plot (look at the dotwhisker package in R) than the current bar chart, which is
+confusing. (f) Here it is not clear whether a different model was fitted for each word or not – please
+clarify.
+22. Figure 2: (a) It would be nice to superimpose these curves to the yearly value so that we can
+appreciate the variability in change more appropriately.
+23. Figure 3: (a) As suggested above, please remove statistical significance asterisks and replace them
+with 95% confidence interval (CI) error bars. (b) Please make it clearer whether these bars imply that
+men or women had a higher proportion – even though color is currently being used, this would have
+been much clearer with the approach to visualization suggested in the points about Figure 1. (c) Despite
+reading through the title of the y-axis a few times, I am still uncertain what it means.
+24. Figure 4: (a) Again, please use confidence intervals and remove p-values.
+25. P.27, lines 23-24: Thank you for posting the code for this – very useful.
+26. P.27, lines 36-38: This is good practice about the JIFs.
+27. P.27, lines 47-49: Please report the code used here as well – it is important to validate the regular
+expressions used; for example, did the regular expressions only capture “novelty” or did they also
+capture “novel”? Such reporting would make this work more reproducible.
+28. P.28, lines 33-38: Consider refraining from the terms “being framed positively” because we do not
+know how many of the abstracts containing these words of interest are indeed framed positively and this
+is not what is being measured here.
+29. P.28, lines 40-51: (a) This is a thoughtful justification. I suggest that the authors include a 2-3
+sentence summary of this paragraph in the main text. (b) Did you consider using a Poisson/Negative
+
+Binomial regression for this? It may not run into the same problems as the logistic, it is the
+recommended approach in modelling count data (given the strong right skew of these data) and it is
+appropriate in this case (many articles with few positive hits, 3-12%).
+30. Table S2: (a) Please also present the adjusted R squared, as this is likely far smaller, given the
+number of covariates used. (b) The units of the coefficients are unclear to the reader – please clarify
+how these coefficients translate to the values being reported in the main text.
+31. Table S4: (a) Why was there no adjustment for JIF here? (b) R squared does not make much sense
+in logistic regression – please instead provide the AIC of the current model vs the null model.

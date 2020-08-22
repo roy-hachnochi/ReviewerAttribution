@@ -1,0 +1,89 @@
+Statistical review BMJ-2019-050974
+The manuscript reports a pooled analysis of data from 3 cohort studies reporting on the
+association between egg consumption and cardiovascular disease, and also contains a
+meta-analysis of cohort studies updated with the new data. The statistical methods and
+reporting in the manuscript are generally strong. The authors have access to three
+particularly good data sets, with large sample sizes, standardised repeated assessments of
+dietary intake, good covariate data allowing adjustment for major predictors of CVD events,
+and long follow-up with high numbers of events to allow precise estimates of risk. However,
+there are two main issues with the prospective studies and several issues with the additional
+meta-analysis which the authors need to pay attention to.
+1) The report includes a ‘replacement’ analysis, that hypothesises as to how switching egg
+consumption to other food types would affect CVD. This is a hypothetical modelling
+exercise, contrasting coefficients for egg consumption with each other food group in turn.
+The data set does not contain any empirical data that looks at individuals who have switched
+consumption between each of the two food types – this is simply a game of contrasting
+
+model coefficients and forecasting what the switch would create. It is based on an unstated
+set of assumptions concerning the independence of the different foods. Whilst I appreciate
+that such analyses are in vogue in nutritional research, the strength of evidence which can
+be attributed to these results is exceptionally poor, and their inclusion is to the detriment of
+the excellent epidemiology in the rest of the manuscript. In particular including these
+estimates in the abstract and in the first paragraph of the discussion is poor scientific
+reporting as it is likely to mislead readers as to the credibility of these findings. The
+manuscript would be greatly strengthened by total removal of the pretence of evidence that
+this ‘replacement’ analysis depicts. Particularly when you notice that those who consume
+eggs are the same as those who consume more red meat so the idea of people ‘switching’ is
+not evidence based, and unlikely to be true. The rest of the manuscript is really strong, this
+part is at high risk of being misleading and false.
+2) A strength of the datasets which are analysed is that they contain repeated dietary
+assessments. The authors discuss including ‘cumulative exposure up until each follow-up
+period’ but it is not really clear to me what this means. What is a follow-up period? There
+is no explanation whether the covariate values are changing over time, and if so how they
+are being incorporated into the regression models. Are time-varying models being used?
+That would seem appropriate. It would also seem appropriate to include updated covariates
+for the other predictors of risk at the same time. Can the authors please improve their
+explanation of the model, and if time varying covariate models are not being used, please
+can they investigate their usage.
+3) As there are three data sets in the analysis, I would expect all analyses to be stratified by
+study, and I think that the authors have done this. However, the text indicates that they are
+stratified by study(sex) – please can you be precise what has been done here (I suspect that
+the authors are using short hand to indicate that stratifying by study also stratifies by sex).
+4) The results appear to show overall that those with high egg consumption are more likely
+to have CVD events but that after adjustment for other differences between the egg
+consumption groups, the direction of the association is reversed (note the manuscript states
+‘attenuated’ – to me this indicates reduction of magnitude, not reversal of direction – the
+authors may want to check their wording). In all analyses, the confidence that the increase
+(or decrease) in effect exists is not high, but there is reasonable confidence that an
+important increase in risk is very unlikely. The authors could more clearly emphasis this
+difference between unadjusted and adjusted findings, and discuss the increases and
+decreases in risk which are compatible with the findings.
+5) Please note that PRISMA is not a method, but a reporting guideline. It states the details
+of what needs to be included in a systematic review report, not how to do the systematic
+review.
+6) The search strategy and inclusion criteria for the systematic review are rather weak.
+Inclusion of studies ad hoc is explicitly non-systematic – if there are important studies that
+the search strategy missed, it needs to be improved, rerun and new assessments made. If
+there are new studies then the strategy needs to be rerun. Exclusion of non-English
+language studies (Google translate greatly facilitates their assessment and inclusion) is an
+unnecessary restriction. The database selection is limited – why has EMBASE not been
+searched? Also, was a professional search specialist used to create the search? It seems a
+very brief strategy, and input from a professional may have helped ensure that an
+appropriately sensitive strategy is used.
+7) It is good to see the assessment of the quality of the non-randomised studies being
+undertaken rigorously including detailed assessment of the adjustments made in each
+analysis. Could more be reported on these issues in the manuscript? Currently there is no
+mention of the findings of these assessments in the results section of the manuscript – it is
+important to inform the reader of the certainty which can be attributed to the conclusions of
+
+these studies, and any limitations which were found which need to be considered. The data
+for this are all reported in the supplementary materials, but no summary is reported.
+8) There are a number of instances where the wording or presentation can be improved:
+a. Results, Page 14 paragraph 2. The link between the covariates and the results in Table 1
+are not as clear as reported in the text. Table 1 does not contain data for all participants in
+the study – please can the missing columns be inserted? They are important to be able to
+make sense of the numbers in the study.
+b. Results, Page 14 paragraph 3 – this is where the word ‘attenuated’ is used, which may be
+replaced with ‘reversed’. It is not always clear in this paragraph whether the quoted risks
+are unadjusted or adjusted.
+c. Results, Page 16 paragraph 4 – this is where I would expect to read some summary of the
+risk of bias in the included studies.
+d. Results, Page 17 paragraph 1 – ‘heterogeneity was <40%’ is an incomplete statement. I
+suspect you mean that the I^2 value was <40%
+e. Table 1 – please include the missing columns.
+f. Figure 1 – please drop this figure and reporting of these results
+g. Figure 2 – please label the scale as HR or RR and not ES. Please choose appropriate
+points to mark on the x-axis and consider rescaling as there is so much white space to the
+left of the ES=1 line.
+h. Supplementary Figure 4. Labelling of the axes, and choice of data points to report again
+could be greatly improved.

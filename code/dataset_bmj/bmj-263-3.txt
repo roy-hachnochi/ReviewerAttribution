@@ -1,0 +1,35 @@
+BMJ 51219.R1
+Association Between Prescription Opioid Cessation, Duration on Opioids, and Overdose or
+Suicide Mortality among US Veterans: An Observational Evaluation
+Stats Report:
+The authors have adjusted their manuscript accordingly and most of the comments made by
+the reviewers have been answered adequately. There are a few of minor points that are
+nevertheless important in relation to the correct reporting of this research.
+
+The first one is about the models used in their analysis. The authors mention the use of
+survival models but do not clarify what these are based on. Most likely, given the reported
+use of SAS PHREG, is that these are Cox Proportional Hazard models with time varying
+covariates to take into account the interaction observed between duration of opioid
+treatment and cessation with the outcome (overdose/suicide). In any case, the authors do
+need to be more explicit about the models used and, as requested initially, how they dealt
+with checking for the assumptions their model uses (like any model). These will only require
+a couple of sentences in the Methods and if necessary adding some supplementary material
+as appendix.
+The second point is regarding their life table graphs. Given the way the data are collected, it
+is not surprising that the majority of the events used in these estimates are concentrated in
+the first year. The impact of this is that the estimates towards the end of the second year
+are highly volatile, particularly for Figure 1.b. I would suggest that to prevent people from
+focusing on these volatile estimates, the authors should present the data only for the first
+year of follow-up (or first 18 months) in the main manuscript. The current Figures could be
+presented as supplementary material instead. Providing a table with the absolute numbers,
+actual estimates, and the precision around these estimates would also be particularly useful
+(supplement).
+Regarding this last point, the values reported for the Models (e.g. Table 2) with the HR and
+95%CI provide a good measure of the precision around these estimates. Unfortunately as
+there are no HR reported for the interactions (correctly, to minimise confusion), there is not
+information regarding the precision around these estimates for the interaction. Please
+provide a similar Table as supplementary material with the Parameter Estimates AND the
+Standard Errors for these estimates for the models reported in Table 2 and Appendix 3.
+Finally, after reading the manuscript I could not find what they have used as index date for
+their survival analyses. I assume it was 1 October, 2012 as that was the start date for the
+cohort. In any case, please make it explicit somewhere.

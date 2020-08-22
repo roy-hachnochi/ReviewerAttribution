@@ -1,0 +1,1 @@
+The algorithm is based on an optimization problem that is well motivated and can be tackled using QP solver. This seems to clearly outperform several baselines. The main drawback of this paper is lack of theoretical guarantees of the active learning procedure. Typically, one would want to prove generalization and label complexity bounds.  

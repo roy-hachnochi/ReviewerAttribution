@@ -1,0 +1,54 @@
+Review of “Quantifying the impact of genes on BMI during the obesity epidemic – a
+longitudinal study based on the HUNT Study”
+This is a substantively interesting evaluation of gene*birth cohort interactions using a novel
+and apparently appropriate data source. Although previous studies have suggested that
+genetic variants known to predict BMI had larger effects after the onset of the obesity
+epidemic than before, this is the most convincing result to date, with the largest sample size
+and range of years of assessments and ages. My suggestions are primarily about
+presentation:
+Only results for Q1 and Q5 are presented, making me wonder if the association is
+really monotonic across levels of the genetic risk score. It would be helpful to choose a
+primary model and show all of the quantiles for that model, without imposing a linearity
+assumption.
+Although the plots are certainly helpful, they obscure a lot of information about the
+model that merits formal reporting. The Mixed model results are never shown, rather
+selected predicted values are plotted. All the coefficients from the model should be available
+in the appendix at least to sanity check and clarify interpretation.
+It is difficult to understand what models were actually estimated. For example, how
+was age specified? The methods seem to imply that age was categorized, but the figures
+are inconsistent with such a specification (and such a specification would almost certainly be
+incorrect). This is essential to interpret the results. Please provide the exact equations in
+the appendix, so the model can be evaluated transparently.
+The result for middle aged women in earlier periods is quite surprising. Has this
+previously been documented for Norway?
+Selective survival to date of genetic assessment is a major concern. The qualitative
+observation that “BMI trajectories ..did not deviate substantially” is not convincing that this
+is not a problem. Can you present a model for the probability that someone provided
+genetic information based on their previous values of BMI and the differences in BMI across
+periods?
+One interpretation of the results is that the genetic influence is on a ratio rather
+than absolute scale, i.e., they should be interpreted as increasing BMI by a percentage
+rather than by an absolute number of points. This does not diminish the importance of the
+result, given the priority to absolute effects for public health implications, but it is important
+to describe if this is the case. Can you assess whether the effects of the genetic risk score
+are constant across periods when expressed in percents? For example, if you take the
+natural log of BMI as the outcome and exponentiate the linear regression coefficients, is
+there a birth cohort*GRS or period*GRS interaction?
+Similarly, it would be helpful to think about how the GRS relates to the prevalence
+of obesity across periods.
+As noted, the percent of variance in BMI explained by known genetic variants is
+much smaller than expected based on previous heritability estimates. The results here relate
+to interpretation of heritability estimates, which seems one of the most important
+
+implications of this line of work. G by E interactions are implicitly incorporated into
+heritability estimates from, for example, twin studies. If you conceptualize birth cohort (or
+period/year of assessment) as a broad indicator of environment, what percent of variance in
+BMI is explained by genetic variants (the GRS) and what percent by genetic variants*birth
+cohort (or period) interactions (controlling for a main effect of birth cohort)?
+The figure showing the sample at each wave has a lot of potential but is ultimately
+confusing. The boxes are not mutually exclusive, so add up to a total larger than the total
+participating in each wave. We cannot distinguish individuals with and without genetic
+information. The figure would also likely be more informative if it included the birth cohorts
+of participants.
+Throughout, there are small errors in English that make it slightly awkward to
+understand the manuscript. I recommend having another proofreader.

@@ -1,0 +1,87 @@
+This study of abrupt opioid analgesic cessation in the VA population provides a timely
+perspective on the critically important question of suicide and overdose risk following
+discontinuation of therapy. The authors benefit from a large sample size and robust data,
+and this study has the potential to stand as the analysis of record on this important topic.
+The authors point out the “unintended” consequence of OSI policies, even though they do
+not explicitly use those words; the findings suggest that interventions be more carefully
+assessed. There are some gaps in the methods section which could be filled, and a diagram
+of the study design would go a long way to make the paper more readable. Other points,
+mostly of clarification, are below. However, the one key weakness is the composite end point
+of suicide AND overdose. It seems odd not to at least report these in a descriptive manner
+separately.
+Introduction is concise and portrays the current concerns and state of research adequately
+and in non-judgmental tones.
+Methods
+6,38: Were codeine cough syrups included? Would those fall under the OSI targets?
+6,45: Was methadone maintenance for opioid use disorders included? Was buprenorphine
+patch included?
+6,52: How was right-censoring handled? If patients continued to receive opioids during
+follow-up, could there be a bias in the results?
+7,10: What is the lookback period on the covariates measured? 5 years? Index year only?
+Other?
+7,26: “release” are these dispensing data or prescribing data?
+7,31: “prescription data were tracked 5 years backwards”
+This is confusing to me. The lookback period is 5 years but the interventions were in the 2
+year period? A diagram (maybe in Appendix 1) showing these timelines and possible patient
+scenarios would be very helpful to understand study design. It seems that there are different
+lookback periods for enrollment (6,26), and a different time period to define mediation use.
+Given that the 5 year lookback in the latter cohort would encompass parts of the first, was it
+possible for people to appear in both cohorts?
+7,51: "The maximum opioid prescription dose“
+Was it calculated for a given prescription? Was days supply taken into account or is it based
+on quantity dispensed? A little more detail on how this was calculated is warranted for
+replicability.
+8,54: A little more detail on the NDI linkage is warranted. What record features were used
+for matching? Was the matching done previously/separately as per citation #34, or part of
+this project?
+
+9,10: SAS - usually the location of the software vendor is also provided.
+10,12: “patients in the opioid continuation group…”
+Was a days supply washout ("immortal”) period included for these?
+10,24: Patient and Public Involvement - The authors should be commended for including this
+section.
+Results
+Table 1: Missingness is appropriately identified. In the methods, it would be beneficial to
+mention how these missing data were handled in models.
+14, 31: “associated with greater risk for overdose/suicide mortality in both cohorts”
+It is unclear what the reference groups are for these findings, and whether these are from
+univariate or multivariable models.
+Table 3: could be simplified by removing the parameter estimates since these are simply the
+non-exponentiated HRs.
+15,52: Acronym HR not needed
+Figure 1: What is the unit on the horizontal axis? Consider making this chart into two panels
+with the different cohorts because the overlapping lines are hard to see. A legend figure
+describing which models these outputs are from would be beneficial (e.g., adjustment
+variables).
+Table 3: Are these fully adjusted models?
+I was a little surprised to not see a breakdown between the suicide and overdose composite
+outcome. The reason for using a composite endpoint was briefly touched upon, but it seems
+odd to not at least present these data. Would the associations, even if under powered, be
+different? I also do not see a descriptive count of the number of outcome events.
+Discussion
+One of the most important findings is the maximum dose analysis, which is buried in the
+tables. What is the interpretation of these findings? Does the HR increase for each unit of
+MME? If so, the effect (HR 1.38 and 1.42) is very strong. If it should be interpreted a
+different way, please describe. This is a critical clinical question to whether high dose opioids
+may have a particular risk, as was mentioned at a recent FDA Advisory Committee meeting
+on the topic in June. This particular finding may warrant highlighting.
+17,31: ”transition periods in opioid therapy”
+The authors make a good point here. It piques the curiosity as to what these transition
+periods looked like. It seems like the definitions used considered abrupt discontinuation, but
+if patients had been tapered prior to their last dispensed opioid, the risk during a putative
+transition period from full bore therapy to cessation might be modified depending on the
+speed of the taper. This doesn’t appear to have been a quantified outcome, but perhaps the
+authors could speak to any observations that would elucidate exposure during pre-cessation
+transition periods.
+Limitations
+The analysis assumed medications were taken as described and no unused medication was
+taken after the prescribed period. This should be acknowledged, even if it is a common
+limitation.
+General Issues
+
+The VA has promoted the use of extended-release naltrexone for patients with opioid use
+disorder. Abrupt discontinuation of naltrexone carries a risk of overdose (PMID 30073490
+and 31082666) with a time window similar to that observed in this study. Similarly, other
+extenuating factors could influence suicide and overdose risk (e.g., benzodiazepines). Some
+prescribers may use buprenorphine to taper opioid analgesic patients. Some of these are
+theoretically observable in VA data, and might be worth mentioning.

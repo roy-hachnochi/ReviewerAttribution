@@ -1,0 +1,38 @@
+This is an important study that highlights the need to look at multiple sources of data when interpreting
+trends that could be affected by changes in data quality or systems over time. This triangulation of data
+sources has also been effective in other settings, e.g. child maltreatment (see, e.g. Roehrkasse et al.
+Administrative data and long-term trends in child maltreatment: the prospects and pitfalls. The Lancet
+Public Health, Volume 4, Issue 3, e121 - e122).
+I have a few suggestions, the main one being that there should be a little more recognition of the
+potential pitfalls in using administrative hospital / mortality data to look at trends (where differences in
+recording over time can also occur, e.g. in response to changing guidelines e.g. QOF). In addition to the
+critique of the police data, the limitations of the hospital and mortality data used in this study should
+also be discussed.
+Box 1 states that there is typically a delay between death and registration of 5 days. In fact, only around
+40% of deaths are registered within 5 days, and around 4% of deaths are registered the year after the
+death occurred. Only 7.1% of deaths to external causes of morbidity and mortality were registered
+within five days of the death in 2016
+(https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodolog
+ies/impactofregistrationdelaysonmortalitystatistics2016). This should be discussed, in light of the
+reliability of the mortality data and the difference late registration might make to results.
+Was the HES data restricted to Admitted Patient Care? From Figure 1a, this seems to be the case, but
+this is not clear in Box 1 which mentioned appointments and attendances. I would question whether it is
+appropriate to include elective admissions in these estimates. It might be helpful to say that diagnoses
+aren’t historically recorded with accuracy in HES A&E data.
+Please be specific about what you mean by ‘rate’, e.g. in Figure 1a. Could there have been double
+counting of events if someone was re-admitted more than once following the same event?
+Further to the above comment, the text states that “HES suggest 0.086 per 1000 population are
+admitted to hospital each year”. Again this implies that you are counting people rather than admissions,
+was this the case? Please be explicit about the unit of analysis within HES.
+
+Is it possible to tell whether the increase in homicides by knife since 2014 was offset by reductions in
+homicides by other means?
+The text mentions that “stalking and harassment” is now included in the definition of violent crime.
+Crimes like this are less likely to result in death, hospital admission, or A&E. This is a limitation of the
+data presented and there should be some discussion of this – that a limitation of this analysis is that we
+cannot infer anything about trends in other forms of violent crime.
+Figure 2 – be more precise in what the ratio represents (is this a ratio of rates or of numbers?) What
+exactly is the comparable subset that is being compared? It would be helpful to give some figures here,
+e.g. how many crimes in each source for at least some of the years.
+Figure 3 axis states ‘hospital attendances’ but the figure caption describes this more specifically as A&E
+attendances. Please be consistent and state the data source.

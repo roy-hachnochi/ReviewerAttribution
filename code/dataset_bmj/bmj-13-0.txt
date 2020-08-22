@@ -1,0 +1,49 @@
+The authors explore the frequency and timing of randomised controlled trial registration. I
+have some comments mainly on the description of the methodology and presentation of the
+findings.
+1. The Abstract flags the emphasis throughout the paper on statistical significance. It may
+have passed the authors by, but there has in recent years been an energetic discussion
+within the medical statistics and epidemiology community about the role of statistical
+
+significance in the presentation and interpretation of findings. The consensus is that
+significance should be downplayed as it is misleading.
+The Abstract twice refers to "significant relationships", and flags P<0.05 three times. The
+latter is doubly discouraged - P values are generally deprecated, but when given they should
+be exact not <0.05. In the context of odds ratios the corresponding P value is redundant, as
+the confidence interval indicates the precision of the estimate.
+I encourage the authors to describe their findings in terms of importance rather than
+statistical significance.
+2. A second point from the Abstract is the over-detailed numerical presentation. All the
+percentages are given to one decimal place, which contradicts the original idea of
+percentages which was to express fractions as a whole number. It is rare that the value of
+the decimal place makes an important difference to meaning, and it would make for easier
+reading if all percentages were either whole numbers or else given to two significant digits,
+e.g. 3.6%.
+3. There is also a degree of repetition in describing the methods. For example the
+"seventeen" WHO trial registries get mentioned no fewer than ten times - twice in the
+Abstract and eight times in the main text. It really should not need mentioning more than
+two or three times at most.
+4. The Statistical analysis section refers to 'the Pearson's chi-squared test' and 'the Fisher's
+exact test'. Pearson and Fisher were people and the tests were theirs, so please refer to the
+tests as Pearson's and Fisher's.
+5. Binary logistic regression is a form of univariate analysis, meaning a single outcome
+measure. Multivariate analysis indicates multiple outcome measures, which does not apply
+here, so multivariate is wrong. Univariate analyses with multiple independent variables are
+univariate multivariable analyses.
+6. The repetition in the Methods extends to the numbers, for example 7,218 appears four
+times, 575 three times, and 7,473 and 7,281 appear multiple times just on page 6 (as well
+as in Figure 2), There really should be no need to keep repeating them given the flow
+diagram in Figure 2, as they only complicate the description.
+7. An extreme example of statistical significance appears in Table 2, containing no fewer
+than eighteen P values of which sixteen are <0.001. Giving just the P-values means there is
+no information about the direction or size of the associations, so the table is largely
+content-free. This suggests to me that it could usefully be omitted.
+8. A similar comment applies to Table 3, which is a complicated way of comparing two
+percentages, and it would be better done in the main text. In addition the difference in
+percentages - 18% vs 25% - is only modest (in contrast to the significance level), and does
+not persuade me that the three week leeway with US registrations is an important
+consideration. Incidentally the title to the second column in the table is complicated and I
+suspect wrong - the denominator is presumably all trials registered retrospectively.
+9. In Table 4 I'm unconvinced that the journal impact factor cut-offs defining the quartiles
+need specifying.
+Tim Cole

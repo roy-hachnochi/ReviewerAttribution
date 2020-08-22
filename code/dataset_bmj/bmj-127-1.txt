@@ -1,0 +1,47 @@
+The authors have responded very positively to the reviewer comments, in particular
+shifting the time of matching to the time of receiving fenofibrate, and restricting the PS
+analysis to data at the same time. However there remain a few points that need
+addressing.
+1. It's useful to understand why the fenofibrate group mortality appeared to be zero in the
+first three months. I'm not sure though that starting the mortality clock at 3 months, i.e.
+moving the KM curve back 3 months solves the problem. Would it not be better to start the
+fenofibrate clock when treatment started, and the benefit of fenofibrate would then
+gradually appear during the 3 months? The statistical methods do not mention excluding
+outcome events in the first 3 months.
+
+2. The results show a significant effect of fenofibrate on the composite coronary events
+outcome. In Figure 3 this difference is tested in no fewer than 12 subgroup analyses, which
+are not described in the statistical methods so it is unclear if the analyses were
+prespecified. The conclusion is that high TG and/or low HDL-C patients particularly benefit
+from fenofibrate. However Figure 3 also includes p-values for interaction, and none of them
+are significant, particularly for the constructed TG/HDL-C comparison where p = 0.2. So
+there are no grounds for claiming that fenofibrate benefits one patient group over another
+(the Discussion acknowledges the non-significant interaction p-value). These claims in the
+abstract and results cannot be justified and should be removed.
+3. Previously I said "The HR axis in Figure 3 should be on a log scale, so that for example
+0.5 and 2 are equally distant from 1." Unfortunately the authors have taken this to mean
+presenting the log HR, which few readers will understand. Please give the HR in HR units
+(not log), but use a log scale for the axis so that 0.5 and 2 are equally distant from 1.
+4. Some smaller points of presentation. The abstract states that patients were "matched
+up to 1:5". This is unclear, and I suggest instead something like "patients on combined
+therapy were matched with up to 5 patients on monotherapy".
+5. It's not clear why the abstract quotes the non-significant hazard ratios for CHD and IS,
+as they are not the primary outcome. And as already stated, the last sentence of the
+abstract results should be omitted. The same applies to the second item under What this
+study adds.
+6. The results section of Risk of major cardiovascular events could be rearranged to
+advantage. The first paragraph could cite Table 2 instead of repeating the relevant
+numbers in the text, and then point out that none of the three components of the
+composite score are significant. Then the second paragraph can say the composite score is
+significant, without needing to mention the separate components. Line 9 on page 12 can
+also be omitted, abut the insignificance and small numbers.
+7. The last sentence of the Results describes a slight but not significant difference in the
+proportion of patients with high creatinine. If it's not significant I'm unclear why it is worth
+highlighting.
+8. The Discussion first sentence suggests that the benefit of fenofibrate was achieved
+mainly by preventing CHD. This is true in the sense that the numbers of events in the two
+groups were most different for CHD. However the HR for CHD was larger than for IS or
+mortality, so actually its impact was less. I suggest omitting that phrase.
+9. The p-values would be better presented to one significant digit, see
+https://adc.bmj.com/content/100/7/608. And the percentages in the tables would be
+easier to read given in the format % (n) with the percentage as a whole number.

@@ -1,0 +1,33 @@
+The authors have been generally responsive to critiques and have improved the content of
+their analysis. In particular, they have added an interaction term to their multivariable
+analysis which separates out the main effect by categories of historical opioid exposure. The
+retrospective nature of the data prevents strong conclusions about cause and effect between
+opioid cessation and suicide/overdose-related mortality; however, the authors have been
+transparent about these issues in the discussion and I believe are fair in their interpretation.
+There is one issue that was not adequately addressed. My prior review indicated a need to
+provide statistical information concerning the model assumptions of their proportional
+hazards model (major critique #4). I was not alone in this critique as the statistical reviewer
+(reviewer #5) asked the authors to “…provide evidence that the relevant assumptions for
+these models {in reference to Cox models} are adequate.” The authors did not provide this
+information and instead replied to my critique (and in a similar fashion to reviewer #5) that
+“We updated the analyses and corrected the description of the model to indicate that it is a
+survival analysis and not a proportional hazards model”. First, this explanation is inadequate
+at face value because the term “survival analysis” refers to a family of statistical approaches
+and does not identify any one statistical approach; that is, stating that one did “survival
+analysis” is insufficient – what kind of survival analysis was done? Moreover, it seems that
+their findings are based on a proportional hazards model. First, the original submission draft
+described their analysis as using Cox proportional hazards regression – the reviewers didn’t
+make this up – did they incorrectly characterize their analysis the last time or did they make
+a change to the modeling approach for the revision? The current draft states the authors
+used SAS procedure PHREG to conduct the multivariable analysis; where this procedure is
+specifically used for conducting proportional hazards regression (PHREG = Proportional
+Hazards REGression). The model results are presented as hazards ratios, which is the output
+of a proportional hazards model. Finally, the parameter estimates from the multivariable
+analysis presented in the original draft Table 3 and the current Appendix 3 are very similar,
+suggesting the same basic statistical approach was used between drafts and was not
+changed in response to the review. Thus, I’m perplexed by this answer to the critique, but
+would certainly defer to a statistical reviewer if they are familiar with some sort of “survival
+analysis” which can be performed using SAS procedure PHREG and generates hazard ratios
+but isn’t considered a proportional hazards model. And if so, the authors should name that
+statistical approach (and defend and reference if it is atypical), as well as provide any
+necessary evidence for satisfying the assumptions inherent to that modeling approach.

@@ -1,0 +1,53 @@
+The authors have reviewed and critically appraised papers on diagnostic and prognostic
+models based on data from the COVID-19 outbreak in China. Given the pandemic situation
+this study should be expedited for publication as it contains very useful guidance on the
+validity of existing prognostic models from China and indicates areas that require
+improvement in the statistical analysis and reporting of any future models using data from
+the COVID-19 outbreak.
+The review is thorough in scope as the authors accessed the Living Systematic Review
+hosted by the Institute of Social and Preventative Medicine in Bern which is updated in real
+time. They also searched all the usual databases to cross check references, accessed papers
+not yet peer reviewed but made available in pre-prints, and contacted authors to include
+studies that were not yet available at the time of the search. Furthermore, the review has
+been executed to the highest standards using the CHARMS protocol and assessing bias in 4
+domains using the PROBAST tool.
+The aim and scope of the review are clearly reported. The included studies are well described
+and will be a useful resource for statisticians working in this area. The criticisms of the
+models are fair and justified. This is a timely reminder that authors reporting prognostic
+models should adhere to the TRIPOD checklist as suggested in this review. Major issues
+identified included too small a sample size, overfitting to the dataset, unclear descriptions of
+participants and inclusion criteria, poorly described statistical methods, incorrect statistical
+methods, and lack of model validation and checking calibration. They also give a strong steer
+towards making individual patient data from the COVID-19 pandemic available on a common
+platform, for example, as encouraged by WHO, so that statisticians may have access to
+larger datasets and can validate their models on independent data across geographical
+regions.
+Some points to consider:
+
+Box 2. Prognostic models. The paper criticises the exclusion of participants who did not
+develop the endpoint (ie in hospital and neither healed nor died) yielding a highly selected
+sample. However, they go on to imply that study 13 is better because it used a Cox model
+and therefore accounted for censoring. The real problem is that short term data on hospital
+outcomes needs to be analysed in a competing risks framework (or using
+multi-state-models). At the very least there are 3 states: dead, discharged, and remain in
+hospital. It is wrong to censor the discharged (as study 13 does, for example, in the
+Kaplan-Meier graph) because the assumption is that those who are censored are similar to
+those who remain under observation and at risk of mortality. This is clearly not the case
+because apart from administrative censoring at end of study, the participants censored have
+recovered and therefore are not at risk of death from COVID-19. Perhaps the authors would
+consider this point in their discussion?
+The list of references needs checking. In particular:
+Ref
+Ref
+Ref
+Ref
+
+15
+16
+19
+25
+
+is this now published under a different title?
+published in Plos One
+is it Gozes or Gozed? Inconsistent in reference list and tables.
+Xie Hungerford – is it Xie Tong Guan? Inconsistent in reference list and tables.

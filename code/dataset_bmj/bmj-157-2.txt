@@ -1,0 +1,120 @@
+Reviewer: Dariush Mozaffarian
+The authors present a cohort analysis and meta-analysis of eggs and CVD. Strengths
+include repeated measures of exposure, large numbers of cases, valid assessment of
+outcome and other dietary covariates, limitation of confounding by SES due to restriction,
+generally strong meta-analysis methods, and several relevant sensitivity analyses including
+ceasing dietary updating after intervening diagnoses that could lead to reverse causation.
+Limitations need to be addressed, including some methodologic issues and text in the
+Discussion.
+Major
+1. Page 14, lines 10-15: Highlight in the Abstract and the Discussion that people with
+higher egg intake were generally less healthy in multiple ways. Thus, if residual confounding
+present, eggs may be even less harmful (more protective) than observed. Converse is very
+unlikely given observed confounding structure.
+2. Ability to adjust for appropriate confounders is a crucial aspect of this study. Baseline
+prevalent DM is crucial to include in Model 2. Were time-varying covariates used for
+smoking, BMI, PA, alcohol, MVI, etc.? Not specified, and should be time-varying too.
+Dietary covariates: intakes of fruits and veggies not associated with egg intake? Should be
+checked as confounders too.
+3. Substitution models: Should not include both eggs and the alternate food in the same
+model (since beta for eggs will be for keeping alternative food constant, and vice versa).
+Should run model 3 (which adjusts much better than AHEI) with eggs, and then separately
+run model 3 again, but replacing eggs with the alternate food. Then beta’s can be
+compared/subtracted. Also, add whole milk to the Figure: not consumed less than some of
+the other factors, such as nuts.
+
+4. Meta-analysis: arbitrary, unjustified to exclude studies assessing only fatal CVD. No
+evidence that biologic effects should vary for total, nonfatal, vs. fatal CVD. Many studies
+only have fatal CVD, e.g. due to reliance on national death statistics. These studies should
+be included too, at least in sensitivity analysis.
+5. For all meta-analysis including subgroups, not correct to include subgroups of analyses
+from a single study as separate entries in a meta-analysis (e.g., Figure 2). Subgroups
+should be pooled (meta-analyzed) first within each study, for the outcome of interest, and
+then a single value from that study should be included in the overall meta-analysis.
+6. Page 16-17: Presentation of heterogeneity: The two factors which substantially reduce
+the observed heterogeneity are (a) region and (b) risk of bias. This should be explicitly
+described in the Results text, and expanded upon in the Discussion. By region,
+heterogeneity is minimal. And, among studies of low risk of bias, heterogeneity is absent;
+with all remaining heterogeneity among studies of high risk of bias. These are important
+points.
+7. Page 15, line 7: No interaction test (or any other statistical test based on P values) can
+be “highly” significant (alpha=0.05 is a binary threshold). And, incorrect to say “among
+participants with T2D was associated with a higher HR for CVD”; it was not associated in
+these pooled analyses (nor in the meta in suppl. table 11). This subgroup should be
+evaluated further in meta-analysis, including through attempted direct contacts with authors
+for studies not reporting this stratification. Crucial to move findings from Suppl. 11 into
+Table 4, including whatever data are available.
+8. Table 4: add no. participants and no. cases to each row. Tables 3 and 4: delete P
+values for I2 (not relevant, provides inference on statistical power rather than actual
+heterogeneity). Table 4: add P values for interaction by the subgroups, tested using
+meta-regression.
+9. Discussion, first para: The first paragraph should summarize and focus on the main
+findings. The substitution analyses are just mathematical subtraction: eggs are roughly
+neutral, so beneficial foods like yogurt look better, while meats look worse. These
+hypothetical substitution analyses (not based on any observed substitutions that were made
+in these cohorts over time) can be mentioned and discussed later in the discussion. The
+main findings include: (a) no signifcant association in the pooled cohorts, or in the meta,
+across a wide range of egg consumption and subgroups; (b) observed heterogeneity largely
+explained by region (lower risk in Asia, no significant risk in Europe and US) and by risk of
+bias (no heterogeneity in studies at low risk of bias); and (c) no sign. differences by any
+subgroup, except possibly diabetes (need to assess and confirm significance of this potential
+interaction in the meta-analysis).
+10. Page 19, lines 17-22: The inverse association in Asian cohorts is notable and has some
+biologic plausibility, and more discussion is needed including a focus on the Asian findings in
+its own paragraph. For example, dietary cholesterol may be protective against stroke in the
+setting of lower fat diets – this needs to be expanded upon, with experimental evidence
+summarized and cited. And, the speculation about confounding by SES should be supported
+by data or deleted. E.g., is this supported by the published studies, and did they not adjust
+for SES? And, don’t higher SES populations in Asia during the 1990’s and early 2000s have
+higher, not lower, risk of CVD? Lines 19-22: if you believe this residual confounding is a
+potential explanation, then need to expand and clarify the implications, which are that the
+Asian studies provide the true valid (protective) association, while Western studies have
+remaining residual confounding so that the association is (falsely) null rather than the (true)
+protective association. (or just delete lines 19-22, if you don’t think residual confounding
+strongly biases your findings)
+
+12. Page 19, lines 23-24: The current statement seems a strong bit of author editorializing:
+the correct objective statement would be, “Although we found no evidence for a higher CVD
+risk with up to 2+ eggs/day consumption in US and European populations, among Asian
+populations higher egg consumption was associated with lower CVD risk.” Don’t run away
+from the findings, present them objectively. And, expand the remaining sentences in this
+paragraph to point out that your findings suggest that eggs may be a similar replacement
+choice for CVD risk as fish, poultry, legumes, nuts, whole grains, refined grains, potatoes,
+milk, and cheese; a better choice than red and processed meats; and a worse choice only in
+comparison to yogurt. Again, don’t run away from the findings, discuss them objectively.
+13. Page 20, lines 6-13: Unlikely a whole paragraph is warranted on these exploratory
+subgroup findings, especially as no significant risk was identified among diabetics either in
+the pooled analysis or the meta-analysis. Objective to state: “while a statistically significant
+interaction was identified in one exploratory subgroup analysis among diabetics, egg
+consumption was not significant associated with CVD risk among diabetics either in the
+pooled analysis or the meta-analysis.”
+14. Conclusions, page 12: delete lines 21-24, cherry-picking of findings, and wildly off base
+to end with a statement on nuts and legumes. Also, as noted before, failure to disprove the
+null is not the same as proving the null: this analysis did not “demonstrate that consuming
+up to one egg per day is not associated with a higher risk of CVD.” The accurate, objective
+Conclusions of this analysis are: “Results from our three cohorts and from the updated
+meta-analysis demonstrate that consuming two or more eggs per day, compared with less
+than once per month, is not significantly associated with a higher risk of CVD. Findings were
+consistent across multiple participant and study characteristics except for region: among
+Asian population, egg consumption was associated with lower CVD risk.” If the authors wish
+to include the substitution models in the Conclusions (I would suggest not), then the
+objective accurate final statement would be “In mathematical models estimating dietary
+substitutions, significant differences in CVD risk were not identified for eggs in comparison to
+fish, poultry, legumes, nuts, whole grains, refined grains, potatoes, milk, or cheese; eggs
+were associated with lower risk compared to red or processed meats, and with higher risk
+compared to yogurt.” Same changes to the “What this study adds” on page 3.
+15. Abstract Results: include more on the consistency of findings across patient and study
+characteristics (actual observed findings), and less on the hypothetical substitution findings.
+Abstract Conclusions: delete the second sentence (you did not find that the associations
+vary, this was a mathematical calculation; and in fact for most of the substitutions there was
+no evidence for any variation), replace conclusions with ““Results from our three cohorts and
+from the updated meta-analysis demonstrate that consuming two or more eggs per day,
+compared with less than once per month, is not significantly associated with CVD risk overall
+and with potentially lower CVD risk in Asian populations.”
+Minor:
+Page 4, Lines 7-8: not fully accurate. DGAC/DGA cannot change the DRI; they simply
+concluded that dietary cholesterol is no longer a nutrient of concern for overconsumption.
+Page 12, lines 12-13: If dose-response estimate available, the high vs. low difference
+should be matched to the observed reported range across categories in the study.
+Page 16, line 23: no, you failed to disprove the null, i.e., failed to identify significant
+evidence for publication bias; you did not prove the null i.e. “document no publication bias”.

@@ -1,0 +1,22 @@
+The authors have provided some detailed responses to reviewer/editorial comments. Some of the
+understanding of this paper and indeed the 'science' behind the approach relies on previous research
+carried out by the authors - I think this has now been adequately addressed.
+
+However, I do still have a slight niggling issue (as did most reviewers) about the diagnostic test
+accuracy measures presented. The most common measures (sensitivity/specificity) and others were not
+reported in this paper (even though they were listed in the initial draft). The authors in their response
+suggested this was an oversight and referred to a protocol (Ref 9). The protocol is however vague and
+mentions only 'diagnostic test accuracy measures' will be used. The same authors also conducted a
+review and meta-analysis on this topic (Ref 5). In this review Sens/Spec was a measure of choice - this
+does raise some signals around selective reporting. Perhaps the saving grace is that the authors do
+present the TP, FP, FN and TN values so in theory, readers could compute these metrics. Does the
+presentation of these results tell a different story though? To remove and suspicion, it might be worth
+including them given they are relatively simple to compute.
+Methods - when using backward selection is not more common to uses a retention p-value of <0.1
+rather than <0.05. I'm not suggesting repeat the analysis (as this can be seen as arbitrary) - but would
+it have made any difference?
+Appendix 2/3 - what are the denominator values?
+The authors use pre-defined rules for PLRs and NLRs. This authors comments on the point estimates
+which is fine, but you may also want to comment on the uncertainty (i.e. confidence intervals). As an
+example, while 'raised calcium' did not reach a PLR of 5, the confidence interval includes this value.
+I think Table 5 is referred to before 4 in the text.

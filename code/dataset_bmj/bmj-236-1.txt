@@ -1,0 +1,70 @@
+A systematic review (https://link.springer.com/article/10.1007%2Fs00259-019-04372-x) on a very
+similar topic was very recently published. That review gave a more low-level overview on image
+processing itself, had broader inclusion criteria and used a different risk of bias tool.
+The review which I am reviewing here is different because the authors provide a more thorough look on
+RCTs and clearly focus on implications for clinical practice, which ultimately leads to a higher-level
+review that is adequate to inform clinicians or policy makers on the state of AI in image processing.
+
+This paper provides an important overview, given that mainstream media (and reporting of studies) can
+often be over-enthusiastic about AI. With respect to this question, both systematic reviews agree.
+Especially in the field of image processing it is important to put emphasis on new standardised methods
+of how to evaluate AI and neural networks.
+I think that the methods used for assessing the studies were a good fit, and the reporting of the results
+is both clear and relevant.
+The nature of these studies led to deviations in reporting and assessment (adaption of TRIPOD tool,
+exclusion of a PROBAST domain 2 and some single items), but authors disclosed and discussed this.
+These adaptions are interesting not only in terms of evaluating AI in image processing, but also for AI in
+text/language processing or any medical application. CONSORT was applied, but not reported in detail
+(see last comment below).
+Line 36 Page 9
+“The TRIPOD statement consists of a 37-item checklist”
+As per the cited literature: “The TRIPOD Statement comprises a 22-item checklist.” I figured out that
+you did not add any items, and that the difference in numbers comes from counting the sub-items in
+full. Initially, this formulation in line 36 was confusing because it seemed like you added additional
+items.
+Appendix 2, alteration of first TRIPOD element
+‘Had to […] mention deep learning or appropriate synonym in title’
+‘LSTM’ or ‘CNN’, ‘RNN’ .. are common abbreviations that are often used in titles, and I was wondering if
+they were included in any of the search strategies?
+With respect to the last question, I did not find information on how Arxiv was searched (although it was
+mentioned in the appendix. Did you search all axives?). When doing a quick test, the abbreviations from
+above did return some results in arxiv title-only searches.
+With respect to overall inclusion of studies, could a title like this: ‘Longitudinal detection of radiological
+abnormalities with time-modulated LSTM’ for example have led to the automatic exclusion of this paper,
+due to any filtering processes within the titles?
+Line 44, page 13
+The median event rate for development, validation and test sets was 42%, 44% and 44%
+I assume that by median event rate, you mean the proportion of images labelled as a ‘positive’
+diagnosis? Does this reflect real-world circumstances (roughly) for any of the diagnosed diseases? It is
+hard to say, but that might constitute a bias/ affect prediction rates when using these systems in the
+real world. By that I mean that the human expert would maybe label only 2% as positive, if the
+proportion of true positives were that low. The network might continue to label around 40% as positive
+because that is what it learned.
+Study flow diagram
+Exclusion of non-randomized trial registrations (n=76)
+I did not notice the mentioning of this exclusion criterium before/ in protocol. Did these not add any
+valuable information on proposed methods for the upcoming RCTs? For upcoming evaluations on how to
+review these AI studies, do you think these would be interesting? (although they provide no results
+yet...).
+Line 60, page 15
+‘unintended adverse effects may emerge that are not apparent from an in silico evaluation’
+Sorry for my confusion here, but does this mean adverse effects not discovered by the network (due to
+lack of human instinct etc.), or an actual formation of adverse events due to the use of the technology?
+Could you possibly give an example for this in order to make it clearer?
+Page 22
+Landscape format might increase readability.
+Figure 3
+
+Similar as above, text on graph is not readable at all in this version.
+Page 13. Line 24
+‘compared to development only (9/81, 11%) or validation only (9/81, 11%)’
+In the appendix (page 20 line 11), ‘development only’ has 0% associated with it, although wording is
+exactly the same as in main text.
+Page 11, Line 56
+Page 12, Line 21
+‘the CONSORT checklist (which was included with the manuscript).’
+VS.
+‘the CONSORT checklist (though the CONSORT checklist itself was not included or referenced by the
+manuscript).’
+Possibly include checklist in digital appendix for final version of paper? Could you please have a look
+which one of these statements is wrong?

@@ -1,0 +1,1 @@
+This paper shows an optimal rate for the non-ergodic sequence governed by the Augmented Lagrangian.  This is theoretically an interesting result. The numerical illustration for the square-root LASSO looks to be good but in the square-root elastic net problem, it seems that the Chambolle-Pock decreases stably while NAPALA seems to be flatter.

@@ -1,0 +1,35 @@
+BMJ-2020-059724.R1- Pharmacologic treatment for COVID-19: living systematic review and network
+meta-analysis
+
+I believe that the authors have responded to all reviewers’ questions. I was particularly glad to see that
+they have decided to include results only for those treatments where a minimum sample size (100
+patients or 20 events) had been accrued. Having said that, this is likely to have been a post-hoc
+adjustment and requires a mention in the Limitations section. Related to this, given that the results are
+only given for those interventions with 100+ patients or 20 events, a sensitivity analysis of the models
+including only those interventions would be appropriate. Consider running models to check that results
+are robust to this.
+Major point for journal or for adjustment by authors:
+Many thanks for including the information regarding the extracted data for all studies. As the authors
+comment, this information is easy to visualise and use as an Excel spreadsheet but impossible to use as
+a PDF. Please can the journal (with the authors) make sure this information is available to readers. As a
+related issue, the current PDF version of the manuscript has hundreds of pages that are impossible to
+read/use.
+Critical issue:
+Recommendations and conclusions (including Abstract) for dexamethasone are based on the direct
+evidence estimate. Given that you advocate for a NMA as the main way of answering the question, there
+is a need for some nuance regarding this. I am a bit conflicted as I understand why you have done this
+but scientifically, I would have expected a primary analysis/results based on a NMA estimates with
+discussion around why this might have not been robust. This is also important as the results are
+expected to be updated once new data are available.
+Minor edits:
+- Runaway sentence from a previous version of the SR looking at prevention:
+“Outcomes of interest for prophylaxis of COVID-19 include mortality, infection with COVID-19,
+hospitalization, adverse events leading to discontinuation, and time to symptom resolution or clinical
+improvement.”
+- Sentence needs writing in the past tense:
+“We will use a plausible prior for variance parameter, and uniform prior for the effect parameter
+suggested by Turner et al based on empiric data.”
+- When explaining in the methods their use of absolute measures of risk:
+“For all other outcomes, we used the mean or median from all studies in which participants received
+standard of care for each outcome.”
+Please explain how you pooled the data for the means (simple addition?).

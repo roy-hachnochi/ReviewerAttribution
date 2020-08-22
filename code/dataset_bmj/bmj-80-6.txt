@@ -1,0 +1,102 @@
+BMJ:059724
+
+Effects of therapies for prophylaxis and treatment of COVID-19: living systematic review and network
+meta-analysis.
+Stats report:
+The current manuscript reports a ‘living NMA’ on interventions for the treatment of COVID-19 patients.
+There are a series of reporting issues, as well as potentially some issues regarding the methods/models
+used, that need addressing:
+- The objectives as described in the Abstract and Introduction have not been met and do not represent
+what is reported. The authors have excluded any evidence regarding prophylaxis and treatments that
+are no based on pharmaceuticals. This focus appears to me to be adequate (given the complexity of
+including other approaches) but will require editing of the WHOLE manuscript (eligibility criteria, flow
+chart, results, etc.) so that the objective is actually met.
+- The Introduction requires a better justification for the use of NMA to meet the objective. Related to
+this, the authors have missed some elements of PRISMA-MA, in particular an adequate description of the
+priors used for the analysis, the assessment of model fit (currently they just mention it is fine), and
+presenting the evaluation (agreement) between direct and indirect evidence.
+- Although PRISMA-MA make some allowances for presenting only summary data, I believe that it is
+critical that the actual extracted data (for each outcome and each study) is provided. If anything, this is
+likely to be a substantial source of information for anyone interested in this subject.
+- The current formatting of Table 1 makes it impossible to read. Please adjust. Data extracted for each
+outcome/study, could be included here (see point above). Alternatively, a similar Table with the
+extracted data for each study/outcome should be included as Supplementary Material.
+- There could be substantial differences between using a placebo arm as control instead of standard
+care. Please include a mention of this in your Limitation sub-section.
+- The current description of the Information sources is a bit confusing. Suggest you reorganize slightly
+as: a) what is the basic methodology for identifying studies (e.g. which sources, from when, how often,
+etc.) and b) what was the latest time cut-off included in this version of the manuscript.
+- The identification of pre-prints and then final peer-reviewed publications is very useful. If available,
+please provide in supplementary material a basic description of differences (if any) between each
+(pre-print vs peer reviewed publication) for the extracted data included in the review. Related to this, it
+would be particularly important to have this study characteristic used as part of a sensitivity analysis
+(i.e. only including peer reviewed data).
+- As several reviewers have pointed out, there are some very significant results in this area that have
+appear in the last few days (as pre-prints) these will need to be included in this version of the
+manuscript.
+- Minor consideration: I believe that the remdesivir trial with no control (two arms on remdesivir only)
+should be included based on the inclusion/exclusion criteria. If the authors are right and the Living NMA
+increases in size, a comparison of the two arms might become relevant (nodes splitting).
+- Data synthesis: As the authors point out in the Discussion, there are several results (dichotomous
+outcomes) that are indeed highly implausible. It appears to me that something has gone wrong in the
+code or in the models themselves. Description of the Statistical models (see note above regarding
+information on priors) needs to be more complete. Please provide these as part of the supplementary
+material.
+- It is important to notice that the results given in Table 2 are NOT, as described in the legend, absolute
+risk differences or mean differences. Looking at the supplementary material it is clear to see that they
+have included in some of these entries their results for the relative measures (e.g. Mechanical ventilation
+for ruxolitinib).
+- Table 2 I believe has other errors, in particular the values for the 95%CI for Viral clearance for
+novaferon, novaferon+, and remdesivir seem incorrect unless the sign of the point estimate is the wrong
+way around. Please check. Still for Table 2, the term ‘Most effective’ is misleading, suggest you change
+to “Beneficial” for symmetry with “Harmful”.
+- With regards to the actual results in Table 2 and presented as supplementary material, many of these
+values are completely outside all meaningful/valid measures. I looked in detail at a couple of the
+included studies:
+
+o Lou Y, Liu L, Qiu Y. Clinical Outcomes and Plasma Concentrations of Baloxavir Marboxil and Favipiravir
+in COVID-19 Patients: an Exploratory Randomized, Controlled Trial. medRxiv
+2020:2020.04.29.20085761. doi: 10.1101/2020.04.29.20085761
+And
+o Cao Y, Wei J, Zou L, et al. Ruxolitinib in treatment of severe coronavirus disease 2019 (COVID-19): A
+multicenter, single-blind, randomized controlled trial. Journal of Allergy and Clinical Immunology 2020
+doi: 10.1016/j.jaci.2020.05.019
+As these are the only trials that provide information regarding Baloxavir Marboxil or Ruxolitinib as
+treatments, their studies should be the basis for what the NME gives as estimates.
+Lou reports no deaths in any arm which means that the OR for Baloxavir Marboxil should be 1 (with wide
+Confidence limits, around 0.02 to 55.3) or if no adjustment is used, then this estimate cannot be
+calculated. In the manuscripts supplementary material, the ‘Relative effect point estimate (OR) provided
+is 145465.98 (CI: 0 to 1.74E+19). For the outcome of Mechanical Ventilation (same trial), the authors
+report a single event in the Baloxavir Marboxil arm (and none in the other arms). This translates to an
+OR of 3.1 (95%CI 0.12 to 91.6), the reported OR for the NMA model is: 1750669729 (CI: 1.71 to
+1.79E26).
+Even if there is no transcription error and the methods used give this result, clearly this is completely
+inconsistent with the evidence. Same applies to calculations made for data obtained for Ruxolitinib
+(Cao, Wei, Zou et al.). If the models are working and this is not a coding issue, this points towards
+priors that are severely informative and biased. This is why it is critical to report the basic data as well
+as the direct comparisons. These need to be presented next to the results from the NME. Given the
+above, I have no confidence on the indirect comparisons presented (at least for several of the relative
+measures).
+- I have also serious misgivings about the multiple indirect comparisons reported. Given the sparcity of
+the data and the current performance of the model, I would recommend the authors first check those
+comparisons for which a direct estimate can be obtained before reporting the rest.
+- Related to the above, please provide information (actual estimates) regarding the coherence of the
+indirect estimates of effect. Also provide direct and indirect estimates (where available) together for
+comparison. All of these would be fine as supplementary material
+- The phrase in the Summary measures subsection “…used the mean difference (MD) and its 95%CI
+when the outcomes were not expected to vary importantly across subpopulations”, needs clarification.
+The current statement makes this appear as completely subjective. What was the process followed to
+decide if the trial outcomes should be pooled or not using MD? The use of RoM as an outcome requires
+just a statement explaining why this was used (probably due to expected high skeweness of data).
+- For network figures, please provide some indication on the number of studies that the lines/circles
+represent.
+- In the Methods, describe the Subgroup analyses planned. In the Results please then explain that these
+were not carried out due to data limitations. Related to this issue, sensitivity analyses between pre-print
+and peer-reviewed would be particularly useful (see point above). Lack of trial registration is another
+important issue that should be explored based on sensitivity analyses.
+- It is unclear to me why the Abstract conclusions, highlight hydroxychloroquine? There are two others
+treatments (e.g. lopinavir-ritonavir, interferon beta-1a ) that appear to have similar adverse events
+profiles (at least based on current estimates).
+- Finally, impact of direct funding from pharmaceutical company needs to be somehow taken into
+consideration as there is substantial evidence of potential for bias. The simplest approach would be to do
+this as part of a sensitivity analysis (see point above).

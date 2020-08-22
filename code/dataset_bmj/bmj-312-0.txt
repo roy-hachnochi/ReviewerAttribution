@@ -1,0 +1,69 @@
+The current manuscript describes a very well executed and very clearly reported systematic
+review of models to predict clinical outcomes in COPD patients. I have no major, but only
+minor comments:
+Abstract
+1. Results. "mortality was the most prevalent endpoint". Please add n (%).
+2. Results. "the most commonly used predictors were age, forced expiratory volume in the
+1st second (FEV1), previous hospital admissions, dyspnea, sex, quality of life, body mass
+index (BMI), partial pressure of CO2, smoking, and previous COPD exacerbations." Please
+add n(%) for each predictor.
+3. Results. "BODE and ADO indices were the most updated and externally
+validated models." Please add numbers.
+
+4. Results. "low risk of bias". Please add how this was assessed (PROBAST).
+Methods
+5. Eligibility criteria. Can the authors elaborate on why they excluded cross-sectional
+studies?
+6. Risk of bias assessment. The authors use a summary score for risk of bias based on
+quartiles. It is not entirely clear to me how this was operationalised. As it reads now, it could
+be that a model/study was considered to be low risk with a score of, say, 5, when all other
+models scored 6. Correct? This seems rather arbitrary to me.
+7. Statistical analysis. Did the authors consider to meta-analyse the c-statistics across
+models, e.g. for the most common outcome(s)? Studies/models could be stratified by setting
+and heterogeneity could be assess across these settings and be presented in forest plots.
+This could be an alternative to the comparison of median c-statistics. A similar approach
+could be used to inform the reader in more detail about the results of the studies that
+externally validated the BODE, ADO, DOSE, and BODEx.
+Results
+8. Development studies. "In only 49 prediction models (38%), calibration was performed".
+Would suggest to use "assessed" rather than "performed".
+9. Development studies, final paragraph, last sentence. For readability, please restate the
+median c-statistics in the different settings.
+10. Model updates, final paragraph. "Among them, 13 of the updated models (22%) had
+better performance that the respective original models, whereas 31 updates models (53%)
+did not present a statistically significant difference in C-statitic compared to the original."
+Was this reported by the original authors, or was this assessed by the authors of this
+review? Obviously, the c-statistic in itself is not solely informative on whether the addition of
+a new predictor to an existing model leads to better performance. Reclassification is also
+important.
+11. Same sentence as in the previous comment. Please replace "that" by "than", "updates"
+by "updated" and "C-statitic" by "C-statistic".
+12. External validation studies. As mentioned in one of my previous comments, it would be
+interesting to focus on these models and their performance at external validation in more
+detail.
+13. Critical appraisal. "Eighty-six models had low risk of bias (i.e., a risk of bias score
+≤3),...". In line with one of my previous comments, this cut-off at ≤3 seems rather
+arbitrary.
+Discussion
+14. Third paragraph, on methodological pitfalls. "Missing data often lead to biased
+estimates if not imputed, because it can distort the performance of a prediction model if
+values are not missing at random." It probably depends on definitions you use and how you
+are tought to describe missing data, but at our institution we generally distinguish 3
+missingness patterns:
+MCAR: missing completely at random (missingness not related to other factors)
+MAR: missing at random (missingness related to other factors: could introduce bias when
+ignored)
+MNAR: missing not at random (missingness is related to the value of the missing value itself,
+e.g. income, or sexual preference, could introduce bias but hard to account for).
+Using this terminology, if not imputed the performance can be distorted when the data ARE
+missing at random (rather than the authors statement "not missing at random"). May be
+good to use a reference here, e.g. Rubin DB. Inferences and missing data. Biometrika
+1976;63:581e90, or simply state "if the missingness of values is related to other known
+characteristics".
+Ewoud Schuit Msc PhD
+Assistant Professor Clinical Epidemiology
+Julius Center for Health Sciences and Primary Care
+
+University Medical Center Utrecht
+Utrecht University
+Netherlands

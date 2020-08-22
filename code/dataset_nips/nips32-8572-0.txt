@@ -1,0 +1,1 @@
+For example, the only proof which is more than a few lines long is for the result which shows that there exist some problem where sampling is hard and optimization is easy. Here is an alternative proof: take any problem where sampling is hard, change the value at 0 to be f(0) = -M. optimization became easy, but sampling is still equally hard. 

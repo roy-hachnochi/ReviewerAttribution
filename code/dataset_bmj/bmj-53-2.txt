@@ -1,0 +1,109 @@
+Because of President Trump’s endorsement of HCQ and his stockpiling of this drug in absence of any
+solid evidence of its efficacy against COVID-19, a study such as this is likely to be widely read and
+quoted, in many cases by non-scientists, and may have life and death consequences before whatever
+this study’s results are, are subsequently confirmed in other RCTs. Consequently, the results should be
+presented in as simple a form as possible with interpretable descriptive statistics, and that the judgment
+of what is “big” or “small” or “important” or not be left to the readers.
+Let me summarize what I think your data show: You did a randomized controlled trial of HCQ added to
+SOC versus SOC. The rationale and justification was from “in vitro” studies, and from small-scale or
+uncontrolled studies, that frequently mislead clinical decision-making. Your study was hospital-based,
+and thus patients were randomized when well into their bouts. Your results do not necessarily apply to
+newly-diagnosed patients. The study was not “blinded”. Your primary outcome was the 28 day negative
+conversion rate of SARS-CoV-2. Secondary outcomes were normalization of C-reactive protein and
+blood lymphocyte count within 28 days. All three of these are based on laboratory testing that I
+presume is essentially done by lab technicians “blinded” to treatment group. Another secondary
+outcome was 28-day symptoms alleviation rate, that was based in part on subjective judgment of
+non-blinded caretakers. Thus there may be some bias in that measure. Analysis was by intention to
+treat, although side effects are reported according to received treatment.
+You could not show any statistically significant HCQ effect for the primary outcome. In SOC 85.4%
+converted versus 81.3% (page 8 line 47) for HCQ. The median time for SOC was 7 days (interquartile
+range 5-11 day); the median time for HCQ was 8 days (IQR 5 to 14) (Probably inaccurate IQR since I’m
+reading these off the survival function graph). The Success Rate Difference (SRD) thus was 4.1%
+(.854-.813) favoring SOC, and thus the Number Needed to Treat (NNT=1/SRD) was 24 favoring SOC.
+You could also not show any statistically significant effect on the time to alleviation of symptoms. For
+SOC 66.6% had symptom alleviation before 28 days, for HCQ 59.9%. SRD=.067, NNT=15, favoring
+SOC. For SOC the median time was 21 days (IQR: 14-23); for HCQ, also 21 days (IQR: 11->23). (It
+does appear that HCQ spread out the distribution more than SOC, with the 25th percentile earlier, the
+median the same, and the 75th percentile later.)
+The 28 day decrease in CRP was significantly greater in HCQ than in SOC: 6.986 +/-??? Versus
+2.723+/-????. We need the standard deviations for both, and the standardized mean difference
+d=(6.986-2.723)/S, where S^2 is the average of the two variances) (the usual effect size associated
+with the t-test). The two means do not tell us how much overlap there is in the distributions, only the
+difference for a hypothetical typical patient. If S =4, that would be a very large effect; If S=12 quite a
+small one. Do not present confidence intervals for the separate means; give us an effect size and its
+confidence interval.
+Similarly for the blood lymphocyte level.
+Of the HCQ patients 30% had observed side effects (largely diarrhea) versus 8.8% of the SOC patients.
+No patients reported serious side effects in the SOC group compared to 2 patients in the HCQ group. (I
+find that 30% versus 8.8% difference alarming. Clearly my judgment differs from yours. But that is
+
+why neither of us should make that judgment call. Leave it to your readers as to what is big or small.
+Report only whether it is positive or negative.).
+Your message should be consistent across the entire paper. No difference detected on the primary
+outcome, the results favoring SOC over HCQ. No difference detected on the alleviation of symptoms,
+the results favoring SOC over HCQ. Differences found on the two other secondary outcomes, both
+non-specific to COVID-19, the results favoring HCQ over SOC.
+Where does this differ from what is in the paper?
+#1. You cannot “prove” the null hypothesis. Thus “We were not able to show”, or “there was no
+statistically significant difference”, not “There was no….”. The direction of whatever difference you saw
+is unambiguous, but whether that difference is small enough to discourage further research or clinical
+use, or large enough to encourage it, must remain with the readers.
+#2. The early termination of the study, as you seem well aware, is troubling, for with an additional 100
+or so patients, the results might have been different. However, with ONE primary outcome, there was
+sufficient power to detect a moderate or large effect size, and a small effect size would make little
+clinical difference.
+#3. On page 12, you mention that you stratified patients and then randomized them. Was this not
+simple randomization? Or did the stratification somehow affect inclusion in the study? This is a
+representative sample of those eligible for the study?
+#4. One consequence of non-blinding is that changes in dosage of HCQ (page 12, line 96) depended on
+subjective judgments of care providers, and this might affect the results. With blinding, i.e., a placebo
+added to SOC versus HCQ added to SOC, blinded, the care providers would be adjusting dosage for
+everyone (placebo or HCQ) based on those subjective judgments. The results then might have changed.
+I’m not clear as to why you did not simply add a placebo to the SOC as the comparison group.
+#5. What follows is a major problem: The Hazard Ratio and Cox Model are both based on an
+assumption of proportional hazards. Under that assumption, either the two survival curves are identical
+(HR=1) or they do not cross. Your survival curves cross each other many times. The HR is not here a
+valid effect size, nor are any analyses based on the Cox Model. In any case, few readers know what
+“hazard” means, and would likely misinterpret the HR.
+I think you actually may have tested the two Kaplan-Meier survival curves using a likelihood ratio test
+associated with that method and that is correct.
+I don’t particularly recommend this, but you could get the Receiver Operating Curve (ROC) by graphing
+the Kaplan-Meier survival curve for HCQ, say S1(t), versus that for SOC, say S0(t) for all values of t,
+including both (1,1) at t=0, and (0,0) at infinite t: the ROC curve. The Area under that curve (AUC) is
+an effect size equal to the probability that a person in the HCQ group would survive longer than one in
+the SOC group. Success Rate Difference here is SRD=2AUC-1 and NNT=1/SRD. That is a much more
+clinically interpretable effect size. However, here this might prove more confusing.
+In any case, please remove all results that use HR or the Cox model.
+#6. There are major problems both with post-hoc testing, and with subgroup analysis in particular, for
+several reasons.
+First when you test 15 subgroupings, as you did, if the null hypothesis were completely true, the
+probability that one or more will come up significant at the 5% level is 54%. You found exactly one
+95% confidence interval that did not include the null value (and that just barely, and with a very wide
+interval). What you see here is consistent with the null hypothesis being true for all the subgroupings.
+Second, you should be testing for moderation, not testing effect size within a subgroup. What we need
+to know is whether the effect size (here the HR) is different in the subgroup from what it is in the rest of
+the group, i.e., the interaction between the baseline indicator and treatment in the total sample, if using
+a Cox Model. If there is no difference between those in the subgroup and those not in the subgroup,
+
+there is no reason to deliver the treatment to that subgroup and not to the others. Thus what is here
+may be very misleading.
+I do not believe that your sample size is large enough for valid moderator analyses, and in any case, this
+analysis is based on the HR, which is not here acceptable.
+I would strongly urge removal of all the subgroup analyses. There is no reason why, in Discussion, you
+might not suggest that HCQ might not have any specific effect for COVID-19, but might be useful for
+treating specific symptoms in patients with COVID-19 or not.
+#7. You report using a two-sample t-test for the change in CRP and lymphocytes. That means you
+assumed normal distributions with equal variances. The t-test is quite robust to deviations from those
+assumptions, but I’ve often had the experience that such deviations are beyond robustness. I can’t tell
+here because you did not report standard deviations. Please verify?
+If these assumptions don’t hold, then you could use a Mann-Whitney-Wilcoxon test instead of the t-test
+to be sure of your p-value computations. Then the effect size would be AUC=U/(mn), where U is the
+Mann-Whitney U-statistic that is reported as part of the results, m and n the two sample sizes.
+SRD=2AUC-1, and NNT=1/SRD, would also help. Confidence intervals for the AUC or SRD could be
+obtained using Bootstrap methods.
+#8. “In vitro” results are necessary for ethical RCTs here, but their promise is often not realized in the
+“in vivo” testing. That is why “in vivo” testing is necessary. I find it awkward to characterize the results
+of “in vivo” testing as confirming or disputing the “in vitro” results. They do ask two completely
+separate questions.
+#9. Did no randomized patients die? I didn’t see any report here of deaths. If so, how were they dealt
+with in survival analysis and testing procedures? And how many in each treatment group?

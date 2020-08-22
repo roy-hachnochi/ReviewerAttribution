@@ -1,0 +1,22 @@
+The systematic review shows clearly that current risk prediction models for hospital
+readmission have a long way to go before they become practically useful. The quality and
+quantity of relevant data are uneven, and the C-statistics currently achieved are mostly
+below 0.8 and hence reflect poor performance.
+1. I wonder if the authors might discuss the C-statistic, what it means in practice and how
+large it would need to be before the models would be useful. I note they responded to
+reviewers "We would hypothesize that the inclusion of these features in some of the
+
+predictive models that we have identified in our systematic review could potentially raise the
+C-statistic over the 0.8 threshold to be considered a strong predictive model." This implies
+that they view a C-statistic of above 0.8 as useful, but is that really true? I acknowledge the
+crude C-statistic classification that says >0.8 is a good model, but this may still reflect a
+sensitivity or specificity that is too low to be clinically useful.
+2. Related to this, I am unclear how the outputs of these models are to be used. If a patient
+is thought to be at high risk of readmission, what exactly is the hospital to do about it? This
+also relates to the actionability of the models, i.e. whereabouts in the patient's hospital stay
+the information becomes available. Of course the authors may not have much to say about
+this, but if they do it would be helpful to hear.
+3. The acronym SDoH is introduced and used in the Abstract and main text, but it is entirely
+unmemorable and would be better avoided.
+4. A tiny point - it should be Cox regression not cox regression.
+Tim Cole

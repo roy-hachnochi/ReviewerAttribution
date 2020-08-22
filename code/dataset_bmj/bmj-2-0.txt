@@ -1,0 +1,28 @@
+The paper is considerably improved on revision, with a much clearer message. I have a few
+minor comments.
+1. The dataset consisted of people receiving OAT between 01/01/1996 and 30/11/2017.
+Given that the paper's main message relates to recent changes in the patterns of opioid use
+and mortality due to fentanyl, would it be worthwhile extending the dataset to include more
+recent data, if they are available?
+2. Mortality risk is calculated in groups of time since starting treatment, with the latest group
+>12 weeks. It seems odd that this group is open-ended - is there an upper limit for the time
+since starting treatment?
+3. Section 3.4 of the Results has a focus on the statistical significance of differences between
+rates which is now deprecated by the BMJ. Please rephrase this section in terms of clinically
+important differences, and avoid reference to significance where possible.
+
+4. Table 1 refers to "mental health" as OUD-related comorbidity. This should surely be
+"mental ill health". Also the acronym OUD has survived the revision, as it has in a couple of
+places in the Supplementary material.
+5. The SMR scale in Figure 1 is nonlinear but not the expected log scale. The gap between 10
+and 20 is much greater than between 90 and 100, but if it were logged the distance from 1
+to 10 should match that from 10 to 100, which it clearly does not. It looks like a square root
+scale instead. I recommend the use of a log scale, perhaps a log2 scale with numbers in
+powers of 2 in the sequence:, 0.5, 1, 2, 4, 8 etc.
+6. Similarly in Figure 2 it is entirely unclear whether and how the SMR scale is transformed,
+as it only has two numbers. Please improve it in line with Figure 1, and ensure the scale
+includes 1.
+7. Figure 3 would be better in colour (at least in the PDF).
+8, The first line of section A2.1: word missing?
+9. Section A2.3.1: the word 'identity" should be "identify".
+Tim Cole

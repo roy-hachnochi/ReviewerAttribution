@@ -1,0 +1,62 @@
+The authors provide an overview of studies developing, validating or updating a prediction
+model in COPD patients, and summarizes their methodological characteristics, their
+calibration and performance. The review confirms the findings from previous studies on the
+quaility published prediction modeling studies, highlighting issues w.r.t. statistical
+methodology and reporting. I have no major comments w.r.t. this work, and have listed my
+questions below.
+
+* Literature search. I think it would have helpful to add "predict*" as a search term, rather
+than specifying all different sort of combinations such as "prediction model", "prediction tool"
+etc. Similarly, the term "progn*" could have been included. Further, there is limited focus
+on the identification on validation studies. I just wonder to what extent the current
+restriction misses relevant articles, as 24/131 (i.e. 18%) articles were found by
+hand-searching the references of included studies.
+* Why is there a distinction between external validation of an existing model, and the update
+of an existing model? Usually, updating will take place after validation, in the same study.
+
+* Why does Spain have so many prediction studies in the field of COPD?
+* To what extent did authors adjust for over-optimism during internal validation?
+* To what extent did authors adjust for over-fitting during model development (e.g. by
+shrinking estimated regression coefficients)?
+* "Mortality was the most frequently studied outcome" - did studies generally focus on
+all-cause mortality, or cause-specific mortality?
+* "Sixty-seven of the 129 prediction models were developed for COPD inpatients. The
+median C-statistic was 0.79" Which c-statistic is being referred to here? Apparent c-statistic,
+optimism-corrected c-statistic, c-statistic upon external validation, or a mixture of all
+aforementioned types?
+* Im not much in favor of testing statistical significance between c-statistics across different
+clinical settings. The c-statistics are based on different studies, with differences in design,
+quality, studied models, etc. Hence, observed differences in c-statistic are prone to
+heterogeneity and confounding. I therefore would prefer to simply report the difference,
+without applying any hypothesis test.
+* "For only 6 of 59 models, net reclassification index was available." - I'm not sure this is a
+negative (i.e. undesirable) finding. The NRI has several deficiencies and I therefore would
+not recommend its use in general. It is, however, striking that many studies do not look
+further than discrimination performance, and/or limit calibration to a HL significance test.
+The potential for impact could also be studied more extensively, for instance via decision
+curve analysis. I suppose actual RCTs comparing the effectiveness of using any of these
+models have not been conducted so far?
+* Critical appraisal - "The risk of bias assessment revealed a median overall score of 4".
+What are the boundary values of the scoring system (i.e. min and max achievable score),
+and which values should be preferred? Perhaps clarify "low risk of bias (i.e., a risk of bias
+score below 3)" earlier in the results section.
+* "Five models presented conflicting results in terms of calibration and discrimination in
+external validation studies" When do you consider validation studies to yield conflicting
+results?
+* Please include some information on the typical sample size for model development,
+internal validation and external validation, as well as the number of events.
+* Table 2 combines quality and reporting issues into a single score for risk of bias
+assessment. Lack of adequate reporting, however, does not necessarily imply high risk of
+bias. From my experience, it is often difficult to properly assess the risk of bias because the
+reporting of prognosis studies tends to be quite poor.
+Minor Comments
+* What this study adds - "Although there is an abundance of prognostic models for patients
+with COPD, a small proportion of them has been externally validated, making them currently
+not suitable for use in routine clinical practice". Although I agree that external validation is
+essential, their existence is not sufficient to guarantee clinical usefulness of developed
+prediction models.
+* "Three prediction models (i.e., DOSE index, SAFE index and COPD Severity Score) that
+were developed in cross-sectional studies did not fulfill our eligibility criteria. However, we
+retained in our analysis the external validation studies of these prediction models that were
+based on cohort studies." Could you clarify how a model derived in cross-sectional data was
+used for assessing a prognostic endpoint?

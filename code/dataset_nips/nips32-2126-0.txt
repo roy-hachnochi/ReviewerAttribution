@@ -1,0 +1,1 @@
+The main contribution relies on the AsySVRG  to solve the squared ridge regression.  This result is interesting and the properties is attractive.  However, in the proof, it relies on a key result that $(M+M^T)/2 \succeq \mu I$ implies that $x^TMx \geq \mu x^T x$ (the equation line 475-476).  This result is not obvious but detailed proof is missing.

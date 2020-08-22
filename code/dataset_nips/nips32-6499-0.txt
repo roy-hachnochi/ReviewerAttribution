@@ -1,0 +1,1 @@
+I think it is an interesting paper that proposes novel positional encodings for Transformer model applied on tasks that use trees as inputs/outputs.  The authors evaluated their model on variety of tree based tasks and convincingly demonstrate improvements over baselines.  I recommend its acceptance

@@ -1,0 +1,52 @@
+I enjoyed reading this review and it comes at an appropriate time in the development of this nascent
+field. While we are all hopeful about the promise of such technology, I entirely agree with the author's
+motivation in performing this review, and the execution and conclusions are, to my judgement, generally
+sound.
+I have only one major comment which I hope will improve the quality of the study. The study nicely
+reports on several critical aspects of deep learning in imaging: sensitivity/specificity, internal vs. external
+train/test, prospective vs. retrospective, and randomized vs. observational data, reproducibility and
+methodological reporting.
+However, it omits the functional robustness testing of these algorithms, which is another critical layer of
+evidence alongside RCTs, external validation etc. Broadly speaking, this tests whether the algorithms
+function as claimed, e.g. if the 'algorithm can diagnose skin cancer from digital images of nevi', then it
+must be able to do just that, as plainly understood by common sense. This is distinct from the question
+of how well it performs that function, which is (partly) addressed by statistical questions of e.g.
+diagnostic accuracy according to the application.
+The need for this testing arises from the manifest "brittleness" of deep learning which is capable of
+memorizing the training data and therefore largely operates in the non-statistical, "interpolation"
+regime. Therefore, it is at extremely high risk of merely leveraging deterministic confounding
+information such as patient traits or image acquisition device properties inadvertently captured in the
+training data. This is (apparently) something quite unique to deep learning, and thus requires special
+consideration distinct from reviews of other statistical prediction methods.
+Functional robustness is another critical "layer" of evidence on top of the gold standard of RCTs, since an
+algorithm could perform well in an RCT yet the design of the intervention may not probe for the kinds of
+functional tests discussed above. This is because an RCT is limited to fixing the entire distribution of the
+data apart from randomizing the controlled variable. Whereas, functional robustness testing measures
+the change in algorithm performance along multiple variables without performing explicit interventional
+experiments.
+
+These tests are also different from tests of statistical performance under "real-world" clinical conditions,
+since real-world clinical testing does not expressly probe for factors as in the above examples and thus
+provides limited, if any, information about how the algorithm responds to changes in individual
+variables.
+To my awareness, several such functional robustness studies of medical deep learning algorithms have
+been published, although the evidence base is extremely sparse (much as with very few algorithms
+being subjected to RCTs):
+- In this study, a deep learning algorithm to detect pneumonia in chest radiographs was subjected to
+functional testing in terms of the robustness of the algorithm to changes in hospital setting:
+https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683
+- Similarly, here, a deep learning algorithm for melanoma detection was tested for robustness to surgical
+skin markings:
+https://jamanetwork.com/journals/jamadermatology/article-abstract/2740808
+- A deep learning system for detecting fractures from radiographs was subjected to several tests
+addressing robustness to hospital process variables and patient traits:
+https://www.nature.com/articles/s41746-019-0105-1
+Addressing will likely require re-examining the papers under review to evaluate whether they have
+performed these kinds of functional robustness tests. Some potential examples of functional tests I can
+envisage: If the algorithm is presented with comorbid conditions, can it ignore these and focus on the
+information pertinent to the primary diagnostic task? Does the algorithm still work if different clinical
+protocols are applied (such as, changes to protocol about the use of sizing rulers on tumour
+radiographs)? Does the algorithm produce the correct decision for normal anatomical variants? What
+happens when the digital imaging resolution changes? When there is expert disagreement, how does the
+algorithm change if competing labels are used to train it? These are just suggested ideas.
+Dr Max A. Little

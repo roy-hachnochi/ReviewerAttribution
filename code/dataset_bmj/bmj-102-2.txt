@@ -1,0 +1,37 @@
+This article explores the impact of the 2003 ACGME reform on the quality of care. It is very
+well-written and the methodology clearly described. The authors show that the reform had
+no significant impact of three outcomes of the quality of care: 30-day mortality from date
+of hospital admission, 30-day readmission from date of hospital discharge, and overall
+Medicare Part B spending for a given hospitalization. The authors run
+difference-in-difference (DD) analyses to explore the presence of trend differences.
+Overall, I find the methods and results convincing. The key assumption for a DD strategy is
+that the outcome in treatment and control group follow the same time trend in the absence
+of the treatment. That assumption is fulfilled with the figures provided by the authors. My
+general opinion of this article is very positive.
+Please find below a list of suggestions for improvement:
+•
+As underlined in prior work (Bertrand, Duflo, and Mullainathan, 2004),
+conventional standard errors often severely understate the standard deviation of the
+estimators in DD analyses. The authors clustered their standard errors at the hospital
+level, which is a convincing strategy to overcome that issue. However, (as a robustness
+check) did you also explore the opportunity to perform a block bootstrapping of standard
+errors as suggest in Bertrand et al.?
+•
+The spending results are not significant, although very close to the 5% threshold.
+This could be explained by the fact that the outcome distribution is very skewed, reducing
+the performance of the linear regressions. When working on health care spending analyses,
+it is common practice to log-transform the dependent variable or to use generalized linear
+
+models (GLM), with log links and gamma distributions. Did you explore the robustness of
+your results under both approaches?
+•
+If I am not wrong, some variables have been used in prior Medicare data research
+to capture patients’ performance status (such as for instance oxygen use among the
+patients prior to admission). It would be interesting to check whether the proportion of
+patients with low performance status was the same in both treatment and control groups,
+as those patients are potentially more difficult to handle.
+•
+Could the authors’ results be explained by the fact that the senior residents had to
+put additional efforts after the reform to compensate junior residents’ lack of preparation?
+For instance, could the authors explore whether the volume of care provided by the senior
+residents increased after the reform?

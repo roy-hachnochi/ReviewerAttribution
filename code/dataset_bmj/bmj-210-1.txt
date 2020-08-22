@@ -1,0 +1,80 @@
+I thank the authors for their detailed revision and response to my comments. Two major
+issues remain.
+(i) The authors have not done any one-stage analyses that I recommended. They comment
+that this is only possible with IPD. However, as they deal with binary outcomes, a
+one-stage analysis is also possible with two by tables, obtainable from IPD or study
+publications. See Stijnen https://www.ncbi.nlm.nih.gov/pubmed/20827667 and Simmonds
+https://www.ncbi.nlm.nih.gov/pubmed/24823642
+It is very straightforward, and crucially avoids the continuity correction issues. The authors
+use the Burke reference to suggest that the 1-stage and 2-stage will be similar – but
+actually the Burke paper strongly states that the key situation where they do differ is when
+events are rare! The paper says: “For all outcome types where studies are expected to be
+small, and in particular, for binary and time-to-event outcomes that are rare (or extremely
+common), then a one-stage approach is preferred, as it avoids the use of approximate
+normal sampling distributions, known within-study variances, and continuity corrections
+that plague the two-stage approach with an inverse variance weighting.”
+Therefore, I strong recommend that the authors also include a one-stage analysis for
+completeness. Ultimately the findings in the paper may be open to criticism if this is not
+included. Such analyses do not need to include the double zero studies, and may even just
+be placed in supplementary material, but should be discussed in the main paper.
+The authors say that “In order to conduct additional analyses using the IPD, we would
+need to propose our new analyses, resubmit a data request, and then re-analyze the data”
+– this is concerning, as all that are required are the two by two tables which already are
+used in the Peto and M-H meta-analyses that are incorporated in the paper. So no new
+data are needed than actually is already being used.
+ii) The authors also do not address my query about the time of the events adequately (also
+made by reviewer 1, comment #3). Specifically, why hazard ratios are not reported (or at
+least rate ratios), which account for the length of follow-up, in the IPD trials. The authors
+main argument is that other articles report odds ratios, and that further analysis would
+need more data access agreements etc. But the issue remains: what is the actual
+time-point that the summary odds ratios relate to? As the follow-up length differs in all
+trials, how do we translate the findings? Odds of an outcome event by what time? e.g.
+“patients treated with rosiglitazone had a 33% increased risk of a composite event
+compared with controls” – this is meaningless without a time point attached to it. A quick
+look suggests the follow up length varies from 20 to 260 weeks – which is a huge range.
+This remains a major limitation and a waste as the IPD should allow at least rates to be
+derived, and should be clearly reported as a limitation in the discussion. With the event
+rates being low it is possible that odds ratios and rate ratios may be similar, but this should
+be justified more formally, and again the wide range from 20 to 260 weeks suggests that
+this may not be sensible. Regardless, we need more reassurance about this issue, and
+more context in the paper about how the time-scale corresponds to the interpretation of
+the results.
+
+Minor:
+1) The two sentences in the conclusion of the abstract are somewhat contradictory, as the
+first stresses the association and the second raises important cautions: “Results of this
+comprehensive meta-analysis aggregating a multitude of trials and analysed 140 using a
+variety of statistical techniques suggest that rosiglitazone is consistently associated with an
+increased cardiovascular risk, especially for heart failure events. While increased
+myocardial infarction risk was observed across analyses, the magnitudes of risk varied and
+were attenuated through aggregation of summary-level data in addition to IPD.” The
+words ‘consistently associated’ are perhaps too strong, and I suggest they rather say
+something like: “The direction of summary estimates was the same for all outcomes in all
+analyses, though the strength of evidence varied according to each outcome and whether
+non-IPD trials were included.”
+2) The message that IPD and non-IPD are somewhat different is itself a very important
+message. This comes across well in the what this study adds: “Among trials for which IPD
+were available, we identified a greater number of myocardial infarctions and fewer
+cardiovascular deaths reported in the IPD as compared to the summary- level data
+reported in publications, CSRs, and on ClinicalTrials.gov, which suggests that IPD may be
+necessary to accurately classify all adverse events when performing meta-analyses focused
+on safety.” – could a shorter version of this be added to the abstract conclusion too?
+3) “Heterogeneity between trials was assessed using the I-squared statistics, with values
+greater than 50% indicating moderate to substantial statistical heterogeneity.” – as
+mentioned in previous report I-squared cannot reveal if heterogeneity is large or not. The
+values of tau-squared (or tau – the between-study sd) do that. So please revise and
+correct.
+4) Not clear in the abstract if you assume random-effects in the meta-analyses (i.e.
+heterogeneity in effects between studies), which is your default in the results section.
+5) The authors refer in places to the ‘lowest categories for risk of bias’ – is this low risk of
+bias? It is ambiguous, so please state more clearly.
+6) The inclusion of trials with no events at all (in either group) is somewhat controversial. I
+know there is mixed guidance on this in the literature
+(https://www.ncbi.nlm.nih.gov/pubmed/30887438 recommends inclusion, although
+Cochrane do not recommend it and personally I would not). I am not suggesting these
+results are taken out but, for transparency, I would mention the inclusion of double zero
+studies is contentious in the discussion.
+In summary, two very important issues remain. Whilst recognizing the large undertaking
+by the authors, and the hard work clearly done by the study team, the article remains
+open to criticism if these are not addressed better.
+With best wishes, Richard Riley

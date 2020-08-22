@@ -1,0 +1,1 @@
+This is a very original revisitation of the classic mirror-prox framework of Nemirovski. It allows the application of variance-reduced sgd to a new setting,  minmax optimization. The variance reduction technique of sampling from the difference may be of independent interest.  The paper is well-written. 

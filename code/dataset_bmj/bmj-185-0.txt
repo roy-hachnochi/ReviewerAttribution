@@ -1,0 +1,56 @@
+This study observed and summarized the changes in post-discharge care utilization and
+patients mortality rates over the years of 2008 - 2016, which included years both before
+and after ACA was enacted in 2010 and HRRP was initiated in 2012. This study examined
+the consequences of HRRP, aiming to address the concerns of this policy negatively
+affected patient care by triaging patients into other types of care or no care when
+hospitalization was necessary, therefore this study yields very high policy significance.
+Generally, the study delivered good news that HRRP didn't result in higher utilization of
+observational unit and emergency department, at the same time didn't seem to result in an
+increase of mortality rate overall (except for heart failure patients). It was delightful to see
+that from this perspective, HRRP has been beneficial (or do no harm) to Medicare
+
+population, improving care access and health outcomes. The huge efforts in developing the
+study ideas and generating this information were greatly appreciated.
+However, there are some questions need to be justified and a few clarifications need to be
+made before it is presented to the BMJ readers.
+Post-discharge care locations: were they collected from hospital-reported files (MedPAR) or
+were they captured from the claims from all the post-discharge locations and physician
+outpatient claims? MedPAR data is not accurate on reporting the post-discharge locations.
+How did you define the discharge dispositions for patients with multiple discharge
+locations? Did you use the first locations or did you use the locations with the longest
+duration? For example, some patients could be discharged to home with home health care
+because they had to wait for the SNF beds, and probably after 1 week, they were admitted
+to SNF. In this case, did you define the post-discharge location as Home Health Agency or
+SNF?
+Another point needs to be discussed is the potential bias due to the differences in patient
+groups. These are important factors associated with health care utilization and health
+outcomes, and therefore need to be controlled while examining the utilization and mortality
+rates. Table 1-3 of this study suggested that there could be an imbalance between different
+groups regarding age, gender and disease comorbidities. For example, patients alive at
+30-days of discharge were much younger than who died. HRRP controlled for age, gender,
+and case-mix severities when calculating risk-adjusted readmission predictions (76 FR
+51673 through 51675), with the consideration that these factors were associated with high
+readmission rate and worse health outcomes. Therefore, theoretically patient with different
+level of risk factors were affected by the policy differently. The effect could be more
+significant with these factors adjusted. Also, the unobserved variables for each facility and
+patient both time-variant and time-invariant need to be controlled as well, so as to
+separate the true effect of HRRP. Intuitively, the large sample size and the nation-wide
+data pool seemed to be promising for fix-effect panel analysis, clustering, or classic
+regression models. It will be helpful to know why this study was limited the analysis at a
+descriptive level (any concerns/limitations)?
+The trend for no care group ("no readmission/observation/ED") is important and should be
+reported as well. Overall, if the care utilization decreased for readmission, observation stay
+or ED visits (figure 1), then there should be an increase in the number of patients who
+didn't receive any care. Given the mortality rate increased for heart failure patients, this
+could imply that these patients were driven away from any of the hospital/observation
+unit/ED when they needed care. This will eventually lead to worse health outcomes and
+definitely be an unintended consequence of HRRP.
+Some confusing parts in Table 1-3: "numbers reflect the proportion of patients alive
+discharge", is this statement applied to the rows of "Male sex" and beyond? the numbers
+starting from "Health conditions" are proportions of patients with the corresponding
+events? This table is reporting the proportion of death for each type of post-acute care
+patients dead at 30-day, while characteristics of study sample need to be reported as well
+(i.e. what is the characteristics of the study sample for readmission, Obs. stay, ED or no
+care groups?).
+Overall, with the above questions addressed and clarified, I think this study is of great
+significance and will benefit the BMJ readers.

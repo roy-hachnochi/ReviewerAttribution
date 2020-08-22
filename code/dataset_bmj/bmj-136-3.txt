@@ -1,0 +1,79 @@
+Thank you for the opportunity to review this interesting paper, which is a very detailed IPD
+meta-analysis project, including IPD from 33 trials and additional summary data from 76
+trials. These projects are a huge undertaking and the authors should be congratulated for
+having obtained IPD and sought to supplement this with summary data to be
+comprehensive.
+I have a number of comments, which I sincerely hope will allow the authors to improve
+their work even further upon any revision.
+- “Among trials for which IPD were available, we identified a greater number of myocardial
+infarctions and fewer cardiovascular-related deaths reported in the IPD as compared to the
+summary-level data.” – do you mean the published summary-level data? Need to be
+careful here as summary data can be derived from the IPD at hand, so I assume this
+relates to a comparison to the published summary data
+- It is very interesting to see that the availability of IPD identified more MI events and
+fewer CVD related deaths than previously reported. This serves as another important
+exemplar for why IPD is important to made available from primary studies.
+- In the abstract, we lose how many studies and participants/events contribute toward
+each outcome’s meta-analysis
+- The authors compare a number of method for dealing with zero events in some groups in
+some trials. This is to facilitate a two-stage approach to meta-analysis (using the
+
+Mantel-Haenszel approach in the second stage to pool 2 by 2 tables derived in the first
+stage). However, it is recommended to perform a one-stage approach in this situation.1-3
+This avoids the need for any continuity correction, at least when only one arm has a zero
+event in a trial. Hence it should be considered, at least a sensitivity analysis.
+- For the two-stage analyses using a random effects model, recent work suggest REML
+estimation followed by Hartung-Knapp derived confidence intervals have the best
+performance.4 At the very least the authors should use the Hartung-Knapp correction to
+their confidence intervals following the current DerSimonian and Laird estimation. I could
+not see the random effects results presented in the Results section?
+- Abstract does not reveal how IPD were sought (and if sought for all trials).
+- A key benefit of having IPD is to adjust for prognostic factors, so that results are then
+conditional on patient characteristics (usually a pre-defined list). I wonder if the authors
+can clarify why they did not do this?
+- I am very surprised to see that odds ratios are being summarised, when the outcome is
+not recorded at a consistent time-point in all trials and it is likely that there is censoring
+and loss to follow-up in the included trials. Hazard ratios would be more appropriate and
+interpretable. Indeed, with IPD there is a big opportunity to model the time-to-event data,
+as follow-up and event/censoring times should be available. The authors need to justify
+why they focus on ORs and not HRs, and ideally also do a meta-analysis of HRs (just for
+the trials providing IPD).
+- We need to know more about why the non-IPD studies are in some sense different to the
+IPD studies. This could be due to the summary data derived from the IPD being more
+reliable. Or it could be availability bias,5 such that trials that provide IPD are more extreme
+than those that do not. Indeed, the authors only seek IPD from trials included in the GSK
+database. Why not also ask for IPD from the other 80 trials? Obviously that would be a
+massive undertaking and I am not saying to do this now. But it seems a selective set of
+IPD that has been obtained, and would make me concerned that the IPD available is not
+representative of the full set of trials. This issue is covered in Ahmed et al.
+- A related issue is that the authors do not examine the potential for publication bias, for
+example via funnel plots and small-study effects. Small study effects may arise due to
+publication bias (As not all trials providing the event information needed) and also
+availability and selection biases. So this is important.
+- Risk of bias is barely mentioned in the results. Also the authors also do not examine the
+impact of risk of bias. Indeed, they indicate this is due to the large number of
+meta-analyses conducted but I don’t think this can really be avoided. At least include
+meta-analysis results for studies at low risk of bias.
+- It is strange that the authors use the PRISMA statement to guide their reporting, but not
+PRISMA-IPD which is tailored to IPD meta-analysis projects. They should rather use
+PRISMA-IPD.6
+- Lastly, I do not see any forest plots, which I think are always helpful to summarise the
+findings at both study and meta-analysis level.
+I hope these comments help the authors improve their article going forward.
+With best wishes, Prof Richard Riley
+1. Burke DL, Ensor J, Riley RD. Meta-analysis using individual participant data: one-stage
+and two-stage approaches, and why they may differ. Stat Med 2017;36(5):855-75.
+2. Stijnen T, Hamza TH, Özdemir P. Random effects meta-analysis of event outcome in the
+framework of the generalized linear mixed model with applications in sparse data. Stat Med
+2010;29:3046-67.
+
+3. Hamza TH, van Houwelingen HC, Stijnen T. The binomial distribution of meta-analysis
+was preferred to model within-study variability. J Clin Epidemiol 2008;61(1):41-51.
+4. Langan D, Higgins JPT, Jackson D, et al. A comparison of heterogeneity variance
+estimators in simulated random-effects meta-analyses. Res Synth Methods 2018.
+5. Ahmed I, Sutton AJ, Riley RD. Assessment of publication bias, selection bias and
+unavailable data in meta-analyses using individual participant data: a database survey.
+BMJ 2012;344:d7762.
+6. Stewart LA, Clarke M, Rovers M, et al. Preferred Reporting Items for Systematic Review
+and Meta-Analyses of individual participant data: the PRISMA-IPD Statement. Jama
+2015;313(16):1657-65.

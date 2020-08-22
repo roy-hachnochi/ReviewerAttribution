@@ -1,0 +1,16 @@
+This is a network meta-analysis of different anti-thrombotic therapies in CABG patients.
+I have several concerns:
+1. The authors pool RCTs performed in the last three decades. Surgical technique and
+secondary prevention strategies, as well as the preoperative profile of the patients has
+substantially changed in the last 30 years. As an example, the use of statins has changed
+the natural history of GSV grafts. There is a threshold of methodological and clinical
+heterogeneity above which the meta-analytic approach should not be used. This seems
+one of those cases.
+2. The different studies have very different imaging follow-up protocols and completeness
+of follow-up. This is an extremely important (and probably fatal) source of heterogeneity.
+3. I question the use of OR for time to event outcomes, in particular when the different
+studies have different follow-up times. The use of IRR seems more appropriate.
+4. When looking at the NMA network it is evident that multiple comparisons are based on
+very few trials (and even only 1 study in more than one case). The solidity of these
+comparisons is questionable and, again, this is a scenario where a NMA should not be
+performed.

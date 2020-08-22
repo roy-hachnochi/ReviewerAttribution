@@ -1,0 +1,1 @@
+The paper is proposing a interesting approach for multiset prediction and compares against many other baselines. The approach seems simple to implement with any software that can compute gradients.  The authors should consider including a discussion on the cicumstances under which the proposed loss approximates well/badly the per step loss for every possible state.

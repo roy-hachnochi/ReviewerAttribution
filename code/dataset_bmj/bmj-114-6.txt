@@ -1,0 +1,71 @@
+This is a well written manuscript presenting the results of a well designed RCT on the
+efficacy of antibiotic treatment in patients with chronic low back pain (LBP) and Modic
+changes. The RCT was prospectively registered and a sample size calculation was performed
+with a between-group difference used also in the results interpretation. The risk of bias of
+this RCT may be low as there was no selection bias, blinding of patients, health professionals
+and assessors, no attrition bias, and no selective reporting. My main comments regard (the
+lack of): a) monitoring compliance to treatment and co-interventions, b) the chosen cut-off
+to determine a between-group clinically important difference. I also have other comments
+for the editors and authors to take into account.
+1) Introduction, second paragraph. I miss (part of) the rationale on why running a new RCT
+on the efficacy of antibiotic treatment in patients with chronic LBP and Modic Changes. This
+may seem obvious to the authors but not to the readers. Why were the conclusions of the
+previously RCT "questioned"? How was its methodological quality/risk of bias? Is the AIM
+study trying to replicate the previously published trial?
+2) Introduction, last paragraph. The previous published RCT included only patients with type
+I Modic Changes. Why is the AIM study including both type I and type II? I believe this
+should be included in the introduction/rationale for running this new RCT.
+
+3) Methods. I could not find any information on whether compliance in each RCT arm was
+evaluated and if there were any between-group differences. If no compliance was monitored,
+this should be added as a limitation of this study.
+4) Methods. "Included patients were recommended not to start additional treatments for
+back pain but were allowed to continue ongoing therapy. They were encouraged not to use
+NSAIDs during the intervention period." Were co-interventions monitored during the trial?
+Since I could not find information in the results section, I would encourage the authors to
+report some information if co-interventions were monitored. If co-interventions were not
+monitored, this should probably be added as a limitation of this study.
+5) Methods and results. "To confirm MCs seen on a clinical MRI available at screening,
+baseline MRI was performed at median 22 days before treatment (...)". I wonder whether a
+disk herniation (inclusion criterion) was confirmed for all the patients included in the trial as
+this information is not reported in the results.
+6) Statistical analysis. The authors adopted multiple imputation to accound for missing data
+on the primary outcome and perform intention-to-treat analysis. However, to my knowledge,
+intention-to-treat analysis does not have to do with missing data, as patients who have
+missing data do not necessarily change the trial arm that they are randomized to (ITT
+principle). Therefore, I was wondering if this approach is correct and a statistical advisor
+may be better suited than me to evaluate this aspect.
+7) Statistical analysis. The authors performed linear-mixed models which have the
+assumption that regression residuals should be normally distributed. This is not always the
+case when using ordinal outcomes such as pain intensity in patients with LBP, therefore I
+would encourage the authors to report if this basic assumption of linear regression was met
+for all the outcomes.
+8) Statistical analysis, minimal important between-group difference. I checked in the
+protocol why the authors decided for a "clinically important between-group mean difference
+of 4 RMDQ points" and, since this is fundamental information for the interpretability of this
+RCT, I would report it in this manuscript as well. As claimed by the authors, there is indeed
+no evidence supporting the chosen 4-point between-group difference, although it is larger
+than the primary outcome measurement error which is useful information. Considering this
+RCT RMDQ baseline mean values, 4 points correspond to about a 30% extra-improvement in
+the antiobiotics group as compared to the placebo group. The only data we have on
+medications in patients with chronic LBP suggest that patients expect a 30%
+extra-improvement if taking NSAIDs as compared to no intervention (Ferreira 2013 J Clin
+Epidemiol). This data is very much in line with the chosen cut-off, but the medication is
+different (antibiotics vs NSAIDs) and the control group is different (placebo vs no
+intervention). It would be important to further discuss the chosen 4-point clinically important
+between-group difference in the discussion.
+9) Exploratory subgroup analysis Modic Changes type I vs type II. The results show a
+(small?) effect for type I Modic Changes but not for type II. These results are more in line
+with the already published RCT, although the magnitude of effect is substantially different
+between the two RCTs. How could the differences in the two RCTs results be explained?
+10) Adverse events. The number of patients experiencing an adverse event in the placebo
+group (34%) is rather high for a placebo intervention. This could also be mentioned and
+explained in the discussion.
+11) Bang blinding index. The between-group difference on this index is remarkable and, in
+my opinion, may be the major threat to the validity of this RCT. Especially if this potential
+bias of performance is added to the potential bias of performance related to the lack of
+monitoring of treatment compliance and co-interventions (see my points 3 and 4). The
+authors acknowledge this as a limitation but I would argue that this may be the major
+limitation of this RCT, which may the major threat to the reliability of this RCT effect
+estimates.
+11) Discussion, second limitation. Should "overpowered" be "underpowered"?

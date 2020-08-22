@@ -1,0 +1,175 @@
+Title: Egg Consumption and Risk of Cardiovascular Disease:
+Findings from Three Large Prospective US Cohort Studies and an Updated Meta-Analysis
+Manuscript ID BMJ-2019-050974
+Overall comments:
+First, reviewers generally expect a 10-page manuscript and a few tables and figures when
+they agree to conduct a peer review for a journal. So, I was surprised that the request
+actually involved reviewing a document over 60 pages long. Although I received an
+extension for my review, this is of little help given my holiday schedule.
+The manuscript represents both an analysis of three prospective cohorts and a
+meta-analyses of existing studies evaluating egg consumption and incident cardiovascular
+disease risk. My overall impression is that the paper was trying to do too much and that
+important details were therefore missing. One idea would be to divide the manuscript into
+two papers. Regardless, the article requires considerable revisions. Given my time
+demands, I primarily focus on the first component of the paper involving analyses of the
+Nurses Health Study (I and II) and the Health Professionals’ Follow-up Study.
+Summary of review:
+
+The authors did an extensive amount of work and provide a well-written manuscript. I
+believe with a thorough revision, the manuscript would provide a valuable assessment of egg
+consumption and it’s role in CVD. The authors should focus on 1) providing greater clarity in
+terms of the analyses, 2) issues of time varying covariates, 3) approaches for handling
+intermediaries in supplemental analyses, 4) the context of egg consumption and the extent
+to which egg consumption contributed to total cholesterol intake, and 5) consideration of
+separating the material into 2 papers. The revisions are potentially time consuming and
+therefore, I recommend rejection of the manuscript in it’s current form.
+
+1. Introduction: Fine as is. However, AHA recommends eggs as a healthy cheap food under
+1 dollar for a serving on their website. Also, climate scientists say that eggs are more
+environmentally sustainable source of protein than beef, etc. It is possible that the
+introduction could be more modern in terms of the relevance of evaluating eggs. Further,
+these issues provide another rationale for evaluating the egg substitution analyses (eggs vs.
+red meat, etc).
+2. Introduction: Line 18. Text states that it is important to consider multiple measures of
+diet and lifestyle in analyses. As I look through the methods and results and tables, it
+seems that multiple measures of diet were averaged (eggs, calories, etc), but there is no
+text about the other covariates. See further comments on this theme below.
+3. Methods
+a. Description of population: o.k.
+b. Exclusion criteria: o.k.
+c. Outcome variables: adequately defined and o.k. We would anticipate, however,
+considerable increases in case ascertainment in recent decade with use of troponins and
+other diagnostic changes. The study represents 32 years of observation. Perhaps best to
+mention this in the discussion section in terms of limitations/challenges. I see later that
+calendar time was used in the analyses and this is appropriate given the changes in case
+ascertainment by time.
+d. “To reduce within-person variation and represent long-term diet, we computed cumulative
+averages of dietary variables, including egg intake, from all available FFQs up to the
+beginning of a follow-up period.” What is meant here by “up to the beginning of a follow-up
+period”? When was this? Do you mean all available FFQs until the end of the follow-up
+period, censoring, diagnoses or death due to outcomes of interests?
+e. Eggs: Eggs eaten separately from other foods meaning the eggs were not mixed in with
+other items as in a lasagna, cakes, breads, etc. But, bacon and eggs and omelets would
+provide a count for egg consumption? What percent of total egg consumption is eggs eaten
+separately from other foods? Did the FFQ and the 7-day dietary assessment evaluate this?
+Were data available on cooking methods: boiled, fried?
+f. Covariates: Not clear where the lifestyle variables come from given the multiple
+assessments in the NHS, NHSII, and HPFS. This creates confusion when trying to interpret
+the tables. Also, page 10, lines 4-8. The text regarding “updated” characteristics are these
+the characteristics presented in table 1? The text should state from what years came the
+updated characteristics.
+g. Analysis: Cancer deaths would be a competing risk to the CVD events. Did the authors
+consider a competing risk model? Did the authors consider time varying covariates as an
+alternative analytic approach?
+h. Page 10, lines 15-17. “We additionally evaluated associations by stopping updating diet
+after diagnosis of T2D, hypertension, high blood cholesterol, angina, coronary artery bypass
+graft (CABG), or the beginning of statin use”. When we consider the atherosclerotic process
+some of these “intermediaries” are actually nice outcomes.
+4. Results
+a. There are large discrepancies in numbers presented. In the abstract and methods text, it
+is clearly stated that the analyses included 83,383 women in NHS (I), 90,214 women in NHS
+II, and 42,055 men in HPFS. In the methods text, the authors state that baseline was 1980
+
+for NHS, 1991 for NHS II, and 1986 for HPFS. But, in Table 1, the number of participants in
+these 3 cohorts by egg consumption levels is vastly lower (20,620, 25,698, and 14,650, for
+the NHS, NHS II, and the HPFS, respectively). Also, the data in table 1 are of characteristics
+assessed in 1998/1999 and not at the baseline of the three cohorts. There is no text in the
+methods section to help the reader anticipate the presentation of the 1998/1999 data.
+Usually, studies present the baseline characteristics of a cohort. If additional follow-up
+assessments are available, then of course it is appropriate to present these characteristics
+too, or a change in characteristic from the baseline values. These discrepancies and lack of
+details makes it difficult to follow the analytic choices made.
+b. Similarly, in the results section, the authors refer to a mid-point in the follow-up period
+but this concept is not presented in the methods. Given the numbers in table 1, I am
+wondering if the data presented in table 2 when all the covariates are added actually include
+the full sample size or the subsample sizes presented in Table 1? The methods text needs
+greater clarity.
+c. Table 1. It would be worthwhile to present the % E from protein, carbohydrate, total fat,
+and saturated fat by egg consumption level. As the main issue of concern is cholesterol,
+saturated fat intake would be very important to describe relative to egg intake levels.
+d. Trans-fat intake estimates would also be worthwhile to present in Table 1. This variable
+would change markedly over time. It was curious that it was not mentioned at all in the
+manuscript.
+e. The cholesterol intake for the highest egg consumption group in mg/day is 581 for NHS,
+513 for NHS II, and 604 for HPFS (Table 1). At 1 egg a day, we would expect a chol intake
+of about 165 mg/day. It would be helpful to list in the top row of the table the mean (SD) or
+median (IQR) of egg consumption/day for each of the 3 egg consumption groups. This will
+provide the reader with a better appreciation of the anticipated contribution of egg intake to
+total cholesterol intake. Given how low the mean egg intake is for the 3 cohorts as reported
+in the results section, the top category of >=1 egg a day likely reflects a very low mean egg
+intake –perhaps 1.2 eggs/day, or 198 mg/day of cholesterol from eggs? For the NHS
+participants then, the egg cholesterol intake is about 34% of the total cholesterol intake?
+More details are needed in the table and text so that the relevance and interpretation of
+findings can be clearer. It would be good to state in the results section the % of the 3
+cohorts consuming < 1 egg/day, 1 egg, 2 eggs and 3 eggs/day for interpreting the analyses
+on 1 egg per day increases in egg consumption.
+f. The result text regarding the data in table 1 does not mention the strikingly high
+prevalence of statin use in the low egg consumers in 2 of the 3 cohorts. The statin use
+distribution by egg consumption level is a strong indicator of the presence of reverse
+causation.
+g. Table 2. The pooled HR for model 1 is based upon sex stratified not cohort stratified
+analyses. As the amount of eggs consumed and as important covariates such as statin use
+differed between NHS and NHSII (at least based on table 1), it would likely have been more
+appropriate to stratify by the 3 cohorts rather than just by sex (NHS and NHSII vs. HPFS).
+h. Table 2 model 1. Calendar time in the footnote needs to be defined.
+i. Statin use and how to handle it in analyses needs more clarification or potentially an
+additional alternative approach. Statin use is a potential intermediary between diet-based
+cholesterol problems and the outcomes of interest. Statin use likely overlaps with many of
+the other intermediaries. But, contrary to most intermediates, statin use would subsequently
+reduce future risk of the outcomes of interest. We do see that the authors conduct a
+supplemental analyses where they censor egg consumption data to information prior to
+statin use. But, these analyses could be further stratified by statin use (yes vs. no). In
+Supplement Table 5, the authors stratify by statin use but it is not clear if the egg
+consumption data here are censored or not.
+j. Table 2, model 2 and 3. Where do the covariates come from? The methods text and
+footnotes to the table need to be clearer. For example for smoking (never, former, current),
+physical activity, family history of MI, etc. are these from the baseline evaluation or the
+mid-point discussed in the results and most likely that presented in table 1? We would
+anticipate decreases in smoking over time how was this accounted for in the analyses? It
+truly is not clear where the covariates come from in the time sequence from baseline to
+
+event occurrence. For example (Page 14, lines 18-20), the authors state “After accounting
+for lifestyle and dietary characteristics associated with egg intake, this association was
+attenuated and remained non-significant” Do the authors mean lifestyle and dietary
+characteristics presented in table 1 or did they use other data? Footnotes need to define the
+variables. For example, what is meant by baseline high blood cholesterol? Is this total serum
+cholesterol and what cut-off was used in the analyses?
+k. The sample sizes for table 2 for each of the three models and three outcomes could be
+added as a footnote if they vary greatly.
+l. Supplement table 5. I like this table and think it should stay in the manuscript, but given
+how low the egg consumption is for the majority of the categories presented, I think this
+table could simply present the same 3 categories as those presented in the manuscript.
+m. Supplement tables 1-4. The egg consumption levels are so low that the egg contribution
+to total dietary cholesterol is so negligible that it is not really worthwhile evaluating (in my
+opinion). I think the 3-category egg consumption approach is more worthwhile.
+n. Substitution analyses. Interesting findings. Overall model seems fine, but again, I believe
+the substitution analyses should be repeated in several sensitivity analyses especially given
+the high statin use among the low egg consumers…T2D could also be evaluated.
+5. Discussion
+a. About subanalyses of T2D: “such that one egg per day increase among participants with
+T2D was associated with a higher HR for CVD compared with participants without T2D (HR
+for one egg per day increase among individuals with T2D 1.13, 95% CI 0.99 to 1.29; HR for
+one egg per day increase among individuals free of T2D 0.96, 95% CI 0.90 to 1.03).” I think
+we need to be careful in the discussion section as eggs could represent boiled eggs or fried
+eggs and therefore a considerable source of fat. Does the FFQ enable the authors to look at
+cooking methods and cooking fat sources or added bacon/sausages (sources of saturated
+fat, sodium, nitrates)? Maybe it is not the cholesterol in the eggs but the added fats
+associated with cooking that is of a health concern for the individuals with T2D. Is there
+anyway to look at this? If not, the text needs to reflect the complexities of the issue.
+b. The 1 egg per day increase findings need to be interpreted within the context of the
+extent to which the study population consumed more than 1 egg per day.
+c. Meta-analyses: In the meta-analyses the authors find inconsistent associations between
+egg consumption and CVD outcomes between study populations. There was no association
+between egg consumption and CVD in the European and US study populations, while there
+was a protective/inverse association noted for Asian study populations. I did not review this
+aspect of the paper given demands on my time.
+d. Discussion, page 18. The context of egg consumption needs to be discussed. One
+limitation of studies evaluating egg consumption and incident CVD is the lack of control for
+type of cooking and type and amount of added fat. Also, Page 19. In the European context
+there has been greater effort to minimize trans-fat over time. Also, there may be a greater
+frequency of boiling eggs in Europe than of frying eggs as in the US. Perhaps the lower
+heterogeneity among European countries may reflect greater homogeneity in these and
+other diet factors. The findings that egg consumption is protective for CVD in Asian
+populations suggests that the context of egg consumption is perhaps more important than
+the eggs at least at low levels of consumption.
+Hope the Authors find these comments helpful.

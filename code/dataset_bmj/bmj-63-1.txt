@@ -1,0 +1,116 @@
+<strong>Introduction</strong>
+This study uses immediately-accessible mortality and population data from a single small
+town in Italy to estimate the excess mortality due to COVID-19 in March 2020, and
+presents some stark findings about the impact of the virus on the town. Although a simple
+descriptive study, it shows clearly and simply the consequences of this disease. It is a
+well-conducted and simple study of importance to public health planners and should be
+published as soon as possible. I have made some recommendations for improved
+estimation of uncertainty, application of the estimates to a broader national/global
+perspective, and a stronger conclusion. Thank you for the opportunity to read this paper.
+<strong>Major comments</strong>
+<em>Effect of evacuation on population</em>: I have experience analyzing mortality in
+small towns after major events, and one of the key lessons I gained from my own
+experience (in rural Japan after the Great East Japan Earthquake and Tsunami) is that
+population of small towns can change very rapidly after a major event. Is it possible that
+the population of Nembro changed significantly during February, perhaps immediately
+before the lockdown was implemented? It would be helpful if the authors were to discuss
+this possibility, both in their population estimates and in the discussion. I assume there is
+some media reporting on this that they are aware of, and if so could they do a sensitivity
+analysis to capture the potential effect of this change? Although it is tempting to avoid this
+discussion because it further inflates the numbers, it is important to take into account the
+possibility that the observed deaths occurred in an even smaller risk pool.
+<em>Mortality ascertainment</em>: A question arises about the definition of coronavirus
+death. Countries like UK are considering all corona virus positive deaths as Covid-19
+related deaths regardless of the immediate cause of the death. To simplify this, a
+coronavirus positive person who died of heart attack is also considered a Covid-19 death.
+Thus, the number of deaths that is attributed to Covid-19 could be a result of
+ascertainment bias, a bias which is likely to happen in an epidemic. Could the authors
+clarify how COVID-19 mortality is ascertained in Italy, and how certain we can be that the
+non-COVID deaths really are due to other causes?
+
+<em>Measurement of uncertainty</em>: The number of deaths in this study is small –
+approximately 10 per month in the pre-COVID period – and this naturally leads to large
+uncertainty in estimates of rates. In particular figure 2 would look quite different if
+uncertainty is taken into account. It is not difficult to calculate confidence intervals for the
+number of events in a Poisson process, and to report 95% confidence intervals. Also, and
+relatedly, it would be useful to smooth figure 2 slightly. I recommend the authors calculate
+3 month average mortality rates, using the pooled number of deaths and person-years of
+risk (so that there are approximately 30 deaths in each 3 month period, with
+
+correspondingly narrower 95% Cis). These could be presented as bars and grey areas on
+the figure. This would enable comparison of more stable figures alongside the stark
+changes in the bar chart itself.
+<em>Measurement of increased mortality risk</em>: Alongside this, I think it should be
+quite easy to do a simple calculation of incident rate ratios for each 3 month period relative
+to a baseline, with 95% confidence intervals, using for example a simple Poisson
+regression. This would help to show that the mortality rate is consistently stable in the
+period leading up to the epidemic.
+<em>Calculation of numerical comparators</em>: The results are striking, but the Italian
+epidemic is not finished yet and if anything the paper underestimates the impact of the
+epidemic. I would like to see some comparators prepared (along with uncertainty
+estimates) so that we can understand just how bad the impact of this virus will be. IN
+particular:
+• Extension to April/May: we know that mortality is delayed from infection by a couple of
+weeks, and the epidemic only really began in Italy in early March, so it is reasonable to
+suppose that elevated mortality will continue into April and May. I think the authors should
+do some back of the envelope calculations of the potential increased mortality in April (at
+least) and May (if possible) based on some rough calculations of the number of cases, and
+make a basic projection of the total mortality burden in Nembro (with uncertainty).
+• Annual increase: Based on the average mortality rate in 2019 and the population, the
+authors should be able to estimate the excess deaths that will be observed in 2020 and the
+proportion of these that will be due to COVID-19 (with uncertainty!) Just basic eyeballing
+of Figure 2 suggests that there will be twice as many deaths in 2020 as 2019. That should
+be reported!
+• National or regional extrapolation: Based on an estimate of a rate (with uncertainty) of
+excess mortality, and given that we know the number of recorded deaths of COVID-19 in
+both Nembro and nationally, it should be possible to obtain a crude estimate of the number
+of excess deaths to be expected nationally, and the proportion due to COVID-19 or
+preventable mortality from other causes. It should be possible to then make some broad
+statements about the expected impact globally, assuming similar patterns in most
+developed countries
+<em>A punchier conclusion</em>: Given the impact of this pandemic, and the absolutely
+shocking way in which western governments have failed to deal with it, the conclusion of
+this article is extremely weak. Instead of finishing with a statement about the value of the
+metric they have used, I think the authors should finish with a strong final paragraph about
+the implications of their findings for floundering western governments, and also what it
+tells us in hindsight about the early statements from various political authorities, from
+President Trump to Prime Minister Johnson and various mayors (such as Cuomo in New
+York and Khan in London). Given the devastation that this disease has wrought on small
+towns throughout Italy and Iran, and the likely enormous death toll in other western
+countries, it would be remiss of the authors not to use this opportunity to point out how
+incredibly stupid the early response has been. If the editors or authors are not comfortable
+with editorializing within a research article, then a strongly-worded accompanying
+comment should be considered. It is an absolute scandal that this kind of death has been
+allowed to occur in any rich country, and as public health researchers we should be making
+that point loud and clear in our research articles. I hope the authors will consider adding a
+paragraph to this effect in their conclusions.
+<em>Discussion of the limitations of studies in small towns</em>: Nembro is a small
+town and the average monthly mortality rate is low, leading naturally to concerns about
+both unique local conditions and the possibility of over-estimation of mortality increases
+due to the small size. The authors should add more information on this in the discussion,
+along perhaps with some mitigating factors – is Nembro representative of an Italian town,
+are there any local assessments of the likelihood of its health system being overwhelmed
+
+by any public health emergencies, and how does it compare with other towns and cities in
+the region? Do the authors think the same findings could be expected in a larger Italian
+town, or in a mega-city?
+
+<strong>Minor comments</strong>
+<em>Remove or edit figure 1</em>: I don’t think Figure 1 adds much to the paper, and it
+definitely exaggerates the magnitude of change in the town. Consider modifying it by
+either extending the y-axis, shifting to a log-scale, or remove it altogether (or put as a
+supplementary figure).
+<em>Remove or edit figure 3</em>: I don’t think figure 3 adds much either, and I think
+it is better moved to a supplement or dropped. In any case I recommend using different
+colours to Figure 2, to ensure no confusion between sex categories and covid/non-covid
+categories (but please don’t use blue and pink!)
+<em>Remove early age groups from figure 5</em>: I think it is better to just present the
+later age groups in Figure 4, since the early age groups are just empty space, and their
+inclusion makes all the other graphs hard to read.
+<em>What are the other causes?</em>: I am interested in the breakdown of major
+causes of death in the years before 2020 and in March 2020. What were the major causes
+of excess mortality? Although not immediately useful, this information might help future
+researchers to investigate epidemic preparedness plans. For example, is suicide an
+increased cause in March 2020?
+<strong>Acknowledgement</strong>
+I was supported in preparation of this review by a doctoral student, Ms. Bibha Dhungel

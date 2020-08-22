@@ -1,0 +1,45 @@
+The authors have done a good job in making the paper easier to read. Their key analysis
+change, altering how episodes were identified and constructed, though complex, is well
+described in the Appendix.
+1. Some comments on the Abstract. It refers to 226 BPCI hospitals and 700 control
+hospitals, three times as many, yet their respective numbers of episodes are similar at 261k
+and 211k. It's not clear to me if the mismatch is due to the 20% sample for the control
+hospital data or because the control hospitals are appreciably smaller. It would be good to
+add a phrase explaining the mismatch.
+I would omit the phrase saying there was no difference in the proportions of male patients,
+as the aim of matching is to make them the same, so it's hardly surprising.
+
+The final sentence of the Abstract Conclusions refers to the time needed to see changes, yet
+there is nothing in the Results to support the statement.
+2. I didn't understand the sentence on page 10, "We added index discharge to a skilled
+nursing facility, index discharge with home health services and the total number of skilled
+nursing days post-hoc to better elucidate observed spending effects." Perhaps it's the phrase
+"index discharge" I don't follow.
+3. There are still lots of acronyms e.g. DRG, ACO, MA, PAC etc, which I doubt are necessary.
+Figures 1 and 2 particularly need attention.
+4. I am puzzled by the propensity-score-matched analysis. Usually it is applied to match
+individual index hospitals to one or more control hospitals, yet here it seems to be applied to
+the groups of BPCI hospitals and control hospitals. I don't follow how they are matched as
+groups, and how some control hospitals are included and others excluded. Please explain.
+5. The difference-in-difference model assumes there is a step change in outcome when the
+intervention is introduced in a particular hospital. Yet the abstract conclusion is that the
+change takes years to show itself. So I wonder if the model should be extended to look for
+tapered effects, by including BPCI x time since start of intervention as an interaction term
+along with the BPCI main effect. This could be just a sensitivity analysis, but it seems an
+obvious extension to look at given the conclusion.
+6. What is a quarter-time fixed effect? - is it quarters of a year?
+7. The numbers in the first sentence of the Results do not match those in Table 1. If they are
+thought interesting enough to pull out from the table, perhaps the same should be done for
+the control hospitals.
+8. In Table 2 it would be worth adding the dates for the two periods, to explain why the
+treatment period numbers are much smaller than for baseline.
+9. The differential change in treatment cost is given as $172.4 (page 17). This precision
+strikes me as excessive, particularly given the likely size of the standard error, and I'm
+always keen to minimise digits where appropriate (see my guidelines
+http://adc.bmj.com/cgi/content/full/archdischild-2014-307149). The same applies to
+percentages and p-values. Related to this, the percent changes in Table 3 would be better all
+with one decimal place.
+10. It's odd that Table 3, with its 15 outcomes, gives the unadjusted results, whereas the
+adjusted primary outcome results are restricted to Figures 1, 2 and Appendix Figures 3 and
+4. Surely the adjusted results need presenting in full as well?
+Tim Cole

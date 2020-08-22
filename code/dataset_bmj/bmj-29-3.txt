@@ -1,0 +1,18 @@
+I thank you for the opportunity to review this interesting paper. My comments are listed below:
+1. Propensity score (PS) matching approach is commonly used approach in observational studies and it
+often relies on the assumption that the first stage logistic regression is correctly specified and that the
+PS distributions are adequately balanced. Unfortunately, the approach is so commonly used that often
+balance diagnostics are either overlooked or not reported in many studies. I believe it is important to
+know whether the estimated propensity scores are balanced across the “treated” and the untreated”
+group. I suggest the authors to report the balance distribution plot, Rubin’s B-index ratio, Hotelling’s
+T-squared test statistics and/or F test statistics to ensure that covariate imbalance is adequately
+minimised through PSM.
+2. I am surprised to find that comorbidities are not considered in the matching algorithm. Potentially,
+patients with more comorbidities are associated with higher mortality, hence increases the likelihood of
+receiving palliative care.
+3. For those who were hospitalised, I am curious to know whether the average length of stays (both at
+ICU and medical wards) differ between those who received palliative care compared to those who did
+not, which can have significant health economic implication.
+4. In Tables 1 and 2, weighted standardized difference for baseline characteristics was reported? What is
+weighted standardized difference? Are they weighted by the propensity score? Is the difference
+statistically significant?

@@ -1,0 +1,1 @@
+This paper is well presented, and it also has a theoretical justification of the sample efficiency.   Main questions:  - How did you set the parameter \phi in Alg. 2?  which was not presented in line 8 of Alg. 1?  - From theorem 1, the sample efficiency depends on |A|^4. Is it possible to improve the algorithm such that it can  also handle large/infinite action spaces?  

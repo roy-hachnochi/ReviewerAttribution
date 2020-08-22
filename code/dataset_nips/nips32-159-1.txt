@@ -1,0 +1,1 @@
+Self-supervised learning is an interesting topic to work on. This paper presents several constraints/losses to regularize the training of deep nets, including region-level localization, concentration regularization, and orthogonal regularization. The experimental results show that the proposed method outperforms the main competing baseline [49] (a CVPR'19 paper).

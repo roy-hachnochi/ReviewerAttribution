@@ -1,0 +1,66 @@
+I thank the team behind the article " Data sharing practices of medicines-related apps and
+the mobile ecosystem" for an interesting and valuable research study, which points toward
+crucial areas for discussion regarding safety and privacy concerns, which also in the light of
+this article may need future standardization in the area of mHealth. While the articles finding
+are important for the broader public, its technical nature makes it a little hard to read for
+people like me that are not really techy´s. So I have some suggestions and questions that
+could improve the overall article:
+Design and method:
+1: To my understanding looking at Figure 1, you searched for a total of 821 apps, yet I
+would be a little more specific in both the methods section and also limitations about the
+massive exclusions of apps based on the names. Please explain a little further, not at least in
+your limitations regarding the generalization of your findings ( most likely its even more
+privacy issues in the excluded apps, or maybe do a drop-out analysis of some apps just for
+referenc.)
+2: Exclusion criteria: Please define limited interactivity and also country/company specific. I
+especially don't get the country-specific exclusion.
+
+3: The division between professional and consumer apps: Here I would suggest to at least
+divide or discuss the potential difference in data collected and shared. In my world, the apps
+for professionals and consumers are quite different.
+3b: Regarding the division between consumer and professional, did you still randomise your
+personas ( 2 professionals and 2 patients) irrespective the app's target regarding
+professional or consumer users? If not, please make it clearer and also include a possible
+discussion concerning this. If yes, I would be interested if sharing patterns differ between
+professionals and consumer apps.
+4: You looked at privacy settings before and after GDPR regulations implementations, yet
+don't mention any discrepancies if found. Please revise.
+5: Entities: I would suggest a figure or flowchart regarding your different levels of entities
+and vendors. To my understanding, you have 55 unique entities in the primary analysis, yet
+I'm not sure if the fourth level (n:216) are different entities or if you in total have 216
+entities (abstract). Yet in the section regarding fourth party sharing, you talk about 238
+entities.
+6: Privacy policy: Over 92% have a privacy policy, yet I would like to know if you have done
+some sort of analysis about how the policy is reflected in the actual app sharing process
+toward for example third parties. As such, it would also be interesting to understand if app
+permission set by Google is the same as the privacy policy of the app.
+Statistics:
+5: Your data seems highly sceewed do to the fact that the biggest companies ( Google,
+Microsoft etc) are also the entities that share most. So even if you state IQR, its a little
+tricky. I wonder what would happen if you exclude Google and its services for app
+optimization and infrastructure as such in an analysis for example? This is also important
+because you state that apps with more users share more.
+6: Data sharing practices: to my understanding only 17 out of 24 apps transmitted user data
+outside the app, yet in the last sentence of that section you mentioned 19 out of 24 apps
+that share data? What's the difference.
+6B: If only 17 or 19 apps ( depending on your answer above) shared data, isn't your primary
+population 17 or 19 apps and not 24 apps? Please revise or elaborate further.
+6C: I'm not totally convinced regarding your statement that apps with a higher number of
+downloads tend to share more. If I look at table 3 it's quite a spread, in particular when
+looking at the percentage in recipients regarding infrastructure vs analysis.
+Results:
+7: Minor: Figures are missing or at least do not have headings ( figure 2 and 3) . You also
+need to refer better to the figures in the text, not at least in the fourth party sharing section
+and the traffic analysis.
+8: A system view on privacy: Here I would like to suggest an example where you use one of
+your personas and for example 2 entities ( Google and a smaller entity) to exemplify how
+easy it would be to identify the patient. I think this would be a good way to show how easy
+and in what way you could identify a user.
+Conclusion
+9: Minor revision: I would opt to delete the first sentence, which is more of a discussion topic
+rather than a conclusion.
+
+Minor edit: Please revise the reference style for reference 6 in the sentence starting with:
+For example, drug information and clinical decision support apps.....
+PS: I'm sorry but I'm not able to refer to lines in the text because my PDF reader doesn't
+support that function:

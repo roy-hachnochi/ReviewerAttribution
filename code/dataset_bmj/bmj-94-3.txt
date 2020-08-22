@@ -1,0 +1,104 @@
+The use of routine healthcare data to inform our practice is an important and topical area in
+clinical medicine. Here Dr Kaura and colleagues have utilized routine data from five
+cardiovascular centres participating in the UK National Institute for Health Research
+Informatics Collaborative to evaluate the association between cardiac troponin and all-cause
+mortality in a quarter of a million consecutive patients undergoing testing. This is to my
+knowledge the largest evaluation of the relationship between cardiac troponin and outcomes
+performed to date. There were 55,890 (21.7%) deaths over an average of 3 years of follow
+up. As a range of assays were used across participating hospitals troponin concentrations
+were standardized for reporting as multiples of the upper reference limit. An elevated
+troponin was associated with a 3.2-fold higher risk of death and a 15% absolute excess in
+mortality across all age groups. The authors explore the influence of age, diagnosis and
+revascularisation on this relationship with some interesting observations. They conclude that
+any elevation in cardiac troponin should be taken seriously, and that their findings should
+inform clinical practice and risk stratification algorithms.
+The use of routine healthcare data to inform our practice is a topical and exciting area of
+medicine. This analysis is a very important contribution and the data are fascinating, but I
+would ask that the authors consider the following points to ensure that their interpretation is
+correct and the message for the readers is clear.
+Major comments
+1. The authors have adopted a pragmatic approach to identifying the intended study
+population: troponin measured and admission to hospital to obtain an ICD-10 coded
+diagnosis. Whilst this reflects clinical practice and the use of the test in UK hospitals during
+
+that period, there are two possible sources of selection bias that require clarification or merit
+discussion.
+a) Does this analysis include patients attending the emergency department or medical
+assessment unit who are discharged directly without hospital admission? With the
+introduction of high-sensitivity troponin testing this represents a substantial proportion of
+patients undergoing troponin testing, and up to 50% in some centres. These patients are
+likely to be at low risk of subsequent death, and therefore if they are not included you may
+underestimate the excess in mortality associated with having an elevated troponin
+concentration.
+b) Second, clinicians perform troponin testing widely in patients with syncope, palpitations,
+collapse, and breathlessness where they do not suspect acute coronary syndrome, and
+mortality in these patients is higher as we do not have evidence based care pathways. The
+broad inclusion criteria is a both a strength and a limitation, that needs to be acknowledged,
+and the authors should consider whether it is appropriate to refer to this dataset as a
+“longitudinal record for patients with a suspected acute coronary syndrome” (page 9, lines
+38-40).
+2. The relationship between a positive troponin and the timing of subsequent death differs
+substantially by age, and merits further analysis or discussion (Figure 2). In patients 18-39
+years of age almost all deaths occur during the index presentation, with a positive troponin
+not associated with subsequent death over the following 3 years. In contrast, for patients
+>80 years a positive troponin is associated with an increasing risk of death over each year of
+follow up. This could be explored further by performing a landmark analysis restricted to
+those individuals who survive to discharge from the index presentation or if this data is not
+available a defined period (e.g. 3 months) could be used. I am not aware of any previous
+data illustrating this and the observation has clinical implications, that are not discussed in
+full (page 18, lines 58-60, page 19, lines 3-17). It would be useful to highlight in the
+discussion that the clinical consequences of an elevated troponin differ by age - in younger
+patients it is most likely to reflect an acute illness, where if you survive the outlook is
+excellent. In older patients elevated troponin concentrations are as likely to reflect the
+long-term risk of having chronic myocardial injury due to structural heart disease or renal
+failure and confer important prognostic information beyond the acute presentation. The
+hazard ratio by age group reported in Figure 2A would likely look completely different if
+restricted to those who survive to 3 months.
+3. The relationship between troponin concentration stratified into bands (1 x ULN to 1000 x
+ULN) and mortality is more complex, and there are alternative explanations for the
+observation that patients with higher troponin concentrations had lower event rates at 3
+years (Figure 3). I am not convinced that the lower mortality observed in those with the
+highest troponin concentrations is a consequence of revascularisation (page 16, line 14-15).
+An analysis reporting the hazard ratio for mortality by troponin concentration as a
+continuous measure in those with a diagnosis of acute coronary syndrome, stratified by
+revascularisation and adjusted for differences in case mix is required to support this
+statement. More likely it reflects better outcomes in patients with ST-segment elevation
+myocardial infarction (STEMI), who have very high peak troponin concentrations, more early
+deaths, but lower overall mortality than patients with non-STEMI, heart failure or renal
+failure. Ideally the analysis reported in Figure 3 would be reported separately for those with
+and without acute coronary syndrome, and in the former stratified by type of acute coronary
+syndrome (if these data were available).
+4. The models reported in Figure 4A & 4B and Figure 5B are incongruous. In Figure 4 the
+relationship between troponin concentration and death is an inverted U-shape in all patients,
+with those who had the highest troponin concentrations having the lowest risk. In Figure 5
+(and Supplementary Figure 3), the relationship between troponin concentration and death is
+non-linear (exponential) in both those with and without revascularisation (and acute
+
+coronary syndrome diagnosis), with those who had the highest troponin concentrations in
+both groups at the highest risk of death. The authors conclude that by grouping patients
+according to diagnosis or revascularisation status the inverted U-shaped relations is fully
+resolved (page 19, lines 38-40). I disagree, and would suggest these differences are entirely
+due to the use of a different referent group and splines (undetectable troponin in Figure 4
+and the ULN in Figure 5?). Further detail is required to resolve this and review by a
+statistician prior to publication.
+5. Figure 5 is interesting in that it provides insight into the different approaches in clinical
+practice to revascularisation by troponin concentration, but could perhaps be improved. A
+second plot to complement Panel A illustrating the use of coronary angiography by troponin
+concentration would provide insights into whether patients with small troponin elevations are
+being under investigated. This was a pre-specified secondary outcome measure, and
+reporting might help to explain the somewhat unexpected observation that the highest risk
+of death is in patients with small increases in troponin (5-10 x ULN) discussed above. As
+previously mentioned, Panel B would be more informative and provide insights into the effect
+of revascularisation on outcome if restricted to patients with an index diagnosis of acute
+coronary syndrome and adjusted for age, gender, haemoglobin, and creatinine. Panel C is
+less informative and likely reflects errors in coding for acute coronary syndrome or the
+position of that code in the hospital episode statistics, and could be removed.
+Minor comments
+1. The abstract contains results and interpretation that are not central to the key message
+from the analysis, and this could be simplified. In particular the descriptive text on the
+U-shaped curve and speculation on why this relationship was observed is better placed in the
+discussion section.
+2. In the main manuscript the baseline characteristics should be reported for all patients,
+and for those who were troponin “negative” and “positive” given the primary purpose of the
+analysis was to compare outcomes between these groups. The proportion with missing data
+can be reported in the supplement.

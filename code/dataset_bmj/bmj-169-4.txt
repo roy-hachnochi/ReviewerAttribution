@@ -1,0 +1,70 @@
+Stats Review BMJ51219
+This article presents an analysis based on electronic health records from the Veterans Health
+Administration. The focus is to examine the risk of overdose or suicide-related mortality
+(composite) associated with opioid cessation and in particular the impact that the VHA opioid
+safety initiatives (OSI) have had on this risk. To achieve this, they obtained data from two
+cohorts (FY2010 and FY2013) which provide them information before and after OSI was
+implemented. The topic is very important at the data relevant and unique. However there
+are significant issues regarding the focus of the paper, the methods used and the reporting
+of the methods used. These are stated below:
+• Focus: the aims and conclusions do not match up. The general aim was a comparison of
+the new safety initiatives (OSI) established in 2013 to determine if these had any impact
+reducing/increasing risk of overdose or suicide-related mortality. Based on the currently
+reported estimates, the guidance appears to have increased the risk. This has not been
+highlighted in the Discussion which instead focuses on the risk after cessation and after
+initiation (more about these below). Having said the above, there is no formal comparison
+of the two risks (these are presented individually for each cohort), which seems to me not to
+
+answer the initially proposed question. This formal comparison should be carried out,
+possibly as part of a full model.
+• The way the cohorts were created is particularly difficult to follow. We need more clarity
+regarding:
+o The type of opioid prescription should have a substantial impact on risk. Stratified
+analysis and comparison (across Cohorts) would be required to address this issue. The use
+of opioids appear to vary by cohorts and presenting separate estimate prevents adequate
+direct comparison.
+o The average length of an opioid prescription. The authors have partially included this as
+part of their prescription episode definition but it is unclear if this definition is adequate given
+that there is no information on the number of days an average prescription would cover.
+Also, it is not reported if this is consistent in both cohorts.
+o The start of follow-up. The duration of prescription episode is likely to be an important
+covariate and this has not been included in the analysis. This needs to be reported as part of
+the patient characteristics. If possible using a Figure for the distribution of this variable
+(could be as part of a supplementary material).
+o The Index date which appears to vary depending on the type of analysis. A clear
+definition is required, ideally supported by a diagram/figure.
+o The possibility that individuals might appear in both cohorts. This needs to be discussed
+and quantified. A sensitivity analysis excluding these people should be carried out.
+o Is it possible that individuals within the same cohort go from ‘users’ to ‘cessation’ to
+‘users’ again? If so, how was this treated?
+o With regards to ‘cessation’, is it possible to identify if the OSI was used in these cases. If
+not, then it is unclear how the current analysis is actually evaluating these initiatives. Should
+be at least an important Limitation.
+• The use of Cox models with time-varying covariates appears to me adequate to deal with
+the issue of immortal time bias, but this needs to be reported more clearly. Please provide
+further information about which covariates were used and how the time-dependent covariate
+was created and incorporated, to address issues such as avoiding immortal time bias. In
+particular, what information was used for the ‘continuation group’ for this time-dependent
+covariate (if any). Please also provide evidence that relevant assumptions for these models
+are adequate.
+• Related to the above, I believe that the approach taken for the Life Tables is not correct for
+the ‘continuation group’. These are treated (and labelled) as ‘initiation’, while in reality the
+exposure has been experienced much before the date used as index. If it is a repeat
+prescription, the risk is NOT due to the treatment. The time of exposure should be taken
+from the moment the prescription episode started (possibly up to 5 years back). To be
+consistent with this analysis, this initiation risks should also include those in the cessation
+group (at the time of initiation).
+• It is possible that there is an increase risk every time that a change in prescription is
+meant to occur and is exacerbated if it doesn’t occur (cessation). In order to evaluate if the
+increase in risk is specific to opioids, a similar analysis based on a ‘negative control’ would be
+required to check if the risk of suicide/overdose is similar in both years (regardless of
+opioids). As stated above, this seems to diverge from the original aim although it is the
+main element of the Discussion section (vulnerability during important life changes).
+• The exclusion of missing data could impact significantly on your findings as the missing
+rate is different for each one of the cohorts. Imputation methods might be required to
+account for this. Current approach of ‘complete case analysis’ is likely to provide bias
+comparisons.
+
+• The use of a composite outcome is valid only in certain scenarios. Please report separately
+suicides and overdose episodes to verify similarities in risk magnitude and direction (this
+could be included as part of a supplement).

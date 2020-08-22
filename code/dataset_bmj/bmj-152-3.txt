@@ -1,0 +1,40 @@
+This study is a multi-national study of the association between ambient ground-level ozone
+pollution and mortality. While there have been many smaller-scale studies of this
+association in different countries, this study will have high impact in its field as the use of
+the same methods to estimate these associations across so many cities and countries
+
+allows a clearer picture of similarities and differences in these associations. Further, the
+large sample size provided by this study allows for the investigation of a number of
+patterns like non-linearity that it would be difficult to study with a smaller study
+population. The statistical methods applied are all appropriate, and the main developers of
+these statistical methods are co-authors on this paper, adding confidence that they are
+appropriately applied. The supplemental material is well-used to provide important
+additional information and results to help in assessing the main manuscript.
+Major comments:
+- The supplemental text notes that in some cities ozone was only available during the
+warm season. However, it is unclear if these cities were excluded from the analysis or if
+they were included, but using only warm-season data. Please clarify this point somewhere.
+The supplement notes that cities were excluded if they had “a high percentage of missing
+values”, but it’s unclear if this also applied in cases where data was missing by design (not
+collected during certain seasons) rather than spuriously.
+- It would be helpful to provide the city-specific estimates from the first level of modeling
+in a large table in the supplement. This would be a useful resource for, for example,
+researchers doing health impacts assessments of specific cities.
+- The lagged analysis shown in eFigure 1 shows some evidence that the initial positive
+association between ozone and mortality is offset to some degree by a later negative
+association. It may be worthwhile to also calculate and present excess mortality impacts
+based on this longer-term period, in addition to those currently presented, which seem to
+be based on the immediate two-day associations.
+- Given that many studies have presented ozone-mortality associations per 10 ppb
+increase, rather than 10 ug/m3, it may be useful to include in the supplement the main
+country-specific estimates for a 10 ppb increase. Further, on page 10, lines 22–25, please
+clarify that all the stated associations from earlier studies were converted to the
+association per 10 ug/m3, not per 10 ppb, increase in ozone if needed to allow for
+comparison with the estimates from this study.
+Minor comments:
+- For multi-page tables in the supplement (eTable 1, for example), it would be helpful to
+include the column headers on each page of the multi-page table.
+- eTable 1 has some asterisks for column names that don’t seem to link to a footnote
+anywhere.
+- The first footnote in Table 2 does not seem to link to anyplace in the table. Should there
+be an asterisk at the end of the header for the first column?
