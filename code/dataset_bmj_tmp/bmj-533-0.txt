@@ -1,0 +1,12 @@
+The authors have generally responded to my earlier comments and the addition of more
+contemporary data has resolved some of the problems and this is a good addition to the
+analysis.
+However, there are still missing data (income and high educational education are missing in
+10% of the cohort, and tumour size in nearly 9% of the cohort, with other much smaller
+missing data for other predictors), and the other have conducted a 'complete-case' analysis by
+omitting those with missing information, therefore I still don't know what the 'final' n used in
+the analyses - it clearly isn't 28220 - but if more than 10% of the cohort are omitted (a nonignorable amount), then should we be concerned? - is there something special about those who
+were omitted? Some sensitivity analyses would be reassuring (i.e. handling the missing data
+more appropriately would be preferable).
+Table 1 is improved by including n, but have n at the top of the column under 'overall',
+'additional treatment' and 'disease specific death' would be helpful.

@@ -1,0 +1,57 @@
+I enjoyed reading the original version of this paper, and it is clear that the authors have put a lot of
+thought and effort into revising and improving it - well done! I particularly think the combination of the
+new Figure 1, and adding a more detailed methodological description in the appendix, have really
+improved the flow of the paper.
+I have only fairly minor comments or suggestions to further improve the paper at this stage. The most
+significant of these is that, whilst I appreciate that the authors have made some revisions to clarify the
+
+focus as being a comparison of SSB and high-sugar snack price increases, there are still some
+inconsistencies. For example, the objective in the abstract talks about 'extending' existing SSB policies,
+suggesting that increased SSB prices are part of the baseline scenario, but the results section and the
+paper itself talk about comparing the price increase for high-sugar snacks with a price increase for SSBs,
+suggesting that the baseline scenario does not include existing SSB price increases. I think there is
+scope to further sharpen this language to make sure it is totally clear what the policy implications of the
+paper are. To that end, if the baseline position is that SSB prices have already increased (as they have),
+would it not make sense to model a 3rd scenario where both SSB and high-sugar snack prices were
+increased (since that seems to be the most likely scenario in real life)? This would be particularly useful
+in seeing whether there is some form of multiplicative effect where increasing both at once is better than
+either individually, or perhaps the gain is sub-additive, meaning that the combination is worse than the
+combined effects of each individually. This would be very useful information to inform policy decisions in
+this area, I would have thought.
+On a slightly related note, the authors have clarified that the effect of a high-sugar snack tax on health
+inequalities is something the paper wants to explore, which is great, even if the results are a little bit
+mixed. But if this is a focus of the paper, then I'd really like to see some reference to existing literature
+about this - what do we know about the inequality impacts of SSB price rises? Also, some discussion of
+the relative effects of the modelled SSB and high-sugar snack policies on inequalities would be nice. It
+looks to me as though the high-sugar snack approach has a bigger effect overall, but an SSB tax has a
+slightly more favourable inequality profile in its effects. It would be nice to see this acknowledged or
+discussed to some extent.
+A few other, minor points:
+The last sentence of the results section of the abstract talks about 'the effect size', but it's ambiguous
+what outcome this is referring to. You cannot reduce obesity prevalence in a non-overweight household!
+The Introduction section mentioned puddings/deserts a couple of times alongside the high-sugar snacks
+which the paper is concerned with. This risks being a little misleading, since they aren't obviously
+snacks, and I don't think they are included in the analysis.
+The 1st paragraph of the methods section has some new text around 'linear effects' which, while the
+point being made is perfectly valid, could be clearer. But ultimately, I think this issue of passthrough is a
+bit of a red herring. The analysis is concerned with the impact of a 20% *price* increase, and this is
+what has been modelled. Passthrough rates relate to how a policy is converted into a price change faced
+by consumers. While the issue of what policy is required to achieve a 20% price change is an important
+one for policy makers, I would be inclined to just concentrate the methods section on describing the
+price change, and leave any discussion of passthrough and the implications of less than full passthrough
+rates to the discussion section.
+For ease of interpretation, it might be better just to join the arrows coming out of the 'Change in calories
+consumed through high-sugar snacks' and 'Change in calories consumed through other food groups'
+boxes, rather than using the Sigma to indicate addition as it stands.
+The description of the approach to uncertainty is also still a little unclear to me. There are three separate
+sections, one talking about CIs of changes in energy purchases being constructed from elasticities, and
+two talking about Monte Carlo simulation. It's not obvious to me how these things relate to each other are they describing three separate process to generate estimates of overall uncertainty, or are they
+three ways of describing different aspects of the same process? I think this could be handled better perhaps have a single section describing the approach to uncertainty?
+Finally, whilst the exclusion of snacks purchased and consumed outside the home is an important
+limitation of the study, I wonder if its importance is overstated. Does the exclusion of some products
+that would be affected by the policy not imply that the estimates of effect presented in the paper are
+conservative? It is true that the implications for the inequality impacts are less clear, as some groups
+
+may purchase more out of home snacks than others, but overall this is a question of differential
+underestimation of the full effect of the policy across subgroups, rather than a bias of uncertain
+directional of effect, is it not?

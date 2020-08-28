@@ -1,0 +1,10 @@
+The authors have provided useful clarifications; this has improved the manuscript. I still have some concerns on the how
+cases and controls were matched. From my understanding of the authors' response to my initial comment, it appears
+that cases and controls were matched on calendar date and not duration of follow-up. This leaves the door open to some
+biases, as it is possible that the "look-back period" was different between cases and controls. This bias can either
+underestimate or overestimate the point estimate. For example, if the look-back period is shorter in cases than in
+controls, then the controls would have a greater opportunity of being exposed (in the presence of a true association, the
+point estimate would be biased downwards). Conversely, if the look-back period is longer in cases than in controls, it
+would lead to an overestimate of the association. Because the selection of controls is random, it is not possible to predict
+the which direction in which the point estimate will be biased. This bias can be easily prevented by using duration of
+follow-up as the underlying time axis versus calendar time.

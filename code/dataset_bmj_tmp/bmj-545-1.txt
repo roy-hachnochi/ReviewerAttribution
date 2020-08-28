@@ -1,0 +1,39 @@
+The investigators explore the potential drug interaction between tamoxifen and some SSRIs using a vast amount of data
+from 5 US healthcare databases. This is an important topic.
+They identified an inception cohort of women treated with tamoxifen, and created two cohorts: women who commenced
+an SSRI during the course of tamoxifen therapy, and women who commenced tamoxifen while already receiving an
+SSRI. SSRIs were dichotomized into CYP2D6 inhibitors and non-inhibitors, reasoning that the former are more likely to
+interfere with the bioactivation of tamoxifen.
+The manuscript is well written and succinct.
+Some of my concerns include:
+- The dichotomization of SSRIs as either CYP2D6 inhibitors or not is faulty. For example, duloxetine and sertraline
+exhibit nontrivial inhibition of 2D6 (see PMID 12621382 and 9284850)
+- The rationale for using all-cause mortality is not clear, and by design it seriously weakens the ability of this study to
+identify a signal. In this age group, competing mortality is a very serious concern. Do the investigators have the ability
+to examine deaths related to breast cancer?
+- I am surprised by the relatively small size of the cohort given the massive datasets and long study interval. Perhaps
+there is an explanation for this I have missed.
+- The reference to an ITT analysis (page 6) is unusual in that ITT analyses are intended to maintain the integrity of the
+randomization process in an RCT. There is no randomization here.
+- While propensity score matching no doubt improved the balance in Table 1, I'm not certain it was essential (patients
+treated with different SSRIs are, with a few exceptions, unlikely to be very different).
+- Fluoxetine and paroxetine were on the North American market earlier than many of the SSRIs in the non-2D6 inhibiting
+group. This introduces the possibility of temporal confounding (although I suspect this would operate to exaggerate any
+differences between groups, assuming the care of breast cancer patients has improved over the past 20 years.) How the
+investigators considered 'vintage' in their design or analysis is unclear.
+- I have serious concerns about how SSRI-tamoxifen overlap was analyzed. The risk of harm from this interaction should
+relate to the extent of overlap. Consider, for example, two otherwise comparable women both taking tamoxifen for 5
+years, one of whom takes paroxetine for 3 months and the other for 5 years. Reasons for the differential duration of
+SSRI therapy aside, the latter woman is effectively not taking tamoxifen and more likely to be harmed by this
+interaction, if it is in fact clinically important (as I believe it is.) The investigators' approach to quantifying the degree of
+overlap and its bearing on mortality (which I reiterate is not the optimal outcome) is not at all clear. What is described
+under Sensitivity Analyses (page 8) seems to involve overlaps of 30, 60 and 90 days only. Unless I have misunderstood
+what was done, this doesn't accord this issue the importance it deserves.
+- The interaction between tamoxifen and CYP2D6 inhibitors is unlike most drug interactions in that the clinical
+consequences (other than reduced flushing) are expected to be greatly delayed. As the authors note (p. 14), a mean
+follow-up of 2.4 years is not likely adequate when the outcome is death.
+In summary, I am concerned that the null finding here reflects limitations of the design and analysis rather than the
+absence of an interaction per se. In my view the most serious limitation are 1) the choice of all-cause mortality rather
+than breast cancer mortality as the primary outcome, 2) the inclusion of 2D6-inhibiting SSRIs in the non-inhibitor group,
+and 3) failure to adequately model outcomes as a function of the degree of overlap between tamoxifen and SSRIs. I am
+hopeful that some or all of these modifications are modifiable.

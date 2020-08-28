@@ -1,0 +1,51 @@
+Schjerning Olsen et al conducted a study to examine the effect of using PPI in post-MI patients who are on NSAIDS
+in Denmark.
+It is a clinically interesting study question and the paper is well written in most parts. I have several
+questions/concerns regarding their methods/data:
+First, it is unclear (I don’t think it is specified in the paper at all) how the authors determine the risk window period
+and how they calculated person-years for each exposure status (NSAIDS only, NSAIDs +PPI, and all other
+sensitivity analyses). - Were patients considered at risk of GI bleed only during the ‘active treatment’ -period with
+both drugs? Since NSAIDS are taken often as PRN, how does that affect the study results? Would some analyses
+
+including different extension period after the last drug available date be useful?
+Second, the absolute risk should be also mentioned as the authors only emphasized the HR. And the absolute risk of
+GI bleed on nSAIDS should be also mentioned.
+Third, a possibility of the interaction between PPI and antithrombotic drug should be discussed. Was there more
+recurrent MI or CVD in NSAIDS+PPI group vs NSAIDS only?
+Fourth, the limitation of unmeasured/partially measured confounders/exposures should be addressed more. Table 1
+makes me think that comorbidities are not well captured (although I am not sure what time period these conditions
+were measured).
+Fifth: were antithrombotic drugs updated as time varying ? if not, why not?
+More detailed comments are below.
+Methods:
+Unclear how person-time for each exposure status was calculated
+P9. 1st paragraph: Alcohol consumption was included as a covariate. How good is this data in the claims
+databases?
+P9. Cox: what was the time scale for Cox models ?
+P10. Lack of Interaction - what kind of interaction was assessed? how was it assessed?
+P9. Outcome:
+Was the primary outcome validated in the past? If so, what is the performance of the algorithm that the authors
+used?
+Results:
+P12, last paragraph : Sensitivity analyses
+- would be more useful to include the data from various sensitivity analyses as suppl tables.
+Table 1: covariates:
+When were these baseline covariates assessed? Were these characteristics updated as time varying covariates too?
+Surprised to see overall low % of comorbidities even though all these pts are post-MI at 30 days?
+- DM % is only 4%. Is this consistent with other Danish or non-Danish Post MI pt population?
+- I am concerned that all the comorbidities are under-ascertained (e.g. % glc lowering drug use is about 9% versus
+4% DM.)
+- B-blocker and statin use is also not that high even though these pts all have MI.
+Figure 1: ‘quarantine period’ sounds odd, although I think I know what the authors meant by that. I would just give
+a definition of the period
+Figure 3: what is the unit for the crude rate?
+Suppl Tables 3 and 4: what is the risk time? Is it person-years?
+- Specify the time unit.
+- unclear how the person time was calculated
+Supp Table 4: is this table calculated using the data only before ibuprofen became OTC? If not, what would be the
+impact of incomplete ascertainment of ibuprofen use?
+Suppl Figure 1
+- please specify it as ‘ New NSAID users’ in the figure title
+Discussion:
+- is there any possibility that use of PPI and antithrombotic decease the action of antithrombotic thus leading to less
+bleeding? If that is the case, that does not sound clinically beneficial. Please include some discussion on this.

@@ -1,0 +1,589 @@
+In this article Chubb et al. 1 describe a software tool (CanVar) that the authors have developed to make publically available germline variant frequency information from sequenced exomes of cancer patients. Most importantly, they have used the Exome Aggregation Consortium (ExAc) framework, a tool the scientific community is currently very familiar to, in order to facilitate its access and use. The incalculable value of the open accessibility to the germline variation data obtained from 60,000 exomes provided by the Exome Aggregation Consortium (ExAc) seem to finally begin to reach disease-specific cohorts, as it is the case of CanVar. Hopefully this will soon become a reality not only for cancer but also for other common diseases. This information, together with the variation frequencies observed in the general population, is key when trying to evaluate the pathogenic relevance of disease-predisposing genes and/or variants, not only for novel candidate genes but also for well-known susceptibility genes. So far, the data available through CanVar correspond to the 1,006 exomes of early onset familial colorectal cancer cases recently studied by the same group 2 . Being this a very insightful cohort in the field of colorectal cancer predisposition, much needs yet to be done to make CanVar a relevant routine tool for the scientific community, and it is the responsibility of all of us to make this possible. The tool is already available, so I encourage all researchers with germline exome sequencing data in cancer patients to submit their data to CanVar, as larger representation of tumor types, populations and patients in general is required. I also would like to encourage researchers to use these extremely useful data in their cancer predisposition studies and to increase the visibility of CanVar among their colleagues and peers. Despite the so far limited availability of germline exome sequencing data from cancer patients, a huge amount of data has been gathered in the last years from genome-wide association studies and exome SNP arrays. This information would be of value if added to CanVar, at least the variants included in exome arrays and rare exonic variants included in genotyping arrays. Another issue that needs to be contemplated is the implementation of filters for ethnicities/studies, anticipating the inclusion of data from other groups. Alternatively, as occurs in ExAC, data could be itemized by ethnicity/geographic origin and study. References 1. Chubb D, Broderick P, Dobbins SE, Houlston RS: CanVar: A resource for sharing germline variation in cancer patients [version 1; referees: awaiting peer review]. F1000Research . 2015; 5 (2813). Publisher Full Text 2. Chubb D, Broderick P, Dobbins SE, Frampton M, et al.: Rare disruptive mutations and their contribution to the heritable risk of colorectal cancer. Nat Commun . 2016; 7 : 11883 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Valle L and Moreno V. Reviewer Report For: CanVar: A resource for sharing germline variation in cancer patients [version 1; peer review: 4 approved] . F1000Research 2016, 5 :2813 ( https://doi.org/10.5256/f1000research.10838.r18219 ) The direct URL for this report is: https://f1000research.com/articles/5-2813/v1#referee-response-18219 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Respond or Comment COMMENT ON THIS REPORT Comments on this article Comments (0) Version 1 VERSION 1 PUBLISHED 05 Dec 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 4 Version 1 05 Dec 16 read read read read Laura Valle , L'Hospitalet de Llobregat, Barcelona, Spain Victor Moreno , Hospitalet de Llobregat, Barcelona, Spain; University of Barcelona, Hospitalet de Llobregat, Barcelona, Spain Pavel Vodika , Institute of Experimental Medicine, Academy of Sciences of the Czech Republic, Prague, Czech Republic Wolfgang Huber , European Molecular Biology Laboratory, Heidelberg, Germany Vladislav Kim , European Molecular Biology Laboratory, Heidelberg, Germany James Ware , Imperial College London, London, UK; MRC London Institute of Medical Sciences, London, UK Nicola Whiffin , Imperial College London, London, UK Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Ware J et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 06 Jan 2017 | for Version 1 James Ware , National Heart & Lung Institute, Imperial College London, London, UK; MRC London Institute of Medical Sciences, London, UK Nicola Whiffin , National Heart & Lung Institute, Imperial College London, London, UK 0 Views copyright © 2017 Ware J et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Summary Impression The authors describe an online resource for exploring germline cancer variants. The resource currently contains data from 1,006 samples representing a single cancer type, a single ethnicity, and a single centre. The authors have invited collaborators to help expand this to other cancer types which will add further value to what is already an excellent tool over time. We share the authors’ enthusiasm for intuitive data sharing, and agree that presenting variant frequencies from disease cases, as well as reference samples, is hugely valuable. Overall, the manuscript is very clear, and we anticipate that the intuitive web resource will be well received. We have a couple of high level comments, and some minor suggestions for the authors to consider. Comments The authors describe 2 uses for this data: variant-level analyses (i.e. interpreting individual variants, primarily in established disease genes), and gene-level analyses (assessing candidate disease predisposition genes). The resource in its current form is primarily suitable for the first. The case data and control data are unlikely to be technically matched sufficiently for case/control association testing at the gene level (burden tests), and the authors wisely do not provide this sort of comparative data on the gene page. So, while variant frequency data is important in interpreting genes, in our opinion the present resource is primarily valuable for variant interpretation. A critical strength of the ExAC project was the joint and unified analysis of aggregated data. The authors describe adopting the “ExAC framework”, but at present this represents only data from only a single source. As well as adopting the ExAC web architecture, it would be interesting to hear the authors' plans for data analysis going forwards - will CanVar seek to harmonise variant calling and analysis on data from disparate sources as it grows? Suggestions for consideration Readers are likely to know ClinVar as the go-to resource for germ-line variants in inherited diseases. It may be worth highlighting the complementary value of ClinVar CanVar - i.e. the addition of consistent frequency data. I would provide a little more detail on the case series in the section on “CanVar datasets" (introduction). In particular, are cases are all unrelated probands? I would add here that cases are all European (given in methods). Drs Huber Kim note that variants were limited to “germline variants that were identified as risk-associated” - I did not appreciate this from the manuscript, and think this is important to note if the dataset does not include all variants in protein-coding regions. Gene view Are variants annotated with ExAC frequencies even if they do not ‘PASS’ filters in ExAC? May be helpful to display the ExAC filter status as well as CanVar filter status. Would be helpful to indicate whether variants absent in ExAC were well covered - i.e. give some summary measure of ExAC coverage for all variant sites, since capture platforms and coverage profiles may be very different We understand that ExAC_AF on this page is non-TCGA ExAC frequency. Is this ethnicity matched too, since samples are all european)? Variant view It would be invaluable to incorporate ExAC frequencies into the frequency table (Fig 3e) - especially since the non-TCGA data is not accessible via click through to the web browser (only by download). Users may be misled by a link to the full ExAC dataset (with TCGA included). As data is added would be desirable to stratify by cancer type AND ethnicity The call rate is reported with 12 decimal places of precision Methods "Curation of colorectal cancer exome data within CanVar" May be helpful to indicate which of the technical parameters differ from ExAC where relevant. It would be interesting to hear about any challenges encountered in reconciling the data sets that may be relevant to others attempting something similar - Were there any problems with multi-allelic sites? e.g. GATK filters by site, rather than variant. Are multi-nucleotide polymorphisms phased and jointly interpreted? Any other technical challenges? Data availability Is the sites-only vcf available for download? This may be useful in addition to raw data available via application to EGA. Could add source code link to final sentence of the discussion. Competing Interests Dr Whiffin has previously worked directly with the authors (PhD supervised by Prof Houlston -2014). Dr Ware has no competing interests, and takes responsibility for the content of the review. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Ware J and Whiffin N. Peer Review Report For: CanVar: A resource for sharing germline variation in cancer patients [version 1; peer review: 4 approved] . F1000Research 2016, 5 :2813 ( https://doi.org/10.5256/f1000research.10838.r18218) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2813/v1#referee-response-18218 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Huber W et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 03 Jan 2017 | for Version 1 Wolfgang Huber , EMBL Genome Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany Vladislav Kim , European Molecular Biology Laboratory, Heidelberg, Germany 0 Views copyright © 2017 Huber W et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Short synopsis. The authors describe an online resource for exploring disease-associated germline variants. The Cancer Variation Resource (CanVar) browser is inspired by the ExAC browser at the Broad Institute. Currently CanVar is limited to those germline variants that were identified as risk-associated in a study of 1,006 familial early-onset colorectal cancer (CRC) patients published by the authors in Nature Communications in 2016. Overall impression. CanVar is a useful tool for mining variants implicated in CRC, and the authors do a good job at explaining how to use the resource. The authors also provide some background information on the underlying data, methodology and technologies. We have only a few minor suggestions as to how its presentation could be improved. Suggestions . In the Introduction, the sentence “CanVar has been produced by adapting the ExAC framework” is a bit vague. You could be clearer what is meant by framework: software? APIs? some or all of the concepts, and which? datasets? Abstract and introduction can be confusing (at least to the rushed reader, of which there are many) as to whether CanVar also contains or interfaces to the ExAC 60,000 exome data on top of the CRC data. This is clarified in the “CanVar datasets” subsection, but in our view this should be clarified earlier. For instance, abstract and introduction talk more, and earlier, about ExAC than about the data that are actually contained in CanVar; in the “CanVar website” section, links to the ExAC browser and to the CanVar website are provided side by side, which might lead to further confusion. Since both websites are almost look-alikes, readers might even be led to expect that both sites might also mirror each other. Perhaps, it would be better to provide the links in a more asymmetric manner. In “CanVar datasets” it is mentioned that each variant is annotated “with ExAC allele frequency data excluding samples from the TCGA”. Perhaps, a short explanation of why this has been done could be provided, as not all readers may be familiar with the source of non-TCGA samples in the ExAC dataset. It should be time to remove the “Beta” state from the resource. Bring it to a good enough state to warrant release, and then be not afraid to update it later with new releases. Competing Interests No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Huber W and Kim V. Peer Review Report For: CanVar: A resource for sharing germline variation in cancer patients [version 1; peer review: 4 approved] . F1000Research 2016, 5 :2813 ( https://doi.org/10.5256/f1000research.10838.r18217) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2813/v1#referee-response-18217 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Vodička P. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 21 Dec 2016 | for Version 1 Pavel Vodika , Department of the Molecular Biology of Cancer, Institute of Experimental Medicine, Academy of Sciences of the Czech Republic, Prague, Czech Republic 0 Views copyright © 2016 Vodička P. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The study of Chubb et al. presents an online database and software tool Cancer Variation Resource (CanVar), developed on the basis of Exome Aggregation Consortium (ExAc) framework (sequenced exomes of cancer patients). The main aim of the database is to enable an open access to germline variant frequency. CanVar focuses on colorectal cancer, as it summarizes exome sequencing data from more than 1000 familial early-onset patients with this disease. Strikingly, the CanVar database catalogues almost 1.1 million variants and more than 100000 insertions/deletions. An additional advantage for the user are the data on associated annotations of variants and insertions/deletions. The information, which may be acquired from on the basis of the published database, may provide valuable information on gene variants and indels in populations assuming disease-specific context. The data that could be mined with the help of the present database may also find utilization in clinics, particularly in the context with mutational screening in cancer, which becomes to be routine. A sentence in Introduction (When undertaken by multiple agencies…) would benefit from re-phrasing into a more reader-friendly form. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Vodička P. Peer Review Report For: CanVar: A resource for sharing germline variation in cancer patients [version 1; peer review: 4 approved] . F1000Research 2016, 5 :2813 ( https://doi.org/10.5256/f1000research.10838.r18681) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2813/v1#referee-response-18681 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Valle L et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 20 Dec 2016 | for Version 1 Laura Valle , Hereditary Cancer Program, Catalan Institute of Oncology, IDIBELL, L'Hospitalet de Llobregat, Barcelona, Spain Victor Moreno , Unit of Biomarkers and Susceptibility, Catalan Institute of Oncology, IDIBELL and CIBERESP, Hospitalet de Llobregat, Barcelona, Spain; Department of Clinical Sciences, School of Medicine, University of Barcelona, Hospitalet de Llobregat, Barcelona, Spain 0 Views copyright © 2016 Valle L et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions In this article Chubb et al. 1 describe a software tool (CanVar) that the authors have developed to make publically available germline variant frequency information from sequenced exomes of cancer patients. Most importantly, they have used the Exome Aggregation Consortium (ExAc) framework, a tool the scientific community is currently very familiar to, in order to facilitate its access and use. The incalculable value of the open accessibility to the germline variation data obtained from 60,000 exomes provided by the Exome Aggregation Consortium (ExAc) seem to finally begin to reach disease-specific cohorts, as it is the case of CanVar. Hopefully this will soon become a reality not only for cancer but also for other common diseases. This information, together with the variation frequencies observed in the general population, is key when trying to evaluate the pathogenic relevance of disease-predisposing genes and/or variants, not only for novel candidate genes but also for well-known susceptibility genes. So far, the data available through CanVar correspond to the 1,006 exomes of early onset familial colorectal cancer cases recently studied by the same group 2 . Being this a very insightful cohort in the field of colorectal cancer predisposition, much needs yet to be done to make CanVar a relevant routine tool for the scientific community, and it is the responsibility of all of us to make this possible. The tool is already available, so I encourage all researchers with germline exome sequencing data in cancer patients to submit their data to CanVar, as larger representation of tumor types, populations and patients in general is required. I also would like to encourage researchers to use these extremely useful data in their cancer predisposition studies and to increase the visibility of CanVar among their colleagues and peers. Despite the so far limited availability of germline exome sequencing data from cancer patients, a huge amount of data has been gathered in the last years from genome-wide association studies and exome SNP arrays. This information would be of value if added to CanVar, at least the variants included in exome arrays and rare exonic variants included in genotyping arrays. Another issue that needs to be contemplated is the implementation of filters for ethnicities/studies, anticipating the inclusion of data from other groups. Alternatively, as occurs in ExAC, data could be itemized by ethnicity/geographic origin and study. References 1. Chubb D, Broderick P, Dobbins SE, Houlston RS: CanVar: A resource for sharing germline variation in cancer patients [version 1; referees: awaiting peer review]. F1000Research . 2015; 5 (2813). Publisher Full Text 2. Chubb D, Broderick P, Dobbins SE, Frampton M, et al.: Rare disruptive mutations and their contribution to the heritable risk of colorectal cancer. Nat Commun . 2016; 7 : 11883 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Valle L and Moreno V. Peer Review Report For: CanVar: A resource for sharing germline variation in cancer patients [version 1; peer review: 4 approved] . F1000Research 2016, 5 :2813 ( https://doi.org/10.5256/f1000research.10838.r18219) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2813/v1#referee-response-18219 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "CanVar: A resource for sharing germline variation...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2813/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2813/v1&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2813/v1" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Chubb D et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2813/v1/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2813",
+ templates : {
+ twitter : "CanVar: A resource for sharing germline variation in cancer patients. Chubb D et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2813/v1"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: CanVar: A resource for sharing germline variation in cancer patients", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Software Tool Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: CanVar: A resource for sharing germline variation in cancer patients", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/10058/10838")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "10838");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "18215": 0,
+ "18216": 0,
+ "18681": 17,
+ "18217": 21,
+ "18218": 20,
+ "18219": 25,
+ "18604": 0,
+ "18220": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "edc1e73d-d5f7-4a5a-9ce0-ead40468eddd";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

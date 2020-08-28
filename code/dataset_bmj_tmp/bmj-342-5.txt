@@ -1,0 +1,102 @@
+BMJ-2019-051763
+Statistical Review
+The authors report on a substantial review of studies which have evaluated the impact of
+media portrayal of suicide on subsequent suicide and attempted suicide rates. This is an
+important topic and the authors should be congratulated on their work. The review appears
+generally well done, but there are important aspects of presentation, analysis, reporting and
+interpretation which require attention. Currently the reporting does not fully comply with the
+PRISMA guidelines.
+MAJOR POINT
+1. A major limitation of the current report is the lack of tabulation of the characteristics of
+the included studies. Its absence creates a barrier for readers to be able to understand the
+content and methods of the included studies. Please can the authors add such a table? As
+a minimum it should describe the participants (setting, location, time, recruitment), the
+source of the outcome data, the number and duration of different time periods considered
+before and after the media portrayal, the samples sizes before and after, confounders
+measured and adjusted for, and methods used to adjust for time trends.
+MAJOR POINT
+2. Readers need to understand more about the study designs included. The authors name
+the designs as “ecological” studies, which is a concern, as ecological studies would include
+studies which compared average rates between different areas. From the brief descriptions
+in the text, I presume that studies which are included are in the same area, but from
+time-periods before and after the intervention. These have often been called interrupted
+time series (ITS) studies (A study that uses observations at multiple time points before and
+after an intervention (the ‘interruption’) - the design attempts to detect whether the
+intervention has had an effect significantly greater than any underlying trend over time.)
+Please better explain the eligible designs, and reconsider the naming of the studies and give
+more information.
+MAJOR POINT
+3. The authors have developed their own quality assessment process for assessing the
+validity of these studies and not used any existing tool. I am not aware that there is a
+formalised and validated tool available for assessing study quality from ITS studies.
+However, the Cochrane Effective Practice, Organisation of Care (EPOC) group has suggested
+risk of bias criteria for ITS for EPOC reviews on their website
+(https://epoc.cochrane.org/sites/epoc.cochrane.org/files/public/uploads/Resources-for-autho
+rs2017/suggested_risk_of_bias_criteria_for_epoc_reviews.pdf) which the authors may
+usefully reflect on. The Robins-I tool (https://www.bmj.com/content/355/bmj.i4919) was
+designed for cohort type non-randomised studies, and thus does not directly apply, but the
+concepts included should be reviewed. I am aware that the Robins-I team are developing a
+
+new tool for ITS studies, but this is not yet published. It might be worth contacting the
+authors of Robins-I to see whether they have any documents which are publicly available.
+4. One key issue that has not been considered are the number of time points before and
+after the intervention. It is not possible to adjust for time trends unless there are adequate
+numbers of points available. It sounds like there may be studies here with a single time
+point before and a single time point after which must be considered carefully as they may
+not give valid estimates of effects where there are underlying time trends.
+5. The current quality assessment is limited to consideration of three aspects, but these are
+not described in adequate detail to allow replication of the assessments, particularly for
+confounding and time-trends. There is also no tabulation of the assessments for the
+included studies. Please could the authors give greater detail of the assessment criteria in
+an appendix document (maybe with some examples) and provide tabulations of the ratings
+by study and reasons for the judgements made?
+6. The process by which screening, eligibility, quality assessment and data extraction
+decisions were made in the review is not described. Usually we would expect to see that
+these processes were done in duplicate independently, involving additional experts to resolve
+disagreements. Please describe.
+7. Why was EMBASE not searched? EMBASE contains many journals not included in
+MEDLINE. Is SCOPUS not the platform that hosts Web of Science? Please explain.
+8. The exclusion criteria state papers were excluded if they did not include primary or
+secondary data. Please explain what you mean by primary and secondary data.
+9. Please can you more fully explain how you categorised study results into “increase”,
+“decrease” or “no change”. How were the numerical values used? E.g. what constituted a
+numerical “no change”? When there were no numbers presented on what basis was the
+categorisation made?
+10. Please can you explain more what was presented in studies which did not provide
+sufficient information to extract quantitative estimates of risk. What stopped you using
+these studies further?
+11. The data synthesis section states that meta-analysis was done using a random effects
+model. Later in the heterogeneity section it is stated that pooled estimates were computed
+using the Knapp-Hartung method – I think that this extra important detail belongs in the
+data synthesis section and not the heterogeneity section. The meta-regression model used
+is not properly described in the heterogeneity section (I expect that it was some form of
+random effects model, but please specify).
+12. The results section does not state how many potential articles were identified in the
+search and how many were considered in full – these details are in the PRISMA flow diagram
+but it would be appropriate to briefly refer to them in the results.
+13. Figure 2 is labelled as both relative risk and rate ratio. Please make it consistent. Figure
+4 has “rate ratio differences” as a title which is confusing.
+14. It would be preferable that the RR anaylsis was used for all studies which requires
+appropriate data being obtained from studies only presenting RD values. All but two of the
+studies which presented RD values were authored by Dr Stack, who is a co-author of the
+review. Is he not able to provide RR
+15. For all studies it is important to present the raw results in detail – this may be done in
+extra tables if the values cannot be incorporated in Figure 2 or Figure 3.
+
+16. To interpret funnel plots (Figure 4) it is helpful to have the overall effect estimate
+plotted, as the consideration of asymmetry relates to the overall effect line and not the null
+effect line. The interpretation in the text is also considering asymmetry around the null line,
+which is not correct.
+17. Table 1 reports the investigation of sources of heterogeneity. What statistic does IRR
+relate to here? These values are ratios of risk ratios. This needs explanation in the table,
+and in the text. The interpretation of these figures on page 12 in Paragraph 2 under
+heterogeneity is wrong. They are being interpreted as if they are actually relative risks.
+18. How is the R^2 value calculated for the meta-regression? I am not aware that random
+effects meta-regression can produce valid estimates of R^2
+MAJOR POINT
+19. The sensitivity analysis shows substantial attenuation of effect when low quality studies
+and studies with very long follow-up are removed. Such findings should be given much
+greater emphasis in the interpretation of the results (including the abstract). Currently this
+sensitivity analysis appears to be disregarded in the interpretation of the results. The
+bottom line of the paper, that the risk has increased 50-80% is not supported by this data.
+The estimates in the high quality studies are of a 6-13% increase – much much smaller.

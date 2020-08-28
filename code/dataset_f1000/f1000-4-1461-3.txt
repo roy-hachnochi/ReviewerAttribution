@@ -1,0 +1,599 @@
+The manuscript at hand describes MPC, a tool that supports modelers in constructing complex models from smaller ones. MPC also keeps information about the single modules, making their exchange and further coupling even easier. The manuscript provides several examples (on code and abstract level) of how to use MPC, but it does not give details on how the algorithm itself works. My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the abstract alone you speak about programs, utilities, code; about models, processes, model code and modules. Maybe you could - not only in the abstract but throughout the manuscript - unify your wording a little bit more to make the text more comprehensive. Related work: I missed a discussion of related systems, e.g. the model merge tool for SBML, semanticSBML, or the semantic-based system (there was a new publication just recently 1 ). While you mention them in the beginning of your introduction, I did not see a discussion of these systems, and how they differ from your approach. I, as a reader, would be interested to know which system is best to use when. Furthermore, I have the following smaller comments: Page 2, Introduction: "The models include time-dependent..." -- Here it was not clear to me what you mean by "models". Page 2, MPC implementation: "Through JSim, the final constructed model...." -- I understand here, that you can upload your constructed models from JSim into an open model repository, and then directly download them into other simulation platforms. I am not sure that it is as easy as this, particularly for BioModels there will be a curation process in between, and there is thus no immediate reuse. The way the sentence is written now, a reader may assume that models can directly and immediately be exchanged through these resources, which is in my opinion misleading. Page 2, MPC implementation: "These are archived, forming libraries of operational code" -- I would be interested to know how you archive the modules, where, and how/if/to what degree they are accessible/reusable? Figure 1: I would like to suggest using an SBGN-compliant notation for the toy model. Summary: "MPC encodes and preserves..." -- This is an important information for the users, and I would like to suggest to add this information to the abstract. References 1. Neal ML, Carlson BE, Thompson CT, James RC, et al.: Semantics-Based Composition of Integrated Cardiomyocyte Models Motivated by Real-World Use Cases. PLoS One . 2015; 10 (12): e0145621 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Waltemath D. Reviewer Report For: Semi-automated Modular Program Constructor for physiological modeling: Building cell and organ models [version 3; peer review: 2 approved] . F1000Research 2016, 4 :1461 ( https://doi.org/10.5256/f1000research.8055.r11594 ) The direct URL for this report is: https://f1000research.com/articles/4-1461/v1#referee-response-11594 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 07 Apr 2016 Bartholomew Jardine , University of Washington, Seattle, USA 07 Apr 2016 Author Response Our responses to Referee Dagmar Waltemath's review: My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the ... Continue reading Our responses to Referee Dagmar Waltemath's review: My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the abstract alone you speak about programs, utilities, code; about models, processes, model code and modules. Maybe you could - not only in the abstract but throughout the manuscript - unify your wording a little bit more to make the text more comprehensive. Author Response: Yes, we updated the abstract and paper as a whole to try to use consistent and unifying wording when discussing model code, processes, modules, etc. These changes are most notable in the abstract and introduction. Related work: I missed a discussion of related systems, e.g. the model merge tool for SBML, semanticSBML, or the semantic-based system (there was a new publication just recently1). While you mention them in the beginning of your introduction, I did not see a discussion of these systems, and how they differ from your approach. I, as a reader, would be interested to know which system is best to use when. Author Response: Added a paragraph in the Introduction that briefly discusses other tools in relation to MPC: "Modular model creation and construction rely, to varying degrees, on meta-data to assist in reusing and merging previous models into a new one. Antimony (Smith 2009) is the simplest approach. It requires the user to be familiar with the model and just specify that you want to import it into the new model. It relies on the user to resolve discrepancies between models. SemanticSBML(Krause 2010), SemGen (Genari 2011, Neal 2015), and Phy-Sim (Erson 2012) make use of standard semantic and ontological descriptions of a biological model to allow large models to be broken down easily, without much user guidance, into biologically meaningful components linked to their mathematical description. Semantic and ontological metadata assists the construction of new models by providing suggested connections or relationships between models. This approach requires the user to invest time in complete annotation of models with standardized meta-data. The payoff is models that can be constructed and merged together using biological rather than mathematical terms. ProMot (Mirschel 2009) enforces an object-oriented approach to modeling (defining external interfaces for each object) and attempts to use network theory to describe biological systems through specifying elements and coupling elements (Mirschel 2009). MPC relies on the user to modularize a model using directives to specify them. MPC then requires the user to specify how the new model makes use of the modules. MPC only imposes unit balance constraints, indirectly, through the JSim MML compiler (Butterworth 2014)." Furthermore, I have the following smaller comments: Page 2, Introduction: "The models include time-dependent..." -- Here it was not clear to me what you mean by "models". Author Response: Clarified sentence to make it clearer (Page 2, Introduction, 4th paragraph): Some MPC built models include time-dependent two-dimensional spatial models in both Cartesian and cylindrical coordinates (Raymond et al., 2011; 2012), requiring PDEs, and whole organ models with heterogeneous flows, and substrate metabolism, including reconstructing Bassingthwaighte et al., 1989 blood-tissue exchange model. Page 2, MPC implementation: "Through JSim, the final constructed model...." -- I understand here, that you can upload your constructed models from JSim into an open model repository, and then directly download them into other simulation platforms. I am not sure that it is as easy as this, particularly for BioModels there will be a curation process in between, and there is thus no immediate reuse. The way the sentence is written now, a reader may assume that models can directly and immediately be exchanged through these resources, which is in my opinion misleading. Author Response: That sentence is confusing and not what we wanted to say. Changed to: Through JSim, the final constructed model can be exported into Systems Biology Markup Language (SBML, http://sbml.org/Main_Page) or CellML (https://www.cellml.org/), and imported to other SBML or CellML supported simulation platforms [Smith et al., 2014]. Page 2, MPC implementation: "These are archived, forming libraries of operational code" -- I would be interested to know how you archive the modules, where, and how/if/to what degree they are accessible/reusable? Author Response: Modules created and used by our team are currently available for download at physiome.org (http://physiome.org/software/MPC/) or search on term "mpc" (http://physiome.org/Models/modelDB/). At this time there are a very limited set of MPC modules available. Soon (May/June 2016) we will have individual MPC annotated modules accessible directly from our search page with all file dependencies listed and available for download as well as links to full JSim models that may use them. Contributions to our model repository are encouraged (Any modeling language accepted). Sentence inserted on page 2, in MPC implementation, paragraph 2, Modules: "These are archived, forming libraries of operational module code that can be publicly distributed (some are available at http://www.physiome.org/software/MPC/)." Figure 1: I would like to suggest using an SBGN-compliant notation for the toy model. Author Response: Thank you for the suggestion, for this particular figure we would like to keep it as is, but since we are currently modeling cardiac metabolism at the sub-cellular level we will be adopting SBGN notation where possible. Arrowheads in figure are made smaller. Summary: "MPC encodes and preserves..." -- This is an important information for the users, and I would like to suggest to add this information to the abstract. Author Response: Added this sentence to the abstract. Our responses to Referee Dagmar Waltemath's review: My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the abstract alone you speak about programs, utilities, code; about models, processes, model code and modules. Maybe you could - not only in the abstract but throughout the manuscript - unify your wording a little bit more to make the text more comprehensive. Author Response: Yes, we updated the abstract and paper as a whole to try to use consistent and unifying wording when discussing model code, processes, modules, etc. These changes are most notable in the abstract and introduction. Related work: I missed a discussion of related systems, e.g. the model merge tool for SBML, semanticSBML, or the semantic-based system (there was a new publication just recently1). While you mention them in the beginning of your introduction, I did not see a discussion of these systems, and how they differ from your approach. I, as a reader, would be interested to know which system is best to use when. Author Response: Added a paragraph in the Introduction that briefly discusses other tools in relation to MPC: "Modular model creation and construction rely, to varying degrees, on meta-data to assist in reusing and merging previous models into a new one. Antimony (Smith 2009) is the simplest approach. It requires the user to be familiar with the model and just specify that you want to import it into the new model. It relies on the user to resolve discrepancies between models. SemanticSBML(Krause 2010), SemGen (Genari 2011, Neal 2015), and Phy-Sim (Erson 2012) make use of standard semantic and ontological descriptions of a biological model to allow large models to be broken down easily, without much user guidance, into biologically meaningful components linked to their mathematical description. Semantic and ontological metadata assists the construction of new models by providing suggested connections or relationships between models. This approach requires the user to invest time in complete annotation of models with standardized meta-data. The payoff is models that can be constructed and merged together using biological rather than mathematical terms. ProMot (Mirschel 2009) enforces an object-oriented approach to modeling (defining external interfaces for each object) and attempts to use network theory to describe biological systems through specifying elements and coupling elements (Mirschel 2009). MPC relies on the user to modularize a model using directives to specify them. MPC then requires the user to specify how the new model makes use of the modules. MPC only imposes unit balance constraints, indirectly, through the JSim MML compiler (Butterworth 2014)." Furthermore, I have the following smaller comments: Page 2, Introduction: "The models include time-dependent..." -- Here it was not clear to me what you mean by "models". Author Response: Clarified sentence to make it clearer (Page 2, Introduction, 4th paragraph): Some MPC built models include time-dependent two-dimensional spatial models in both Cartesian and cylindrical coordinates (Raymond et al., 2011; 2012), requiring PDEs, and whole organ models with heterogeneous flows, and substrate metabolism, including reconstructing Bassingthwaighte et al., 1989 blood-tissue exchange model. Page 2, MPC implementation: "Through JSim, the final constructed model...." -- I understand here, that you can upload your constructed models from JSim into an open model repository, and then directly download them into other simulation platforms. I am not sure that it is as easy as this, particularly for BioModels there will be a curation process in between, and there is thus no immediate reuse. The way the sentence is written now, a reader may assume that models can directly and immediately be exchanged through these resources, which is in my opinion misleading. Author Response: That sentence is confusing and not what we wanted to say. Changed to: Through JSim, the final constructed model can be exported into Systems Biology Markup Language (SBML, http://sbml.org/Main_Page) or CellML (https://www.cellml.org/), and imported to other SBML or CellML supported simulation platforms [Smith et al., 2014]. Page 2, MPC implementation: "These are archived, forming libraries of operational code" -- I would be interested to know how you archive the modules, where, and how/if/to what degree they are accessible/reusable? Author Response: Modules created and used by our team are currently available for download at physiome.org (http://physiome.org/software/MPC/) or search on term "mpc" (http://physiome.org/Models/modelDB/). At this time there are a very limited set of MPC modules available. Soon (May/June 2016) we will have individual MPC annotated modules accessible directly from our search page with all file dependencies listed and available for download as well as links to full JSim models that may use them. Contributions to our model repository are encouraged (Any modeling language accepted). Sentence inserted on page 2, in MPC implementation, paragraph 2, Modules: "These are archived, forming libraries of operational module code that can be publicly distributed (some are available at http://www.physiome.org/software/MPC/)." Figure 1: I would like to suggest using an SBGN-compliant notation for the toy model. Author Response: Thank you for the suggestion, for this particular figure we would like to keep it as is, but since we are currently modeling cardiac metabolism at the sub-cellular level we will be adopting SBGN notation where possible. Arrowheads in figure are made smaller. Summary: "MPC encodes and preserves..." -- This is an important information for the users, and I would like to suggest to add this information to the abstract. Author Response: Added this sentence to the abstract. Competing Interests: None. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 07 Apr 2016 Bartholomew Jardine , University of Washington, Seattle, USA 07 Apr 2016 Author Response Our responses to Referee Dagmar Waltemath's review: My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the ... Continue reading Our responses to Referee Dagmar Waltemath's review: My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the abstract alone you speak about programs, utilities, code; about models, processes, model code and modules. Maybe you could - not only in the abstract but throughout the manuscript - unify your wording a little bit more to make the text more comprehensive. Author Response: Yes, we updated the abstract and paper as a whole to try to use consistent and unifying wording when discussing model code, processes, modules, etc. These changes are most notable in the abstract and introduction. Related work: I missed a discussion of related systems, e.g. the model merge tool for SBML, semanticSBML, or the semantic-based system (there was a new publication just recently1). While you mention them in the beginning of your introduction, I did not see a discussion of these systems, and how they differ from your approach. I, as a reader, would be interested to know which system is best to use when. Author Response: Added a paragraph in the Introduction that briefly discusses other tools in relation to MPC: "Modular model creation and construction rely, to varying degrees, on meta-data to assist in reusing and merging previous models into a new one. Antimony (Smith 2009) is the simplest approach. It requires the user to be familiar with the model and just specify that you want to import it into the new model. It relies on the user to resolve discrepancies between models. SemanticSBML(Krause 2010), SemGen (Genari 2011, Neal 2015), and Phy-Sim (Erson 2012) make use of standard semantic and ontological descriptions of a biological model to allow large models to be broken down easily, without much user guidance, into biologically meaningful components linked to their mathematical description. Semantic and ontological metadata assists the construction of new models by providing suggested connections or relationships between models. This approach requires the user to invest time in complete annotation of models with standardized meta-data. The payoff is models that can be constructed and merged together using biological rather than mathematical terms. ProMot (Mirschel 2009) enforces an object-oriented approach to modeling (defining external interfaces for each object) and attempts to use network theory to describe biological systems through specifying elements and coupling elements (Mirschel 2009). MPC relies on the user to modularize a model using directives to specify them. MPC then requires the user to specify how the new model makes use of the modules. MPC only imposes unit balance constraints, indirectly, through the JSim MML compiler (Butterworth 2014)." Furthermore, I have the following smaller comments: Page 2, Introduction: "The models include time-dependent..." -- Here it was not clear to me what you mean by "models". Author Response: Clarified sentence to make it clearer (Page 2, Introduction, 4th paragraph): Some MPC built models include time-dependent two-dimensional spatial models in both Cartesian and cylindrical coordinates (Raymond et al., 2011; 2012), requiring PDEs, and whole organ models with heterogeneous flows, and substrate metabolism, including reconstructing Bassingthwaighte et al., 1989 blood-tissue exchange model. Page 2, MPC implementation: "Through JSim, the final constructed model...." -- I understand here, that you can upload your constructed models from JSim into an open model repository, and then directly download them into other simulation platforms. I am not sure that it is as easy as this, particularly for BioModels there will be a curation process in between, and there is thus no immediate reuse. The way the sentence is written now, a reader may assume that models can directly and immediately be exchanged through these resources, which is in my opinion misleading. Author Response: That sentence is confusing and not what we wanted to say. Changed to: Through JSim, the final constructed model can be exported into Systems Biology Markup Language (SBML, http://sbml.org/Main_Page) or CellML (https://www.cellml.org/), and imported to other SBML or CellML supported simulation platforms [Smith et al., 2014]. Page 2, MPC implementation: "These are archived, forming libraries of operational code" -- I would be interested to know how you archive the modules, where, and how/if/to what degree they are accessible/reusable? Author Response: Modules created and used by our team are currently available for download at physiome.org (http://physiome.org/software/MPC/) or search on term "mpc" (http://physiome.org/Models/modelDB/). At this time there are a very limited set of MPC modules available. Soon (May/June 2016) we will have individual MPC annotated modules accessible directly from our search page with all file dependencies listed and available for download as well as links to full JSim models that may use them. Contributions to our model repository are encouraged (Any modeling language accepted). Sentence inserted on page 2, in MPC implementation, paragraph 2, Modules: "These are archived, forming libraries of operational module code that can be publicly distributed (some are available at http://www.physiome.org/software/MPC/)." Figure 1: I would like to suggest using an SBGN-compliant notation for the toy model. Author Response: Thank you for the suggestion, for this particular figure we would like to keep it as is, but since we are currently modeling cardiac metabolism at the sub-cellular level we will be adopting SBGN notation where possible. Arrowheads in figure are made smaller. Summary: "MPC encodes and preserves..." -- This is an important information for the users, and I would like to suggest to add this information to the abstract. Author Response: Added this sentence to the abstract. Our responses to Referee Dagmar Waltemath's review: My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the abstract alone you speak about programs, utilities, code; about models, processes, model code and modules. Maybe you could - not only in the abstract but throughout the manuscript - unify your wording a little bit more to make the text more comprehensive. Author Response: Yes, we updated the abstract and paper as a whole to try to use consistent and unifying wording when discussing model code, processes, modules, etc. These changes are most notable in the abstract and introduction. Related work: I missed a discussion of related systems, e.g. the model merge tool for SBML, semanticSBML, or the semantic-based system (there was a new publication just recently1). While you mention them in the beginning of your introduction, I did not see a discussion of these systems, and how they differ from your approach. I, as a reader, would be interested to know which system is best to use when. Author Response: Added a paragraph in the Introduction that briefly discusses other tools in relation to MPC: "Modular model creation and construction rely, to varying degrees, on meta-data to assist in reusing and merging previous models into a new one. Antimony (Smith 2009) is the simplest approach. It requires the user to be familiar with the model and just specify that you want to import it into the new model. It relies on the user to resolve discrepancies between models. SemanticSBML(Krause 2010), SemGen (Genari 2011, Neal 2015), and Phy-Sim (Erson 2012) make use of standard semantic and ontological descriptions of a biological model to allow large models to be broken down easily, without much user guidance, into biologically meaningful components linked to their mathematical description. Semantic and ontological metadata assists the construction of new models by providing suggested connections or relationships between models. This approach requires the user to invest time in complete annotation of models with standardized meta-data. The payoff is models that can be constructed and merged together using biological rather than mathematical terms. ProMot (Mirschel 2009) enforces an object-oriented approach to modeling (defining external interfaces for each object) and attempts to use network theory to describe biological systems through specifying elements and coupling elements (Mirschel 2009). MPC relies on the user to modularize a model using directives to specify them. MPC then requires the user to specify how the new model makes use of the modules. MPC only imposes unit balance constraints, indirectly, through the JSim MML compiler (Butterworth 2014)." Furthermore, I have the following smaller comments: Page 2, Introduction: "The models include time-dependent..." -- Here it was not clear to me what you mean by "models". Author Response: Clarified sentence to make it clearer (Page 2, Introduction, 4th paragraph): Some MPC built models include time-dependent two-dimensional spatial models in both Cartesian and cylindrical coordinates (Raymond et al., 2011; 2012), requiring PDEs, and whole organ models with heterogeneous flows, and substrate metabolism, including reconstructing Bassingthwaighte et al., 1989 blood-tissue exchange model. Page 2, MPC implementation: "Through JSim, the final constructed model...." -- I understand here, that you can upload your constructed models from JSim into an open model repository, and then directly download them into other simulation platforms. I am not sure that it is as easy as this, particularly for BioModels there will be a curation process in between, and there is thus no immediate reuse. The way the sentence is written now, a reader may assume that models can directly and immediately be exchanged through these resources, which is in my opinion misleading. Author Response: That sentence is confusing and not what we wanted to say. Changed to: Through JSim, the final constructed model can be exported into Systems Biology Markup Language (SBML, http://sbml.org/Main_Page) or CellML (https://www.cellml.org/), and imported to other SBML or CellML supported simulation platforms [Smith et al., 2014]. Page 2, MPC implementation: "These are archived, forming libraries of operational code" -- I would be interested to know how you archive the modules, where, and how/if/to what degree they are accessible/reusable? Author Response: Modules created and used by our team are currently available for download at physiome.org (http://physiome.org/software/MPC/) or search on term "mpc" (http://physiome.org/Models/modelDB/). At this time there are a very limited set of MPC modules available. Soon (May/June 2016) we will have individual MPC annotated modules accessible directly from our search page with all file dependencies listed and available for download as well as links to full JSim models that may use them. Contributions to our model repository are encouraged (Any modeling language accepted). Sentence inserted on page 2, in MPC implementation, paragraph 2, Modules: "These are archived, forming libraries of operational module code that can be publicly distributed (some are available at http://www.physiome.org/software/MPC/)." Figure 1: I would like to suggest using an SBGN-compliant notation for the toy model. Author Response: Thank you for the suggestion, for this particular figure we would like to keep it as is, but since we are currently modeling cardiac metabolism at the sub-cellular level we will be adopting SBGN notation where possible. Arrowheads in figure are made smaller. Summary: "MPC encodes and preserves..." -- This is an important information for the users, and I would like to suggest to add this information to the abstract. Author Response: Added this sentence to the abstract. Competing Interests: None. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 3 VERSION 3 PUBLISHED 16 Dec 2015 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 3 (revision) 16 Jun 16 read Version 2 (revision) 06 Apr 16 read read Version 1 16 Dec 15 read Dagmar Waltemath , University of Rostock, Rostock, Germany Vanessa Daz-Zuccarini , University College London, London, UK Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Waltemath D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 01 Aug 2016 | for Version 3 Dagmar Waltemath , Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany 0 Views copyright © 2016 Waltemath D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Thank you for the latest revision. Please consider changing the last sentence of the first paragraph in the introduction to: "and then use" -- "and then uses". Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Waltemath D. Peer Review Report For: Semi-automated Modular Program Constructor for physiological modeling: Building cell and organ models [version 3; peer review: 2 approved] . F1000Research 2016, 4 :1461 ( https://doi.org/10.5256/f1000research.9641.r14422) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-1461/v3#referee-response-14422 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Díaz-Zuccarini V. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 19 May 2016 | for Version 2 Vanessa Daz-Zuccarini , UCL Mechanical Engineering , Multiscale Cardiovascular Engineering Group, University College London, London, UK 0 Views copyright © 2016 Díaz-Zuccarini V. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions I think after the previous corrections the article is much more readable. It would be extremely helpful if the authors could update the manuscript with hyperlinks to concrete databases/examples and to provide a concrete example to illustrate their point about 'The amount of actual code a user needs to write is reduced, especially for more complicated models'. I strongly believe one of the roadblocks to a more widespread use of markup languages and the reusability of code is the perceived challenge by modellers/users of the task(s) involved into make their models 'shareable' and 'reusable'. A contrast between 2 examples or simply a better description of the effort it would concretely entail, would make their case much clearer. This isn't absolutely necessary for the article but since the authors are trying to make a point and for other researchers to use the tools they have developed and use for their own research, I believe this would be useful. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 17 Jun 2016 Bartholomew Jardine, University of Washington, Seattle, USA I think, after the previous corrections, the article is much more readable. It would be extremely helpful if the authors could update the manuscript with hyperlinks to concrete databases/examples and to provide a concrete example to illustrate their point about 'The amount of actual code a user needs to write is reduced, especially for more complicated models'. Author: On page 7 in final paragraph before the “Discussion” section added the following sentence, with links: "Please see more detailed examples in the Data Availability and Software Availability sections below.” Listed in these sections are specific examples of models available on our website (physiome.org) created using MPC. I strongly believe one of the roadblocks to a more widespread use of markup languages and the reusability of code is the perceived challenge by modellers/users of the task(s) involved into make their models 'shareable' and 'reusable'. A contrast between 2 examples or simply a better description of the effort it would concretely entail, would make their case much clearer. This isn't absolutely necessary for the article but since the authors are trying to make a point and for other researchers to use the tools they have developed and use for their own research, I believe this would be useful. Author: We added this paragraph in the Data availability section (page 8) to address this important point: “The two compartment MPC built model, demonstrated here, is available at www.physiome.org (TwoCompExampMPC, Model # 0345). As it is an ODE model it could be translated to SBML or CellML, allowing researchers whose simulation systems support one of these markup languages to run this model. However, for this presentation we have provided only the MPC annotation in order to retain its simplicity.” View more View less Competing Interests None reply Respond Report a concern 
+ 
+ Díaz-Zuccarini V. Peer Review Report For: Semi-automated Modular Program Constructor for physiological modeling: Building cell and organ models [version 3; peer review: 2 approved] . F1000Research 2016, 4 :1461 ( https://doi.org/10.5256/f1000research.9029.r13212) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-1461/v2#referee-response-13212 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Waltemath D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 18 Apr 2016 | for Version 2 Dagmar Waltemath , Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany 0 Views copyright © 2016 Waltemath D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Thank you for revising the manuscript. It was nice reading it. I only have a few minor things to note Last sentence of first paragraph in the introduction: I suggest to generalise the sentence and cut "for multi-scale modeling". Also, I think it should be "uses" instead of "use". Last sentence of first paragraph in Methods: "MPC currently is executed as command line utility" - I would write "as a command line utility". in Methods, in the listing of the three components, I suggest to remove "not procedural like Fortran or Matlab", as it is hard to follow the sentence structure and the information not essential. Also, is MML really designed to solve equations? Or rather to provide the information to solve them? in Methods, second point in the above listing: You mention several models ("For example, there have been a variety of models...") - would it be possible to link to these specific works, e.g., using citations? Last sentence on page 3: "A "library" with a few..." - I think it should read "in our next step" (instead of "in out next step") End of first paragraph on page 4: "Species A enters, with flow F, a compartment... I had problems following the sentence, specifically because of "passive exchange between"... Can simplify the sentence structure or use two sentences instead? First sentence in Discussion: Should it be "Though an MPC-generated..." (instead of "a")? same paragraph: "These are key steps towards reproducibility and the VVUQ process." I would have found it helpful to get a reference to the VVUQ process. Can you add one? Grant information, last sentence: Please use a capital letter to start the sentence, and add two "the" - "The grants supported the whole group." Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 17 Jun 2016 Bartholomew Jardine, University of Washington, Seattle, USA Responses reflected in version 3 of manuscript. Last sentence of first paragraph in the introduction: I suggest to generalise the sentence and cut "for multi-scale modeling". Also, I think it should be "uses" instead of "use". Author: Changed last two sentences of first paragraph (page 3) to generalize: “For developing a series of models of increasing complexity, Modular Program Constructor (MPC) can serve well as the primary basis for coding new model components and for incorporating modules of previously developed modeling code. The perspective is to take a modular approach; this means that one builds from simple modeling elements initially and then use multi-modular constructs as modules in higher level models." Last sentence of first paragraph in Methods: "MPC currently is executed as command line utility" - I would write "as a command line utility". Author: Made change as suggested. in Methods, in the listing of the three components, I suggest to remove "not procedural like Fortran or Matlab", as it is hard to follow the sentence structure and the information not essential. Also, is MML really designed to solve equations? Or rather to provide the information to solve them? Author: Updated and clarified sentence (page 3, Methods 1. MML , paragraph): “MML, the mathematical modeling language of JSim, is a declarative language specifying all the model equations, leaving the sequencing and solving of equations to the JSim compiler and simulator.” in Methods, second point in the above listing: You mention several models ("For example, there have been a variety of models...") - would it be possible to link to these specific works, e.g., using citations? Author: added the following references (page 3, Methods 2. Modules , paragraph): - Chapman JB, Johnson EA, and Kootsey JM, Electrical and Biochemical Properties of an Enzyme Model of the Sodium Pump, Journal of Membrane Biology 74., 139-153, 1983 - Demir S, Clark J, Murphey C, and Giles W, A mathematical model of a rabbit sinoatrial node cell. Am. J. Physiol. Cell Physiol. 266: C832-C852, 1994 - Goldman David E. Potential, impedance, and rectification in membranes, J Gen Physiol 27: 37-60, 1943. - Hille B. Ionic Channels of Excitable Membranes. 3rd Ed, Sunderland, MA, Sinauer, 2001. - Hodgkin AL and Huxley AF. A quantitative description of membrane current and its application to conduction and excitation in nerve. J Physiol. 500-544, 1952d. - Lauger P, Electrogenic Ion Pumps, 2nd Ed, Sinauer, Sunderland MA 1991 - Winslow RL, Rice J, Jafri S, Marban E, and O'Rourke B, Mechanisms of altered excitation-contraction coupling in canine tachycardia-induced heart failure, II: model studies. Circ Res. 1999 Mar 19;84(5):571-86. Last sentence on page 3: "A "library" with a few..." - I think it should read "in our next step" (instead of "in out next step") Author: Fixed typo (page 4, "Selecting and arranging..." paragraph): “A `library` with a few elementary operators from which we will build a model in our next step is illustrated below:” End of first paragraph on page 4: "Species A enters, with flow F, a compartment... I had problems following the sentence, specifically because of "passive exchange between"... Can simplify the sentence structure or use two sentences instead? Author: Made into two sentences to make more readable (page 5, first paragraph): “Species A enters, with flow F, a compartment with volume V1 and passive exchange between a second compartment with volume V2. In the second compartment, A reacts at rate GA2B to form B and B reacts to form C at rate GB2C, a Michaelis-Menten reaction.” First sentence in Discussion: Should it be "Though an MPC-generated..." (instead of "a")? Author: Agree. Corrected (page 8, first paragraph); an M is an aspirate. same paragraph: "These are key steps towards reproducibility and the VVUQ process." I would have found it helpful to get a reference to the VVUQ process. Can you add one? Author: Rewrote the first paragraph (page 8) of the “Discussion” section and added the following reference: - R.H. Johnstone, et al., Uncertainty and variability in models of the cardiac action potential: Can we build trustworthy models?, J Mol Cell Cardiol (2015), http://dx.doi.org/10.1016/j.yjmcc.2015.11.018 Updated paragraph: A prerequisite to using MPC is semantic consistency throughout the libraries and modules. Automated systems using ontologies will help craft models ( Gennari et al., 2011), but the great efficiency of MPC for model construction begins to show when there are many model modules as in biochemical networks and circulatory or airway models. The VVUQ process (Johnstone et al. 2015) provides key steps toward reproducibility (VVUQ = Verification, Validation, Uncertainty Quantification, the latter defining predictive accuracy). Though an MPC-generated model is checked for syntax and unit balance through JSim, further verification is required: analytical solutions can be written into the code to match specific limiting cases, but otherwise one depends on testing for mass, charge, or energy balances. Validation requires testing against data, independent of the construction method; model solutions should not be in contradiction to the data. Quantification of the uncertainty is needed for making predictions from the model: UQ includes uncertainty in parameters, handled by JSim's Monte Carlo analysis, and in inputs/environment and model structure. Structural uncertainty, a major challenge, defines a major role for MPC: inserting different choices from amongst similar but differently functioning modules, into a large, multi-modular model, and solving the system many times with the variant constituents illustrating uncertainty in the projected outcomes. I. Grant information, last sentence: Please use a capital letter to start the sentence, and add two "the" - "The grants supported the whole group." Author: updated sentence as suggested. View more View less Competing Interests None. reply Respond Report a concern 
+ 
+ Waltemath D. Peer Review Report For: Semi-automated Modular Program Constructor for physiological modeling: Building cell and organ models [version 3; peer review: 2 approved] . F1000Research 2016, 4 :1461 ( https://doi.org/10.5256/f1000research.9029.r13211) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-1461/v2#referee-response-13211 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Waltemath D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 05 Jan 2016 | for Version 1 Dagmar Waltemath , Department of Systems Biology and Bioinformatics, University of Rostock, Rostock, Germany 0 Views copyright © 2016 Waltemath D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The manuscript at hand describes MPC, a tool that supports modelers in constructing complex models from smaller ones. MPC also keeps information about the single modules, making their exchange and further coupling even easier. The manuscript provides several examples (on code and abstract level) of how to use MPC, but it does not give details on how the algorithm itself works. My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the abstract alone you speak about programs, utilities, code; about models, processes, model code and modules. Maybe you could - not only in the abstract but throughout the manuscript - unify your wording a little bit more to make the text more comprehensive. Related work: I missed a discussion of related systems, e.g. the model merge tool for SBML, semanticSBML, or the semantic-based system (there was a new publication just recently 1 ). While you mention them in the beginning of your introduction, I did not see a discussion of these systems, and how they differ from your approach. I, as a reader, would be interested to know which system is best to use when. Furthermore, I have the following smaller comments: Page 2, Introduction: "The models include time-dependent..." -- Here it was not clear to me what you mean by "models". Page 2, MPC implementation: "Through JSim, the final constructed model...." -- I understand here, that you can upload your constructed models from JSim into an open model repository, and then directly download them into other simulation platforms. I am not sure that it is as easy as this, particularly for BioModels there will be a curation process in between, and there is thus no immediate reuse. The way the sentence is written now, a reader may assume that models can directly and immediately be exchanged through these resources, which is in my opinion misleading. Page 2, MPC implementation: "These are archived, forming libraries of operational code" -- I would be interested to know how you archive the modules, where, and how/if/to what degree they are accessible/reusable? Figure 1: I would like to suggest using an SBGN-compliant notation for the toy model. Summary: "MPC encodes and preserves..." -- This is an important information for the users, and I would like to suggest to add this information to the abstract. References 1. Neal ML, Carlson BE, Thompson CT, James RC, et al.: Semantics-Based Composition of Integrated Cardiomyocyte Models Motivated by Real-World Use Cases. PLoS One . 2015; 10 (12): e0145621 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 07 Apr 2016 Bartholomew Jardine, University of Washington, Seattle, USA Our responses to Referee Dagmar Waltemath's review: My suggestions for improvements are mainly on the terminology used throughout the manuscript, and on the discussion of related work. Unifying terms: In the abstract alone you speak about programs, utilities, code; about models, processes, model code and modules. Maybe you could - not only in the abstract but throughout the manuscript - unify your wording a little bit more to make the text more comprehensive. Author Response: Yes, we updated the abstract and paper as a whole to try to use consistent and unifying wording when discussing model code, processes, modules, etc. These changes are most notable in the abstract and introduction. Related work: I missed a discussion of related systems, e.g. the model merge tool for SBML, semanticSBML, or the semantic-based system (there was a new publication just recently1). While you mention them in the beginning of your introduction, I did not see a discussion of these systems, and how they differ from your approach. I, as a reader, would be interested to know which system is best to use when. Author Response: Added a paragraph in the Introduction that briefly discusses other tools in relation to MPC: "Modular model creation and construction rely, to varying degrees, on meta-data to assist in reusing and merging previous models into a new one. Antimony (Smith 2009) is the simplest approach. It requires the user to be familiar with the model and just specify that you want to import it into the new model. It relies on the user to resolve discrepancies between models. SemanticSBML(Krause 2010), SemGen (Genari 2011, Neal 2015), and Phy-Sim (Erson 2012) make use of standard semantic and ontological descriptions of a biological model to allow large models to be broken down easily, without much user guidance, into biologically meaningful components linked to their mathematical description. Semantic and ontological metadata assists the construction of new models by providing suggested connections or relationships between models. This approach requires the user to invest time in complete annotation of models with standardized meta-data. The payoff is models that can be constructed and merged together using biological rather than mathematical terms. ProMot (Mirschel 2009) enforces an object-oriented approach to modeling (defining external interfaces for each object) and attempts to use network theory to describe biological systems through specifying elements and coupling elements (Mirschel 2009). MPC relies on the user to modularize a model using directives to specify them. MPC then requires the user to specify how the new model makes use of the modules. MPC only imposes unit balance constraints, indirectly, through the JSim MML compiler (Butterworth 2014)." Furthermore, I have the following smaller comments: Page 2, Introduction: "The models include time-dependent..." -- Here it was not clear to me what you mean by "models". Author Response: Clarified sentence to make it clearer (Page 2, Introduction, 4th paragraph): Some MPC built models include time-dependent two-dimensional spatial models in both Cartesian and cylindrical coordinates (Raymond et al., 2011; 2012), requiring PDEs, and whole organ models with heterogeneous flows, and substrate metabolism, including reconstructing Bassingthwaighte et al., 1989 blood-tissue exchange model. Page 2, MPC implementation: "Through JSim, the final constructed model...." -- I understand here, that you can upload your constructed models from JSim into an open model repository, and then directly download them into other simulation platforms. I am not sure that it is as easy as this, particularly for BioModels there will be a curation process in between, and there is thus no immediate reuse. The way the sentence is written now, a reader may assume that models can directly and immediately be exchanged through these resources, which is in my opinion misleading. Author Response: That sentence is confusing and not what we wanted to say. Changed to: Through JSim, the final constructed model can be exported into Systems Biology Markup Language (SBML, http://sbml.org/Main_Page) or CellML (https://www.cellml.org/), and imported to other SBML or CellML supported simulation platforms [Smith et al., 2014]. Page 2, MPC implementation: "These are archived, forming libraries of operational code" -- I would be interested to know how you archive the modules, where, and how/if/to what degree they are accessible/reusable? Author Response: Modules created and used by our team are currently available for download at physiome.org (http://physiome.org/software/MPC/) or search on term "mpc" (http://physiome.org/Models/modelDB/). At this time there are a very limited set of MPC modules available. Soon (May/June 2016) we will have individual MPC annotated modules accessible directly from our search page with all file dependencies listed and available for download as well as links to full JSim models that may use them. Contributions to our model repository are encouraged (Any modeling language accepted). Sentence inserted on page 2, in MPC implementation, paragraph 2, Modules: "These are archived, forming libraries of operational module code that can be publicly distributed (some are available at http://www.physiome.org/software/MPC/)." Figure 1: I would like to suggest using an SBGN-compliant notation for the toy model. Author Response: Thank you for the suggestion, for this particular figure we would like to keep it as is, but since we are currently modeling cardiac metabolism at the sub-cellular level we will be adopting SBGN notation where possible. Arrowheads in figure are made smaller. Summary: "MPC encodes and preserves..." -- This is an important information for the users, and I would like to suggest to add this information to the abstract. Author Response: Added this sentence to the abstract. View more View less Competing Interests None. reply Respond Report a concern 
+ 
+ Waltemath D. Peer Review Report For: Semi-automated Modular Program Constructor for physiological modeling: Building cell and organ models [version 3; peer review: 2 approved] . F1000Research 2016, 4 :1461 ( https://doi.org/10.5256/f1000research.8055.r11594) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-1461/v1#referee-response-11594 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Semi-automated Modular Program Constructor...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/4-1461/v3" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/4-1461/v3&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/4-1461/v3" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Jardine B et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/4-1461/v3/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/4-1461",
+ templates : {
+ twitter : "Semi-automated Modular Program Constructor for physiological.... Jardine B et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/4-1461/v3"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Semi-automated Modular Program Constructor for physiological modeling: Building cell and organ models", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Software Tool Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Semi-automated Modular Program Constructor for physiological modeling: Building cell and organ models", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/7476/9641")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "9641");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "12296": 0,
+ "12297": 0,
+ "12074": 0,
+ "11594": 9,
+ "12298": 0,
+ "11595": 0,
+ "11596": 0,
+ "11597": 0,
+ "13363": 0,
+ "14421": 0,
+ "14422": 1,
+ "11770": 0,
+ "13211": 5,
+ "11771": 0,
+ "13212": 3,
+ "13213": 0,
+ "13214": 0,
+ "13215": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "ca7c4d53-8ff3-45db-8fc6-a9180eacf461";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

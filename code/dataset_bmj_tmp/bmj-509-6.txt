@@ -1,0 +1,33 @@
+Summary:
+This is a well-written paper reporting on an analysis to assess the impact of the US Hospital Value-Based Purchasing program
+on patient mortality. The authors used a quasi-experimental design with a control group to evaluate the impact of the program
+on mortality. Several sensitivity and subgroup analyses were conducted. The analysis was comprehensive, including all eligible
+hospitals in the US and a total of over 2 million patients between 2008-2013. The article is clear, methods seem appropriate
+(although could be clarified in places), and results are presented clearly, consistently and concisely. The conclusion is that the
+HVBP program is not associated with better outcomes. I would like to congratulate the authors on an exemplary study using a
+rigorous approach and analysis. I really have no major concerns, but several suggestions for their consideration.
+Specific comments:
+1. While I believe the statistical methods were appropriate, there are some confusing aspects. For example, the method of
+analysis is described as an interrupted time series (ITS) analysis. However, the description of the analytical model is not what I
+would have expected for an ITS design. Rather than analyzing a single series using aggregate outcomes and a segmented
+linear autoregressive analysis, the authors seemed to have conducted a patient-level analysis using a Bayesian hierarchical
+model to compare differences in trends while adjusting for patient clustering within hospitals. Or was this process used merely
+to generate the risk-adjusted aggregate mortality indicators prior to an ITS analysis? Please clarify.
+2. There are a few additional areas for clarification. Please define the time interval for the regression analysis (presumably time
+was coded in quarters and analyzed as a continuous variable, but this is not stated in the Methods).
+3. Please clarify the primary approach with respect to the comparison of pre- and post-mortality slopes between participating
+and non-participating hospitals. Was this in fact done using segmented linear regression of aggregate data as described in ref
+16 (i.e., including a term to describe change in intercept after the program started and another to describe change in slopes
+after the program started) or was this implemented using interactions with time. The description of the analysis seems to
+indicate that only difference in slopes was accounted for, rather than difference in level and slope as an traditional ITS
+analysis. Was this an apriori decision or decided based on significance testing?
+4. Please describe how the analysis accounted for the autoregressive error structure if conducted as an ITS analysis (or
+alternatively, for the correlation in repeated measures on the same hospital over time if conducted at the patient-level)?
+5. Did you consider allowing for a ramp-up period by censoring a period of time to allow for the hypothesized effect of the
+program to be realized as described in Penfold RB and Zhang F. Use of interrupted time series analysis in evaluating health
+care quality improvements. Acad Pediatr 2013 Nov-Dec;13(6 Suppl):S38-44. It is unlikely that there would be an immediate
+effect of the program upon its implementation and this may need to accommodated in the model.
+6. An additional analysis is described using logistic regression with hospital fixed effects. Why were hospitals not considered
+random effects, i.e., hierarchical logistic regression?
+7. Please provide details of how the matching of the worst-performing hospitals was carried out.
+Reviewer: Monica Taljaard

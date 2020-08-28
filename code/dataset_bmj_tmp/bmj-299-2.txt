@@ -1,0 +1,200 @@
+Is the article important?
+Yes
+Feed the Future has driven the global agenda on food security, leveraging investment from
+country governments, the private sector and other donors. The Feed the Future (FTF)
+initiative focuses on two priorities in the quest to promote food security: reducing poverty
+among smallholder farmers and improving the nutritional status of women and children.
+Feed the Future “aim[s] to strengthen the links between agriculture and improved nutrition
+outcomes” and promote “nutrition-sensitive” agriculture.
+The difference-in-differences design is a quasi-experimental method that relies on the
+assumption that, in the absence of any intervention, countries receiving Feed the Future
+funding would have identical nutritional trends in outcomes as non-recipient countries This
+approach attempts to account for selection bias under the assumption that unobservable
+factors determining selection are fixed over time (time invariant).
+Will it help our readers to make better decisions and, if so, how?
+
+Impact evaluation helps answer key questions for evidence-based policy making: what
+works, what does not, where, why and for how much? Impact evaluation is being
+increasingly applied to health programme assessment. This paper does not address the
+individual practitioner, but on the value of an important global programme
+Will the article add enough to existing knowledge?
+Multiple systematic reviews have concluded that evidence to support a direct relationship
+between agricultural interventions and improved nutritional status is weak. Little evidence
+has been found of a positive effect on the prevalence of stunting, wasting, and underweight
+among children aged under 5. However, the reviews indicate that this conclusion may be
+the result of methodological weaknesses, including small sample sizes and absence of
+counterfactual groups, rather than inherent weaknesses of programmes and their lack of
+impact.
+Information on the impacts of Feed the Future are limited, and there is noticeably little
+independent analysis of the initiative.
+Does the article read well and make sense? Does it have a clear message?
+The article is difficult to read. It presents statistical concepts in a way that may challenge
+the ordinary reader. While its message is clear, the implications of the message are
+inadequately explored.
+Originality.
+This type of analysis for the issue under consideration has not been previously attempted.
+Importance of the work to general readers
+Moderate
+Scientific reliability:
+1. Critical detail of the Feed the Future programme needs to be provided in the
+Methodology section including:
+a) Its introduction and implementation (date, countries involved, components, etc.).
+b) What country selection for FTF was based on, and how well these criteria explain
+country selection (based on your analysis).
+c) How control countries were selected, and why the choice was appropriate.
+d) Exposure to FTF within countries, including the concept of “Zones of Influence”
+2. Explain how anthropometric outcomes were measured in the original data sources (DHC
+and MICS), including who collected primary data, how reliability was assessed and what
+data quality management was done. “We calculated z-scores and excluded implausible
+observations based on WHO criteria [22].” Also indicate what form the original data was in
+(e.g. absolute weights, heights), what tool you used to calculate z-scores and why you
+needed to further manage data quality.
+3. The statistical analysis is presented in a complicated (statistical) manner that I believe
+makes it difficult for the average journal reader to follow. I believe it can be improved by
+removing the “statistical language” and explaining (simply):
+a) In ordinary language (text) what was done without depending on presenting equations.
+b) What each regression model included and/or added and controlled (when relevant).
+(Describe this briefly in the Methods section and in detail in the appendix).
+c) Why and how the “parallel trends” assumption was tested.
+d) The different sensitivity analyses undertaken and the reason for doing each.
+e) The need for “sample weights and estimated robust standard errors clustered at the
+level of strata”.
+f) Falsification tests
+g) The qualitative review undertaken, including why it was necessary.
+4. Information on non-primary database co-variates utilised in the analysis needs to be
+provided. Provide a summary list. Include why each was used, the data source and
+categorisation (if relevant). These include: ”GNI”, governance, life expectancy and “Nut. +
+
+Ag. ODA p.c.”, domestic health expenditure per capita, total ODA. Some variates need
+explanation, such as “rainy month”.
+5. The results section is relatively short, and truncated, with the reader referred to the
+appendix for data (tables and figures). I would have liked a clearer and longer description
+of the various statistical techniques used and their contribution to the results to have been
+offered. Similarly, some figures offered as eFigures (1 and 2) could be moved to the main
+section, while Table 1 could be relegated to the supplementary appendix. Is there a reason
+why a summary of post FTF trends are not demonstrated graphically?
+6. “Our estimated effect sizes correspond to approximately one million fewer stunted,
+wasted, and underweight children.” Where are the actual numbers on which this estimate
+is based presented in the paper (or appendix)? Further you state “Notably, while USG’s
+evaluation concludes that FTF has prevented 3.4 million children from becoming stunted,
+our estimated impact of around 1 million fewer children stunted, while substantial, is much
+smaller.” Is this not partly explained by the fact that the US government is referring to its
+global programme while you only focussed on sub-Saharan African countries?
+7. “We find compelling evidence that a multi-sectorial program focused predominantly on
+agriculture is linked to significant improvements in child nutrition indicators within five to
+six years after the full rollout of the program. This result has important implications for
+country governments and global development partners in low- and middle-income
+countries.” This statement raises various issues that are inadequately discussed:
+a. How significant is a 2.4 percentage point stunting, 1.7 percentage point wasting and 2.4
+percentage points underweight reduction, six years after introduction?
+i. You do not answer this question. Most would consider this to be a small effect,
+particularly if annualised to an annual absolute increase of about 0.4%. In your concluding
+paragraph you offer a different and more realistic interpretation of your results indicating
+“Based on our analysis, FTF may be helping to move the needle, but its impact alone will
+not be enough to meet these (SDG) targets”. I would expect a significant amount of your
+discussion contextualising this main finding, comparing it to, for instance, single country
+experiences (such as Brazil) and the results of systematic reviews, and reflecting on just
+how important the difference is.
+ii. You did not consider programme cost in your analysis, but any data on this (which I
+recognise is difficult to obtain) would also assist in assessing programme benefit.
+iii. The relative percentage distribution of change is also worth some reflection. A previous
+meta-analysis found relatively greater success of agricultural interventions in reducing the
+prevalence of underweight and wasting compared with stunting. You found differently.
+b. The implementation period(s) are not explicitly stated in the paper.
+c. What are the implications of the findings for the FTF, individual countries and other
+partners?
+i. You offer hypothesis of why the programme was “effective”, but cannot relate any of
+these to actual programme implementation, instead offering theoretical considerations. A
+well-designed impact evaluation can answer questions about program design: which bits
+work and which bits do not, and so provide policy-relevant information for redesign and the
+design of future programs.
+ii. Can you offer any insights about how the results achieved may have been attained? You
+statement that “The specific pathways of FTF’s estimated impacts are challenging to isolate
+both because its activities vary by country and because the pathways connecting
+agriculture and nutrition are complex [40]” is valid, but ultimately unsatisfactory because it
+does not offer the reader any new insights about the implications of your findings.
+iii. It seems worthwhile to assess how Feed the Future performs against its stated objective
+of offering a new approach to food security. It would be useful to examine how agriculture
+and food security fit within the broader context of development policy.
+8. “We find that stunting results lose significance at p<0.05 when total ODA or
+country-level health expenditure are included as covariates in the regression”. This finding,
+first presented in the Discussion, is important. Why was it not included in the results
+section? How important is this finding?
+9. You should summarise the strengths of your study and present these.
+10. Regarding your described limitations:
+
+a. While unable to characterise the “zone of influence” with any precision can you offer any
+insights about what percentage of each country was covered (as a minimum)? Better still
+would be some data on which areas were covered. In the absence of this, is it reasonable
+to claim country effectiveness if, for instance, only 10 to 20% of a country was covered?
+Attribution will always be difficult. I do not suggest that Feed the Future should not get
+some credit for these results. But data that cannot be traced to Feed the Future’s activities
+are inadequate for a robust assessment of the initiative.
+b. You should also acknowledge the limitations of the difference in differences
+methodology, particularly the influence of unexplored confounders such as government
+effectiveness, political stability, corruption measures, commitment of a country’s own
+resources or falling disease burden - from malaria prevention and treatment , for instance,
+which has shown signicant benet in reducing stunting in regions with high malarial
+burden).
+c. The limited data availability of the FTF programme, reducing your ability to make
+meaningful interpretation of your data.
+11. Summary box
+a. The messages need to be shorter and sharper.
+b. The messages need to be more specific to the purpose and findings of the study.
+c. Add detail of primary outcome and implication of findings.
+12. The Introduction is too long. First two paragraphs are superfluous and can be
+substantially reduced or removed completely.
+13. Presentation of tables and figures needs to be improved. Include full headings, list of
+abbreviations, data sources and notes.
+Minor corrections
+Page, line Text Edit
+1,7 Impact of a Large U.S. Government Nutrition Program on
+Under-5 Nutrition in Sub-Saharan Africa: A Difference-inDifferences Evaluation of Feed the Future Impact of Feed the Future, a Large U.S.
+Government Nutrition Program, on Under-5 Nutrition in Sub-Saharan Africa: A
+Difference-in-Differences Evaluation
+3,35 Wasting (low weight-for-height) Wasting (weight-for-height < -2 z-score)
+3,35 Underweight (low weight-for-age) underweight (weight-for-age < -2 z-score)
+3,40 39% Thirty nine per cent
+39% of children in our sample were stunted, 10% were wasted, and 23% were
+underweight. At baseline? If yes, indicate this.
+3,41 Indicate number of intervention and number of control countries
+3,44 2.4 (0.6 to 4.2) Are these 95% confidence intervals? If yes, indicate this.
+3,50 … after Feed the Future’s implementation Indicate period (years) over which this
+decline occurred
+These decreases translate to approximately one million fewer children stunted, wasted, and
+underweight. Unsure how this statistic obtained, considering different reduction rates. Is
+this an “and” or an “or” (i.e. were children with combinations counted twice/thrice?)
+4,3 Conclusion Conclusion needs to be sharper, stronger and more specific
+5,8 accounting for an estimated 5.6 million deaths (5,000 each day) in 2016 [2] This fact is
+incorrect and cannot be found in the cited reference
+5,21 The Food and Agriculture Organization of the United Nations places its worldwide
+economic cost at up to 2.1 trillion dollars annually [5] Cost of what?
+5,26 direct causes of undernutrition Suggest include infection in this list
+6,39 While FTF is in its eighth year, Indicate year (in 2018)
+9,18 omission of some covariates that which could plausibly be affected by FT
+9, 55 15 Stata Stata 15
+18,32 We therefore reason that our analytical approach would threatened We therefore
+reason that our analytical approach would be threatened
+18,56 USG’s Unfamiliar abbreviation
+
+Additional Questions:
+Please enter your name: Haroon Saloojee
+Job Title: Head, Division of Community Paediatrics
+Institution: University of the Witwatersrand
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests <A
+HREF='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/d
+eclaration-competing-interests'target='_new'> (please see BMJ policy) </a>please declare
+them here: None
+
+Reviewer: 4
+Recommendation:

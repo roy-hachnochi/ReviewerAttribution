@@ -1,0 +1,34 @@
+The paper is very well written and the analyses well described. The authors have done a very good revision from their
+earlier version, and in particular responded well to the truly superb review by Efthimiou. I have some further suggestions
+for improvement, though these are relatively minor except for comments about ORs (See below) which need detailed
+thought/justification. The analysis methods appear entirely appropriate and in keeping with the current literature. It is
+an immense piece of work and very well reported, with excellent appendices.
+Major
+1) ORs are provided, and I think used to translate back to the absolute risk scale (assuming a particular baseline risk).
+The authors are therefore assuming that ORs are close approximation to RRs. But the event %s appear quite high. I
+therefore worry that this is not appropriate. Please can the authors justify this, or revise accordingly.
+2) Why are ORs relevant here, when the studies have different follow up lengths? Surely hazard ratios would be
+preferred. Indeed, the authors often refer to rates, but simply give %s, which are not rates but risks. I worry they are
+confusing the two here. They say “The primary efficacy outcome was prevention of advanced metachronous neoplasia,
+within 3-5 years of the index colonoscopy” – therefore, it could be that ORs for 3 years are very different to ORs for 5
+years? If follow-up length was different for different agents, then this might aversely bias the comparisons? Can the
+authors address this please, either as a limitation, or to justify why ORs were used and what time-point they exactly
+relate to.
+We certainly need to know the time in each study when the OR was measured.
+3) A related point, when the absolute risks are presented: what time-point is this the risk of an outcome by?
+4) ORs require all patients to be followed until the time-point of analysis. Therefore, how were patients handled who
+were censored before the time-point? I don't know whether censoring was an issue or not, but with 3-5 year follow up it
+is possible.
+Minor
+1) SUCRA is an unusual term for the BMJ reader, and the abstract would benefit from either explaining its meaning in
+more detail, or removing it.
+2) Introduction says: “Network meta-analyses combine direct and indirect evidence to
+establish comparative efficacy and safety across a network of RCTs of all agents used in a particular condition” – the
+authors should note the assumptions at this point also. We gain more by assuming more.
+3) The authors put most of their an analysis description in the supplementary appendix. I strongly suggest this is moved
+to the main paper. That is, integrate the ‘emethods’ stats analysis section to the methods of the main paper. There are
+many assumptions and explanations therein that are important, and deserve to be in the paper. The BMJ has no word
+limit.
+4) Figure 1 – why are the number of studies with direct evidence not simply added to the lines?
+I hope my comments help the authors improve the article going forward.
+Richard Riley, BMJ Statistics Editor.

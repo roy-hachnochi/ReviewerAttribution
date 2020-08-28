@@ -1,0 +1,1452 @@
+
+
+    <!DOCTYPE html>
+<html class="">
+
+        
+<head>
+    <title>Cardio-oncology: management of cardiovascular... | F1000Research</title>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+    <!--<meta lang="$locale">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="9-QVycOO2_ob3Z9QzRmXv2CF08A9oyYXqWyTiVdKPlU" />
+    <!-- This is commented out to fix display problems on mobile devices.
+    We may use it again once we implement a responsive design that supports native device resolutions.
+    <meta name="viewport" content="width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <link rel="alternate" title="Recent articles published in F1000Research" href="/rss" type="application/rss+xml">
+            <link rel="alternate" type="application/pdf" title="PDF" href="https://f1000research.com/articles/8-120/pdf"/>
+        <link rel="canonical" href="https://f1000research.com/articles/8-120" />
+    
+            <meta name="description" content="Read the original article in full on F1000Research: Cardio-oncology: management of cardiovascular toxicity" />
+    
+            <meta name="og:title" content="F1000Research Article: Cardio-oncology: management of cardiovascular toxicity.">
+            <meta name="og:description" content="Read the latest article version by Timothy M. Markman, Maurie Markman, at F1000Research.">
+            <meta name="og:image" content="/img/sharing/og_research.png">
+            <meta name="version-id" content="15829">
+            <meta name="article-id" content="14542">
+            <meta name="dc.title" content="Cardio-oncology: management of cardiovascular toxicity">
+            <meta name="dc.description" content="Traditional chemotherapeutic agents and newer targeted therapies for cancer have the potential to cause cardiovascular toxicities. These toxicities can result in arrhythmias, heart failure, vascular toxicity, and even death. It is important for oncologists and cardiologists to understand the basic diagnostic and management strategies to employ when these toxicities occur. While anti-neoplastic therapy occasionally must be discontinued in this setting, it can often be maintained with caution and careful monitoring. In the second of this two-part review series, we focus on the management of cardiovascular toxicity from anthracyclines, HER2/ErbB2 inhibitors, immune checkpoint inhibitors, and vascular endothelial growth factor inhibitors.">
+            <meta name="dc.subject" content="cardio-oncology, cardiovascular toxicity, arrhythmia, heart failure">
+            <meta name="dc.creator" content="Markman, Timothy M.">
+            <meta name="dc.creator" content="Markman, Maurie">
+            <meta name="dc.date" content="2019/01/30">
+            <meta name="dc.identifier" content="doi:10.12688/f1000research.14542.1">
+            <meta name="dc.source" content="F1000Research 2019 8:120">
+            <meta name="dc.format" content="text/html">
+            <meta name="dc.language" content="en">
+            <meta name="dc.publisher" content="F1000 Research Limited">
+            <meta name="dc.rights" content="https://creativecommons.org/licenses/by/3.0/igo/">
+            <meta name="dc.type" content="text">
+            <meta name="prism.keyword" content="cardio-oncology">
+            <meta name="prism.keyword" content="cardiovascular toxicity">
+            <meta name="prism.keyword" content="arrhythmia">
+            <meta name="prism.keyword" content="heart failure">
+            <meta name="prism.publication.Name" content="F1000Research">
+            <meta name="prism.publicationDate" content="2019/01/30">
+            <meta name="prism.volume" content="8">
+            <meta name="prism.number" content="120">
+            <meta name="prism.versionIdentifier" content="1">
+            <meta name="prism.doi" content="10.12688/f1000research.14542.1">
+            <meta name="prism.url" content="https://f1000research.com/articles/8-120">
+            <meta name="citation_title" content="Cardio-oncology: management of cardiovascular toxicity">
+            <meta name="citation_abstract" content="Traditional chemotherapeutic agents and newer targeted therapies for cancer have the potential to cause cardiovascular toxicities. These toxicities can result in arrhythmias, heart failure, vascular toxicity, and even death. It is important for oncologists and cardiologists to understand the basic diagnostic and management strategies to employ when these toxicities occur. While anti-neoplastic therapy occasionally must be discontinued in this setting, it can often be maintained with caution and careful monitoring. In the second of this two-part review series, we focus on the management of cardiovascular toxicity from anthracyclines, HER2/ErbB2 inhibitors, immune checkpoint inhibitors, and vascular endothelial growth factor inhibitors.">
+            <meta name="citation_description" content="Traditional chemotherapeutic agents and newer targeted therapies for cancer have the potential to cause cardiovascular toxicities. These toxicities can result in arrhythmias, heart failure, vascular toxicity, and even death. It is important for oncologists and cardiologists to understand the basic diagnostic and management strategies to employ when these toxicities occur. While anti-neoplastic therapy occasionally must be discontinued in this setting, it can often be maintained with caution and careful monitoring. In the second of this two-part review series, we focus on the management of cardiovascular toxicity from anthracyclines, HER2/ErbB2 inhibitors, immune checkpoint inhibitors, and vascular endothelial growth factor inhibitors.">
+            <meta name="citation_keywords" content="cardio-oncology, cardiovascular toxicity, arrhythmia, heart failure">
+            <meta name="citation_journal_title" content="F1000Research">
+            <meta name="citation_author" content="Timothy M. Markman">
+            <meta name="citation_author_institution" content="Department of Medicine, Cardiovascular Division, Hospital of the University of Pennsylvania, University of Pennsylvania, Philadelphia, PA, USA">
+            <meta name="citation_author" content="Maurie Markman">
+            <meta name="citation_author_institution" content="Cancer Treatment Centers of America at Eastern Regional Medical Center, Philadelphia, PA, USA">
+            <meta name="citation_publication_date" content="2019/01/30">
+            <meta name="citation_volume" content="8">
+            <meta name="citation_publication_number" content="120">
+            <meta name="citation_version_number" content="1">
+            <meta name="citation_doi" content="10.12688/f1000research.14542.1">
+            <meta name="citation_firstpage" content="120">
+            <meta name="citation_pdf_url" content="https://f1000research.com/articles/8-120/v1/pdf">
+    
+
+    
+    <link href="/img/favicon-research.ico" rel="shortcut icon" type="image/ico">
+    <link href="/img/favicon-research.ico" rel="icon" type="image/ico">
+
+        <link rel="stylesheet" href="/1597255280893/css/mdl/material-design-lite.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.2.43/css/materialdesignicons.min.css" />
+
+        
+            
+    <link rel="stylesheet" href="/1597255280893/css/F1000Research.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/animation.css" type="text/css" media="all" />
+
+        <!--[if IE 7]><link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons-ie7.css" media="all" /><![endif]-->
+
+                    <script>dataLayer = [];</script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54Z2SBK');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="/1597255280893/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="/1597255280893/js/shared_scripts/sticky.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/shared_scripts/menu.js"></script>
+    <script src="/1597255280893/js/shared_scripts/navbar.js"></script>
+    <script src="/1597255280893/js/shared_scripts/platforms.js"></script>
+    <script src="/1597255280893/js/shared_scripts/object-polyfills.js"></script>
+            <script src="/1597255280893/js/vendor/lodash.min.js"></script>
+        <script>CKEDITOR_BASEPATH='https://f1000research.com/js/ckeditor/'</script>
+    <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/plugins.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/app/research.js"></script>
+    <script>window.reactTheme = 'research';</script>
+    <script src="/1597255280893/js/public/bundle.js"></script>
+
+    <script src="/1597255280893/js/app/research.ui.js"></script>
+    <script src="/1597255280893/js/app/login.js"></script>
+    <script src="/1597255280893/js/app/main.js"></script>
+    <script src="/1597255280893/js/app/js-date-format.min.js"></script>
+    <script src="/1597255280893/js/app/search.js"></script>
+    <script src="/1597255280893/js/app/cookies_warning.js"></script>
+    <script src="/1597255280893/js/mdl/mdl.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/ckeditor.js"></script>
+            <script src="/js/ckeditor/adapters/jquery.js"></script>
+                <script src="/js/article/article_scrolling_module.js"></script>
+            <script src="/js/article/article_stats.js"></script>
+            <script src="/js/article/article.js"></script>
+            <script src="/js/shared_scripts/referee_timeline_pagination.js"></script>
+            <script src="/js/app/text_editor_controller.js"></script>
+            <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503e5e99593dc42c"></script>
+            <script src="/js/article/article_metrics.js"></script>
+        
+                                                                            <script>
+            if (window.location.hash == '#_=_'){
+                window.location = window.location.href.split('#')[0]
+            }
+        </script>
+
+                    
+        
+    <!-- pixelId: 1641728616063202 :: assetPixelId: 6034867600215 :: funderPixelId:  -->
+
+            <!-- Facebook pixel code (merged with EP GTM code) -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+
+            {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+            ;if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1641728616063202');
+
+            
+            fbq('track', "PixelInitialized", {});
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1641728616063202&noscript=1&amp;ev=PixelInitialized"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+                <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:917825,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+</head>
+<body  class="o-page-container no-js p-article o-layout-reset   ">
+
+    
+                            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54Z2SBK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+        
+    <div class="o-page">
+
+        <div id="notify-container"></div>
+        <div id="pageWarning"></div>
+        <div id="pageMessage"></div>
+        <div id="pageFooterMessage"></div>
+
+                                <div id="f1r-ga-data" data-name="f1r-ga-data" class="f1r-ga-data"
+                data-user-registered="false"
+                data-user-module=""
+                data-current-path=""
+                data-location=""
+                data-website="F1000Research"
+                data-websiteDisplayName="F1000Research">
+            </div>
+        
+                
+        
+        <div class="header-wrapper   js-navbar-space ">
+                            
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+                            
+    
+            
+
+
+
+<nav class="c-navbar js-navbar js-mini-nav js-sticky c-navbar--js-sticky c-navbar--userSite c-navbar__platform-bgcolor  c-navbar--bg-f1000research ">
+
+    <div class="c-navbar__content">
+
+                                <div class="c-navbar__extras">
+            <div class="o-wrapper">
+                <div class="o-actions o-actions--middle c-navbar__extras-row">
+                    <div class="o-actions__primary">
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="o-wrapper t-inverted js-sticky-start">
+
+            <div class="c-navbar__branding-row">
+                <div class="c-navbar__row">
+
+
+                                        
+                    <div class="c-navbar__primary u-mr--2">
+
+                                                                                                                                                                                                    <a href="/" class="c-navbar__branding u-ib u-middle"   data-test-id="nav_branding"  >
+                                <img class="u-ib u-middle" src="/img/research/F1000Research_white_solid.svg" alt="F1000Research">
+                            </a>
+                                            </div>
+
+                    <div class="c-navbar__secondary c-navbar__row">
+
+
+                                                
+                                                    <form action="/search" class="-navbar__secondary u-mr--2 c-search-form js-search-form u-hide u-show@navbar">
+                                <label for="searchInput" class="c-search-form__label _mdl-layout">
+                                    <input name="q" type="search" class="c-search-form__input" id="searchInput" placeholder="Search">
+                                    <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                </label>
+                            </form>
+                        
+                                                
+                                                    <div class="c-navbar__primary u-hide u-show@navbar">
+                                <div class="_mdl-layout c-navbar__cta">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--no-shadow mdl-button--multi-line mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                            </div>
+                        
+
+                                                
+                        <span class="u-hide@navbar _mdl-layout u-nowrap">
+
+                                                            <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" data-focus="#navbar_mob_search_input" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_search_mob"  ><i class="material-icons">search</i></button>
+                            
+                                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-button--multi-line c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" type="button" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_toggle_mob"  >
+                                    <i class="material-icons c-navbar__toggle-open">menu</i>
+                                    <i class="material-icons c-navbar__toggle-close">close</i>
+                                </button>
+                                                    </span>
+                    </div>
+
+                </div>
+            </div>
+
+                        
+                            <div class="c-navbar__menu-row js-navbar-block is-collapsed" id="navbarMenu">
+
+                                                                                                                                                
+                                                                    
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+
+                                                                
+                                                                                                                                                                                                                                
+                                            
+                    <div class="c-navbar__menu-row-content">
+
+                                                                            <div class="u-hide@navbar c-navbar__menu-bar-spacing">
+                                <form action="/search" class="c-search-form js-search-form">
+                                    <label for="navbar_mob_search_input" class="c-search-form__label _mdl-layout">
+                                        <input id="navbar_mob_search_input" name="q" type="search" class="c-search-form__input" placeholder="Search">
+                                        <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                    </label>
+                                </form>
+                            </div>
+                        
+                        <div class="o-actions o-actions--middle">
+
+                            <div class="o-actions__primary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="main-menu"   role="menubar" aria-label="Main Navigation"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/browse/articles" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="0"
+                              data-test-id="nav_browse"                              >Browse</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/gateways" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_gatewaysViewAndBrowse"                              >Gateways & Collections</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="2"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_for-authors"                              >How to Publish</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="How to Publish">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_submit-manuscript"                      href="/for-authors/publish-your-research"
+                    role="menuitem"
+                    tabindex="0">Submit your Research</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/for-authors/my-submissions"
+                    role="menuitem"
+                    tabindex="-1">My Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines"                      href="/for-authors/article-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines-new-versions"                      href="/for-authors/article-guidelines-new-versions"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines (New Versions)</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_data-guidelines"                      href="/for-authors/data-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Data Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_asset-guidelines"                      href="/for-authors/posters-and-slides-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Posters and Slides Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_document-guidelines"                      href="/for-authors/document-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Document Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-processing-charges"                      href="/for-authors/article-processing-charges"
+                    role="menuitem"
+                    tabindex="-1">Article Processing Charges</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_finding-referees"                      href="/for-authors/tips-for-finding-referees"
+                    role="menuitem"
+                    tabindex="-1">Finding Article Reviewers</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="3"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_about-contact"                              >About</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="About">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_about-page"                      href="/about"
+                    role="menuitem"
+                    tabindex="0">How it Works</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_referee-guidelines"                      href="/for-referees/guidelines"
+                    role="menuitem"
+                    tabindex="-1">For Reviewers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_advisoryPanel"                      href="/advisors"
+                    role="menuitem"
+                    tabindex="-1">Our Advisors</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_policy-page"                      href="/about/policies"
+                    role="menuitem"
+                    tabindex="-1">Policies</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_glossary-page"                      href="/glossary"
+                    role="menuitem"
+                    tabindex="-1">Glossary</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_faqs-page"                      href="/faqs"
+                    role="menuitem"
+                    tabindex="-1">FAQs</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              u-hide u-show@navbar"
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      u-hide u-show@navbar"
+                                          data-test-id="nav_for-developers"                      href="/developers"
+                    role="menuitem"
+                    tabindex="-1">For Developers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_newsroom-page"                      href="/newsroom"
+                    role="menuitem"
+                    tabindex="-1">Newsroom</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_contact-page"                      href="/contact"
+                    role="menuitem"
+                    tabindex="-1">Contact</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="4"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="https://blog.f1000.com/blogs/f1000research/" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                             target="_blank"                                                         tabindex="-1"
+                              data-test-id="nav_blog"                              >Blog</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                            <div class="o-actions__secondary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="secondary-items"   role="menubar" aria-label="My Account"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="0"
+                              data-test-id="nav_my-research"                              >My Research</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="My Research">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/login?originalPath=/my/submissions"
+                    role="menuitem"
+                    tabindex="0">Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-email-alerts"                      href="/login?originalPath=/my/email-alerts"
+                    role="menuitem"
+                    tabindex="-1">Content and Tracking Alerts</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-user-details"                      href="/login?originalPath=/my/user-details"
+                    role="menuitem"
+                    tabindex="-1">My Details</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/login?originalPath=/articles/8-120.html" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_sign-in"                              >Sign In</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                                                                                        <div class="_mdl-layout c-navbar__cta u-hide@navbar c-navbar__menu-bar-spacing">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--multi-line mdl-button--no-shadow mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research_mob"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+            
+        </div>
+
+    </div>
+
+</nav>
+                    </div>
+
+        <div class="content-wrapper o-page__main row ">
+            <div id="highlight-area" class="content ">
+                
+
+
+
+
+
+<div id=article-metadata class=hidden> <input type=hidden name=versionId value=15829 /> <input type=hidden id=articleId name=articleId value=14542 /> <input type=hidden id=xmlUrl value="/articles/8-120/v1/xml"/> <input type=hidden id=xmlFileName value="-8-120-v1.xml"> <input type=hidden id=article_uuid value=9b8f5ae1-e06c-442b-b381-14669fd842c6 /> <input type=hidden id=referer value=""/> <input type=hidden id=meta-article-title value="Cardio-oncology: management of cardiovascular toxicity"/> <input type=hidden id=workspace-export-url value="https://sciwheel.com/work/api/import/external?doi=10.12688/f1000research.14542.1"/> <input type=hidden id=versionDoi value="10.12688/f1000research.14542.1"/> <input type=hidden id=usePmcStats value=true /> </div> <main class="o-wrapper p-article__wrapper js-wrapper"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://f1000research.com/articles/8-120"
+  },
+  "headline": "Cardio-oncology: management of cardiovascular toxicity",
+  "datePublished": "2019-01-30T10:27:14",
+  "dateModified": "2019-01-30T10:27:14",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Timothy M. Markman"
+    },    {
+      "@type": "Person",
+      "name": "Maurie Markman"
+    }  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F1000Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+      "height": 480,
+      "width": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+    "height": 1200,
+    "width": 150
+  },
+  "description": "Traditional chemotherapeutic agents and newer targeted therapies for cancer have the potential to cause cardiovascular toxicities. These toxicities can result in arrhythmias, heart failure, vascular toxicity, and even death. It is important for oncologists and cardiologists to understand the basic diagnostic and management strategies to employ when these toxicities occur. While anti-neoplastic therapy occasionally must be discontinued in this setting, it can often be maintained with caution and careful monitoring. In the second of this two-part review series, we focus on the management of cardiovascular toxicity from anthracyclines, HER2/ErbB2 inhibitors, immune checkpoint inhibitors, and vascular endothelial growth factor inhibitors."
+}
+</script> <div class="o-layout o-layout--right-gutter"> <div id=article_secondary-column class="p-article__main o-layout__item u-font-size--legal u-2/3@article not-expanded "> <div class=float-left> <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+              {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@id": "https://f1000research.com/",
+            "name": "Home"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "2",
+          "item": {
+            "@id": "https://f1000research.com/browse/articles",
+            "name": "Browse"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "3",
+          "item": {
+            "@id": "https://f1000research.com/articles/8-120.html",
+            "name": "Cardio-oncology: management of cardiovascular toxicity"
+          }
+        }          ]
+  }
+  </script> <div class="breadcrumbs js-breadcrumbs"> <a href="/" class=f1r-standard-link>Home</a> <span class=item_separator></span> <a href="/browse/articles" class=f1r-standard-link>Browse</a> <span class=item_separator></span> Cardio-oncology: management of cardiovascular toxicity </div> </div> <div class="article-badges-container u-mb--2"> <div class=crossmark-new> <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script> <a data-target=crossmark><img height=30 width=150 src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg"/></a> </div> <div id=crossmark-dialog style="display: none;" title=""> <iframe id=crossmark-dialog-frame frameborder=0></iframe> </div> <div class=clearfix></div> </div> <div class=article-interaction-container> <div id=main-article-count-box class=article-count-box> <div class="article-metrics-wrapper metrics-icon-wrapper" data-version-id=15829 data-id=14542 data-downloads="" data-views="" data-scholar="10.12688/f1000research.14542.1" data-recommended="" data-doi="10.12688/f1000research.14542.1" data-f1r-ga-helper="Article Page Metrics (Desktop)"> <span class="metrics-on-browse article-metrics-icon f1r-icon icon-89_metrics"></span> <div class="count-title article-metrics-text">ALL Metrics</div> <div class=js-article-metrics-container></div> </div> <div> <div class=count-delimiter></div> <div title="Total views from F1000Research and PubMed Central"> <div class="count-container view-count js-views-count">-</div> <div class=count-title><span class="count-title-icon count-title-views-icon"></span>Views</div> </div> <div class=download-counts hidden> <div class=count-delimiter></div> <div title="Total downloads from F1000Research and PubMed Central"> <div class="count-container js-downloads-count"></div> <div class=count-title><span class="count-title-icon f1r-icon icon-76_download_file"></span>Downloads</div> </div> </div> </div> </div> <div id=main-article-interaction-box class="article-interaction-box has-control-tab"> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-102_download_pdf"></span> <a href="https://f1000research.com/articles/8-120/v1/pdf?article_uuid=9b8f5ae1-e06c-442b-b381-14669fd842c6" title="Download PDF" class="button-link download pdf-download-helper" target=_blank>Get PDF</a> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-103_download_xml"></span> <a id=download-xml href="#" class="button-link download" title="Download XML">Get XML</a> </div> </div> <div class="article-interaction-info article-page"> <div class="cite-article-popup-wrapper article-page-interaction-box"> <div class="article-interaction-button cite-article-button" title="Cite this article" data-windowref=cite-article-popup-14542-1> <span class="f1r-icon icon-82_quote"></span> <a href="#" class="button-link cite-article-popup-link" title="Cite Article">Cite</a> </div> <div id=cite-article-popup-14542-1 class="popup-window-wrapper is-hidden"> <div class=cite-popup-background></div> <div class="popup-window top-popup cite-this-article-box research-layout"> <div class="popup-window-title small cite-title">How to cite this article</div> <span id=cite-article-text-14542-1 data-test-id=copy-citation_text> <span class="article-title-and-info in-popup">Markman TM and Markman M. Cardio-oncology: management of cardiovascular toxicity [version 1; peer review: 2 approved]</span>. <i>F1000Research</i> 2019, <b>8</b>(F1000 Faculty Rev):120 (<a class=new-orange href="https://doi.org/10.12688/f1000research.14542.1" target=_blank>https://doi.org/10.12688/f1000research.14542.1</a>) </span> <div class="popup-window-title small margin-top-20 margin-bottom-20 note"> <strong>NOTE:</strong> it is important to ensure the information in square brackets after the title is included in all citations of this article. </div> <div class=float-right> <button class="secondary no-fill orange-text-and-border margin-right-20 close-cite-popup uppercase">Close</button> <button id=copy-citation-details class="secondary orange copy-cite-article-version uppercase js-clipboard" title="Copy the current citation details to the clipboard." data-clipboard-target="#cite-article-text-14542-1" data-test-id=copy-citation_button>Copy Citation Details</button> </div> </div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-76_download_file"></span> <a id=export-citation href="#" class="button-link download" title="Export Citation">Export</a> </div> <div class="modal-window-wrapper is-hidden"> <div id=export-citation-popup class="modal-window padding-20"> <div class=modal-window-close-button></div> <div class=modal-window-title>Export Citation</div> <div class=modal-window-row> <div> <input type=radio name=export-citation-option value=WORKSPACE /> <span class=radio-label>Sciwheel</span> </div> <div> <input type=radio name=export-citation-option value=ENDNOTE /> <span class=radio-label>EndNote</span> </div> <div> <input type=radio name=export-citation-option value=REF_MANAGER /> <span class=radio-label>Ref. Manager</span> </div> <div> <input type=radio name=export-citation-option value=BIBTEX /> <span class=radio-label>Bibtex</span> </div> <div> <input type=radio name=export-citation-option value=PROCITE /> <span class=radio-label>ProCite</span> </div> <div> <input type=radio name=export-citation-option value=SENTE /> <span class=radio-label>Sente</span> </div> </div> <div class=modal-window-footer> <button class=general-white-orange-button id=export-citation-submit>EXPORT</button> </div> <div class=default-error style="display: none;">Select a format first</div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-90_track"></span> <a class="button-link track-article" data-article-id=14542 id=track-article-signin-14542 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/14542?target=/articles/8-120.html">Track</a> </div> </div> <div class="article-interaction-info article-page"> <div class="article-interaction-button email-article"> <span class="f1r-icon icon-6_email"></span> <a href="#" class=button-link title="Email this article">Email</a> </div> <div class="email-article-version-container small-tooltip _chrome-fix"> <div class=close-icon><span class="f1r-icon icon-3_close_big"></span></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=15829 /> <input name=articleId type=hidden value=14542 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-34_share"></span> <a href="#" class="button-link last addthis_button share-article" title="Share this article">Share</a> </div> </div> </div> <div id=article-interaction-control-tab class=article-interaction-control-tab> <div id=hide-article-interaction class=article-interaction-control title="Hide Toolbox">&#9644;</div> <div id=show-article-interaction class="article-interaction-control open" title="Show Toolbox">&#10010;</div> </div> </div> <div class="article-header-information article-page"> <div class="f1r-article-mobile article-heading-bar"></div> <div class="article-type article-display">Review </div> <div class="article-title-and-info article-view highlighted-article" id=anchor-title> <h1>Cardio-oncology: management of cardiovascular toxicity</h1><span class=other-info> [version 1; peer review: 2 approved]</span> </div> <div class=article-subtitle></div> <div class=f1r-article-desk> <div class="authors _mdl-layout"><span class="">Timothy M. Markman<sup>1</sup>,&nbsp;</span><span class=""><a href="mailto:maurie.markman@ctca-hope.com" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Maurie Markman</span></a><a href="https://orcid.org/0000-0002-3155-2006" target=_blank id=author-orcid-1><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-1><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-3155-2006</div><sup>2</sup></span></div> </div> <div class=f1r-article-mobile> <div class="authors _mdl-layout"><span class="">Timothy M. Markman<sup>1</sup>,&nbsp;</span><span class=""><a href="mailto:maurie.markman@ctca-hope.com" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Maurie Markman</span></a><a href="http://orcid.org/0000-0002-3155-2006" target=_blank id=mauthor-orcid-1><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-1><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-3155-2006</div><sup>2</sup></span></div> </div> <div class=f1r-article-mobile> <div class=article-pubinfo-mobile> PUBLISHED 30 Jan 2019 </div> </div> <span class=Z3988 title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft_id=info:doi/10.12688%2Ff1000research.14542.1"></span> <div class=f1r-article-desk> <div class="contracted-details first"> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> Department of Medicine, Cardiovascular Division, Hospital of the University of Pennsylvania, University of Pennsylvania, Philadelphia, PA, USA<br/> <sup>2</sup> Cancer Treatment Centers of America at Eastern Regional Medical Center, Philadelphia, PA, USA<br/> <p> <div class=margin-bottom> Timothy M. Markman <br/> <span>Roles: </span> Writing – Original Draft Preparation </div> <div class=margin-bottom> Maurie Markman <br/> <span>Roles: </span> Writing – Review & Editing </div> </p> </div> </div> </div> <div class=f1r-article-mobile> <div class="article-page-section-box margin-bottom-40 research-layout"> <span class=box-title> <span class="f1r-icon icon-85_peer_review"></span> OPEN PEER REVIEW </span> <button class="tertiary grey float-right" data-scrollto=article-reports>DETAILS</button> <div class="status-row referee-reports-container"> REVIEWER STATUS <span class=status-icons> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=30072-43521></span> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=45019-43520></span> </span> </div> </div> </div> </div> <h2 class="article-headings article-page-abstract" id=anchor-abstract> <span class="f1r-article-mobile-inline abstract-heading-border"></span> Abstract </h2> <div class="article-abstract article-page-general-text-mobile research-layout"> <div class="abstract-text is-expanded"> Traditional chemotherapeutic agents and newer targeted therapies for cancer have the potential to cause cardiovascular toxicities. These toxicities can result in arrhythmias, heart failure, vascular toxicity, and even death. It is important for oncologists and cardiologists to understand the basic diagnostic and management strategies to employ when these toxicities occur. While anti-neoplastic therapy occasionally must be discontinued in this setting, it can often be maintained with caution and careful monitoring. In the second of this two-part review series, we focus on the management of cardiovascular toxicity from anthracyclines, HER2/ErbB2 inhibitors, immune checkpoint inhibitors, and vascular endothelial growth factor inhibitors. </div> <div class=abstract-for-mobile> <div class="margin-top-30 padding-bottom-30 research-layout is-centered"> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border show" style="display: none;"> READ ALL <span class="f1r-icon icon-14_more_small orange vmiddle big"></span> </button> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border hide"> READ LESS <span class="f1r-icon icon-10_less_small orange vmiddle big"></span> </button> </div> </div> </div> <div class=clearfix></div> <div class="article-context no-divider"> <div class="article-abstract article-page-general-text-mobile research-layout generated-article-body"> <h2 class=main-title>Keywords</h2> <p class="u-mb--0 u-pb--2"> cardio-oncology, cardiovascular toxicity, arrhythmia, heart failure </p> </div> </div> <div class=article-information> <span class="info-separation padding-bottom"> <div id=corresponding-author-icon class="email-icon float-left"> <span class="f1r-icon icon-6_email orange"></span> <div id=corresponding-author-window class="margin-top-20 popup-window-wrapper is-hidden"> <div class="popup-window corresponding-authors-popup"> <div class=corresponding-author-container> <div class="popup-window-title small">Corresponding Author(s)</div> <div class=authors> Maurie Markman (<a href="mailto:maurie.markman@ctca-hope.com">maurie.markman@ctca-hope.com</a>) </div> </div> <div class="margin-top margin-bottom float-left"> <button id=close-popup-window class=general-white-orange-button>Close</button> </div> </div> </div> </div> <span class="icon-text float-left" data-test-id=box-corresponding-author> <b>Corresponding author:</b> Maurie Markman </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom competing-interests-display"> <span class=competing-interests-title>Competing interests:</span> No competing interests were disclosed. </span> <div class="info-separation padding-bottom grant-information-display"> <span class=grant-information-title>Grant information:</span> The author(s) declared that no grants were involved in supporting this work. </div> <span class="f1r-article-desk info-separation padding-bottom"> <span class="copywrite-icon float-left"> <span class="f1r-icon icon-100_open_access"></span> </span> <span class="icon-text float-left" data-test-id=box-copyright-text> <b>Copyright:</b>&nbsp; © 2019 Markman TM and Markman M. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom" data-test-id=box-how-to-cite> <b>How to cite:</b> <span class="article-title-and-info in-article-box"> Markman TM and Markman M. Cardio-oncology: management of cardiovascular toxicity [version 1; peer review: 2 approved]</span>. <i>F1000Research</i> 2019, <b>8</b>(F1000 Faculty Rev):120 (<a href="https://doi.org/10.12688/f1000research.14542.1" target=_blank>https://doi.org/10.12688/f1000research.14542.1</a>) </span> <span class=info-separation data-test-id=box-first-published><b>First published:</b> 30 Jan 2019, <b>8</b>(F1000 Faculty Rev):120 (<a href="https://doi.org/10.12688/f1000research.14542.1" target=_blank>https://doi.org/10.12688/f1000research.14542.1</a>)</span> <span class=info-separation data-test-id=box-latest-published><b>Latest published:</b> 30 Jan 2019, <b>8</b>(F1000 Faculty Rev):120 (<a href="https://doi.org/10.12688/f1000research.14542.1" target=_blank>https://doi.org/10.12688/f1000research.14542.1</a>)</span> </div> <div class=clearfix></div> <div id=article-context class=article-context> <div id=article1-body class=generated-article-body><h2 class=main-title id=d20447e155>Introduction</h2><p class="" id=d20447e158>Cardiovascular disease and cancer remain leading causes of mortality in the United States. The co-existence of cardiovascular disease and toxicity that develops as a result of cancer therapy presents a growing challenge for both oncologists and cardiologists. As cancer therapy outcomes continue to improve, this aging population is living long enough to experience adverse effects from therapeutic complications, including electrophysiological abnormalities, vascular toxicity, and heart failure (HF).</p><p class="" id=d20447e161>These toxicities and their proposed and established mechanisms were discussed in detail in the first installment of this review<sup><a href="#ref-1">1</a></sup>. Cardiovascular complications often represent a limiting factor in the therapeutic options for many otherwise treatable and potentially curable malignancies. It is essential that oncologists and cardiologists be aware of the most up-to-date strategies for management in order to optimize the potential for further therapy. In this review, we explore the management of select cardiovascular toxicities from anthracyclines, HER2/ErbB2 inhibitors, immune checkpoint inhibitors, and vascular endothelial growth factor (VEGF) inhibitors.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d20447e171>Anthracyclines</h2><p class="" id=d20447e174>Cardiomyopathy from anthracyclines, initially daunorubicin, was the first described cardiotoxicity<sup><a href="#ref-2">2</a></sup>. The risk is dose dependent, with over 25% of patients experiencing clinical HF with cumulative doses of 550 mg/m<sup>2</sup> or greater. Subclinical evidence of toxicity is present in 30% of patients, even at cumulative doses of 180 to 240 mg/m<sup>2</sup><sup><a href="#ref-3">3</a>,<a href="#ref-4">4</a></sup>. While clinicians must be aware that higher doses are associated with increased risk, it is also important to recognize that there is no dose at which the risk for cardiac toxicity is zero<sup><a href="#ref-3">3</a></sup>.</p><p class="" id=d20447e197>It is imperative to recognize any pre-existing cardiac dysfunction in patients prior to the initiation of therapy<sup><a href="#ref-5">5</a></sup>. At a minimum, this includes careful clinical evaluation and assessment of traditional cardiovascular risk factors including the presence of coronary artery disease, diabetes mellitus, hypertension, or smoking. Given the effect on left ventricular systolic function, this should be assessed prior to beginning therapy<sup><a href="#ref-6">6</a></sup>. Most commonly, a transthoracic echocardiogram is the screening test of choice. Multigated acquisition radionuclide ventriculography or cardiac magnetic resonance imaging can be used, although these techniques are limited by radiation exposure and cost/availability, respectively. Any evidence of pre-therapy reduced ejection fraction should prompt referral to a cardiologist for evaluation and optimization prior to anthracycline exposure.</p><p class="" id=d20447e208>Once therapy is initiated, monitoring strategies must be individualized to identify early evidence of cardiotoxicity. Echocardiography is often recommended at 3-month intervals with additional imaging mandated by clinical evidence of HF<sup><a href="#ref-7">7</a></sup>. Cardiotoxicity in this setting has been defined by a decline in ejection fraction by ≥10% (e.g. from 50% to 40%) or ≥5% in the presence of HF symptoms, although a variety of criteria have been used<sup><a href="#ref-4">4</a></sup>. Advanced imaging strategies have been developed to identify early myocardial dysfunction with increased sensitivity and specificity. This includes multiple techniques to characterize myocardial strain, which appears to be very sensitive. A reduction of 10–15% in global longitudinal strain is the most useful parameter to identify the early development of anthracycline-induced cardiomyopathy<sup><a href="#ref-4">4</a>,<a href="#ref-8">8</a></sup>. Cardiac biomarkers (especially troponin and brain natriuretic peptide) are associated with the development of left ventricular dysfunction and symptomatic HF; although their routine use as screening tests is promising, there is not universal agreement on the significance of isolated biomarker elevation<sup><a href="#ref-4">4</a>,<a href="#ref-8">8</a></sup>. Prolongation of the QT interval on electrocardiogram has also been shown to be associated with the development of anthracycline-induced ventricular dysfunction<sup><a href="#ref-9">9</a></sup>.</p><p class="" id=d20447e237>Based on the mechanisms discussed in the first part of this review, several therapeutic strategies have been proposed to treat anthracycline-induced cardiotoxicity or to prevent it in high-risk patients. Prevention involves avoidance of anthracyclines when possible, utilization of minimal cumulative doses, and preference for continuous infusion versus bolus dosing<sup><a href="#ref-10">10</a></sup>. A PEGylated liposomal version of doxorubicin has been shown to decrease the circulating concentration of free doxorubicin without decreased effectiveness, although high cost has limited its utility<sup><a href="#ref-11">11</a></sup>.</p><p class="" id=d20447e249>Dexrazoxane is protective against anthracycline cardiotoxicity by mediating topoisomerase 2β. Its effectiveness has been well established in numerous clinical trials, although two controversies limit its widespread adoption<sup><a href="#ref-4">4</a>,<a href="#ref-12">12</a></sup>. There was initial evidence that the use of dexrazoxane decreased anti-neoplastic efficacy and although this did not hold up in meta-analysis, the U.S. Food and Drug Administration has approved its use only in patients who have already received at least 300 mg/m<sup>2</sup> of doxorubicin for metastatic breast cancer<sup><a href="#ref-12">12</a>,<a href="#ref-13">13</a></sup>. In a pediatric population receiving simultaneous etoposide and doxorubicin, there is evidence of an increased risk for secondary malignancies, potentially due to genetic instability<sup><a href="#ref-14">14</a></sup>. While this association has not been clearly established, the signal must be taken seriously in this population. Use of dexrazoxane should be considered given its established efficacy and safety exclusive of patients receiving simultaneous etoposide.</p><p class="" id=d20447e273>Once clinical HF or imaging evidence of reduced left ventricular systolic function is present, treatment should follow established guidelines for patients with non-ischemic cardiomyopathy. The mainstays of therapy are angiotensin-converting enzyme (ACE) inhibitors and beta-blockers uptitrated to the maximum tolerated doses with diuretics as needed<sup><a href="#ref-15">15</a>,<a href="#ref-16">16</a></sup>. The results of the PRADA trial have suggested that treatment with candesartan during anthracycline therapy for early breast cancer provides protection against early decline in left ventricular function<sup><a href="#ref-17">17</a></sup>. Newer agents, including sacubitril/valsartan, and advanced therapies for HF should be considered when necessary. Because anthracycline-induced cardiomyopathy is considered irreversible, the development of reduced LV function has been recommended as a contraindication to continuing anthracyclines, although cessation of lifesaving therapy should be considered only as a last resort<sup><a href="#ref-4">4</a></sup>.</p><p class="" id=d20447e291>The role of these agents and HMG-CoAr inhibitors (statins) for the prevention of anthracycline-induced cardiomyopathy remains unclear though is currently under investigation in the Preventing Anthracycline Cardiovascular Toxicity With Statins (PREVENT) trials, among others. The impact of physical activity has not been conclusively established from clinical studies, although animal models and evidence from other non-ischemic cardiomyopathies suggest it may be beneficial<sup><a href="#ref-18">18</a></sup>.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d20447e301>HER2/ErbB2 inhibitors</h2><p class="" id=d20447e304>Trastuzumab, a monoclonal antibody directed against HER2/ErbB2 receptors, has also been established as a cause of left ventricular dysfunction. This agent is used for the treatment of breast cancers that overexpress HER2/ErbB2 and is known to cause a reversible cardiomyopathy that is otherwise phenotypically similar to anthracycline-induced cardiomyopathy. The symptomatic HF that develops can be severe and life threatening, though it is generally mild and improves with medical management and discontinuation of therapy. Trastuzumab can often be resumed after recovery of ventricular function<sup><a href="#ref-4">4</a></sup>.</p><p class="" id=d20447e311>Recommendations for pre-therapy screening and imaging studies are generally similar to those discussed above for anthracyclines. Patients at high risk should ideally avoid concurrent treatment with anthracyclines, which results in worse cardiovascular outcomes<sup><a href="#ref-19">19</a></sup>. Given the reversibility of trastuzumab-induced left ventricular dysfunction, a more lenient cut-off of ejection fraction &lt;40% to withhold therapy has been proposed. There is considerable evidence that strain is strongly predictive of trastuzumab-associated cardiotoxicity and is even more specific when combined with elevated troponin<sup><a href="#ref-20">20</a></sup>. A monitoring regimen of troponin measurement at baseline and every 3 weeks with echocardiography with strain every 3 months has been suggested<sup><a href="#ref-6">6</a></sup>. When left ventricular dysfunction or HF does develop, institution of targeted therapy based on the guidelines discussed above is recommended without substantial evidence in this population.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d20447e329>Immune checkpoint inhibitors</h2><p class="" id=d20447e332>By allowing the immune system to upregulate its activity against malignant cells, immune checkpoint inhibitors have proven to be highly effective cancer drugs. Cardiotoxicity, which can include arrhythmias, heart block, and myocarditis, is due to autoimmune activity against normal myocardium<sup><a href="#ref-21">21</a></sup>. Although the true incidence is unknown, it has been increasingly recognized and reported, especially when combination therapy is used<sup><a href="#ref-22">22</a></sup>.</p><p class="" id=d20447e343>The gold standard of diagnosis remains myocardial biopsy, although the development of heart block, ventricular arrhythmias, left ventricular dysfunction, or clinical HF after the initiation of immune checkpoint inhibitors is generally considered sufficient to initiate treatment. Additional diagnostic studies, especially cardiac magnetic resonance imaging to identify myocarditis, have been suggested. There are no established guidelines and there is very little evidence to guide the management of cardiotoxicity when it occurs. Based on the autoimmune mechanism of toxicity, immunosuppressive agents are recommended. High-dose corticosteroids have been used with some success and when insufficient alternative immunosuppressive regimens have been utilized, including mycophenolate mofetil and tumor necrosis factor-alpha antagonists<sup><a href="#ref-23">23</a>–<a href="#ref-25">25</a></sup>. These regimens come from more established management of other autoimmune toxicities with immune checkpoint inhibitors including hepatitis, pneumonitis, colitis, and endocrinopathies. Therapy may be withheld in the acute setting, but resumption should be considered if ventricular dysfunction resolves.</p><p class="" id=d20447e353>There are no clear guidelines for prevention or monitoring, and a deeper understanding of the pathophysiology is needed before recommendations can be established. Physicians must be alert to this important complication, and further research and establishment of guidelines is mandatory.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d20447e359>Vascular endothelial growth factor inhibitors</h2><p class="" id=d20447e362>Several malignancies, including renal cell carcinoma and hepatocellular carcinoma, can be treated with VEGF inhibitors. Their use can be limited by both left ventricular dysfunction and, more commonly, hypertension. Although the majority of cardiovascular complications are not fatal, they are associated with significant morbidity and can impact the ability to continue potentially lifesaving therapy<sup><a href="#ref-26">26</a></sup>. For this reason, early recognition and management are essential.</p><p class="" id=d20447e369>Approximately a quarter of patients experience asymptomatic decline in left ventricular function, while symptomatic HF is seen in 4–8%<sup><a href="#ref-27">27</a>,<a href="#ref-28">28</a></sup>. Hypertension, however, has been reported in nearly half of patients with varying clinical significance depending on the baseline blood pressure and comorbid conditions<sup><a href="#ref-27">27</a>,<a href="#ref-29">29</a>,<a href="#ref-30">30</a></sup>. In the most recent meta-analysis of 77 studies, severe hypertension is noted in 7.4% of patients, arterial thromboembolism in 1.8%, myocardial ischemia in 1.7%, and ventricular dysfunction in 2.3%<sup><a href="#ref-31">31</a></sup>.</p><p class="" id=d20447e393>Hypertension secondary to kinase modification can be marked and result in significant downstream effects on the cardiovascular system. Even without end organ damage, poorly controlled blood pressure often results in the discontinuation of essential anti-neoplastic therapy<sup><a href="#ref-32">32</a>,<a href="#ref-33">33</a></sup>. Diagnosed based on simple ambulatory blood pressure screenings, hypertension occurring within the first month after treatment initiation is likely to be secondary to therapy. While there are many antihypertensive medications that can be used, ACE inhibitors are considered first line owing to favorable hemodynamic and anti-proteinuric effects and evidence of improved mortality<sup><a href="#ref-34">34</a></sup>. When other agents are necessary, attention should be paid to potential drug–drug interactions given the effects of VEGF inhibitors, especially sorafenib, or the cytochrome P450 system. Although hypertension in this setting can have significant consequences, providers should resist unnecessary discontinuation because an increase in blood pressure may be a sign of efficacy of VEGF inhibitor therapy<sup><a href="#ref-35">35</a></sup>.<i></i> </p><p class="" id=d20447e413>Patients with pre-existing left ventricular dysfunction or coronary artery disease must be monitored closely and treated with the same strategies discussed for anthracyclines and HER2/ErbB2 inhibitors<sup><a href="#ref-27">27</a></sup><i>.</i> The mechanism of HF, however, is generally felt to be secondary to hypertension and increased afterload in vulnerable patients. For that reason, the main focus is on the prevention and treatment of severe hypertension<sup><a href="#ref-36">36</a></sup>. Other cardiovascular toxicities that have been noted in association with VEGF inhibitors include venous and arterial thrombosis, coronary artery disease, acute coronary syndromes, and conduction abnormalities<sup><a href="#ref-4">4</a></sup>. These complications should be managed according to their respective current guidelines with additional consideration for cessation or modification of therapy.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d20447e434>Conclusion</h2><p class="" id=d20447e437>The field of cardio-oncology has rapidly expanded, but there remains significant room for growth in research and clinical practice. This two-part series highlights only a subset of the agents capable of causing profound cardiovascular toxicities, and many complications of cancer and cancer therapy were not discussed, including pericardial disease, myocardial ischemia, and QT prolongation. Numerous questions are unanswered about the mechanism of toxicities and the optimal screening and management strategies. Given the tremendous complexity of impacted patients, close communication and collaboration between oncologists and cardiologists is mandatory at all stages of therapy. Oncologists must know when to turn to cardiologists for assistance in risk stratification and management of toxicities when they develop. Critically, cardiologists need to recognize that their role is to facilitate the delivery of lifesaving cancer therapy through optimization and management of toxicity.</p></div><div id=article1-back class=generated-article-footer><div class=back-section><a name=d20447e1 class=n-a></a><h2 class=main-title id=d20574>Grant information</h2><p>The author(s) declared that no grants were involved in supporting this work.</p></div><div class=back-section><a name=d20447e444 class=n-a></a><span class="research-layout prime-recommended-wrapper reference-heading"><span class="f1r-icon icon-79_faculty_recommended_badge red vmiddle default-cursor"></span><span class="prime-red big">F1000 recommended</span></span><h2 class=main-title id=d20700>References</h2><div class="section ref-list"><a name=d20447e444 class=n-a></a><ul><li><a name=ref-1 class=n-a></a><span class=label>1. </span>&nbsp;<span class=citation><a name=d20447e451 class=n-a></a>Markman TM, Markman M: Cardio-Oncology: mechanisms of cardiovascular toxicity [version 1; referees: 2 approved]. <i>F1000Res.</i> 2018; <b>7</b>: 113. <a target=xrefwindow id=d20447e459 href="http://www.ncbi.nlm.nih.gov/pubmed/29399333">PubMed Abstract </a> | <a target=xrefwindow id=d20447e462 href="https://doi.org/10.12688/f1000research.12598.1">Publisher Full Text </a> | <a target=xrefwindow id=d20447e465 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5785712">Free Full Text </a></span></li><li><a name=ref-2 class=n-a></a><span class=label>2. </span>&nbsp;<span class=citation><a name=d20447e474 class=n-a></a>Von Hoff DD, Layard MW, Basa P, <i> et al.</i>: Risk factors for doxorubicin-induced congestive heart failure. <i>Ann Intern Med.</i> 1979; <b>91</b>(5): 710–7. <a target=xrefwindow id=d20447e485 href="http://www.ncbi.nlm.nih.gov/pubmed/496103">PubMed Abstract </a> | <a target=xrefwindow id=d20447e488 href="https://doi.org/10.7326/0003-4819-91-5-710">Publisher Full Text </a></span></li><li><a name=ref-3 class=n-a></a><span class=label>3. </span>&nbsp;<span class=citation><a name=d20447e497 class=n-a></a>Swain SM, Whaley FS, Ewer MS: Congestive heart failure in patients treated with doxorubicin: a retrospective analysis of three trials. <i>Cancer.</i> 2003; <b>97</b>(11): 2869–79. <a target=xrefwindow id=d20447e505 href="http://www.ncbi.nlm.nih.gov/pubmed/12767102">PubMed Abstract </a> | <a target=xrefwindow id=d20447e508 href="https://doi.org/10.1002/cncr.11407">Publisher Full Text </a></span></li><li><a name=ref-4 class=n-a></a><span class=label>4. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/732125281"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e517 class=n-a></a>Chang HM, Moudgil R, Scarabelli T, <i> et al.</i>: Cardiovascular Complications of Cancer Therapy: Best Practices in Diagnosis, Prevention, and Management: Part 1. <i>J Am Coll Cardiol.</i> 2017; <b>70</b>(20): 2536–51. <a target=xrefwindow id=d20447e528 href="http://www.ncbi.nlm.nih.gov/pubmed/29145954">PubMed Abstract </a> | <a target=xrefwindow id=d20447e531 href="https://doi.org/10.1016/j.jacc.2017.09.1096">Publisher Full Text </a> | <a target=xrefwindow id=d20447e535 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5825187">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/732125281">F1000 Recommendation</a></span></li><li><a name=ref-5 class=n-a></a><span class=label>5. </span>&nbsp;<span class=citation><a name=d20447e548 class=n-a></a>Cardinale D, Colombo A, Lamantia G, <i> et al.</i>: Anthracycline-induced cardiomyopathy: clinical relevance and response to pharmacologic therapy. <i>J Am Coll Cardiol.</i> 2010; <b>55</b>(3): 213–20. <a target=xrefwindow id=d20447e559 href="http://www.ncbi.nlm.nih.gov/pubmed/20117401">PubMed Abstract </a> | <a target=xrefwindow id=d20447e562 href="https://doi.org/10.1016/j.jacc.2009.03.095">Publisher Full Text </a></span></li><li><a name=ref-6 class=n-a></a><span class=label>6. </span>&nbsp;<span class=citation><a name=d20447e572 class=n-a></a>Plana JC, Galderisi M, Barac A, <i> et al.</i>: Expert consensus for multimodality imaging evaluation of adult patients during and after cancer therapy: a report from the American Society of Echocardiography and the European Association of Cardiovascular Imaging. <i>Eur Heart J Cardiovasc Imaging.</i> 2014; <b>15</b>(10): 1063–93. <a target=xrefwindow id=d20447e583 href="http://www.ncbi.nlm.nih.gov/pubmed/25239940">PubMed Abstract </a> | <a target=xrefwindow id=d20447e586 href="https://doi.org/10.1093/ehjci/jeu192">Publisher Full Text </a> | <a target=xrefwindow id=d20447e590 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4402366">Free Full Text </a></span></li><li><a name=ref-7 class=n-a></a><span class=label>7. </span>&nbsp;<span class=citation><a name=d20447e599 class=n-a></a>Curigliano G, Cardinale D, Suter T, <i> et al.</i>: Cardiovascular toxicity induced by chemotherapy, targeted agents and radiotherapy: ESMO Clinical Practice Guidelines. <i>Ann Oncol.</i> 2012; <b>23 Suppl 7</b>: vii155–66. <a target=xrefwindow id=d20447e610 href="http://www.ncbi.nlm.nih.gov/pubmed/22997448">PubMed Abstract </a> | <a target=xrefwindow id=d20447e613 href="https://doi.org/10.1093/annonc/mds293">Publisher Full Text </a></span></li><li><a name=ref-8 class=n-a></a><span class=label>8. </span>&nbsp;<span class=citation><a name=d20447e622 class=n-a></a>Fallah-Rad N, Walker JR, Wassef A, <i> et al.</i>: The utility of cardiac biomarkers, tissue velocity and strain imaging, and cardiac magnetic resonance imaging in predicting early left ventricular dysfunction in patients with human epidermal growth factor receptor II-positive breast cancer treated with adjuvant trastuzumab therapy. <i>J Am Coll Cardiol.</i> 2011; <b>57</b>(22): 2263–70. <a target=xrefwindow id=d20447e633 href="http://www.ncbi.nlm.nih.gov/pubmed/21616287">PubMed Abstract </a> | <a target=xrefwindow id=d20447e636 href="https://doi.org/10.1016/j.jacc.2010.11.063">Publisher Full Text </a></span></li><li><a name=ref-9 class=n-a></a><span class=label>9. </span>&nbsp;<span class=citation><a name=d20447e645 class=n-a></a>Markman TM, Ruble K, Loeb D, <i> et al.</i>: Electrophysiological effects of anthracyclines in adult survivors of pediatric malignancy. <i>Pediatr Blood Cancer.</i> 2017; <b>64</b>(11): e26556. <a target=xrefwindow id=d20447e656 href="http://www.ncbi.nlm.nih.gov/pubmed/28453898">PubMed Abstract </a> | <a target=xrefwindow id=d20447e659 href="https://doi.org/10.1002/pbc.26556">Publisher Full Text </a></span></li><li><a name=ref-10 class=n-a></a><span class=label>10. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726190537"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e668 class=n-a></a>van Dalen EC, van der Pal HJ, Kremer LC: Different dosage schedules for reducing cardiotoxicity in people with cancer receiving anthracycline chemotherapy. <i>Cochrane Database Syst Rev.</i> 2016; <b>3</b>: CD005008. <a target=xrefwindow id=d20447e676 href="http://www.ncbi.nlm.nih.gov/pubmed/26938118">PubMed Abstract </a> | <a target=xrefwindow id=d20447e679 href="https://doi.org/10.1002/14651858.CD005008.pub4">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726190537">F1000 Recommendation</a></span></li><li><a name=ref-11 class=n-a></a><span class=label>11. </span>&nbsp;<span class=citation><a name=d20447e692 class=n-a></a>Smith DH, Adams JR, Johnston SR, <i> et al.</i>: A comparative economic analysis of pegylated liposomal doxorubicin versus topotecan in ovarian cancer in the USA and the UK. <i>Ann Oncol.</i> 2002; <b>13</b>(10): 1590–7. <a target=xrefwindow id=d20447e703 href="http://www.ncbi.nlm.nih.gov/pubmed/12377647">PubMed Abstract </a> | <a target=xrefwindow id=d20447e706 href="https://doi.org/10.1093/annonc/mdf275">Publisher Full Text </a></span></li><li><a name=ref-12 class=n-a></a><span class=label>12. </span>&nbsp;<span class=citation><a name=d20447e716 class=n-a></a>van Dalen EC, Caron HN, Dickinson HO, <i> et al.</i>: Cardioprotective interventions for cancer patients receiving anthracyclines. <i>Cochrane Database Syst Rev.</i> 2008; (2): CD003917. <a target=xrefwindow id=d20447e724 href="http://www.ncbi.nlm.nih.gov/pubmed/18425895">PubMed Abstract </a> | <a target=xrefwindow id=d20447e727 href="https://doi.org/10.1002/14651858.CD003917">Publisher Full Text </a></span></li><li><a name=ref-13 class=n-a></a><span class=label>13. </span>&nbsp;<span class=citation><a name=d20447e736 class=n-a></a>Schuchter LM, Hensley ML, Meropol NJ, <i> et al.</i>: 2002 update of recommendations for the use of chemotherapy and radiotherapy protectants: clinical practice guidelines of the American Society of Clinical Oncology. <i>J Clin Oncol.</i> 2002; <b>20</b>(12): 2895–903. <a target=xrefwindow id=d20447e747 href="http://www.ncbi.nlm.nih.gov/pubmed/12065567">PubMed Abstract </a> | <a target=xrefwindow id=d20447e750 href="https://doi.org/10.1200/JCO.2002.04.178">Publisher Full Text </a></span></li><li><a name=ref-14 class=n-a></a><span class=label>14. </span>&nbsp;<span class=citation><a name=d20447e759 class=n-a></a>Tebbi CK, London WB, Friedman D, <i> et al.</i>: Dexrazoxane-associated risk for acute myeloid leukemia/myelodysplastic syndrome and other secondary malignancies in pediatric Hodgkin's disease. <i>J Clin Oncol.</i> 2007; <b>25</b>(5): 493–500. <a target=xrefwindow id=d20447e770 href="http://www.ncbi.nlm.nih.gov/pubmed/17290056">PubMed Abstract </a> | <a target=xrefwindow id=d20447e773 href="https://doi.org/10.1200/JCO.2005.02.3879">Publisher Full Text </a></span></li><li><a name=ref-15 class=n-a></a><span class=label>15. </span>&nbsp;<span class=citation><a name=d20447e782 class=n-a></a>Yancy CW, Jessup M, Bozkurt B, <i> et al.</i>: 2013 ACCF/AHA guideline for the management of heart failure: executive summary: a report of the American College of Cardiology Foundation/American Heart Association Task Force on practice guidelines. <i>Circulation.</i> 2013; <b>128</b>(16): 1810–52. <a target=xrefwindow id=d20447e793 href="http://www.ncbi.nlm.nih.gov/pubmed/23741057">PubMed Abstract </a> | <a target=xrefwindow id=d20447e796 href="https://doi.org/10.1161/CIR.0b013e31829e8807">Publisher Full Text </a></span></li><li><a name=ref-16 class=n-a></a><span class=label>16. </span>&nbsp;<span class=citation><a name=d20447e805 class=n-a></a>Bosch X, Rovira M, Sitges M, <i> et al.</i>: Enalapril and carvedilol for preventing chemotherapy-induced left ventricular systolic dysfunction in patients with malignant hemopathies: the OVERCOME trial (preventiOn of left Ventricular dysfunction with Enalapril and caRvedilol in patients submitted to intensive ChemOtherapy for the treatment of Malignant hEmopathies). <i>J Am Coll Cardiol.</i> 2013; <b>61</b>(23): 2355–62. <a target=xrefwindow id=d20447e816 href="http://www.ncbi.nlm.nih.gov/pubmed/23583763">PubMed Abstract </a> | <a target=xrefwindow id=d20447e819 href="https://doi.org/10.1016/j.jacc.2013.02.072">Publisher Full Text </a></span></li><li><a name=ref-17 class=n-a></a><span class=label>17. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726165826"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e828 class=n-a></a>Gulati G, Heck SL, Ree AH, <i> et al.</i>: Prevention of cardiac dysfunction during adjuvant breast cancer therapy (PRADA): a 2 × 2 factorial, randomized, placebo-controlled, double-blind clinical trial of candesartan and metoprolol. <i>Eur Heart J.</i> 2016; <b>37</b>(21): 1671–80. <a target=xrefwindow id=d20447e839 href="http://www.ncbi.nlm.nih.gov/pubmed/26903532">PubMed Abstract </a> | <a target=xrefwindow id=d20447e842 href="https://doi.org/10.1093/eurheartj/ehw022">Publisher Full Text </a> | <a target=xrefwindow id=d20447e846 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4887703">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726165826">F1000 Recommendation</a></span></li><li><a name=ref-18 class=n-a></a><span class=label>18. </span>&nbsp;<span class=citation><a name=d20447e860 class=n-a></a>Chicco AJ, Hydock DS, Schneider CM, <i> et al.</i>: Low-intensity exercise training during doxorubicin treatment protects against cardiotoxicity. <i>J Appl Physiol.</i> 2006; <b>100</b>(2): 519–27. <a target=xrefwindow id=d20447e871 href="http://www.ncbi.nlm.nih.gov/pubmed/16210442">PubMed Abstract </a> | <a target=xrefwindow id=d20447e874 href="https://doi.org/10.1152/japplphysiol.00148.2005">Publisher Full Text </a></span></li><li><a name=ref-19 class=n-a></a><span class=label>19. </span>&nbsp;<span class=citation><a name=d20447e883 class=n-a></a>Seidman A, Hudis C, Pierri MK, <i> et al.</i>: Cardiac dysfunction in the trastuzumab clinical trials experience. <i>J Clin Oncol.</i> 2002; <b>20</b>(5): 1215–21. <a target=xrefwindow id=d20447e894 href="http://www.ncbi.nlm.nih.gov/pubmed/11870163">PubMed Abstract </a> | <a target=xrefwindow id=d20447e897 href="https://doi.org/10.1200/JCO.2002.20.5.1215">Publisher Full Text </a></span></li><li><a name=ref-20 class=n-a></a><span class=label>20. </span>&nbsp;<span class=citation><a name=d20447e906 class=n-a></a>Sawaya H, Sebag IA, Plana JC, <i> et al.</i>: Assessment of echocardiography and biomarkers for the extended prediction of cardiotoxicity in patients treated with anthracyclines, taxanes, and trastuzumab. <i>Circ Cardiovasc Imaging.</i> 2012; <b>5</b>(5): 596–603. <a target=xrefwindow id=d20447e917 href="http://www.ncbi.nlm.nih.gov/pubmed/22744937">PubMed Abstract </a> | <a target=xrefwindow id=d20447e920 href="https://doi.org/10.1161/CIRCIMAGING.112.973321">Publisher Full Text </a> | <a target=xrefwindow id=d20447e924 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3703313">Free Full Text </a></span></li><li><a name=ref-21 class=n-a></a><span class=label>21. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726585846"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e933 class=n-a></a>Abdel-Wahab N, Shah M, Suarez-Almazor ME: Adverse Events Associated with Immune Checkpoint Blockade in Patients with Cancer: A Systematic Review of Case Reports. <i>PLoS One.</i> 2016; <b>11</b>(7): e0160221. <a target=xrefwindow id=d20447e941 href="http://www.ncbi.nlm.nih.gov/pubmed/27472273">PubMed Abstract </a> | <a target=xrefwindow id=d20447e944 href="https://doi.org/10.1371/journal.pone.0160221">Publisher Full Text </a> | <a target=xrefwindow id=d20447e947 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4966895">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726585846">F1000 Recommendation</a></span></li><li><a name=ref-22 class=n-a></a><span class=label>22. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726914491"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e960 class=n-a></a>Johnson DB, Balko JM, Compton ML, <i> et al.</i>: Fulminant Myocarditis with Combination Immune Checkpoint Blockade. <i>N Engl J Med.</i> 2016; <b>375</b>(18): 1749–55. <a target=xrefwindow id=d20447e971 href="http://www.ncbi.nlm.nih.gov/pubmed/27806233">PubMed Abstract </a> | <a target=xrefwindow id=d20447e974 href="https://doi.org/10.1056/NEJMoa1609214">Publisher Full Text </a> | <a target=xrefwindow id=d20447e978 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5247797">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726914491">F1000 Recommendation</a></span></li><li><a name=ref-23 class=n-a></a><span class=label>23. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/732892315"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e991 class=n-a></a>Mahmood SS, Fradley MG, Cohen JV, <i> et al.</i>: Myocarditis in Patients Treated With Immune Checkpoint Inhibitors. <i>J Am Coll Cardiol.</i> 2018; <b>71</b>(6): 1755–64. <a target=xrefwindow id=d20447e1002 href="http://www.ncbi.nlm.nih.gov/pubmed/29567210">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1005 href="https://doi.org/10.1016/j.jacc.2018.02.037">Publisher Full Text </a> | <a target=xrefwindow id=d20447e1009 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6196725">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/732892315">F1000 Recommendation</a></span></li><li><a name=ref-24 class=n-a></a><span class=label>24. </span>&nbsp;<span class=citation><a name=d20447e1023 class=n-a></a>Villadolid J, Amin A: Immune checkpoint inhibitors in clinical practice: update on management of immune-related toxicities. <i>Transl Lung Cancer Res.</i> 2015; <b>4</b>(5): 560–75. <a target=xrefwindow id=d20447e1031 href="http://www.ncbi.nlm.nih.gov/pubmed/26629425">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1034 href="https://doi.org/10.3978/j.issn.2218-6751.2015.06.06">Publisher Full Text </a> | <a target=xrefwindow id=d20447e1037 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4630514">Free Full Text </a></span></li><li><a name=ref-25 class=n-a></a><span class=label>25. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726146507"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e1046 class=n-a></a>Spain L, Diem S, Larkin J: Management of toxicities of immune checkpoint inhibitors. <i>Cancer Treat Rev.</i> 2016; <b>44</b>: 51–60. <a target=xrefwindow id=d20447e1054 href="http://www.ncbi.nlm.nih.gov/pubmed/26874776">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1057 href="https://doi.org/10.1016/j.ctrv.2016.02.001">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726146507">F1000 Recommendation</a></span></li><li><a name=ref-26 class=n-a></a><span class=label>26. </span>&nbsp;<span class=citation><a name=d20447e1070 class=n-a></a>Touyz RM, Herrmann J: Cardiotoxicity with vascular endothelial growth factor inhibitor therapy. <i>NPJ Precis Oncol.</i> 2018; <b>2</b>: 13. <a target=xrefwindow id=d20447e1078 href="http://www.ncbi.nlm.nih.gov/pubmed/30202791">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1081 href="https://doi.org/10.1038/s41698-018-0056-z">Publisher Full Text </a> | <a target=xrefwindow id=d20447e1084 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5988734">Free Full Text </a></span></li><li><a name=ref-27 class=n-a></a><span class=label>27. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/1119094"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e1093 class=n-a></a>Chu TF, Rupnick MA, Kerkela R, <i> et al.</i>: Cardiotoxicity associated with tyrosine kinase inhibitor sunitinib. <i>Lancet.</i> 2007; <b>370</b>(9604): 2011–9. <a target=xrefwindow id=d20447e1104 href="http://www.ncbi.nlm.nih.gov/pubmed/18083403">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1107 href="https://doi.org/10.1016/S0140-6736(07)61865-0">Publisher Full Text </a> | <a target=xrefwindow id=d20447e1111 href="http://www.ncbi.nlm.nih.gov/pmc/articles/2643085">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/1119094">F1000 Recommendation</a></span></li><li><a name=ref-28 class=n-a></a><span class=label>28. </span>&nbsp;<span class=citation><a name=d20447e1124 class=n-a></a>Richards CJ, Je Y, Schutz FA, <i> et al.</i>: Incidence and risk of congestive heart failure in patients with renal and nonrenal cell carcinoma treated with sunitinib. <i>J Clin Oncol.</i> 2011; <b>29</b>(25): 3450–6. <a target=xrefwindow id=d20447e1135 href="http://www.ncbi.nlm.nih.gov/pubmed/21810682">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1138 href="https://doi.org/10.1200/JCO.2010.34.4309">Publisher Full Text </a></span></li><li><a name=ref-29 class=n-a></a><span class=label>29. </span>&nbsp;<span class=citation><a name=d20447e1147 class=n-a></a>Zhu X, Stergiopoulos K, Wu S: Risk of hypertension and renal dysfunction with an angiogenesis inhibitor sunitinib: systematic review and meta-analysis. <i>Acta Oncol.</i> 2009; <b>48</b>(1): 9–17. <a target=xrefwindow id=d20447e1155 href="http://www.ncbi.nlm.nih.gov/pubmed/18752081">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1158 href="https://doi.org/10.1080/02841860802314720">Publisher Full Text </a></span></li><li><a name=ref-30 class=n-a></a><span class=label>30. </span>&nbsp;<span class=citation><a name=d20447e1168 class=n-a></a>Wu S, Chen JJ, Kudelka A, <i> et al.</i>: Incidence and risk of hypertension with sorafenib in patients with cancer: a systematic review and meta-analysis. <i>Lancet Oncol.</i> 2008; <b>9</b>(2): 117–23. <a target=xrefwindow id=d20447e1179 href="http://www.ncbi.nlm.nih.gov/pubmed/18221915">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1182 href="https://doi.org/10.1016/S1470-2045(08)70003-2">Publisher Full Text </a></span></li><li><a name=ref-31 class=n-a></a><span class=label>31. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/727235613"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e1191 class=n-a></a>Abdel-Qadir H, Ethier JL, Lee DS, <i> et al.</i>: Cardiovascular toxicity of angiogenesis inhibitors in treatment of malignancy: A systematic review and meta-analysis. <i>Cancer Treat Rev.</i> 2017; <b>53</b>: 120–7. <a target=xrefwindow id=d20447e1202 href="http://www.ncbi.nlm.nih.gov/pubmed/28104567">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1205 href="https://doi.org/10.1016/j.ctrv.2016.12.002">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/727235613">F1000 Recommendation</a></span></li><li><a name=ref-32 class=n-a></a><span class=label>32. </span>&nbsp;<span class=citation><a name=d20447e1218 class=n-a></a>Rhee EP, Clish CB, Pierce KA, <i> et al.</i>: Metabolomics of renal venous plasma from individuals with unilateral renal artery stenosis and essential hypertension. <i>J Hypertens.</i> 2015; <b>33</b>(4): 836–42. <a target=xrefwindow id=d20447e1229 href="http://www.ncbi.nlm.nih.gov/pubmed/25490710">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1232 href="https://doi.org/10.1097/HJH.0000000000000470">Publisher Full Text </a> | <a target=xrefwindow id=d20447e1236 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4354459">Free Full Text </a></span></li><li><a name=ref-33 class=n-a></a><span class=label>33. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/732125280"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d20447e1245 class=n-a></a>Chang HM, Okwuosa TM, Scarabelli T, <i> et al.</i>: Cardiovascular Complications of Cancer Therapy: Best Practices in Diagnosis, Prevention, and Management: Part 2. <i>J Am Coll Cardiol.</i> 2017; <b>70</b>(20): 2552–65. <a target=xrefwindow id=d20447e1256 href="http://www.ncbi.nlm.nih.gov/pubmed/29145955">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1259 href="https://doi.org/10.1016/j.jacc.2017.09.1095">Publisher Full Text </a> | <a target=xrefwindow id=d20447e1263 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5825188">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/732125280">F1000 Recommendation</a></span></li><li><a name=ref-34 class=n-a></a><span class=label>34. </span>&nbsp;<span class=citation><a name=d20447e1276 class=n-a></a>Izzedine H, Derosa L, Le Teuff G, <i> et al.</i>: Hypertension and angiotensin system inhibitors: impact on outcome in sunitinib-treated patients for metastatic renal cell carcinoma. <i>Ann Oncol.</i> 2015; <b>26</b>(6): 1128–33. <a target=xrefwindow id=d20447e1287 href="http://www.ncbi.nlm.nih.gov/pubmed/25795198">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1290 href="https://doi.org/10.1093/annonc/mdv147">Publisher Full Text </a></span></li><li><a name=ref-35 class=n-a></a><span class=label>35. </span>&nbsp;<span class=citation><a name=d20447e1299 class=n-a></a>Maitland ML, Bakris GL, Black HR, <i> et al.</i>: Initial assessment, surveillance, and management of blood pressure in patients receiving vascular endothelial growth factor signaling pathway inhibitors. <i>J Natl Cancer Inst.</i> 2010; <b>102</b>(9): 596–604. <a target=xrefwindow id=d20447e1310 href="http://www.ncbi.nlm.nih.gov/pubmed/20351338">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1313 href="https://doi.org/10.1093/jnci/djq091">Publisher Full Text </a> | <a target=xrefwindow id=d20447e1317 href="http://www.ncbi.nlm.nih.gov/pmc/articles/2864290">Free Full Text </a></span></li><li><a name=ref-36 class=n-a></a><span class=label>36. </span>&nbsp;<span class=citation><a name=d20447e1327 class=n-a></a>Chen MH, Kerkelä R, Force T: Mechanisms of cardiac dysfunction associated with tyrosine kinase inhibitor cancer therapeutics. <i>Circulation.</i> 2008; <b>118</b>(1): 84–95. <a target=xrefwindow id=d20447e1335 href="http://www.ncbi.nlm.nih.gov/pubmed/18591451">PubMed Abstract </a> | <a target=xrefwindow id=d20447e1338 href="https://doi.org/10.1161/CIRCULATIONAHA.108.776831">Publisher Full Text </a> | <a target=xrefwindow id=d20447e1341 href="http://www.ncbi.nlm.nih.gov/pmc/articles/2735334">Free Full Text </a></span></li></ul></div></div></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 30 Jan 2019</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/8-120.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/8-120.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> <div class="f1r-article-mobile margin-bottom-30"> <div class=contracted-details> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> Department of Medicine, Cardiovascular Division, Hospital of the University of Pennsylvania, University of Pennsylvania, Philadelphia, PA, USA<br/> <sup>2</sup> Cancer Treatment Centers of America at Eastern Regional Medical Center, Philadelphia, PA, USA<br/> <p> <div class=margin-bottom> Timothy M. Markman <br/> <span>Roles: </span> Writing – Original Draft Preparation </div> <div class=margin-bottom> Maurie Markman <br/> <span>Roles: </span> Writing – Review & Editing </div> </p> </div> </div> <div class=contracted-details> <a href="#" class=section-title>Article Versions (1)</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> <div> <a href="https://f1000research.com/articles/8-120/v1" title="Open version 1 of this article." class="" gahelper=1>version 1</a> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div> Published: 30 Jan 2019, 8:120 </div> <div class=""><a href="https://doi.org/10.12688/f1000research.14542.1">https://doi.org/10.12688/f1000research.14542.1</a></div> </div> </div> <div class=contracted-details> <a href="#" class=section-title> <span class="f1r-icon icon-100_open_access"></span> Copyright </a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> © 2019 Markman TM and Markman M. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </div> </div> <div class="padding-top-30 research-layout"> <div class=article-toolbox-wrapper-mobile> <div class=article-tools-icon-mobile data-section=download> <span class="f1r-icon icon-76_download_file white"></span> </div> <div class="article-tools-icon-mobile mobile-metrics article-metrics-wrapper metrics-icon-wrapper" data-section=metrics data-version-id=15829 data-id=14542 data-downloads="" data-views="" data-scholar="10.12688/f1000research.14542.1" data-recommended="" data-f1r-ga-helper="Article Page Metrics (Mobile)"> <span class="f1r-icon icon-89_metrics white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=cite> <span class="f1r-icon icon-82_quote white"></span> </div> <div class="article-tools-icon-mobile " data-section=track> <span class="f1r-icon icon-90_track white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=share> <span class="f1r-icon icon-34_share white"></span> </div> <span class=article-toolbox-stretch></span> </div> <div class=article-toolbox-content-mobile> <div class="toolbox-section download"> <div class=toolbox-section-heading>Download</div> <div class=toolbox-section-content> <a href="https://f1000research.com/articles/8-120/v1/pdf?article_uuid=9b8f5ae1-e06c-442b-b381-14669fd842c6" title="Download PDF" class="no-decoration pdf-download-helper"> <span class="f1r-icon icon-102_download_pdf toolbox-section-icon"></span> </a> <div class=toolbox-section-option-divider>&nbsp;</div> <a id=mobile-download-xml class=no-decoration href="#" title="Download XML"> <span class="f1r-icon icon-103_download_xml toolbox-section-icon"></span> </a> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>Export To</div> <div class=toolbox-section-content> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=WORKSPACE>Sciwheel</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=BIBTEX>Bibtex</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=ENDNOTE>EndNote</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=PROCITE>ProCite</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=REF_MANAGER>Ref. Manager (RIS)</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=SENTE>Sente</button> </div> </div> <div class="toolbox-section metrics"> <div class="toolbox-section-heading no-top-border">metrics</div> <div class="toolbox-section-divider toolbox-section-divider--no-height"></div> <div class=article-metrics-pageinfo> <div class=c-article-metrics-table> <table class=c-article-metrics-table__table> <thead> <tr> <th></th> <th><span class=c-article-metrics-table__heading>Views</span></th> <th><span class=c-article-metrics-table__heading>Downloads</span></th> </tr> </thead> <tbody> <tr> <th class=c-article-metrics-table__row-heading><span class="c-article-metrics-table__platform u-platform--" data-test-id=metrics_platform_name_mob>F1000Research</span></th> <td class="c-article-metrics-table__value js-article-views-count" data-test-id=metrics_platform_views_mob>-</td> <td class="c-article-metrics-table__value js-article-downloads-count" data-test-id=metrics_platform_downloads_mob>-</td> </tr> <tr> <th class=c-article-metrics-table__row-heading> <span class="u-ib u-middle c-article-metrics-table__pmc" data-test-id=metrics_pmc_name_mob>PubMed Central</span> <div class="c-block-tip c-block-tip--centered c-article-metrics-table__tooltip c-block-tip--md-padding c-block-tip--small-arrow u-ib u-middle"> <button type=button class="u-black--medium u-black--high@hover u-ib u-middle c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content>Data from PMC are received and updated monthly.</div> </div> </th> <td class="c-article-metrics-table__value js-pmc-views-count" data-test-id=metrics_pmc_views_mob>-</td> <td class="c-article-metrics-table__value js-pmc-downloads-count" data-test-id=metrics_pmc_downloads_mob>-</td> </tr> </tbody> </table> </div> </div> <span class=metrics-citations-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-heading u-mb--1">Citations</div> <div> <div class=toolbox-section-colsplit> <div class=citations-scopus-logo> <a href="" target=_blank class="is-hidden metrics-citation-icon" title="View full citation details at www.scopus.com"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count scopus"> <a href='' class='scopus-citation-link is-hidden' target=_blank title='View full citation details at www.scopus.com'>0</a> </div> </div> <div class=toolbox-section-colsplit> <div class="citations-pubmed-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon f1000research" title="View full citation details"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count pubmed"> <a href='' class='pubmed-citation-link is-hidden' target=_blank title='View full citation details'>0</a> </div> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <div class="citations-scholar-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon google-scholar f1000research" title="View full citation details" data-scholar="10.12688/f1000research.14542.1"><i class="material-icons scopus-icon">open_in_new</i></a> </div> </div> </div> </span> <span class=metrics-details-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-content altmetric-section"> <div class=altmetrics-image></div> <div class=altmetrics-more-link> <a href="" target=_blank class=f1r-standard-link>SEE MORE DETAILS</a> </div> <div class=altmetric-mobile-column-counts></div> <div class=altmetric-mobile-column-readers></div> <div class=toolbox-section-divider></div> </div> </span> </div> <div class="toolbox-section cite"> <div class="toolbox-section-heading no-top-border">CITE</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>how to cite this article</div> <div id=citation-copy-mobile class="toolbox-section-content text-content heading9 small" data-test-id=mob_copy-citation_text> Markman TM and Markman M. Cardio-oncology: management of cardiovascular toxicity [version 1; peer review: 2 approved] <i>F1000Research</i> 2019, <b>8</b>(F1000 Faculty Rev):120 (<a href="https://doi.org/10.12688/f1000research.14542.1" target=_blank>https://doi.org/10.12688/f1000research.14542.1</a>) </div> <div class=toolbox-section-divider></div> <div class="toolbox-section-content text-content heading9 small"> NOTE: <em>it is important to ensure the information in <b>square brackets after the title</b> is included in all citations of this article.</em> </div> <div class=toolbox-section-content> <button class="primary orange extra-padding copy-cite-article-mobile js-clipboard" data-clipboard-target="#citation-copy-mobile" title="Copy the current citation details." data-test-id=mob_copy-citation_button-mob>COPY CITATION DETAILS</button> </div> </div> <div class="toolbox-section track"> <div class="toolbox-section-heading no-top-border">track</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>receive updates on this article</div> <div class="toolbox-section-content padding-left-20 padding-right-20 heading9 small"> Track an article to receive email alerts on any updates to this article. </div> <div class=toolbox-section-content> <a data-article-id=14542 id=mobile-track-article-signin-14542 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/14542?target=/articles/8-120.html"> <button class="primary orange extra-padding"> TRACK THIS ARTICLE </button> </a> </div> </div> <div class="toolbox-section share"> <div class="toolbox-section-heading no-top-border">Share</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <a target=_blank class="f1r-shares-icon-square f1r-shares-email" title="Email this article"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-twitter" title="Share on Twitter"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-facebook" title="Share on Facebook"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-linkedin" title="Share on LinkedIn"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-reddit" title="Share on Reddit"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-mendelay" title="Share on Mendeley"></a> <div class="email-article-wrapper email-article-version-container"> <div class=toolbox-section-divider></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form-mobile research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=15829 /> <input name=articleId type=hidden value=14542 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> </div> </div> </div> <a name=article-reports></a> <div id=article-reports class="u-mt--3 reports-comments no-divider"> <div class="current-referee-status current-referee-status--faculty "> <h2 class=main-title id=current-referee-status> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-85_peer_review size30"></span> </span> Open Peer Review <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> <a name=current-referee-status></a> <div class=current-referee-status__content name=add-new-report-comment id=add-new-report-comment> Current Reviewer Status: <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile"> <div class=mobile-ref-status-help> Key to Reviewer Statuses <span class=referee-status-pointer></span> <span class="view-control float-right">VIEW</span> <span class="view-control float-right is-hidden">HIDE</span> <div class=mobile-ref-status-help-content> <div class="cf margin-top"> <span class="f1r-icon icon-86_approved status-green smaller float-left margin-bottom-40 margin-right" title=Approved></span> <span class=title>Approved</span>The paper is scientifically sound in its current form and only minor, if any, improvements are suggested </div> <div class="cf margin-top"> <span class="f1r-icon icon-87_approved_reservations status-green smaller float-left margin-bottom-40 margin-right" title="Approved with Reservations"></span> <span class=title>Approved with reservations</span> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </div> <div class="cf margin-top"> <span class="f1r-icon icon-88_not_approved status-red small float-left margin-bottom-30 margin-right" title="Not Approved"></span> <span class=title>Not approved</span>Fundamental flaws in the paper seriously undermine the findings and conclusions </div> </div> </div> </span> <div class=editorial-note> <h5 class=editorial-note__title>Editorial Note on the Review Process</h5> <p class=editorial-note__text><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home">Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> </div> <div class=approved-referee> <h4 class=approved-referee__title>Reviewers who approved this article</h4> <ol class=approved-referee__list> <li class="approved-referee__list-item "> <span class=approved-referee__co-referee> <strong>Joerg Herrmann</strong>, Division of Cardiovascular Diseases, Department of Internal Medicine, Mayo Clinic, USA </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> <li class="approved-referee__list-item margin-top-20"> <span class=approved-referee__co-referee> <strong>Guilherme H. Oliveira</strong>, Cardio-oncology Program, University Hospitals Cleveland Medical Center, USA </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> </ol> </div> </div> </div> </div> <div class="f1r-article-mobile research-layout"> <div class="mobile-sections-divider before-comments"></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 30 Jan 2019</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/8-120.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/8-120.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> </div> </div> <div id=article_main-column class="p-article__sidebar o-layout__item u-1/3 not-expanded js-article-sidebar"> <div class="o-tab p-article__column-toggle-container"> <button class="c-tab c-tab--left js-column-toggle p-article__column-toggle not-expanded " type=button data-target-main=article_main-column data-target-secondary=article_secondary-column><i class="c-tab__icon material-icons u-hide@expanded">keyboard_arrow_left</i><i class="c-tab__icon material-icons u-show@expanded">keyboard_arrow_right</i></button> </div> <div class=p-article__sidebar-content> <div class="p-article__sidebar-scroller js-article-sidebar-scroller"> <section class="p-article__sidebar-view js-article-sidebar-view js-article-sidebar-main u-pt u-pb--8" data-view=peer-review> <div class="o-layout o-layout--flush"> <div class="o-layout__item u-pl"> <h3 class="u-mt--0 u-mb--2 t-h3 u-weight--md u-pl" data-test-id=article_sidebar_heading>Open Peer Review</h3> </div> <div class=o-layout__item> <section class=""> <div class="p-article__sidebar-highlight u-mb--2 u-pr--1"> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md u-mr--1/2">Reviewer Status</h4> <div class="c-referee-status__icons u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=30072-43521></i> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=45019-43520></i> </div> </div> <div class="o-actions__secondary _mdl-layout"> <div class="c-block-tip p-article__sidebar-tooltip c-block-tip--below c-block-tip--small-arrow c-block-tip--sm-padding"> <button type=button class="c-button c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content> <p class="t-body u-mt--0 u-mb--0"><em class=u-weight--md>Alongside their report, reviewers assign a status to the article:</em></p> <dl class=c-definitions> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved</span></dt> <dd class="c-definitions__description t-caption">The paper is scientifically sound in its current form and only minor, if any, improvements are suggested</dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--reservations" title="Approved with Reservations" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved with reservations</span></dt> <dd class="c-definitions__description t-caption"> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--not-approved " title="Not Approved" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Not approved</span></dt> <dd class="c-definitions__description t-caption">Fundamental flaws in the paper seriously undermine the findings and conclusions</dd> </dl> </div> </div> </div> </div> </div> <div class="o-layout__item u-mb--1"><h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md">Reviewer Reports</h4></div> <table class="c-report-timeline u-mb--2"> <thead class=c-report-timeline__headings> <tr> <th></th> <th class="u-pb--1/2" colspan=2><em class="t-body u-weight--rg">Invited Reviewers</em></th> </tr> <tr class=c-report-timeline__headings-row> <th></th> <th class="c-report-timeline__headings-version p-article__color--dark">1</th> <th class="c-report-timeline__headings-version p-article__color--dark">2</th> </tr> </thead> <tbody> <tr class="c-report-timeline__row c-report-timeline__row--selected "> <th class=c-report-timeline__version> <a data-test-id=sidebar_timeline_v1_version href="https://f1000research.com/articles/8-120/v1">Version 1</a><br/> <span class=p-article__color--dark> <span data-test-id=sidebar_timeline_v1_date class=c-report-timeline__date>30 Jan 19</span> </span> </th> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> </tr> </tbody> </table> <div class=o-layout__item> <hr class="c-hr c-hr--low u-mb--2"> </div> </section> </div> <div class=o-layout__item> <div class="u-pl u-pr"> <p class="t-body u-mt--0 u-mb--2"><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home" target=_blank class=in-text-link>Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> <ol class="p-article__faculty-referee-list t-caption"> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Joerg Herrmann</strong>, Division of Cardiovascular Diseases, Department of Internal Medicine, Mayo Clinic, USA </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Guilherme H. Oliveira</strong>, Cardio-oncology Program, University Hospitals Cleveland Medical Center, USA </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> </ol> </div> </div> <section class="o-layout__item u-pl"> <div class=u-pl> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--2">Comments on this article</h4> <div class=u-mb--4> <p class="u-mt--0 u-mb--1 t-h4"><a class=p-article__color--light href="#article-comments">All Comments</a><span class=" u-ib u-ml--1/2 p-article__color--light">(0)</span></p> <a class=t-h4 href="/login?originalPath=/articles/8-120.html&scrollTo=add-new-comment" data-test-id=add-comment>Add a comment</a> </div> <hr class="c-hr c-hr--low c-hr--md u-mb--4"> <div class="research-layout f1r-article-desk"> <div class="heading6 c-ribbon-wrapper c-ribbon-wrapper--etoc f1000research "> <div class=c-ribbon-wrapper__body>Sign up for content alerts</div> </div> </div> <div class="research-layout sidebar-sign-up-form f1r-article-desk u-mb--4 "> <form class=js-email-alert-signup action="#" method=POST data-email=tocAlertWeekly> <input type=hidden name=isUserLoggedIn class=js-email-alert-signup-logged-in value=N /> <input type=hidden name=userId class=js-email-alert-signup-user-id value=""/> <input type=hidden name=frequency class=js-email-alert-signup-frequency value=WEEKLY /> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <input type=email name=emailAddress class="form-input-field js-email-alert-signup-address u-1/1 u-bb" required=required placeholder=Email /> </div> <div class=o-actions__secondary> <div class="_mdl-layout u-ml--1/2"> <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--small mdl-button--filled js-email-alert-signup-submit">Sign Up</button> </div> </div> </div> </form> <div id=sidebar-sign-up-message class="section-text js-email-alert-signup-msg is-hidden">You are now signed up to receive this alert</div> </div> <section class=js-terms-container> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--1">Browse by related subjects</h4> <div class="article-subcontainer article-subcontainer--sidebar"> <ul class=js-terms-list></ul> </div> </section> </div> </section> </div> </section> </div> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/read-more.js"></script> <script src="/js/article/article-router.js"></script> <script src="/js/article/article-sidebar.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/article/article-column-toggle.js"></script> </div> </div> </div> </main> <input type=hidden id=_articleVersionUrl value="https://f1000research.com/articles/8-120/v1/"> <div class=research-help id=about-referee-status> <div class="research-layout research-help-content about-referee-status"> <span class="close-research-help dark-cross" title=Close></span> Alongside their report, reviewers assign a status to the article: <div class="cf research-help-row"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> <span class=research-help-text>Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested</span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-87_approved_reservations status-green smaller" title="Approved with Reservations"></span> <span class=research-help-text>Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-88_not_approved status-red small" title="Not Approved"></span> <span class=research-help-text>Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions</span> </div> </div> </div> <div id=datasets-info class=is-hidden> </div> <div class=article-interactive-content-container style="display: none;"> <a name=f-template class=n-a></a> <div class="interactive-content-wrapper padding-20"> <img src="" class=interactive-content-image title="Open the interactive image display"> <div class=interactive-content-title></div> <div class=interactive-content-text></div> <div class="f1r-article-desk interactive-content-ribbon" data-interactive-content-type=R-Script> <div class=interactive-content-label>Adjust parameters to alter display</div> <div class=interactive-content-button></div> </div> <div class="f1r-article-mobile mobile-interactive-note"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div id=article-interactive-omero-container class=article-interactive-omero-container style="display: none;"> <div class=interactive-content-wrapper> <div class="interactive-omero-button omero-content" title="Open the interactive content window." data-interactive-content-type=Omero></div> <div class=has-interactive-content-image> <span class=box-arrow></span> <span class=box-middle>Includes Interactive Elements</span> <span class=box-end></span> </div> <div class="fig panel clearfix" style="margin: 0; padding-bottom: 20px;"> <a name=templatelink class=n-a></a> <a target=_blank href="" class=link-for-omero-image> <img src="" class=interactive-omero-image title="Open the image display window."> </a> <div class=caption> <div class=interactive-content-title></div> <div class=interactive-content-text></div> </div> <div class="is-hidden omero-image-list"></div> </div> <div class="f1r-article-mobile mobile-interactive-note omero"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div class="add-comment-container shadow-box is-hidden" id=save-comment-container> <span id=save-comment-text class=intro-text>Edit comment</span> <textarea id=new-comment name=new-comment class="global-textarea comment margin-bottom margin-top"></textarea> <p><strong>Competing Interests</strong></p> <textarea id=new-competing-interests name=competing-interests class="global-textarea competing-interests margin-bottom check-xss"></textarea> <div class=clearfix></div> <button id=cancelComment type=button class="general-white-orange-button float-right no-background-button margin-left"> Cancel </button> <button id=save-comment-button commentId="" type=button class="general-white-orange-button float-right"> Save </button> <div class=clearfix></div> <div class="green-message margin-top is-hidden comment-is-saved">The comment has been saved.</div> <div class="red-message margin-top is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class="red-message margin-top is-hidden comment-enter-text ucf">Your must enter a comment.</div> <div class="red-message margin-top is-hidden comment-references-error references">References error.</div> </div> <div class="modal-window-wrapper is-hidden"> <div id=conflicts-interests class="modal-window padding-20"> <div class=modal-window__content> <h2 class=h2-title>Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div class="f1r-article-mobile research-layout"> <span class=modal-window-close-button></span> </div> </div> </div> <div class="o-modal c-email-alert-popup js-email-alert-popup is-hidden"> <div class="o-modal__body js-modal-body c-email-alert-popup__inner"> <h3 class=c-email-alert-popup__title>Stay Updated</h3> <p class=c-email-alert-popup__sub>Sign up for content alerts and receive a weekly or monthly email with all newly published articles</p> <p><a href="/register?originalPath=" class="c-email-alert-popup__lnk c-email-alert-popup__button js-email-alert-popup-action">Register with F1000Research</a></p> <p>Already registered? <a href="/login?originalPath=" class="c-email-alert-popup__lnk js-email-alert-popup-action">Sign in</a></p> <p class=c-email-alert-popup__footer><a class="c-email-alert-popup__lnk js-email-alert-popup-cancel" href="#">Not now, thanks</a></p> </div> </div> <div id=addCommentModal role=dialog aria-labelledby=addCommentModal_title aria-describedby=addCommentModal_description> <div class="c-modal js-modal is-closed p-article__add-comment-modal c-modal--xlarge js-article-comment-modal c-modal--scroll "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-bg--2 c-modal--scroll-always "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <div id=addCommentModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div class="js-add-comment-container t-caption u-black--high"> <div class=u-weight--bd>PLEASE NOTE</div> <div class=u-mt--1> <span class="red u-weight--bd">If you are an AUTHOR of this article,</span> please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a &ldquo;User Comment&rdquo;. </div> <div class=u-mt--1> <span class="red u-weight--bd">If you are a REVIEWER of this article,</span> please check that you have signed in with the account associated with this article and then go to your <a href="/my/referee">account</a> to submit your report, please do not post your review here. </div> <div class="u-mt--1 u-mb--1"> If you do not have access to your original account, please <a href="mailto:research@f1000.com">contact us</a>. </div> <p class=no-top-margin>All commenters must hold a formal affiliation as per our <a href="/about/policies#commentspolicy" target=_blank>Policies</a>. The information that you give us will be displayed next to your comment.</p> <p>User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the <a href="/about/legal/usercommenttermsandconditions" target=_blank>User Comment Terms and Conditions</a>. Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available.</p> <div class="comments-note margin-bottom" id=accept-user-comments> <input class=js-add-comment-accept-terms type=checkbox id=acceptedTermsAndConditions name=acceptedTermsAndConditions> I accept the <a href="/about/legal/usercommenttermsandconditions" target=_blank> User Comment Terms and Conditions</a> <span class=required>&nbsp;</span> </div> <div class="default-error margin-top is-hidden comment-accept-conditions utac">Please confirm that you accept the User Comment Terms and Conditions.</div> <div class="research-layout registration-form u-mb--2"> <div class="u-mb--1 u-mt--2"> <strong>Affiliation</strong> </div> <div class=form-field> <input type=text name=institution class="form-input-field check-xss js-add-comment-institution" placeholder="Organization *" autocomplete=off /> <div class="default-error margin-top is-hidden comment-enter-institution institution">Please enter your organisation.</div> </div> <div class=form-field> <input type=text name=place class="form-input-field check-xss js-add-comment-place" placeholder=Place> </div> <div class=form-field> <div class="form-input-wrapper hundred-percent-wide"> <div class="new-select-standard-wrapper half-width inline-display heading10"> <select name=countryId id=country class="form-select-menu smaller js-add-comment-country"> <option value=-1>Country*</option> <option value=840>USA</option> <option value=826>UK</option> <option value=124>Canada</option> <option value=156>China</option> <option value=250>France</option> <option value=276>Germany</option> <optgroup label=-----------------------------------------------></optgroup> <option value=4>Afghanistan</option> <option value=248>Aland Islands</option> <option value=8>Albania</option> <option value=12>Algeria</option> <option value=16>American Samoa</option> <option value=20>Andorra</option> <option value=24>Angola</option> <option value=660>Anguilla</option> <option value=10>Antarctica</option> <option value=28>Antigua and Barbuda</option> <option value=32>Argentina</option> <option value=51>Armenia</option> <option value=533>Aruba</option> <option value=36>Australia</option> <option value=40>Austria</option> <option value=31>Azerbaijan</option> <option value=44>Bahamas</option> <option value=48>Bahrain</option> <option value=50>Bangladesh</option> <option value=52>Barbados</option> <option value=112>Belarus</option> <option value=56>Belgium</option> <option value=84>Belize</option> <option value=204>Benin</option> <option value=60>Bermuda</option> <option value=64>Bhutan</option> <option value=68>Bolivia</option> <option value=70>Bosnia and Herzegovina</option> <option value=72>Botswana</option> <option value=74>Bouvet Island</option> <option value=76>Brazil</option> <option value=86>British Indian Ocean Territory</option> <option value=92>British Virgin Islands</option> <option value=96>Brunei</option> <option value=100>Bulgaria</option> <option value=854>Burkina Faso</option> <option value=108>Burundi</option> <option value=116>Cambodia</option> <option value=120>Cameroon</option> <option value=124>Canada</option> <option value=132>Cape Verde</option> <option value=136>Cayman Islands</option> <option value=140>Central African Republic</option> <option value=148>Chad</option> <option value=152>Chile</option> <option value=156>China</option> <option value=162>Christmas Island</option> <option value=166>Cocos (Keeling) Islands</option> <option value=170>Colombia</option> <option value=174>Comoros</option> <option value=178>Congo</option> <option value=184>Cook Islands</option> <option value=188>Costa Rica</option> <option value=384>Cote d'Ivoire</option> <option value=191>Croatia</option> <option value=192>Cuba</option> <option value=196>Cyprus</option> <option value=203>Czech Republic</option> <option value=180>Democratic Republic of the Congo</option> <option value=208>Denmark</option> <option value=262>Djibouti</option> <option value=212>Dominica</option> <option value=214>Dominican Republic</option> <option value=218>Ecuador</option> <option value=818>Egypt</option> <option value=222>El Salvador</option> <option value=226>Equatorial Guinea</option> <option value=232>Eritrea</option> <option value=233>Estonia</option> <option value=231>Ethiopia</option> <option value=238>Falkland Islands</option> <option value=234>Faroe Islands</option> <option value=583>Federated States of Micronesia</option> <option value=242>Fiji</option> <option value=246>Finland</option> <option value=250>France</option> <option value=254>French Guiana</option> <option value=258>French Polynesia</option> <option value=260>French Southern Territories</option> <option value=266>Gabon</option> <option value=268>Georgia</option> <option value=276>Germany</option> <option value=288>Ghana</option> <option value=292>Gibraltar</option> <option value=300>Greece</option> <option value=304>Greenland</option> <option value=308>Grenada</option> <option value=312>Guadeloupe</option> <option value=316>Guam</option> <option value=320>Guatemala</option> <option value=831>Guernsey</option> <option value=324>Guinea</option> <option value=624>Guinea-Bissau</option> <option value=328>Guyana</option> <option value=332>Haiti</option> <option value=334>Heard Island and Mcdonald Islands</option> <option value=336>Holy See (Vatican City State)</option> <option value=340>Honduras</option> <option value=344>Hong Kong</option> <option value=348>Hungary</option> <option value=352>Iceland</option> <option value=356>India</option> <option value=360>Indonesia</option> <option value=364>Iran</option> <option value=368>Iraq</option> <option value=372>Ireland</option> <option value=376>Israel</option> <option value=380>Italy</option> <option value=388>Jamaica</option> <option value=392>Japan</option> <option value=832>Jersey</option> <option value=400>Jordan</option> <option value=398>Kazakhstan</option> <option value=404>Kenya</option> <option value=296>Kiribati</option> <option value=901>Kosovo (Serbia and Montenegro)</option> <option value=414>Kuwait</option> <option value=417>Kyrgyzstan</option> <option value=418>Lao People's Democratic Republic</option> <option value=428>Latvia</option> <option value=422>Lebanon</option> <option value=426>Lesotho</option> <option value=430>Liberia</option> <option value=434>Libya</option> <option value=438>Liechtenstein</option> <option value=440>Lithuania</option> <option value=442>Luxembourg</option> <option value=446>Macao</option> <option value=807>Macedonia</option> <option value=450>Madagascar</option> <option value=454>Malawi</option> <option value=458>Malaysia</option> <option value=462>Maldives</option> <option value=466>Mali</option> <option value=470>Malta</option> <option value=584>Marshall Islands</option> <option value=474>Martinique</option> <option value=478>Mauritania</option> <option value=480>Mauritius</option> <option value=175>Mayotte</option> <option value=484>Mexico</option> <option value=581>Minor Outlying Islands of the United States</option> <option value=498>Moldova</option> <option value=492>Monaco</option> <option value=496>Mongolia</option> <option value=499>Montenegro</option> <option value=500>Montserrat</option> <option value=504>Morocco</option> <option value=508>Mozambique</option> <option value=104>Myanmar</option> <option value=516>Namibia</option> <option value=520>Nauru</option> <option value=524>Nepal</option> <option value=530>Netherlands Antilles</option> <option value=540>New Caledonia</option> <option value=554>New Zealand</option> <option value=558>Nicaragua</option> <option value=562>Niger</option> <option value=566>Nigeria</option> <option value=570>Niue</option> <option value=574>Norfolk Island</option> <option value=580>Northern Mariana Islands</option> <option value=408>North Korea</option> <option value=578>Norway</option> <option value=512>Oman</option> <option value=586>Pakistan</option> <option value=585>Palau</option> <option value=275>Palestinian Territory</option> <option value=591>Panama</option> <option value=598>Papua New Guinea</option> <option value=600>Paraguay</option> <option value=604>Peru</option> <option value=608>Philippines</option> <option value=612>Pitcairn</option> <option value=616>Poland</option> <option value=620>Portugal</option> <option value=630>Puerto Rico</option> <option value=634>Qatar</option> <option value=638>Reunion</option> <option value=642>Romania</option> <option value=643>Russian Federation</option> <option value=646>Rwanda</option> <option value=654>Saint Helena</option> <option value=659>Saint Kitts and Nevis</option> <option value=662>Saint Lucia</option> <option value=666>Saint Pierre and Miquelon</option> <option value=670>Saint Vincent and the Grenadines</option> <option value=882>Samoa</option> <option value=674>San Marino</option> <option value=678>Sao Tome and Principe</option> <option value=682>Saudi Arabia</option> <option value=686>Senegal</option> <option value=688>Serbia</option> <option value=690>Seychelles</option> <option value=694>Sierra Leone</option> <option value=702>Singapore</option> <option value=703>Slovakia</option> <option value=705>Slovenia</option> <option value=90>Solomon Islands</option> <option value=706>Somalia</option> <option value=710>South Africa</option> <option value=239>South Georgia and the South Sandwich Is</option> <option value=410>South Korea</option> <option value=724>Spain</option> <option value=144>Sri Lanka</option> <option value=736>Sudan</option> <option value=740>Suriname</option> <option value=744>Svalbard and Jan Mayen</option> <option value=748>Swaziland</option> <option value=752>Sweden</option> <option value=756>Switzerland</option> <option value=760>Syria</option> <option value=158>Taiwan</option> <option value=762>Tajikistan</option> <option value=834>Tanzania</option> <option value=764>Thailand</option> <option value=270>The Gambia</option> <option value=528>The Netherlands</option> <option value=626>Timor-Leste</option> <option value=768>Togo</option> <option value=772>Tokelau</option> <option value=776>Tonga</option> <option value=780>Trinidad and Tobago</option> <option value=788>Tunisia</option> <option value=792>Turkey</option> <option value=795>Turkmenistan</option> <option value=796>Turks and Caicos Islands</option> <option value=798>Tuvalu</option> <option value=800>Uganda</option> <option value=826>UK</option> <option value=804>Ukraine</option> <option value=784>United Arab Emirates</option> <option value=850>United States Virgin Islands</option> <option value=858>Uruguay</option> <option value=840>USA</option> <option value=860>Uzbekistan</option> <option value=548>Vanuatu</option> <option value=862>Venezuela</option> <option value=704>Vietnam</option> <option value=876>Wallis and Futuna</option> <option value=905>West Bank and Gaza Strip</option> <option value=732>Western Sahara</option> <option value=887>Yemen</option> <option value=894>Zambia</option> <option value=716>Zimbabwe</option> </select> </div> </div> <div class="default-error margin-top is-hidden comment-enter-country country">Please select your country.</div> </div> </div> <textarea data-test-id=article_add-comment_comment name=new-comment class="js-add-comment-comment comment margin-bottom margin-top"></textarea> <div class="default-error margin-top comment-enter-text comment-error is-hidden ">You must enter a comment.</div> <label class="comments-note u-mt--2 u-mb--2" for=competingInterests_1> <div class="u-mb--1 u-mt--2"><strong data-test-id=article_report-add-comment_competing-interests-title>Competing Interests</strong></div> <p class="u-mb--2 u-mt--0" data-test-id=article_report-add-comment_competing-interests-description>Please disclose any <a href="#article-competing-intersts-policy" class=js-modal-competing-intersts-toggle>competing interests</a> that might be construed to influence your judgment of the article's or peer review report's validity or importance.</p> </label> <div id=article-competing-intersts-policy class=js-article-competing-interests-policy style="display: none;"> <h2 class="h2-title u-mt--0 u-pt--0">Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div id=competingInterests_1 class="c-inline-editor js-inline-editor js-form_input u-bb--all u-mb--2 js-comment-competing-interests" data-name=competing-interests data-rows=3> <textarea id=competingInterests_1_input name=competing-interests placeholder="&nbsp;" required=false class="u-hide-visually js-inline-editor_input" tabindex=-1></textarea> <div class="c-inline-editor__editor js-inline-editor_editor o-box c-box o-box--tiny u-bg--11" data-target=competingInterests_1_input role=textbox required=false data-placeholder="&nbsp;" contenteditable=true></div> <span class="c-inline-editor__error js-inline-editor-message">Please state your competing interests</span> </div> <div data-test-id=article_add-comment_saved class="green-message comments is-hidden comment-is-saved">The comment has been saved.</div> <div data-test-id=article_add-comment_error class="default-error comments is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class=clearfix></div> <div class=js-hook></div> </div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" data-test-id=article_add-comment_cancel class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" data-test-id=article_add-comment_post class="c-button c-button--full js-modal__confirm c-button--primary">Post</a> </div> </aside> </div> </div> <style>
+                .at-icon-wrapper {
+        background-size: 100% !important;
+    }
+</style> <script src="/js/namespace.js"></script> <script src="/js/constants.js"></script> <script src="/js/utilities.js"></script> <script src="/js/article/alert-signup.js"></script> <script type='text/javascript'>
+    var lTitle = "Cardio-oncology: management of cardiovascular...".replace("'", '');
+    var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/8-120/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+    var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/8-120/v1&title=" + encodeURIComponent(lTitle);
+
+    var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/8-120/v1" + "&title=" + encodeURIComponent(lTitle);
+
+            linkedInUrl += encodeURIComponent('Markman TM and Markman M');
+    
+    var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+    var addthis_config = {
+            ui_offset_top: offsetTop,
+                                    services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_custom : [
+                {
+                    name: "LinkedIn",
+                    url:  linkedInUrl,
+                    icon:"/img/icon/at_linkedin.svg"
+                },
+                {
+                    name: "Mendeley",
+                    url:  "http://www.mendeley.com/import/?url=https://f1000research.com/articles/8-120/v1/mendeley",
+                    icon:"/img/icon/at_mendeley.svg"
+                },
+                {
+                    name: "Reddit",
+                    url:  redditUrl,
+                    icon:"/img/icon/at_reddit.svg"
+                },
+            ]
+        };
+
+
+    var addthis_share = {
+            url: "https://f1000research.com/articles/8-120",
+            templates : {
+                twitter : "Cardio-oncology: management of cardiovascular toxicity. Markman TM and Markman M, published by " + 
+               "@F1000Research"
+       + ", https://f1000research.com/articles/8-120/v1"
+            }
+        };
+
+    if (typeof(addthis) != "undefined"){
+        addthis.addEventListener('addthis.ready', checkCount);
+        addthis.addEventListener('addthis.menu.share', checkCount);
+    }
+
+        $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+    $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+    $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+    $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+    $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+    function checkCount(){
+        setTimeout(function(){
+            $(".addthis_button_expanded").each(function(){
+                var count = $(this).text();
+                if (count !== "" && count != "0")
+                    $(this).removeClass("is-hidden");
+                else
+                    $(this).addClass("is-hidden");
+            });
+        }, 1000);
+    }
+</script> <div id=citeReportModal role=dialog aria-labelledby=citeReportModal_title aria-describedby=citeReportModal_description> <div class="c-modal js-modal is-closed c-modal--large js-cite-report-modal "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-black--high "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <h1 id=citeReportModal_title class="c-modal__title t-h3 u-mt--0 u-mb--2 u-weight--md">How to cite this report</h1> <div id=citeReportModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div id="" class=js-report-citation-container>{{reportCitation}}</div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" title="Copy the current citation details to the clipboard." data-clipboard-target="#referee-report-citation" data-test-id=report_copy-citation_button class="c-button c-button--full js-modal__confirm c-button--primary js-clipboard c-mini-tooltip--above">Copy Citation Details</a> </div> </aside> </div> </div> <script src="/js/referee/new/referee_validators.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/referee/new/referee_checkbox-input.js"></script> <script src="/js/referee/new/referee_inline-editor.js"></script> <script type="text/javascript">
+    $(function(){
+        var gaCat = "F1000Research";
+        if (gaCat === "") {
+            gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+        }
+        GAHelper.track({category: gaCat, action: "Article Page: Cardio-oncology: management of cardiovascular toxicity", label: "pageviews"});
+        GAHelper.track({category: gaCat, action: "Article Type: Review", label: "Article Page"});
+        $(".f1r-article-desk .collection-image").each(function (idx, el) {
+            var whatChannel = $(el).find("a").attr("href"),
+                channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+                gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+            GAHelper.track({category: 'ChannelStats', action: "Article Page: Cardio-oncology: management of cardiovascular toxicity", label: gaRef});
+        });
+    });
+</script> <script>
+    $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+    $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+</script> <script src="/js/article/track_article.js" type="text/javascript"></script> <script type="text/javascript">
+    $.get("/articles/acj/14542/15829")
+</script> <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script type="text/javascript" src="/js/app/messenger.js"></script> <script type="text/javascript" src="/js/article/article_mobiles.js"></script> <script src="/js/vendor/clipboard.min.js"></script> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/clipboard.js"></script> <script src="/js/article/thesaurus-terms-display.js"></script> <script>
+    new F1000.Clipboard();
+    new F1000.ThesaurusTermsDisplay("faculty-reviews", "article", "15829");
+</script> <script>
+    $(document).ready(function() {
+        $( "#frame1" ).on('load', function() {
+            var mydiv = $(this).contents().find("div");
+            var h     = mydiv.height();
+            console.log(h)
+        });
+
+        
+        var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+            titleLivingFigure = tooltipLivingFigure.attr("title");
+        tooltipLivingFigure.simpletip({
+            fixed: true,
+            position: ["-115", "30"],
+            baseClass: 'small-tooltip',
+            content:titleLivingFigure + "<div class='tooltip-arrow'></div>"
+        });
+        tooltipLivingFigure.removeAttr("title");
+
+        $("body").on("click", ".cite-living-figure", function(e) {
+            e.preventDefault();
+            var ref = $(this).attr("data-ref");
+            $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+        });
+        $("body").on("click", ".close-cite-living-figure", function(e) {
+            e.preventDefault();
+            $(this).closest(".popup-window-wrapper").fadeOut(200);
+        });
+
+                $(document).on("mouseup", function(e) {
+            var metricsContainer = $(".article-metrics-popover-wrapper");
+            if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+                $(".article-metrics-close-button").click();
+            }
+        });
+
+        var articleId = $('#articleId').val();
+
+        if($("#main-article-count-box").attachArticleMetrics) {
+            $("#main-article-count-box").attachArticleMetrics(articleId, {
+                articleMetricsView: true
+            });
+        }
+    });
+
+    var figshareWidget = $(".new_figshare_widget");
+    if (figshareWidget.length > 0) {
+        window.figshare.load("f1000", function(Widget) {
+            // Select a tag/tags defined in your page. In this tag we will place the widget.
+            _.map(figshareWidget, function(el){
+                var widget = new Widget({
+                    articleId: $(el).attr("figshare_articleId")
+                    //height:300 // this is the height of the viewer part. [Default: 550]
+                });
+                widget.initialize(); // initialize the widget
+                widget.mount(el); // mount it in a tag that's on your page
+                // this will save the widget on the global scope for later use from
+                // your JS scripts. This line is optional.
+                //window.widget = widget;
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        
+        var reportIds = {
+                           "43520": 0,
+                           "43521": 0,
+                    };
+
+        $(".referee-response-container,.js-referee-report").each(function(index, el) {
+            var reportId = $(el).attr("data-reportid"),
+                reportCount = reportIds[reportId] || 0;
+            $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+        });
+
+        var uuidInput = $("#article_uuid"),
+            oldUUId = uuidInput.val(),
+            newUUId = "15d212d5-37d6-4fcc-bc29-d8fa23eea153";
+        uuidInput.val(newUUId);
+
+        $("a[href*='article_uuid=']").each(function(index, el) {
+            var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+            $(el).attr("href", newHref);
+        });
+
+    });
+</script>              </div>
+        </div>
+
+        
+            
+            <div class="o-page__footer sticky-email-wrapper">
+                
+                
+
+                
+
+
+<footer class="c-footer t-inverted">
+
+    <div class="o-wrapper">
+        <div class="o-layout">
+
+
+                        
+            <div class="o-layout__item u-mb--3">
+                <div class="c-branding c-branding--research">
+                    <img src="/img/research/F1000Research_white.svg" alt="F1000Research">
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <p class="t-h3 u-mt--0 u-mb--0">An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing.</p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <div class="o-layout">
+                    <nav class="c-footer__nav">
+
+                            <div class="o-layout__item u-3/5@sm u-mb--3">
+
+
+                                <div class="o-columns o-columns--2">
+
+                                                                            <a href="/browse/articles" class="t-body c-footer__nav-item "      >Browse</a>
+                                                                            <a href="/gateways" class="t-body c-footer__nav-item "      >Gateways</a>
+                                                                            <a href="/collections" class="t-body c-footer__nav-item "      >Collections</a>
+                                                                            <a href="/about" class="t-body c-footer__nav-item "      >How it Works</a>
+                                                                            <a href="https://blog.f1000.com/blogs/f1000research/" class="t-body c-footer__nav-item "      >Blog</a>
+                                                                            <a href="/contact" class="t-body c-footer__nav-item "      >Contact</a>
+                                                                            <a href="/developers" class="t-body c-footer__nav-item u-hide u-show@navbar"      >For Developers</a>
+                                                                            <a href="/published/rss" class="t-body c-footer__nav-item "   title="RSS feed of published articles"     >RSS</a>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="o-layout__item u-2/5@sm u-center u-right@sm u-mb--3">
+
+                                <div class="u-hide u-show@lg">
+                                    <div class="_mdl-layout">
+                                        <a class="mdl-button mdl-js-button mdl-button--inverted mdl-button--no-shadow mdl-js-ripple-effect mdl-button--outline" href="/for-authors/publish-your-research"   data-test-id="footer_submit_research"  >Submit Your Research</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="o-layout__item u-mb--2">
+                <div class="c-footer__share">
+                        <div class="c-footer__share">
+        <span class="c-footer__share-icon" title="Open Access">
+            <span class="f1r-icon icon-100_open_access license-icon"></span>
+        </span>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/licenses" target="_blank" title="Creative Commons License CC-BY">
+            <span class="f1r-icon icon-116_cc license-icon license-icon-cc"></span>
+            <span class="f1r-icon icon-117_ccby license-icon license-icon-cc"></span>
+        </a>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/about/cc0" target="_blank" title="Creative Commons License CC0">
+            <span class="f1r-icon icon-118_cco license-icon"></span>
+        </a>
+
+    </div>
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="c-footer__social u-mt--0 u-mb--0 u-white--low-med">Follow us
+                    <a href="https://www.facebook.com/F1000" target="_blank" class="c-footer__social-icon f1r-icon icon-55_footer_facebook"></a>
+                    <a href="https://twitter.com/#!/F1000Research" target="_blank" class="c-footer__social-icon f1r-icon icon-56_footer_twitter"></a>
+                    <a href="http://www.youtube.com/user/F1000research" target="_blank" class="c-footer__social-icon f1r-icon icon-57_footer_youtube"></a></p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md u-right@md">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="t-caption u-white--low-med">&copy; 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | <a href="/about/legal" class="copyrightLegal">Legal</a> | Partner of <a target="_blank" href="http://www.who.int/hinari/en/">HINARI</a>  &bull; <a target="_blank" href="http://crossref.org/">CrossRef</a> &bull; <a target="_blank" href="http://about.orcid.org/">ORCID</a> &bull; <a target="_blank" href="http://www.fairsharing.org">FAIRSharing</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</footer>            </div>
+        
+    </div>
+
+            <div class="js-cookie-spacer"></div>
+        <div class="cookie-warning">
+            <div class="instruction">The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a class="js-scroll-to" href="/about/legal/privacypolicy#use-of-cookies" data-scroll-target="#use-of-cookies">Find out more &raquo;</a></div>
+            <div class="close-button"></div>
+        </div>
+    
+    <script>
+                    R.templateTests.simpleTemplate = R.template('<p class="$variable.one">$text</p><p class="${variable.two}">$text</p><p class="$!variable.three">$text</p><p class="$!{variable.four}">$text</p><p class="${selector}.five">$text</p>');
+            R.templateTests.runTests();
+        
+        var F1000platform = new F1000.Platform({
+            name: "f1000research",
+            displayName: "F1000Research",
+            hostName: "f1000research.com",
+            id: "1",
+            editorialEmail: "research@f1000.com",
+            infoEmail: "info@f1000.com",
+            usePmcStats: true
+        });
+
+                    $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+            // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+            $(document).ready(function () {
+                if ($(".cookie-warning").is(":visible")) {
+                    $(".sticky").css("margin-bottom", "35px");
+                    $(".devices").addClass("devices-and-cookie-warning");
+                }
+                $(".cookie-warning .close-button").click(function (e) {
+                    $(".devices").removeClass("devices-and-cookie-warning");
+                    $(".sticky").css("margin-bottom", "0");
+                });
+
+                $("#tweeter-feed .tweet-message").each(function (i, message) {
+                    var self = $(message);
+                    self.html(linkify(self.html()));
+                });
+
+                $(".partner").on("mouseenter mouseleave", function() {
+                    $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+                });
+            });
+        
+    </script>
+
+            
+<div class="sign-in-popup">
+	<!-- <a href="#" class="sign-in shadow">Sign in <span class="sign-in-image-active"></span></a> -->
+	<a href="#" class="sign-in ${locale}">Sign In <span class="arrow-closed sign-in-arrow-padding arrow-opened"></span></a>
+	<div class="sign-in-form">
+
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="googleOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/8-120.html"/>
+                            <input id="google-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-google" name="system" type="hidden" value="GOOGLE"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="facebookOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/8-120.html"/>
+                            <input id="facebook-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-fb" name="system" type="hidden" value="FACEBOOK"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="orcidOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/8-120.html"/>
+                            <input id="orcid-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-orcid" name="system" type="hidden" value="ORCID"/>
+    </form>
+		<form id="sign-in-form" class="login-container" action="https://f1000research.com/login" method="post" name="f">
+           <div id="sign-in-form-gfb-popup"></div>
+
+                                                            <input class="target-field" type="hidden" name="target" value="/articles/8-120.html"/>
+                            			<input type="text" name="username" id="signin-email-box" class="sign-in-input" placeholder="Email address" autocomplete="email">
+			<input type="password" name="password" id="signin-password-box" class="sign-in-input" placeholder="Password" autocomplete="current-password">
+			<div class="sign-in-remember">
+                <div class="checkbox-wrapper">
+    				<input type="checkbox" id="remember-me" name="remember_me" class="checkbox is-hidden">
+                </div>
+                <span class="checkbox-label">Remember me</span>
+			</div>
+			<a href="#" class="sign-in-link" id="forgot-password-link">Forgotten your password?</a>
+			<div class="sign-in-button-container margin-top margin-left-20 margin-bottom">
+				<button type="submit" id="sign-in-button" class="sign-in-buttons general-white-orange-button">Sign In</button>
+				<button type="button" id="sign-in-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="sign-in-error">Email or password not correct. Please try again</div>
+			<div class="sign-in-loading">Please wait...</div>
+		</form>
+		<div class="forgot-password-container">
+			
+<script type="text/javascript">
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("GOOGLE");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=facebookSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("FACEBOOK");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=orcidSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("ORCID");
+            $("form[id=oAuthForm]").submit();
+        });
+	});
+</script>
+
+<span class="text first">
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+    <p>The email address should be the one you originally registered with F1000.</p>
+</span>
+<input name="email" class="sign-in-input" id="email-forgot-password" type="text" placeholder="Email address">
+<div class="forgot-password-email-error">
+	Email address not valid, please try again
+</div>
+<div class="forgot-password-google-email-error">
+    <p>You registered with F1000 via Google, so we cannot reset your password.</p>
+	<p>To sign in, please click <a href="#" id="googleSignInButton">here</a>.</p>
+    <p>If you still need help with your Google account password, please click <a href="https://www.google.com/accounts/recovery">here</a>.</p>
+</div>
+<div class="forgot-password-facebook-email-error">
+    <p>You registered with F1000 via Facebook, so we cannot reset your password.</p>
+    <p>To sign in, please click <a href="#" id="facebookSignInButton">here</a>.</p>
+	<p>If you still need help with your Facebook account password, please click <a href="https://www.facebook.com/recover/initiate">here</a>.</p>
+</div>
+<div class="clearfix"></div>
+<div class="forgot-password-captcha-error">
+	Code not correct, please try again
+</div>
+<div class="clearfix"></div>
+<div class="sign-in-button-container margin-left-20 margin-bottom">
+	<button type="button" id="sign-in-reset-password" class="sign-in-buttons general-white-orange-button">Reset password</button>
+	<button type="button" id="forgot-password-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+	<div class="clearfix"></div>
+</div>
+<span class="text last">
+	<a href="mailto:">Email us</a> for further assistance.
+</span>
+<form action="https://f1000research.com/j_spring_oauth_security_check" id="oAuthForm" method="post" target="_top">
+                        <input class="target-field" type="hidden" name="target" value="/articles/8-120.html"/>
+                <input id="oAuthSystem" name="system" type="hidden"/>
+</form>
+			<div class="forgot-password-server-error">Server error, please try again.</div>
+			<div class="sign-in-success">
+                <p>We have sent an email to <span id="email-value"></span>, please follow the instructions to reset your password.</p>
+                <p>If you don't receive this email, please check your spam filters and/or contact .</p>
+            </div>
+			<div class="sign-in-loading">Please wait...</div>
+		</div>
+
+		<div class="sign-in-form-register-section">
+			<div class="sign-in-button-container margin-left-20 margin-bottom">
+				<a href="/register" title="Register"><button type="button" id="sign-in-register-button" class="sign-in-buttons general-white-orange-button">Register</button></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+    $(".target-field").each(function () {
+        var uris = $(this).val().split("/");
+        if (uris.pop() === "login") {
+        	$(this).val(uris.toString().replace(",","/"));
+        }
+    });
+});
+</script>
+        <div id="templateOverlay" class="is-hidden" hidden="hidden">
+  <div class="o-overlay js-overlay is-hidden" hidden="hidden"></div>
+</div>
+
+<div id="templateExternalMessages" class="is-hidden" hidden="hidden">
+  <div class="o-modal o-modal--auto@md js-external-messages is-hidden" hidden="hidden">
+    <div class="o-modal__body">
+      <section class="c-console">
+        <div class="_mdl-layout c-console__bdy js-external-messages-body"></div>
+        <footer class="_mdl-layout c-console__ftr o-flex o-flex--reverse js-external-messages-footer">
+          <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-console__btn js-external-messages-close" data-action="maintenance-close">I Understand</button>
+        </footer>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<script src="/js/namespace.js"></script>
+<script src="/js/constants.js"></script>
+<script src="/js/utilities.js"></script>
+
+<script>
+                  F1000.ExtenalMaintenanceItems = [
+    {
+      start: '2018-12-10T14:21:00Z',
+      end: '2018-12-13T16:00:00Z',
+      msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+      cookieName: 'outage23122018',
+      editor: false,
+    }
+  ];
+</script>
+
+<script src="/js/shared_scripts/cookie-helper.js"></script>
+<script src="/js/shared_scripts/mdl-helper.js"></script>
+
+<script src="/js/app/external-maintenance.js"></script>
+
+                <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5646075-11', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        
+                <script type="text/javascript" src="/js/app/research.analytics.js"></script>
+
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4475190.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    
+            <script src="https://my.hellobar.com/4e0495c6f18cbd68731a1dc1978195a144e767ba.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+
+</html>

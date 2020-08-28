@@ -1,0 +1,51 @@
+Thank you for the opportunity to review this article that examines open payments data and Medicare Part D data for two
+commonly prescribed and marketed drugs: oral anticoagulants and non-insulin diabetes drugs.
+Abstract: The conclusion section does not really summarize the primary implications of the study mainly that different types of
+payments to different types of practitioners have a greater impact on prescribing behavior. Conclusion should better articulate
+what this study adds aside from just the descriptives.
+Introduction: The hypothesis is fine, but should also be supported by a reference given that there are different marketing
+strategies employed for different physician-directed promotion segments. Authors should also include what OP doesn’t require
+to be reported (drug samples, less than aggregate de-minimus, etc.) Authors should read and incorporate the following article
+to demonstrated they have better understanding of how pharma sales strategies are optimized for physician-level attributes:
+http://mmj.sagepub.com/content/early/2015/04/29/1745790415583866.full.pdf?ijkey=AC0x3wzxT0nQCXq&keytype=finite
+METHODS:
+-p.5: A primary question is why authors combined OP 2013 and 2014 datasets. I find this problematic as the 2013 dataset is
+incomplete and it is known that there were failures to report that were overlooked the first year. Why not just use the CY2014
+dataset only? This really needs to be justified.
+-p.6: Authors should also be clear that other than AMCs, OP was not designed to collect payment information for nonphysicians. Also, other payments are not only for compensation of IP (that is how it sounds as it is written now). Physician
+ownership (stock options, etc.) is just another form of compensation, royalty payments are generally compensation for IP.
+-p.6: How many records were excluded because they didn’t match NPI or HRR? Also, did authors have a particular
+methodology/software to match NPIs across different datasets? Should be discussed.
+-p.7: I’m unclear on how market share was calculated. This was a function of comparing % prescription days filled among all
+other similar drug classes in HRR? Is not prescription days filled related to treatment regime of drug and possibly dosage? This
+needs better explanation, especially for a more general readership.
+-p.8: To be clear, warfarin was calculated as non-marketed because it did not meet the 100 payments threshold to be
+categorized as a drug with sufficient marketing events. However, this does not seem to take into account the value of those
+
+marketing events (regardless of how low their frequency is). In order to justify exclusion, more information would be needed
+to determine the value of payments/events excluded.
+-p.8: Why use surrogate data for beneficiary income? If you are going to aggregate to an HRR, can you not use U.S. census
+data (TIGER for ArcGIS) to match zip codes and get a better representation of overall income level? I understand this will not
+be perfect as it would measure income for the entire zip code population, but using surrogate markers as described doesn’t
+seem much better. Please provide more justification or citation to prior studies that have used this methodology.
+-p.9: To be clear, ArcGIS was only used to visualize data correct? I don’t see any actual geospatial analysis involved in this
+study…
+RESULTS
+-p.11: When examining the effect of payment type, can you explain how to account for the fact that payments for KOL directed
+activities simply carry more value per transaction than general physician-directed payments? Though general physician
+payments probably account for more frequency, they are lower in spend per transaction, I’m not clear on how authors
+accounted for these differences in their results though these are reported separately.
+DISCUSSION: There needs to be a better discussion of the differences in findings between the two classes of drugs (for
+instance payments to specialists for non-insulin was only 11% vs. 31% for oral anticoagulants, though overall spend was
+similar – what is the difference? Type of payments mix?) A more formalized compare and contrast between the two drug
+classes would better establish a cohesive narrative unifying the results of the paper. Specifically, the central theme that
+payment patterns to physicians have similar outcomes on drug prescribing behavior even in different therapeutic classes and
+even though the makeup/distribution of payment types etc. might be different. Also, authors are missing a critical study which
+already examined macro OP2014 trends and would inform results from this study (see:
+http://www.mayoclinicproceedings.org/article/S0025-6196(15)00851-4/abstract) Authors should incorporate this study
+carefully and also update the piece for any new literature on the subject. The study could have also benefited from examining
+whether payments “clustered” over certain NPIs, as the KOL component is discussed as a key finding. Also, just wanted to
+mention that authors did a good job covered a litany of issues in their limitations section.
+Overall, the piece has important potential value for the current discourse over physician-based promotion and the ability to
+leverage OP to tease out impact on marketing on prescribing behavior. I have some fundamental concerns about methodology
+and data inclusion (outlined above) and the piece needs to be written in a more accessible manner for the general readership.

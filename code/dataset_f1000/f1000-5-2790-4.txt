@@ -1,0 +1,617 @@
+The paper entitled “Animating and exploring phylogenies with fibre plots” by Pearse is an interesting contribution that proposes a new and distinct way to visualize phylogenetic trees. The new method propose by the author uses fibre plots to slice a phylogenetic tree from root to tips and visualize, as an animation, the cladogenetic process in time. As the author correctly argues, while it is now possible to reconstruct phylogenetic trees involving tens of thousands of species, visualization of such trees is complex and has not advanced at the same pace as probabilistic inference methodology. Hence, the challenge is set. There are many programs for visualizing trees but few have explored the need of dealing with large phylogenies. Different strategies have been proposed to represent phylogenies including the collapse of certain nodes, distortion of the view, and representation in 3D, but thus far, the most popular approach probably consists on zooming in and out the phylogeny (OneZoom, Rosindell et al. 2012) using appropriate tools (e.g., a tablet). These viewers are complemented with others that allow incorporating other information pertinent to the phylogeny (e.g., iTOL, Letunic and Bork 2016). The proposal here presented explores in a very different direction. While the idea of looking at different temporal slices in the phylogeny to get a feeling of the timing of diversification of the different clades is original, I think it is too preliminary in the present contribution. The video composed of successive slices shows in different colors how a single (ancestral) lineage is successively split into many but the viewer is unable to discern to which exact descendant lineages is looking at, as there are no labels. Moreover, at some point the number of splits (and colors) is too large to obtain useful information from the animation. As presently devised, the analysis of different clades will render very similar plots, which will be difficult to interpret (beyond seen an increase in the number of lineages) and compare. If the author wants this tool to be widely used, he should make the final outcome more appealing and understandable (e.g., perhaps a grid plot with labels of each lineage in the corresponding axis would help following which lineages and their ancestors are diverging) by peers from other fields than phylogenetics and by the general public. Minor changes: The author mentions that PaloVerde in 2006 was the first 3D phylogeny viewer to his knowledge. I think he should check the Walrus graph visualisation tool by Hughes et al. 2004 Close brackets after [see 6] References 1. Rosindell J, Harmon LJ: OneZoom: a fractal explorer for the tree of life. PLoS Biol . 2012; 10 (10): e1001406 PubMed Abstract | Publisher Full Text 2. Letunic I, Bork P: Interactive tree of life (iTOL) v3: an online tool for the display and annotation of phylogenetic and other trees. Nucleic Acids Res . 2016; 44 (W1): W242-5 PubMed Abstract | Publisher Full Text 3. Hughes T, Hyun Y, Liberles DA: Visualising very large phylogenetic trees in three dimensional hyperbolic space. BMC Bioinformatics . 2004; 5 : 48 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Zardoya R. Reviewer Report For: Animating and exploring phylogenies with fibre plots [version 3; peer review: 2 approved, 1 approved with reservations] . F1000Research 2017, 5 :2790 ( https://doi.org/10.5256/f1000research.11550.r19939 ) The direct URL for this report is: https://f1000research.com/articles/5-2790/v2#referee-response-19939 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 05 Apr 2017 Will Pearse , Utah State University, Logan, USA 05 Apr 2017 Author Response Thank you for these comments. I hope the changes I have made address some of your concerns about interpretation, all of which I think are legitimate. I have added the ... Continue reading Thank you for these comments. I hope the changes I have made address some of your concerns about interpretation, all of which I think are legitimate. I have added the capacity to label (and track) particular species and clades through the animation, and have added an optional display of the phylogeny to the side of the animation. I hope the reviewer agrees that this addresses their concerns. Your comments about the colouring scheme, in particular, were very useful - I now colour everything according to clade age, which I hope you will agree makes for a much more informative plot. Thank you also for mentioning Walrus - omitting this was a huge mistake, and I'm grateful you've corrected me. Thank you for these comments. I hope the changes I have made address some of your concerns about interpretation, all of which I think are legitimate. I have added the capacity to label (and track) particular species and clades through the animation, and have added an optional display of the phylogeny to the side of the animation. I hope the reviewer agrees that this addresses their concerns. Your comments about the colouring scheme, in particular, were very useful - I now colour everything according to clade age, which I hope you will agree makes for a much more informative plot. Thank you also for mentioning Walrus - omitting this was a huge mistake, and I'm grateful you've corrected me. Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 05 Apr 2017 Will Pearse , Utah State University, Logan, USA 05 Apr 2017 Author Response Thank you for these comments. I hope the changes I have made address some of your concerns about interpretation, all of which I think are legitimate. I have added the ... Continue reading Thank you for these comments. I hope the changes I have made address some of your concerns about interpretation, all of which I think are legitimate. I have added the capacity to label (and track) particular species and clades through the animation, and have added an optional display of the phylogeny to the side of the animation. I hope the reviewer agrees that this addresses their concerns. Your comments about the colouring scheme, in particular, were very useful - I now colour everything according to clade age, which I hope you will agree makes for a much more informative plot. Thank you also for mentioning Walrus - omitting this was a huge mistake, and I'm grateful you've corrected me. Thank you for these comments. I hope the changes I have made address some of your concerns about interpretation, all of which I think are legitimate. I have added the capacity to label (and track) particular species and clades through the animation, and have added an optional display of the phylogeny to the side of the animation. I hope the reviewer agrees that this addresses their concerns. Your comments about the colouring scheme, in particular, were very useful - I now colour everything according to clade age, which I hope you will agree makes for a much more informative plot. Thank you also for mentioning Walrus - omitting this was a huge mistake, and I'm grateful you've corrected me. Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 3 VERSION 3 PUBLISHED 29 Nov 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 3 (revision) 05 Apr 17 read read Version 2 (revision) 25 Jan 17 read read read Version 1 29 Nov 16 Rafael Zardoya , Museo Nacional de Ciencias Naturales, Madrid, Spain Stephen A. Smith , University of Michigan, Ann Arbor, USA Diego San Mauro , Complutense University of Madrid, Madrid, Spain Ainhoa Agorreta , Complutense University of Madrid, Madrid, Spain Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Zardoya R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 19 Apr 2017 | for Version 3 Rafael Zardoya , Department of Biodiversity and Evolutionary Biology, Museo Nacional de Ciencias Naturales, Madrid, 28006, Spain 0 Views copyright © 2017 Zardoya R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The revised version of this article looks clearly improved as well as the new output of the fibre plot, which is now easier to interpret. Now, users have the last word on how popular and useful this software may become. Competing Interests No competing interests were disclosed. Reviewer Expertise Phylogenetics, comparative genomics, zoology I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Zardoya R. Peer Review Report For: Animating and exploring phylogenies with fibre plots [version 3; peer review: 2 approved, 1 approved with reservations] . F1000Research 2017, 5 :2790 ( https://doi.org/10.5256/f1000research.12226.r21588) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2790/v3#referee-response-21588 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 San Mauro D et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 10 Apr 2017 | for Version 3 Diego San Mauro , Department of Zoology and Physical Anthropology, Complutense University of Madrid, Madrid, Spain Ainhoa Agorreta , Department of Zoology and Physical Anthropology, Complutense University of Madrid, Madrid, Spain 0 Views copyright © 2017 San Mauro D et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions In our first review of this opinion article, we indicated several comments and suggestions for a few aspects that required further attention. We see that the author has incorporated most of the changes suggested (either by us or the other two referees) into the article, and we feel it looks now improved. In our opinion, this new version of the paper is satisfactory, and suitable for publication in F1000Research. Competing Interests No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ San Mauro D and Agorreta A. Peer Review Report For: Animating and exploring phylogenies with fibre plots [version 3; peer review: 2 approved, 1 approved with reservations] . F1000Research 2017, 5 :2790 ( https://doi.org/10.5256/f1000research.12226.r21586) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2790/v3#referee-response-21586 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 San Mauro D et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 17 Feb 2017 | for Version 2 Diego San Mauro , Department of Zoology and Physical Anthropology, Complutense University of Madrid, Madrid, Spain Ainhoa Agorreta , Department of Zoology and Physical Anthropology, Complutense University of Madrid, Madrid, Spain 0 Views copyright © 2017 San Mauro D et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This paper presents a brief overview on phylogenetic visualization and introduces a novel approach for visualizing phylogenies (timetrees) using fibre plots. Given the rapid accumulation of phylogenetic information over the last years that has enabled the construction of massive trees (mega-phylogenies) containing millions of branches and leaves (taxa), the new visualization method appears to be interesting and with some potential. However, it is outlined only succinctly in the paper, and we feel that there are a few issues that require further attention. More discussion is needed on the specific applications and/on implementations of phylogenetic fibre plots compared to the other visualization approaches already available. For instance, what are the advantages of fiber plots over conventional phylogenetic plots in terms of comparing e.g. different topology sets? (as used for example in hypothesis testing). Also, what is the applicability (if any) of fiber plots for visualizing phylogenetic trees whose branches represent rate of evolution (e.g., substitutions/site) instead of time? (as in phylograms). Or, how do fibre plots deal with extinct branches? (as those displayed by extinct fossil lineages). Discussing these issues (among others) more in detail would make it easier for the reader to assess the breadth of novelty and usefulness of the new method for the general field of phylogenetics, and its applicability beyond the reconstruction of the timetree of life. As described in the current paper, it seems that fibre plots could be a complement, but not substitute of the other (more conventional) phylogenetic visualization approaches. The output of the fibre plot is colorful, but in general very difficult to interpret. In fact, interpreting the fibre plot output of very large phylogenies or even the tree of all life would be more difficult than interpreting more conventional approaches (those zooming in and out the phylogeny). Implementing some sort of labeling/cross-referencing with lists of taxa or even conventional phylogenetic trees live on the side could help in the precise interpretation of what is being displayed at each timeframe. There are also some additional issues that we want to mention: First paragraph: The sentence beginning "Many have..." needs some rewording... It is true that many have produced tree-like depictions of the relationships among species, but certainly not many before Darwin. So, please reword. Second paragraph: Please provide a reference for the sentence beginning "Haeckel grasped that humans...". Third paragraph: Besides Dendroscope, it would be fair to cite FigTree (http://tree.bio.ed.ac.uk/software/figtree/) as well in the last sentence. Fourth paragraph: It would be good to cite and discuss Walrus (http://www.caida.org/tools/visualization/walrus/) here as well. It appeared in 2001 (earlier than Paloverde) and allowed interactive 3D visualization of hierarchical graphs. Fifth paragraph: Please add references and expand the last statement about using Hilbert curves. Last paragraph: The last paragraph of the paper appears unnecessary and probably should be removed. Only the first sentence could be kept as part of the previous paragraph (as closing statement). If this sentence is retained, please keep in mind that phylogenies (e.g., the tree of life) are hypotheses. Therefore, it would be more appropriate to say "...being closer than ever to a reliable tree of all life", rather than "...being closer than ever to a true tree of all life". Competing Interests No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however we have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 05 Apr 2017 Will Pearse, Utah State University, Logan, USA I thank you both for your comments, which have greatly improved the article. I'm particularly grateful that you mentioned Walrus; this was a huge oversight on my part, and I'm glad to have an opportunity to correct it! I apologise for that, due to space limitations of an opinion article (limited to 1000 words), I am not able to go into as much detail as I would like on some of the broader topics you raise. I have, however, significantly altered the code of the fibre plot following your suggestion about non-ultrametric phylogenies and highlighting particular taxa. In particular, your suggest of a phylogeny to the side of the plot, mirroring reviewer 2's suggestion, has greatly improved the figure. Thank you! Responding to each of your comments in turn: Branch lengths and extinct taxa. I have re-written the function so that it supports dated and undated trees, and highlights extinct taxa to show the time period within which they went extinct. I describe this in the penultimate paragraph of the manuscript. Ease of interpretation and suggestion of replacement of other phylogenies. I agree with the reviewers that this is not a replacement for a traditional visualisation; as I discuss in the text I find the visualisation captures well changes in timing and diversification more readily in extremely large phylogenies (e.g., the ~5000 taxon example I provide). I have followed the reviewers' suggestions and allowed the user to highlight clades and taxa of interest, which, along with the comments of reviewer 3, I hope make the plot easier to interpret. First paragraph: I respectfully disagree with your comment; the book by Pietsch I reference contains many examples of tree-like structures preceeding Darwin. I have altered the text to make my meaning clearer. Second paragraph: Thank you for this; I have added a reference earlier in the paragraph. Third paragraph: Thank you for this; I now cite FigTree and the R package ape. Fourth paragrph: Thank you for this; I now mention Walrus (citing a 1997 conference paper that describes what is essentially the same software under the name 'H3'), and cite another software package that converts phylogenies into Walrus format. Fifth paragraph: Thank you for this; having now experimented more thoroughly with the approach, I didn't find it aided interpretation. I have changed the code to alter the layout of the fibres, but I have dropped this reference from the text. Final paragraph: Thank you for this; I have made the changes your suggested. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ San Mauro D and Agorreta A. Peer Review Report For: Animating and exploring phylogenies with fibre plots [version 3; peer review: 2 approved, 1 approved with reservations] . F1000Research 2017, 5 :2790 ( https://doi.org/10.5256/f1000research.11550.r19938) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2790/v2#referee-response-19938 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Smith S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 13 Feb 2017 | for Version 2 Stephen A. Smith , Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor, MI, USA 0 Views copyright © 2017 Smith S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Pearse presents a new means for visualizing large phylogenies called the fibre plot. The purpose of this plot is to better represent splits by different colors and shades. This is an interesting idea and is demonstrated with an accompanying animated gif. However, I am left wondering if there are significant insights gathered from this view of the mammal tree. The animation proceeds and areas of the graph change color. I understand why they change but don’t know where I am in the tree and what the significance of the change is in speed or area of the graph. The figure presented (Figure 1) shows a somewhat different view of the fibre plot as presented alongside the phylogeny. This makes me think that perhaps a more informative presentation would be the view of the phylogeny along with the fibre plot. Then the animation would follow a line that moves in a preorder fashion from the root to the tips. This would allow for a more direct comparison of the tree and the plot. Without this additional guide, I am not sure what to make of the animation. I don’t know where I am in the tree (in time or place) and I can’t “move around” in any particular way. I can also envision any number of statistics presented with the plot. This is an interesting start of an idea but I think it needs a little more development before it would be useful for navigating the size of the tree intended by the author. However, there may be some interesting uses for this or something like it in the future. Editorial comments I recommend that the author edit the abstract. For example, the sentence “Despite the progress that has been made in the visualisation of information since Haeckel's time, phylogenetic visualisation has moved forward remarkably little.” seems to suggest that Haeckel was the first person to try and visualize data. While this may be accurate for some biological data, it is not true for data in general as cartographers have been trying to visualize information and data for centuries. The final sentence in the paragraph could also use some adjustments. While the statement is trying to convey a general sense of the importance of phylogenies, I am not certain that “our place” in the tree of life will dramatically change as a result of visualization of the data. I would also recommend changes to the intervening sentences. I would recommend some changes to the remaining text but won’t outline all of those here. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 05 Apr 2017 Will Pearse, Utah State University, Logan, USA Thank you for these suggestions. I have now altered the fibre plot code in exactly the way you suggested, adding a traditional phylogeny to the right-hand side of the animation that grows and matches colour with the fibre plot. I think it makes the plot much easier to interpret - thank you for this excellent suggestion! I have edited the abstract following your suggestions, and removed the final sentence from it entirely. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Smith SA. Peer Review Report For: Animating and exploring phylogenies with fibre plots [version 3; peer review: 2 approved, 1 approved with reservations] . F1000Research 2017, 5 :2790 ( https://doi.org/10.5256/f1000research.11550.r19876) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2790/v2#referee-response-19876 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Zardoya R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 10 Feb 2017 | for Version 2 Rafael Zardoya , Department of Biodiversity and Evolutionary Biology, Museo Nacional de Ciencias Naturales, Madrid, 28006, Spain 0 Views copyright © 2017 Zardoya R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The paper entitled “Animating and exploring phylogenies with fibre plots” by Pearse is an interesting contribution that proposes a new and distinct way to visualize phylogenetic trees. The new method propose by the author uses fibre plots to slice a phylogenetic tree from root to tips and visualize, as an animation, the cladogenetic process in time. As the author correctly argues, while it is now possible to reconstruct phylogenetic trees involving tens of thousands of species, visualization of such trees is complex and has not advanced at the same pace as probabilistic inference methodology. Hence, the challenge is set. There are many programs for visualizing trees but few have explored the need of dealing with large phylogenies. Different strategies have been proposed to represent phylogenies including the collapse of certain nodes, distortion of the view, and representation in 3D, but thus far, the most popular approach probably consists on zooming in and out the phylogeny (OneZoom, Rosindell et al. 2012) using appropriate tools (e.g., a tablet). These viewers are complemented with others that allow incorporating other information pertinent to the phylogeny (e.g., iTOL, Letunic and Bork 2016). The proposal here presented explores in a very different direction. While the idea of looking at different temporal slices in the phylogeny to get a feeling of the timing of diversification of the different clades is original, I think it is too preliminary in the present contribution. The video composed of successive slices shows in different colors how a single (ancestral) lineage is successively split into many but the viewer is unable to discern to which exact descendant lineages is looking at, as there are no labels. Moreover, at some point the number of splits (and colors) is too large to obtain useful information from the animation. As presently devised, the analysis of different clades will render very similar plots, which will be difficult to interpret (beyond seen an increase in the number of lineages) and compare. If the author wants this tool to be widely used, he should make the final outcome more appealing and understandable (e.g., perhaps a grid plot with labels of each lineage in the corresponding axis would help following which lineages and their ancestors are diverging) by peers from other fields than phylogenetics and by the general public. Minor changes: The author mentions that PaloVerde in 2006 was the first 3D phylogeny viewer to his knowledge. I think he should check the Walrus graph visualisation tool by Hughes et al. 2004 Close brackets after [see 6] References 1. Rosindell J, Harmon LJ: OneZoom: a fractal explorer for the tree of life. PLoS Biol . 2012; 10 (10): e1001406 PubMed Abstract | Publisher Full Text 2. Letunic I, Bork P: Interactive tree of life (iTOL) v3: an online tool for the display and annotation of phylogenetic and other trees. Nucleic Acids Res . 2016; 44 (W1): W242-5 PubMed Abstract | Publisher Full Text 3. Hughes T, Hyun Y, Liberles DA: Visualising very large phylogenetic trees in three dimensional hyperbolic space. BMC Bioinformatics . 2004; 5 : 48 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 05 Apr 2017 Will Pearse, Utah State University, Logan, USA Thank you for these comments. I hope the changes I have made address some of your concerns about interpretation, all of which I think are legitimate. I have added the capacity to label (and track) particular species and clades through the animation, and have added an optional display of the phylogeny to the side of the animation. I hope the reviewer agrees that this addresses their concerns. Your comments about the colouring scheme, in particular, were very useful - I now colour everything according to clade age, which I hope you will agree makes for a much more informative plot. Thank you also for mentioning Walrus - omitting this was a huge mistake, and I'm grateful you've corrected me. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Zardoya R. Peer Review Report For: Animating and exploring phylogenies with fibre plots [version 3; peer review: 2 approved, 1 approved with reservations] . F1000Research 2017, 5 :2790 ( https://doi.org/10.5256/f1000research.11550.r19939) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2790/v2#referee-response-19939 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Animating and exploring phylogenies with...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2790/v3" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2790/v3&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2790/v3" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Pearse WD');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2790/v3/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2790",
+ templates : {
+ twitter : "Animating and exploring phylogenies with fibre plots. Pearse WD, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2790/v3"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Animating and exploring phylogenies with fibre plots", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Opinion Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Animating and exploring phylogenies with fibre plots", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/10274/12226")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "12226");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "19200": 0,
+ "19201": 0,
+ "19650": 0,
+ "19651": 0,
+ "18053": 0,
+ "18054": 0,
+ "18055": 0,
+ "18056": 0,
+ "18057": 0,
+ "21586": 12,
+ "21587": 0,
+ "21588": 5,
+ "18136": 0,
+ "19032": 0,
+ "18137": 0,
+ "19033": 0,
+ "19034": 0,
+ "19035": 0,
+ "19036": 0,
+ "19873": 0,
+ "19874": 0,
+ "19938": 13,
+ "19875": 0,
+ "19939": 20,
+ "19876": 15,
+ "19940": 0,
+ "19941": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "7ff7fb74-e3fe-401e-90a7-5dabda233316";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

@@ -1,0 +1,42 @@
+The authors are treading a well-worn path having developed numerous risk scores from the QRESEARCH database.
+Risk scores for blindness and lower limb amputation have been developed , internally validated and externally
+validated on very large datasets.
+The methodology is strong and the authors adhering to recommended practices in developing and validating risk
+scores. The authors have also carefeully followed the TRIPOD reporting guidelines for prediction models.
+My comments are minor.
+Abstract. Make it clear that the patients come from the UK.
+Page 9/Page 10: Multiple imputation. Some more information would be useful, whether in the main paper or in
+supplementary material, that includes what variables were included, any transformations etc.
+Page 10. Confirm that the Area Under the Receiver Operating Characteristic Curve has been calculated for survival
+data (and not for binary outcomes).
+Page 10. Why are thresholds of 10% and 20% chosen? Is this for illustrative purposes only? If these are thresholds
+recommended by the authors then some rationale would be needed. Alternatively, the authors could produce net
+benefit curves (decision curve analysis, Vickers et al 2006; Med Decis Making) to examine this.
+Page 11. Whilst missing data is mentioned for particular variables, how many of the cohort had complete data (or
+conversely how many had at least 1 missing variable) in the development cohort.
+Page 12. Whilst missing data is mentioned for particular variables, how many of the cohort had complete data (or
+conversely how many had at least 1 missing variable) in the validation cohort.
+Page 12. Whilst the authors mention the availability of the risk score at the start of the manuscript. It would also
+seem a natural place to discuss this in the Results section, preferably with a brief explanation as to why the model is
+not published in the paper. I know the reasons as to why this is the case, but the average reader won’t. The authors
+are one of the few teams I am aware that actively maintain and update their models on an annual basis, and this
+should be highlighted as it is a particular strength of these models/group.
+
+Additional Questions:
+Please enter your name: Gary Collins
+Job Title: Associate Professor
+Institution: University of Oxford
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests (please see BMJ policy) please declare them here: I led the development of the
+TRIPOD guidelines for reporting clinical prediction models.
+
+

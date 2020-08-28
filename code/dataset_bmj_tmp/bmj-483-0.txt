@@ -1,0 +1,85 @@
+I thank the authors for their detailed response. On reading their
+response and the revision, some further statistical issues and
+clarifications have arisen for them to address going forward, as
+follows:
+Abstract: the Design section needs to mention how the cohort study
+was set-up or obtained (e.g. prospective, database study, etc),
+
+years of follow-up, representativeness, and that propensity score
+matching was done, and briefly how.
+Abstract and main results: to translate to absolute risk, in addition
+to giving the absolute rates, could we also have the probability of
+survival at 7 days for each group, and their difference? This would
+help the reader know the probability of death is very low.
+Abstract: give the total number that died.
+Methods: I cannot see the full list of baseline characteristics given
+that were used in the PS approach. It just says: “the PS is the
+probability of receiving haloperidol as opposed to one of the three
+atypical antipsychotics estimated by logistic regression, given the
+baseline characteristics described above.” – but the latter need to
+given explicitly, as I can’t find them ‘above’. Do you mean to refer
+to Table S1? I think adjustment factors are crucial, so should be in
+the main paper, not the supplementary material.
+Methods: “We assessed potential confounders for the planned
+analyses using information from hospital admission to the day
+before antipsychotic initiation.” – how were these assessed?
+Statistically? Clinical judgement? Etc
+Results: I do not follow the comment that “The PS distributions
+were largely overlapping with a c-statistic of 0.65” – I think you
+need to explain to the reader that the c-statistic is for the logistic
+regression model that produces the PS values. It is not a measure
+of separation of the PS values for those treated and untreated (I
+think? Indeed, if it was, this would be cause for concern, because a
+C of 0.65 suggests considerable distinction between groups). So this
+sentence should be split; explain the PS model and its C-statistic.
+Then says that PS values were largely overlapping (perhaps a figure
+in the sup material to show the 2 distributions for the groups?)
+Results: In response to my previous comment about the need to
+check for non-proportional hazards, it is an important new finding
+that there is strong evidence of non-proportional hazards. “The
+time by exposure interaction coefficient was statistically significant
+(p=0.008), suggesting that the proportional hazards assumption is
+not met in the model”. However, the implications of this are only
+briefly mentioned in the results and reference given to the
+supplementary material. I think more details are needed in the main
+text, with results shown for the HR in day 0, 3, 5, 7. 10 as in S4.
+Indeed, what is rather striking, and worthy of discussion, is that the
+HR is close to 1 by day 5, and then becomes < 1 by day 7 and 10,
+with almost a significant result in the opposite direction at day 10.
+If this is genuine, what are the implications?
+I think the issue of non-PH should be given more prominence in the
+paper, e.g. what this study adds and the abstract.
+
+Subgroup analyses: It is not clear why age, CCI, exposure have
+been dichotomised. This is not a sensible analysis strategy, and – if
+the covariates are of genuine interest – a more powerful and
+meaningful analysis would be to consider them on their continuous
+scale (at the very least, in addition to the analyses done). This
+comment was also made in my earlier review but not addressed as
+far as I can tell.
+Results: “Comparison of HRs between patients who were in the ICU
+(HR=1.11, 0.68-1.81) on the index date and those who were on the
+medical ward (HR=2.01, 1.44-2.82) suggests that there might be
+effect heterogeneity (p=0.04).” Was ICU / medical ward part of the
+PS matching criteria?
+Discussion: “The potential adverse effect of haloperidol appeared to
+be the strongest during the first few days following initiation,
+suggesting an acute harmful effect of haloperidol” – I would tone
+down the implied causal language here to something like: “The
+association of haloperidol with increased rate of death appeared to
+be the strongest during the first few days following initiation, which
+if the association was causal, would suggest an acute harmful effect
+of haloperidol”
+In response to my comment about missing data, the authors say
+there is not any missing data in ‘the strict sense.’ So, really no
+missing data in any of the variables used in the PS matching model?
+I find that hard to believe based on my personal experience, but if
+so then this should be added, i.e. that there was complete data for
+all individuals. However, in one subgroup analysis they say: “It
+should be acknowledged, however, that there is an increased
+likelihood of residual confounding in this analysis due to potentially
+incomplete baseline information.” Is this just the subgroup analysis
+where there is missing data then?
+I hope these additional comments can be addressed by the authors,
+and help improve the article further.
+Best wishes, Richard Riley

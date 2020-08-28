@@ -1,0 +1,62 @@
+This is an interesting and well conducted trial. Here we see secondary (I think, though it could be clearer) analyses of a
+previously conducted and published trial. I have reviewed this from a statistical perspective and have some comments and
+suggestions as follows:
+Is this a negative trial? I’m not as sure as the authors are. All of the effect sizes are in the direction that favours bivalirudin,
+but are not statistically significant. CIs are wide (e.g. 0.70 to 1.16, 0.67 to 1.05, etc). Therefore, how can the authors strongly
+state: “A bivalirudin monotherapy strategy, as compared with heparin with or without GPI, does not reduce MACE or NACE in
+patients”. I suggest the authors revisit this conclusion. Is it not a case that further research is needed should be the message?
+I assume the strong statement is based on non-significant p-values (CIs containing 1). Perhaps low power is causing the nonsignificance of the findings? Or are the authors inferring that no clinically relevant values are in the CIs? Please clarify. A RR of
+0.70 for example would seem to be quite beneficial to me (though I’m not a clinician). In short, the authors should be clear
+and justified) about whether there conclusion is based on statistical significance, or clinical magnitude of effects, or indeed
+both.
+At end of the Introduction it says ‘here we present the primary results …’ – what does primary mean here? Does this mean
+primary outcomes of the trial? I think these are not primary analyses of the trial? Thus I would be clearer at the end of the
+Introduction that this is a secondary analysis of a trial but for pres-specified outcomes / groupings. Indeed, the statistical
+analysis section should make clearer that the trial was powered on a different main analysis (I think?). This issue relates to the
+point above about potential low power.
+I would also like more motivation in the Intro as to why these secondary but pre-specified analyses were not already reported
+in the main trial publication.
+I do not think it is necessary to present p-values in table 1, as the study is not aimed (powered) to detect differences at
+baseline.
+In terms of the analyses, what is the Mantel-Cox method? No reference is given, and I was expecting a Cox regression analysis
+to have been used to estimate rate ratios.
+Was the assumption of proportional hazards evaluated for each analysis? That is, were any treatment effects time-dependent
+(non-constant hazard ratio)? Please discuss in the manuscript.
+Why did the main analysis not adjust for centre? Would conclusions change if the analysis was stratified by centre? These
+centres are across different countries, therefore there is the potential for differences in baseline risk, and thus clustering by
+centre might be important. Further, is there any evidence of heterogeneity in treatment effect across centres (or at least
+across countries)? These points could be considered in a sensitivity analysis, with results shown in a supplementary material
+perhaps
+There are lots of analyses being done in terms of subgroups and interactions and tests for trend (See methods for list and table
+2, though I think more analyses have been done than shown in table 2. with tests for trends and interactions). Therefore, even
+I struggle to believe anything beyond chance to be honest. This weakens the robustness of the paper, in my opinion, and
+reflects perhaps the secondary nature of the work compared to the original trial. Perhaps I am wrong, and the authors could
+respond to this, but this is my instinct from reading.
+
+For example, the authors have a paragraph about a significant interaction effect. They say: “Rates of myocardial infarction
+were similar between bivalirudin and heparin in ACS patients
+with and without ST elevation (RR 1.24, 95% CI 0.88 to 1.76 and RR 0.95, 95% CI 0.78 to
+1.16 respectively, p for interaction=0.19). Notably, event rates at 30 day differed markedly
+between the two population: 3.3% in patients with STEACS and 15% in those with NSTEACS.
+Randomised treatment effect on stroke were directionally opposite in patients with and
+without ST elevation (P for interaction=0.0052) with bivalirudin associated with lower risk of
+stroke as compared to heparin in STEACS patients (RR 0.35, 95% CI 0.13 to 0.97, P=0.035)
+and higher risk of stroke in NSTEACS patients (RR 4.02, 95% CI 0.85 to 18.95, P=0.057).”
+- the focus on 30 days is worrying. Is this because it was significant? The overall effect (across all times) is noted as not
+significant in the first sentence, but then the authors focus on 30 days. Also, what is an ‘event rate’ at 30 days. Do the authors
+mean event risk by 30 days?
+The start of the methods intrdocues 3 MATRIX trials, but then it is not clearly specified which trial is used going forward (just
+the MATRIX Anti-Thrombin one?).
+Some results are slipped into the discussion I think. In the discussion it say: “In secondary analyses we observed that
+bivalirudin was associated with a reduction in all-cause mortality due to lower CV mortality, a difference that in this analysis
+was similar in patients with STEACS and with NSTEACS (p for interaction=0.72) while in the updated meta-analysis was limited
+to patients with STEACS (with a p value for difference for STEACS vs NSTEACS of 0.07)”. I can’t see the meta-analysis
+mentioned earlier.
+Some of the points in the discussion are debatable. “While we did not observe significant differences in the rate of acute stent
+thrombosis between randomised strategies in ACS patients with and without ST elevation, the present analysis indicates that
+the risk of acute ST with bivalirudin is probably limited to patients with STEACS” – why? What results support this.
+In summary, in the context of an important and well conducted trial, I do have some concerns about the potential low power
+for these additional analyses, and the over-emphasis (at times) of either non-significant findings being conclusively negative,
+or subgroup effects being important (beyond chance). Therefore I currently struggle to identify firm findings that will be useful
+to the BMJ readers. Further, some analysis issues remain to be addressed / clarified. I hope the authors can take my
+comments as constructive and allow them to revise the paper going forward.

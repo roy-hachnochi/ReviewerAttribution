@@ -1,0 +1,202 @@
+Review of the study titled: Diagnostic accuracy of serological tests for COVID-19: a sys tematic review
+and meta-analysis by authors Bastos et al.
+Manuscript ID BMJ-2020-059052
+Review By Ram B. Dessau, MD, PhD.
+When Copying the review comments to the journal site, all newline commands were deleted. If you
+insert new line before the Word "Page" these can be restored.
+The object of the study is to describe the diagnostic accuracy of serological tests (‘sero-diagnostics’) for
+coronavirus disease-2019 (COVID-19).
+Antibody testing is being used increasingly for both clinical and epidemiological purposes. Furthermore,
+diagnostic testing is offered directly to consumers by pharmacies etc.
+An overview or the obtainable sensitivities and specificities is highly relevant for healthcare providers,
+health authorities and policymakers.
+The authors are following standard methods along the principles outlined by
+https://methods.cochrane.org/sdt/handbook-dta-reviews.
+Also the “Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)” has been considered.
+Thanks for providing the checklist.
+One principle issue is to consider is the “QAUDAS-2” used to asses the quality of the included studies
+concerning serology in general and specifically for this study – some of the items may not be quite
+relevant for research questions in this domain or of clinical relevance?
+The authors conclude: “There is an urgent need for higher quality clinical studies assessing the accuracy
+of COVID-19 sero-diagnostics.”
+Perhaps this conclusion could be qualified somewhat more? The conclusion should focus more and what
+we do know at present, specify the most important limitations – otherwise the conclusion is a platitude?
+Overall, the study has a high quality concerning literature search and but there are some important
+methodological issues to consider.
+Possibly this review is a bit preliminary. The larger mainstream companies with automated platforms,
+that are well established in for routine have invested somewhat more time to develop and validate
+
+antibody assays, are not included in this review as marketing only began during the month of May. So
+possibly this review is a bit premature as many for example laboratories in Europe will use these assays
+which have come on the market only recently. Simply because the investment has been made and the
+equipment is there implemented including staff training. Perhaps, this systematic review will to soon
+become outdated?
+In conclusion major revisions are needed and perhaps this review is somewhat premature. On the other
+hand highlighting these early studies with possible shortcommings could be considered relevant.
+Detailed comments:
+Page numbers are the ones on top.
+Page 4 lines
+20-24: As proposed above start with what the study does show and then specify the reservations
+53-55. The reviewer agrees with the broad inclusion criteria (see comment below
+Page 6 line 43-44)
+Section on data analysis lines
+The word “pooled” is a repeated key work in this section and in the results: “The main summary
+measures were pooled sensitivity and pooled specificity, with 95% confidence intervals (95%CI).”
+Please explain how this was obtained ? Is it an output from the “GLMMs”? Or just simple adding of
+numbers?
+Page 5 line 3-4: “studies that only reported analytical accuracy (as opposed to diagnostic
+accuracy).7” How was this defined? This reviewer finds it difficult to distinguish these two in this
+context? I assume analytical sensitivity is e.g. dilution experiments or?
+But the analytical specificity? What was excluded here? Challenge panels with X reacting antibodies
+are in my perspective: “percentage of persons who do not have a given condition who are identified by
+the assay as negative for the condition” even if this is in a chosen control group (e.g. from persons with
+other inflammatory conditions, viral infections etc.). Suggest to specify your choices.
+Page 6 line 43-44: Just a comment: Very relevant, that studies which did only report Sensitivity or
+specificity are included, but of course excluded from bivariate analysis. Sometimes in systematic reviews
+these studies may be exluded and very important high quality representative case series may be
+missed. From table S1 three studies are patients only and 1 study is controls only.
+Page 7 lines 3-13: How were tests measuring total Ig handled ? Put in the same category as IgM or IgG
+in the results. This is not quite clear.
+Page 7 33-34. Possibly indicate method for “pooling” here. And possibly how 95%CI were calculated for
+the pooled numbers. It appears the the pooled confidence intervals are adjusted for the large variation
+in sample sizes?.
+Page 7-8
+Results: I wonder whether these many long listings of reference numbers for each stratifications of
+studies could be removed. The details every included study such as country etc. may be found in the
+tables and supplementary tables? It severely hampers readability to list so many numbers at the end of
+nearly any sentence. Suggest to remove all references from the result section, unless there is a special
+reason to mention a few specific studies.
+The results section is very informative and critically describes specific issues where the included studies
+have limitations in design and inadequate reporting. For example specimen type not reported, clinical
+severity not reported, and only in some studies was the time from symptom onset reported, point of
+care test not performed “at the point of care” etc.
+Very recommendable and thourough description of the studies.
+This reviewer suggests not to use QUADAS strictly and to focus on relevant quality problems in this
+context.
+In the manuscript (page 8 line 51-54) it is stated: ….high risk of bias…….., mostly due to their case
+control design.
+The reviewer disagrees here. On the contrary case control design is the logical and best choice of
+method in this context.
+For example choosing “Samples collected prior to COVID-19 epidemic” is only possible as case control
+design. Including this group is of paramount importance and very informative for interpretation of a
+positive result. COVID19 is a new disease and the possibility to assess the specificity prior to the
+
+epidemic is a unique opportunity. This info we do not have for nearly any other disease concerning
+antibody test! It makes no sense to characterize this important information as “bias” due to study
+design.
+Please, also consider that the concept of “bias” requires that there exists a “true” and relevant
+specificity or sentivity generalizable to future applications.
+QUADAS was developed for domains where there is such a “true” population for test application. This
+applies typically to cancer screening in a chosen group of individuals with investigator specified inclusion
+criteria. This is also the case for using serology for routine screening in more narrowly defined
+population (e.g. this study from the same group of authors Proença et al. BMC Public Health (2020)
+20:838).
+QUADAS is designed for and usefull in context where inclusion criteria for testing are standardized and
+the epidemiology is rather stable (for decades?).
+Serology in the context of COVID19 is different. The routine clinical application is unstable, and not well
+established, the epidemiology is a moving target, the test is applied in a range of settings in many
+different countries– Therefore cross-sectional design is not applicable, and if attempted would not be
+generalizable.
+What is needed and possible is a variation in choice for cases and controls to reflect different clinical and
+epidemiological situations usefull for the intended use of the serology.
+Please rephrase and explain why case-control design makes sense in this context.
+The quality lies in the choice of case and controls groups and adequate reporting, detailing the selection
+process and explaining why this particular inclusion of samples was chosen. Then the quality assessment
+should examine the relevance and reporting of case and control recruitment.
+It is stated page 8 lines 53-56: “For the index test domain, 35/48 (73%) assessments concluded a high
+or unclear risk of bias, arising because it was not clear that the sero-diagnostic was interpreted blind to
+the reference standard.”
+Firstly, this issue is very important for studies where there is a subjective interpretation of test result.
+In this context where the reference test is a PCR result and the antibody results both are read by some
+“machine” and often transferred to the LIS without human interference and there is no subjective
+assessment using a photometric reading. PCR’s are performed in separate room due reduce risk of
+contamination. The samples are just a rack of tubes with a barcode and thus anonymous to the
+technicians handling the specimens. Laboratory technicians usually work quite concentrated when
+pippeting samples and pushing buttons on the analyzer and are not at all pairing a long list of samples.
+Thus, the issue of blinding is quite irrelevant and including this as a quality item is unreflected.
+What should be stated by study authors, is that the first result only was used. Using some kind of repeat
+“greyzone results” or “confirmatory” testing by another test? This may alter results and invalidate the
+comparability between studies. Suggest, to make comment, if you checked for this issue in the methods
+section of the 39 included studies.
+Suggest to rephrase to something like: For the index test domain in 35/48 (73%) of studies it was not
+described that the sero-diagnostic was interpreted blind to the reference. However, as blinding is not
+relevant for this type of laboratory assays and procedures this QUADAS domain was not scored. Then
+maybe a comment if first results were used only or ?
+The next sections are quite relevant and to the point. But it is still unclear what is meant by risk of bias.
+One important minimum requirement is consecutive selection of patients in a given clinical setting! Was
+this stated clearly in the 36/48 (75%) assessments (page 9 line 6).
+Page 9 Lines 9-14. Very important issues and statements. Again I would suggest to avoid “risk of bias”
+as it requires that a well defined non-biased…. does indeed exist? Instead explain the reasons for
+possible variability is due to slow development of the antibody response and possibly disease severity
+and that may have a large influence on the apparent sensitivity. And if information about timing of
+sample collection with respect to symptom onset and/or the reference and/or disease severity is poorly
+described then the study is difficult to interpret. As most of the included studies have a preliminary
+character. Indicate which of these specific items were inadequately described.
+Page 10 lines 7-10.
+It is stated: “specificity was lower amongst individuals with suspected COVID-19 as compared to other
+groups”. Are you referring to lower part of Table 4 stratified as “Individuals suspected to have
+COVID-19 but RT-PCR negative”
+
+Is this really a “specificity” ? This is a mixed clinical group with both cases and non-COVID-19 RT PCR
+negatives. This cannot be used for specificity. These studies should be removed from table 3 and table
+4 altogether and not be used as “specificity”. This group could be reported just listing the studies in a
+supplementary table. I would guess there is a large heterogeneity in rate of seropositivity.
+This leads to a major point to be specified.
+Serology may be used for two main purposes
+To establish immunity by measuring antibody reactivity (here the prepandemic specifity is important)
+For detection of ongoing/recent COVID-19 infection in person with clinical presentations where RT-PCR
+was not done or suspected false negative.
+The specificity in this case population be the healthy population at the same time period ? Or a
+cross-sectional sample of a cohort persons with suspected COVID-19 with extensive clinical work up to
+separate possible COVID19 infections from other clinical problems. This has hardly been done?
+Suggest the review focuses on just detection of “true” antibody status – not “disease”, using the
+prepandemic specificity.
+Discussion section
+Page 10 lines 23ff. Again “bias” is a platitude. Indicate, summarize what are the main problems. E.g. as
+done concerning POCT.
+Page 11 line 31-36 it is stated:
+“Most importantly, we compared pooled estimates between different study populations”
+“This approach was taken because few studies performed head-to-head comparisons.”
+It is not clear to the reviewer how this is handled in the data. Does that mean you did not do a pooled
+estimate for e.g. ADAM, AN49 listing commercial kit 1-9 table2. These are probably the same small
+number of samples tested in 9 assays? The pooled number was TP=1810 and FN=828, the numbers
+simply added? Does Adams contribute with 30-40 cases or many more? How did you handle this
+pseudoreplication In the first case only one arm would chosen or some sub-pooling (eg the average of
+the 9 studies).
+This is a methodological issue to be considered and described in the methods. And regrettably, I am not
+aware of if there recommendations in the literature for handling this type of datamix in a systematic
+review? Possibly a multilevel model?
+A major text book on statistical methods in diagnostic medicine (Zhou et al. 2011) has a chapter 12 on
+“separate clinical studies, using patients from distinct populations” and the same test on these distinct
+populations? So how to handle studies with multiple testing on the same samples is not described in
+comparison between studies?
+In the R-mada documentation by Doebler and Holling it is stated: “Since pooling sensitivities or
+specificities can be misleading (Gatsonis and Paliwal 2006), options for the univariate meta-analysis of
+these are not provided.”
+So how did you perform “pooling” of sensitivities and specificities ?
+Suggest to delete these pools.
+Head to head comparisons are mostly used to detect differences between tests ? Methods for paired
+design are well described (See also Pepe MS .
+Whereas comparisons between studies detect both differences between assay and recruited populations.
+This lead back to how the pooling was done (see comment above).
+Conclusion line 47: “provide less biased, more precise, and more generalizable information” Any
+suggestions on how to achieve this? And what kind of settings and criteria for case definition could
+yield “generalizable” information.
+The reviewer is critical here – There will never be unbiased one size fits all information. The biology and
+world is not that simple. However good studies high-lighting different aspects can be usefull and
+generalizable to similar situations.
+Table 3. Caption: specificity ?
+Again explain how pooled estimates are done including how studies with several data on the same
+samples are pooled. And how the 95% are calculated in this context.
+Figure 2 and S1. See discussion above. Provide the reasons for the high risk of bias in patient selection.
+It is unreflected if only based on “mostly due to their case-control design”. It should be based on
+adequate reporting and a clinically meaningful consecutive patient inclusion.
+Page 51 of 51 shows references:
+
+Start with number 15. ? The next pages Page 52 of 51. The numbering is confusing? Some technical
+uploading issue – check this, if a resubmission is performed.
+The Forest plots figures S2. Please remove empty lines. As in the IgM or IgG figure on page 46.
+Consider replacing the forest plots with sROC curves. E.g. cross hair plots provided in mada gives both a
+very useful and quick overview of between studies and the within study error bars.
+When Copying the review comments to the BMJ website all newline commands were deleted.
+If you insert new line before the Word "Page" these can be restored.

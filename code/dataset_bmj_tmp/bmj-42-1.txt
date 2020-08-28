@@ -1,0 +1,27 @@
+The authors credibly addressed my comments. I have a few additional remarks:
+RE “R18: We have added an event study of the primary outcomes in Appendix Figures 3-4.
+As noted, we have also added risk-standardized graphs of the primary outcomes over time,
+which shows the parallel trends in the baseline period (Figure 1-2). We also direct the
+reviewer to our opening point in this letter in which we outline the change in results.”
+Table 3 shows that unadjusted baseline spending for BPCI hospitals is $18,995 compared to
+$18,949 for non-BPCI hospitals. Appendix Figure 1 suggests that baseline spending for BPCI
+hospitals is about $15,700 and $17,200. This is a big difference from unadjusted results,
+both with respect to the relative differences and the fact that the adjusted results are so
+much less than the adjusted results. It makes me question the adjusted results shown in
+Appendix 1.
+
+Appendix Figure 3 and Figure 4, the CIs are massize. This doesn’t seem right given the
+tightly estimated point estimates elsewhere.
+RE “R22: Thank you for this comment. We are using Huber-white corrected standard errors
+in a GEE semi-parametric design. These standard errors are robust to heteroskedasticity that
+the reviewer cites, and using a market level cluster would increase type 2 error (reducing
+power) since the number of treated units would effectively drop. Because the program was
+NOT implemented at the market level, but rather the hospital level, we have retained the
+hospital-level clustering with robust standard errors using the Huber-white correction. This is
+also uses the same inferential approach as all relevant prior literature on BPCI, which
+enhances the comparability of the results. We do appreciate the reviewers point, however,
+and have added a point to the limitations to acknowledge this tradeoff (Page 19).”
+Given this choice, the authors should provide evidence that errors are not correlated across
+hospitals within markets.
+Appendix Table 5, COPD point estimate looks positive in the figure but is reported to be
+negative (-1.8%).

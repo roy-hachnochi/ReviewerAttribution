@@ -1,0 +1,23 @@
+BMJ 49220- Sacrospinous hysteropexy versus vaginal hysterectomy with uterosacral ligament
+suspension in women with uterine prolapse stage 2 or higher: 5-year follow-up of a multicentre
+randomised trial
+Stats Review:
+The manuscript reports on the 5-year follow-up from a trial which initially was setup to determine if
+sacrospinous hysteropexy (SH) was non-inferior to vaginal hysterectomy. In this manuscript the focus is
+now on superiority of SH instead of non-inferiority (established in the first paper with 2 year follow-up).
+The published protocol anticipated that superiority of SH could be identified and therefore this analysis is
+consistent with the published protocol.
+There is however an important issue with this reporting and is related to completeness of follow-up and
+use of the statistical analysis based on imputed values. The imputation of LVCF could be potentially
+biased depending on other factors related to the intervention. It is unclear to me (as a non-content
+expert) how this incomplete follow-up would impact on the assumptions required by the different
+imputation approaches used.
+Instead, as the primary outcome and most of the outcomes for Table 2 are ‘events’, I would suggest the
+use of a time-to-event approach, that is survival methods, even if the timing is not entirely well defined.
+This will allow for estimation of hazard ratios HR, assuming proportionality of hazards, and use of data
+up to the time of censoring reducing the need for imputation. Even in the case that proportional hazards
+could not be used, Kaplan-Meir plots and estimates should be presented to describe the way these
+events occurred (for the primary and possibly for some of the relevant secondary outcomes).
+Another important issue regarding the primary outcome is that as the number of events is small, it
+would be extremely useful to provide a table with the actual available data (event, when, if imputed,
+why) as part of the supplementary material.

@@ -1,0 +1,127 @@
+
+The paper is much improved, and I continue to believe it is a well-written and
+important article, showing the large number of models available and qualitatively
+summarising their performance (and highlighting important omissions). The
+paper now includes PROBAST quality assessment and optimism-adjustment
+results (i.e. adjusting for overfitting) for each model, and these are very helpful
+additions. However, there are still a number of important area for improvement,
+in my opinion, and I truly hope the following comments help the authors and the
+BMJ going forward.
+Major comments:
+1) Optimism-adjusted C statistics are now provided, which is a big improvement
+and important addition. However, crucially did the developed models apply any
+penalisation or shrinkage techniques during model development, or after internal
+validation, to reduce overfitting concerns? In other words, was optimism in
+calibration assessed in internal validation (e.g. through bootstrapping) and then
+adjusted for when producing the final model equations?
+The authors say “In conclusion, we considered that the authors examined for
+overfitting and adjusted for optimism if they presented a C-statistic after
+bootstrapping, cross-validation or non-random split”. However, I do not think this
+is a sensible stance. Just because a study provides an optimism-adjusted
+C-statistic does not mean that they also adjusted the developed model’s
+parameter estimates for optimism (e.g. by using a uniform shrinkage factor).
+2) The authors still do not provide meta-analysis of any performance statistic.
+This is a shame, as a reader would benefit from forest plots and summary results
+(including average performance, and also examining heterogeneity in
+performance [1]). For example, they might combine the C-statistics obtained for
+each model from internal validation (e.g. bootstrapping) and external validation.
+Indeed Table 3 gives the study-specific results of external validation studies, and
+so these could be combined. But the authors argue that “We should also consider
+that the paper is already too long (~4500) and a proper evidence synthesis
+would lengthen the manuscript significantly more” and “To be honest, this could
+stand alone as a separate paper in order to be properly analyzed and reported”.
+As a compromise, could we see meta-analysis results for just the nine models at
+low risk of bias? I think this is needed to make the paper more complete, as
+otherwise the results section is quite dry and a long series of qualitative
+statements about what (and what was not) available. Meta-analysis should be
+possible for most models, as the authors say “all these models were externally
+validated at least once”. If statistics are not available, then the authors can say
+meta-analysis was not possible.
+What do the authors think? If they agree, they might even add text to the
+methods section that says “At the request of the BMJ statistical reviewer, we
+considered performing a random effects meta-analysis of (internal and external)
+validation statistics for those models considered low risk of bias”. Then the
+results section could finish with this meta-analysis (or explanation of why it was
+not possible). I imagine that only C-statistics could be combined and not
+calibration measures (due to lack of information).
+3) There is a large emphasis on the need for more external validation studies.
+Though I agree with this, it should also be recognised that internal validation
+results are potentially equally important. For example, if the model is developed
+is a sample that represents the intended population of application, then a suitable
+internal validation (i.e. bootstrapping to produce optimism adjusted results) is as
+good as an external validation in my opinion, for that same population. Further,
+
+internal validation using a large sample size is better than a small external
+validation. So the authors must make it clear that both internal and external
+validation is needed going forward.
+4) It is interesting that the authors use PROBAST to classify the risk of bias of
+each model. However, PROBAST is actually a tool for examining the risk of bias of
+a study (not a model). So, for example, if a model is validated in multiple
+studies, then there are multiple risk of bias assessments (one for each study),
+and not one for the model. This tension needs to be addressed. When they
+authors say that a model has low risk of bias, is this based on a summary of the
+risk of bias across multiple studies for that model? The tension or lack of clarity
+perhaps arises because the authors refer to the risk of bias of SINGLE model
+development studies for each model, and this they use model and study
+interchangeable (as there is one of each)? I am not sure.
+5) Methods section does not say what measures of predictive performance were
+sought in the data extraction section. I think this is crucial, i.e. to name the
+measures of calibration and discrimination that were desired.
+6) The conclusion section of the discussion should also mention that appropriate
+internal validation is needed, in order to obtain more appropriate performance
+statistics for the population represented by the development sample.
+7) How were continuous predictors handled in the model’s developed? Is there
+any need for recommendations to improve this, for example by using non-linear
+trends (and not using dichomisation and cut-points[2])
+8) Table provides all the external validation results. But calibration is not
+mentioned? Were truly no calibration results presented? Calibration slope, O/E,
+calibration-in-the-large, calibration plots?
+9) Table 3: what do the * refer to in column 1? Also, why are the first 2 rows
+different? They give 2 c-statistics, but nothing else in the tow differs. May also be
+true of other rows.
+Minor
+1) Abstract says “To map and assess prognostic models for patients with chronic
+obstructive pulmonary disease” – for extra clarity suggest change to “To map and
+assess prognostic models for outcome prediction in patients with chronic
+obstructive pulmonary disease” (otherwise might appear you look at models for
+prediction of COPD onset). Similarly, I think the title might benefit from adding
+this clarity about predicting outcomes in those with COPD.
+2) “Our systematic search yielded 236 articles, describing 409 prognostic models
+… “ – do you mean describing the DEVELOPMENT of 409 models?
+3) “There are more than 400 prognostic models for COPD patients in an
+ambulatory, hospital or emergency department setting, with the majority
+focusing on mortality” – again change to “There are more than 400 prognostic
+models for outcome prediction in COPD patients in an ambulatory, hospital or
+emergency department setting, with the majority focusing on mortality”
+- please clarify his throughout the article (i.e. that it is outcome prediction in
+those with COPD)
+4) “Internal validation provides a more accurate estimate of model performance
+in new subjects” – agree but only if done well! (i.e. using bootstrapping or
+
+cross-validation, and not simply giving apparent performance) - need to state
+this.
+5) “Missing data often lead to biased estimates if not imputed, because it can
+distort the performance of a prediction model if the missingness of values is
+related to other known characteristics” – should this sentence be prefaced with a
+statement that the handling of missing data was unclear or sub-optimal?
+Otherwise it jumps out of the blue.
+6) Did any studies evaluate the net benefit of the model?[3]
+7) Table 4 last column should emphasise that this is from internal validation
+8) Table 6 nope provides the model equations. However, the ones in the table do
+not tell us how to move from the scores for each predictor to the actual predicted
+outcome risk. Also, underneath it says “For the extended ADO index, a model
+presentation was not available. The prognostic model by Bertens et al 2013 was
+only available as a regression equation” – remove the word only from this
+sentence, as providing the regression equation is a good thing (indeed better
+than the score systems in the table)
+With best wishes, Richard Riley
+1. Riley RD, Ensor J, Snell KI, Debray TP, Altman DG, Moons KG, et al. External
+validation of clinical prediction models using big datasets from e-health records or
+IPD meta-analysis: opportunities and challenges. BMJ. 2016;353:i3140.
+2. Riley RD, van der Windt D, Croft P, Moons KGM, editors. Chapter 4: Ten
+principles to strengthen prognosis research. In: Prognosis Research in
+Healthcare: Concepts, Methods and Impact. Oxford, UK: Oxford University Press;
+2019.
+3. Vickers AJ, Van Calster B, Steyerberg EW. Net benefit approaches to the
+evaluation of prediction models, molecular markers, and diagnostic tests. BMJ.
+2016;352:i6.

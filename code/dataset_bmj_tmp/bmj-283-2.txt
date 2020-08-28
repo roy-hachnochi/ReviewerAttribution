@@ -1,0 +1,31 @@
+1. The authors need to be more specific about exposure assessment process: how to
+determine the ozone exposure level for each city, by averaging records from all monitors?
+Or there is a more sophisticated exposure assignment procedure for each city if there are
+more than one monitor. And what is the intra-city ozone variability? Ozone is an oxidative
+gas, which exhibits high spatial and temporal variation. If using city-wide averaged ozone
+level, the measurement error would be profound in several large cities, since the distance
+from people’s residential addresses to the nearest monitor could be far. This may partially
+explain the null results in some countries. Maybe, the authors could conduct an analysis
+study on the association between standard deviation of beta coefficient from GLM and
+density of ozone monitors in each city. If a city has more ozone monitors, then the
+exposure measurement is lower, so the standard deviation is smaller in the GLM, OR, it is
+more likely to obtain positive results.
+Specific comments:
+1. Existing studies used ppb as the unit; this paper should include information on how to
+convert from ppb to microgram/m3.
+
+2. Line 14, Page 7: our study found humidity/dew point temperature and PM2.5 are
+important confounders of ozone-mortality association. The authors should include them if
+humidity and PM2.5 variables are available.
+3. Line 46, Page 7: the degree of freedom of time and seasonal trend should be chosen
+based on AIC value. Setting it to be 7 seems to be an over-adjustment.
+4. Line 31, Page 8: our study and many previous studies found an attenuated effect of
+ozone on mortality at high concentrations. It would be interesting to explore such
+non-linearity at high concentrations.
+5. Line 35, Page 8: the authors need to be more specific about how to aggregate
+city-specific lag-response associations.
+6. Page 21: the null results in China and Spain should be treated with caution and
+discussed. The number in Figure 3 is an under-estimation for both countries, probably due
+to exposure assessment errors. The authors need to explore reasons for the null results in
+the Discussion Section.
+7. eTable 1, Page 30: it would be informative to include city-specific results as well.

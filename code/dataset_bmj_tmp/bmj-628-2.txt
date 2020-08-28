@@ -1,0 +1,58 @@
+This is an interesting research question and the authors have undertaken an important project. However,
+after reviewing this from a statistical perspective, I have some considerable concerns as it stands. I hope
+my following comments helps the authors going forward.
+1) The conclusions from the authors are strong (“This paper provides the most comprehensive evaluation
+of the “weekend effect” in obstetric Care”; “Outcomes for both women and babies are generally worse at
+the weekend”, etc), but the complexity of the research question and the statistical results do not support
+such strong conclusions. Indeed, the messages need to be toned down and the limitation of the work
+(See below) need greater weight.
+2) Many of the significant results are only just significant; in other words, 95% Cis have lower bounds
+only just above the null (e.g. 1.02 to 1.12, and 1.00 to 1.45). Residual confounding is also a genuine
+concern, and the addition of more confounders could easily overturn the significance of the findings
+(attenuate the effect estimates further).
+3) A major confusion is that the outcomes of interest are not clearly defined in the Methods section.
+4) Perhaps the biggest limitation of the work is that a baby may have been born at the weekend, but die
+during the week. Conversely, what if they are born in the week but die in the weekend? What does that
+mean in terms of casual inference of care at weekends or the week? Thus statements such as ‘outcomes
+for women and babies are generally worse at the weekend” is meaningless – actually the level of care
+may span both week and weekend days, and so to infer causality (which the authors are doing here
+essentially, which could be a major newspaper headline and scare women) that weekend admission leads
+to worse outcomes is dangerous when ‘weekend care’ and ‘week day care’ are not actually distinct. The
+care individuals receive is an amalgamation of weekend and week days, and the authors might have
+been better to count the number of days experiencing weekend care out of the total number of days of
+care, and examine if that is associated with the risk of poor outcomes (After adjusted for total days).
+5) A related point is that the authors lump Monday to Friday, and Saturday and Sunday together. This
+masks variability across individual days. In particular, and most concerning, is that outcomes appear
+different across Monday to Friday. See for example Figure 2d, where mortality is best for Monday and
+
+Tuesday, but appear similarly worse for Wednesday to Sunday. Therefore, why focus on the weekend
+being bad? Why not Wednesday, Thursday and Friday? By lumping Monday to Friday together, the
+authors are implicitly assuming the outcome risk is the same across these days, but the evidence from
+Figure 2 does not support this. Another example is Figure 2c, where the risks appear lower for Wed to
+Sunday, and hgigher on Monday and Wednesday. These figures certainly do not reassure me that
+‘outcomes of women and babies are generally worse at the weekend’ as the authors conclude.
+6) It is not explicit how the 750 and 450 numbers in the abstract and end of results are calculated.
+Please be clearer in the methods.
+7) The analysis description is also quite brief in the methods, in general. It just says that multiple logistic
+regression was used to adjust for the effect of covariates, but it doesn’t say what covariates were
+considered and how they were selected for adjustment. Indeed, I can’t see a list of the adjustment
+factors anywhere. How can we tell if the authors’ have considered all relevant confounders when these
+are not listed, as far as I can tell.
+8) The authors do tell us that they did not adjust for hospital, as ‘the hospital-level effects were found to
+be small’ – however, as I mention above the significant results are only just significant, and thus even
+small impact of adjustment factors is potentially critical. They should therefore include hospital as a
+confounder.
+9) Also there is no discussion on the handling of missing data. If patients had a missing confounder
+value, for example, how were they handled in the analysis?
+10) An alternative approach to the analysis is a matched propensity score analysis. Would conclusions
+remain the same if a propensity score analysis was undertaken?
+11) No details on how multiple babies from the same women (either at the same birth, or later down the
+line) are accounted for. These are not independent observations, so this should be accounted for using,
+for example, random effects models.
+12) It would be nice to see unadjusted odds ratio results AND adjusted results, to ascertain how much
+attenuation in the effect there is after adjustment (impact of confounders).
+Therefore, I’m sorry to say that there are major issues with this work and in my opinion it needs to be
+considerably re-analysed and the limitations brought into sharper focus when making the conclusions. In
+my opinion, the findings and conclusions are not robust based on the analyses, reporting and study
+design presented. However, I recognise the hard work of the authors, and so I hope my comments are
+helpful to them when revising their work in the future.

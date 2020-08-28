@@ -1,0 +1,44 @@
+This is clearly an important topic. The statistical analyses appear well done, with clustering and
+heterogeneity appropriately modelled for example. However, I have some suggestions for improvement:
+1) I found this a tough read, and (as a non-specialist) I found it hard to identify the question and
+distinguish the definition of ‘at risk’ from the outcome. For example, the language appears inconsistent
+(predictors, indicators, patients at risk could all be used to describe the patients of interest, but it took a
+long time to realise indicators meant the outcome) such that the start-point and end-point (outcomes)
+were not always clear. The ‘indicator’ language is especially problematic, to me.
+Eg at the start of the stats methods, it says ‘ For each indicator, a binary outcome variable categorised for
+each patient at risk as triggering an indicator or not’
+So for each indicator, the definition of the outcome is the indicator present or not – but upon a first read, I
+thought the indicator was a coding for those identified at risk, and then the outcome was an actual
+prescribing error in this subset. Indicator is commonly used in the BMJ or other journals to indicate those at
+higher risk, so this is incredibly confusing and needs to be addressed.
+2) Key statistical measures like ‘ICC’ and ‘reliability’ (based on the ‘prophecy formula’) are hard to translate
+to clinical meaning. I would urge the authors to either explain these better, or focus primarily on the
+summary %s and the distribution.
+3) In relation to this point, the authors focus in tables on the summary %s from the analyses. These are
+the summary %s across all the practices. Whilst this itself is important, I think of more importance is the
+variability (heterogeneity) of the %s across the practices. This is what the authors are alluding to by
+focusing on the ICC, but it would be far better to actually quantify the range of the %s across practices by
+a 95% prediction interval for the potential true % in a new practice. This would reveal, with better clinical
+meaning, the distribution of true %s. At the moment, the distribution is summarised by the range of
+OBSERVED %s. But this is inappropriate as it is too wide, as it accounts for sampling error (chance) due to
+a restricted sample size in each practice. Therefore, a 95% prediction (akin to that in meta-analysis, see
+ref [1] below) would be more intuitive, for the TRUE %s. This can be added to Table 2
+[1] Riley RD, Higgins JP, Deeks JJ. Interpretation of random effects meta-analyses. BMJ. 2011;342:d549.
+4) The design of the study also warrants clarification please. I think it is cross-sectional of sorts, but then
+looks back upto 6 months (?) to ascertain prescribing practices. But what time-point is chosen for each
+individual to be ‘at risk’. For example, are all times looked at, and what if the patients could be included at
+multiple time-points (e.g. at risk at time 1, 5 and 6 – were the same patients then included at multiple
+time-points to see if they had the outcome? And if so, how was the correlation of individuals accounted for?
+In other words, the sampling frame needs to be much clearer to me. Similarly, if individuals were are risk
+for 2 or more prescribing errors, then how was the correlation accounted for?
+Or is the outcome just yes or no for each patient, with ‘yes’ meaning 1 or more errors?
+e.g. confusingly the authors say ‘the proportion of patients triggering each indicator was calculated
+individually’ – how can the proportion of all patients be calculated individually? Do the authors mean, of the
+total patients in each practice, they first identified those at risk and then, of these, which were exposed to
+a prescribing error (indicator)?
+Are the ‘at risk’ group all patients in all practices?
+5) The analyses seem well done, for example with clustering of patients within practices accounted for, and
+the heterogeneity in effects (and prevalences) accounted for across practices. Given the authors, I
+expected this to be good. But better description of the variability across practices, in terms of the
+prediction interval of the true %, is needed.
+I hope my comments helps improve the article further.

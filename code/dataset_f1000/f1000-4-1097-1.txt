@@ -1,0 +1,574 @@
+ Peer Review Oath : I will be an ambassador for open science. I have benefited substantively from open reviews on several previous occasions, so I believe in its value. I will endeavor to be constructive, while at the same time remaining true to my own scientific values. Review This manuscript addresses a worthy problem: improving multiple sequence alignment via the use of enhanced amino acid similarity metrics would enhance our ability to draw inferences from sequences of proteins whose structures, were they known would establish homology, but which owing to divergence have unrecognizably homologous sequences. It seems almost certain that we should be able to do a better job at homology searches if more about how amino acid physical chemistry leads to protein structure. It was for this reason that I agreed to review this manuscript based on the abstract. The authors allude to work they have done that demonstrates the value of the new scales they describe here, but there is essentially no coverage of this central question in this manuscript, which is disappointing and detracts substantially from the value of the paper. The device advocated by the authors is a neologism they call a “hydrophobic proclivity index”. This index is the result of statistical modeling from a variety of different scales of what has been called “hydrophobicity” and their derivatives (with respect to which variables is not described) in order to maximize agreement between the scale and calculations of the exposure of each of the twenty amino acids in folded proteins. The resulting presentation is interesting and potentially relevant, but is deficient its citation of the literature, and in results indicating either their methods or the results to which they allude. I conclude that the although the work described is well-motivated, and may lead to better homology searches, it nevertheless suffers from a variety of methodological and conceptual problems that may in the end compromise the work quite seriously. These are summarized below. The data base: The quest for a single “predictor” for the degree to which each amino acid is exposed on average in folded proteins has a long history. The authors have cited just about every previous attempt to correlate the two variables, but have excluded the one set of experimental data representing the actual physical chemistry of the twenty amino acid side chains, the vapor to water and water to cyclohexane distributions of side chain mimics measured and re-measured by Wolfenden’s group 1 - 5 . Wolfenden has argued persuasively that octanol is a very unsatisfactory reference solvent for a variety of reasons, in part because of the ability of side chains to bring variable amounts of bound water into it from aqueous solution. Omitting the Wolfenden free energies is a grave oversight, because it means that the regression analyses they describe are looking for signal in a variety of data sets that have already been corrupted by similar unsuccessful attempts by previous investigators who have kludged the extant variety of multiple scales. For that reason, any useful result the present authors may have achieved is likely to be idiosyncratic and only indirectly based on physical chemistry. Moreover, the authors provide no evidence of statistical tests that might suggest significance, and the correlations they describe, some of which are more impressive than others, are very likely to be successful only in proportion to the number of parameters from which their models are built and, I suspect, of somewhat circular logic. Relating protein structure to amino acid physical chemistry is very probably multi-dimensional. It is very probable that the inability of previous researchers to arrive at a single scale that predicts the accessible surface area in folded proteins arises because the problem itself is multi-dimensional. The authors describe a variety of classification schemes derived from attempts to rationalize scatterplots of amino acid properties. Indeed, they mention that one useful additional classification is likely related to the size of the side chain. Recommendation : The authors should read carefully the papers from Wolfenden and Carter 1 , 6 , 7 in which those authors describe first the correlation between the free energies of vapor to water distribution coefficients and amino acid side chain volume, and second, their success in predicting Moelbert’s accessible surface areas using a two-dimensional coordinate system one axis of which is the free energies, respectively, of water to cyclohexane and vapor to cyclohexane partition coefficients. In conclusion, what might be of interest in this paper is the TMATCH algorithm and the improvements it brings to homology searches. That is not described at all. Instead, there are a variety descriptions of how a multitude of idiosyncratic hydrophobiciy scales describing amino acid physical chemistry, notably excluding the (only) authentic ones, might be combined into one that predicts exposed accessible surface area by an algorithm that essentially produces a linear combination that is correlated with ASA by hidden, but nevertheless circular reasoning. References 1. Wolfenden R, Lewis CA, Yuan Y, Carter CW: Temperature dependence of amino acid hydrophobicities. Proc Natl Acad Sci U S A . 2015; 112 (24): 7484-8 PubMed Abstract | Publisher Full Text 2. Wolfenden R: Experimental measures of amino acid hydrophobicity and the topology of transmembrane and globular proteins. J Gen Physiol . 2007; 129 (5): 357-62 PubMed Abstract | Publisher Full Text 3. Gibbs P, Radzicka A, Wolfenden R: The anomalous hydrophilic character of proline. Journal of the American Chemical Society . 1991; 113 (12): 4714-4715 Publisher Full Text 4. Radzicka A, Wolfenden R: Comparing the polarities of the amino acids: side-chain distribution coefficients between the vapor phase, cyclohexane, 1-octanol, and neutral aqueous solution. Biochemistry . 1988; 27 (5): 1664-1670 Publisher Full Text 5. Wolfenden RV, Cullis PM, Southgate CC: Water, protein folding, and the genetic code. Science . 1979; 206 (4418): 575-7 PubMed Abstract 6. Carter CW, Wolfenden R: tRNA acceptor-stem and anticodon bases embed separate features of amino acid chemistry. RNA Biol . 2016; 13 (2): 145-51 PubMed Abstract | Publisher Full Text 7. Carter CW, Wolfenden R: tRNA acceptor stem and anticodon bases form independent codes related to protein folding. Proc Natl Acad Sci U S A . 2015; 112 (24): 7489-94 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Carter C. Reviewer Report For: A hydrophobic proclivity index for protein alignments [version 1; peer review: 1 approved with reservations, 1 not approved] . F1000Research 2015, 4 :1097 ( https://doi.org/10.5256/f1000research.6806.r14648 ) The direct URL for this report is: https://f1000research.com/articles/4-1097/v1#referee-response-14648 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Respond or Comment COMMENT ON THIS REPORT Comments on this article Comments (0) Version 1 VERSION 1 PUBLISHED 21 Oct 2015 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 1 21 Oct 15 read read Charles Carter , University of North Carolina at Chapel Hill, Chapel Hill, USA Ana Jeron , University of Split School of Medicine, Split, Croatia Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Jerončić  A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 25 Jul 2016 | for Version 1 Ana Jeron , Department of Research in Biomedicine and Health, University of Split School of Medicine, Split, Croatia 0 Views copyright © 2016 Jerončić  A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Not Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The authors aimed to develop a hydophobicity scale which optimally reflects properties of amino acids residues/amino acids that are relevant for folded proteins. The long term goal was to use such a scale to estimate hydrophobicity-based protein sequence relatedness from a global alignment in order to improve identification of structural homologs with less than 25% sequence identity. The authors have identified eight properties (so called property classes ) of amino acids relevant for folded proteins by recognizing distinct patterns in a series of scatter-plots that plotted many hydrophobicity indices and other physico-chemical properties of amino acids/ amino acid residues against each other. Apparently, different property classes were visually recognized in scatter-plots after the “linear cluster of amino acids”-fingerprint was found (clusters of amino acids with similar physico-chemical properties that are aligned along distinct imaginary lines in a scatter-plot). The final set of plots from which eight property classes were derived included: scatter-plots of the hydrophobicity scale that was developed by the authors versus a) the area per specific volume of each amino acid (property classes 1 and 2) or b) the specific absolute entropy (classes 3 and 4); c) the plot of delta G of burial of amino acid secondary group versus number of atoms in a group (class 5); and finally, ambiguously defined “classes #6, #7 and #8 were derived from 49 fundamental aminoacid properties and derived scales that are based upon an analysis with Analysis of Patterns (ANOPA)” . It is this set of eight property classes that the authors have used as dependent variables in multiple linear regression models (MLR) of candidate hydrophobic scales. The measure of goodness of fit of a MLR model (R 2 value) was used to identify optimal hydrophobic scale(s) as according to the authors the MLR’s R 2 value represents “rigorous test for a robust, high performance hydrophobicity scale” . The rationale for such assumption was that for all tested hydrophobicity scales, R 2 value of MLR models were higher than R 2 values of simple regression models using either Moelbert’s average aminoacid solvent Accessible Surface Area (ASA) or Fauchere Pliska free energy of amino-acid transfer from n-Octanol to water (Gtow) as the dependent variable. However, I disagree with the authors on the MLR R 2 rationale as I have concerns about appropriateness of data analysis (see below). In addition, the reporting in the manuscript should be substantially improved. Major comments Data analysis Comment 1 Throughout the paper description of MLR models is very confusing and it is not clear what models were actually run (what was the dependent and independent variables; also the estimated coefficients and statistical significance of independent variables were not shown for a single model). As already stated, it seems that MLR models were mainly used to model different hydrophobic scales using eight property classes as independent variables. However on the page 7 the authors state “The amino-acid property classes are vector sets of clusters/linear families of curves in multiple linear regression relationships between two (or more) amino-acid physico-chemical properties.” which is very confusing – it seems that in addition to eight property classes, a few additional independent variables (amino-acid physico-chemical properties) were also included in a model or it was the multivariate regression model that was used (if yes – what were dependent variables)? If indeed the authors used MLR models as claimed, this means that for a model with 20 observations (20 amino acids) at least eight independent variables were included in a model. Moreover, as majority of these property classes were actually ordinal variables, the number of independent variables included in MLR model should have been even higher (due to introduction of dummy variables). Consequently the sample size of these models was far too small to estimate model’s parameters precisely, and the reported R 2 was actually quite inflated (due to an overfitted model but also a large number of independent variables that the authors did not adjusted for when comparing simple linear regression models and MLR ). In addition, there was a problem of multicollinearity between independent variables which additionally inflated MLR’s R 2 (based on the Table 2 Kendall tau coefficient between i.e. PC2 and PC4 is 0.82, P0.001). Therefore the main result of this paper which is based on assumption that the property classes of amino acid residues identified through ‘linear-clusters’ represent “real properties of amino-acids within context of folded proteins” is not based on validated assumption. Comment 2 The authors have used a measure of goodness of fit of a regression model, R 2 to compare strength of linear relationship(s) modelled in different regression models (including simple and multiple linear regression models). However, R 2 is an overused statistics for linear regression analysis and additional metrics are required to get the whole picture. In particular, it is a Pearson correlation coefficient between paired data (i.e. two hydrophobicity scales) that quantifies the degree to which two variables are related and is a proper statistical measure of the strength of a linear relationship. Linear regression models find the best-fit line that predicts dependent variable from independent variable(s) with R 2 actually representing squared Pearson correlation of the fitted values and the observed values. Reporting Comment 3 A reader should know precisely which scatter plots were screened for “linear-cluster” pattern. This means that the entire set of hydrophobic scales and other physicochemical properties of amino acid residues/amino acids that were collected from the literature and used for generation of these plots should be listed in the paper. Also, it should be specified how many scatter plots were finally generated (in example: N*(N-1)/2 where N – number of hydrophobic scales or physicochemical amino acid properties that were collected, ...). Comment 4 Since the eight property classes of amino acid residues are the most important novelty of this paper, the process of their identification should be clearly described in a sufficient detail. In particular: What was the reasoning behind the assumption that the property classes of amino acid residues identified through ‘linear-clusters’ represent “real properties of amino-acids within context of folded proteins”. Or there was no assumption and the fact that the regression models of all hydrophobicity scales exhibited the highest R2 values when these property classes were used as independent variables actually justified such interpretation. If latter was the case, such reasoning would not be justified (see comments on multiple linear regression analysis) The authors should describe the method they used to identify linear clusters on a plot (i.e. visual identification, followed by analysis of amino acid physicochemical/biochemical properties in clusters and regression-analysis of clusters that confirmed the cluster status or something else) How did the authors end up with the final set of 6 (or 3?) scatter plots from which they have derived their property classes? Were “linear-clusters” identified only in these plots or did the authors select the final plots based on relevance of plotted variables in folded proteins. If latter was true – what was the criteria they used to identify the most relevant scatter-plots All property classes including the classes #6, #7, and #8 should be precisely defined. The description “ classes #6, #7 and #8 were derived from 49 fundamental amino acid properties and derived scales that are based upon an analysis with Analysis of Patterns (ANOPA) ” is unacceptable. Which of 49 fundamental amino acid properties and their derived scales were used, and how, to identify property classes from #6 to #8. Scatter-plots that were used for generation of classes from 5 to 8 should be shown. 5 - Comments on the reporting style The Introduction section is quite short – the authors should elaborate more on relevant physico-chemical properties of amino acids and their importance in protein folding in this section. There are parts of the Introduction in the Results section (the first paragraph) and the Discussion section (alignment matrices). The hydrophobic scale that was chosen as the optimal one was normalized average of three published hydrophobicity scales that were found “most robust in correlation analyses” with robustness vaguely defined in the Methods section as associations to “multiple fundamental properties of the 20 natural amino acids using multi-variate statistical procedures, thermodynamics and biophysical chemistry considerations”. It is just latter, at the very end of the Results section that one can find out that “robust” scales are actually those whose MLR models using property classes as dependent variables exhibited highest R2 values. The Methods section should be written more clearly. Table 2 – The labelling of Table 2 should be improved as authors keep explaining what is presented in which column of the Table 2 throughout the Results section. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above. reply Respond to this report Responses (0) 
+ 
+ Jerončić  A. Peer Review Report For: A hydrophobic proclivity index for protein alignments [version 1; peer review: 1 approved with reservations, 1 not approved] . F1000Research 2015, 4 :1097 ( https://doi.org/10.5256/f1000research.6806.r14649) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-1097/v1#referee-response-14649 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Carter C. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 11 Jul 2016 | for Version 1 Charles Carter , Department of Biochemistry and Biophysics, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA 0 Views copyright © 2016 Carter C. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Peer Review Oath : I will be an ambassador for open science. I have benefited substantively from open reviews on several previous occasions, so I believe in its value. I will endeavor to be constructive, while at the same time remaining true to my own scientific values. Review This manuscript addresses a worthy problem: improving multiple sequence alignment via the use of enhanced amino acid similarity metrics would enhance our ability to draw inferences from sequences of proteins whose structures, were they known would establish homology, but which owing to divergence have unrecognizably homologous sequences. It seems almost certain that we should be able to do a better job at homology searches if more about how amino acid physical chemistry leads to protein structure. It was for this reason that I agreed to review this manuscript based on the abstract. The authors allude to work they have done that demonstrates the value of the new scales they describe here, but there is essentially no coverage of this central question in this manuscript, which is disappointing and detracts substantially from the value of the paper. The device advocated by the authors is a neologism they call a “hydrophobic proclivity index”. This index is the result of statistical modeling from a variety of different scales of what has been called “hydrophobicity” and their derivatives (with respect to which variables is not described) in order to maximize agreement between the scale and calculations of the exposure of each of the twenty amino acids in folded proteins. The resulting presentation is interesting and potentially relevant, but is deficient its citation of the literature, and in results indicating either their methods or the results to which they allude. I conclude that the although the work described is well-motivated, and may lead to better homology searches, it nevertheless suffers from a variety of methodological and conceptual problems that may in the end compromise the work quite seriously. These are summarized below. The data base: The quest for a single “predictor” for the degree to which each amino acid is exposed on average in folded proteins has a long history. The authors have cited just about every previous attempt to correlate the two variables, but have excluded the one set of experimental data representing the actual physical chemistry of the twenty amino acid side chains, the vapor to water and water to cyclohexane distributions of side chain mimics measured and re-measured by Wolfenden’s group 1 - 5 . Wolfenden has argued persuasively that octanol is a very unsatisfactory reference solvent for a variety of reasons, in part because of the ability of side chains to bring variable amounts of bound water into it from aqueous solution. Omitting the Wolfenden free energies is a grave oversight, because it means that the regression analyses they describe are looking for signal in a variety of data sets that have already been corrupted by similar unsuccessful attempts by previous investigators who have kludged the extant variety of multiple scales. For that reason, any useful result the present authors may have achieved is likely to be idiosyncratic and only indirectly based on physical chemistry. Moreover, the authors provide no evidence of statistical tests that might suggest significance, and the correlations they describe, some of which are more impressive than others, are very likely to be successful only in proportion to the number of parameters from which their models are built and, I suspect, of somewhat circular logic. Relating protein structure to amino acid physical chemistry is very probably multi-dimensional. It is very probable that the inability of previous researchers to arrive at a single scale that predicts the accessible surface area in folded proteins arises because the problem itself is multi-dimensional. The authors describe a variety of classification schemes derived from attempts to rationalize scatterplots of amino acid properties. Indeed, they mention that one useful additional classification is likely related to the size of the side chain. Recommendation : The authors should read carefully the papers from Wolfenden and Carter 1 , 6 , 7 in which those authors describe first the correlation between the free energies of vapor to water distribution coefficients and amino acid side chain volume, and second, their success in predicting Moelbert’s accessible surface areas using a two-dimensional coordinate system one axis of which is the free energies, respectively, of water to cyclohexane and vapor to cyclohexane partition coefficients. In conclusion, what might be of interest in this paper is the TMATCH algorithm and the improvements it brings to homology searches. That is not described at all. Instead, there are a variety descriptions of how a multitude of idiosyncratic hydrophobiciy scales describing amino acid physical chemistry, notably excluding the (only) authentic ones, might be combined into one that predicts exposed accessible surface area by an algorithm that essentially produces a linear combination that is correlated with ASA by hidden, but nevertheless circular reasoning. References 1. Wolfenden R, Lewis CA, Yuan Y, Carter CW: Temperature dependence of amino acid hydrophobicities. Proc Natl Acad Sci U S A . 2015; 112 (24): 7484-8 PubMed Abstract | Publisher Full Text 2. Wolfenden R: Experimental measures of amino acid hydrophobicity and the topology of transmembrane and globular proteins. J Gen Physiol . 2007; 129 (5): 357-62 PubMed Abstract | Publisher Full Text 3. Gibbs P, Radzicka A, Wolfenden R: The anomalous hydrophilic character of proline. Journal of the American Chemical Society . 1991; 113 (12): 4714-4715 Publisher Full Text 4. Radzicka A, Wolfenden R: Comparing the polarities of the amino acids: side-chain distribution coefficients between the vapor phase, cyclohexane, 1-octanol, and neutral aqueous solution. Biochemistry . 1988; 27 (5): 1664-1670 Publisher Full Text 5. Wolfenden RV, Cullis PM, Southgate CC: Water, protein folding, and the genetic code. Science . 1979; 206 (4418): 575-7 PubMed Abstract 6. Carter CW, Wolfenden R: tRNA acceptor-stem and anticodon bases embed separate features of amino acid chemistry. RNA Biol . 2016; 13 (2): 145-51 PubMed Abstract | Publisher Full Text 7. Carter CW, Wolfenden R: tRNA acceptor stem and anticodon bases form independent codes related to protein folding. Proc Natl Acad Sci U S A . 2015; 112 (24): 7489-94 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Carter C. Peer Review Report For: A hydrophobic proclivity index for protein alignments [version 1; peer review: 1 approved with reservations, 1 not approved] . F1000Research 2015, 4 :1097 ( https://doi.org/10.5256/f1000research.6806.r14648) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-1097/v1#referee-response-14648 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "A hydrophobic proclivity index for protein...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/4-1097/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/4-1097/v1&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/4-1097/v1" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Cavanaugh D and Chittur K');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/4-1097/v1/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/4-1097",
+ templates : {
+ twitter : "A hydrophobic proclivity index for protein alignments. Cavanaugh D and Chittur K, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/4-1097/v1"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: A hydrophobic proclivity index for protein alignments", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: A hydrophobic proclivity index for protein alignments", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/6348/6806")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "6806");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "11094": 0,
+ "14648": 11,
+ "14649": 15,
+ "11801": 0,
+ "11802": 0,
+ "10891": 0,
+ "11803": 0,
+ "10892": 0,
+ "10893": 0,
+ "10894": 0,
+ "10895": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "5e16aff2-5696-473b-86d8-6472054efc35";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

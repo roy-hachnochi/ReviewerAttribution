@@ -1,0 +1,59 @@
+Thank you for the opportunity to review this very interesting and important work by Khera
+et al. In this analysis, the authors use national Medicare data to assess 30-day mortality
+for 4 specific groups of patients divided by types of post-acute care hospitalization
+including one group of patients who are included in HRRP following acute care inpatient
+hospitalization but who are then evaluated in an ED or admitted to observation status
+within 30 days after initial acute care hospitalization. This analytic question attempts to
+assess the concern that increased mortality for heart failure patients could have been
+related to inappropriate lack of hospitalization related to the penalties. The analysis is very
+rigorous and also uses more methods to address these controversial issues.
+The authors should be congratulated that this analysis attempts to address changes in
+coding of risk adjustment over time. Some of the analyses of HRRP have done this and
+others have not. However, of course, a drawback of the method used here is that you are
+not directly accounting for changes in case mix over time. The authors attempt to
+address this with using comprehensive inpatient and outpatient codes. An alternative
+strategy would be to limit the codes used and risk adjustment to 9 billing codes. A big part
+of the concern, as you know, is that the electronic transaction standards for Medicare
+inpatient visits changed in 2012 so that method would both allow comparison of case mix
+over time but also address the change in the electronic transaction standards. Of course,
+in addition to the change in electronic standards there may have been changes in coding
+related to hospital efforts to capture more codes used in risk adjustment. Measuring
+trends in hospice use, for example, as you have done, may get at some of those issues by
+capturing risk in other ways.
+One interesting feature of this analysis is that in general, the analyses that have
+demonstrated increases in mortality for heart failure patients under HRRP have taken the
+entire population as a whole and demonstrated trends among the whole population.
+Conversely the analyses that have been reassuring, including from this research group,
+have used hospital-level comparisons of readmission and mortality. The argument to use
+hospital level comparisons, and I imagine these authors will agree, is that you avoid
+ecological inference bias. This analysis here is important because it is largely reassuring
+against the mortality concern - but also reassures without using hospital level comparisons.
+I really think there is an argument both ways (ie hospital level vs. the population as a
+whole) but this paper is important insofar as it essentially takes the population as a whole
+and still provides reassuring results with respect to the mortality issue.
+
+I do still think the potential argument that readmission penalties lead to more attention on
+readmissions and less on mortality are still potentially compatible with your finding here
+that mortality went up for heart failure patients primarily among those not readmitted and
+not evaluated in the ED or in observation. But you also provide some reassuring evidence
+insofar as the decrease in AMI mortality was observed primarily among those readmitted.
+The statistical methods used here essentially look at average rates of change of all these
+metrics from 2008-2016. Since the statistical methods involve linear assumptions (and
+assess those assumptions with the non-parametric runs test) it would increase the
+confidence in these findings if sensitivity analyses were confirmatory varying the first year
+and the last year (as long as you keep the law passage of 2010 and the implementation
+start of 2012 in the range of years of course). I was also not clear how the non-parametric
+test was evaluated to assess these linear assumptions. One particular issue with this is
+that you distinguish your results from Wadhera’s JAMA paper in part by saying you have
+more contemporary data here (which is true).
+It would be also helpful to have more discussion about how differences in both the data
+sources and statistical methods might cause differences between these results and some of
+the other papers (Wadhera’s JAMA paper and the Fonarow JAMA cardiology paper from a
+clinical registry). It also would be ideal to have more discussion about ecological inference
+bias and the issue about how to analyze the population as a whole vs. per hospital.
+I would also be more explicit in the text about when exactly the trend of increased
+mortality among all patients with CHF began. From my review of figure 3, it looks like it is
+starting before the beginning of the study period (as early as 2008). It is important to be
+clear about this because this was even before the public reporting of readmission rates
+through Hospital Compare (ie even before passage of the Affordable Care Act).
+Thank you for having me review this interesting work.

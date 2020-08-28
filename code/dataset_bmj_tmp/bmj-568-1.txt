@@ -1,0 +1,129 @@
+I. General comments
+Since Louise Brown, the first live-birth to be conceived outside her mother's womb via in vitro
+fertilization (IVF), born in England in 1978, this treatment for infertility is a complex and
+expensive procedure that has since then resulted in millions of births around the world.
+Predicting the chances of having a baby after one or more complete cycles of in-vitro fertilisation
+is important to clinicians, researchers, policymakers, educators, and patients. For couples having
+infertility problem that can be treated by IVF, knowing these chances will empower them in their
+decision-making process as well as clinicians to make better healthcare decisions. While previous
+studies have either only estimated the individualised chances of a live born baby after a single
+fresh embryo transfer or have ignored the contribution of frozen embryo transfers to the
+cumulative chances of a live-birth, this article seeks to augment the knowledge base by
+estimating the cumulative chances of having a baby over six complete cycles of IVF before
+treatment and after the first fresh embryo transfer attempt. Such cumulative prediction model
+could potentially aid clinicians and patients in estimating individualised chances of a live-birth
+over an entire package of IVF treatment which can potentially help avoid unnecessary side
+effects, complications and costs of IVF in treating women who have little chance of success while
+ensuring that IVF is not underused in those who have a good prognosis. The results from the
+estimated model could help couples plan their time and prepare emotionally and financially for
+their complete IVF journey, as noted by the authors.
+The study reads well and is ethical. Participants are adequately described, their conditions
+defined, and the inclusion and exclusion criteria adequately described. The main outcome
+measure is clear. The references are up to date and relevant. The documents in the
+supplemental files properly match what is in the manuscript.
+II. Scientific reliability
+1. Methodology
+The research question is clearly defined, but inappropriately answered. The overall design of
+study is inappropriate to adequately answer the research question. The authors correctly
+consider survival analysis for investigating the time-to-event data at hand, like in most clinical
+studies where estimating the cumulative incidence function (or the probability of experiencing an
+event by a given time) is of primary interest. However, assumptions about the event-specific
+hazard functions matter in research questions in this population-based cohort study. The
+standard hazard modelling approach is used in this manuscript. Instead of directly modelling the
+timing of the event, the authors model the probability of the occurrence of a live-birth over
+multiple complete cycles – one using pre-treatment, and another based on additional
+information collected during the first IVF attempt). It, however, does not solve several
+methodological problems. First, it provides little insight into how to summarize the information in
+past and future covariates (prior to IVF treatment as well as over six complete cycles), and it is
+likely to yield biased estimates because of omitted variables bias in estimated models. Second, it
+does not solve the dynamic selection problem inherent in cohort data being analyzed. In fact, a
+discrete-time logistic regression model provides no insight into the effects of that selection.
+Third, this model has the unfortunate characteristic of mixing the parameters for the speed with
+which the event (i.e., a live-birth) occurs with the parameters for whether or not the event
+occurs. A dynamic strategy that addresses these problems entails a model formulation in
+continuous time consisting of applying systems of hazard models. Statistical approaches
+conventionally used to analyze such competing risks problem include the cause-specific hazard
+(usually best for detecting the effect of an intervention if the intervention only affects either the
+primary outcome or the competing event), the cumulative incidence function (usually best when
+the intervention affects both primary and competing events, but in opposite directions), and the
+event-free survival (usually best only when the intervention affects both primary and competing
+
+events in the same manner). A comprehensive approach using all three approaches will provide
+estimates under alternative specifications of the prediction model, and is likely to provide useful
+insights on the effect of IVF/ICSI treatment of infertility on the relative and absolute risks of
+multiple competing outcomes (a live-birth being the one of primary interest).
+When the data consist of patients who experience an event and censored individuals, the
+censoring mechanism cannot be assumed to be noninformative nor can it be ignored (by
+exclusions of all censored individuals from analyses). In other words, the survival time of an
+individual (or the time at which a subject experiences an event) cannot be assumed to be
+independent of a mechanism that would cause the patient to be censored, nor can it be ignored
+through exclusions of censored individuals. Often times, a patient may experience an event
+other than the one of interest which alters the probability of experiencing the event of interest.
+Such events are known as competing risk events, and analyses should take this into account. In
+this setting, to calculate the cumulative incidence of a specific event of interest (i.e., having a
+live-birth after a given complete cycle ci of IVF/ICSI, i varying from 1 to 6): 1) any subject who
+does not experience the event of interest can be treated as censored; or 2) a patient
+experiencing a competing risk event (e.g., having other pregnancy outcome – e.g., stillbirth -after a given complete cycle ci of IVF/ICSI, i varying from 1 to 6) is censored in an informative
+manner. The cumulative incidence function for an event of interest must be calculated by
+appropriately accounting for the presence of competing risk events. The authors should consider
+competing risks in survival data analysis nonparametric estimation of the cumulative incidence
+function for the event of interest in the presence of competing risk events and compare the
+resulting estimates with those obtained using the simplistic approach used here, to demonstrate
+the importance of appropriately estimating the cumulative incidence of an event of interest in
+the presence of competing risk events. In the presence of competing risks data within a
+woman’s reproductive life cycle, methods of standard survival analysis such as the discrete time
+logistic regression method for estimation of cumulative incidence for the assessment of
+covariates lead to incorrect and biased results.
+Previous studies have critically evaluates standard assessment methods such as those presented
+in this manuscript, and have favored the use of hazard models in which right censored IVF/ICSIto-birth intervals and time varying covariates can be handled. Such model specification controls
+not only for couple/woman specific unobserved heterogeneity, but also for cycle specific
+stopping unobserved heterogeneity at each complete cycle. A system consists of n-equation
+simultaneous equations model in which each equation represents the hazard of making a
+particular transition to a live-birth of complete cycle i, is better suited to establish the timesequence between the timing of an IVF/ICSI treatment and the timing of a subsequent livebirth, a necessary exposure-occurrence condition to make “causal” inferences between the
+timing of a complete IVF/ICSI treatment and the shift in risks of a following live-birth. When
+using time-to-event endpoints that are often influenced by competing risks as it is obviously the
+case for these cohort data, standard discrete-time survival analysis techniques used in this
+manuscript tend to yield seriously biased results.
+2. Omitted variables, confounding variables, and specifications of variables and models
+The authors consider two clinical prediction models for estimating the chance of a live-birth over
+multiple complete cycles -- one using information available before commencing treatment,
+another based on additional information collected during the first IVF attempt. These prediction
+models are unsatisfactory because they do not capture the full information available in the data
+at hand about a woman’s reproductive life cycle (pre-treatment, during each cycle of IVF/ICSI
+treatment, post-treament). The system of hazard models within a life cycle perspective, as
+proposed above, is important for several reasons. First, the life cycle approach is the appropriate
+method within which to consider the consequences of the stochastic nature of human
+reproduction and IVF/ICSI treatment. Second, the dynamic approach provides a more
+appropriate methodology within which to examine the relationships between IVF/ICSI treatment
+and fertility at each and all complete cycle. Third, modelling human reproduction as a stochastic
+process has a long tradition in population biology. Fourth, it allows the estimation of cyclespecific probabilities of a live-birth given relevant covariates up to that cycle as well as the joint
+probability over the life-cycle (or over multiple complete cycles) for a given woman or couple.
+A number of influential variables for cohort studies of pregnancy outcomes were left out of the
+models and analyses, including type of delivery (e.g., singleton birth, twins or other multiple
+births), marital status of the woman (and changes in marital status over the study period -potentially a proxy for emotional stability), female age (to be treated as a time-dependent
+variable over multiple complete cycles, and not as a fixed covariate at baseline assessment).
+Moreover, hazard estimation techniques which incorporated unmeasured heterogeneity – to
+adjust for other potentially important predictors of pregnancy outcomes not available in the
+HFEA dataset (e.g., female body mass index (BMI), ethnicity, smoking status, alcohol intake,
+and measures of ovarian reserve such as antral follicle count) are needed.
+Illustrative examples of modeling heterogeneity in duration models using cohort data include:
+1. RICHARD J. COOK & JERALD F. LAWLESS. 2014. Statistical Issues in Modeling Chronic
+Disease in Cohort Studies. Statistics in Biosciences (2014), 6(1): 127–161.
+2. Isabel Torá-Rocamora et al. 2013. Heterogeneity and event dependence in the analysis of
+sickness absence. BMC Medical Research Methodology 2013, 13:114.
+
+III. Minor comments
+1. Answers to the following questions will be insightful: what is the pregnancy ratio per embryo
+transfer? What is the yearly live birth rate for all couples who undergo this procedure? How
+many of those deliveries are twins or other multiple births?
+2. Specify the software used for the analysis.
+3. Typo in the abstract: couple’s specific…, instead of couples specific…
+IV. Abstract, key messages, interpretation of the findings, and conclusions of the study
+Because of the importance of the subject matter to clinicians, researchers, policymakers,
+educators, and patients, the results of the study need to be retrieved from suitably robust
+methods of analysis and estimation methods capturing the full information (especially the
+influential factors of pregnancy resolutions under IVF treatment) prior to treatment and during
+multiple complete cycles. The Abstract, interpretation of the findings, conclusions of the study,
+should be derived from such methods. At a minimum, the authors should provide convincing
+arguments that their results, conclusions and key messages are unchanged under alternative
+assumptions about the event-specific hazard functions in this population-based cohort study.

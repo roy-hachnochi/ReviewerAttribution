@@ -1,0 +1,115 @@
+This study aimed to validate the finding of a "weekend effect" in stroke outcomes. The authors argue that the
+evidence for a weekend effect, particularly in the UK, is predominately based on data derived from routine collected
+
+administrative data. The short-comings of administrative data include errors in diagnostic coding (false-positives
+and false-negatives) and the researchers have sought to examine whether such errors can produce spurious results
+from analyses investigating the "weekend effect". They utilise cases obtained from their population-based stroke
+registry in Oxfordshire for which they also have variables derived from administrative data. Thus, they are able to
+carry out analyses using "gold standard" collected information versus information obtained from administrative
+data, with variable quality and validity. In addition, supplement their analyses with a systematic review and metaanalysis, demonstrating that the "weekend effect" is more likely to be reported in studies using administrative data
+yet is not found when limited to studies with prospectively collected data with clinically validated stroke and where
+stroke severity did not differ between weekend and weekend admitted cases.
+The approach is elegant and provides evidence that weekend-effects witnessed for stroke patients, and by
+implication, for other patients with acutely presenting conditions, may not be robust. These results will likely
+generate debate and “set cats amongst the pigeons”.
+However, a number of methodological issues need to be addressed and/or acknowledged as the analyses informing
+the researchers’ conclusions that the weekend effect may be dubious are also subject to potential biases.
+a) The researchers report that of the 1292 patients who were admitted to hospital, 25% were not identified by
+coding. In Table 1, 75% of cases which were identified by coding appear to be identified via the principal diagnosis
+of stroke; however, it seems cases were referred to the registry for screening if their qualifying codes (which
+included non-stroke codes) appeared in any diagnostic position. This is a minor point, yet this aspect of the methods
+needs to be clarified in the methods sections of the paper. In Table 1, 5% were inaccurately coded as TIA, 2.4%
+were inaccurately coded with other diagnoses, while a very small percentage were identified not from primary
+diagnosis but from stroke codes identified in other diagnostic positions (0.3%); apart from the latter, these likely
+represent misclassified cases (that is, false negatives). Table 1 also reports 16.5% of cases that were reported to
+have been “missed by coding” and therefore not able to inform weekend-effect analyses using administrative data
+only. It is unclear what the 16.5% “missed by coding” category means and I have assumed it means that these
+cases were not able to be matched to any administrative data records at the one hospital forming the catchment
+area for the Oxfordshire population. This assumption informs my following comments.
+Researchers utilising administrative data typically access data from a centralised source and not from the individual
+hospitals from which the data are sourced; data remitted to those sources often undergo quality assurance checks
+to ensure completeness, at the least. That almost 17% of stroke cases do not appear in the hospital records
+suggests that for those patients, their records were not yet available for coding at the time of reporting to the
+OXVASC registry and were instead referred from the hospital wards directly; if the registry is both prospective and
+continuous (?) then at some point you would expect these “missing cases” to be notified to the registry. This may
+depend on the administrative processes involved in the development and maintenance of the registry and it is
+possible that cases not identified via coding simply may not have been logged as having been sourced from
+administrative codes. Further, whether patients are considered admitted can sometimes be arbitrary with some
+jurisdictions counting same day admissions (as in Australia) and others not. It is possible that patients considered to
+be admitted by the registry may not be considered admitted according to administrative definitions applied by
+coders. More than one-third of stroke/TIA presentations are not admitted in OXVASC (which distinguishes it from
+other health services, for example Australia, where, post Year 2000, <5% are not admitted hospital, see ASCEND
+study and Perth Community Stroke Study). If my assumption is correct, the reasons for these “missing records”
+deserves comment about the likely reasons for this as this proportion is very high, may limit the generalisability of
+findings as well as influence these results (and may not be a fault of the administrative data-set). I am speculating
+here as there is insufficient information reported in the manuscript on these points. Further, a sensitivity analysis
+including or excluding these cases may be warranted. In any case, the uniqueness of patient management in this
+region may limit the generalisability of the results; this potential limitation is acknowledged, however.
+b) Of the 1693 cases of stroke identified by ICD-10 codes, 62.3% were adjudicated as strokes. This positive
+predictive value of administrative data is substantially lower than has been reported previously, as summarised in
+recent systematic reviews (see McCormick et al 2015; PLOS One; Burns et al, 2011; Journal of Public Health). This
+is to be expected if codes other than I60, I62.9, I63 and I64 were used in the calculation and information from Web
+Appendix 2 indicates that the PPV would be around 72% (ie 1028/1422) if restricted to these codes. This is still
+somewhat low, and again, the results from this study may not generalise to other settings where accuracy is
+greater. In the second paragraph of their discussion, the authors state that the “inaccuracy of hospital diagnostic
+coding is in line with previous studies…”, but this does not acknowledge studies showing better accuracy as included
+in two comprehensive reviews (as cited above). I note that at least two of the cited studies validating stroke coding
+are from jurisdictions using a “resource use” definition for the principal diagnosis and not the “main reason for
+admission” (see Quan et al, 2014; International Journal of Quality, Health and Safety, 26; 511-515), which is
+associated with lower coding accuracy. It is also unclear whether all cases confirmed to be stroke were also included
+in OXVASC registry and therefore prospectively adjudicated as part of registration or whether some were reviewed
+for the purpose of this study (therefore, indicating some stroke cases were missed by the registry). If reviewed as
+part of this study, were these cases of stroke adjudicated blinded to stroke coding and admission day?
+c) The researchers attribute bias to the limitations of the administrative coded data, However, that the evident bias
+taking into account the “admission method” is somewhat minimised suggests that so-called inaccuracies of the
+administrative data can be overcome to some extent. Cancelled admissions, admissions for rehabilitation after
+stroke, and admissions for other non-acute reasons are often coded and in some jurisdictions, such as in Australia,
+flags for acute care and non-acute care are recorded. Further, with data-linkage, transfers between hospitals (which
+comprised around 10% of “incorrectly identified episodes by coding”) can be identified as can previous admissions
+providing insights into whether cases may be acute or non-acute. Further, some researchers have removed brief
+admissions to minimise the risk of including non-acute cases. It is also unclear if incorrectly identified strokes
+include principal or all available diagnoses; if the latter, then principal diagnoses can often inform whether a case is
+an acute or non-acute stroke (eg if patients are being admitted with aspiration pneumonia, this would suggest a
+non-acute presentation). In short, information from administrative data, and particularly linked administrative data,
+can usefully inform acute stroke selection and with greater accuracy than unlinked data. I would favour further
+
+sensitivity analyses such as limiting analyses to principal diagnoses, removing cases admitted for rehabilitation of
+stroke, medical problems post-stroke discharge and transfers; researchers in some jurisdictions utilising
+administrative data have the capacity to eliminate these sources of misclassification.
+d) It is unclear whether cases adjudicated as not being acute strokes upon expert review were in fact treated as
+strokes. Not all registries have centralised adjudication of stroke cases by an independent stroke physician and as
+such registries will be subject to similar errors that occur in administrative data. If a patient is managed as having a
+stroke and discharged as a stroke patient, these cases will be coded as such and the stroke diagnosis will likely be
+part of the patient’s history. This should be acknowledged in the discussion. Misclassification of stroke will therefore
+be a common source of error in administrative and medical records. Can the researchers clarify the extent to which
+stroke diagnoses were revised upon expert review?
+e) The authors used a cut-off of >5 to determine stroke severity. Various cut-offs have been used in the literature;
+are the results presented here sensitive to the cut-off employed here?
+f) The effect of study period as presented in Web Appendix 8 was assessed within each strata of study period;
+testing an interaction term may be more appropriate. In addition, it may be useful to test for weekend-effects by
+stroke sub-type.
+
+The systematic review may be vulnerable to bias as follows:
+a) Publication bias does not appear to be assessed. On face value, the “weekend-effect” is likely to be subject to
+publication bias.
+b) I am concerned that the search terms would only detect papers that specifically set out to examine “weekendeffects” and/or those that found positive findings. The search terms would miss studies where the effect of weekend
+admission was examined amongst a suite of potential prognostic indicators (particularly if other factors were of
+central importance) and those that examined stroke with other conditions; in these cases, the search terms may not
+be mentioned in the abstract, subject headings, MESH terms etc…
+c) The authors also excluded studies that “only reported the service differences by day of the week”; I was unclear
+if this meant studies reporting mortality outcomes by day of the week? If so, I do not consider this decision to be
+defensible, as it is possible that data may be available for analysis from these publications. Studies that reported on
+patients undergoing thrombolysis or endovascular treatment were also excluded; however, studies which anchor
+weekend effects to the delivery of services with proven benefit provide a causal link between weekend effects and
+outcome and arguably are particularly useful.
+d) The authors extracted information on potential sources of bias from published studies. However, other
+information that may also impact on results was not extracted, namely, whether the administrative data used datalinkage, whether strategies were employed to remove non-acute stroke cases, whether administrative data relied on
+principal or other diagnoses (all of which affect accuracy of coding), the number of hospitals contributing to data,
+and year of data collection may also account for weekend-effects.
+The researchers conclude that “decisions about clinical service provision and policy should be based, therefore, on
+prospective studies of clinically confirmed cases”. However, the cost of establishing and maintaining prospective
+registries may be prohibitive and difficult to justify, particularly now when stroke services will require significant
+injection of funds to improve uptake of emerging evidence-based interventions. Given that infrastructure exists
+supporting routinely collected data, levels of accuracy which may be high in some jurisdictions and their broad
+geographical reach, resources also could be directed to improving their quality and validity. These points need to be
+incorporated into the discussion.

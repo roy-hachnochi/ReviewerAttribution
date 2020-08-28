@@ -1,0 +1,86 @@
+This is a large and statistically complex analysis of the impact of the Feed The Future
+program on the nutritional status of children from 33 countries in Sub-Saharan Africa. I
+have comments on the study design, analysis, presentation and interpretation.
+1. The presentation involves two alternative formulae describing the regression models
+fitted, followed by the numerical results of many such models. The reader may or may not
+be comfortable with formulae, but no attempt is made to demonstrate the models visually.
+The nearest the paper comes to illustrating the model is eFigure 1, which shows the
+regression lines for FTF and control up to 2011, i.e. before the intervention. But no
+corresponding lines are shown for post-2011. So the reader has to imagine the pattern of
+regression lines pre- and post-FTF to understand the model.
+It is important to show both the data and the superimposed regression lines for one or
+more of the regression models, to visualise the analysis and test the face validity of the fit.
+The raw mean country-year data are usefully shown as a series of country facets in
+eFigures 2-4, but the figures are hidden away and I missed them on first reading - they
+need to be in the main paper. But in addition they need to be seen in a way that allows the
+model to be tested. This could be done by combining the data in each of eFigures 2-4 as
+two plots, superimposing the FTF countries in one plot and the controls in another. This
+would allow the reader to look for an inflection in the FTF countries plot around 2011.
+The fitted regression lines for each country need to be shown superimposed on the country
+facets, to test the fit. In addition they could be shown combined in a single figure (without
+the data), providing a visual summary of the fitted model. It would also be plausible to
+provide more than one such combined figure, e.g. to contrast the impact of different
+assumptions on the fitted lines.
+2. The model in equations 1 and 2 assumes a step change in malnutrition following the
+intervention, i.e. parallel regression lines with different intercepts before and after. But it is
+unrealistic to think that the impact of the intervention will be visible on day 1, and a more
+realistic model would allow the effect to build over time. This model is tested in eTable 8,
+but it needs to be introduced earlier on as a realistic alternative to the simpler model.
+3. The study design is multilevel, actually four levels, with data from country, year within
+country, household within year and child within household, yet the data are analysed with
+robust standard errors at a single level. It would be useful to explain why separate errors
+at the different levels are not estimated, with the intervention effect tested using the
+appropriate level error. In addition the cluster level at which the standard error is
+
+estimated varies from model to model, when surely the study design defines which level is
+appropriate.
+4. The data are weighted by survey design and by country population, but it’s important to
+recognise that weighting may not be relevant if the study aim is purely to show the
+statistical impact of the intervention. Using weightings ensures that the estimated effect
+sizes apply to the underlying population, but it inevitably affects the significance of the
+findings. The key issue is how to interpret the study aim “To evaluate the impact of the
+Feed the Future program”. Is the impact to be measured in the effect size or the
+significance of the effect size? For me the significance is what counts, and in this case
+weighting is not appropriate. So the impact of weighting on the significance levels needs to
+be demonstrated for one or more of the models.
+5. Some more minor comments. Implausible observations were excluded based on WHO
+criteria (page 7), but more detail should be given.
+6. The Statistical Approaches section (page 8) refers to the probability of stunting, waisting
+and underweight, but “probability” would be better replaced by “proportion”.
+7. In equation 2 the main effect terms for FTF and post are deliberately omitted due to
+collinearity. It is a fundamental principle when fitting interactions to include the main
+effects as well, so this is unconvincing. A better and simpler solution would be to centre
+(i.e. subtract the mean) of the FTF and post variables prior to analysis, which would
+obviate the need to include the main effects.
+8. The results at the top of page 13 speak of a “decrease” in prevalence associated with
+FTF, implying that FTF caused it. But as an observational study this assumption is not
+warranted, and the wording should be more nuanced. The next paragraph estimates the
+numbers of children “prevented” from being stunted due to FTF, and here the causal
+assumption needs to be explicitly stated.
+9. Table 3 gives results for eight different models, showing how the FTF effect size varies
+according to the degree of covariate adjustment. However the models are not directly
+comparable, with fewer data for models 5-8. It would be better to use the smaller sample
+sizes for all eight models, allowing direct comparisons between them, and the loss of power
+would be small. Also the lines in the table giving N could be omitted.
+A focus on levels of significance is now depracated, and the standard errors and asterisks
+in Table 3 would be better replaced by confidence intervals. It would work better giving the
+values to one decimal place rather than two, as the extra precision is unwarranted (see
+https://adc.bmj.com/content/100/7/608). The standard errors are typically 0.8 or greater,
+so the confidence interval widths exceed 3. On this basis the second decimal place is
+uninformative, and the same applies to the eTables.
+That said, the Appendix includes results for 59 models (excluding the
+leave-one-country-out models), and it is hard to judge them against each other. Presenting
+them all graphically (including those of Table 3) in something like a forest plot would be
+useful, and this would emphasise the message of the paper that the conclusions are
+broadly robust to model perturbations.
+10. The final paragraph of the Results explores to what extent the FTF and control
+countries were similar at baseline, as the DID analysis assumes. It would make better
+sense to start with this, discussing it in the context of Table 2, rather than coming to it as
+an afterthought. This might also be a better way to present the underlying model, by first
+describing it pre-FTF and then expanding it to include the intervention.
+
+11. I had difficulty matching the before-after effect sizes in Figure 1 with those of model 8
+in Table 3. In fact the histograms show differences corresponding to model 1, though this
+is not explained. The top lines in the figure, describing the model 8 differences, are
+confusing and unhelpful.
+Tim Cole

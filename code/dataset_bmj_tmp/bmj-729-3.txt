@@ -1,0 +1,47 @@
+MANUSCRIPT: Cardiac safety of methylphenidate among pediatric patients with ADHD: a nationwide selfcontrolled case series study
+SUMMARY: The authors used claims data from the South Korean National Health Insurance program (20072011) to assess the cardiovascular risk with recent new use of methylphenidate (within the past 12
+months). In this self-controlled case series study, the population of interest are those diagnosed with ADHD
+(measured by ICD-10) experiencing their first of any cardiovascular event (defined as arrhythmias,
+hypertension, myocardial infarction, ischemic stroke, and heart failure). The study appears to be clinically
+relevant and thoughtfully conducted. In contrast to prior studies, increased risk was found for arrhythmias
+(all risk periods considered), hypertension (only within the first week), stroke (only within the first week),
+and heart failure (only after two months).
+The authors used a self-controlled case series (SCCS) design to rule out between-person confounding e.g.
+differing risk factor distributions between groups that use the drug vs. do not use the drug. The authors
+state that prior literature did not use a case only design like SCCS, and they cite this difference as why
+their study results diverge from previous studies. But there are other aspects of the SCCS design that are
+relevant, which I will focus on here.
+The issues surrounding SCCS designs and their target of inference can and should be addressed in the
+Discussion as it is very relevant for placing this study in context. The issue about residual and unmeasured
+time-varying confounding in this SCCS design can only be partially addressed, because symptoms and
+precipitating factors are usually unmeasured in claims data. Nonetheless, the study could motivate future
+studies with better clinical data.
+MAJOR POINTS:
+(1) The SCCS design changes the research question in an important way. By comparing exposure during
+the case period and control periods, it focuses on the question of how these risk periods differ among
+persons who ultimately developed the outcome. In the words of Malcom Maclure, it focuses on "why now"
+instead of "why me" (see Maclure Pharmacoepidemiol Drug Saf. 2007 Aug;16(8):850-3.) Thus, the study
+really appears to be asking whether or not methylphenidate use is a triggering event among children who
+eventually did experience cardiovascular events. This may not be the same question addressed in earlier
+cohort studies: whether children who take methylphenidate have higher risk of cardiovascular events
+compared to those who do not. It is important that the reader understand this difference.
+(2) Another issue with comparing results from SCCS designs with those from cohort studies is that the
+populations differ (not just the comparison of persons vs. times). In the SCCS design everyone experiences
+a cardiovascular event. They may have already been at very high risk for cardiovascular events which begs
+the question of whether the results apply to children who are healthier. To be clear, this isn't an issue of
+bias but of generalizability. It's not possible to ascertain this population's cardiovascular risk from the
+author's Table 1 because it does not report distributions of cardiovascular risk factors. We cannot tell
+whether this population is high risk or even _how_ it differs from the populations that appear in earlier
+cohort studies. The authors attribute their unique findings to between-person confounding, but it is very
+plausible that both sets of studies are reasonably correct, but the populations have different distributions of
+effect modifiers (i.e. which by definition must be associated with risk factors for cardiovascular events...see
+VanderWeele TJ Epidemiology. 2009 Nov;20(6):863-71).
+(3) As the authors point out, SCCS designs are subject to time-varying confounding. That is, risk factor
+distributions differ between exposed periods and unexposed periods of time. Although their models control
+for psychiatric diagnoses and co-medications, this is probably insufficient. There may be residual
+differences in ADHD symptom severity (along with symptoms of other disorders), medication dose,
+substance use, and precipitating factors.
+MINOR POINT:
+It was difficult for me to assess whether the SCCS design was bi-directional or unidirectional. Figure 1 did
+not resolve this issue for me. Perhaps a bit more detail is needed, like those in Maclure et al.
+Pharmacoepidemiol Drug Saf. 2012 Jan;21 Suppl 1:50-61.

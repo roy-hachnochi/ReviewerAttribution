@@ -1,0 +1,1 @@
+The paper is nicely written, and the method is clearly described. I have only one comment regarding the initial imputation step: why an exponential distribution was chosen? Does that affect the results? Can the authors provide a brief discussion on this choice? In the literature, both RSI and RIST uses a model-based imputation value.

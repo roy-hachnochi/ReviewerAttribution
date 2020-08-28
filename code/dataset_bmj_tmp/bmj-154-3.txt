@@ -1,0 +1,137 @@
+This is an extremely interesting paper in a really critical area of public health policy both
+within the UK and internationally. The evidence in support of sugar taxes is ever increasing
+and this study bring both a new angle on this issue by looking at high sugar snacks as well
+as a valuable nuance to the arguments by comparing the effects of taxes across different
+specific policy options.
+That said, I do not think the paper is without its problems. In particular, I think it needs to
+be clearer about exactly which policy questions it is setting out to answer and which it is
+
+not. For example, the abstract talks exclusively about taxing high-sugar snacks until
+midway through the Results section when it suddenly brings in a comparison to taxes on
+SSBs. Is the ambition of the paper to estimate the impact of a tax increase on high-sugar
+snacks, or is it to explicitly estimate whether policy makers would be better to tax
+high-sugar snacks or SSBs? It is also unclear to what extent the stratification of the model
+and presentation of disaggregated results by both BMI and income groups is motivated by
+the fact that there is good evidence that these groups respond differently to price changes
+and therefore this stratification gives us a better estimate of the population level impact of
+the policy, or whether the inequality impacts are important in and of themselves. The
+paper at present rather hedges its bets on this question and I'd suggest that either the
+argument for examining inequalities in outcomes across these groups needs to be made
+more clearly as being of particular policy interest from the outset, or rowed back somewhat
+from the results.
+I also think that the description of the modelling methods is quite opaque in its present
+form and requires quite a lot of further refinement in order to make it suitable for a general
+medical audience. I appreciate that it is difficult to compress complex modelling
+approaches into a few paragraphs that are both comprehensible to a lay audience and
+comprehensive. Perhaps it might be worth considering putting some of the more technical
+detail into an appendix for the interested reader?
+Specific comments:
+Abstract - the 'Participants' section is a rather awkward combination of methods and
+participants/data sources at present
+Abstract - the 'Results' section uses 'magnitude' when I think you probably mean 'order of
+magnitude'
+Introduction - the section on obesity rates in the nations of the UK, rather than the UK as a
+whole, is not particularly motivated by anything else in the paper - I suggest either tying
+this in to a broader point about inequalities both within and between nations, or presenting
+figures for the whole UK only.
+Introduction - the second paragraph introduces the comparison with SSBs without any
+prior introduction of the policy context around SSBs. I suggest a slight reordering of things
+to correct this might help understanding for those not familiar with the UK policy context.
+Methods - the 1st paragraph justifies the choice of a 20% price increase on the basis that
+SSB studies have examined the same or similar policies. This is a fair argument, but I
+wonder if the study may have greater impact if the policy modelled was more closely tied
+to what was feasible or plausible in the UK. The various policies in existence around the
+world that are set out in the introduction are all taxes or levies based on volume of sugar
+or volume of product, not on price per se (so a cheap high-sugar product would increase in
+price by more than an expensive lower-sugar product, whereas a flat price increase would
+have the opposite effect).
+Methods - the phrase 'the dataset includes...' in the second paragraph gives a slightly
+strange list of outlets which makes it feel as though a specific outlet type is excluded from
+the analysis - if so then I suggest being explicit about this and if not then there is no need
+to list all of the various outlet types that might sell high-sugar snacks (do many butchers
+sell cakes?).
+Methods - it is not clear what the definition 'foods at ambient temperatures to be
+consumed on the go without utensils' is applied to. Is this a necessary or sufficient
+definition in the data? This definition could equally apply to things such as crisps or fruit
+which are not high-sugar snacks. I presume these are not included in the analysis, but the
+description does not make this clear.
+Methods - the issue of 25% missingness is acknowledged later in the paper, but I'm not
+completely convinced that a complete case analysis as presented here is the most
+appropriate approach. Income data is highly unlikely to be missing at random, and income
+and BMI are extremely likely to be correlated, as Appendix 1A suggests. I would like to see
+the authors take a more robust approach to this issue.
+
+Methods - the description in paragraph 4 of the AIDS approach is ambiguous as to whether
+the study uses the same approach as described in Smith et al. (which is itself an adapted
+AIDS approach), or whether it uses an adapted version of the Smith et al. approach. I
+presume the former, but the wording could be cleared up slightly.
+Methods - throughout the methods section, the question of whether the analysis is being
+conducted at the level of households, individuals, but only considering the main purchaser,
+or individuals, considering all individuals but assigning all individuals within a household
+the characteristics of the main purchaser. This ambiguity makes it extremely difficult to
+parse the mapping between the Kantar results and the NDNS modelling, as it's not clear
+exactly what assumptions are being made.
+Methods - Equation 1 is very hard to interpret - I think the left hand side should probably
+be the absolute or relative change in EP, not the total EP. n is undefined (and I'm not clear
+why it is required when we know the number of food groups is 13) and j and k are entirely
+undefined. I'm further unsure if it is helpful to introduce an equation and then immediately
+say that the actual calculations are performed using 'a chained version' of this equation but
+present no further details of the actual calculation performed.
+Methods - the description of the uncertainty analysis is quite sparse. It isn't clear if the
+covariance of the PED estimates is considered (I can't see why it shouldn't be, but it isn't
+mentioned) and it's not clear if the only uncertainty being considered is the uncertainty
+around the PEDs, or if uncertainty around the baseline purchasing or energy intake are
+also considered. If they are not then this needs to be clearly acknowledged as a limitation,
+as the resulting CIs will be too narrow as they only reflect a partial treatment of the
+uncertainty. It's further not clear how the apparent two-step Monte Carlo sampling was
+handled. I'm not sure if it is correct that only 100 simulations were run in the first step and
+1000 in the second - that would seem unusual to me. I'm also unclear what the phrases
+'using best estimates and variance of change' mean.
+Methods - no source is given for the figure of 7715kcal per kg of weight loss and it isn't
+entirely clear to me what this figure represents. Does it mean that for every 7715kcal
+reduction in annual energy intake you estimate a 1kg weight loss? Is it appropriate to
+assume this relationship is linear?
+Methods - Equation 2 is also quite confusing - W(t) is presumably weight after one year,
+and could maybe be more clearly expressed as such. The symbol for theta in the equation
+and the legend is different and the legend refers to '1 pound' of body weight loss, whereas
+the rest of the paper is in kg.
+Methods - the description of the NDNS is slightly ambiguous whether it refers to just the
+years 2012 and 2016 or all years inbetween as well.
+Methods - the need to map to the NDNS at all isn't very well motivated at present in the
+text. Please be more clear about exactly what problems this mapping is solving and also
+what potential problems it introduces. How different would the results be if they were
+based only on the Kantar data?
+Results - Since the results discuss the aggregated results across the whole population, I
+suggest adding a 'population' row to Table 1 showing these figures. The same might be
+helpful in Table 2 as well.
+Results - in the description of Figure 1, it is suggested that 'chocolate and confectionary
+was most strongly associated with a decrease in energy purchase in the group classified as
+'not overweight' yet the results for obese look pretty similar to the not overweight group.
+Results - the following sentence says that the impact of price increases in the overweight
+group chows no clear pattern, which may be true, but it reflects a slightly
+confusing switch from describing patters in products over groups to patterns in products
+within groups.
+Results - It could be more explicitly stated that the results in Figure 2 are from
+independent analyses of the two policies. There also appears to be some missing figures
+from the text in this section
+Results - in discussing Table 2 the assumption that change in energy purchased is
+proportional to changes in actual energy consumption. I would have thought the
+assumption was actually that they were equal, since the absolute change in energy
+purchased is used to calculate the change in weight.
+
+Discussion - the first short paragraph discusses the effects of a price increase in snacks
+only, while the next paragraph discusses the effects of a combined snacks and SSB price
+increase. I suggest delineating these more clearly.
+Discussion - in relation to the impact on health inequalities, while the largest effects in
+obese households is in low income groups, the opposite is true in overweight households,
+so the net effect on health inequalities is harder to assess without further analysis.
+Discussion - the penultimate paragraph mentions supermarket purchases explicitly as if
+only they are included in the data, which is at odds with the description in the methods
+section.
+Discussion - I'd suggest the conclusion could be a little punchier perhaps - making
+reference to the apparent conclusion that if policy makers want to tackle obesity then
+sugar taxes are effective and that focusing attention on high-sugar snacks as well as or
+instead of SSBs might be a more fruitful approach. It might be nice to consider whether
+this finding would be generalisable to other contexts - would the authors recommend that
+policy makers in other countries favour snack taxes over SSB taxes, or is there something
+specific about the UK which is driving this differential effect?

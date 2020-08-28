@@ -1,0 +1,12 @@
+The authors have responded very positively to the reviewer comments. I have just two
+minor points.
+1. In response to a comment about the number of decimal places for the optimal
+bandwidth, the authors say "We have now rounded all BP values in the paper to the first
+integer, because it is indeed measured in whole mmHg." I'm not clear what is meant by
+"the first integer", do they mean that BP is rounded to one decimal place?
+2. In the Discussion they speculate about factors that might explain the reduction in BP,
+listing weight loss, smoking, alcohol and exercise as having large effects. In each case the
+coefficient is far from one but the confidence interval brackets one, so I think they mean
+the confidence interval includes values that indicate a large effect (either positive or
+negative). This needs to be clearer.
+Tim Cole

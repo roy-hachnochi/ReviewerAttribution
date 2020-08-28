@@ -1,0 +1,74 @@
+Reviewer- Pinar Karaca-Mandic, PhD
+This is an important paper that nicely analyzes the prevalence and implications of concomitant use of
+opioids and benzodiazepines. I have several general comments:
+1) It is not clear why all enrollees are included in the study sample. Given the focus on whether an
+individual who is an opioid user also uses benzodiazepines, I believe the study sample should be included
+only to the opioid users, and all the descriptive statistics and multivariate models should be estimated on
+this sample of opioid users.
+2) Authors define concomitant use as “having filled one opioid prescription and one benzodiazepine
+prescription in a given year”. One year seems like a very wide window. Is this measure validated
+elsewhere? Authors acknowledge that this measure allows for the possibility that a person may be using
+opioids and the benzodiazepine in a way that is not temporally related. They in fact conduct a sensitivity
+analysis where they compute the temporal overlap of the two prescriptions. Re-defining concomitant use
+based on some temporal overlap definition would make the paper much stronger. For example, among
+opioid users, define concomitant users is they used a benzodiazepine if there is at least X days of overlap.
+At the minimum, authors should define concomitant use within a shorter time frame than a year: “within a
+month”, or “within three months”. These should be the main models throughout the paper.
+3) In multivariate models that relate concomitant use to outcomes such as ER use and hospitalization, the
+unit of observation is a person-year. This suggests that the person could have an ER visit, and engage in
+concomitant use afterwards. While showing the association is interesting, interpretation of the direction is
+difficult. Authors could consider setting up a follow-up time after the first date of opioid use. Both the
+concomitant use and outcomes such as hospitalizations/ER visits could be evaluated during this follow up
+time.
+4) If the unit of analysis is person-year, and if the study sample includes only opioid users in a given year
+(see comment 1 above), then it is not clear why authors need to impose the strong restriction of
+continuous enrollment over a 13 year period. I would think continuous enrollment for a few years, or even
+only one year would be sufficient, and it would significantly increase the sample size.
+Abstract
+
+Line24: are all insured (N=423,841) included, or only the opioid users among them? Does this N represent
+unique individuals or person-year observations?
+Line 26: Define the relevant time frame for concomitant use (during the same month? Anytime during the
+year?)
+Line 29: Is the outcome “percent of opioid users who also used benzodiazepines” or “an indicator for
+whether the opioid user individual also used benzodiazepines”? also specify the time period for concomitant
+use.
+Line 43: The sentence/result “population attributable fraction for concomitant benzodiazepine/opioid use
+was 0.500…” is jargon/unclear.
+Introduction
+• Please be specific about the time frame of concomitant use (and co-prescribing) throughout in general
+and when referring to particular studies. Do all studies consider concomitant use within the same time
+frame (same day, same month, same year, overlapping by X days etc).
+• Motivate why looking at the privately insured is interesting and lay out hypotheses on how the findings
+could differ potentially from the veteran population. This may be especially important for the non-USA
+readership not familiar with the veteran population versus the privately insured.
+Methods/Data: Discuss the national representation of Marketscan in terms of general geographic
+racial/ethnic representation.
+Methods/Sample: Specify if the continuously enrolled sample were required to have enrollment both in
+medical and pharmacy benefits.
+Methods/Sample: why does the sample include individuals who have never used an opioid. Given the main
+focus of the paper as concomitant use, study sample should be limited only to those who are opioid users
+in a given year. A
+Methods/Outcomes: Specify the time frame for when the outcome variables are defined. For example, is
+there a follow-up period from when the concomitant benzodiazepine/opioid use? Or are ER
+visits/hospitalizations examined the same year as the concomitant benzodiazepine/opioid use? If so,
+authors should limit the study to examine outcomes after the observation of the concomitant
+benzodiazepine/opioid use. Otherwise, it is not clear how to interpret the ER/hospitalization outcomes
+before the concomitant use.
+Methods/Sample (p9/lines13-20): This is the first time authors define concomitant use as “having filled one
+opioid prescription and one benzodiazepine prescription in a given year”. This should be stated earlier. In
+addition, per general comments above, one year seems like a very wide window. Is this measure validated
+elsewhere? Comment on its relevance clinically.
+Methods/ sensitivity analyses: Given the substantial reduction in sample size, I am not sure that the model
+with patient-level fixed effects add much value to the paper.
+Table 1: Per general comments above, it is not clear that the column for overall (n=423,841) provides
+relevant information. The table should focus on opioid users and compare -BZD and +BZD
+Figure 1: This figure is about opioid prevalence. Per general comments above, it is not directly related to
+the main research question of concomitant use of benzodiazepines among opioid users. I would remove
+this figure.
+Figure 2: uses a title “co-prescribing”. Is this the same definition as “concomitant use”? If so, please be
+consistent.
+Figure 3: Need to refer to this when discussing it (page 13, lines49-57; page 14, lines 4-13).
+Figure 4: Showing relative risks is useful, but it would be more informative to show unadjusted and
+adjusted absolute risks of opioid overdose risks for opioid users who are concomitant users and those who
+are not.

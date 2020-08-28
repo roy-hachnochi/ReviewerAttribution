@@ -1,0 +1,26 @@
+The response and changes to my previous comments are generally very clear, thank you. I
+especially thank the authors for now also providing the absolute risk at 7 days as
+requested. The difference in survival probability by 7 days is tiny, 0.93 versus 0.94, which
+is very important for the BMJ reader to appreciate.
+My main remaining comment relates to the missing data. I asked the authors about the
+amount of missing data, but the response is not satisfactory. Is there missing data or not?
+I cannot identify a clear answer to this. They note the database is considered high quality,
+and have added the following to the paper: “It has been reported that there is less than
+one percent of records that have missing information and less than 0.01 percent of records
+that have missing key elements (e.g. demographics, diagnostics).” This is great, but the
+use of ‘it has been reported’ suggests the authors are referring to previous work that uses
+this database. I want to know, is there missing data in the data they obtained for analysis
+in this paper? If so, how much, and how was it handled (e.g. complete case analysis?).
+They also say: “In administrative databases, there are essentially no missing data in the
+conventional sense (in contrast to cohort studies with ad hoc data collection for example).”
+
+– but I work with administrative (routinely collected) databases regularly, and there is
+routinely missing data. For example, smoking status is not recorded for some patients, or
+BMI is not available, etc.
+Lastly, Figure 1 does not suggest an interaction between the HR and time. Yet this is a key
+finding; i.e. the HR gets smaller after the first few days. I can therefore only assume this
+graph is produced using the proportion hazards assumption, even though there is strong
+evidence that this assumption is not correct. The graph should be corrected accordingly. Or
+rather, include a second graph with the cumulative incidence estimated based on the
+non-proportional hazards approach.
+Best wishes, Richard Riley

@@ -1,0 +1,91 @@
+In this work, the authors aim to identify factors causally affected by educational attainment
+that may themselves increase the risk of Cardiovascular Disease, Coronary Heart Diseses
+and Stroke. Particularly, through a series of Mendelian randomization (MR) and
+observational methods they assess what fraction of the effect of education on these
+diseases can be explained by BMI, smoking and blood pressure. This is a very fine paper
+showing how MR can be used to study mediation.
+Below I comment in each of the criteria followed by minor comments/suggestions.
+• Originality - does the work add enough to what is already in the published literature? If
+so, what does it add? If not, please cite relevant references.
+My greatest concern about this work is its originality. MR has been used to assess the
+causal relationship between these risk factors and CVD/CHD (1-3 [and others]). However,
+these were not cited in this Manuscript. Also, the effect on Educational attainment on BMI
+and SBP has been previously assessed through MR (4). Given that the effect of Educational
+Attainment on BMI and SBP is known and that it is also known that BMI and SBP is causally
+related to CVD, it is expected (as they lie in the same causal path) that BMI and SBP
+mediates a fraction of the effects of Educational Attainment on CVD.
+• Importance of work to general readers - does this work matter to clinicians, patients,
+teachers, or policymakers? Is a general journal the right place for it?
+Yes, this work is important for policymakers as it identifies diverse intervention avenues for
+CVD/CHD/Stroke.
+• Scientific reliability
+Overall, the statistical methods and data are sound. However, please discuss/clarify the
+points below:
+In the main text the authors mention they used the SSGAC GWAS summary results from
+the latest SSGAC Educational Attianment GWAS. However this has UK Biobank in it. In
+contrast, in the supplementary material they mention that the older SSGAC Educational
+Attainment GWAS was used instead. Please clarify as using the summary statistics
+containing UK Biobank may inflate the MR estimate.
+Detail how principal components were used to identify “similar genetic ancestry”.
+Please give the parameters used in the function clump_data from the Two-Sample MR R
+package, e.g. what was the R^2 threshold?
+A sample of 318,147 individuals from UK Biobank was splitted into 2 to run the smoking
+and SBP GWAS. Do these samples correspond to unrelated individuals? If not, please
+comment if there could be potential bias due to related individuals in both samples.
+The effects of Education Attainment on CVD are higher in MR than observational estimate.
+Please comment if pleiotropy (including if IVs of Education may be acting directly on CVD
+and not through their effect on Education).
+Similarly, please comment if reverse causality (e.g. BMI on Educational Attainment (5))
+may bias the results.
+• Research Question - clearly defined and appropriately answered?
+
+Yes.
+• Overall design of study - adequate ?
+Yes.
+• Participants studied - adequately described and their conditions defined?
+Yes.
+• Methods - adequately described? Complies with relevant reporting standard - Eg
+CONSORT for randomised trials ? Ethical ?
+Refer to my comments in the “Scientific reliability” section
+• Results - answer the research question? Credible? Well presented?
+Overall, the results are well presented. Please consider some of the suggestions/comments
+below:
+The captions of the figure do not have the figure number, I got lost a few times while
+reading through it.
+Please include scatter plots of the effect of SNPs against exposure and outcome (bzx vs
+bzy).
+Would be useful to move some of the supplementary tables to the main text (e.g.
+ST22-ST25) to gauge the sensitivity tests.
+• Interpretation and conclusions - warranted by and sufficiently derived from/focused on
+the data? Message clear?
+Yes. However, I feel would be good to mention that these estimates may only be adequate
+to European populations. Also please discuss some of the points I raised in “Scientific
+reliability” section
+• References - up to date and relevant? Any glaring omissions?
+Previous MR studies should be cited and discussed. See my comments in the “Originality”
+section
+• Abstract/summary/key messages/What this paper adds - reflect accurately what the
+paper says?
+Yes
+Minor details (typos):
+“Individuals of White British descent were defined using both self-reported questionnaire
+data with similar genetic ancestry based on the genetic principal components (PC) (17).” Should it read “ using both self-reported questionnaire data and similar genetic ancestry
+based on the genetic principal components”?
+“In all methods, a longer time in education was associated with lower ORs of BMI, SBP and
+smoking (Figure 2 and Supplementary Figure 4).” - Should it read “was associated with
+lower BMI, SBP and smoking”?
+
+“However, it is important that over half of the effects of education remain unexplained in
+these analyses.” - Should it read “is important to note” ?
+
+References
+1. Holmes et al (2014) AJHG “Causal Effects of Body Mass Index on Cardiometabolic Traits
+and Events: A Mendelian Randomization Analysis”
+2. Lyall et al (2017) JAMA cardiology “Association of Body Mass Index With
+Cardiometabolic Disease in the UK Biobank”
+3. Tillman et al (2017) BMJ Education and coronary heart disease: mendelian
+randomisation study
+4. Hagenaars et al (2017) Nature Communications “Cognitive ability and physical health: a
+Mendelian randomization study”
+5. Tyrrell et al (2016) BMJ Height, body mass index, and socioeconomic status: mendelian
+randomisation study in UK Biobank

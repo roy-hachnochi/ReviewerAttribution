@@ -1,0 +1,91 @@
+If I read the conclusion correctly, the authors did a great deal of work, using methodology
+(meta-epidemiological approach) they were not sure was appropriate, and ended with no
+conclusions as to the value of “blinding” in randomized clinical trials (RCTs). I hate to be so
+harsh, particularly since I am very well aware of how much work this study entailed, and I
+would be very curious to know what the right answer(s) is, but I do think the methodology
+was wrong.
+#1 The Odds Ratio is a misleading parameter to indicate the difference between treatments
+using a binary outcome (Kraemer, 2004; Kraemer et al., 1999; Newcombe, 2006; Sackett,
+1996). To take only one example, if the success rates to be compared are p1 and p2, then
+p1=.010 and p2=.005 results in OR=2, as does p1=.580 and p2=.408. However, in the first
+case, you’d need to give T1 to 201 patients to get one success you would not have had with
+T2 (Number Needed to Treat); in the second case, NNT=5.8. Here you have two “trials”
+with equal OR (ROR=1) where the results are clinically very different. In the same way, you
+can have two “trials” where the OR in one is 2.0 and in the other is 1.5, but the second one
+(OR=1.5) has a much more positive clinical impact than does the first (OR=2). The only
+time OR is clearly interpretable is when OR=1 which means p1=p2, but otherwise, for a
+fixed OR, there are some (p1,p2) pairs that are arbitrarily near the null hypothesis, and
+others further away.
+One source of problems with the OR derives from the fact that it is a ratio. If p1 or p2 is
+extreme, you get all the problems of division by near zero values. Taking a ratio of ORs
+then only compounds that problem.
+
+Historically, OR was proposed to salvage retrospective Case-Control studies in Epidemiology.
+It actually did not solve that problem because the problem with such studies lay, not in the
+effect size, but in sampling and measurement biases. In any case, that is irrelevant to RCTs.
+OR continued to be used more widely because the coefficients in a Logistic Regression model
+can be related to Odds Ratio. However, statistical convenience is not a guarantee of
+relevance to clinical decision making.
+A lesser problem lies in the use of the standardized mean difference (d) for an ordinal
+outcome measure. This effect size is appropriate only for comparing two normal
+distributions with equal variances, and can otherwise be misleading, depending on how far
+from normal those distributions are and how unequal the variances.
+The excuse, of course, is that OR and d are what is traditionally done in meta-analyses.
+However, it is the authors’ decisions as to whether they can get the correct answer to their
+question using meta-analyses that use questionable methods.
+In both cases, a better choice of effect size would have been
+SRD=Prob(T1>T2)-Prob(T2>T1), where “>” means “is clinically preferable to when
+comparing two patients one randomly sampled from T1, the other from T2”. With a binary
+outcome SRD=p1-p2. When d is appropriate SRD=2normsdist(d/sqrt(2))-1 (normsdist the
+standard normal distribution function, sqrt the square root). For ordinal outcomes that do
+not satisfy d assumptions SRD=2U/(mn)-1, where U is the Mann-Whitney U-statistic and m
+and n are the two sample sizes. For survival curves where the Proportional Hazard Model
+holds SRD=(1-HR)/(1+HR), where HR is the Hazard Ratio. NNT=1/SRD. In short, SRD can
+be used whatever the outcome and has clear clinical impact.
+#2. “Blinding” is done in order to assure that two patients with the same clinical primary
+outcome will get the same outcome measure even if one is in T1, the other in T2.
+The logical problem here is that the bias that would be expected with “non-blinding” is not
+the same for all choices of T1 and T2, or at all sites. For example, comparing two active
+treatments at a non-“blinded” site where T1 is preferred is likely to be more positive toward
+T1 than T2, and the reverse at a non-“blinded” site where T2 is preferred. I personally have
+seen this comparing psychotherapy vs drug in multi-site studies (psychotherapy, as authors
+state, cannot be “blinded”) where sites were specifically chosen, some preferring drug and
+some preferring therapy.
+Similarly comparing an active drug to an inactive placebo in a “non-blinded” RCT, will almost
+inevitably favor the active drug. While “clinical equipoise” is required for valid RCTs, it
+frequently does not exist. It has long been known that if T1 and T2 are two active drugs, a
+RCT done by the manufacturer of T1 is likely to get a conclusion more favorable to T1 than a
+RCT done by the manufacturer of T2.
+In short, there is no reason to expect one over-arching answer to the question of the impact
+of “non-blinding”.
+#3. All that said, how could one assess the impact of “blinding”? Easy (at least in theory).
+In a RCT, randomly assign patients to T1 or T2, and also to several “blinding” conditions.
+One such condition would have complete “blinding”: patients, staff, and evaluators would all
+be “blind” (which could probably only be done with drugs, not with, for example,
+psychotherapy). I have trouble imagining a situation in which patients are “blinded” and
+staff are not, or staff are “blinded” and patients are not. Inevitably the ongoing interactions
+between patients and staff compromise any effort to “blind”. But it is easy to imagine a
+situation in which patients and staff are not “blinded”, but evaluators are “blinded” (often
+done in psychotherapy trials). So we might have 4 conditions: (1) totally “blinded”,
+patients/staff “blinded; (2) evaluators not, patients/staff “non-blinded”; (3) evaluators
+“blinded”, (4) neither patients/staff or evaluators “blinded”. Now, is the treatment effect
+different under those 4 conditions or not?
+I have always assumed (because I often work on RCTs where “blinding” of patients/staff is
+not feasible) that what is most important is the “blinding” of evaluators. I would also expect
+that the impact of “blinding” would change depending on what T1 and T2 were, and what
+hopes and expectations patients/staff might have of T1 and T2. In short, I do not think
+meta-analysis across RCTs is the correct approach. But these are unsupported assumptions,
+
+and I may be wrong. I concur with your final recommendation: Do “blinding” as much as
+feasible, just in case.
+I do have other problems with the approaches here, but the above are, to me, so
+overwhelming that such other problems are ignorable.
+
+Kraemer, H. C. (2004). Reconsidering the Odds Ratio as a Measure of 2X2 Association in a
+Population. Statistics in Medicine, 23(2), 257-270.
+Kraemer, H. C., Kazdin, A. E., Offord, D. R., Kessler, R. C., Jensen, P. S., & Kupfer, D. J.
+(1999). Measuring the potency of a risk factor for clinical or policy significance. Psychological
+Methods, 4(3), 257-271.
+Newcombe, R. G. (2006). A deficiency of the odds ratio as a measure of effect size. Statistics
+in Medicine, 25, 4235-4240.
+Sackett, D. L. (1996). Down with odds ratios! Evidence-Based Medicine, 1, 164-166.

@@ -1,0 +1,57 @@
+Stats Report:
+This manuscript uses medical and pharmacy administrative claims from a large
+database to evaluate the risk of gastrointestinal bleeding found in new cases of
+individuals taking dabigatran and rivaroxaban comparing against those found in new
+cases of people taking warfarin. As there are important differences in the
+characteristics of the individuals in each of these groups, the authors use Propensity
+scores to obtain matched (1:1) samples between intervention and control. The
+authors present results separately for the group with and without Atrial fibrillation
+and find little difference overall but significant interactions with age suggest that
+recommendations for treatment need to take Age into consideration.
+After reviewing the authors’ replies to the reviewers of the original manuscript, I
+believe many of the queries have been solved but unfortunately not all. These are
+summarized below:
+Main points:
+Information in the Abstract – The data source quoted here, although not incorrect, is
+misleading. The total population on which this analysis was based on is less than 20k
+individuals for each comparison. Please correct/clarify. The “Main Outcomes” talk
+
+about incidence rates and Cox proportional hazard ratios. However, the “Results” only
+provide crude incidence rates of two of the groups (not for Warfarin) and no HRs.
+Please give incidence rates for all groups with confidence intervals (not currently
+provided) as well as the HRs (with CIs) for the main comparisons – Total bleeding by
+NOAC by AF/Non_AF. I assume that the age interaction was part of the primary
+objective and hence at least the most relevant HRs (e.g. for age 75+) should also
+appear in the Results so that the current “Conclusion” is adequately supported.
+No inclusion of mortality/effectiveness data: - A major issue arising from the
+Introduction is that, within RCTs, evidence of equivalence in efficacy with extra rates
+of adverse events has been identified. The manuscript presents evidence that in “real
+life” there is no evidence of extra adverse events. However, the same analysis could
+(should?) be done to determine if in “real life” equivalence of effect (in stroke and
+systolic embolism) is found. From the data reported, although the authors do not
+have access to mortality data, they appear to have access to stroke (as an event).
+Presenting if the finding of equivalence in effect on stroke prevention in the present
+data is maintained would therefore help to interpret the findings in light of the
+evidence obtained from RCTs.
+One-to-one matching:- Related to the issue of total sample size, the 1:1 matching
+seems excessive as many of the warfarin cases are not used (more than 50% lost).
+Given that in some of these comparisons there are borderline statistically significant
+findings (“less GIB found in the dabigatran group”) it would have made sense have
+tried for as many matches as possible. This needs at least to be mentioned in the
+Discussion (excluded more than half of the information in the Warfarin group). This
+has potential issues about generalizability of the findings to the overall population
+somewhat mentioned in the Discussion when talking about o-t-c aspiring use.
+Use of language about statistical significance:- In terms of reporting, the phrase
+“dabigatran had a slightly lower risk of GIB” (Page 10, line 5) needs changing. Based
+on the 95%CI there is no evidence of difference between the risks in the two groups.
+Figures 2 and 3:- Please delete the multiple comparisons with the p-values associated
+(presented as text in the graphs). These would need to be adjusted (bonferroni?) to
+deal with multiple comparisons and in any case all the information is provided by the
+graph with the point estimate and confidence intervals. It would be more useful to
+instead provide the total sample for each of the Age groups by intervention.
+New data:- The data for Figures A7 to A10 in the Appendix are not used/discussed in
+the manuscript. There seems to be a considerable difference between these graphs
+(A7 to A10) and what appears in Table 3 and Figures 1 and 2. Going through the
+“response to reviewers” it is apparent that these are the crude event rates by age
+group used to create Figures 2 and 3. Please add explanation to these in the
+Appendix.

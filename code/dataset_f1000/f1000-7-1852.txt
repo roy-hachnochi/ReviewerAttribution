@@ -1,0 +1,1502 @@
+
+
+    <!DOCTYPE html>
+<html class="">
+
+        
+<head>
+    <title>From bedside to bench and back again: translational... | F1000Research</title>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+    <!--<meta lang="$locale">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="9-QVycOO2_ob3Z9QzRmXv2CF08A9oyYXqWyTiVdKPlU" />
+    <!-- This is commented out to fix display problems on mobile devices.
+    We may use it again once we implement a responsive design that supports native device resolutions.
+    <meta name="viewport" content="width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <link rel="alternate" title="Recent articles published in F1000Research" href="/rss" type="application/rss+xml">
+            <link rel="alternate" type="application/pdf" title="PDF" href="https://f1000research.com/articles/7-1852/pdf"/>
+        <link rel="canonical" href="https://f1000research.com/articles/7-1852" />
+    
+            <meta name="description" content="Read the original article in full on F1000Research: From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction" />
+    
+            <meta name="og:title" content="F1000Research Article: From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction.">
+            <meta name="og:description" content="Read the latest article version by Navin K. Kapur, Shiva Annamalai, Lara Reyelt, Samuel J. Karmiy, Allen A.  Razavi, Sina Foroutanjazi, Aditya  Chennojwala, Kiyotake  Ishikawa, at F1000Research.">
+            <meta name="og:image" content="/img/sharing/og_research.png">
+            <meta name="version-id" content="15885">
+            <meta name="article-id" content="14597">
+            <meta name="dc.title" content="From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction">
+            <meta name="dc.description" content="Heart failure is a major cause of global morbidity and mortality. Acute myocardial infarction (AMI) is a primary cause of heart failure due in large part to residual myocardial damage despite timely reperfusion therapy. Since the 1970&rsquo;s, multiple preclinical laboratories have tested whether reducing myocardial oxygen demand with a mechanical support pump can reduce infarct size in AMI. In the past decade, this hypothesis has been studied using contemporary circulatory support pumps. We will review the most recent series of preclinical studies in the field which led to the recently completed Door to Unload ST-segment Elevation Myocardial Infarction (DTU-STEMI) safety and feasibility pilot trial.">
+            <meta name="dc.subject" content="Unloading, acute myocardial infarction, mechanical circulatory support, preclinical models">
+            <meta name="dc.creator" content="Kapur, Navin K.">
+            <meta name="dc.creator" content="Annamalai, Shiva">
+            <meta name="dc.creator" content="Reyelt, Lara">
+            <meta name="dc.creator" content="Karmiy, Samuel J.">
+            <meta name="dc.creator" content="Razavi, Allen A. ">
+            <meta name="dc.creator" content="Foroutanjazi, Sina">
+            <meta name="dc.creator" content="Chennojwala, Aditya ">
+            <meta name="dc.creator" content="Ishikawa, Kiyotake ">
+            <meta name="dc.date" content="2018/11/27">
+            <meta name="dc.identifier" content="doi:10.12688/f1000research.14597.1">
+            <meta name="dc.source" content="F1000Research 2018 7:1852">
+            <meta name="dc.format" content="text/html">
+            <meta name="dc.language" content="en">
+            <meta name="dc.publisher" content="F1000 Research Limited">
+            <meta name="dc.rights" content="https://creativecommons.org/licenses/by/3.0/igo/">
+            <meta name="dc.type" content="text">
+            <meta name="prism.keyword" content="Unloading">
+            <meta name="prism.keyword" content="acute myocardial infarction">
+            <meta name="prism.keyword" content="mechanical circulatory support">
+            <meta name="prism.keyword" content="preclinical models">
+            <meta name="prism.publication.Name" content="F1000Research">
+            <meta name="prism.publicationDate" content="2018/11/27">
+            <meta name="prism.volume" content="7">
+            <meta name="prism.number" content="1852">
+            <meta name="prism.versionIdentifier" content="1">
+            <meta name="prism.doi" content="10.12688/f1000research.14597.1">
+            <meta name="prism.url" content="https://f1000research.com/articles/7-1852">
+            <meta name="citation_title" content="From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction">
+            <meta name="citation_abstract" content="Heart failure is a major cause of global morbidity and mortality. Acute myocardial infarction (AMI) is a primary cause of heart failure due in large part to residual myocardial damage despite timely reperfusion therapy. Since the 1970&rsquo;s, multiple preclinical laboratories have tested whether reducing myocardial oxygen demand with a mechanical support pump can reduce infarct size in AMI. In the past decade, this hypothesis has been studied using contemporary circulatory support pumps. We will review the most recent series of preclinical studies in the field which led to the recently completed Door to Unload ST-segment Elevation Myocardial Infarction (DTU-STEMI) safety and feasibility pilot trial.">
+            <meta name="citation_description" content="Heart failure is a major cause of global morbidity and mortality. Acute myocardial infarction (AMI) is a primary cause of heart failure due in large part to residual myocardial damage despite timely reperfusion therapy. Since the 1970&rsquo;s, multiple preclinical laboratories have tested whether reducing myocardial oxygen demand with a mechanical support pump can reduce infarct size in AMI. In the past decade, this hypothesis has been studied using contemporary circulatory support pumps. We will review the most recent series of preclinical studies in the field which led to the recently completed Door to Unload ST-segment Elevation Myocardial Infarction (DTU-STEMI) safety and feasibility pilot trial.">
+            <meta name="citation_keywords" content="Unloading, acute myocardial infarction, mechanical circulatory support, preclinical models">
+            <meta name="citation_journal_title" content="F1000Research">
+            <meta name="citation_author" content="Navin K. Kapur">
+            <meta name="citation_author_institution" content="The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author" content="Shiva Annamalai">
+            <meta name="citation_author_institution" content="The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author" content="Lara Reyelt">
+            <meta name="citation_author_institution" content="The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author" content="Samuel J. Karmiy">
+            <meta name="citation_author_institution" content="The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author" content="Allen A.  Razavi">
+            <meta name="citation_author_institution" content="The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author" content="Sina Foroutanjazi">
+            <meta name="citation_author_institution" content="The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author" content="Aditya  Chennojwala">
+            <meta name="citation_author_institution" content="The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author_institution" content="The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA">
+            <meta name="citation_author" content="Kiyotake  Ishikawa">
+            <meta name="citation_author_institution" content="Cardiovascular Research Center, Mount Sinai School of Medicine, New York, New York, USA">
+            <meta name="citation_publication_date" content="2018/11/27">
+            <meta name="citation_volume" content="7">
+            <meta name="citation_publication_number" content="1852">
+            <meta name="citation_version_number" content="1">
+            <meta name="citation_doi" content="10.12688/f1000research.14597.1">
+            <meta name="citation_firstpage" content="1852">
+            <meta name="citation_pdf_url" content="https://f1000research.com/articles/7-1852/v1/pdf">
+    
+
+    
+    <link href="/img/favicon-research.ico" rel="shortcut icon" type="image/ico">
+    <link href="/img/favicon-research.ico" rel="icon" type="image/ico">
+
+        <link rel="stylesheet" href="/1597255280893/css/mdl/material-design-lite.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.2.43/css/materialdesignicons.min.css" />
+
+        
+            
+    <link rel="stylesheet" href="/1597255280893/css/F1000Research.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/animation.css" type="text/css" media="all" />
+
+        <!--[if IE 7]><link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons-ie7.css" media="all" /><![endif]-->
+
+                    <script>dataLayer = [];</script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54Z2SBK');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="/1597255280893/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="/1597255280893/js/shared_scripts/sticky.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/shared_scripts/menu.js"></script>
+    <script src="/1597255280893/js/shared_scripts/navbar.js"></script>
+    <script src="/1597255280893/js/shared_scripts/platforms.js"></script>
+    <script src="/1597255280893/js/shared_scripts/object-polyfills.js"></script>
+            <script src="/1597255280893/js/vendor/lodash.min.js"></script>
+        <script>CKEDITOR_BASEPATH='https://f1000research.com/js/ckeditor/'</script>
+    <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/plugins.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/app/research.js"></script>
+    <script>window.reactTheme = 'research';</script>
+    <script src="/1597255280893/js/public/bundle.js"></script>
+
+    <script src="/1597255280893/js/app/research.ui.js"></script>
+    <script src="/1597255280893/js/app/login.js"></script>
+    <script src="/1597255280893/js/app/main.js"></script>
+    <script src="/1597255280893/js/app/js-date-format.min.js"></script>
+    <script src="/1597255280893/js/app/search.js"></script>
+    <script src="/1597255280893/js/app/cookies_warning.js"></script>
+    <script src="/1597255280893/js/mdl/mdl.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/ckeditor.js"></script>
+            <script src="/js/ckeditor/adapters/jquery.js"></script>
+                <script src="/js/article/article_scrolling_module.js"></script>
+            <script src="/js/article/article_stats.js"></script>
+            <script src="/js/article/article.js"></script>
+            <script src="/js/shared_scripts/referee_timeline_pagination.js"></script>
+            <script src="/js/app/text_editor_controller.js"></script>
+            <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503e5e99593dc42c"></script>
+            <script src="/js/article/article_metrics.js"></script>
+        
+                                                                            <script>
+            if (window.location.hash == '#_=_'){
+                window.location = window.location.href.split('#')[0]
+            }
+        </script>
+
+                    
+        
+    <!-- pixelId: 1641728616063202 :: assetPixelId: 6034867600215 :: funderPixelId:  -->
+
+            <!-- Facebook pixel code (merged with EP GTM code) -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+
+            {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+            ;if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1641728616063202');
+
+            
+            fbq('track', "PixelInitialized", {});
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1641728616063202&noscript=1&amp;ev=PixelInitialized"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+                <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:917825,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+</head>
+<body  class="o-page-container no-js p-article o-layout-reset   ">
+
+    
+                            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54Z2SBK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+        
+    <div class="o-page">
+
+        <div id="notify-container"></div>
+        <div id="pageWarning"></div>
+        <div id="pageMessage"></div>
+        <div id="pageFooterMessage"></div>
+
+                                <div id="f1r-ga-data" data-name="f1r-ga-data" class="f1r-ga-data"
+                data-user-registered="false"
+                data-user-module=""
+                data-current-path=""
+                data-location=""
+                data-website="F1000Research"
+                data-websiteDisplayName="F1000Research">
+            </div>
+        
+                
+        
+        <div class="header-wrapper   js-navbar-space ">
+                            
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+                            
+    
+            
+
+
+
+<nav class="c-navbar js-navbar js-mini-nav js-sticky c-navbar--js-sticky c-navbar--userSite c-navbar__platform-bgcolor  c-navbar--bg-f1000research ">
+
+    <div class="c-navbar__content">
+
+                                <div class="c-navbar__extras">
+            <div class="o-wrapper">
+                <div class="o-actions o-actions--middle c-navbar__extras-row">
+                    <div class="o-actions__primary">
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="o-wrapper t-inverted js-sticky-start">
+
+            <div class="c-navbar__branding-row">
+                <div class="c-navbar__row">
+
+
+                                        
+                    <div class="c-navbar__primary u-mr--2">
+
+                                                                                                                                                                                                    <a href="/" class="c-navbar__branding u-ib u-middle"   data-test-id="nav_branding"  >
+                                <img class="u-ib u-middle" src="/img/research/F1000Research_white_solid.svg" alt="F1000Research">
+                            </a>
+                                            </div>
+
+                    <div class="c-navbar__secondary c-navbar__row">
+
+
+                                                
+                                                    <form action="/search" class="-navbar__secondary u-mr--2 c-search-form js-search-form u-hide u-show@navbar">
+                                <label for="searchInput" class="c-search-form__label _mdl-layout">
+                                    <input name="q" type="search" class="c-search-form__input" id="searchInput" placeholder="Search">
+                                    <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                </label>
+                            </form>
+                        
+                                                
+                                                    <div class="c-navbar__primary u-hide u-show@navbar">
+                                <div class="_mdl-layout c-navbar__cta">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--no-shadow mdl-button--multi-line mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                            </div>
+                        
+
+                                                
+                        <span class="u-hide@navbar _mdl-layout u-nowrap">
+
+                                                            <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" data-focus="#navbar_mob_search_input" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_search_mob"  ><i class="material-icons">search</i></button>
+                            
+                                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-button--multi-line c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" type="button" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_toggle_mob"  >
+                                    <i class="material-icons c-navbar__toggle-open">menu</i>
+                                    <i class="material-icons c-navbar__toggle-close">close</i>
+                                </button>
+                                                    </span>
+                    </div>
+
+                </div>
+            </div>
+
+                        
+                            <div class="c-navbar__menu-row js-navbar-block is-collapsed" id="navbarMenu">
+
+                                                                                                                                                
+                                                                    
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+
+                                                                
+                                                                                                                                                                                                                                
+                                            
+                    <div class="c-navbar__menu-row-content">
+
+                                                                            <div class="u-hide@navbar c-navbar__menu-bar-spacing">
+                                <form action="/search" class="c-search-form js-search-form">
+                                    <label for="navbar_mob_search_input" class="c-search-form__label _mdl-layout">
+                                        <input id="navbar_mob_search_input" name="q" type="search" class="c-search-form__input" placeholder="Search">
+                                        <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                    </label>
+                                </form>
+                            </div>
+                        
+                        <div class="o-actions o-actions--middle">
+
+                            <div class="o-actions__primary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="main-menu"   role="menubar" aria-label="Main Navigation"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/browse/articles" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="0"
+                              data-test-id="nav_browse"                              >Browse</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/gateways" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_gatewaysViewAndBrowse"                              >Gateways & Collections</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="2"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_for-authors"                              >How to Publish</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="How to Publish">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_submit-manuscript"                      href="/for-authors/publish-your-research"
+                    role="menuitem"
+                    tabindex="0">Submit your Research</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/for-authors/my-submissions"
+                    role="menuitem"
+                    tabindex="-1">My Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines"                      href="/for-authors/article-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines-new-versions"                      href="/for-authors/article-guidelines-new-versions"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines (New Versions)</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_data-guidelines"                      href="/for-authors/data-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Data Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_asset-guidelines"                      href="/for-authors/posters-and-slides-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Posters and Slides Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_document-guidelines"                      href="/for-authors/document-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Document Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-processing-charges"                      href="/for-authors/article-processing-charges"
+                    role="menuitem"
+                    tabindex="-1">Article Processing Charges</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_finding-referees"                      href="/for-authors/tips-for-finding-referees"
+                    role="menuitem"
+                    tabindex="-1">Finding Article Reviewers</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="3"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_about-contact"                              >About</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="About">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_about-page"                      href="/about"
+                    role="menuitem"
+                    tabindex="0">How it Works</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_referee-guidelines"                      href="/for-referees/guidelines"
+                    role="menuitem"
+                    tabindex="-1">For Reviewers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_advisoryPanel"                      href="/advisors"
+                    role="menuitem"
+                    tabindex="-1">Our Advisors</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_policy-page"                      href="/about/policies"
+                    role="menuitem"
+                    tabindex="-1">Policies</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_glossary-page"                      href="/glossary"
+                    role="menuitem"
+                    tabindex="-1">Glossary</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_faqs-page"                      href="/faqs"
+                    role="menuitem"
+                    tabindex="-1">FAQs</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              u-hide u-show@navbar"
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      u-hide u-show@navbar"
+                                          data-test-id="nav_for-developers"                      href="/developers"
+                    role="menuitem"
+                    tabindex="-1">For Developers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_newsroom-page"                      href="/newsroom"
+                    role="menuitem"
+                    tabindex="-1">Newsroom</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_contact-page"                      href="/contact"
+                    role="menuitem"
+                    tabindex="-1">Contact</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="4"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="https://blog.f1000.com/blogs/f1000research/" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                             target="_blank"                                                         tabindex="-1"
+                              data-test-id="nav_blog"                              >Blog</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                            <div class="o-actions__secondary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="secondary-items"   role="menubar" aria-label="My Account"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="0"
+                              data-test-id="nav_my-research"                              >My Research</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="My Research">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/login?originalPath=/my/submissions"
+                    role="menuitem"
+                    tabindex="0">Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-email-alerts"                      href="/login?originalPath=/my/email-alerts"
+                    role="menuitem"
+                    tabindex="-1">Content and Tracking Alerts</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-user-details"                      href="/login?originalPath=/my/user-details"
+                    role="menuitem"
+                    tabindex="-1">My Details</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/login?originalPath=/articles/7-1852.html" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_sign-in"                              >Sign In</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                                                                                        <div class="_mdl-layout c-navbar__cta u-hide@navbar c-navbar__menu-bar-spacing">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--multi-line mdl-button--no-shadow mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research_mob"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+            
+        </div>
+
+    </div>
+
+</nav>
+                    </div>
+
+        <div class="content-wrapper o-page__main row ">
+            <div id="highlight-area" class="content ">
+                
+
+
+
+
+
+<div id=article-metadata class=hidden> <input type=hidden name=versionId value=15885 /> <input type=hidden id=articleId name=articleId value=14597 /> <input type=hidden id=xmlUrl value="/articles/7-1852/v1/xml"/> <input type=hidden id=xmlFileName value="-7-1852-v1.xml"> <input type=hidden id=article_uuid value=19fbd453-2554-4ee8-87ee-e788986c2530 /> <input type=hidden id=referer value=""/> <input type=hidden id=meta-article-title value="From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction"/> <input type=hidden id=workspace-export-url value="https://sciwheel.com/work/api/import/external?doi=10.12688/f1000research.14597.1"/> <input type=hidden id=versionDoi value="10.12688/f1000research.14597.1"/> <input type=hidden id=usePmcStats value=true /> </div> <main class="o-wrapper p-article__wrapper js-wrapper"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://f1000research.com/articles/7-1852"
+  },
+  "headline": "From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to...",
+  "datePublished": "2018-11-27T15:53:12",
+  "dateModified": "2018-11-27T15:53:12",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Navin K. Kapur"
+    },    {
+      "@type": "Person",
+      "name": "Shiva Annamalai"
+    },    {
+      "@type": "Person",
+      "name": "Lara Reyelt"
+    },    {
+      "@type": "Person",
+      "name": "Samuel J. Karmiy"
+    },    {
+      "@type": "Person",
+      "name": "Allen A.  Razavi"
+    },    {
+      "@type": "Person",
+      "name": "Sina Foroutanjazi"
+    },    {
+      "@type": "Person",
+      "name": "Aditya  Chennojwala"
+    },    {
+      "@type": "Person",
+      "name": "Kiyotake  Ishikawa"
+    }  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F1000Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+      "height": 480,
+      "width": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+    "height": 1200,
+    "width": 150
+  },
+  "description": "Heart failure is a major cause of global morbidity and mortality. Acute myocardial infarction (AMI) is a primary cause of heart failure due in large part to residual myocardial damage despite timely reperfusion therapy. Since the 1970&rsquo;s, multiple preclinical laboratories have tested whether reducing myocardial oxygen demand with a mechanical support pump can reduce infarct size in AMI. In the past decade, this hypothesis has been studied using contemporary circulatory support pumps. We will review the most recent series of preclinical studies in the field which led to the recently completed Door to Unload ST-segment Elevation Myocardial Infarction (DTU-STEMI) safety and feasibility pilot trial."
+}
+</script> <div class="o-layout o-layout--right-gutter"> <div id=article_secondary-column class="p-article__main o-layout__item u-font-size--legal u-2/3@article not-expanded "> <div class=float-left> <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+              {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@id": "https://f1000research.com/",
+            "name": "Home"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "2",
+          "item": {
+            "@id": "https://f1000research.com/browse/articles",
+            "name": "Browse"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "3",
+          "item": {
+            "@id": "https://f1000research.com/articles/7-1852.html",
+            "name": "From bedside to bench and back again: translational studies of mechanical..."
+          }
+        }          ]
+  }
+  </script> <div class="breadcrumbs js-breadcrumbs"> <a href="/" class=f1r-standard-link>Home</a> <span class=item_separator></span> <a href="/browse/articles" class=f1r-standard-link>Browse</a> <span class=item_separator></span> From bedside to bench and back again: translational studies of mechanical... </div> </div> <div class="article-badges-container u-mb--2"> <div class=crossmark-new> <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script> <a data-target=crossmark><img height=30 width=150 src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg"/></a> </div> <div id=crossmark-dialog style="display: none;" title=""> <iframe id=crossmark-dialog-frame frameborder=0></iframe> </div> <div class=clearfix></div> </div> <div class=article-interaction-container> <div id=main-article-count-box class=article-count-box> <div class="article-metrics-wrapper metrics-icon-wrapper" data-version-id=15885 data-id=14597 data-downloads="" data-views="" data-scholar="10.12688/f1000research.14597.1" data-recommended="" data-doi="10.12688/f1000research.14597.1" data-f1r-ga-helper="Article Page Metrics (Desktop)"> <span class="metrics-on-browse article-metrics-icon f1r-icon icon-89_metrics"></span> <div class="count-title article-metrics-text">ALL Metrics</div> <div class=js-article-metrics-container></div> </div> <div> <div class=count-delimiter></div> <div title="Total views from F1000Research and PubMed Central"> <div class="count-container view-count js-views-count">-</div> <div class=count-title><span class="count-title-icon count-title-views-icon"></span>Views</div> </div> <div class=download-counts hidden> <div class=count-delimiter></div> <div title="Total downloads from F1000Research and PubMed Central"> <div class="count-container js-downloads-count"></div> <div class=count-title><span class="count-title-icon f1r-icon icon-76_download_file"></span>Downloads</div> </div> </div> </div> </div> <div id=main-article-interaction-box class="article-interaction-box has-control-tab"> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-102_download_pdf"></span> <a href="https://f1000research.com/articles/7-1852/v1/pdf?article_uuid=19fbd453-2554-4ee8-87ee-e788986c2530" title="Download PDF" class="button-link download pdf-download-helper" target=_blank>Get PDF</a> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-103_download_xml"></span> <a id=download-xml href="#" class="button-link download" title="Download XML">Get XML</a> </div> </div> <div class="article-interaction-info article-page"> <div class="cite-article-popup-wrapper article-page-interaction-box"> <div class="article-interaction-button cite-article-button" title="Cite this article" data-windowref=cite-article-popup-14597-1> <span class="f1r-icon icon-82_quote"></span> <a href="#" class="button-link cite-article-popup-link" title="Cite Article">Cite</a> </div> <div id=cite-article-popup-14597-1 class="popup-window-wrapper is-hidden"> <div class=cite-popup-background></div> <div class="popup-window top-popup cite-this-article-box research-layout"> <div class="popup-window-title small cite-title">How to cite this article</div> <span id=cite-article-text-14597-1 data-test-id=copy-citation_text> <span class="article-title-and-info in-popup">Kapur NK, Annamalai S, Reyelt L <em>et al.</em> From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction [version 1; peer review: 2 approved]</span>. <i>F1000Research</i> 2018, <b>7</b>(F1000 Faculty Rev):1852 (<a class=new-orange href="https://doi.org/10.12688/f1000research.14597.1" target=_blank>https://doi.org/10.12688/f1000research.14597.1</a>) </span> <div class="popup-window-title small margin-top-20 margin-bottom-20 note"> <strong>NOTE:</strong> it is important to ensure the information in square brackets after the title is included in all citations of this article. </div> <div class=float-right> <button class="secondary no-fill orange-text-and-border margin-right-20 close-cite-popup uppercase">Close</button> <button id=copy-citation-details class="secondary orange copy-cite-article-version uppercase js-clipboard" title="Copy the current citation details to the clipboard." data-clipboard-target="#cite-article-text-14597-1" data-test-id=copy-citation_button>Copy Citation Details</button> </div> </div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-76_download_file"></span> <a id=export-citation href="#" class="button-link download" title="Export Citation">Export</a> </div> <div class="modal-window-wrapper is-hidden"> <div id=export-citation-popup class="modal-window padding-20"> <div class=modal-window-close-button></div> <div class=modal-window-title>Export Citation</div> <div class=modal-window-row> <div> <input type=radio name=export-citation-option value=WORKSPACE /> <span class=radio-label>Sciwheel</span> </div> <div> <input type=radio name=export-citation-option value=ENDNOTE /> <span class=radio-label>EndNote</span> </div> <div> <input type=radio name=export-citation-option value=REF_MANAGER /> <span class=radio-label>Ref. Manager</span> </div> <div> <input type=radio name=export-citation-option value=BIBTEX /> <span class=radio-label>Bibtex</span> </div> <div> <input type=radio name=export-citation-option value=PROCITE /> <span class=radio-label>ProCite</span> </div> <div> <input type=radio name=export-citation-option value=SENTE /> <span class=radio-label>Sente</span> </div> </div> <div class=modal-window-footer> <button class=general-white-orange-button id=export-citation-submit>EXPORT</button> </div> <div class=default-error style="display: none;">Select a format first</div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-90_track"></span> <a class="button-link track-article" data-article-id=14597 id=track-article-signin-14597 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/14597?target=/articles/7-1852.html">Track</a> </div> </div> <div class="article-interaction-info article-page"> <div class="article-interaction-button email-article"> <span class="f1r-icon icon-6_email"></span> <a href="#" class=button-link title="Email this article">Email</a> </div> <div class="email-article-version-container small-tooltip _chrome-fix"> <div class=close-icon><span class="f1r-icon icon-3_close_big"></span></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=15885 /> <input name=articleId type=hidden value=14597 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-34_share"></span> <a href="#" class="button-link last addthis_button share-article" title="Share this article">Share</a> </div> </div> </div> <div id=article-interaction-control-tab class=article-interaction-control-tab> <div id=hide-article-interaction class=article-interaction-control title="Hide Toolbox">&#9644;</div> <div id=show-article-interaction class="article-interaction-control open" title="Show Toolbox">&#10010;</div> </div> </div> <div class="article-header-information article-page"> <div class="f1r-article-mobile article-heading-bar"></div> <div class="article-type article-display">Review </div> <div class="article-title-and-info article-view highlighted-article" id=anchor-title> <h1>From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction</h1><span class=other-info> [version 1; peer review: 2 approved]</span> </div> <div class=article-subtitle></div> <div class=f1r-article-desk> <div class="authors _mdl-layout"><span class=""><a href="mailto:nkapur@tuftsmedicalcenter.org" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Navin K. Kapur</span></a><a href="https://orcid.org/0000-0002-8302-6796" target=_blank id=author-orcid-0><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-0><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-8302-6796</div><sup>1-3</sup>,&nbsp;</span><span class="">Shiva Annamalai<sup>1-3</sup>,&nbsp;</span><span class="">Lara Reyelt<sup>1-3</sup>,&nbsp;</span><a href="#" class=article-page-expand-authors>[...]&nbsp;</a><span class=article-page-hidden-authors>Samuel J. Karmiy<sup>1-3</sup>,&nbsp;</span><span class=article-page-hidden-authors>Allen A. Razavi<sup>1-3</sup>,&nbsp;</span><span class="">Sina Foroutanjazi<sup>1-3</sup>,&nbsp;</span><span class="">Aditya Chennojwala<sup>1-3</sup>,&nbsp;</span><span class="">Kiyotake Ishikawa<sup>4</sup></span><span class="author-display-control article-page-expand-authors f1r-icon icon-20_plus_big"></span><span class="author-display-control article-page-hidden-authors f1r-icon icon-12_minus_big"></span></div> </div> <div class=f1r-article-mobile> <div class="authors _mdl-layout"><span class=""><a href="mailto:nkapur@tuftsmedicalcenter.org" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Navin K. Kapur</span></a><a href="http://orcid.org/0000-0002-8302-6796" target=_blank id=mauthor-orcid-0><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-0><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-8302-6796</div><sup>1-3</sup>,&nbsp;</span><span class="">Shiva Annamalai<sup>1-3</sup>,&nbsp;</span><a href="#" class=article-page-expand-authors>[...]&nbsp;</a><span class=article-page-hidden-authors>Lara Reyelt<sup>1-3</sup>,&nbsp;</span><span class=article-page-hidden-authors>Samuel J. Karmiy<sup>1-3</sup>,&nbsp;</span><span class=article-page-hidden-authors>Allen A. Razavi<sup>1-3</sup>,&nbsp;</span><span class=article-page-hidden-authors>Sina Foroutanjazi<sup>1-3</sup>,&nbsp;</span><span class="">Aditya Chennojwala<sup>1-3</sup>,&nbsp;</span><span class="">Kiyotake Ishikawa<sup>4</sup></span><span class="author-display-control article-page-expand-authors f1r-icon icon-20_plus_big"></span><span class="author-display-control article-page-hidden-authors f1r-icon icon-12_minus_big"></span></div> </div> <div class=f1r-article-mobile> <div class=article-pubinfo-mobile> PUBLISHED 27 Nov 2018 </div> </div> <span class=Z3988 title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft_id=info:doi/10.12688%2Ff1000research.14597.1"></span> <div class=f1r-article-desk> <div class="contracted-details first"> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA<br/> <sup>2</sup> The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA<br/> <sup>3</sup> The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA<br/> <sup>4</sup> Cardiovascular Research Center, Mount Sinai School of Medicine, New York, New York, USA<br/> <p> <div class=margin-bottom> Navin K. Kapur <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, Project Administration, Supervision, Validation, Writing – Review & Editing </div> <div class=margin-bottom> Shiva Annamalai <br/> <span>Roles: </span> Data Curation, Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Lara Reyelt <br/> <span>Roles: </span> Data Curation, Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Samuel J. Karmiy <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Allen A. Razavi <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Sina Foroutanjazi <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Aditya Chennojwala <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Kiyotake Ishikawa <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> </div> <div class=f1r-article-mobile> <div class="article-page-section-box margin-bottom-40 research-layout"> <span class=box-title> <span class="f1r-icon icon-85_peer_review"></span> OPEN PEER REVIEW </span> <button class="tertiary grey float-right" data-scrollto=article-reports>DETAILS</button> <div class="status-row referee-reports-container"> REVIEWER STATUS <span class=status-icons> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=42332-41166></span> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=42334-41165></span> </span> </div> </div> </div> </div> <h2 class="article-headings article-page-abstract" id=anchor-abstract> <span class="f1r-article-mobile-inline abstract-heading-border"></span> Abstract </h2> <div class="article-abstract article-page-general-text-mobile research-layout"> <div class="abstract-text is-expanded"> Heart failure is a major cause of global morbidity and mortality. Acute myocardial infarction (AMI) is a primary cause of heart failure due in large part to residual myocardial damage despite timely reperfusion therapy. Since the 1970’s, multiple preclinical laboratories have tested whether reducing myocardial oxygen demand with a mechanical support pump can reduce infarct size in AMI. In the past decade, this hypothesis has been studied using contemporary circulatory support pumps. We will review the most recent series of preclinical studies in the field which led to the recently completed Door to Unload ST-segment Elevation Myocardial Infarction (DTU-STEMI) safety and feasibility pilot trial. </div> <div class=abstract-for-mobile> <div class="margin-top-30 padding-bottom-30 research-layout is-centered"> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border show" style="display: none;"> READ ALL <span class="f1r-icon icon-14_more_small orange vmiddle big"></span> </button> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border hide"> READ LESS <span class="f1r-icon icon-10_less_small orange vmiddle big"></span> </button> </div> </div> </div> <div class=clearfix></div> <div class="article-context no-divider"> <div class="article-abstract article-page-general-text-mobile research-layout generated-article-body"> <h2 class=main-title>Keywords</h2> <p class="u-mb--0 u-pb--2"> Unloading, acute myocardial infarction, mechanical circulatory support, preclinical models </p> </div> </div> <div class=article-information> <span class="info-separation padding-bottom"> <div id=corresponding-author-icon class="email-icon float-left"> <span class="f1r-icon icon-6_email orange"></span> <div id=corresponding-author-window class="margin-top-20 popup-window-wrapper is-hidden"> <div class="popup-window corresponding-authors-popup"> <div class=corresponding-author-container> <div class="popup-window-title small">Corresponding Author(s)</div> <div class=authors> Navin K. Kapur (<a href="mailto:nkapur@tuftsmedicalcenter.org">nkapur@tuftsmedicalcenter.org</a>) </div> </div> <div class="margin-top margin-bottom float-left"> <button id=close-popup-window class=general-white-orange-button>Close</button> </div> </div> </div> </div> <span class="icon-text float-left" data-test-id=box-corresponding-author> <b>Corresponding author:</b> Navin K. Kapur </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom competing-interests-display"> <span class=competing-interests-title>Competing interests:</span> Navin Kapur has received research funding from Abiomed Inc., Abbott (Santa Clara, CA, USA), Boston Scientific (Minneapolis, MN, USA), MD Start (Paris, France), CardiacAssist Inc. (Pittsburgh, PA, USA), and Maquet Cardiovascular Inc. (Rastatt, Germany). Kiyotake Ishikawa has received research funding from Abiomed Inc. The other authors declare that they have no competing interests. </span> <div class="info-separation padding-bottom grant-information-display"> <span class=grant-information-title>Grant information:</span> This work was supported in part by a National Institutes of Health grant (RO1HL139785-01). <br/> <i>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</i> </div> <span class="f1r-article-desk info-separation padding-bottom"> <span class="copywrite-icon float-left"> <span class="f1r-icon icon-100_open_access"></span> </span> <span class="icon-text float-left" data-test-id=box-copyright-text> <b>Copyright:</b>&nbsp; © 2018 Kapur NK <em>et al</em>. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom" data-test-id=box-how-to-cite> <b>How to cite:</b> <span class="article-title-and-info in-article-box"> Kapur NK, Annamalai S, Reyelt L <em>et al.</em> From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction [version 1; peer review: 2 approved]</span>. <i>F1000Research</i> 2018, <b>7</b>(F1000 Faculty Rev):1852 (<a href="https://doi.org/10.12688/f1000research.14597.1" target=_blank>https://doi.org/10.12688/f1000research.14597.1</a>) </span> <span class=info-separation data-test-id=box-first-published><b>First published:</b> 27 Nov 2018, <b>7</b>(F1000 Faculty Rev):1852 (<a href="https://doi.org/10.12688/f1000research.14597.1" target=_blank>https://doi.org/10.12688/f1000research.14597.1</a>)</span> <span class=info-separation data-test-id=box-latest-published><b>Latest published:</b> 27 Nov 2018, <b>7</b>(F1000 Faculty Rev):1852 (<a href="https://doi.org/10.12688/f1000research.14597.1" target=_blank>https://doi.org/10.12688/f1000research.14597.1</a>)</span> </div> <div class=clearfix></div> <div id=article-context class=article-context> <div id=article1-body class=generated-article-body><h2 class=main-title id=d1578e307>Heart attacks lead to heart failure</h2><p class="" id=d1578e310>Acute myocardial infarction (AMI) is a leading cause of heart failure (HF) with an annual incidence of 805,000 in the US alone. Since 1960, mortality due to AMI has decreased because of improved medical therapy, the advent of coronary angioplasty and stenting, and community-based team efforts in establishing a system of care for AMI<sup><a href="#ref-1">1</a></sup>. Parallel to improved survival after AMI, the incidence of heart failure has grown exponentially over the same time period<sup><a href="#ref-2">2</a></sup>. By 2030, more than 8 million individuals in the US are projected to have heart failure (1 in every 33 individuals) with an estimated cost of $70 billion in health-care expenditure<sup><a href="#ref-3">3</a></sup>. One explanation for the growing population of patients with heart failure is that the magnitude of myocardial damage due to a heart attack correlates directly with an increase in subsequent heart failure (<a href="#f1">Figure 1</a>).</p><a name=f1 class=n-a></a><div class="fig panel clearfix"><a target=_blank href="https://f1000researchdata.s3.amazonaws.com/manuscripts/15885/f45f4f72-d25a-4607-8258-9d6e78b219d2_figure1.gif"><img alt="f45f4f72-d25a-4607-8258-9d6e78b219d2_figure1.gif" src="https://f1000researchdata.s3.amazonaws.com/manuscripts/15885/f45f4f72-d25a-4607-8258-9d6e78b219d2_figure1.gif"></a><div class=caption><h3>Figure 1. Infarct size as a correlate of heart failure onset.</h3><p id=d1578e338>All-cause mortality (<b>A</b>) and heart failure hospitalization (<b>B</b>), showing a strong association between infarct size and adverse outcomes during 1-year follow-up.</p></div></div><p class="" id=d1578e351>In 1971, Maroko, Braunwald, and their team conducted a series of preclinical studies exploring novel approaches to limit myocardial damage due to an acute coronary occlusion<sup><a href="#ref-4">4</a></sup>. They reported that “measures designed for reduction of myocardial oxygen demands and improvement of coronary perfusion, when effected promptly after a patient has been brought to a hospital, might potentially reduce the ultimate size of the infarction”<sup><a href="#ref-4">4</a></sup>. This landmark study introduced the concept of targeting myocardial oxygen supply or demand to limit myocardial damage in AMI. Soon after this report, in 1976, a young physician-innovator, Andreas Gruentzig, reported his preclinical studies<b></b>testing the concept of restoring myocardial oxygen supply by inflating a balloon in an occluded or stenotic coronary vessel<sup><a href="#ref-5">5</a></sup>. Within 1 year, the first coronary angioplasty was performed<sup><a href="#ref-5">5</a>,<a href="#ref-6">6</a></sup>, and primary percutaneous coronary intervention has since evolved to be the preferred primary reperfusion approach for AMI therapy to reduce myocardial infarct size<sup><a href="#ref-7">7</a></sup>.</p><p class="" id=d1578e380>Four decades later, primary reperfusion using balloon angioplasty as a widely accepted metric of clinical quality is recommended within 90 minutes from first medical contact in patients presenting with ST-segment elevation myocardial infarction (STEMI)<sup><a href="#ref-8">8</a></sup>. This approach has significantly reduced mortality associated with AMI; however, despite primary reperfusion, median infarct size remains between 18% and 40%<sup><a href="#ref-7">7</a>,<a href="#ref-9">9</a>,<a href="#ref-10">10</a></sup>. An analysis of over 7,000 patients with AMI identified that about 75% of patients develop heart failure within 5 years of their initial infarct<sup><a href="#ref-11">11</a></sup>. Another recent analysis, of over 2,600 patients with AMI treated with contemporary therapy, showed that every 5% increase in myocardial infarct size is associated with a 20% increase in 1-year hospitalization for heart failure and 1-year mortality<sup><a href="#ref-7">7</a></sup>. For these reasons, reducing myocardial damage during a heart attack remains a major unmet clinical need.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d1578e408>Comparative studies on mechanical circulatory support devices</h2><p class="" id=d1578e411>Prior attempts to limit myocardial damage during AMI have focused on vascular conditioning or pharmacologic approaches; despite promising outcomes of preclinical and some pilot early clinical studies, these approaches failed to show clear clinical benefit<sup><a href="#ref-12">12</a>,<a href="#ref-13">13</a></sup>. One of many potential barriers contributing to these unsuccessful strategies may be current practice focusing on rapid coronary reperfusion, which leaves insufficient time for these strategies to have any beneficial impact prior to reperfusion. Over the past two decades, advances in bioengineering have developed percutaneously delivered acute circulatory support rotary flow pumps, including the TandemHeart (TH) (LivaNova, London, UK) and Impella (Abiomed Inc., Danvers, MA, USA) devices<sup><a href="#ref-14">14</a></sup>. The TH is a percutaneously deployed left atrial-to-femoral artery bypass pump that draws blood from the left atrium into an extracorporeal centrifugal flow pump, which delivers flow back into a femoral artery. The Impella CP is a percutaneously deployed micro-axial flow catheter that is delivered via a femoral or axillary artery into the left ventricle (LV) and displaces blood from the LV to the aorta. Both devices reduce myocardial oxygen consumption (<a href="#f2">Figure 2</a>)<sup><a href="#ref-15">15</a>,<a href="#ref-16">16</a></sup>. Several recent preclinical reports compared the TH and Impella CP devices and identified that both devices reduce LV stroke work (LVSW) and myocardial oxygen demand<sup><a href="#ref-17">17</a>,<a href="#ref-18">18</a></sup>. The TH device reduced LVSW by decreasing LV volume, whereas the Impella CP reduced both LV pressure and volume, known as LV unloading. Since then, multiple preclinical studies have begun to explore the impact of these devices on myocardial function and recovery after AMI<sup><a href="#ref-19">19</a>–<a href="#ref-28">28</a></sup>.</p><a name=f2 class=n-a></a><div class="fig panel clearfix"><a target=_blank href="https://f1000researchdata.s3.amazonaws.com/manuscripts/15885/f45f4f72-d25a-4607-8258-9d6e78b219d2_figure2.gif"><img alt="f45f4f72-d25a-4607-8258-9d6e78b219d2_figure2.gif" src="https://f1000researchdata.s3.amazonaws.com/manuscripts/15885/f45f4f72-d25a-4607-8258-9d6e78b219d2_figure2.gif"></a><div class=caption><h3>Figure 2. Left ventricular (LV) unloading and pressure volume (PV) area figure.</h3><p id=d1578e460>(<b>A</b>) Relationship between pressure and volume and the myocardial oxygen demand. (<b>B</b>) PV loop on and off left atrial to femoral artery (LA-FA) bypass (TandemHeart). (<b>C</b>) PV loop on and off trans-valvular unloading (Impella CP).</p></div></div></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d1578e479>Preclinical studies on left ventricular unloading</h2><p class="" id=d1578e482>Multiple preclinical studies have explored the impact of LV unloading using various pumps, including the intra-aortic balloon pump, TH, and Impella, on myocardial infarct size during AMI. A common theme among early preclinical studies is that unloading before reperfusion, not after, is required to reduce infarct size<sup><a href="#ref-23">23</a></sup>. These studies further identified multiple mechanisms by which ventricular unloading limits myocardial damage, including improvement in myocardial calcium handling, protection against mitochondrial destruction, and improved myocardial perfusion<sup><a href="#ref-24">24</a></sup>. Over the past 3 years, several studies have provided key mechanistic insights into the potential for LV unloading in AMI as a therapeutic strategy to improve outcomes after AMI (<a href="#f3">Figure 3</a>).</p><a name=f3 class=n-a></a><div class="fig panel clearfix"><a target=_blank href="https://f1000researchdata.s3.amazonaws.com/manuscripts/15885/f45f4f72-d25a-4607-8258-9d6e78b219d2_figure3.gif"><img alt="f45f4f72-d25a-4607-8258-9d6e78b219d2_figure3.gif" src="https://f1000researchdata.s3.amazonaws.com/manuscripts/15885/f45f4f72-d25a-4607-8258-9d6e78b219d2_figure3.gif"></a><div class=caption><h3>Figure 3. </h3><p class=first id=d1578e503>Association between infarct percentage and left ventricular (LV) wall stress (<b>A</b>), infarct percentage after Impella 5.0 unloading (#<i>p</i>&lt;0.05 versus Impella 5.0 unloading) (<b>B</b>), infarct scar size and unloading (*<i>p</i>&lt;0.05 versuss IRI; †<i>p</i>&lt;0.001 versus IRI; ‡<i>p</i>&lt;0.05 versus partial unload) (<b>C</b>), and average peak velocity over time (<b>D</b>) AAR, area-at-risk; IRI, ischemia reperfusion injury.</p></div></div><p class="" id=d1578e535>In 2015, using a porcine model of AMI, we tested the hypothesis that compared with immediate reperfusion (primary reperfusion), first unloading the LV and delaying reperfusion for 60 minutes (primary unloading) would reduce myocardial damage<sup><a href="#ref-25">25</a></sup>. In this study, the left anterior descending (LAD) artery was occluded for 90 minutes followed by immediate reperfusion for 120 minutes in the primary reperfusion group. In the primary unloading group, after 90 minutes of LAD occlusion, an Impella CP device was activated and the LAD was left occluded for an additional 60 minutes (total LAD occlusion time of 150 minutes) and then reperfused for 120 minutes. After reperfusion, compared with primary reperfusion, the primary unloading group had significantly reduced LV mean wall stress and peak wall stress. Compared with primary reperfusion, primary unloading reduced LV infarct size by 43% and the magnitude of infarct reduction correlated directly with the magnitude of wall stress reduction. We further identified for the first time that compared with primary reperfusion, primary unloading increased protein levels and activity of the cardioprotective cytokine stromal derived factor 1 alpha (SDF1a). These findings suggested for the first time that first unloading the LV and delaying coronary reperfusion may significantly reduce myocardial infarct size compared with primary reperfusion alone. However, several questions remained unanswered: (1) what were the long-term effects of primary unloading on LV scar size and LV function, (2) how important was the delay to reperfusion and was 60 minutes required, and (3) was SDF1a an innocent bystander or did it play a functional role in the cardioprotective effects of primary unloading<sup><a href="#ref-26">26</a></sup>?</p><p class="" id=d1578e546>The answer to the first question began to develop 1 year later when Sun <i>et al</i>. performed a similar study in a porcine model of AMI and employed an Impella 5.0 left direct (LD) trans-valvular pump<sup><a href="#ref-22">22</a></sup>. In this study, the left circumflex was surgically ligated in 12 pigs for 120 minutes followed by 120 minutes of reperfusion. The unloaded group received Impella LD support beginning 90 minutes after the start of ischemia (30 minutes before reperfusion). Compared with AMI controls (without Impella LD support), the unloaded group had significantly lower LV pressures, higher mean arterial pressure and cardiac output, and reduced wall stress. After 120 minutes of reperfusion, animals were kept alive for long-term follow-up. One month after AMI, the unloaded group showed reduced infarct size compared with controls. The authors concluded that early unloading using a surgically implanted Impella LD pump in AMI may improve long-term prognosis by reducing LV scar size after AMI. However, the translation of this study to clinical practice is limited by the need for surgical implantation of an Impella 5.0 pump.</p><p class="" id=d1578e557>In 2018, Saku and Sunagawa explored the effect of different degrees of LV unloading by using an Impella CP device in a canine model of AMI<sup><a href="#ref-27">27</a></sup>. In this model, the LAD was occluded for 180 minutes and then reperfused for 60 minutes. In the partially unloaded group, the Impella CP flow was increased until arterial pulse pressure was reduced by half. In the totally unloading group, the Impella CP was activated until the arterial waveform was non-pulsatile. In contrast to controls (AMI without pump support), unloaded animals received activation of the Impella CP 60 minutes after the onset of ischemia (120 minutes before reperfusion) and continued until 60 minutes after reperfusion. In this survival model, all animals were kept alive and monitored for 4 weeks. Partial and full Impella CP support, when compared with controls, during the acute phase of AMI, reduced infarct size by 48% and 87%, respectively. These findings supported the findings by Sun <i>et al</i>. and further suggested that early activation of a percutaneously delivered Impella CP device could reduce late-term LV scar size after AMI. However, translation of this study was limited by the need to initiate Impella support 60 minutes after the onset of ischemia.</p><p class="" id=d1578e567>In the same year as Saku and Sunagawa, Watanabe and Ishikawa reported that mechanical LV unloading with an Impella CP pump increased microvascular perfusion and decreased LV end-diastolic wall stress (EDWS) after AMI when compared with pharmacological unloading<sup><a href="#ref-19">19</a></sup>. In this study, AMI was induced in 11 Yorkshire swine and 2 weeks later the animals were divided into two groups: mechanical unloading by Impella CP (n=6) and pharmacological unloading by intravenous sodium nitroprusside (SNP) infusion (n=4). Both groups showed significant decreases in LV wall stress, although this was accompanied by severe hypotension (&lt;60 mm Hg) in two of the four pigs in the pharmacological group. Epicardial coronary flow in the LAD and left circumflex arteries was increased in the Impella group while remaining at similar levels in pigs treated with SNP. Microvascular perfusion to the infarcted area was increased twofold in the Impella group, while no significant difference was seen in the SNP group. Additionally, microvascular perfusion to the infarct area was shown to inversely correlate with LV EDWS in all animals studied (r<sup>2</sup> = 0.43), suggesting the key role of wall stress in regulating tissue perfusion in the infarcted heart. Mechanical LV unloading with left ventricular assist device (LVAD) during subacute MI seemed to be superior to pharmacological unloading by decreasing LV EDWS and increasing coronary flow and microvascular perfusion to the infarcted zone without causing hypotension. This study provided key mechanistic insight by suggesting that in addition to reducing LV wall stress and myocardial oxygen consumption, LV unloading may improve microcirculatory blood flow after AMI, thereby promoting myocardial recovery.</p><p class="" id=d1578e577>Soon after these two reports in 2018, we reported findings from a pig study designed to explore the kinetics of delayed reperfusion and provide more mechanistic insight into the cardioprotective role of primary unloading<sup><a href="#ref-28">28</a></sup>. In this study, we first determined that activation of an Impella CP for 30 minutes before reperfusion was necessary and sufficient to reduce infarct size by over 40%. Activation of the Impella CP for 15 minutes before reperfusion or immediately after reperfusion did not significantly reduce infarct size. Next, using whole transcriptome analysis of the infarct zone, we found that compared with primary reperfusion, primary unloading increased the expression of genes associated with cellular respiration and mitochondrial integrity. To further explore the functional role of SDF1a, we first identified that levels of proteases known to degrade SDF1a, such as matrix metalloproteinase-2 (MMP-2), MMP-9, and dipeptidyl peptidase-4 (DPP-4), were decreased after primary unloading but not after primary reperfusion. Moreover, inhibiting SDF1a activity attenuated the reduction in infarct size associated with primary unloading. Finally, we performed a survival study, whereby swine were assigned to either primary reperfusion or primary unloading and monitored for 28 days after AMI. We reported that compared with primary reperfusion, primary unloading for 30 minutes before reperfusion reduced LV scar size, improved cardiac function, and limited the expression of biomarkers associated with heart failure and maladaptive cardiac remodeling (<a href="#f4">Figure 4</a>). These findings identified for the first time that 30 minutes of LV unloading prior to reperfusion was sufficient to achieve a reduction in infarct size and provide evidence that LV unloading activates a cardioprotective signaling program that results in a durable reduction in myocardial damage after AMI.</p><a name=f4 class=n-a></a><div class="fig panel clearfix"><a target=_blank href="https://f1000researchdata.s3.amazonaws.com/manuscripts/15885/f45f4f72-d25a-4607-8258-9d6e78b219d2_figure4.gif"><img alt="f45f4f72-d25a-4607-8258-9d6e78b219d2_figure4.gif" src="https://f1000researchdata.s3.amazonaws.com/manuscripts/15885/f45f4f72-d25a-4607-8258-9d6e78b219d2_figure4.gif"></a><div class=caption><h3>Figure 4. </h3><p class=first id=d1578e594>Late gadolinium enhancement (LGE) and anatomical pathology evidence (<b>A</b>) as well as magnetic resonance imaging evidence (<b>B</b>) of reduced scar percentage due to unloading CMR, cardiovascular magnetic resonance.</p></div></div></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d1578e610>Clinical Translation of LV Unloading in AMI</h2><p class="" id=d1578e613>Combined with decades of prior preclinical studies, these five recent studies supported the development of a clinical trial designed to test the safety and feasibility of LV unloading prior to reperfusion using a percutaneously delivered trans-valvular axial flow device. The Door To Unloading With IMPELLA CP System in Acute Myocardial Infarction (DTU) Study (ClinicalTrials.gov Identifier: NCT03000270) is a prospective, multi-center, randomized phase I trial testing whether direct active unloading of the LV with the Impella CP prior to reperfusion is feasible and safe in patients with anterior STEMI. A total of 50 patients presenting with an initial anterior STEMI without cardiogenic shock were randomly assigned to receive Impella CP support followed by either immediate reperfusion (U-IR) or a 30-minute period of LV unloading prior to reperfusion (U-DR). In both arms, the Impella CP was activated prior to reperfusion. All patients completed the U-IR (n=25) or U-DR (n=25) protocols with mean door-to-balloon times of 72 versus 97 minutes, respectively. Rates of major adverse cardiovascular and cerebral events (MACCE) at 30 days after STEMI were low and not different between the U-IR versus U-DR groups (two versus three events, respectively, <i>p</i>=0.99). Compared with the U-IR group, delaying reperfusion in the U-DR group did not increase mean infarct size normalized to either area at risk or total LV mass at 3–5 days or 30 days after STEMI, respectively. No patients assigned to the U-DR arm received bailout coronary reperfusion before the protocolized 30-minute delay. An exploratory subgroup analysis identified that among patients with larger anterior STEMIs, as adjudicated by sum ST-segment elevation, unloading and delaying reperfusion had a statistically significant lower infarct size normalized to the area at risk compared to unloading and immediate reperfusion. The DTU-STEMI pilot trial is the first study to report that LV unloading using the Impella CP device with a 30-minute delay before reperfusion is feasible within a relatively short time period in anterior STEMI. The DTU-STEMI pilot trial did not identify prohibitive safety signals that would preclude proceeding to a larger pivotal study of LV unloading before reperfusion. An appropriately powered DTU-STEMI pivotal trial comparing LV unloading before reperfusion to the current standard of care is now in development<sup><a href="#ref-26">26</a></sup>.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d1578e626>Conclusions</h2><p class="" id=d1578e629>Given the exponential growth in patients with heart failure due to ischemic heart disease, there is an inherent need for therapies that limit myocardial damage after AMI. No clinical studies of cardioprotection have been able to successfully extend the benefit of primary reperfusion. Given the studies described above, it may be that the ultimate approach to further reduce myocardial damage is to adhere to the advice first provided by Maroko and Braunwald in 1971, which was to reduce myocardial oxygen demand and then increase coronary perfusion in AMI. Whether primary unloading represents the next step for cardioprotective therapy remains to be proven in a randomized clinical trial, but primary unloading, if successful, may shift the management paradigm for AMI and improve clinical outcomes for millions of patients at risk of developing heart failure after an AMI.</p></div><div id=article1-back class=generated-article-footer><div class=back-section><a name=d1578e1 class=n-a></a><h2 class=main-title id=d1677>Grant information</h2><p>This work was supported in part by a National Institutes of Health grant (RO1HL139785-01).</p><p> <i>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</i> </p></div><div class=back-section><a name=d1578e636 class=n-a></a><span class="research-layout prime-recommended-wrapper reference-heading"><span class="f1r-icon icon-79_faculty_recommended_badge red vmiddle default-cursor"></span><span class="prime-red big">F1000 recommended</span></span><h2 class=main-title id=d1768>References</h2><div class="section ref-list"><a name=d1578e636 class=n-a></a><ul><li><a name=ref-1 class=n-a></a><span class=label>1. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/725610687"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e643 class=n-a></a>Rahimi K, Duncan M, Pitcher A, <i> et al.</i>: Mortality from heart failure, acute myocardial infarction and other ischaemic heart disease in England and Oxford: a trend study of multiple-cause-coded death certification. <i>J Epidemiol Community Health.</i> 2015; <b>69</b>(10): 1000–5. <a target=xrefwindow id=d1578e654 href="http://www.ncbi.nlm.nih.gov/pubmed/26136081">PubMed Abstract </a> | <a target=xrefwindow id=d1578e657 href="https://doi.org/10.1136/jech-2015-205689">Publisher Full Text </a> | <a target=xrefwindow id=d1578e661 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4602272">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/725610687">F1000 Recommendation</a></span></li><li><a name=ref-2 class=n-a></a><span class=label>2. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/4006956"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e674 class=n-a></a>Yeh RW, Sidney S, Chandra M, <i> et al.</i>: Population trends in the incidence and outcomes of acute myocardial infarction. <i>N Engl J Med.</i> 2010; <b>362</b>(23): 2155–65. <a target=xrefwindow id=d1578e685 href="http://www.ncbi.nlm.nih.gov/pubmed/20558366">PubMed Abstract </a> | <a target=xrefwindow id=d1578e688 href="https://doi.org/10.1056/NEJMoa0908610">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/4006956">F1000 Recommendation</a></span></li><li><a name=ref-3 class=n-a></a><span class=label>3. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/720490291"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e701 class=n-a></a>Heidenreich PA, Albert NM, Allen LA, <i> et al.</i>: Forecasting the impact of heart failure in the United States: a policy statement from the American Heart Association. <i>Circ Heart Fail.</i> 2013; <b>6</b>(3): 606–19. <a target=xrefwindow id=d1578e712 href="http://www.ncbi.nlm.nih.gov/pubmed/23616602">PubMed Abstract </a> | <a target=xrefwindow id=d1578e715 href="https://doi.org/10.1161/HHF.0b013e318291329a">Publisher Full Text </a> | <a target=xrefwindow id=d1578e719 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3908895">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/720490291">F1000 Recommendation</a></span></li><li><a name=ref-4 class=n-a></a><span class=label>4. </span>&nbsp;<span class=citation><a name=d1578e732 class=n-a></a>Maroko PR, Kjekshus JK, Sobel BE, <i> et al.</i>: Factors influencing infarct size following experimental coronary artery occlusions. <i>Circulation.</i> 1971; <b>43</b>(1): 67–82. <a target=xrefwindow id=d1578e743 href="http://www.ncbi.nlm.nih.gov/pubmed/5540853">PubMed Abstract </a> | <a target=xrefwindow id=d1578e746 href="https://doi.org/10.1161/01.CIR.43.1.67">Publisher Full Text </a></span></li><li><a name=ref-5 class=n-a></a><span class=label>5. </span>&nbsp;<span class=citation><a name=d1578e755 class=n-a></a>Berry D: The unlocking of the coronary arteries: origins of angioplasty. A short historical review of arterial dilatation from Dotter to the creative Gruentzig. <i>Eur Heart J.</i> 2009; <b>30</b>(12): 1421–2. <a target=xrefwindow id=d1578e763 href="http://www.ncbi.nlm.nih.gov/pubmed/19525552">PubMed Abstract </a> | <a target=xrefwindow id=d1578e766 href="https://doi.org/10.1093/eurheartj/ehp182">Publisher Full Text </a></span></li><li><a name=ref-6 class=n-a></a><span class=label>6. </span>&nbsp;<span class=citation><a name=d1578e776 class=n-a></a>Gruentzig A: Results from coronary angioplasty and implications for the future. <i>Am Heart J.</i> 1982; <b>103</b>(4 Pt 2): 779–83. <a target=xrefwindow id=d1578e784 href="http://www.ncbi.nlm.nih.gov/pubmed/6461237">PubMed Abstract </a> | <a target=xrefwindow id=d1578e787 href="https://doi.org/10.1016/0002-8703(82)90486-0">Publisher Full Text </a></span></li><li><a name=ref-7 class=n-a></a><span class=label>7. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726277466"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e796 class=n-a></a>Stone GW, Selker HP, Thiele H, <i> et al.</i>: Relationship Between Infarct Size and Outcomes Following Primary PCI: Patient-Level Analysis From 10 Randomized Trials. <i>J Am Coll Cardiol.</i> 2016; <b>67</b>(14): 1674–83. <a target=xrefwindow id=d1578e807 href="http://www.ncbi.nlm.nih.gov/pubmed/27056772">PubMed Abstract </a> | <a target=xrefwindow id=d1578e810 href="https://doi.org/10.1016/j.jacc.2016.01.069">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726277466">F1000 Recommendation</a></span></li><li><a name=ref-8 class=n-a></a><span class=label>8. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/725890363"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e823 class=n-a></a>Levine GN, Bates ER, Blankenship JC, <i> et al.</i>: 2015 ACC/AHA/SCAI Focused Update on Primary Percutaneous Coronary Intervention for Patients With ST-Elevation Myocardial Infarction: An Update of the 2011 ACCF/AHA/SCAI Guideline for Percutaneous Coronary Intervention and the 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction. <i>J Am Coll Cardiol.</i> 2016; <b>67</b>(10): 1235–50. <a target=xrefwindow id=d1578e834 href="http://www.ncbi.nlm.nih.gov/pubmed/26498666">PubMed Abstract </a> | <a target=xrefwindow id=d1578e837 href="https://doi.org/10.1016/j.jacc.2015.10.005">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/725890363">F1000 Recommendation</a></span></li><li><a name=ref-9 class=n-a></a><span class=label>9. </span>&nbsp;<span class=citation><a name=d1578e850 class=n-a></a>Patel MR, Smalling RW, Thiele H, <i> et al.</i>: Intra-aortic balloon counterpulsation and infarct size in patients with acute anterior myocardial infarction without shock: the CRISP AMI randomized trial. <i>JAMA.</i> 2011; <b>306</b>(12): 1329–37. <a target=xrefwindow id=d1578e861 href="http://www.ncbi.nlm.nih.gov/pubmed/21878431">PubMed Abstract </a> | <a target=xrefwindow id=d1578e864 href="https://doi.org/10.1001/jama.2011.1280">Publisher Full Text </a></span></li><li><a name=ref-10 class=n-a></a><span class=label>10. </span>&nbsp;<span class=citation><a name=d1578e873 class=n-a></a>Ibanez B, Macaya C, Sánchez-Brunete V, <i> et al.</i>: Effect of early metoprolol on infarct size in ST-segment-elevation myocardial infarction patients undergoing primary percutaneous coronary intervention: the Effect of Metoprolol in Cardioprotection During an Acute Myocardial Infarction (METOCARD-CNIC) trial. <i>Circulation.</i> 2013; <b>128</b>(14): 1495–503. <a target=xrefwindow id=d1578e884 href="http://www.ncbi.nlm.nih.gov/pubmed/24002794">PubMed Abstract </a> | <a target=xrefwindow id=d1578e887 href="https://doi.org/10.1161/CIRCULATIONAHA.113.003653">Publisher Full Text </a></span></li><li><a name=ref-11 class=n-a></a><span class=label>11. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/1159051"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e896 class=n-a></a>Ezekowitz JA, Kaul P, Bakal JA, <i> et al.</i>: Declining in-hospital mortality and increasing heart failure incidence in elderly patients with first myocardial infarction. <i>J Am Coll Cardiol.</i> 2009; <b>53</b>(1): 13–20. <a target=xrefwindow id=d1578e907 href="http://www.ncbi.nlm.nih.gov/pubmed/19118718">PubMed Abstract </a> | <a target=xrefwindow id=d1578e910 href="https://doi.org/10.1016/j.jacc.2008.08.067">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/1159051">F1000 Recommendation</a></span></li><li><a name=ref-12 class=n-a></a><span class=label>12. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726654776"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e924 class=n-a></a>Heusch G, Rassaf T: Time to Give Up on Cardioprotection? A Critical Appraisal of Clinical Studies on Ischemic Pre-, Post-, and Remote Conditioning. <i>Circ Res.</i> 2016; <b>119</b>(5): 676–95. <a target=xrefwindow id=d1578e932 href="http://www.ncbi.nlm.nih.gov/pubmed/27539973">PubMed Abstract </a> | <a target=xrefwindow id=d1578e935 href="https://doi.org/10.1161/CIRCRESAHA.116.308736">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726654776">F1000 Recommendation</a></span></li><li><a name=ref-13 class=n-a></a><span class=label>13. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726470645"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e948 class=n-a></a>Heusch G, Gersh BJ: The pathophysiology of acute myocardial infarction and strategies of protection beyond reperfusion: a continual challenge. <i>Eur Heart J.</i> 2017; <b>38</b>(11): 774–84. <a target=xrefwindow id=d1578e956 href="http://www.ncbi.nlm.nih.gov/pubmed/27354052">PubMed Abstract </a> | <a target=xrefwindow id=d1578e959 href="https://doi.org/10.1093/eurheartj/ehw224">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726470645">F1000 Recommendation</a></span></li><li><a name=ref-14 class=n-a></a><span class=label>14. </span>&nbsp;<span class=citation><a name=d1578e972 class=n-a></a>Rihal CS, Naidu SS, Givertz MM, <i> et al.</i>: 2015 SCAI/ACC/HFSA/STS Clinical Expert Consensus Statement on the Use of Percutaneous Mechanical Circulatory Support Devices in Cardiovascular Care: Endorsed by the American Heart Assocation, the Cardiological Society of India, and Sociedad Latino Americana de Cardiologia Intervencion; Affirmation of Value by the Canadian Association of Interventional Cardiology-Association Canadienne de Cardiologie d'intervention. <i>J Am Coll Cardiol.</i> 2015; <b>65</b>(19): e7–e26. <a target=xrefwindow id=d1578e983 href="http://www.ncbi.nlm.nih.gov/pubmed/25861963">PubMed Abstract </a> | <a target=xrefwindow id=d1578e986 href="https://doi.org/10.1016/j.jacc.2015.03.036">Publisher Full Text </a></span></li><li><a name=ref-15 class=n-a></a><span class=label>15. </span>&nbsp;<span class=citation><a name=d1578e995 class=n-a></a>Morine KJ, Kapur NK: Percutaneous Mechanical Circulatory Support for Cardiogenic Shock. <i>Curr Treat Options Cardiovasc Med.</i> 2016; <b>18</b>(1): 6. <a target=xrefwindow id=d1578e1003 href="http://www.ncbi.nlm.nih.gov/pubmed/26758053">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1006 href="https://doi.org/10.1007/s11936-015-0426-6">Publisher Full Text </a></span></li><li><a name=ref-16 class=n-a></a><span class=label>16. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/726014466"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e1015 class=n-a></a>Burkhoff D, Sayer G, Doshi D, <i> et al.</i>: Hemodynamics of Mechanical Circulatory Support. <i>J Am Coll Cardiol.</i> 2015; <b>66</b>(23): 2663–74. <a target=xrefwindow id=d1578e1026 href="http://www.ncbi.nlm.nih.gov/pubmed/26670067">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1029 href="https://doi.org/10.1016/j.jacc.2015.10.017">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/726014466">F1000 Recommendation</a></span></li><li><a name=ref-17 class=n-a></a><span class=label>17. </span>&nbsp;<span class=citation><a name=d1578e1042 class=n-a></a>Weil BR, Konecny F, Suzuki G, <i> et al.</i>: Comparative Hemodynamic Effects of Contemporary Percutaneous Mechanical Circulatory Support Devices in a Porcine Model of Acute Myocardial Infarction. <i>JACC Cardiovasc Interv.</i> 2016; <b>9</b>(22): 2292–303. <a target=xrefwindow id=d1578e1053 href="http://www.ncbi.nlm.nih.gov/pubmed/28026740">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1056 href="https://doi.org/10.1016/j.jcin.2016.08.037">Publisher Full Text </a> | <a target=xrefwindow id=d1578e1060 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5687065">Free Full Text </a></span></li><li><a name=ref-18 class=n-a></a><span class=label>18. </span>&nbsp;<span class=citation><a name=d1578e1070 class=n-a></a>Kapur NK, Paruchuri V, Pham DT, <i> et al.</i>: Hemodynamic effects of left atrial or left ventricular cannulation for acute circulatory support in a bovine model of left heart injury. <i>ASAIO J.</i> 2015; <b>61</b>(3): 301–6. <a target=xrefwindow id=d1578e1081 href="http://www.ncbi.nlm.nih.gov/pubmed/25485565">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1084 href="https://doi.org/10.1097/MAT.0000000000000195">Publisher Full Text </a></span></li><li><a name=ref-19 class=n-a></a><span class=label>19. </span>&nbsp;<span class=citation><a name=d1578e1093 class=n-a></a>Watanabe S, Fish K, Kovacic JC, <i> et al.</i>: Left Ventricular Unloading Using an Impella CP Improves Coronary Flow and Infarct Zone Perfusion in Ischemic Heart Failure. <i>J Am Heart Assoc.</i> 2018; <b>7</b>(9): pii: e004250. <a target=xrefwindow id=d1578e1104 href="http://www.ncbi.nlm.nih.gov/pubmed/29686030">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1107 href="https://doi.org/10.1161/JAHA.117.004250">Publisher Full Text </a> | <a target=xrefwindow id=d1578e1111 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6015279">Free Full Text </a></span></li><li><a name=ref-20 class=n-a></a><span class=label>20. </span>&nbsp;<span class=citation><a name=d1578e1120 class=n-a></a>Briceno N, Kapur NK, Perera D: Percutaneous mechanical circulatory support: current concepts and future directions. <i>Heart.</i> 2016; <b>102</b>(18): 1494–507. <a target=xrefwindow id=d1578e1128 href="http://www.ncbi.nlm.nih.gov/pubmed/27503999">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1131 href="https://doi.org/10.1136/heartjnl-2015-308562">Publisher Full Text </a></span></li><li><a name=ref-21 class=n-a></a><span class=label>21. </span>&nbsp;<span class=citation><a name=d1578e1140 class=n-a></a>Kapur NK, Qiao X, Paruchuri V, <i> et al.</i>: Mechanical Pre-Conditioning With Acute Circulatory Support Before Reperfusion Limits Infarct Size in Acute Myocardial Infarction. <i>JACC Heart Fail.</i> 2015; <b>3</b>(11): 873–82. <a target=xrefwindow id=d1578e1151 href="http://www.ncbi.nlm.nih.gov/pubmed/26541785">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1154 href="https://doi.org/10.1016/j.jchf.2015.06.010">Publisher Full Text </a></span></li><li><a name=ref-22 class=n-a></a><span class=label>22. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/734470387"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e1163 class=n-a></a>Sun X, Li J, Zhao W, <i> et al.</i>: Early Assistance With Left Ventricular Assist Device Limits Left Ventricular Remodeling After Acute Myocardial Infarction in a Swine Model. <i>Artif Organs.</i> 2016; <b>40</b>(3): 243–51. <a target=xrefwindow id=d1578e1174 href="http://www.ncbi.nlm.nih.gov/pubmed/26332939">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1177 href="https://doi.org/10.1111/aor.12541">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/734470387">F1000 Recommendation</a></span></li><li><a name=ref-23 class=n-a></a><span class=label>23. </span>&nbsp;<span class=citation><a name=d1578e1190 class=n-a></a>Meyns B, Stolinski J, Leunens V, <i> et al.</i>: Left ventricular support by catheter-mounted axial flow pump reduces infarct size. <i>J Am Coll Cardiol.</i> 2003; <b>41</b>(7): 1087–95. <a target=xrefwindow id=d1578e1201 href="http://www.ncbi.nlm.nih.gov/pubmed/12679206">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1204 href="https://doi.org/10.1016/S0735-1097(03)00084-6">Publisher Full Text </a></span></li><li><a name=ref-24 class=n-a></a><span class=label>24. </span>&nbsp;<span class=citation><a name=d1578e1214 class=n-a></a>Wei X, Li T, Hagen B, <i> et al.</i>: Short-term mechanical unloading with left ventricular assist devices after acute myocardial infarction conserves calcium cycling and improves heart function. <i>JACC Cardiovasc Interv.</i> 2013; <b>6</b>(4): 406–15. <a target=xrefwindow id=d1578e1225 href="http://www.ncbi.nlm.nih.gov/pubmed/23523452">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1228 href="https://doi.org/10.1016/j.jcin.2012.12.122">Publisher Full Text </a> | <a target=xrefwindow id=d1578e1232 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3752892">Free Full Text </a></span></li><li><a name=ref-25 class=n-a></a><span class=label>25. </span>&nbsp;<span class=citation><a name=d1578e1241 class=n-a></a>Bates ER: Limiting Infarct Size in ST-Segment Myocardial Infarction: The Holy Grail of Reperfusion Therapy. <i>JACC Heart Fail.</i> 2015; <b>3</b>(11): 883–5. <a target=xrefwindow id=d1578e1249 href="http://www.ncbi.nlm.nih.gov/pubmed/26541786">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1252 href="https://doi.org/10.1016/j.jchf.2015.08.003">Publisher Full Text </a></span></li><li><a name=ref-26 class=n-a></a><span class=label>26. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/733206137"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d1578e1261 class=n-a></a>Saku K, Kakino T, Arimura T, <i> et al.</i>: Left Ventricular Mechanical Unloading by Total Support of Impella in Myocardial Infarction Reduces Infarct Size, Preserves Left Ventricular Function, and Prevents Subsequent Heart Failure in Dogs. <i>Circ Heart Fail.</i> 2018; <b>11</b>(5): e004397. <a target=xrefwindow id=d1578e1272 href="http://www.ncbi.nlm.nih.gov/pubmed/29739745">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1275 href="https://doi.org/10.1161/CIRCHEARTFAILURE.117.004397">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/733206137">F1000 Recommendation</a></span></li><li><a name=ref-27 class=n-a></a><span class=label>27. </span>&nbsp;<span class=citation><a name=d1578e1288 class=n-a></a>Esposito ML, Zhang Y, Qiao X, <i> et al.</i>: Left Ventricular Unloading Before Reperfusion Promotes Functional Recovery After Acute Myocardial Infarction. <i>J Am Coll Cardiol.</i> 2018; <b>72</b>(5): 501–14. <a target=xrefwindow id=d1578e1299 href="http://www.ncbi.nlm.nih.gov/pubmed/30049311">PubMed Abstract </a> | <a target=xrefwindow id=d1578e1302 href="https://doi.org/10.1016/j.jacc.2018.05.034">Publisher Full Text </a></span></li><li><a name=ref-28 class=n-a></a><span class=label>28. </span>&nbsp;<span class=citation><a name=d1578e1311 class=n-a></a>Kapur NK, Alkhouli M, Demartini T, <i> et al.</i>: Unloading the left ventricle before reperfusion in patients with anterior ST-segment elevation myocardial infarction: A pilot study using the Impella CP. Published ahead of print. <i>Circulation.</i> 2018. <a target=xrefwindow id=d1578e1319 href="https://www.ahajournals.org/doi/pdf/10.1161/CIRCULATIONAHA.118.038269">Reference Source</a></span></li></ul></div></div></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 27 Nov 2018</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/7-1852.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/7-1852.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> <div class="f1r-article-mobile margin-bottom-30"> <div class=contracted-details> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> The Molecular Cardiology Research Institute, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA<br/> <sup>2</sup> The Acute Mechanical Circulatory Support Working Group, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA<br/> <sup>3</sup> The Cardiovascular Center, Tufts Medical Center and Tufts University School of Medicine, Boston, Massachusetts, USA<br/> <sup>4</sup> Cardiovascular Research Center, Mount Sinai School of Medicine, New York, New York, USA<br/> <p> <div class=margin-bottom> Navin K. Kapur <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Funding Acquisition, Investigation, Methodology, Project Administration, Supervision, Validation, Writing – Review & Editing </div> <div class=margin-bottom> Shiva Annamalai <br/> <span>Roles: </span> Data Curation, Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Lara Reyelt <br/> <span>Roles: </span> Data Curation, Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Samuel J. Karmiy <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Allen A. Razavi <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Sina Foroutanjazi <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Aditya Chennojwala <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Kiyotake Ishikawa <br/> <span>Roles: </span> Visualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> <div class=contracted-details> <a href="#" class=section-title>Article Versions (1)</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> <div> <a href="https://f1000research.com/articles/7-1852/v1" title="Open version 1 of this article." class="" gahelper=1>version 1</a> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div> Published: 27 Nov 2018, 7:1852 </div> <div class=""><a href="https://doi.org/10.12688/f1000research.14597.1">https://doi.org/10.12688/f1000research.14597.1</a></div> </div> </div> <div class=contracted-details> <a href="#" class=section-title> <span class="f1r-icon icon-100_open_access"></span> Copyright </a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> © 2018 Kapur NK <em>et al</em>. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </div> </div> <div class="padding-top-30 research-layout"> <div class=article-toolbox-wrapper-mobile> <div class=article-tools-icon-mobile data-section=download> <span class="f1r-icon icon-76_download_file white"></span> </div> <div class="article-tools-icon-mobile mobile-metrics article-metrics-wrapper metrics-icon-wrapper" data-section=metrics data-version-id=15885 data-id=14597 data-downloads="" data-views="" data-scholar="10.12688/f1000research.14597.1" data-recommended="" data-f1r-ga-helper="Article Page Metrics (Mobile)"> <span class="f1r-icon icon-89_metrics white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=cite> <span class="f1r-icon icon-82_quote white"></span> </div> <div class="article-tools-icon-mobile " data-section=track> <span class="f1r-icon icon-90_track white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=share> <span class="f1r-icon icon-34_share white"></span> </div> <span class=article-toolbox-stretch></span> </div> <div class=article-toolbox-content-mobile> <div class="toolbox-section download"> <div class=toolbox-section-heading>Download</div> <div class=toolbox-section-content> <a href="https://f1000research.com/articles/7-1852/v1/pdf?article_uuid=19fbd453-2554-4ee8-87ee-e788986c2530" title="Download PDF" class="no-decoration pdf-download-helper"> <span class="f1r-icon icon-102_download_pdf toolbox-section-icon"></span> </a> <div class=toolbox-section-option-divider>&nbsp;</div> <a id=mobile-download-xml class=no-decoration href="#" title="Download XML"> <span class="f1r-icon icon-103_download_xml toolbox-section-icon"></span> </a> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>Export To</div> <div class=toolbox-section-content> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=WORKSPACE>Sciwheel</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=BIBTEX>Bibtex</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=ENDNOTE>EndNote</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=PROCITE>ProCite</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=REF_MANAGER>Ref. Manager (RIS)</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=SENTE>Sente</button> </div> </div> <div class="toolbox-section metrics"> <div class="toolbox-section-heading no-top-border">metrics</div> <div class="toolbox-section-divider toolbox-section-divider--no-height"></div> <div class=article-metrics-pageinfo> <div class=c-article-metrics-table> <table class=c-article-metrics-table__table> <thead> <tr> <th></th> <th><span class=c-article-metrics-table__heading>Views</span></th> <th><span class=c-article-metrics-table__heading>Downloads</span></th> </tr> </thead> <tbody> <tr> <th class=c-article-metrics-table__row-heading><span class="c-article-metrics-table__platform u-platform--" data-test-id=metrics_platform_name_mob>F1000Research</span></th> <td class="c-article-metrics-table__value js-article-views-count" data-test-id=metrics_platform_views_mob>-</td> <td class="c-article-metrics-table__value js-article-downloads-count" data-test-id=metrics_platform_downloads_mob>-</td> </tr> <tr> <th class=c-article-metrics-table__row-heading> <span class="u-ib u-middle c-article-metrics-table__pmc" data-test-id=metrics_pmc_name_mob>PubMed Central</span> <div class="c-block-tip c-block-tip--centered c-article-metrics-table__tooltip c-block-tip--md-padding c-block-tip--small-arrow u-ib u-middle"> <button type=button class="u-black--medium u-black--high@hover u-ib u-middle c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content>Data from PMC are received and updated monthly.</div> </div> </th> <td class="c-article-metrics-table__value js-pmc-views-count" data-test-id=metrics_pmc_views_mob>-</td> <td class="c-article-metrics-table__value js-pmc-downloads-count" data-test-id=metrics_pmc_downloads_mob>-</td> </tr> </tbody> </table> </div> </div> <span class=metrics-citations-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-heading u-mb--1">Citations</div> <div> <div class=toolbox-section-colsplit> <div class=citations-scopus-logo> <a href="" target=_blank class="is-hidden metrics-citation-icon" title="View full citation details at www.scopus.com"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count scopus"> <a href='' class='scopus-citation-link is-hidden' target=_blank title='View full citation details at www.scopus.com'>0</a> </div> </div> <div class=toolbox-section-colsplit> <div class="citations-pubmed-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon f1000research" title="View full citation details"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count pubmed"> <a href='' class='pubmed-citation-link is-hidden' target=_blank title='View full citation details'>0</a> </div> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <div class="citations-scholar-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon google-scholar f1000research" title="View full citation details" data-scholar="10.12688/f1000research.14597.1"><i class="material-icons scopus-icon">open_in_new</i></a> </div> </div> </div> </span> <span class=metrics-details-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-content altmetric-section"> <div class=altmetrics-image></div> <div class=altmetrics-more-link> <a href="" target=_blank class=f1r-standard-link>SEE MORE DETAILS</a> </div> <div class=altmetric-mobile-column-counts></div> <div class=altmetric-mobile-column-readers></div> <div class=toolbox-section-divider></div> </div> </span> </div> <div class="toolbox-section cite"> <div class="toolbox-section-heading no-top-border">CITE</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>how to cite this article</div> <div id=citation-copy-mobile class="toolbox-section-content text-content heading9 small" data-test-id=mob_copy-citation_text> Kapur NK, Annamalai S, Reyelt L <em>et al.</em> From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction [version 1; peer review: 2 approved] <i>F1000Research</i> 2018, <b>7</b>(F1000 Faculty Rev):1852 (<a href="https://doi.org/10.12688/f1000research.14597.1" target=_blank>https://doi.org/10.12688/f1000research.14597.1</a>) </div> <div class=toolbox-section-divider></div> <div class="toolbox-section-content text-content heading9 small"> NOTE: <em>it is important to ensure the information in <b>square brackets after the title</b> is included in all citations of this article.</em> </div> <div class=toolbox-section-content> <button class="primary orange extra-padding copy-cite-article-mobile js-clipboard" data-clipboard-target="#citation-copy-mobile" title="Copy the current citation details." data-test-id=mob_copy-citation_button-mob>COPY CITATION DETAILS</button> </div> </div> <div class="toolbox-section track"> <div class="toolbox-section-heading no-top-border">track</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>receive updates on this article</div> <div class="toolbox-section-content padding-left-20 padding-right-20 heading9 small"> Track an article to receive email alerts on any updates to this article. </div> <div class=toolbox-section-content> <a data-article-id=14597 id=mobile-track-article-signin-14597 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/14597?target=/articles/7-1852.html"> <button class="primary orange extra-padding"> TRACK THIS ARTICLE </button> </a> </div> </div> <div class="toolbox-section share"> <div class="toolbox-section-heading no-top-border">Share</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <a target=_blank class="f1r-shares-icon-square f1r-shares-email" title="Email this article"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-twitter" title="Share on Twitter"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-facebook" title="Share on Facebook"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-linkedin" title="Share on LinkedIn"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-reddit" title="Share on Reddit"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-mendelay" title="Share on Mendeley"></a> <div class="email-article-wrapper email-article-version-container"> <div class=toolbox-section-divider></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form-mobile research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=15885 /> <input name=articleId type=hidden value=14597 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> </div> </div> </div> <a name=article-reports></a> <div id=article-reports class="u-mt--3 reports-comments no-divider"> <div class="current-referee-status current-referee-status--faculty "> <h2 class=main-title id=current-referee-status> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-85_peer_review size30"></span> </span> Open Peer Review <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> <a name=current-referee-status></a> <div class=current-referee-status__content name=add-new-report-comment id=add-new-report-comment> Current Reviewer Status: <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile"> <div class=mobile-ref-status-help> Key to Reviewer Statuses <span class=referee-status-pointer></span> <span class="view-control float-right">VIEW</span> <span class="view-control float-right is-hidden">HIDE</span> <div class=mobile-ref-status-help-content> <div class="cf margin-top"> <span class="f1r-icon icon-86_approved status-green smaller float-left margin-bottom-40 margin-right" title=Approved></span> <span class=title>Approved</span>The paper is scientifically sound in its current form and only minor, if any, improvements are suggested </div> <div class="cf margin-top"> <span class="f1r-icon icon-87_approved_reservations status-green smaller float-left margin-bottom-40 margin-right" title="Approved with Reservations"></span> <span class=title>Approved with reservations</span> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </div> <div class="cf margin-top"> <span class="f1r-icon icon-88_not_approved status-red small float-left margin-bottom-30 margin-right" title="Not Approved"></span> <span class=title>Not approved</span>Fundamental flaws in the paper seriously undermine the findings and conclusions </div> </div> </div> </span> <div class=editorial-note> <h5 class=editorial-note__title>Editorial Note on the Review Process</h5> <p class=editorial-note__text><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home">Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> </div> <div class=approved-referee> <h4 class=approved-referee__title>Reviewers who approved this article</h4> <ol class=approved-referee__list> <li class="approved-referee__list-item "> <span class=approved-referee__co-referee> <strong>Howard Todd Massey</strong>, Division of Cardiothoracic Surgery, Thomas Jefferson University Hospital, USA </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> <li class="approved-referee__list-item margin-top-20"> <span class=approved-referee__co-referee> <strong>Xuming Dai</strong>, Division of Cardiology, New York Presbyterian Medical Group - Queens Hospital, USA </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> </ol> </div> </div> </div> </div> <div class="f1r-article-mobile research-layout"> <div class="mobile-sections-divider before-comments"></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 27 Nov 2018</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/7-1852.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/7-1852.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> </div> </div> <div id=article_main-column class="p-article__sidebar o-layout__item u-1/3 not-expanded js-article-sidebar"> <div class="o-tab p-article__column-toggle-container"> <button class="c-tab c-tab--left js-column-toggle p-article__column-toggle not-expanded " type=button data-target-main=article_main-column data-target-secondary=article_secondary-column><i class="c-tab__icon material-icons u-hide@expanded">keyboard_arrow_left</i><i class="c-tab__icon material-icons u-show@expanded">keyboard_arrow_right</i></button> </div> <div class=p-article__sidebar-content> <div class="p-article__sidebar-scroller js-article-sidebar-scroller"> <section class="p-article__sidebar-view js-article-sidebar-view js-article-sidebar-main u-pt u-pb--8" data-view=peer-review> <div class="o-layout o-layout--flush"> <div class="o-layout__item u-pl"> <h3 class="u-mt--0 u-mb--2 t-h3 u-weight--md u-pl" data-test-id=article_sidebar_heading>Open Peer Review</h3> </div> <div class=o-layout__item> <section class=""> <div class="p-article__sidebar-highlight u-mb--2 u-pr--1"> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md u-mr--1/2">Reviewer Status</h4> <div class="c-referee-status__icons u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=42332-41166></i> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=42334-41165></i> </div> </div> <div class="o-actions__secondary _mdl-layout"> <div class="c-block-tip p-article__sidebar-tooltip c-block-tip--below c-block-tip--small-arrow c-block-tip--sm-padding"> <button type=button class="c-button c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content> <p class="t-body u-mt--0 u-mb--0"><em class=u-weight--md>Alongside their report, reviewers assign a status to the article:</em></p> <dl class=c-definitions> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved</span></dt> <dd class="c-definitions__description t-caption">The paper is scientifically sound in its current form and only minor, if any, improvements are suggested</dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--reservations" title="Approved with Reservations" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved with reservations</span></dt> <dd class="c-definitions__description t-caption"> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--not-approved " title="Not Approved" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Not approved</span></dt> <dd class="c-definitions__description t-caption">Fundamental flaws in the paper seriously undermine the findings and conclusions</dd> </dl> </div> </div> </div> </div> </div> <div class="o-layout__item u-mb--1"><h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md">Reviewer Reports</h4></div> <table class="c-report-timeline u-mb--2"> <thead class=c-report-timeline__headings> <tr> <th></th> <th class="u-pb--1/2" colspan=2><em class="t-body u-weight--rg">Invited Reviewers</em></th> </tr> <tr class=c-report-timeline__headings-row> <th></th> <th class="c-report-timeline__headings-version p-article__color--dark">1</th> <th class="c-report-timeline__headings-version p-article__color--dark">2</th> </tr> </thead> <tbody> <tr class="c-report-timeline__row c-report-timeline__row--selected "> <th class=c-report-timeline__version> <a data-test-id=sidebar_timeline_v1_version href="https://f1000research.com/articles/7-1852/v1">Version 1</a><br/> <span class=p-article__color--dark> <span data-test-id=sidebar_timeline_v1_date class=c-report-timeline__date>27 Nov 18</span> </span> </th> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> </tr> </tbody> </table> <div class=o-layout__item> <hr class="c-hr c-hr--low u-mb--2"> </div> </section> </div> <div class=o-layout__item> <div class="u-pl u-pr"> <p class="t-body u-mt--0 u-mb--2"><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home" target=_blank class=in-text-link>Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> <ol class="p-article__faculty-referee-list t-caption"> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Howard Todd Massey</strong>, Division of Cardiothoracic Surgery, Thomas Jefferson University Hospital, USA </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Xuming Dai</strong>, Division of Cardiology, New York Presbyterian Medical Group - Queens Hospital, USA </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> </ol> </div> </div> <section class="o-layout__item u-pl"> <div class=u-pl> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--2">Comments on this article</h4> <div class=u-mb--4> <p class="u-mt--0 u-mb--1 t-h4"><a class=p-article__color--light href="#article-comments">All Comments</a><span class=" u-ib u-ml--1/2 p-article__color--light">(0)</span></p> <a class=t-h4 href="/login?originalPath=/articles/7-1852.html&scrollTo=add-new-comment" data-test-id=add-comment>Add a comment</a> </div> <hr class="c-hr c-hr--low c-hr--md u-mb--4"> <div class="research-layout f1r-article-desk"> <div class="heading6 c-ribbon-wrapper c-ribbon-wrapper--etoc f1000research "> <div class=c-ribbon-wrapper__body>Sign up for content alerts</div> </div> </div> <div class="research-layout sidebar-sign-up-form f1r-article-desk u-mb--4 "> <form class=js-email-alert-signup action="#" method=POST data-email=tocAlertWeekly> <input type=hidden name=isUserLoggedIn class=js-email-alert-signup-logged-in value=N /> <input type=hidden name=userId class=js-email-alert-signup-user-id value=""/> <input type=hidden name=frequency class=js-email-alert-signup-frequency value=WEEKLY /> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <input type=email name=emailAddress class="form-input-field js-email-alert-signup-address u-1/1 u-bb" required=required placeholder=Email /> </div> <div class=o-actions__secondary> <div class="_mdl-layout u-ml--1/2"> <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--small mdl-button--filled js-email-alert-signup-submit">Sign Up</button> </div> </div> </div> </form> <div id=sidebar-sign-up-message class="section-text js-email-alert-signup-msg is-hidden">You are now signed up to receive this alert</div> </div> <section class=js-terms-container> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--1">Browse by related subjects</h4> <div class="article-subcontainer article-subcontainer--sidebar"> <ul class=js-terms-list></ul> </div> </section> </div> </section> </div> </section> </div> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/read-more.js"></script> <script src="/js/article/article-router.js"></script> <script src="/js/article/article-sidebar.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/article/article-column-toggle.js"></script> </div> </div> </div> </main> <input type=hidden id=_articleVersionUrl value="https://f1000research.com/articles/7-1852/v1/"> <div class=research-help id=about-referee-status> <div class="research-layout research-help-content about-referee-status"> <span class="close-research-help dark-cross" title=Close></span> Alongside their report, reviewers assign a status to the article: <div class="cf research-help-row"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> <span class=research-help-text>Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested</span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-87_approved_reservations status-green smaller" title="Approved with Reservations"></span> <span class=research-help-text>Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-88_not_approved status-red small" title="Not Approved"></span> <span class=research-help-text>Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions</span> </div> </div> </div> <div id=datasets-info class=is-hidden> </div> <div class=article-interactive-content-container style="display: none;"> <a name=f-template class=n-a></a> <div class="interactive-content-wrapper padding-20"> <img src="" class=interactive-content-image title="Open the interactive image display"> <div class=interactive-content-title></div> <div class=interactive-content-text></div> <div class="f1r-article-desk interactive-content-ribbon" data-interactive-content-type=R-Script> <div class=interactive-content-label>Adjust parameters to alter display</div> <div class=interactive-content-button></div> </div> <div class="f1r-article-mobile mobile-interactive-note"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div id=article-interactive-omero-container class=article-interactive-omero-container style="display: none;"> <div class=interactive-content-wrapper> <div class="interactive-omero-button omero-content" title="Open the interactive content window." data-interactive-content-type=Omero></div> <div class=has-interactive-content-image> <span class=box-arrow></span> <span class=box-middle>Includes Interactive Elements</span> <span class=box-end></span> </div> <div class="fig panel clearfix" style="margin: 0; padding-bottom: 20px;"> <a name=templatelink class=n-a></a> <a target=_blank href="" class=link-for-omero-image> <img src="" class=interactive-omero-image title="Open the image display window."> </a> <div class=caption> <div class=interactive-content-title></div> <div class=interactive-content-text></div> </div> <div class="is-hidden omero-image-list"></div> </div> <div class="f1r-article-mobile mobile-interactive-note omero"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div class="add-comment-container shadow-box is-hidden" id=save-comment-container> <span id=save-comment-text class=intro-text>Edit comment</span> <textarea id=new-comment name=new-comment class="global-textarea comment margin-bottom margin-top"></textarea> <p><strong>Competing Interests</strong></p> <textarea id=new-competing-interests name=competing-interests class="global-textarea competing-interests margin-bottom check-xss"></textarea> <div class=clearfix></div> <button id=cancelComment type=button class="general-white-orange-button float-right no-background-button margin-left"> Cancel </button> <button id=save-comment-button commentId="" type=button class="general-white-orange-button float-right"> Save </button> <div class=clearfix></div> <div class="green-message margin-top is-hidden comment-is-saved">The comment has been saved.</div> <div class="red-message margin-top is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class="red-message margin-top is-hidden comment-enter-text ucf">Your must enter a comment.</div> <div class="red-message margin-top is-hidden comment-references-error references">References error.</div> </div> <div class="modal-window-wrapper is-hidden"> <div id=conflicts-interests class="modal-window padding-20"> <div class=modal-window__content> <h2 class=h2-title>Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div class="f1r-article-mobile research-layout"> <span class=modal-window-close-button></span> </div> </div> </div> <div class="o-modal c-email-alert-popup js-email-alert-popup is-hidden"> <div class="o-modal__body js-modal-body c-email-alert-popup__inner"> <h3 class=c-email-alert-popup__title>Stay Updated</h3> <p class=c-email-alert-popup__sub>Sign up for content alerts and receive a weekly or monthly email with all newly published articles</p> <p><a href="/register?originalPath=" class="c-email-alert-popup__lnk c-email-alert-popup__button js-email-alert-popup-action">Register with F1000Research</a></p> <p>Already registered? <a href="/login?originalPath=" class="c-email-alert-popup__lnk js-email-alert-popup-action">Sign in</a></p> <p class=c-email-alert-popup__footer><a class="c-email-alert-popup__lnk js-email-alert-popup-cancel" href="#">Not now, thanks</a></p> </div> </div> <div id=addCommentModal role=dialog aria-labelledby=addCommentModal_title aria-describedby=addCommentModal_description> <div class="c-modal js-modal is-closed p-article__add-comment-modal c-modal--xlarge js-article-comment-modal c-modal--scroll "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-bg--2 c-modal--scroll-always "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <div id=addCommentModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div class="js-add-comment-container t-caption u-black--high"> <div class=u-weight--bd>PLEASE NOTE</div> <div class=u-mt--1> <span class="red u-weight--bd">If you are an AUTHOR of this article,</span> please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a &ldquo;User Comment&rdquo;. </div> <div class=u-mt--1> <span class="red u-weight--bd">If you are a REVIEWER of this article,</span> please check that you have signed in with the account associated with this article and then go to your <a href="/my/referee">account</a> to submit your report, please do not post your review here. </div> <div class="u-mt--1 u-mb--1"> If you do not have access to your original account, please <a href="mailto:research@f1000.com">contact us</a>. </div> <p class=no-top-margin>All commenters must hold a formal affiliation as per our <a href="/about/policies#commentspolicy" target=_blank>Policies</a>. The information that you give us will be displayed next to your comment.</p> <p>User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the <a href="/about/legal/usercommenttermsandconditions" target=_blank>User Comment Terms and Conditions</a>. Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available.</p> <div class="comments-note margin-bottom" id=accept-user-comments> <input class=js-add-comment-accept-terms type=checkbox id=acceptedTermsAndConditions name=acceptedTermsAndConditions> I accept the <a href="/about/legal/usercommenttermsandconditions" target=_blank> User Comment Terms and Conditions</a> <span class=required>&nbsp;</span> </div> <div class="default-error margin-top is-hidden comment-accept-conditions utac">Please confirm that you accept the User Comment Terms and Conditions.</div> <div class="research-layout registration-form u-mb--2"> <div class="u-mb--1 u-mt--2"> <strong>Affiliation</strong> </div> <div class=form-field> <input type=text name=institution class="form-input-field check-xss js-add-comment-institution" placeholder="Organization *" autocomplete=off /> <div class="default-error margin-top is-hidden comment-enter-institution institution">Please enter your organisation.</div> </div> <div class=form-field> <input type=text name=place class="form-input-field check-xss js-add-comment-place" placeholder=Place> </div> <div class=form-field> <div class="form-input-wrapper hundred-percent-wide"> <div class="new-select-standard-wrapper half-width inline-display heading10"> <select name=countryId id=country class="form-select-menu smaller js-add-comment-country"> <option value=-1>Country*</option> <option value=840>USA</option> <option value=826>UK</option> <option value=124>Canada</option> <option value=156>China</option> <option value=250>France</option> <option value=276>Germany</option> <optgroup label=-----------------------------------------------></optgroup> <option value=4>Afghanistan</option> <option value=248>Aland Islands</option> <option value=8>Albania</option> <option value=12>Algeria</option> <option value=16>American Samoa</option> <option value=20>Andorra</option> <option value=24>Angola</option> <option value=660>Anguilla</option> <option value=10>Antarctica</option> <option value=28>Antigua and Barbuda</option> <option value=32>Argentina</option> <option value=51>Armenia</option> <option value=533>Aruba</option> <option value=36>Australia</option> <option value=40>Austria</option> <option value=31>Azerbaijan</option> <option value=44>Bahamas</option> <option value=48>Bahrain</option> <option value=50>Bangladesh</option> <option value=52>Barbados</option> <option value=112>Belarus</option> <option value=56>Belgium</option> <option value=84>Belize</option> <option value=204>Benin</option> <option value=60>Bermuda</option> <option value=64>Bhutan</option> <option value=68>Bolivia</option> <option value=70>Bosnia and Herzegovina</option> <option value=72>Botswana</option> <option value=74>Bouvet Island</option> <option value=76>Brazil</option> <option value=86>British Indian Ocean Territory</option> <option value=92>British Virgin Islands</option> <option value=96>Brunei</option> <option value=100>Bulgaria</option> <option value=854>Burkina Faso</option> <option value=108>Burundi</option> <option value=116>Cambodia</option> <option value=120>Cameroon</option> <option value=124>Canada</option> <option value=132>Cape Verde</option> <option value=136>Cayman Islands</option> <option value=140>Central African Republic</option> <option value=148>Chad</option> <option value=152>Chile</option> <option value=156>China</option> <option value=162>Christmas Island</option> <option value=166>Cocos (Keeling) Islands</option> <option value=170>Colombia</option> <option value=174>Comoros</option> <option value=178>Congo</option> <option value=184>Cook Islands</option> <option value=188>Costa Rica</option> <option value=384>Cote d'Ivoire</option> <option value=191>Croatia</option> <option value=192>Cuba</option> <option value=196>Cyprus</option> <option value=203>Czech Republic</option> <option value=180>Democratic Republic of the Congo</option> <option value=208>Denmark</option> <option value=262>Djibouti</option> <option value=212>Dominica</option> <option value=214>Dominican Republic</option> <option value=218>Ecuador</option> <option value=818>Egypt</option> <option value=222>El Salvador</option> <option value=226>Equatorial Guinea</option> <option value=232>Eritrea</option> <option value=233>Estonia</option> <option value=231>Ethiopia</option> <option value=238>Falkland Islands</option> <option value=234>Faroe Islands</option> <option value=583>Federated States of Micronesia</option> <option value=242>Fiji</option> <option value=246>Finland</option> <option value=250>France</option> <option value=254>French Guiana</option> <option value=258>French Polynesia</option> <option value=260>French Southern Territories</option> <option value=266>Gabon</option> <option value=268>Georgia</option> <option value=276>Germany</option> <option value=288>Ghana</option> <option value=292>Gibraltar</option> <option value=300>Greece</option> <option value=304>Greenland</option> <option value=308>Grenada</option> <option value=312>Guadeloupe</option> <option value=316>Guam</option> <option value=320>Guatemala</option> <option value=831>Guernsey</option> <option value=324>Guinea</option> <option value=624>Guinea-Bissau</option> <option value=328>Guyana</option> <option value=332>Haiti</option> <option value=334>Heard Island and Mcdonald Islands</option> <option value=336>Holy See (Vatican City State)</option> <option value=340>Honduras</option> <option value=344>Hong Kong</option> <option value=348>Hungary</option> <option value=352>Iceland</option> <option value=356>India</option> <option value=360>Indonesia</option> <option value=364>Iran</option> <option value=368>Iraq</option> <option value=372>Ireland</option> <option value=376>Israel</option> <option value=380>Italy</option> <option value=388>Jamaica</option> <option value=392>Japan</option> <option value=832>Jersey</option> <option value=400>Jordan</option> <option value=398>Kazakhstan</option> <option value=404>Kenya</option> <option value=296>Kiribati</option> <option value=901>Kosovo (Serbia and Montenegro)</option> <option value=414>Kuwait</option> <option value=417>Kyrgyzstan</option> <option value=418>Lao People's Democratic Republic</option> <option value=428>Latvia</option> <option value=422>Lebanon</option> <option value=426>Lesotho</option> <option value=430>Liberia</option> <option value=434>Libya</option> <option value=438>Liechtenstein</option> <option value=440>Lithuania</option> <option value=442>Luxembourg</option> <option value=446>Macao</option> <option value=807>Macedonia</option> <option value=450>Madagascar</option> <option value=454>Malawi</option> <option value=458>Malaysia</option> <option value=462>Maldives</option> <option value=466>Mali</option> <option value=470>Malta</option> <option value=584>Marshall Islands</option> <option value=474>Martinique</option> <option value=478>Mauritania</option> <option value=480>Mauritius</option> <option value=175>Mayotte</option> <option value=484>Mexico</option> <option value=581>Minor Outlying Islands of the United States</option> <option value=498>Moldova</option> <option value=492>Monaco</option> <option value=496>Mongolia</option> <option value=499>Montenegro</option> <option value=500>Montserrat</option> <option value=504>Morocco</option> <option value=508>Mozambique</option> <option value=104>Myanmar</option> <option value=516>Namibia</option> <option value=520>Nauru</option> <option value=524>Nepal</option> <option value=530>Netherlands Antilles</option> <option value=540>New Caledonia</option> <option value=554>New Zealand</option> <option value=558>Nicaragua</option> <option value=562>Niger</option> <option value=566>Nigeria</option> <option value=570>Niue</option> <option value=574>Norfolk Island</option> <option value=580>Northern Mariana Islands</option> <option value=408>North Korea</option> <option value=578>Norway</option> <option value=512>Oman</option> <option value=586>Pakistan</option> <option value=585>Palau</option> <option value=275>Palestinian Territory</option> <option value=591>Panama</option> <option value=598>Papua New Guinea</option> <option value=600>Paraguay</option> <option value=604>Peru</option> <option value=608>Philippines</option> <option value=612>Pitcairn</option> <option value=616>Poland</option> <option value=620>Portugal</option> <option value=630>Puerto Rico</option> <option value=634>Qatar</option> <option value=638>Reunion</option> <option value=642>Romania</option> <option value=643>Russian Federation</option> <option value=646>Rwanda</option> <option value=654>Saint Helena</option> <option value=659>Saint Kitts and Nevis</option> <option value=662>Saint Lucia</option> <option value=666>Saint Pierre and Miquelon</option> <option value=670>Saint Vincent and the Grenadines</option> <option value=882>Samoa</option> <option value=674>San Marino</option> <option value=678>Sao Tome and Principe</option> <option value=682>Saudi Arabia</option> <option value=686>Senegal</option> <option value=688>Serbia</option> <option value=690>Seychelles</option> <option value=694>Sierra Leone</option> <option value=702>Singapore</option> <option value=703>Slovakia</option> <option value=705>Slovenia</option> <option value=90>Solomon Islands</option> <option value=706>Somalia</option> <option value=710>South Africa</option> <option value=239>South Georgia and the South Sandwich Is</option> <option value=410>South Korea</option> <option value=724>Spain</option> <option value=144>Sri Lanka</option> <option value=736>Sudan</option> <option value=740>Suriname</option> <option value=744>Svalbard and Jan Mayen</option> <option value=748>Swaziland</option> <option value=752>Sweden</option> <option value=756>Switzerland</option> <option value=760>Syria</option> <option value=158>Taiwan</option> <option value=762>Tajikistan</option> <option value=834>Tanzania</option> <option value=764>Thailand</option> <option value=270>The Gambia</option> <option value=528>The Netherlands</option> <option value=626>Timor-Leste</option> <option value=768>Togo</option> <option value=772>Tokelau</option> <option value=776>Tonga</option> <option value=780>Trinidad and Tobago</option> <option value=788>Tunisia</option> <option value=792>Turkey</option> <option value=795>Turkmenistan</option> <option value=796>Turks and Caicos Islands</option> <option value=798>Tuvalu</option> <option value=800>Uganda</option> <option value=826>UK</option> <option value=804>Ukraine</option> <option value=784>United Arab Emirates</option> <option value=850>United States Virgin Islands</option> <option value=858>Uruguay</option> <option value=840>USA</option> <option value=860>Uzbekistan</option> <option value=548>Vanuatu</option> <option value=862>Venezuela</option> <option value=704>Vietnam</option> <option value=876>Wallis and Futuna</option> <option value=905>West Bank and Gaza Strip</option> <option value=732>Western Sahara</option> <option value=887>Yemen</option> <option value=894>Zambia</option> <option value=716>Zimbabwe</option> </select> </div> </div> <div class="default-error margin-top is-hidden comment-enter-country country">Please select your country.</div> </div> </div> <textarea data-test-id=article_add-comment_comment name=new-comment class="js-add-comment-comment comment margin-bottom margin-top"></textarea> <div class="default-error margin-top comment-enter-text comment-error is-hidden ">You must enter a comment.</div> <label class="comments-note u-mt--2 u-mb--2" for=competingInterests_1> <div class="u-mb--1 u-mt--2"><strong data-test-id=article_report-add-comment_competing-interests-title>Competing Interests</strong></div> <p class="u-mb--2 u-mt--0" data-test-id=article_report-add-comment_competing-interests-description>Please disclose any <a href="#article-competing-intersts-policy" class=js-modal-competing-intersts-toggle>competing interests</a> that might be construed to influence your judgment of the article's or peer review report's validity or importance.</p> </label> <div id=article-competing-intersts-policy class=js-article-competing-interests-policy style="display: none;"> <h2 class="h2-title u-mt--0 u-pt--0">Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div id=competingInterests_1 class="c-inline-editor js-inline-editor js-form_input u-bb--all u-mb--2 js-comment-competing-interests" data-name=competing-interests data-rows=3> <textarea id=competingInterests_1_input name=competing-interests placeholder="&nbsp;" required=false class="u-hide-visually js-inline-editor_input" tabindex=-1></textarea> <div class="c-inline-editor__editor js-inline-editor_editor o-box c-box o-box--tiny u-bg--11" data-target=competingInterests_1_input role=textbox required=false data-placeholder="&nbsp;" contenteditable=true></div> <span class="c-inline-editor__error js-inline-editor-message">Please state your competing interests</span> </div> <div data-test-id=article_add-comment_saved class="green-message comments is-hidden comment-is-saved">The comment has been saved.</div> <div data-test-id=article_add-comment_error class="default-error comments is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class=clearfix></div> <div class=js-hook></div> </div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" data-test-id=article_add-comment_cancel class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" data-test-id=article_add-comment_post class="c-button c-button--full js-modal__confirm c-button--primary">Post</a> </div> </aside> </div> </div> <style>
+                .at-icon-wrapper {
+        background-size: 100% !important;
+    }
+</style> <script src="/js/namespace.js"></script> <script src="/js/constants.js"></script> <script src="/js/utilities.js"></script> <script src="/js/article/alert-signup.js"></script> <script type='text/javascript'>
+    var lTitle = "From bedside to bench and back again: translational...".replace("'", '');
+    var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/7-1852/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+    var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/7-1852/v1&title=" + encodeURIComponent(lTitle);
+
+    var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/7-1852/v1" + "&title=" + encodeURIComponent(lTitle);
+
+            linkedInUrl += encodeURIComponent('Kapur NK et al.');
+    
+    var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+    var addthis_config = {
+            ui_offset_top: offsetTop,
+                                    services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_custom : [
+                {
+                    name: "LinkedIn",
+                    url:  linkedInUrl,
+                    icon:"/img/icon/at_linkedin.svg"
+                },
+                {
+                    name: "Mendeley",
+                    url:  "http://www.mendeley.com/import/?url=https://f1000research.com/articles/7-1852/v1/mendeley",
+                    icon:"/img/icon/at_mendeley.svg"
+                },
+                {
+                    name: "Reddit",
+                    url:  redditUrl,
+                    icon:"/img/icon/at_reddit.svg"
+                },
+            ]
+        };
+
+
+    var addthis_share = {
+            url: "https://f1000research.com/articles/7-1852",
+            templates : {
+                twitter : "From bedside to bench and back again: translational studies of.... Kapur NK et al., published by " + 
+               "@F1000Research"
+       + ", https://f1000research.com/articles/7-1852/v1"
+            }
+        };
+
+    if (typeof(addthis) != "undefined"){
+        addthis.addEventListener('addthis.ready', checkCount);
+        addthis.addEventListener('addthis.menu.share', checkCount);
+    }
+
+        $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+    $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+    $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+    $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+    $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+    function checkCount(){
+        setTimeout(function(){
+            $(".addthis_button_expanded").each(function(){
+                var count = $(this).text();
+                if (count !== "" && count != "0")
+                    $(this).removeClass("is-hidden");
+                else
+                    $(this).addClass("is-hidden");
+            });
+        }, 1000);
+    }
+</script> <div id=citeReportModal role=dialog aria-labelledby=citeReportModal_title aria-describedby=citeReportModal_description> <div class="c-modal js-modal is-closed c-modal--large js-cite-report-modal "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-black--high "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <h1 id=citeReportModal_title class="c-modal__title t-h3 u-mt--0 u-mb--2 u-weight--md">How to cite this report</h1> <div id=citeReportModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div id="" class=js-report-citation-container>{{reportCitation}}</div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" title="Copy the current citation details to the clipboard." data-clipboard-target="#referee-report-citation" data-test-id=report_copy-citation_button class="c-button c-button--full js-modal__confirm c-button--primary js-clipboard c-mini-tooltip--above">Copy Citation Details</a> </div> </aside> </div> </div> <script src="/js/referee/new/referee_validators.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/referee/new/referee_checkbox-input.js"></script> <script src="/js/referee/new/referee_inline-editor.js"></script> <script type="text/javascript">
+    $(function(){
+        var gaCat = "F1000Research";
+        if (gaCat === "") {
+            gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+        }
+        GAHelper.track({category: gaCat, action: "Article Page: From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction", label: "pageviews"});
+        GAHelper.track({category: gaCat, action: "Article Type: Review", label: "Article Page"});
+        $(".f1r-article-desk .collection-image").each(function (idx, el) {
+            var whatChannel = $(el).find("a").attr("href"),
+                channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+                gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+            GAHelper.track({category: 'ChannelStats', action: "Article Page: From bedside to bench and back again: translational studies of mechanical unloading of the left ventricle to promote recovery after acute myocardial infarction", label: gaRef});
+        });
+    });
+</script> <script>
+    $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+    $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+</script> <script src="/js/article/track_article.js" type="text/javascript"></script> <script type="text/javascript">
+    $.get("/articles/acj/14597/15885")
+</script> <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script type="text/javascript" src="/js/app/messenger.js"></script> <script type="text/javascript" src="/js/article/article_mobiles.js"></script> <script src="/js/vendor/clipboard.min.js"></script> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/clipboard.js"></script> <script src="/js/article/thesaurus-terms-display.js"></script> <script>
+    new F1000.Clipboard();
+    new F1000.ThesaurusTermsDisplay("faculty-reviews", "article", "15885");
+</script> <script>
+    $(document).ready(function() {
+        $( "#frame1" ).on('load', function() {
+            var mydiv = $(this).contents().find("div");
+            var h     = mydiv.height();
+            console.log(h)
+        });
+
+        
+        var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+            titleLivingFigure = tooltipLivingFigure.attr("title");
+        tooltipLivingFigure.simpletip({
+            fixed: true,
+            position: ["-115", "30"],
+            baseClass: 'small-tooltip',
+            content:titleLivingFigure + "<div class='tooltip-arrow'></div>"
+        });
+        tooltipLivingFigure.removeAttr("title");
+
+        $("body").on("click", ".cite-living-figure", function(e) {
+            e.preventDefault();
+            var ref = $(this).attr("data-ref");
+            $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+        });
+        $("body").on("click", ".close-cite-living-figure", function(e) {
+            e.preventDefault();
+            $(this).closest(".popup-window-wrapper").fadeOut(200);
+        });
+
+                $(document).on("mouseup", function(e) {
+            var metricsContainer = $(".article-metrics-popover-wrapper");
+            if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+                $(".article-metrics-close-button").click();
+            }
+        });
+
+        var articleId = $('#articleId').val();
+
+        if($("#main-article-count-box").attachArticleMetrics) {
+            $("#main-article-count-box").attachArticleMetrics(articleId, {
+                articleMetricsView: true
+            });
+        }
+    });
+
+    var figshareWidget = $(".new_figshare_widget");
+    if (figshareWidget.length > 0) {
+        window.figshare.load("f1000", function(Widget) {
+            // Select a tag/tags defined in your page. In this tag we will place the widget.
+            _.map(figshareWidget, function(el){
+                var widget = new Widget({
+                    articleId: $(el).attr("figshare_articleId")
+                    //height:300 // this is the height of the viewer part. [Default: 550]
+                });
+                widget.initialize(); // initialize the widget
+                widget.mount(el); // mount it in a tag that's on your page
+                // this will save the widget on the global scope for later use from
+                // your JS scripts. This line is optional.
+                //window.widget = widget;
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        
+        var reportIds = {
+                           "41165": 0,
+                           "41166": 0,
+                    };
+
+        $(".referee-response-container,.js-referee-report").each(function(index, el) {
+            var reportId = $(el).attr("data-reportid"),
+                reportCount = reportIds[reportId] || 0;
+            $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+        });
+
+        var uuidInput = $("#article_uuid"),
+            oldUUId = uuidInput.val(),
+            newUUId = "2636e6b3-7642-4ac5-b1e5-05359a7c7056";
+        uuidInput.val(newUUId);
+
+        $("a[href*='article_uuid=']").each(function(index, el) {
+            var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+            $(el).attr("href", newHref);
+        });
+
+    });
+</script>              </div>
+        </div>
+
+        
+            
+            <div class="o-page__footer sticky-email-wrapper">
+                
+                
+
+                
+
+
+<footer class="c-footer t-inverted">
+
+    <div class="o-wrapper">
+        <div class="o-layout">
+
+
+                        
+            <div class="o-layout__item u-mb--3">
+                <div class="c-branding c-branding--research">
+                    <img src="/img/research/F1000Research_white.svg" alt="F1000Research">
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <p class="t-h3 u-mt--0 u-mb--0">An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing.</p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <div class="o-layout">
+                    <nav class="c-footer__nav">
+
+                            <div class="o-layout__item u-3/5@sm u-mb--3">
+
+
+                                <div class="o-columns o-columns--2">
+
+                                                                            <a href="/browse/articles" class="t-body c-footer__nav-item "      >Browse</a>
+                                                                            <a href="/gateways" class="t-body c-footer__nav-item "      >Gateways</a>
+                                                                            <a href="/collections" class="t-body c-footer__nav-item "      >Collections</a>
+                                                                            <a href="/about" class="t-body c-footer__nav-item "      >How it Works</a>
+                                                                            <a href="https://blog.f1000.com/blogs/f1000research/" class="t-body c-footer__nav-item "      >Blog</a>
+                                                                            <a href="/contact" class="t-body c-footer__nav-item "      >Contact</a>
+                                                                            <a href="/developers" class="t-body c-footer__nav-item u-hide u-show@navbar"      >For Developers</a>
+                                                                            <a href="/published/rss" class="t-body c-footer__nav-item "   title="RSS feed of published articles"     >RSS</a>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="o-layout__item u-2/5@sm u-center u-right@sm u-mb--3">
+
+                                <div class="u-hide u-show@lg">
+                                    <div class="_mdl-layout">
+                                        <a class="mdl-button mdl-js-button mdl-button--inverted mdl-button--no-shadow mdl-js-ripple-effect mdl-button--outline" href="/for-authors/publish-your-research"   data-test-id="footer_submit_research"  >Submit Your Research</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="o-layout__item u-mb--2">
+                <div class="c-footer__share">
+                        <div class="c-footer__share">
+        <span class="c-footer__share-icon" title="Open Access">
+            <span class="f1r-icon icon-100_open_access license-icon"></span>
+        </span>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/licenses" target="_blank" title="Creative Commons License CC-BY">
+            <span class="f1r-icon icon-116_cc license-icon license-icon-cc"></span>
+            <span class="f1r-icon icon-117_ccby license-icon license-icon-cc"></span>
+        </a>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/about/cc0" target="_blank" title="Creative Commons License CC0">
+            <span class="f1r-icon icon-118_cco license-icon"></span>
+        </a>
+
+    </div>
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="c-footer__social u-mt--0 u-mb--0 u-white--low-med">Follow us
+                    <a href="https://www.facebook.com/F1000" target="_blank" class="c-footer__social-icon f1r-icon icon-55_footer_facebook"></a>
+                    <a href="https://twitter.com/#!/F1000Research" target="_blank" class="c-footer__social-icon f1r-icon icon-56_footer_twitter"></a>
+                    <a href="http://www.youtube.com/user/F1000research" target="_blank" class="c-footer__social-icon f1r-icon icon-57_footer_youtube"></a></p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md u-right@md">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="t-caption u-white--low-med">&copy; 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | <a href="/about/legal" class="copyrightLegal">Legal</a> | Partner of <a target="_blank" href="http://www.who.int/hinari/en/">HINARI</a>  &bull; <a target="_blank" href="http://crossref.org/">CrossRef</a> &bull; <a target="_blank" href="http://about.orcid.org/">ORCID</a> &bull; <a target="_blank" href="http://www.fairsharing.org">FAIRSharing</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</footer>            </div>
+        
+    </div>
+
+            <div class="js-cookie-spacer"></div>
+        <div class="cookie-warning">
+            <div class="instruction">The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a class="js-scroll-to" href="/about/legal/privacypolicy#use-of-cookies" data-scroll-target="#use-of-cookies">Find out more &raquo;</a></div>
+            <div class="close-button"></div>
+        </div>
+    
+    <script>
+                    R.templateTests.simpleTemplate = R.template('<p class="$variable.one">$text</p><p class="${variable.two}">$text</p><p class="$!variable.three">$text</p><p class="$!{variable.four}">$text</p><p class="${selector}.five">$text</p>');
+            R.templateTests.runTests();
+        
+        var F1000platform = new F1000.Platform({
+            name: "f1000research",
+            displayName: "F1000Research",
+            hostName: "f1000research.com",
+            id: "1",
+            editorialEmail: "research@f1000.com",
+            infoEmail: "info@f1000.com",
+            usePmcStats: true
+        });
+
+                    $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+            // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+            $(document).ready(function () {
+                if ($(".cookie-warning").is(":visible")) {
+                    $(".sticky").css("margin-bottom", "35px");
+                    $(".devices").addClass("devices-and-cookie-warning");
+                }
+                $(".cookie-warning .close-button").click(function (e) {
+                    $(".devices").removeClass("devices-and-cookie-warning");
+                    $(".sticky").css("margin-bottom", "0");
+                });
+
+                $("#tweeter-feed .tweet-message").each(function (i, message) {
+                    var self = $(message);
+                    self.html(linkify(self.html()));
+                });
+
+                $(".partner").on("mouseenter mouseleave", function() {
+                    $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+                });
+            });
+        
+    </script>
+
+            
+<div class="sign-in-popup">
+	<!-- <a href="#" class="sign-in shadow">Sign in <span class="sign-in-image-active"></span></a> -->
+	<a href="#" class="sign-in ${locale}">Sign In <span class="arrow-closed sign-in-arrow-padding arrow-opened"></span></a>
+	<div class="sign-in-form">
+
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="googleOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/7-1852.html"/>
+                            <input id="google-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-google" name="system" type="hidden" value="GOOGLE"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="facebookOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/7-1852.html"/>
+                            <input id="facebook-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-fb" name="system" type="hidden" value="FACEBOOK"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="orcidOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/7-1852.html"/>
+                            <input id="orcid-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-orcid" name="system" type="hidden" value="ORCID"/>
+    </form>
+		<form id="sign-in-form" class="login-container" action="https://f1000research.com/login" method="post" name="f">
+           <div id="sign-in-form-gfb-popup"></div>
+
+                                                            <input class="target-field" type="hidden" name="target" value="/articles/7-1852.html"/>
+                            			<input type="text" name="username" id="signin-email-box" class="sign-in-input" placeholder="Email address" autocomplete="email">
+			<input type="password" name="password" id="signin-password-box" class="sign-in-input" placeholder="Password" autocomplete="current-password">
+			<div class="sign-in-remember">
+                <div class="checkbox-wrapper">
+    				<input type="checkbox" id="remember-me" name="remember_me" class="checkbox is-hidden">
+                </div>
+                <span class="checkbox-label">Remember me</span>
+			</div>
+			<a href="#" class="sign-in-link" id="forgot-password-link">Forgotten your password?</a>
+			<div class="sign-in-button-container margin-top margin-left-20 margin-bottom">
+				<button type="submit" id="sign-in-button" class="sign-in-buttons general-white-orange-button">Sign In</button>
+				<button type="button" id="sign-in-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="sign-in-error">Email or password not correct. Please try again</div>
+			<div class="sign-in-loading">Please wait...</div>
+		</form>
+		<div class="forgot-password-container">
+			
+<script type="text/javascript">
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("GOOGLE");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=facebookSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("FACEBOOK");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=orcidSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("ORCID");
+            $("form[id=oAuthForm]").submit();
+        });
+	});
+</script>
+
+<span class="text first">
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+    <p>The email address should be the one you originally registered with F1000.</p>
+</span>
+<input name="email" class="sign-in-input" id="email-forgot-password" type="text" placeholder="Email address">
+<div class="forgot-password-email-error">
+	Email address not valid, please try again
+</div>
+<div class="forgot-password-google-email-error">
+    <p>You registered with F1000 via Google, so we cannot reset your password.</p>
+	<p>To sign in, please click <a href="#" id="googleSignInButton">here</a>.</p>
+    <p>If you still need help with your Google account password, please click <a href="https://www.google.com/accounts/recovery">here</a>.</p>
+</div>
+<div class="forgot-password-facebook-email-error">
+    <p>You registered with F1000 via Facebook, so we cannot reset your password.</p>
+    <p>To sign in, please click <a href="#" id="facebookSignInButton">here</a>.</p>
+	<p>If you still need help with your Facebook account password, please click <a href="https://www.facebook.com/recover/initiate">here</a>.</p>
+</div>
+<div class="clearfix"></div>
+<div class="forgot-password-captcha-error">
+	Code not correct, please try again
+</div>
+<div class="clearfix"></div>
+<div class="sign-in-button-container margin-left-20 margin-bottom">
+	<button type="button" id="sign-in-reset-password" class="sign-in-buttons general-white-orange-button">Reset password</button>
+	<button type="button" id="forgot-password-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+	<div class="clearfix"></div>
+</div>
+<span class="text last">
+	<a href="mailto:">Email us</a> for further assistance.
+</span>
+<form action="https://f1000research.com/j_spring_oauth_security_check" id="oAuthForm" method="post" target="_top">
+                        <input class="target-field" type="hidden" name="target" value="/articles/7-1852.html"/>
+                <input id="oAuthSystem" name="system" type="hidden"/>
+</form>
+			<div class="forgot-password-server-error">Server error, please try again.</div>
+			<div class="sign-in-success">
+                <p>We have sent an email to <span id="email-value"></span>, please follow the instructions to reset your password.</p>
+                <p>If you don't receive this email, please check your spam filters and/or contact .</p>
+            </div>
+			<div class="sign-in-loading">Please wait...</div>
+		</div>
+
+		<div class="sign-in-form-register-section">
+			<div class="sign-in-button-container margin-left-20 margin-bottom">
+				<a href="/register" title="Register"><button type="button" id="sign-in-register-button" class="sign-in-buttons general-white-orange-button">Register</button></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+    $(".target-field").each(function () {
+        var uris = $(this).val().split("/");
+        if (uris.pop() === "login") {
+        	$(this).val(uris.toString().replace(",","/"));
+        }
+    });
+});
+</script>
+        <div id="templateOverlay" class="is-hidden" hidden="hidden">
+  <div class="o-overlay js-overlay is-hidden" hidden="hidden"></div>
+</div>
+
+<div id="templateExternalMessages" class="is-hidden" hidden="hidden">
+  <div class="o-modal o-modal--auto@md js-external-messages is-hidden" hidden="hidden">
+    <div class="o-modal__body">
+      <section class="c-console">
+        <div class="_mdl-layout c-console__bdy js-external-messages-body"></div>
+        <footer class="_mdl-layout c-console__ftr o-flex o-flex--reverse js-external-messages-footer">
+          <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-console__btn js-external-messages-close" data-action="maintenance-close">I Understand</button>
+        </footer>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<script src="/js/namespace.js"></script>
+<script src="/js/constants.js"></script>
+<script src="/js/utilities.js"></script>
+
+<script>
+                  F1000.ExtenalMaintenanceItems = [
+    {
+      start: '2018-12-10T14:21:00Z',
+      end: '2018-12-13T16:00:00Z',
+      msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+      cookieName: 'outage23122018',
+      editor: false,
+    }
+  ];
+</script>
+
+<script src="/js/shared_scripts/cookie-helper.js"></script>
+<script src="/js/shared_scripts/mdl-helper.js"></script>
+
+<script src="/js/app/external-maintenance.js"></script>
+
+                <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5646075-11', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        
+                <script type="text/javascript" src="/js/app/research.analytics.js"></script>
+
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4475190.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    
+            <script src="https://my.hellobar.com/4e0495c6f18cbd68731a1dc1978195a144e767ba.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+
+</html>

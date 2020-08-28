@@ -1,0 +1,76 @@
+The authors have clearly worked hard to align their paper with our suggestions.
+This makes the paper a long read, especially in the methods section, and we now
+have most of the original analyses supplemented with the analyses that we
+suggested. For example, the multiple imputation follows the description of single
+imputation analyses, and the investigation of non-linear associations now follows
+the standard linear assumption. So this is much to process for the reader. That
+being said, the complexity is a fair reflection on how the findings were derived
+and the order the methods were operationalised. I have a few main comments
+remaining, which I’m sure the authors can address, and some minor ones.
+Main comments
+•
+Results ‘Main associations …’ section. When the authors say ‘In model 1
+…’ – I think it would help to remind the reader what this model is (specifically
+what adjustment factors were included). Also, there is still no mention of
+
+whether the proportional hazards assumption was sensible for the analyses
+reported.
+•
+And, the linearity assumption is mentioned for the first analysis, but not
+for the others. The spline plot is a very nice addition (I thank the authors for
+doing this on the log scale now), and shows that the linearity assumption appears
+sensible for this one outcome, but what about other outcomes of CHD and
+Cerebrovascular disease?
+•
+The abstract focuses on hazard ratios. I think it would be beneficial to
+also indicate how they translate to change in absolute risk by a particular
+time-point. The hazard ratio appears small, and the impact on absolute risk may
+be very small. This is an important point to convey to the reader. The results and
+discussion may also benefit from this
+•
+In the discussion, can the authors discuss whether further research
+might rather analyse the total amount of ultra-processed food eaten, rather than
+as a % of the total diet? I am not sure if this would change the findings or be
+relevant to the field, but to me, the absolute amount may be more important (or
+also important) than %.
+Minor comments
+•
+In the What This Study Adds: “An absolute increment of 10 in the
+percentage of ultra-processed foods in the diet was associated with a >10%
+significant increase in the risks of overall cardiovascular, coronary heart, and
+cerebrovascular diseases.” I would remove the word significant in this sentence.
+•
+“Absolute CVD risks were 253 for 100000 person years in the whole
+population: more specifically, age and sex-corrected absolute CVD risks were 242
+for 100000 person years …” – I think CVD risks should be changed to CVD rates
+in this sentence.
+•
+“More specifically, ultra-processed beverages (P=0.004) were associated
+with increased overall CVD, ultra-processed fats and sauces (P=0.04) and meats
+(0.05) were associated with increased coronary heart diseases, and
+ultra-processed beverages (P=0.01), sugary products (P=0.05) and salty snacks
+(P=0.04) were associated with increased cerebrovascular diseases” – I think it
+would be beneficial for the p-values to be replaced or supplemented with HRs and
+CIs here.
+•
+“In contrast, none of these food groups were associated with CVD risk in
+their non-ultra-processed form …” – I think the authors are better to say that
+there was no strong evidence for an association, rather than there is definitely
+not an association.
+•
+Table 2: I still do not find the sex-specific quartiles easy to follow. I
+would have thought there were 4 for males and 4 for females, but they seem to
+be lumped together? Please can the authors clarify how these groupings are
+created and analysed in their article?
+•
+“The association between ultra-processed food and overall cardiovascular
+risk was also investigated separately in different strata of the population:
+men/women, younger adults (<45y)/older adults (≥45y), participants with a high
+lipid intake (>median)/those with a lower one, participants with a BMI<25
+Kg/m2/those with a BMI≥25 Kg/m2, …” – as mentioned before, these groupings
+are rather arbitrary, and a better approach would have been to look at the
+interaction between the continuous covariate and the effect of ultra-processed
+food (rather than creating groups and looking in them separately). But, at this
+stage, I do not think it makes sense to ask the authors to do anymore work on
+this specific point.
+Best wishes, Richard Riley

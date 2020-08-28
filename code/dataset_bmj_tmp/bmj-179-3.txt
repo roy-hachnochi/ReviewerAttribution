@@ -1,0 +1,66 @@
+Statistical Review
+In this study the authors have used meta-epidemiological methods to investigate how
+different types of blinding in randomised clinical trials impact on study findings. They have
+
+used existing systematic reviews obtained from the Cochrane Library, identified
+meta-analyses which mixed together trials which did and did not use blinding, and then used
+advanced state-of-the-art meta-analytical models to investigate the differences in study
+findings according to blinding status. They contacted authors to clarify the blinding status
+in trials where necessary, and used study findings extracted from the original Cochrane
+meta-analyses. By combining comparisons across many different reviews they are able to
+investigate whether blinding has an impact, and investigate whether the impact is consistent
+across studies and clinical comparisons. They categorised blinding according to the aspect
+of the trial that was blind (patient, patient care, outcome assessment) and the type of
+outcome. They adjusted for other aspects of study design (such as concealed
+randomisation) known to introduce bias. The authors should be congratulated on completing
+this important study. The authors’ key finding is that a clear effect of blinding is not
+detectable in these trials.
+The study is well executed and generally well reported. My suggestions are for the authors
+to reconsider the explanation of their methods and findings. Part of this is because many
+readers would struggle to understand the meta-epidemiological approach with the level of
+detail currently included, and the analysis model as currently explained; part because the
+interpretation of the analyses does not appear to take notice of key aspects of heterogeneity
+in their findings.
+1) First, it is helpful to consider the way in which not blinding, should it be important, could
+influence trial results. The model that the authors have fitted to the data allows for three
+different ways in which this could occur:
+a) The simplest consideration is that lack of blinding would increase the estimates of
+treatment effects, leading to overestimation of the benefits of new or experimental
+interventions. This is based on the idea that any bias would always act in the same
+direction, favouring experimental over control, which would lead to relative odds ratios
+acting in the same direction. Key to this is appropriate coding of the two interventions in
+each comparison as “experimental” and “control” which the authors carefully address in their
+manuscript, and appear to have used a reasonable method to define.
+b) However, the first complication is that the bias might act in different directions for
+different clinical scenarios. This would lead to lack of blinding overestimating the benefits of
+new or experimental interventions compared to control for some clinical questions, but
+underestimating benefits for others.
+c) The second level of complication is that the bias might act in different directions in
+different trials for the same clinical scenario. This means that some unblinded trials would
+overestimate the treatment effect whereas others would underestimate the treatment effect
+for the same clinical question.
+In the model that the authors have used, the first type of bias would be detected by
+observing a relative odds ratio different from 1, the second and third increase heterogeneity,
+either between meta-analyses or within meta-analyses. These are estimated by the
+heterogeneity of the ROR statistics between comparisons and within comparisons.
+The authors need to explain the model and these issues more clearly in their manuscript,
+and give guides to a reader as to how they should interpret the ROR and the heterogeneity
+statistics. For example, it might help a reader if values of the ROR and the heterogeneity
+statistics are reported for other aspects of study design for purposes of comparison (e.g. as
+from reference 12).
+2) Given that the authors have fitted a model that includes all three potential effects, the
+interpretation in the paper appears to reflect exclusively on testing the first mechanism, that
+not blinding would always introduce a bias that acts consistently in the same direction. My
+observation is that, whilst their estimates of an overall average bias suggests that it may not
+exist, they have estimated increases in both sorts of heterogeneity in the models, and that
+these increases appear large in comparison to estimates made in previous studies using the
+same model.
+
+Could the authors reflect on what the impact of these increase in heterogeneity are? It is
+hard for a reader to gauge what magnitude of increase could lead to important bias in the
+form in which they are currently presented. Could the authors find alternative ways to
+present these to help understand the magnitude of bias they could reflect? If it is large,
+then the conclusions of the paper need revision.
+3) Could the authors reflect on the limitations of the model which has been fitted? For
+example, my understanding is that the model is unidimensional and only allows for increases
+(and not decreases) in heterogeneity with non-blinding.

@@ -1,0 +1,14 @@
+This paper reports PM10 effects on daily mortality estimated from standard time-series analysis. All the results can be
+pretty much expected from the other studies. I think Figure 5 is the most important contribution of the paper. Many
+researchers have suggested similar shapes from several studies which are heterogeneous. But the authors present this
+shape from one study. I think the authors should focus more on these dose-response curves.
+ My understanding is that the PM10 values were derived from API. Since they didn’t use the directly measured PM10
+values, they should describe more on validation. They explained a little bit in the appendix but explanation of validation
+should be strengthened in the paper.
+ I have some concerns on the modeling. It is well known that time-series data are auto-correlated. How to model timedependency is one of issues of the time-series analysis. How do you respond?
+ It is also well known that there is strong seasonal effect in mortality. Seasonal adjustment is another issue.
+ Equation (2) should be explained more. What are the city-specific factors that affect mortality in city j?
+ I suggest using random effect models to estimate combined effects of PM10. Meta regression or mixed effects models
+can be applied.
+ I really want to see mathematical expression of the dose-response curves in Figure 5. The authors explained that they
+used 4th order polynomial. I really want to see the coefficients of the equation so that anyone can draw the curves.

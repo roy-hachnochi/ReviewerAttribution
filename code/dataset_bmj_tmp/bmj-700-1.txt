@@ -1,0 +1,41 @@
+Major concerns:
+
+(1) The inclusion and exclusion criteria were not described in the text. Did the authors limit the study
+design only to completely randomized design? Or they also included other study designs, e.g.
+factorial design, partial factorial design, etc.
+2) The event rates varied a lot across studies in this meta-analysis. For example, the even rate in the
+treatment group was as low as about 1% (Seino, 2012). In such situation, RR from this study may be
+unstable. Did the author consider any specific method to treat rare event (e.g. 1%), e.g. Poisson
+random effects model?
+3) The statistical heterogeneity test showed there was no variation across 10 included studies (Isquare=20%, P=0.26). However, this heterogeneity test only reflected the difference in the effect
+estimates (RRs) from each study. It could not reflect the event rate levels themselves. There are a
+huge variation between even rates themselves, e.g. the even rate in the treatment group was as low
+as about 1% (Seino, 2012), and as high as about 30% (Barnett, 2013), which deserved a discussion.
+4) The extracted information should be listed for each arm, not for overall. Though randomization
+can improve the balance of these characteristics between groups, it cannot guarantee the balance. It
+would be better to show important variables, e.g, HbA1c and age, by study arm. And compare
+whether there is a significant difference in these key factors. It there is unbalance, the related
+variables should still be adjusted in a meta-regression framework.
+5) The authors missed some important information such as statistical design (here I mean
+completely randomized design, factorial design, etc, since all of them are RCTs), and gender (e.g.
+male proportion) in table 1.
+6) Since hypoglycaemia is a serious adverse event, the relation between such adverse event and
+medication should be commonly evaluated in a RCT. Therefore, this meta-analysis should also pool
+the risk ratio for adverse effect if possible, though most of the adverse events may be adverse
+effects.
+
+Minor concerns:
+1) Page 2, line 34 to 41, what is the P for interaction between the dose (full vs. low) and DPP4-I use?
+2) Page 2, line 46, 50% should be 52% , or about 50%, also please correct throughout the text.
+3) Page 4, line 6 to 8, the full name should be given for ACCORD.
+4) Page 6, line 13 to 19, based on the description here, the authors of this meta-analysis should have
+gotten some requested data from the principal authors. But this reviewer did not find any sign to
+indicate there is such data throughout the text.
+5) Page 7 to 8, statistical analysis part, since the significance level was set as 0.10 for heterogeneity
+test, the authors should also report the level for publication bias test, and for main analysis.
+
+6) Page 24, Figure 1, the last sentence in the legend does not match the numbers in the box. Out of
+13 studies that could be eligible, data from three studies, not four studies, were not available.
+7) Page 30, Figure 7, the x-axis should be ln(RR), not RR.
+8) Page 31 and 32, Table 1 and 2 could be combined, not necessary to separate them.
+9) Page 37, it is debatable to combine low risk of bias and unknown risk of bias.

@@ -1,0 +1,1 @@
+I concur with all comments made by the first referee. Additionally, it would be necessary to demonstrate that the method provides sound results using a benchmark set, comparing the results obtained with the original CLASP implementation. As it is, it is impossible to judge if the gain in computational performance is (totally or partially) offset by a loss in predictive capacity.

@@ -1,0 +1,32 @@
+This is a clever idea that examines an important problem. The analysis appears to have been well
+planned and executed. The authors considered the important confounder of an imbalance in genders
+across fields. There were some sensible sensitivity analyses. The authors could definitely use “novel” in
+their abstract!
+
+The difference between genders was small on an absolute scale. However, any association is interesting,
+because it confirms that this is a viable pathway for explaining some of the large discrepancy in careers,
+and similar differences might also exist in talks, jobs applications, CVs, etc.
+The discussion talks about a disadvantage for women because of their more cautious use of language.
+However, this could be reversed, as a more cautious use could well be more scientifically sound,
+especially for results that are novel and have yet to be replicated. The argument could be framed as
+men needing to be more cautious and for them to catch-up with women. There is a growing scrutiny of
+the past literature (including papers like this one) and a growing understanding of spin. We should be
+careful of using language that may encourage women (or men) to do the wrong thing in order to benefit
+their career.
+The authors looked at a binary response of any positive word in the abstract. Why not examine a count
+of the number of positive words per abstract? Perhaps the Poisson assumption of independent
+observations is violated, but more positive words could plausibly create a stronger reaction in readers,
+so a model looking at counts seems reasonable.
+The authors did not control for the number of words in the abstract. If men tend to write longer
+abstracts, then part of the effect may simply be the use of more words. Conversely if men write shorter
+abstracts, then the observed effect will be even stronger on a per-word scale.
+Minor comments
+- Table 1. 1 decimal place for percents should be fine, and could be integers for those over 10%
+- Page 7, it would be useful to compare the characteristics of articles with and without missing author
+gender, as this is a potential source of bias
+- Page 12, line 20, statistical significance is not a good criteria for importance. It wasn’t clear if the
+results in this paragraph were the adjusted ones.
+- The association between positive words in the abstract and subsequent citation counts was examined
+using linear regression. The large sample size may mean this approach is fine, but the large number of
+zeros could mean that a better approach is a Poisson regression model. The residuals of the linear model
+should be checked for skew and outliers.

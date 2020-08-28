@@ -1,0 +1,20 @@
+Stats Review:
+Critical (In Abstract and Main Body of manuscript) - Whenever reporting means (Results), please also provide SDs
+In Abstract - Please specify that these are number of coffees/person X years. There is some confusion here as in the
+‘outcome measures’ it says ‘total coffee purchased over a calendar year …’ but then in the results these are ported as
+per individuals ‘male doctors bought…’
+
+In ‘What this study adds’ depending on editors, this could read ‘purchasing habits’ instead of ‘drinking habits’. Similarly
+‘surgeons purchase most coffee’. Nevertheless purchasing can be regarded as a very good proxy for drinking (this might
+be included as a limitation or potentially in the Background).
+Statistical Methods:
+If they are interested in pairwise comparisons, as they have several groups that can be compared they are likely to need
+some kind of adjustment for multiple comparisons (if they want to do formal hypothesis testing). The option of just
+presenting 95%CI does not deal with this multiple comparisons. Having said that, if their intention is just to rank the
+specialties by coffee consumption then this should be ok and just use ANOVA to say that there were differences.
+It depends on what they are interested in doing, formally test for differences or just present descriptive statistics of
+coffee consumption.
+They need to specify more clearly in the methods their unit of analysis. For their primary analysis it seems it is just total
+number of coffees consumed. However, for the specialty analysis (as well as gender) it appears to be coffees X person X
+year (and not coffees X year) by specialty. This is mention in the Results but please clarify in the Methods.
+Same as above for the outcome of “rounds”

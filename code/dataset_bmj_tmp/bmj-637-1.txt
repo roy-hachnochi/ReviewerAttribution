@@ -1,0 +1,50 @@
+Nyboe Andersen and colleagues have utilized the extensive medical records linkage
+capability of the various Danish medical registries to assemble a true nationwide
+cohort of patients with inflammatory bowel disease in Denmark. They have posed the
+question of whether anti-TNF agents are associated with an increased risk of serious
+infection in patients with IBD—this is a topical question, because data are conflicting
+on this point in the IBD literature. They have constructed a matched cohort study
+(age, gender, IBD duration, IBD subtype, propensity score excluding azathioprine and
+corticosteroid use) of over 1500 anti-TNF exposed and over 1500 unexposed patients.
+Cox proportional hazards regression analysis was used to determine if any use of antiTNF drug was associated with time to first serious infection (defined as an infection
+associated with a hospitalization) in the first 90 days or the first 365 days after
+initiation of therapy. They found that in the first 90 days, IBD patients exposed to antiTNF agents were 63% more likely to develop serious infection compared to the
+unexposed. For the first 365 days, this increased risk decreased to 1.27 times, and
+was no longer statistically significant. Supplemental analyses included a comparison of
+serious infection risk between patients on anti-TNF monotherapy versus those on
+thiopurine monotherapy—risks were elevated about twofold but not quite statistically
+significant. A non-propensity score-matched analysis of all 4200 anti-TNF exposed
+patients and 46,000 unexposed patients showed slightly higher risks (hazard ratios of
+1.8 at 90 days and 1.52 at 365 days).
+The study is very importantly and timely. I think the authors should address the
+following issues, however:
+1. First of all, presumably there is a window of time, when drug is on board, that the
+infection risk exists. Unless one postulates a significantly prolonged pharmacodynamic
+effect, one can rely on pharmacokinetic data to “guesstimate” that the time of
+elevated risk of infection would be within 5 half-lives of the last dose of medication.
+It’s not explicitly stated but I think this study examines anti-TNF use as ever or never.
+I think the estimate of risk could be improved by factoring in the duration of anti-TNF
+use and the stop dates of anti-TNF drug.
+2. I also would like to hear more justification of the use of the propensity score
+matching. The strict matching results in a loss of 64% of the potential exposed cases.
+Does the benefit of propensity score matching warrant the loss of nearly 2/3 of
+exposed patients?
+3. IBD case definition: please be more specific in Methods about how an IBD case is
+defined. How many ICD-8 or ICD-10 codes or needed to define a case. You discuss the
+sensitivity and specificity of diagnostic codes for IBD from another study, but that
+study is now almost 20 years old. Did you use the same definition of an IBD case? If
+you used a different definition, have you got any validation information to share?
+4. How did you handle patients who had in their records ICD codes for both Crohn’s
+and UC?
+5. Anti-TNF exposure was obtained from 4 different sources. How many sources
+needed to be “positive” for a patient to be considered exposed? This section of the
+Methods briefly mentions the Danish Crohn Colitis Database but the average reader
+might not know what this is—you should reference it and perhaps briefly describe it.
+6. Serious infection definition: how can you tell from the registries if the patient was
+primarily hospitalized for an infection? Can you discriminate between that and a
+nosocomial infection occurring in an IBD patient who had hospitalized for a different
+reason? This should be made more clear.
+7. Propensity score: How was this actually calculated? Adding up the various variables
+in eTable 2? What was the range of scores for the propensity score? How close did the
+match have to be?
+8. Figure 1: might be helpful to more precisely define how case of IBD was defined

@@ -1,0 +1,34 @@
+The investigators have explored the consequences of the potential drug interaction between tamoxifen and SSRI
+antidepressants that inhibit CYP2D6. This is a topic of considerable interest given the prevalence of breast cancer and
+the widespread use of antidepressants.
+General comments:
+This is a well-written manuscript. However, I am concerned that the study’s validity is undermined by two important
+methodologic limitations, both of which are acknowledged by the authors. The first is the very limited follow-up
+(median 2.2 and 2.0 years in the two cohorts); this is important because most deaths attributable to SSRI-mediated
+inhibition of CYP2D6 would be expected to occur later. (The delayed consequences of the SSRI-tamoxifen interaction
+make it an unusual one; this is why in our 2010 study we commenced observation after the cessation of tamoxifen
+therapy.) The second is reliance on the outcome of all-cause mortality rather than breast cancer-specific mortality per
+se. I appreciate that this was unavoidable, but it can only introduce noise in the analysis. The sensitivity analysis
+involving women with a prior diagnosis does not lessen this concern.
+Specific comments:
+The introduction is suitably brief but would be strengthened by the citation of studies that demonstrate the effect to
+which CYP2D6 inhibition by SSRIs reduces endoxifen synthesis. (Here is a particularly relevant example
+http://www.ncbi.nlm.nih.gov/pubmed/26446141)
+The methodology is well described and for the most part appropriate, notwithstanding the limitations noted earlier. A
+few comments:
+- the intention-to-treat analysis (p 6) could be described differently, since ITT analyses are primarily intended to
+maintain the integrity of randomization in RCTs. (“As treated”, p8, is better.)
+
+- the authors should outline which CYP2D6 inhibitors/inducers they included (page 7) and how these were accounted
+for in the analysis.
+- the propensity score analysis seems unnecessary to me given the general lack of channeling for most SSRIs, as
+Table 1 demonstrates. It does not extinguish the possibility of confounding in any event.
+- additional detail should be provided on the selection and fit of the Cox model, and on how the proportional hazards
+assumption was tested.
+Discussion:
+On page 13, the authors note “It is also plausible that the degree by which tamoxifen is rendered ineffective due to
+CYP2D6 inhibition varies by menopause status.” Perhaps I’ve missed it but I don’t find this observation in the cited
+reference (19).
+Tables and Figures:
+The supplementary tables in particular are almost overwhelming. I suspect these could be reduced by at least 50%
+with no real loss of information.

@@ -1,0 +1,32 @@
+Thanks for the suggested amendments.
+Just a few more minors relating to the same issues I raised before but I don't necessarily
+need to see the changes.
+The authors have now clarified that logistic regression models were used - this is now
+much clearer on what was done. Traditionally these models produce odds ratios, but the
+authors report risk ratios with 95% confidence intervals (Table 4) and the risk rate
+difference. In the text these are listed as IRR's. For the readers, it might be worth adding
+a sentence on how these measures were computed from the logistic regression models
+fitted.
+Please also note you have changed rate ratios to risk ratios - this is not consistently
+changed throughout - e.g. Table 4 header still reads 'rate'.
+
+Additional Questions:
+Please enter your name: Jamie Kirkham
+Job Title: Senior Lecturer in Medical Statistics
+Institution: University of Liverpool
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests <A
+HREF='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/d
+eclaration-competing-interests'target='_new'> (please see BMJ policy) </a>please declare
+them here:
+
+

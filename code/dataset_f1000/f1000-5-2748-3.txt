@@ -1,0 +1,592 @@
+In the manuscript, Komljenovic et al. present BgeeDB which is an R package for retrieval of expression datasets which have been curated. Additionally, they also provide a method (TopAnat) to determine tissue-specific enrichments for a given list of genes and species. The former is a very useful resource because there is clearly a need for a database that provides gene expression datasets which are homogenous in nature and are of comparable quality. The BgeeDB database contains gene expression datasets from 17 species across different tissues and developmental stages, which is impressive. The fact that the database can be queried via a Bioconductor package should ensure that the database will be used by both - wet-lab biologists and computational scientists. Similarly, the TopAnat method also provides a useful functionality to determine anatomical expression enrichment on a user specified list. I have a few minor comments regarding the manuscript: The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this was achieved. I assume that the authors have an automated pipeline in place but it would be beneficial for readers to know how this was done. The authors state that “TopAnat allows for discovery of tissues where a set of genes is preferentially expressed”. Is TopAnat the only tool that offers such a functionality? A brief background of similar tools that are currently available will be useful for the readers. I was not able to run the workflow that the authors have included in the Supplementary material: See below: source("https://bioconductor.org/biocLite.R") biocLite("BgeeDB") biocLite(c("edgeR", "Mfuzz", "biomaRt")) library(BgeeDB) listBgeeSpecies() bgee_affymetrix - Bgee$new(species="Mus_musculus", dataType="affymetrix", release="13.2") Error in envRefSetField(.Object, field, classDef, selfEnv, elements[[field]]) : 'dataType' is not a field in class "Bgee" ## Turns out that I need to use "datatype" instead of "dataType" bgee_affymetrix - Bgee$new(species="Mus_musculus", datatype="affymetrix") bgee_affymetrix - Bgee$new(species="Mus_musculus", datatype="affymetrix", release="13.2") Error in envRefSetField(.Object, field, classDef, selfEnv, elements[[field]]) : 'release' is not a field in class "Bgee" #### At this moment, I did not try further. The authors need to clearly state what version of BgeeDB was used to create this workflow. If something has changed, then this needs to be appropriately addressed. I tried using “release=13.2” but it did not work. I did manage to run an enrichment test for anatomical terms though with some tweaking ## Again an error message bgee_topanat - loadTopAnatData(species="Danio_rerio") Error in loadTopAnatData(species = "Danio_rerio") : Problem: the specified speciesId is not among the list of species in Bgee. ## This works though myTopAnatData - loadTopAnatData(species="7955") #### The rest of the work-flow went smoothly and I was able to get a list of anatomical structures sorted by their p-value head(tableOver) organId organName annotated significant 12 UBERON:0004357 paired limb/fin bud 144 41 2 UBERON:0000151 pectoral fin 420 70 22 UBERON:2000040 median fin fold 51 18 9 UBERON:0003051 ear vesicle 304 41 15 UBERON:0005729 pectoral appendage field 16 10 16 UBERON:0007390 pectoral appendage cartilage tissue 17 9 expected foldEnrichment pValue FDR 12 7.15 5.734266 1.622480e-22 1.445630e-19 2 20.85 3.357314 1.037552e-18 4.622296e-16 22 2.53 7.114625 7.171001e-12 2.129787e-09 9 15.09 2.717031 3.135769e-10 6.984926e-08 15 0.79 12.658228 4.004917e-10 7.136762e-08 16 0.84 10.714286 2.411891e-08 3.581659e-06 It would be useful if the authors could include a feature that allows the TopAnat method to print the 41 genes which represent the paired limb/fin bud. At some point, the users might want to revisit their gene lists and tag their genes based on the different anatomical structures. Other tools that perform Enrichment tests, for example Enrichr 1 , have this feature and this is extremely useful, in my opinion. References 1. Kuleshov MV, Jones MR, Rouillard AD, Fernandez NF, et al.: Enrichr: a comprehensive gene set enrichment analysis web server 2016 update. Nucleic Acids Res . 2016; 44 (W1): W90-7 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Sharma V. Reviewer Report For: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests [version 2; peer review: 2 approved, 1 approved with reservations] . F1000Research 2018, 5 :2748 ( https://doi.org/10.5256/f1000research.10748.r17925 ) The direct URL for this report is: https://f1000research.com/articles/5-2748/v1#referee-response-17925 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 07 Aug 2018 Frederic Bastian , University of Lausanne, Lausanne, Switzerland 07 Aug 2018 Author Response The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this ... Continue reading The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this was achieved. I assume that the authors have an automated pipeline in place but it would be beneficial for readers to know how this was done. There is now a complete and updated documentation for the Bgee pipeline: https://github.com/BgeeDB/bgee_pipeline We have included this information in the manuscript, as well as a brief outline of the analyses we perform, see "Introduction" section. --- The authors state that “TopAnat allows for discovery of tissues where a set of genes is preferentially expressed”. Is TopAnat the only tool that offers such a functionality? A brief background of similar tools that are currently available will be useful for the readers. We have added a paragraph describing similar tools, see end of the "Introduction" section. --- I was not able to run the workflow that the authors have included in the Supplementary material: [...] At this moment, I did not try further. The authors need to clearly state what version of BgeeDB was used to create this workflow. If something has changed, then this needs to be appropriately addressed. I tried using “release=13.2” but it did not work. We suspect that the reviewer did not use the latest version of the package (maybe the Bioconductor release itself needs to be updated first). The reviewer could maybe uninstall the BgeeDB package and rerun the following steps: source("https://bioconductor.org/biocLite.R") biocLite("BgeeDB") sessionInfo() With a package version = 2.6.2, the errors should disappear. The R, Bioconductor, and BgeeDB package version requirements are listed at the beginning of the "Methods" section. If the problem persists, could the reviewer post the sessionInfo() results? Of note, the “release” argument is used to specify a particular Bgee release, but this is independent of the package version. --- I did manage to run an enrichment test for anatomical terms though with some tweaking ## Again an error message bgee_topanat - loadTopAnatData(species="Danio_rerio") Error in loadTopAnatData(species = "Danio_rerio") : Problem: the specified speciesId is not among the list of species in Bgee. ## This works though myTopAnatData - loadTopAnatData(species="7955") #### Again, this should be solved by updating to the last BgeeDB version --- The rest of the work-flow went smoothly and I was able to get a list of anatomical structures sorted by their p-value [...] It would be useful if the authors could include a feature that allows the TopAnat method to print the 41 genes which represent the paired limb/fin bud. At some point, the users might want to revisit their gene lists and tag their genes based on the different anatomical structures. Other tools that perform Enrichment tests, for example Enrichr, have this feature and this is extremely useful, in my opinion. This is a good point. It is possible to cross the geneList vector with the expression mapping present in the myTopAnatData object. Another approach is to use functions that are inherited from the topGO package. For the “paired limb/fin bud” term: myTerm - "UBERON:0004357" termStat(myTopAnatObject, myTerm) # 198 genes mapped to this term for Bgee 14.0 and Ensembl 84 genesInTerm(myTopAnatObject, myTerm) # 48 significant genes mapped to this term for Bgee 14.0 and Ensembl 84 annotated - genesInTerm(myTopAnatObject, myTerm)[["UBERON:0004357"]] annotated[annotated %in% sigGenes(myTopAnatObject)] We have added this example at the end of the "Anatomical expression enrichment analysis" section. The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this was achieved. I assume that the authors have an automated pipeline in place but it would be beneficial for readers to know how this was done. There is now a complete and updated documentation for the Bgee pipeline: https://github.com/BgeeDB/bgee_pipeline We have included this information in the manuscript, as well as a brief outline of the analyses we perform, see "Introduction" section. --- The authors state that “TopAnat allows for discovery of tissues where a set of genes is preferentially expressed”. Is TopAnat the only tool that offers such a functionality? A brief background of similar tools that are currently available will be useful for the readers. We have added a paragraph describing similar tools, see end of the "Introduction" section. --- I was not able to run the workflow that the authors have included in the Supplementary material: [...] At this moment, I did not try further. The authors need to clearly state what version of BgeeDB was used to create this workflow. If something has changed, then this needs to be appropriately addressed. I tried using “release=13.2” but it did not work. We suspect that the reviewer did not use the latest version of the package (maybe the Bioconductor release itself needs to be updated first). The reviewer could maybe uninstall the BgeeDB package and rerun the following steps: source("https://bioconductor.org/biocLite.R") biocLite("BgeeDB") sessionInfo() With a package version = 2.6.2, the errors should disappear. The R, Bioconductor, and BgeeDB package version requirements are listed at the beginning of the "Methods" section. If the problem persists, could the reviewer post the sessionInfo() results? Of note, the “release” argument is used to specify a particular Bgee release, but this is independent of the package version. --- I did manage to run an enrichment test for anatomical terms though with some tweaking ## Again an error message bgee_topanat - loadTopAnatData(species="Danio_rerio") Error in loadTopAnatData(species = "Danio_rerio") : Problem: the specified speciesId is not among the list of species in Bgee. ## This works though myTopAnatData - loadTopAnatData(species="7955") #### Again, this should be solved by updating to the last BgeeDB version --- The rest of the work-flow went smoothly and I was able to get a list of anatomical structures sorted by their p-value [...] It would be useful if the authors could include a feature that allows the TopAnat method to print the 41 genes which represent the paired limb/fin bud. At some point, the users might want to revisit their gene lists and tag their genes based on the different anatomical structures. Other tools that perform Enrichment tests, for example Enrichr, have this feature and this is extremely useful, in my opinion. This is a good point. It is possible to cross the geneList vector with the expression mapping present in the myTopAnatData object. Another approach is to use functions that are inherited from the topGO package. For the “paired limb/fin bud” term: myTerm - "UBERON:0004357" termStat(myTopAnatObject, myTerm) # 198 genes mapped to this term for Bgee 14.0 and Ensembl 84 genesInTerm(myTopAnatObject, myTerm) # 48 significant genes mapped to this term for Bgee 14.0 and Ensembl 84 annotated - genesInTerm(myTopAnatObject, myTerm)[["UBERON:0004357"]] annotated[annotated %in% sigGenes(myTopAnatObject)] We have added this example at the end of the "Anatomical expression enrichment analysis" section. Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 07 Aug 2018 Frederic Bastian , University of Lausanne, Lausanne, Switzerland 07 Aug 2018 Author Response The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this ... Continue reading The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this was achieved. I assume that the authors have an automated pipeline in place but it would be beneficial for readers to know how this was done. There is now a complete and updated documentation for the Bgee pipeline: https://github.com/BgeeDB/bgee_pipeline We have included this information in the manuscript, as well as a brief outline of the analyses we perform, see "Introduction" section. --- The authors state that “TopAnat allows for discovery of tissues where a set of genes is preferentially expressed”. Is TopAnat the only tool that offers such a functionality? A brief background of similar tools that are currently available will be useful for the readers. We have added a paragraph describing similar tools, see end of the "Introduction" section. --- I was not able to run the workflow that the authors have included in the Supplementary material: [...] At this moment, I did not try further. The authors need to clearly state what version of BgeeDB was used to create this workflow. If something has changed, then this needs to be appropriately addressed. I tried using “release=13.2” but it did not work. We suspect that the reviewer did not use the latest version of the package (maybe the Bioconductor release itself needs to be updated first). The reviewer could maybe uninstall the BgeeDB package and rerun the following steps: source("https://bioconductor.org/biocLite.R") biocLite("BgeeDB") sessionInfo() With a package version = 2.6.2, the errors should disappear. The R, Bioconductor, and BgeeDB package version requirements are listed at the beginning of the "Methods" section. If the problem persists, could the reviewer post the sessionInfo() results? Of note, the “release” argument is used to specify a particular Bgee release, but this is independent of the package version. --- I did manage to run an enrichment test for anatomical terms though with some tweaking ## Again an error message bgee_topanat - loadTopAnatData(species="Danio_rerio") Error in loadTopAnatData(species = "Danio_rerio") : Problem: the specified speciesId is not among the list of species in Bgee. ## This works though myTopAnatData - loadTopAnatData(species="7955") #### Again, this should be solved by updating to the last BgeeDB version --- The rest of the work-flow went smoothly and I was able to get a list of anatomical structures sorted by their p-value [...] It would be useful if the authors could include a feature that allows the TopAnat method to print the 41 genes which represent the paired limb/fin bud. At some point, the users might want to revisit their gene lists and tag their genes based on the different anatomical structures. Other tools that perform Enrichment tests, for example Enrichr, have this feature and this is extremely useful, in my opinion. This is a good point. It is possible to cross the geneList vector with the expression mapping present in the myTopAnatData object. Another approach is to use functions that are inherited from the topGO package. For the “paired limb/fin bud” term: myTerm - "UBERON:0004357" termStat(myTopAnatObject, myTerm) # 198 genes mapped to this term for Bgee 14.0 and Ensembl 84 genesInTerm(myTopAnatObject, myTerm) # 48 significant genes mapped to this term for Bgee 14.0 and Ensembl 84 annotated - genesInTerm(myTopAnatObject, myTerm)[["UBERON:0004357"]] annotated[annotated %in% sigGenes(myTopAnatObject)] We have added this example at the end of the "Anatomical expression enrichment analysis" section. The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this was achieved. I assume that the authors have an automated pipeline in place but it would be beneficial for readers to know how this was done. There is now a complete and updated documentation for the Bgee pipeline: https://github.com/BgeeDB/bgee_pipeline We have included this information in the manuscript, as well as a brief outline of the analyses we perform, see "Introduction" section. --- The authors state that “TopAnat allows for discovery of tissues where a set of genes is preferentially expressed”. Is TopAnat the only tool that offers such a functionality? A brief background of similar tools that are currently available will be useful for the readers. We have added a paragraph describing similar tools, see end of the "Introduction" section. --- I was not able to run the workflow that the authors have included in the Supplementary material: [...] At this moment, I did not try further. The authors need to clearly state what version of BgeeDB was used to create this workflow. If something has changed, then this needs to be appropriately addressed. I tried using “release=13.2” but it did not work. We suspect that the reviewer did not use the latest version of the package (maybe the Bioconductor release itself needs to be updated first). The reviewer could maybe uninstall the BgeeDB package and rerun the following steps: source("https://bioconductor.org/biocLite.R") biocLite("BgeeDB") sessionInfo() With a package version = 2.6.2, the errors should disappear. The R, Bioconductor, and BgeeDB package version requirements are listed at the beginning of the "Methods" section. If the problem persists, could the reviewer post the sessionInfo() results? Of note, the “release” argument is used to specify a particular Bgee release, but this is independent of the package version. --- I did manage to run an enrichment test for anatomical terms though with some tweaking ## Again an error message bgee_topanat - loadTopAnatData(species="Danio_rerio") Error in loadTopAnatData(species = "Danio_rerio") : Problem: the specified speciesId is not among the list of species in Bgee. ## This works though myTopAnatData - loadTopAnatData(species="7955") #### Again, this should be solved by updating to the last BgeeDB version --- The rest of the work-flow went smoothly and I was able to get a list of anatomical structures sorted by their p-value [...] It would be useful if the authors could include a feature that allows the TopAnat method to print the 41 genes which represent the paired limb/fin bud. At some point, the users might want to revisit their gene lists and tag their genes based on the different anatomical structures. Other tools that perform Enrichment tests, for example Enrichr, have this feature and this is extremely useful, in my opinion. This is a good point. It is possible to cross the geneList vector with the expression mapping present in the myTopAnatData object. Another approach is to use functions that are inherited from the topGO package. For the “paired limb/fin bud” term: myTerm - "UBERON:0004357" termStat(myTopAnatObject, myTerm) # 198 genes mapped to this term for Bgee 14.0 and Ensembl 84 genesInTerm(myTopAnatObject, myTerm) # 48 significant genes mapped to this term for Bgee 14.0 and Ensembl 84 annotated - genesInTerm(myTopAnatObject, myTerm)[["UBERON:0004357"]] annotated[annotated %in% sigGenes(myTopAnatObject)] We have added this example at the end of the "Anatomical expression enrichment analysis" section. Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 2 VERSION 2 PUBLISHED 23 Nov 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 2 (revision) 07 Aug 18 read Version 1 23 Nov 16 read read read Virag Sharma , Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG), Dresden, Germany; Max Planck Institute for the Physics of Complex Systems, Dresden, Germany Daniel S. Himmelstein , University of Pennsylvania, Philadelphia, USA Leonardo Collado-Torres , Lieber Institute for Brain Development, Baltimore, USA Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2018 Collado-Torres L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 28 Aug 2018 | for Version 2 Leonardo Collado-Torres , Lieber Institute for Brain Development, Baltimore, MD, USA 0 Views copyright © 2018 Collado-Torres L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The authors (including the new author J. Wollbrett) have addressed all my comments from version 1 very throughly or plan to address some of the more technical ones in the future. I want to highlight all the work the authors did ensuring that their paper is reproducible (they mention versions of packages throughout the text) and in clarifying their work (mostly updates on the introduction). I was able to download supplementary file 1 (an .Rmd file) and execute it without any problems or modifications at all using R 3.5.1 with Bioconductor 3.7 on a Mac (BgeeDB 2.6.2, MFuzz 2.40.0, biomaRt 2.36.1). The authors did a great job with https://github.com/BgeeDB/bgee_pipeline which I believe includes all the information needed for anyone who is interested in the Bgee pipeline. If not, the authors seem responsive on https://github.com/BgeeDB/bgee_pipeline/issues and https://github.com/BgeeDB/BgeeDB_R/issues which is a great sign. Thanks to their changes in the introduction I now have a better understanding of their anatomical expression enrichment test. I look forward to seeing how the community uses BgeeDB in the future and the use cases they apply it to. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Collado-Torres L. Peer Review Report For: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests [version 2; peer review: 2 approved, 1 approved with reservations] . F1000Research 2018, 5 :2748 ( https://doi.org/10.5256/f1000research.16883.r36881) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2748/v2#referee-response-36881 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Collado-Torres L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 16 Dec 2016 | for Version 1 Leonardo Collado-Torres , Lieber Institute for Brain Development, Baltimore, MD, USA 0 Views copyright © 2016 Collado-Torres L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Not Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions In this manuscript the authors describe the BgeeDB Bioconductor package and show how to use it (as of Bioconductor 3.4) to interact with Bgee 1 in order to get the data from Bgee into your R session. This allows users to then perform differential expression analyses and integrate Bgee with other data sets such as unpublished data. The manuscript includes code that shows how to use BgeeDB and showcases it's different features including their unique anatomical expression enrichment analysis method. I find interesting that you can use BgeeDB to get data from different platforms and from different organisms. Most of this can be done using other packages such as GEOquery, but BgeeDB makes it so the user doesn't have to do all the processing of the data and standarization over multiple projects. My main concern with the manuscript in its current form and the BgeeDB package itself is the lack of clarity on how the data has been processed and how the anatomical expression test works. That is, it could potentially become a black box that produces interesting output but hides information that could be important. For example, I'm sure some of the Affymetrix data could be downloaded with other packages and I do not know what would be the differences between the raw data and the data downloaded via BgeeDB. Is the data in BgeeDB normalized? If so, how? The help pages of BgeeDB, the package vignette, the original Bgee publication 1 and http://bgee.org/?page=doc did not help me fully answer these questions (I might have missed the information). Maybe the functions in BgeeDB could print a message describing the main steps of how a given data set was processed or this could be added to the help pages. I currently ignore if all data sets were treated the same. For instance, is all the Affymetrix data normalized with the same method and same parameters? I assume that the answer is yes but I don't know. I suggest that the authors describe in more detail the data available in Bgee. The authors might want to consider making the processing code public at https://github.com/BgeeDB or citable via figshare . With the anatomical expression test it's not clear to me how to interpret the results from BgeeDB::makeTable(). I understand that the authors will describe the details of how their anatomical test works in a future publication, which they did before with Bgee 1 and Homolanto 2 . Ideally, the anatomical expression test would have been described first followed by BgeeDB. Without hindering the current plan, I believe that the authors could provide a summary of how TopAnat works. Then they can explain it fully in the planned future TopAnat publication. I am also curious on how users could use their own data to improve the TopAnat results, although that could be work for the TopAnat paper or future work. I think that the manuscript is overall well written and will be more appealing if the data and main features (TopAnat) are described in more detail. I hope that the authors are not discouraged by my report. Best, Leonardo Minor comments: I'm an author of recount 3 which is incorrectly cited here. The pre-print version of https://jhubiostatistics.shinyapps.io/recount/ had data from 2040 different projects which together made up more than 60,000 RNA-seq samples. The current version has data from over 70,000 Illumina human RNA-seq samples from SRA, GTEx and TCGA. I don't think that it makes sense to include the str() calls in the paper. They do make sense in the supplementary material (the html and pdf rendered versions of the paper code) since those include the output. Also, while str() shows all the details of an object, it can encourage users to write code that depends on the internal structure of the object. You might want to consider adding accessor functions. If you added indentation the code that runs over multiple lines would be easier to read. You can use the Bioconductor standard of using 4 spaces at the start of the line. Also make sure that object names don't get split into multiple lines. For example check the line after the "list experiments including both brain and liver samples" comment where "Anatomical.entity.ID" gets split into "Anatomical.e" and "ntity.ID" in the html version of the paper. Copy pasting works fine, but if someone prints the paper they might introduce errors can be avoided with better formatting. F1000Research's team should be able to tell you what is the character limit per line to use so that the PDF and HTML versions look great. The formatR package might be useful here. I would not use numerical indexes in the code since the results could change with time in such a way that the current code would not work in the future or worse, it might run without error but change the results in a way a new user would not notice. For example, change the code on the line after the "order developmental stages" comment which currently reads: data.E.MEXP.51.formatted - data.E.MEXP.51.formatted[, c(5,8,9,3,2,1,4,7,6)] The comment that reads with "retrieve anatomical structures enriched at a 1% FDR threshold" is mixed with the code. That is, you are missing a new line character. Reference 46 is incorrect. It's edgeR, not eedgeR. The package's vignette is missing a title as currently shown at http://bioconductor.org/packages/release/bioc/html/BgeeDB.html . I recommend adding internal R links to your manual pages. For example, ?topAnat mentions loadTopAnatData(). Those links make it easier for a user to browse the help pages. I was able to run all the code without any edits (beyond that new line issue I already mentioned) using Bioconductor 3.4 (current Bioc-release) on R 3.3.1. Here are my session details: options(width = 120) devtools::session_info() Session info ----------------------------------------------------------------------------------------------------------- setting value version R version 3.3.1 (2016-06-21) system x86_64, mingw32 ui RStudio (0.99.902) language (EN) collate English_United States.1252 tz America/Mexico_City date 2016-12-15 Packages --------------------------------------------------------------------------------------------------------------- package * version date source AnnotationDbi * 1.36.0 2016-10-18 Bioconductor assertthat 0.1 2013-12-06 CRAN (R 3.3.1) BgeeDB * 2.0.0 2016-10-18 Bioconductor Biobase * 2.34.0 2016-10-18 Bioconductor BiocGenerics * 0.20.0 2016-10-18 Bioconductor BiocInstaller * 1.24.0 2016-10-18 Bioconductor biomaRt * 2.30.0 2016-10-18 Bioconductor bitops 1.0-6 2013-08-17 CRAN (R 3.3.1) class 7.3-14 2015-08-30 CRAN (R 3.3.1) data.table 1.10.0 2016-12-03 CRAN (R 3.3.2) DBI 0.5-1 2016-09-10 CRAN (R 3.3.1) devtools 1.12.0 2016-06-24 CRAN (R 3.3.1) digest 0.6.10 2016-08-02 CRAN (R 3.3.1) dplyr 0.5.0 2016-06-24 CRAN (R 3.3.1) DynDoc * 1.52.0 2016-10-18 Bioconductor e1071 * 1.6-7 2015-08-05 CRAN (R 3.3.1) edgeR * 3.16.4 2016-11-27 Bioconductor GO.db * 3.4.0 2016-10-22 Bioconductor graph * 1.52.0 2016-10-18 Bioconductor IRanges * 2.8.1 2016-11-08 Bioconductor lattice 0.20-34 2016-09-06 CRAN (R 3.3.1) limma * 3.30.6 2016-11-29 Bioconductor locfit 1.5-9.1 2013-04-20 CRAN (R 3.3.1) magrittr 1.5 2014-11-22 CRAN (R 3.3.1) matrixStats 0.51.0 2016-10-09 CRAN (R 3.3.1) memoise 1.0.0 2016-01-29 CRAN (R 3.3.1) Mfuzz * 2.34.0 2016-10-18 Bioconductor R6 2.2.0 2016-10-05 CRAN (R 3.3.1) Rcpp 0.12.8 2016-11-17 CRAN (R 3.3.2) RCurl 1.95-4.8 2016-03-01 CRAN (R 3.3.1) rsconnect 0.6 2016-11-21 CRAN (R 3.3.2) RSQLite 1.1-1 2016-12-10 CRAN (R 3.3.2) S4Vectors * 0.12.1 2016-12-01 Bioconductor SparseM * 1.74 2016-11-10 CRAN (R 3.3.2) tibble 1.2 2016-08-26 CRAN (R 3.3.1) tidyr * 0.6.0 2016-08-12 CRAN (R 3.3.1) tkWidgets 1.52.0 2016-10-18 Bioconductor topGO * 2.26.0 2016-10-18 Bioconductor widgetTools * 1.52.0 2016-10-18 Bioconductor withr 1.0.2 2016-06-20 CRAN (R 3.3.1) XML 3.98-1.5 2016-11-10 CRAN (R 3.3.2) Regarding Virag Sharma's peer review report 4 , I assume that Virag was using an earlier R version (and thus an earlier Bioconductor version). The current development version of BgeeDB uses "dataType" and not "datatype", just like the release version. Check https://github.com/Bioconductor-mirror/BgeeDB/search?utf8=%E2%9C%93q=datatype . Hopefully the authors won't change the spelling of arguments in the future since that's confusing for users, although that's certainly doable following the deprecated/defunct code cycle. Regarding Daniel S. Himmelstein's peer review report 5 , there is no need to add a license file when the license is specified in the DESCRIPTION file of an R package. See https://github.com/Bioconductor-mirror/BgeeDB/blob/master/DESCRIPTION#L14 where they state that the license is GPL-2. Although the authors should make sure that they correctly specify which license their software is released on: GPL-2 or GPLv3 as Daniel mentioned. Regarding where to place bug reports, the authors could resolve this by specifying the "BugReports" field in their DESCRIPTION file. For example see https://github.com/Bioconductor-mirror/recount/blob/master/DESCRIPTION#L63 . I also agree with Daniel that currently BgeeDB has a bit of a messy download structure. I would prefer if the files were downloaded in a single directory (say "bgee_downloads") instead of the current working directory. References 1. Bastian F, Parmentier G, Roux J, Moretti S, et al.: Bgee: Integrating and Comparing Heterogeneous Transcriptome Data Among Species. 2008. 124-131 Publisher Full Text 2. Parmentier G, Bastian FB, Robinson-Rechavi M: Homolonto: generating homology relationships by pairwise alignment of ontologies and application to vertebrate anatomy. Bioinformatics . 2010; 26 (14): 1766-71 PubMed Abstract | Publisher Full Text 3. Collado-Torres L, Nellore A, Kammers K, Ellis S, et al.: recount: A large-scale resource of analysis-ready RNA-seq expression data. 2016. Publisher Full Text 4. Sharma V: Referee Report For: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests [version 1; referees: 1 approved, 1 approved with reservations]. F1000Research . 2016; 5 (2748). Publisher Full Text 5. Himmelstein DS: Referee Report For: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests [version 1; referees: 1 approved, 1 approved with reservations]. 2016; 5 (2748). Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above. reply Respond to this report Responses (1) Author Response 07 Aug 2018 Frederic Bastian, University of Lausanne, Lausanne, Switzerland My main concern with the manuscript in its current form and the BgeeDB package itself is the lack of clarity on how the data has been processed and how the anatomical expression test works. That is, it could potentially become a black box that produces interesting output but hides information that could be important. For example, I'm sure some of the Affymetrix data could be downloaded with other packages and I do not know what would be the differences between the raw data and the data downloaded via BgeeDB. Is the data in BgeeDB normalized? If so, how? The help pages of BgeeDB, the package vignette, the original Bgee publication1 and http://bgee.org/?page=doc did not help me fully answer these questions (I might have missed the information). We have made public the Bgee pipeline source code at https://github.com/BgeeDB/bgee_pipeline. We also have added a paragraph at the end of the "Introduction" section, pointing to the relevant part of the documentation for RNA-Seq and Affymetrix analyses, and describing them in brief. --- Maybe the functions in BgeeDB could print a message describing the main steps of how a given data set was processed or this could be added to the help pages. We have opened an issue on our tracker related to this point, see https://github.com/BgeeDB/BgeeDB_R/issues/22. We will add a function pointing to the relevant documentation in a future release. --- I currently ignore if all data sets were treated the same. For instance, is all the Affymetrix data normalized with the same method and same parameters? I assume that the answer is yes but I don't know. The Affymetrix data are not treated in the same way depending on whether the raw data were available, or only the data processed by using the MAS5 software. This is clarified at the end of the "Introduction" section. Also, in the package, this information about raw data availability can be retrieved in the annotation data frame. --- I suggest that the authors describe in more detail the data available in Bgee. The authors might want to consider making the processing code public at https://github.com/BgeeDB or citable via figshare. We have made public the Bgee pipeline source code at https://github.com/BgeeDB/bgee_pipeline. --- With the anatomical expression test it's not clear to me how to interpret the results from BgeeDB::makeTable(). I understand that the authors will describe the details of how their anatomical test works in a future publication, which they did before with Bgee and Homolanto. Ideally, the anatomical expression test would have been described first followed by BgeeDB. Without hindering the current plan, I believe that the authors could provide a summary of how TopAnat works. Then they can explain it fully in the planned future TopAnat publication. We have added a brief description of how TopAnat works in the "Introduction" section. --- I am also curious on how users could use their own data to improve the TopAnat results, although that could be work for the TopAnat paper or future work. This represents an advanced use of TopAnat that we don't find suitable for the paper. But users can override the association file, mapping genes to anatomical structures in the BgeeDB directory, to use their own data. Also, since the source code of the package is public, users can also modify the mapping files used by modifying the source code. --- I'm an author of recount which is incorrectly cited here. The pre-print version of https://jhubiostatistics.shinyapps.io/recount/ had data from 2040 different projects which together made up more than 60,000 RNA-seq samples. The current version has data from over 70,000 Illumina human RNA-seq samples from SRA, GTEx and TCGA. We have updated the number in our paper. We apologize for the mistake. --- I don't think that it makes sense to include the str() calls in the paper. They do make sense in the supplementary material (the html and pdf rendered versions of the paper code) since those include the output. Also, while str() shows all the details of an object, it can encourage users to write code that depends on the internal structure of the object. You might want to consider adding accessor functions. We have removed str() calls from the paper. For the future, we will think of adding accessor functions, although several are already available thanks to the topGO package. --- If you added indentation the code that runs over multiple lines would be easier to read. You can use the Bioconductor standard of using 4 spaces at the start of the line. Also make sure that object names don't get split into multiple lines. For example check the line after the "list experiments including both brain and liver samples" comment where "Anatomical.entity.ID" gets split into "Anatomical.e" and "ntity.ID" in the html version of the paper. Copy pasting works fine, but if someone prints the paper they might introduce errors can be avoided with better formatting. F1000Research's team should be able to tell you what is the character limit per line to use so that the PDF and HTML versions look great. The formatR package might be useful here. We didn't know about the formatR package and will have a look at it. In the meantime, we have split such offending lines, as identified by the reviewer. --- I would not use numerical indexes in the code since the results could change with time in such a way that the current code would not work in the future or worse, it might run without error but change the results in a way a new user would not notice. For example, change the code on the line after the "order developmental stages" comment which currently reads: data.E.MEXP.51.formatted - data.E.MEXP.51.formatted[, c(5,8,9,3,2,1,4,7,6)] We have replaced all lines using numerical indexes, with use of column names. --- The comment that reads with "retrieve anatomical structures enriched at a 1% FDR threshold" is mixed with the code. That is, you are missing a new line character. This was fixed. --- Reference 46 is incorrect. It's edgeR, not eedgeR. This was fixed. --- The package's vignette is missing a title as currently shown at http://bioconductor.org/packages/release/bioc/html/BgeeDB.html . This was added. --- I recommend adding internal R links to your manual pages. For example, ?topAnat mentions loadTopAnatData(). Those links make it easier for a user to browse the help pages. We thank the reviewer for the suggestion, and we will implement this in a future release. --- I was able to run all the code without any edits (beyond that new line issue I already mentioned) using Bioconductor 3.4 (current Bioc-release) on R 3.3.1. Here are my session details: options(width = 120) devtools::session_info() [...] Regarding Virag Sharma's peer review report4, I assume that Virag was using an earlier R version (and thus an earlier Bioconductor version). The current development version of BgeeDB uses "dataType" and not "datatype", just like the release version. Check https://github.com/Bioconductor-mirror/BgeeDB/search?utf8=%E2%9C%93q=datatype. Hopefully the authors won't change the spelling of arguments in the future since that's confusing for users, although that's certainly doable following the deprecated/defunct code cycle. This is indeed a change that we introduced in an earlier version, in an effort to name all our arguments in a consistent manner. We will try not to change this in the future. --- Regarding Daniel S. Himmelstein's peer review report5, there is no need to add a license file when the license is specified in the DESCRIPTION file of an R package. See https://github.com/Bioconductor-mirror/BgeeDB/blob/master/DESCRIPTION#L14 where they state that the license is GPL-2. Although the authors should make sure that they correctly specify which license their software is released on: GPL-2 or GPLv3 as Daniel mentioned. We have updated the DESCRIPTION file in the development branch of Bioconductor. The package is now released under the GPL-3.0 license. --- Regarding where to place bug reports, the authors could resolve this by specifying the "BugReports" field in their DESCRIPTION file. For example see https://github.com/Bioconductor-mirror/recount/blob/master/DESCRIPTION#L63 . This was done. --- I also agree with Daniel that currently BgeeDB has a bit of a messy download structure. I would prefer if the files were downloaded in a single directory (say "bgee_downloads") instead of the current working directory. While another directory can be specified by using the "pathToData" argument, it is true that the solution proposed by the reviewer would be convenient, and we will try to update the package accordingly in the future. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Collado-Torres L. Peer Review Report For: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests [version 2; peer review: 2 approved, 1 approved with reservations] . F1000Research 2018, 5 :2748 ( https://doi.org/10.5256/f1000research.10748.r17980) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2748/v1#referee-response-17980 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Himmelstein D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 14 Dec 2016 | for Version 1 Daniel S. Himmelstein , Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA 0 Views copyright © 2016 Himmelstein D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This study describes the BgeeDB R package, which provides a programmatic interface for accessing Bgee gene expression data. Bgee is a valuable resource because it integrates gene expression results across many experiments. Previously, I've used Bgee for its presence/absence of expression calls and its differential expression calls. In my opinion, Bgee's ability to provide a genome-wide profile of expression for a given species, developmental stage, and anatomical structure is its most powerful capability. It was not clear to me whether BgeeDB provides this functionality. For example, can the user retrieve the normalized expression level across several experiments for the same species-stage-anatomy combination? In general, I think users will be more interested in this high-level functionality than the low level access BgeeDB currently provides. An example here would likely clear things up for me. Is it possible to integrate expression levels across Affymetrix and RNA-Seq experiments? The Zenodo archive of the source code specifies GPLv3 as the license. This is great, but it's ideal to also add a LICENSE file to the GitHub. It looks like there are at least two potential places where bug reports should be filed: on Bioconductor Support and GitHub Issues . It would be nice to clarify the preferred location for filing bug reports go and opening pull requests. Currently, the GitHub repository BgeeDB/BgeeDB_R mentioned in the manuscript is forked from wirawara/BgeeDB . I expect this may cause some confusion, as BgeeDB/BgeeDB_R should be the upstream repository that users fork and contribute back to. If you make wirawara/BgeeDB private, this should break the relationship. @wirawara can then fork BgeeDB/BgeeDB_R to continue contributions if desired. Finally, I created some GitHub issues as part of this review: Sample annotation variable names A less messy default download directory References 1. Morin A, Urban J, Sliz P: A quick guide to software licensing for the scientist-programmer. PLoS Comput Biol . 2012; 8 (7): e1002598 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 07 Aug 2018 Frederic Bastian, University of Lausanne, Lausanne, Switzerland In my opinion, Bgee's ability to provide a genome-wide profile of expression for a given species, developmental stage, and anatomical structure is its most powerful capability. It was not clear to me whether BgeeDB provides this functionality. For example, can the user retrieve the normalized expression level across several experiments for the same species-stage-anatomy combination? In general, I think users will be more interested in this high-level functionality than the low level access BgeeDB currently provides. An example here would likely clear things up for me. Indeed there is currently no easy way to do this. As mentioned in https://github.com/BgeeDB/BgeeDB_R/issues/7 , it would be nice to have a getDataByCondition function that would return all processed data for chips / libraries matching a queried organ/stage/(sex)/(strain). But it was hard to set priorities for the initial development (should the package complement the web interface, or be orthogonal to it?), and we will likely implement it in the near future. --- Is it possible to integrate expression levels across Affymetrix and RNA-Seq experiments? If the reviewer means to integrate present/absent expression calls, it is relatively easy to get all the genes expressed in one tissue and all sub-tissues from Affymetrix and RNA-Seq data, although a dedicated method could be added, for instance: library(BgeeDB) bgee_human - Bgee$new(species='Homo_sapiens', dataType=c('rna_seq', 'affymetrix')) my_data - loadTopAnatData(bgee_human) calls_by_tissue - reverseSplit(my_data$gene2anatomy) # pick you favorite tissue, for example liver calls_by_tissue[["UBERON:0002107"]] And this can be limited by stage too, for example: my_data - loadTopAnatData(bgee_human, stage="UBERON:0000068") We have noted in the issue 7 mentioned above to add a direct function to do this. If the reviewer means to integrate levels of expression, it is then not the aim of Bgee: Bgee integrate different data types and different experiments, processed and normalized independently (but in a consistent manner). --- The Zenodo archive of the source code specifies GPLv3 as the license. This is great, but it's ideal to also add a LICENSE file to the GitHub. We have added the LICENSE file to GitHub (GPL 3.0). --- It looks like there are at least two potential places where bug reports should be filed: on Bioconductor Support and GitHub Issues. It would be nice to clarify the preferred location for filing bug reports go and opening pull requests. We have added the preferred location for filing bug reports at the end of the "Introduction" section (GitHub), and in the DESCRIPTION file of the source code. --- Currently, the GitHub repository BgeeDB/BgeeDB_R mentioned in the manuscript is forked from wirawara/BgeeDB. I expect this may cause some confusion, as BgeeDB/BgeeDB_R should be the upstream repository that users fork and contribute back to. If you make wirawara/BgeeDB private, this should break the relationship. @wirawara can then fork BgeeDB/BgeeDB_R to continue contributions if desired. We thank the reviewer for the suggestion, we have now made wirawara/BgeeDB private. --- Finally, I created some GitHub issues as part of this review: Sample annotation variable names https://github.com/BgeeDB/BgeeDB_R/issues/5 We have replied on the issue. Our answer was that is a bit of a controversial topic. For example Google's R Style Guide (https://google.github.io/styleguide/Rguide.xml#identifiers) advise against the use of underscores (although they do not justify why, and we agree that the "words separated with dots" convention can be disturbing for python users). --- A less messy default download directory This point was discussed in https://github.com/BgeeDB/BgeeDB_R/issues/4. We notably mention that another directory can be specified by using the "pathToData" argument. This parameter is mentioned at the end of the section "Data download and import of normalized expression levels". We agree that a default directory should be used in future releases. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Himmelstein DS. Peer Review Report For: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests [version 2; peer review: 2 approved, 1 approved with reservations] . F1000Research 2018, 5 :2748 ( https://doi.org/10.5256/f1000research.10748.r18221) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2748/v1#referee-response-18221 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Sharma V. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 07 Dec 2016 | for Version 1 Virag Sharma , Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG), Dresden, Germany; Max Planck Institute for the Physics of Complex Systems, Dresden, Germany 0 Views copyright © 2016 Sharma V. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions In the manuscript, Komljenovic et al. present BgeeDB which is an R package for retrieval of expression datasets which have been curated. Additionally, they also provide a method (TopAnat) to determine tissue-specific enrichments for a given list of genes and species. The former is a very useful resource because there is clearly a need for a database that provides gene expression datasets which are homogenous in nature and are of comparable quality. The BgeeDB database contains gene expression datasets from 17 species across different tissues and developmental stages, which is impressive. The fact that the database can be queried via a Bioconductor package should ensure that the database will be used by both - wet-lab biologists and computational scientists. Similarly, the TopAnat method also provides a useful functionality to determine anatomical expression enrichment on a user specified list. I have a few minor comments regarding the manuscript: The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this was achieved. I assume that the authors have an automated pipeline in place but it would be beneficial for readers to know how this was done. The authors state that “TopAnat allows for discovery of tissues where a set of genes is preferentially expressed”. Is TopAnat the only tool that offers such a functionality? A brief background of similar tools that are currently available will be useful for the readers. I was not able to run the workflow that the authors have included in the Supplementary material: See below: source("https://bioconductor.org/biocLite.R") biocLite("BgeeDB") biocLite(c("edgeR", "Mfuzz", "biomaRt")) library(BgeeDB) listBgeeSpecies() bgee_affymetrix - Bgee$new(species="Mus_musculus", dataType="affymetrix", release="13.2") Error in envRefSetField(.Object, field, classDef, selfEnv, elements[[field]]) : 'dataType' is not a field in class "Bgee" ## Turns out that I need to use "datatype" instead of "dataType" bgee_affymetrix - Bgee$new(species="Mus_musculus", datatype="affymetrix") bgee_affymetrix - Bgee$new(species="Mus_musculus", datatype="affymetrix", release="13.2") Error in envRefSetField(.Object, field, classDef, selfEnv, elements[[field]]) : 'release' is not a field in class "Bgee" #### At this moment, I did not try further. The authors need to clearly state what version of BgeeDB was used to create this workflow. If something has changed, then this needs to be appropriately addressed. I tried using “release=13.2” but it did not work. I did manage to run an enrichment test for anatomical terms though with some tweaking ## Again an error message bgee_topanat - loadTopAnatData(species="Danio_rerio") Error in loadTopAnatData(species = "Danio_rerio") : Problem: the specified speciesId is not among the list of species in Bgee. ## This works though myTopAnatData - loadTopAnatData(species="7955") #### The rest of the work-flow went smoothly and I was able to get a list of anatomical structures sorted by their p-value head(tableOver) organId organName annotated significant 12 UBERON:0004357 paired limb/fin bud 144 41 2 UBERON:0000151 pectoral fin 420 70 22 UBERON:2000040 median fin fold 51 18 9 UBERON:0003051 ear vesicle 304 41 15 UBERON:0005729 pectoral appendage field 16 10 16 UBERON:0007390 pectoral appendage cartilage tissue 17 9 expected foldEnrichment pValue FDR 12 7.15 5.734266 1.622480e-22 1.445630e-19 2 20.85 3.357314 1.037552e-18 4.622296e-16 22 2.53 7.114625 7.171001e-12 2.129787e-09 9 15.09 2.717031 3.135769e-10 6.984926e-08 15 0.79 12.658228 4.004917e-10 7.136762e-08 16 0.84 10.714286 2.411891e-08 3.581659e-06 It would be useful if the authors could include a feature that allows the TopAnat method to print the 41 genes which represent the paired limb/fin bud. At some point, the users might want to revisit their gene lists and tag their genes based on the different anatomical structures. Other tools that perform Enrichment tests, for example Enrichr 1 , have this feature and this is extremely useful, in my opinion. References 1. Kuleshov MV, Jones MR, Rouillard AD, Fernandez NF, et al.: Enrichr: a comprehensive gene set enrichment analysis web server 2016 update. Nucleic Acids Res . 2016; 44 (W1): W90-7 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 07 Aug 2018 Frederic Bastian, University of Lausanne, Lausanne, Switzerland The authors should include some details about how they have reprocessed the gene expression datasets that are a part of BgeeDB. At the moment, it is rather unclear how this was achieved. I assume that the authors have an automated pipeline in place but it would be beneficial for readers to know how this was done. There is now a complete and updated documentation for the Bgee pipeline: https://github.com/BgeeDB/bgee_pipeline We have included this information in the manuscript, as well as a brief outline of the analyses we perform, see "Introduction" section. --- The authors state that “TopAnat allows for discovery of tissues where a set of genes is preferentially expressed”. Is TopAnat the only tool that offers such a functionality? A brief background of similar tools that are currently available will be useful for the readers. We have added a paragraph describing similar tools, see end of the "Introduction" section. --- I was not able to run the workflow that the authors have included in the Supplementary material: [...] At this moment, I did not try further. The authors need to clearly state what version of BgeeDB was used to create this workflow. If something has changed, then this needs to be appropriately addressed. I tried using “release=13.2” but it did not work. We suspect that the reviewer did not use the latest version of the package (maybe the Bioconductor release itself needs to be updated first). The reviewer could maybe uninstall the BgeeDB package and rerun the following steps: source("https://bioconductor.org/biocLite.R") biocLite("BgeeDB") sessionInfo() With a package version = 2.6.2, the errors should disappear. The R, Bioconductor, and BgeeDB package version requirements are listed at the beginning of the "Methods" section. If the problem persists, could the reviewer post the sessionInfo() results? Of note, the “release” argument is used to specify a particular Bgee release, but this is independent of the package version. --- I did manage to run an enrichment test for anatomical terms though with some tweaking ## Again an error message bgee_topanat - loadTopAnatData(species="Danio_rerio") Error in loadTopAnatData(species = "Danio_rerio") : Problem: the specified speciesId is not among the list of species in Bgee. ## This works though myTopAnatData - loadTopAnatData(species="7955") #### Again, this should be solved by updating to the last BgeeDB version --- The rest of the work-flow went smoothly and I was able to get a list of anatomical structures sorted by their p-value [...] It would be useful if the authors could include a feature that allows the TopAnat method to print the 41 genes which represent the paired limb/fin bud. At some point, the users might want to revisit their gene lists and tag their genes based on the different anatomical structures. Other tools that perform Enrichment tests, for example Enrichr, have this feature and this is extremely useful, in my opinion. This is a good point. It is possible to cross the geneList vector with the expression mapping present in the myTopAnatData object. Another approach is to use functions that are inherited from the topGO package. For the “paired limb/fin bud” term: myTerm - "UBERON:0004357" termStat(myTopAnatObject, myTerm) # 198 genes mapped to this term for Bgee 14.0 and Ensembl 84 genesInTerm(myTopAnatObject, myTerm) # 48 significant genes mapped to this term for Bgee 14.0 and Ensembl 84 annotated - genesInTerm(myTopAnatObject, myTerm)[["UBERON:0004357"]] annotated[annotated %in% sigGenes(myTopAnatObject)] We have added this example at the end of the "Anatomical expression enrichment analysis" section. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Sharma V. Peer Review Report For: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests [version 2; peer review: 2 approved, 1 approved with reservations] . F1000Research 2018, 5 :2748 ( https://doi.org/10.5256/f1000research.10748.r17925) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2748/v1#referee-response-17925 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "BgeeDB, an R package for retrieval of curated...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2748/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2748/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2748/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Komljenovic A et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2748/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2748",
+ templates : {
+ twitter : "BgeeDB, an R package for retrieval of curated expression datasets.... Komljenovic A et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2748/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Software Tool Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: BgeeDB, an R package for retrieval of curated expression datasets and for gene list expression localization enrichment tests", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/9973/16883")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "16883");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "36880": 0,
+ "36881": 17,
+ "17921": 0,
+ "17922": 0,
+ "17923": 0,
+ "17924": 0,
+ "17925": 53,
+ "17980": 116,
+ "17981": 0,
+ "18221": 50,
+ "18079": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "5e88834b-5bcc-4f5d-8744-f3a8584624d7";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

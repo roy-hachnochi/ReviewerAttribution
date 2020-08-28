@@ -1,0 +1,624 @@
+ Introduction 1st paragraph: - "deep metazoans" is an odd term; also "Parazoa" is no longer accepted as a valid name. All 4 taxa are clearly metazoans; they are best summarized as "non-bilaterian metazoans". - The citation after the 1st sentence is from 1999; this should be replaced with something more recent as a lot of research in this area has been done since then. - While the statement of the 1st sentence is true, reconstructing the phylogenetic relationships within Ctenophora does not help much to solve these issues, i.e. finding the position of Ctenophora in the animal tree of life is a separate issue that this study is unable to address. - The "previous work" cited in the 2nd sentence is very old. There is a study from 2015 (Simion et al. , Zoology 118: 102-114) that also reconstructed internal relationships of Ctenophora based on multigene analyses. It is crucial that the authors interpret their results in light of that study. It is actually quite puzzling that the paper is not cited, especially because the authors used sequences originally reported in Simion et al. (2015). - The statement in the following sentence is highly debatable. As long as the phylogenetic position of ctenophores is not resolved (see e.g. Dohrmann Wrheide 2013 Integr. Comp. Biol. 53: 503-511; Pisani et al. 2015 PNAS 112: 15402-15407), it is totally unclear how relevant they are to answering these questions. - In the next sentence, "previous studies" should be replaced with "ctenophores". - The following 2 sentences suggest that this paper represents the first multilocus analysis addressing internal phylogeny of Ctenophora. As mentioned above, this is not true. In this study, the authors used 2 protein-coding genes and the 28S gene in addition to the 18S and ITS/5.8S markers already used by Simion et al. (2015). This is what sets their study apart from the previous paper, and this has to be clearly communicated. The paper should focus on discussing differences to the results of Simion et al. in light of expanding the set of markers (but also addressing the different taxon sampling in the 2 studies). - The abbreviation "MLSA" is introduced for "multilocus analysis" – what does the "S" stand for? Maybe it should read "multilocus sequence analysis"? 2nd paragraph: - "ribosomal genes" should read "ribosomal RNA genes" (also elsewhere in the MS), since there are also genes coding for ribosomal proteins. - "ortholog" should be replaced with "protein-coding" (also elsewhere in the MS), since ribosomal RNA genes are also orthologs. 3rd paragraph: - I think the taxonomic overlap between the protein-coding and the ribosomal RNA datasets is sufficient to conduct a combined analysis, to infer a tree based on all the evidence simultaneously. As far as I recall, using mixed nucleotide and amino-acid data is possible with RAxML and MrBayes; alternatively, the protein-coding partition could be analyzed on nucleotide level (possibly excluding 3rd codon positions if they are oversaturated). Methods - It is unclear how ambiguously alignable regions were treated. These have to be excluded prior to analysis, but a quick glance at the concatenated matrices provided in the data supplement (concat_matrix and concat_prot_corrected) suggests otherwise. Difficult-to-align regions can bias phylogenetic inference, so this is an important point to address. - Information about the lengths of loci and concatenated alignments should be given. - Information about how the trees were rooted should be given in this section. In the Results section it is mentioned that Beroida was used as the outgroup to all other ctenophores. However, this is poorly justified. For example, Simion et al. (2015) found this group deeply nested within ctenophores. In general, I suggest following closely the methodological protocol of Simion et al. to make the 2 studies truly comparable. 3rd paragraph: - Replace "is" with "are" - The accession numbers are buried in some text files in the data supplement, which is quite inconvenient for the reader. I suggest providing them directly in Tables 1 and 2. 7th paragraph: - Information about the substitution models used has to be provided here. I highly recommend using partitioning by gene and incorporating secondary structure information, for full comparability with Simion et al. (secondary structure models are available both in RAxML and MrBayes). Results, Discussion - These sections have to be rewritten after reanalysis of the data and comparison with Simion et al. (2015). References 1. Simion P, Bekkouche N, Jager M, Quéinnec E, et al.: Exploring the potential of small RNA subunit and ITS sequences for resolving phylogenetic relationships within the phylum Ctenophora. Zoology (Jena) . 2015; 118 (2): 102-14 PubMed Abstract | Publisher Full Text 2. Dohrmann M, Wörheide G: Novel scenarios of early animal evolution--is it time to rewrite textbooks?. Integr Comp Biol . 2013; 53 (3): 503-11 PubMed Abstract | Publisher Full Text 3. Pisani D, Pett W, Dohrmann M, Feuda R, et al.: Genomic data do not support comb jellies as the sister group to all other animals. Proc Natl Acad Sci U S A . 2015; 112 (50): 15402-7 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Dohrmann M. Reviewer Report For: Revisiting the phylogeny of phylum Ctenophora: a molecular perspective [version 2; peer review: 1 approved with reservations, 3 not approved] . F1000Research 2017, 5 :2881 ( https://doi.org/10.5256/f1000research.11235.r19979 ) The direct URL for this report is: https://f1000research.com/articles/5-2881/v1#referee-response-19979 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 13 Feb 2017 Nicols D. Franco-Sierra , Universidad EAFIT, Colombia 13 Feb 2017 Author Response Thanks for your comments and suggestions on our work, they are really helpful to improve our analysis. We agree with the observations you pointed out above and we are currently ... Continue reading Thanks for your comments and suggestions on our work, they are really helpful to improve our analysis. We agree with the observations you pointed out above and we are currently working on a revised version of our manuscript. We sincerely apologize for not including the respective comparison with the work performed by Simion et al (2015). We are working on the readjustments in order to make our analysis fully comparable with Simion et al (2015). Thanks for your comments and suggestions on our work, they are really helpful to improve our analysis. We agree with the observations you pointed out above and we are currently working on a revised version of our manuscript. We sincerely apologize for not including the respective comparison with the work performed by Simion et al (2015). We are working on the readjustments in order to make our analysis fully comparable with Simion et al (2015). Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 13 Feb 2017 Nicols D. Franco-Sierra , Universidad EAFIT, Colombia 13 Feb 2017 Author Response Thanks for your comments and suggestions on our work, they are really helpful to improve our analysis. We agree with the observations you pointed out above and we are currently ... Continue reading Thanks for your comments and suggestions on our work, they are really helpful to improve our analysis. We agree with the observations you pointed out above and we are currently working on a revised version of our manuscript. We sincerely apologize for not including the respective comparison with the work performed by Simion et al (2015). We are working on the readjustments in order to make our analysis fully comparable with Simion et al (2015). Thanks for your comments and suggestions on our work, they are really helpful to improve our analysis. We agree with the observations you pointed out above and we are currently working on a revised version of our manuscript. We sincerely apologize for not including the respective comparison with the work performed by Simion et al (2015). We are working on the readjustments in order to make our analysis fully comparable with Simion et al (2015). Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (1) Version 2 VERSION 2 PUBLISHED 21 Aug 2017 Revised Comment ADD YOUR COMMENT Version 1 VERSION 1 PUBLISHED 20 Dec 2016 Discussion is closed on this version, please comment on the latest version above. Reader Comment 05 Jan 2017 Paul Simion , Université Montpellier, France 05 Jan 2017 Reader Comment Dear authors, While I am always glad to see new studies on ctenophore phylogeny, I am very surprised that you did not cite Simion et al. 2014 (of which ... Continue reading Dear authors, While I am always glad to see new studies on ctenophore phylogeny, I am very surprised that you did not cite Simion et al. 2014 (of which I am the first author) for two reasons : You used all the data sequenced in that study. Both study are very similar in topic and design, and should therefore be compared. Please find a link to the study : http://www.sciencedirect.com/science/article/pii/S0944200614000816 Sincerely, Paul Simion Dear authors, While I am always glad to see new studies on ctenophore phylogeny, I am very surprised that you did not cite Simion et al. 2014 (of which I am the first author) for two reasons : You used all the data sequenced in that study. Both study are very similar in topic and design, and should therefore be compared. Please find a link to the study : http://www.sciencedirect.com/science/article/pii/S0944200614000816 Sincerely, Paul Simion Competing Interests: No competing interests were disclosed. Close Report a concern Discussion is closed on this version, please comment on the latest version above. keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 4 Version 2 (revision) 21 Aug 17 read Version 1 20 Dec 16 read read read read Martin Dohrmann , Ludwig-Maximilians-Universität München, Munich, Germany Steven H.D. Haddock , Monterey Bay Aquarium Research Institute, Moss Landing, USA Kevin M. Kocot , The University of Alabama, Tuscaloosa, USA D Timothy J. Littlewood , Natural History Museum, London, UK Comments on this article All Comments (1) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Haddock S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 08 Sep 2017 | for Version 2 Steven H.D. Haddock , Monterey Bay Aquarium Research Institute, Moss Landing, CA, USA 0 Views copyright © 2017 Haddock S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Not Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This paper still does not meet a basic standard to qualify as original research. They have removed one set of gene sequences, and added two others gleaned from Genbank. These last two sets have low species coverage and have been published. These two sequence alignments are posted as part of the zenodo supplement without the original genbank accession numbers or other source information, making it unclear that these were posted by another lab. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above. reply Respond to this report Responses (1) Author Response 22 Sep 2017 Luis Alfonso Arteaga-Figueroa, Universidad EAFIT, Medellin, Colombia Good day Mr. Haddock, I am writing you regarding your review in our research note. It's important to outline that the main objective of this research note was to revisit the phylogenetic reconstruction (mostly methods) for this group, using available sequences in the GenBank. It is a meta-analysis, as the reviewers said previously. We are not reporting nothing new but our methods for this specific set of sequences. Research note is defined as: "Research Notes include single-finding papers that can be reported with one or two illustrations (figures/tables), descriptions of unexpected observations, and lab protocols. Posters from conferences or internal meetings may be summarized as Research Notes. In many cases, some additional detail, particularly in the methods, description of the results, and/or discussion/conclusions will be required to make sure that readers (and referees) have enough information to understand the description of the work". The phylogenetic reconstruction is basically a bioinformatic lab recipe, so here we report the results of our "lab protocol". For the second version we took the comments of the reviewers (including yours) and we tried to accomplish all of them. One of your comments was about IPNS1, a duplicated gene in Table 1 (I must comment that in the supplementary data there was not a Hormiphora IPNS gene): "There is some confusion because there is no Hormiphora IPNS gene in their [our] dataset, yet it is listed in the table of genes and that species is present in the tree, apparently based on a GFP-like gene that was found. Furthermore, the IPNS genes are not single-copy[2], so are not reliable for phylogeny building." We so, reevaluated the accuracy of the phylogenetic reconstruction of the protein tree of the first version and we decided to remove it. It was not a random exercise. In fact, we also removed 28s information for the same reasons, we decided that it wasn't suitable for the phylogenetic reconstruction through single locus phylogenetic reconstruction. And I must assure that the inclusion of the HLH domain containing protein and Tyrosine aminotransferase wasn't either a random exercise. We executed many single locus for the great variety of the reported sequences from Ctenophora in the GenBank, for example, we determined that the other domain-containing proteins were not suitable for the phylogenetic reconstruction, as the photoprotein reported also in Francis 2015 [2]. But when we tested Tyrosine aminotransferase and HLH domaing containing protein, we observed that it didn't present incongruences with ribosomal data and NFP. One of my biggest concerns was about how this could bias the phylogenetic reconstruction because they have low species coverage. So my team and I, we reviewed about how missing data would bias the phylogenetic. We found a paper, Wiens, 2006 [1]. One of the paper's conclusion was: "Recent simulations show that there is little evidence to support excluding taxa based simply on the amount or proportion of missing data that they bear. The placement of highly incomplete taxa in a phylogeny can be resolved with perfect accuracy (based on simulations) and with strong support statistical support (based on empirical analyses)". So we "gleaned" the sequences from the GenBank and included in the final analysis, because, through this we improved the analysis. In the supplementary data for this version 2 there are no accession numbers, they are presented in Table 1 of the research note. The objective of the supplementary data is that anyone can reproduce our results. Nowhere in the paper is not mentioned that we are reporting a sequence, as previously said, this is a meta-analysis, a bioinformatic lab exercise. Best, Luis Alfonso. Bibliography [1] Wiens, J. J. (2006). Missing data and the design of phylogenetic analyses. Journal of Biomedical Informatics , 39 (1 SPEC. ISS.), 34–42. https://doi.org/10.1016/j.jbi.2005.04.001 [2] Francis, W. R., Shaner, N. C., Christianson, L. M., Powers, M. L., Haddock, S. H. D. (2015). Occurrence of isopenicillin-N-synthase homologs in bioluminescent ctenophores and implications for coelenterazine biosynthesis. PLoS ONE , 10 (6), 1–20. https://doi.org/10.1371/journal.pone.0128742. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Haddock SHD. Peer Review Report For: Revisiting the phylogeny of phylum Ctenophora: a molecular perspective [version 2; peer review: 1 approved with reservations, 3 not approved] . F1000Research 2017, 5 :2881 ( https://doi.org/10.5256/f1000research.13364.r25191) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2881/v2#referee-response-25191 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Littlewood D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 03 Apr 2017 | for Version 1 D Timothy J. Littlewood , Department of Life Sciences, Natural History Museum, London, UK 0 Views copyright © 2017 Littlewood D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Not Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Unfortunately I must concur with the major concerns highlighted by other reviewers. The data set is essentially a reassessment (meta-analysis) of previously published data. The phylogeny is functionally rooted against an in-group taxon without explanation. The analyses could have been improved by combining amino acid and nucleotide data (rather than solely treating these data separately). Due reference to similar articles from which these data have been derived was omitted. Other key references are missing. There is confusion within the article over the utility of some multi-copy genes and so interpretation and veracity of results is compromised. In combination and considering the lack of sufficient novelty of data, approach or interpretation the publication falls short of achieving its goal. The phylogeny is revisited and with some investment of time from the authors, but little additional clarity and few insights are forthcoming to merit acceptance in its current state. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above. reply Respond to this report Responses (0) 
+ 
+ Littlewood DTJ. Peer Review Report For: Revisiting the phylogeny of phylum Ctenophora: a molecular perspective [version 2; peer review: 1 approved with reservations, 3 not approved] . F1000Research 2017, 5 :2881 ( https://doi.org/10.5256/f1000research.11235.r19434) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2881/v1#referee-response-19434 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Kocot K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 28 Feb 2017 | for Version 1 Kevin M. Kocot , Department of Biological Sciences, The University of Alabama, Tuscaloosa, AL, USA 0 Views copyright © 2017 Kocot K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Not Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This study is a metaanalysis of available ctenophore sequence data. My thoughts largely echo those of the previous two reviewers. The methods seem reasonable (with the exception of the methodological problems with analysis of the Homiphora IPNS gene raised by Steve Haddock) but rooting with Beroida as the outgroup is inappropriate as no molecular studies have supported this in the past, key references are absent, and the English of the manuscript needs significant improvement. Available ctenophore transcriptome data could be used to expand sampling of the protein-coding genes. If that were done, a concatenated analysis of all of the markers used with only taxa sampled for 18S (so all taxa overlap for at least part of the alignment) with the addition of appropriate outgroups would be an interesting improvement. Competing Interests I am also actively studying the evolution of Ctenophora but I can honestly say that this does not impact my view on the present work. I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above. reply Respond to this report Responses (0) 
+ 
+ Kocot KM. Peer Review Report For: Revisiting the phylogeny of phylum Ctenophora: a molecular perspective [version 2; peer review: 1 approved with reservations, 3 not approved] . F1000Research 2017, 5 :2881 ( https://doi.org/10.5256/f1000research.11235.r20287) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2881/v1#referee-response-20287 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Haddock S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 13 Feb 2017 | for Version 1 Steven H.D. Haddock , Monterey Bay Aquarium Research Institute, Moss Landing, CA, USA 0 Views copyright © 2017 Haddock S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Not Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This article performs a meta-analysis of molecular phylogenetics within the Ctenophores using published sequences. I have previously had amiable correspondence with the authors and sent them data. Although the protein-coding sequences and some of the ribosomal RNA data came from my lab, I nonetheless feel I can give an unbiased assessment of their subsequent use. Regrettably, I do not see enough original intellectual contribution or additional scientific value to justify its publication. At best, it is a minor contribution, in which case the interpretation needs to be improved, and at worst, a good portion of it is a re-publishing of work already published by other authors (Simion [1] and Podar [4] in particular). A large part of the analysis is building trees using previously published ribosomal RNA datasets. This recapitulation does not add anything to the discussion of ctenophore internal relationships, and in fact, by rooting the tree with Beroe, they obscure the true evolution of the group as shown repeatedly since at least 2001 [4]. They also fail to cite Simion, et al. [1], which is the source of some of the data. Merely adding that citation would not solve the fundamental issue, which is that there is no added value to their re-building of the same phylogeny. The "novel" aspect of the paper is building trees based on two protein-coding genes which were also published previously in two separate papers [2,3]. The trees based on their [our] protein datasets do not give any additional insights into ctenophore relationships except in that some species are present in those trees that are not represented in the 18S phylogeny. This taxonomic coverage does not reveal any particular insight. These data also already appeared in trees (albeit not limited to ctenophores only) in the original publication. There is some confusion because there is no Hormiphora IPNS gene in their [our] dataset, yet it is listed in the table of genes and that species is present in the tree, apparently based on a GFP-like gene that was found. Furthermore, the IPNS genes are not single-copy[2], so are not reliable for phylogeny building. There is a misspelling of Bathyctena in Table 1 and 2 and of Lampocteis in Table 2. In summary, two gene trees, of which one gene which was found to be absent in a ctenophore lineage, does not seem to be sufficient basis for a paper. The title itself is a vast overstatement of the content of this study. References 1. Simion P, Bekkouche N, Jager M, Quéinnec E, et al.: Exploring the potential of small RNA subunit and ITS sequences for resolving phylogenetic relationships within the phylum Ctenophora. Zoology (Jena) . 2015; 118 (2): 102-14 PubMed Abstract | Publisher Full Text 2. Francis WR, Shaner NC, Christianson LM, Powers ML, et al.: Occurrence of Isopenicillin-N-Synthase Homologs in Bioluminescent Ctenophores and Implications for Coelenterazine Biosynthesis. PLoS One . 2015; 10 (6): e0128742 PubMed Abstract | Publisher Full Text 3. Francis WR, Christianson LM, Powers ML, Schnitzler CE, et al.: Non-excitable fluorescent protein orthologs found in ctenophores. BMC Evol Biol . 2016; 16 (1): 167 PubMed Abstract | Publisher Full Text 4. Podar M, Haddock SH, Sogin ML, Harbison GR: A molecular phylogenetic framework for the phylum Ctenophora using 18S rRNA genes. Mol Phylogenet Evol . 2001; 21 (2): 218-30 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above. reply Respond to this report Responses (0) 
+ 
+ Haddock SHD. Peer Review Report For: Revisiting the phylogeny of phylum Ctenophora: a molecular perspective [version 2; peer review: 1 approved with reservations, 3 not approved] . F1000Research 2017, 5 :2881 ( https://doi.org/10.5256/f1000research.11235.r20040) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2881/v1#referee-response-20040 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Dohrmann M. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 08 Feb 2017 | for Version 1 Martin Dohrmann , Department of Earth & Environmental Sciences & GeoBio-Center, Ludwig-Maximilians-Universität München, Munich, Germany 0 Views copyright © 2017 Dohrmann M. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Introduction 1st paragraph: - "deep metazoans" is an odd term; also "Parazoa" is no longer accepted as a valid name. All 4 taxa are clearly metazoans; they are best summarized as "non-bilaterian metazoans". - The citation after the 1st sentence is from 1999; this should be replaced with something more recent as a lot of research in this area has been done since then. - While the statement of the 1st sentence is true, reconstructing the phylogenetic relationships within Ctenophora does not help much to solve these issues, i.e. finding the position of Ctenophora in the animal tree of life is a separate issue that this study is unable to address. - The "previous work" cited in the 2nd sentence is very old. There is a study from 2015 (Simion et al. , Zoology 118: 102-114) that also reconstructed internal relationships of Ctenophora based on multigene analyses. It is crucial that the authors interpret their results in light of that study. It is actually quite puzzling that the paper is not cited, especially because the authors used sequences originally reported in Simion et al. (2015). - The statement in the following sentence is highly debatable. As long as the phylogenetic position of ctenophores is not resolved (see e.g. Dohrmann Wrheide 2013 Integr. Comp. Biol. 53: 503-511; Pisani et al. 2015 PNAS 112: 15402-15407), it is totally unclear how relevant they are to answering these questions. - In the next sentence, "previous studies" should be replaced with "ctenophores". - The following 2 sentences suggest that this paper represents the first multilocus analysis addressing internal phylogeny of Ctenophora. As mentioned above, this is not true. In this study, the authors used 2 protein-coding genes and the 28S gene in addition to the 18S and ITS/5.8S markers already used by Simion et al. (2015). This is what sets their study apart from the previous paper, and this has to be clearly communicated. The paper should focus on discussing differences to the results of Simion et al. in light of expanding the set of markers (but also addressing the different taxon sampling in the 2 studies). - The abbreviation "MLSA" is introduced for "multilocus analysis" – what does the "S" stand for? Maybe it should read "multilocus sequence analysis"? 2nd paragraph: - "ribosomal genes" should read "ribosomal RNA genes" (also elsewhere in the MS), since there are also genes coding for ribosomal proteins. - "ortholog" should be replaced with "protein-coding" (also elsewhere in the MS), since ribosomal RNA genes are also orthologs. 3rd paragraph: - I think the taxonomic overlap between the protein-coding and the ribosomal RNA datasets is sufficient to conduct a combined analysis, to infer a tree based on all the evidence simultaneously. As far as I recall, using mixed nucleotide and amino-acid data is possible with RAxML and MrBayes; alternatively, the protein-coding partition could be analyzed on nucleotide level (possibly excluding 3rd codon positions if they are oversaturated). Methods - It is unclear how ambiguously alignable regions were treated. These have to be excluded prior to analysis, but a quick glance at the concatenated matrices provided in the data supplement (concat_matrix and concat_prot_corrected) suggests otherwise. Difficult-to-align regions can bias phylogenetic inference, so this is an important point to address. - Information about the lengths of loci and concatenated alignments should be given. - Information about how the trees were rooted should be given in this section. In the Results section it is mentioned that Beroida was used as the outgroup to all other ctenophores. However, this is poorly justified. For example, Simion et al. (2015) found this group deeply nested within ctenophores. In general, I suggest following closely the methodological protocol of Simion et al. to make the 2 studies truly comparable. 3rd paragraph: - Replace "is" with "are" - The accession numbers are buried in some text files in the data supplement, which is quite inconvenient for the reader. I suggest providing them directly in Tables 1 and 2. 7th paragraph: - Information about the substitution models used has to be provided here. I highly recommend using partitioning by gene and incorporating secondary structure information, for full comparability with Simion et al. (secondary structure models are available both in RAxML and MrBayes). Results, Discussion - These sections have to be rewritten after reanalysis of the data and comparison with Simion et al. (2015). References 1. Simion P, Bekkouche N, Jager M, Quéinnec E, et al.: Exploring the potential of small RNA subunit and ITS sequences for resolving phylogenetic relationships within the phylum Ctenophora. Zoology (Jena) . 2015; 118 (2): 102-14 PubMed Abstract | Publisher Full Text 2. Dohrmann M, Wörheide G: Novel scenarios of early animal evolution--is it time to rewrite textbooks?. Integr Comp Biol . 2013; 53 (3): 503-11 PubMed Abstract | Publisher Full Text 3. Pisani D, Pett W, Dohrmann M, Feuda R, et al.: Genomic data do not support comb jellies as the sister group to all other animals. Proc Natl Acad Sci U S A . 2015; 112 (50): 15402-7 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 13 Feb 2017 Nicols D. Franco-Sierra, Universidad EAFIT, Colombia Thanks for your comments and suggestions on our work, they are really helpful to improve our analysis. We agree with the observations you pointed out above and we are currently working on a revised version of our manuscript. We sincerely apologize for not including the respective comparison with the work performed by Simion et al (2015). We are working on the readjustments in order to make our analysis fully comparable with Simion et al (2015). View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Dohrmann M. Peer Review Report For: Revisiting the phylogeny of phylum Ctenophora: a molecular perspective [version 2; peer review: 1 approved with reservations, 3 not approved] . F1000Research 2017, 5 :2881 ( https://doi.org/10.5256/f1000research.11235.r19979) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2881/v1#referee-response-19979 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Revisiting the phylogeny of phylum Ctenophora:...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2881/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2881/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2881/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Arteaga-Figueroa LA et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2881/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2881",
+ templates : {
+ twitter : "Revisiting the phylogeny of phylum Ctenophora: a molecular perspective. Arteaga-Figueroa LA et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2881/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Revisiting the phylogeny of phylum Ctenophora: a molecular perspective", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Note", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Revisiting the phylogeny of phylum Ctenophora: a molecular perspective", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/10426/13364")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "13364");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "18631": 0,
+ "20040": 77,
+ "20041": 0,
+ "18633": 0,
+ "19977": 0,
+ "18634": 0,
+ "19978": 0,
+ "19979": 62,
+ "18635": 0,
+ "18636": 0,
+ "19980": 0,
+ "18638": 0,
+ "18639": 0,
+ "18641": 0,
+ "18906": 0,
+ "18907": 0,
+ "18908": 0,
+ "18909": 0,
+ "19620": 0,
+ "19621": 0,
+ "25190": 0,
+ "19622": 0,
+ "25191": 31,
+ "25192": 0,
+ "19496": 0,
+ "19432": 0,
+ "25193": 0,
+ "19497": 0,
+ "19433": 0,
+ "19434": 49,
+ "19435": 0,
+ "19123": 0,
+ "19190": 0,
+ "20287": 52,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "df4acdee-8ce8-4748-846d-d361e44ffa68";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

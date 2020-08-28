@@ -1,0 +1,58 @@
+Siemieniuk et al. performed a meta-analysis of 4 randomized controlled trials comparing TAVI vs
+SAVR in patients with a peri-operative risk of death <8%.
+There are several issues along the manuscript which may raise concern.
+The following list contains the most relevant ones.
+1) Table 1 does not contain sufficient information:
+a) First, all data should be reported according to the treatment group: TAVI or SAVR.
+b) Crucial data including trials' characteristics such as number of centres, study design, n of ITT
+pts and of as-treated patients; or pts' characteristics such as coronary artery disease, prior PCI,
+prior CABG, peripheral vascular disease, prior pacemaker, and procedural details such as
+prevalence of access site: transfemoral and transapical are missing.
+
+2)The Authors have included 4 RCT.
+The STACCATO trial includes only 72 pts with a maximum follow-up of 3 months.
+However, outcomes have been reported at 2-year follow-up in the main analysis.
+This trial should be excluded from the the present analysis.
+3) The Authors are reporting results of their pooled analysis according to the access site:
+transfemoral or transapical, in both the Abstract or the Results.
+However this analysis has been defined by the Authors as subgroup analysis. This is just one of the
+three subgroup analyses performed by the Authors (i.e. low vs high risk, type of valve)
+It is not clear which approach was followed by the Authors.
+In the manuscript, the Results section contains data from a single pooled analysis of the 4 trials
+followed by results from this subgroup analysis, while most figures (1-5) and the web appendix 4
+contain results from subgroup analysis only, i.e. no single summary forest plot was performed.
+Also the Authors seem to interpret findings on the basis of this subgroup analysis only.
+On a methodological standpoint, relying mainly on findings from subgroup analyses may
+lead to biased estimates of the true treatment effect in the population.
+4) The manuscript text, Tables or Figures do not contain any data about the number of patients
+and number of events for each outcome in the overall population and according to subgroups.
+5) The Authors did not declare the primary endpoint(s) and the secondary endpoints of this study
+6) The web appendix risk of bias does not follow the items recommended by the Cochrane
+Collaborations.
+7) In the statistical chapter the Authors declare that for dichotomous outcomes random-effects
+meta-analysis was performed using both Hartung-Knapp-Sidik Jonkman (HKSJ) 95% confidence
+intervals (CIs) and DerSimonian and Laird CIs of relative risks, and that the choice between the
+two for the primary report was based on plausibility of results.
+Actually such approach is very unusual, nor is it recommended by the Cochrane Collaboration.
+Furthermore, the Authors themselves end up with using the random-effects DL method, which is
+the commonly used random-effects method for such analyses.
+Therefore the use the HKSJ method should be avoided.
+8) Although the Authors tried to reconstruct the data from published Kaplan-Meier survival curves
+from the included studies for some endpoints, in order to derive hazard ratio (HR) as treatment
+effects, this approach does not allow to claim that participant level data were used for the
+analyses. In other terms, this study is not an individual-participant-data (IPD) meta-analysis which
+requires the patient-level data from dataset of the included studies and the final merge of data into
+a single dataset. The Authors do not have original dataset sources against which they could
+compare the estimates derived from the KM plots.
+The present analysis remains an aggregate study-level meta-analysis.
+Further it is even more accurate to trust the HR of events reported in the text or tables from each
+study if available, and to use the extraction of data from KM curves only when this data has not
+been reported. This data should be pooled using a random-effect inverse variance weighted
+method. The use of Cox regression with shared frialty on the study level in STATA to provide a
+random-effect Cox regression analysis is usually used with IPD datasets.
+9)The number needed to treat to benefit and to harm with 95% confidence intervals has not been
+reported as measure of absolute treatment effect.
+10) From a methodological standpoint in the Abstract, the results have been reported as absolute
+risk differences, which is not recommended by the Cochrane collaboration. Treatment effects
+should have been reported as relative risk differences such as risk ratios or odds ratios as in the
+main analysis with some measure of absolute treatment difference such as NNTb/NTTH

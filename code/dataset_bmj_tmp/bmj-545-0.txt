@@ -1,0 +1,35 @@
+Overall, the study is well written with comprehensive sets of statistical analyses. The manuscript examines differences in
+mortality risk in breast cancer survivors taking tamoxifen and strong CYP2D6 inhibitors (SSRI antidepressants:
+paroxetine, fluoxetine) versus those exposed to SSRIs that are not CYP2D6 inhibitors. The study addresses an important
+issue in survivors’ care-i.e., guidance on SSRI treatment decisions for women who are taking tamoxifen. Prior studies
+suggest that certain SSRIs can lower tamoxifen’s effectiveness in reducing breast cancer recurrence.
+The study is retrospective cohort using secondary data from 5 claims databases in the U.S. The subjects from the 5
+claims database were then divided into two groups: those who prescribed SSRIs after tamoxifen initiation, and those
+who were exposed to SSRIs prior to tamoxifen initiation. The statistical analysis was thorough and included a couple of
+sensitivity analyses, all of which produced similar results. Of note, all-cause mortality is examined between SSRIexposed groups (CYP2D6 inhibitors vs. non-inhibiting), thus increasing comparability of the study groups. Overall, no
+increased mortality was observed in the group exposed to paroxetine or fluoxetine compared to those who took the
+other SSRIs. This finding is consistent with other studies that have recently examined breast cancer recurrence.
+Although it does not diminish the manuscript, the Discussion could address other potential limitations to help with the
+results’ interpretation. Some suggestions include:
+Selection of all-cause mortality as the end-point (versus breast cancer mortality).
+Methods: the 5 claims database have >100million patients, but the Abstract and
+Methods should include the N of the females who met the inclusion/exclusion criteria of the study (Cohort 1: N=5828
+new users of tamoxifen; Cohort 2: N=8465).
+Although ICD9 coding is used to identify breast cancer and stage at diagnosis, the validity/reliability of using ICD9 for
+staging is not mentioned (path reports are the gold standard for this information, but not available in the claims
+databases). Also with ICD9, it is difficult to distinguish if the codes are indicative of incident disease, second primary
+cancer of the opposite breast, or history of cancer (e.g., subjects might have been initially diagnosed with DCIS and later
+developed invasive disease for which they were then prescribed tamoxifen), so the cohorts might contain a mixed group
+of breast cancer patients.
+The fraction of women with DCIS (Stage 0 disease who are at low risk of breast cancer death) is very high in the cohorts
+compared to national SEER statistics. Given the large number of with Stage 0 disease (who are low risk of mortality),
+could this have affected the HRs? Can the Table 2 include the HRs of models excluding women with DCIS (or provide
+absolute rates of mortality excluding women with Stage 0 disease in another table)? Also, breast conserving therapy is
+the recommended treatment for early stage breast cancer, but missing as a variable in Table 1.
+Is it possible the short mean duration to tamoxifen could have partially contributed to the non-association?
+Minor points:
+• Typos (endoxifen; not edoxifen); statins (not satins, Table 1).
+• Table 1: contains many variables, some of which may not be germane to the aim (e.g., site of the breast lesion).
+• Table 1: The Appendix includes ICD9 codes for Stages III-IV, but Table 1 is missing the distribution of these stages.
+Note, mammography is listed under BC treatment, but it is used for screening and surveillance – was this variable used
+in the analysis?

@@ -1,0 +1,46 @@
+This paper examines the correlation between (a) either individual physician health care spending or Csections (for obstetricians) and (b) medical malpractice claim incidence. This sheds light on whether
+physicians’ beliefs that greater expenditure or procedures reduces malpractice claim risk, a key step in the
+logic behind why malpractice law may induce defensive medicine.
+I think this paper is an important contribution to the medical malpractice literature. If they had found the
+opposite, it may have changed physician behavior. Knowing that physician’s beliefs are correct gives
+policymakers information that helps them formulate better policies to reduce the side effects of liability
+laws.
+I would recommend publication with appropriate revisions.
+If appropriate and there is space, I would recommend that the authors try some back of the envelope
+calculations to shed light one whether the care being provided is cost effective. This should be confined to
+their data and crude calculations, otherwise it will end up as a separate paper altogether (which should not
+discourage the publication of this paper). I tried to do this myself. Looking at Table 3, I see there is roughly
+a 2% reduction in claims (I assume this is per physician but equivalently per patient) from moving from the
+bottom to top quintile. From Table 2 I see that the gap between the top and bottom quintiles of spending is
+roughly $20,000 per patient. So long as the average medical claim is $1 million or less, then I would
+conclude that the spending is cost effective, at least from the physician’s or liability insurer’s personal
+perspective. If we are confident that the medical malpractice system works well, i.e., $1 million less
+damages means $1 million less injury, then we might say it is also cost-effective from the patient’s
+perspective. Of course, these require additional assumptions – and also that I am correct that suits per
+patient fall by 2%. But if the numbers are not unreasonable, i.e., the rate of return to $1 of spending is
+roughly $1 of claims savings, then it would at least cast some doubt on whether the spending was clearly
+defensive, i.e., not cost effective.
+SPECIFIC COMMENTS
+I wonder whether the data are long enough to handle OB claims. I thought they had a longer lag than 4
+years. So having data from 2013 may not tell one about claims except really early in the sample. If the
+
+claims data have date of incidence, one way to show that your data are accurate is to show what fraction of
+claims filed in year t are from incidents in a year covered by the sample. This should be done in the
+appendix. I don’t want to make too much about this because the authors do not find a zero result, which
+the long lag could explain.
+I understand the authors regress incidents in year t that are the basis for a future claim on expenditures or
+procedures in year t-k, with k = 1. (If that is wrong, then the authors should explain what they actually do
+more clearly and explain why they don’t do what I described.) That strategy makes sense for come
+treatments, but not others. E.g., for C-sections, k should surely be k=0 with little risk of reverse causality.
+But I can also imagine that for other treatments the lag is longer. Did the author’s check whether longer
+lags are appropriate. Or even run a model with multiple years of lagged expenditures?
+Do so few physicians have multiple claims that binary models are appropriate? If enough physicians have
+multiple claims, I would consider a zero-inflated Poisson (or just a Poisson) since it is not clear those
+models really give significantly different estimates.
+Are you also clustering at the physician level?
+Why do the authors group the treatment variable into quintiles? Why not just leave it a continuous
+variable? That would make interpretation easier. For sure there is more noise when you don’t bin the
+treatment variable. But binning assumes you know what the relationship is supposed to look like and could
+hide valuable information. I would prefer a more flexible polynomial specification. At least the authors
+should verify to reviewers or show in the appendix that spending or C-sections have a positive effect even
+if left as a continuous variable.

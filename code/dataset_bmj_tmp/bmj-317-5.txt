@@ -1,0 +1,127 @@
+Thanks for asking me to review this interesting paper. It belongs to the family of studies
+using Medicare data to assess trends in hospitalisation patterns, trends and outcomes in
+patients with heart failure, pneumonia and myocardial infarction after the introduction of
+the CMS medical admissions reduction programme and/or before it. This is a highly topical,
+if not polarised, area of research. As a health services / health policy research not
+based/working in the US, and focusing on the healthcare epidemiology of cancer (as
+opposed to that of heart failure, myocardial infarction or pneumonia) I feel I can offer a
+dispassionate view. I have the following comments:
+1. Contextualising the study, and its findings with regard to other research: This is key,
+and currently very much missing. With regard to outcomes and study era, the authors look
+essentially at 3 HRRP conditions X 4 outcomes for each one, post-discharge mortality,
+readmission, ‘ED visit’, and ‘observation stay’. I note that the recently published BMJ paper
+(post submission fo this paper) by Wadhera et al.
+https://www.bmj.com/content/366/bmj.l4563.long also covered the 3 of these outcomes
+(i.e. not including mortality) and reported similar findings – although it relates to study
+period 2012-2015 (for some reason that is not clear in the published paper), whereas the
+present study under review covers 2008-2016. Regarding post-discharge mortality for the
+3 HRRP conditions, another study published in 2018 also first-authored by Wadhera,
+https://www.ncbi.nlm.nih.gov/pubmed/30575880 did look at 30-day mortality and reports
+similar findings with those in the study under review with regard to heart failure
+(increasing over time) and myocardial infarction (no increase) but also reports increased
+trends in mortality for pneumonia, noting that that Wadhera study (unlike the recent BMJ
+one) covered 2005-2015 (not 2008-2016). There are of course other studies (including by
+the Group of authors of the study under review), but without doing a full systematic
+review, this sample of 2 prior studies serves to illustrate that the objective dispassionate
+reader has no means of establishing what is the state of play / evidence in the field, and in
+what way this study is different in terms of design, and whether its findings
+concordant/discordant to previous evidence, and if so why. I could not find a ‘what this
+study adds’ section, at least in the files that were downloadable, which would have been
+very useful, also the Discussion includes no explicit methodological or empirical findings
+comparisons with prior literature, nor reflections in that vein. Basically, the objective
+reader has no means of assessing the importance of this study and its findings (and also
+any potential comparative strengths and weakness of this vs prior studies and vice versa).
+One worries about selective of different study period (by this and other research groups) to
+assess trends. PS: I wonder if the BMJ or policy fora could insist on a minimum
+methodological consensus with regard to this and other features of research in this field,
+including time period studied and data item definitions and analysis methods.
+2. As typically the case for Medicare healthcare epidemiology studies (by many other US
+health services research / policy groups; a lot of this research published in the BMJ) I find
+the description of how outcomes and exposure defined very inadequate – as mentioned,
+this is a problem with this ‘research sector’, not only with this paper (though the issue is
+relevant to the paper under review), and one where Editorial policies, e.g. by BMJ and
+JAMA, can have a great beneficial influence. Is there a published data source profile for the
+data contained in Medicare Standard Analytic File – akin for example to profiles for HES
+
+(e.g. https://www.ncbi.nlm.nih.gov/pubmed/28338941 ) or CPRD (e.g.
+https://www.ncbi.nlm.nih.gov/pubmed/26050254 and
+https://academic.oup.com/ije/advance-article/doi/10.1093/ije/dyz034/5374844 ) in the UK
+that can be cited? How the main exposures of interest (heart failure, myocardial infarction,
+and pneumonia) were defined is not clear to the reader. Re outcomes of interest (‘revenue’
+codes are mentioned, endorsed by the QF, which is good, but how these codes perform in
+practice is unknown – is there any audit / independent validation of quality / consistency in
+coding of such events? For ascertaining mortality, the authors used ‘Medical denominator
+files’ – is there any primary literature specifying the fitness of this source for accurate/
+complete mortality follow-up? Incidentally, related to transparency of methods, I think the
+CONSORT file was very superficially engaged with, and I would have hoped for a much
+more detailed and reflective completion.
+3. Potential confounding due to secular changes in case-mix severity is a concern. This can
+be both because the ‘index condition’ severity in the average patient (i.e. the average
+patient with pneumonia, myocardial infarction, and heart failure) changes over time
+(including changes in mean age of onset), or because of changes in (unrelated to the index
+condition(s)) comorbidity burden. The authors state: “Given potential changes in coding of
+risk adjustment over time, we present unadjusted rates of acute care use and patient
+outcomes over time.” OK, so how bad are these artifactual secular changes in coding, do
+we know? Even if they are terrible to the degree that makes adjustment impossible, this is
+a very consequential statement / decision, and essentially assumes that there are no
+secular trends in disease severity or comorbidity case-mix severity, both of which are
+strong assumptions unlikely to be true. At a minimum, I would have expected some
+descriptive statistics about the patient characteristics of admitted patients with these
+conditions over time (surely age / race / income – if available, are fairly immune to secular
+trends in reclassification / recoding bias); ideally with information on major comorbidities
+too, acknowledging that coding practice changes may have occurred (but at least we have
+the data to see).
+4. Acknowledging the problem I have with understanding ‘priors’ (let’s pretend that there is
+no prior literature, see 1 above), assuming that the data are valid (which indeed the may
+well be, but we want more methodological transparency, see 2 above), and that there have
+been no secular trends in disease / comorbidity severity (see 3 above) one can focus on
+interpreting the findings at face value. They seem to:
+a) overall giving us a picture of (measurable but subtle, when it comes to effect size)
+changes in how post-acute admission care for patients with the 3 HRRP conditions is
+organised, with emphasis on readmission reduction, which partly compensated by increase
+in hospital use not resulting in admission.
+b) 1 of 3 conditions is associated with progressively worse post-discharge mortality, 2/3
+are not. I do however accept the authors assertion / interpretation that the trends of
+deteriorating mortality for HF have started before HRRP implementation, though we are not
+wise as to what the authors thing is going on. Relatedly, a recent BMJ study from UK
+primary care electronic health records is of interest – shows progressive improvement
+(though modest) in HF mortality outcomes during 2000-2017 (though, the studies are not
+necessarily comparable, due to study design, follow-up being different, and also
+case-finding is not post-hospital discharge but from primary care records). I think the
+authors ought to come up with some, even speculative / postulating, hypotheses.
+5. I found the following section of the results very pertinent and reassuring (as the authors’
+also indicate) with regard to the the introduction of HRRP not being associated with
+alarming changes in patterns / outcomes of healthcare management:
+“The overall post-discharge 30-day mortality was 8.7% for heart failure, 7.3% for AMI, and
+8.4% for pneumonia. Post-discharge 30-day mortality was higher in those with
+readmissions (13.2% in heart failure, 12.7% for AMI, and 15.3% for pneumonia),
+compared with patients with observation stays (4.5% in heart failure, 2.7% for AMI, and
+
+4.6% for pneumonia), or ED visits (9.7% in heart failure, 8.8% for AMI, and 7.8% for
+pneumonia), or no post-discharge acute care (7.2% in heart failure, 6.0% for AMI, and
+6.9% for pneumonia).“ Also the paragraph subsequent to it. I agree with the authors
+interpretation of these patterns.
+6. I like the figures, particularly that all 4 outcomes of interest are included in the same
+figure convention, and trends for all 4 are present on the same scale. Incidentally, this is a
+problem I have had with some of the figures in the recently published Wadhera 2019 BMJ
+paper.
+7. I could not see any reflection on the issue of multiple readmissions / multiple ED visit,
+etc. during the post-discharge period, i.e. my understanding is that what we see relates to
+the 'first' such events. Also, what happens when a patient has more than 1 of the 4
+outcomes of interest - e.g. at the limit there will be a small group of patients that will
+experience an ED visit, a short stay, an admission and a death all within 30 days
+post-discharge.
+8. I found Tables 1-3 useful, and the continuation of follow-up to 31-90 days a useful
+addition to the literature (from my understanding, which is imperfect) in this field.
+9. Concluding my review, all in all I think this is a useful and potentially consequential
+study, although improvements to accommodate context / comparison with literature,
+methodological transparency (to make the study potentially replicable by independent
+researchers) and description of the evolution of potential confounders over time would be
+important. With regard to interpretation, my own is that the findings are consistent with
+the introduction of HRRP being associated with reductions in the main outcome of interest
+(readmissions), with some partial compensatory impact on non-inpatient hospital service
+use (which may be a bad thing or a good thing, depending on view point, patient and payer
+preferences and costs), and little in the way of impacting mortality trends. The latter seem
+to be following their 'own' trajectory driven by disease factors which are not (at least given
+these data) notably interfered by the HRRP introduction / implementation, either positively
+or negatively.

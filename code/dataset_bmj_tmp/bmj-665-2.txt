@@ -1,0 +1,33 @@
+The article by Nikkel and colleagues considers the association between LOS and mortality among patients
+with hip fracture in a New York, statewide population. The article is motivated by recent work from
+Sweden, which suggests that longer stays are associated with lower mortality. Using a statewide discharge
+data set, Nikkel et al. regress mortality on LOS categories and find that longer stays are associated with
+higher mortality, the opposite of the Swedish data. Overall, the analysis is sound and the paper is well
+written and easy to follow.
+I have the following suggestions:
+Major Issues
+The authors argue that differences between health care systems between the US and Sweden could
+account for the difference in effect of LOS on mortality. But the specific differences are not spelled out.
+What differences could cause longer LOS to lower mortality in Sweden but increase mortality in the US? For
+example, in the US there is pressure for hospitals to transfer patients to rehab hospitals and SNFs. If US
+hospitals respond to these incentives then they would have a lower LOS on average, and a lower mortality
+since the transferring institutions would receive “credit” for the mortality. If Swedish hospitals do not have
+the same pressure as a result of a publicly financed system, then could this explain the difference between
+the countries? Are rehab and SNFs used in Sweden the way they are in the US? If this is the case, then to
+really have comparable results you would need to link inpatient admissions to their step down admissions.
+It would also imply that the LOSes reported in the two analysis (Sweden and New York) are really different
+measures. Are there other explanations for the differences in your results?
+For much of the paper the authors are careful about not inferring causality between LOS and mortality. But
+there are places where this is implied. For example, page 10, line 1, “LOS did not influence mortality”;
+page 11, line 1, “altering LOS influence mortality rates”; line 23 “influences on mortality”. I would
+recommend that you maintain the language of “association” rather than “influence” or other words that
+suggest that LOS is causing the mortality effect. Unless you can explain how LOS would “cause” mortality
+rates, I think a more likely explanation for your finding is that there is some other (unobserved or
+unmeasured) variable that is associated with both LOS and mortality that is the driving factor here.
+The last sentence of the paper makes a leap from New York data to the US population. I would recommend
+that you not try to generalize, and that you limit your inferences to New York since it is likely that other
+states and the average for the US look different from New York.
+Minor Issues
+Abstract, Objective. Consider saying “determine whether…” rather than “determine if…”.
+Page 10, line 10. Consider revising the phrase “…and this trend was dominant in the overall cohort…” I
+cannot tell what you mean.

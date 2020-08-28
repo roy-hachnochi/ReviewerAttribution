@@ -1,0 +1,50 @@
+The authors report a meta-epidemiological (ME) study examining the associations between
+the lack of blinding (of patients, healthcare providers, and outcome assessors) and
+treatment effect estimates from randomized trials. The methodology is very rigorous, the
+reporting is very clear, and the conclusion is balanced. The authors also share their study
+protocol, the analysis plan, and analytical code. The authors highlight that their sample has
+limited applicability (14% of screened meta-analyses were selected). Only 13 to 46 out of
+142 selected meta-analyses contribute to the 5 main analyses. The findings are consistent
+with previous ME studies.
+1) The authors discussed the lack of precision as an explanation of the absence of evidence
+of an association between lack of blinding and intervention effect estimates. But they did not
+report any formal consideration of statistical power. Power calculations are available for
+meta-epidemiological studies (Giraudeau. Stat Med. 2016). The number of trials per
+meta-analysis is one of the main drivers of power. In Appendix Figure 1, it seems to be
+small.
+2) Another explanation put forward in the conclusion is confounding. It is not clear how
+meta-confounding would explain the absence of evidence of an association. In addition,
+authors seem to raise general concerns about the meta-epidemiological approach in general
+(confounding is provided as an example). What other limitations are the authors referring
+to? What are the implications to better estimate the association between blinding and
+intervention effect estimates?
+3) The authors conclude, logically, that their findings do not have implication for the design
+and conduct of trials. The authors did not reflect on the implications for the assessment of
+the risk of bias in systematic reviews. Currently, blinding has the same weight as other
+domains for grading the overall risk of bias.
+
+4) The importance of blinding may differ according to the inferential goal. The data
+underlying the analysis probably reflect a mixture of intention-to-treat effects and
+not--intention-to-treat effects, and this could have influenced the findings.
+Minor comments
+5) The findings should be put into context of the systematic review of 56 ME studies by
+Dechartres et al (J Clin Epidemiol 2016) that identified 3 ME of binary outcomes for blinding
+of patients, 2 for healthcare providers, 5 for outcome assessors. These ME studies included a
+median of 25 meta-analyses and 236 trials. All ME studies, except one, did not find
+significant associations. Findings were similar for continuous outcomes. The current study
+did not include considerably more information (from 13 to 46 meta-analyses; 91 to 397
+trials) and did not find evidence of an association.
+6) In the conclusion of the abstract, the authors wrote “our unexpected results” and in the
+conclusion of the paper, “the apparent lack […] is surprising”. The results did not confirm the
+hypothesis that lack of blinding is associated with exaggerated intervention effect estimates.
+But is it surprising when put into context of what has gone before?
+7) In the same 5 analysis datasets, what were the associations between inadequate
+allocation concealment and intervention effect estimates?
+8) Page 4, line 57: “differences were resolved by discussion”: Was a third reviewer involved?
+What was the concordance?
+9) The analyses combined binary and continuous outcomes. This combination relied on a
+statistical transformation and normality assumption. What are the findings for binary and
+continuous outcomes separately?
+10) As discussed by the authors, the observed increase in between-trial heterogeneity is
+forced by the additive model of Welton. This constraint can be avoided by label-invariant
+models (Rhodes. Stat Med. 2018)

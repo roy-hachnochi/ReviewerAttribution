@@ -1,0 +1,54 @@
+I thank the authors for addressing my comments in detail. I am pleased that the multiple imputation
+approach has now been done and shown to not change the conclusions. It would be even better to have
+this as the main analysis, but it is at least including in the supplementary material. Similarly, the
+authors show in their response that a Cox modelling approach produces similar results to the Poisson
+approach. Again, it is a shame that these results do not become the main analyses. Following this, I
+have a major comment
+1) In their response, the IRR estimates after multiple imputation are slightly closer to 1 than when using
+the missing indicator method. Also, the IRR estimates closer to 1 when using the Cox model than when
+using the Poisson model (e.g. gestational diabetes 1.19 Cox compared to 1.25 Poisson). This raises the
+big question about whether the estimated IRR values would be even closer to 1 had BOTH Cox and
+multiple imputation been used together, as we recommended. This seems to be a major issue
+remaining. Even if the statistical significance remains in favour of an association, if the estimates move
+even closer to 1, then we have more concern that any residual confounding would be able remove the
+association altogether.
+A related issue is that the associations also come down slightly when adjusting for non-linear effects of
+continuous confounders. See Table S11, where the effect of gestational diabetes is now 1.20 compared
+to 1.25 before. Again, we see a picture of more in-depth analyses leading to more attenuated effect
+sizes between diabetes and CVD risk.
+2) Another major comment: Those that died before CVD were censored – but this then makes absolute
+risks and rates inflated to an artificial population that can never die (and so must at some point develop
+CVD). The authors respond to this point by saying that the IRR from a fine and Gray model (which
+
+accounts for competing risks) is similar to their result. But, this does not address the issue that the
+absolute risk estimates produced will be too high, because people who died cannot actually developed
+CVD ever, but the authors rather censor such individuals, which assume CVD can still occur after the
+censoring point. This is an important issue: the absolute risks must surely be based on the competing
+risks analysis approach.Unless the number of deaths is so few that is barely has an impact.
+Minor comments
+1) The abstract concludes with a causal statement: “Prevention, screening and treatment of diabetes in
+women of childbearing age may help reduce CVD risk in the next generation”. It might be more explicit
+to say “Assuming diabetes in women of childbearing age is causal for increased CVD risk in their
+offspring, prevention, screening and treatment of diabetes in such women may help reduce CVD risk in
+the next generation”.
+2) The Cox model results (shown in the response) are not even included in a supplementary material in
+the paper; I think this should be done for completeness (with multiple imputation), and a comment
+made in the paper. See major comment above.
+3) The plot examining a constant IRR (hazard ratio) in the response to reviewers should be included in
+the supplementary material, and in the main text should be used as a justification of why proportional
+hazards was assumed over time. That being said, the lines do appear to be converging slightly – did the
+authors actually quantify statistically if there is evidence of an interaction between the IRR and time?
+4) In their response the authors note that: “We agree with the Reviewer that gestational age at delivery,
+pre-eclampsia, and small for gestational age are important covariates. Previous studies have reported
+that maternal diabetes is associated with increased risk of preterm birth, pre-eclampsia, and
+macrosomia.23,25,26 Therefore, these factors could be consequences of maternal diabetes and may lie
+on the pathway from maternal diabetes during pregnancy and early-onset CVD in offspring. As expected,
+additional adjustment for maternal pre-eclampsia, preterm birth, and small for gestational age yielded
+slightly decreased associations compared to the main analysis (Table R4.9-2). Therefore, we did not
+adjust for these factors in the main analysis, preferring to consider them as potential mediators.”
+- this is an interesting discussion. Should this rather be considered in the results? Currently only
+addressed in the response to reviewers.
+4) need to explain in the abstract where the absolute risks come from (i.e. averaged across all
+individuals and adjustment factors? the word standardized is hard to interpret, and often is used to refer
+to dividing by standard deviations )
+With best wishes, Richard Riley

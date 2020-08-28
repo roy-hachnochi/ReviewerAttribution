@@ -1,0 +1,78 @@
+Review by Tom Treasure
+A Propensity Matched Comparative Analysis of Long-term Survival of SABR vs Thoracoscopic Sublobar Lung Resection using
+the SEER-Medicare database: Insights from Registry Data
+Declaration:
+I have previously published with some of these authors in the BMJ using the same source of data (SEER) and an analysis using
+a similar approach.[1] I was not involved in the data analysis for this submission.
+The subject matter is very important for the reasons very well set out by the Paul and colleagues. SABR as a lung cancer
+treatment is highly contentious. A valiant effort to recover otherwise lost RCT data[2] to which I and British colleagues added a
+commentary[3] drew a lot of correspondence in Lancet Oncology.
+The Lancet Oncology article and the commentary were then attacked in JTCVS, the premier thoracic surgery journal. The
+thoracic editor himself delivered the four page article with a deprecating title. [4] It was clear that as a thoracic surgeon he felt
+entitled to use the columns of his own journal so see off the advances of radiation oncology. This debate is now to be seen as a
+turf war between surgeons and oncologists. This is not a good way to resolve the question of relative benefit to patients. The
+explicit call for an RCT from Paul et al is welcome.
+Included in The Lancet correspondence columns is a letter lauding the funding of SABR in the NHS under Commission through
+Evaluation. This is unfortunate because it undermines the need for randomised controlled trials to find real differences.
+It is a debate which must be had and if this paper is published and draws attention to the need for an RCT that would be no
+bad thing. The debate would help indicate that if there is not at first sight ‘equipoise’ there is at least growing uncertainty
+about which treatment is better and for whom.
+But I have reservations about the conclusion and I wonder if the whole pitch of this paper might be to underline uncertainty
+rather than make any attempt to resolve it.
+Looking at the output of this analysis the absolute difference between the arms is greatest for overall survival at about 20-30%
+and smaller for cancer specific measures of survival for which it is about 10%. To summarise, the larger proportion of the
+deaths are not due to cancer. The cancer specific deaths are a minority; the root cause of the majority of deaths is likely to be
+age-related comorbidities. (Authors’ Fig.1)
+The point of matching is to find two groups who are as like to each other as possible apart from the treatments under scrutiny.
+What we see here seems to me to suggest that the matching may have failed. It is possible that it has failed to a large degree.
+If it had succeeded you would expect any harm done to be greater in surgery rather than the less invasive SABR, although
+even that could be a wrong assumption.
+Then in thinking about problems with propensity scoring as a means of matching I came across this lecture
+https://www.youtube.com/watch?v=rBv39pK1iEs
+which as a non-statistician I found compelling. Gary King of the Institute for Quantitative Social Science, Harvard University,
+1737 Cambridge Street, Cambridge MA likes matching when one can’t obtain a randomised trial but argues that propensity
+scoring is a bad means of matching.
+The problem is that the data entries cannot contain all the elements that a clinician would use to avoid surgery in a patient.
+Because they are not objective and measurable they are not in the data available for matching. That does not mean they are
+not real and very powerfully predictive.
+If I have it right cancer was not the biggest risk to survival of patients in this category. We can see that most died of
+something else. Overall, 90% of the cancers were Stage Ia with only some of those cancers presenting a threat to survival
+within the next few years.[5] But it is only attrition attributable to lethal cancer that is amenable to the beneficial effect of
+either SABR or surgery. And cancer survival may have occurred irrespective of treatment. The ‘signal’ of treatment effect may
+be swamped by ‘noise’ of death due to causes other than cancer and survival at five years may have been irrespective of
+treatment.[6]
+There are two limitations to even the most carefully performed and sophisticated propensity matching study. First, the decision
+to use SABR rather than surgery in SEER data was neither made by randomisation but nor was it haphazard. It was a carefully
+made choice between two therapies, informed by clinical judgements. SABR may be carrying a lot of heavy baggage in terms
+of comorbidity and perceived risk which led their doctors to steer then away from surgery, and it cannot be matched for. It will
+affect not only the deaths that are not cancer related but remains there in the cancer related deaths. The factors taken into
+consideration go beyond what can be captured in a registry. We can only match on what we know; we cannot match for what
+we don’t know. The authors do not appear to mention the risk of that residual confounding was in play.
+The matter is complicated by another factor. There is growing (but unproven) belief that mediastinal nodal dissection is an
+
+important component of lung cancer surgery.[7;8] SABR cannot provide this.
+Although the authors conclude that an RCT will be needed. P.15/34 “Given the state of ambiguity on the proper use of SABR in
+resectable lung cancer patients, an adequately powered RCT is now highly warranted to inform and ensure evidence-based
+introduction of SABR into practice.”
+The track record of thoracic surgeons with respect to trial is poor and there is something of an apologia for this within the text.
+P.13/34 L.27-34. “A randomized controlled trial (RCT) would be ideal to answer these and other unresolved issues regarding
+SABR. However, it is unclear such a large-scale trial can be completed. Unfortunately, all RCTS comparing SABR with surgery
+in operable patients to date have been incomplete with premature closure due to poor enrolment.”
+Reference List
+1 Paul S, Isaacs AJ, Treasure T, Altorki NK, Sedrakyan A: Long term survival with thoracoscopic versus open lobectomy:
+propensity matched comparative analysis using SEER-Medicare database. BMJ 2014;349:g5575.
+2 Chang JY, Senan S, Paul MA, Mehran RJ, Louie AV, Balter P, Groen HJ, McRae SE, Widder J, Feng L, van den Borne BE,
+Munsell MF, Hurkmans C, Berry DA, van WE, Kresl JJ, Dingemans AM, Dawood O, Haasbeek CJ, Carpenter LS, de JK, Komaki
+R, Slotman BJ, Smit EF, Roth JA: Stereotactic ablative radiotherapy versus lobectomy for operable stage I non-small-cell lung
+cancer: a pooled analysis of two randomised trials. Lancet Oncol 2015;16:630-637.
+3 Treasure T, Rintoul RC, Macbeth F: SABR in early operable lung cancer: time for evidence. Lancet Oncol 2015;16:597-598.
+4 Meyers BF, Puri V, Broderick SR, Samson P, Keogan K, Crabtree TD: Lobectomy versus stereotactic body radiotherapy for
+stage I non-small cell lung cancer: Post hoc analysis dressed up as level-1 evidence? J Thorac Cardiovasc Surg 2015;150:468471.
+5 Hillerdal G: Indolent lung cancers--time for a paradigm shift: a review. J Thorac Oncol 2008;3:208-211.
+6 Glasziou P, Chalmers I, Rawlins M, McCulloch P: When are randomised trials unnecessary? Picking signal from noise. BMJ
+2007;334:349-351.
+7 Lim E, McElnay PJ, Rocco G, Brunelli A, Massard G, Toker A, Passlick B, Varela G, Weder W: Invasive mediastinal staging is
+irrelevant for PET/CT positive N2 lung cancer if the primary tumour and ipsilateral lymph nodes are resectable. Lancet Respir
+Med 2015;3:e32-e33.
+8 McElnay PJ, Choong A, Jordan E, Song F, Lim E: Outcome of surgery versus radiotherapy after induction treatment in
+patients with N2 disease: systematic review and meta-analysis of randomised trials. Thorax 2015;70:764-768.

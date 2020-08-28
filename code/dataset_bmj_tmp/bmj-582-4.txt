@@ -1,0 +1,24 @@
+The authors present a derivation and validation study of a risk score for postpartum venous thromboembolism. Using a
+list of 25 preselected candidate predictors and a multiple logistic regression model, the authors developed a score for
+predicting venous thromboembolism within 6 weeks of delivery among a cohort of women registered at clinics
+participating in the U.K. Clinical Practice Research Datalink. They then validated the model using the Swedish Medical
+Birth Registry, which covers essentially all births in Sweden. Overall, this is a well-done study on an important clinical
+topic. A reliable and simple-to-use tool for identifying women who may benefit from postpartum thromboprophylaxis
+would certainly be valuable.
+One weakness of the study is the rather modest predictive accuracy of the prediction tool (c statistic, 0.72). I agree that
+this is better than not having a externally validated score of any kind, but it should be addressed in the limitations that
+even with this model, many patients will receive unnecessary thromboprophylaxis or not receive thromboprophylaxis and
+go on to have an event. Furthermore, the authors present data on sensitivity but from the language it is unclear to me
+whether this is in regards to the outcome or in regards to whether patients would qualify for thromboprophylaxis under
+existing guidelines. A third weakness of the study relates to how well this model will be disseminated into routine
+practice. Could the authors create a publicly available online calculator to be disseminated along with the paper?
+Other specific comments:
+1. How were the 25 candidate predictors selected?
+2. Why was the external validation applied only to women with at least one risk factor? This seems different than the
+inclusion criteria for the derivation cohort, no?
+3. What efforts will be made to disseminate the risk calculator? The authors state that “it can be easily integrated to a
+user friendly calculator to be implemented in practice”, but it is safe to say that it is unlikely that any practice or provider
+will take the initiative to do so on their own.
+4. “Comparing prediction models to the existing guidelines”: this section is confusing. What do the authors mean when
+they say that “35% of women in the English data qualified for pharmacological thromboprophylaxis for at least 10 days
+postdelivery with a sensitivity of 64% and a PPV of 0.13%”?

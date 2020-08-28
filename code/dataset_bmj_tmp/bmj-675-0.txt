@@ -1,0 +1,69 @@
+The Authors have developed and externally validated risk prediction equations to quantify the absolute risk for
+blindness and lower limb amputation in patients with diabetes, at 10 years.
+The methodological approach adopted is well designed and applied. Equations, with a double external validation,
+show robust results. The methods description is clear and easy to follow.
+Reasons to conduct the study and provide patients and doctors of a prediction tool are well discussed. Data sources
+are reliable and currently used in observational studies.
+Results are of practical interest for clinicians. The identified predictive tool could be used for better stratifying
+patients according to their individual risks.
+As general comment, I would stress in discussion the problems of generalisability to other countries with different
+epidemiological patterns.
+I have got only minor comments.
+Abstract
+- Measurement: Mortality is listed beside hospital and GP electronic records as a source to measure incident
+diagnoses of blindness and amputation. This choice seems weird. How mortality record can contribute in identifying
+amputations and, specially, blindness? As clearly stated in Methods, ONS provides data on survival, for censoring
+observation. If ONS is also used for identifying diabetes cases and complications, it should be clearly stated. The role
+of ONS for identifying the study outcomes, if any, should be clarify. (Same comment for the paragraph 2.2 in
+Methods).
+- Methods (pag. 3): among the listed measures I would substitute sensitivity with accuracy, as we are interested in
+both sensitivity and specificity.
+Introduction
+Beside the cited UKPDS model, other models provide estimate of risk of microvascular complications. For example,
+the CORE Diabetes Model provides simulation of amputation and several models (CORE diabetes model, EAGLE
+model and Sheffield Diabetes model) provide risk estimates for retinopathy rather then blindness. Such literature
+should be mentioned as relevant background. Accordingly, in Discussion (4.1 Key findings), the estimated equations
+cannot be considered the first in predicting blindness and amputation. Such statement should be rephrased to better
+position the study contribution within the existing evidence. Mostly, to provide a tool to easily calculate the
+mentioned risks.
+Methods
+For international readers, the Egton Medical Information System and the Read codes are not straightforward. Please,
+provide a concise explanation.
+The acronym OPCS is not fully explained at its first use.
+In the predictor variable identification, is there any cut-off time point for variables based on the latest information
+recorded in the primary care record before entry to the cohort?
+Methods to identify the clinical events used as predictors (atrial fibrillation, congestive cardiac failure,….) have not
+been clarified. I would not recommend a detailed list of the criteria/codes, but a generic reference to the data
+sources used and the time frame searched. Number of years since diabetes diagnosis is also a variable of interest
+and details on the source should be added (see comments on results).
+Derivation of the models:
+- Typo in 2.4 (second line): “for” is repeated.
+- Reasons to carry out 10 imputation should be clarified as for readers, especially clinicians, it is not meaningful. The
+same for the criteria used for retaining variables (<0.80 and >1.20).
+- What is intended with “plausible” in examining interactions?
+Results
+The high percentage of newly diagnosed patients is not easily justifiable. A comment should be provided. Still, from
+the table is not clear if there are missing data on this variable.
+When listing the amount of missing data for the different variable, cholesterol ratio should be added.
+Is there any explained reason for the difference in recording ethnicity and HBA1c among QResearch and CPRD?
+Provide a comment.
+The paragraph 3.3 Primary outcome of amputation and blindness: Description in the text of absolute number of
+events is not of great interest. I suggest to describe the relative measures and to highlight the relevant differences,
+where present (e.g lower blindness among men in CPRD versus QResearch) .
+3.4.1. Lower limb amputation: The effect of smoking should be described.
+3.5.1Validation results for QResearch are not so similar to those of the CPRD cohort, as stated. Even if a formal
+statistical difference is present only for amputation (ROC statistic both in women and men), all the point estimates of
+the indicators are lower in QResearch. Authors should comment this result even if it does not change the overall
+
+discussion.
+The last paragraph of Methods (beginning of pag.15) should be detach from the previous by adding a specific title
+(e.g. 3.6 Implementation).
+Discussion
+Overall, I recommend a more exhaustive reference to the literature in the filed of predicting models. The last
+sentence of the 4.1 Key findings could be changed into “the fist tool for predicting…”.
+4.3 Comparisons with the literature, last sentence “However, as previously reported,…” Data seem not to support the
+statement as smoking was not included in the final models. Rather, it was included in the amputation models. Could
+it be a typing error?
+Figure 4 and 5. Are not easy to understand. Please add the y-axis label.
+As the outcomes identification was mainly based on Read codes (used by UK general practice), I am not familiar with
+them and I was not able to judge the selection provided by the Authors.

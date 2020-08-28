@@ -1,0 +1,584 @@
+ I) Summary The authors reports the development of a web interface, called webANIMO, for their former Cytoscape app ANIMO, which allows the dynamical modelling and analysis biological signalling networks. This client/server application removes the burden technical installation burden, thereby providing naive users direct and easy access to the tool and some of its analysis features. II) Suggestions on the manuscript 1) We would suggest to reorganize the figures to improve their general organisation and emphasize more the features of webANIMO with respect to ANIMO: Merge Figures 1 and 4, keeping two distinct parts. Send Figure 2 to the supplementary material, as this manuscript is about webANIMO, and I don't think that it is very useful to display the interface of ANIMO in the core of this manuscript, and anyway its contents is largely redundant with that of Figure 3. Send Figure 5 to the supplementary material or to the tutorial, as its contains is likely too technical for the naive user of webANIMO, and probably not very informative for the expert. The Figure 7 appears of limited interest and partly redundant with the right part of Figure 3. Perhaps, it would be more interesting to use this figure to illustrate another case study. 2) As UPPAAL plays a central role, it would be good to include a brief introduction to this tool and more specifically to the functionalities (and underlying principles) used in webANIMO. 3) It is not clear to us what are the restrictions regarding the kinetic terms that can be encoded with webANIMO vs ANIMO. The set of “scenarios” considered seems to be pretty limited. Their naming refer to biochemical reactions whatever the type of molecules defined as sources and targets. Furthermore, their number appears limited and their nature very simple... Would it be possible for example to consider Hill functions (widely used for transcriptional regulations)? The consideration of sufficiently non-linear terms is a prerequisite to the reproduction of sophisticate dynamics, such as oscillatory behaviour. In any case, these restrictions should be clearly stated in the manuscript, perhaps b y including a table with examples of reactions and interactions (in isolation or in combinations) along with recommended scenarios and descriptions of their limitations. 4) It would be useful to include a few more case studies, e.g. implementations of simple gene networks such as the toggle switch (Gardner et al., 2000) and the repressillator (Elowitz et al., 2000). II) Testing the tool Web interface The web interface could be opened successfully and was fast to load. No particular error was observed while randomly clicking on the interface. No problems were observed while importing/exporting networks or plots. The exported session could successfully be locally imported in Cytoscape. Proposed improvements/new functionalities 5) Default name should be proposed for any new reactant (e.g. Reactant1, Reactant2, etc.), while having the text selected for direct edition by the user. This would allow fast creation of Reactants in order to focus more on the structure of the network. 6) To delete a node, apart from the right-click option, one has to use the button "Remove" which is close to the Description text area, thus difficult to find. It is not intuitive that this button deletes reactants. A more intuitive way to implement this functionality would be a "Delete" icon in the menu (usually a garbage bin) removing selected elements. Unwanted behaviors 7) From an empty network, create two reactants and start adding a reaction between them. While the "Add interaction" panel is active it is still possible to delete the reactants through right click menu: the thin blue reaction line is still displayed on the editor with no possibility to remove it excepted from reloading the page 8) From a network, use Zoom to fit and then Zoom out a few times. The displayed network will become partially hidden from the view, obliging the user to re-center it. A more intuitive behavior would be to zoom using the centre of the editor as reference, instead of the top left corner. 9) Apparently, the "Network" - "New" functionality actually clears the current network even if the network was shared. This might create some confusion in the case of shared networks, as one user could clear accidentally a shared network. The previous version would not be available through the Revision history. It might be more intuitive to (i) add a "Clear" item in the "Network" menu, (ii) create a new URL when the user clicks "Network" - "New". 10) When clicking on "Network" - "Get shareable link" a text message warns the user that his network is going to be saved remotely, but there is no "Cancel" option in case this was not intended. Manual 11) Section 2 of the Manual presents basic features, but no visual help or guidance through screenshots, while this would help new users find their way in the interface and see if what they are doing is correct or not. 12) webANIMO comes with two example networks "Model base" and "Chrondrocyte". It would be helpful for the new user to have a short description of these networks in the Manual, as well as expected results after direct simulation through with the "Analyse" button. Proposed exercises on these networks could help the new user experiment and learn specific features in webANIMO. 13) I would suggest to split the current Manuel into two complementary documents: a Manual and a tutorial: - The manual aiming to provide a comprehensive description of the tool and its functionalities. - The tutorial aiming to help the user to develop his first models and analyses, starting from simple applications up to more complex ones. References 1. Gardner TS, Cantor CR, Collins JJ: Construction of a genetic toggle switch in Escherichia coli. Nature . 2000; 403 (6767): 339-42 PubMed Abstract | Publisher Full Text 2. Elowitz MB, Leibler S: A synthetic oscillatory network of transcriptional regulators. Nature . 2000; 403 (6767): 335-8 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however we have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Thieffry D and Hernandez C. Reviewer Report For: webANIMO: Improving the accessibility of ANIMO [version 1; peer review: 3 approved with reservations] . F1000Research 2016, 5 :1714 ( https://doi.org/10.5256/f1000research.9824.r15146 ) The direct URL for this report is: https://f1000research.com/articles/5-1714/v1#referee-response-15146 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Respond or Comment COMMENT ON THIS REPORT Comments on this article Comments (0) Version 1 VERSION 1 PUBLISHED 15 Jul 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 1 15 Jul 16 read read read Denis Thieffry , Institute of Biology of the Ecole Normale Supérieure, Paris, France Cline Hernandez , Institute of Biology of the Ecole Normale Supérieure, Paris, France Gary D. Bader , University of Toronto, Toronto, Canada Mike Kucera , University of Toronto, Toronto, Canada Rosario Distefano , University of Verona, Verona, Italy Ruth Isserlin , University of Toronto, Toronto, Canada Aurlien Naldi , Université de Montpellier, Montpellier, France Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Naldi A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 30 Aug 2016 | for Version 1 Aurlien Naldi , DIMNP UMR CNRS 5235, Université de Montpellier, Montpellier, France 0 Views copyright © 2016 Naldi A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions WebANIMO is a web interface to the ANIMO modelling tool, enabling to get a grasp of the tool while avoiding a complex installation process (the desktop version is a cytoscape plugin which further requires the UPPAAL software). The client uses cytoscape-JS and provides a model editor, relying on JSON requests to the server to perform simulations. Some features are only available in the desktop version, import and export of cytoscape session files enable the user move between the two versions. The paper explains the motivation behind this web version, and the architecture of the client and server parts. The tool itself and the information available in the paper are sound, but the paper could include more context and be streamlined. Some background is missing, especially on ANIMO itself and UPPAAL: a complete description of these tools would be out of scope, but a brief introduction would improve the paper. A paragraph outside of the methods to introduce the user interface and the feature set (edit models, see their revision history, share them online and exchange with the desktop version. Perform analysis on the server, visualize and export the result) would help to understand the scope. Figures 1 and 4 can probably be merged, providing a single view of the client-server architecture. In figure 1, what is the difference between "ANIMO" and "headless ANIMO" ? Also, does the server version rely on cytoscape (I understand that it doesn't but it could be more clear) ? Figures 5 and 6 could be better suited for supplementary material or code documentation: stating that client-server communication uses JSON is enough for many technical readers, and these figures will probably not help the non-technical ones. The authors provide a demo server for webANIMO, with some restrictions on running time to save resources. What would you encourage users who need more power to do: use the desktop version or install their own server? Installing their own server sounds like a good option for groups with both bioinformatics resources and several naive users. Trying out the web interface: The tool loaded properly and seems to be working well despite the following minor issues. If I start to add an interaction with a right-click on the graph, and select a node without validating the new interaction, the temporary link is still visible but can't be added to the model. I encountered a few CSS issues, which could be tied to my browser (firefox 48 on fedora): the "initial activity slider" is there but not visible (clicking on the gray area under the label does work). The "k" slider for interactions had the same problem. the text in the comboboxes was too large and only readable after opening the menu. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Naldi A. Peer Review Report For: webANIMO: Improving the accessibility of ANIMO [version 1; peer review: 3 approved with reservations] . F1000Research 2016, 5 :1714 ( https://doi.org/10.5256/f1000research.9824.r15453) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-1714/v1#referee-response-15453 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Bader G et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 26 Aug 2016 | for Version 1 Gary D. Bader , The Donnelly Centre, University of Toronto, Toronto, ON, Canada Rosario Distefano , Department of Computer Science, University of Verona, Verona, Italy Ruth Isserlin , The Donnelly Centre, University of Toronto, Toronto, ON, Canada Mike Kucera , The Donnelly Centre, University of Toronto, Toronto, ON, Canada 0 Views copyright © 2016 Bader G et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The authors introduce a new Cytoscape.js-based web app that enables users to simulate a given biological network based on a range of parameters, taking advantage of most of the features of ANIMO (originally developed as a Cytoscape app) without the requirement of installing Cytoscape on the desktop. In general, the new webANIMO system seems useful and well developed, but we have a number of suggestions to improve the manuscript. General comments: The paper mixes descriptions of the user interface with implementation, which is confusing for the reader. It would be better to start with the analysis and use case sections, showing a flowchart of the overall workflow as figure 1, followed by a section describing the user interface (UI) and then the implementation details in a separate section. In particular, the meaning of a ‘model’ should be explained. Also, the ‘analysis’ should be described. What is involved? What is the input and what is the output? The authors claim that webANIMO was developed because users find the ANIMO app difficult to install. They even go so far as to describe the process as “hideous and difficult”. This claim should be better supported e.g. by providing results of user uptake or satisfaction between ANIMO and webANIMO. ANIMO installation does not seem terribly difficult. Abstract: “Useful analyses can be performed and displayed to the user in an effective way.” Be more specific in what useful analyses webANIMO is for. The webANIMO URL should be presented more prominently (e.g. at the top), as it currently only appears at the end of the text. Introduction section: The introduction should start with an explanation about what ANIMO and webANIMO are for. Activation and inhibition symbols are defined but don’t seem to be used again in the text – is this just explaining the network visualization representation? In this case, it should be in a figure legend. The UPPAAL system should be briefly described. Implementation Section: What is the purpose of the front end and what is the purpose of the back end? What information is shown/processed at each end? An overall figure explaining the information flow would be useful. What does it mean to run ‘headless’ ANIMO? Is this implemented as a standalone java process, or is it running inside of the Cytoscape OSGi container? This is an important distinction because the ANIMO app depends on Cytoscape. Was that dependency removed? User Interface section It is mentioned that the decision was made to make the web interface “different”. Different in what way? The very next sentence says the user interface still resembles the desktop version. These sentences seem to contradict each other. Result view section: A more detailed description of the meaning of the result view and what it shows would be useful. Import and Export section: The ability to work in webanimo and desktop animo seamlessly is a great feature. It could be pointed out that this will help Cytoscape users share information with collaborators who may not have installed Cytoscape. It is mentioned that import/export is done client side to avoid server workload. This contradicts the statement in the implementation section that “Since web browsers have limited memory and processing power, the tasks of the client are kept to a minimum”. It is mentioned that users can switch to desktop ANIMO when they need more processing power. How powerful are the webANIMO servers and when should users move to the desktop version? In general, the authors should clarify when to use the desktop vs. web-based versions and what are the capabilities and features supported by each. What sort of network size (number of nodes and edges) does this limit support? At what point do users need to move to the cytoscape desktop version? What are the limits of the server? (All of these details should be added to the implementation section) Analysis: Clarify description of time throughout the paper – server processing time or simulated concentration over time? Why was the limit of one minute chosen? Is this one minute of processing time on the server or does it also include data transfer? “The UI is disabled during the analysis and the waiting time is limited to one minute, after which the simulation is forced to terminate and no result is sent back.” Why does the platform not return any partial results? “The choice to perform the analysis on the server was made so the user is not required to install the tools that are needed to perform the simulation. As an added benefit this may improve the simulation time for the user if the device sending the request has slower hardware than the server (which is usually the case if the user accesses webANIMO through a tablet or smartphone).” This sounds useful, however, the web platform became non-responsive on mobile devices while the simulation is running during testing. A useful feature not available in webANIMO is the possibility to change the "Reaction kinetics" (available in the desktop version). Is this feature expensive in term of computational costs? Looking at the code, this feature has been implemented (embedded in the HTML code) and disabled. Why did the authors decide to not enable this feature? Plot Export section: Clarify meaning of graph (network vs. plot/chart) throughout the manuscript. Revision History section In the implementation section it is mentioned that one of the features of ANIMO that was not implemented in webANIMO is “history of previous simulations”. This section describes a feature called “revision history”. How are these features different? Online shared networks section: What are the benefits of saving and sharing a network vs. just saving the cytoscape session and sending the session? Is there anything in the saved and shared network that is not in the session? With the lock files, if you share the network with someone who opens it but then leaves it open in the browser (potentially for hours or days) does that lock you out of your own network? It is nice how the user is given the choice to store their data locally or on the server. Operation section: "Installing webANIMO on a server requires PHP version 5.2 or higher, Java version 8 or higher and an UPPAAL 4.1 installation." – clarify why one would want to install a local version vs. using the easy to use web version or the Cytoscape app. use cases section: This is more like a simple tutorial than a list of use cases. Suggest either describing use cases only (e.g. gene knock out), develop the tutorial better (e.g. adding figures), or replace with a link to an online tutorial. Minor points: "propery" should be property Figure 1: this picture could be improved by moving the "Cytoscape JS" block inside the "webANIMO" block and the "webANIMO" block inside the "web browser" block. Also, remove "JS" from the webANIMO block name, since webANIMO is platform, not a library. Or, if the JS is meant to indicate that the block is implemented in javascript (and not a module name), then the languages for the other blocks should be specified for consistency. In the latter case, “Cytoscape JS” should be “cytoscape.js” Figure 4: "POST" could be removed from the I/O system diagram – the main point is request/response. We noticed a Javascript error associated with the tooltip library (when interacting with the line chart) Competing Interests No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however we have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Bader GD, Distefano R, Isserlin R and Kucera M. Peer Review Report For: webANIMO: Improving the accessibility of ANIMO [version 1; peer review: 3 approved with reservations] . F1000Research 2016, 5 :1714 ( https://doi.org/10.5256/f1000research.9824.r15047) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-1714/v1#referee-response-15047 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Thieffry D et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 01 Aug 2016 | for Version 1 Denis Thieffry , Computational Systems Biology Team, CNRS, Inserm, Ecole Normale Supérieure, PSL Research University, Institute of Biology of the Ecole Normale Supérieure, Paris, France Cline Hernandez , Computational Systems Biology Team, CNRS, Inserm, Ecole Normale Supérieure, PSL Research University, Institute of Biology of the Ecole Normale Supérieure, Paris, France 0 Views copyright © 2016 Thieffry D et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions I) Summary The authors reports the development of a web interface, called webANIMO, for their former Cytoscape app ANIMO, which allows the dynamical modelling and analysis biological signalling networks. This client/server application removes the burden technical installation burden, thereby providing naive users direct and easy access to the tool and some of its analysis features. II) Suggestions on the manuscript 1) We would suggest to reorganize the figures to improve their general organisation and emphasize more the features of webANIMO with respect to ANIMO: Merge Figures 1 and 4, keeping two distinct parts. Send Figure 2 to the supplementary material, as this manuscript is about webANIMO, and I don't think that it is very useful to display the interface of ANIMO in the core of this manuscript, and anyway its contents is largely redundant with that of Figure 3. Send Figure 5 to the supplementary material or to the tutorial, as its contains is likely too technical for the naive user of webANIMO, and probably not very informative for the expert. The Figure 7 appears of limited interest and partly redundant with the right part of Figure 3. Perhaps, it would be more interesting to use this figure to illustrate another case study. 2) As UPPAAL plays a central role, it would be good to include a brief introduction to this tool and more specifically to the functionalities (and underlying principles) used in webANIMO. 3) It is not clear to us what are the restrictions regarding the kinetic terms that can be encoded with webANIMO vs ANIMO. The set of “scenarios” considered seems to be pretty limited. Their naming refer to biochemical reactions whatever the type of molecules defined as sources and targets. Furthermore, their number appears limited and their nature very simple... Would it be possible for example to consider Hill functions (widely used for transcriptional regulations)? The consideration of sufficiently non-linear terms is a prerequisite to the reproduction of sophisticate dynamics, such as oscillatory behaviour. In any case, these restrictions should be clearly stated in the manuscript, perhaps b y including a table with examples of reactions and interactions (in isolation or in combinations) along with recommended scenarios and descriptions of their limitations. 4) It would be useful to include a few more case studies, e.g. implementations of simple gene networks such as the toggle switch (Gardner et al., 2000) and the repressillator (Elowitz et al., 2000). II) Testing the tool Web interface The web interface could be opened successfully and was fast to load. No particular error was observed while randomly clicking on the interface. No problems were observed while importing/exporting networks or plots. The exported session could successfully be locally imported in Cytoscape. Proposed improvements/new functionalities 5) Default name should be proposed for any new reactant (e.g. Reactant1, Reactant2, etc.), while having the text selected for direct edition by the user. This would allow fast creation of Reactants in order to focus more on the structure of the network. 6) To delete a node, apart from the right-click option, one has to use the button "Remove" which is close to the Description text area, thus difficult to find. It is not intuitive that this button deletes reactants. A more intuitive way to implement this functionality would be a "Delete" icon in the menu (usually a garbage bin) removing selected elements. Unwanted behaviors 7) From an empty network, create two reactants and start adding a reaction between them. While the "Add interaction" panel is active it is still possible to delete the reactants through right click menu: the thin blue reaction line is still displayed on the editor with no possibility to remove it excepted from reloading the page 8) From a network, use Zoom to fit and then Zoom out a few times. The displayed network will become partially hidden from the view, obliging the user to re-center it. A more intuitive behavior would be to zoom using the centre of the editor as reference, instead of the top left corner. 9) Apparently, the "Network" - "New" functionality actually clears the current network even if the network was shared. This might create some confusion in the case of shared networks, as one user could clear accidentally a shared network. The previous version would not be available through the Revision history. It might be more intuitive to (i) add a "Clear" item in the "Network" menu, (ii) create a new URL when the user clicks "Network" - "New". 10) When clicking on "Network" - "Get shareable link" a text message warns the user that his network is going to be saved remotely, but there is no "Cancel" option in case this was not intended. Manual 11) Section 2 of the Manual presents basic features, but no visual help or guidance through screenshots, while this would help new users find their way in the interface and see if what they are doing is correct or not. 12) webANIMO comes with two example networks "Model base" and "Chrondrocyte". It would be helpful for the new user to have a short description of these networks in the Manual, as well as expected results after direct simulation through with the "Analyse" button. Proposed exercises on these networks could help the new user experiment and learn specific features in webANIMO. 13) I would suggest to split the current Manuel into two complementary documents: a Manual and a tutorial: - The manual aiming to provide a comprehensive description of the tool and its functionalities. - The tutorial aiming to help the user to develop his first models and analyses, starting from simple applications up to more complex ones. References 1. Gardner TS, Cantor CR, Collins JJ: Construction of a genetic toggle switch in Escherichia coli. Nature . 2000; 403 (6767): 339-42 PubMed Abstract | Publisher Full Text 2. Elowitz MB, Leibler S: A synthetic oscillatory network of transcriptional regulators. Nature . 2000; 403 (6767): 335-8 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however we have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Thieffry D and Hernandez C. Peer Review Report For: webANIMO: Improving the accessibility of ANIMO [version 1; peer review: 3 approved with reservations] . F1000Research 2016, 5 :1714 ( https://doi.org/10.5256/f1000research.9824.r15146) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-1714/v1#referee-response-15146 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "webANIMO: Improving the accessibility of...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-1714/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-1714/v1&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-1714/v1" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Siers W et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-1714/v1/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-1714",
+ templates : {
+ twitter : "webANIMO: Improving the accessibility of ANIMO. Siers W et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-1714/v1"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: webANIMO: Improving the accessibility of ANIMO", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Software Tool Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: webANIMO: Improving the accessibility of ANIMO", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/9130/9824")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "9824");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "15041": 0,
+ "15044": 0,
+ "15047": 12,
+ "15144": 0,
+ "15145": 0,
+ "15146": 19,
+ "15451": 0,
+ "15147": 0,
+ "15452": 0,
+ "15453": 12,
+ "15038": 0,
+ "15039": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "1279687d-e359-4342-8d66-c481505e1422";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

@@ -1,0 +1,68 @@
+This is an important topic and the authors have produced a considerable piece of work. The evidence
+retrieved and combined is immense, and they must have worked very hard. However, there are many
+concerns and lack of necessary details as it stands, therefore I suggest to the BMJ that it is difficult to
+ascertain how robust the results are, in its present form. I hope the following comments help the
+authors clarify and improve their work going forward:
+1. There are no details of study quality assessment (risk of bias) in the methods. This is also only
+briefly mentioned as having been done at the beginning of the results, but without details of whether
+included trials were low or high risk of bias. Supplementary figure 1 shows that this was actually done,
+but we need this bringing into the main article and discussing please. This is a critical part of a
+systematic review and meta-analysis, and has been over-looked here in favour of presenting the
+modelling. We need more details and discussion of the included trials, their qualitative consistency ( in
+terms of length of follow-up, populations, etc) and risk of bias.
+2) I have some concerns about the analyses presented. Most of all, the description of the statistical
+approach to network meta-analysis is far too brief and not detailed enough. For example:
+- what are the prior distributions being used in the analysis? Did the authors use empirically based
+priors for the between-study variance, or some ‘vague’ prior? If the latter, then meta-analyses are
+often sensitive to the choice of prior, especially for tau-squared (the between-study variance). So are
+the results robust to sensitble choices of the prior distributions?
+- what type of model is being used in the Bayesian analysis (e.g. logistic to model 2 by 2 tables, or
+linear regression models with weights to model continuous effects, etc). All we are told is that a
+hierarchical model was used.
+- What are the assumptions being made? For example, Is the between-study variance assumed to be
+constant for each treatment contrast? Etc
+- How is the correlation between multiple effect estimates in the same study accounted for? (withinstudy correlation) How is between-study correlation accounted for?
+3) A Bayesian approach is used for the main network analyses, and then strangely frequentist
+approaches are used for other analyses, such as the pair-wise only analyses. I found this internally
+
+inconsistent, and the discrepancies from the full and pair-wise analyses may be due to the change in
+statistical approach as much as anything else. Therefore, I encourage the researchers to be consistent.
+For example, why is meta-regression done in a frequentist framework using Dersimonian and Laird,
+and not a Bayesian analysis? And why are the frequentist results using the Dersimonian and Laird
+method, when this ignores additional uncertainty in the estimate of tau-squared when presenting
+confidence intervals? See [1] for better options.
+4) It is also strange that the authors often refer to statistical significance of results, when the Bayesian
+approach rather allows direct probability statements that are more meaningful.
+5) In their methods, the authors say that the OR was used as the outcome measure. But then a few
+lines down, they sat that pooled estimates were quantified as OR or MD (mean difference). How were
+the ORs translated back to the MD scale?
+6) The authors say that ORs were used due to the uniform follow up lengths of the trials. But I in table
+1 the follow ups seems highly variable to me – e.g angiographic is 24 hrs, 6 months, 7 months, 9
+months, 12 months. Why should the OR be the same at 24 hours as at 12 months? Undoubtedly this
+will cause heterogeneity in the meta-analysis, and I would rather hazard ratios had been synthesised.
+7) We need more on the data extraction phase. How did the authors calculate the ORs if they were
+missing in study publications? What is trials reported a HR rather than an OR?
+8) What is the rationale for the trial sequential analysis part? I do not follow this and suggest it is
+removed. We simply want a summary of the evidence, not predictions for new trials, don’t we? This
+part merely creates confusion and detracts from the main findings.
+9) Some of the key summary results and CIs should be given in the text of the results, to quantify the
+comments made
+10) I very much like the forest plots and ranking probabilities. Can we also have the estimated
+heterogeneity on the plots (or given underneath)?
+11) I suggest refraining from saying this was a ‘comprehensive’ meta-analysis, as this is very
+subjective, unecessary and leaves the authors open to criticism
+12) Meta-regression is not recommended when there are fewer than 10 studies, yet the authors do
+this (e.g. see page 82, there are 5 studies). Also, meta-regression analyses are ecological analyses
+and prone to confounding. Therefore this should be addressed.
+13) Egger’s test is inappropriate for ORs. Use Peter’s test instead. Please see Sterne et al. [2]
+I don’t like the limit meta-analysis approach, as the asymmetry may be due genuine heterogeneity
+here and not publication bias. Also, given the number of tests done for asymmetry, it is perhaps not
+surprising that a few are found to be significant by chance. Thus, please revise this section.
+14) Finally, I urge the authors to shorten and hone their results section. It is very long, with no
+quantitative results given alongside the text, and the text itself is rather long-winded. I suggest adding
+results and sub-headings, to help the reader and improve the flow.
+Ref:
+[1] Cornell JE, Mulrow CD, Localio R, Stack CB, Meibohm AR, Guallar E, et al. Random-effects metaanalysis of inconsistent effects: a time for change. Ann Intern Med. 2014;160:267-70.
+[2] Sterne JAC, A.J. S, J.P.A. I, Terrin N, Jones DR, Lau J, et al. Recommendations for examining and
+interpreting funnel plot asymmetry in meta-analyses of randomised controlled trials. BMJ.
+2011;342:d4002.

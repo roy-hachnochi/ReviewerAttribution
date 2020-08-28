@@ -1,0 +1,43 @@
+The authors use two large cohorts to construct five shape trajectory groups from age 5 to 50, and then
+compare mortality in the diffferent groups. I have some comments on the study design, analysis and
+presentation.
+1. The key exposure here is the recalled somatotype at ages 5, 10, 20, 30 and 40, and the corresponding
+rating at age 50 is inferred from the age 40 rating. The way this is done strikes me as clunky, based on
+just the previous rating and ignoring the earlier ones. It also requires the age 40 rating to be present to
+estimate the age 50 rating. Since the purpose is to represent shape over the life course it would surely be
+better to use all the available shape ratings and BMI at 40 to impute the age 50 rating.
+The description on page 39 implies, though does not state, that BMI was measured at ages 40 and 50:
+“…we assessed the average BMI from age 47 to 53 as the BMI for age 50. We then divided BMI at these
+two ages into 9 categories”. Which two ages?
+“The cutoff points for each category were calculated as the median BMI of this category at age 40 plus a
+constant to account for weight gain from age 40 to 50”. But why use the median as the upper cut-off,
+which will misclassify half those in the group? Surely one needs cutoffs midway between the group
+medians?
+Also, using a single value of 1.5 kg/m2 for 10-year BMI gain ignores the fact that BMI is increasing over
+time in some groups but not in others. The calculation needs to take into account all the available
+information on individual trajectories.
+2. Related to this, Figure 1 shows that 28% of individuals were excluded as they had “missing somatotype
+data for more than two different age points”, or put more simply, fewer than 4 somatotypes. This serious
+data loss strikes me as unnecessary – Figure 1 shows that the group trajectories are essentially linear
+(despite the cubic fit), which means that anyone with 2 or more somatotypes could reasonably be
+analysed. Even requiring a minimum of 3 ought to reduce the dropout appreciably.
+3. A second data exclusion is for BMI < 18.5 kg/m2. I can see that this is meant to reduce reverse
+causation, but since the whole purpose is to model BMI, it seems illogical to omit individuals whose BMI is
+arbitrarily low. In any case the numbers involved are tiny and will make no difference to the results.
+4. Related to point 6 above, the essential linearity of the group trajectories indicates that a simple randomslope-random-intercept model would lead to broadly the same conclusions, and the relative size of the
+slope and intercept random effects in predicting mortality would quantify the importance of mean BMI
+versus BMI gain.
+5. Is there a way to superimpose on the group trajectories of Figure 1 the mean BMI values appearing in
+Table 1? It would provide some validation of the group allocation.
+6. The hazard ratios in Tables 2 and subsequently are adjusted for a string of covariates including lifestyle
+factors such as physical activity, alcohol consumption and dietary score. Are these factors not on the causal
+pathway, and hence should not be adjusted for? The research question involves the shape trajectories
+versus mortality, which must be due at least in part to lifestyle differences – so why adjust for them if the
+interest is in the trajectories themselves?
+7. Table 2 shows that for deaths due to stroke in women smokers (though not in men), groups 3 and 4 are
+
+significantly protected relative to the lean-stable group. This is surely worth a mention.
+8. The interaction in Figure 2B is said to be insignificant (P = 0.46), yet the two trends look strikingly
+different, and much more so than in Figures 2A and 2C. Is it correct? It’s not entirely clear what sort of
+interaction has been fitted – I assume it's comparing the linear trends across shape groups in the two
+diabetes groups.

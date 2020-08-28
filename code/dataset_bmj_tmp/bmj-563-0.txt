@@ -1,0 +1,83 @@
+1. This is an important study which directly compares the performance of thee established fracture risk scores (QFracture,
+FRAX and Garvan) in an external populations from Israel. It is important since it represents not only the first study to directly
+compare all three scores but also the first international validation of QFracture. The study has been done carefully and reported
+well and overall I think the findings are likely to be of interest to the general medical, international BMJ reader and likely to
+help with the evidence base to support the inclusion of these risk scores in international guidance and into clinical practice. The
+BMJ has published both of the original QFracture papers(1, 2) and the external review in the UK population(3) so this paper
+naturally builds on that. My comments below highlight areas where I think the paper can be improved and should all be
+addressable by the authors should they wish to revise their paper.
+2. Abstract – results states that the hip fracture rate was 7.% and major fracture rate was 2.7% although the major fractures
+include hip fractures. I think the results have been transposed so hip fracture rate is 2.7% and major fracture is 2.7
+3. The authors refer to ‘comparative’ analyses which include those undertaken on a single age range (50-90 years) and
+‘external validation’ which refer to analyses undertaken using the age range used for the derivations of each score. It is good
+that the authors have presented these different analyses. However, all the analyses presented are technically independent
+external validation(4). They are external since the populations included in the analyses were separate from those used to
+develop each of the 3 prediction scores. They are independent since the authors were not involved in developing the original
+scores (as far as I can tell). Can the authors need to find another term to refer to their two types of analyses which doesn’t
+imply that some of their analyses are not ‘external validations’
+4. Abstract conclusion: they authors state that “the simpler FRAX performed almost as well as QFracture which may have
+advantages if automatic computation using EHR is not available”. The ROC statistics are generally considered to be a crude
+measure of performance across a population and some statisticians would argue that a difference of 0.1 in the ROC value is
+important. However, for an individual who has some of the risk factors which are in QFracture and no in FRAX, then it is like ly
+that FRAX would under-estimate their true risk by failing to take account of these factors – yet this may not be reflected in the
+relatively crude ROC measurements. Can this be highlighted in the discussion
+
+5. Introduction page 4 - line 43/44 “QFracture has been validated by three studies all in the UK” is inaccurate(1-3). QFracture
+has been validated in the following studies in the UK(5) and in Ireland (6).
+6. Introduction page 5 – the authors refer to the “old versions” of QFracture and FRAX(1). The updated Qfracture (2012) is
+correctly cited elsewhere the paper(2) but I couldn’t find a clear reference to the updated FRAX score – can this be added so
+the reader can understand the difference between old and the new FRAX and precisely what has changed between the two
+versions. There is also reference to the ‘recalibration’ of FRAX – can more detail be given on how this recalibration has been
+done to help the reader understand the context.
+7. Methods page 6 - The Clalit Health Services (CHS) covers a population of 4.3 million which make up more than half of
+Israel’s population. Can some information be given on how representative this population is of the population of Israel perhaps
+in a supplementary table. Table one shows that over a 37% of the population has type 2 diabetes and approx. 29% have
+cardiovascular disease – these are high rates and it would be useful to know if this reflects the Israeli population or whether
+these conditions result in patients selectively being registered under CHS.
+8. Methods page 7 – patients with missing values for BMI and smoking were excluded. To minimise bias, it would be preferable
+for them to be included in the study population and techniques such as multiple imputation used to impute missing values for
+these variables(7, 8).
+9. Methods page 7 – the age range for FRAX given on the FRAX website is 40-90 years - can the authors give a reference to
+support the range of 50-90 for FRAX?.
+
+10. Analysis page 9 – ROC values are calculated yet this method doesn’t appear to take account of the survival nature of the
+data. Can either the ROC adjusted for survival data or Royston’s D statistic(9) be considered. The latter would have the
+advantage of also providing information on explained variation(10) which would enable comparisons with other papers.
+11. It’s commendable that the authors have looked at both discrimination and calibration. Can the authors consider
+undertaking an additional analysis to look at reclassification statistics? For example, identify the top 10% of patients using
+each of the three scores and then determine what % of patients would be reclassified as high risk on one score but as low risk
+on another and then check the observed risk in the re-classified patients.
+
+12. Results - Please add total person years of follow up and median follow up (IQR) as well as the absolute and age/sex
+
+standardised fracture rates to enable comparisons with other populations/studies. Please also add descriptive information on
+the type of fracture (how many hip, wrist, humerus, spine).
+13. Results – can the authors give a worked example of how the risk scores are applied to a few patients in a table so that the
+reader can see, for an individual patient, what their score would be using each of the three scoring systems.
+14. Results table 2 – it would be better for the results to be presented for men and women separately to aid comparisons with
+previous studies ad for consistency with table 3. Please clarify what LIFT refers to by adding a footnote. Please check with the
+statistical reviewer regarding the appropriateness of presenting measures such as sensitivity when considering survival data.
+
+15. Discussion page 18 line 40. The authors re correct regarding the important of comparing validation statistics over different
+age ranges. However their statement in line 40 is inaccurate since the QFracture papers(1, 2) presented results for different
+age ranges.
+
+1. Hippisley-Cox J, Coupland C. Predicting risk of osteoporotic fracture in men and women in England and Wales: prospective
+derivation and validation of QFractureScores. BMJ. 2009;339:b4229.
+2. Hippisley-Cox J, Coupland C. Derivation and validation of updated QFracture algorithm to predict risk of osteoporotic
+fracture in primary care in the United Kingdom: prospective open cohort study. BMJ. 2012;344(may22 1):e3427-e.
+3. Collins GS, Mallett S, Altman DG. Predicting risk of osteoporotic and hip fracture in the United Kingdom: prospective
+independent and external validation of QFractureScores. BMJ. 2011;342:d3651.
+4. Altman DG, Vergouwe Y, Royston P, Moons KGM. Prognosis and prognostic research: validating a prognostic model. BMJ.
+2009;338(may28_1):b605-.
+5. Hippisley-Cox J, Coupland C, Brindle P. The performance of seven QPrediction risk scores in an independent external sample
+of patients from general practice: a validation study. BMJ Open. 2014;4(8):e005809.
+6. Cummins N, Poku E, Towler M, O’Driscoll O, Ralston S. Clinical Risk Factors for Osteoporosis in Ireland and the UK: A
+Comparison of FRAX and QFractureScores. Calcif Tissue Int. 2011;89(2):172-7.
+7. Royston P, White I. Multiple Imputation by Chained Equations (MICE): Implementation in Stata. Journal of statistical
+software. 2011;45:1-20.
+8. White IR, Royston P, Wood AM. Multiple imputation using chained equations: Issues and guidance for practice. Stat Med.
+2011;30(4):377-99.
+9. Royston P, Sauerbrei W. A new measure of prognostic separation in survival data. Stat Med. 2004;23:723-48.
+10. Royston P, Altman DG. External validation of a Cox prognostic model: principles and methods. BMC Med Res Methodol.
+2013;13:33.

@@ -1,0 +1,34 @@
+The authors discuss the equity of aid contributions, both in terms of who gives and who
+receives them. I didn't see any particular statistical problems, but there is a more general
+data issue in that there is a considerable amount of numeric information that readers will
+struggle to assimilate.
+1. Figure 1 is a key example. It is a very beautiful but complex gapminder-ggplot-type
+graph with nine distinct facets, each facet containing information for a large (though
+unspecified) number of countries. The entire text describing the figure is:
+"The distribution of the overall envelope of aid for RMNCH became more vertically
+equitable over time, in the sense that donors increasingly prioritized low-income countries
+(whose share increased from 43% of aid for RMNCH in 2010 to 51% in 2017) and to some
+extent those with higher mortality levels (Figure 1). However, countries of similar
+
+mortality and income continued to receive very different levels of aid per person,
+indicating a lack of horizontal equity (Figure 1).
+The separate components of aid for RMNCH – aid for reproductive health, maternal and
+newborn health, and child health – all increased substantially from 2010 to 2017 (Figure
+1). During this same period, maternal, newborn and child mortality levels fell. Among
+these three, progress in maternal and neonatal mortality lagged behind child mortality
+(Figure 1) and aid for maternal and newborn health did not increase as a share of aid for
+RMNCH."
+If one is familiar with the field the layout of the Figure and the associated statements may
+be self-evident, but for the non-specialist they are absolutely not. The layout of the Figure
+needs to be explained first. In addition the final two points, that mortality fell over time
+and and more so for child than maternal or neonatal mortality, are far from obvious. It
+doesn't help that maternal mortality is measured as life expectancy, i.e. in the reverse
+direction to child and neonatal mortality.
+2. I'm not convinced that the extensive supplementary data add much to the story.
+3. Two very minor points. Data are plural, so "data is" and "data suggests" would be
+better as "data are" and "data suggest".
+4. Most percentages in the paper are usefully given as whole numbers (see my
+recommendations on numerical presentation, https://adc.bmj.com/content/100/7/608).
+But Figure 4 gives percentages to one decimal place which I suggest would be better as
+whole numbers.
+Tim Cole

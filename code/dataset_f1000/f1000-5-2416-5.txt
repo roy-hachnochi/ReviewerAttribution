@@ -1,0 +1,612 @@
+This is a thought provoking simulation study of Darwinian neurodynamics. It uses populations of attractor networks to illustrate the distinction between purely selectionist and evolutionary optimisation. This demonstration rests upon the dynamical instability of the neuronal networks considered – and the explicit introduction of variation or mutations in graduating from a selectionist to an evolutionary scheme. The paper is rather dense and I do not pretend to follow all the subtleties and nuances; however, the basic ideas are compelling and are described with sufficient clarity and detail for the interested reader to understand. There are a few points of clarification that I think you could attend to. In addition, there are some minor grammatical improvements you could consider. Major points I think you need to overview your simulations so that the reader knows where you are going. I would recommend something like: “We will present a series of simulations graduating from purely selectionist schemes to evolutionary schemes in the face of a changing environment. In the first set of simulations we preclude variation in transmission over generations to examine the sufficiency of dynamical instabilities in supporting a selective process. This involves taking the outputs of one neural network and using them (after selection) to train another network. In the second set of simulations, we consider evolution proper and the transmission of patterns from generation to generation. Here, the patterns that are transmitted are subject to mild mutations (and selection) to illustrate the efficiency with which optimal (high adaptive fitness) patterns emerge.” I think you need to explain simply what is being optimised in your simulations. I would suggest something like: “In what follows, we will treat a pattern of activations over binary neurons as the unit of selection. In the general case, the adaptive fitness of this pattern may be some complicated function that is contextualised by the current inputs and may or may not be a function of the history of inputs and outputs. To keep things simple, we will just consider the fitness of a pattern in terms of its hamming distance to some target pattern. This means, we are effectively using selectionist and evolutionary schemes to optimise the connections (and ensuing dynamics) to recover a target pattern.” When talking about the utility of dynamical instability in providing a basis for selection, you might want to refer to the work of Ivan Tyukin and colleagues 1 , 2 . These authors have studied chaotic systems in the context optimisation – and their neuronal counterparts. At the end of your discussion, I think you can usefully pursue the Bayesian brain hypothesis. I would suggest something like: “In fact, there may be a deep connection between the selectionist dynamics illustrated in this paper and the Bayesian brain. This follows from the fact that the Bayesian brain can use Bayesian model selection to identify its most plausible hypotheses about the world. In this sense, the selective mechanisms we have demonstrated become Bayesian model selection, if we use marginal likelihood or variational free energy as adaptive fitness. See for example Sella and Hirsh, 2005 3 and Friston, 2013 4 . Crucially, the evolutionary role of mutations and variations provides the extra ingredient required for structure learning; namely the elaboration of a model or hypothesis space." Minor points Page 3: Replace "Bayesian update" with "Bayesian updates". You might want to add a footnote about reentry and neural Darwinism when you say that “this fast scale dynamics is missing from Edelmanian neural Darwinism.” I suspect that Edelman considered variation an important aspect of neural Darwinism and that this was mediated by reentrant dynamics that shows the dynamical and structural instabilities that you refer to. Page 5 and throughout: Replace "was trained only to" with "was presented only to". Page 5: Replace "this allows finding the global" with "this allows the system to find". Replace "system above the", with "system above and beyond the". I would say “… can quickly converge to the optimum – providing the output of each network is delivered to the appropriate network that successively converges on the global optimum.”. Page 6: Replace "at start" with "at the start". I would remove the simulations based upon the simpler model (i.e. the thin lines in Figure 3). These simulations and their description do not add much to the text – or any insight. It would be less distracting if these simulations and their discussion were removed. Page 8 and throughout: Replace "provoking them" with "perturbing them". Replace "performed of" with "performed in". Page 8: It would be useful to mention the (Stuart Kauffman) notion of second order selection and selection for selectability (or evolvibility). In other words, you should discuss the optimisation of the mutation rates in relation to the volatility of the environment. Page 9: Replace "solves the problem" with "solving the problem". Page 10: Replace "networks in the given" with "networks under the given". Later replace "attractor network" with "attractors networks". Later replace "works with diluted" with "work with diluted". Finally, replace "explained in turn" with "explained next". I hope that these comments help should any revision be required. References 1. Tyukin I, Tyukina T, van Leeuwen C: Invariant template matching in systems with spatiotemporal coding: A matter of instability. Neural Netw . 2009; 22 (4): 425-49 PubMed Abstract | Publisher Full Text 2. van Leeuwen C: Chaos breeds autonomy: connectionist design between bias and baby-sitting. Cogn Process . 2008; 9 (2): 83-92 PubMed Abstract | Publisher Full Text 3. Sella G, Hirsh AE: The application of statistical physics to evolutionary biology. Proc Natl Acad Sci U S A . 2005; 102 (27): 9541-6 PubMed Abstract | Publisher Full Text 4. Friston K: Life as we know it. J R Soc Interface . 2013; 10 (86): 20130475 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Friston K. Reviewer Report For: Breeding novel solutions in the brain: A model of Darwinian neurodynamics [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2416 ( https://doi.org/10.5256/f1000research.10377.r16922 ) The direct URL for this report is: https://f1000research.com/articles/5-2416/v1#referee-response-16922 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 29 Jun 2017 Istvn Zachar , Ecology and Theoretical Biology, Institute of Biology, Eötvös University, Budapest, Hungary 29 Jun 2017 Author Response We are thankful for Karl Friston for his invaluable comments and suggestions. Please also see our answers to the other Reviewers for some relevant answers. About reentry and neural Darwinism: We ... Continue reading We are thankful for Karl Friston for his invaluable comments and suggestions. Please also see our answers to the other Reviewers for some relevant answers. About reentry and neural Darwinism: We previously discussed the limitations of Edelman’s so-called “neural Darwinism” [1] in the light of standard evolutionary dynamics [2]. Here we consider two important aspects: the roles of variation and selection and reentry [1,3] and how these relate to our model. In general, there are no units of evolution in the Edelman model, only units of selection. Edelman considered three subsequent phases of brain development and function (i) developmental variation and selection (supported by production and elimination of neurons and their connections), (ii) experiential selection (resting on changes in the strength of a population of synapses) and (iii) reentry (where some connections between two or more maps become stronger due to changes in synaptic weights). Note that beyond stage (i) there is no real novelty emerging. The situation is more like that in combinatorial chemistry where functional molecules are selected from a large pool of generated variants. Crucially, there is no replication with variation in this picture. Reentry has two different functions in Edelman’s picture: the linking of different maps and a critical contribution to consciousness. We further direct Friston’s attention to the answer we have provided for L Acsdy about the realization of reentry in the cortex-basal ganglia-thalamus-cortex loop. Points 1, 2. We have opted to borrow your expressions of Points 1 and 2 that perfectly summarize our original intention, and included them within the Methods section to introduce our selectionist and evolutionary experiments. Point 3. Chaotic itinerancy is very different from our model. Our search uses the overlaps between attractors in different networks and is guided by evaluation of interim findings. Darwinian neurodynamics harnesses neuronal parallelism for search more profoundly than chaotic itinerancy. Point 4. We have added an explanation highlighting the connection between selectionist dynamics and the Bayesian brain. We additionally cite Iwasa, who pioneered the concept as well as Barton de Vladar who refined it (and it would be odd not to cite some of the work of de Vladar, a co-author of this paper, who merged and developed further the ideas of Iwasa and Sella Hirsch). Considering Figure 3. and the suggestion to remove the simpler model, we decided rather not to modify this section. Actually, thin lines represent the behaviour of the complex attractor network-model introduced in the paper and thick lines represent the simpler model that superficially approximate attractor dynamics without actually using networks. The whole point of this image is the comparison between our proof-of-principle attractor network model and a baseline, abstracted model. Certainly to Stuart Kauffman’s work is an important aspect that is present in our studies. We added some explanations in this direction. However, note that the notion of evolvability is not Kauffman’s (although he certainly did a good work on it and on its popularisation), but is attributed, under that name, to Dawkins and back to Riedl (1975) (but not using that term). Most of the minor points were corrected except in a few cases where they went explicitly against our intended meaning. For example we rather stick with the word "provocation", as "perturbation" has a different meaning to what we intended here. References: 1 Edelman GM. Neural Darwinism. The theory of neuronal group selection. New York: Basic Books; 1987. 2 Fernando C, Szathmry E, Husbands P. Selectionist and evolutionary approaches to brain function: a critical appraisal. Frontiers in Computational Neuroscience . 2012;6(24). http://10.3389/fncom.2012.00024 . 3 Edelman GM. Neural Darwinism: Selection and reentrant signaling in higher brain function. Neuron . 1993;10(2):115–125. http://089662739390304A . We are thankful for Karl Friston for his invaluable comments and suggestions. Please also see our answers to the other Reviewers for some relevant answers. About reentry and neural Darwinism: We previously discussed the limitations of Edelman’s so-called “neural Darwinism” [1] in the light of standard evolutionary dynamics [2]. Here we consider two important aspects: the roles of variation and selection and reentry [1,3] and how these relate to our model. In general, there are no units of evolution in the Edelman model, only units of selection. Edelman considered three subsequent phases of brain development and function (i) developmental variation and selection (supported by production and elimination of neurons and their connections), (ii) experiential selection (resting on changes in the strength of a population of synapses) and (iii) reentry (where some connections between two or more maps become stronger due to changes in synaptic weights). Note that beyond stage (i) there is no real novelty emerging. The situation is more like that in combinatorial chemistry where functional molecules are selected from a large pool of generated variants. Crucially, there is no replication with variation in this picture. Reentry has two different functions in Edelman’s picture: the linking of different maps and a critical contribution to consciousness. We further direct Friston’s attention to the answer we have provided for L Acsdy about the realization of reentry in the cortex-basal ganglia-thalamus-cortex loop. Points 1, 2. We have opted to borrow your expressions of Points 1 and 2 that perfectly summarize our original intention, and included them within the Methods section to introduce our selectionist and evolutionary experiments. Point 3. Chaotic itinerancy is very different from our model. Our search uses the overlaps between attractors in different networks and is guided by evaluation of interim findings. Darwinian neurodynamics harnesses neuronal parallelism for search more profoundly than chaotic itinerancy. Point 4. We have added an explanation highlighting the connection between selectionist dynamics and the Bayesian brain. We additionally cite Iwasa, who pioneered the concept as well as Barton de Vladar who refined it (and it would be odd not to cite some of the work of de Vladar, a co-author of this paper, who merged and developed further the ideas of Iwasa and Sella Hirsch). Considering Figure 3. and the suggestion to remove the simpler model, we decided rather not to modify this section. Actually, thin lines represent the behaviour of the complex attractor network-model introduced in the paper and thick lines represent the simpler model that superficially approximate attractor dynamics without actually using networks. The whole point of this image is the comparison between our proof-of-principle attractor network model and a baseline, abstracted model. Certainly to Stuart Kauffman’s work is an important aspect that is present in our studies. We added some explanations in this direction. However, note that the notion of evolvability is not Kauffman’s (although he certainly did a good work on it and on its popularisation), but is attributed, under that name, to Dawkins and back to Riedl (1975) (but not using that term). Most of the minor points were corrected except in a few cases where they went explicitly against our intended meaning. For example we rather stick with the word "provocation", as "perturbation" has a different meaning to what we intended here. References: 1 Edelman GM. Neural Darwinism. The theory of neuronal group selection. New York: Basic Books; 1987. 2 Fernando C, Szathmry E, Husbands P. Selectionist and evolutionary approaches to brain function: a critical appraisal. Frontiers in Computational Neuroscience . 2012;6(24). http://10.3389/fncom.2012.00024 . 3 Edelman GM. Neural Darwinism: Selection and reentrant signaling in higher brain function. Neuron . 1993;10(2):115–125. http://089662739390304A . Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 29 Jun 2017 Istvn Zachar , Ecology and Theoretical Biology, Institute of Biology, Eötvös University, Budapest, Hungary 29 Jun 2017 Author Response We are thankful for Karl Friston for his invaluable comments and suggestions. Please also see our answers to the other Reviewers for some relevant answers. About reentry and neural Darwinism: We ... Continue reading We are thankful for Karl Friston for his invaluable comments and suggestions. Please also see our answers to the other Reviewers for some relevant answers. About reentry and neural Darwinism: We previously discussed the limitations of Edelman’s so-called “neural Darwinism” [1] in the light of standard evolutionary dynamics [2]. Here we consider two important aspects: the roles of variation and selection and reentry [1,3] and how these relate to our model. In general, there are no units of evolution in the Edelman model, only units of selection. Edelman considered three subsequent phases of brain development and function (i) developmental variation and selection (supported by production and elimination of neurons and their connections), (ii) experiential selection (resting on changes in the strength of a population of synapses) and (iii) reentry (where some connections between two or more maps become stronger due to changes in synaptic weights). Note that beyond stage (i) there is no real novelty emerging. The situation is more like that in combinatorial chemistry where functional molecules are selected from a large pool of generated variants. Crucially, there is no replication with variation in this picture. Reentry has two different functions in Edelman’s picture: the linking of different maps and a critical contribution to consciousness. We further direct Friston’s attention to the answer we have provided for L Acsdy about the realization of reentry in the cortex-basal ganglia-thalamus-cortex loop. Points 1, 2. We have opted to borrow your expressions of Points 1 and 2 that perfectly summarize our original intention, and included them within the Methods section to introduce our selectionist and evolutionary experiments. Point 3. Chaotic itinerancy is very different from our model. Our search uses the overlaps between attractors in different networks and is guided by evaluation of interim findings. Darwinian neurodynamics harnesses neuronal parallelism for search more profoundly than chaotic itinerancy. Point 4. We have added an explanation highlighting the connection between selectionist dynamics and the Bayesian brain. We additionally cite Iwasa, who pioneered the concept as well as Barton de Vladar who refined it (and it would be odd not to cite some of the work of de Vladar, a co-author of this paper, who merged and developed further the ideas of Iwasa and Sella Hirsch). Considering Figure 3. and the suggestion to remove the simpler model, we decided rather not to modify this section. Actually, thin lines represent the behaviour of the complex attractor network-model introduced in the paper and thick lines represent the simpler model that superficially approximate attractor dynamics without actually using networks. The whole point of this image is the comparison between our proof-of-principle attractor network model and a baseline, abstracted model. Certainly to Stuart Kauffman’s work is an important aspect that is present in our studies. We added some explanations in this direction. However, note that the notion of evolvability is not Kauffman’s (although he certainly did a good work on it and on its popularisation), but is attributed, under that name, to Dawkins and back to Riedl (1975) (but not using that term). Most of the minor points were corrected except in a few cases where they went explicitly against our intended meaning. For example we rather stick with the word "provocation", as "perturbation" has a different meaning to what we intended here. References: 1 Edelman GM. Neural Darwinism. The theory of neuronal group selection. New York: Basic Books; 1987. 2 Fernando C, Szathmry E, Husbands P. Selectionist and evolutionary approaches to brain function: a critical appraisal. Frontiers in Computational Neuroscience . 2012;6(24). http://10.3389/fncom.2012.00024 . 3 Edelman GM. Neural Darwinism: Selection and reentrant signaling in higher brain function. Neuron . 1993;10(2):115–125. http://089662739390304A . We are thankful for Karl Friston for his invaluable comments and suggestions. Please also see our answers to the other Reviewers for some relevant answers. About reentry and neural Darwinism: We previously discussed the limitations of Edelman’s so-called “neural Darwinism” [1] in the light of standard evolutionary dynamics [2]. Here we consider two important aspects: the roles of variation and selection and reentry [1,3] and how these relate to our model. In general, there are no units of evolution in the Edelman model, only units of selection. Edelman considered three subsequent phases of brain development and function (i) developmental variation and selection (supported by production and elimination of neurons and their connections), (ii) experiential selection (resting on changes in the strength of a population of synapses) and (iii) reentry (where some connections between two or more maps become stronger due to changes in synaptic weights). Note that beyond stage (i) there is no real novelty emerging. The situation is more like that in combinatorial chemistry where functional molecules are selected from a large pool of generated variants. Crucially, there is no replication with variation in this picture. Reentry has two different functions in Edelman’s picture: the linking of different maps and a critical contribution to consciousness. We further direct Friston’s attention to the answer we have provided for L Acsdy about the realization of reentry in the cortex-basal ganglia-thalamus-cortex loop. Points 1, 2. We have opted to borrow your expressions of Points 1 and 2 that perfectly summarize our original intention, and included them within the Methods section to introduce our selectionist and evolutionary experiments. Point 3. Chaotic itinerancy is very different from our model. Our search uses the overlaps between attractors in different networks and is guided by evaluation of interim findings. Darwinian neurodynamics harnesses neuronal parallelism for search more profoundly than chaotic itinerancy. Point 4. We have added an explanation highlighting the connection between selectionist dynamics and the Bayesian brain. We additionally cite Iwasa, who pioneered the concept as well as Barton de Vladar who refined it (and it would be odd not to cite some of the work of de Vladar, a co-author of this paper, who merged and developed further the ideas of Iwasa and Sella Hirsch). Considering Figure 3. and the suggestion to remove the simpler model, we decided rather not to modify this section. Actually, thin lines represent the behaviour of the complex attractor network-model introduced in the paper and thick lines represent the simpler model that superficially approximate attractor dynamics without actually using networks. The whole point of this image is the comparison between our proof-of-principle attractor network model and a baseline, abstracted model. Certainly to Stuart Kauffman’s work is an important aspect that is present in our studies. We added some explanations in this direction. However, note that the notion of evolvability is not Kauffman’s (although he certainly did a good work on it and on its popularisation), but is attributed, under that name, to Dawkins and back to Riedl (1975) (but not using that term). Most of the minor points were corrected except in a few cases where they went explicitly against our intended meaning. For example we rather stick with the word "provocation", as "perturbation" has a different meaning to what we intended here. References: 1 Edelman GM. Neural Darwinism. The theory of neuronal group selection. New York: Basic Books; 1987. 2 Fernando C, Szathmry E, Husbands P. Selectionist and evolutionary approaches to brain function: a critical appraisal. Frontiers in Computational Neuroscience . 2012;6(24). http://10.3389/fncom.2012.00024 . 3 Edelman GM. Neural Darwinism: Selection and reentrant signaling in higher brain function. Neuron . 1993;10(2):115–125. http://089662739390304A . Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 2 VERSION 2 PUBLISHED 28 Sep 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 2 (revision) 29 Jun 17 read read read Version 1 28 Sep 16 read read read Karl Friston , University College London, London, UK Stuart J. Edelstein , Ecole Normale Supérieur, Paris, France L Acsdy , Hungarian Academy of Sciences, Budapest, Hungary Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Acsády L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 17 Jul 2017 | for Version 2 L Acsdy , Laboratory of Thalamus Research, Institute of Experimental Medicine, Hungarian Academy of Sciences, Budapest, Hungary 0 Views copyright © 2017 Acsády L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Acsády L. Peer Review Report For: Breeding novel solutions in the brain: A model of Darwinian neurodynamics [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2416 ( https://doi.org/10.5256/f1000research.12941.r23918) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2416/v2#referee-response-23918 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Edelstein S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 03 Jul 2017 | for Version 2 Stuart J. Edelstein , Ecole Normale Supérieur, Paris, France 0 Views copyright © 2017 Edelstein S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions A timely article now fully acceptable. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Edelstein SJ. Peer Review Report For: Breeding novel solutions in the brain: A model of Darwinian neurodynamics [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2416 ( https://doi.org/10.5256/f1000research.12941.r23919) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2416/v2#referee-response-23919 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Friston K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 30 Jun 2017 | for Version 2 Karl Friston , Wellcome Trust Centre for Neuroimaging, University College London, London, UK 0 Views copyright © 2017 Friston K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Many thanks for responding to my previous comments and congratulations on a very interesting piece. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Friston K. Peer Review Report For: Breeding novel solutions in the brain: A model of Darwinian neurodynamics [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2416 ( https://doi.org/10.5256/f1000research.12941.r23917) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2416/v2#referee-response-23917 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Acsády L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 25 Nov 2016 | for Version 1 L Acsdy , Laboratory of Thalamus Research, Institute of Experimental Medicine, Hungarian Academy of Sciences, Budapest, Hungary 0 Views copyright © 2016 Acsády L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This is a truly enlightening and thought provoking paper which utilizes Darwinian logic to explain neuronal network dynamics. The manuscript is a nice example of how approaches in a different discipline (population genetics) may yield fresh insights into age old problems of neuroscience. I have the following notes, suggestions and questions to the authors. Introduction: One drawback of the paper is that the parallelism between genetic and neuronal Darwinism is not made clear right at the onset. We should be aware of what the authors mean by parent, offspring, multiplication, mutation, selection in case of neuronal activity right from the beginning in order to follow the logic of the paper. Results: I miss the clear demonstration of the “Selection” experiments showing that it is not able to find the global optimum (e.g as an additional panel to Fig 2). I also think we need some form of quantification here, how many simulations were run, how significant the result was…etc.etc I also miss the formal demonstration of the effect of mutation rate on the speed of evolution. Since this is a crucial concept, I would dedicate a separate figure for that. I would like to see, how implementing palimpsest memory affects the performance of the model and how this depends on whether the system use dense or sparse coding. Presently this is only briefly mentioned in the Method section, but since this may have important implications it may be good provide some more details. Intuitively, more sparse coding may tolerate the lack of palimpsest memory. Neuronal noise considered as “mutation” in the model is enlightening. Still, I feel there are some basic differences here. During evolution genetic mutations can get stabilized when they reach the global optimum whereas neuronal noise is inherent to the system and not necessary change with evolution. Can it be demonstrated or is there any evidence that neuronal noise decreases as the system approaches the optimum state? What were the connection weights of the recurrent (i.e. new input) patterns relative to the weights of the local, autoassociative connections? Can the model perform better/worse by changing the relative weights of these connections? Note that many original autoassociative models worked with a “detonator” synapse as an input and weaker local connections 1 . Discussion: I would not necessarily constrain the model to implicit memories. I think “implicit” here refers to the unconscious effort to recall the best target pattern not to type of memory item to be recalled. The term “implicit memory” evokes mainly procedural memories and indeed the authors place the model in the cortex-basal ganglia loop. I don’t see why recall of an episodic memory trace by the CA3 recurrent network cannot follow the same evolutionary logic even though hippocampal memories are not considered as “implicit”. In the cortex-basal ganglia-thalamus loop, it is not really known how exactly the cortical output will affect the return signal from the thalamus but, in any case, the signal goes through significant dimension reduction 2 and the final output of basal ganglia may also affect thalamic firing in different ways 3 (i.e it is “mutated” a lot). The question is, how the properties of the model network changes if the final output is not directly fed back to the system but undergoes various (but consistent) signal transformation. Minors: I miss the definition of “best pattern”. Can this term be equated with “pattern with highest fitness”? I would also support a short glossary with the neurobiological relevance of the crucial ecological concepts (fitness, generation, landscape, mutation). I guess subheadings in the Results section are not appropriate. “Selection” and “Evolution” are the two main subheadings and all the others are subsections of the “Evolution” section. References 1. Treves A, Rolls ET: Computational constraints suggest the need for two distinct input systems to the hippocampal CA3 network. Hippocampus . 1992; 2 (2): 189-99 PubMed Abstract | Publisher Full Text 2. Bar-Gad I, Bergman H: Stepping out of the box: information processing in the neural networks of the basal ganglia. Curr Opin Neurobiol . 2001; 11 (6): 689-95 PubMed Abstract 3. Goldberg JH, Farries MA, Fee MS: Basal ganglia output to the thalamus: still a paradox. Trends Neurosci . 2013; 36 (12): 695-705 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 29 Jun 2017 Istvn Zachar, Ecology and Theoretical Biology, Institute of Biology, Eötvös University, Budapest, Hungary We are grateful for the review of L Acsdy, and his suggestions to improve our paper. We refer to the points raised by our Reviewer by a hashmark (#). Please also see our answers to the other Reviewers for some relevant answers. Introduction #1. There is limited similarity only between neural Darwinism and the model and thoughts presented in this paper. In both cases “neuronal groups” are important in terms function, although the term “neuronal assembly” is more traditional and functionally relevant. Synapses are important inasmuch as they contribute to the functionality of the assembly. There is a form of reentry in both models but they play very different roles: in our case it means that the same or variant information is fed back, after evaluation, to the same population of assemblies and get stored in multiple copies. It is this multiplication component that supports “neuronal replication” of candidate solutions. A note is in order about the search mechanism in the space of candidate solutions. In the classic Deheane-Changeux model for prefrontal cortex functionality in terms of action production and selection on the example of the Wisconsin card sorting test [1], search for new candidate solutions is random and their evaluation is strictly serial. A non-random but still serial search process, for which there is neural evidence, is chaotic itinerancy [2-4]. Except for the learning phase our attractors are locally stable, classical ones. In contrast, chaotic itinerancy rests on so-called “attractor ruins” from which there is always the possibility of dynamical escape in certain directions via transient chaotic bridges. Since these attractor ruins are deterministic entities, escape directions are not random. The pertinent question is whether these directions are random relative to those leading to better candidate solutions. One can imagine that synaptic plasticity combined with reinforcement learning might strengthen certain escape routes with experience. An explanatory table and an accompanying figure were added to the text to guide the reader among the terms we use and to explain the relationship we imply between genetic and neuronal Darwinism. Results #1. In case of Selection experiments the system can always find the global optimum, the best special pattern (it was trained to network #20). The overlapping basins of the series of special patterns among networks guarantee that there is a trajectory from the basin of any one of the special patterns to the best special pattern. All simulations were started from noisy copies of a random input pattern similar (in Hamming-distance) to the worst special pattern. We ran 1000 independent simulations, the average number and variance of the rounds needed to converge to the optimum were 3.5 0.64. Results #2. A new figure and a few sentences were added to demonstrate the effect of mutation rate on the speed of evolution. Results #3. Palimpsest memory is essential to our model. Because of the repeated retraining of the networks with the selected patterns, without palimpsest memory all networks – even if the patterns are sparse – sooner or later would reach catastrophic forgetting. Consequently, palimpsest memory is necessary for evolutionary processes. We used dense coding for the reason of computational time. Results #4. In the present state of the model, the two types of noise (m l and m T ) are considered to be constant. Using decreasing m l with increasing fitness does not change the qualitative outcome of the evolutionary process (results not shown). Changes in m T do not affect the convergence too much, see the answer for question #2 above.) Results #5. To be in line with Storkey’s original model we used similar weights to the recurrent patterns and autoassociative connections. In the present state of the model, we have not tested the palimpsest behavior and the retrieval ability with other than 1:1 relative weights. Discussion #1, #2. We have presented our model as potentially realisable by the cortex-basal ganglia-thalamus cortex loop. Actually, noting the massively parallel processing in the brain in general, added to the evaluative function of the mentioned loop, we would be surprised if no true evolutionary behaviour could be found during complicated problem-solving tasks. But we agree that it is not necessary to restrict the proposed cognitive architecture to this concrete loop: recall of an episodic memory trace by the CA3 recurrent network [5] can in principle follow the same evolutionary logic, even though hippocampal memories are not considered as “implicit”. A deeper question considers how “informational reentry” in the Darwinian sense can be realized by the cortex-basal ganglia-thalamus-cortex loop. In this loop it is not really known how exactly the cortical output will affect the return signal from the thalamus but, in any case, the signal goes through significant dimension reduction [6] and the final output of basal ganglia may also affect thalamic firing in different ways ([7], i.e. it is “mutated” a lot). The question is, how the properties of the model network change if the final output is not directly fed back to the system but undergoes various (but consistent) signal transformation. We think that the key to our kind of mechanism to work is exactly the consistency of signal transformation. A variant mechanism might look like this: the thalamus pointedly activates those cortical networks where the best (few) activity pattern(s) came from (as before, the number of candidate patterns “kept alive” depends on the stringency of selection in the striatum). These could in turn spread in the cortex through the horizontal connections among local attractors. Passing of information from attractor network to another is a common element in many relevant dynamical models [8,9]. Minor points were all corrected according to Reviewer’s suggestions. References: 1 Dehaene S, Changeux JP. The Wisconsin Card Sorting Test: Theoretical Analysis and Modeling in a Neuronal Network. Cerebral Cortex . 1991;1(1):62. http://1.1.62 . 2 Kaneko K, Tsuda I. Chaotic itinerancy. Chaos: An Interdisciplinary Journal of Nonlinear Science. 2003;13(3):926–936. http://1.1607783 . 3 van Leeuwen C. Chaos breeds autonomy: connectionist design between bias and baby-sitting. Cognitive Processing . 2008;9(2):83–92. http://s10339-007-0193-8 . 4 Tyukin I, Tyukina T, van Leeuwen C. Invariant template matching in systems with spatiotemporal coding: A matter of instability. Neural Networks . 2009;22(4):425–449. http://S089360800900015X . 5 Treves A, Rolls ET. Computational constraints suggest the need for two distinct input systems to the hippocampal CA3 network. Hippocampus . 1992;2(2):189–199. http://hipo.450020209 . 6 Bar-Gad I, Bergman H. Stepping out of the box: information processing in the neural networks of the basal ganglia. Current Opinion in Neurobiology . 2001;11(6):689–695. http://S0959438801002707 . 7 Goldberg JH, Farries MA, Fee MS. Basal ganglia output to the thalamus: still a paradox. Trends in Neurosciences . 2013;36(12):695–705. http://S0166223613001574 . 8 Rolls ET, Treves A. Neural networks and brain function. Oxford, New York: Oxford University Press; 1998. http://record=b1094909 . 9 Rolls ET. Attractor networks. Wiley Interdisciplinary Reviews: Cognitive Science . 2010;1(1):119–134. http://wcs.1 . View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Acsády L. Peer Review Report For: Breeding novel solutions in the brain: A model of Darwinian neurodynamics [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2416 ( https://doi.org/10.5256/f1000research.10377.r17462) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2416/v1#referee-response-17462 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Edelstein S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 25 Oct 2016 | for Version 1 Stuart J. Edelstein , Ecole Normale Supérieur, Paris, France 0 Views copyright © 2016 Edelstein S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This article continues the important effort of the authors and their colleagues to advance a line of research capable of fleshing out the somewhat vague concept subsumed under the heading Neural Darwinism. While the general idea that subtle functions of the brain involve Darwinian features has persisted over the last 40 years (beginning with Changeux et al. 1 ) an up-to-date synthesis has been lacking and the authors are to be congratulated for their sustained effort to achieve this goal. Part of the difficulty encountered is related to ambiguities concerning exactly what features of neo-Darwinism so successfully applied to population genetics and molecular biology, can be imported into concepts of neuroscience. In the present effort, many terms from the classical Darwinian literature are invoked, but how they are translated from population genetics to computational neuroscience is not always clear. In this respect a glossary could be very helpful, which would include the classical definition and the neural application, as applied for example to terms such as: replication, hereditary variation, breeding, fitness, mutation, deme, generation, Lamarckian, etc. In particular, the hallmark of fitness in evolution is expansion of population size, but whether and how this criterion is applicable in neuroscience should be addressed. A second challenge is to define the level at which Darwinian principles are applied. More explicit attention could be given to dendritic spines (an obvious target for LTP, STDP), axonal pruning (see for example Kolodkin and Tessier-Lavigne 2 ), or neural circuitry. Cortical columns are invoked in passing, but should be evaluated in more detail. Each of these levels is stochastic in some respects, but to what extent does the variation implicit in neural Darwinism require additional mechanisms? Concerning the results presented for the various simulations performed, several valuable points were raised in the comments by Karl Friston. In addition, it would be helpful to make clearer connections with respect to the putative neuronal structures simulated. For comparison, the recent success of deep learning algorithms should be considered, in so far as they do or do not mimic Darwinian mechanisms of the brain. Moreover, since a global optimum is set for the simulations, what criteria would establish optimality in a natural Darwinian system within the brain? Finally, what is the relationship of the high number of “generations” (20,000 in Figure 4) to putative neuronal processes? Overall, describing neuronal activity using Darwinian terminology is a double-edged sword. On the one hand, a thorough application of Darwinian principles to brain science involves many one-to-one correspondences that must be clearly articulated. On the other hand, since the words are familiar, their usage carries immediate associations that can obscure understanding and become an ambiguous jargon. It would be hard to over-estimate the difficulty of finding the right balance, especially for scholars already immersed in the quest and possessing their own specific understanding of terms employed. Therefore, navigating through these troubled waters, requires extreme vigilance of language, and an addition effort by the authors in preparing their final version would be extremely helpful. References 1. Changeux JP, Courrège P, Danchin A: A theory of the epigenesis of neuronal networks by selective stabilization of synapses. Proc Natl Acad Sci U S A . 1973; 70 (10): 2974-8 PubMed Abstract 2. Kolodkin AL, Tessier-Lavigne M: Mechanisms and molecules of neuronal wiring: a primer. Cold Spring Harb Perspect Biol . 2011; 3 (6). PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 29 Jun 2017 Istvn Zachar, Ecology and Theoretical Biology, Institute of Biology, Eötvös University, Budapest, Hungary We are extremely thankful for Stuart J. Edelstein for his comments and suggestions. Concerning the terms we used here to relate objects and processes from neuroscience and classical Darwinism, we have included a glossary that summarizes the important evolutionary and neurobiological concepts that might be useful to clarify across disciplines. We are certain that this is not an absolute and perfect mapping of concepts, but should be enough to support our understanding of how the brain might work under Darwinian principles. We further direct our Reviewer’s attention to the answers we have provided for L Acsdy on the grounding of neural Darwinism within the brain (as we understand it), especially our answers to points #1, #2 about the Discussion, as those also concern the questions raised here. We simply did not want to replicate our words unnecessarily. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Edelstein SJ. Peer Review Report For: Breeding novel solutions in the brain: A model of Darwinian neurodynamics [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2416 ( https://doi.org/10.5256/f1000research.10377.r16965) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2416/v1#referee-response-16965 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Friston K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 11 Oct 2016 | for Version 1 Karl Friston , Wellcome Trust Centre for Neuroimaging, University College London, London, UK 0 Views copyright © 2016 Friston K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This is a thought provoking simulation study of Darwinian neurodynamics. It uses populations of attractor networks to illustrate the distinction between purely selectionist and evolutionary optimisation. This demonstration rests upon the dynamical instability of the neuronal networks considered – and the explicit introduction of variation or mutations in graduating from a selectionist to an evolutionary scheme. The paper is rather dense and I do not pretend to follow all the subtleties and nuances; however, the basic ideas are compelling and are described with sufficient clarity and detail for the interested reader to understand. There are a few points of clarification that I think you could attend to. In addition, there are some minor grammatical improvements you could consider. Major points I think you need to overview your simulations so that the reader knows where you are going. I would recommend something like: “We will present a series of simulations graduating from purely selectionist schemes to evolutionary schemes in the face of a changing environment. In the first set of simulations we preclude variation in transmission over generations to examine the sufficiency of dynamical instabilities in supporting a selective process. This involves taking the outputs of one neural network and using them (after selection) to train another network. In the second set of simulations, we consider evolution proper and the transmission of patterns from generation to generation. Here, the patterns that are transmitted are subject to mild mutations (and selection) to illustrate the efficiency with which optimal (high adaptive fitness) patterns emerge.” I think you need to explain simply what is being optimised in your simulations. I would suggest something like: “In what follows, we will treat a pattern of activations over binary neurons as the unit of selection. In the general case, the adaptive fitness of this pattern may be some complicated function that is contextualised by the current inputs and may or may not be a function of the history of inputs and outputs. To keep things simple, we will just consider the fitness of a pattern in terms of its hamming distance to some target pattern. This means, we are effectively using selectionist and evolutionary schemes to optimise the connections (and ensuing dynamics) to recover a target pattern.” When talking about the utility of dynamical instability in providing a basis for selection, you might want to refer to the work of Ivan Tyukin and colleagues 1 , 2 . These authors have studied chaotic systems in the context optimisation – and their neuronal counterparts. At the end of your discussion, I think you can usefully pursue the Bayesian brain hypothesis. I would suggest something like: “In fact, there may be a deep connection between the selectionist dynamics illustrated in this paper and the Bayesian brain. This follows from the fact that the Bayesian brain can use Bayesian model selection to identify its most plausible hypotheses about the world. In this sense, the selective mechanisms we have demonstrated become Bayesian model selection, if we use marginal likelihood or variational free energy as adaptive fitness. See for example Sella and Hirsh, 2005 3 and Friston, 2013 4 . Crucially, the evolutionary role of mutations and variations provides the extra ingredient required for structure learning; namely the elaboration of a model or hypothesis space." Minor points Page 3: Replace "Bayesian update" with "Bayesian updates". You might want to add a footnote about reentry and neural Darwinism when you say that “this fast scale dynamics is missing from Edelmanian neural Darwinism.” I suspect that Edelman considered variation an important aspect of neural Darwinism and that this was mediated by reentrant dynamics that shows the dynamical and structural instabilities that you refer to. Page 5 and throughout: Replace "was trained only to" with "was presented only to". Page 5: Replace "this allows finding the global" with "this allows the system to find". Replace "system above the", with "system above and beyond the". I would say “… can quickly converge to the optimum – providing the output of each network is delivered to the appropriate network that successively converges on the global optimum.”. Page 6: Replace "at start" with "at the start". I would remove the simulations based upon the simpler model (i.e. the thin lines in Figure 3). These simulations and their description do not add much to the text – or any insight. It would be less distracting if these simulations and their discussion were removed. Page 8 and throughout: Replace "provoking them" with "perturbing them". Replace "performed of" with "performed in". Page 8: It would be useful to mention the (Stuart Kauffman) notion of second order selection and selection for selectability (or evolvibility). In other words, you should discuss the optimisation of the mutation rates in relation to the volatility of the environment. Page 9: Replace "solves the problem" with "solving the problem". Page 10: Replace "networks in the given" with "networks under the given". Later replace "attractor network" with "attractors networks". Later replace "works with diluted" with "work with diluted". Finally, replace "explained in turn" with "explained next". I hope that these comments help should any revision be required. References 1. Tyukin I, Tyukina T, van Leeuwen C: Invariant template matching in systems with spatiotemporal coding: A matter of instability. Neural Netw . 2009; 22 (4): 425-49 PubMed Abstract | Publisher Full Text 2. van Leeuwen C: Chaos breeds autonomy: connectionist design between bias and baby-sitting. Cogn Process . 2008; 9 (2): 83-92 PubMed Abstract | Publisher Full Text 3. Sella G, Hirsh AE: The application of statistical physics to evolutionary biology. Proc Natl Acad Sci U S A . 2005; 102 (27): 9541-6 PubMed Abstract | Publisher Full Text 4. Friston K: Life as we know it. J R Soc Interface . 2013; 10 (86): 20130475 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 29 Jun 2017 Istvn Zachar, Ecology and Theoretical Biology, Institute of Biology, Eötvös University, Budapest, Hungary We are thankful for Karl Friston for his invaluable comments and suggestions. Please also see our answers to the other Reviewers for some relevant answers. About reentry and neural Darwinism: We previously discussed the limitations of Edelman’s so-called “neural Darwinism” [1] in the light of standard evolutionary dynamics [2]. Here we consider two important aspects: the roles of variation and selection and reentry [1,3] and how these relate to our model. In general, there are no units of evolution in the Edelman model, only units of selection. Edelman considered three subsequent phases of brain development and function (i) developmental variation and selection (supported by production and elimination of neurons and their connections), (ii) experiential selection (resting on changes in the strength of a population of synapses) and (iii) reentry (where some connections between two or more maps become stronger due to changes in synaptic weights). Note that beyond stage (i) there is no real novelty emerging. The situation is more like that in combinatorial chemistry where functional molecules are selected from a large pool of generated variants. Crucially, there is no replication with variation in this picture. Reentry has two different functions in Edelman’s picture: the linking of different maps and a critical contribution to consciousness. We further direct Friston’s attention to the answer we have provided for L Acsdy about the realization of reentry in the cortex-basal ganglia-thalamus-cortex loop. Points 1, 2. We have opted to borrow your expressions of Points 1 and 2 that perfectly summarize our original intention, and included them within the Methods section to introduce our selectionist and evolutionary experiments. Point 3. Chaotic itinerancy is very different from our model. Our search uses the overlaps between attractors in different networks and is guided by evaluation of interim findings. Darwinian neurodynamics harnesses neuronal parallelism for search more profoundly than chaotic itinerancy. Point 4. We have added an explanation highlighting the connection between selectionist dynamics and the Bayesian brain. We additionally cite Iwasa, who pioneered the concept as well as Barton de Vladar who refined it (and it would be odd not to cite some of the work of de Vladar, a co-author of this paper, who merged and developed further the ideas of Iwasa and Sella Hirsch). Considering Figure 3. and the suggestion to remove the simpler model, we decided rather not to modify this section. Actually, thin lines represent the behaviour of the complex attractor network-model introduced in the paper and thick lines represent the simpler model that superficially approximate attractor dynamics without actually using networks. The whole point of this image is the comparison between our proof-of-principle attractor network model and a baseline, abstracted model. Certainly to Stuart Kauffman’s work is an important aspect that is present in our studies. We added some explanations in this direction. However, note that the notion of evolvability is not Kauffman’s (although he certainly did a good work on it and on its popularisation), but is attributed, under that name, to Dawkins and back to Riedl (1975) (but not using that term). Most of the minor points were corrected except in a few cases where they went explicitly against our intended meaning. For example we rather stick with the word "provocation", as "perturbation" has a different meaning to what we intended here. References: 1 Edelman GM. Neural Darwinism. The theory of neuronal group selection. New York: Basic Books; 1987. 2 Fernando C, Szathmry E, Husbands P. Selectionist and evolutionary approaches to brain function: a critical appraisal. Frontiers in Computational Neuroscience . 2012;6(24). http://10.3389/fncom.2012.00024 . 3 Edelman GM. Neural Darwinism: Selection and reentrant signaling in higher brain function. Neuron . 1993;10(2):115–125. http://089662739390304A . View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Friston K. Peer Review Report For: Breeding novel solutions in the brain: A model of Darwinian neurodynamics [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2416 ( https://doi.org/10.5256/f1000research.10377.r16922) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2416/v1#referee-response-16922 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Breeding novel solutions in the brain: A...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2416/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2416/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2416/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Szilágyi A et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2416/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2416",
+ templates : {
+ twitter : "Breeding novel solutions in the brain: A model of Darwinian neurodynamics. Szilágyi A et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2416/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Breeding novel solutions in the brain: A model of Darwinian neurodynamics", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Breeding novel solutions in the brain: A model of Darwinian neurodynamics", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/9630/12941")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "12941");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "16672": 0,
+ "16962": 0,
+ "16963": 0,
+ "16964": 0,
+ "16965": 34,
+ "23917": 16,
+ "23918": 8,
+ "23919": 13,
+ "17462": 26,
+ "16922": 38,
+ "16669": 0,
+ "16670": 0,
+ "16671": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "dd12d7ec-2476-49e3-8a6d-ae3fa159d1f7";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

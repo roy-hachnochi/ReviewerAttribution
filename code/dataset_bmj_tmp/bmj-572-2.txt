@@ -1,0 +1,40 @@
+This is an important study of VTE in testosterone users in the CPRD. Increasing questions around the overuse and
+safety of testosterone remain, and even though warnings of VTE have been issued, there remains a scarcity of
+population-level data on them.
+This study utilizes the CPRD to study a wide spectrum of men in a case-control study. I find the case-control approach
+slightly atypical for this type of study in this database. It does allow for greater power in a UK-based study which has
+much more restrained testosterone use than in the US, but there may be other approaches which allow for more
+meaningful comparisons comparison (see comments below).
+Most of my comments are more editorial, with some requests for additional clarification where the manuscript was
+unclear.
+1. I find reference number 2 an insufficient citation for the claim: “This upsurge is mainly for men presenting with
+sexual dysfunction and/or decreased energy, with testosterone prescribed as an unproven sexual and/or anti-ageing
+tonic.” Reference 2 is for an editorial piece, not a study which presents data substantiating that assertion. In fact, the
+recently released T Trial did demonstrate a modest improvement in sexual function among men with clear
+hypogonadism (N Engl J Med 2016; 374:611-624). While I agree entirely with the authors that much of the vast
+increase in testosterone use have been in patients with unclear and questionable indications, I believe the overall tone
+of this opening could be tempered somewhat.
+2. The authors state that “CPRD has been validated in VTE research” (page 5, lines 3-5), yet reference 15 which is the
+offered citation for this article is to an overview of the CPRD which makes no mention of VTE. It does reference
+validation studies performed in the CPRD, “Validation of the CPRD has shown high positive predictive value of some
+diagnoses and, where evaluated, comparisons of incidence with other UK data sources are also broadly similar.35–38
+However, reporting of validation studies was often too poor to permit a clear interpretation, and the majority of studies
+focused on positive predictive value rather than sensitivity or specificity.39” yet the referenced outcomes are fractures,
+hypertension, prostate cancer, and influenza. Later, the authors cite a paper for validity of VTE as an outcome in the
+CPRD, yet that is looking at
+3. I would like to hear the authors’ justifications for using a case-control design (to me, the current design is more
+reminiscent of a case-cohort design, yet not exactly) rather than a new-user cohort design. The new cohort design
+would be easy to implement in the data source, would allow a more thorough observation of the early time on
+testosterone treatment for all testosterone users (not just the sampled ones), and would better order the temporal
+relationship between covariates and testosterone treatment; in this case-control setting where the covariates are
+measured during the same period as the exposure, the relationships between exposures, confounders, intermediates,
+and outcomes can become somewhat muddled. Additionally, incidence rates and risk differences could be reported,
+rather than the estimated ones currently being calculated from the transformed OR.
+4. How was the duration of testosterone treatment calculated for the implants and gels, which have more diverse
+dosing schedules and don’t have the pack size/day supply as the gels or patches or orals? The paragraph describing
+the exposure duration is not entirely clear how this was handled for the various dosage forms.
+5. Regarding the covariate measurements, how were BMI and alcohol use measured? I assume the most recent
+measurement to the index date was used, but was it required to be in the 2-year baseline period, or could it have
+happened at any point prior to the index date?
+6. A minor point, but the disclosure for Dr. Handelsman needs to be updated—it speaks about anticipating funding in
+2015, which is either a typo or outdated information.

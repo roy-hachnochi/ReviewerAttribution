@@ -1,0 +1,596 @@
+ Summary of Referee’s Report The manuscript presents a strong justification for research on folate transporter proteins as drug targets for diseases caused by eukaryotic pathogens including the malaria parasite. The manuscript reports a data curation effort that involves the use of the Eukaryotic Pathogens Database (EuPathDB) Resource. Several novel results to guide future research are included such as (i) a list of 234 folate transporter proteins from 63 eukaryotic microbes including eukaryotic pathogens; and (ii) phylogenetic trees of relatedness of the protein sequences. The authors observed the clustering of the protein sequences that indicate the possibility that antifolate drugs could be effective for multiple eukaryotic pathogens. Major concerns are: (i) The need for a clearer description of the workflow for the construction of the protein list. (ii) There is inadequate support for the statement that “60% of the proteins were identified for the first time”. (iii) Confusion between retrieval and identification of protein sequences. The workflow diagram indicates retrieval of sequences but narrative text describes identification in multiple sections. The potential drug targeting categorization of the retrieved protein sequences is a key contribution of the research study. Some minor concerns include (i) typographic errors such as spelling of abbreviations (e.g. EuPathDB, PubMed and UniProt); (ii) classification of A. (Ajellomyces) capsulatus G186AR as a bacteria; and (iii) need to quantify the statistics associated with observations (Examples: in abstract “Many of the genomes”; in discussion: “A few of the proteins” ). Title and Abstract : Is the title appropriate for the content of the article? The manuscript title is “Genome-wide characterization of folate transporter proteins of eukaryotic pathogens”. “Genome-wide characterization” does not effectively describe the accomplishments of the research reported. The manuscript in the conclusion section (Page 15) states “we have identified and classified 234 proteins…”. The workflow (Figure 1) provides categorization of proteins by features such as cellular location, presence of signal peptide and number of transmembrane helices. Figure 2 has the title “Categorization of proteins identified”. A suggested revised title is “Categorization of potential drug targeting folate transporter proteins from eukaryotic pathogens”. The “potential drug targeting” is obtained from the conclusion section. Does the abstract represent a suitable summary of the work? There are sentences in the abstract that should be revised to accurately represent a suitable summary of the research performed. Comments/suggestions are provided below. Quantify the observations described as many. For example “genome sequences of many”: How many? “eukaryotic protozoa” “eukaryotic microbes”. The term “eukaryotic microbes” encompasses pathogens and non-pathogens (e.g. Chromera velia and Vitrella brassicaformis 1 ). “important data” “critical biological information” “pathway are important for” “pathways are necessary for” “Methods: We applied a combination of bioinformatics methods to examine the genomes of pathogens in the EupathDB for genes encoding homologues of proteins that mediate folate salvage in a bid to identify and assign putative functions.” “Methods: We developed automated search strategies in the Eukaryotic Pathogen Database Resources (EuPathDB) to construct a protein list and retrieve protein sequences of folate transporters encoded in the genomes of 200 eukaryotic microbes. The folate transporters were categorized according to features including mitochondrial localization, number of transmembrane helix, and protein sequence relatedness. Provide key result(s) of the protein list retrieval and phylogenetic comparison of the retrieved proteins. For example, We constructed a list of 234 folate transporter proteins associated with 63 eukaryotic microbes including ??? algae, ??? fungi and ??? protozoa. Seven percent of the proteins were predicted to localize on the mitochondrial membrane. Phylogenetic tree revealed major (??? proteins) and minor (??? Proteins) clades. All the folate transporter sequences from the malaria parasite, Plasmodium , belonged to the major clade. “The mitochondrion is the predicted location of the majority of the proteins”. This statement is not supported by Figure 2D, where 7% of the protein sequences are labelled as Mitochondrial folate transporters. Article content : Have the design, methods and analysis of the results from the study been explained and are they appropriate for the topic being studied? Design and Methods: Figure 1 presents a conceptual hierarchical methodology. The rectangle labelled “Protein names/ sequences verification” has arrows to PubMed, UniProt, Membranetransporters.org, NCBI, GeneDB, Google Scholar and Phylogenetic analyses. It appears that the integrated results from the search strategies in the databases provided the input for the phylogenetic analyses. Please clarify. Which step of the workflow resulted in the list of 234 proteins? How many proteins were retrieved from the initial search using EuPathDB? Protein Features Retrieved rectangle: Was the retrieval of protein features performed on only the 234 proteins? There is adequate explanation of the methods for phylogenetic analyses. Please provide the Newick format phylogenetic tree as a supplementary dataset. Analysis of the Results: Table 1 is a major curation effort presented in the manuscript. a. The title of Table 1 should be updated to “Eukaryotic microbes from which folate transporters were identified”. The list includes non-pathogens. b. The content of the table (especially the Kingdom entries) should be checked for accuracy. The Kingdom column could be updated to Eukaryotic Microbe Group with entries as algae, protozoa or fungi. c. The column entries for A. capsulatus G186AR (mislabelled as bacteria) should be updated as the organism name is for a fungus (genus Ajellomyces ). This update will also affect the Phylogenetic Tree (Figure 3). The node labelled Actinobacillus clusters with Ajellomyces macrogynus . d. An updated Table 1 should be presented as Dataset 2 in a spreadsheet file. This would enable secondary data analysis by other researchers. e. A new Table 1 could consist of columns for Eukaryotic Microbe Group, Genera of Eukaryotic Microbe, List of Species/Strain and Number of Folate Transport Proteins. This will provide reader with an overview of how the 234 proteins is distributed into the genera of the eukaryotic microbes. f. References listed for confirmation searches. Page 8, Paragraph 1, Sentence 1: “Our literature search for parasite folate transporters on PubMed and Google Scholar indicated 60% (38 out 63) of the proteins were identified for the first time as presented in Table 1. Comment: Among the references included in Table 1, only eight references (22, 73 to 77 and 82) on the basis of the article title provide experimental assessments of the folate transporters. Reference 85 is a reference for MEGA7 software. In the sentence “proteins” should be eukaryotic microbes. The proportion of eukaryotic microbes whose folate transporter(s) have been previously investigated with functional assays should be revised. Figure 2. Categorization of proteins identified. Authors should consider representing Figure 2A and 2B as bar graphs. Figures 2C, 2D and 2E have only two categories that can be described in the Results section. Discussion a. “genomes of 64 strains”. Table 1 has 63 eukaryotic microbes. b. Discuss Chromera velia and Vitrella brassicaformis as organismal systems for investigating folate transporter function. See Woo et al. 1 Conclusion Consider revising “In summary, we have identified and classified 234 proteins…” to “In summary, we have retrieved information on 234 folate transporter proteins from the Eukaryotic Pathogen Database (EuPathDB) resources. The folate transporter proteins were categorized into potential drug targeting features including mitochondrial localization, number of transmembrane helix, and protein sequence relatedness." Data (if applicable) : Has enough information been provided to be able to replicate the experiment? Are the data in a usable format/structure and have all the data been provided? Table 1 needs to be revised and converted to a Dataset. Please provide the Newick format phylogenetic tree as a supplementary dataset. The Gene Identifiers [Gene ID] in Dataset 1 can be used to retrieve the protein sequences from EuPathDB. References 1. Woo YH, Ansari H, Otto TD, Klinger CM, et al.: Chromerid genomes reveal the evolutionary path from photosynthetic algae to obligate intracellular parasites. Elife . 2015; 4 : e06974 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Isokpehi RD. Reviewer Report For: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens [version 2; peer review: 2 approved with reservations] . F1000Research 2017, 6 :36 ( https://doi.org/10.5256/f1000research.11380.r20535 ) The direct URL for this report is: https://f1000research.com/articles/6-36/v1#referee-response-20535 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Respond or Comment COMMENT ON THIS REPORT Comments on this article Comments (0) Version 2 VERSION 2 PUBLISHED 12 Jan 2017 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 2 (revision) 13 Jul 17 read read Version 1 12 Jan 17 read read Raphael D. Isokpehi , Bethune-Cookman University , Daytona Beach, USA Gajinder Singh ,  International Centre for Genetic Engineering and Biotechnology (ICGEB), New Delhi, India Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Isokpehi R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 04 Sep 2017 | for Version 2 Raphael D. Isokpehi , College of Science, Engineering and Mathematics (CSEM) , Bethune-Cookman University , Daytona Beach, FL, USA 0 Views copyright © 2017 Isokpehi R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions General Comments Several revisions are noted especially the datasets and the phylogenetic trees. However, the narrative contain sections that needs to be improved for accuracy. Correct abbreviations. For example “EuPathdb” should be “EuPathDB” Specific Comments. Suggested revisions are provided. INTRODUCTION The statement of objectives of the research needs to be clear. “Therefore, in an attempt to identify and characterize targets for novel therapeutics, we report herein an extensive search of folate transporters from pathogen genomes. In addition, we investigated the evolutionary relationship of these transporters in a bid to determine similarities and differences that make them attractive drug targets. The knowledge provided may assist in the design of new antifolates for protozoan parasites.” Suggested Revision: “The objectives of the research reported in this article were to (1) characterize folate transporters encoded in genomes of eukaryotic pathogens; and (2) determine evolutionary relationship of folate transporters in genomes of eukaryotic genomes. These research objectives will help advance the development of effective anti-folate drugs to reduce the morbidity and mortality associated with eukaryotic pathogens.” METHODS Divide the methods section according to the two objectives. approximately 200-pathogens Suggested revision: delete “-“. The purpose of the dash is not justified. The folate transporters were classified based on type of transporter, number of transmembrane helix (TMH) and localization (either cell or mitochondrial membrane) of transporter. Gene sequences were obtained in FASTA format for transporter proteins using the sequence download tool on EuPathDB ( http://eupathdb.org/eupathdb/ ). Suggested revision: “The folate transporters were characterized according to type of transporter, number of transmembrane helix (TMH) and localization (either cell or mitochondrial membrane) of transporter. Gene sequences were obtained in FASTA format for transporter proteins using the sequence download tool on EuPathDB ( http://eupathdb.org/eupathdb/ ).” Dataset 1 Dataset 1.Complete list of proteins extracted from Eupthadb and literature search, including their properties. Correct the spelling of EuPathDB. Dataset 2 Actinobacillus is included in Dataset 2. Correct to Ajellomyces since the Strain/Species field is A. capsulatus G186AR. Provide the correct taxonomic lineage (http://www.uniprot.org/taxonomy/5037). Update the abstract, phylogenetic tree and discussion since no bacterial folate transport was characterized in the research. The protein sequence mislabeled clusters with Allomyces. Provide the purpose of the color coding. Label the eukaryotic microbe group according to the higher level classification of all living organisms 1 e.g. fungi, protozoa and chromista. To facilitate secondary analysis of Dataset 2, move legend to another sheet and remove blank rows and blank columns. RESULTS The results section should have subsection headings to help with readability and understanding of the article. Replace “Methodological search” with “Systematic search”. Replace “we came across” with “we observed”. “A good number of the proteins identified had predicted transmembrane helixes with a few having none (Figure 1B).” Specify a quantity or percentage for the “good number”. “Furthermore, a number of the transporters possess signal peptides (Dataset 1), which may be required for targeting to cellular locations. Deciphering the sequence of the targeting signal may indicate its product destination.” How many transporters possess the signal peptide sequence? “We identified these transporters in 28 pathogen species (containing 63 strains) cutting across 12 phyla” Suggested revision: “We obtained information on folate transporters encoded in genomes of 63 eukaryotic microbes consisting of 26 pathogenic genera and two genera of photosynthetic algae closely related to the apicomplexan pathogens. The genera are Ajellomyces, Allomyces , Aspergillus , Chromera , Coccidioides , Crithidia , Cryptococcus , Cryptosporidium , Eimeria , Encephalitozoon , Gibberella , Hammondia , Leishmania , Leptomonas , Mitosporidium , Naegleria , Neosartorya , Neospora , Nosema , Phytophthora , Plasmodium , Pythium , Sarcocystis , Spizellomyces , Theileria , Toxoplasma , Trypanosoma , and Vitrella . DISCUSSION Replace “were identified in the genome of 64 strains” with “were identified in the genomes of 63 strains”. References 1. Ruggiero MA, Gordon DP, Orrell TM, Bailly N, et al.: A higher level classification of all living organisms. PLoS One . 2015; 10 (4): e0119248 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Isokpehi RD. Peer Review Report For: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens [version 2; peer review: 2 approved with reservations] . F1000Research 2017, 6 :36 ( https://doi.org/10.5256/f1000research.12807.r24210) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/6-36/v2#referee-response-24210 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Singh G. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 26 Jul 2017 | for Version 2 Gajinder Singh , Molecular Medicine Group,  International Centre for Genetic Engineering and Biotechnology (ICGEB), New Delhi, Delhi, India 0 Views copyright © 2017 Singh G. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions I am disappointed to see that most of the issues identified in the original manuscript remain unaddressed including grammatical mistakes. e.g. The current literature on folate transporters as drug targets has not been discussed, including information on their essentiality. Using keyword and BLAST based searches will miss and misidentify folate transporters, thus more sensitive HMM profile based methods should be employed or please provide a justification for not doing the same. Many sentences identified as unclear in the previous report remain unchanged. I would request authors to provide a point by point response to my previous comments. I would be very happy to reconsider their response. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Singh G. Peer Review Report For: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens [version 2; peer review: 2 approved with reservations] . F1000Research 2017, 6 :36 ( https://doi.org/10.5256/f1000research.12807.r24209) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/6-36/v2#referee-response-24209 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Singh G. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 06 Mar 2017 | for Version 1 Gajinder Singh , Molecular Medicine Group,  International Centre for Genetic Engineering and Biotechnology (ICGEB), New Delhi, Delhi, India 0 Views copyright © 2017 Singh G. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Below are my major concerns: The abstract does not provides an adequate summary of the article. The authors have claimed much higher scope of their work than actually reported. While their work is restricted to folate transporters, they have claimed to work on whole folate pathway. In the Abstract: "We applied a combination of bioinformatics methods to examine the genomes of pathogens in the EupathDB for genes encoding homologues of proteins that mediate folate salvage in a bid to identify and assign putative functions." "These findings offer new possibilities for potential drugConclusion: development targeting folate-salvage proteins." No proper justification for the work is provided. a) While folate pathway is well established as drug target, the authors have only identified folate transporters. So please give examples of drugs (with names) which are known to target folate transporters in any organism. If no sufficient information is provided, the usefulness of the work is severely reduced. b) How many of folate transporters are essential in species where essentiality data is available such as P. berghei and T. gondii? The methodology to identify transporters is not comprehensive. Since authors have used key-word searches to identify folate transporters, they are likely to miss many transporters not labelled as such. An appropriate methodology will incorporate profile (such as HMM) based searches. Thus the number of transporters identified by authors is most likely to be an underestimate. The methodology is not clear. Authors write that "we utilized the word “folate” for search on the gene text and “folic acid” was used to confirm the hits", then how only transporters were retrieved? The Figure 1 is confusing. Where is BLAST used here? The manuscript is written very poorly with so many scientific and grammatical mistakes that it is very difficult for the reader to follow the manuscript. Below are some examples. a) "The mitochondrion is the predicted location of the majority of the proteins, with 15% possessing signal peptides." - how can mitochondria be majority location if only 15% have signal peptides and even less with mitochondrial signal peptide? Shouldn't the majority then be cytoplasmic? b) "We identified 234 proteins to be involve in folate transport". c) "Since folate-binding protein YgfZ, folate/ pteridine transporter, folate/biopterin transporter, putative, reduced folate carrier family protein, folate/methotrexate transporter FT1, putative folate transporters alone and others have 10, 25, 132, 2, 7, 49 and 9." What are these numbers? d) "So we decided to reconstruct the phylogeny based folate transporter, folate-biopterin transporter after considering the identification number, the species diversity in each category." e) "The different proteins identified to be involved in folate salvage or related molecules were folatebinding protein YgfZ, folate/pteridine transporter, folate/biopterin transporter, reduced folate carrier family protein, folate/methotrexate transporter FT1 and folate transporters having a 4%, 11%, 56%, 1%, 3% and 21% identity, respectively." What does this statement mean? f) Does Table 1 really need to be 4 page long? g) "The only Plasmodium species with results for proteins that salvage folate was P. falciparum" h) "However, folate transporters I and II were retrieved from our search of GeneDB for P. malariae and P. ovale curtisi, respectively." What are these transporter classes? i) "Some of these pathogens include P. ultimum DAOM BR144, which has mitochondrial folate transporter/carrier proteins similar to Homo sapiens, E. cuniculi GB-M1, which has proteins similar to folate transporter, and S. punctatus DAOM BR117, which has folate-binding protein YgfZ." j) "After phylogenetic analysis each sub-phylogeny show a clear characterization except for folate-biopterin transporters" h) "In this study, 234 genes encoding homologues of folate salvaging proteins were identified in the genome of 64 strains, representing 28 species of eukaryotic pathogens. Some of the pathogens include P. falciparum 3D7 and IT, P. knowlesi H, P. berghei ANKA, P. chabaudi chabaudi, T. brucei Lister 427, T. brucei TREU927, T. brucei gambiense DAL972, Encephalitozoon cuniculi GB-M1. The pathogens range from bacteria through to fungi, intracellular parasites such as Plasmodium and leishmania species, to extracellular parasites such as trypanosome species" Which bacteria was included in the study? i) "It has been estimated that over half of the drugs currently on the market target integral membrane proteins of which membrane transporters are a part, but unfortunately, these transporters have not been adequately explored as drug targets. Folate transporters therefore represent attractive drug targets for treatment of infectious diseases." Please tell us how many drugs are available in the market which target folate transporters, which is a more relavant statistic with respect to this study. j) "In the trypanosomes and related kinetoplastids, a member of these transporters, the folate biopterin transporter (FBT) family of proteins was identified in Leishmania." k) "It is thought that MFS proteins are related to the FBT." What is MFS? l) "Results from our study describing the presence of these transporters across several phyla corroborate results other researches, establishing the conservation of folate transport function among FBT family proteins from species from plants and protists". m) "The clustering of these proteins suggests that these transport proteins have highly conserved regions often required for basic cellular function or stability". The clustering does not suggest that these transport proteins have highly conserved regions often required for basic cellular function or stability. n) " We also performed phylogenetic comparisons of identified proteins. .". Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Singh G. Peer Review Report For: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens [version 2; peer review: 2 approved with reservations] . F1000Research 2017, 6 :36 ( https://doi.org/10.5256/f1000research.11380.r20419) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/6-36/v1#referee-response-20419 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Isokpehi R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 27 Feb 2017 | for Version 1 Raphael D. Isokpehi , College of Science, Engineering and Mathematics (CSEM) , Bethune-Cookman University , Daytona Beach, FL, USA 0 Views copyright © 2017 Isokpehi R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Summary of Referee’s Report The manuscript presents a strong justification for research on folate transporter proteins as drug targets for diseases caused by eukaryotic pathogens including the malaria parasite. The manuscript reports a data curation effort that involves the use of the Eukaryotic Pathogens Database (EuPathDB) Resource. Several novel results to guide future research are included such as (i) a list of 234 folate transporter proteins from 63 eukaryotic microbes including eukaryotic pathogens; and (ii) phylogenetic trees of relatedness of the protein sequences. The authors observed the clustering of the protein sequences that indicate the possibility that antifolate drugs could be effective for multiple eukaryotic pathogens. Major concerns are: (i) The need for a clearer description of the workflow for the construction of the protein list. (ii) There is inadequate support for the statement that “60% of the proteins were identified for the first time”. (iii) Confusion between retrieval and identification of protein sequences. The workflow diagram indicates retrieval of sequences but narrative text describes identification in multiple sections. The potential drug targeting categorization of the retrieved protein sequences is a key contribution of the research study. Some minor concerns include (i) typographic errors such as spelling of abbreviations (e.g. EuPathDB, PubMed and UniProt); (ii) classification of A. (Ajellomyces) capsulatus G186AR as a bacteria; and (iii) need to quantify the statistics associated with observations (Examples: in abstract “Many of the genomes”; in discussion: “A few of the proteins” ). Title and Abstract : Is the title appropriate for the content of the article? The manuscript title is “Genome-wide characterization of folate transporter proteins of eukaryotic pathogens”. “Genome-wide characterization” does not effectively describe the accomplishments of the research reported. The manuscript in the conclusion section (Page 15) states “we have identified and classified 234 proteins…”. The workflow (Figure 1) provides categorization of proteins by features such as cellular location, presence of signal peptide and number of transmembrane helices. Figure 2 has the title “Categorization of proteins identified”. A suggested revised title is “Categorization of potential drug targeting folate transporter proteins from eukaryotic pathogens”. The “potential drug targeting” is obtained from the conclusion section. Does the abstract represent a suitable summary of the work? There are sentences in the abstract that should be revised to accurately represent a suitable summary of the research performed. Comments/suggestions are provided below. Quantify the observations described as many. For example “genome sequences of many”: How many? “eukaryotic protozoa” “eukaryotic microbes”. The term “eukaryotic microbes” encompasses pathogens and non-pathogens (e.g. Chromera velia and Vitrella brassicaformis 1 ). “important data” “critical biological information” “pathway are important for” “pathways are necessary for” “Methods: We applied a combination of bioinformatics methods to examine the genomes of pathogens in the EupathDB for genes encoding homologues of proteins that mediate folate salvage in a bid to identify and assign putative functions.” “Methods: We developed automated search strategies in the Eukaryotic Pathogen Database Resources (EuPathDB) to construct a protein list and retrieve protein sequences of folate transporters encoded in the genomes of 200 eukaryotic microbes. The folate transporters were categorized according to features including mitochondrial localization, number of transmembrane helix, and protein sequence relatedness. Provide key result(s) of the protein list retrieval and phylogenetic comparison of the retrieved proteins. For example, We constructed a list of 234 folate transporter proteins associated with 63 eukaryotic microbes including ??? algae, ??? fungi and ??? protozoa. Seven percent of the proteins were predicted to localize on the mitochondrial membrane. Phylogenetic tree revealed major (??? proteins) and minor (??? Proteins) clades. All the folate transporter sequences from the malaria parasite, Plasmodium , belonged to the major clade. “The mitochondrion is the predicted location of the majority of the proteins”. This statement is not supported by Figure 2D, where 7% of the protein sequences are labelled as Mitochondrial folate transporters. Article content : Have the design, methods and analysis of the results from the study been explained and are they appropriate for the topic being studied? Design and Methods: Figure 1 presents a conceptual hierarchical methodology. The rectangle labelled “Protein names/ sequences verification” has arrows to PubMed, UniProt, Membranetransporters.org, NCBI, GeneDB, Google Scholar and Phylogenetic analyses. It appears that the integrated results from the search strategies in the databases provided the input for the phylogenetic analyses. Please clarify. Which step of the workflow resulted in the list of 234 proteins? How many proteins were retrieved from the initial search using EuPathDB? Protein Features Retrieved rectangle: Was the retrieval of protein features performed on only the 234 proteins? There is adequate explanation of the methods for phylogenetic analyses. Please provide the Newick format phylogenetic tree as a supplementary dataset. Analysis of the Results: Table 1 is a major curation effort presented in the manuscript. a. The title of Table 1 should be updated to “Eukaryotic microbes from which folate transporters were identified”. The list includes non-pathogens. b. The content of the table (especially the Kingdom entries) should be checked for accuracy. The Kingdom column could be updated to Eukaryotic Microbe Group with entries as algae, protozoa or fungi. c. The column entries for A. capsulatus G186AR (mislabelled as bacteria) should be updated as the organism name is for a fungus (genus Ajellomyces ). This update will also affect the Phylogenetic Tree (Figure 3). The node labelled Actinobacillus clusters with Ajellomyces macrogynus . d. An updated Table 1 should be presented as Dataset 2 in a spreadsheet file. This would enable secondary data analysis by other researchers. e. A new Table 1 could consist of columns for Eukaryotic Microbe Group, Genera of Eukaryotic Microbe, List of Species/Strain and Number of Folate Transport Proteins. This will provide reader with an overview of how the 234 proteins is distributed into the genera of the eukaryotic microbes. f. References listed for confirmation searches. Page 8, Paragraph 1, Sentence 1: “Our literature search for parasite folate transporters on PubMed and Google Scholar indicated 60% (38 out 63) of the proteins were identified for the first time as presented in Table 1. Comment: Among the references included in Table 1, only eight references (22, 73 to 77 and 82) on the basis of the article title provide experimental assessments of the folate transporters. Reference 85 is a reference for MEGA7 software. In the sentence “proteins” should be eukaryotic microbes. The proportion of eukaryotic microbes whose folate transporter(s) have been previously investigated with functional assays should be revised. Figure 2. Categorization of proteins identified. Authors should consider representing Figure 2A and 2B as bar graphs. Figures 2C, 2D and 2E have only two categories that can be described in the Results section. Discussion a. “genomes of 64 strains”. Table 1 has 63 eukaryotic microbes. b. Discuss Chromera velia and Vitrella brassicaformis as organismal systems for investigating folate transporter function. See Woo et al. 1 Conclusion Consider revising “In summary, we have identified and classified 234 proteins…” to “In summary, we have retrieved information on 234 folate transporter proteins from the Eukaryotic Pathogen Database (EuPathDB) resources. The folate transporter proteins were categorized into potential drug targeting features including mitochondrial localization, number of transmembrane helix, and protein sequence relatedness." Data (if applicable) : Has enough information been provided to be able to replicate the experiment? Are the data in a usable format/structure and have all the data been provided? Table 1 needs to be revised and converted to a Dataset. Please provide the Newick format phylogenetic tree as a supplementary dataset. The Gene Identifiers [Gene ID] in Dataset 1 can be used to retrieve the protein sequences from EuPathDB. References 1. Woo YH, Ansari H, Otto TD, Klinger CM, et al.: Chromerid genomes reveal the evolutionary path from photosynthetic algae to obligate intracellular parasites. Elife . 2015; 4 : e06974 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Isokpehi RD. Peer Review Report For: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens [version 2; peer review: 2 approved with reservations] . F1000Research 2017, 6 :36 ( https://doi.org/10.5256/f1000research.11380.r20535) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/6-36/v1#referee-response-20535 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Falade MO and Otarigho B. Dataset 1 in: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens. F1000Research 2017, 6 :36 (https://doi.org/10.5256/f1000research.10561.d167325) Close Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Falade MO and Otarigho B. Dataset 2 in: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens. F1000Research 2017, 6 :36 (https://doi.org/10.5256/f1000research.10561.d167326) Close Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Characterization of potential drug targeting...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/6-36/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/6-36/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/6-36/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Falade MO and Otarigho B');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/6-36/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/6-36",
+ templates : {
+ twitter : "Characterization of potential drug targeting folate transporter.... Falade MO and Otarigho B, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/6-36/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Characterization of potential drug targeting folate transporter proteins from Eukaryotic Pathogens", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/10561/12807")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "12807");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "24515": 0,
+ "20419": 16,
+ "24516": 0,
+ "20420": 0,
+ "20582": 0,
+ "19242": 0,
+ "19244": 0,
+ "19245": 0,
+ "19247": 0,
+ "24209": 9,
+ "19249": 0,
+ "24210": 3,
+ "19250": 0,
+ "20535": 25,
+ "24476": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "87424a7e-e34a-4a32-84ef-aed5d7cb589e";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

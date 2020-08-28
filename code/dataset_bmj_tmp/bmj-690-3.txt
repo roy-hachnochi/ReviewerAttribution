@@ -1,0 +1,43 @@
+In this paper the author investigates 3 possible mechanisms that may explain what appears to be a curse
+on the wearer of the rainbow jersey. Figure 1 nicely shows the hypothesised mechanisms. This is
+potentially a good application on which to illustrate the phenomenon of regression to the mean. I have
+several comments however that do need to be addressed regarding the analyses and presentation:
+1. According to the introduction there is far more to this supposed curse than a lack of cycling success,
+which in fact compared to other ails may be relatively minor. It should perhaps be noted that this paper
+considers just that one aspect that has been attributed to curse.
+2. Why was a non-parametric test (Wilcoxon) selected for comparing race wins between years within rider
+but parametric (t-test) for between race comparisons? If the distribution in race wins between riders is
+non-normal (thus suggesting the use of non-parametrics appropriate), then this is likely more of an issue
+with the unpaired rather than paired differences. (Results of t-tests between races do not seem to be given
+in the results anyway.)
+3. Poisson models are used to evaluate the hypotheses. An offset with the number of races undertaken
+should be included. If no account is taken of the number of races, how do we know that any reduction in
+wins is not merely attributable to the cyclist perhaps having a quieter season after working hard to achieve
+
+the championship in the previous year?
+4. Negative binomial models could have been used to model the over-dispersion. Why are these models not
+presented? How was over-dispersion ascertained?
+5. In the models, ‘i’ should be defined. The hierarchical models do in general need more explanation and
+probably also modification. A random effect of rider is given to account for their repeats over time in a
+given tournament. Several won both tournaments and/or the same tournament two or more times and it is
+unclear whether this structure is adequately modelled. The multilevel models do need to capture the true
+hierarchy of some riders being involved in both tournaments and also across time.
+6. A pictorial representation of model 4 as defined on page 6 should be given in figure 1 (marked man plus
+regression to the mean).
+7. The saturated model should be given more explanation. What random effects are included here?
+8. The methods used only allow for formal comparison of nested models, which does not apply to model 2
+(marked man) versus model 3 (regression to the mean). The author should use a more flexible approach
+(AIC or BIC) to allow for this.
+9. Adding the 2 winners from 2013 seems unnecessary since they cannot contribute a full dataset, it may
+be preferable to exclude them.
+10. The distribution of the number of wins per year (table 1) is clearly skew and so mean(sd) are not useful
+summaries. Line plots of individual patterns should be given and the median (IQR) for each year within
+championship.
+11. When comparing between years (table 1), differences and confidence intervals should be given rather
+than simply p-values.
+12. Some measures of within rider variation from the hierarchical models should also be given.
+13. The author only considers winners and individuals enter the dataset at a winning point. It would help to
+put the variation and apparent fall in year 1 in context perhaps if there were some assessment of within
+rider variation between years, including all participants and not just the winners.
+14. The conclusion is written in a way that implies a causal effect of regression to the mean, instead it
+should be termed as an explanation for the patterns seen.

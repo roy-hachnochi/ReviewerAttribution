@@ -1,0 +1,21 @@
+Summary: This is a systematic review of studies reported the development and validation
+of 30 day readmission risk prediction models since 2015. It is probably more appropriate
+for BMJ Open than BMJ. The presentation is overall valuable and informative, however a
+few considerations might improve the manuscript.
+
+1) “condition-specific hospital readmission” implies that patients are being readmitted for a
+specific condition. Many of these studies, however, modelled all-cause readmission within a
+subgroup of hospitalized patients, e.g., patients with CHF. The authors should restate this
+as “readmission among patients with specific conditions” and distinguish between all-cause
+readmission and readmission for a specific condition.
+2) The C-statistics reported should be qualified as based on the derivation sample or
+validation sample throughout the text and tables. Either both should be reported or just
+the validation sample C-statistic.
+3) The last sentence of the Results section on page 14 is unclear. “Broader” implies benefit
+beyond the institution of the study. I suggest rephrasing this.
+4) There could be more clarity about which studies were retrospective and which were
+prospective. Likewise which used internal validation and which used external validation.
+Most of the studies in Table 1 do not specify any of these features. These could be
+indicated with footnotes or in the legend.
+5) All abbreviations in Tables should be defined, like “exc” in Table 3
+Daniel Rubin, MD, MSc, FACE

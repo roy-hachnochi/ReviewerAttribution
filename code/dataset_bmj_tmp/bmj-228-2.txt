@@ -1,0 +1,30 @@
+The systematic review looks to be well done, and makes a good case for working with
+incidence rather than prevalence, but the results are poorly presented.
+1. The research question relates to the mean time trend in diabetes incidence, but nowhere
+is this shown - it is all described in the text as numbers of papers showing rising and falling
+trends in different epochs. The attached graph summarises Table 3 by coding papers with
+rising incidence as +1, falling incidence as -1 and level as 0, and it gives the mean score
+for each epoch with the symbol reflecting the number of papers it's based on. The authors
+argue that Table 3 shows falling incidence, but for the most recent time period it is flat (12
+papers falling, 12 rising, 9 level). In addition there is little evidence of a long-term trend
+from the regression line, with higher trends from 1990 to 2005 but lower trends before
+1990.
+2. I encourage the authors to rethink their conclusions based on the figure, as it weakens
+their case that "The incidence of diagnosed diabetes has been stable or falling in the
+majority of populations studied since 2006". Their complicated treatment of grouping that
+contrasts rising with stable/falling means that the value of zero trend for 2006/14 does not
+emerge clearly.
+
+3. The plots for individual countries by age group in Figures 2a, 2b, 2c and 2d show very
+erratic values for US_CDC from year to year, which are hard to understand given the large
+sample sizes.
+4. It strikes me as very optimistic to think that the falling incidence (if true) is due to
+treatment.
+5. The incidence data should be plotted on log scales to include all the data in one plot.
+6. The authors need to explain the Joinpoint analyses.
+7. Table 2 could be traffic-light-colour-coded to distinguish between rising, level and falling
+trends.
+8. Table 4 would be better without the p-values as they obscure the trend values.
+Alternatively do present the p-values to one significant digit - see
+https://adc.bmj.com/content/100/7/608.
+Tim Cole

@@ -1,0 +1,85 @@
+
+Thank you for giving me the opportunity to review "Thirty-Day Hospital Revisits After
+Discharge for Conditions Targeted by Readmission Measures in the United States: National
+Retrospective Analysis" (MS BMJ-2019-049877).
+The authors present findings from a descriptive study examining trends over three and a
+half years in hospital revisits, encompassing ED treat-and-discharge visits, observation
+stays, and hospital readmissions. They find that, although readmissions per 100 patient
+discharges have declined, ED visits and observations per 100 patient discharges have
+increased, suggesting that hospitals have responded to Hospital Readmissions Reduction
+Program (HRRP) incentives by shifting their re-visiting patients away from readmissions
+and towards ED and observation stays.
+The particular strengths of the paper are the comprehensive data used by the authors and
+the significance of the research question they are asking. A weakness of the paper is that,
+given the data, the authors could push their analyses a bit further to elucidate mechanisms
+and heterogeneity in responses.
+Major comments:
+1.
+The authors present an interesting finding (shifts from readmissions to ED and
+observational stays) that seems appropriate for a brief report but perhaps a little on the
+skinny side for a full-fledged article. Here are some ways they could unpack their findings a
+bit further:
+1.1.
+Can they cluster or stratify by hospital-types or hospitals? Basic characteristics like
+bed size categories, urban-rural, private vs. non-profit, % Medicare patients, and %
+managed care patients might be helpful for identifying patterns related to conjectured
+HRRP responses.
+1.2. Related to 1.1, can they analyze this at the hospital level (each hospital contributes
+according to the # of admissions occurring at that hospital)?
+1.3.
+Related to 1.1 and 1.2, which hospitals would have been expected to have been
+penalized by HRRP (i.e. prior to HRRP, being closer to the penalty threshold) and do we see
+greater shifts for these hospitals? This would support their claim that hospitals are
+responding to HRRP, not by improving in the care provided during the index admission but
+by gaming the classification of revisits.
+2.
+I am not clear on the purpose and utility behind the methods that use index
+hospitalizations for the year 2014 to estimate the "potential outcomes" for the outcome
+measures between January 2012 and September 2015 for what looks like a straightforward
+descriptive paper. What exactly is the treatment requiring the use of the potential
+outcomes approach and why fix to a specific year? Perhaps they are constrained by the
+granularity of the data in ways that haven't been made clear in the paper?
+2.1.
+Further elaboration of the rationale and citations in the biostatistics literature
+would be helpful. This as well as 2.2 could be done in the Appendix.
+2.2.
+Specific modeling equations (with time indices, especially with respect to the
+calculation involving data from 2014) at each step in the protocol would clarify things.
+Minor comments:
+1.
+The authors might want to state more explicitly in the abstract the motivation for
+the research question they are trying to answer. It wasn't until the introduction that the
+authors made explicit the reason this question was an important question to answer
+(namely, that hospitals are gaming the HRRP narrowly-defined incentives).
+2.
+Reporting the number of patients in addition to the number of hospitalizations in
+Table 1 would be helpful. Are the percentages reporting % of patients with these
+characteristics or % of hospitalizations?
+3.
+Reporting the total number (over all years) of the various hospital revisit measures
+in the last column of eTable 1 would be useful.
+4.
+p. 7, l. 45: "Poison" should be "Poisson"
+5.
+Great figures!
+
+Additional Questions:
+Please enter your name: Genevieve Kanter
+Job Title: Assistant Professor
+Institution: University of Pennsylvania Perelman School of Medicine
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests <A
+HREF='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/d
+eclaration-competing-interests'target='_new'> (please see BMJ policy) </a>please declare
+them here:
+
+Reviewer: 5

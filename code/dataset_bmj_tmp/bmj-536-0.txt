@@ -1,0 +1,59 @@
+Second review
+A Propensity Matched Comparative Analysis of Long-term Survival of SABR vs Thoracoscopic Sublobar Lung Resection
+using the SEER-Medicare database: Insights from Registry Data
+I can see that it is an attractive paper to publish in the BMJ.
+• It deals with the biggest killing cancer.
+• SABR versus surgery is a hot topic.
+• There is an attraction in using ‘big data’.
+I would make a case for limiting the introduction and discussion. A great deal of ground is covered. Throughout the
+introduction and the discussion there seems to me to be relentless slant, in keeping with the fact that this comes from
+surgical authors. The citations opening the introduction don’t adequately underpin the statements made. The complex
+issue of CT screening for lung cancer is dealt with in a line. [P.4/6-9]*
+The interpretation is that of the lead authors who are thoracic surgeons and it is not balanced by including the views of a
+radiation oncologist. “Whose conclusion is it anyway?” (Waller, 2006) I wonder if independent commentaries would be a
+better place to offer interpretation.
+This revision has not allayed my concerns about drawing trustworthy conclusions about the relative effectiveness of
+surgery versus SABR from SEER data (pace Doug Altman’s statistical review). Doug Altman writes “…the role of
+propensity scoring is not settled and is an area of ongoing research and therefore one cannot conclude that PS is not
+suitable in this instance. There are divided opinions on the matter.” It is with due caution that I dare to push my opinion
+further after Doug Altman has made that statement but I cannot shrink from it. While fully accepting that there are
+divided opinions in the general case, I want to focus attention on this particular use of SEER data. I see three identifiable
+impediments to the reliability of matching.
+1.Confounding factors have a much larger effect than the marginal difference in survival between two treatments. The
+biological behaviour of lung cancer, (Hillerdal, 2008) the patient’s respiratory resilience and overall health make for more
+difference in survival than the difference between surgery and SABR as is apparent in this analysis. I would not trust
+statistical adjustment in this instance.
+2.Concerns about registry analysis are exacerbated by the effect of ‘diagnosis as an alibi for treatment’. If a clinician
+recommends a treatment that bucks the trend, or goes against guidelines, the doctor may seek to offer mitigation in the
+case records. The original example was the decision to treat sore throats with antibiotics in some children, contrary to
+guidance. A note written with justification in mind is no longer an even handed statement of symptoms and signs. It is
+not deliberate falsification (hence the word ‘alibi’ is a neat fit) but it systematically corrupts the even handedness of the
+data entries. Registries and databases are prone to the same effect. The data entered need to ‘make sense’ of the
+treatment decision.
+3.And further, from some a relatively early point the care of the patient is put in the hands of either a surgeon or a
+radiation oncologist. Further investigations are then likely to be systematically different introducing ‘work up bias’.
+(Blackstone and Lauer, 2004)
+I suggest that the most SEER analyses can do is pose questions. Possible inferences and implications for health policy
+would be better addressed in editorial material rather than being editorialised by the authors themselves.
+
+The authors end with a plea for a trial. There is a dearth of randomised trials in lung cancer surgery (Treasure et al.,
+2012) but few of the many writers who conclude their papers in this way intend themselves to work up trials or even
+recruit patients into the trials that others set up. [P.3/21][P.18/19] It would be have more credibility if the PICO for an
+RCT and the names of the trial development group were a requirement, to be published as a footnote to the paper.
+Otherwise I think it should be omitted. For those of us who struggle to recruit to trials it has a hollow ring.
+A couple of specific points:
+[P.2/18] Is this appropriately called a cohort study? The data were collected prospectively into a registry database but
+there was no research question at the outset. The groups extracted for analysis have been changed illustrating that
+these are samples from a larger registry and thus amenable to selection. Should ‘cohort study’ be reserved for a study
+where criteria for inclusion are defined at the outset?
+[P.2/53] The various outcomes used in specialist cancer papers are often tricky for more general readers and at the very
+least they should be spelled. BMJ editors will have their rules but in the previous version we had CSP and DFS in the
+abstract and now there is CSS.
+* The location is indicated by [page number/line number] for specific comments on the text.
+
+Reference List
+Blackstone EH, Lauer MS (2004) Caveat emptor: the treachery of work-up bias. J Thorac Cardiovasc Surg 128 (3): 341344
+Hillerdal G (2008) Indolent lung cancers--time for a paradigm shift: a review. J Thorac Oncol 3 (3): 208-211
+Treasure T, Russell C, Morton D, Macbeth F, Utley M (2012) Surgical resection of lung cancer in England: more
+operations but no trials to test their effectiveness. Thorax 67 (9): 759-761
+Waller PC (2006) Whose conclusion is it anyway? J R Soc Med 99 (1): 46

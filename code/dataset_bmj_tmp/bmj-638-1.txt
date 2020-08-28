@@ -1,0 +1,61 @@
+My name: R. Adams Dudley
+My review:
+This a clearly written paper describing an innovative approach—the use of standardized vignettes, essentially an audit
+study—to assess a novel technology, online symptom checkers. The growth in use of online searches for self-diagnosis
+suggests that this topic is timely. In addition, I could find almost no relevant literature, and nothing as systematic as the
+manuscript under consideration. (As it turns out, there’s more literature on the symptoms of grocery checkers and on
+the symptoms of patients with OCD who repeatedly check things (hence are referred to as “checkers”, though!)) In fact,
+I spent two hours on PubMed and Google Scholar, looking for related references. The three at the bottom are the best I
+could do, and only one (Farmer et al.) really assesses a symptom checker. However, that paper is a letter to the editor
+about one symptom checker and its agreement with a single physician’s diagnoses for ENT patients, and we don’t get
+any information about what the diagnoses were. Of note, the authors have appropriately already included these
+references in their discussion (more on that below).
+Thus, this manuscript represents something we haven’t seen before, and it’s a pretty careful description of the symptom
+checkers that are out there. As such, if revised, I would think it would be of interest to BMJ readers. However, I do have
+a few issues.
+It seems as though, if a symptom checker doesn’t ask for the key symptom in a vignette, that this should be counted as
+a failure of the symptom checker, rather than having this result in exclusion of the vignette for that symptom checker
+(second sentence of the Assessing diagnosis and triage results section). Certainly, if a patient called in to an advice line
+with one of these vignettes and the nurse/physician who answered failed to ask about the most important symptom—
+and hence failed to arrive at the correct diagnosis—that missed diagnosis would be viewed as the clinician’s mistake,
+rather than as a reason to exclude the patient from performance evaluations.
+It also seems overly generous to the symptom checkers to report “listed the diagnosis at all” if the correct diagnosis is
+listed anywhere in the first 20 diagnoses. Few patients will have the cognitive energy to go through 20 possibilities. I like
+the sensitivity analysis of listing the correct diagnosis in the first 3 possibilities because this comes closer to
+approximating what most patients will do and because one quarter of the symptom checkers only list up to three
+diagnoses and would make it the secondary area of focus, moving the “in the first 20 diagnoses” to a sensitivity
+analysis.
+I found Table 2 daunting, and I suspect others would also find it hard to use. I also found Table 3 lacking because of the
+breadth of the “Correct diagnosis listed” category as I mentioned above. Consider instead making the current Table 2 a
+supplemental online appendix and modifying Table 3. The new Table 3 could have a diagnostic section with three
+performance columns showing, for each symptom checker across the 45 diagnoses, the percentage of the time the
+correct diagnosis was “listed first”, “listed in the first three possibilities”, or “listed at all”. In the triage section of this
+table, you could put, for each symptom checker across the 45 diagnoses, the % triage of patients referred to for
+emergent care vs non-emergent care vs self care (this would highlight, for example, the fact that iTriage, Isabel, Symcat
+and Symptomate send everyone for care and that iTriage sends all of its 50 million annual visitors for emergent care!).
+Related to the triage issue, I think your Discussion could come down harder on the poor triage recommendations of the
+symptom checkers. In the paragraph that starts, “One potential advantage…is cost”, you end with the sentence,
+“Because of their negligible costs, symptom checkers could potentially be a more cost-effective way of providing triage
+advice—particularly if they can deter unnecessary office visits.” However, you have data that they do just the opposite,
+with two-thirds of patients for whom self care is preferable being told to seek professional care instead (sometimes even
+emergency care). You describe why this risk aversion might exist in the next paragraph, but you never come back to the
+summarization that they are likely increasing total costs. At the very least, consider changing, “Because of their
+negligible costs, symptom checkers could potentially be a more cost-effective way of providing triage advice—particularly
+if they can deter unnecessary office visits” to something like “Because of they cost so little to operate, symptom
+checkers could potentially be a more cost-effective way of providing triage advice than a nurse-staffed phone line.
+However, our data show that the current version of symptom checkers, as a group, recommend professional care for
+
+most patients who only need self care, so these versions of symptom checkers might actually increase total costs.”
+Minor points
+Consider changing, “For the 8 symptom checkers where we could estimate web traffic,
+there were on average 1.25 million visitors in October 2014” to “The 8 symptom checkers for which we could estimate
+web traffic had 10 million visitors in October 2014”. I think this gives a better sense of overall traffic in simpler
+language.
+Related references (mentioned in first paragraph of this review):
+Bisson LJ, Komm JT, Bernas GA, Fineberg MS, Marzo JM, Rauh MA, Smolinski RJ, Wind WM. Accuracy of a computerbased diagnostic program for ambulatory patients with knee pain. Am J Sports Med. 2014 Oct;42(10):2371-6. doi:
+10.1177/0363546514541654. Epub 2014 Jul 29. PMID: 25073597
+Luger TM, Houston TK, Suls J. Older adult experience of online diagnosis: results from a scenario-based think-aloud
+protocol. J Med Internet Res. 2014 Jan 16;16(1):e16. doi: 10.2196/jmir.2924. PMID: 24434479
+Farmer SE, Bernardotto M, Singh V. How good is Internet self-diagnosis of ENT symptoms using Boots WebMD symptom
+checker? Clin Otolaryngol. 2011 Oct;36(5):517-8. doi: 10.1111/j.1749-4486.2011.02375.x. No abstract available. PMID:
+22032458

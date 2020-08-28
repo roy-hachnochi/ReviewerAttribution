@@ -1,0 +1,28 @@
+
+1)
+How did the authors decide on how to split their quartiles. In general, it can be
+done by patients or hospital, i.e groups with equal number of patients or equal number of
+hospitals. The results can vary depending on how the analysis is performed.
+2)
+I am a little surprised at the high rate of non-PE related 30-day mortality. How
+was PE death defined? One would assume that most deaths in the 30 days leading to a PE
+would PE related. Can the authors elaborate on the causes of death.
+3)
+It seems like the majority of benefit is not necessarily in the high volume centres
+but in not being a very low volume centres. In other words, maybe the threshold is at the
+very low volume centres in the first quartile. If this is true it has ramifications on the
+authors recommendation of PERT centers. It is not necessarily that high volume centres,
+and their corresponding PERT programs, reduce mortality but just that low volume centres
+have really bad outcomes and are not at the standard of practice. I think the authors
+should temper their conclusions.
+4)
+I think the risk adjustment for severity of illness is potentially deficit. Without
+more granular data (echo, troponin, BNP) the severity of PE may not necessarily be
+controlled for. The authors alluded to residual confounding but maybe they can expand on
+this. Furthermore, how was blood pressure and heart rate measured. Was it on
+admission? Was it a one-time measure or did they use an average? More detail is needed
+as the crux of the results are in the risk adjustment.
+5)
+I believe volume was modelled as a categorical variable. Can the authors expand
+on the reason for this. Usual designs in volume outcome studies use fractional polynomials
+or restricted cubic splines.

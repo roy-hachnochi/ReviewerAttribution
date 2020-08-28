@@ -1,0 +1,72 @@
+BMJ.053803
+Association between newly-diagnosed atrial fibrillation and the excess risk of death: temporal trends
+over 40 years in the Framingham Heart Study
+Statistical review:
+In this article, the authors have unique data collected as part of the Framingham Heart Study to analyse
+changes in the prognosis of AF, specifically excess risk of death, over time. The results suggest that
+although there have been improvements in both early identification and treatment of this patient group,
+AF is still strongly associated with an increased risk, impacting on a reduction in life expectancy of
+around 2years (compared to non-AF).
+Given the nature of the data, this study should be able not only to provide an adequate description of
+the continuing increased risk but also explore some of the potential issues regarding changes over time.
+Specifically (as mentioned in the Discussion) if there has been a change in the population identified as
+having AF and/or in their treatment.
+In short, the main questions that they should be able to address (besides a pure description of a
+continuous elevated risk) are:
+
+a) What are the similarities/differences of these different ‘epochs’ overall (e.g. baseline characteristics
+like SBP, treatments, etc). Are these pointing towards a ‘healthier’ cohort or a more multimorbid cohort
+in each ‘epoch’?
+b) What are the similarities/differences of these cohorts at time of diagnosis? Specifically, for the AF
+group, is the assumption of early identification of low-risk individuals (as mentioned in the Discussion)
+valid?
+c) Is the treatment provided to the AF group changing (improving) over time? This is also touched on in
+the Discussion and is mentioned as part of the limitation. Given their timeline it would not be unlikely
+that the improvements suggested have reached a plateau and hence there is no evidence of a trend.
+This might be the case that any information (even if incomplete would be better than no information.
+It might be that no further information is available, in which case, a more extended Limitation section in
+the Discussion would be relevant to address these points.
+Besides this, there are several issues (listed below) which would help clarify and expand on some of the
+findings presented.
+Issues to clarify:
+Choice of Epochs
+-Please provide an explanation for the decision to group the data into three epochs. Currently, the
+manuscript does not specifically explain the choice of a) number of epochs nor b) the reasons for
+choosing those years as cut-offs.
+
+Participants
+-Please provide a figure with the timelines for the different cohorts/examinations/measures linking to the
+identification of the epochs. If possible, also include in this Figure (or an alternative one) information for
+the identification of the data used in the ‘population analysis’ as well as for the ‘matched analysis’.
+-The identification of AF is based on the visits/examinations during any given epoch. Please provide
+information (possibly as a supplement) about the number of visits and who attended these visits. The
+increased number of diagnoses (proportional) in epoch 2 might need explaining too.
+-Related, please comment if there is a bias created by controls providing information into several
+epochs.
+Covariates included
+-Given that the significant improvement observed over time has been on CVD mortality, it would have
+been particularly useful to have included lipid measures (at baseline) as a relevant covariate as well as
+lipid treatment (e.g. statins) in a similar way as antihypertensives are reported. If not available, this
+might need to be included as an important limitation.
+Statistical analyses
+-The choice of different study designs (population based and matched cases-controls) is adequately
+described, but please expand here as to which is used as primary analysis and why.
+
+-I am unclear on the use of meta-regression to evaluate a time trend. Is this based on 3 ‘datapoints’? If
+so, a comment on the power of such approach would be useful. Related, there are a number of
+comparisons (for trend) presented in the paper, a mention in the limitation section of the potential for
+spurious finding given this would be appropriate.
+-Critically, the analysis based on RMST reaches a different conclusion to that of the time-varying
+covariates Cox model. Please discuss include (probably in the Limitations) an explanation as to why
+these differences occur. I imagine it is due to the way the time-varying covariates are incorporated to
+the models, but this might require some clarification.
+Tables
+-Table 2 gives total number and events but for the whole population. Please provide these also for the
+AF group for each of the epochs.
+Figures
+- Figure one will need some adjustments. Current one has a problem with overlap of text confidence
+intervals and graphical ones. Suggest maybe separating using lines?
+-Figure 2. Please provide light coloured grid to aid with comparisons across different epochs. (similar
+issue for Figures S2 and S3)
+-Figure S4 – substantial reduction in cumulative incidence of cardiovascular death. This would need
+some discussion/interpretation. See point above about lipid levels and use of lipid lowering drugs.

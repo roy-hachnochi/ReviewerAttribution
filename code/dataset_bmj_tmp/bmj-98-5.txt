@@ -1,0 +1,120 @@
+Referee report of revised manuscript on “Sugary drink consumption and cancer risk: results
+from NutriNet-Sante prospective cohort”
+I thank the authors for their consideration of my comments on their revised manuscript;
+however, the following methodological issues previously raised have not been adequately
+addressed.
+Original comment 2: The analysis of dietary data is inherently complex due to the presence
+of measurement error, within person variation in consumption, and high frequency of zero
+consumption records arising from dietary components that are occasionally consumed, e.g.
+artificially sweetened beverages (only 14.8% consumed in this study). None of these aspects
+were adequately taken into account in the analyses. Unfortunately, ignoring these issues by
+simply estimating individual consumption of a dietary component by taking the mean of
+consumption in the analyses can bias the regression coefficients in a non-predictable
+direction, and the problem does not go away even if the sample size is large. This often
+leads to spurious associations.
+Authors’ response: Indeed, diet is one of the most complex exposures to assess and its
+evaluation is challenging (19). This challenge is not specific to our study but rather shared
+by all major epidemiological studies conducted worldwide in this field (20,21). In our cohort,
+we beneficiate from a detailed dietary assessment measured by repeated and validated
+(versus biomarkers (22,23)) 24h dietary records (mean number=5.6/subject, and up to 15
+records across the study period).
+The prospective design of the cohort guaranteed that potential measurement errors in
+dietary exposure (e.g.% of consumers and amounts of sugary drinks consumed) were
+non-differential regarding the outcome. They could have led to a non-differential
+classification bias (identically in future cases and other participants), most probably leading
+to an under-estimation of the observed associations, although overestimation cannot be
+entirely ruled out.
+In this study, the proportion of non-consumers for sugary drinks was relatively low (25.4%).
+Mean number of dietary records was even higher in non-consumers than in consumers of
+sugary drinks (6.0 versus 4.6).
+
+Thus, non-consumption in these participants is not likely to be explained by missed
+consumption due to a low number of dietary records. Besides, even if some intakes were
+missed in subjects who consumed sugary drinks very occasionally, such rare consumption
+was not likely to strongly influence their cancer risk, thus potential related bias was probably
+very limited.
+In contrast the proportion of non-consumers was higher regarding artificially sweetened
+beverages (85.1%). This proportion was in line with the one observed among women in the
+European Prospective Investigation into Cancer and Nutrition Cohort (81.0%) (24) and thus
+reflects the reality of the consumption of this subgroup of beverages in France rather than a
+misreporting issue. This relatively low proportion of consumers may have limited our ability
+to detect an association with cancer risk in this study, due to reduced statistical power.
+Last, in order to provide information regarding to Reviewer’s 3 request related to
+intra-individual variation in dietary intakes, we have now performed a sensitivity analysis by
+focusing on the participants for whom sugary dink consumption varied by less than │150
+mL/d│ (corresponding to a mini-can) between the beginning and the end of their follow-up,
+which provided similar results (HR for an increase of 100 mL/d of sugary drinks = 1.06 (1.01
+to 1.12) P=0.02, 1844 cases/ 86462 non-cases for overall cancer risk, and HR=1.07 (1.02 to
+1.18) P=0.04, 592 cases/ 69547non-cases for breast cancer risk).
+In addition to toning down the conclusion messages in the abstract, conclusion and box (as
+stated above in our response to the Editors), we have added these points in the methods
+(page 10), results (page 12), and discussion (page 14) sections.
+New comment: The authors’ approach based on sensitivity analyses falls short from dealing
+with measurement error and the large number of zero observations of intake. There exists
+advanced modern statistical methodology to deal with these issues, including use of two-part
+mixed-effects models to separate within- and between-person variability and deal with
+excess zeroes, and regression calibration to relate dietary intake with a health outcome. It is
+evident, from Table 1 (and Appendix 6) that there is a large discrepancy between the mean
+and median consumption for sugary drinks, 100% fruit juice intake and sugary drinks
+(except 100% fruit juices), so that using the mean intake as a summary statistic is not
+sensible. All the sensitivity analyses performed in the revised manuscript assume that the
+mean is an adequate measure of location, which implies uniform dietary exposure over time
+and across individuals. This assumption is not tenable as evidenced by the observed
+distributions of intake and the high frequencies of zero observations. I recommend to exploit
+the richness of the data which includes the collection of several observations of 24h records
+of intake per individual over time by using modern statistical methodology to provide reliable
+results.
+Original comment 7: Please justify whether it is appropriate to censor patients who
+experienced cancer at other locations. This would mean that these patients should be as
+likely to suffer cancer as those patients who remain in the study. Standard methods for
+survival may not be valid when there is informative censoring, particularly if the number of
+patients censored is high.
+Authors’ response: In this study, our objective was to model the incidence of “breast cancer
+as a first cancer” (for instance). Thus, from the moment when a participant had a cancer
+diagnosed at another location (e.g. colorectal cancer), she was no longer at risk of
+developing breast cancer as a first cancer, i.e., she was not able to be registered as a “case”
+for the studied outcome (=breast cancer as a first cancer). Thus, her follow-up ended at the
+date of her cancer diagnosis and she contributed person-time to the model until this date, as
+a non- case. This method is classically used in cancer epidemiological studies, such as the
+large-scale European EPIC cohort (33) or the Nurse’s Health study (34).
+Besides, as compared to the effective of the overall cohort, the number of cancer cases was
+limited (2193 cases << 101257 subjects in the cohort). Thus, censoring or not the patients
+who experienced cancer at other locations did not change the findings (e.g. for sugary drinks
+and breast cancer, HR for an increase of 100 mL/d =1.12 (1.05 to 1.20) P=0.001, 809
+cases/ 78915 non-cases).
+
+We have added this result in the manuscript page 12 and some discussion and clarifications
+in the methods page 9.
+New comment: The risk of occurrence of a cancer diagnosis at a different location from the
+site of interest is known as “competing risk” because it precludes the occurrence of the event
+of interest (first cancer diagnosis at site of interest). In the case of non-informative
+censoring, there is a direct correspondence between the effect of an explanatory variable on
+the hazard of the primary event (i.e. the rate of the occurrence of the event in those still at
+risk of the event) and the effect of the explanatory variable on the incidence (i.e. the
+probability of the occurrence of the event). So that, if a change in the explanatory variable
+increases the hazard of the occurrence of the event of interest, it also increases the
+incidence of the event, although the magnitude of the two effects may not be the same.
+Therefore, one can make inferences on the direction of the effect of an explanatory variable
+on the incidence by looking at the direction of the effect of the explanatory variable on the
+hazard of the event. However, this correspondence does not hold in the presence of
+competing risks. It is therefore incorrect to make inferences on the incidence of the event
+based on the Cox proportional hazards regression model in this context. The authors appear
+to have modelled the “cause-specific” hazard function, which allows inferential statements on
+the rate of the event of interest but not the incidence. I recommend that they clarify and
+correct their approach.
+Original comment 8: Finally a minor comment. STROBE guidelines for reporting
+observational studies advise against presenting P-values in the Table of patient
+characteristics.
+Authors Response: As requested, p-values were removed from table 1.
+New comment: I suggest to delete reference to the corresponding hypotheses tests in the
+Statistical analysis section, specifically: “We analysed differences in participants’ baseline
+characteristics across categories of sugary drinks consumption, using analysis of variance or
+X^2 tests where appropriate”
+Further comments:
+1. The authors’ statement in the Statistical analysis: “Log-log (survival) vs log-time plots
+were generated in order to confirm Cox’s risk proportionality assumption (appendix 5)” is
+neither supported by the plot in Appendix 5 (curves cross) nor discussed in the Results
+section.
+2. There are repeated paragraphs in the “Data collection” and “Beverage consumption”
+sections.
+3. “drink” is misspelt (“dink”) several times in the manuscript

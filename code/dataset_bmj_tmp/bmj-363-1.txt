@@ -1,0 +1,20 @@
+I appreciate the revisions and have reviewed the peer review and related comments. I
+think this paper is much clearer throughout.
+I can’t recall any other papers reporting the specific function used in the statistical
+software, so this is new to me. Though not a biostatistician myself, I can see the value in
+this, and perhaps this could even be encouraged (at least in an appendix) by EQUATOR
+guidelines. Not only does this take up minimal space, but in an era where many use R and
+open source programing where there are many ways to do something incorrectly, this is
+worth encouraging.
+Apologies for not catching this the first time, but the power calculations were based on
+injection drug use prevalence. While the ITT involves asking practices to screen for
+injection drug use, NONE of the practices accepted this (p10 lines11-12). Perhaps this is
+not much an issue as the power calculations (p7 lines 35/36) were identical to the
+frequency of injection use in the cohort (p10 line 31). I appreciate the clarity on the
+primary outcome (p11 lines 12-14).
+I appreciate the nuanced discussion and justification of the CE analysis, and I think this is
+an acceptable justification: “Since we have no data on the proportion of individuals that
+were active injectors, we have not altered the model to include transmission. We did not
+feel that we should add a further limitation to the discussion which would “favour” the
+intervention."
+Excellent work with this revision.

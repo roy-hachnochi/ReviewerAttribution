@@ -1,0 +1,86 @@
+Dear editors.
+The manuscript ‘Do randomised trials with very large treatment effects make further trials unnecessary? An empirical
+assessment.’ raises the question about the necessity of further trials after a randomized interventional trial has shown
+a very large treatment effect.
+The authors conducted a - what they call - ‘empirical assessment’, which is methodologically close to a systematic
+review, where certain sources were searched according to pre-defined inclusion criteria in order to extract data.
+Specifically, systematic reviews were searched for forest plots with one trial showing a very large effect, followed by a
+large trial with the same objective.
+The results of this assessment indicate that the very large effect seen in one trial is rarely replicated in following trials.
+The authors conclude that randomised trials with very large treatment effects do not make further trials unnecessary.
+The manuscript is well written and illustrative. The issues raised in this manuscript are interesting and important. They
+are highly related to the problem of studies with a small sample size, and the manuscript adds to existing knowledge.
+I agree with the authors’ methods and conclusions, and I would recommend the publication of the manuscript.
+
+I have listed some minor issues about the manuscript below.
+1) Page 8, row 15-25 and row 31-45; page 9, row 20-29: Inclusion and exclusion criteria are presented in different
+sections of the methods chapter, with other methodological issues presented in-between. Maybe restructuring would
+be helpful presenting all inclusion and exclusion criteria together.
+2) Page 8, row 34-38: The authors state that they ‘excluded forest plots … not including the year of publication of each
+trial (as it would not be possible to determine if the trial was followed by a large trial)’.
+a. Would it not have been possible to extract the year of publication from the reference list of the review?
+b. How many potentially eligible forest plots were excluded because of this restriction?
+3) Page 8, row 38-44: I feel that this exclusion criterion does not fit well to the heading of this paragraph (‘topics’).
+4) Page 10, row 9-14: When there was more than 1 large trial following the index trial, I would find it useful to know
+the number of subsequent large trials with upheld and with refuted results (in addition to the meta-analysis).
+5) Page 10, row 36: Please explain what is meant by the ‘difference between proportions’. If my understanding is
+correct, only relative risks are considered, not absolute differences.
+6) Page 10, row 49-57: Please explain the selection of statistical tests (Fisher’s exact, Mann-Whitney U, and KruskalWallis tests). E.g. which comparisons were performed with Mann-Whitney U and Kruskal-Wallis tests?
+7) Table 1 (page 26):
+a. Row 27/28: I am not sure I understand what is meant by ‘No of large trials’. Is it ‘large trials among index trials’ or
+‘‘large trials within each forest plot’ or ‘large trials for each index trial’? How is the number 1 (overall) compatible with
+the sum of 1 (upheld) and 2 (not upheld)?
+b. Row 28-34: I am not sure I understand what is meant by ‘… largest trial’. Which trial is ‘the largest’?
+8) Table 2 (page 27-28):
+a. In Table 1 (page 26), the relative risks (RR) of all trials have been ‘normalised’ in order to be combined. While this
+is not technically necessary for Table 2, I would still suggest doing so (e.g. RR of all index trials expressed as above
+one), because here the reader compares the RR for the index and the subsequent trial, and I would help if all
+comparisons would work in the same direction (instead of towards 1 from both directions).
+b. Table 2 presents only data for the 25 upheld index trials and their subsequent trial(s). I would also find it
+interesting to see the numerical results for the 19 refuted trials (including the information about upheld or not).
+c. For reasons of transparency and replicability, I would suggest to include the references of all 44 forest plots and/or
+all 44 index trials plus their respective subsequent trial(s) in the manuscript. Maybe Table 2 would be a convenient
+place for doing so. This would also show the number of subsequent trial(s) for each index trial, which I think should be
+given.
+d. I fully agree with the authors’ conclusion that ‘Caution should be taken when interpreting small studies with very
+large treatment effects.’ To strengthen this conclusion, it would be useful to present the sample size of the included
+trials, especially for the index trial (but why not also for the subsequent large trial). Again, maybe Table 2 would be a
+convenient place for doing so.
+e. The order of rows in Table 2 seems to be arbitrary (or at least not easy to identify). A content-related ordering
+could be useful. For example, ordering regarding the magnitude of the RR of the index trial; or by (absolute)
+discrepancy in RR between index trial and subsequent trial(s).
+9) Page 10, row 2-13: This maybe only a theoretical issue, but if there were for example four subsequent trials, one
+with a statistically significant effect in the opposite direction, and three with an effect in the same direction (significant
+or not), and a meta-analysis of these four trials is significant in the same direction: Does condition 1 hold (‘at least
+one subsequent large trial presented a statistically significant effect in the opposite direction’) or condition 2 (‘where
+there was more than 1 large trial … meta-analysis performed’). Maybe a rephrasing of the definition of refuted/upheld
+trials might increase clarity.
+10) Page 16, row 36-40: A ‘rule of thumb’ is mentioned here, but I find it difficult to understand which rule is meant.
+In addition, the ‘positive predictive value (PPV) of the rule’ is unclear. The PPV is mentioned several times in the
+discussion section, but it would be helpful if it was clearer related to the results.
+
+11) Figure 1 (page 29): In the lowest box, the number of forest plots (n=44) is smaller than the number of Cochrane
+reviews (N=45). Is that correct?
+12) Figure 2 (page 30) is nicely done and informative. The grid is useful to grasp the RR-values of the plotted studies.
+a. Maybe an additional diagonal line would help as an indicator of discrepancy in RR between index trial and
+subsequent trial(s).
+b. As mentioned before, I would find it helpful to plot the ‘normalised’ RRs here (e.g. all equal to or above 1).
+Especially in this figure, the split of results in 2 areas could be avoided.
+13) Discussion section (page 16-19): The work presented here is purely empirical without considering the setting,
+populations, test interventions, control interventions, etc. of the trials. It might be worthwhile to check if discrepancies
+in results between index trial and subsequent trial(s) might be due to differences in study characteristics.
+14) Entire manuscript (including tables and figures): It seems that the terms ‘refuted’ and ‘not upheld’ are used
+synonymously to indicate subsequent large trials with disagreeing results compared to the index trial. Clarity could be
+increased if only one term would be used consistently throughout the manuscript.
+15) Entire manuscript (including tables and figures): The term ‘effect size’ is used to denote relative risks. I would
+suggest using the term ‘relative risks’ instead, as for some readers ‘effect size’ might be considered the standardized
+mean difference (SMD).
+16) Entire manuscript (including tables and figures): I would suggest to ‘normalise’ all RR in all tables, figures, and in
+the entire manuscript to improve clarity.
+Dr. Stephanie Roll
+Scientist / statistician
+Charité - Universitätsmedizin Berlin
+Institute for Social Medicine, Epidemiology, and Health Economics
+Luisenstr. 57, 10117 Berlin, Germany
+stephanie.roll@charite.de
+http://epidemiologie.charite.de

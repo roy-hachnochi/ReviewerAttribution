@@ -1,0 +1,39 @@
+The paper presents an analysis of ultrasound, radioiodine and PET imaging in patients with differentiated thyroid
+cancer with secondary treatments and disease specific-survival as the main outcomes. They use extensive data on
+more than 23,000 patients from the SEER database in 1992-2009. The authors show increasing trends in both imaging
+and secondary treatment, particularly after 2000.
+The issue seems to reflect a more general problem in medicine. A common attitude among medical professionals is
+‘what can be done, should be done’, to be obliged by technology, bound by a medical version of Hume’s guillotine
+‘from is to ought’. It is obvious that also in medicine supply creates demand (‘if it’s available, use it’). This is likely
+most obvious in privately funded health care systems and exacerbated by fee for service payment. Yet, also in publicly
+funded health care, resources tend to get used, which commonly takes place through extension of indications. The
+‘mission of no omission’ attitude implies that only failure to act can constitute malpractice, but ignores the problem of
+overtreatment and risks inherent for any medical intervention.
+1. My main concern about the paper is the very indirect inference that can be drawn from the data. The title chosen
+for the paper emphasizing ‘implications’ is accurate, as the data do not allow explicit analysis of the appropriateness
+and benefits of post-diagnostic imaging. Interpretation of the findings is tricky. If undergoing an isotope scan is
+associated with improved survival, does it indicate excessive use of imaging and successful disease management? Is it
+due to a referral pattern with low-risk patients undergoing isotope scan and high-risk patients followed up with other
+imaging modalities? Likewise, if an examinations shows a HR=1, would it indicate that the examination is unnecessary
+or that it leads effective detection of recurrence with subsequent treatment eliminating any adverse outcomes?
+Confounding by indication, i.e. selection of patients to the examinations is hard to assess based on these data. Ideally,
+of course a randomised trial would be needed to definitively assess the impact of different imaging strategies or
+criteria in post-diagnosis follow-up of these patients (not only a prospective study as proposed by the authors).
+2, It seems obvious that secondary treatment no given without imaging results showing disease recurrence. The
+authors seem to imply that not all recurrences detected would have any impact on the patient outcome – otherwise
+the fact that imaging leads to treatment would be hard to fault.
+3. For broader applicability, it would be of interest how specific the described practice is for the US and how widely it is
+encountered in other settings as well, including the UK and Europe.
+4. Was the increase in imaging similar across age groups and stage strata?
+5. Completeness of data on secondary treatment is not explained. Has it been assessed for SEER? This is a potential
+weakness.
+Minor comments
+The RR 0.94 for incidence is hard to interpret – it seems to indicate a decreasing, not increasing trend (presuming
+standard Poisson regression is applied)
+I presume the time trend is analysed with a continuous calendar year, so that a RR of 1.022 translates into 2.2%
+increase annually. This should be mentioned in the text.
+Some characteristics that might be relevant are not mentioned, including type of health insurance and type of hospital.
+If they were not available, it should be mentioned as a shortcoming.
+The authors should indicate whether the time axis in the two figures refers to the year of diagnosis or year of
+procedure.
+The number of references (54) seems excessive.

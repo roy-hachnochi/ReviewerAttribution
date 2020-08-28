@@ -1,0 +1,1 @@
+The only issue I am still having trouble with is equation 1. w(x)=Pp(x)/Pt(x) where the P’s represent probabilities for molecule x. Given that the training and test sets are distinct points (molecules) in a chemical descriptor space and the training and test sets do not overlap, how are the probabilities for molecule x calculated from the other molecules? 

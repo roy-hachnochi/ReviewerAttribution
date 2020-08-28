@@ -1,0 +1,91 @@
+
+This paper focuses on changes in all-cause mortality in response to the Covid-19 pandemic,
+especially as it impacted the city of Nembo, located in the Bergamo province of Lombardy.
+I believe this paper is especially important because deaths from Covid-19 may be
+undercounted at the same time that deaths from other causes are likely to be affected by
+the pandemic. For example, automobile crash mortality may decline of individuals are
+traveling less, but individuals who have other conditions (e.g., cancer, heart disease) may
+not be able to receive adequate care in the context of a pandemic. All-cause mortality
+provides a reasonable first pass at enumerating the true impact of Covid-19 on mortality in
+a region. With some reasonable revisions, I believe this paper will help public health and
+policy makers in other cities around the world as they grapple with understanding the
+mortality toll associated with the Covid-19 pandemic.
+• The introduction focuses on underreporting of cases of Covid-19 as the key driver of
+mortality rates. However, the authors could acknowledge other factors as well. Some other
+causes of death might also increase (e.g., patients with heart attacks may not get prompt
+life-saving care when hospitals are overwhelmed), while others might decrease (e.g.,
+deaths from car crashes may decrease if individuals drive less as social distancing takes
+effect). Thus, all-cause mortality likely captures the true overall increase in death, not just
+from Covid-19, but as a result of the broader impact of the pandemic on all causes of
+death. I believe this is a strength of the paper, and it should be highlighted accordingly.
+• The reader would benefit from additional information about the setting. In particular, how
+wide spread was testing? What precautions were put into place in the region, including
+social distancing, wearing masks, or information made available to the public? What
+exactly does a “red zone” mean in terms of public and policy reactions to the pandemic?
+• Are the mortality counts described on page 7 reported by age and sex? If so, the authors
+should mention that and account for that in their analyses.
+• Do the authors have information on cause of death? If so, the authors might examine
+whether some causes of death declined (e.g., automobile crash mortality), whereas other
+causes increased (e.g. heart disease, cancer) perhaps due to failures of care on the context
+of a pandemic. It isn’t clear that we’d expect all of the increase in mortality to be a result
+of Covid-19 as a specific cause of death, when the burden on the health care system and
+changes in individual behaviors are likely to be substantial as well. These “spillover” deaths
+have important implications for how other populations respond to the pandemic.
+• Do the authors have any information about systematic changes in population size or
+age-structure as the outbreak began? I’m thinking in particular about out-migration. It
+seems likely that some individuals may have left the region to stay with friends or family
+elsewhere. If the authors do not have data on this, they might mention it in their
+limitations.
+• On page 8, it is unclear what units the authors are using for “person-time at risk?” Person
+months? Person days? The authors state that population counts are available through
+December 1st, 2019, so it isn’t clear why they have to interpolate values between January
+1st 2012 and December 1st, 2019, to get person-year data (in subsequent paragraphs the
+authors refer to person years). Also, are the authors using linear regression Poisson
+regression, or some other model to do those interpolations?
+• In the second paragraph under Statistical Analysis the authors now state that they are
+estimating the *daily* number of residents. That should state that in the prior paragraph,
+and justify the use of days at risk at the beginning of this section.
+• The authors should clarify what they mean by “a convex combination of the two
+projections with weights equal to the square root of the elapsed days since December 1st,
+2019...” It isn’t clear what the authors are doing here. An additional sentence to describe
+the logic behind this technique would be helpful.
+
+• Are the person-days or person-years indexed by age and sex? If so, that should be noted
+and made use of in the analyses. The authors state, “Change in the age-sex structure of
+the Nembro population over the last 5 years was examined by graphical comparisons of
+yearly cross-sections.” They might clarify what they examine those data for, and how they
+make use of the products of that examination in their analyses.
+• In the discussion of Figure 1 on page 9: what accounts for the ~75 person jump in the
+population of Nembro in late 2013?
+• On page 10, mention “Figure 2” in the paragraph that describes it, to point the reader to
+your results. The horizontal axis on Figure 2 is quite cluttered and hard to read. The
+authors might simply label every 3rd or 5th month, but leave the tick marks in for each
+month.
+• In the paragraph describing Figure 2, the authors might calculatin—in text—some risk
+ratios. For example, mortality in March 2020 relative to mortality in March 2019, to
+estimate the relative increase in the rate of death from the same month in the prior year.
+My quick and dirty estimate suggests that all cause mortality increased by about 7.5 times
+in March 2020, relative to March 2019—an important number as other regions work to
+forecast their expected mortality as the pandemic reaches their cities.
+• The population pyramids in Figure 3 would be easier to understand if the bars for males
+were to the left of the central axis and the bars for females were to the right—a standard
+presentation. At first glance, I couldn’t understand why there were nearly double the
+number of females as males at each age (it wasn’t obvious the bars were stacked).
+• On page 10, what insight should the readers take from the slight aging of the population
+over the four year interval? How is that shift likely to impact the estimated results?
+• On page 12, the authors suggest that the surge in deaths in March 2020 must all be
+Covid-19 deaths, even though just half of those excess deaths were designated as
+Covid-19 for the cause of death. That is hard to know. Some of those deaths may actually
+be from other causes that were not treated well due to the pandemic. Some maybe be
+undercounts of Covid-19. Cause of death analyses would help to clarify—what
+non-Covid-19 causes appeared to spike along with Covid-19 in March 2020? If
+influenza/pneumonia was designated, then they may have actually been Covid-19 deaths.
+But if cancer or heart disease (for example) were over-reported, it may suggest that some
+individuals died due to foregone care. Information about the prevalence of testing would
+also help the reader to understand how many cases may have been missed.
+• On pages 12 and 13 the authors mention many of the points I made in my prior
+comment. The authors should suggest these in the introduction of the paper. All of these
+are important to capture in the context of the outbreak, but they may require different
+kinds of public health interventions. Further, the authors might dig into cause of death data
+to help discern among those possibilities if those data are available.
+Patrick M. Krueger

@@ -1,0 +1,76 @@
+Overview: in somewhat crude terms, defensive medicine captures the idea in which physicians may deliver
+more care (more tests, procedures, etc.) as a result of fears over liability. One of the conventional ways to
+shed light on the empirical relevance of this concept is to construct metrics capturing the extent of those
+liability fears (perhaps captured by the presence of a damages cap) and then to observe whether
+physicians deliver more care when such metrics suggest higher levels of malpractice pressure—i.e., more
+spending when the environment suggests stronger liability fears. In this traditional light, the causal
+direction of the analysis runs from the liability environment to the physician behavior. One thing is missing
+from these studies, however. Presumably, in response to stronger fears, one would exercise more care in
+order to stem future liability exposure. With this in mind, one might also want to investigate this latter
+channel—that is, does the exercise of more care in fact lead to a reduction in future liability. Stated
+differently, if physicians do practice defensively, do such measures work as they intend? As the authors
+suggest, there may be a number of mechanisms by which greater spending can achieve favorable liability
+outcomes looking forward (more potential ‘errors’ may be caught, patients (or jurors) may view their
+physician as having exhausted all resources, added care may improve the likelihood of winning a
+malpractice case if a patient is sued, etc). This question, in the opinion of this reviewer, has been
+substantially less studied in the literature. In fact, to my knowledge, I agree with the authors that they
+may be first to tackle this particular question. With this in mind, this submission was well received and
+provides a very welcome contribution to the literature in attempting to fill this gap. I believe it has the
+potential to motivate many additional papers on this question, with others attempting to follow the lead in
+linking rich administrative data on medical incidents to malpractice claims data on physicians.
+Clearly, the fact that this relationship between spending and liability claims may potentially work in both
+directions creates the possibility for a reverse causality problem in any attempt to focus only on the
+spending-causing-few-claiming story. Appropriately, the authors attempt to address the reverse causality
+concern by carefully structuring the timing of the analysis—that is, by estimating the association between
+current spending and future med mal claiming against that physician—as captured by the incidence of an
+event leading to litigation that occurs the year after the observed spending level. I suppose one minor
+suggestion for the authors would be to alternatively try some kind of a distributed lag specification that
+builds even more forward-looking dynamics into this relationship.
+Even with the timing structured so as to alleviate some reverse causality concerns, there naturally remains
+some omitted variables concerns that may limit the ability to make strong causal claims here—e.g.,
+concerns over unobserved differences in patient mixes that may simultaneously drive spending and med
+mal outcomes (note the physician fixed effects specifications help resolve many concerns over unobserved
+physician heterogeneity). Nonetheless, the authors do much work to resolve patient mix concerns with
+careful comorbidity controls. In any event, the authors are clear to state this caveat for the reader (and are
+generally clear to address most other limitations that came to mind in reviewing the piece). They are also
+clear to suggest that any such bias here should work in the other direction (and thus not explain their
+findings). Given the novelty of their exercise and the care that went into looking rich inpatient claims data
+with the malpractice history of the associated attending physician, I do not view caveats of this nature as
+being detrimental to the paper. The contribution here is nonetheless powerful.
+A few additional comments / questions:
+(1) I might recommend that the authors cite one paper that comes close to the contribution they are
+making. See Greenberg, Michael D., Amelia M. Haviland, J. Scott Ashwood, and Regan Main. 2010. Is
+better patient safety associated with less malpractice activity? Evidence from California. Santa Monica:
+RAND Institute for Civil Justice. This paper likewise tries to approach the problem in reverse, though
+instead of focusing on spending / utilization measures, the paper asks whether a hospital’s success at
+reducing patient safety incidents is associated with reductions in future med mal claiming. While the
+present paper attempts to illuminate the idea of defensive medicine, this Greenberg et al paper attempts to
+illuminate the notion of deterrence of medical errors, a related but distinct concept.
+(2) The fact that greater spending is associated with reduced liability is consistent with the presence of
+defensive behavior. However, it doesn’t necessarily prove the existence of defensive medicine. First, it
+bears mentioning that one could conceivably note such a relationship even if no physicians are
+prospectively acting defensively. It could that physicians are acting without liability in mind but happen to
+spend at different rates for idiosyncratic purposes. And, ex post, it happens to be that those who spend
+more have more favorable liability outcomes. Of course, with so much commentary suggesting the
+presence of defensive behavior ex ante, it is not unreasonable to think that physicians would anticipate
+such an outcome and alter their behaviors initially. Regardless, the fact that the authors observe this
+reverse finding is highly illuminating to the bigger defensive medicine debate and does complement those
+studies that attempt to look at this question more prospectively.
+(3) Relatedly, it is important to note that defensive medicine does not necessarily follow from their findings
+if we thought that patient outcomes are actually more favorable with higher spending—that is, let’s say the
+
+mechanism at play here is higher spending leads to fewer medical errors, which in turn leads to less
+lawsuits. This may not be characteristic of “defensive medicine,” which we typically think of as being
+wasteful medicine. Rather, this could be capturing favorable deterrence in action. The authors acknowledge
+this, but this is an important point that I think might deserve a tad more emphasis on revision. To be
+consistent with the law and economists' general approach here, I suppose my comment is that one should
+really reserve the label "defensive" for situations of wasteful spending or wasteful avoidance, as distinct
+from socially beneficial deterrence. In any event, regardless of the precise interpretation, the finding that
+higher spending is associated with lower lawsuits is still highly important and interesting.
+(4) It helps that the sample was cutoff in 2009 to allow time for claims to be processed, which as the
+authors note take on average 4 years. The concern otherwise would be truncation at the end of the sample.
+Even stopping at 2009, I imagine there may still be some claims open at the time of data collection and
+thus not in the sample. Year fixed effects, which the authors use, should address this concern. However,
+the authors may, as a robustness check, also consider estimating the relationship between spending and
+the likelihood of an incident leading to a claim that closes within 4 (or 5) years throughout—i.e., even in
+the early years of the sample.

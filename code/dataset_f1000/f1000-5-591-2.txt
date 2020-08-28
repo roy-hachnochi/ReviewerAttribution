@@ -1,0 +1,578 @@
+The authors summarize in detail the threshold between actives and inactives using 2D fingerprints for the MACCS and ECFP4 fingerprint methods using data derived from ChEMBL. The paper is well written and should be indexed. A few suggestions are made, however: Given that this is a chemistry paper, perhaps a few examples of chemical compounds showing the threshold for an active in Tc and ECFP4 space. How “low” can one go and still have an active? This would bolster the need for chemoinformatic approaches over the medchemists’ view of “eyeing” similarity. You have numerous references and mention belief theory in passing. I couldn’t help but think of Muchmore’s paper 1 and think you might want to include this paper as well especially given that he uses MACCS and ECFP4. You make no mention of 3D similarity methods, which even in passing, I recommend you include (ie a reference). I have one in JCIM from 2006 comparing 2D to 3D (but it’s not pairwise). What about the overlap between the methods in terms of actives? The result begs the question to the reader – do I now compute both and take an average (if I can only screen X%)? The threshold of 10uM for an active seems extremely generous. In practice, I would typically consider this an inactive compound especially if the screen was an enzymatic screen. How would the results differ if you used a different active threshold? Besides molecular weight, was there any consideration given to the number of PAINS or REOS flags? By this question I’m trying to understand if “actives” were easier to discriminate if compounds were merely promiscuous and if that mattered based on the easy-intermediate-hard ACs (have to agree with Wendy Warr on this – if you could spell out AC – I kept thinking activity cliffs). References 1. Muchmore SW, Debe DA, Metz JT, Brown SP, et al.: Application of belief theory to similarity data fusion for use in analog searching and lead hopping. J Chem Inf Model . 2008; 48 (5): 941-8 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT McGaughey GB. Reviewer Report For: Activity-relevant similarity values for fingerprints and implications for similarity searching [version 2; peer review: 3 approved] . F1000Research 2016, 5 (Chem Inf Sci):591 ( https://doi.org/10.5256/f1000research.8986.r13263 ) The direct URL for this report is: https://f1000research.com/articles/5-591/v1#referee-response-13263 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response ( F1000Research Advisory Board Member ) 14 Apr 2016 Jrgen Bajorath , Rheinische Friedrich-Wilhelms-Universität, Bonn, Germany 14 Apr 2016 Author Response F1000Research Advisory Board Member It is noted that the Muchmore et al . reference was already cited. In addition, 3D similarity measures were not considered herein. By design, the study did neither focus on compound ... Continue reading It is noted that the Muchmore et al . reference was already cited. In addition, 3D similarity measures were not considered herein. By design, the study did neither focus on compound overlap for alternative fingerprint representations nor on general compound liabilities. It is noted that the Muchmore et al . reference was already cited. In addition, 3D similarity measures were not considered herein. By design, the study did neither focus on compound overlap for alternative fingerprint representations nor on general compound liabilities. Competing Interests: No competing interests were disclosed.No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response ( F1000Research Advisory Board Member ) 14 Apr 2016 Jrgen Bajorath , Rheinische Friedrich-Wilhelms-Universität, Bonn, Germany 14 Apr 2016 Author Response F1000Research Advisory Board Member It is noted that the Muchmore et al . reference was already cited. In addition, 3D similarity measures were not considered herein. By design, the study did neither focus on compound ... Continue reading It is noted that the Muchmore et al . reference was already cited. In addition, 3D similarity measures were not considered herein. By design, the study did neither focus on compound overlap for alternative fingerprint representations nor on general compound liabilities. It is noted that the Muchmore et al . reference was already cited. In addition, 3D similarity measures were not considered herein. By design, the study did neither focus on compound overlap for alternative fingerprint representations nor on general compound liabilities. Competing Interests: No competing interests were disclosed.No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 2 VERSION 2 PUBLISHED 06 Apr 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 2 (revision) 28 Apr 16 Version 1 06 Apr 16 read read read Georgia B. McGaughey , Vertex Pharmaceuticals, Boston, USA Peter Ertl , Novartis Institutes for Biomedical Research, CH-4056 Basel, Switzerland Wendy Warr , Wendy Warr & Associates, Holmes Chapel, UK Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Warr W. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 12 Apr 2016 | for Version 1 Wendy Warr , Wendy Warr & Associates, Holmes Chapel, UK 0 Views copyright © 2016 Warr W. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This is a short but interesting paper and is extremely well written. I use the adjective “short” because the novel results occupy fewer than eight pages, if the figures and tables are ignored. Nevertheless, the results are interesting and well worth publishing because they do address a significant problem. The issue in question is well explained on pages 3-5. The literature background appears to cover all relevant research, but I suggest that two of the references be changed. I would replace the ACS meeting abstract cited at 12 with Brown and Martin, 1997 1 . That paper does not mention “85%” specifically, but it does discuss the cutoff threshold in detail. Reference 14 is useless: a researcher novel to the field of similarity could not locate MACCS keys by seeking a non-existent company which had an office in San Leandro in 2005. I would prefer to see “activity classes” written out in full: it is not a long-winded term, and ACs looks a bit like a typo for ACS. On page 8 the sentence “Thus, similarity searching can be mimicked by systematically comparing compounds having the same activity and active compounds to random database compounds” is not clear enough. Further down the page it is made clear exactly what is compared with what, but that is too late. I also did not fully understand the statement “Comparison of random database compounds is not carried out during similarity searching. However, the similarity value distribution resulting from the latter comparison can be monitored as an additional reference.” Maybe: “Comparison of random database compounds to random database compounds is not carried out during traditional similarity searching, but the similarity value distribution resulting from this comparison can be monitored as an additional reference in mimicked similarity searching”? (Note also that it is better not to start a sentence with “However”.) On page 13 there should be a heading saying “Conclusion” before the sentence that begins “In conclusion”. The sentence beginning “In conclusion, in this study, we have addressed the issue how molecular similarity calculated using fingerprints and activity similarity might be related to each other from a fundamental point of view…” is ambiguous, e.g., “…molecular similarity calculated using both fingerprints and activity similarity, might be related to what?” Admittedly there is no comma, but it would be clearer to say “In conclusion, in this study, we have addressed the issue of how, from a fundamental point of view, activity similarity might be related to molecular similarity calculated using fingerprints…” At the very end the phrase “…was hundreds of times higher for compounds sharing the same activity than randomly selected or active vs. random compounds.” is not clear enough. In short, I like the science, and I think it should be indexed, but I would like to see a few minor improvements to the text as detailed above. References 1. Brown R, Martin Y: The Information Content of 2D and 3D Structural Descriptors Relevant to Ligand-Receptor Binding. Journal of Chemical Information and Computer Sciences . 1997; 37 (1): 1-9 Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Warr W. Peer Review Report For: Activity-relevant similarity values for fingerprints and implications for similarity searching [version 2; peer review: 3 approved] . F1000Research 2016, 5 (Chem Inf Sci):591 ( https://doi.org/10.5256/f1000research.8986.r13264) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-591/v1#referee-response-13264 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Ertl P. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 12 Apr 2016 | for Version 1 Peter Ertl , Novartis Institutes for Biomedical Research, CH-4056 Basel, Switzerland 0 Views copyright © 2016 Ertl P. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions An interesting manuscript focusing on a relationship between molecule similarity and biological activity, one of the most important (and still not fully solved) problems of applied cheminformatics. The topic is therefore relevant to drug design. The question the authors are trying to answer is the significance of similarity thresholds when using MACCS and ECFP4 fingerprints and its implications in virtual screening, when one tries to identify small number of active molecules in the large number of inactives. There have been several studies focusing on the same question (an influence of a similarity thresholds on discriminating active and inactive molecules). Although such studies are mentioned in the literature overview it would be interesting to directly compare their conclusions with the conclusions of the present paper in the “Implications for similarity searching” section. The information content of the MACCS keys and the ECFP fingerprints are vastly different. The MACCS keys are, to my knowledge, no more used in a productive set-up as molecule descriptors in discriminating between actives and inactives. It would be interesting to focus on additional, more relevant structure descriptors, for example Daylight-like linear fingerprints or topological torsions. I suggest this as a topic for a follow-up study. The authors should mention which software they used for the calculation of fingerprints. Did they used PipelinePilot, open source tools or their own software? Results generated by different software tools may differ in some cases considerably, based on different molecule normalization, treatment of aromaticity, tautomers etc.. I recommend to mention also a classical paper from this area by Brown and Martin 1 . References 1. Brown R, Martin Y: The Information Content of 2D and 3D Structural Descriptors Relevant to Ligand-Receptor Binding. Journal of Chemical Information and Computer Sciences . 1997; 37 (1): 1-9 Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response F1000Research Advisory Board Member 14 Apr 2016 Jrgen Bajorath, Rheinische Friedrich-Wilhelms-Universität, Bonn, Germany Thank you for suggesting the follow-up investigation. We note that the results of the two most relevant investigations were discussed in the introduction. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Ertl P. Peer Review Report For: Activity-relevant similarity values for fingerprints and implications for similarity searching [version 2; peer review: 3 approved] . F1000Research 2016, 5 (Chem Inf Sci):591 ( https://doi.org/10.5256/f1000research.8986.r13265) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-591/v1#referee-response-13265 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 McGaughey G. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 07 Apr 2016 | for Version 1 Georgia B. McGaughey , Vertex Pharmaceuticals, Boston, USA 0 Views copyright © 2016 McGaughey G. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The authors summarize in detail the threshold between actives and inactives using 2D fingerprints for the MACCS and ECFP4 fingerprint methods using data derived from ChEMBL. The paper is well written and should be indexed. A few suggestions are made, however: Given that this is a chemistry paper, perhaps a few examples of chemical compounds showing the threshold for an active in Tc and ECFP4 space. How “low” can one go and still have an active? This would bolster the need for chemoinformatic approaches over the medchemists’ view of “eyeing” similarity. You have numerous references and mention belief theory in passing. I couldn’t help but think of Muchmore’s paper 1 and think you might want to include this paper as well especially given that he uses MACCS and ECFP4. You make no mention of 3D similarity methods, which even in passing, I recommend you include (ie a reference). I have one in JCIM from 2006 comparing 2D to 3D (but it’s not pairwise). What about the overlap between the methods in terms of actives? The result begs the question to the reader – do I now compute both and take an average (if I can only screen X%)? The threshold of 10uM for an active seems extremely generous. In practice, I would typically consider this an inactive compound especially if the screen was an enzymatic screen. How would the results differ if you used a different active threshold? Besides molecular weight, was there any consideration given to the number of PAINS or REOS flags? By this question I’m trying to understand if “actives” were easier to discriminate if compounds were merely promiscuous and if that mattered based on the easy-intermediate-hard ACs (have to agree with Wendy Warr on this – if you could spell out AC – I kept thinking activity cliffs). References 1. Muchmore SW, Debe DA, Metz JT, Brown SP, et al.: Application of belief theory to similarity data fusion for use in analog searching and lead hopping. J Chem Inf Model . 2008; 48 (5): 941-8 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response F1000Research Advisory Board Member 14 Apr 2016 Jrgen Bajorath, Rheinische Friedrich-Wilhelms-Universität, Bonn, Germany It is noted that the Muchmore et al . reference was already cited. In addition, 3D similarity measures were not considered herein. By design, the study did neither focus on compound overlap for alternative fingerprint representations nor on general compound liabilities. View more View less Competing Interests No competing interests were disclosed.No competing interests were disclosed. reply Respond Report a concern 
+ 
+ McGaughey GB. Peer Review Report For: Activity-relevant similarity values for fingerprints and implications for similarity searching [version 2; peer review: 3 approved] . F1000Research 2016, 5 (Chem Inf Sci):591 ( https://doi.org/10.5256/f1000research.8986.r13263) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-591/v1#referee-response-13263 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Activity-relevant similarity values for fingerprints...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-591/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-591/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-591/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Jasial S et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-591/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-591",
+ templates : {
+ twitter : "Activity-relevant similarity values for fingerprints and implications.... Jasial S et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-591/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Activity-relevant similarity values for fingerprints and implications for similarity searching", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Activity-relevant similarity values for fingerprints and implications for similarity searching", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/8357/9296")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "9296");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "13264": 28,
+ "13632": 0,
+ "13265": 24,
+ "13630": 0,
+ "13263": 30,
+ "13631": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "97da16ba-10b5-4471-a793-e1f760f3bbb3";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

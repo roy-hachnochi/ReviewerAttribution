@@ -1,0 +1,39 @@
+The effectiveness and safety of reduced dose oral anticoagulation in high-risk patients is an important gap in the current
+knowledge base. The authors should thus be congratulated on their current manuscript, with addresses this extremely
+important question. The paper is well written and the authors employ current state of the art methods (within the limits of
+their database resource) to address the potential sources of bias. As such, the data would be of interest to the readers of BMJ.
+However, the manuscript also has some important limitations that need to be addressed. Most importantly, it is clear from
+review of table 1 that the treated populations differ substantially; confounding by indication seems to be particularly strong in
+this setting. As such, extra care must be taken to consider the potential sources of these differences and to interpret the
+findings accordingly. My specific comments are listed below:
+1) Study population- in an attempt to target non-valvular atrial fibrillation as an indication, the authors exclude patients with a
+prior history of valvular atrial fibrillation or of venous thromboembolism. However, because the database only includes hospital
+diagnoses, these exclusions can’t be applied to patients that have these conditions diagnosed and managed solely in the
+outpatient setting. Moreover, the prevalence of hospital diagnosed atrial fibrillation differs substantially across groups. The
+authors should highlight this limitation and consider an additional sensitivity analysis that limits the population to those with
+hospital-based diagnosis of atrial fibrillation.
+2) Outcome- the major bleeding definition includes traumatic intracranial bleeding. What is the rationale for including this type
+of bleeding? Although the presence of anticoagulation certainly affects the risk of mortality in the setting of traumatic brain
+
+injury, is it also true the anticoagulation affects the risk of having a traumatic intracranial hemorrhage? If not, then inclusion of
+this endpoint would likely bias estimates of bleeding differences towards the null.
+3) Definition of renal disease--ICD9-based algorithms to identify renal disease have been shown to have poor sensitivity and
+low positive predictive value (Grams ME, et. al. Am J Kidney Dis. 2011;57(1):44-54). Have the ICD-10 algorithms used in this
+study been validated? This is particularly relevant to the current study, because renal function is an indication for low dose
+treatment. The prevalence in the current paper is much lower than that found in atrial fibrillation clinical trials (20%-40%).
+Thus, unmeasured renal disease could be an important source of residual confounding.
+4) Propensity score weighting--the authors state that overlap of the PS distributions were examined graphically and judged to
+be sufficient. However, the meaning of sufficient is unclear and inherently subjective. Given the substantial differences in
+covariate distributions across the treatment groups, considerable non-overlap of PS distributions would be expected. The
+authors should consider including the histograms of the PS distributions in the supplementary material. In addition, when using
+a PS weighting or stratification approach, “trimming” of the PS prior to weighting is recommended to reduce the risk of residual
+confounding from patients on either extreme of the PS distribution (Sturmer T, Rothman KJ, Avorn J, Glynn RJ. Treatment
+effects in the presence of unmeasured confounding: dealing with observations in the tails of the propensity score distribution –
+a simulation study. Am J Epidemiol 2010). The authors should consider this as a sensitivity analysis, especially if there are
+areas of non-overlap in the PS distributions.
+5) Discussion- In the limitations section, the authors state: “However, the overall obtained results were unchanged when using
+simple adjustment or SMR weighted approaches; this is reassuring and suggest that further adjustment for confounding factors
+would have a limited impact on the observations.” I agree that using different modeling approaches is useful--specifically, it
+examines the sensitivity of the results to the various model assumptions. However, using different statistical models to control
+for the same set of confounding variables does not in any way address the risk of bias from unmeasured confounders. Thus, I
+think this statement needs to be revised.

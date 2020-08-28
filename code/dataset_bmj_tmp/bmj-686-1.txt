@@ -1,0 +1,7 @@
+The authors have done an excellent job in revising what was already a good manuscript. I have 2
+comments. (1) Could the authors mention they have reported according to TRIPOD (and cite) in the
+manuscript, they completed the checklist. (2) The calibration plots, the authors have added a lowess
+smoother (at my request), but I'm suspicious as to whether this has been implemented correctly. The
+sample size isn't huge, yet the line goes exactly (or appears to) through all points. I wouldn't expect this,
+unless the author have fit a smoother to the 10 points - which is incorrect, as it should be on the individual
+patients predictions/outcome.

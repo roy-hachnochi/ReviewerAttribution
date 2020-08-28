@@ -1,0 +1,1476 @@
+
+
+    <!DOCTYPE html>
+<html class="">
+
+        
+<head>
+    <title>Public research funding and pharmaceutical... | F1000Research</title>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+    <!--<meta lang="$locale">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="9-QVycOO2_ob3Z9QzRmXv2CF08A9oyYXqWyTiVdKPlU" />
+    <!-- This is commented out to fix display problems on mobile devices.
+    We may use it again once we implement a responsive design that supports native device resolutions.
+    <meta name="viewport" content="width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <link rel="alternate" title="Recent articles published in F1000Research" href="/rss" type="application/rss+xml">
+            <link rel="alternate" type="application/pdf" title="PDF" href="https://f1000research.com/articles/9-707/pdf"/>
+        <link rel="canonical" href="https://f1000research.com/articles/9-707" />
+    
+            <meta name="description" content="Read the original article in full on F1000Research: Public research funding and pharmaceutical prices: do Americans pay twice for drugs?" />
+    
+            <meta name="og:title" content="F1000Research Article: Public research funding and pharmaceutical prices: do Americans pay twice for drugs?.">
+            <meta name="og:description" content="Read the latest article version by Rena M. Conti, Frank S. David, at F1000Research.">
+            <meta name="og:image" content="/img/sharing/og_research.png">
+            <meta name="version-id" content="27509">
+            <meta name="article-id" content="24934">
+            <meta name="dc.title" content="Public research funding and pharmaceutical prices: do Americans pay twice for drugs?">
+            <meta name="dc.description" content="In the debate over prescription drug pricing, some pharmaceutical industry critics claim that U.S. taxpayers pay twice for costly therapies, because publicly supported research is a major contributor to drug discovery and American taxpayers are inadequately rewarded for their research investment due to high drug prices. In fact, the empirical evidence supporting these claims is weak, and the pay twice argument distracts from important efforts to ensure that impactful new drugs continue to be developed and made widely available to patients who need them.">
+            <meta name="dc.subject" content="Pharmaceutical, drug, price, access, research, development, funding, patents">
+            <meta name="dc.creator" content="Conti, Rena M.">
+            <meta name="dc.creator" content="David, Frank S.">
+            <meta name="dc.date" content="2020/07/15">
+            <meta name="dc.identifier" content="doi:10.12688/f1000research.24934.1">
+            <meta name="dc.source" content="F1000Research 2020 9:707">
+            <meta name="dc.format" content="text/html">
+            <meta name="dc.language" content="en">
+            <meta name="dc.publisher" content="F1000 Research Limited">
+            <meta name="dc.rights" content="https://creativecommons.org/licenses/by/3.0/igo/">
+            <meta name="dc.type" content="text">
+            <meta name="prism.keyword" content="Pharmaceutical">
+            <meta name="prism.keyword" content="drug">
+            <meta name="prism.keyword" content="price">
+            <meta name="prism.keyword" content="access">
+            <meta name="prism.keyword" content="research">
+            <meta name="prism.keyword" content="development">
+            <meta name="prism.keyword" content="funding">
+            <meta name="prism.keyword" content="patents">
+            <meta name="prism.publication.Name" content="F1000Research">
+            <meta name="prism.publicationDate" content="2020/07/15">
+            <meta name="prism.volume" content="9">
+            <meta name="prism.number" content="707">
+            <meta name="prism.versionIdentifier" content="1">
+            <meta name="prism.doi" content="10.12688/f1000research.24934.1">
+            <meta name="prism.url" content="https://f1000research.com/articles/9-707">
+            <meta name="citation_title" content="Public research funding and pharmaceutical prices: do Americans pay twice for drugs?">
+            <meta name="citation_abstract" content="In the debate over prescription drug pricing, some pharmaceutical industry critics claim that U.S. taxpayers pay twice for costly therapies, because publicly supported research is a major contributor to drug discovery and American taxpayers are inadequately rewarded for their research investment due to high drug prices. In fact, the empirical evidence supporting these claims is weak, and the pay twice argument distracts from important efforts to ensure that impactful new drugs continue to be developed and made widely available to patients who need them.">
+            <meta name="citation_description" content="In the debate over prescription drug pricing, some pharmaceutical industry critics claim that U.S. taxpayers pay twice for costly therapies, because publicly supported research is a major contributor to drug discovery and American taxpayers are inadequately rewarded for their research investment due to high drug prices. In fact, the empirical evidence supporting these claims is weak, and the pay twice argument distracts from important efforts to ensure that impactful new drugs continue to be developed and made widely available to patients who need them.">
+            <meta name="citation_keywords" content="Pharmaceutical, drug, price, access, research, development, funding, patents">
+            <meta name="citation_journal_title" content="F1000Research">
+            <meta name="citation_author" content="Rena M. Conti">
+            <meta name="citation_author_institution" content="Questrom School of Business, Boston University, Boston, MA, 02215, USA">
+            <meta name="citation_author_institution" content="Institute for Health System Innovation and Policy, Boston University, Boston, MA, 02215, USA">
+            <meta name="citation_author" content="Frank S. David">
+            <meta name="citation_author_institution" content="Pharmagellan LLC, Milton, MA, 02186, USA">
+            <meta name="citation_author_institution" content="Harvard-MIT Center for Regulatory Science, Boston, MA, 02115, USA">
+            <meta name="citation_publication_date" content="2020/07/15">
+            <meta name="citation_volume" content="9">
+            <meta name="citation_publication_number" content="707">
+            <meta name="citation_version_number" content="1">
+            <meta name="citation_doi" content="10.12688/f1000research.24934.1">
+            <meta name="citation_firstpage" content="707">
+            <meta name="citation_pdf_url" content="https://f1000research.com/articles/9-707/v1/pdf">
+    
+
+    
+    <link href="/img/favicon-research.ico" rel="shortcut icon" type="image/ico">
+    <link href="/img/favicon-research.ico" rel="icon" type="image/ico">
+
+        <link rel="stylesheet" href="/1597255280893/css/mdl/material-design-lite.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.2.43/css/materialdesignicons.min.css" />
+
+        
+            
+    <link rel="stylesheet" href="/1597255280893/css/F1000Research.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/animation.css" type="text/css" media="all" />
+
+        <!--[if IE 7]><link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons-ie7.css" media="all" /><![endif]-->
+
+                    <script>dataLayer = [];</script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54Z2SBK');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="/1597255280893/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="/1597255280893/js/shared_scripts/sticky.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/shared_scripts/menu.js"></script>
+    <script src="/1597255280893/js/shared_scripts/navbar.js"></script>
+    <script src="/1597255280893/js/shared_scripts/platforms.js"></script>
+    <script src="/1597255280893/js/shared_scripts/object-polyfills.js"></script>
+            <script src="/1597255280893/js/vendor/lodash.min.js"></script>
+        <script>CKEDITOR_BASEPATH='https://f1000research.com/js/ckeditor/'</script>
+    <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/plugins.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/app/research.js"></script>
+    <script>window.reactTheme = 'research';</script>
+    <script src="/1597255280893/js/public/bundle.js"></script>
+
+    <script src="/1597255280893/js/app/research.ui.js"></script>
+    <script src="/1597255280893/js/app/login.js"></script>
+    <script src="/1597255280893/js/app/main.js"></script>
+    <script src="/1597255280893/js/app/js-date-format.min.js"></script>
+    <script src="/1597255280893/js/app/search.js"></script>
+    <script src="/1597255280893/js/app/cookies_warning.js"></script>
+    <script src="/1597255280893/js/mdl/mdl.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/ckeditor.js"></script>
+            <script src="/js/ckeditor/adapters/jquery.js"></script>
+                <script src="/js/article/article_scrolling_module.js"></script>
+            <script src="/js/article/article_stats.js"></script>
+            <script src="/js/article/article.js"></script>
+            <script src="/js/shared_scripts/referee_timeline_pagination.js"></script>
+            <script src="/js/app/text_editor_controller.js"></script>
+            <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503e5e99593dc42c"></script>
+            <script src="/js/article/article_metrics.js"></script>
+        
+                                                                            <script>
+            if (window.location.hash == '#_=_'){
+                window.location = window.location.href.split('#')[0]
+            }
+        </script>
+
+                    
+        
+    <!-- pixelId: 1641728616063202 :: assetPixelId: 6034867600215 :: funderPixelId:  -->
+
+            <!-- Facebook pixel code (merged with EP GTM code) -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+
+            {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+            ;if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1641728616063202');
+
+            
+            fbq('track', "PixelInitialized", {});
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1641728616063202&noscript=1&amp;ev=PixelInitialized"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+                <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:917825,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+</head>
+<body  class="o-page-container no-js p-article o-layout-reset   ">
+
+    
+                            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54Z2SBK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+        
+    <div class="o-page">
+
+        <div id="notify-container"></div>
+        <div id="pageWarning"></div>
+        <div id="pageMessage"></div>
+        <div id="pageFooterMessage"></div>
+
+                                <div id="f1r-ga-data" data-name="f1r-ga-data" class="f1r-ga-data"
+                data-user-registered="false"
+                data-user-module=""
+                data-current-path=""
+                data-location=""
+                data-website="F1000Research"
+                data-websiteDisplayName="F1000Research">
+            </div>
+        
+                
+        
+        <div class="header-wrapper   js-navbar-space ">
+                            
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+                            
+    
+            
+
+
+
+<nav class="c-navbar js-navbar js-mini-nav js-sticky c-navbar--js-sticky c-navbar--userSite c-navbar__platform-bgcolor  c-navbar--bg-f1000research ">
+
+    <div class="c-navbar__content">
+
+                                <div class="c-navbar__extras">
+            <div class="o-wrapper">
+                <div class="o-actions o-actions--middle c-navbar__extras-row">
+                    <div class="o-actions__primary">
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="o-wrapper t-inverted js-sticky-start">
+
+            <div class="c-navbar__branding-row">
+                <div class="c-navbar__row">
+
+
+                                        
+                    <div class="c-navbar__primary u-mr--2">
+
+                                                                                                                                                                                                    <a href="/" class="c-navbar__branding u-ib u-middle"   data-test-id="nav_branding"  >
+                                <img class="u-ib u-middle" src="/img/research/F1000Research_white_solid.svg" alt="F1000Research">
+                            </a>
+                                            </div>
+
+                    <div class="c-navbar__secondary c-navbar__row">
+
+
+                                                
+                                                    <form action="/search" class="-navbar__secondary u-mr--2 c-search-form js-search-form u-hide u-show@navbar">
+                                <label for="searchInput" class="c-search-form__label _mdl-layout">
+                                    <input name="q" type="search" class="c-search-form__input" id="searchInput" placeholder="Search">
+                                    <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                </label>
+                            </form>
+                        
+                                                
+                                                    <div class="c-navbar__primary u-hide u-show@navbar">
+                                <div class="_mdl-layout c-navbar__cta">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--no-shadow mdl-button--multi-line mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                            </div>
+                        
+
+                                                
+                        <span class="u-hide@navbar _mdl-layout u-nowrap">
+
+                                                            <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" data-focus="#navbar_mob_search_input" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_search_mob"  ><i class="material-icons">search</i></button>
+                            
+                                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-button--multi-line c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" type="button" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_toggle_mob"  >
+                                    <i class="material-icons c-navbar__toggle-open">menu</i>
+                                    <i class="material-icons c-navbar__toggle-close">close</i>
+                                </button>
+                                                    </span>
+                    </div>
+
+                </div>
+            </div>
+
+                        
+                            <div class="c-navbar__menu-row js-navbar-block is-collapsed" id="navbarMenu">
+
+                                                                                                                                                
+                                                                    
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+
+                                                                
+                                                                                                                                                                                                                                
+                                            
+                    <div class="c-navbar__menu-row-content">
+
+                                                                            <div class="u-hide@navbar c-navbar__menu-bar-spacing">
+                                <form action="/search" class="c-search-form js-search-form">
+                                    <label for="navbar_mob_search_input" class="c-search-form__label _mdl-layout">
+                                        <input id="navbar_mob_search_input" name="q" type="search" class="c-search-form__input" placeholder="Search">
+                                        <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                    </label>
+                                </form>
+                            </div>
+                        
+                        <div class="o-actions o-actions--middle">
+
+                            <div class="o-actions__primary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="main-menu"   role="menubar" aria-label="Main Navigation"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/browse/articles" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="0"
+                              data-test-id="nav_browse"                              >Browse</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/gateways" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_gatewaysViewAndBrowse"                              >Gateways & Collections</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="2"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_for-authors"                              >How to Publish</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="How to Publish">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_submit-manuscript"                      href="/for-authors/publish-your-research"
+                    role="menuitem"
+                    tabindex="0">Submit your Research</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/for-authors/my-submissions"
+                    role="menuitem"
+                    tabindex="-1">My Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines"                      href="/for-authors/article-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines-new-versions"                      href="/for-authors/article-guidelines-new-versions"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines (New Versions)</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_data-guidelines"                      href="/for-authors/data-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Data Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_asset-guidelines"                      href="/for-authors/posters-and-slides-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Posters and Slides Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_document-guidelines"                      href="/for-authors/document-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Document Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-processing-charges"                      href="/for-authors/article-processing-charges"
+                    role="menuitem"
+                    tabindex="-1">Article Processing Charges</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_finding-referees"                      href="/for-authors/tips-for-finding-referees"
+                    role="menuitem"
+                    tabindex="-1">Finding Article Reviewers</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="3"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_about-contact"                              >About</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="About">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_about-page"                      href="/about"
+                    role="menuitem"
+                    tabindex="0">How it Works</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_referee-guidelines"                      href="/for-referees/guidelines"
+                    role="menuitem"
+                    tabindex="-1">For Reviewers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_advisoryPanel"                      href="/advisors"
+                    role="menuitem"
+                    tabindex="-1">Our Advisors</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_policy-page"                      href="/about/policies"
+                    role="menuitem"
+                    tabindex="-1">Policies</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_glossary-page"                      href="/glossary"
+                    role="menuitem"
+                    tabindex="-1">Glossary</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_faqs-page"                      href="/faqs"
+                    role="menuitem"
+                    tabindex="-1">FAQs</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              u-hide u-show@navbar"
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      u-hide u-show@navbar"
+                                          data-test-id="nav_for-developers"                      href="/developers"
+                    role="menuitem"
+                    tabindex="-1">For Developers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_newsroom-page"                      href="/newsroom"
+                    role="menuitem"
+                    tabindex="-1">Newsroom</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_contact-page"                      href="/contact"
+                    role="menuitem"
+                    tabindex="-1">Contact</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="4"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="https://blog.f1000.com/blogs/f1000research/" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                             target="_blank"                                                         tabindex="-1"
+                              data-test-id="nav_blog"                              >Blog</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                            <div class="o-actions__secondary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="secondary-items"   role="menubar" aria-label="My Account"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="0"
+                              data-test-id="nav_my-research"                              >My Research</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="My Research">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/login?originalPath=/my/submissions"
+                    role="menuitem"
+                    tabindex="0">Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-email-alerts"                      href="/login?originalPath=/my/email-alerts"
+                    role="menuitem"
+                    tabindex="-1">Content and Tracking Alerts</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-user-details"                      href="/login?originalPath=/my/user-details"
+                    role="menuitem"
+                    tabindex="-1">My Details</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/login?originalPath=/articles/9-707.html" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_sign-in"                              >Sign In</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                                                                                        <div class="_mdl-layout c-navbar__cta u-hide@navbar c-navbar__menu-bar-spacing">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--multi-line mdl-button--no-shadow mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research_mob"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+            
+        </div>
+
+    </div>
+
+</nav>
+                    </div>
+
+        <div class="content-wrapper o-page__main row ">
+            <div id="highlight-area" class="content ">
+                
+
+
+
+
+
+<div id=article-metadata class=hidden> <input type=hidden name=versionId value=27509 /> <input type=hidden id=articleId name=articleId value=24934 /> <input type=hidden id=xmlUrl value="/articles/9-707/v1/xml"/> <input type=hidden id=xmlFileName value="-9-707-v1.xml"> <input type=hidden id=article_uuid value=24240f6d-11f9-48d6-bbb4-798d542edfc7 /> <input type=hidden id=referer value=""/> <input type=hidden id=meta-article-title value="Public research funding and pharmaceutical prices: do Americans pay twice for drugs?"/> <input type=hidden id=workspace-export-url value="https://sciwheel.com/work/api/import/external?doi=10.12688/f1000research.24934.1"/> <input type=hidden id=versionDoi value="10.12688/f1000research.24934.1"/> <input type=hidden id=usePmcStats value=true /> </div> <main class="o-wrapper p-article__wrapper js-wrapper"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://f1000research.com/articles/9-707"
+  },
+  "headline": "Public research funding and pharmaceutical prices: do Americans pay twice for drugs?",
+  "datePublished": "2020-07-15T10:48:39",
+  "dateModified": "2020-07-15T10:48:39",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rena M. Conti"
+    },    {
+      "@type": "Person",
+      "name": "Frank S. David"
+    }  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F1000Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+      "height": 480,
+      "width": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+    "height": 1200,
+    "width": 150
+  },
+  "description": "In the debate over prescription drug pricing, some pharmaceutical industry critics claim that U.S. taxpayers pay twice for costly therapies, because publicly supported research is a major contributor to drug discovery and American taxpayers are inadequately rewarded for their research investment due to high drug prices. In fact, the empirical evidence supporting these claims is weak, and the pay twice argument distracts from important efforts to ensure that impactful new drugs continue to be developed and made widely available to patients who need them."
+}
+</script> <div class="o-layout o-layout--right-gutter"> <div id=article_secondary-column class="p-article__main o-layout__item u-font-size--legal u-2/3@article not-expanded "> <div class=float-left> <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+              {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@id": "https://f1000research.com/",
+            "name": "Home"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "2",
+          "item": {
+            "@id": "https://f1000research.com/browse/articles",
+            "name": "Browse"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "3",
+          "item": {
+            "@id": "https://f1000research.com/articles/9-707",
+            "name": "Public research funding and pharmaceutical prices: do Americans pay..."
+          }
+        }          ]
+  }
+  </script> <div class="breadcrumbs js-breadcrumbs"> <a href="/" class=f1r-standard-link>Home</a> <span class=item_separator></span> <a href="/browse/articles" class=f1r-standard-link>Browse</a> <span class=item_separator></span> Public research funding and pharmaceutical prices: do Americans pay... </div> </div> <div class="article-badges-container u-mb--2"> <div class=crossmark-new> <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script> <a data-target=crossmark><img height=30 width=150 src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg"/></a> </div> <div id=crossmark-dialog style="display: none;" title=""> <iframe id=crossmark-dialog-frame frameborder=0></iframe> </div> <div class=clearfix></div> </div> <div class=article-interaction-container> <div id=main-article-count-box class=article-count-box> <div class="article-metrics-wrapper metrics-icon-wrapper" data-version-id=27509 data-id=24934 data-downloads="" data-views="" data-scholar="10.12688/f1000research.24934.1" data-recommended="" data-doi="10.12688/f1000research.24934.1" data-f1r-ga-helper="Article Page Metrics (Desktop)"> <span class="metrics-on-browse article-metrics-icon f1r-icon icon-89_metrics"></span> <div class="count-title article-metrics-text">ALL Metrics</div> <div class=js-article-metrics-container></div> </div> <div> <div class=count-delimiter></div> <div title="Total views from F1000Research and PubMed Central"> <div class="count-container view-count js-views-count">-</div> <div class=count-title><span class="count-title-icon count-title-views-icon"></span>Views</div> </div> <div class=download-counts hidden> <div class=count-delimiter></div> <div title="Total downloads from F1000Research and PubMed Central"> <div class="count-container js-downloads-count"></div> <div class=count-title><span class="count-title-icon f1r-icon icon-76_download_file"></span>Downloads</div> </div> </div> </div> </div> <div id=main-article-interaction-box class="article-interaction-box has-control-tab"> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-102_download_pdf"></span> <a href="https://f1000research.com/articles/9-707/v1/pdf?article_uuid=24240f6d-11f9-48d6-bbb4-798d542edfc7" title="Download PDF" class="button-link download pdf-download-helper" target=_blank>Get PDF</a> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-103_download_xml"></span> <a id=download-xml href="#" class="button-link download" title="Download XML">Get XML</a> </div> </div> <div class="article-interaction-info article-page"> <div class="cite-article-popup-wrapper article-page-interaction-box"> <div class="article-interaction-button cite-article-button" title="Cite this article" data-windowref=cite-article-popup-24934-1> <span class="f1r-icon icon-82_quote"></span> <a href="#" class="button-link cite-article-popup-link" title="Cite Article">Cite</a> </div> <div id=cite-article-popup-24934-1 class="popup-window-wrapper is-hidden"> <div class=cite-popup-background></div> <div class="popup-window top-popup cite-this-article-box research-layout"> <div class="popup-window-title small cite-title">How to cite this article</div> <span id=cite-article-text-24934-1 data-test-id=copy-citation_text> <span class="article-title-and-info in-popup">Conti RM and David FS. Public research funding and pharmaceutical prices: do Americans pay twice for drugs? [version 1; peer review: awaiting peer review]</span>. <i>F1000Research</i> 2020, <b>9</b>:707 (<a class=new-orange href="https://doi.org/10.12688/f1000research.24934.1" target=_blank>https://doi.org/10.12688/f1000research.24934.1</a>) </span> <div class="popup-window-title small margin-top-20 margin-bottom-20 note"> <strong>NOTE:</strong> it is important to ensure the information in square brackets after the title is included in all citations of this article. </div> <div class=float-right> <button class="secondary no-fill orange-text-and-border margin-right-20 close-cite-popup uppercase">Close</button> <button id=copy-citation-details class="secondary orange copy-cite-article-version uppercase js-clipboard" title="Copy the current citation details to the clipboard." data-clipboard-target="#cite-article-text-24934-1" data-test-id=copy-citation_button>Copy Citation Details</button> </div> </div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-76_download_file"></span> <a id=export-citation href="#" class="button-link download" title="Export Citation">Export</a> </div> <div class="modal-window-wrapper is-hidden"> <div id=export-citation-popup class="modal-window padding-20"> <div class=modal-window-close-button></div> <div class=modal-window-title>Export Citation</div> <div class=modal-window-row> <div> <input type=radio name=export-citation-option value=WORKSPACE /> <span class=radio-label>Sciwheel</span> </div> <div> <input type=radio name=export-citation-option value=ENDNOTE /> <span class=radio-label>EndNote</span> </div> <div> <input type=radio name=export-citation-option value=REF_MANAGER /> <span class=radio-label>Ref. Manager</span> </div> <div> <input type=radio name=export-citation-option value=BIBTEX /> <span class=radio-label>Bibtex</span> </div> <div> <input type=radio name=export-citation-option value=PROCITE /> <span class=radio-label>ProCite</span> </div> <div> <input type=radio name=export-citation-option value=SENTE /> <span class=radio-label>Sente</span> </div> </div> <div class=modal-window-footer> <button class=general-white-orange-button id=export-citation-submit>EXPORT</button> </div> <div class=default-error style="display: none;">Select a format first</div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-90_track"></span> <a class="button-link track-article" data-article-id=24934 id=track-article-signin-24934 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/24934?target=/articles/9-707">Track</a> </div> </div> <div class="article-interaction-info article-page"> <div class="article-interaction-button email-article"> <span class="f1r-icon icon-6_email"></span> <a href="#" class=button-link title="Email this article">Email</a> </div> <div class="email-article-version-container small-tooltip _chrome-fix"> <div class=close-icon><span class="f1r-icon icon-3_close_big"></span></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=27509 /> <input name=articleId type=hidden value=24934 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-34_share"></span> <a href="#" class="button-link last addthis_button share-article" title="Share this article">Share</a> </div> </div> </div> <div id=article-interaction-control-tab class=article-interaction-control-tab> <div id=hide-article-interaction class=article-interaction-control title="Hide Toolbox">&#9644;</div> <div id=show-article-interaction class="article-interaction-control open" title="Show Toolbox">&#10010;</div> </div> </div> <div class="article-header-information article-page"> <div class="f1r-article-mobile article-heading-bar"></div> <div class="article-type article-display">Opinion Article </div> <div class="article-title-and-info article-view highlighted-article" id=anchor-title> <h1>Public research funding and pharmaceutical prices: do Americans pay twice for drugs?</h1><span class=other-info> [version 1; peer review: awaiting peer review]</span> </div> <div class=article-subtitle></div> <div class=f1r-article-desk> <div class="authors _mdl-layout"><span class="">Rena M. Conti<sup>1,2</sup>,&nbsp;</span><span class=""><a href="mailto:frank@pharmagellan.com" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Frank S. David</span></a><a href="https://orcid.org/0000-0002-8025-4427" target=_blank id=author-orcid-1><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-1><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-8025-4427</div><sup>3,4</sup></span></div> </div> <div class=f1r-article-mobile> <div class="authors _mdl-layout"><span class="">Rena M. Conti<sup>1,2</sup>,&nbsp;</span><span class=""><a href="mailto:frank@pharmagellan.com" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Frank S. David</span></a><a href="http://orcid.org/0000-0002-8025-4427" target=_blank id=mauthor-orcid-1><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-1><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-8025-4427</div><sup>3,4</sup></span></div> </div> <div class=f1r-article-mobile> <div class=article-pubinfo-mobile> PUBLISHED 15 Jul 2020 </div> </div> <span class=Z3988 title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft_id=info:doi/10.12688%2Ff1000research.24934.1"></span> <div class=f1r-article-desk> <div class="contracted-details first"> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> Questrom School of Business, Boston University, Boston, MA, 02215, USA<br/> <sup>2</sup> Institute for Health System Innovation and Policy, Boston University, Boston, MA, 02215, USA<br/> <sup>3</sup> Pharmagellan LLC, Milton, MA, 02186, USA<br/> <sup>4</sup> Harvard-MIT Center for Regulatory Science, Boston, MA, 02115, USA<br/> <p> <div class=margin-bottom> Rena M. Conti <br/> <span>Roles: </span> Conceptualization, Investigation, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Frank S. David <br/> <span>Roles: </span> Conceptualization, Funding Acquisition, Investigation, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> </div> <div class=f1r-article-mobile> <div class="article-page-section-box margin-bottom-40 research-layout"> <span class=box-title> <span class="f1r-icon icon-85_peer_review"></span> OPEN PEER REVIEW </span> <div class="status-row referee-reports-container"> REVIEWER STATUS <span class=status-icons> <em>AWAITING PEER REVIEW</em> </span> </div> </div> </div> </div> <h2 class="article-headings article-page-abstract" id=anchor-abstract> <span class="f1r-article-mobile-inline abstract-heading-border"></span> Abstract </h2> <div class="article-abstract article-page-general-text-mobile research-layout"> <div class="abstract-text is-expanded"> In the debate over prescription drug pricing, some pharmaceutical industry critics claim that U.S. taxpayers pay twice for costly therapies, because publicly supported research is a major contributor to drug discovery and American taxpayers are inadequately rewarded for their research investment due to high drug prices. In fact, the empirical evidence supporting these claims is weak, and the pay twice argument distracts from important efforts to ensure that impactful new drugs continue to be developed and made widely available to patients who need them. </div> <div class=abstract-for-mobile> <div class="margin-top-30 padding-bottom-30 research-layout is-centered"> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border show" style="display: none;"> READ ALL <span class="f1r-icon icon-14_more_small orange vmiddle big"></span> </button> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border hide"> READ LESS <span class="f1r-icon icon-10_less_small orange vmiddle big"></span> </button> </div> </div> </div> <div class=clearfix></div> <div class="article-context no-divider"> <div class="article-abstract article-page-general-text-mobile research-layout generated-article-body"> <h2 class=main-title>Keywords</h2> <p class="u-mb--0 u-pb--2"> Pharmaceutical, drug, price, access, research, development, funding, patents </p> </div> </div> <div class=article-information> <span class="info-separation padding-bottom"> <div id=corresponding-author-icon class="email-icon float-left"> <span class="f1r-icon icon-6_email orange"></span> <div id=corresponding-author-window class="margin-top-20 popup-window-wrapper is-hidden"> <div class="popup-window corresponding-authors-popup"> <div class=corresponding-author-container> <div class="popup-window-title small">Corresponding Author(s)</div> <div class=authors> Frank S. David (<a href="mailto:frank@pharmagellan.com">frank@pharmagellan.com</a>) </div> </div> <div class="margin-top margin-bottom float-left"> <button id=close-popup-window class=general-white-orange-button>Close</button> </div> </div> </div> </div> <span class="icon-text float-left" data-test-id=box-corresponding-author> <b>Corresponding author:</b> Frank S. David </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom competing-interests-display"> <span class=competing-interests-title>Competing interests:</span> FSD derives most of his income from providing consulting services to drug and device manufacturers, and is also a part-time employee of Brigham and Women’s Hospital. FSD’s spouse is employed by and expects to receive equity in Sanofi Genzyme. RMC has no competing interests to disclose. </span> <div class="info-separation padding-bottom grant-information-display"> <span class=grant-information-title>Grant information:</span> Dr. David’s work on this manuscript was supported by a research grant from BIO (Biotechnology Industry Organization, Inc.). Dr. Conti’s effort on this manuscript was unfunded. <br/> <i>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</i> </div> <span class="f1r-article-desk info-separation padding-bottom"> <span class="copywrite-icon float-left"> <span class="f1r-icon icon-100_open_access"></span> </span> <span class="icon-text float-left" data-test-id=box-copyright-text> <b>Copyright:</b>&nbsp; © 2020 Conti RM and David FS. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom" data-test-id=box-how-to-cite> <b>How to cite:</b> <span class="article-title-and-info in-article-box"> Conti RM and David FS. Public research funding and pharmaceutical prices: do Americans pay twice for drugs? [version 1; peer review: awaiting peer review]</span>. <i>F1000Research</i> 2020, <b>9</b>:707 (<a href="https://doi.org/10.12688/f1000research.24934.1" target=_blank>https://doi.org/10.12688/f1000research.24934.1</a>) </span> <span class=info-separation data-test-id=box-first-published><b>First published:</b> 15 Jul 2020, <b>9</b>:707 (<a href="https://doi.org/10.12688/f1000research.24934.1" target=_blank>https://doi.org/10.12688/f1000research.24934.1</a>)</span> <span class=info-separation data-test-id=box-latest-published><b>Latest published:</b> 15 Jul 2020, <b>9</b>:707 (<a href="https://doi.org/10.12688/f1000research.24934.1" target=_blank>https://doi.org/10.12688/f1000research.24934.1</a>)</span> </div> <div class=clearfix></div> <div id=article-context class=article-context> <div id=article1-body class=generated-article-body><h2 class=main-title id=d16426e146>Introduction</h2><p class="" id=d16426e149>Do pharmaceutical companies unfairly bilk American patients when they charge exorbitant prices for drugs developed based on publicly funded research? In a <a target=xrefwindow href="https://oversight.house.gov/legislation/hearings/examining-the-actions-of-drug-companies-in-raising-prescription-drug-prices" id=d16426e151>hearing of the House Committee on Oversight and Reform in January, 2019</a>, U.S. Representative Alexandria Ocasio-Cortez of New York argued that “the public is acting as early investor, putting tons of money into the development of drugs that then become privatized, and then they receive no return on the investment that they have made” (see <a target=xrefwindow href="https://twitter.com/SSWorks/status/1091079715572592640" id=d16426e154>video recording from Twitter</a>).</p><p class="" id=d16426e158>Embedded in this “pay twice” argument are three key questions. First, to what extent is public funding responsible for the invention of most new drugs? Second, are U.S. taxpayers inadequately rewarded for their contribution to new drug development? And third, how are these claims salient to the national debate over drug prices?</p><p class="" id=d16426e161>In this piece, we summarize the available evidence regarding each of these questions as follows: First, although public funds support a significant amount of important biomedical research, the vast majority of the credit for translating this research into new therapies is due to private companies. Second, the contention that taxpayers receive “no return” on their research investment is incorrect, as it fails to account for the massive health and wealth benefits that Americans receive from new drugs. And finally, the pay twice claim distracts attention from far more impactful and feasible efforts to balance innovation and access across the entire pharmaceutical sector.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d16426e167>Are new drugs invented by publicly funded researchers?</h2><p class="" id=d16426e170>There is little debate that public funding of basic science is a critical enabler of drug development<sup><a href="#ref-1">1</a>,<a href="#ref-2">2</a></sup>. The <a target=xrefwindow href="https://crsreports.congress.gov/product/pdf/R/R41705" id=d16426e179>National Institutes of Health (NIH)</a> is the world’s largest government funder of biomedical research, and makes financial and practical contributions to all stages of it, including pre-clinical scientific investigations, translational medicine, and clinical trials. Detailed case studies reveal that public support has played at least some role in virtually all of the 26 most clinically and commercially significant drugs and drug classes approved over the past several decades<sup><a href="#ref-3">3</a></sup>. And <a target=xrefwindow href="https://blogs.sciencemag.org/pipeline/archives/2016/02/02/drugs-purely-from-academia" id=d16426e186>several important medicines</a> were solely invented by academic researchers, including the lung cancer therapy pemetrexed, the vitamin D analog doxercalciferol, the inhaled pulmonary vasodilator nitrous oxide, and the vaccine for Haemophilus influenzae type b<sup><a href="#ref-4">4</a></sup>.</p><p class="" id=d16426e194>But in a large majority of cases, the public sector’s contribution to new drugs has been in the form of early scientific findings, unrelated to current or potential applications. The public sector supported key basic research for 19 of the 26 “transformative” drugs and drug classes cited above, contributed to the actual discovery of a new therapy in just 11, and could claim sole discovery credit in only four cases<sup><a href="#ref-5">5</a></sup>. More broadly, although NIH funding supported at least one publication related to each of the 210 new medicines approved by the Food and Drug Administration (FDA) from 2010 to 2016, over 90 percent of those papers were related to the underlying drug target, not the actual therapy itself<sup><a href="#ref-6">6</a></sup>.</p><p class="" id=d16426e205>Comprehensive reviews of the genesis of approved drugs confirm that while publicly funded science often characterizes important pathologic processes and identifies potential drug targets, the private sector is the main inventor of most new therapies. A recent study found that for only 25 percent of drugs approved from 2008 to 2017 was there any documented contribution, of any magnitude, to a drug’s initial discovery, synthesis, or key intellectual property by a public sector research institution or academic “spin-off” company<sup><a href="#ref-7">7</a></sup>. This finding corroborated a review of approvals from 1998 to 2007, which found that publicly funded research helped either identify the chemical structure of the final compound or its direct antecedents or demonstrated therapeutic proof-of-concept for the target for only about a third of new drugs<sup><a href="#ref-8">8</a></sup>. If one uses a more stringent definition of “contribution” based solely on intellectual property, then taxpayers’ role in drug discovery is even smaller; less than 15 percent of new medicines are covered by even a single patent that was either directly issued to a public entity or contains a “government interest statement” acknowledging public funding<sup><a href="#ref-7">7</a>,<a href="#ref-9">9</a>,<a href="#ref-10">10</a></sup>.</p><p class="" id=d16426e226>Government funding makes enormous contributions to medicine by generating novel insights into biology and disease. But accumulated evidence demonstrates that in the majority of cases, it is the private sector, not academia, which translates those insights into new therapeutics.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d16426e232>Are U.S. taxpayers inadequately rewarded for their investment in drug development?</h2><p class="" id=d16426e235>A key component of the pay twice argument is that Americans receive an insufficient return from the funds they allot to biomedical research that enables new drug development. But although it is technically true that direct returns to the NIH from licensing royalties comprise a miniscule fraction of the agency’s budget, this strictly transactional assessment ignores the health and wealth benefits that accrue to taxpayers from publicly funded science.</p><p class="" id=d16426e238>In fact, the main return on investment American taxpayers expect from supporting biomedical research is in the form of direct benefits to morbidity and mortality – which have largely been realized. Therapies enabled by publicly funded science have extended and improved human lives, and enabled patients to avoid hospitalizations and other costly interventions that yield worse outcomes<sup><a href="#ref-11">11</a>–<a href="#ref-13">13</a></sup>. In specific therapeutic areas, like hypertension<sup><a href="#ref-14">14</a></sup>, mental illness<sup><a href="#ref-15">15</a></sup>, some cancers<sup><a href="#ref-16">16</a></sup>, HIV<sup><a href="#ref-17">17</a></sup>, and routine childhood vaccinations<sup><a href="#ref-18">18</a></sup>, biomedical research has generated enormous surplus economic value for the American public, far in excess of the sum of all public and private investments in research and development<sup><a href="#ref-19">19</a></sup>. These savings increase further when exclusivity ends, generics enter the market, and low-priced therapies become available to users of both the branded agent and other expensive medicines in the same class<sup><a href="#ref-20">20</a></sup>. Many new medicines also generate other valuable health and welfare benefits that are difficult to quantify, such as improving employment and social engagement for both patients and caregivers<sup><a href="#ref-21">21</a></sup>.</p><p class="" id=d16426e281>Public research and development investments have also been a significant growth driver for the U.S. economy and a wealth creator for taxpayers. This funding has yielded millions of relatively well-paid jobs and billions of dollars of taxes paid into the coffers of local communities, states, and the federal government<sup><a href="#ref-22">22</a></sup>, although these benefits <a target=xrefwindow href="https://www.cbo.gov/publication/54089" id=d16426e287>take a long time to accrue</a> and are often unevenly distributed across geographies.</p><p class="" id=d16426e291>An important caveat to these studies and conclusions is that just because publicly funded biomedical research yields large returns to taxpayers, does not mean that the current system for realizing those benefits is optimal. As discussed above, about 15 percent of new drugs are based on at least one patent that relied on public funding. In almost all cases, those patents were licensed to pharmaceutical firms under the Bayh-Dole Act, which was passed in 1980 to encourage the commercialization of taxpayer-funded research that might otherwise lie dormant<sup><a href="#ref-23">23</a></sup>. Since its passage, detractors have argued that academic patenting insufficiently rewards U.S. taxpayers for their contributions, and imposes costs that reduce its net social benefit<sup><a href="#ref-24">24</a></sup>. But even in light of possible opportunities to improve Bayh-Dole to create even more social value, the pharmaceutical industry is one of the clearest examples where exclusive intellectual property rights are critical to convert taxpayer-funded research into useful new products, because of the high cost and risk of drug development<sup><a href="#ref-25">25</a></sup>.</p><p class="" id=d16426e307>Calculating the net returns from publicly funded science is complicated, and it is unlikely that economists will ever explicitly quantify them in a way that satisfies all stakeholders. For this reason, it is impossible to determine objectively whether or not the extent of public support for drug development is appropriately accounted for in their prices. But this challenge notwithstanding, it is empirically false to argue that Americans “receive no return on the investment that they have made” in biomedical research.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d16426e313>How is the “pay twice” claim relevant to the debate over high drug prices?</h2><p class="" id=d16426e316>Recent proposals to limit drug prices are motivated by the worthy goal of ensuring that clinically valuable new drugs are not only developed, but also maximally available to the patients who need them<sup><a href="#ref-26">26</a></sup>. The pay twice critique has played an increasingly prominent role in justifying these legislative and administrative remedies, fueled by expensive medicines that owe at least some indisputable scientific debt to public research.</p><p class="" id=d16426e323>From a rhetorical standpoint, the pay twice argument certainly brings attention to the challenge of drug access and affordability. But practically speaking, prior experience suggests it would be difficult to link drug prices to the receipt of public support for basic biomedical research. NIH established a <a target=xrefwindow href="https://www.ott.nih.gov/sites/default/files/documents/pdfs/NIH_ CRADA_Report_on_Reasonable-Pricing_Clause_1994.pdf" id=d16426e325>“reasonable pricing clause”</a> in 1989 for products developed through some collaborative public-private research grants, which authorized the government to “require … reasonable evidence” of “a reasonable relationship between the pricing of a licensed product, the public investment in that product, and the health and safety needs of the public.” But the agency eliminated this provision in 1995, amidst concerns about how to define “reasonable pricing,” enforce restrictions and penalties, and mitigate potential negative effects on innovation<sup><a href="#ref-27">27</a></sup>. These concerns remain relevant today, in light of the persistent challenges outlined above in quantifying these factors, and would likely preclude adoption of a similar policy, especially if it were intended to apply to an even wider set of therapies.</p><p class="" id=d16426e333>Similarly, the feasibility of limiting drug prices via existing <a target=xrefwindow href="https://fas.org/sgp/crs/misc/R44597.pdf" id=d16426e335>“march-in”</a> rights is also limited. Bayh-Dole allows the government to obtain a nonexclusive, royalty-free license to patents developed with public funds, for its own use or that of a third party, if the patent holder fails to adequately commercialize the invention. The NIH has denied all of the march-in petitions it has received to date, maintaining that high prices per se are insufficient rationale to claim inadequate commercialization. (<a target=xrefwindow href="https://endpts.com/will-sareptas-patents-be-seized-by-the-government-patient-advocates-pitch-controversial-drug-pricing-proposal/" id=d16426e338>A petition related to Exondys 51</a>, a therapy for Duchenne muscular dystrophy, is still under review.) But even if this obstacle were surmounted, the practical impact of march-in rights would be limited, because almost all drugs covered by Bayh-Dole patents are also covered by additional privately held patents, to which the government has no claim<sup><a href="#ref-28">28</a></sup>.</p><p class="" id=d16426e346>Beyond the practical challenge of how to operationalize a link between a drug’s price and the extent to which public funds contributed to its development lies a more fundamental question: why should it matter? If one’s primary concern is that corporate profiteering limits affordable and equitable access to medicines with proven clinical benefits, then the pay twice argument undercuts the potential impact of broader proposals to improve access to all drugs, regardless of their provenance. <a target=xrefwindow href="https://www.healthaffairs.org/do/10.1377/hblog20191211.802562/full/" id=d16426e348>Recent suggestions discussed by lawmakers</a> and others include revoking monopoly pricing power once a certain profit threshold is exceeded; <a target=xrefwindow href="https://www.raadrvs.nl/binaries/raadrvs/documenten/publicaties/2017/11/09/ontwikkeling-nieuwe-geneesmiddelen/Development_of_New_Medicines_Better_faster_cheaper.pdf" id=d16426e351>“delinking”</a> patents from innovation and <a target=xrefwindow href="https://www.nytimes.com/2020/04/08/opinion/coronavirus-drug-company-profits.html" id=d16426e354>rewarding innovators instead with prizes</a>; awarding the government more direct control over drug pricing via international reference price or cost-effectiveness benchmarks; and expanding government’s use of so-called “Section 1498” to use or manufacture any patented product<sup><a href="#ref-29">29</a></sup>. In parallel, proposals to eliminate out-of-pocket costs and ensure the availability of cheap generics after patent expiry could also improve access to drugs by reducing patient-borne expenses<sup><a href="#ref-30">30</a></sup>. These ideas all entail significant tradeoffs related to innovation that are incompletely understood, and reasonable stakeholders can disagree about how to weigh these tradeoffs given this inherent uncertainty<sup><a href="#ref-31">31</a></sup>. But importantly, they share a common focus on improving access to <i>all</i> clinically important therapies, irrespective of their origin, while ensuring that new drugs continue to be developed.</p><p class="" id=d16426e375>It is superficially attractive to argue that Americans are entitled to pay a lower price for a new drug that was substantially enabled by taxpayer-funded research. But the implication of that claim – that there is no such entitlement to affordability, or far less of one, for a drug mostly developed by a for-profit company – runs counter to the overarching goal of ensuring that all Americans have equitable access to beneficial therapies. Proposals to control a therapy’s price based on the degree to which public funds contributed to its development are not just unfeasible to implement, but also a distraction from more far-reaching efforts to improve the affordability of all medicines. Attention should instead be focused on developing practical solutions that ensure that clinically valuable new drugs <a target=xrefwindow href="https://www.healthaffairs.org/do/10.1377/hblog20190626.569971/full/" id=d16426e377>continue to be developed</a> and <a target=xrefwindow href="https://www.pwc.com/us/en/industries/health-industries/library/6-drug-pricing-models.html" id=d16426e380>are accessible by all patients in need</a>.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d16426e387>Data availability</h2><div class=section><a name=d16426e390 class=n-a></a><h3 class=section-title>Underlying data</h3><p class="" id=d16426e395>No data are associated with this article.</p></div></div><div id=article1-back class=generated-article-footer><div class=back-section><a name=d16426e403 class=n-a></a><h2 class=main-title id=d16426e405>Acknowledgements</h2><p class="" id=d16426e408>We thank Amitabh Chandra, Yevgeniy Feyman, Rachel Sachs, and Rebecca Wolitz for helpful comments on earlier drafts of this manuscript, and Gabriela Gracia for expert research assistance on manuscript preparation. We also thank the anonymous reviewers at Annals of Internal Medicine, whose helpful suggestions on an earlier version of this manuscript led us to make substantial improvements.</p></div><div class=back-section><a name=d16426e412 class=n-a></a><span class="research-layout prime-recommended-wrapper reference-heading is-hidden"><span class=faculty-opinion-icon></span><span class="prime-red big">Faculty Opinions recommended</span></span><h2 class=main-title id=d16599>References</h2><div class="section ref-list"><a name=d16426e412 class=n-a></a><ul><li><a name=ref-1 class=n-a></a><span class=label>1. </span>&nbsp;<span class=citation><a name=d16426e419 class=n-a></a>Flier JS: Academia and industry: allocating credit for discovery and development of new therapies. <i>J Clin Invest.</i> 2019; <b>129</b>(6): 2172–2174. <a target=xrefwindow id=d16426e427 href="http://www.ncbi.nlm.nih.gov/pubmed/31107243">PubMed Abstract </a> | <a target=xrefwindow id=d16426e430 href="https://doi.org/10.1172/JCI129122">Publisher Full Text </a> | <a target=xrefwindow id=d16426e433 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6546481">Free Full Text </a></span></li><li><a name=ref-2 class=n-a></a><span class=label>2. </span>&nbsp;<span class=citation><a name=d16426e442 class=n-a></a>Spector JM, Harrison RS, Fishman MC: Fundamental science behind today’s important medicines. <i>Sci Transl Med.</i> 2018; <b>10</b>(438): eaaq1787. <a target=xrefwindow id=d16426e450 href="http://www.ncbi.nlm.nih.gov/pubmed/29695453">PubMed Abstract </a> | <a target=xrefwindow id=d16426e453 href="https://doi.org/10.1126/scitranslmed.aaq1787">Publisher Full Text </a></span></li><li><a name=ref-3 class=n-a></a><span class=label>3. </span>&nbsp;<span class=citation><a name=d16426e462 class=n-a></a>Kesselheim AS, Tan YT, Avorn J: The roles of academia, rare diseases, and repurposing in the development of the most transformative drugs. <i>Health Aff (Millwood).</i> 2015; <b>34</b>(2): 286–293. <a target=xrefwindow id=d16426e470 href="http://www.ncbi.nlm.nih.gov/pubmed/25646109">PubMed Abstract </a> | <a target=xrefwindow id=d16426e473 href="https://doi.org/10.1377/hlthaff.2014.1038">Publisher Full Text </a></span></li><li><a name=ref-4 class=n-a></a><span class=label>4. </span>&nbsp;<span class=citation><a name=d16426e482 class=n-a></a>Schneerson R, Porter A, Smith DH: Prevention of systemic infections, especially meningitis, caused by Haemophilus influenzae type b: impact on public health and implications for other polysaccharide-based vaccines. <i>JAMA.</i> 1996; <b>276</b>(14): 1181–1185. <a target=xrefwindow id=d16426e490 href="http://www.ncbi.nlm.nih.gov/pubmed/8827975">PubMed Abstract </a> | <a target=xrefwindow id=d16426e493 href="https://doi.org/10.1001/jama.276.14.1181">Publisher Full Text </a></span></li><li><a name=ref-5 class=n-a></a><span class=label>5. </span>&nbsp;<span class=citation><a name=d16426e502 class=n-a></a>Chakravarthy R, Cotter K, DiMasi J, <i> et al.</i>: Public-and private-sector contributions to the research and development of the most transformational drugs in the past 25 years: From theory to therapy. <i>Ther Innov Regul Sci.</i> 2016; <b>50</b>(6): 759–768. <a target=xrefwindow id=d16426e513 href="http://www.ncbi.nlm.nih.gov/pubmed/30231735">PubMed Abstract </a> | <a target=xrefwindow id=d16426e516 href="https://doi.org/10.1177/2168479016648730">Publisher Full Text </a></span></li><li><a name=ref-6 class=n-a></a><span class=label>6. </span>&nbsp;<span class=citation><a name=d16426e526 class=n-a></a>Cleary EG, Beierlein JM, Khanuja NS, <i> et al.</i>: Contribution of NIH funding to new drug approvals 2010 – 2016. <i>Proc Natl Acad Sci U S A.</i> 2018; <b>115</b>(10): 2329–2334. <a target=xrefwindow id=d16426e537 href="http://www.ncbi.nlm.nih.gov/pubmed/29440428">PubMed Abstract </a> | <a target=xrefwindow id=d16426e540 href="https://doi.org/10.1073/pnas.1715368115">Publisher Full Text </a> | <a target=xrefwindow id=d16426e544 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5878010">Free Full Text </a></span></li><li><a name=ref-7 class=n-a></a><span class=label>7. </span>&nbsp;<span class=citation><a name=d16426e553 class=n-a></a>Nayak RK, Avorn J, Kesselheim AS: Public sector financial support for late stage discovery of new drugs in the United States: cohort study. <i>BMJ.</i> 2019; <b>367</b>: l5766. <a target=xrefwindow id=d16426e561 href="http://www.ncbi.nlm.nih.gov/pubmed/31645328">PubMed Abstract </a> | <a target=xrefwindow id=d16426e564 href="https://doi.org/10.1136/bmj.l5766">Publisher Full Text </a> | <a target=xrefwindow id=d16426e567 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6812612">Free Full Text </a></span></li><li><a name=ref-8 class=n-a></a><span class=label>8. </span>&nbsp;<span class=citation><a name=d16426e576 class=n-a></a>Kneller R: The importance of new companies for drug discovery: origins of a decade of new drugs. <i>Nat Rev Drug Discov.</i> 2010; <b>9</b>(11): 867–882. <a target=xrefwindow id=d16426e584 href="http://www.ncbi.nlm.nih.gov/pubmed/21031002">PubMed Abstract </a> | <a target=xrefwindow id=d16426e587 href="https://doi.org/10.1038/nrd3251">Publisher Full Text </a></span></li><li><a name=ref-9 class=n-a></a><span class=label>9. </span>&nbsp;<span class=citation><a name=d16426e596 class=n-a></a>Sampat BN, Lichtenberg FR: What are the respective roles of the public and private sectors in pharmaceutical innovation? <i>Health Aff (Millwood).</i> 2011; <b>30</b>(2): 332–339. <a target=xrefwindow id=d16426e604 href="http://www.ncbi.nlm.nih.gov/pubmed/21289355">PubMed Abstract </a> | <a target=xrefwindow id=d16426e607 href="https://doi.org/10.1377/hlthaff.2009.0917">Publisher Full Text </a></span></li><li><a name=ref-10 class=n-a></a><span class=label>10. </span>&nbsp;<span class=citation><a name=d16426e616 class=n-a></a>Stevens AJ, Jensen JJ, Wyller K, <i> et al.</i>: The role of public-sector research in the discovery of drugs and vaccines. <i>N Engl J Med.</i> 2011; <b>364</b>(6): 535–541. <a target=xrefwindow id=d16426e627 href="http://www.ncbi.nlm.nih.gov/pubmed/21306239">PubMed Abstract </a> | <a target=xrefwindow id=d16426e630 href="https://doi.org/10.1056/NEJMsa1008268">Publisher Full Text </a></span></li><li><a name=ref-11 class=n-a></a><span class=label>11. </span>&nbsp;<span class=citation><a name=d16426e639 class=n-a></a>Lichtenberg FR: Sources of US longevity increase, 1960–2001. <i>Quart Rev Econ Finance.</i> 2004; <b>44</b>(3): 369–389. <a target=xrefwindow id=d16426e647 href="https://doi.org/10.1016/j.qref.2004.05.005">Publisher Full Text </a></span></li><li><a name=ref-12 class=n-a></a><span class=label>12. </span>&nbsp;<span class=citation><a name=d16426e657 class=n-a></a>Lichtenberg FR: Benefits and costs of newer drugs: an update. <i>Manag Dec Econ.</i> 2007; <b>28</b>(4–5): 485–490. <a target=xrefwindow id=d16426e665 href="https://doi.org/10.1002/mde.1355">Publisher Full Text </a></span></li><li><a name=ref-13 class=n-a></a><span class=label>13. </span>&nbsp;<span class=citation><a name=d16426e674 class=n-a></a>Zhang Y, Soumerai SB: Do newer prescription drugs pay for themselves? A reassessment of the evidence. <i>Health Aff (Millwood).</i> 2007; <b>26</b>(3): 880–886. <a target=xrefwindow id=d16426e682 href="http://www.ncbi.nlm.nih.gov/pubmed/17485770">PubMed Abstract </a> | <a target=xrefwindow id=d16426e685 href="https://doi.org/10.1377/hlthaff.26.3.880">Publisher Full Text </a></span></li><li><a name=ref-14 class=n-a></a><span class=label>14. </span>&nbsp;<span class=citation><a name=d16426e694 class=n-a></a>Cutler DM: The lifetime costs and benefits of medical technology. <i>J Health Econ.</i> 2007; <b>26</b>(6): 1081–100. <a target=xrefwindow id=d16426e702 href="http://www.ncbi.nlm.nih.gov/pubmed/18023900">PubMed Abstract </a> | <a target=xrefwindow id=d16426e705 href="https://doi.org/10.1016/j.jhealeco.2007.09.003">Publisher Full Text </a></span></li><li><a name=ref-15 class=n-a></a><span class=label>15. </span>&nbsp;<span class=citation><a name=d16426e714 class=n-a></a>Frank RG, Berndt ER, Busch AB, <i> et al.</i>: Quality-constant “prices” for the ongoing treatment of schizophrenia: an exploratory study. <i>Q Rev Econ Finance.</i> 2004; <b>44</b>(3): 390–409. <a target=xrefwindow id=d16426e725 href="http://www.ncbi.nlm.nih.gov/pubmed/17710196">PubMed Abstract </a> | <a target=xrefwindow id=d16426e728 href="https://doi.org/10.1016/j.qref.2004.05.003">Publisher Full Text </a> | <a target=xrefwindow id=d16426e732 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1948835">Free Full Text </a></span></li><li><a name=ref-16 class=n-a></a><span class=label>16. </span>&nbsp;<span class=citation><a name=d16426e741 class=n-a></a>Sun EC, Jena AB, Lakdawalla DN, <i> et al.</i>: An economic evaluation of the war on cancer. <i>J Health Econ.</i> 2010; <b>29</b>(3): 333–346. <a target=xrefwindow id=d16426e752 href="http://www.ncbi.nlm.nih.gov/pubmed/20363520">PubMed Abstract </a> | <a target=xrefwindow id=d16426e755 href="https://doi.org/10.1016/j.jhealeco.2010.02.006">Publisher Full Text </a></span></li><li><a name=ref-17 class=n-a></a><span class=label>17. </span>&nbsp;<span class=citation><a name=d16426e764 class=n-a></a>Philipson TJ, Jena AB: Who benefits from new medical technologies? Estimates of consumer and producer surpluses for HIV/AIDS drugs. <i>Forum for Health Economics &amp; Policy.</i> 2006; <b>9</b>(2): 1–33. <a target=xrefwindow id=d16426e772 href="https://doi.org/10.2202/1558-9544.1005">Publisher Full Text </a></span></li><li><a name=ref-18 class=n-a></a><span class=label>18. </span>&nbsp;<span class=citation><a name=d16426e782 class=n-a></a>Philipson TJ, Snider JT, Chit A, <i> et al.</i>: The social value of childhood vaccination in the United States. <i>Am J Manag Care.</i> 2017; <b>23</b>(1): 41–47. <a target=xrefwindow id=d16426e793 href="http://www.ncbi.nlm.nih.gov/pubmed/28141933">PubMed Abstract </a></span></li><li><a name=ref-19 class=n-a></a><span class=label>19. </span>&nbsp;<span class=citation><a name=d16426e802 class=n-a></a>Lane J, Bertuzzi S: Measuring the results of science investments. <i>Science.</i> 2011; <b>331</b>(6018): 678–680. <a target=xrefwindow id=d16426e810 href="https://doi.org/10.1126/science.1201865">Publisher Full Text </a></span></li><li><a name=ref-20 class=n-a></a><span class=label>20. </span>&nbsp;<span class=citation><a name=d16426e819 class=n-a></a>Padula WV, Larson RA, Dusetzina SB, <i> et al.</i>: Cost-effectiveness of tyrosine kinase inhibitor treatment strategies for chronic myeloid leukemia in chronic phase after generic entry of imatinib in the United States. <i>J Natl Cancer Inst.</i> 2016; <b>108</b>(7): djw003. <a target=xrefwindow id=d16426e830 href="http://www.ncbi.nlm.nih.gov/pubmed/26944912">PubMed Abstract </a> | <a target=xrefwindow id=d16426e833 href="https://doi.org/10.1093/jnci/djw003 ">Publisher Full Text </a> | <a target=xrefwindow id=d16426e837 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4948567">Free Full Text </a></span></li><li><a name=ref-21 class=n-a></a><span class=label>21. </span>&nbsp;<span class=citation><a name=d16426e846 class=n-a></a>Neumann PJ, Sanders GD, Russell LB, <i> et al.</i>: Cost-effectiveness in health and medicine. (Oxford University Press). 2016. <a target=xrefwindow id=d16426e851 href="https://global.oup.com/academic/product/cost-effectiveness-in-health-and-medicine-9780190492939?cc=in&amp;lang=en&amp;">Reference Source</a></span></li><li><a name=ref-22 class=n-a></a><span class=label>22. </span>&nbsp;<span class=citation><a name=d16426e860 class=n-a></a>Gruber J, Johnson S: Jump-starting America: How breakthrough science can revive economic growth and the American dream. (Public Affairs). 2019. <a target=xrefwindow id=d16426e862 href="https://www.barnesandnoble.com/w/jumpstarting-america-jonathan-gruber/1129245197">Reference Source</a></span></li><li><a name=ref-23 class=n-a></a><span class=label>23. </span>&nbsp;<span class=citation><a name=d16426e871 class=n-a></a>Sampat BN: Patenting and US academic research in the 20th century: The world before and after Bayh-Dole. <i>Research Policy.</i> 2006; <b>35</b>(6): 772–789. <a target=xrefwindow id=d16426e879 href="https://doi.org/10.1016/j.respol.2006.04.009">Publisher Full Text </a></span></li><li><a name=ref-24 class=n-a></a><span class=label>24. </span>&nbsp;<span class=citation><a name=d16426e889 class=n-a></a>Mazzucato M: The entrepreneurial state: Debunking public vs. private sector myths. (Anthem Press). 2013. <a target=xrefwindow id=d16426e891 href="https://marianamazzucato.com/entrepreneurial-state/">Reference Source</a></span></li><li><a name=ref-25 class=n-a></a><span class=label>25. </span>&nbsp;<span class=citation><a name=d16426e900 class=n-a></a>Ouellette LL, Weires R: University Patenting: Is Private Law Serving Public Values? <i>Michigan State Law Review.</i> forthcoming; <i>Stanford Law and Economics,</i> Olin Working Paper No. 2020; 537. <a target=xrefwindow id=d16426e908 href="http://infojustice.org/archives/41559">Reference Source</a></span></li><li><a name=ref-26 class=n-a></a><span class=label>26. </span>&nbsp;<span class=citation><a name=d16426e917 class=n-a></a>Bach PB: New math on drug cost-effectiveness. <i>N Engl J Med.</i> 2015; <b>373</b>(19): 1797–1799. <a target=xrefwindow id=d16426e925 href="http://www.ncbi.nlm.nih.gov/pubmed/26535510">PubMed Abstract </a> | <a target=xrefwindow id=d16426e928 href="https://doi.org/10.1056/NEJMp1512750">Publisher Full Text </a></span></li><li><a name=ref-27 class=n-a></a><span class=label>27. </span>&nbsp;<span class=citation><a name=d16426e937 class=n-a></a>Wolitz RE: The pay-twice critique, government funding, and reasonable pricing clauses: Georgia State University, College of Law Journal of Legal Medicine Symposium. <i>J Legal Med.</i> 2019; <b>39</b>: 177–211. </span></li><li><a name=ref-28 class=n-a></a><span class=label>28. </span>&nbsp;<span class=citation><a name=d16426e952 class=n-a></a>Engelberg AB, Kesselheim AS: Use the Bayh-Dole Act to lower drug prices for government healthcare programs. <i>Nat Med.</i> 2016; <b>22</b>(6): 576. <a target=xrefwindow id=d16426e960 href="http://www.ncbi.nlm.nih.gov/pubmed/27270771">PubMed Abstract </a> | <a target=xrefwindow id=d16426e963 href="https://doi.org/10.1038/nm0616-576">Publisher Full Text </a></span></li><li><a name=ref-29 class=n-a></a><span class=label>29. </span>&nbsp;<span class=citation><a name=d16426e972 class=n-a></a>Brennan H, Kapczynski A, Monahan CH, <i> et al.</i>: A prescription for excessive drug pricing: leveraging government patent use for health. <i>Yale J Law &amp; Tech.</i> 2016; <b>18</b>: 275. <a target=xrefwindow id=d16426e983 href="https://books.google.co.in/books/about/The_Great_American_Drug_Deal.html?id=HGQrzQEACAAJ&amp;redir_esc=y">Reference Source</a></span></li><li><a name=ref-30 class=n-a></a><span class=label>30. </span>&nbsp;<span class=citation><a name=d16426e993 class=n-a></a>Kolchinsky P: The Great American Drug Deal. (Evelexa Press). 2020. </span></li><li><a name=ref-31 class=n-a></a><span class=label>31. </span>&nbsp;<span class=citation><a name=d16426e1002 class=n-a></a>Bagley N, Berger M, Chandra A, <i> et al.</i>: The Orphan Drug Act at 30. In: <i>Innovation Policy and the Economy,. </i>J. Lerner and S. Stern, eds. (University of Chicago Press). 2018. </span></li></ul></div></div></div> </div> <div class=f1r-article-desk> <section class="o-box o-box--medium u-bg--2 u-mt--2"> <h4 class="u-mt--0 u-mb--2 t-h3 u-weight--md">Looking for the Open Peer Review Reports?</h4> <p class="u-mt--0 u-mb--0 t-h4">They can now be found at the top of the panel on the right, linked from the box entitled Open Peer Review. Choose the reviewer report you wish to read and click the 'read' link. You can also read all the peer review reports by <a target=_blank href="https://f1000research.com/articles/9-707/v1/pdf?article_uuid=24240f6d-11f9-48d6-bbb4-798d542edfc7">downloading the PDF</a>.</p> </section> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 15 Jul 2020</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/9-707&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/9-707&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> <div class="f1r-article-mobile margin-bottom-30"> <div class=contracted-details> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> Questrom School of Business, Boston University, Boston, MA, 02215, USA<br/> <sup>2</sup> Institute for Health System Innovation and Policy, Boston University, Boston, MA, 02215, USA<br/> <sup>3</sup> Pharmagellan LLC, Milton, MA, 02186, USA<br/> <sup>4</sup> Harvard-MIT Center for Regulatory Science, Boston, MA, 02115, USA<br/> <p> <div class=margin-bottom> Rena M. Conti <br/> <span>Roles: </span> Conceptualization, Investigation, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Frank S. David <br/> <span>Roles: </span> Conceptualization, Funding Acquisition, Investigation, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> <div class=contracted-details> <a href="#" class=section-title>Article Versions (1)</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> <div> <a href="https://f1000research.com/articles/9-707/v1" title="Open version 1 of this article." class="" gahelper=1>version 1</a> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div> Published: 15 Jul 2020, 9:707 </div> <div class=""><a href="https://doi.org/10.12688/f1000research.24934.1">https://doi.org/10.12688/f1000research.24934.1</a></div> </div> </div> <div class=contracted-details> <a href="#" class=section-title> <span class="f1r-icon icon-100_open_access"></span> Copyright </a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> © 2020 Conti RM and David FS. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </div> </div> <div class="padding-top-30 research-layout"> <div class=article-toolbox-wrapper-mobile> <div class=article-tools-icon-mobile data-section=download> <span class="f1r-icon icon-76_download_file white"></span> </div> <div class="article-tools-icon-mobile mobile-metrics article-metrics-wrapper metrics-icon-wrapper" data-section=metrics data-version-id=27509 data-id=24934 data-downloads="" data-views="" data-scholar="10.12688/f1000research.24934.1" data-recommended="" data-f1r-ga-helper="Article Page Metrics (Mobile)"> <span class="f1r-icon icon-89_metrics white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=cite> <span class="f1r-icon icon-82_quote white"></span> </div> <div class="article-tools-icon-mobile " data-section=track> <span class="f1r-icon icon-90_track white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=share> <span class="f1r-icon icon-34_share white"></span> </div> <span class=article-toolbox-stretch></span> </div> <div class=article-toolbox-content-mobile> <div class="toolbox-section download"> <div class=toolbox-section-heading>Download</div> <div class=toolbox-section-content> <a href="https://f1000research.com/articles/9-707/v1/pdf?article_uuid=24240f6d-11f9-48d6-bbb4-798d542edfc7" title="Download PDF" class="no-decoration pdf-download-helper"> <span class="f1r-icon icon-102_download_pdf toolbox-section-icon"></span> </a> <div class=toolbox-section-option-divider>&nbsp;</div> <a id=mobile-download-xml class=no-decoration href="#" title="Download XML"> <span class="f1r-icon icon-103_download_xml toolbox-section-icon"></span> </a> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>Export To</div> <div class=toolbox-section-content> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=WORKSPACE>Sciwheel</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=BIBTEX>Bibtex</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=ENDNOTE>EndNote</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=PROCITE>ProCite</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=REF_MANAGER>Ref. Manager (RIS)</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=SENTE>Sente</button> </div> </div> <div class="toolbox-section metrics"> <div class="toolbox-section-heading no-top-border">metrics</div> <div class="toolbox-section-divider toolbox-section-divider--no-height"></div> <div class=article-metrics-pageinfo> <div class=c-article-metrics-table> <table class=c-article-metrics-table__table> <thead> <tr> <th></th> <th><span class=c-article-metrics-table__heading>Views</span></th> <th><span class=c-article-metrics-table__heading>Downloads</span></th> </tr> </thead> <tbody> <tr> <th class=c-article-metrics-table__row-heading><span class="c-article-metrics-table__platform u-platform--" data-test-id=metrics_platform_name_mob>F1000Research</span></th> <td class="c-article-metrics-table__value js-article-views-count" data-test-id=metrics_platform_views_mob>-</td> <td class="c-article-metrics-table__value js-article-downloads-count" data-test-id=metrics_platform_downloads_mob>-</td> </tr> <tr> <th class=c-article-metrics-table__row-heading> <span class="u-ib u-middle c-article-metrics-table__pmc" data-test-id=metrics_pmc_name_mob>PubMed Central</span> <div class="c-block-tip c-block-tip--centered c-article-metrics-table__tooltip c-block-tip--md-padding c-block-tip--small-arrow u-ib u-middle"> <button type=button class="u-black--medium u-black--high@hover u-ib u-middle c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content>Data from PMC are received and updated monthly.</div> </div> </th> <td class="c-article-metrics-table__value js-pmc-views-count" data-test-id=metrics_pmc_views_mob>-</td> <td class="c-article-metrics-table__value js-pmc-downloads-count" data-test-id=metrics_pmc_downloads_mob>-</td> </tr> </tbody> </table> </div> </div> <span class=metrics-citations-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-heading u-mb--1">Citations</div> <div> <div class=toolbox-section-colsplit> <div class=citations-scopus-logo> <a href="" target=_blank class="is-hidden metrics-citation-icon" title="View full citation details at www.scopus.com"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count scopus"> <a href='' class='scopus-citation-link is-hidden' target=_blank title='View full citation details at www.scopus.com'>0</a> </div> </div> <div class=toolbox-section-colsplit> <div class="citations-pubmed-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon f1000research" title="View full citation details"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count pubmed"> <a href='' class='pubmed-citation-link is-hidden' target=_blank title='View full citation details'>0</a> </div> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <div class="citations-scholar-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon google-scholar f1000research" title="View full citation details" data-scholar="10.12688/f1000research.24934.1"><i class="material-icons scopus-icon">open_in_new</i></a> </div> </div> </div> </span> <span class=metrics-details-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-content altmetric-section"> <div class=altmetrics-image></div> <div class=altmetrics-more-link> <a href="" target=_blank class=f1r-standard-link>SEE MORE DETAILS</a> </div> <div class=altmetric-mobile-column-counts></div> <div class=altmetric-mobile-column-readers></div> <div class=toolbox-section-divider></div> </div> </span> </div> <div class="toolbox-section cite"> <div class="toolbox-section-heading no-top-border">CITE</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>how to cite this article</div> <div id=citation-copy-mobile class="toolbox-section-content text-content heading9 small" data-test-id=mob_copy-citation_text> Conti RM and David FS. Public research funding and pharmaceutical prices: do Americans pay twice for drugs? [version 1; peer review: awaiting peer review] <i>F1000Research</i> 2020, <b>9</b>:707 (<a href="https://doi.org/10.12688/f1000research.24934.1" target=_blank>https://doi.org/10.12688/f1000research.24934.1</a>) </div> <div class=toolbox-section-divider></div> <div class="toolbox-section-content text-content heading9 small"> NOTE: <em>it is important to ensure the information in <b>square brackets after the title</b> is included in all citations of this article.</em> </div> <div class=toolbox-section-content> <button class="primary orange extra-padding copy-cite-article-mobile js-clipboard" data-clipboard-target="#citation-copy-mobile" title="Copy the current citation details." data-test-id=mob_copy-citation_button-mob>COPY CITATION DETAILS</button> </div> </div> <div class="toolbox-section track"> <div class="toolbox-section-heading no-top-border">track</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>receive updates on this article</div> <div class="toolbox-section-content padding-left-20 padding-right-20 heading9 small"> Track an article to receive email alerts on any updates to this article. </div> <div class=toolbox-section-content> <a data-article-id=24934 id=mobile-track-article-signin-24934 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/24934?target=/articles/9-707"> <button class="primary orange extra-padding"> TRACK THIS ARTICLE </button> </a> </div> </div> <div class="toolbox-section share"> <div class="toolbox-section-heading no-top-border">Share</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <a target=_blank class="f1r-shares-icon-square f1r-shares-email" title="Email this article"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-twitter" title="Share on Twitter"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-facebook" title="Share on Facebook"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-linkedin" title="Share on LinkedIn"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-reddit" title="Share on Reddit"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-mendelay" title="Share on Mendeley"></a> <div class="email-article-wrapper email-article-version-container"> <div class=toolbox-section-divider></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form-mobile research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=27509 /> <input name=articleId type=hidden value=24934 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> </div> </div> </div> <a name=article-reports></a> <div id=article-reports class="u-mt--3 reports-comments no-divider"> <div class="current-referee-status no-border-and-margin "> <h2 class=main-title id=current-referee-status> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-85_peer_review size30"></span> </span> Open Peer Review <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> <a name=current-referee-status></a> <div class=current-referee-status__content name=add-new-report-comment id=add-new-report-comment> Current Reviewer Status: <div class=f1r-article-desk-inline><em>AWAITING PEER REVIEW</em></div> <div class="f1r-article-mobile-inline float-right"><em>AWAITING PEER REVIEW</em></div> <span class="circle-icon-small to-right" data-window=about-referee-status title=Help>?</span> <span class="research-layout f1r-article-mobile"> <div class=mobile-ref-status-help> Key to Reviewer Statuses <span class=referee-status-pointer></span> <span class="view-control float-right">VIEW</span> <span class="view-control float-right is-hidden">HIDE</span> <div class=mobile-ref-status-help-content> <div class="cf margin-top"> <span class="f1r-icon icon-86_approved status-green smaller float-left margin-bottom-40 margin-right" title=Approved></span> <span class=title>Approved</span>The paper is scientifically sound in its current form and only minor, if any, improvements are suggested </div> <div class="cf margin-top"> <span class="f1r-icon icon-87_approved_reservations status-green smaller float-left margin-bottom-40 margin-right" title="Approved with Reservations"></span> <span class=title>Approved with reservations</span> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </div> <div class="cf margin-top"> <span class="f1r-icon icon-88_not_approved status-red small float-left margin-bottom-30 margin-right" title="Not Approved"></span> <span class=title>Not approved</span>Fundamental flaws in the paper seriously undermine the findings and conclusions </div> </div> </div> </span> </div> </div> </div> <div class="f1r-article-mobile research-layout"> <div class="mobile-sections-divider before-comments"></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 15 Jul 2020</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/9-707&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/9-707&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> </div> </div> <div id=article_main-column class="p-article__sidebar o-layout__item u-1/3 not-expanded js-article-sidebar"> <div class="o-tab p-article__column-toggle-container"> <button class="c-tab c-tab--left js-column-toggle p-article__column-toggle not-expanded " type=button data-target-main=article_main-column data-target-secondary=article_secondary-column><i class="c-tab__icon material-icons u-hide@expanded">keyboard_arrow_left</i><i class="c-tab__icon material-icons u-show@expanded">keyboard_arrow_right</i></button> </div> <div class=p-article__sidebar-content> <div class="p-article__sidebar-scroller js-article-sidebar-scroller"> <section class="p-article__sidebar-view js-article-sidebar-view js-article-sidebar-main u-pt u-pb--8" data-view=peer-review> <div class="o-layout o-layout--flush"> <div class="o-layout__item u-pl"> <h3 class="u-mt--0 u-mb--2 t-h3 u-weight--md u-pl" data-test-id=article_sidebar_heading>Open Peer Review</h3> </div> <div class=o-layout__item> <div class="p-article__sidebar-highlight u-mb--2"> <h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md u-mr--1/2">Reviewer Status</h4> <div class="u-ib u-middle"><em>AWAITING PEER REVIEW</em></div> </div> </div> <section class="o-layout__item u-pl"> <div class=u-pl> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--2">Comments on this article</h4> <div class=u-mb--4> <p class="u-mt--0 u-mb--1 t-h4"><a class=p-article__color--light href="#article-comments">All Comments</a><span class=" u-ib u-ml--1/2 p-article__color--light">(0)</span></p> <a class=t-h4 href="/login?originalPath=/articles/9-707&scrollTo=add-new-comment" data-test-id=add-comment>Add a comment</a> </div> <hr class="c-hr c-hr--low c-hr--md u-mb--4"> <div class="research-layout f1r-article-desk"> <div class="heading6 c-ribbon-wrapper c-ribbon-wrapper--etoc f1000research "> <div class=c-ribbon-wrapper__body>Sign up for content alerts</div> </div> </div> <div class="research-layout sidebar-sign-up-form f1r-article-desk u-mb--4 "> <form class=js-email-alert-signup action="#" method=POST data-email=tocAlertWeekly> <input type=hidden name=isUserLoggedIn class=js-email-alert-signup-logged-in value=N /> <input type=hidden name=userId class=js-email-alert-signup-user-id value=""/> <input type=hidden name=frequency class=js-email-alert-signup-frequency value=WEEKLY /> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <input type=email name=emailAddress class="form-input-field js-email-alert-signup-address u-1/1 u-bb" required=required placeholder=Email /> </div> <div class=o-actions__secondary> <div class="_mdl-layout u-ml--1/2"> <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--small mdl-button--filled js-email-alert-signup-submit">Sign Up</button> </div> </div> </div> </form> <div id=sidebar-sign-up-message class="section-text js-email-alert-signup-msg is-hidden">You are now signed up to receive this alert</div> </div> <section class=js-terms-container> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--1">Browse by related subjects</h4> <div class="article-subcontainer article-subcontainer--sidebar"> <ul class=js-terms-list></ul> </div> </section> </div> </section> </div> </section> </div> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/read-more.js"></script> <script src="/js/article/article-router.js"></script> <script src="/js/article/article-sidebar.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/article/article-column-toggle.js"></script> </div> </div> </div> </main> <input type=hidden id=_articleVersionUrl value="https://f1000research.com/articles/9-707/v1/"> <div class=research-help id=about-referee-status> <div class="research-layout research-help-content about-referee-status"> <span class="close-research-help dark-cross" title=Close></span> Alongside their report, reviewers assign a status to the article: <div class="cf research-help-row"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> <span class=research-help-text>Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested</span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-87_approved_reservations status-green smaller" title="Approved with Reservations"></span> <span class=research-help-text>Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-88_not_approved status-red small" title="Not Approved"></span> <span class=research-help-text>Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions</span> </div> </div> </div> <div id=datasets-info class=is-hidden> </div> <div class=article-interactive-content-container style="display: none;"> <a name=f-template class=n-a></a> <div class="interactive-content-wrapper padding-20"> <img src="" class=interactive-content-image title="Open the interactive image display"> <div class=interactive-content-title></div> <div class=interactive-content-text></div> <div class="f1r-article-desk interactive-content-ribbon" data-interactive-content-type=R-Script> <div class=interactive-content-label>Adjust parameters to alter display</div> <div class=interactive-content-button></div> </div> <div class="f1r-article-mobile mobile-interactive-note"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div id=article-interactive-omero-container class=article-interactive-omero-container style="display: none;"> <div class=interactive-content-wrapper> <div class="interactive-omero-button omero-content" title="Open the interactive content window." data-interactive-content-type=Omero></div> <div class=has-interactive-content-image> <span class=box-arrow></span> <span class=box-middle>Includes Interactive Elements</span> <span class=box-end></span> </div> <div class="fig panel clearfix" style="margin: 0; padding-bottom: 20px;"> <a name=templatelink class=n-a></a> <a target=_blank href="" class=link-for-omero-image> <img src="" class=interactive-omero-image title="Open the image display window."> </a> <div class=caption> <div class=interactive-content-title></div> <div class=interactive-content-text></div> </div> <div class="is-hidden omero-image-list"></div> </div> <div class="f1r-article-mobile mobile-interactive-note omero"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div class="add-comment-container shadow-box is-hidden" id=save-comment-container> <span id=save-comment-text class=intro-text>Edit comment</span> <textarea id=new-comment name=new-comment class="global-textarea comment margin-bottom margin-top"></textarea> <p><strong>Competing Interests</strong></p> <textarea id=new-competing-interests name=competing-interests class="global-textarea competing-interests margin-bottom check-xss"></textarea> <div class=clearfix></div> <button id=cancelComment type=button class="general-white-orange-button float-right no-background-button margin-left"> Cancel </button> <button id=save-comment-button commentId="" type=button class="general-white-orange-button float-right"> Save </button> <div class=clearfix></div> <div class="green-message margin-top is-hidden comment-is-saved">The comment has been saved.</div> <div class="red-message margin-top is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class="red-message margin-top is-hidden comment-enter-text ucf">Your must enter a comment.</div> <div class="red-message margin-top is-hidden comment-references-error references">References error.</div> </div> <div class="modal-window-wrapper is-hidden"> <div id=conflicts-interests class="modal-window padding-20"> <div class=modal-window__content> <h2 class=h2-title>Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div class="f1r-article-mobile research-layout"> <span class=modal-window-close-button></span> </div> </div> </div> <div class="o-modal c-email-alert-popup js-email-alert-popup is-hidden"> <div class="o-modal__body js-modal-body c-email-alert-popup__inner"> <h3 class=c-email-alert-popup__title>Stay Updated</h3> <p class=c-email-alert-popup__sub>Sign up for content alerts and receive a weekly or monthly email with all newly published articles</p> <p><a href="/register?originalPath=" class="c-email-alert-popup__lnk c-email-alert-popup__button js-email-alert-popup-action">Register with F1000Research</a></p> <p>Already registered? <a href="/login?originalPath=" class="c-email-alert-popup__lnk js-email-alert-popup-action">Sign in</a></p> <p class=c-email-alert-popup__footer><a class="c-email-alert-popup__lnk js-email-alert-popup-cancel" href="#">Not now, thanks</a></p> </div> </div> <div id=addCommentModal role=dialog aria-labelledby=addCommentModal_title aria-describedby=addCommentModal_description> <div class="c-modal js-modal is-closed p-article__add-comment-modal c-modal--xlarge js-article-comment-modal c-modal--scroll "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-bg--2 c-modal--scroll-always "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <div id=addCommentModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div class="js-add-comment-container t-caption u-black--high"> <div class=u-weight--bd>PLEASE NOTE</div> <div class=u-mt--1> <span class="red u-weight--bd">If you are an AUTHOR of this article,</span> please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a &ldquo;User Comment&rdquo;. </div> <div class=u-mt--1> <span class="red u-weight--bd">If you are a REVIEWER of this article,</span> please check that you have signed in with the account associated with this article and then go to your <a href="/my/referee">account</a> to submit your report, please do not post your review here. </div> <div class="u-mt--1 u-mb--1"> If you do not have access to your original account, please <a href="mailto:research@f1000.com">contact us</a>. </div> <p class=no-top-margin>All commenters must hold a formal affiliation as per our <a href="/about/policies#commentspolicy" target=_blank>Policies</a>. The information that you give us will be displayed next to your comment.</p> <p>User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the <a href="/about/legal/usercommenttermsandconditions" target=_blank>User Comment Terms and Conditions</a>. Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available.</p> <div class="comments-note margin-bottom" id=accept-user-comments> <input class=js-add-comment-accept-terms type=checkbox id=acceptedTermsAndConditions name=acceptedTermsAndConditions> I accept the <a href="/about/legal/usercommenttermsandconditions" target=_blank> User Comment Terms and Conditions</a> <span class=required>&nbsp;</span> </div> <div class="default-error margin-top is-hidden comment-accept-conditions utac">Please confirm that you accept the User Comment Terms and Conditions.</div> <div class="research-layout registration-form u-mb--2"> <div class="u-mb--1 u-mt--2"> <strong>Affiliation</strong> </div> <div class=form-field> <input type=text name=institution class="form-input-field check-xss js-add-comment-institution" placeholder="Organization *" autocomplete=off /> <div class="default-error margin-top is-hidden comment-enter-institution institution">Please enter your organisation.</div> </div> <div class=form-field> <input type=text name=place class="form-input-field check-xss js-add-comment-place" placeholder=Place> </div> <div class=form-field> <div class="form-input-wrapper hundred-percent-wide"> <div class="new-select-standard-wrapper half-width inline-display heading10"> <select name=countryId id=country class="form-select-menu smaller js-add-comment-country"> <option value=-1>Country*</option> <option value=840>USA</option> <option value=826>UK</option> <option value=124>Canada</option> <option value=156>China</option> <option value=250>France</option> <option value=276>Germany</option> <optgroup label=-----------------------------------------------></optgroup> <option value=4>Afghanistan</option> <option value=248>Aland Islands</option> <option value=8>Albania</option> <option value=12>Algeria</option> <option value=16>American Samoa</option> <option value=20>Andorra</option> <option value=24>Angola</option> <option value=660>Anguilla</option> <option value=10>Antarctica</option> <option value=28>Antigua and Barbuda</option> <option value=32>Argentina</option> <option value=51>Armenia</option> <option value=533>Aruba</option> <option value=36>Australia</option> <option value=40>Austria</option> <option value=31>Azerbaijan</option> <option value=44>Bahamas</option> <option value=48>Bahrain</option> <option value=50>Bangladesh</option> <option value=52>Barbados</option> <option value=112>Belarus</option> <option value=56>Belgium</option> <option value=84>Belize</option> <option value=204>Benin</option> <option value=60>Bermuda</option> <option value=64>Bhutan</option> <option value=68>Bolivia</option> <option value=70>Bosnia and Herzegovina</option> <option value=72>Botswana</option> <option value=74>Bouvet Island</option> <option value=76>Brazil</option> <option value=86>British Indian Ocean Territory</option> <option value=92>British Virgin Islands</option> <option value=96>Brunei</option> <option value=100>Bulgaria</option> <option value=854>Burkina Faso</option> <option value=108>Burundi</option> <option value=116>Cambodia</option> <option value=120>Cameroon</option> <option value=124>Canada</option> <option value=132>Cape Verde</option> <option value=136>Cayman Islands</option> <option value=140>Central African Republic</option> <option value=148>Chad</option> <option value=152>Chile</option> <option value=156>China</option> <option value=162>Christmas Island</option> <option value=166>Cocos (Keeling) Islands</option> <option value=170>Colombia</option> <option value=174>Comoros</option> <option value=178>Congo</option> <option value=184>Cook Islands</option> <option value=188>Costa Rica</option> <option value=384>Cote d'Ivoire</option> <option value=191>Croatia</option> <option value=192>Cuba</option> <option value=196>Cyprus</option> <option value=203>Czech Republic</option> <option value=180>Democratic Republic of the Congo</option> <option value=208>Denmark</option> <option value=262>Djibouti</option> <option value=212>Dominica</option> <option value=214>Dominican Republic</option> <option value=218>Ecuador</option> <option value=818>Egypt</option> <option value=222>El Salvador</option> <option value=226>Equatorial Guinea</option> <option value=232>Eritrea</option> <option value=233>Estonia</option> <option value=231>Ethiopia</option> <option value=238>Falkland Islands</option> <option value=234>Faroe Islands</option> <option value=583>Federated States of Micronesia</option> <option value=242>Fiji</option> <option value=246>Finland</option> <option value=250>France</option> <option value=254>French Guiana</option> <option value=258>French Polynesia</option> <option value=260>French Southern Territories</option> <option value=266>Gabon</option> <option value=268>Georgia</option> <option value=276>Germany</option> <option value=288>Ghana</option> <option value=292>Gibraltar</option> <option value=300>Greece</option> <option value=304>Greenland</option> <option value=308>Grenada</option> <option value=312>Guadeloupe</option> <option value=316>Guam</option> <option value=320>Guatemala</option> <option value=831>Guernsey</option> <option value=324>Guinea</option> <option value=624>Guinea-Bissau</option> <option value=328>Guyana</option> <option value=332>Haiti</option> <option value=334>Heard Island and Mcdonald Islands</option> <option value=336>Holy See (Vatican City State)</option> <option value=340>Honduras</option> <option value=344>Hong Kong</option> <option value=348>Hungary</option> <option value=352>Iceland</option> <option value=356>India</option> <option value=360>Indonesia</option> <option value=364>Iran</option> <option value=368>Iraq</option> <option value=372>Ireland</option> <option value=376>Israel</option> <option value=380>Italy</option> <option value=388>Jamaica</option> <option value=392>Japan</option> <option value=832>Jersey</option> <option value=400>Jordan</option> <option value=398>Kazakhstan</option> <option value=404>Kenya</option> <option value=296>Kiribati</option> <option value=901>Kosovo (Serbia and Montenegro)</option> <option value=414>Kuwait</option> <option value=417>Kyrgyzstan</option> <option value=418>Lao People's Democratic Republic</option> <option value=428>Latvia</option> <option value=422>Lebanon</option> <option value=426>Lesotho</option> <option value=430>Liberia</option> <option value=434>Libya</option> <option value=438>Liechtenstein</option> <option value=440>Lithuania</option> <option value=442>Luxembourg</option> <option value=446>Macao</option> <option value=807>Macedonia</option> <option value=450>Madagascar</option> <option value=454>Malawi</option> <option value=458>Malaysia</option> <option value=462>Maldives</option> <option value=466>Mali</option> <option value=470>Malta</option> <option value=584>Marshall Islands</option> <option value=474>Martinique</option> <option value=478>Mauritania</option> <option value=480>Mauritius</option> <option value=175>Mayotte</option> <option value=484>Mexico</option> <option value=581>Minor Outlying Islands of the United States</option> <option value=498>Moldova</option> <option value=492>Monaco</option> <option value=496>Mongolia</option> <option value=499>Montenegro</option> <option value=500>Montserrat</option> <option value=504>Morocco</option> <option value=508>Mozambique</option> <option value=104>Myanmar</option> <option value=516>Namibia</option> <option value=520>Nauru</option> <option value=524>Nepal</option> <option value=530>Netherlands Antilles</option> <option value=540>New Caledonia</option> <option value=554>New Zealand</option> <option value=558>Nicaragua</option> <option value=562>Niger</option> <option value=566>Nigeria</option> <option value=570>Niue</option> <option value=574>Norfolk Island</option> <option value=580>Northern Mariana Islands</option> <option value=408>North Korea</option> <option value=578>Norway</option> <option value=512>Oman</option> <option value=586>Pakistan</option> <option value=585>Palau</option> <option value=275>Palestinian Territory</option> <option value=591>Panama</option> <option value=598>Papua New Guinea</option> <option value=600>Paraguay</option> <option value=604>Peru</option> <option value=608>Philippines</option> <option value=612>Pitcairn</option> <option value=616>Poland</option> <option value=620>Portugal</option> <option value=630>Puerto Rico</option> <option value=634>Qatar</option> <option value=638>Reunion</option> <option value=642>Romania</option> <option value=643>Russian Federation</option> <option value=646>Rwanda</option> <option value=654>Saint Helena</option> <option value=659>Saint Kitts and Nevis</option> <option value=662>Saint Lucia</option> <option value=666>Saint Pierre and Miquelon</option> <option value=670>Saint Vincent and the Grenadines</option> <option value=882>Samoa</option> <option value=674>San Marino</option> <option value=678>Sao Tome and Principe</option> <option value=682>Saudi Arabia</option> <option value=686>Senegal</option> <option value=688>Serbia</option> <option value=690>Seychelles</option> <option value=694>Sierra Leone</option> <option value=702>Singapore</option> <option value=703>Slovakia</option> <option value=705>Slovenia</option> <option value=90>Solomon Islands</option> <option value=706>Somalia</option> <option value=710>South Africa</option> <option value=239>South Georgia and the South Sandwich Is</option> <option value=410>South Korea</option> <option value=724>Spain</option> <option value=144>Sri Lanka</option> <option value=736>Sudan</option> <option value=740>Suriname</option> <option value=744>Svalbard and Jan Mayen</option> <option value=748>Swaziland</option> <option value=752>Sweden</option> <option value=756>Switzerland</option> <option value=760>Syria</option> <option value=158>Taiwan</option> <option value=762>Tajikistan</option> <option value=834>Tanzania</option> <option value=764>Thailand</option> <option value=270>The Gambia</option> <option value=528>The Netherlands</option> <option value=626>Timor-Leste</option> <option value=768>Togo</option> <option value=772>Tokelau</option> <option value=776>Tonga</option> <option value=780>Trinidad and Tobago</option> <option value=788>Tunisia</option> <option value=792>Turkey</option> <option value=795>Turkmenistan</option> <option value=796>Turks and Caicos Islands</option> <option value=798>Tuvalu</option> <option value=800>Uganda</option> <option value=826>UK</option> <option value=804>Ukraine</option> <option value=784>United Arab Emirates</option> <option value=850>United States Virgin Islands</option> <option value=858>Uruguay</option> <option value=840>USA</option> <option value=860>Uzbekistan</option> <option value=548>Vanuatu</option> <option value=862>Venezuela</option> <option value=704>Vietnam</option> <option value=876>Wallis and Futuna</option> <option value=905>West Bank and Gaza Strip</option> <option value=732>Western Sahara</option> <option value=887>Yemen</option> <option value=894>Zambia</option> <option value=716>Zimbabwe</option> </select> </div> </div> <div class="default-error margin-top is-hidden comment-enter-country country">Please select your country.</div> </div> </div> <textarea data-test-id=article_add-comment_comment name=new-comment class="js-add-comment-comment comment margin-bottom margin-top"></textarea> <div class="default-error margin-top comment-enter-text comment-error is-hidden ">You must enter a comment.</div> <label class="comments-note u-mt--2 u-mb--2" for=competingInterests_1> <div class="u-mb--1 u-mt--2"><strong data-test-id=article_report-add-comment_competing-interests-title>Competing Interests</strong></div> <p class="u-mb--2 u-mt--0" data-test-id=article_report-add-comment_competing-interests-description>Please disclose any <a href="#article-competing-intersts-policy" class=js-modal-competing-intersts-toggle>competing interests</a> that might be construed to influence your judgment of the article's or peer review report's validity or importance.</p> </label> <div id=article-competing-intersts-policy class=js-article-competing-interests-policy style="display: none;"> <h2 class="h2-title u-mt--0 u-pt--0">Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div id=competingInterests_1 class="c-inline-editor js-inline-editor js-form_input u-bb--all u-mb--2 js-comment-competing-interests" data-name=competing-interests data-rows=3> <textarea id=competingInterests_1_input name=competing-interests placeholder="&nbsp;" required=false class="u-hide-visually js-inline-editor_input" tabindex=-1></textarea> <div class="c-inline-editor__editor js-inline-editor_editor o-box c-box o-box--tiny u-bg--11" data-target=competingInterests_1_input role=textbox required=false data-placeholder="&nbsp;" contenteditable=true></div> <span class="c-inline-editor__error js-inline-editor-message">Please state your competing interests</span> </div> <div data-test-id=article_add-comment_saved class="green-message comments is-hidden comment-is-saved">The comment has been saved.</div> <div data-test-id=article_add-comment_error class="default-error comments is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class=clearfix></div> <div class=js-hook></div> </div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" data-test-id=article_add-comment_cancel class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" data-test-id=article_add-comment_post class="c-button c-button--full js-modal__confirm c-button--primary">Post</a> </div> </aside> </div> </div> <style>
+                .at-icon-wrapper {
+        background-size: 100% !important;
+    }
+</style> <script src="/js/namespace.js"></script> <script src="/js/constants.js"></script> <script src="/js/utilities.js"></script> <script src="/js/article/alert-signup.js"></script> <script type='text/javascript'>
+    var lTitle = "Public research funding and pharmaceutical...".replace("'", '');
+    var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/9-707/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+    var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/9-707/v1&title=" + encodeURIComponent(lTitle);
+
+    var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/9-707/v1" + "&title=" + encodeURIComponent(lTitle);
+
+            linkedInUrl += encodeURIComponent('Conti RM and David FS');
+    
+    var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+    var addthis_config = {
+            ui_offset_top: offsetTop,
+                                    services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_custom : [
+                {
+                    name: "LinkedIn",
+                    url:  linkedInUrl,
+                    icon:"/img/icon/at_linkedin.svg"
+                },
+                {
+                    name: "Mendeley",
+                    url:  "http://www.mendeley.com/import/?url=https://f1000research.com/articles/9-707/v1/mendeley",
+                    icon:"/img/icon/at_mendeley.svg"
+                },
+                {
+                    name: "Reddit",
+                    url:  redditUrl,
+                    icon:"/img/icon/at_reddit.svg"
+                },
+            ]
+        };
+
+
+    var addthis_share = {
+            url: "https://f1000research.com/articles/9-707",
+            templates : {
+                twitter : "Public research funding and pharmaceutical prices: do Americans.... Conti RM and David FS, published by " + 
+               "@F1000Research"
+       + ", https://f1000research.com/articles/9-707/v1"
+            }
+        };
+
+    if (typeof(addthis) != "undefined"){
+        addthis.addEventListener('addthis.ready', checkCount);
+        addthis.addEventListener('addthis.menu.share', checkCount);
+    }
+
+        $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+    $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+    $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+    $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+    $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+    function checkCount(){
+        setTimeout(function(){
+            $(".addthis_button_expanded").each(function(){
+                var count = $(this).text();
+                if (count !== "" && count != "0")
+                    $(this).removeClass("is-hidden");
+                else
+                    $(this).addClass("is-hidden");
+            });
+        }, 1000);
+    }
+</script> <div id=citeReportModal role=dialog aria-labelledby=citeReportModal_title aria-describedby=citeReportModal_description> <div class="c-modal js-modal is-closed c-modal--large js-cite-report-modal "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-black--high "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <h1 id=citeReportModal_title class="c-modal__title t-h3 u-mt--0 u-mb--2 u-weight--md">How to cite this report</h1> <div id=citeReportModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div id="" class=js-report-citation-container>{{reportCitation}}</div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" title="Copy the current citation details to the clipboard." data-clipboard-target="#referee-report-citation" data-test-id=report_copy-citation_button class="c-button c-button--full js-modal__confirm c-button--primary js-clipboard c-mini-tooltip--above">Copy Citation Details</a> </div> </aside> </div> </div> <script src="/js/referee/new/referee_validators.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/referee/new/referee_checkbox-input.js"></script> <script src="/js/referee/new/referee_inline-editor.js"></script> <script type="text/javascript">
+    $(function(){
+        var gaCat = "F1000Research";
+        if (gaCat === "") {
+            gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+        }
+        GAHelper.track({category: gaCat, action: "Article Page: Public research funding and pharmaceutical prices: do Americans pay twice for drugs?", label: "pageviews"});
+        GAHelper.track({category: gaCat, action: "Article Type: Opinion Article", label: "Article Page"});
+        $(".f1r-article-desk .collection-image").each(function (idx, el) {
+            var whatChannel = $(el).find("a").attr("href"),
+                channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+                gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+            GAHelper.track({category: 'ChannelStats', action: "Article Page: Public research funding and pharmaceutical prices: do Americans pay twice for drugs?", label: gaRef});
+        });
+    });
+</script> <script>
+    $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+    $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+</script> <script src="/js/article/track_article.js" type="text/javascript"></script> <script type="text/javascript">
+    $.get("/articles/acj/24934/27509")
+</script> <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script type="text/javascript" src="/js/app/messenger.js"></script> <script type="text/javascript" src="/js/article/article_mobiles.js"></script> <script src="/js/vendor/clipboard.min.js"></script> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/clipboard.js"></script> <script src="/js/article/thesaurus-terms-display.js"></script> <script>
+    new F1000.Clipboard();
+    new F1000.ThesaurusTermsDisplay("articles", "article", "27509");
+</script> <script>
+    $(document).ready(function() {
+        $( "#frame1" ).on('load', function() {
+            var mydiv = $(this).contents().find("div");
+            var h     = mydiv.height();
+            console.log(h)
+        });
+
+        
+        var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+            titleLivingFigure = tooltipLivingFigure.attr("title");
+        tooltipLivingFigure.simpletip({
+            fixed: true,
+            position: ["-115", "30"],
+            baseClass: 'small-tooltip',
+            content:titleLivingFigure + "<div class='tooltip-arrow'></div>"
+        });
+        tooltipLivingFigure.removeAttr("title");
+
+        $("body").on("click", ".cite-living-figure", function(e) {
+            e.preventDefault();
+            var ref = $(this).attr("data-ref");
+            $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+        });
+        $("body").on("click", ".close-cite-living-figure", function(e) {
+            e.preventDefault();
+            $(this).closest(".popup-window-wrapper").fadeOut(200);
+        });
+
+                $(document).on("mouseup", function(e) {
+            var metricsContainer = $(".article-metrics-popover-wrapper");
+            if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+                $(".article-metrics-close-button").click();
+            }
+        });
+
+        var articleId = $('#articleId').val();
+
+        if($("#main-article-count-box").attachArticleMetrics) {
+            $("#main-article-count-box").attachArticleMetrics(articleId, {
+                articleMetricsView: true
+            });
+        }
+    });
+
+    var figshareWidget = $(".new_figshare_widget");
+    if (figshareWidget.length > 0) {
+        window.figshare.load("f1000", function(Widget) {
+            // Select a tag/tags defined in your page. In this tag we will place the widget.
+            _.map(figshareWidget, function(el){
+                var widget = new Widget({
+                    articleId: $(el).attr("figshare_articleId")
+                    //height:300 // this is the height of the viewer part. [Default: 550]
+                });
+                widget.initialize(); // initialize the widget
+                widget.mount(el); // mount it in a tag that's on your page
+                // this will save the widget on the global scope for later use from
+                // your JS scripts. This line is optional.
+                //window.widget = widget;
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        
+        var reportIds = {
+                           "68773": 0,
+                           "67527": 0,
+                           "68774": 0,
+                           "67526": 0,
+                           "67275": 0,
+                           "67274": 0,
+                           "67277": 0,
+                           "67276": 0,
+                           "67278": 0,
+                           "69937": 0,
+                           "69939": 0,
+                           "69938": 0,
+                           "69941": 0,
+                           "69940": 0,
+                           "69974": 0,
+                           "68059": 0,
+                           "67643": 0,
+                           "68058": 0,
+                           "68060": 0,
+                           "67644": 0,
+                    };
+
+        $(".referee-response-container,.js-referee-report").each(function(index, el) {
+            var reportId = $(el).attr("data-reportid"),
+                reportCount = reportIds[reportId] || 0;
+            $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+        });
+
+        var uuidInput = $("#article_uuid"),
+            oldUUId = uuidInput.val(),
+            newUUId = "edeb541c-1d92-4db0-a157-d62773cfe94a";
+        uuidInput.val(newUUId);
+
+        $("a[href*='article_uuid=']").each(function(index, el) {
+            var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+            $(el).attr("href", newHref);
+        });
+
+    });
+</script>              </div>
+        </div>
+
+        
+            
+            <div class="o-page__footer sticky-email-wrapper">
+                
+                
+
+                
+
+
+<footer class="c-footer t-inverted">
+
+    <div class="o-wrapper">
+        <div class="o-layout">
+
+
+                        
+            <div class="o-layout__item u-mb--3">
+                <div class="c-branding c-branding--research">
+                    <img src="/img/research/F1000Research_white.svg" alt="F1000Research">
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <p class="t-h3 u-mt--0 u-mb--0">An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing.</p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <div class="o-layout">
+                    <nav class="c-footer__nav">
+
+                            <div class="o-layout__item u-3/5@sm u-mb--3">
+
+
+                                <div class="o-columns o-columns--2">
+
+                                                                            <a href="/browse/articles" class="t-body c-footer__nav-item "      >Browse</a>
+                                                                            <a href="/gateways" class="t-body c-footer__nav-item "      >Gateways</a>
+                                                                            <a href="/collections" class="t-body c-footer__nav-item "      >Collections</a>
+                                                                            <a href="/about" class="t-body c-footer__nav-item "      >How it Works</a>
+                                                                            <a href="https://blog.f1000.com/blogs/f1000research/" class="t-body c-footer__nav-item "      >Blog</a>
+                                                                            <a href="/contact" class="t-body c-footer__nav-item "      >Contact</a>
+                                                                            <a href="/developers" class="t-body c-footer__nav-item u-hide u-show@navbar"      >For Developers</a>
+                                                                            <a href="/published/rss" class="t-body c-footer__nav-item "   title="RSS feed of published articles"     >RSS</a>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="o-layout__item u-2/5@sm u-center u-right@sm u-mb--3">
+
+                                <div class="u-hide u-show@lg">
+                                    <div class="_mdl-layout">
+                                        <a class="mdl-button mdl-js-button mdl-button--inverted mdl-button--no-shadow mdl-js-ripple-effect mdl-button--outline" href="/for-authors/publish-your-research"   data-test-id="footer_submit_research"  >Submit Your Research</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="o-layout__item u-mb--2">
+                <div class="c-footer__share">
+                        <div class="c-footer__share">
+        <span class="c-footer__share-icon" title="Open Access">
+            <span class="f1r-icon icon-100_open_access license-icon"></span>
+        </span>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/licenses" target="_blank" title="Creative Commons License CC-BY">
+            <span class="f1r-icon icon-116_cc license-icon license-icon-cc"></span>
+            <span class="f1r-icon icon-117_ccby license-icon license-icon-cc"></span>
+        </a>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/about/cc0" target="_blank" title="Creative Commons License CC0">
+            <span class="f1r-icon icon-118_cco license-icon"></span>
+        </a>
+
+    </div>
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="c-footer__social u-mt--0 u-mb--0 u-white--low-med">Follow us
+                    <a href="https://www.facebook.com/F1000" target="_blank" class="c-footer__social-icon f1r-icon icon-55_footer_facebook"></a>
+                    <a href="https://twitter.com/#!/F1000Research" target="_blank" class="c-footer__social-icon f1r-icon icon-56_footer_twitter"></a>
+                    <a href="http://www.youtube.com/user/F1000research" target="_blank" class="c-footer__social-icon f1r-icon icon-57_footer_youtube"></a></p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md u-right@md">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="t-caption u-white--low-med">&copy; 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | <a href="/about/legal" class="copyrightLegal">Legal</a> | Partner of <a target="_blank" href="http://www.who.int/hinari/en/">HINARI</a>  &bull; <a target="_blank" href="http://crossref.org/">CrossRef</a> &bull; <a target="_blank" href="http://about.orcid.org/">ORCID</a> &bull; <a target="_blank" href="http://www.fairsharing.org">FAIRSharing</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</footer>            </div>
+        
+    </div>
+
+            <div class="js-cookie-spacer"></div>
+        <div class="cookie-warning">
+            <div class="instruction">The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a class="js-scroll-to" href="/about/legal/privacypolicy#use-of-cookies" data-scroll-target="#use-of-cookies">Find out more &raquo;</a></div>
+            <div class="close-button"></div>
+        </div>
+    
+    <script>
+                    R.templateTests.simpleTemplate = R.template('<p class="$variable.one">$text</p><p class="${variable.two}">$text</p><p class="$!variable.three">$text</p><p class="$!{variable.four}">$text</p><p class="${selector}.five">$text</p>');
+            R.templateTests.runTests();
+        
+        var F1000platform = new F1000.Platform({
+            name: "f1000research",
+            displayName: "F1000Research",
+            hostName: "f1000research.com",
+            id: "1",
+            editorialEmail: "research@f1000.com",
+            infoEmail: "info@f1000.com",
+            usePmcStats: true
+        });
+
+                    $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+            // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+            $(document).ready(function () {
+                if ($(".cookie-warning").is(":visible")) {
+                    $(".sticky").css("margin-bottom", "35px");
+                    $(".devices").addClass("devices-and-cookie-warning");
+                }
+                $(".cookie-warning .close-button").click(function (e) {
+                    $(".devices").removeClass("devices-and-cookie-warning");
+                    $(".sticky").css("margin-bottom", "0");
+                });
+
+                $("#tweeter-feed .tweet-message").each(function (i, message) {
+                    var self = $(message);
+                    self.html(linkify(self.html()));
+                });
+
+                $(".partner").on("mouseenter mouseleave", function() {
+                    $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+                });
+            });
+        
+    </script>
+
+            
+<div class="sign-in-popup">
+	<!-- <a href="#" class="sign-in shadow">Sign in <span class="sign-in-image-active"></span></a> -->
+	<a href="#" class="sign-in ${locale}">Sign In <span class="arrow-closed sign-in-arrow-padding arrow-opened"></span></a>
+	<div class="sign-in-form">
+
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="googleOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-707.html"/>
+                            <input id="google-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-google" name="system" type="hidden" value="GOOGLE"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="facebookOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-707.html"/>
+                            <input id="facebook-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-fb" name="system" type="hidden" value="FACEBOOK"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="orcidOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-707.html"/>
+                            <input id="orcid-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-orcid" name="system" type="hidden" value="ORCID"/>
+    </form>
+		<form id="sign-in-form" class="login-container" action="https://f1000research.com/login" method="post" name="f">
+           <div id="sign-in-form-gfb-popup"></div>
+
+                                                            <input class="target-field" type="hidden" name="target" value="/articles/9-707.html"/>
+                            			<input type="text" name="username" id="signin-email-box" class="sign-in-input" placeholder="Email address" autocomplete="email">
+			<input type="password" name="password" id="signin-password-box" class="sign-in-input" placeholder="Password" autocomplete="current-password">
+			<div class="sign-in-remember">
+                <div class="checkbox-wrapper">
+    				<input type="checkbox" id="remember-me" name="remember_me" class="checkbox is-hidden">
+                </div>
+                <span class="checkbox-label">Remember me</span>
+			</div>
+			<a href="#" class="sign-in-link" id="forgot-password-link">Forgotten your password?</a>
+			<div class="sign-in-button-container margin-top margin-left-20 margin-bottom">
+				<button type="submit" id="sign-in-button" class="sign-in-buttons general-white-orange-button">Sign In</button>
+				<button type="button" id="sign-in-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="sign-in-error">Email or password not correct. Please try again</div>
+			<div class="sign-in-loading">Please wait...</div>
+		</form>
+		<div class="forgot-password-container">
+			
+<script type="text/javascript">
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("GOOGLE");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=facebookSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("FACEBOOK");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=orcidSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("ORCID");
+            $("form[id=oAuthForm]").submit();
+        });
+	});
+</script>
+
+<span class="text first">
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+    <p>The email address should be the one you originally registered with F1000.</p>
+</span>
+<input name="email" class="sign-in-input" id="email-forgot-password" type="text" placeholder="Email address">
+<div class="forgot-password-email-error">
+	Email address not valid, please try again
+</div>
+<div class="forgot-password-google-email-error">
+    <p>You registered with F1000 via Google, so we cannot reset your password.</p>
+	<p>To sign in, please click <a href="#" id="googleSignInButton">here</a>.</p>
+    <p>If you still need help with your Google account password, please click <a href="https://www.google.com/accounts/recovery">here</a>.</p>
+</div>
+<div class="forgot-password-facebook-email-error">
+    <p>You registered with F1000 via Facebook, so we cannot reset your password.</p>
+    <p>To sign in, please click <a href="#" id="facebookSignInButton">here</a>.</p>
+	<p>If you still need help with your Facebook account password, please click <a href="https://www.facebook.com/recover/initiate">here</a>.</p>
+</div>
+<div class="clearfix"></div>
+<div class="forgot-password-captcha-error">
+	Code not correct, please try again
+</div>
+<div class="clearfix"></div>
+<div class="sign-in-button-container margin-left-20 margin-bottom">
+	<button type="button" id="sign-in-reset-password" class="sign-in-buttons general-white-orange-button">Reset password</button>
+	<button type="button" id="forgot-password-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+	<div class="clearfix"></div>
+</div>
+<span class="text last">
+	<a href="mailto:">Email us</a> for further assistance.
+</span>
+<form action="https://f1000research.com/j_spring_oauth_security_check" id="oAuthForm" method="post" target="_top">
+                        <input class="target-field" type="hidden" name="target" value="/articles/9-707.html"/>
+                <input id="oAuthSystem" name="system" type="hidden"/>
+</form>
+			<div class="forgot-password-server-error">Server error, please try again.</div>
+			<div class="sign-in-success">
+                <p>We have sent an email to <span id="email-value"></span>, please follow the instructions to reset your password.</p>
+                <p>If you don't receive this email, please check your spam filters and/or contact .</p>
+            </div>
+			<div class="sign-in-loading">Please wait...</div>
+		</div>
+
+		<div class="sign-in-form-register-section">
+			<div class="sign-in-button-container margin-left-20 margin-bottom">
+				<a href="/register" title="Register"><button type="button" id="sign-in-register-button" class="sign-in-buttons general-white-orange-button">Register</button></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+    $(".target-field").each(function () {
+        var uris = $(this).val().split("/");
+        if (uris.pop() === "login") {
+        	$(this).val(uris.toString().replace(",","/"));
+        }
+    });
+});
+</script>
+        <div id="templateOverlay" class="is-hidden" hidden="hidden">
+  <div class="o-overlay js-overlay is-hidden" hidden="hidden"></div>
+</div>
+
+<div id="templateExternalMessages" class="is-hidden" hidden="hidden">
+  <div class="o-modal o-modal--auto@md js-external-messages is-hidden" hidden="hidden">
+    <div class="o-modal__body">
+      <section class="c-console">
+        <div class="_mdl-layout c-console__bdy js-external-messages-body"></div>
+        <footer class="_mdl-layout c-console__ftr o-flex o-flex--reverse js-external-messages-footer">
+          <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-console__btn js-external-messages-close" data-action="maintenance-close">I Understand</button>
+        </footer>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<script src="/js/namespace.js"></script>
+<script src="/js/constants.js"></script>
+<script src="/js/utilities.js"></script>
+
+<script>
+                  F1000.ExtenalMaintenanceItems = [
+    {
+      start: '2018-12-10T14:21:00Z',
+      end: '2018-12-13T16:00:00Z',
+      msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+      cookieName: 'outage23122018',
+      editor: false,
+    }
+  ];
+</script>
+
+<script src="/js/shared_scripts/cookie-helper.js"></script>
+<script src="/js/shared_scripts/mdl-helper.js"></script>
+
+<script src="/js/app/external-maintenance.js"></script>
+
+                <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5646075-11', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        
+                <script type="text/javascript" src="/js/app/research.analytics.js"></script>
+
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4475190.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    
+            <script src="https://my.hellobar.com/4e0495c6f18cbd68731a1dc1978195a144e767ba.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+
+</html>

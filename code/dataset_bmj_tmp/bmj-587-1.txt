@@ -1,0 +1,42 @@
+This study used data from the Fetal Growth Longitudinal Study component of the international Intergrowth
+21 project to produce a standard of fundal height-for-gestational age. As with previous standards for fetal
+and newborn growth produced from this project, the present chart represents a major improvement over
+existing charts due to the study’s rigorous design, data collection procedures, and analytic approach. I
+believe that the results from this research therefore have the potential to lead to major improvements in
+screening for poor fetal growth, particularly in lower-resource settings.
+Main comments
+1. I agree with the decision to create a standard rather than a reference. However, given the likely link
+between fetal growth restriction and preterm birth (e.g., Zeitlin et al [BJOG 2000; 107:750-58], Morken et
+al [AJOG 2006; 195: 154-161], it seems surprising to use the growth of preterm births to create a
+standard. Please justify why preterm infants were not excluded from a population intended to describe
+‘healthy’ growth.
+2. On a related note, it would also be helpful to provide a rationale as to why pregnancies with serious
+post-recruitment adverse maternal conditions such as pre-eclampsia were excluded, but not pregnancies
+with serious post-recruitment adverse neonatal events such as neonatal death.
+3. I think it’s important to provide some comment on what thresholds of this chart should be used in the
+clinical setting to identify high risk pregnancies. On reference charts, the 10th percentile has commonly
+been used as a threshold to screen for growth restriction, but should the same threshold be used on a
+standard given that the population has been highly selected to include only healthy pregnancies? Individual
+sites or health care providers may be reluctant to adopt a new standard in the absence of guidance on how
+
+they should be used to trigger referrals.
+Minor comments
+1. The case for combining anthropometric measurements from geographically diverse study sites into a
+single, global chart has been made in previous work by this team, and I don’t think it needs to be repeated
+in the present paper. However, some basic descriptive information on the distribution of SFH for each site
+(e.g., by presenting the 3rd, 50th, and 97th centiles of SFH at term for each of the 8 sites in Table 1)
+should be presented. This would help to alleviate potential concerns about meaningful between-site
+differences.
+2. The manuscript would benefit from discussion on the reliability of SFH measurements (i.e., inter- and
+intra-observer variation) and its implications for use of the chart. Further, information on the reliability of
+SFH measurements taken under the close-to-ideal circumstances of this study would be interesting. How
+much intra-observer variation was there between the two SFH measurements taken at each visit? What
+does this difference correspond to in terms of differences in percentiles assigned?
+3. Given that the relationship between SFH and gestational age was linear, would it not be more
+parsimonious to model gestational age with a linear term in a standard (multilevel) linear regression
+model?
+4. It would be helpful to clarify what is meant by the term ‘exact weeks’ (e.g., in the column for Gestational
+Age in Table 2). I'm assuming 36 exact weeks means '36 weeks +0 days'?
+5. In figure 3, suggest making the y-axis ticks & labels (currently every 5 units) correspond with those on
+the x-axis (every 2 weeks' gestation) to better visualise the extent to which, e.g., 32 weeks lines up with
+32 cm.

@@ -1,0 +1,69 @@
+Thank you for the opportunity to review this interesting article. The research presented
+represents a huge undertaking, and there is much to be commended here, not least for
+getting this much data together to address this question, and by looking at the association
+between inactivity and dementia at different lead times. I do feel that there are areas that
+could be strengthened and there are a number of queries, as follows
+- My main question is where does the 10 year cut-off come from? Specifically, why does
+looking at activity levels at > 10 years remove the reverse causality issue? Why not 9
+years, or 11 years, or 5 years? What is the clinical rationale for 10 years being a safe
+time-point?
+I wonder whether the authors would be better (or at least it would be more complete a
+picture) if they report may time-period results, say 0-5, 5-10, 10-15, 15-20 etc to see if
+the trend is gradually reduced, rather than just choosing the 10 years value? Perhaps they
+are limited by the information about activity levels in the available IPD.
+Regardless, this issue needs to be addressed, justified, or noted clearly as a limitation.
+- Did the meta-analysis account for the uncertainty in the estimates of heterogeneity,
+when deriving confidence intervals? There is strong evidence that approaches such as
+Hartung-Knapp improve coverage of confidence intervals from meta-analysis (including
+IPD meta-analysis), and can be implemented as part of the 2nd-stage of the analysis. See
+the refs: 1 2
+- I-squared is a poor measure of the size of heterogeneity and be misleading (see Rucker
+et al. 3) – better to focus on the estimate of heterogeneity and even prediction intervals
+(though i do see there is no estimated heterogeneity it seems)
+- What was the estimation method used to fit the meta-analysis models?
+- It is not clear to me how proportional hazards are examined within and across studies
+– the comment “We examined whether the hazard ratio for physical inactivity is stable over
+the follow-up using flexible parametric proportional-hazards for censored survival data” is
+quite vague. The authors say later that the HR does change after a few years, which
+support their decision to split at 10 years, but this seem contradictory to use 10 years as
+the split and not 2 years. “As shown in figure 2, the associations of physical inactivity with
+dementia and Alzheimer’s disease varied over time, being strongest during the first few
+years of follow-up and then attenuating to the null. This non-proportionality of hazards
+(departure from proportionality p <0.0001 for dementia and Alzheimer’s disease)
+supported our decision to split follow-up period into two; the first 10 years of follow-up and
+from year 10 onwards.” In short, the explanation of proportional hazards and use of 10
+years cut point needs more justification and expansion.
+- “To address regression dilution bias due to measurement error … “ – measurement error
+does not always leads to dilution of effects; for example if the error is larger in those with
+certain levels of the variable than others.
+- How was missing data handled, for example for adjustment variables?
+
+- One notable limitation is the categorical definition of physical activity, which I assume is
+due to using existing studies and inconsistent definitions and coding across studies. Can
+the authors explain this further, and why a continuous scale was not possible / used?
+- Figure 2: it is not clear if this is for the physical activity measured before 10 years or
+after 10 years?
+- The abstract might mislead reader to think 9741 studies are used from the ‘data sources’
+– so perhaps state that 19 of 9741 studies provided relevant data in this section too.
+- Dementia definition requires full diagnosis – maybe miss people who are in the early
+stages? Thus the outcome may be underestimated – could this be a limitation and, if so,
+how may it impact upon the findings.
+- A key finding noted in the abstract and results is “There was an imprecisely estimated
+excess risk of dementia following cardiometbolic disease in physically inactivite versus
+physically active individuals” (note inactive and cardiometabolic are mis-spelt by the
+authors). The authors are inferring that the HR is different for those with and without
+cardiometabolic disease. However, I do not see an interaction test (and indeed estimate of
+the difference in) for whether the log hazard ratio is different for those with and without
+cardiometabolic disease. The authors refer to Figure 4, but cardiometabolic is not
+mentioned in this figure.
+In summary, this is a very interesting piece of work that has much potential for
+publication, but there are some issues that need to be clarified and addressed to help the
+BMJ make a decision. I sincerely hope my comments help the authors going forward.
+Best wishes, Prof Richard Riley
+
+1. Hartung J, Knapp G. A refined method for the meta-analysis of controlled clinical trials
+with binary outcome. Stat Med 2001;20(24):3875-89.
+2. Cornell JE, Mulrow CD, Localio R, et al. Random-effects meta-analysis of inconsistent
+effects: a time for change. Ann Intern Med 2014;160(4):267-70.
+3. Rucker G, Schwarzer G, Carpenter JR, et al. Undue reliance on I(2) in assessing
+heterogeneity may mislead. BMC Med Res Methodol 2008;8:79.

@@ -1,0 +1,76 @@
+This is an extensive revision, and the authors have clearly responded very well to
+the many comments they received. I only have minor points remaining.
+1) “All pairwise analyses were conducted using the ‘meta’ package (version
+4.9-4) (21) in RStudio 1.0.143” – please be clearer on the actual estimation
+method used to fit the random effects model as there are many within the
+software package. I think the DL method is used for estimation (as noted in the
+text a bit further down in regards to the estimate of tau-squared) but should be
+explicit.
+Same applies to the use of mvmeta and network modules in Stata to fit the
+network models. What was used? REML estimation? That is the default.
+2) Did the network analysis account for uncertainty in variance estimates (note:
+this is the default in network and mvmeta, unless the nounc option is removed).
+Please clarify, as confidence intervals may be too narrow otherwise, as
+mentioned in my previous notes in the Editors comments). See
+1. Hartung J, Knapp G. A refined method for the meta-analysis of controlled
+clinical trials with binary outcome. Stat Med 2001;20(24):3875-89.
+2. Jackson D, Riley RD. A refined method for multivariate meta-analysis and
+meta-regression. Stat Med 2014;33(33):541-54.
+3) “Statistical heterogeneity within each pairwise comparison was estimated
+using the I2 statistic” – as mentioned I2 is not a measure of heterogeneity
+directly, which you recognise in your response, but it still reads like you are
+saying this. Rather say in the text tht it is the proportion of the total variance
+that is due to between-study heterogeneity
+4) In the results when giving the ORs in brackets from the various
+meta-analyses, I suggest saying ‘summary OR = ‘ to emphasise that this is the
+summary result. As noted, there is heterogeneity, so just saying OR = … is a bit
+misleading. I think the word summary helps to clarify that this is a meta-analysis
+result.
+5) Results: “No other significant differences between active treatments were
+found” – significant in what sense? Statistically or clinically? If the former,
+suggest you rather say: There was not statistical enough evidence to suggest any
+other difference between active treatments.
+6) “The treatment protocols with the highest probabilities of being the most
+efficacious in terms of response were Bitemporal ECT (36.9%) and priming TMS
+(18.5%), while Low-frequency Left rTMS (30.3%) and continuous TBS (29.6)
+were least efficacious”
+- recommend here that additionally you also say which ones had the highest
+mean rank, and which ones had the highest probability of being ranked last.
+Focusing just on the one with the highest probability of being ranked first may be
+an incomplete picture. I recognise the full results are in the sup material, but
+here it is important to say also in the results.
+7) “Fitting the design-by-treatment interaction model provided no evidence for
+significant …” – again statistically significant?
+8) “However, there was moderate uncertainty in these estimates, and we cannot
+exclude the possibility that the actual number of inconsistent loops is higher than
+
+those reported.” – the last bit is too vague. Reported by who? By the authors
+above, or something else?
+9) “When trials with high overall risk of bias were excluded, …” – did they resolve
+any of the inconsistency concerns too?
+10) “There was considerable variation in the precision of treatment effect
+estimates” – do you mean from the individual studies, or from the
+meta-analyses? If the former, why does that matter? If the latter, then explain
+more why this is important. I think because it implies some treatments have
+more evidence available than others?
+11) Figure 3 – tell the reader these are summary meta-analysis results. Are
+these from the pairwise MA or the network MA? Same for Fig 5.
+12) Table 1: “Effect sizes represent relative odds ratios …” – do the authors just
+mean odds ratios? They are not dividing 2 ORs as far as I can tell, so not relative
+ORs. Also the outcome should be clearly labelled for the left (pink) and top
+(blue), for the reader.
+13) Lastly I see that the number needed to treat and number needed to harm
+have been added to the results of the paper, at the suggestion of a previous
+reviewer. I understand the desire to translate to clinical decision making, but I
+worry about these numbers, because they are based on the summary
+meta-analysis result. As we know, there is some heterogeneity (in both the
+baseline risk and the treatment effect across studies), and therefore the NNT and
+NNH are also hugely variable. If the authors want to include this, then they need
+to make it clear in the methods section how these are calculated and what
+hypothetical population they relate to. The heterogeneity makes the
+interpretation of NNT even more problematic than it is even when there is a
+single trial, as discussed here:
+https://discourse.datamethods.org/t/problems-with-nnt/195
+Perhaps, in hindsight, the authors should remove these values or place them in
+the supp material.
+With best wishes, Prof Richard Riley

@@ -1,0 +1,48 @@
+Very interesting paper, taking advantage of the strengths of IPD meta-analyses. These results are important for daily practice
+and may reduce the reluctance of some clinicians to prescribe betablockers to older patients.
+I have the following remarks:
+One can discuss whether the cut-off of <0.45 is the best choice. Below 0.40 seems a reasonable alternative. This should be
+briefly discussed. Was a sensitivity analysis restricted to patients with EF<0.40 performed?
+As mentioned in the introduction the reason for the alleged differences between middle-aged and elderly patients in the effect
+of betablockers could be differences in LVEF (typically less reduction in EF with increasing age). It would be very useful to also
+include in this manuscript whether there is interaction by (i.e. effect modification by) LVEF (apart from age and gender). It
+would also be interesting to see whether the, limited, interaction by age on the outcome HF hospitalizations is explained by
+LVEF. This analysis could be included.
+A number-needed-to-treat of e.g. 23 per 1.3 years is in my view not a very useful number. Why not present the number of
+patient-years needed to treat (i.e 30)? This also makes more sense because many patients will be treated much longer than
+1.3 years and also because the authors apply Cox regression, which can model different models no follow-time for individual
+patients. I suggest to substitute the NNT by the number of patient years needed, also in the tables.
+
+To define tolerability as “as the dose achieved as a percentage of maximum target dose, according to the particular betablocker and specific trial design” is not very accurate; tolerability is / can be much more that just the dosage. Moreover dosing
+regimens differed between the trials. It is more accurate to call it what is actually is: dose achieved as a proportion of the
+target dose (and not use the term tolerability here).
+“We prespecified adjustment in Cox models for age, gender, prior MI and baseline NYHA class (I/II vs. III/IV), LVEF, heart
+rate, systolic blood pressure, diuretic therapy and angiotensin converting enzyme inhibitors (ACEi) or angiotensin receptor
+blockers (ARB)”. Why was this done: because all trials were large and randomly allocated patients at an individual level,
+adjustment seems not necessary and could be done only in case of incomparability in potential confounders between the
+betablocker and placebo group. Why was this decided in advance?
+Moreover, only the adjusted analyses are presented, and not the crude analyses. Did the effect materially change after
+adjustment? Some information on this would be useful.
+One could argue that a random effects model rather than a fixed effects model should be the primary analysis. I could find the
+sensitivity analysis presenting the random effects model in the supplementary material, albeit that the presented results were
+very limited. Reassurance from the authors that the conclusion regarding (the lack of) effect modification by age and gender is
+similar when a random effects model is applied, would be useful.
+“As the follow-up periods in individual studies varied, data were censored at 1200 days
+(3.3 years) from randomization”. I do not fully understand why this was done: Cox regression can deal with individuals with
+varying follow-up times and there is no need for truncation. This implies that important information was thrown away. Further,
+why was 1200 days chosen?
+“Interactions were assessed in all models according to best practice”. This is too vague; surely several effect modifiers for
+which interaction was assessed must have been identified in advance. Please explain in more detail what was done here.
+The authors mention that there were missing data (as in virtually all studies). How did they handle missing data? Last
+observation carried forward (LOCF), multiple imputation, or some other type of imputation?
+“Our assessment confirms that irrespective of comorbidity, patients in sinus rhythm benefit from beta-blocker therapy, a novel
+and important finding that informs clinical practice and underpins the applicability of current clinical guidelines”. This conclusion
+is too strong in my view. This analysis focused on effect modification/interaction by age and gender. The fact that with age also
+the prevalence of certain comorbidity increases doesn’t mean that this study shows that betablocker therapy is effective
+irrespective of comorbidity. A similar study focusing on major comorbidities is required for that and some comorbidities (eg
+dementia) are poorly represented in the trials. This conclusion should be rephrased and focus on age and gender.
+I suggest to include the quartiles for age in the tables 2 and 3 and, gender specific, in table 4. Consequently, Table 1 could be
+deleted.
+(Vey) minor remark: Abstract: “Prospectively designed IPD meta-analysis”: please delete the word prospectively, because it is
+non-informative
+Arno W. Hoes, MD, PhD, FESC

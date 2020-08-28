@@ -1,0 +1,594 @@
+As the software is available and in use in multiple institutions (and thus tried and tested), I have no problems with accepting the manuscript. I feel that the manuscript and/or the linked documentation would benefit from some changes noted below. Install Having a copy of the install instruction in the downloaded tarball would be useful. The “cf” executable uses the FindBin Perl module to establish the location of the script and hence the relative path to the CF Perl modules. Therefore the install must add the clusterflow directory to the PATH and would not function if the “cf” executable was symlinked to a directory on the PATH. This should be made clear in the install instructions although this is alluded to in the manuscript. Adding genomes The program can add genomes from installed locations in the filesystem. A helper script to autoinstall from Ensembl/UCSC public sites would be a benefit. Moreover it is unclear if missing index files for mapping programs are generated automatically and permanently stored when running pipelines. This would be useful and easy to implement. Metadata I am glad to see the workflow captures metadata such as software versions and this should be highlighted in the manuscript. A reporting tool to extract this information, perhaps in a tabular format, from the log files would be useful. Reproducibility Output from the pipelines are depended on the software versions on the PATH. This is not ideal and an easy way to configure software versions would be useful to allow reproducible pipelines. I assume that “modules” are what the maintainers imagine most people would use? Docker would have been a nice solution. Adding programs There is information in the on-line documentation to add new programs to clusterflow by writing wrappers. This functionality should be noted in the manuscript. Upgrades It is unclear how clusterflow can upgraded (I assume that new tarball needs to be downloaded) and whether there are repositories for new pipelines or tools. For example it would be useful for a community facility for depositing new tools and pipelines. Language Is providing compatibility with the common workflow language [CWL] 1 ​​​​​​​ a possibility or a likelihood? Resources I would like more detail on the following: How exactly is runs/threads/memory managed on a single node cluster? How happens if multiple users each run cf? Are instances aware of each other? Do the scripts check how many jobs are running or how much free memory is available? References 1. Amstutz P, Tijanić N, Chapman B, Chilton J, et al.: Common Workflow Language, v1.0. Figshare . 2016. Competing Interests: No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Kerr ARW and Webb S. Reviewer Report For: Cluster Flow: A user-friendly bioinformatics workflow tool [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2824 ( https://doi.org/10.5256/f1000research.11134.r18295 ) The direct URL for this report is: https://f1000research.com/articles/5-2824/v1#referee-response-18295 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 02 May 2017 Philip Ewels , Stockholm University, Stockholm, Sweden 02 May 2017 Author Response Many thanks for your time in reading the Cluster Flow manuscript and your helpful comments. We have revised the manuscript to address these points and are grateful for the help in ... Continue reading Many thanks for your time in reading the Cluster Flow manuscript and your helpful comments. We have revised the manuscript to address these points and are grateful for the help in improving the quality of the paper. Responses to specific comments are described below: Having a copy of the install instruction in the downloaded tarball would be useful. All of the Cluster Flow documentation is included with the downloaded tarball as markdown files within the ‘docs’ directory. However, we agree that this could be more visible. We have rewritten the main README.md file (also shown on the GitHub front page) to include brief installation instructions with a link to the longer documentation. The “cf” executable uses the FindBin Perl module to establish the location of the script and hence the relative path to the CF Perl modules. Therefore the install must add the clusterflow directory to the PATH and would not function if the “cf” executable was symlinked to a directory on the PATH. This should be made clear in the install instructions although this is alluded to in the manuscript. Thank you for alerting us to this issue. We have updated Cluster Flow to use $RealBin instead of $Bin, which makes it work with symlinks. The program can add genomes from installed locations in the filesystem. A helper script to autoinstall from Ensembl/UCSC public sites would be a benefit. Moreover it is unclear if missing index files for mapping programs are generated automatically and permanently stored when running pipelines. This would be useful and easy to implement. We agree that such a helper script would be useful and will look into writing this for a future release. At the time of writing, missing index files are not automatically generated. We recommend using illumina iGenomes where appropriate. We have written a helper tool to add centralised reference genomes for users running Cluster Flow on the Swedish UPPMAX clusters. I am glad to see the workflow captures metadata such as software versions and this should be highlighted in the manuscript. A reporting tool to extract this information, perhaps in a tabular format, from the log files would be useful. Mention of this has been added to the manuscript (section: Notifications and logging ). In the new Cluster Flow release (v0.5), modules have been updated to extract and standardise the version numbers. These are now included in summary e-mails and parsed by a new Cluster Flow module written for MultiQC. MultiQC produces also machine-readable versions of this data (tsv, csv, json or yaml). Output from the pipelines are depended on the software versions on the PATH. This is not ideal and an easy way to configure software versions would be useful to allow reproducible pipelines. I assume that “modules” are what the maintainers imagine most people would use? Docker would have been a nice solution. As the reviewer suggests, Cluster Flow was primarily designed for use with environment modules as a method to standardise tools used and support for that is built in. We have added to the Cluster Flow submission log file, which now contains information about all loaded environment modules, all directories currently on the PATH, the current user and information about the compute environment. Users are able to run Cluster Flow inside a docker container if desired, using local mode. There is information in the on-line documentation to add new programs to clusterflow by writing wrappers. This functionality should be noted in the manuscript. This is now described within the manuscript (section: Modules and pipelines ). It is unclear how clusterflow can upgraded (I assume that new tarball needs to be downloaded) and whether there are repositories for new pipelines or tools. For example it would be useful for a community facility for depositing new tools and pipelines. This is correct, Cluster Flow is updated by replacing the program files with a new tarball download. A community repository for Cluster Flow modules and pipelines has previously been discussed, and we hope to be able to work on this project in the future. Is providing compatibility with the common workflow language [CWL]​​​​​ a possibility or a likelihood? The authors have looked into such compatibility in the past, including discussing the point with Michael Crusoe when he visited our institute to present CWL. Unfortunately, due to differing assumptions and architectures within the two systems it seems unlikely that this will be pursued. How exactly is runs/threads/memory managed on a single node cluster? How happens if multiple users each run cf? Are instances aware of each other? Do the scripts check how many jobs are running or how much free memory is available? Running Cluster Flow in local mode on a single node cluster is fairly simplistic. There is no resource management and instances are not aware of each other. It was primarily written for easy testing and low-throughput runs where this will not be a problem. If running a lot of jobs on a single server we recommend installing a job management system such as SLURM. We have added a sentence describing this to the manuscript (section: Use Cases ). Many thanks for your time in reading the Cluster Flow manuscript and your helpful comments. We have revised the manuscript to address these points and are grateful for the help in improving the quality of the paper. Responses to specific comments are described below: Having a copy of the install instruction in the downloaded tarball would be useful. All of the Cluster Flow documentation is included with the downloaded tarball as markdown files within the ‘docs’ directory. However, we agree that this could be more visible. We have rewritten the main README.md file (also shown on the GitHub front page) to include brief installation instructions with a link to the longer documentation. The “cf” executable uses the FindBin Perl module to establish the location of the script and hence the relative path to the CF Perl modules. Therefore the install must add the clusterflow directory to the PATH and would not function if the “cf” executable was symlinked to a directory on the PATH. This should be made clear in the install instructions although this is alluded to in the manuscript. Thank you for alerting us to this issue. We have updated Cluster Flow to use $RealBin instead of $Bin, which makes it work with symlinks. The program can add genomes from installed locations in the filesystem. A helper script to autoinstall from Ensembl/UCSC public sites would be a benefit. Moreover it is unclear if missing index files for mapping programs are generated automatically and permanently stored when running pipelines. This would be useful and easy to implement. We agree that such a helper script would be useful and will look into writing this for a future release. At the time of writing, missing index files are not automatically generated. We recommend using illumina iGenomes where appropriate. We have written a helper tool to add centralised reference genomes for users running Cluster Flow on the Swedish UPPMAX clusters. I am glad to see the workflow captures metadata such as software versions and this should be highlighted in the manuscript. A reporting tool to extract this information, perhaps in a tabular format, from the log files would be useful. Mention of this has been added to the manuscript (section: Notifications and logging ). In the new Cluster Flow release (v0.5), modules have been updated to extract and standardise the version numbers. These are now included in summary e-mails and parsed by a new Cluster Flow module written for MultiQC. MultiQC produces also machine-readable versions of this data (tsv, csv, json or yaml). Output from the pipelines are depended on the software versions on the PATH. This is not ideal and an easy way to configure software versions would be useful to allow reproducible pipelines. I assume that “modules” are what the maintainers imagine most people would use? Docker would have been a nice solution. As the reviewer suggests, Cluster Flow was primarily designed for use with environment modules as a method to standardise tools used and support for that is built in. We have added to the Cluster Flow submission log file, which now contains information about all loaded environment modules, all directories currently on the PATH, the current user and information about the compute environment. Users are able to run Cluster Flow inside a docker container if desired, using local mode. There is information in the on-line documentation to add new programs to clusterflow by writing wrappers. This functionality should be noted in the manuscript. This is now described within the manuscript (section: Modules and pipelines ). It is unclear how clusterflow can upgraded (I assume that new tarball needs to be downloaded) and whether there are repositories for new pipelines or tools. For example it would be useful for a community facility for depositing new tools and pipelines. This is correct, Cluster Flow is updated by replacing the program files with a new tarball download. A community repository for Cluster Flow modules and pipelines has previously been discussed, and we hope to be able to work on this project in the future. Is providing compatibility with the common workflow language [CWL]​​​​​ a possibility or a likelihood? The authors have looked into such compatibility in the past, including discussing the point with Michael Crusoe when he visited our institute to present CWL. Unfortunately, due to differing assumptions and architectures within the two systems it seems unlikely that this will be pursued. How exactly is runs/threads/memory managed on a single node cluster? How happens if multiple users each run cf? Are instances aware of each other? Do the scripts check how many jobs are running or how much free memory is available? Running Cluster Flow in local mode on a single node cluster is fairly simplistic. There is no resource management and instances are not aware of each other. It was primarily written for easy testing and low-throughput runs where this will not be a problem. If running a lot of jobs on a single server we recommend installing a job management system such as SLURM. We have added a sentence describing this to the manuscript (section: Use Cases ). Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 02 May 2017 Philip Ewels , Stockholm University, Stockholm, Sweden 02 May 2017 Author Response Many thanks for your time in reading the Cluster Flow manuscript and your helpful comments. We have revised the manuscript to address these points and are grateful for the help in ... Continue reading Many thanks for your time in reading the Cluster Flow manuscript and your helpful comments. We have revised the manuscript to address these points and are grateful for the help in improving the quality of the paper. Responses to specific comments are described below: Having a copy of the install instruction in the downloaded tarball would be useful. All of the Cluster Flow documentation is included with the downloaded tarball as markdown files within the ‘docs’ directory. However, we agree that this could be more visible. We have rewritten the main README.md file (also shown on the GitHub front page) to include brief installation instructions with a link to the longer documentation. The “cf” executable uses the FindBin Perl module to establish the location of the script and hence the relative path to the CF Perl modules. Therefore the install must add the clusterflow directory to the PATH and would not function if the “cf” executable was symlinked to a directory on the PATH. This should be made clear in the install instructions although this is alluded to in the manuscript. Thank you for alerting us to this issue. We have updated Cluster Flow to use $RealBin instead of $Bin, which makes it work with symlinks. The program can add genomes from installed locations in the filesystem. A helper script to autoinstall from Ensembl/UCSC public sites would be a benefit. Moreover it is unclear if missing index files for mapping programs are generated automatically and permanently stored when running pipelines. This would be useful and easy to implement. We agree that such a helper script would be useful and will look into writing this for a future release. At the time of writing, missing index files are not automatically generated. We recommend using illumina iGenomes where appropriate. We have written a helper tool to add centralised reference genomes for users running Cluster Flow on the Swedish UPPMAX clusters. I am glad to see the workflow captures metadata such as software versions and this should be highlighted in the manuscript. A reporting tool to extract this information, perhaps in a tabular format, from the log files would be useful. Mention of this has been added to the manuscript (section: Notifications and logging ). In the new Cluster Flow release (v0.5), modules have been updated to extract and standardise the version numbers. These are now included in summary e-mails and parsed by a new Cluster Flow module written for MultiQC. MultiQC produces also machine-readable versions of this data (tsv, csv, json or yaml). Output from the pipelines are depended on the software versions on the PATH. This is not ideal and an easy way to configure software versions would be useful to allow reproducible pipelines. I assume that “modules” are what the maintainers imagine most people would use? Docker would have been a nice solution. As the reviewer suggests, Cluster Flow was primarily designed for use with environment modules as a method to standardise tools used and support for that is built in. We have added to the Cluster Flow submission log file, which now contains information about all loaded environment modules, all directories currently on the PATH, the current user and information about the compute environment. Users are able to run Cluster Flow inside a docker container if desired, using local mode. There is information in the on-line documentation to add new programs to clusterflow by writing wrappers. This functionality should be noted in the manuscript. This is now described within the manuscript (section: Modules and pipelines ). It is unclear how clusterflow can upgraded (I assume that new tarball needs to be downloaded) and whether there are repositories for new pipelines or tools. For example it would be useful for a community facility for depositing new tools and pipelines. This is correct, Cluster Flow is updated by replacing the program files with a new tarball download. A community repository for Cluster Flow modules and pipelines has previously been discussed, and we hope to be able to work on this project in the future. Is providing compatibility with the common workflow language [CWL]​​​​​ a possibility or a likelihood? The authors have looked into such compatibility in the past, including discussing the point with Michael Crusoe when he visited our institute to present CWL. Unfortunately, due to differing assumptions and architectures within the two systems it seems unlikely that this will be pursued. How exactly is runs/threads/memory managed on a single node cluster? How happens if multiple users each run cf? Are instances aware of each other? Do the scripts check how many jobs are running or how much free memory is available? Running Cluster Flow in local mode on a single node cluster is fairly simplistic. There is no resource management and instances are not aware of each other. It was primarily written for easy testing and low-throughput runs where this will not be a problem. If running a lot of jobs on a single server we recommend installing a job management system such as SLURM. We have added a sentence describing this to the manuscript (section: Use Cases ). Many thanks for your time in reading the Cluster Flow manuscript and your helpful comments. We have revised the manuscript to address these points and are grateful for the help in improving the quality of the paper. Responses to specific comments are described below: Having a copy of the install instruction in the downloaded tarball would be useful. All of the Cluster Flow documentation is included with the downloaded tarball as markdown files within the ‘docs’ directory. However, we agree that this could be more visible. We have rewritten the main README.md file (also shown on the GitHub front page) to include brief installation instructions with a link to the longer documentation. The “cf” executable uses the FindBin Perl module to establish the location of the script and hence the relative path to the CF Perl modules. Therefore the install must add the clusterflow directory to the PATH and would not function if the “cf” executable was symlinked to a directory on the PATH. This should be made clear in the install instructions although this is alluded to in the manuscript. Thank you for alerting us to this issue. We have updated Cluster Flow to use $RealBin instead of $Bin, which makes it work with symlinks. The program can add genomes from installed locations in the filesystem. A helper script to autoinstall from Ensembl/UCSC public sites would be a benefit. Moreover it is unclear if missing index files for mapping programs are generated automatically and permanently stored when running pipelines. This would be useful and easy to implement. We agree that such a helper script would be useful and will look into writing this for a future release. At the time of writing, missing index files are not automatically generated. We recommend using illumina iGenomes where appropriate. We have written a helper tool to add centralised reference genomes for users running Cluster Flow on the Swedish UPPMAX clusters. I am glad to see the workflow captures metadata such as software versions and this should be highlighted in the manuscript. A reporting tool to extract this information, perhaps in a tabular format, from the log files would be useful. Mention of this has been added to the manuscript (section: Notifications and logging ). In the new Cluster Flow release (v0.5), modules have been updated to extract and standardise the version numbers. These are now included in summary e-mails and parsed by a new Cluster Flow module written for MultiQC. MultiQC produces also machine-readable versions of this data (tsv, csv, json or yaml). Output from the pipelines are depended on the software versions on the PATH. This is not ideal and an easy way to configure software versions would be useful to allow reproducible pipelines. I assume that “modules” are what the maintainers imagine most people would use? Docker would have been a nice solution. As the reviewer suggests, Cluster Flow was primarily designed for use with environment modules as a method to standardise tools used and support for that is built in. We have added to the Cluster Flow submission log file, which now contains information about all loaded environment modules, all directories currently on the PATH, the current user and information about the compute environment. Users are able to run Cluster Flow inside a docker container if desired, using local mode. There is information in the on-line documentation to add new programs to clusterflow by writing wrappers. This functionality should be noted in the manuscript. This is now described within the manuscript (section: Modules and pipelines ). It is unclear how clusterflow can upgraded (I assume that new tarball needs to be downloaded) and whether there are repositories for new pipelines or tools. For example it would be useful for a community facility for depositing new tools and pipelines. This is correct, Cluster Flow is updated by replacing the program files with a new tarball download. A community repository for Cluster Flow modules and pipelines has previously been discussed, and we hope to be able to work on this project in the future. Is providing compatibility with the common workflow language [CWL]​​​​​ a possibility or a likelihood? The authors have looked into such compatibility in the past, including discussing the point with Michael Crusoe when he visited our institute to present CWL. Unfortunately, due to differing assumptions and architectures within the two systems it seems unlikely that this will be pursued. How exactly is runs/threads/memory managed on a single node cluster? How happens if multiple users each run cf? Are instances aware of each other? Do the scripts check how many jobs are running or how much free memory is available? Running Cluster Flow in local mode on a single node cluster is fairly simplistic. There is no resource management and instances are not aware of each other. It was primarily written for easy testing and low-throughput runs where this will not be a problem. If running a lot of jobs on a single server we recommend installing a job management system such as SLURM. We have added a sentence describing this to the manuscript (section: Use Cases ). Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 2 VERSION 2 PUBLISHED 06 Dec 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 2 (revision) 02 May 17 read Version 1 06 Dec 16 read read read Alastair R. W. Kerr , University of Edinburgh, Edinburgh, UK Shaun Webb , University of Edinburgh, Edinburgh, UK Stephen Taylor , University of Oxford, Oxford, UK Jelena Telenius , University of Oxford, John Radcliffe Hospital, Headington, Oxford, UK David R. Powell , Monash University, Clayton, Australia Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Kerr A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 03 May 2017 | for Version 2 Alastair R. W. Kerr , Wellcome Trust Centre for Cell Biology, University of Edinburgh, Edinburgh, UK 0 Views copyright © 2017 Kerr A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions I thank the authors for thoroughly addressing the points raised. I have no further suggestions for the manuscript. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Kerr ARW. Peer Review Report For: Cluster Flow: A user-friendly bioinformatics workflow tool [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2824 ( https://doi.org/10.5256/f1000research.12430.r22445) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2824/v2#referee-response-22445 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Powell D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 16 Feb 2017 | for Version 1 David R. Powell , Monash Bioinformatics Platform, Monash University, Clayton, VIC, Australia 0 Views copyright © 2017 Powell D. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This paper describes a pipeline tool, Cluster Flow, (http://clusterflow.io/) specifically for bioinformatics processing. Cluster Flow is well documented, and comes with many pipelines, and modules. Pipelines are built by combining modules. Modules define how to run specific tools, including the CPU and RAM requirements. The tool works by specifying a pipeline to run, which then creates a shell script that either submits jobs to a cluster or runs locally depending on configuration. Cluster Flow is designed to be simple to use, but it does lack basic pipeline features such as being able to automatically re-run stages of a pipeline. It is not clear whether parameters can be changed when running a pipeline. For example, selecting different adaptors for trimming, or different mapping thresholds for a short read aligner. While Cluster Flow is designed to be simple, it seems such a feature would be commonly needed. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 02 May 2017 Philip Ewels, Stockholm University, Stockholm, Sweden We thank the reviewer for this review. Pipeline parameters can indeed be changed (for example, adapters and trimming lengths) using the --params command line option. New documentation about this has been written and mention of it added to the manuscript (section: Modules and pipelines ). View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Powell DR. Peer Review Report For: Cluster Flow: A user-friendly bioinformatics workflow tool [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2824 ( https://doi.org/10.5256/f1000research.11134.r18293) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2824/v1#referee-response-18293 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2017 Taylor S et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 13 Feb 2017 | for Version 1 Stephen Taylor , Computational Biology Research Group (CBRG), Weatherall Institute of Molecular Medicine (WIMM), John Radcliffe Hospital, University of Oxford, Oxford, UK Jelena Telenius , Weatherall Insitutute of Molecular Medicine (WIMM), University of Oxford, John Radcliffe Hospital, Headington, Oxford, UK 0 Views copyright © 2017 Taylor S et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The authors present a useful automation pipeline for institutes, where significant amounts of similar analyses are run on daily basis. It’s nice that potential users can get an idea of software by using the interactive web based terminal session (on http://clusterflow.io/ ). We recommend the software should be published but we have the following comments/questions. 1) We installed the software fairly easily to run in ‘local mode’, although we couldn’t get it to run using Sun Grid Engine. It would be useful to put more documentation and/or examples here. 2) How easy it is to add non Perl code to the software? It appears Perl is the main language to configure the pipelines but we were wondering about other languages. Are there standard procedures or templates for including R scripts and passing parameters to them, for example? 3) Can one fine-tune the pipeline while running it? In contrast to adding changes to the pipelines, or adding new tools to the pipelines ( which is more a system admin / senior bioinformatician task ), one often needs to make frequent calls about "which parameters suit the analysis of this sequencing library the best" e.g. Thresholds for peak calling in ChIP-Seq. Can such thresholds be easily applied running the pipeline on the fly? 4) Which kind of visualisation/report generating software do the authors recommend? As the pipeline produces a folder full of output results, it makes sense to have software to inspect these results. Which kind of software do you recommend to be used to this kind of task? Is there a concept of building reports? For example, is it recommended to use Labrador with CF (https://github.com/ewels/labrador)? 5) How do the authors envisage managing multiple versions of very similar pipelines across different users and use cases without things becoming confusing and to encourage reuse of pipelines, rather than just creating new instances? Competing Interests No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 02 May 2017 Philip Ewels, Stockholm University, Stockholm, Sweden Many thanks for your time in reading the Cluster Flow manuscript and your helpful comments. We have revised the manuscript to address these points and are grateful for the help in improving the quality of the paper. Responses to specific comments are described below: 1) We installed the software fairly easily to run in ‘local mode’, although we couldn’t get it to run using Sun Grid Engine. It would be useful to put more documentation and/or examples here. We have extended the installation documentation available on the website. A walkthrough screencast tutorial is available on the Cluster Flow homepage (and YouTube). More concrete examples are difficult due to the varying setups of different clusters, though we continue to provide support via GitHub issues and e-mail. It appears Perl is the main language to configure the pipelines but we were wondering about other languages. Are there standard procedures or templates for including R scripts and passing parameters to them, for example? Any language can be used for software modules, however Perl is recommended because of the available Cluster Flow functions which greatly simplify the interaction with the core program. There have been example modules bundled with Cluster Flow for Python and R, but they are difficult to maintain with the changes to the core Cluster Flow code and not advertised as a result. From experience, we find that it is usually easier to write a simple perl module is written which in turn executes downstream custom scripts. In contrast to adding changes to the pipelines, or adding new tools to the pipelines ( which is more a system admin / senior bioinformatician task ), one often needs to make frequent calls about "which parameters suit the analysis of this sequencing library the best" e.g. Thresholds for peak calling in ChIP-Seq. Can such thresholds be easily applied running the pipeline on the fly? Whilst parameters and thresholds cannot be altered once a pipeline is running, it is possible to tweak such settings when launching an analysis. This is done by using the --params command line flag (can also be specified within pipeline files). We were somewhat shocked to realise that there was no documentation of this feature anywhere and have added a new section to the Cluster Flow documentation. This describes all available --params for every module. We have added mention of this to the manuscript (section: Modules and pipelines ). As the pipeline produces a folder full of output results, it makes sense to have software to inspect these results. Which kind of software do you recommend to be used to this kind of task? Is there a concept of building reports? For example, is it recommended to use Labrador with CF (https://github.com/ewels/labrador)? Labrador is able to view some results from Cluster Flow pipelines (such as the .html completion report). However, the authors have written another tool called MultiQC which is able to summarise all results from a pipeline into a single html file [1]. See http://multiqc.info for more information. 5) How do the authors envisage managing multiple versions of very similar pipelines across different users and use cases without things becoming confusing and to encourage reuse of pipelines, rather than just creating new instances? This is of some concern to the authors, and we encourage users to submit new modules and pipelines back to the main Cluster Flow repository so that they are available to everyone. However, we do not want to sacrifice flexibility, and so aim for maximum traceability by saving pipeline and module information for every run. A central repository for modules and pipelines has also been discussed (see comments to review 1 above) but is not yet being actively worked on. [1] MultiQC: Summarize analysis results for multiple tools and samples in a single report. Philip Ewels, Mns Magnusson, Sverker Lundin and Max Kller. Bioinformatics (2016) doi: 10.1093/bioinformatics/btw354 View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Taylor S and Telenius J. Peer Review Report For: Cluster Flow: A user-friendly bioinformatics workflow tool [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2824 ( https://doi.org/10.5256/f1000research.11134.r18292) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2824/v1#referee-response-18292 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Kerr A et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 19 Dec 2016 | for Version 1 Alastair R. W. Kerr , Wellcome Trust Centre for Cell Biology, University of Edinburgh, Edinburgh, UK Shaun Webb , Wellcome Trust Centre for Cell Biology, University of Edinburgh, Edinburgh, UK 0 Views copyright © 2016 Kerr A et al. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions As the software is available and in use in multiple institutions (and thus tried and tested), I have no problems with accepting the manuscript. I feel that the manuscript and/or the linked documentation would benefit from some changes noted below. Install Having a copy of the install instruction in the downloaded tarball would be useful. The “cf” executable uses the FindBin Perl module to establish the location of the script and hence the relative path to the CF Perl modules. Therefore the install must add the clusterflow directory to the PATH and would not function if the “cf” executable was symlinked to a directory on the PATH. This should be made clear in the install instructions although this is alluded to in the manuscript. Adding genomes The program can add genomes from installed locations in the filesystem. A helper script to autoinstall from Ensembl/UCSC public sites would be a benefit. Moreover it is unclear if missing index files for mapping programs are generated automatically and permanently stored when running pipelines. This would be useful and easy to implement. Metadata I am glad to see the workflow captures metadata such as software versions and this should be highlighted in the manuscript. A reporting tool to extract this information, perhaps in a tabular format, from the log files would be useful. Reproducibility Output from the pipelines are depended on the software versions on the PATH. This is not ideal and an easy way to configure software versions would be useful to allow reproducible pipelines. I assume that “modules” are what the maintainers imagine most people would use? Docker would have been a nice solution. Adding programs There is information in the on-line documentation to add new programs to clusterflow by writing wrappers. This functionality should be noted in the manuscript. Upgrades It is unclear how clusterflow can upgraded (I assume that new tarball needs to be downloaded) and whether there are repositories for new pipelines or tools. For example it would be useful for a community facility for depositing new tools and pipelines. Language Is providing compatibility with the common workflow language [CWL] 1 ​​​​​​​ a possibility or a likelihood? Resources I would like more detail on the following: How exactly is runs/threads/memory managed on a single node cluster? How happens if multiple users each run cf? Are instances aware of each other? Do the scripts check how many jobs are running or how much free memory is available? References 1. Amstutz P, Tijanić N, Chapman B, Chilton J, et al.: Common Workflow Language, v1.0. Figshare . 2016. Competing Interests No competing interests were disclosed. We confirm that we have read this submission and believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 02 May 2017 Philip Ewels, Stockholm University, Stockholm, Sweden Many thanks for your time in reading the Cluster Flow manuscript and your helpful comments. We have revised the manuscript to address these points and are grateful for the help in improving the quality of the paper. Responses to specific comments are described below: Having a copy of the install instruction in the downloaded tarball would be useful. All of the Cluster Flow documentation is included with the downloaded tarball as markdown files within the ‘docs’ directory. However, we agree that this could be more visible. We have rewritten the main README.md file (also shown on the GitHub front page) to include brief installation instructions with a link to the longer documentation. The “cf” executable uses the FindBin Perl module to establish the location of the script and hence the relative path to the CF Perl modules. Therefore the install must add the clusterflow directory to the PATH and would not function if the “cf” executable was symlinked to a directory on the PATH. This should be made clear in the install instructions although this is alluded to in the manuscript. Thank you for alerting us to this issue. We have updated Cluster Flow to use $RealBin instead of $Bin, which makes it work with symlinks. The program can add genomes from installed locations in the filesystem. A helper script to autoinstall from Ensembl/UCSC public sites would be a benefit. Moreover it is unclear if missing index files for mapping programs are generated automatically and permanently stored when running pipelines. This would be useful and easy to implement. We agree that such a helper script would be useful and will look into writing this for a future release. At the time of writing, missing index files are not automatically generated. We recommend using illumina iGenomes where appropriate. We have written a helper tool to add centralised reference genomes for users running Cluster Flow on the Swedish UPPMAX clusters. I am glad to see the workflow captures metadata such as software versions and this should be highlighted in the manuscript. A reporting tool to extract this information, perhaps in a tabular format, from the log files would be useful. Mention of this has been added to the manuscript (section: Notifications and logging ). In the new Cluster Flow release (v0.5), modules have been updated to extract and standardise the version numbers. These are now included in summary e-mails and parsed by a new Cluster Flow module written for MultiQC. MultiQC produces also machine-readable versions of this data (tsv, csv, json or yaml). Output from the pipelines are depended on the software versions on the PATH. This is not ideal and an easy way to configure software versions would be useful to allow reproducible pipelines. I assume that “modules” are what the maintainers imagine most people would use? Docker would have been a nice solution. As the reviewer suggests, Cluster Flow was primarily designed for use with environment modules as a method to standardise tools used and support for that is built in. We have added to the Cluster Flow submission log file, which now contains information about all loaded environment modules, all directories currently on the PATH, the current user and information about the compute environment. Users are able to run Cluster Flow inside a docker container if desired, using local mode. There is information in the on-line documentation to add new programs to clusterflow by writing wrappers. This functionality should be noted in the manuscript. This is now described within the manuscript (section: Modules and pipelines ). It is unclear how clusterflow can upgraded (I assume that new tarball needs to be downloaded) and whether there are repositories for new pipelines or tools. For example it would be useful for a community facility for depositing new tools and pipelines. This is correct, Cluster Flow is updated by replacing the program files with a new tarball download. A community repository for Cluster Flow modules and pipelines has previously been discussed, and we hope to be able to work on this project in the future. Is providing compatibility with the common workflow language [CWL]​​​​​ a possibility or a likelihood? The authors have looked into such compatibility in the past, including discussing the point with Michael Crusoe when he visited our institute to present CWL. Unfortunately, due to differing assumptions and architectures within the two systems it seems unlikely that this will be pursued. How exactly is runs/threads/memory managed on a single node cluster? How happens if multiple users each run cf? Are instances aware of each other? Do the scripts check how many jobs are running or how much free memory is available? Running Cluster Flow in local mode on a single node cluster is fairly simplistic. There is no resource management and instances are not aware of each other. It was primarily written for easy testing and low-throughput runs where this will not be a problem. If running a lot of jobs on a single server we recommend installing a job management system such as SLURM. We have added a sentence describing this to the manuscript (section: Use Cases ). View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Kerr ARW and Webb S. Peer Review Report For: Cluster Flow: A user-friendly bioinformatics workflow tool [version 2; peer review: 3 approved] . F1000Research 2017, 5 :2824 ( https://doi.org/10.5256/f1000research.11134.r18295) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2824/v1#referee-response-18295 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Cluster Flow: A user-friendly bioinformatics...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2824/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2824/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2824/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Ewels P et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2824/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2824",
+ templates : {
+ twitter : "Cluster Flow: A user-friendly bioinformatics workflow tool. Ewels P et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2824/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Cluster Flow: A user-friendly bioinformatics workflow tool", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Software Tool Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Cluster Flow: A user-friendly bioinformatics workflow tool", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/10335/12430")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "12430");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "18372": 0,
+ "22379": 0,
+ "22380": 0,
+ "22445": 18,
+ "22381": 0,
+ "18291": 0,
+ "18292": 27,
+ "19252": 0,
+ "18293": 30,
+ "19253": 0,
+ "18294": 0,
+ "19254": 0,
+ "18295": 51,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "c89d7ffb-e850-4e9e-99ea-e93a7b2b31b4";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

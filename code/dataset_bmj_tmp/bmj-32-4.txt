@@ -1,0 +1,127 @@
+This study is one of the largest deprescribing interventional trials to be performed in
+community practice and the investigators should be congratulated on their
+accomplishment. The manuscript requires revisions.
+Abstract:
+Comprehensive medication review- please add in throughout the manuscript that it was a
+medication review supported by electronic decision support
+Intervention- please add “potentially” inappropriate
+Please briefly mention what treatment as usual is (is it not standard for the GP to review a
+patient’s medications at each visit? I think usual care would be a medication review
+without embedded decision support?)
+Please careful not to equate the primary outcome (composite of death or hospitalization)
+with no health benefits found. Would simply state no difference in death or hospitalization
+as you didn’t study all possible health benefits (same comment for the section “what this
+study adds” and throughout the manuscript).
+Main paper:
+Introduction: please discuss electronic decision support in deprescribing and its
+effectiveness (not necessarily in primary practice- could be in any jurisdiction- to support
+the concept the eDS in deprescribing can be successful).
+
+I’m debating the wording of the sentence in the intro that states the CMR contains the
+current best evidence. From what I understand, it contains a curated list of common
+medications and conditions that are responsible for ADRs based on the authors’ own review
+of the literature (i'm basing this on reference 6). Some people may think that current best
+evidence refers to existing lists of potentially inappropriate medications (PIMs) such as the
+STOPP criteria and Beer’s list. I think it needs to be made clear throughout the manuscript
+that the authors developed their own list. Current best evidence should be replaced by “a
+curated list of common medications and condition combinations that have been shown to
+cause ADRs in the literature” or something akin to this. The authors will also need to
+discuss if that list has been validated, how, and in what context.
+I think that throughout the manuscript CMR should be changed to eDS-CMR to distinguish
+that the intervention was not just a comprehensive medication review, but an electronic
+decision supported review.
+Regarding the curated list, it should be made clear that it does not contain anticholinergics
+or sedatives (from what I can tell). The CMR mainly contains cardiovascular and diabetes
+drugs (unless I have misunderstood). It contains PPIs, ACEi, BB, CCB, nitrates, blood
+thinners, insulin and oral hypoglycemics. Stopping these in healthy community dwelling
+adults may not decrease mortality or hospitalization.
+Reference 6 (for best evidence) is a methodology paper and doesn’t contain the results of
+the review the authors performed from what I can tell. Is there a more up to date
+reference with the results of the review performed in order to develop the list?
+Please list what the nine common ADRs are that were considered in this study (page 9 line
+163).
+I can’t really tell much from Figure 1; is there an example of an output that could be
+included? Or screen shots that contain examples of what recommendations were provided?
+I can't tell but I don't think this example contains any recommendations?
+How many times during the 2 years was the intervention group subject to electronic
+decision support? Was it only one time or was it done at each follow-up visit? Were
+patients censored at first hospitalization or death? Please add this.
+Power calculation: was this for an absolute or relative reduction of 20%?
+Results: is each practice equal to one GP? (page 13 line 268) If not could you state as a
+total of 359 practices and xxx GPs recruited 3904 patients.
+For the SF-12 could you note what a mean score of 37 and 48 equates to? Or what the
+highest and lowest scores are (so that readers can interpret these numbers).
+Secondary outcomes: self-reported falls and quality of life. Could you add in the discussion
+and results more about quality of life results?
+For the primary outcome, could you mention the absolute numbers (ie in the TAU group
+there were x hospitalizations/deaths compared to the CMR group where there were y…)
+Was loss to follow-up differential between groups? In terms of interpreting the
+per-protocol analysis.
+For the odds ratios could you state the interpretation (I assume it is CMR compared to
+TAU) so that the findings were in favour of CMR but not statistically significant for ITT and
+significant for PP analysis. As it is stated now it just says it did not differ between groups.
+
+In table 2, the n for the primary outcome and the secondary outcome of drugs is the total
+n participants. I think it would be usual to have the n for the total number of participants
+appear at the top of the column, and then the in each row you would have the n that
+achieved the outcome.
+e.g.
+
+Outcome
+TAU (n=1951)
+Death or NEH
+XX (%)
+
+CMR (n=1953)
+YY (%)
+
+Shouldn’t this be reported as a proportion and not a mean for the primary outcome? Same
+for several of the other outcomes in this table. I understand why number of drugs is
+reported as a mean (sd). The table currently makes it look as though all outcomes are
+mean (sd).
+Should the last recorded number of drugs be recorded as an incidence rate ratio? I think
+Table 2 needs to be looked over. Suggest review the analysis with a statistician?
+In the discussion/conclusion, I think it should be carefully highlighted that this was a
+healthy population of community dwelling older adults. For the most part this was not a
+frail population (only 15% if I understand were moderately to severely frail), with a
+prognosis of >12 months and without active cancer. We should be careful not to conclude
+that the same intervention would not have impacted the composite outcome had it been
+performed in frail older adults with limited prognosis.
+In the discussion, please talk about the curated list used to guide deprescribing and its
+limitations. This study mainly addressed cardiovascular drugs and diabetes drugs (as
+evidenced by the top drugs that were deprescribed). The types of drugs that were
+deprescribed between groups did not differ significantly between groups which is
+interesting. In many deprescribing studies, one of the top prescribed/deprescribed drug
+classes is sedative hypnotics. These were not addressed in this study, nor were any
+anticholinergics or antimuscarinics (unless I have not understood the methods, in which
+case this should be clarified).
+In table 3, there is a list of top ten types of drugs, but these are not types of drugs, these
+are specific drugs. Example, the list doesn’t include drug classes (“types” of drugs) it
+includes specific drugs. Two of the top ten drugs stopped were enalapril and simvastatin,
+as opposed to ace inhibitors and statins. Perhpas these drugs were just switches (what if
+enalapril became ramipril and simvastatin became rosuvastatin?). Another example,
+pantoprazole and lansoprazole should (I think) be combined in this table and labelled as
+proton pump inhibitors.
+Suggest changing discontinued to deprescribed.
+In table 4, what was it that made these drugs contraindicated? Why was HCTZ
+contraindicated? Was it for renal function? Too “tight” blood pressure control?
+Hyponatremia? Same comment for the other drugs in this list.
+Is timolol given per os in Europe? Where I practice it is an eyedrop. In which case it
+should probably be excluded.
+I think somewhere in the methods you should differentiate between not indicated and
+contraindicated and how these were defined. Same comment as above- throughout the
+tables, most drugs should be combined into drug classes and not specific drugs (except for
+some exceptions).
+
+What would lead paracetamol to not be indicated? That must be hard to judge? What
+triggers this in the tool?
+In table 6, I would combine coumadin drugs (warfarin, phenprocoumon, acenocoumarol
+etc..)
+A lot of the drugs in the renal adjustment table I am not aware of renal adjustments for.
+Example, Lasix and bioprolol don’t really have dose adjustments that can be electronically
+flagged based on renal function. Where does this list come from?
+In table 8, please review the percentage columns. E.g. were 53.3% of patients really
+affected by improper allopurinol dosing in the CMR group at T3? this number is hard to
+interpret without the n for the denominator and seems high (much higher than the percent
+in the TAU group).
+Thank you for the opportunity to review the study.

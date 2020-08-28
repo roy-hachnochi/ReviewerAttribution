@@ -1,0 +1,57 @@
+The authors present a study of whether inaccuracies in patient identification and unmeasured patient characteristics
+might spuriously result in apparently worse outcomes for stroke patients who are admitted on weekends versus
+weekdays. Using prospectively collected data from the OXVASC study as the gold standard for the diagnosis of
+stroke, they identified cases in which administrative data on hospital discharge diagnosis codes resulted in false
+positive or false negative diagnoses of stroke. They then compared the characteristics of patients with true stroke
+versus those with false negative or false positive stroke diagnoses. Lastly, they assessed the presence of a weekend
+effect strictly in patients with a true positive diagnosis of stroke based on OXVASC data. Compared to OXVASC, they
+found that hospital discharge data missed 25% of true hospitalized strokes (false negatives). Among all patients
+with a hospital discharge diagnosis of stroke, 38% were ruled to be not a true stroke (false positives). False
+negatives were no more or less common on weekdays versus weekends, but false positives were more common on
+weekdays than weekends. Since these false positive cases generally represented lower-acuity cases (e.g., elective
+admission for rehabilitation or endarterectomy), they would be expected to artificially skew the mortality rate of
+weekday stroke admissions downward, which is indeed what the authors found. When comparing weekday versus
+weekend mortality only among true positive cases of stroke, the authors found no evidence of worse outcomes on
+weekends.
+This is a timely, well-designed, and well-written study. The benefits of the study include the large, thorough
+OXVASC study population to serve as a reliable gold standard. The methods are sound and the conclusions
+reasonably drawn. Although I do not work in the U.K., I agree with the authors that these findings are sure to
+beneficially inform the U.K. debate about weekend staffing in the NHS. More generally, they will serve as yet
+
+another cautionary tale for policymakers looking to use administrative data to direct healthcare practices. Lastly,
+these findings will be of tremendous value to those of us who use administrative claims data for clinical investigation
+in the field of stroke.
+My main suggestion to improve the manuscript relates to the authors’ approach to the hospital discharge data.
+Administrative discharge data can be (and too often are) used as a blunt tool, but many investigators try to take
+care to use a more nuanced approach to address some of the inaccuracies that Dr. Li et al point out. For example,
+diagnosis code algorithms have been developed to try to more accurately identify cases of stroke by excluding those
+with concomitant diagnoses of trauma, hemorrhage, and rehabilitation (Tirschwell et al, PMID: 12364739). Since
+the prevailing approach regarding quality metrics involves generally broad discharge diagnoses, I do not doubt the
+authors’ main findings. However, I also agree with the authors’ conclusion that, although the use of prospective
+studies is ideal, a more stringent approach to diagnosis codes should be used when using administrative data. To
+that end, could the authors report the performance of such a more stringent approach—for example, the Tirschwell
+algorithm above—when compared to OXVASC? This information would be of great use not only to researchers but
+also to policymakers, since it may be possible to salvage the use of administrative data for these types of questions
+if a stringent enough approach can be found.
+Specific comments:
+1. Page 5, Line 30: The sentence starting “Using data on functional …” is a run-on sentence.
+2. Page 10, Line 6: I agree with the authors that the different severity of strokes among those presenting on
+weekdays versus weekends poses a general problem if data are used which lack baseline stroke severity. However,
+in their results, the authors also present data that, given differences in admission practices on weekends versus
+weekdays, the overall stroke severity between weekdays and weekends was the same in their study. To head off
+confusion, the authors could insert a brief statement foreshadowing their later argument from Page 11, Lines 1726.
+3. Page 10, Line 8: I am not sure the point about 1/3 of strokes not being admitted pertains to the topic of this
+paper. Most discussions about the weekend effect involve relatively sick patients admitted to the hospital.
+4. Page 11, Line 51: It could be argued that the authors’ hospital also probably has better coding practices than
+other hospitals, so that the coding disparities may be even more pronounced at other centers.
+5. Page 18, Table 2: Much more information is needed to explain this table. Based on the descriptions here, it is
+difficult to understand exactly why some of these were “false positives”. For example, what is meant by “Admission
+date wrong: Inpatient event after emergency admission for other disease”? I assume it means a patient was
+admitted on a Saturday for, say, pneumonia, and then had a stroke on Tuesday? This needs to be made clearer.
+And in the spirit of my main comments above, could some of these false positives be reduced through the use of a
+more stringent approach to ICD codes? For example, the use of present-on-admission codes could be used in
+conjunction with the admission source codes that the authors mention. I think this paper would be more
+constructive if it not just pointed out the inherent problems in using administrative data but helped point out better
+practices in using these data. Even though administrative data will never be as reliable as a prospective study, such
+prospective studies will never be feasible as a mechanism for obtaining country-level data, so it would be good to
+try to improve our practices around using administrative data.

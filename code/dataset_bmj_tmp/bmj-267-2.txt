@@ -1,0 +1,59 @@
+In this study, the investigators use the UK National Neonatal Research Database
+(2008-2015) to evaluate whether among early preterm infants mortality and severe brain
+injury is higher among upward transferred infants born in non-tertiary hospitals compared
+to non-transferred infants born in tertiary hospitals. The subject matter is of major
+relevance to the BMJ audience. I previously reviewed this study. This is a very well-written
+paper. The authors have done an excellent job responding to reviewers and making
+updates accordingly. I have a few new comments based on this revised version.
+1) I found the findings from the comparison of the upward transfer group to the
+non-tertiary care (non-transfer) group very interesting--in particular the large difference in
+severe brain injury (OR 0.41, 95% CI 0.31, 0.53). According to the methods, severe brain
+injury classification was based on clinical criteria from ultrasound and represents brain
+injuries occurring during or soon after birth. Were these ultrasounds generally performed
+at the care centre where the delivery occurred, before determination of eligibility for
+transfer? If so, could this suggest that infants with brain injury were more likely to be
+transferred and if so, did the authors consider making severe brain injury part of the
+propensity score rather than an outcome?
+2) For the primary analysis (3-way matched), upon exclusion due to missing survival data,
+the sample sized dropped from 705 triplets to 571 and 593 triplets for analyses of death
+prior to discharge and survival without severe brain injury, respectively. Is there any
+concern regarding generalizability due to missing data? Slightly different numbers were
+included in each analysis (including the sensitivity analyses). Each analysis contained
+matched groups and thus within a given analysis infants were similar with respect to
+measured covariates. Across the various analyses, were the samples similar with respect to
+levels of the measured covariates?
+3) Do you know many infants died during transfer and the average length of transfer? This
+may have meaning given the conclusions of the paper. Also, is it possible that for some
+care centres upward transfer would not be advisable in certain instances given the
+distance/time required and severity of a given infant?
+4) The authors note in the discussion “Through the application of careful matching we have
+limited the potential for unmeasured confounders to influence the results”. This should be
+revised. While careful matching can reduce residual confounding by measured covariates
+(and potentially by unmeasured covariates highly correlated with measured factors), it
+does not help to prevent confounding by other unmeasured covariates. Also, should
+unmeasured demographic/socio-economic factors also be listed in the unmeasured
+confounders section of the discussion?
+5) I am still a bit concerned regarding the inclusion of death outcomes within the first 48
+hours of transfer. While this approach may generate results that may mimic a real-life
+setting, it is hard to know whether it may be imposing an immortal person time bias when
+considering the theoretical randomized controlled trial the study is trying to emulate.
+
+Infants in non-tertiary centres that die soon after delivery are not really ‘eligible’ for
+transfer. Could this partially explain the stark differences noted in the sensitivity analysis:
+“Infants who underwent upward transfer had no significant difference in the odds of death
+before discharge (OR 1.06; 95% CI 0.92, 1.23) compared to controls…. Infants in the
+non-tertiary care group had higher odds of death before discharge (OR 1.33, 95% CI 1.19,
+1.49) compared to controls.”
+6) The authors claim their findings from the sensitivity analysis (pairwise) were consistent
+with the primary findings (3-way matched) but the odds ratio for severe brain injury were
+quite a bit stronger in the 3-way matched analysis (OR 2.32; 95% CI 1.78, 3.06)
+compared to the pairwise (OR 1.38; 95% CI 1.19, 1.60).
+7) The authors interpret the following two comparisons differently: “Compared to controls,
+infants who underwent upward transfer had no significant difference in the odds of death
+before discharge (OR 1.22; 95% CI 0.92, 1.61)… Compared to controls, infants in the
+non-tertiary care group had significantly higher odds of death before discharge (OR 1.34,
+95% CI 1.02, 1.77).” However, my impression is that, based on the point estimates and
+largely overlapping confidence intervals, these two results seem quite similar. Indeed,
+when these two groups are directly compared, there is essentially no difference:
+“Compared the upward transfer group, infants in the non-tertiary care group had no
+significant difference in the odds of death before discharge (OR 1.10, 95% CI 0.84, 1.44).”

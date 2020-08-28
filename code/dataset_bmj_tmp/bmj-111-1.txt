@@ -1,0 +1,47 @@
+This study examines the association between sleep and breast cancer risk using Mendelian
+randomization approach and two large independent samples. The sleep traits examined were
+chronotype, insomnia and sleep duration. I have the following points:
+1. Major: Sleep disturbances are considered a risk marker of multiple health problems,
+including also diseases other than breast cancer. The present study focussed only on breast
+cancer and thus it remains unclear whether the observed association is specific to breast
+cancer or a reflection of more general increase in incidence of chronic diseases among those
+reporting certain sleep traits. To address this, the author could consider adding ‘all-cause
+mortality’ or ‘non-breast cancers combined’ as a secondary outcome and repeat the MR
+analysis with that outcome.
+2. The introduction motivates the study by describing previous mixed findings on shift work
+and breast cancer. It is not entirely clear how this evidence is relevant to the present study.
+What exactly the findings about self-reports of being a morning vs. evening person and
+sleeping a certain number of hours in every 24 hours can tell about the carcinogenic effects
+of shiftwork (which includes shifts in mornings and evenings). See also point 7.
+3. Multivariable Cox regression analysis (p. 6): Did the authors check whether the
+proportionality assumption was met? Many of the sleep-chronic disease associations may be
+non-proportional due to reverse causation leading to stronger short-term than long-term
+associations (ie effects start to dilute soon after the first years of follow-up, suggesting
+non-proportionality).
+
+4. p. 8: “If a SNP was unavailable in the breast cancer GWAS summary statistics, then proxy
+SNPs were identified with a minimum linkage disequilibrium (LD) r2 = 0.8.” How many SNPs
+were unavailable?
+5. p. 8. Typo “…each make makes…”
+6. Results: Have the authors confirmed that the genetic instruments were not associated
+with the confounders? A table on these associations would be helpful.
+Discussion:
+7. The authors note that “Findings of an adverse effect of evening preference on breast
+cancer risk in all analyses performed and support hypotheses around carcinogenic
+light-at-night (4) and are therefore consistent with those studies identifying nightshift work
+as a potential carcinogen(1).” I am not convinced with this reasoning. First, please see point
+1. Second, despite current associations between sleep and breast cancer a previous analysis
+using the same data as the authors (i.e. the UK Biobank) found no association between
+shiftwork and breast cancer (Travis et al J Natl Cancer Inst. 2016 Oct 6;108(12). This null
+finding was confirmed in two other independent large-scale studies, the One Million Women
+study and the EPIC-Oxford. How the authors explain this discrepancy?
+8. The association between long sleep and increased breast cancer risk in the Mendelian
+randomization analysis seems surprising as the associations of long sleep with disease
+endpoints are often thought to result from reverse causation. What mechanisms can explain
+a causal association between long sleep and increased cancer risk. The light-at-night
+explanation, for example, seems to not to valid for this association as there is no reason to
+assume that those who sleep longer are more exposed to light at nigh.
+9. The authors argue that the findings support the light-at-night hypothesis. It would be
+good to see whether the associations of the genetic instruments with health outcomes other
+than breast cancer – if similar associations are seen, then the interpretation of the data does
+not specifically support the light-at-night hypothesis.

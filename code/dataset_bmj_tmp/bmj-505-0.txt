@@ -1,0 +1,19 @@
+This is an interesting paper that adds to the literature on management of hip fracture and also on implementation of
+guidelines. The methodology and interpretation of findings are generally well done. My concerns are relatively minor.
+1. The interpretation of some findings is made difficult because higher scores on some variables indicate good health
+(eg AMTS) while higher scores on other scales are bad (eg ASA). So in the abstract it says that "the use of THA was
+limited based on ... lower ATMS" and then shows an OR of 1.44, which means that higher AMTS scores were
+associated with an increased likelihood of having THA. And yet on page 10 it infers that "increasing ... AMTS ... [was]
+associated with fewer THAs."
+I also had to think twice about "highest quintile of social deprivation", which means "least deprived". For example, on
+page 13, it says "the inappropriate use of THA was more common in the lowest group of socioeconomic deprivation"
+and here (I think) the "lowest group" means the "highest quintile".
+It would be good if all variables were recoded, at least for the logistic regression analyses, so that high scores always
+mean "good" or always mean "bad" - this would make results easier to interpret.
+2. The units for the odds ratios in Table 2 are not always clear. Does the OR of 1.44 for AMTS mean a 44% increased
+likelihood of THA for every 1 point increase in AMTS? If not, was ATMS dichotomised? A similar issue arises for age
+and ASA.
+3. Page 9 mentions "unexplained variation" (para 2) and "variation ... could be explained". Two points here: (a) how
+were these figures calculated? (b) it would be better to be consistent between paragraphs and write about just one or
+other of "unexplained" or "explained".
+4. Are figures 2 and 4 necessary?

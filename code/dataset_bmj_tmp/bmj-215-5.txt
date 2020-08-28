@@ -1,0 +1,49 @@
+Rational: while initially I wasn’t convinced that another meta-analysis was needed, they
+convinced me that a new meta-analysis on this topic was useful given that the number of
+trial participants had doubled since the last meta-analysis.
+Overall, this is a well-written document. The methods seem solid. I have two minor
+criticisms that should be rectified. The first one is that there is an emphasis in the
+discussion on the fact that there are significant interactions, but it is overlooked that the
+actual subgroup effects are non-significant. Secondly, nowhere in the discussion is spoken
+about the quantification of the effect size or whether the effect sizes are clinically relevant.
+This is important for clinicians in terms of decision-making.
+Methods
+Subgroup analysis: please add that you did tests for interactions.
+Sensitivity analysis: line 136: inconsistency identified: etable5 talks about “high or
+unknown risk of bias”, here you only mention “high risk of bias”. Same on page 10, line
+169.
+Sensitivity analysis: line 136: instead of “each domain”, maybe say “the different
+domains”. I initially interpreted this as each domain combined. Also do this for each table
+5.
+Results
+Page 10, line 166: remove the word “which”
+Page 10, line 167: what are these P values? P value of the slope?
+Table 2: please add that the P-value is a P-value for interaction.
+In table 3: please add that the age and baseline vitamin D are mean values
+E figure 7: please add that this is referring to baseline 25(OH)D levels. The X axis does not
+contain units (nmol/L). Please add the P value to the figure, and make sure to indicate
+what this P-value is.
+E figure 8: X axis does not contain units (years). Please add the P value to the figure, and
+make sure to indicate what this P-value is.
+Discussion
+First paragraph, last sentence (line 182-183: while you might have found a significant
+interaction, neither subgroup was significantly associated with mortality, reducing the
+importance of this finding. At a minimum, I would add something along the lines “although
+neither were associated with a significant reduced risk.”
+Please quantify your key findings where possible.
+
+Line 184: here would add a quantification: “this meta-analysis suggested that vitamin D
+supplementation reduced cancer mortality by 16%. In contrast, it had no significant effect
+on cardiovascular mortality or noncancer, non-cardiovascular mortality.”
+Line 188: maybe add the year of that Cochrane review.
+Implications: line 209- 210: you conducted two types of analysis by baseline vitamin D
+levels. The subgroup analysis showed a P-value for interaction of 0.98, while your
+meta-regression analysis, where you examined baseline vitamin D levels as a continuous
+variable, showed a significant interaction. How do you rectify these differentiating results?
+Moreover, while there might be a significant interaction, the magnitude of effects looks
+very small even for values as low as 20 nmol/L. It is important to comment on that as it
+reduces the clinical relevance of the interaction and the advice you might give to clinicians.
+Similarly, the effect size was significantly lower in trials with a longer follow-up, but again,
+the magnitude of effects were so close to the no-effect line, that this finding seems
+clinically irrelevant.
+Line 227: you could also add the quantification of 16%.

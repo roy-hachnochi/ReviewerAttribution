@@ -1,0 +1,124 @@
+The objective of this paper was to further develop and validate an instrument for the
+assessment of credibility and reliability of anchor-based minimally important differences
+(MIDs) of patient-reported outcome measures (PROMs). The MID rating system was
+developed through an iterative process of discussion of specified core criteria deemed
+relevant among leading experts experienced in the area of MID evaluation. The core criterion
+items for anchors are:
+1. The patient or proxy responds directly to both the PROM and the anchor
+2. The anchor item is easily understood and relevant for the patient or proxy
+3. The correlation between the anchor and the PROM scale is satisfactory
+4. The anchor the MID estimate is precise
+5. The threshold on the anchor item reflects a small yet important difference.
+Further extensions of these criteria pertaining to the transition anchor item are:
+1. The time elapsed between baseline and follow-up measurement of MID estimates is less
+than ca. 1 month.
+2. Substantial correlation between anchor and PROM at follow-up
+3. Correlation of anchor item with PROM at baseline
+4. Correlation between anchor with PROM change score markedly greater than correlation
+between anchor and PROM at follow-up
+The instrument consists of 9 items addressing both the PROM, the anchor, and the MID
+estimate. These items are established as a checklist with 3 categorical response options for
+the first item and 5 options for all others. The response options are not quantified into a
+summated score, but each item
+This paper is beautifully written and the subject matter is of utmost importance. Why?
+Because, the least amount of change in an underlying condition as perceived relevant by the
+targeted patient group, whether positive or negative, is of paramount importance; both in
+terms of measuring treatment effect, but also for calculating sample size in comparative
+trials.
+The authors must be thanked for inviting the reader into the machine room of a concept that
+now more than ever informs clinical practice guidelines across the world. Moreover, the
+group of authors possesses probably more experience and skill on this subject than any
+other assembly, and even includes persons responsible for defining the major constructs the
+paper deals with (i.e., PROM, MID (MCID), and of course, the MID assessment instrument
+itself).
+However, as a clinical research scientist with a background in psychometrics, I have some
+reservations. I should think my reservations are similar to what other methodologists must
+have pointed out since Guyatt and colleagues presented the concept of MCID/MID almost 40
+years go.
+1. Content validity of the PROM:
+The content validity of the PROM from which the MID was derived is not a core criterion.
+How can the credibility (validity?) of MIDs be rated as satisfactory when the rating system
+itself does not include as a core criterion whether or not the PROM has been confirmed to
+possess content validity? Content validity entails the qualitative process of item generation,
+identification, and reduction by engaging the targeted patients through rigorous interviewing
+(Streiner and Norman). The authors do stress the concept of content validity for the rating
+instrument itself, which is a good thing. They also assess interrater reliability via kappa.
+However, this still leaves out whether the underlying PROM scales have been generated
+appropriately using the specific population for which the MID is to be applied. Or am I
+missing something? Also, credibility is a statement on validity. Please clarify. Or refer to
+specific texts where this concept is clarified.
+2. Psychometric properties of the PROM and RTIs:
+The measurement properties of the PROM are not included as a core criterion. Construct
+validity of PROMs involves the measurement properties, and here, I also do not see how the
+instrument confirms the actual scaling properties (e.g., unidimensionality, homogeneity,
+invariance etc.) of the PROM or RTI change scores. Paul Rosenbaum (Psychometrika 1989)
+defines the concept of criterion-related construct validity for latent variables, where it has
+
+been shown that the Rasch model satisfies these criteria (Svend Kreiner). The most
+important aspect of the Rasch model is that it yields criterion validation based on the way in
+which the target patients in fact have responded to each item. Rasch pointed out that the
+probability of a certain response to a certain item by a certain person depends on the level of
+ability of the person and the level of difficulty of the item. My problem here is that I see no
+objective criterion assessment in the core criteria for this instrument. The COSMIN group
+have finally included confirmatory factor analytic and item response models in their quality
+assessment instrument for PROM validation. This is a great step forward. I wonder if this
+group of authors might include the same scale ranking criterion. Of course single transition
+items cannot be assessed by item response models, but in cases where at least 2 ordinal
+RTIs are applied, then it is possible to treat them as a summary score. Single GROC items
+are another story, for to what degree do patients’ responses to “a little better” truly
+correspond to a minimal important improvement? This is the conundrum of using latent
+variables, as any number of psychological impressions can influence responses.
+3. While on the subject of Rasch IRT, the instrument is a checklist consisting of 9 items with
+ordinal response options. I would love to see how 150-200 different raters of MIDs would
+score on the checklist and see if the pattern approaches a probabilistic Guttman pattern as
+per Rasch. That would be a true validation of the checklist. As the instrument is now, it is
+simply a qualitative assessment of a blend of qualitative and quantitative entities. With this I
+mean, there is no formal statistical estimation to test the likelihood of whether the MID being
+assessed truly is “credible” (valid). On page 22, the authors show nicely an example of a
+WOMAC based MID that was deemed credible by the authors’ assessment tool. The
+well-written paper by Escobar et al. is an example of how to calculate MID values using both
+anchor based RTIs and ROC methods. The problem I have is that in my experience, the
+scaling properties of the WOMAC sub-domains for this patient population (1-yr post TKR) are
+not well defined. So here, we risk attributing credibility to the fact that the authors simply
+carried out the computations and not to the justification of using the PROM.
+4. Therefore, I find myself wondering where is the credibility of the methods used to confirm
+the content relevance and content coverage of the actual PROMs themselves in relationship
+to the patients, not to mention the transition items? Does the credibility instrument assume
+this to be a condition that is satisfied? How does the method ensure that the underlying
+PROM and anchor possess content validity for the specific patient group that informs the MID
+itself? How does the instrument ensure that the PROM is psychometrically sound for the
+specific patient group? The COSMIN group has recently included a ranking of the
+psychometric methods used to validate PROMs in the framework of their classification
+system, where the Rasch model is recognized as the most rigorous method for
+criterion-related construct validity. While COSMIN is primarily concerned with evaluating the
+appropriateness of PROMs, members of the group (such as Terwee) have worked intensively
+on a separate system to calculate MIDs based on a modified ROC method, which the group
+calls minimal important change (MIC). With no intent to instigate competition, why is the
+method used here superior to the MIC?
+5. What are good levels of correlation between the anchor and PROMs? In a previous paper
+by this group, it seems .4 was enough? In this paper, .5 is the cut-off. Some authors have
+claimed that ½ SD or a Cohen’s ES of .5 is best (Streiner & Norman). A solid linear
+relationship between the anchor and the outcome measure must be a criterion. One problem
+is that ordinal scales are non-linear, which is one reason MID based on linear transformed
+logit Rasch scales should be a core requirement. Tennant and associates have recently found
+a 17% increase in patients (n=61) who achieved the MCID as measured on a logit scale
+compared with the ordinal scale and a correlation of rho = .94 between the linear and
+ordinal data:
+(https://acrabstracts.org/abstract/validation-of-the-danish-version-of-the-stanford-health-as
+sessment-questionnaire-disability-index-and-determination-of-the-minimal-clinically-importa
+nt-difference-in-a-cohort-of-rheumatoid-arthritis-p/.) This just strengthens the argument for
+
+including Rasch based PROMs as a core criterion for MID assessment, as it has implications
+for powering future studies.
+p. 8 lines 38-39 the sentence: “In our aforementioned inventory of anchor-based MIDs, we
+summarized over 3,000 estimates and their associated credibility, including MIDs...” These
+MID estimates are a blend of statistical and qualitative estimation. How is this justified?
+What methods of estimation? Likelihood ratio? Arbitrary estimate (i.e., a guess)? The
+distinction between statistical estimation and qualitative estimation is not trivial.
+The work provided in this paper is vitally important for informing clinical guidelines and thus
+is important for patients. The authors create a platform for the feasibility for the concept
+(i.e., an instrument that measures the credibility (validity) and reliability of measures of MID
+for PROMs). However, my concern is that many potentially qualified outcome measures (and
+ultimately treatment modalities) will be discarded, while others developed without rigorous
+development and validation methodology will be judged credible, simply because the MID
+was not estimated using the author’s model.

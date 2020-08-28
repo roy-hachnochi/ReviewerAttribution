@@ -1,0 +1,574 @@
+Survival analysis is a field with a long history, mainly associated with the name David Cox, and is of interest far outside of biology, e.g. the reliability analysis of machines. One element of it concerns making inferences about underlying mechanisms from observed processes. The historical development of the subject seems to have ended in a cul-de-sac which we see in Stroustrup's worm paper, discussed here, although clearly explored in an earlier Ricklefs paper, discussed by no-one. Frank offers an entirely new approach with a different starting point. It seems sensible to discuss the Frank paper at the junction where the new collides with the old, which is the Stroustrup worm paper, published in Nature magazine this year. The heart of the matter, from my perspective, is this. The old development of the subject ended up at this point - Survival data is typically well described by both Weibull and Gompertz distributions, which are described in terms of the 'hazard' function derived from them, describing your future chance of surviving beyond a particular time, given you have survived to that time so far. If these hazards change for some reason (e.g. temperature for Stroustrup), we can model the effect of these changes in one of two ways, dreamed up by Cox because they 'work' for statistical analysis. One of these ways (AFT) is a time scaling of the hazard, in which everything happens in 'dog years' for example. The other (PH), as noted by Cox, is very hard to give a biological interpretation to in terms of underlying mechanisms, although it is very useful for prediction, evaluating drug efficacy etc. Now, the Weibull distribution can be proved analytically to allow interpretation under both these ways of changing circumstance, one of which is, itself, intrinsically hard to interpret. So if the data are Weibull, which fits the Stroustrup data, you cannot really say anything about the underlying mechanism. Unless you get very inspired and allow "imagination" (Ricklefs) and "preferences" (Stroustrup Supp Info) to assist you. This is not necessarily a bad thing, of course, but it sounds like an admission that you have gone as far as you can by the traditional route. I note that the Supp. Info Figure 1.1, which is central to the narrative flow, uses a Weibull distribution, which has a log-log hazard and the Weibull plays a large role in their statistics/simulations etc. The Gompertz has a measly log hazard, which rather screws up the simple scaling story. Frank now approaches the whole subject in a way which is new, thought-provoking, challenging and very welcome, starting from a rethinking of the basic meanings of statistical distributions. It is far to soon to have an opinion on the likely success of this approach in leading us out of the cul-de-sac. But I certainly have the opinion it should be published. The Ricklefs paper deserves some acknowledgement and will also flag this topic for a larger audience of evolutionary ecologists, as it concerns the evolution of longevity, species variation in longevity etc. etc. Ricklefs RE, Scheuerlein A. 2002. Biological implications of the Weibull and Gompertz models of aging. J Gerontol A Biol Sci Med Sci. 2002 Feb;57(2):B69-76. doi: 10.1093/gerona/57.2.B69 References 1. Ricklefs R, Scheuerlein A: Biological Implications of the Weibull and Gompertz Models of Aging. The Journals of Gerontology Series A: Biological Sciences and Medical Sciences . 2002; 57 (2): B69-B76 Publisher Full Text 2. Stroustrup N, Anthony WE, Nash ZM, Gowda V, et al.: The temporal scaling of Caenorhabditis elegans ageing. Nature . 2016; 530 (7588): 103-7 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Nee S. Reviewer Report For: Invariant death [version 1; peer review: 2 approved] . F1000Research 2016, 5 :2076 ( https://doi.org/10.5256/f1000research.10185.r15879 ) The direct URL for this report is: https://f1000research.com/articles/5-2076/v1#referee-response-15879 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response ( F1000Research Advisory Board Member ) 10 Oct 2016 Steven Frank , University of California, Irvine, USA 10 Oct 2016 Author Response F1000Research Advisory Board Member I appreciate Sean Nee's thoughtful and well written comments, which helped me to see the subject in a broader way. This report will be of interest to anyone studying patterns ... Continue reading I appreciate Sean Nee's thoughtful and well written comments, which helped me to see the subject in a broader way. This report will be of interest to anyone studying patterns of mortality. I also appreciate the pointer to the Ricklefs article. On F1000Research, the referee reports are part of the final publication, so Nee's pointer to Ricklefs is now part of the published version of the article. I appreciate Sean Nee's thoughtful and well written comments, which helped me to see the subject in a broader way. This report will be of interest to anyone studying patterns of mortality. I also appreciate the pointer to the Ricklefs article. On F1000Research, the referee reports are part of the final publication, so Nee's pointer to Ricklefs is now part of the published version of the article. Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response ( F1000Research Advisory Board Member ) 10 Oct 2016 Steven Frank , University of California, Irvine, USA 10 Oct 2016 Author Response F1000Research Advisory Board Member I appreciate Sean Nee's thoughtful and well written comments, which helped me to see the subject in a broader way. This report will be of interest to anyone studying patterns ... Continue reading I appreciate Sean Nee's thoughtful and well written comments, which helped me to see the subject in a broader way. This report will be of interest to anyone studying patterns of mortality. I also appreciate the pointer to the Ricklefs article. On F1000Research, the referee reports are part of the final publication, so Nee's pointer to Ricklefs is now part of the published version of the article. I appreciate Sean Nee's thoughtful and well written comments, which helped me to see the subject in a broader way. This report will be of interest to anyone studying patterns of mortality. I also appreciate the pointer to the Ricklefs article. On F1000Research, the referee reports are part of the final publication, so Nee's pointer to Ricklefs is now part of the published version of the article. Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 1 VERSION 1 PUBLISHED 25 Aug 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 1 25 Aug 16 read read Sean Nee , The Pennsylvania State University, Pennsylvania, USA Ophlie Ronce , University of Montpellier, Montpellier, France Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Ronce O. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 07 Oct 2016 | for Version 1 Ophlie Ronce , French National Center for Scientific Research, University of Montpellier, Montpellier, France 0 Views copyright © 2016 Ronce O. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This paper by S. A. Frank builds on his recent work on general common patterns of statistical distributions to comment on some invariance rules when examining the distribution of mortality data. In particular, the present paper shows that there always exists an adequate transformation of time (or age), such as, when measured on this scale, the shape of the survival curve is unaffected by any shift on this scale. Interestingly, Frank here also shows that on this scaling, the survival curve has necessarily a Gompertz form. On this scaling, the acceleration of mortality with (transformed) time is constant. This is indeed interesting to realize that any mortality distribution would have these properties. So not much could be inferred about the mechanisms of mortality and aging just because one transformation of time would lead to the distribution of mortality satisfying those properties. The remaining question is whether we can infer something from the fact that one transformation of time rather than another produces this invariance. As an illustration, the present paper by S. A Frank then comments on a recent study by Stroustrup et al. (2016, hereafter S2016), which showed that various genetic or environmental interventions affected mortality patterns in nematodes populations by modifying the time scale of mortality, leaving the shape of survival curves unchanged. More precisely, a log transformation of time then satisfies the invariance properties mentioned above. Interestingly, a few interventions in their data set do not exhibit invariance after a log-transformation of time. In the supplementary material of the S2016, the authors have examined a diversity of mechanistic models of mortality and checked under which perturbations of the parameters of these models one would observe the specific invariance pattern seen in their data. In some of these models, the specific invariance pattern emerges only when all sub-processes affecting mortality are affected to the same extent by the intervention (e.g. competing risk models), or when all parameters in the models are affected to a similar extent by the intervention (diffusion models). In some other models (e.g. network models), the specific invariance can emerge when only part of the processes are affected by the intervention. These conclusions appear therefore more subtle than the claim made in the main text of S2016 that “each intervention must alter to the same extent throughout adult life all physiological determinants of the risk of death”. It is furthermore not very clear to me what is meant exactly by “all physiological determinants of the risk of death”. Can we say that the drift and variance terms in a diffusion model for vitality correspond to different physiological determinants of the risk of death? Again we could imagine different mechanistic sub-models that would create different functional relationships between the drift and variance parameters. Frank uses S2016 in two ways: first, as an illustration of a particular type of invariance exhibited by real data, second, as a warning against the risk of over-interpretation of such invariances. In particular, Frank reacts to the claim cited above, which is indeed confusing. As S2016 did in their supplementary material, Frank exhibits a mechanistic model of mortality (but yet a different one from those considered S2016), which shows the same properties of invariance when only part of the processes of mortality are affected by the intervention. Both the theoretical exercise of Frank and those of S2016 show that there are many different mechanistic models that can exhibit the same specific invariance and thus raise together strong doubts about what we can infer from invariances in mortality patterns. The set of models examined by S2016 is certainly not exhaustive despite its diversity, and claims based upon this set (already more complex than the simple cited argument suggests) cannot really be generalized to all models of mortality. I therefore agree with the general message of caution of the present paper by S.A. Frank. It however remains frustrating that the general framework that he proposes does not really help to get a better general grasp at what features of a model would produce one type of invariance rather than another, and for instance help generating hypotheses that would explain why some interventions did fail to produce the same type of invariance in S2016. This what S2016 attempted in their supplementary material. In particular, I would be interested in a clearer illustration of the claim made by Frank that “consideration of the alternative processes with the same observable invariances leads to testable predictions about the underlying causal processes”. Interestingly, the model put forward by Frank is shift-invariant on a scale, which is not a simple log-transformation of time (see equation 17 and that following on the right column of page 6). While early in the process, the deformation of time to achieve invariance would resemble that expected under a log-scaling, this is not true later. I therefore failed to understand exactly why this model would actually fit the data presented by S2016. More explanation would be necessary here. The whole argument page 7 about interventions affecting part of the processes when slow and fast processes determine mortality makes intuitive sense but would be more convincing if illustrated (as was done for instance with examples in the supplementary material of S2016). I found these arguments about slow and fast processes to be quite disconnected actually from the general arguments about invariance presented before. To conclude, I found the contribution of Frank novel and interesting, but still a bit frustrating about how this perspective could help us extract more information from patterns of mortality. The message of caution is an important one. The criticism of S2016 is justified by the over-simplistic claim included in their abstract and main text, but I am a bit concerned that it may misrepresent what these authors have achieved. This claim was actually motivated, not directly by the examination of invariance in the data, but by the comparison of several models to data in a spirit similar to what Frank proposes here. That several models could exhibit the same invariance rule for different reasons was clearly shown already in S2016 (supplementary material). The common properties of models exhibiting that specific invariance rule however appear even less clear than suggested by the initial exploration of S2016 and it could be good that the present paper communicates more precisely about this point. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response F1000Research Advisory Board Member 10 Oct 2016 Steven Frank, University of California, Irvine, USA Ophlie Ronce has provided an excellent commentary on recent studies of mortality, placing my article in that broader context. F1000Research includes referee reports as part of the final publication, and I am very pleased to have this report included. I agree with most of the comments and opinions in this report. My primary goal was perhaps a bit simpler and less ambitious than Ronce's wider goals. I intended to show that there is a simple mathematical truth that should be kept in mind whenever one tries to understand patterns of mortality. The mathematical truth is of great value but at the same time does not tell us exactly what is happening in any particular case. I emphasized that duality very clearly in my conclusions. In the context of that duality, my discussion of Stroustrup et al. (S2016) was intended primarily as an illustration of the mathematical result rather than as an attempt to deconstruct fully their data and analyses. With regard to Ronce's specific comments: I therefore agree with the general message of caution of the present paper by S.A. Frank. It however remains frustrating ... In particular, I would be interested in a clearer illustration of the claim made by Frank that “consideration of the alternative processes with the same observable invariances leads to testable predictions about the underlying causal processes”. Perhaps my use of S2016 as an illustration was misleading. I do not view my conclusion as one of caution. Rather, there is something very simple and true about curves of death that one must keep in mind to move forward. I do not know exactly how to move forward, but I do know that I must use the truth to help focus my approach. The accomplishment is, I think, a step in the right direction, a positive rather than cautionary or negative contribution. With regard to the specific point, consider the following. Suppose that, in theory, members in one set of seemingly different processes all lead to the same general scaling of mortality. Suppose that other members of another set all lead to a different scaling of mortality, for example, a different bending of time. We now have a comparative theoretical prediction. If we can transform the underlying processes from one set to the other, the bending of time should change in a predictable way. If, by contrast, we transform from one underlying process to another within the same set, then the bending of time should not change. That is a very abstract summary, without specifying exactly what those underlying processes are. But the knowledge that such a thing is possible gives us a point of departure for moving ahead. We now know that we need better theory to tell us what we might expect, And we need to figure out how to design experiments in the context of this theory, which is much deeper and more likely to provide a way ahead than the current relatively shallow and haphazard approach. That is not a critique of S2016, which was a thoughtful article, but rather of much of the literature. But, as I said, I am not interested in caution or critique, but rather in what we need to go forward. In that regard, I agree that the supplementary material of S2016 may have provided some interesting discussion, but I think it is not what we ultimately need to move ahead. Interestingly, the model put forward by Frank is shift-invariant on a scale, which is not a simple log-transformation of time (see equation 17 and that following on the right column of page 6). While early in the process, the deformation of time to achieve invariance would resemble that expected under a log-scaling, this is not true later. I therefore failed to understand exactly why this model would actually fit the data presented by S2016. More explanation would be necessary here. That is a model of a gamma process. A gamma process is perhaps the simplest and most common model of failure. A gamma process always has that property of log scaling at small magnitudes and linear scaling at large magnitudes, leading to a transition from power law to exponential forms. I have discussed this extensively in my series of articles on probability patterns, which can be found on my web site at https://stevefrank.org. The whole argument page 7 about interventions affecting part of the processes when slow and fast processes determine mortality makes intuitive sense but would be more convincing if illustrated (as was done for instance with examples in the supplementary material of S2016). I found these arguments about slow and fast processes to be quite disconnected actually from the general arguments about invariance presented before. Such analyses would be a good project for future work. This article concerns a simple abstract mathematical point, rather than a variety of specific models tied to specific assumptions. Again, perhaps my use of S2016 was misleading with respect to my primary interest. S2016 is interesting, but only in a very limited way. On the positive side, we now know more clearly what needs to be done, so we have a basis for future work. In closing, I wish to emphasize again how much I appreciated the deep and thoughtful comments by Ronce. The overview given in this referee's report provides a better introduction to my subject than I gave in my article. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Ronce O. Peer Review Report For: Invariant death [version 1; peer review: 2 approved] . F1000Research 2016, 5 :2076 ( https://doi.org/10.5256/f1000research.10185.r16246) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2076/v1#referee-response-16246 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Nee S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 14 Sep 2016 | for Version 1 Sean Nee , The Pennsylvania State University, Pennsylvania, PA, USA 0 Views copyright © 2016 Nee S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Survival analysis is a field with a long history, mainly associated with the name David Cox, and is of interest far outside of biology, e.g. the reliability analysis of machines. One element of it concerns making inferences about underlying mechanisms from observed processes. The historical development of the subject seems to have ended in a cul-de-sac which we see in Stroustrup's worm paper, discussed here, although clearly explored in an earlier Ricklefs paper, discussed by no-one. Frank offers an entirely new approach with a different starting point. It seems sensible to discuss the Frank paper at the junction where the new collides with the old, which is the Stroustrup worm paper, published in Nature magazine this year. The heart of the matter, from my perspective, is this. The old development of the subject ended up at this point - Survival data is typically well described by both Weibull and Gompertz distributions, which are described in terms of the 'hazard' function derived from them, describing your future chance of surviving beyond a particular time, given you have survived to that time so far. If these hazards change for some reason (e.g. temperature for Stroustrup), we can model the effect of these changes in one of two ways, dreamed up by Cox because they 'work' for statistical analysis. One of these ways (AFT) is a time scaling of the hazard, in which everything happens in 'dog years' for example. The other (PH), as noted by Cox, is very hard to give a biological interpretation to in terms of underlying mechanisms, although it is very useful for prediction, evaluating drug efficacy etc. Now, the Weibull distribution can be proved analytically to allow interpretation under both these ways of changing circumstance, one of which is, itself, intrinsically hard to interpret. So if the data are Weibull, which fits the Stroustrup data, you cannot really say anything about the underlying mechanism. Unless you get very inspired and allow "imagination" (Ricklefs) and "preferences" (Stroustrup Supp Info) to assist you. This is not necessarily a bad thing, of course, but it sounds like an admission that you have gone as far as you can by the traditional route. I note that the Supp. Info Figure 1.1, which is central to the narrative flow, uses a Weibull distribution, which has a log-log hazard and the Weibull plays a large role in their statistics/simulations etc. The Gompertz has a measly log hazard, which rather screws up the simple scaling story. Frank now approaches the whole subject in a way which is new, thought-provoking, challenging and very welcome, starting from a rethinking of the basic meanings of statistical distributions. It is far to soon to have an opinion on the likely success of this approach in leading us out of the cul-de-sac. But I certainly have the opinion it should be published. The Ricklefs paper deserves some acknowledgement and will also flag this topic for a larger audience of evolutionary ecologists, as it concerns the evolution of longevity, species variation in longevity etc. etc. Ricklefs RE, Scheuerlein A. 2002. Biological implications of the Weibull and Gompertz models of aging. J Gerontol A Biol Sci Med Sci. 2002 Feb;57(2):B69-76. doi: 10.1093/gerona/57.2.B69 References 1. Ricklefs R, Scheuerlein A: Biological Implications of the Weibull and Gompertz Models of Aging. The Journals of Gerontology Series A: Biological Sciences and Medical Sciences . 2002; 57 (2): B69-B76 Publisher Full Text 2. Stroustrup N, Anthony WE, Nash ZM, Gowda V, et al.: The temporal scaling of Caenorhabditis elegans ageing. Nature . 2016; 530 (7588): 103-7 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response F1000Research Advisory Board Member 10 Oct 2016 Steven Frank, University of California, Irvine, USA I appreciate Sean Nee's thoughtful and well written comments, which helped me to see the subject in a broader way. This report will be of interest to anyone studying patterns of mortality. I also appreciate the pointer to the Ricklefs article. On F1000Research, the referee reports are part of the final publication, so Nee's pointer to Ricklefs is now part of the published version of the article. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Nee S. Peer Review Report For: Invariant death [version 1; peer review: 2 approved] . F1000Research 2016, 5 :2076 ( https://doi.org/10.5256/f1000research.10185.r15879) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2076/v1#referee-response-15879 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Invariant death".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2076/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2076/v1&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2076/v1" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Frank SA');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2076/v1/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2076",
+ templates : {
+ twitter : "Invariant death. Frank SA, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2076/v1"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Invariant death", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Invariant death", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/9456/10185")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "10185");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "15952": 0,
+ "15876": 0,
+ "15877": 0,
+ "15878": 0,
+ "16246": 9,
+ "16247": 0,
+ "15879": 12,
+ "15880": 0,
+ "16218": 0,
+ "15950": 0,
+ "15951": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "80c46b2c-237f-4545-9bf1-e8c87bbf577c";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

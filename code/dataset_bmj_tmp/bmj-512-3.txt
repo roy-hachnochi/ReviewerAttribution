@@ -1,0 +1,25 @@
+This is a novel and important paper that is in my opinion highly suitable for publication in the BMJ. The idea of
+studying the link between competing screening tests and subsequent interval cancer rates is not original but few
+groups have actually been able to execute such a study. This nationwide study from the Netherlands is perhaps unique
+and highly informative.
+I was however rather disappointed with the data analysis as I will explain below.
+Firstly I think it is important to distinguish between what I might call incident interval cancers (i.e. ones that are
+diagnosed before the next screen) and screen-detected interval cancers. There is some breakdown along these lines
+but no discussion of the fact that for the screen-detected interval cancers one really needs to consider both the first
+(negative) test and the second (positive) test. Theoretically the largest number of screen-detected interval cancers will
+arise when the first screening test had poor sensitivity and the second very sensitive. I assume that most the screendetected interval cancers after a negative conventional smear were detected by LBC and that most of those after a
+negative LBC were detected by the same type of LBC, but it would be good to provide some data along these lines.
+My second concern is rather more important. It relates to over-dispersion or the problem that results in different
+laboratories may vary more than by chance. The choice of screening test is made at the laboratory level not at the
+individual level. Hence one should treat the laboratories as the separate units of analysis not the individual women.
+This will affect the width of the confidence intervals and the question as to whether the difference reported are
+statistically significant.
+A related issue is whether one could improve on the analysis by using each laboratory as its own control. One could
+think of the data as "matched pairs". I will assume that all laboratories used convention cytology in the first period and
+that some continued to use conventional cytology, some switched to SurePath and some witched to ThinPrep (but the
+same idea can be used to analyse the data even if the situation is more complex). The idea then would be to look at
+the change in interval cancer rates from the first to the second period by the test used in the second period.
+The bottom line is that I would expect these data to be analysed using a mixed effects generalised linear model that
+takes into account both the clustering within laboratory and the time component of the results.
+I very much hope that the authors are able to address these analysis issues and look forward to seeing the publication
+of their revised manuscript.

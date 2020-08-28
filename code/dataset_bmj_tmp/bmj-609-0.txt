@@ -1,0 +1,23 @@
+This paper asks an interesting question with tremendous relevance to clinical practice: to what extent have
+increases in adverse events for opioid use been driven by increases in the utilization of benzodiazepines
+and opioids together? While many physicians are aware of the potential dangers in utilizing both drugs
+concurrently, the authors find that (a) the concomitant utilization of both drugs has markedly increased
+over time and (b) the utilization of both drugs explains a large share of hospitalizations and emergency
+room visits for opioid use. Put together, these findings suggest that physicians should exercise a much
+greater degree of caution than they may currently be doing when in deciding to prescribe these drugs.
+Overall, I believe this is an important message. Concomitant use of opioids and benzodiazepines is as
+important to recognize as is our increasing recognition of the harms of opioid use. The paper is clearly
+written, the methods are appropriate, and the implications are well drawn out. The authors carry out a nice
+set of robustness checks to address the obvious issue that patients who are concomitantly prescribed an
+opioid and benzodiazepine are unobservably different than patients who receive only an opioid prescription
+in a given year. The demonstration of temporal overlap is key as is the reproducibility in fixed effects
+models that use patients as their own controls. I have the following recommendations:
+1) A strength of the study is the exhaustive set of controls as well as the use of patient fixed effects in one
+of the robustness analyses. Could the authors also add as controls some measure of resource utilization
+(number of claims filed, total spending, etc)?
+
+2) Table 1 seems a bit cumbersome; I think the authors can simply delete the "overall" column.
+3) Also, re: table 1: could the authors include some measure of effect size?
+4) Could the authors create a flow chart describing the sample creation?
+5) Residual confounding is always an issue. Can the authors formally assess whether this is likely given the
+documented covariate estimates from the model?

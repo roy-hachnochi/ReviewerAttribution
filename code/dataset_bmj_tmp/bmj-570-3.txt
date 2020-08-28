@@ -1,0 +1,41 @@
+This is an interesting paper on short-term effects of air pollution on mortality in China. The situation of air pollution in
+China is a major concern worldwide and there is a great interest in knowing the effects on human health. To analyze the
+dose-response relationship in a setting with so high concentrations of air pollution is very important.
+However, I think that the paper needs to be improved in particular regarding the methodology. Therefore, I suggest a
+major revision. The main points of my concern are:
+a. The year is considered as a dummy variable
+b. In the pooled analyses the city is a dummy variable.
+c. The dose response analysis is based on the pooled analysis, under the hypothesis of homogenous confounders, which
+cannot be the case.
+d. The lack of an analysis of heterogeneity among cities.
+Although the Authors might be consider to re-conduct the analysis too time consuming, I strongly recommend it, since it
+
+would be of a great importance.
+Here follow the points for major revision
+1. Some description of the cities is needed. I.e. number of inhabitants, surface, % of males, % of >=60 year olds,
+number of monitoring stations considered for calculating API in each city, number of monitoring station by type (traffic,
+urban background), some level of industrialization. Information that could help in understanding the results.
+2. The trend is considered using a dummy variable for year. It would be better to use a spline for trend or a non
+parametric function.
+3. The Authors performed a pooled analyses with the city is a dummy variable. It would be better to have city specific
+analyses and a meta-analysis to pool the results, with a test for hetherogeneity.
+4. The dose response analysis is based on the pooled analysis, where the hypothesis is homogenous confounders, which
+easily cannot be the case. I suggest to use the methods used in the APHEA-2 project with a meta-smoothing for the
+dose-response relationship (see Samoli et al. 2003 OEM).
+5. It would be interesting to see the results also for cumulative lags (to 7 days), for distinct CVD and respiratory
+mortality, and an analysis of heterogeneity of city specific results.
+6. The analyses by gender and age should be performed on all the cities, not only on those with statistically significant
+results. Here again, the authors should try to explain hetherogeneity.
+Minor revision
+P1. L 23. I do not think that lack of representativeness is an important point here. Even 38 cities in China do not
+represent all Chinese population
+P2 LL 12-17. As far as I know the authors published a paper on 32 cities on Environmental Research 137 (2015) 278286.
+P4 LL3-30. Some additional information on DSPS could be added as supplemental material. It covers 6% of the
+population in China. What about the considered cities? Is this percentage homogeneous in all the considered cities?
+Some additional information on the Chinese system could be useful. Are comprehensive data on mortality not available?
+P5. What is the rationale for using holydays? I can understand it in Europe, but I imagine that in big Chinese cities the
+situation can be different. What is the mean number of vacation days in China? It would be appreciated to have some
+background.
+P5. LL35-42 Can you better explain how the degrees of freedom for meteorological factors were calculated? Where they
+multivariate independent models?
+Table 1. It would be useful to have a column with the IQR of PM10

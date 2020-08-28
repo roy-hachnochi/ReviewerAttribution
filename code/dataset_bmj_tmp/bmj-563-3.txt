@@ -1,0 +1,42 @@
+This is a well written manuscript which aims to compare the performance of three tools for predicting osteoporotic fracture
+using electronic health record (EHR) data. Secondary to this the authors performed an external validation of each tool
+separately within their dataset, to examine the performance of the models outside of the development population. I have some
+minor comments below mostly around the limitations caused by EHR data.
+1. An introduction to the models in question may be useful within the manuscript, such as a brief description (perhaps in a
+table) of the essential facts for each model. For example the type of model used, how the model is implemented currently, how
+many patients the model was developed using, what type of study, at what time risk predictions can be made, how the model
+is used to decide treatment strategy etc.
+2. The authors needed to manipulate their EHR data to fit the models examined, for example;
+
+a. The data used contained smoking status coded as non-smokers, former smokers or current smokers. However the authors
+state that the QFracture tool uses three levels to define “current smoker” based on the number of cigarettes smoked per day.
+The authors assigned those defined as “current smokers” in their EHR data to the “middle category” in the QFracture tool,
+representing 10-19 cigarettes smoked daily. While this kind of manipulation is clearly necessary to enable comparison and
+validation of the model in this dataset, the authors do not provide any rational for their choice of category.
+b. Similarly the dataset did not contain information on alcohol consumption (a factor described as using five levels in the
+QFracture tool). The authors created a dichotomous variable (yes/no) for alcohol consumption, based on diagnoses of
+alcoholism or alcohol-induced chronic complications. They then assigned those coded as “yes” using this variable to the 4th
+category level used in the QFracture tool relating to alcohol consumption of seven units per day. Again it is understandable
+that such an assumption was necessary to allow computation of the QFracture model using the EHR dataset available, but no
+rational has been provided for this choice of category – for example by assigning patients in the dataset to either “no alcohol
+consumption”, or a potentially extreme “7 units a day” category, may lead to weaker discrimination if for example some
+patients categorised as having no consumption, were actually moderate drinkers. Is it an appropriate assumption that many
+patients in this dataset do not drink, as 98.9% of patients have been defined as such using the coding of this study?
+3. Given these manipulations, the conclusions of this study are highly relevant to the intended population (Israel). The study
+suggests that these tools could potentially be automatically implemented using CHS EHR data in the same way that the study
+authors have performed their analyses, and the models would perform strongly with good discrimination. However, any future
+application of these models using EHR data in different countries could potentially need to make different assumptions due to
+the limitations of their own EHR data, and may not expect the same model performance statistics. The authors could discuss
+the possible limitations of their results further.
+4. It is difficult to discern if the calculation of the conversion factor for FRAX 10 year probabilities, into 5 year probabilities is
+appropriate given the presented supplementary information. For example it may be helpful for the authors to overlay a scatter
+plot in figure S1, of the data used in their linear regression analysis. It is unclear if data were used from all 120 months for
+example, or only from months 0, 60 and 120 say. It seems difficult to believe that given all the variables which effect fracture
+risk (as identified in the models included in this study), the trend for cumulative number of fractures over time is perfectly
+linear with R-squared almost exactly equal to 1? i.e. follow-up months completely explains variation in cumulative fractures? Is
+this potentially due to a small number of observations being used for this linear regression?
+5. Also the analysis in supplement 2 appears to be based solely on the available data, not the FRAX model predictions, and so
+even if the relationship between 5 year and 10 year cumulative fractures were linear in the data used, the FRAX model may
+not have been built using data in which this relationship holds, and therefore may make different predictions at 5 years, had
+these been provided for use by the FRAX authors. For example if the FRAX tool were based on a cox model then the baseline
+hazard may be very different at 5 years and thus predictions may differ in a non-linear way.

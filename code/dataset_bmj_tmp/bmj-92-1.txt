@@ -1,0 +1,66 @@
+Effects of therapies for prophylaxis and treatment of COVID-19: living systematic review and network
+meta-analysis
+The authors have examined the effects of treating suspected or confirmed COVID-19 by systematic
+examination of the literature and network meta-analysis of the few randomized controlled trials. This is
+potentially important work. They have used elegant statistical methods to examine the data, but the
+best they can find is 18 trials, and of all the more than 200 pairwise comparisons, the best they can find
+is three results of moderate certainty, and a few of low certainty.
+A major problem is that the only potentially life-saving treatment, dexamethasone,
+[https://www.medrxiv.org/content/10.1101/2020.06.22.20137273v1] is omitted from the analysis. This
+is bad luck, but risks making the work useless.
+I have set out comments on the presentation as it stands, but it would be sensible for the work to be
+revised to include the results published in the preprint of the RECOVERY trial dexamethasone arm. The
+paper will need to be assessed by a statistician.
+Page 9/68
+Background
+Line 6: ‘Despite huge efforts to identify effective interventions for its prevention and treatment- which
+have resulted in almost 1,500 trials completed or under way—evidence of effective treatment remains
+limited.’ Please qualify as ‘scientific,’ ‘good’ or ‘robust’ evidence—a major problem is that, of ~1500
+completed trials, you only found 18 RCTs for your meta-analysis, and they were largely unhelpful.
+Line 18: please say what a ‘living network meta-analysis’ actually is.
+
+Line 31: ‘Our living NMA will directly inform BMJ Rapid Recommendations4 on COVID-19 treatments,
+triggered to provide trustworthy, actionable, and living guidance to clinicians and patients soon after
+new and potentially practice-changing evidence becomes available.’ It will not do so as it stands. Please
+update this to include the RECOVERY trial results for dexamethasone, or it will instantly be out of date.
+Line 49: ‘suspected, probable or confirmed COVID-19 that compared pharmaceuticals or blood products
+aimed at prophylaxis or treatment against one another or against no intervention, placebo, or standard
+care.’ ‘The other studies will be included in NMAs for blood products and prophylaxis.’ Please confine this
+paper to treatment of confirmed or suspected covid-19 by medicines.
+Page 10/68
+Line 36: Please clarify here whether your reviewers looked only at full text of those articles already
+selected by title & abstract. [See page 12/69, line 47]
+Line > 60: Please say why ‘viral clearance’ was chosen when ‘Outcomes of interest were selected based
+on their importance to patients.’
+Line > 60: ‘Because of the inconsistent reporting observed across trials, in the updates we will use…’
+11/68 Line 14: ‘We update the data collected from included studies when they were published as
+preprint or as soon as the peer-review publication becomes available.’ Line 41: ‘We plan to conduct
+separate NMAs for prophylaxis and blood products.’ This is Comment, not Method.
+Page 12/68
+Line 4: gemtc seems to have been updated on 21st June 2020
+[https://cran.r-project.org/web/packages/gemtc/gemtc.pdf]
+Line 38: This is a result.
+Line 50: Nine publications had only appeared as preprints, but we do not know how to judge the value of
+preprints. Three of the 13 RCTs had previously been published as preprints. Had there been material
+changes from the preprint to the published results?
+Line 51: Of the 21 studies that were registered, please say whether the protocol published at
+registration corresponded with the methods published in the paper.
+Page 15/68
+Line 25: ‘the most effective interventions’ is an inappropriate phrase to describe treatments that yield a
+small or trivial benefit of low certainty.
+Line 42: ‘Remdesivir is the only intervention in which even moderate certainty exists supporting
+reductions in both time to symptom resolution and duration of mechanical ventilation.’ Please say
+whether: (a) the remdesivir data all come from company-sponsored trials; (b) whether the grading of
+bias that you used included this as a factor; and (c) if not, whether company sponsorship, which is
+associated with the publication of positive results, should be considered a bias?
+[https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.MR000033.pub3/full]
+Page 31/68
+Please explain why the mortality of 330/1000 with standard care is ~three times the rate of mechanical
+ventilation, when most control patients in trials would be expected to be ventilated before they died.
+Page 47/68
+Can it really make sense to publish results to 8 significant figures (145465.98) when the credible interval
+(CI) is anywhere between 0 and 1.74E+19? An odds ratio between zero and several orders of magnitude
+looks meaningless to a simple physician, and it might be better to throw away all the results with very
+
+low certainty. Publishing them (except as supplementary tables, perhaps) could lead people to believe
+that the odds ratios mean something.

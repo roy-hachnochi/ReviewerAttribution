@@ -1,0 +1,59 @@
+Thank you for giving me the opportunity to review this paper reporting the results of an
+international trial about the efficacy of a computer-based intervention to help GPs reduce
+polypharmacy in the elderly. The primary outcome is a composite outcome of non-elective
+hospitalization and death, which seems ambitious but sound. The study design is a
+cluster-RCT, so that there is no contamination between patients of a same GP. The
+calculation of the sample size (inflation factor) and the statistical methods (mixed models)
+were adequately adapted to this type of design. There was no significant difference
+regarding the main outcome between the intervention group and the control group in the
+intention-to-treat analysis (OR 0.88 [0.73-1.07], p=0.192) but the authors point out that
+the intervention nevertheless enabled a modest reduction in the mean number of drugs
+taken by participants (on average 0,45 drug less in the intervention group compared to the
+control group).
+Overall, I think this study bring important and valuable results to the medical and scientific
+community. First, it should be noted that the intervention presented here seems feasible in
+real life, as opposed to time-consuming interventions which can be difficult to implement
+outside the experimental setting. From a methodological point of view, a strength of this
+study is its follow-up over 2 years of a cohort of almost 4,000 individuals in four countries,
+with only 12% of participants lost to follow-up. Many reasons may have contributed to the
+lack of significant difference between groups regarding the primary outcome. The authors
+actually mentioned the fact that the collection of information for the e-CRF, including
+diseases, biological information and medications, could have enhance the awareness of the
+GPs to inappropriate prescriptions in the control group. Other reasons may involve a lack of
+power (although the sample size was sufficient to obtain a power of 80%, it still means
+that there is risk of 20% of not observing a difference which nevertheless exists) but above
+all the multifactorial nature of the outcomes. Indeed, non-elective hospitalization and death
+may be influenced by pharmacotherapy and adverse drug related events but also by a
+number of other parameters related to chronic and infectious diseases, as well as
+accidents.
+Regarding the sources of conflict of interest, it should be noted that the software was
+developed by a society named Duodecim Medical Publications Ltd. and that one of its
+member is a co-author of the paper. However, the risk of conflict of interest is limited as
+the study was funded by a European grant and the developers did not intervene beyond
+the development of the software.
+In addition to this general comments, I have a series of questions or comments for the
+authors, listed below.
+1. Please explain the acronym PRISMA-eDS.
+2. Could the authors provide an overview of previous trials using computer-based
+interventions?
+3. A total of 11 patients were included by each GP. The GPs were free to choose the
+patients they wanted to include in the trial as far as they met the inclusion criteria. Could
+the authors discuss this methodological choice and its potential influence on the results?
+4. How were the data about the SF-12 collected at 12 and 24 months? By telephone
+interview?
+5. L221 of the Methods section: “All models included a fixed factor for study centre to avoid
+confounding through stratified randomization”. This sentence is not completely clear to me.
+
+6. The flow chart is not very clear about the strategy used to analyze the main outcome in
+ITT (i.e. the outcome is considered 1 in case of missing information).
+7. Table 2: Why is the main outcome expressed as mean (SD) when it is a binary variable?
+8. L20 of the Discussion section: I understand that the authors mean that deprescribing
+could have caused adverse reactions and in turn hospitalization and death but I think it is
+not appropriate to speak of non-inferiority here.
+9. Table 3 of online appendices: I think that it could be interesting for the readers to have
+further insight on the effects of the intervention. One interesting result to me is for
+instance the fact that the intervention increased the deprescription of proton-pump
+inhibitors compared to the control group.
+Minor comments:
+L156 of the Methods section: the e-CRF described above -> the e-CRF mentioned above
+Table 2: co-eff -> coeff

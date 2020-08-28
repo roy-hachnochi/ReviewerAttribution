@@ -1,0 +1,39 @@
+This is an interesting study assessing the association between the use of 5-alpha reductase inhibitors (5ARIs) and
+erectile dysfunction (ED). Overall, the authors report null association with these drugs in both patients with BPH and
+
+alopecia.
+There are some items that the authors should consider:
+1. Why did the study period start in 1992? Was it because of the availability of the first 5ARI? If so, it should be
+specified.
+2. The study period was limited to Dec 31 2011. This was because of concerns related to changes in the prescribing of
+5ARIs and diagnosis of ED during the study period. However, it is unclear if these old data are still generalizable to the
+current population using these drugs. While the authors' concerns are well founded, perhaps they should consider
+censoring on Dec 31 2011 in a sensitivity analysis only.
+3. The authors identified men who received a prescription for a 5ARI or AB plus a diagnosis of BPH. Was there a
+requirement for the prescription and diagnosis to occur within a specific time period? How was cohort entry defined? This
+is particularly important since this may have inadvertently introduce immortal time bias, i.e., the time between between
+these two necessary conditions is immortal as no patient could have experienced the outcome. This may be a theoretical
+issue, but nonetheless, the authors should use a more explicit cohort definition limited by time and define cohort entry
+as the last event meeting the definition.
+4. Why is the medical history in the CPRD 1 year for the alopecia cohort while 3 years in the BPH cohort?
+5. In the alopecia cohort, only a diagnosis was necessary to be included. This contrasts with the BPH cohort where
+prescriptions were also considered. Is there a reason for this more relaxed cohort definition?
+6. It appears that the alopecia cohort may have included patients who used finasteride prior to a diagnosis. This would
+have resulted in the inclusion of prevalent users. Can the authors confirm that this did not occur?
+7. In the alopecia cohort, exposure seems to have been defined into ways. One was ITT in nature, i.e. once exposed, the
+patient was considered exposed until the end of follow-up. The second was by recency of use. These two exposure
+definitions are quick different. What was the rationale?
+8. While the case ascertained was based on one of three criteria, ED remains an insidious outcome that is likely
+associated with some diagnostic delays? This is an important point that was not directly considered in the analyses.
+9. The authors excluded cases that had a diagnosis of cancer in the 2 years before index date. Such exclusions may
+increase the risk of selection bias, since these patients are removed from the pool of controls. Alternatively, this could
+have been considered an additional censoring criterion which would have allowed the use of the person-time contributed
+by such patients, and thus avoid such issues. This would have also corrected this issue for the controls.
+10. Can the authors clarify what they mean by index date? Was it the actual calendar date of the event , the duration of
+follow-up at which the event occurred, or the time since registration in the CPRD?
+11. The authors should explicitly state the ratio of controls to cases. It is implied that it was up to 4, but this should be
+mentioned earlier on in the section.
+12. It is unclear when the covariates were measured; was it at baseline or at index date? Table 3 implies that these were
+measured at index date. This can raise concerns related to the adjustment of intermediate covariates?
+13. It would be useful to present study flow charts to understand how the cohorts were constructed.
+14. The manuscript can be shortened, and some tables can be placed in the online appendix

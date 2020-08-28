@@ -1,0 +1,37 @@
+The authors assess the relationship between daily mortality and PM10 particulate pollution in 38 large Chinese cities
+between 2010 and 2013. I have some comments on the analysis and presentation of the data.
+1. Figure 5 shows the relationship between mortality and PM10 concentration as a quartic curve in PM10 (Equation (3)).
+
+The simpler models (Equations (1) and (2)) assume that mortality increases linearly with PM10, i.e. that the effect on
+mortality of a unit change in PM10 is the same whatever the mean value of PM10, yet Figure 5 shows that this is not the
+case. The different cities, which will have different mean values of PM10, ought to have different regression slopes
+depending whereabouts on the curve they are. Thus the comparisons of regression coefficients in Figures 2 and 3 are all
+confounded by the mean PM10 levels in the different cities. Figure 6 confirms this relationship, as stated on page 14
+”that the air pollution effects are smaller in the more polluted cities”. For this reason Equations (1) and (2) need to be
+extended, perhaps by including a quadratic in PM10.
+2. The models of mortality count should be fitted using Poisson regression.
+3. It would be better to use random effects rather than fixed effects to summarise differences between cities.
+4. The relationship between mortality and PM10 is tested at different daily lags. It is likely that a combination of lags is
+the best solution, and this time series approach needs to be explored.
+5. Similarly, time lags in weather conditions need to be investigated. Does adjusting for temperature adequately deal
+with seasonal effects? It would be interesting to see the spline curves fitted for each weather variable.
+6. Using dummy variables for year will introduce discontinuities at year end – better to use a spline of continuous time.
+7. The subgroup analyses based on statistical significance should all be removed – significance is not a good basis for
+focussing on particular cities and will introduce bias.
+8. The presentation of the forest plots can be improved. They need to be ranked in order of effect size, which will
+immediately demonstrate the largest and smallest effects. In addition, when different factors are being compared, e.g.
+lag in Figure 2, or respiratory vs non-respiratory mortality in Figure 3, or age and sex in Figure 4, the different factors
+need to be adjacent and grouped for each city, e.g. Guangzhou lag 0, lag 1, lag 2, etc, so that the within-city differences
+are easy to see. There is no point in using different symbols to distinguish between significant and insignificant effects.
+9. The text on page 9 is almost unreadable, with long lists of numbers to two decimal places. Given the width of the
+confidence intervals the numbers would be sufficiently precise to one decimal place (perhaps omitting the CIs), and most
+of the numbers can be omitted as they are already in the tables.
+10. Coming back to Figure 5, the fitted CVR curves for the elderly and females are almost identical, whereas the curve
+for males is appreciably lower. This is worthy of comment, not least because the Discussion states that there is no
+significant sex effect. Is there an interaction between age and sex? Are there many more male than female deaths, so
+the PM10 effect in females is downweighted? It would also be interesting to test if the impact of PM10 on mortality was
+age and/or sex-specific – does PM10 have a larger impact on the elderly?
+11. Table 1 gives a few summary statistics for the 38 cities, but the units are not given. Information about population
+and mortality rate by age and sex, and coverage by DSPS, also needs to be added. Do give some thought about how to
+rank the cities in the table – perhaps by mean PM10. Listing them alphabetically would waste information.
+Tim Cole

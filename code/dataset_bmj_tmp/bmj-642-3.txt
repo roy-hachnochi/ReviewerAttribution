@@ -1,0 +1,35 @@
+The authors seek to describe the impact of PPI on post-MI bleeding associated with anti-thrombotic drug use and
+NSAIDS. This is a complex question, involving three drug exposures and MI hospitalizations, and the authors
+employed a flexible, time-varying treatment approach to categorize periods of drug exposure time. I generally agree
+with the overall study design to answer this question, but there are some clarifications required to give a full
+understanding of the study design, and some suggestions which appear below:
+Commendations:
+1. I appreciate the thoughtful sensitivity analyses which addressed important questions such as over-the-counter
+NSAID use, individual medication formulation subgroups rather than simply class effects, age, etc.
+Substantive comments:
+1. The authors require survival for 30 days post-discharge: when does the follow-up begin for the time-to-event
+analyses? It should begin after the 30-day quarantine period to not include immortal person-time, and I don’t see
+that explicitly stated anywhere in the manuscript.
+2. Presumably, some patients could be followed for almost 14 years—while an impressive ability in the database, at
+some point these patients could not be classified as immediate post-MI patients. Would it make sense to censor
+follow-up sooner after MI discharge rather than follow each patient to the maximum ability of the dataset? At some
+point, the risks of the immediate post-MI period will be decreased, and the patients’ indications for the drugs may
+change. An analysis with a limited follow-up (maybe 1 or 2 years post-MI) may be informative and the results more
+relevant to the question of post-MI antithrombotic drug bleeding.
+Minor comments:
+1. The authors spend a substantial portion of the “Antithrombotic, PPI and NSAID Treatment” section (Page 8)
+discussing calculating daily dosage, which gives the impression that an analysis of medication dosage will be
+performed. But rather, it appears that these are simply ways of defining periods of binary (yes/no) drug exposure.
+It would be very helpful if this was stated outright.
+2. On page 7, line 49-52, the authors state that “patients were included if they were on antithrombotic therapy at
+discharge.” How was the definition of “at discharge” operationalized? If the database contained pharmacy-dispensed
+prescriptions, does “at discharge” mean filled prescriptions within the 30 days post-discharge (or some other
+window)?
+Editorial comments:
+1. I am not entirely positive of the meaning of the line (page 8, line 49): “Each patient´s exposure group at
+inclusion defined baseline treatment.” Does this simply refer to the initial treatment is what is used to show the
+covariate distributions in Table 1?
+2. A figure showing the baseline periods, quarantine periods, follow-up, and drug exposure windows would be very
+helpful in understanding the cohort design.
+3. The figure 1 flowchart seems to be missing some lines connecting the PPI and PPI+NSAID groups to the other
+treatment groups.

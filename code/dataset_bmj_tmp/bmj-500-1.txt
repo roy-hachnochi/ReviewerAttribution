@@ -1,0 +1,43 @@
+The paper of H Kyu and colleagues examines the influence of physical activity on a number of
+cardiovascular, metabolic and cancerous outcomes. The article embraces a large number of articles and of
+outcomes, and my main concern is up to what point such a wide approach would not miss critical issues
+susceptible to change the way results can be interpreted. For instance, one article we recently published on
+physical activity and breast cancer indicates that taking hormone replacement therapy might have
+interfered with the protective effect of physical activity, which might explain why physical activity has a
+moderate effect on breast cancer occurrence (Pizot et al, EJC, 2015). Similar concerns could exist for other
+outcomes. If taken at face value, readers could understand that physical activity does not confer the same
+protection against major diseases. However, differences in protection between conditions could just be due
+to a lack of more subtle analysis of published data. Stratified analysis and sensitivity analyses on the type
+(ie, professional or recreational), on ways physical activity was measured, and according to strong risk
+factors specific of diseases (eg, sex, adiposity) could shed light on the relationships between physical
+activity and diseases.
+The way physical activity has been reported over time has been highly variable across studies, from just
+considering professional activity as a surrogate for physical activity, or as “low, moderate, high” physical
+activity and sophisticated codifications in MET-h/week.I could not understand from the text how authors
+dealt with the high variability in exposure reporting.
+Regarding results, I am surprised by the figures, in which all relative risks tend to cluster in a zone of low
+values and in a zone of high values for physical activity. Hence, disease risk would be a function of a low
+and a high level of physical activity. This dummy effect contrasts with exposures reported in many articles
+in quartiles or quintiles. Authors need to explain why such clustering occurs. Would this be due to the
+Bayesian approach?
+My other comments are:
+-What does “domain-specific physical activity measures” exactly mean? Authors should give an example of
+what they did.
+-The amount of MET-h/week assigned to the various types of physical activity has changed over time. How
+were physical activity in MET-h/week standardised for variations in MET-h/week over time?
+- Data sources for breast cancer analysis seems to be non-exhaustive: what about Catsburg 2014 and
+Rosenberg 2014?
+- What about the domestic activity? In the NHANES and SAGE surveys, the domestic activity seems to not
+be taken into account. Is domestic activity included in recreational activity?
+
+- NHANES and SAGE surveys did not include European countries; maybe these surveys are not
+representative of European countries (in terms of physical activity) and include a bias that could be
+discussed.
+- Did you try a standard dose-response meta-analysis (for example with Greenland and Longnecker) to
+compare with results of the Bayesian approach ?
+- More details on the prior used should be added. Did you choose the same priors for all 5 outcomes?
+- In Bayesian meta-analysis, the results depend a lot on the prior distribution used. Sensitivity analyses
+based on several prior distributions should be added to show how the results depend on assumption.
+Minor comments:
+- P11 line 3 and 6: you meant MET-min instead of MET-hour?
+- P18 line 47: “meta” instead of “meat”

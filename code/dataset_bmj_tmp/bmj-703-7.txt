@@ -1,0 +1,23 @@
+Table 1 reports the baseline characteristics of the propensity score match cohort. It’s usually good
+practice to report baseline characteristics of the unmatched and matched populations, along with a
+metric to show balance across each of the baseline characteristics (i.e. an absolute standardized
+difference; not P-values).
+The Methods are somewhat vague. More information is required on the matching procedure. Simply
+saying it was 1:1 is vague, what was the caliper width, did they use a greedy matching algorithm etc…No
+mention is made in the Methods (under ‘Propensity Scores’) as to how balance was assessed after
+matching. There are 7.6 million courses of penicillin, did the authors not consider 1:2 or 1:3 matching, to
+make use of more data?
+I could not see any mention of missing data/data completeness. There are lots of covariates (Table s2).
+How was missing data handled? Presumably they were omitted, which may be a concern. But we have no
+idea how many were omitted.
+The unit of analysis is course of fluoroquinolone/penicillin, not at the patient level. So how many patients
+did ~2 million courses cover? So in Table 1, if N is number of courses and not number of patients, what
+is ‘Male sex’, because won’t there be over counting (i.e. if one man has 5 courses, has is this counted in
+the number of men in Table 1, as 5 or 1?), because of multiple courses per patient? Similar comment to
+age. The analysis uses appropriate methods for multiple courses per patient (i.e. the GEE analysis), but
+I’m unclear as to whether one needs to balance at the patient or the course level. I think the reader
+needs to be reassured that the two populations are comparable. Can the authors clarify.
+The two countries are quite different in terms of prescribing. Sweden had nearly double the
+flouroquinolone courses than Denmark, but the reverse for penicillin (Denmark had over double the
+number of courses compared to Sweden). Does this matter for balancing? Can the authors comment on
+this, and satisfy the reader that this is not a concern.

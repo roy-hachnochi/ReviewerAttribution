@@ -1,0 +1,45 @@
+Thank you for the opportunity to review this manuscript. I am reviewing this as a statistician with limited knowledge of
+osteoporotic fracture; therefore my comments are primarily on the methodology and reporting of the study.
+Electronic health records (EHR) are a valuable resource which the authors use to perform an independent external validation of
+the QFracture, FRAX and Garvan risk prediction tools with data collected in Israel. All three models can be used to predict the
+risk of hip fracture and two models (QFracture and FRAX) can be used to predict the risk of major osteoporotic fracture. The
+authors compare the performance of all three models in the same data, as well as validating each model using participants
+within the same age range as that used to develop the model.
+Firsty, I would encourage the authors to use the TRIPOD guidelines for reporting of a validation study (http://www.equatornetwork.org/reporting-guidelines/tripod-statement/). Many of my comments are related to items on the TRIPOD checklist.
+I feel the methods section would benefit by keeping all validation and analysis together at the end of the methods. Currently
+paragraph 2 in study design and paragraph 2 in study population discuss the different validations performed and the age
+ranges of patients selected for the second part of the validation. This might be better placed after discussing the study design,
+data etc. when discussing the methods for comparative and external validation.
+The second paragraph of study population says that external validation was performed on three separate populations. My
+understanding is that they would differ slightly because of the age ranges selected but are not separate as patients could be
+included in all three.
+Could the authors please give a bit more detail about how information was used. Under study variables, the authors say,
+‘based on information that was last documented as of the index date’. How long before the index date was still considered
+acceptable? For example, if the last height and weight were taken several years prior to the index date is it reasonable to
+assume the BMI remains the same at the index date? The same would apply to other variables in each of the models.
+Can the authors comment on how complete they think the medication records would be? Are pharmacy dispensing data usually
+up to date and linked with the other EHR for individuals? Other than BMI and smoking (for which patients were excluded from
+analysis), are any other variables used in the models likely to have missing data?
+Other than age range and country, are there any other known differences between the developmental data and the current
+data for validation? Having a summary table of patient characteristics would be useful for comparison.
+The authors convert 10 year probabilities to 5 year probabilities by fitting a linear regression model to the cumulative number
+of events with follow-up month as the predictor. I think the assumption of a linear trend over time is probably reasonable
+based on the graph presented, however fitting a linear model to investigate the relationship between follow up months and
+cumulative number of events ignores correlation between data points (where the cumulative number of events from one month
+is highly correlated with that of the next month). This is why the R^2 values are near perfect. A Poisson model on the other
+hand would model the event rate for each unit of time (e.g month) and could perhaps show that the rate is relatively constant
+over time. Could the authors comment on whether a Poisson model was considered and if so why this was not used?
+Related to the above point, the authors say that a conversion factor was chosen but do not state what the conversion factor
+was for predicting 5 year rather than 10 year risk.
+In addition to age and sex stratified calibration, calibration for different risk groups (often plotted for deciles of predicted risk)
+can be useful to see if the model predicts well across the range of predicted probabilities.
+The number of hip fractures and number of major osteoporotic fractures for the ‘comparative’ analysis are provided. It would
+be helpful to report the number of events for the ‘external’ validation too as these numbers vary for each prediction model.
+For the highest 10% or 20% risk, it would be helpful to have the corresponding probabilities and perhaps have these points
+marked on the ROC curves for comparison too.
+The second paragraph on page 13 could benefit from being clear about which model and which outcome each set of results
+correspond to.
+The external validation of all three models focusses on discrimination of each model. I am not surprised that the AUC for
+QFracture improved as I would expect including patients from a larger age bracket to widen the range of predicted probabilities
+when age is a predictor. It would be helpful to look at calibration too in the external validation, as we might expect that this
+would improve in a group of patients that are more similar to the developmental data.

@@ -1,0 +1,26 @@
+
+I thank the authors for their detailed responses to the reviewer comments and the changes
+they have made including further analysis. This paper reads well and provides a thorough
+independent external validation of the three osteoporotic fracture risk models. The authors
+have addressed my previous comments satisfactorily and I only have a few further comments
+to make:
+1) Pg 7: ‘three separate cohorts’ still reads as if they are independent from each other, whereas
+my understanding is that some patients could be included in all three datasets (e.g. if they are
+aged 60-90). Therefore they are not really separate but rather subsets of the same data that
+may overlap due to the age ranges used. Could this be clarified further?
+2) I’m glad to see that the authors have now imputed data for variables with missing values
+rather than excluding these patients. However, can the authors please provide more
+information on the method of imputation. The authors mention that imputation is based on a
+linear regression model using age and sex. Does this mean that everyone with the same age
+and sex gets the same imputed value for BMI or is there some variability in the values imputed
+for patents with the same age and sex?
+3) Can the authors also justify the use of single imputation rather than multiple imputation and
+why imputation was based on age and sex alone rather than including other variables and the
+outcome in the imputation model.
+4) Thank you for including calibration plots for the three models in Figure 3. However, a
+smoothed line might be better than a straight line here, especially to show the miscalibration in
+the oldest age group of 80-89 years where it doesn’t appear to be linear. It is interesting that
+Qfracture appears to massively overpredict risk in this 80-89 year age category, yet this is
+missed if just looking at calibration within age categories or risk deciles (Table 4a and 4b).
+5) Supplement 3: 0.499 and 0.505 relate to the proportion of the 10 year number of events at
+5 years rather than the ‘total’ being 0.499 as currently worded.

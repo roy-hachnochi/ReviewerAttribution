@@ -1,0 +1,55 @@
+This interesting articles examines a large original dataset of articles to examine whether females are
+more (or less) likely to use terms such as "novel" in describing their research, and whether the use of
+these terms is associated with more citations. Overall, the authors find that male authors (papers where
+the first OR senior author are male) are more likely than female authors (papers where the first AND last
+author are female) to use the term novel, and that papers that use this term generally have more
+citations. While the absolute differences may seem small, the relative size of the effect is fairly large,
+particularly among more prominent journals (impact factor>10). The topic is a timely one and I think
+the paper will find an interested audience in the BMJ. I think the following revisions would be helpful:
+1). The baseline (i.e., "male") group is defined as having a lead OR senior author with one male, but as
+an additional analysis, it would also be worth examining groups where the first AND senior author are
+male.
+2). Somewhat related to (1) above, in the case of male/female authorship teams could the authors
+examine whether there is any difference (relative to male/male or female/female authorship teams) if
+the female is the lead or senior author?
+3). The authors show that the use of words like "novel" is associated with an increase in the number of
+citations, but this analysis measures the effect across males and females together. It would be helpful
+via either an interaction term or subgroup analyses to examine how this effect varies across gender, i.e.
+if males use term like "novel," is the effect on citations larger or smaller than when females use the
+same terms? I think this analysis is important because a theme of this paper is that females, by using
+the term "novel" less, are also receiving fewer citations, but perhaps an alternate explanation is that
+females only use it for truly novel work (i.e., males overuse the term), in which case one would expect
+to see that when females use the term, there is a particularly large increase in citations compared to
+when males use the term.
+4). Confounding is always an issue (males may simply be more likely to do novel work), and while the
+authors do adjust for a variety of factors, I think it might be helpful to perform an analysis in which the
+number of citations is used as an independent variable (instead of an outcome sit is currently used).
+While this may be a bit strange, I think it would be helpful since one might presume that the number of
+citations could be used as a proxy for novelty.
+5). Can the authors examine where the use of words like"novel", etc is occurring (i.e. title, abstract,
+both) and (a) examine gender differences in this placement and (b) examine the association between
+placement and citations?
+6). In using the genderize algorithm to determine gender, the authors imposed a cutoff of 90%, that is
+to say, they only included names where the genderize algorithm was 90% confident of the gender.
+Could they examine the robustness of their results to alternative cutoffs?
+
+Additional Questions:
+Please enter your name: Eric Sun
+Job Title: Assistant Professor
+Institution: Stanford University
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests <A
+HREF='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/declaration-co
+mpeting-interests'target='_new'> (please see BMJ policy) </a>please declare them here: none
+
+Reviewer: 3
+Recommendation:

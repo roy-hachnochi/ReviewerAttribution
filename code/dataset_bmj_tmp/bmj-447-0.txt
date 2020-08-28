@@ -1,0 +1,39 @@
+This is a very thorough analysis of two large and unique dietary datasets. While
+cross-sectinal analyses of the relationship between meat consumption and health have
+shown reasonably consistent results, the ability to look at change in meat intake and
+subsequent mortality adds some further strength to the observations. There are nonetheless
+some limitations to the analysis and interpretation which I would like to see addressed:
+Major points:
+1. The possibility of unmeasured confounding, which haunts observational nutrition
+epidemiology, is not mentioned. Although any covariates have been included in the analysis,
+a major omission from the list is some measure of socio-economic status. Although the two
+cohorts are more homogeneous in this respect than the wider population, educational
+attainment or some index of wealth would be a useful addition.
+2. The use of servings per day as the unit of exposure is simple but also difficult to interpret
+when the serving size varies so widely between different meat items. As some diet
+guidelines use grams of meat per day it would be useful if in the descriptive data the authors
+could provide the weighted mean intake in grams as well as servings. the authors could also
+consider displaying the results as servings per week, as a mean change of 0.15 servings per
+day is harder to visualise than 1 serving per week.
+3. The fact that there was little or no difference in mortality between those who reduced
+meat consumption and those who did not is obscured by the replacement analysis which
+must rely on the associations between intake of the replacement foods and mortality for the
+positive results. Would the same results be seen for replacement of high fat, high sugar
+foods by the same replacement foods? Given that the population intakes of protein probably
+exceed requirements, using one protein-rich foods in this analysis is to me inappropriate:
+what about replacement with vegetables or whole grains, of which consumption is likely to
+be too low?
+4. The association between processed meat consumption snd death from neurodegenerative
+disease in women but not men (figure 2) is intriguing and needs more reflection. What kinds
+of neurodegenerative diseases were most common? Could this be a result of reverse
+causation, for example reduced dexterity affecting cooking skills?
+Minor points
+a) Page 11 line 54: given that the analysis uses serving sizes not calories per serving, I don't
+think it is correct to assume that replacing serving of one food with another will be isocaloric
+b) page 7 line 39-44: approx 60% of the deaths in the NHS and HPS are reported as being
+due to CVD or cancer. Were all causes of death known, and if not could this information be
+given? Also, in the HPS the number of deaths due to CVD and cancer are both given as1754:
+is this a coincidence or a typo?
+c) eTable 1 second column headline should be 'ICD-8 code'
+d) eTable 2 if data is not normally distributed should the IQR not be shown with upper and
+low bounds, not as a single figure?

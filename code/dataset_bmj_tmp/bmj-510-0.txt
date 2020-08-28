@@ -1,0 +1,27 @@
+The authors have responded positively to most of my comments, but there remain some issues that need addressing.
+1 (previous point 1). The process of estimating somatotype at age 50 from BMI has been clarified, but the clarification
+itself raises some points.
+The paper fails to say why the age 50 somatotype needed to be estimated. The somatotypes from age 5 to 40 represent
+an impressive summary of body shape tracking for the first half of life. My guess is that a value at age 50 was felt to be
+needed to justify the phrase "early and middle life" in the title and elsewhere. However this is not stated, and it needs to
+be.
+The modelling process based on a mixed effects model is a clear improvement on the previous methodology. However it
+is the wrong way round, as they authors acknowledge. The aim is to predict somatotype at age 50 from BMI and
+previous somatotypes, so modelling BMI and inverting the regression equation to give somatotype is incorrect. A better
+approach would be to use polytomous regression with somatotype as the dependent variable. This would avoid having to
+invert the regression equation, and would also correctly predict a somatotype category at age 50 without the need to
+truncate the scale.
+The description of the process, although improved, still relies on the supplementary information to be clear. The second
+paragraph under Body Shape Assessment on page 8 still does not mention BMI at age 40, and it does not explain why
+BMI is relevant when the main focus is on somatotype. I suggest this paragraph be completely rewritten, linking
+somatotype and BMI more obviously and summarising the ages when the data were available.
+2 (previous point 3). I suggested that excluding subjects with BMI < 18.5 was illogical, but the authors are keen to
+remove them. I find their argument unconvincing, that such BMI's are below the normal range and hence should be
+excluded. But how many BMI's were excluded as being above the normal range, and is not the conclusion of the study
+that high BMI increases mortality? This is inconsistent.
+The interest is in the natural history of BMI and its link to later mortality, so there is no good reason to arbitrarily omit
+subjects at the extremes of the BMI range. The authors cite reverse causation to justify the exclusion, yet their design
+has a built-in ten-year mortality delay (from age 50 to 60) to minimise the effects of reverse causation. I insist that
+there be no exclusions based solely on low (or high) BMI.
+3 (new). Reviewer 2 asked for reference 24 (now 21) to include the journal name. This has been added, but the
+reference is still incomplete.

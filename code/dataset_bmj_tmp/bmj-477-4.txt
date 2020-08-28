@@ -1,0 +1,47 @@
+Thank you for the opportunity to review this interesting piece of work. The topic is clearly important and
+the authors have undertaken a considerable study. I have reviewed this from a statistical perspective,
+and have some comments for improvement and clarification
+1) The analysis methods (propensity score matching) are seemingly well done, with lots of confounders
+adjusted for in Table S1, although residual confounding remains a concern. I wonder, how missing data
+(e.g. in the confounders) was handled (e.g. multiple imputation?), as I expect there to be missing data
+for some covariates for some patients.
+2) I did not see that hospital (Facility) was adjusted for directly. Why was this? The authors may have
+covered this by other factors such as region, number of beds, etc anyway, but I would like to know if it
+would have made any difference. Perhaps this is what is meant by the random-effects model to adjust
+for differences in facility and practice patterns?
+3) The main the outcome is in-hospital mortality by 7 days. But, is there a competing event of discharge
+BEFORE 7 days? E.g. it says: “In the ITT analysis over 7-day followup, the absolute rate of death per
+100 person-days was 1.7 for haloperidol initiators and 1.1 for atypical antipsychotic initiators.” These are
+in-hospital deaths; but could there be people who leave before 7 days?
+Indeed, the authors exclude 1688 with an in-hospital stay of 3 days (Fig S1). But what about those who
+left between 3 and 7 days? If they are censored at discharge (which it seems was the case), then the
+%s relate to an artificial world where people can only ever die in hospital. (%s will be too large). Rather,
+competing risk methods would be required.1 This will also effect Figure 1.
+4) I think the authors should examine statistically the proportional hazards assumption, by including an
+interaction with time, rather than just plotting the log(log) plot and visually summarising it. This holds
+for the 7 day analysis, as well as the 30 day analysis. It seems that the HR is coming down over time,
+and this needs better explanation and reporting. For example, what is the change in the HR for each day
+increase? This could be plotted, and the HR over time given properly, rather than is done in Table 2,
+where separate analyses are done for each time-point. I expect this will make the HR at later days, say
+25 to 30 days, not significant anymore.
+
+5) More details on how the PS was created are needed. For example, was a logistic regression model
+used?
+6) Figure 2, subgroup comparisons. We need the authors to quantify the actual difference between the
+groups (not just present each group separately), and give us a CI and p-value for the difference. In
+particular, is the difference between 2 days and 1 days exposure beyond chance? The CIs overlap
+considerably, so potentially not. Same for ICU versus medical ward. I also do not like categorisation of
+variables, like age at 75 and 85, and CCI at 4. This loses power, say to keeping continuous, and
+potentially considering non-linear relationships.
+7) Figure 1 (ignoring the competing risks issue) suggests that there is a statistically significant difference
+between the groups, but in absolute terms this is very small. The baseline hazard is low, and the study
+is large, and thus we could small p-values, even when the effect (HR = 1.5) is not necessarily important
+clinically. Would the authors respond to this please?
+8) Is the sample generalizable? Lots of patients were excluded, e.g. authors excluded 17,434 patients
+that used an antipsychotic on the first and second day of admission. I find this a considerable omission,
+and am struggling to understand the justification. It limits the relevant population to which the results
+here apply.
+I am pleased to see that the authors note that “residual confounding cannot be completely excluded as a
+possible alternative explanation despite careful study design and adjustment for a wide range of
+potential confounders.” In summary, I hope my comments help the authors going forward.
+Best wishes, Richard Riley

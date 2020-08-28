@@ -1,0 +1,32 @@
+The authors have given good responses to many of the comments and suggestions made. In particular,
+the move to Poisson regression to validly assess the primary outcome differences is a major
+improvement.
+I am surprised that the numbers in the 3 arms, for both families and children, are so similar given there
+was no stratification or blocking to randomisation (figure 1). It is of course possible, and the author
+response suggests that they were fortunate to get such good balance.
+I do have some further queries though regarding the current manuscript and the responses given:
+1. Re the sample size estimation. This is improved, but I still have a few queries. –
+- The authors state that to detect a difference of one half of an sd (diff 0.28, sd estimated 0.56) requires
+n=80 per group to give 80% power. I assume this would be at 5% significance level. By my calculation
+it would be 63 per group. This is not a major difference, I am just curious as to why the difference.
+Maybe a software issue?
+- They then give a number of 150 per group to account for 25% attrition (yielding 107 per group) and
+possible clustering within families (indicating a design effect of 1.40, which is arbitrarily chosen?)
+- N=2 and an ICC of 0.01 would give a design effect of 1.01, and an effective sample size of 1059/1.01
+= 1048 (ie. is the design effect given of 1.02 a typo?)
+The authors therefore address within family clustering, but was there also within village clustering to
+adjust for?
+2. Since there is clustering, this should be included in the analyses to adjust the confidence intervals and
+significance levels accordingly. Multilevel models should be used.
+3. Although in the response the authors discuss the effect size of NEWSUP being 2-4 times greater than
+that of FBF, I could not see this information in the manuscript (nor which values they were specifically
+referring to). The statements within the manuscript that there were no significant differences between
+NEWSUP and FBF should be supported by a difference (RR) and ci. It is accepted that this is an
+exploratory analysis without power to detect a difference, as outlined in the methods.
+4. Primary outcome is given as the number of stickers found at follow-up in the methods and the results
+appear to show this, yet the abstract states that the primary outcome is the change in working memory
+from baseline to follow up.
+5. It is unclear how many children reached the limit of trials (12 for younger, 18 for older) and how
+these were treated in the analyses.
+
+6. Table 4 should given differences and ci for the newsup vs FBF comparison, not just the p-values.

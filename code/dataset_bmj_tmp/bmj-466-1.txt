@@ -1,0 +1,43 @@
+
+In general I found this to be a well written and clear paper examining the interesting topic of why IPD is not always
+obtained in reviews, and whether there have been changes over time. My main concerns are that the topic is
+somewhat specialised, and perhaps not of great interest to the full BMJ readership, particularly as previous papers
+on IPD analysis have already discussed that few IPD reviews obtain all the relevant IPD. Much of the paper is given
+over to anecdotal discussion of the authors’ experiences, from which it is difficult to take any clear message.
+Originality: As the authors note there have been several reviews of IPD practice, which have considered success at
+obtaining IPD. This paper is the first to try and investigate and model whether success in obtaining IPD is linked to
+characteristics of the review.
+Importance: That IPD reviews often do not obtain IPD has been widely reported in previous articles and reviews. As
+such the conclusions of this paper are unlikely to surprise anyone familiar with the field, although the analyses to
+identify where IPD retrieval is less successful are helpful. The section on the authors’ own experiences in epilepsy
+are rather long (longer than the review and analysis), and inevitably anecdotal. As such I could not draw any real
+conclusions from this section. I would recommend that this section be substantially shortened, to focus only on how
+the authors’ experience compares with what they found in their review.
+Methods: The review process appears to have in well conducted, and the methods used appropriate. The results are
+reasonable and all conclusions suitable given the data.
+I give some specific comments below:
+1. It would be helpful to present at least some of the data in Table 1 in figures, such as stacked bar charts. This
+would allow a more granular presentation of the data (100% IPD, 80-100%, 50-80, <50, not reported, for
+example). Even if this is not possible numbers where IPD was unreported/unclear should be reported separately in
+the tables.
+2. Using logistic regression has obvious limitations for percentage data, including the arbitrary choice of 80% as a
+cut-off, the loss of information from making percentage data into binary data, and including unknown proportions in
+with the <80% group. I think some sensitivity analysis is needed here, such as analyses at more cutoffs, or
+excluding reviews where numbers were unreported (which may introduce reporting bias, of course). Perhaps
+multinomial regression, beta regression, or other methods for analysing percentage data might also be considered.
+3. It would also be helpful to model non-reporting as an outcome, to see if this is related to any of your covariates.
+4. You found that having an authorship policy increased retrieval rates, but this doesn’t seem to be the case for
+collaborative groups (at 100% retrieval). Could you comment on this?
+5. One likely reason for the general decline in IPD retrieval rates over time you miss is that IPD analysis is becoming
+more common, and is used in a wider range of fields (not just treatments for cancer). It would seem inevitable then
+that more IPD reviews are being done in areas where getting all the IPD will be difficult, where in the past the focus
+was on areas where getting IPD was feasible. I wouldn’t consider that to be a problem, just a natural consequence
+of IPD becoming more popular. Larger and better managed databases and searching techniques probably also
+increase identification of hard-to-obtain studies.
+6. Might Review type (systematic vs opportunistic) be an important covariate to consider, if you extracted this
+data?
+7. IPDMA is sometimes singular, sometimes plural and sometimes IPDMAs in the text. Please make this consistent.
+8. There are several typos or editing errors (e.g. “should therefore which could” line 20, page 2). Further proof
+reading is needed.
+Dr Mark Simmonds
+Centre for Reviews and Dissemination, York

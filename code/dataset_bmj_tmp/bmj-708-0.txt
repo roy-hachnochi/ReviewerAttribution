@@ -1,0 +1,18 @@
+The response to my comments is generally well detailed. There are still a few areas for concern, in a generally well
+written and clear paper.
+1) I still feel the adjustment factors are quite few. For example, for breast cancer there are only about 6 adjustment
+factors in the main analyses. Therefore residual confounding is a big concern. But also confusingly, the breast cancer
+analyses do not adjust for smoking until the sensitivity analyses and yet the CVD analyses do. This seems entirely
+unjustified, as the methods says that all known risk factors were included as adjustment factors. Am I missing
+something? Surely this is a serious omission in the main analyses and it does not make sense to include additional
+confounders only in the sensitivity analysis. Why not include all potential confounders in the main analysis? This needs
+to be clarified. Also, perhaps I missed it, but where are the breast cancer results when smoking is included? I don’t
+think these are presented.
+2) Why was education imputed using simple imputation and not multiple imputation itself? I do not understand the
+rationale for this, unless it is obvious based on the age what the missing education would be? Please clarify.
+3) Under the tables and in the results, can the authors clarify that when they looked at linear and non-linear (U)
+shaped trends, that they did this using the actual difference in alcohol intake, and not based on the categorical
+classification?
+4) Table 3 heading says HRs are presented, but that is not true for the first set of rows
+5) I do not see a discussion on potential for residual confounding in the abstract or discussion. Again, this is a crucial
+omission given the limited number of confounders.

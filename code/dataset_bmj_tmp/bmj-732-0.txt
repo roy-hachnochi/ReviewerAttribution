@@ -1,0 +1,25 @@
+I am happy with the majority of this revision, and I thank the reviewers for replying so clearly.
+However, I would like them to address one final point regarding missing data. The authors now clarify
+that they used the missing indicator method to deal with missing data. Even though missing data is a
+small % for each covariate, it still represents a large number of people (they say: 1126 women had
+missing alcohol use (gm/day), 833 women had missing BMI, 417 women had missing physical activity
+(mets/wk), 818 had missing postmenopausal hormones use,141 had missing oral contraceptive use,
+and 161 had missing smoking status at baseline in 1989. Family history of MI,
+aspirin/NSAID/acetaminophen use, history of hypertension , elevated cholesterol or diabetes had no
+missing values). Unfortunately, the missing indicator method is a very poor approach for dealing with
+missing data in observational studies. Please see [1]. They say in this article that: ‘In nonrandomized
+studies, the factor or test under study is often related to variables with missing values, in which case
+the missing-indicator method typically results in biased estimates’ and ‘Although the missing-indicator
+method was originally proposed for missing confounder data in etiologic research, its use should be
+limited to randomized trials only’.
+Therefore I must recommend that the authors rather use multiple imputation. I would be very surprised
+if this changed the conclusions, though confidence intervals may be wider. Nevertheless, it is important
+– for the robustness of the article and to ensure the quality for the BMJ reader – that the authors rather
+consider multiple imputation for dealing with missing covariate data. This is readily available in
+
+statistical software, and I envisage (hope) that it is not a difficult undertaking, especially given that I
+have no further concerns apart from this.
+I hope the authors find this constructive. Best wishes, Richard Riley
+[1] Groenwold RH, White IR, Donders AR, Carpenter JR, Altman DG, Moons KG. Missing covariate data
+in clinical research: when and when not to use the missing-indicator method for analysis. CMAJ :
+Canadian Medical Association journal = journal de l'Association medicale canadienne. 2012;184:12659.

@@ -1,0 +1,29 @@
+Injuries immediately before and after a cancer diagnosis:
+nationwide register-based study
+This paper sheds lights on injuries happened around a cancer diagnosis. Patients diagnosed with cancer did not only had highly
+an increased risk of iatrogenic injuries, but also non-iatrogenic injuries. This study was well-designed and used a large
+database.
+Importance of the work to general readers
+1. This study area has been ignored, and we need more supports for patients around a cancer diagnosis. Estimating incidences
+of injuries is important for health policy.
+Originality
+2. This is an original piece of work because this study shed lights on not only suicide death and accidental death but also nonfatal iatrogenic injuries. However, results of this study were quite natural and not interesting. Many studies have reported
+increased risks of suicide and accidental death of newly diagnosed cancer patients. I think what this study added is small. This
+paper need more implication about future health policy.
+Validity of the research
+3. The author should write more limitations of this study. For example, some misclassification of disease coding is possible
+because of using patient registry data. The author should show the validity of disease coding of injuries.
+4. The author used a within-individual comparison design to control confounding. The author used patients who did not have
+injuries, but were these patients used in conditional Poisson regression? I think patients who did not have injuries were
+dropped in conditional Poisson regression. In the final analysis, I think this study is self-controlled case series design.
+Therefore, the author should consider this study satisfy assumptions of self-controlled case series design: first, events arise in
+a non-homogeneous Poisson process; second, the occurrence of an event must not alter the probability of subsequent
+exposure; third, the occurrence of the event of interest must not censor or affect the observation period (Statistical Methods in
+Medical Research 2009; 18: 7–26). I think injuries in pre-diagnostic period might reduce chances of cancer diagnosis, which
+cause IRR to be biased upwards.
+Presentation of the study
+5. In Figure 1, why post-diagnostic period has same x axis (same time course) as diagnostic period? We need more
+explanation to understand Figure 1.
+6. The author wrote “We stratified the analysis by sex, at age diagnosis ******”. However, I think the results of Table 2 were
+not stratified analysis but sub-group analysis. Please explain more details about methods to calculate the results of Table 2.
+Did the author use interaction terms between these covariates and exposure?

@@ -1,0 +1,80 @@
+This study directly compared the performance of three osteoporotic fracture prediction tools, QFracture, FRAX and Garvan,
+using large amounts of electronic health care data. In general, I am convinced that this study is relevant and that more headto-head comparisons of existing prediction models in large data sets are needed. However, I have several concerns about the
+implemented methodology and believe that the presented conclusions are not properly justified, such that the article is not
+suitable for publication in its current form.
+Major comments
+1) As this paper concerns the validation of prediction models, I strongly recommended to adhere to the recent TRIPOD
+reporting guidelines (instead of the more generic RECORD guidelines). These guidelines have also been published in the BMJ.
+References:
+* Collins, G. S., J. B. Reitsma, D. G. Altman, and K. G. M. Moons. “Transparent Reporting of a Multivariable Prediction Model
+for Individual Prognosis or Diagnosis (TRIPOD): The TRIPOD Statement.” BMJ 350, no. jan07 4 (January 7, 2015): g7594–
+g7594. doi:10.1136/bmj.g7594.
+* Moons, Karel G M, Douglas G Altman, Johannes B Reitsma, John P.A Ioannidis, P Macaskill, Ewout W Steyerberg, Andrew J.
+Vickers, David F Ransohoff, Gary S. Collins, and on behalf of the TRIPOD Group. “Transparent Reporting of a Multivariable
+Prediction Model for Individual Prognosis Or Diagnosis (TRIPOD): Explanation and Elaboration.” Annals of Internal Medicine 162
+(2015): W1–73. doi:10.7326/M14-0698.
+2) The study represents a retrospective cohort. What is the risk of information & recall bias? For example, the authors note
+that “All input variables of the three prediction tools were based on information that was last documented as of the index
+date.” How much time difference was there between the index data and the last documented date? For which variables could
+there be an increased risk of bias, and should imputation be preferred?
+3) The authors do not make any reference to established best practice on prediction modeling research. There are several
+methodological issues in this paper that could be addressed more appropriately given what is currently known. I therefore
+think it would be appropriate to check the recent literature and cite those papers that are relevant to this work.
+4) The authors conducted a complete case analysis ("Members without documentation of body mass index (BMI) or smoking
+status prior to the index date were excluded." It has already been pointed out by numerous articles that complete case
+analysis may lead to biased estimates of model performance. Although the proportion of missingness is not substantial (about
+6.5%), I would strongly recommend to implement multiple imputation and keep the current results as part of a sensitivity
+analysis. Furthermore, several journals, including the BMJ, have made recommendations about how to deal with missing data.
+For example, see:
+* Sterne, Jonathan A. C., Ian R. White, John B. Carlin, Michael Spratt, Patrick Royston, Michael G. Kenward, Angela M. Wood,
+and James R. Carpenter. “Multiple Imputation for Missing Data in Epidemiological and Clinical Research: Potential and Pitfalls.”
+BMJ (Clinical Research Ed.) 338 (2009): b2393.
+* Janssen, K. J.M., Y. Vergouwe, A. R. T. Donders, F. E. Harrell, Q. Chen, D. E. Grobbee, and K. G.M. Moons. “Dealing with
+Missing Predictor Values When Applying Clinical Prediction Models.” Clinical Chemistry 55, no. 5 (March 12, 2009): 994–1001.
+doi:10.1373/clinchem.2008.115345.
+* Harel, Ofer, and Xiao-Hua Zhou. “Multiple Imputation: Review of Theory, Implementation and Software.” Statistics in
+Medicine 26, no. 16 (July 20, 2007): 3057–77. doi:10.1002/sim.2787.
+
+5) The authors state that for FRAX-10, “A conversion factor was chosen to allow the translation of these 10-year probabilities
+into five-year probabilities by examining the rate of osteoporotic fracture events over a 10-year period, between 2005 and
+2014.” The information in supplement 2 indicates that the validation data was used to update the model such that it provides 5
+year risk probabilities. I have several concerns with this approach.
+5.1) There are better approaches to update/re-estimate the baseline risk of a survival model using new data. See work by
+Steyerberg and van Houwelingen. Also, simpler approaches exist that do not require new data to adjust the 10 year risk
+predictions, e.g. by assuming Poisson distributed events.
+5.2) Using the validation data to adjust the FRAX-10 model to a model that provides 5-year risks implies that its performance
+can no longer directly be compared to the other models. This is because due to updating, the FRAX model will by definition be
+superior in terms of overall calibration. However, the authors did not identify this problem and concluded that “In an analysis
+of the calibration measures, the FRAX tool presented the best redicted-to-observedratios, with the weighted average closest to
+one.”
+6) The authors did not extensively look into calibration of the prediction model: “The calibration of each tool was assessed by
+comparing the average predicted risk with the observed percentage of individuals who suffered fractures over the follow-up
+period, stratified by sex and age groups.” Insight into the calibration of the average subject is not sufficient to understand
+whether calibration across different subjects is sufficient. I strongly recommend to estimate the calibration slope, and to
+provide calibration plots. Again, see numerous publications and recommendations by van Houwelingen, Steyerberg, Harrell,
+Royston and many others
+* Royston, Patrick, and Douglas G. Altman. “External Validation of a Cox Prognostic Model: Principles and Methods.” BMC
+Medical Research Methodology 13 (2013): 33. doi:10.1186/1471-2288-13-33.
+* Royston, Patrick, Mahesh K. B. Parmar, and Doug G. Altman. “External Validation and Updating of a Prognostic Survival
+Model.” Research Report. London, UK: Department of Statistical Science, University College London, March 2010.
+* Steyerberg, Ewout W. Clinical Prediction Models: A Practical Approach to Development, Validation, and Updating. 1st ed.
+Statistics for Biology and Health. New York: Springer, 2009.
+* van Houwelingen, H. C. “Validation, Calibration, Revision and Combination of Prognostic Survival Models.” Statistics in
+Medicine 19, no. 24 (December 30, 2000): 3401–15.
+
+Minor comments
+1) "As a secondary aim, we conducted an external validation of each of the tools in an independent population to evaluate their
+performance in populations similar to that in which they were developed, thus allowing comparison to previously reported
+performance." . I like this idea of testing reproducibility, as results may help to reveal whether previously reported
+performance statistics were prone to over-optimism. The authors could indicate this issue more explicitly, as it allows to
+disentangle model generalizability into reproducibility and transportability. For example, see:
+* Justice AC, Covinsky KE, Berlin JA. Assessing the generalizability of prognostic information. Ann Intern Med
+1999;130:515e24.
+* Debray, Thomas P. A., Yvonne Vergouwe, Hendrik Koffijberg, Daan Nieboer, Ewout W Steyerberg, and Karel G M Moons. “A
+New Framework to Enhance the Interpretation of External Validation Studies of Clinical Prediction Models.” Journal of Clinical
+Epidemiology 68, no. 3 (2015): 279–89. doi:10.1016/j.jclinepi.2014.06.018.
+2) "In determining which of the various prediction tools is adaptable for automatic implementation using EHR data, the
+predictive performance of each tool (both discrimination and calibration), the validation results in various populations, and the
+availability of types of data required for the tool must be considered" I agree. However, it is also important to evaluate
+whether the predictors required by the model can actually be measured at the time when the prediction needs to be (or is
+being) made. This also relates to the problem described in major comment 2.

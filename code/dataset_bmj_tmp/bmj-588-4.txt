@@ -1,0 +1,23 @@
+I am a medical statistician and am not knowledgeable about the specific area of application and so I restrict my
+comments to the analysis.
+This looks to be a sensible hypothesis.
+There are some very large risk ratios in Tables 3, 4, and 5.
+In Tables 3, 4, and 5 could we have confidence intervals for the interactions in the last column.
+The P-values in the second last column of Tables 3, 4, and 5 are given to too many decimal places. They are not that
+accurate, I would suggest a cut off of P<0.001.
+The only thing I find unusual with the analysis is that the study design appears to be a case-control study and the
+authors have performed the analysis using a log-linear model. I would naively expect this study design to be analysed
+with a logistic regression. Did the authors perform a sensitivity analysis using logistic regression?
+I think that it would be helpful for the authors to provide a path diagram or some sort of diagram of their model.
+Minor comments:
+Abstract, Results: The 5.9 and 2.4 and other risk ratios should all be accompanied with their confidence intervals.
+Section 1 box: would "competing risk factors" be a more appropriate term for "overlapping risk factors".
+page 12: I am not sure that you need the "where \alpha=0.05", as most statisticians know that if the null hypothesis is
+not contained within the the 95% confidence interval of the estimate then the estimate is statistically significant at the
+5% level.
+page 14, top: Instead of stat. sig. two fold increased risk ... could you give the RRs and CIs.
+page 15: "Sub-Groups Analyses" should be "Sub-Group Analysis"
+pages 15/16: "SNPs on the TRDMT1 gene" should be "SNPs in the TRDMT1 gene".
+Discussion: Please report confidence intervals for the RRs in the discussion.
+Reference 74: Capitalise the "Bmj".
+Reference 80: "Cancer epidemiology, biomarkers & prevention" should probably be in title case.

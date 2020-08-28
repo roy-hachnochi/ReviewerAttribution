@@ -1,0 +1,67 @@
+This is a generally well-designed and executed study but I think the interpretation of the findings require
+clearer interpretation and analysis.
+There is an important difference between the phenomenon of concern, QT prolongation leading to
+torsade de pointes, and a much larger range of what is being counted (ICD-10 codes):
+I47.2: Ventricular tachycardia
+I49.0: Ventricular fibrillation [or] flutter
+I49.3: Ventricular premature depolarization
+I46.0 Cardiac arrest with successful resuscitation
+I46.1 Sudden cardiac death, without conduction disorder or myocardial infarction
+I46.9 Cardiac arrest, cause unspecified
+R96.0 Instantaneous death (Sudden unexplained death in adult)
+R96.1 Death occurring less than 24 hours from onset of symptoms, not otherwise explained (Death
+known not to be violent or instantaneous for which no cause can be discovered)
+This casts a broad net by describing conditions that could conceivably represent torsade de pointes but
+probably do not. The signal to noise ratio is very low. The authors need to acknowledge that numerous
+observational studies based on population or administrative databases have failed to detect a relationship
+between unequivocally proarrhythmic drugs and serious cardiac arrhythmias in the past. Specifically,
+studies of cisapride and terfenadine, which have been removed from the US market because they clearly
+cause rare but life threatening Torsade de Pointes-type ventricular arrhythmias, illustrate such failures.
+In fact, none of eight observational cohort studies conducted to evaluate the cardiac safety of cisapride
+or terfenadine showed an increased risk with either drug (See Darpo B. Detection and reporting of druginduced proarrhythmias: room for improvement. Europace 2007 Sep; 9 Suppl 4:iv23-36; Layton D, Key,
+C, Shakir SA. Prolongation of the QT interval and cardiac arrhythmias associated with cisapride:
+limitations of the pharmacoepidemiological studies conducted and proposals for the future.
+Pharmacoepidemiol Drug Saf 2003;12(1):31-40; and Hanrahan JP, Choo PW, Carlson W, Greineder D,
+Faich GA, Platt R. Terfenadine-associated ventricular arrhythmias and QTc Interval prolongation. Ann
+Epidemiol 1995;5(3):201-9). The authors must be very clear that their findings do not mean that torsade
+de pointes due to fluoroquinolones is not occurring, only that it is uncommon (likely less than 7 events
+per 10,000 treatment years or 16 per million one-week treatment courses) in an average risk
+population.
+Such a conclusion also requires strict comparability between treatment groups. If the underlying risk in
+the penicillin-treated group is higher for any reason then the absence of a higher observed risk from
+fluoroquinolones will be less meaningful. For example, if the expected incidence rates without antibiotic
+treatment were 3.0 per thousand person-years in the fluoroquinolone group and 4.0 in the penicillin
+
+group, then there would be an observed risk of 0.4 from fluoroquinolone treatment.
+The only situation where we can be sure that two groups have the same expected rate of events in the
+absence of the variable of interest is randomization. Observational studies always involve comparing
+groups that have reasons to be different from each other. Propensity score matching may make the two
+treatment groups more comparable but are they comparable enough? One of the biggest problems with
+propensity score matching is that it creates the illusion that the comparability of the propensity score
+matched groups is similar to groups created by randomization. When randomization is done, the
+observation of balance between groups for known potential confounders provides reassurance that there
+is also likely to be balance between groups for unrecognized confounders. Propensity score matching
+actually works against this kind of reassurance. This is because, in the real world, drug prescribing
+decisions are not made by random assignment; there is some reason why penicillin was prescribed and
+not a fluoroquinolone (or vice-versa). If there is a balance between groups of observed potential reasons
+to prefer one drug over another, they must differ for unobserved reasons. One can only hope that that
+those reasons are unrelated to the outcome of interest. In this study I would be particularly concerned
+about channeling bias. Did prescribers choose to avoid fluoroquinolones in patients who were at higher
+risk for arrhythmias? This is a situation where multivariate adjustment is a useful alternative or
+complement to propensity score matching. If the unadjusted risk were higher in penicillin users than
+fluoroquinolone users, particularly if the difference diminished or reversed when adjusted for known risk
+factors, there would be good reason to suspect channeling bias. Even with adjustment, I would still be
+suspicious of residual bias due not only to factors not included in the model but also limitations to the
+adjustment due to mismeasurement (due to diagnostic or reporting errors) or under-measurement (due
+to lack of information about severity) of factors entered in the model;, these factors may well be the
+reason for drug choice rather than randomness. The authors claim that diagnoses in their datasets have
+a high degree of accuracy but this applies to specificity (risk of false-positives) rather than sensitivity
+(risk of false negatives). A substantial number of risk factors may not have been recorded and these
+omissions may bear some relationship to drug choice.
+One way to get an idea on how much these issues may have affected the results would be to take all of
+the variables used in the propensity score model as explanatory values in a logistic regression model
+where the outcome is not chosen treatment but “serious arrhythmia” and apply that model separately to
+1) all penicillin patients, 2) penicillin patients that were matched, 3) fluoroquinolone patients that were
+matched and 4) all fluoroquinolone patients. If the model has good explanatory power (i.e., high ROC
+area values), especially for 1 and 2, then the two matched groups are in the primary analysis are
+probably comparable.

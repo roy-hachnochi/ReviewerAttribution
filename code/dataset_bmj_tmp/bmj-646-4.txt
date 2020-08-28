@@ -1,0 +1,55 @@
+This is a very well written article, and an interesting topic. I have reviewed this from a statistical perspective and have
+some important concerns, which I hope are addressable by the authors upon revision but need care and additional
+analyses.
+1) Was clustering of children within the same family accounted for? It seems not, and this would not be captured by
+the propensity score analysis. Children from the same family are likely to be similar to one another, and therefore are
+not independent. The Cox regression should therefore be re-done, accounting for this (it could though be noted as a
+sensitivity analysis in the article) to see if conclusions remain the same.
+2) Usually, after a propensity score is calculated, the individuals are ‘matched’ (e.g. one in the smoking group is
+matched to a non-smoker, based on their score being very close). Individuals who cannot be matched are removed. It
+seems the authors don’t do this, and rather include everyone and adjust for the propensity score value in categories.
+This seems inferior to me than the matching approach, as the latter allows one to display the baseline characteristics
+of the two groups and see that (hopefully) the groups are now more balanced. Therefore (again as a sensitivity
+analysis perhaps), please re-do the analysis with matching (again, accounting for clustering of children in the same
+family too). Without the matching, one might still have extremes of the propensity score for one group but not the
+other, and therefore regression adjustment may still not be fully adjusting for the confounding (as compared to
+matching).
+3) It’s not clear how the population attributable fraction is derived in the fully adjusted results. Please clarify.
+4) Children were excluded if they were not followed up for 3 years – and the authors say there were no differences
+between these and those that did have 3 years follow-up. But it is not clear if these children were excluded from ALL
+analyses, or just from the dental score analysis at 3 years. They should have been included in the survival analysis, as
+that can handle drop out before 3 years Please clarify.
+A related issue is that the exact time of caries is not known (I think). Rather, the authors only know if they appeared
+by 18 months or 3 years. So I am struggling to understand why the Kaplan-Meier method was used, as time of event
+is not known exactly. Please clarify. Were some children censored before 18 months? If so, how was the censoring
+time calculated? Or are the authors assuming censoring took place at time zero or just before time 18 months? What is
+the justification? If there is no censoring, then wouldn’t a relative risk at 18 months (and then again at 3 years) be a
+better summary than a KM estimate (or perhaps they are equivalent) Please clarify, and justify why the analysis
+chosen and assumptions are appropriate in relation to the data available.
+
+Hazard ratios relate to the whole follow-up period, but here I think the authors are looking specifically at risk ratios at
+3 years. Therefore either the hazard ratios are actually risk ratios at 3 years, or they need to explain why the whole
+time period is being accounted for. Why are hazard ratios (or relative risks more precisely) not given for 18 months
+also? I assume this time-point could include more patients than the 3 years one, so I’d like to see the effects at this
+time also (Especially as it is closer to the 4 month measurement of smoking, and thus less likely to be affected by
+changes in smoking habits over time).
+4) Kaplan-Meier %s are given in the Results but these are UNADJUSTED for confounding, thus should be removed or
+clearly labelled as unadjusted.
+5) The authors should note that the non-significant result for maternal smoking may be due to low power to detect a
+small effect (if indeed genuine).
+6) Abstract says: ‘hazard ratios of second hand smoke …’ This is loose language. It is hazard ratios of dental caries for
+children linked with second hand smoke versus those not linked to second hand smoke
+7) Page 7 tells us that the number of decayed, missing or filled teeth were 0.06+-0.48 …. What does these numbers
+actually mean? Is it the average number per individual with its standard error? If so, how can the lower interval value
+be negative?! <0 decayed teeth? Please be explicit!
+8) The propensity score analysis adjusted for the propensity score divided into quartiles. This seems again unjustified,
+as it loses information and the propensity score should be left on its continuous scale. Please see point 3 above for a
+better method also.
+9) Were there any missing values in the adjustment factors used in the propensity score analysis? With such
+databases, there are usually missing values for some patients, but I cannot ascertain how this was handled in the
+analysis. Was multiple imputation used?
+10) The authors say there were no differences between those included and excluded from analysis (Supp Table 1). I
+think there ARE observed differences, but these are generally small. Please re-word. Similarly when discussing Supp
+Table 3.
+In summary, this is an important study but there are a number of important areas for re-analysis and added clarity, to
+address my concerns. I hope my comments are helpful to the authors moving forward.

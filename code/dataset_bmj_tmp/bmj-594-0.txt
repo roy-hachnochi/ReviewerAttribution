@@ -1,0 +1,87 @@
+In making a decision about acceptance, there are two large issues:
+- Does this pass the “so what?” test – i.e. if the methods are solid is there enough interest for BMJ
+readership about the potential risk-benefit of radiation to justify publication? The medical
+
+community seems to have a bit of a “split personality” approach to this. On the one hand, if we
+believe in ALARA (as low as reasonably achievable), then we have to believe that there is some
+risk, even from the low radiation resulting from CT exams (at least on a population basis). If this is
+the case then there is utility to modeling it. On the other hand, there is legitimate concern that
+overblown public perception of risk may lead to avoidance of imaging that has benefit. The Hendee
+article does the best job of speaking about this from the perspective of not doing risk estimates
+(the pendulum swinging back). What is really interesting about this article is that it provides some
+evidence (given that it may be highly speculative) that the risk of not getting screened outweighs
+any radiation risk of getting screened. One of the major arguments of Hendee is that population
+based risk may be overblown by the media and extrapolated by individual patients. This article
+may have the opposite effect – providing clinicians who want to do LDCT lung cancer screening
+with a publication that can alleviate fears that people may have about radiation when deciding to
+engage in CT lung screening. From this perspective it may actually serve a public health mission to
+publish this data assuming the methods are as solid as can be expected. The other side of this,
+however, is that if we are willing to publish population based data on radiation risk we should be
+willing to accept it in other analyses.
+- Are the methods solid. The major issue here is that the authors are presenting this data as
+prospective data and emphasizing this methodology in their manuscript. While this data is used,
+the real methodology is actually the estimation of risk benefit using BIER VII data and estimates of
+LAR from cancer etc. While the methodology should cite the prospective data, it should focus much
+more explicitly on the modeling methodology. This requires a major revision. The “intervention” is
+not the prospective enrollment, it is the analysis, and the paper should be very explicit about this.
+Materials and methods
+This should begin with the modeling as a separate distinct section. The “model assumptions from
+prospective data” should be its own section.
+The detail about scanner protocols can be much abbreviated or even left out and referred to in the
+citations.
+Overall, the manuscript would benefit form close reading by a native English speaker.
+Specific comments:
+Page 4
+- Line 34-36: Says that the “increased risk of ca related to LD radiation doses [repetitive], and its
+magnitude is still controversial”—it’s not just that risk of radiation from LD CT is controversial, the
+risk of radiation induced malignancy for all CT <50mSv (which is basically ALL CT – including
+standard doses) is still controversial
+- Line 49: “95% credibility interval” I think they meant confidence interval
+Page 5
+- Line 6-9: I take issue with the notion that you can’t estimate what will happen to “real cohorts of
+smokers” with models given all the data we have on the history and progression of lung cancer in
+smokers combined with screening guidelines
+Page 6
+- Line 27-57:did they strictly stick to the protocols – if yes, how they evaluated this, if no then
+what were the variations in dose?
+Page 8
+- Results about “average effective dose” need greater clarification. Was this normally distributed?
+If so how was this determined? What is standard deviation? Would it be reasonable to also put the
+range(s) as well as median and IQRs?
+o Same goes for cumulative effective doses (Line 37)
+o In eTable 1 and 2 what does +/- standard deviation mean? Is that one standard deviation? 1.96
+SD? Is that a 95% CI? Here we are seeing some differences… can they comment on why if it was a
+standard protocol the organ doses are so varied?
+• Is it b/c of shielding due to different body habitus while using SAME protocol? Is it b/c there was
+variation in the protocol? Is it b/c some people only got one scan but others got multiple a year
+(this still wouldn't account for the variation in baseline imaging though
+Page 9
+- Line 14: Table 3—It is difficult to look at/make comparisons, please standardize the denominator
+and report per 1,000 persons (or something)
+- Line 16: here is something that is a problem and you want to really state clearly—this is a study
+that was forward looking and reports number of cancers caught in their screening test, but this
+study didn’t have a control arm and there is no direct comparison being made between subjects
+scanned over 10 years and people who were not. Rather they are estimating CT induced cancers
+from a calculation. Someone reading this quickly could think that they OBSERVED 2.8 additional
+cancers based off how this is reported as 2.8/5203.
+- Line 30-42: this is a confusing paragraph—how did they calculate this, where is my table? Also
+aren’t you just reporting what BEIR VII Table 12D-1 tells you when you draw differences btwn
+
+genders?
+o In figure 1 please label it better w/ something to the effect of Lung Cancers estimated to be
+attributable to CT radiation per 1000 people screened
+Page 10
+- Re: BMI/body habitus—please explain why this is relevant and talk about this more in the
+methods section
+- Line 45: “This highlights how the esteem[?] of organ and effective doses” do you mean
+estimate?
+- Line 54: What do you mean dose for 6 and 5 groups of patients? Isn’t this something that should
+be in methods?
+Page 11
+- Line 43: If the radiation is trivial given the early cancers we are catching why would we consider
+a higher age for women?
+Page 12
+- Line 10-17: Glosses over the controversy of the LNT model. doesn’t discuss that the BEIR VII
+report itself states that w/ doses <100mSv “statistical limitations make it difficult to evaluate
+cancer risk” or that in the Health Physics Society statement doses <50mSv are considered to small
+to observe health risks

@@ -1,0 +1,601 @@
+This paper describes a method for predicting gene function based on amino acid sequence, using a method inspired by automatic translation of human language. The idea is to break the sequence into segments, and each segment is assigned a GO term. During training the association between segments and GO terms is learned, and then this learned model is applied to new sequences. In a benchmark against BLAST performance it is much worse at identifying the GO terms associated with a protein. The defence offered that the work shows the feasibility of the approach falls a bit flat for me. It is feasible in the sense that “ it can be attempted ”. I do not find the results encouraging. I disagree with the claim that protein function prediction is " so close " to language translation, except in some rarefied technical sense. Indeed, using translation seems to be obscuring the actual task, which (in this context) is to find sequences that are similar and transfer GO annotations from one to the other. At the heart of it, that is all that is happening here. I know I am not supposed to address novelty, but I have to point out that many feature extraction methods have been proposed for sequence analysis (for example, string kernels combined with SVMs 1 ). Many methods for sequence scoring are based on methods also used for analyzing human language (e.g. HMMs 2 ), but without the baggage of “translation”. The authors do not make these connections in the introduction. In addition: The method is not described in enough detail, especially for bioinformatics researchers who may not be familiar with the translation methods (including myself). The provision of source code, while laudable, is insufficient. For example, for the segmentation method, the reader is directed to a non-peer reviewed manuscript on DNA segmentation. Why does each segment get at most one GO term? If that is necessary, it seems a big problem, since GO does not work that way. BLAST also does not have the limitations that are exposed by the requirements for cleaning described here. What makes a protein sequence “ corrupted ” or “ inaccurate ”? I do not get what the authors mean by " obviously misaligned " in comparing GO terms to protein sequences; it makes little sense and the strained relationship of the task to translation is exposed. Then authors seem to be requiring exact matches; this is also not very biological. It may be that these are fundamental limitations of the approach; if not, they must be addressed. (I did not take the time to review the source code). The results are not described in enough detail and the evaluation is weak. By optimizing the word length on the same corpus used for testing, the authors have probably inflated the performance scores, not that it helps much. The authors claim that an advantage of the method is that it always gives a prediction, even when BLAST does not. Is it really reasonable to trade specificity for sensitivity in this way? Can the authors show any cases where this yields a useful answer? Showing some cases where a correct functional annotation was found by this method, but not by BLAST, and providing some insight into why that happened, is necessary. The authors mention in the introduction that sequences that are similar may not have the same function; are they claiming that this new method addresses this? I do not think so, so it seems irrelevant. Given all these issues, I nearly checked the "not approved" box. But on consideration I think the work could be fixed up, from a technical standpoint. There are also quite a few English language errors. References 1. Leslie CS, Eskin E, Cohen A, Weston J, et al.: Mismatch string kernels for discriminative protein classification. Bioinformatics . 2004; 20 (4): 467-476 PubMed Abstract | Publisher Full Text 2. Eddy SR: Hidden Markov models. Current Oppinion in Structural Biology . 1996; 6 (3): 361-365 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Pavlidis P. Reviewer Report For: Translate gene sequence into gene ontology terms based on statistical machine translation [version 1; peer review: 1 approved with reservations, 2 not approved] . F1000Research 2013, 2 :231 ( https://doi.org/10.5256/f1000research.2746.r2296 ) The direct URL for this report is: https://f1000research.com/articles/2-231/v1#referee-response-2296 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 05 Nov 2013 , Tencent Tech, Beijing, China 05 Nov 2013 Author Response We thank the referee for their suggestions. In next version of this paper: 1: We will give a more in depth introduction to machine translation and segment technologies. We will also add detail ... Continue reading We thank the referee for their suggestions. In next version of this paper: 1: We will give a more in depth introduction to machine translation and segment technologies. We will also add detail as to why we applied translation to protein functional prediction. Although these technologies are well known in the area of natural language processing, it is completely new for most researchers in bioinformatics. I have written a short PPT for sequence segmentation: http://www.slideshare.net/maris205/segmenting-dna-sequence-into-words We will also build an online demo for this work and its codes will also be uploaded. http://www.dnasearchengine.com/trans Most current machine translation researches are based on the work of IBM in 1990: Brown et al Statistical Approach to Machine Translation , Computational Linguistics. 16(2),79-85(1990). This translation model (IBM model 5) mainly contains 5 steps: word alignment, phrase extraction, language model training, decoder training, and evaluation. The translation model also uses the string features but it builds the phrase corresponding model (one phrase corresponds to a phrase list with probability, not one to one), but not the classification model like SVM. Asides from language translation, translation models are also applied in query rewrite, multi-label classification and many other areas. Because protein functional prediction could be regarded as a kind of multi-label classification problem (one sequence to several GO terms), we argue that one could use translation methods in protein functional prediction. 2: The referee requests more evaluations - There still seems to be no standard data set and evaluation methods for protein functional predictions. We will find a proper data set and try different evaluation metrics. More available function prediction methods will also be tried. We thank the referee for their suggestions. In next version of this paper: 1: We will give a more in depth introduction to machine translation and segment technologies. We will also add detail as to why we applied translation to protein functional prediction. Although these technologies are well known in the area of natural language processing, it is completely new for most researchers in bioinformatics. I have written a short PPT for sequence segmentation: http://www.slideshare.net/maris205/segmenting-dna-sequence-into-words We will also build an online demo for this work and its codes will also be uploaded. http://www.dnasearchengine.com/trans Most current machine translation researches are based on the work of IBM in 1990: Brown et al Statistical Approach to Machine Translation , Computational Linguistics. 16(2),79-85(1990). This translation model (IBM model 5) mainly contains 5 steps: word alignment, phrase extraction, language model training, decoder training, and evaluation. The translation model also uses the string features but it builds the phrase corresponding model (one phrase corresponds to a phrase list with probability, not one to one), but not the classification model like SVM. Asides from language translation, translation models are also applied in query rewrite, multi-label classification and many other areas. Because protein functional prediction could be regarded as a kind of multi-label classification problem (one sequence to several GO terms), we argue that one could use translation methods in protein functional prediction. 2: The referee requests more evaluations - There still seems to be no standard data set and evaluation methods for protein functional predictions. We will find a proper data set and try different evaluation metrics. More available function prediction methods will also be tried. Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 05 Nov 2013 , Tencent Tech, Beijing, China 05 Nov 2013 Author Response We thank the referee for their suggestions. In next version of this paper: 1: We will give a more in depth introduction to machine translation and segment technologies. We will also add detail ... Continue reading We thank the referee for their suggestions. In next version of this paper: 1: We will give a more in depth introduction to machine translation and segment technologies. We will also add detail as to why we applied translation to protein functional prediction. Although these technologies are well known in the area of natural language processing, it is completely new for most researchers in bioinformatics. I have written a short PPT for sequence segmentation: http://www.slideshare.net/maris205/segmenting-dna-sequence-into-words We will also build an online demo for this work and its codes will also be uploaded. http://www.dnasearchengine.com/trans Most current machine translation researches are based on the work of IBM in 1990: Brown et al Statistical Approach to Machine Translation , Computational Linguistics. 16(2),79-85(1990). This translation model (IBM model 5) mainly contains 5 steps: word alignment, phrase extraction, language model training, decoder training, and evaluation. The translation model also uses the string features but it builds the phrase corresponding model (one phrase corresponds to a phrase list with probability, not one to one), but not the classification model like SVM. Asides from language translation, translation models are also applied in query rewrite, multi-label classification and many other areas. Because protein functional prediction could be regarded as a kind of multi-label classification problem (one sequence to several GO terms), we argue that one could use translation methods in protein functional prediction. 2: The referee requests more evaluations - There still seems to be no standard data set and evaluation methods for protein functional predictions. We will find a proper data set and try different evaluation metrics. More available function prediction methods will also be tried. We thank the referee for their suggestions. In next version of this paper: 1: We will give a more in depth introduction to machine translation and segment technologies. We will also add detail as to why we applied translation to protein functional prediction. Although these technologies are well known in the area of natural language processing, it is completely new for most researchers in bioinformatics. I have written a short PPT for sequence segmentation: http://www.slideshare.net/maris205/segmenting-dna-sequence-into-words We will also build an online demo for this work and its codes will also be uploaded. http://www.dnasearchengine.com/trans Most current machine translation researches are based on the work of IBM in 1990: Brown et al Statistical Approach to Machine Translation , Computational Linguistics. 16(2),79-85(1990). This translation model (IBM model 5) mainly contains 5 steps: word alignment, phrase extraction, language model training, decoder training, and evaluation. The translation model also uses the string features but it builds the phrase corresponding model (one phrase corresponds to a phrase list with probability, not one to one), but not the classification model like SVM. Asides from language translation, translation models are also applied in query rewrite, multi-label classification and many other areas. Because protein functional prediction could be regarded as a kind of multi-label classification problem (one sequence to several GO terms), we argue that one could use translation methods in protein functional prediction. 2: The referee requests more evaluations - There still seems to be no standard data set and evaluation methods for protein functional predictions. We will find a proper data set and try different evaluation metrics. More available function prediction methods will also be tried. Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 1 VERSION 1 PUBLISHED 01 Nov 2013 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 1 01 Nov 13 read read read Paul Pavlidis , University of British Columbia, Vancouver, BC, Canada Karin Verspoor , University of Melbourne, Melbourne, Australia Juliana Bernardes , Federal University of Rio de Janeiro, Rio de Janeiro, Brazil Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2014 Bernardes J. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 22 Oct 2014 | for Version 1 Juliana Bernardes , Programa de Engenharia de Sistemas e Computação, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil 0 Views copyright © 2014 Bernardes J. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Not Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The paper present a new method to predict protein function based on machine translation concepts. In this scenario, protein sequences and their gene ontology terms are interpreted as words in different languages. The idea is to find the best translation for a protein sequence, that is, its most likely gene ontology terms. The method has two phase: training and inference. During the training, protein sequences are broken into several segments and then these segments are related to gene ontology terms. This mapping between protein segments and gene ontology terms constitutes the parallel corpus and it is learned during the training phase. Next, the inference is carried out by an statistical machine translation system that translates a new protein sequence into gene ontology terms by using the collection of translated pairs (parallel corpus) learned previously. My main issue with this paper is the way how sequences are broken into segments. It is well known that some segments such as motifs and domains are essential to predict protein functions. The author must explore them to enrich their model. A second point concerning the results, they are disappointing. The method did not outperform BLAST that is one of the simpler existing method for protein function prediction. The comparison was not properly done, what is the false positive rates for both methods? Authors must compare the methods by using classical measures such as precision, recall and F-measure and a ROC curve could be plotted. Moreover, the authors did not compare their approach with state-of-art methods such as SVM and HMMs. The discussion of results is really poor, the authors did not defend their method. The training and testing strategy is unusual. 95% of the data to train and just 5% to test, the author have performed a cross validation? If yes how many folds? how many times it was repeated? It is not clear in the text. The paper is not well written and there are several incompressible parts. Just to cite some of them: "Then we use a phrase-based translation model to build the amino acid sequence to protein function translation model. (I think it is "to map" instead of "to build") Here we build three groups of gene parallel corpora. Group 1 only contains human amino acid data. (the expression human amino acid data is so unusual in bioinformatics community). The author wrote in the conclusion "Since the protein functional prediction problem is so close to language translation, translation based protein functional prediction is likely to be the most promising approach." I do not agree that protein functional prediction is close to language translation problem. There are a lot additional points, for example evolution. In my opinion, we cannot interpret proteins as words. Anyway, the results have not showed that it is the most promising approach. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above. reply Respond to this report Responses (0) 
+ 
+ Bernardes J. Peer Review Report For: Translate gene sequence into gene ontology terms based on statistical machine translation [version 1; peer review: 1 approved with reservations, 2 not approved] . F1000Research 2013, 2 :231 ( https://doi.org/10.5256/f1000research.2746.r6146) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/2-231/v1#referee-response-6146 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2014 Verspoor K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 20 Oct 2014 | for Version 1 Karin Verspoor , Department of Computing and Information Systems, University of Melbourne, Melbourne, VIC, Australia 0 Views copyright © 2014 Verspoor K. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Not Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This article provides an intriguing approach to protein function prediction -- to treat the task as a word translation process. However, the results that the authors provide to not justify the statement that the approach is likely to be "the most promising approach" and are not appropriately compared with state of the art methods. Furthermore, no biological intuition appears to have informed the approach; this results in an approach that, while novel, doesnt capture some fundamental characteristics of the data. Protein sequence - function relationship : The fundamental assumption embodied by the method is that there is a strong relationship between protein (sub-) sequences and functions, as represented by sequences of GO terms. While this is likely true for some sub-sequences, it wont be true for all, as the authors themselves point out. Does the method allow for some sequence "words" to be effectively silent in the prediction phase? Figure 1 shows each word being included in some phrase which is "translated". Can some words remain untranslated? How often does this happen for this task? What about sequence words that should correspond to multiple GO terms? Is the sequence of words biologically important? The "Best BLAST" method that the authors compare with (NB: I wouldnt call that approach "search-based" as that name is extremely underspecified; rather I would suggest "sequence similarity-based") uses local sequence similarity; some regions of the sequence will not be considered. It certainly isnt obvious to me that linear order should matter at all on the output side; it appears that the GO sequences are listed in numeric order by ID and a "2-gram language model" over GO sequences should not carry any more information than a 1-gram model would, as the IDs themselves are arbitrary. This representation is not well-justified. Segmentation : The authors use a EM-based approach to drive segmentation, which essentially captures the statistical properties of particular subsequences. There should be some relationship to work on motif finding here; the authors should identify some relevant work on that topic (e.g., Tompa et al. 1 , although there are likely many more reviews available; as this is not my area specifically I suggest the authors do their own search). The authors should also compare to a far simpler segmentation approach: just splitting the sequence into words of fixed length. This is a character-level n-gram representation. Perhaps all the work of running EM (and the associated large number of data points) is completely unnecessary. (The authors would of course need to try a few different lengths for this to be meaningful.) Essentially, the strategy needs to be justified, and the impact on the broader function prediction task must be quantified. What is the relationship between the maximal word length and the number of output terms included in the output GO sequence? Is there a length bias on the output side that is also reflected in Figure 2? Again, this hinges on the appropriateness of characterising this task in terms of the translation model. Data: The authors do not clearly state whether they consider all GO annotations available for a protein, or if non-experimental evidence codes are excluded. If "Inferred by Electronic Annotation" codes are included, this means that "Best BLAST" has likely already been used to produce the annotations, which would explain at least to some extent why the performance of that method shows such strong results. Experiment details: The authors do not specify what e-value threshold they assume for BLAST. Filtering : The authors incorporate various filters along the way, and it is unclear how strongly this biases the training/test data that they utilise. The authors delete long sequences and proteins with many associated GO terms. The cleaning reduces the data set substantially, but the rationale for doing this cleaning appears to have more to do with the limitations of the approach that the authors have adopted than because of some biologically valid reason. The exclusion of such a large number of {sequence,GO annotations} pairs will certainly undermine the findings. This also applies to the deletion of the "obviously mis-aligned" sequences. How many instances does this filter? Why are these obvious mis-alignments? The number of GO terms associated with a sequence has more to do with (a) annotation bias [some sequences are far more heavily studied/annotated than others] and (b) overall progress on curating protein function information (see Baumgartner Jr. et al. 2 ). Evaluation: Recently, the CAFA challenge explored protein function prediction from sequence 3 , and in association with that there has been detailed consideration of evaluation of this task 4 5 -- the key point being that the structure of the GO should be taken into consideration in the evaluation. The authors present their results in terms of BLEU, but in their use of the unigram form, I think that BLEU simply collapses to Precision. This, then, ignores Recall completely. The evaluation presented should certainly measure Recall, and the authors should provide results that are comparable to the results of systems that participated in CAFA. They should then compare their results to the state-of-the-art methods. Summary In summary, the applicability of the method to this task should be more strongly justified and the experimental set-up (including the extensive filtering of data points and the evaluation metrics) should be more carefully considered. The authors conclusions have not been adequately justified on the basis of their results. References 1. Tompa P, Davey NE, Gibson TJ, Babu MM: A million peptide motifs for the molecular biologist. Mol Cell. 2014; 55 (2): 161-169 PubMed Abstract | Publisher Full Text 2. Baumgartner Jr WA, Cohen KB, Fox LM, Acquaah-Mensah G, et al.: Manual curation is not sufficient for annotation of genomic databases. Bioinformatics. 2007; 23 (13): i41-i48 PubMed Abstract | Free Full Text | Publisher Full Text | Reference Source 3. Radivojac P, Clark WT, Oron TR, Schnoes AM, et al.: A large-scale evaluation of computational protein function prediction. Nat Methods. 2013; 10 (3): 221-227 PubMed Abstract | Free Full Text | Publisher Full Text 4. Clark WT, Radivojac P: Information-theoretic evaluation of predicted ontological annotations. Bioinformatics. 2013; 29 (13): i53-i51 PubMed Abstract | Free Full Text | Publisher Full Text 5. Verspoor K, Cohn J, Mniszewski S, Joslyn C: A categorization approach to automated ontological function annotation. Protein Sci. 2006; 15 (6): 1544-1549 PubMed Abstract | Free Full Text | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above. reply Respond to this report Responses (0) 
+ 
+ Verspoor K. Peer Review Report For: Translate gene sequence into gene ontology terms based on statistical machine translation [version 1; peer review: 1 approved with reservations, 2 not approved] . F1000Research 2013, 2 :231 ( https://doi.org/10.5256/f1000research.2746.r6149) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/2-231/v1#referee-response-6149 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2013 Pavlidis P. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 04 Nov 2013 | for Version 1 Paul Pavlidis , Centre for High-Throughput Biology and Department of Psychiatry, University of British Columbia, Vancouver, BC, Canada 0 Views copyright © 2013 Pavlidis P. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This paper describes a method for predicting gene function based on amino acid sequence, using a method inspired by automatic translation of human language. The idea is to break the sequence into segments, and each segment is assigned a GO term. During training the association between segments and GO terms is learned, and then this learned model is applied to new sequences. In a benchmark against BLAST performance it is much worse at identifying the GO terms associated with a protein. The defence offered that the work shows the feasibility of the approach falls a bit flat for me. It is feasible in the sense that “ it can be attempted ”. I do not find the results encouraging. I disagree with the claim that protein function prediction is " so close " to language translation, except in some rarefied technical sense. Indeed, using translation seems to be obscuring the actual task, which (in this context) is to find sequences that are similar and transfer GO annotations from one to the other. At the heart of it, that is all that is happening here. I know I am not supposed to address novelty, but I have to point out that many feature extraction methods have been proposed for sequence analysis (for example, string kernels combined with SVMs 1 ). Many methods for sequence scoring are based on methods also used for analyzing human language (e.g. HMMs 2 ), but without the baggage of “translation”. The authors do not make these connections in the introduction. In addition: The method is not described in enough detail, especially for bioinformatics researchers who may not be familiar with the translation methods (including myself). The provision of source code, while laudable, is insufficient. For example, for the segmentation method, the reader is directed to a non-peer reviewed manuscript on DNA segmentation. Why does each segment get at most one GO term? If that is necessary, it seems a big problem, since GO does not work that way. BLAST also does not have the limitations that are exposed by the requirements for cleaning described here. What makes a protein sequence “ corrupted ” or “ inaccurate ”? I do not get what the authors mean by " obviously misaligned " in comparing GO terms to protein sequences; it makes little sense and the strained relationship of the task to translation is exposed. Then authors seem to be requiring exact matches; this is also not very biological. It may be that these are fundamental limitations of the approach; if not, they must be addressed. (I did not take the time to review the source code). The results are not described in enough detail and the evaluation is weak. By optimizing the word length on the same corpus used for testing, the authors have probably inflated the performance scores, not that it helps much. The authors claim that an advantage of the method is that it always gives a prediction, even when BLAST does not. Is it really reasonable to trade specificity for sensitivity in this way? Can the authors show any cases where this yields a useful answer? Showing some cases where a correct functional annotation was found by this method, but not by BLAST, and providing some insight into why that happened, is necessary. The authors mention in the introduction that sequences that are similar may not have the same function; are they claiming that this new method addresses this? I do not think so, so it seems irrelevant. Given all these issues, I nearly checked the "not approved" box. But on consideration I think the work could be fixed up, from a technical standpoint. There are also quite a few English language errors. References 1. Leslie CS, Eskin E, Cohen A, Weston J, et al.: Mismatch string kernels for discriminative protein classification. Bioinformatics . 2004; 20 (4): 467-476 PubMed Abstract | Publisher Full Text 2. Eddy SR: Hidden Markov models. Current Oppinion in Structural Biology . 1996; 6 (3): 361-365 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 05 Nov 2013 , Tencent Tech, Beijing, China We thank the referee for their suggestions. In next version of this paper: 1: We will give a more in depth introduction to machine translation and segment technologies. We will also add detail as to why we applied translation to protein functional prediction. Although these technologies are well known in the area of natural language processing, it is completely new for most researchers in bioinformatics. I have written a short PPT for sequence segmentation: http://www.slideshare.net/maris205/segmenting-dna-sequence-into-words We will also build an online demo for this work and its codes will also be uploaded. http://www.dnasearchengine.com/trans Most current machine translation researches are based on the work of IBM in 1990: Brown et al Statistical Approach to Machine Translation , Computational Linguistics. 16(2),79-85(1990). This translation model (IBM model 5) mainly contains 5 steps: word alignment, phrase extraction, language model training, decoder training, and evaluation. The translation model also uses the string features but it builds the phrase corresponding model (one phrase corresponds to a phrase list with probability, not one to one), but not the classification model like SVM. Asides from language translation, translation models are also applied in query rewrite, multi-label classification and many other areas. Because protein functional prediction could be regarded as a kind of multi-label classification problem (one sequence to several GO terms), we argue that one could use translation methods in protein functional prediction. 2: The referee requests more evaluations - There still seems to be no standard data set and evaluation methods for protein functional predictions. We will find a proper data set and try different evaluation metrics. More available function prediction methods will also be tried. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Pavlidis P. Peer Review Report For: Translate gene sequence into gene ontology terms based on statistical machine translation [version 1; peer review: 1 approved with reservations, 2 not approved] . F1000Research 2013, 2 :231 ( https://doi.org/10.5256/f1000research.2746.r2296) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/2-231/v1#referee-response-2296 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Translate gene sequence into gene ontology...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/2-231/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/2-231/v1&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/2-231/v1" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Liang W and Kai Yong Z');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/2-231/v1/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/2-231",
+ templates : {
+ twitter : "Translate gene sequence into gene ontology terms based on statistical.... Liang W and Kai Yong Z, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/2-231/v1"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Translate gene sequence into gene ontology terms based on statistical machine translation", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Translate gene sequence into gene ontology terms based on statistical machine translation", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/2531/2746")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "2746");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "6145": 0,
+ "6146": 18,
+ "6147": 0,
+ "2948": 0,
+ "6148": 0,
+ "6149": 26,
+ "2949": 0,
+ "2950": 0,
+ "4614": 0,
+ "2470": 0,
+ "3561": 0,
+ "4396": 0,
+ "4397": 0,
+ "5229": 0,
+ "4398": 0,
+ "6446": 0,
+ "4399": 0,
+ "5615": 0,
+ "5616": 0,
+ "5617": 0,
+ "2294": 0,
+ "2295": 0,
+ "2296": 19,
+ "2489": 0,
+ "2297": 0,
+ "2490": 0,
+ "2298": 0,
+ "2491": 0,
+ "2299": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "b3a865aa-ba44-4a91-bf38-7cf9ff3e2235";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

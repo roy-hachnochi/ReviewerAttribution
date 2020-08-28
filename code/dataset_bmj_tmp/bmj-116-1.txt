@@ -1,0 +1,51 @@
+This study uses aggregated data on Medicare spending to study pharmaceutical spending patterns from
+2011 to 2015, documenting considerable spending growth - roughly 20% of which can be attributed to
+increases in spending on existing medications, rather than novel formulations. The authors motivate this
+work by noting the growing financial burden of pharmaceutical spending on payers and patients. The
+results from this study mirror other findings and popular news media reporting on the topic of rising
+drug prices.
+I would appreciate more detail on why the authors chose to exam spending on these particular drugs
+(the WHO’s Model List of Essential Medicines) within the Medicare population, though I suspect this may
+have been motivated by the existence of public data. As I understand it, this collection of drugs includes
+those deemed essential or the basic health needs of a population – not limited to elderly individuals in a
+high-income country. The imperfect applicability to the Medicare population is apparent in the number
+drugs appearing on the WHO MLEM, but not in the Medicare claims (24%, but >50% after sample
+restrictions). I see no mention of the types of drugs excluded and/or why the remaining drugs are still
+the most relevant ones to examine. The authors might instead consider developing a market basket of
+drugs based either on spending (i.e., the 100 highest-spending drugs at the start of the study period) or
+use (i.e., the 100 most frequently used drugs).
+The authors report increasing spending on prescription drugs by Medicare beneficiaries, but they do not
+discuss the changing nature of their sample. I believe the publicly available aggregate data includes only
+Medicare beneficiaries with fee-for-service (FFS), excluding those who choose to receive coverage
+through Medicare Advantage (MA) plan. In 2011, roughly 12% of Medicare beneficiaries were enrolled in
+an MA plan, compared to 17% in 2015. Multiple studies have demonstrated selection of healthier
+
+Medicare beneficiaries into MA plans, suggesting that the average health of the authors’ sample is
+deteriorating over time, as sicker individuals remain in FFS.
+The decomposition of spending trends into price changes versus utilization changes seemed to me the
+most significant contribution of this paper. However, I am quite unclear on the exact methodology used
+by the authors to construct a “volume and cost index”. Please consider including detailed methodology
+(with equations) in an appendix. I expect something along the lines of constructing a utilization index by
+repricing everything to the 2011 mean. By comparing this to the raw spending numbers, one can
+decompose price changes versus utilization changes (I did something similar here). Additionally, this
+section of results could use further unpacking, including a table or figure.
+While the authors are careful to use non-causal language when they discuss associations between
+spending and the number of manufacturers, I would like to see explicit acknowledgment that this is a
+highly endogenous outcome and the results presented here cannot be used to conclude that
+consolidation in the pharmaceutical industry resulted in higher spending or prices (though this would
+certainly be the theoretical prediction).
+Other items:
+•
+The authors report (pg. 7, ln 121-122) excluding drug formulations with decreased total
+spending from 2011-2015, but do not explain the rationale for this sample restriction.
+•
+The authors use ‘cost’ and ‘spending’ somewhat interchangeably throughout the paper. I don’t
+know if this is intentional, but it may throw off the reader.
+•
+Table 1 and Figure 2 contain overlapping content and could potentially be combined. Some
+categories with identical headings (e.g., ‘Per-Beneficiary OOP Spending’) do not have identical values. If
+these numbers are correct, please clarify labeling.
+•
+Given that annual per-beneficiary OOP spending grew only 75 cents, I might caution against
+concluding that medications have become increasingly inaccessible to patients and/or finding a data
+sources that better reflects this trend.

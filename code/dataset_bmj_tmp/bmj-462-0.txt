@@ -1,0 +1,31 @@
+The paper is well-written, the basic analysis is sound. There is however, a gap between the
+results and the far-reaching conclusions, I believe. Most of the problems could be resolved
+by further MR analysis, which I detail below.
+
+The main weakness of the analysis is inherent in the small variant explained of the IVs.
+While the authors claim that their tested exposure change (1SD Ca levels) is compatible
+with the impact of pharmaceutical interventions, the genetically altered effects are huge
+extrapolations: the average Ca level difference between the lowest and highest Ca-level
+GRS group (0 vs 12 Ca increasing alleles) is far lower (I expect not even 0.2 SD) than the
+claimed 1SD. The estimation of the authors is based on an extrapolation, assuming fully
+linear causal effect in all ranges of Ca levels.
+Related to this, when they claim that given the MR results, Ca supplementation has no
+effect on BMD and fracture, is again not the right conclusion: given the instrument
+strength (0.77% explained variance in total), the only effect that MR can reliably estimate
+(provided all assumptions hold) is tiny modifications of the serum calcium levels near the
+population average. It is a leap of faith to draw conclusions from this to a subpopulation
+with extremely low Ca levels, for whom the supplements would be recommended. There
+are examples of U-shaped causal effects that around the population mean look
+monotonous and increasing (e.g. alcohol consumption as exposure). Methods for
+non-linear MR exist and could be testable here
+[https://www.ncbi.nlm.nih.gov/pubmed/25192829,
+https://www.ncbi.nlm.nih.gov/pubmed/25166881] to see whether the causal average
+treatment effects (LACE) are zero everywhere.
+It would be fair to mention that such 2-sample MR method, where the outcome is binary,
+combined with the use of a generally non-collapsible measure (such as the odds ratio) can
+be problematic and can yield biased results
+[https://core.ac.uk/download/pdf/77408671.pdf].
+Using CASR SNP alone as instrument yields significant negative causal effect. The authors
+claim that it is an outlier and my be due to horizontal pleiotropy, could they identify any
+mechanism that explains this?
+When will the association summary statistics for fracture be released?

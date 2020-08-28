@@ -1,0 +1,1452 @@
+
+
+    <!DOCTYPE html>
+<html class="">
+
+        
+<head>
+    <title>Recent advances in understanding glucose... | F1000Research</title>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+    <!--<meta lang="$locale">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="9-QVycOO2_ob3Z9QzRmXv2CF08A9oyYXqWyTiVdKPlU" />
+    <!-- This is commented out to fix display problems on mobile devices.
+    We may use it again once we implement a responsive design that supports native device resolutions.
+    <meta name="viewport" content="width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <link rel="alternate" title="Recent articles published in F1000Research" href="/rss" type="application/rss+xml">
+            <link rel="alternate" type="application/pdf" title="PDF" href="https://f1000research.com/articles/9-639/pdf"/>
+        <link rel="canonical" href="https://f1000research.com/articles/9-639" />
+    
+            <meta name="description" content="Read the original article in full on F1000Research: Recent advances in understanding glucose transport and glucose disposal" />
+    
+            <meta name="og:title" content="F1000Research Article: Recent advances in understanding glucose transport and glucose disposal.">
+            <meta name="og:description" content="Read the latest article version by Ann Louise Olson, Kenneth Humphries, at F1000Research.">
+            <meta name="og:image" content="/img/sharing/og_research.png">
+            <meta name="version-id" content="24528">
+            <meta name="article-id" content="22237">
+            <meta name="dc.title" content="Recent advances in understanding glucose transport and glucose disposal">
+            <meta name="dc.description" content="Deficient glucose transport and glucose disposal are key pathologies leading to impaired glucose tolerance and risk of type 2 diabetes.&amp;nbsp; The cloning and identification of the family of facilitative glucose transporters have helped to identify that underlying mechanisms behind impaired glucose disposal, particularly in muscle and adipose tissue.&amp;nbsp; There is much more than just transporter protein concentration that is needed to regulate whole body glucose uptake and disposal.&amp;nbsp; The purpose of this review is to discuss recent findings in whole body glucose disposal.&amp;nbsp; We hypothesize that impaired glucose uptake and disposal is a consequence of mismatched energy input and energy output.&amp;nbsp; Decreasing the former while increasing the latter is key to normalizing glucose homeostasis.">
+            <meta name="dc.subject" content="glucose transport, glucose disposal, insulin resistance">
+            <meta name="dc.creator" content="Olson, Ann Louise">
+            <meta name="dc.creator" content="Humphries, Kenneth">
+            <meta name="dc.date" content="2020/06/24">
+            <meta name="dc.identifier" content="doi:10.12688/f1000research.22237.1">
+            <meta name="dc.source" content="F1000Research 2020 9:639">
+            <meta name="dc.format" content="text/html">
+            <meta name="dc.language" content="en">
+            <meta name="dc.publisher" content="F1000 Research Limited">
+            <meta name="dc.rights" content="https://creativecommons.org/licenses/by/3.0/igo/">
+            <meta name="dc.type" content="text">
+            <meta name="prism.keyword" content="glucose transport">
+            <meta name="prism.keyword" content="glucose disposal">
+            <meta name="prism.keyword" content="insulin resistance">
+            <meta name="prism.publication.Name" content="F1000Research">
+            <meta name="prism.publicationDate" content="2020/06/24">
+            <meta name="prism.volume" content="9">
+            <meta name="prism.number" content="639">
+            <meta name="prism.versionIdentifier" content="1">
+            <meta name="prism.doi" content="10.12688/f1000research.22237.1">
+            <meta name="prism.url" content="https://f1000research.com/articles/9-639">
+            <meta name="citation_title" content="Recent advances in understanding glucose transport and glucose disposal">
+            <meta name="citation_abstract" content="Deficient glucose transport and glucose disposal are key pathologies leading to impaired glucose tolerance and risk of type 2 diabetes.&amp;nbsp; The cloning and identification of the family of facilitative glucose transporters have helped to identify that underlying mechanisms behind impaired glucose disposal, particularly in muscle and adipose tissue.&amp;nbsp; There is much more than just transporter protein concentration that is needed to regulate whole body glucose uptake and disposal.&amp;nbsp; The purpose of this review is to discuss recent findings in whole body glucose disposal.&amp;nbsp; We hypothesize that impaired glucose uptake and disposal is a consequence of mismatched energy input and energy output.&amp;nbsp; Decreasing the former while increasing the latter is key to normalizing glucose homeostasis.">
+            <meta name="citation_description" content="Deficient glucose transport and glucose disposal are key pathologies leading to impaired glucose tolerance and risk of type 2 diabetes.&amp;nbsp; The cloning and identification of the family of facilitative glucose transporters have helped to identify that underlying mechanisms behind impaired glucose disposal, particularly in muscle and adipose tissue.&amp;nbsp; There is much more than just transporter protein concentration that is needed to regulate whole body glucose uptake and disposal.&amp;nbsp; The purpose of this review is to discuss recent findings in whole body glucose disposal.&amp;nbsp; We hypothesize that impaired glucose uptake and disposal is a consequence of mismatched energy input and energy output.&amp;nbsp; Decreasing the former while increasing the latter is key to normalizing glucose homeostasis.">
+            <meta name="citation_keywords" content="glucose transport, glucose disposal, insulin resistance">
+            <meta name="citation_journal_title" content="F1000Research">
+            <meta name="citation_author" content="Ann Louise Olson">
+            <meta name="citation_author_institution" content="Biochemistry &amp; Molecular Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK, USA">
+            <meta name="citation_author" content="Kenneth Humphries">
+            <meta name="citation_author_institution" content="Aging &amp; Metabolism Research Program, Oklahoma Medical Research Foundation, Oklahoma City, OK, USA">
+            <meta name="citation_author_institution" content="Biochemistry &amp; Molecular Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK, USA">
+            <meta name="citation_publication_date" content="2020/06/24">
+            <meta name="citation_volume" content="9">
+            <meta name="citation_publication_number" content="639">
+            <meta name="citation_version_number" content="1">
+            <meta name="citation_doi" content="10.12688/f1000research.22237.1">
+            <meta name="citation_firstpage" content="639">
+            <meta name="citation_pdf_url" content="https://f1000research.com/articles/9-639/v1/pdf">
+    
+
+    
+    <link href="/img/favicon-research.ico" rel="shortcut icon" type="image/ico">
+    <link href="/img/favicon-research.ico" rel="icon" type="image/ico">
+
+        <link rel="stylesheet" href="/1597255280893/css/mdl/material-design-lite.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.2.43/css/materialdesignicons.min.css" />
+
+        
+            
+    <link rel="stylesheet" href="/1597255280893/css/F1000Research.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/animation.css" type="text/css" media="all" />
+
+        <!--[if IE 7]><link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons-ie7.css" media="all" /><![endif]-->
+
+                    <script>dataLayer = [];</script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54Z2SBK');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="/1597255280893/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="/1597255280893/js/shared_scripts/sticky.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/shared_scripts/menu.js"></script>
+    <script src="/1597255280893/js/shared_scripts/navbar.js"></script>
+    <script src="/1597255280893/js/shared_scripts/platforms.js"></script>
+    <script src="/1597255280893/js/shared_scripts/object-polyfills.js"></script>
+            <script src="/1597255280893/js/vendor/lodash.min.js"></script>
+        <script>CKEDITOR_BASEPATH='https://f1000research.com/js/ckeditor/'</script>
+    <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/plugins.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/app/research.js"></script>
+    <script>window.reactTheme = 'research';</script>
+    <script src="/1597255280893/js/public/bundle.js"></script>
+
+    <script src="/1597255280893/js/app/research.ui.js"></script>
+    <script src="/1597255280893/js/app/login.js"></script>
+    <script src="/1597255280893/js/app/main.js"></script>
+    <script src="/1597255280893/js/app/js-date-format.min.js"></script>
+    <script src="/1597255280893/js/app/search.js"></script>
+    <script src="/1597255280893/js/app/cookies_warning.js"></script>
+    <script src="/1597255280893/js/mdl/mdl.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/ckeditor.js"></script>
+            <script src="/js/ckeditor/adapters/jquery.js"></script>
+                <script src="/js/article/article_scrolling_module.js"></script>
+            <script src="/js/article/article_stats.js"></script>
+            <script src="/js/article/article.js"></script>
+            <script src="/js/shared_scripts/referee_timeline_pagination.js"></script>
+            <script src="/js/app/text_editor_controller.js"></script>
+            <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503e5e99593dc42c"></script>
+            <script src="/js/article/article_metrics.js"></script>
+        
+                                                                            <script>
+            if (window.location.hash == '#_=_'){
+                window.location = window.location.href.split('#')[0]
+            }
+        </script>
+
+                    
+        
+    <!-- pixelId: 1641728616063202 :: assetPixelId: 6034867600215 :: funderPixelId:  -->
+
+            <!-- Facebook pixel code (merged with EP GTM code) -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+
+            {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+            ;if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1641728616063202');
+
+            
+            fbq('track', "PixelInitialized", {});
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1641728616063202&noscript=1&amp;ev=PixelInitialized"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+                <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:917825,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+</head>
+<body  class="o-page-container no-js p-article o-layout-reset   ">
+
+    
+                            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54Z2SBK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+        
+    <div class="o-page">
+
+        <div id="notify-container"></div>
+        <div id="pageWarning"></div>
+        <div id="pageMessage"></div>
+        <div id="pageFooterMessage"></div>
+
+                                <div id="f1r-ga-data" data-name="f1r-ga-data" class="f1r-ga-data"
+                data-user-registered="false"
+                data-user-module=""
+                data-current-path=""
+                data-location=""
+                data-website="F1000Research"
+                data-websiteDisplayName="F1000Research">
+            </div>
+        
+                
+        
+        <div class="header-wrapper   js-navbar-space ">
+                            
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+                            
+    
+            
+
+
+
+<nav class="c-navbar js-navbar js-mini-nav js-sticky c-navbar--js-sticky c-navbar--userSite c-navbar__platform-bgcolor  c-navbar--bg-f1000research ">
+
+    <div class="c-navbar__content">
+
+                                <div class="c-navbar__extras">
+            <div class="o-wrapper">
+                <div class="o-actions o-actions--middle c-navbar__extras-row">
+                    <div class="o-actions__primary">
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="o-wrapper t-inverted js-sticky-start">
+
+            <div class="c-navbar__branding-row">
+                <div class="c-navbar__row">
+
+
+                                        
+                    <div class="c-navbar__primary u-mr--2">
+
+                                                                                                                                                                                                    <a href="/" class="c-navbar__branding u-ib u-middle"   data-test-id="nav_branding"  >
+                                <img class="u-ib u-middle" src="/img/research/F1000Research_white_solid.svg" alt="F1000Research">
+                            </a>
+                                            </div>
+
+                    <div class="c-navbar__secondary c-navbar__row">
+
+
+                                                
+                                                    <form action="/search" class="-navbar__secondary u-mr--2 c-search-form js-search-form u-hide u-show@navbar">
+                                <label for="searchInput" class="c-search-form__label _mdl-layout">
+                                    <input name="q" type="search" class="c-search-form__input" id="searchInput" placeholder="Search">
+                                    <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                </label>
+                            </form>
+                        
+                                                
+                                                    <div class="c-navbar__primary u-hide u-show@navbar">
+                                <div class="_mdl-layout c-navbar__cta">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--no-shadow mdl-button--multi-line mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                            </div>
+                        
+
+                                                
+                        <span class="u-hide@navbar _mdl-layout u-nowrap">
+
+                                                            <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" data-focus="#navbar_mob_search_input" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_search_mob"  ><i class="material-icons">search</i></button>
+                            
+                                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-button--multi-line c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" type="button" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_toggle_mob"  >
+                                    <i class="material-icons c-navbar__toggle-open">menu</i>
+                                    <i class="material-icons c-navbar__toggle-close">close</i>
+                                </button>
+                                                    </span>
+                    </div>
+
+                </div>
+            </div>
+
+                        
+                            <div class="c-navbar__menu-row js-navbar-block is-collapsed" id="navbarMenu">
+
+                                                                                                                                                
+                                                                    
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+
+                                                                
+                                                                                                                                                                                                                                
+                                            
+                    <div class="c-navbar__menu-row-content">
+
+                                                                            <div class="u-hide@navbar c-navbar__menu-bar-spacing">
+                                <form action="/search" class="c-search-form js-search-form">
+                                    <label for="navbar_mob_search_input" class="c-search-form__label _mdl-layout">
+                                        <input id="navbar_mob_search_input" name="q" type="search" class="c-search-form__input" placeholder="Search">
+                                        <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                    </label>
+                                </form>
+                            </div>
+                        
+                        <div class="o-actions o-actions--middle">
+
+                            <div class="o-actions__primary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="main-menu"   role="menubar" aria-label="Main Navigation"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/browse/articles" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="0"
+                              data-test-id="nav_browse"                              >Browse</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/gateways" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_gatewaysViewAndBrowse"                              >Gateways & Collections</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="2"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_for-authors"                              >How to Publish</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="How to Publish">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_submit-manuscript"                      href="/for-authors/publish-your-research"
+                    role="menuitem"
+                    tabindex="0">Submit your Research</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/for-authors/my-submissions"
+                    role="menuitem"
+                    tabindex="-1">My Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines"                      href="/for-authors/article-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines-new-versions"                      href="/for-authors/article-guidelines-new-versions"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines (New Versions)</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_data-guidelines"                      href="/for-authors/data-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Data Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_asset-guidelines"                      href="/for-authors/posters-and-slides-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Posters and Slides Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_document-guidelines"                      href="/for-authors/document-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Document Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-processing-charges"                      href="/for-authors/article-processing-charges"
+                    role="menuitem"
+                    tabindex="-1">Article Processing Charges</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_finding-referees"                      href="/for-authors/tips-for-finding-referees"
+                    role="menuitem"
+                    tabindex="-1">Finding Article Reviewers</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="3"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_about-contact"                              >About</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="About">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_about-page"                      href="/about"
+                    role="menuitem"
+                    tabindex="0">How it Works</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_referee-guidelines"                      href="/for-referees/guidelines"
+                    role="menuitem"
+                    tabindex="-1">For Reviewers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_advisoryPanel"                      href="/advisors"
+                    role="menuitem"
+                    tabindex="-1">Our Advisors</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_policy-page"                      href="/about/policies"
+                    role="menuitem"
+                    tabindex="-1">Policies</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_glossary-page"                      href="/glossary"
+                    role="menuitem"
+                    tabindex="-1">Glossary</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_faqs-page"                      href="/faqs"
+                    role="menuitem"
+                    tabindex="-1">FAQs</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              u-hide u-show@navbar"
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      u-hide u-show@navbar"
+                                          data-test-id="nav_for-developers"                      href="/developers"
+                    role="menuitem"
+                    tabindex="-1">For Developers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_newsroom-page"                      href="/newsroom"
+                    role="menuitem"
+                    tabindex="-1">Newsroom</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_contact-page"                      href="/contact"
+                    role="menuitem"
+                    tabindex="-1">Contact</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="4"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="https://blog.f1000.com/blogs/f1000research/" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                             target="_blank"                                                         tabindex="-1"
+                              data-test-id="nav_blog"                              >Blog</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                            <div class="o-actions__secondary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="secondary-items"   role="menubar" aria-label="My Account"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="0"
+                              data-test-id="nav_my-research"                              >My Research</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="My Research">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/login?originalPath=/my/submissions"
+                    role="menuitem"
+                    tabindex="0">Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-email-alerts"                      href="/login?originalPath=/my/email-alerts"
+                    role="menuitem"
+                    tabindex="-1">Content and Tracking Alerts</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-user-details"                      href="/login?originalPath=/my/user-details"
+                    role="menuitem"
+                    tabindex="-1">My Details</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/login?originalPath=/articles/9-639.html" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_sign-in"                              >Sign In</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                                                                                        <div class="_mdl-layout c-navbar__cta u-hide@navbar c-navbar__menu-bar-spacing">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--multi-line mdl-button--no-shadow mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research_mob"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+            
+        </div>
+
+    </div>
+
+</nav>
+                    </div>
+
+        <div class="content-wrapper o-page__main row ">
+            <div id="highlight-area" class="content ">
+                
+
+
+
+
+
+<div id=article-metadata class=hidden> <input type=hidden name=versionId value=24528 /> <input type=hidden id=articleId name=articleId value=22237 /> <input type=hidden id=xmlUrl value="/articles/9-639/v1/xml"/> <input type=hidden id=xmlFileName value="-9-639-v1.xml"> <input type=hidden id=article_uuid value=883439e2-7139-4cd4-8c1d-e0fa494888ab /> <input type=hidden id=referer value=""/> <input type=hidden id=meta-article-title value="Recent advances in understanding glucose transport and glucose disposal"/> <input type=hidden id=workspace-export-url value="https://sciwheel.com/work/api/import/external?doi=10.12688/f1000research.22237.1"/> <input type=hidden id=versionDoi value="10.12688/f1000research.22237.1"/> <input type=hidden id=usePmcStats value=true /> </div> <main class="o-wrapper p-article__wrapper js-wrapper"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://f1000research.com/articles/9-639"
+  },
+  "headline": "Recent advances in understanding glucose transport and glucose disposal",
+  "datePublished": "2020-06-24T09:31:29",
+  "dateModified": "2020-06-24T09:31:29",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Ann Louise Olson"
+    },    {
+      "@type": "Person",
+      "name": "Kenneth Humphries"
+    }  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F1000Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+      "height": 480,
+      "width": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+    "height": 1200,
+    "width": 150
+  },
+  "description": "Deficient glucose transport and glucose disposal are key pathologies leading to impaired glucose tolerance and risk of type 2 diabetes.  The cloning and identification of the family of facilitative glucose transporters have helped to identify that underlying mechanisms behind impaired glucose disposal, particularly in muscle and adipose tissue.  There is much more than just transporter protein concentration that is needed to regulate whole body glucose uptake and disposal.  The purpose of this review is to discuss recent findings in whole body glucose disposal.  We hypothesize that impaired glucose uptake and disposal is a consequence of mismatched energy input and energy output.  Decreasing the former while increasing the latter is key to normalizing glucose homeostasis."
+}
+</script> <div class="o-layout o-layout--right-gutter"> <div id=article_secondary-column class="p-article__main o-layout__item u-font-size--legal u-2/3@article not-expanded "> <div class=float-left> <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+              {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@id": "https://f1000research.com/",
+            "name": "Home"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "2",
+          "item": {
+            "@id": "https://f1000research.com/browse/articles",
+            "name": "Browse"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "3",
+          "item": {
+            "@id": "https://f1000research.com/articles/9-639.html",
+            "name": "Recent advances in understanding glucose transport and glucose disposal"
+          }
+        }          ]
+  }
+  </script> <div class="breadcrumbs js-breadcrumbs"> <a href="/" class=f1r-standard-link>Home</a> <span class=item_separator></span> <a href="/browse/articles" class=f1r-standard-link>Browse</a> <span class=item_separator></span> Recent advances in understanding glucose transport and glucose disposal </div> </div> <div class="article-badges-container u-mb--2"> <div class=crossmark-new> <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script> <a data-target=crossmark><img height=30 width=150 src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg"/></a> </div> <div id=crossmark-dialog style="display: none;" title=""> <iframe id=crossmark-dialog-frame frameborder=0></iframe> </div> <div class=clearfix></div> </div> <div class=article-interaction-container> <div id=main-article-count-box class=article-count-box> <div class="article-metrics-wrapper metrics-icon-wrapper" data-version-id=24528 data-id=22237 data-downloads="" data-views="" data-scholar="10.12688/f1000research.22237.1" data-recommended="" data-doi="10.12688/f1000research.22237.1" data-f1r-ga-helper="Article Page Metrics (Desktop)"> <span class="metrics-on-browse article-metrics-icon f1r-icon icon-89_metrics"></span> <div class="count-title article-metrics-text">ALL Metrics</div> <div class=js-article-metrics-container></div> </div> <div> <div class=count-delimiter></div> <div title="Total views from F1000Research and PubMed Central"> <div class="count-container view-count js-views-count">-</div> <div class=count-title><span class="count-title-icon count-title-views-icon"></span>Views</div> </div> <div class=download-counts hidden> <div class=count-delimiter></div> <div title="Total downloads from F1000Research and PubMed Central"> <div class="count-container js-downloads-count"></div> <div class=count-title><span class="count-title-icon f1r-icon icon-76_download_file"></span>Downloads</div> </div> </div> </div> </div> <div id=main-article-interaction-box class="article-interaction-box has-control-tab"> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-102_download_pdf"></span> <a href="https://f1000research.com/articles/9-639/v1/pdf?article_uuid=883439e2-7139-4cd4-8c1d-e0fa494888ab" title="Download PDF" class="button-link download pdf-download-helper" target=_blank>Get PDF</a> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-103_download_xml"></span> <a id=download-xml href="#" class="button-link download" title="Download XML">Get XML</a> </div> </div> <div class="article-interaction-info article-page"> <div class="cite-article-popup-wrapper article-page-interaction-box"> <div class="article-interaction-button cite-article-button" title="Cite this article" data-windowref=cite-article-popup-22237-1> <span class="f1r-icon icon-82_quote"></span> <a href="#" class="button-link cite-article-popup-link" title="Cite Article">Cite</a> </div> <div id=cite-article-popup-22237-1 class="popup-window-wrapper is-hidden"> <div class=cite-popup-background></div> <div class="popup-window top-popup cite-this-article-box research-layout"> <div class="popup-window-title small cite-title">How to cite this article</div> <span id=cite-article-text-22237-1 data-test-id=copy-citation_text> <span class="article-title-and-info in-popup">Olson AL and Humphries K. Recent advances in understanding glucose transport and glucose disposal [version 1; peer review: 2 approved]</span>. <i>F1000Research</i> 2020, <b>9</b>(F1000 Faculty Rev):639 (<a class=new-orange href="https://doi.org/10.12688/f1000research.22237.1" target=_blank>https://doi.org/10.12688/f1000research.22237.1</a>) </span> <div class="popup-window-title small margin-top-20 margin-bottom-20 note"> <strong>NOTE:</strong> it is important to ensure the information in square brackets after the title is included in all citations of this article. </div> <div class=float-right> <button class="secondary no-fill orange-text-and-border margin-right-20 close-cite-popup uppercase">Close</button> <button id=copy-citation-details class="secondary orange copy-cite-article-version uppercase js-clipboard" title="Copy the current citation details to the clipboard." data-clipboard-target="#cite-article-text-22237-1" data-test-id=copy-citation_button>Copy Citation Details</button> </div> </div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-76_download_file"></span> <a id=export-citation href="#" class="button-link download" title="Export Citation">Export</a> </div> <div class="modal-window-wrapper is-hidden"> <div id=export-citation-popup class="modal-window padding-20"> <div class=modal-window-close-button></div> <div class=modal-window-title>Export Citation</div> <div class=modal-window-row> <div> <input type=radio name=export-citation-option value=WORKSPACE /> <span class=radio-label>Sciwheel</span> </div> <div> <input type=radio name=export-citation-option value=ENDNOTE /> <span class=radio-label>EndNote</span> </div> <div> <input type=radio name=export-citation-option value=REF_MANAGER /> <span class=radio-label>Ref. Manager</span> </div> <div> <input type=radio name=export-citation-option value=BIBTEX /> <span class=radio-label>Bibtex</span> </div> <div> <input type=radio name=export-citation-option value=PROCITE /> <span class=radio-label>ProCite</span> </div> <div> <input type=radio name=export-citation-option value=SENTE /> <span class=radio-label>Sente</span> </div> </div> <div class=modal-window-footer> <button class=general-white-orange-button id=export-citation-submit>EXPORT</button> </div> <div class=default-error style="display: none;">Select a format first</div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-90_track"></span> <a class="button-link track-article" data-article-id=22237 id=track-article-signin-22237 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/22237?target=/articles/9-639.html">Track</a> </div> </div> <div class="article-interaction-info article-page"> <div class="article-interaction-button email-article"> <span class="f1r-icon icon-6_email"></span> <a href="#" class=button-link title="Email this article">Email</a> </div> <div class="email-article-version-container small-tooltip _chrome-fix"> <div class=close-icon><span class="f1r-icon icon-3_close_big"></span></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=24528 /> <input name=articleId type=hidden value=22237 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-34_share"></span> <a href="#" class="button-link last addthis_button share-article" title="Share this article">Share</a> </div> </div> </div> <div id=article-interaction-control-tab class=article-interaction-control-tab> <div id=hide-article-interaction class=article-interaction-control title="Hide Toolbox">&#9644;</div> <div id=show-article-interaction class="article-interaction-control open" title="Show Toolbox">&#10010;</div> </div> </div> <div class="article-header-information article-page"> <div class="f1r-article-mobile article-heading-bar"></div> <div class="article-type article-display">Review </div> <div class="article-title-and-info article-view highlighted-article" id=anchor-title> <h1>Recent advances in understanding glucose transport and glucose disposal</h1><span class=other-info> [version 1; peer review: 2 approved]</span> </div> <div class=article-subtitle></div> <div class=f1r-article-desk> <div class="authors _mdl-layout"><span class=""><a href="mailto:ann-olson@ouhsc.edu" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Ann Louise Olson</span></a><a href="https://orcid.org/0000-0001-9401-2317" target=_blank id=author-orcid-0><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-0><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0001-9401-2317</div><sup>1</sup>,&nbsp;</span><span class="">Kenneth Humphries<sup>1,2</sup></span></div> </div> <div class=f1r-article-mobile> <div class="authors _mdl-layout"><span class=""><a href="mailto:ann-olson@ouhsc.edu" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Ann Louise Olson</span></a><a href="http://orcid.org/0000-0001-9401-2317" target=_blank id=mauthor-orcid-0><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-0><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0001-9401-2317</div><sup>1</sup>,&nbsp;</span><span class="">Kenneth Humphries<sup>1,2</sup></span></div> </div> <div class=f1r-article-mobile> <div class=article-pubinfo-mobile> PUBLISHED 24 Jun 2020 </div> </div> <span class=Z3988 title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft_id=info:doi/10.12688%2Ff1000research.22237.1"></span> <div class=f1r-article-desk> <div class="contracted-details first"> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> Biochemistry &amp; Molecular Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK, USA<br/> <sup>2</sup> Aging &amp; Metabolism Research Program, Oklahoma Medical Research Foundation, Oklahoma City, OK, USA<br/> <p> <div class=margin-bottom> Ann Louise Olson <br/> <span>Roles: </span> Conceptualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Kenneth Humphries <br/> <span>Roles: </span> Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> </div> <div class=f1r-article-mobile> <div class="article-page-section-box margin-bottom-40 research-layout"> <span class=box-title> <span class="f1r-icon icon-85_peer_review"></span> OPEN PEER REVIEW </span> <button class="tertiary grey float-right" data-scrollto=article-reports>DETAILS</button> <div class="status-row referee-reports-container"> REVIEWER STATUS <span class=status-icons> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=26313-64823></span> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=69317-64822></span> </span> </div> </div> </div> </div> <h2 class="article-headings article-page-abstract" id=anchor-abstract> <span class="f1r-article-mobile-inline abstract-heading-border"></span> Abstract </h2> <div class="article-abstract article-page-general-text-mobile research-layout"> <div class="abstract-text is-expanded"> Deficient glucose transport and glucose disposal are key pathologies leading to impaired glucose tolerance and risk of type 2 diabetes.&nbsp; The cloning and identification of the family of facilitative glucose transporters have helped to identify that underlying mechanisms behind impaired glucose disposal, particularly in muscle and adipose tissue.&nbsp; There is much more than just transporter protein concentration that is needed to regulate whole body glucose uptake and disposal.&nbsp; The purpose of this review is to discuss recent findings in whole body glucose disposal.&nbsp; We hypothesize that impaired glucose uptake and disposal is a consequence of mismatched energy input and energy output.&nbsp; Decreasing the former while increasing the latter is key to normalizing glucose homeostasis. </div> <div class=abstract-for-mobile> <div class="margin-top-30 padding-bottom-30 research-layout is-centered"> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border show" style="display: none;"> READ ALL <span class="f1r-icon icon-14_more_small orange vmiddle big"></span> </button> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border hide"> READ LESS <span class="f1r-icon icon-10_less_small orange vmiddle big"></span> </button> </div> </div> </div> <div class=clearfix></div> <div class="article-context no-divider"> <div class="article-abstract article-page-general-text-mobile research-layout generated-article-body"> <h2 class=main-title>Keywords</h2> <p class="u-mb--0 u-pb--2"> glucose transport, glucose disposal, insulin resistance </p> </div> </div> <div class=article-information> <span class="info-separation padding-bottom"> <div id=corresponding-author-icon class="email-icon float-left"> <span class="f1r-icon icon-6_email orange"></span> <div id=corresponding-author-window class="margin-top-20 popup-window-wrapper is-hidden"> <div class="popup-window corresponding-authors-popup"> <div class=corresponding-author-container> <div class="popup-window-title small">Corresponding Author(s)</div> <div class=authors> Ann Louise Olson (<a href="mailto:ann-olson@ouhsc.edu">ann-olson@ouhsc.edu</a>) </div> </div> <div class="margin-top margin-bottom float-left"> <button id=close-popup-window class=general-white-orange-button>Close</button> </div> </div> </div> </div> <span class="icon-text float-left" data-test-id=box-corresponding-author> <b>Corresponding author:</b> Ann Louise Olson </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom competing-interests-display"> <span class=competing-interests-title>Competing interests:</span> No competing interests were disclosed. </span> <div class="info-separation padding-bottom grant-information-display"> <span class=grant-information-title>Grant information:</span> This work was funded by a National Institutes of Health grant (no. HR17-018) awarded to KH and an Oklahoma Center for the Advancement of Science and Technology grant (no. HL125625) awarded to ALO. <br/> <i>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</i> </div> <span class="f1r-article-desk info-separation padding-bottom"> <span class="copywrite-icon float-left"> <span class="f1r-icon icon-100_open_access"></span> </span> <span class="icon-text float-left" data-test-id=box-copyright-text> <b>Copyright:</b>&nbsp; © 2020 Olson AL and Humphries K. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom" data-test-id=box-how-to-cite> <b>How to cite:</b> <span class="article-title-and-info in-article-box"> Olson AL and Humphries K. Recent advances in understanding glucose transport and glucose disposal [version 1; peer review: 2 approved]</span>. <i>F1000Research</i> 2020, <b>9</b>(F1000 Faculty Rev):639 (<a href="https://doi.org/10.12688/f1000research.22237.1" target=_blank>https://doi.org/10.12688/f1000research.22237.1</a>) </span> <span class=info-separation data-test-id=box-first-published><b>First published:</b> 24 Jun 2020, <b>9</b>(F1000 Faculty Rev):639 (<a href="https://doi.org/10.12688/f1000research.22237.1" target=_blank>https://doi.org/10.12688/f1000research.22237.1</a>)</span> <span class=info-separation data-test-id=box-latest-published><b>Latest published:</b> 24 Jun 2020, <b>9</b>(F1000 Faculty Rev):639 (<a href="https://doi.org/10.12688/f1000research.22237.1" target=_blank>https://doi.org/10.12688/f1000research.22237.1</a>)</span> </div> <div class=clearfix></div> <div id=article-context class=article-context> <div id=article1-body class=generated-article-body><h2 class=main-title id=d12093e151>Introduction</h2><p class="" id=d12093e154>One of the central metabolic features of type 2 diabetes in humans is decreased glucose disposal. This process is rate limited by the capacity for glucose transport into the peripheral and splanchnic tissues. The prevailing hypothesis for limited glucose transport and disposal in type 2 diabetes has centered on the function of the insulin-dependent glucose transporter GLUT4. This transporter, expressed at the highest levels in adipose tissue, skeletal muscle, and cardiac muscle, is recruited to the cell surface when activated by rising insulin levels following consumption of a meal. This hypothesis is supported in large part by studies performed using whole animal and tissue-specific transgenic manipulation of GLUT4 expression and <i>in vitro</i> studies of insulin-dependent glucose uptake in patients with type 2 diabetes<sup><a href="#ref-1">1</a></sup>. While it is clear that both insulin-dependent GLUT4 trafficking and total cellular GLUT4 pool size play a critical role in glucose disposal, other glucose transporters and other factors influence glucose uptake in tissues including interstitial glucose concentration and intracellular glucose metabolism. The contributions of transporter pool size, rate of glucose delivery to the tissues, competition with other energy substrates, and ATP turnover are the key issues that must be resolved to understand how to effectively prevent and treat type 2 diabetes.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d12093e167>Regulation of glucose uptake by interstitial glucose concentration and blood flow</h2><p class="" id=d12093e170>In human subjects with prediabetes and type 2 diabetes, impaired glucose uptake in skeletal muscle, visceral adipose tissue, and the brain appear to be the best predictors of insulin resistance<sup><a href="#ref-2">2</a></sup>. Glucose uptake in these tissues occurs by facilitative diffusion. Because glucose is rapidly phosphorylated once it enters the cell, the rate of glucose transport is dictated by the extracellular glucose concentration as well as the number of transport proteins found on the cell surface. In the case of visceral adipose tissue and skeletal muscle, the extracellular (or interstitial) glucose concentration is dictated by blood flow into the tissue. It has long been known that insulin action increases vasodilation, presumably to deliver nutrients and insulin to tissues (for a recent review, see <a href="#ref-3">3</a>). Unknown is the relative contribution of changes in cell surface transporter number and changes in interstitial glucose concentration to glucose uptake in tissues. To answer this question, McConell <i>et al</i>. sought to estimate insulin-dependent muscle glucose uptake in human subjects at rest and after a bout of exercise with and without modulation of blood flow to the tissue<sup><a href="#ref-4">4</a></sup>. In this study, subjects performed a one-legged knee extensor exercise so that glucose uptake could be measured in the exercised leg and compared to a parallel biopsy taken from the rested leg. Based on previous studies, the authors anticipated at least a twofold increase in insulin-dependent glucose uptake based on insulin-dependent translocation of GLUT4 to the cell surface. Instead, the increase in glucose uptake following submaximal euglycemic/hyperinsulinemic clamp was 17-fold in the rested leg and 36-fold in the exercised leg. The apparent twofold increase in glucose uptake in the exercised leg might be accounted for by the exercise-dependent increase in GLUT4 translocation, thought to be additive with insulin. To determine if muscle perfusion, a means of replenishing interstitial glucose, modulated glucose uptake, the authors infused NG-monomethyl L-arginine acetate (L-NMMA) into the femoral artery during the clamp to constrict the vasculature. Indeed, restriction of blood flow reduced glucose uptake. These data point out that both insulin-dependent and exercise-dependent increases in glucose uptake are regulated by both cell permeability and interstitial glucose concentration. The key question is whether glucose disposal in people with prediabetes or type 2 diabetes is limited exclusively by impairment in insulin-dependent GLUT4 translocation or insulin-dependent tissue perfusion. A partial answer to this question is found in the work of Henstridge <i>et al.</i>, where overweight and obese men with type 2 diabetes were given a nitric oxide (NO) donor, sodium nitroprusside, or verapamil to increase leg blood flow. While both drugs increased leg blood flow, only sodium nitroprusside increased glucose uptake in the treated muscle<sup><a href="#ref-5">5</a></sup>. The authors interpret this data to mean that increased blood flow alone is not sufficient to increase glucose uptake when membrane permeability (i.e. GLUT4 plasma membrane levels) is low. Furthermore, the authors raised the possibility that NO signaling was responsible for exercise-dependent GLUT4 translocation, a finding that has since been supported in both cultured myotubes and mouse skeletal muscle<sup><a href="#ref-6">6</a>,<a href="#ref-7">7</a></sup>.</p><p class="" id=d12093e202>In contrast to the human study by McConell <i>et al</i>., inhibition of blood flow by vasoconstriction in conscious, sedentary mice resulted in an increased transendothelial insulin efflux and, in turn, increased glucose clearance<sup><a href="#ref-8">8</a></sup>. The authors of this study demonstrated that vasoconstriction via inhibition of NO synthase (NOS) resulted in increased glucose clearance in response to an insulin tolerance test. While the results of these two studies are conflicting, it is important to note that the McConell study utilized a euglycemic/hyperinsulinemic clamp protocol that measures steady-state insulin action. The Williams study used an insulin bolus, which better represents insulin kinetics. It is likely that the initial increase in transendothelial insulin efflux increased glucose uptake in the first 15 minutes of NOS inhibition, compensating for decreased perfusion of the tissues.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d12093e215>Balance between lipid metabolism and glucose disposal</h2><p class="" id=d12093e218>A predisposing factor for developing insulin-resistant glucose transport is obesity and the lipid overload associated with that condition. Simply put, a high-lipid environment results in decreased glucose disposal. This line of thinking led to the notion that inhibiting fatty acid oxidation would increase glucose oxidation and glucose disposal, thus curing insulin resistance. This substrate competition model has been tested in mice using pharmacologic inhibition of carnitine palmitoyltransferase-1 (CPT-1) activity<sup><a href="#ref-9">9</a></sup>. Mice were fed a 45% fat diet for 6 days to increase fatty acid availability and then given a single injection of etomoxir to inhibit CPT-1. Within 4 hours, plasma glucose levels decreased and glucose oxidation in peripheral tissues increased. The authors observed that free fatty acid levels became elevated with the acute etomoxir treatment, and they became concerned that the lipidemic environment would be enhanced with long-term treatment. This prediction proved to be correct. Prolonged inhibition of fatty acid oxidation led to decreased glycemic control, hepatic insulin resistance, and fatty liver. Thus, the substrate competition hypothesis failed to provide a useful therapeutic hypothesis for the treatment of insulin resistance. More importantly, the prolonged inhibition of fatty acid oxidation led to decreased glucose clearance, further supporting the idea that a high-lipid environment can impair glucose transport and glucose disposal. While long-term clinical trials of etomoxir in human subjects have not been carried out, a short-term clinical trial showed that treatment of subjects with type 2 diabetes with etomoxir for 3 days increased glucose oxidative metabolism under basal conditions but had no effect under hyperinsulinemic clamp conditions<sup><a href="#ref-10">10</a></sup>. This study suggested that inhibition of fatty acid oxidation would not improve insulin sensitivity in patients with type 2 diabetes.</p><p class="" id=d12093e229>If increasing glucose oxidation does not improve metabolic homeostasis in a high-lipid environment, can increased lipid oxidation solve the problem? This question was approached by supplementing carnitine in individuals with impaired glucose tolerance and normal glucose tolerance<sup><a href="#ref-11">11</a></sup>. Carnitine supplementation clearly increased plasma carnitine levels and synthesis of acetylcarnitine levels in the muscle, indicating that carnitine concentration is rate limiting for fatty acid oxidation. These carnitine-dependent increases in fatty acid metabolism did not improve insulin sensitivity or change carbohydrate oxidation. Thus, substrate switching alone is not sufficient to improve glucose transport and glucose disposal in glucose-intolerant volunteers.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d12093e239>Regulation of glucose disposal by increased energy expenditure</h2><p class="" id=d12093e242>Some light has been shed on this problem in a study comparing rates of glucose disposal during lipid infusion in endurance-trained athletes and sedentary men<sup><a href="#ref-12">12</a></sup>. As expected, the lipid infusion resulted in a significant decrease in glucose disposal in the sedentary subjects. On the other hand, the glucose disposal rate and insulin sensitivity were less affected by lipid infusion in the endurance-trained athletes. Unlike sedentary controls, lipid infusion did not decrease rates of glycogen synthesis in the skeletal muscle of the endurance athletes. The latter finding suggests that glucose transport and glucose metabolism remained intact during lipid infusion in trained athletes. This conclusion was supported by the observation that GLUT4 concentration in muscle biopsy taken before and after lipid infusion was unchanged in the trained athletes while GLUT4 levels were significantly decreased by lipid infusion in the untrained participants. While a GLUT4 half-life of about 50 hours has been measured in cultured 3T3-L1 adipocytes, the direct measurement of GLUT4 half-life <i>in vivo</i> or in muscle has not been made. Therefore, the lipid-induced decline in GLUT4 protein content over a 6-hour period in this study suggests that increased turnover may be responsible for the decline in GLUT4. Importantly, this study provokes questions about the metabolic regulation of GLUT4 expression. Further work is required to understand the mechanisms that regulate GLUT4 protein synthesis and degradation in a physiologic setting.</p><p class="" id=d12093e252>It is well established that exercise is an important lifestyle intervention for enhancing both glucose disposal and insulin sensitivity. One of the key features of exercise is increased energy expenditure by working muscle, including the heart. Work by multiple laboratories demonstrated that glucose clearance in exercise-trained rodents was correlated with GLUT4 protein expression in skeletal muscle (reviewed in <a href="#ref-13">13</a>). Although GLUT4 protein is increased, it is likely that other adaptations in trained muscle may contribute to enhanced glucose clearance. For example, rats bred to have an intrinsically high aerobic capacity maintain high glucose disposal rates even when challenged with a high-fat, obesogenic diet<sup><a href="#ref-14">14</a></sup>. These rats were selected for their high-capacity running (HCR) and are compared to similar rats that were concurrently selected for their low-capacity running (LCR). Noticeably, the high-fat-fed HCR rats, even when maintained under sedentary conditions, showed increased glucose clearance and insulin sensitivity under euglycemic/hyperinsulinemic clamp conditions. Glucose clearance was largely accounted for by muscle glucose uptake and glycogen synthesis<sup><a href="#ref-14">14</a></sup>. In our lab, we have shown that transgenic overexpression of GLUT4 protein under the control of the human <i>GLUT4</i> gene promoter also enhanced glucose disposal under high-fat feeding conditions<sup><a href="#ref-15">15</a></sup>. In our model, glucose uptake by muscle and adipose tissue resulted in enhanced production of alanine, a potential gluconeogenic substrate for the liver. Pyruvate tolerance in these animals was enhanced, further supporting the notion that the glucose–alanine cycle was enhanced in the GLUT4 transgenic mice<sup><a href="#ref-16">16</a></sup>. In our model, the enhanced glucose–alanine cycle is perhaps serving as a futile, energy-consuming cycle that is increasing ATP turnover, at least in the liver. The HCR rats demonstrated a thermogenic phenotype and increased metabolic rate<sup><a href="#ref-17">17</a></sup>.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d12093e285>Regulation of glucose transport by glucose metabolism</h2><p class="" id=d12093e288>In the studies described above, glucose clearance is thought to be mediated largely by glucose transporter function. While it is clear that glucose transport relies on the number of cell surface glucose proteins, the rate of glucose uptake may be regulated by other factors, including intracellular glucose metabolism. This hypothesis was tested in a few ways. Fueger <i>et al</i>. showed that overexpression of hexokinase II increased muscle glucose uptake in chow-fed mice under hyperinsulinemic/euglycemic clamp conditions<sup><a href="#ref-18">18</a></sup>. This showed that, under normal conditions, an increased rate of production of glucose-6-phosphate enhanced insulin-mediated glucose uptake. The effect was lost when mice were fed a high-fat diet, suggesting that high-fat diet-induced inhibition of insulin-induced GLUT4 translocation could not be compensated by increased capacity for glucose phosphorylation. This notion was supported by our work showing that glucose uptake in the muscle of high-fat-fed mice was increased by transgenic overexpression of human GLUT4 protein<sup><a href="#ref-16">16</a></sup>.</p><p class="" id=d12093e302>The hypothesis that glucose transport can be regulated by glucose metabolism has been systematically tested <i>in vitro</i>. Tanner <i>et al</i>. measured glycolytic flux in immortalized baby mouse kidney (iBMK) cells that were systematically transduced with at least one human cDNA encoding each step of the glycolytic pathway beginning with the glucose transporters and ending with lactate transporters<sup><a href="#ref-19">19</a></sup>. This approach showed that glycolytic flux could be increased independently by overexpression of proteins regulating at four key steps. These steps include glucose transporters, hexokinase, PFK-1, PFKFB3, and lactate transporters. The output for this study was glycolytic flux rather than glucose transport <i>per se</i>. One might conclude that an increase in glycolytic flux would require an increase in glucose transport, unless increased glycolytic flux was diverting glucose-6-phosphate away from other pathways such as glycogen synthesis or the pentose phosphate pathway. While it is not likely that glycogen synthesis in the cultured cells is an active pathway, it is possible that the pentose phosphate pathway was active. Further experiments are required to determine if the four key steps that regulated glycolytic flux also regulate the rate of glucose transport. This is an intriguing possibility because understanding how glycolysis is regulated may provide important insight into the defects that underlie decreased glucose disposal in type 2 diabetes.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d12093e322>Regulation of glucose uptake and metabolism in the heart</h2><p class="" id=d12093e325>Among the insulin-sensitive tissues, the heart is unique because it has continual energy requirements and it never fatigues yet it lacks the capacity to store nutrients. Thus, the heart must be able to metabolize available circulating nutrients to meet these unyielding energetic demands. In healthy individuals, the heart primarily relies on fatty acids and, secondarily, glucose. However, like other insulin-sensitive tissues, GLUT4 is trafficked to the plasma membrane (sarcolemma) in response to insulin. Thus, after a meal, the cardiac uptake of glucose and glucose oxidation are increased.</p><p class="" id=d12093e328>It is well established that diabetes decreases the capacity of the heart to oxidize glucose and its reliance on fatty acid oxidation dramatically increases. This is referred to as metabolic inflexibility, and it is believed to be a significant component of diabetic cardiomyopathy. The underlying mechanisms of metabolic inflexibility are thus an area of intense research. Studies by William Stanley and others in the 1990’s demonstrated cardiac GLUT1 (the primary insulin-insensitive glucose transporter) and GLUT4 protein expression and glucose uptake are decreased in various animal models of diabetes<sup><a href="#ref-20">20</a></sup>. This is also true in humans who have type 2 diabetes and left ventricular dysfunction<sup><a href="#ref-21">21</a></sup>. However, the decrease in cardiac glucose uptake likely depends upon the duration of disease. In a more recent study, glucose uptake rates in several tissues were assessed by using 18F-FDG PET and MRI in conjunction with a hyperinsulinemic clamp. In this small cohort study performed on control, prediabetic, and type 2 diabetic patients, glucose uptake was decreased in the liver, skeletal muscle, and adipose of type 2 diabetics but unchanged in the heart. This suggests that cardiac glucose uptake is maintained, at least at rest and under the conditions of the hyperinsulinemic clamp, as compared to other tissues. Whether or not cardiac glucose uptake is maintained during increased workload, or how it proceeds with the progression of the disease, must be further explored.</p><p class="" id=d12093e339>Cardiac GLUT4 translocation and glucose uptake can also be stimulated in an insulin-independent manner in response to catecholamines. This is important for physiological and pathophysiological adaptations. For example, studies using a cardiac-specific GLUT4 knockout model demonstrated that GLUT4 is required for adaptations to hemodynamic stress resulting from swimming exercise or transverse aortic constriction<sup><a href="#ref-22">22</a></sup>. Older work also reported that there is increased myocardial glucose uptake during exercise and increased workload, but this is not necessarily mediated by increased myocardial GLUT4 content as seen in exercised skeletal muscle<sup><a href="#ref-23">23</a>,<a href="#ref-24">24</a></sup>. However, the effect of exercise on cardiac glucose uptake and glycolysis depends upon exercise duration. Chronic exercise training results in decreased cardiac glycolysis during training but is elevated approximately twofold 24 hours afterwards<sup><a href="#ref-25">25</a></sup>. This increase in glycolysis in the post-exercise phase is essential for cardiac growth. What is not clear, though, is how diabetes affects these adaptive processes in the heart. For example, if glucose uptake is increased in the heart by catecholamines, but downstream glycolysis is impaired, the beneficial effects may be compromised.</p><p class="" id=d12093e357>In addition to decreased GLUT4, additional mechanisms are also in place to limit basal cardiomyocyte glucose uptake by GLUT1 when confronted by hyperglycemia. Thioredoxin-interacting protein (TXNIP) is an inhibitor of the antioxidant enzyme thioredoxin, and its gene expression is highly responsive to glucose. A recent study by Myers <i>et al</i>. examined the role of TXNIP in the diabetic heart and used a proteomics approach to identify interacting partners<sup><a href="#ref-26">26</a></sup>. They found that TXNIP associated with GLUT1, and experiments performed in cell culture revealed overexpression of TXNIP decreased glucose uptake. Reciprocally, mouse embryonic fibroblasts isolated from TXNIP knockout mice displayed enhanced glucose uptake. This work suggests that unfettered glucose uptake via GLUT1 transporters may be limited in cardiomyocytes exposed to hyperglycemia by the increased expression of TXNIP.</p><p class="" id=d12093e368>As mentioned above, glucose transport is also affected by intracellular glucose metabolism. For example, in a mouse model that expresses a constitutively active form of PFK-2 (which increases the potent allosteric activator of PFK-1, fructose 2,6-bisphosphate) in the heart, there is an increased rate of glycolysis in the absence of insulin<sup><a href="#ref-25">25</a></sup>. This constitutive increase in glycolysis must be coupled with increased glucose uptake. In wild-type mice and in humans, cardiac PFK-2 is activated via phosphorylation by the insulin signaling cascade. This facilitates the metabolism of glucose, taken up by GLUT4, through glycolysis. In our own work, we have found that PFK-2 content is regulated by insulin signaling and that it is constitutively decreased in mouse models of diabetes<sup><a href="#ref-27">27</a></sup>. Regulation of PFK-2 content by insulin may serve as a mechanism to decrease cardiac glucose uptake and metabolism during fasting, but, in the context of diabetes, a chronic decrease in PFK-2 may contribute to metabolic inflexibility. Furthermore, changes in PFK-1 or PFK-2 activity may have effects on how glucose that is taken up is then metabolized. For example, the Hill group has recently shown in a metabolic tracer study in cardiomyocytes that the activity of PFK-1 is a key determinant in the fate of glucose entering into glycolysis or ancillary pathways, such as the pentose phosphate, hexosamine biosynthesis, and glycerolipid synthesis pathways<sup><a href="#ref-28">28</a></sup>. It has also been postulated that dysregulation of key glycolytic steps that affect PFK-1 or PFK-2 facilitate the production of glycogen, which abnormally accumulates in the diabetic heart (reviewed in <a href="#ref-29">29</a>).</p><p class="" id=d12093e386>In addition to the canonical GLUT1 and GLUT4 facilitative glucose transporters, cardiomyocytes also express other members of the GLUT family of proteins as well as members of the sodium glucose cotransporters (SGLTs) (reviewed in <a href="#ref-30">30</a>). Given that the majority of glucose is taken up by GLUT4, and secondarily by GLUT1, the physiological role of other glucose transporters still must be determined. GLUT8 has recently been implicated as having a role in insulin resistance-induced atrial fibrillation, but the mechanism is not clear<sup><a href="#ref-31">31</a></sup>. Like GLUT4, total GLUT8 protein expression is decreased in mice with obesity-induced insulin resistance<sup><a href="#ref-31">31</a></sup>. SGLT2 inhibitors have gained ample attention because, in addition to their ability to decrease blood glucose levels, they also have a positive impact on heart failure. SGLT2 is not expressed in the heart, and the positive effects of its inhibitors may be mediated by the systemic lowering of blood glucose levels or direct effects on cardiomyocytes via mechanisms that are still under investigation<sup><a href="#ref-32">32</a></sup>. A recent study has reported that the heart does express SGLT1 abundantly, though<sup><a href="#ref-33">33</a></sup>. SGLT1 transports glucose by an active transport mechanism using the Na<sup>+</sup> gradient. However, its functional role in the heart is independent of glucose transport and its importance to normal physiology and disease states, such as diabetes, must be further evaluated.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d12093e415>Conclusions</h2><p class="" id=d12093e418>The clearance of glucose from the blood plasma following a meal is important for overall metabolic health. Because the central nervous system is highly dependent on glucose for an energy source, multiple layers of regulation are in place to maintain a steady level of glucose in the blood plasma during both the fed and the fasted state. When this process breaks down, causing prolonged insulin resistance, the risk of developing type 2 diabetes and subsequent complications is heightened. Restoration of normal glucose disposal is the therapeutic goal for both insulin resistance and type 2 diabetes. It is likely that long-term success in reaching this therapeutic goal will rely on attacking the root cause of the glucose transport defect. Thus, if nutrient overload is at the heart of the development of insulin resistance and impaired glucose uptake, it stands to reason that matching energy input with energy output is the appropriate course to follow. Energy output might be enhanced by several approaches including increased physical activity, increased thermogenesis, or even enhancing the activity of futile metabolic cycles. Each approach leads to increased ATP turnover, helping to match energy output to energy input.</p></div><div id=article1-back class=generated-article-footer><div class=back-section><a name=d12093e425 class=n-a></a><span class="research-layout prime-recommended-wrapper reference-heading is-hidden"><span class="f1r-icon icon-79_faculty_recommended_badge red vmiddle default-cursor"></span><span class="prime-red big">F1000 recommended</span></span><h2 class=main-title id=d12360>References</h2><div class="section ref-list"><a name=d12093e425 class=n-a></a><ul><li><a name=ref-1 class=n-a></a><span class=label>1. </span>&nbsp;<span class=citation><a name=d12093e432 class=n-a></a>Klip A, McGraw TE, James DE: Thirty sweet years of GLUT4. <i>J Biol Chem.</i> 2019; <b>294</b>(30): 11369–81. <a target=xrefwindow id=d12093e440 href="http://www.ncbi.nlm.nih.gov/pubmed/31175156">PubMed Abstract </a> | <a target=xrefwindow id=d12093e443 href="https://doi.org/10.1074/jbc.REV119.008351">Publisher Full Text </a> | <a target=xrefwindow id=d12093e446 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6663870">Free Full Text </a></span><div class=note><a name=d12093e448 class=n-a></a><p class=first id=d12093e449><a target=xrefwindow href="https://facultyopinions.com/prime/735949581" id=d12093e450>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-2 class=n-a></a><span class=label>2. </span>&nbsp;<span class=citation><a name=d12093e459 class=n-a></a>Boersma GJ, Johansson E, Pereira MJ, <i> et al.</i>: Altered Glucose Uptake in Muscle, Visceral Adipose Tissue, and Brain Predict Whole-Body Insulin Resistance and may Contribute to the Development of Type 2 Diabetes: A Combined PET/MR Study. <i>Horm Metab Res.</i> 2018; <b>50</b>(8): 627–39. <a target=xrefwindow id=d12093e470 href="http://www.ncbi.nlm.nih.gov/pubmed/30001566">PubMed Abstract </a> | <a target=xrefwindow id=d12093e473 href="https://doi.org/10.1055/a-0643-4739">Publisher Full Text </a></span><div class=note><a name=d12093e475 class=n-a></a><p class=first id=d12093e476><a target=xrefwindow href="https://facultyopinions.com/prime/735452396" id=d12093e477>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-3 class=n-a></a><span class=label>3. </span>&nbsp;<span class=citation><a name=d12093e486 class=n-a></a>Roberts-Thomson KM, Betik AC, Premilovac D, <i> et al.</i>: Postprandial microvascular blood flow in skeletal muscle: Similarities and disparities to the hyperinsulinaemic-euglycaemic clamp. <i>Clin Exp Pharmacol Physiol.</i> 2020; <b>47</b>(4): 725–37. <a target=xrefwindow id=d12093e497 href="http://www.ncbi.nlm.nih.gov/pubmed/31868941">PubMed Abstract </a> | <a target=xrefwindow id=d12093e500 href="https://doi.org/10.1111/1440-1681.13237">Publisher Full Text </a></span><div class=note><a name=d12093e502 class=n-a></a><p class=first id=d12093e503><a target=xrefwindow href="https://facultyopinions.com/prime/738142267" id=d12093e504>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-4 class=n-a></a><span class=label>4. </span>&nbsp;<span class=citation><a name=d12093e513 class=n-a></a>McConell GK, Sjøberg KA, Ceutz F, <i> et al.</i>: Insulin-induced membrane permeability to glucose in human muscles at rest and following exercise. <i>J Physiol.</i> 2020; <b>598</b>(2): 303–15. <a target=xrefwindow id=d12093e524 href="http://www.ncbi.nlm.nih.gov/pubmed/31696935">PubMed Abstract </a> | <a target=xrefwindow id=d12093e527 href="https://doi.org/10.1113/JP278600">Publisher Full Text </a></span><div class=note><a name=d12093e529 class=n-a></a><p class=first id=d12093e530><a target=xrefwindow href="https://facultyopinions.com/prime/736874017" id=d12093e531>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-5 class=n-a></a><span class=label>5. </span>&nbsp;<span class=citation><a name=d12093e540 class=n-a></a>Henstridge DC, Kingwell BA, Formosa MF, <i> et al.</i>: Effects of the nitric oxide donor, sodium nitroprusside, on resting leg glucose uptake in patients with type 2 diabetes. <i>Diabetologia.</i> 2005; <b>48</b>(12): 2602–8. <a target=xrefwindow id=d12093e551 href="http://www.ncbi.nlm.nih.gov/pubmed/16273348">PubMed Abstract </a> | <a target=xrefwindow id=d12093e554 href="https://doi.org/10.1007/s00125-005-0018-1">Publisher Full Text </a></span></li><li><a name=ref-6 class=n-a></a><span class=label>6. </span>&nbsp;<span class=citation><a name=d12093e564 class=n-a></a>Lira VA, Soltow QA, Long JHD, <i> et al.</i>: Nitric oxide increases GLUT4 expression and regulates AMPK signaling in skeletal muscle. <i>Am J Physiol Endocrinol Metab.</i> 2007; <b>293</b>(4): E1062–8. <a target=xrefwindow id=d12093e575 href="http://www.ncbi.nlm.nih.gov/pubmed/17666490">PubMed Abstract </a> | <a target=xrefwindow id=d12093e578 href="https://doi.org/10.1152/ajpendo.00045.2007">Publisher Full Text </a></span></li><li><a name=ref-7 class=n-a></a><span class=label>7. </span>&nbsp;<span class=citation><a name=d12093e587 class=n-a></a>Kellogg DL, McCammon KM, Hinchee-Rodriguez KS, <i> et al.</i>: Neuronal nitric oxide synthase mediates insulin- and oxidative stress-induced glucose uptake in skeletal muscle myotubes. <i>Free Radic Biol Med.</i> 2017; <b>110</b>: 261–9. <a target=xrefwindow id=d12093e598 href="http://www.ncbi.nlm.nih.gov/pubmed/28666850">PubMed Abstract </a> | <a target=xrefwindow id=d12093e601 href="https://doi.org/ 10.1016/j.freeradbiomed.2017.06.018">Publisher Full Text </a> | <a target=xrefwindow id=d12093e605 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5554434">Free Full Text </a></span></li><li><a name=ref-8 class=n-a></a><span class=label>8. </span>&nbsp;<span class=citation><a name=d12093e614 class=n-a></a>Williams IM, McClatchey PM, Bracy DP, <i> et al.</i>: Acute Nitric Oxide Synthase Inhibition Accelerates Transendothelial Insulin Efflux <i>In Vivo</i>. <i>Diabetes.</i> 2018; <b>67</b>(10): 1962–75. <a target=xrefwindow id=d12093e628 href="http://www.ncbi.nlm.nih.gov/pubmed/30002132">PubMed Abstract </a> | <a target=xrefwindow id=d12093e632 href="https://doi.org/10.2337/db18-0288">Publisher Full Text </a> | <a target=xrefwindow id=d12093e635 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6152344">Free Full Text </a></span><div class=note><a name=d12093e637 class=n-a></a><p class=first id=d12093e638><a target=xrefwindow href="https://facultyopinions.com/prime/733633953" id=d12093e639>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-9 class=n-a></a><span class=label>9. </span>&nbsp;<span class=citation><a name=d12093e648 class=n-a></a>Lundsgaard AM, Fritzen AM, Nicolaisen TS, <i> et al.</i>: Glucometabolic consequences of acute and prolonged inhibition of fatty acid oxidation. <i>J Lipid Res.</i> 2020; <b>61</b>(1): 10–9. <a target=xrefwindow id=d12093e659 href="http://www.ncbi.nlm.nih.gov/pubmed/31719103">PubMed Abstract </a> | <a target=xrefwindow id=d12093e662 href="https://doi.org/10.1194/jlr.RA119000177">Publisher Full Text </a> | <a target=xrefwindow id=d12093e666 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6939602">Free Full Text </a></span><div class=note><a name=d12093e668 class=n-a></a><p class=first id=d12093e669><a target=xrefwindow href="https://facultyopinions.com/prime/737117152" id=d12093e670>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-10 class=n-a></a><span class=label>10. </span>&nbsp;<span class=citation><a name=d12093e679 class=n-a></a>Hübinger A, Knode O, Susanto F, <i> et al.</i>: Effects of the carnitine-acyltransferase inhibitor etomoxir on insulin sensitivity, energy expenditure and substrate oxidation in NIDDM. <i>Horm Metab Res.</i> 1997; <b>29</b>(9): 436–9. <a target=xrefwindow id=d12093e690 href="http://www.ncbi.nlm.nih.gov/pubmed/9370111">PubMed Abstract </a> | <a target=xrefwindow id=d12093e693 href="https://doi.org/10.1055/s-2007-979072">Publisher Full Text </a></span></li><li><a name=ref-11 class=n-a></a><span class=label>11. </span>&nbsp;<span class=citation><a name=d12093e702 class=n-a></a>Bruls YMH, de Ligt M, Lindeboom L, <i> et al.</i>: Carnitine supplementation improves metabolic flexibility and skeletal muscle acetylcarnitine formation in volunteers with impaired glucose tolerance: A randomised controlled trial. <i>EBioMedicine.</i> 2019; <b>49</b>: 318–30. <a target=xrefwindow id=d12093e713 href="http://www.ncbi.nlm.nih.gov/pubmed/31676389">PubMed Abstract </a> | <a target=xrefwindow id=d12093e716 href="https://doi.org/10.1016/j.ebiom.2019.10.017">Publisher Full Text </a> | <a target=xrefwindow id=d12093e720 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6945245">Free Full Text </a></span><div class=note><a name=d12093e722 class=n-a></a><p class=first id=d12093e723><a target=xrefwindow href="https://facultyopinions.com/prime/736848345" id=d12093e724>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-12 class=n-a></a><span class=label>12. </span>&nbsp;<span class=citation><a name=d12093e734 class=n-a></a>Phielix E, Begovatz P, Gancheva S, <i> et al.</i>: Athletes feature greater rates of muscle glucose transport and glycogen synthesis during lipid infusion. <i>JCI Insight.</i> 2019; <b>4</b>(21): e127928. <a target=xrefwindow id=d12093e745 href="http://www.ncbi.nlm.nih.gov/pubmed/31672941">PubMed Abstract </a> | <a target=xrefwindow id=d12093e748 href="https://doi.org/10.1172/jci.insight.127928">Publisher Full Text </a> | <a target=xrefwindow id=d12093e752 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6948766">Free Full Text </a></span><div class=note><a name=d12093e754 class=n-a></a><p class=first id=d12093e755><a target=xrefwindow href="https://facultyopinions.com/prime/736850353" id=d12093e756>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-13 class=n-a></a><span class=label>13. </span>&nbsp;<span class=citation><a name=d12093e765 class=n-a></a>Richter EA, Hargreaves M: Exercise, GLUT4, and skeletal muscle glucose uptake. <i>Physiol Rev.</i> 2013; <b>93</b>(3): 993–1017. <a target=xrefwindow id=d12093e773 href="http://www.ncbi.nlm.nih.gov/pubmed/23899560">PubMed Abstract </a> | <a target=xrefwindow id=d12093e776 href="https://doi.org/10.1152/physrev.00038.2012">Publisher Full Text </a></span></li><li><a name=ref-14 class=n-a></a><span class=label>14. </span>&nbsp;<span class=citation><a name=d12093e785 class=n-a></a>Morris EM, Meers GME, Ruegsegger GN, <i> et al.</i>: Intrinsic High Aerobic Capacity in Male Rats Protects Against Diet-Induced Insulin Resistance. <i>Endocrinology.</i> 2019; <b>160</b>(5): 1179–92. <a target=xrefwindow id=d12093e796 href="http://www.ncbi.nlm.nih.gov/pubmed/31144719">PubMed Abstract </a> | <a target=xrefwindow id=d12093e799 href="https://doi.org/10.1210/en.2019-00118">Publisher Full Text </a> | <a target=xrefwindow id=d12093e803 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6482035">Free Full Text </a></span><div class=note><a name=d12093e805 class=n-a></a><p class=first id=d12093e806><a target=xrefwindow href="https://facultyopinions.com/prime/737037322" id=d12093e807>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-15 class=n-a></a><span class=label>15. </span>&nbsp;<span class=citation><a name=d12093e816 class=n-a></a>Gurley JM, Ilkayeva O, Jackson RM, <i> et al.</i>: Enhanced GLUT4-Dependent Glucose Transport Relieves Nutrient Stress in Obese Mice Through Changes in Lipid and Amino Acid Metabolism. <i>Diabetes.</i> 2016; <b>65</b>(12): 3585–97. <a target=xrefwindow id=d12093e827 href="http://www.ncbi.nlm.nih.gov/pubmed/27679559">PubMed Abstract </a> | <a target=xrefwindow id=d12093e830 href="https://doi.org/10.2337/db16-0709">Publisher Full Text </a> | <a target=xrefwindow id=d12093e834 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5127250">Free Full Text </a></span></li><li><a name=ref-16 class=n-a></a><span class=label>16. </span>&nbsp;<span class=citation><a name=d12093e843 class=n-a></a>Atkinson BJ, Griesel BA, King CD, <i> et al.</i>: Moderate GLUT4 Overexpression Improves Insulin Sensitivity and Fasting Triglyceridemia in High-Fat Diet-Fed Transgenic Mice. <i>Diabetes.</i> 2013; <b>62</b>(7): 2249–58. <a target=xrefwindow id=d12093e854 href="http://www.ncbi.nlm.nih.gov/pubmed/23474483">PubMed Abstract </a> | <a target=xrefwindow id=d12093e857 href="https://doi.org/10.2337/db12-1146">Publisher Full Text </a> | <a target=xrefwindow id=d12093e861 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3712063">Free Full Text </a></span></li><li><a name=ref-17 class=n-a></a><span class=label>17. </span>&nbsp;<span class=citation><a name=d12093e870 class=n-a></a>Rogers RS, Morris EM, Wheatley JL, <i> et al.</i>: Deficiency in the Heat Stress Response Could Underlie Susceptibility to Metabolic Disease. <i>Diabetes.</i> 2016; <b>65</b>(11): 3341–51. <a target=xrefwindow id=d12093e881 href="http://www.ncbi.nlm.nih.gov/pubmed/27554472">PubMed Abstract </a> | <a target=xrefwindow id=d12093e884 href="https://doi.org/10.2337/db16-0292">Publisher Full Text </a> | <a target=xrefwindow id=d12093e888 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5079638">Free Full Text </a></span></li><li><a name=ref-18 class=n-a></a><span class=label>18. </span>&nbsp;<span class=citation><a name=d12093e898 class=n-a></a>Fueger PT, Bracy DP, Malabanan CM, <i> et al.</i>: Hexokinase II overexpression improves exercise-stimulated but not insulin-stimulated muscle glucose uptake in high-fat-fed C57BL/6J mice. <i>Diabetes.</i> 2004; <b>53</b>(2): 306–14. <a target=xrefwindow id=d12093e909 href="http://www.ncbi.nlm.nih.gov/pubmed/14747279">PubMed Abstract </a> | <a target=xrefwindow id=d12093e912 href="https://doi.org/10.2337/diabetes.53.2.306">Publisher Full Text </a></span></li><li><a name=ref-19 class=n-a></a><span class=label>19. </span>&nbsp;<span class=citation><a name=d12093e921 class=n-a></a>Tanner LB, Goglia AG, Wei MH, <i> et al.</i>: Four Key Steps Control Glycolytic Flux in Mammalian Cells. <i>Cell Syst.</i> 2018; <b>7</b>(1): 49–62.e8. <a target=xrefwindow id=d12093e932 href="https://doi.org/10.1016/j.cels.2018.06.003">Publisher Full Text </a></span><div class=note><a name=d12093e934 class=n-a></a><p class=first id=d12093e935><a target=xrefwindow href="https://facultyopinions.com/prime/733562817" id=d12093e936>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-20 class=n-a></a><span class=label>20. </span>&nbsp;<span class=citation><a name=d12093e945 class=n-a></a>Stanley W, Lopaschuk GD, McCormack JG: Regulation of energy substrate metabolism in the diabetic heart. <i>Cardiovasc Res.</i> 1997; <b>34</b>(1): 25–33. <a target=xrefwindow id=d12093e953 href="http://www.ncbi.nlm.nih.gov/pubmed/9217869">PubMed Abstract </a> | <a target=xrefwindow id=d12093e956 href="https://doi.org/10.1016/S0008-6363(97)00047-3">Publisher Full Text </a></span></li><li><a name=ref-21 class=n-a></a><span class=label>21. </span>&nbsp;<span class=citation><a name=d12093e965 class=n-a></a>Dutka DP, Pitt M, Pagano D, <i> et al.</i>: Myocardial glucose transport and utilization in patients with type 2 diabetes mellitus, left ventricular dysfunction, and coronary artery disease. <i>J Am Coll Cardiol.</i> 2006; <b>48</b>(11): 2225–31. <a target=xrefwindow id=d12093e976 href="http://www.ncbi.nlm.nih.gov/pubmed/17161251">PubMed Abstract </a> | <a target=xrefwindow id=d12093e979 href="https://doi.org/10.1016/j.jacc.2006.06.078 ">Publisher Full Text </a></span></li><li><a name=ref-22 class=n-a></a><span class=label>22. </span>&nbsp;<span class=citation><a name=d12093e988 class=n-a></a>Wende AR, Kim J, Holland WL, <i> et al.</i>: Glucose transporter 4-deficient hearts develop maladaptive hypertrophy in response to physiological or pathological stresses. <i>Am J Physiol Heart Circ Physiol.</i> 2017; <b>313</b>(6): H1098–H1108. <a target=xrefwindow id=d12093e999 href="http://www.ncbi.nlm.nih.gov/pubmed/28822962">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1002 href="https://doi.org/10.1152/ajpheart.00101.2017">Publisher Full Text </a> | <a target=xrefwindow id=d12093e1006 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5814656">Free Full Text </a></span></li><li><a name=ref-23 class=n-a></a><span class=label>23. </span>&nbsp;<span class=citation><a name=d12093e1015 class=n-a></a>Hall JL, Mazzeo RS, Podolin DA, <i> et al.</i>: Exercise training does not compensate for age-related decrease in myocardial GLUT-4 content. <i>J Appl Physiol(1985).</i> 1994; <b>76</b>(1): 328–32. <a target=xrefwindow id=d12093e1026 href="http://www.ncbi.nlm.nih.gov/pubmed/8175525">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1029 href="https://doi.org/10.1152/jappl.1994.76.1.328">Publisher Full Text </a></span></li><li><a name=ref-24 class=n-a></a><span class=label>24. </span>&nbsp;<span class=citation><a name=d12093e1039 class=n-a></a>Young LH, Russell RR, Yin R, <i> et al.</i>: Regulation of myocardial glucose uptake and transport during ischemia and energetic stress. <i>Am J Cardiol.</i> 1999; <b>83</b>(12A): 25H–30H. <a target=xrefwindow id=d12093e1050 href="http://www.ncbi.nlm.nih.gov/pubmed/10750583">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1053 href="https://doi.org/10.1016/s0002-9149(99)00253-2">Publisher Full Text </a></span></li><li><a name=ref-25 class=n-a></a><span class=label>25. </span>&nbsp;<span class=citation><a name=d12093e1062 class=n-a></a>Gibb AA, Epstein PN, Uchida S, <i> et al.</i>: Exercise-Induced Changes in Glucose Metabolism Promote Physiological Cardiac Growth. <i>Circulation.</i> 2017; <b>136</b>(22): 2144–57. <a target=xrefwindow id=d12093e1073 href="http://www.ncbi.nlm.nih.gov/pubmed/28860122">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1076 href="https://doi.org/10.1161/CIRCULATIONAHA.117.028274">Publisher Full Text </a> | <a target=xrefwindow id=d12093e1080 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5704654">Free Full Text </a></span><div class=note><a name=d12093e1082 class=n-a></a><p class=first id=d12093e1083><a target=xrefwindow href="https://facultyopinions.com/prime/730367928" id=d12093e1084>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-26 class=n-a></a><span class=label>26. </span>&nbsp;<span class=citation><a name=d12093e1093 class=n-a></a>Myers RB, Fomovsky GM, Lee S, <i> et al.</i>: Deletion of thioredoxin-interacting protein improves cardiac inotropic reserve in the streptozotocin-induced diabetic heart. <i>Am J Physiol Heart Circ Physiol.</i> 2016; <b>310</b>(11): H1748–H1759. <a target=xrefwindow id=d12093e1104 href="http://www.ncbi.nlm.nih.gov/pubmed/27037370">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1107 href="https://doi.org/10.1152/ajpheart.00051.2016">Publisher Full Text </a> | <a target=xrefwindow id=d12093e1111 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4935523">Free Full Text </a></span></li><li><a name=ref-27 class=n-a></a><span class=label>27. </span>&nbsp;<span class=citation><a name=d12093e1120 class=n-a></a>Bockus LB, Matsuzaki S, Vadvalkar SS, <i> et al.</i>: Cardiac Insulin Signaling Regulates Glycolysis Through Phosphofructokinase 2 Content and Activity. <i>J Am Heart Assoc.</i> 2017; <b>6</b>(12): e007159. <a target=xrefwindow id=d12093e1131 href="http://www.ncbi.nlm.nih.gov/pubmed/29203581">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1134 href="https://doi.org/10.1161/JAHA.117.007159">Publisher Full Text </a> | <a target=xrefwindow id=d12093e1138 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5779029">Free Full Text </a></span></li><li><a name=ref-28 class=n-a></a><span class=label>28. </span>&nbsp;<span class=citation><a name=d12093e1147 class=n-a></a>Gibb AA, Lorkiewicz PK, Zheng YT, <i> et al.</i>: Integration of flux measurements to resolve changes in anabolic and catabolic metabolism in cardiac myocytes. <i>Biochem J.</i> 2017; <b>474</b>(16): 2785–801. <a target=xrefwindow id=d12093e1158 href="http://www.ncbi.nlm.nih.gov/pubmed/28706006">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1161 href="https://doi.org/10.1042/BCJ20170474">Publisher Full Text </a> | <a target=xrefwindow id=d12093e1165 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5545928">Free Full Text </a></span></li><li><a name=ref-29 class=n-a></a><span class=label>29. </span>&nbsp;<span class=citation><a name=d12093e1174 class=n-a></a>Daniels LJ, Varma U, Annandale M, <i> et al.</i>: Myocardial Energy Stress, Autophagy Induction, and Cardiomyocyte Functional Responses. <i>Antioxid Redox Signal.</i> 2019; <b>31</b>(6): 472–86. <a target=xrefwindow id=d12093e1185 href="http://www.ncbi.nlm.nih.gov/pubmed/30417655">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1188 href="https://doi.org/10.1089/ars.2018.7650">Publisher Full Text </a></span><div class=note><a name=d12093e1190 class=n-a></a><p class=first id=d12093e1191><a target=xrefwindow href="https://facultyopinions.com/prime/734423920" id=d12093e1192>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-30 class=n-a></a><span class=label>30. </span>&nbsp;<span class=citation><a name=d12093e1202 class=n-a></a>Szablewski L: Glucose transporters in healthy heart and in cardiac disease. <i>Int J Cardiol.</i> 2017; <b>230</b>: 70–5. <a target=xrefwindow id=d12093e1210 href="http://www.ncbi.nlm.nih.gov/pubmed/28034463">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1213 href="https://doi.org/10.1016/j.ijcard.2016.12.083">Publisher Full Text </a></span></li><li><a name=ref-31 class=n-a></a><span class=label>31. </span>&nbsp;<span class=citation><a name=d12093e1222 class=n-a></a>Maria Z, Campolo AR, Scherlag BJ, <i> et al.</i>: Dysregulation of insulin-sensitive glucose transporters during insulin resistance-induced atrial fibrillation. <i>Biochim Biophys Acta Mol Basis Dis.</i> 2018; <b>1864</b>(4 Pt A): 987–96. <a target=xrefwindow id=d12093e1233 href="http://www.ncbi.nlm.nih.gov/pubmed/29291943">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1236 href="https://doi.org/10.1016/j.bbadis.2017.12.038">Publisher Full Text </a></span><div class=note><a name=d12093e1238 class=n-a></a><p class=first id=d12093e1239><a target=xrefwindow href="https://facultyopinions.com/prime/732392591" id=d12093e1240>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-32 class=n-a></a><span class=label>32. </span>&nbsp;<span class=citation><a name=d12093e1249 class=n-a></a>Uthman L, Baartscheer A, Schumacher CA, <i> et al.</i>: Direct Cardiac Actions of Sodium Glucose Cotransporter 2 Inhibitors Target Pathogenic Mechanisms Underlying Heart Failure in Diabetic Patients. <i>Front Physiol.</i> 2018; <b>9</b>: 1575. <a target=xrefwindow id=d12093e1260 href="http://www.ncbi.nlm.nih.gov/pubmed/30519189">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1263 href="https://doi.org/10.3389/fphys.2018.01575">Publisher Full Text </a> | <a target=xrefwindow id=d12093e1267 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6259641">Free Full Text </a></span><div class=note><a name=d12093e1269 class=n-a></a><p class=first id=d12093e1270><a target=xrefwindow href="https://facultyopinions.com/prime/734515169" id=d12093e1271>Faculty Opinions Recommendation</a></p></div></li><li><a name=ref-33 class=n-a></a><span class=label>33. </span>&nbsp;<span class=citation><a name=d12093e1280 class=n-a></a>Li Z, Agrawal V, Ramratnam M, <i> et al.</i>: Cardiac sodium-dependent glucose cotransporter 1 is a novel mediator of ischaemia/reperfusion injury. <i>Cardiovasc Res.</i> 2019; <b>115</b>(11): 1646–58. <a target=xrefwindow id=d12093e1291 href="http://www.ncbi.nlm.nih.gov/pubmed/30715251">PubMed Abstract </a> | <a target=xrefwindow id=d12093e1294 href="https://doi.org/10.1093/cvr/cvz037">Publisher Full Text </a> | <a target=xrefwindow id=d12093e1298 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6704393">Free Full Text </a></span><div class=note><a name=d12093e1300 class=n-a></a><p class=first id=d12093e1301><a target=xrefwindow href="https://facultyopinions.com/prime/735005040" id=d12093e1302>Faculty Opinions Recommendation</a></p></div></li></ul></div></div></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 24 Jun 2020</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/9-639.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/9-639.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> <div class="f1r-article-mobile margin-bottom-30"> <div class=contracted-details> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> Biochemistry &amp; Molecular Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK, USA<br/> <sup>2</sup> Aging &amp; Metabolism Research Program, Oklahoma Medical Research Foundation, Oklahoma City, OK, USA<br/> <p> <div class=margin-bottom> Ann Louise Olson <br/> <span>Roles: </span> Conceptualization, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Kenneth Humphries <br/> <span>Roles: </span> Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> <div class=contracted-details> <a href="#" class=section-title>Article Versions (1)</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> <div> <a href="https://f1000research.com/articles/9-639/v1" title="Open version 1 of this article." class="" gahelper=1>version 1</a> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div> Published: 24 Jun 2020, 9:639 </div> <div class=""><a href="https://doi.org/10.12688/f1000research.22237.1">https://doi.org/10.12688/f1000research.22237.1</a></div> </div> </div> <div class=contracted-details> <a href="#" class=section-title> <span class="f1r-icon icon-100_open_access"></span> Copyright </a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> © 2020 Olson AL and Humphries K. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </div> </div> <div class="padding-top-30 research-layout"> <div class=article-toolbox-wrapper-mobile> <div class=article-tools-icon-mobile data-section=download> <span class="f1r-icon icon-76_download_file white"></span> </div> <div class="article-tools-icon-mobile mobile-metrics article-metrics-wrapper metrics-icon-wrapper" data-section=metrics data-version-id=24528 data-id=22237 data-downloads="" data-views="" data-scholar="10.12688/f1000research.22237.1" data-recommended="" data-f1r-ga-helper="Article Page Metrics (Mobile)"> <span class="f1r-icon icon-89_metrics white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=cite> <span class="f1r-icon icon-82_quote white"></span> </div> <div class="article-tools-icon-mobile " data-section=track> <span class="f1r-icon icon-90_track white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=share> <span class="f1r-icon icon-34_share white"></span> </div> <span class=article-toolbox-stretch></span> </div> <div class=article-toolbox-content-mobile> <div class="toolbox-section download"> <div class=toolbox-section-heading>Download</div> <div class=toolbox-section-content> <a href="https://f1000research.com/articles/9-639/v1/pdf?article_uuid=883439e2-7139-4cd4-8c1d-e0fa494888ab" title="Download PDF" class="no-decoration pdf-download-helper"> <span class="f1r-icon icon-102_download_pdf toolbox-section-icon"></span> </a> <div class=toolbox-section-option-divider>&nbsp;</div> <a id=mobile-download-xml class=no-decoration href="#" title="Download XML"> <span class="f1r-icon icon-103_download_xml toolbox-section-icon"></span> </a> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>Export To</div> <div class=toolbox-section-content> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=WORKSPACE>Sciwheel</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=BIBTEX>Bibtex</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=ENDNOTE>EndNote</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=PROCITE>ProCite</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=REF_MANAGER>Ref. Manager (RIS)</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=SENTE>Sente</button> </div> </div> <div class="toolbox-section metrics"> <div class="toolbox-section-heading no-top-border">metrics</div> <div class="toolbox-section-divider toolbox-section-divider--no-height"></div> <div class=article-metrics-pageinfo> <div class=c-article-metrics-table> <table class=c-article-metrics-table__table> <thead> <tr> <th></th> <th><span class=c-article-metrics-table__heading>Views</span></th> <th><span class=c-article-metrics-table__heading>Downloads</span></th> </tr> </thead> <tbody> <tr> <th class=c-article-metrics-table__row-heading><span class="c-article-metrics-table__platform u-platform--" data-test-id=metrics_platform_name_mob>F1000Research</span></th> <td class="c-article-metrics-table__value js-article-views-count" data-test-id=metrics_platform_views_mob>-</td> <td class="c-article-metrics-table__value js-article-downloads-count" data-test-id=metrics_platform_downloads_mob>-</td> </tr> <tr> <th class=c-article-metrics-table__row-heading> <span class="u-ib u-middle c-article-metrics-table__pmc" data-test-id=metrics_pmc_name_mob>PubMed Central</span> <div class="c-block-tip c-block-tip--centered c-article-metrics-table__tooltip c-block-tip--md-padding c-block-tip--small-arrow u-ib u-middle"> <button type=button class="u-black--medium u-black--high@hover u-ib u-middle c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content>Data from PMC are received and updated monthly.</div> </div> </th> <td class="c-article-metrics-table__value js-pmc-views-count" data-test-id=metrics_pmc_views_mob>-</td> <td class="c-article-metrics-table__value js-pmc-downloads-count" data-test-id=metrics_pmc_downloads_mob>-</td> </tr> </tbody> </table> </div> </div> <span class=metrics-citations-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-heading u-mb--1">Citations</div> <div> <div class=toolbox-section-colsplit> <div class=citations-scopus-logo> <a href="" target=_blank class="is-hidden metrics-citation-icon" title="View full citation details at www.scopus.com"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count scopus"> <a href='' class='scopus-citation-link is-hidden' target=_blank title='View full citation details at www.scopus.com'>0</a> </div> </div> <div class=toolbox-section-colsplit> <div class="citations-pubmed-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon f1000research" title="View full citation details"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count pubmed"> <a href='' class='pubmed-citation-link is-hidden' target=_blank title='View full citation details'>0</a> </div> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <div class="citations-scholar-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon google-scholar f1000research" title="View full citation details" data-scholar="10.12688/f1000research.22237.1"><i class="material-icons scopus-icon">open_in_new</i></a> </div> </div> </div> </span> <span class=metrics-details-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-content altmetric-section"> <div class=altmetrics-image></div> <div class=altmetrics-more-link> <a href="" target=_blank class=f1r-standard-link>SEE MORE DETAILS</a> </div> <div class=altmetric-mobile-column-counts></div> <div class=altmetric-mobile-column-readers></div> <div class=toolbox-section-divider></div> </div> </span> </div> <div class="toolbox-section cite"> <div class="toolbox-section-heading no-top-border">CITE</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>how to cite this article</div> <div id=citation-copy-mobile class="toolbox-section-content text-content heading9 small" data-test-id=mob_copy-citation_text> Olson AL and Humphries K. Recent advances in understanding glucose transport and glucose disposal [version 1; peer review: 2 approved] <i>F1000Research</i> 2020, <b>9</b>(F1000 Faculty Rev):639 (<a href="https://doi.org/10.12688/f1000research.22237.1" target=_blank>https://doi.org/10.12688/f1000research.22237.1</a>) </div> <div class=toolbox-section-divider></div> <div class="toolbox-section-content text-content heading9 small"> NOTE: <em>it is important to ensure the information in <b>square brackets after the title</b> is included in all citations of this article.</em> </div> <div class=toolbox-section-content> <button class="primary orange extra-padding copy-cite-article-mobile js-clipboard" data-clipboard-target="#citation-copy-mobile" title="Copy the current citation details." data-test-id=mob_copy-citation_button-mob>COPY CITATION DETAILS</button> </div> </div> <div class="toolbox-section track"> <div class="toolbox-section-heading no-top-border">track</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>receive updates on this article</div> <div class="toolbox-section-content padding-left-20 padding-right-20 heading9 small"> Track an article to receive email alerts on any updates to this article. </div> <div class=toolbox-section-content> <a data-article-id=22237 id=mobile-track-article-signin-22237 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/22237?target=/articles/9-639.html"> <button class="primary orange extra-padding"> TRACK THIS ARTICLE </button> </a> </div> </div> <div class="toolbox-section share"> <div class="toolbox-section-heading no-top-border">Share</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <a target=_blank class="f1r-shares-icon-square f1r-shares-email" title="Email this article"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-twitter" title="Share on Twitter"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-facebook" title="Share on Facebook"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-linkedin" title="Share on LinkedIn"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-reddit" title="Share on Reddit"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-mendelay" title="Share on Mendeley"></a> <div class="email-article-wrapper email-article-version-container"> <div class=toolbox-section-divider></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form-mobile research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=24528 /> <input name=articleId type=hidden value=22237 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> </div> </div> </div> <a name=article-reports></a> <div id=article-reports class="u-mt--3 reports-comments no-divider"> <div class="current-referee-status current-referee-status--faculty "> <h2 class=main-title id=current-referee-status> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-85_peer_review size30"></span> </span> Open Peer Review <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> <a name=current-referee-status></a> <div class=current-referee-status__content name=add-new-report-comment id=add-new-report-comment> Current Reviewer Status: <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile"> <div class=mobile-ref-status-help> Key to Reviewer Statuses <span class=referee-status-pointer></span> <span class="view-control float-right">VIEW</span> <span class="view-control float-right is-hidden">HIDE</span> <div class=mobile-ref-status-help-content> <div class="cf margin-top"> <span class="f1r-icon icon-86_approved status-green smaller float-left margin-bottom-40 margin-right" title=Approved></span> <span class=title>Approved</span>The paper is scientifically sound in its current form and only minor, if any, improvements are suggested </div> <div class="cf margin-top"> <span class="f1r-icon icon-87_approved_reservations status-green smaller float-left margin-bottom-40 margin-right" title="Approved with Reservations"></span> <span class=title>Approved with reservations</span> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </div> <div class="cf margin-top"> <span class="f1r-icon icon-88_not_approved status-red small float-left margin-bottom-30 margin-right" title="Not Approved"></span> <span class=title>Not approved</span>Fundamental flaws in the paper seriously undermine the findings and conclusions </div> </div> </div> </span> <div class=editorial-note> <h5 class=editorial-note__title>Editorial Note on the Review Process</h5> <p class=editorial-note__text><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home">Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> </div> <div class=approved-referee> <h4 class=approved-referee__title>Reviewers who approved this article</h4> <ol class=approved-referee__list> <li class="approved-referee__list-item "> <span class=approved-referee__co-referee> <strong>John Thyfault</strong>, Department of Molecular and Integrative Physiology, University of Kansas Medical Center, USA </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> <li class="approved-referee__list-item margin-top-20"> <span class=approved-referee__co-referee> <strong>Gwyn Gould</strong>, Strathclyde Institute of Pharmacy and Biomedical Sciences, University of Strathclyde, UK </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> </ol> </div> </div> </div> </div> <div class="f1r-article-mobile research-layout"> <div class="mobile-sections-divider before-comments"></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 24 Jun 2020</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/9-639.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/9-639.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> </div> </div> <div id=article_main-column class="p-article__sidebar o-layout__item u-1/3 not-expanded js-article-sidebar"> <div class="o-tab p-article__column-toggle-container"> <button class="c-tab c-tab--left js-column-toggle p-article__column-toggle not-expanded " type=button data-target-main=article_main-column data-target-secondary=article_secondary-column><i class="c-tab__icon material-icons u-hide@expanded">keyboard_arrow_left</i><i class="c-tab__icon material-icons u-show@expanded">keyboard_arrow_right</i></button> </div> <div class=p-article__sidebar-content> <div class="p-article__sidebar-scroller js-article-sidebar-scroller"> <section class="p-article__sidebar-view js-article-sidebar-view js-article-sidebar-main u-pt u-pb--8" data-view=peer-review> <div class="o-layout o-layout--flush"> <div class="o-layout__item u-pl"> <h3 class="u-mt--0 u-mb--2 t-h3 u-weight--md u-pl" data-test-id=article_sidebar_heading>Open Peer Review</h3> </div> <div class=o-layout__item> <section class=""> <div class="p-article__sidebar-highlight u-mb--2 u-pr--1"> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md u-mr--1/2">Reviewer Status</h4> <div class="c-referee-status__icons u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=26313-64823></i> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=69317-64822></i> </div> </div> <div class="o-actions__secondary _mdl-layout"> <div class="c-block-tip p-article__sidebar-tooltip c-block-tip--below c-block-tip--small-arrow c-block-tip--sm-padding"> <button type=button class="c-button c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content> <p class="t-body u-mt--0 u-mb--0"><em class=u-weight--md>Alongside their report, reviewers assign a status to the article:</em></p> <dl class=c-definitions> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved</span></dt> <dd class="c-definitions__description t-caption">The paper is scientifically sound in its current form and only minor, if any, improvements are suggested</dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--reservations" title="Approved with Reservations" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved with reservations</span></dt> <dd class="c-definitions__description t-caption"> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--not-approved " title="Not Approved" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Not approved</span></dt> <dd class="c-definitions__description t-caption">Fundamental flaws in the paper seriously undermine the findings and conclusions</dd> </dl> </div> </div> </div> </div> </div> <div class="o-layout__item u-mb--1"><h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md">Reviewer Reports</h4></div> <table class="c-report-timeline u-mb--2"> <thead class=c-report-timeline__headings> <tr> <th></th> <th class="u-pb--1/2" colspan=2><em class="t-body u-weight--rg">Invited Reviewers</em></th> </tr> <tr class=c-report-timeline__headings-row> <th></th> <th class="c-report-timeline__headings-version p-article__color--dark">1</th> <th class="c-report-timeline__headings-version p-article__color--dark">2</th> </tr> </thead> <tbody> <tr class="c-report-timeline__row c-report-timeline__row--selected "> <th class=c-report-timeline__version> <a data-test-id=sidebar_timeline_v1_version href="https://f1000research.com/articles/9-639/v1">Version 1</a><br/> <span class=p-article__color--dark> <span data-test-id=sidebar_timeline_v1_date class=c-report-timeline__date>24 Jun 20</span> </span> </th> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> </tr> </tbody> </table> <div class=o-layout__item> <hr class="c-hr c-hr--low u-mb--2"> </div> </section> </div> <div class=o-layout__item> <div class="u-pl u-pr"> <p class="t-body u-mt--0 u-mb--2"><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home" target=_blank class=in-text-link>Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> <ol class="p-article__faculty-referee-list t-caption"> <li> <p class=" u-mt--0 u-mb--1/2"><strong>John Thyfault</strong>, Department of Molecular and Integrative Physiology, University of Kansas Medical Center, USA </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Gwyn Gould</strong>, Strathclyde Institute of Pharmacy and Biomedical Sciences, University of Strathclyde, UK </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> </ol> </div> </div> <section class="o-layout__item u-pl"> <div class=u-pl> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--2">Comments on this article</h4> <div class=u-mb--4> <p class="u-mt--0 u-mb--1 t-h4"><a class=p-article__color--light href="#article-comments">All Comments</a><span class=" u-ib u-ml--1/2 p-article__color--light">(0)</span></p> <a class=t-h4 href="/login?originalPath=/articles/9-639.html&scrollTo=add-new-comment" data-test-id=add-comment>Add a comment</a> </div> <hr class="c-hr c-hr--low c-hr--md u-mb--4"> <div class="research-layout f1r-article-desk"> <div class="heading6 c-ribbon-wrapper c-ribbon-wrapper--etoc f1000research "> <div class=c-ribbon-wrapper__body>Sign up for content alerts</div> </div> </div> <div class="research-layout sidebar-sign-up-form f1r-article-desk u-mb--4 "> <form class=js-email-alert-signup action="#" method=POST data-email=tocAlertWeekly> <input type=hidden name=isUserLoggedIn class=js-email-alert-signup-logged-in value=N /> <input type=hidden name=userId class=js-email-alert-signup-user-id value=""/> <input type=hidden name=frequency class=js-email-alert-signup-frequency value=WEEKLY /> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <input type=email name=emailAddress class="form-input-field js-email-alert-signup-address u-1/1 u-bb" required=required placeholder=Email /> </div> <div class=o-actions__secondary> <div class="_mdl-layout u-ml--1/2"> <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--small mdl-button--filled js-email-alert-signup-submit">Sign Up</button> </div> </div> </div> </form> <div id=sidebar-sign-up-message class="section-text js-email-alert-signup-msg is-hidden">You are now signed up to receive this alert</div> </div> <section class=js-terms-container> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--1">Browse by related subjects</h4> <div class="article-subcontainer article-subcontainer--sidebar"> <ul class=js-terms-list></ul> </div> </section> </div> </section> </div> </section> </div> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/read-more.js"></script> <script src="/js/article/article-router.js"></script> <script src="/js/article/article-sidebar.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/article/article-column-toggle.js"></script> </div> </div> </div> </main> <input type=hidden id=_articleVersionUrl value="https://f1000research.com/articles/9-639/v1/"> <div class=research-help id=about-referee-status> <div class="research-layout research-help-content about-referee-status"> <span class="close-research-help dark-cross" title=Close></span> Alongside their report, reviewers assign a status to the article: <div class="cf research-help-row"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> <span class=research-help-text>Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested</span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-87_approved_reservations status-green smaller" title="Approved with Reservations"></span> <span class=research-help-text>Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-88_not_approved status-red small" title="Not Approved"></span> <span class=research-help-text>Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions</span> </div> </div> </div> <div id=datasets-info class=is-hidden> </div> <div class=article-interactive-content-container style="display: none;"> <a name=f-template class=n-a></a> <div class="interactive-content-wrapper padding-20"> <img src="" class=interactive-content-image title="Open the interactive image display"> <div class=interactive-content-title></div> <div class=interactive-content-text></div> <div class="f1r-article-desk interactive-content-ribbon" data-interactive-content-type=R-Script> <div class=interactive-content-label>Adjust parameters to alter display</div> <div class=interactive-content-button></div> </div> <div class="f1r-article-mobile mobile-interactive-note"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div id=article-interactive-omero-container class=article-interactive-omero-container style="display: none;"> <div class=interactive-content-wrapper> <div class="interactive-omero-button omero-content" title="Open the interactive content window." data-interactive-content-type=Omero></div> <div class=has-interactive-content-image> <span class=box-arrow></span> <span class=box-middle>Includes Interactive Elements</span> <span class=box-end></span> </div> <div class="fig panel clearfix" style="margin: 0; padding-bottom: 20px;"> <a name=templatelink class=n-a></a> <a target=_blank href="" class=link-for-omero-image> <img src="" class=interactive-omero-image title="Open the image display window."> </a> <div class=caption> <div class=interactive-content-title></div> <div class=interactive-content-text></div> </div> <div class="is-hidden omero-image-list"></div> </div> <div class="f1r-article-mobile mobile-interactive-note omero"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div class="add-comment-container shadow-box is-hidden" id=save-comment-container> <span id=save-comment-text class=intro-text>Edit comment</span> <textarea id=new-comment name=new-comment class="global-textarea comment margin-bottom margin-top"></textarea> <p><strong>Competing Interests</strong></p> <textarea id=new-competing-interests name=competing-interests class="global-textarea competing-interests margin-bottom check-xss"></textarea> <div class=clearfix></div> <button id=cancelComment type=button class="general-white-orange-button float-right no-background-button margin-left"> Cancel </button> <button id=save-comment-button commentId="" type=button class="general-white-orange-button float-right"> Save </button> <div class=clearfix></div> <div class="green-message margin-top is-hidden comment-is-saved">The comment has been saved.</div> <div class="red-message margin-top is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class="red-message margin-top is-hidden comment-enter-text ucf">Your must enter a comment.</div> <div class="red-message margin-top is-hidden comment-references-error references">References error.</div> </div> <div class="modal-window-wrapper is-hidden"> <div id=conflicts-interests class="modal-window padding-20"> <div class=modal-window__content> <h2 class=h2-title>Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div class="f1r-article-mobile research-layout"> <span class=modal-window-close-button></span> </div> </div> </div> <div class="o-modal c-email-alert-popup js-email-alert-popup is-hidden"> <div class="o-modal__body js-modal-body c-email-alert-popup__inner"> <h3 class=c-email-alert-popup__title>Stay Updated</h3> <p class=c-email-alert-popup__sub>Sign up for content alerts and receive a weekly or monthly email with all newly published articles</p> <p><a href="/register?originalPath=" class="c-email-alert-popup__lnk c-email-alert-popup__button js-email-alert-popup-action">Register with F1000Research</a></p> <p>Already registered? <a href="/login?originalPath=" class="c-email-alert-popup__lnk js-email-alert-popup-action">Sign in</a></p> <p class=c-email-alert-popup__footer><a class="c-email-alert-popup__lnk js-email-alert-popup-cancel" href="#">Not now, thanks</a></p> </div> </div> <div id=addCommentModal role=dialog aria-labelledby=addCommentModal_title aria-describedby=addCommentModal_description> <div class="c-modal js-modal is-closed p-article__add-comment-modal c-modal--xlarge js-article-comment-modal c-modal--scroll "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-bg--2 c-modal--scroll-always "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <div id=addCommentModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div class="js-add-comment-container t-caption u-black--high"> <div class=u-weight--bd>PLEASE NOTE</div> <div class=u-mt--1> <span class="red u-weight--bd">If you are an AUTHOR of this article,</span> please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a &ldquo;User Comment&rdquo;. </div> <div class=u-mt--1> <span class="red u-weight--bd">If you are a REVIEWER of this article,</span> please check that you have signed in with the account associated with this article and then go to your <a href="/my/referee">account</a> to submit your report, please do not post your review here. </div> <div class="u-mt--1 u-mb--1"> If you do not have access to your original account, please <a href="mailto:research@f1000.com">contact us</a>. </div> <p class=no-top-margin>All commenters must hold a formal affiliation as per our <a href="/about/policies#commentspolicy" target=_blank>Policies</a>. The information that you give us will be displayed next to your comment.</p> <p>User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the <a href="/about/legal/usercommenttermsandconditions" target=_blank>User Comment Terms and Conditions</a>. Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available.</p> <div class="comments-note margin-bottom" id=accept-user-comments> <input class=js-add-comment-accept-terms type=checkbox id=acceptedTermsAndConditions name=acceptedTermsAndConditions> I accept the <a href="/about/legal/usercommenttermsandconditions" target=_blank> User Comment Terms and Conditions</a> <span class=required>&nbsp;</span> </div> <div class="default-error margin-top is-hidden comment-accept-conditions utac">Please confirm that you accept the User Comment Terms and Conditions.</div> <div class="research-layout registration-form u-mb--2"> <div class="u-mb--1 u-mt--2"> <strong>Affiliation</strong> </div> <div class=form-field> <input type=text name=institution class="form-input-field check-xss js-add-comment-institution" placeholder="Organization *" autocomplete=off /> <div class="default-error margin-top is-hidden comment-enter-institution institution">Please enter your organisation.</div> </div> <div class=form-field> <input type=text name=place class="form-input-field check-xss js-add-comment-place" placeholder=Place> </div> <div class=form-field> <div class="form-input-wrapper hundred-percent-wide"> <div class="new-select-standard-wrapper half-width inline-display heading10"> <select name=countryId id=country class="form-select-menu smaller js-add-comment-country"> <option value=-1>Country*</option> <option value=840>USA</option> <option value=826>UK</option> <option value=124>Canada</option> <option value=156>China</option> <option value=250>France</option> <option value=276>Germany</option> <optgroup label=-----------------------------------------------></optgroup> <option value=4>Afghanistan</option> <option value=248>Aland Islands</option> <option value=8>Albania</option> <option value=12>Algeria</option> <option value=16>American Samoa</option> <option value=20>Andorra</option> <option value=24>Angola</option> <option value=660>Anguilla</option> <option value=10>Antarctica</option> <option value=28>Antigua and Barbuda</option> <option value=32>Argentina</option> <option value=51>Armenia</option> <option value=533>Aruba</option> <option value=36>Australia</option> <option value=40>Austria</option> <option value=31>Azerbaijan</option> <option value=44>Bahamas</option> <option value=48>Bahrain</option> <option value=50>Bangladesh</option> <option value=52>Barbados</option> <option value=112>Belarus</option> <option value=56>Belgium</option> <option value=84>Belize</option> <option value=204>Benin</option> <option value=60>Bermuda</option> <option value=64>Bhutan</option> <option value=68>Bolivia</option> <option value=70>Bosnia and Herzegovina</option> <option value=72>Botswana</option> <option value=74>Bouvet Island</option> <option value=76>Brazil</option> <option value=86>British Indian Ocean Territory</option> <option value=92>British Virgin Islands</option> <option value=96>Brunei</option> <option value=100>Bulgaria</option> <option value=854>Burkina Faso</option> <option value=108>Burundi</option> <option value=116>Cambodia</option> <option value=120>Cameroon</option> <option value=124>Canada</option> <option value=132>Cape Verde</option> <option value=136>Cayman Islands</option> <option value=140>Central African Republic</option> <option value=148>Chad</option> <option value=152>Chile</option> <option value=156>China</option> <option value=162>Christmas Island</option> <option value=166>Cocos (Keeling) Islands</option> <option value=170>Colombia</option> <option value=174>Comoros</option> <option value=178>Congo</option> <option value=184>Cook Islands</option> <option value=188>Costa Rica</option> <option value=384>Cote d'Ivoire</option> <option value=191>Croatia</option> <option value=192>Cuba</option> <option value=196>Cyprus</option> <option value=203>Czech Republic</option> <option value=180>Democratic Republic of the Congo</option> <option value=208>Denmark</option> <option value=262>Djibouti</option> <option value=212>Dominica</option> <option value=214>Dominican Republic</option> <option value=218>Ecuador</option> <option value=818>Egypt</option> <option value=222>El Salvador</option> <option value=226>Equatorial Guinea</option> <option value=232>Eritrea</option> <option value=233>Estonia</option> <option value=231>Ethiopia</option> <option value=238>Falkland Islands</option> <option value=234>Faroe Islands</option> <option value=583>Federated States of Micronesia</option> <option value=242>Fiji</option> <option value=246>Finland</option> <option value=250>France</option> <option value=254>French Guiana</option> <option value=258>French Polynesia</option> <option value=260>French Southern Territories</option> <option value=266>Gabon</option> <option value=268>Georgia</option> <option value=276>Germany</option> <option value=288>Ghana</option> <option value=292>Gibraltar</option> <option value=300>Greece</option> <option value=304>Greenland</option> <option value=308>Grenada</option> <option value=312>Guadeloupe</option> <option value=316>Guam</option> <option value=320>Guatemala</option> <option value=831>Guernsey</option> <option value=324>Guinea</option> <option value=624>Guinea-Bissau</option> <option value=328>Guyana</option> <option value=332>Haiti</option> <option value=334>Heard Island and Mcdonald Islands</option> <option value=336>Holy See (Vatican City State)</option> <option value=340>Honduras</option> <option value=344>Hong Kong</option> <option value=348>Hungary</option> <option value=352>Iceland</option> <option value=356>India</option> <option value=360>Indonesia</option> <option value=364>Iran</option> <option value=368>Iraq</option> <option value=372>Ireland</option> <option value=376>Israel</option> <option value=380>Italy</option> <option value=388>Jamaica</option> <option value=392>Japan</option> <option value=832>Jersey</option> <option value=400>Jordan</option> <option value=398>Kazakhstan</option> <option value=404>Kenya</option> <option value=296>Kiribati</option> <option value=901>Kosovo (Serbia and Montenegro)</option> <option value=414>Kuwait</option> <option value=417>Kyrgyzstan</option> <option value=418>Lao People's Democratic Republic</option> <option value=428>Latvia</option> <option value=422>Lebanon</option> <option value=426>Lesotho</option> <option value=430>Liberia</option> <option value=434>Libya</option> <option value=438>Liechtenstein</option> <option value=440>Lithuania</option> <option value=442>Luxembourg</option> <option value=446>Macao</option> <option value=807>Macedonia</option> <option value=450>Madagascar</option> <option value=454>Malawi</option> <option value=458>Malaysia</option> <option value=462>Maldives</option> <option value=466>Mali</option> <option value=470>Malta</option> <option value=584>Marshall Islands</option> <option value=474>Martinique</option> <option value=478>Mauritania</option> <option value=480>Mauritius</option> <option value=175>Mayotte</option> <option value=484>Mexico</option> <option value=581>Minor Outlying Islands of the United States</option> <option value=498>Moldova</option> <option value=492>Monaco</option> <option value=496>Mongolia</option> <option value=499>Montenegro</option> <option value=500>Montserrat</option> <option value=504>Morocco</option> <option value=508>Mozambique</option> <option value=104>Myanmar</option> <option value=516>Namibia</option> <option value=520>Nauru</option> <option value=524>Nepal</option> <option value=530>Netherlands Antilles</option> <option value=540>New Caledonia</option> <option value=554>New Zealand</option> <option value=558>Nicaragua</option> <option value=562>Niger</option> <option value=566>Nigeria</option> <option value=570>Niue</option> <option value=574>Norfolk Island</option> <option value=580>Northern Mariana Islands</option> <option value=408>North Korea</option> <option value=578>Norway</option> <option value=512>Oman</option> <option value=586>Pakistan</option> <option value=585>Palau</option> <option value=275>Palestinian Territory</option> <option value=591>Panama</option> <option value=598>Papua New Guinea</option> <option value=600>Paraguay</option> <option value=604>Peru</option> <option value=608>Philippines</option> <option value=612>Pitcairn</option> <option value=616>Poland</option> <option value=620>Portugal</option> <option value=630>Puerto Rico</option> <option value=634>Qatar</option> <option value=638>Reunion</option> <option value=642>Romania</option> <option value=643>Russian Federation</option> <option value=646>Rwanda</option> <option value=654>Saint Helena</option> <option value=659>Saint Kitts and Nevis</option> <option value=662>Saint Lucia</option> <option value=666>Saint Pierre and Miquelon</option> <option value=670>Saint Vincent and the Grenadines</option> <option value=882>Samoa</option> <option value=674>San Marino</option> <option value=678>Sao Tome and Principe</option> <option value=682>Saudi Arabia</option> <option value=686>Senegal</option> <option value=688>Serbia</option> <option value=690>Seychelles</option> <option value=694>Sierra Leone</option> <option value=702>Singapore</option> <option value=703>Slovakia</option> <option value=705>Slovenia</option> <option value=90>Solomon Islands</option> <option value=706>Somalia</option> <option value=710>South Africa</option> <option value=239>South Georgia and the South Sandwich Is</option> <option value=410>South Korea</option> <option value=724>Spain</option> <option value=144>Sri Lanka</option> <option value=736>Sudan</option> <option value=740>Suriname</option> <option value=744>Svalbard and Jan Mayen</option> <option value=748>Swaziland</option> <option value=752>Sweden</option> <option value=756>Switzerland</option> <option value=760>Syria</option> <option value=158>Taiwan</option> <option value=762>Tajikistan</option> <option value=834>Tanzania</option> <option value=764>Thailand</option> <option value=270>The Gambia</option> <option value=528>The Netherlands</option> <option value=626>Timor-Leste</option> <option value=768>Togo</option> <option value=772>Tokelau</option> <option value=776>Tonga</option> <option value=780>Trinidad and Tobago</option> <option value=788>Tunisia</option> <option value=792>Turkey</option> <option value=795>Turkmenistan</option> <option value=796>Turks and Caicos Islands</option> <option value=798>Tuvalu</option> <option value=800>Uganda</option> <option value=826>UK</option> <option value=804>Ukraine</option> <option value=784>United Arab Emirates</option> <option value=850>United States Virgin Islands</option> <option value=858>Uruguay</option> <option value=840>USA</option> <option value=860>Uzbekistan</option> <option value=548>Vanuatu</option> <option value=862>Venezuela</option> <option value=704>Vietnam</option> <option value=876>Wallis and Futuna</option> <option value=905>West Bank and Gaza Strip</option> <option value=732>Western Sahara</option> <option value=887>Yemen</option> <option value=894>Zambia</option> <option value=716>Zimbabwe</option> </select> </div> </div> <div class="default-error margin-top is-hidden comment-enter-country country">Please select your country.</div> </div> </div> <textarea data-test-id=article_add-comment_comment name=new-comment class="js-add-comment-comment comment margin-bottom margin-top"></textarea> <div class="default-error margin-top comment-enter-text comment-error is-hidden ">You must enter a comment.</div> <label class="comments-note u-mt--2 u-mb--2" for=competingInterests_1> <div class="u-mb--1 u-mt--2"><strong data-test-id=article_report-add-comment_competing-interests-title>Competing Interests</strong></div> <p class="u-mb--2 u-mt--0" data-test-id=article_report-add-comment_competing-interests-description>Please disclose any <a href="#article-competing-intersts-policy" class=js-modal-competing-intersts-toggle>competing interests</a> that might be construed to influence your judgment of the article's or peer review report's validity or importance.</p> </label> <div id=article-competing-intersts-policy class=js-article-competing-interests-policy style="display: none;"> <h2 class="h2-title u-mt--0 u-pt--0">Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div id=competingInterests_1 class="c-inline-editor js-inline-editor js-form_input u-bb--all u-mb--2 js-comment-competing-interests" data-name=competing-interests data-rows=3> <textarea id=competingInterests_1_input name=competing-interests placeholder="&nbsp;" required=false class="u-hide-visually js-inline-editor_input" tabindex=-1></textarea> <div class="c-inline-editor__editor js-inline-editor_editor o-box c-box o-box--tiny u-bg--11" data-target=competingInterests_1_input role=textbox required=false data-placeholder="&nbsp;" contenteditable=true></div> <span class="c-inline-editor__error js-inline-editor-message">Please state your competing interests</span> </div> <div data-test-id=article_add-comment_saved class="green-message comments is-hidden comment-is-saved">The comment has been saved.</div> <div data-test-id=article_add-comment_error class="default-error comments is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class=clearfix></div> <div class=js-hook></div> </div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" data-test-id=article_add-comment_cancel class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" data-test-id=article_add-comment_post class="c-button c-button--full js-modal__confirm c-button--primary">Post</a> </div> </aside> </div> </div> <style>
+                .at-icon-wrapper {
+        background-size: 100% !important;
+    }
+</style> <script src="/js/namespace.js"></script> <script src="/js/constants.js"></script> <script src="/js/utilities.js"></script> <script src="/js/article/alert-signup.js"></script> <script type='text/javascript'>
+    var lTitle = "Recent advances in understanding glucose...".replace("'", '');
+    var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/9-639/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+    var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/9-639/v1&title=" + encodeURIComponent(lTitle);
+
+    var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/9-639/v1" + "&title=" + encodeURIComponent(lTitle);
+
+            linkedInUrl += encodeURIComponent('Olson AL and Humphries K');
+    
+    var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+    var addthis_config = {
+            ui_offset_top: offsetTop,
+                                    services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_custom : [
+                {
+                    name: "LinkedIn",
+                    url:  linkedInUrl,
+                    icon:"/img/icon/at_linkedin.svg"
+                },
+                {
+                    name: "Mendeley",
+                    url:  "http://www.mendeley.com/import/?url=https://f1000research.com/articles/9-639/v1/mendeley",
+                    icon:"/img/icon/at_mendeley.svg"
+                },
+                {
+                    name: "Reddit",
+                    url:  redditUrl,
+                    icon:"/img/icon/at_reddit.svg"
+                },
+            ]
+        };
+
+
+    var addthis_share = {
+            url: "https://f1000research.com/articles/9-639",
+            templates : {
+                twitter : "Recent advances in understanding glucose transport and glucose.... Olson AL and Humphries K, published by " + 
+               "@F1000Research"
+       + ", https://f1000research.com/articles/9-639/v1"
+            }
+        };
+
+    if (typeof(addthis) != "undefined"){
+        addthis.addEventListener('addthis.ready', checkCount);
+        addthis.addEventListener('addthis.menu.share', checkCount);
+    }
+
+        $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+    $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+    $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+    $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+    $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+    function checkCount(){
+        setTimeout(function(){
+            $(".addthis_button_expanded").each(function(){
+                var count = $(this).text();
+                if (count !== "" && count != "0")
+                    $(this).removeClass("is-hidden");
+                else
+                    $(this).addClass("is-hidden");
+            });
+        }, 1000);
+    }
+</script> <div id=citeReportModal role=dialog aria-labelledby=citeReportModal_title aria-describedby=citeReportModal_description> <div class="c-modal js-modal is-closed c-modal--large js-cite-report-modal "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-black--high "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <h1 id=citeReportModal_title class="c-modal__title t-h3 u-mt--0 u-mb--2 u-weight--md">How to cite this report</h1> <div id=citeReportModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div id="" class=js-report-citation-container>{{reportCitation}}</div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" title="Copy the current citation details to the clipboard." data-clipboard-target="#referee-report-citation" data-test-id=report_copy-citation_button class="c-button c-button--full js-modal__confirm c-button--primary js-clipboard c-mini-tooltip--above">Copy Citation Details</a> </div> </aside> </div> </div> <script src="/js/referee/new/referee_validators.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/referee/new/referee_checkbox-input.js"></script> <script src="/js/referee/new/referee_inline-editor.js"></script> <script type="text/javascript">
+    $(function(){
+        var gaCat = "F1000Research";
+        if (gaCat === "") {
+            gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+        }
+        GAHelper.track({category: gaCat, action: "Article Page: Recent advances in understanding glucose transport and glucose disposal", label: "pageviews"});
+        GAHelper.track({category: gaCat, action: "Article Type: Review", label: "Article Page"});
+        $(".f1r-article-desk .collection-image").each(function (idx, el) {
+            var whatChannel = $(el).find("a").attr("href"),
+                channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+                gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+            GAHelper.track({category: 'ChannelStats', action: "Article Page: Recent advances in understanding glucose transport and glucose disposal", label: gaRef});
+        });
+    });
+</script> <script>
+    $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+    $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+</script> <script src="/js/article/track_article.js" type="text/javascript"></script> <script type="text/javascript">
+    $.get("/articles/acj/22237/24528")
+</script> <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script type="text/javascript" src="/js/app/messenger.js"></script> <script type="text/javascript" src="/js/article/article_mobiles.js"></script> <script src="/js/vendor/clipboard.min.js"></script> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/clipboard.js"></script> <script src="/js/article/thesaurus-terms-display.js"></script> <script>
+    new F1000.Clipboard();
+    new F1000.ThesaurusTermsDisplay("faculty-reviews", "article", "24528");
+</script> <script>
+    $(document).ready(function() {
+        $( "#frame1" ).on('load', function() {
+            var mydiv = $(this).contents().find("div");
+            var h     = mydiv.height();
+            console.log(h)
+        });
+
+        
+        var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+            titleLivingFigure = tooltipLivingFigure.attr("title");
+        tooltipLivingFigure.simpletip({
+            fixed: true,
+            position: ["-115", "30"],
+            baseClass: 'small-tooltip',
+            content:titleLivingFigure + "<div class='tooltip-arrow'></div>"
+        });
+        tooltipLivingFigure.removeAttr("title");
+
+        $("body").on("click", ".cite-living-figure", function(e) {
+            e.preventDefault();
+            var ref = $(this).attr("data-ref");
+            $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+        });
+        $("body").on("click", ".close-cite-living-figure", function(e) {
+            e.preventDefault();
+            $(this).closest(".popup-window-wrapper").fadeOut(200);
+        });
+
+                $(document).on("mouseup", function(e) {
+            var metricsContainer = $(".article-metrics-popover-wrapper");
+            if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+                $(".article-metrics-close-button").click();
+            }
+        });
+
+        var articleId = $('#articleId').val();
+
+        if($("#main-article-count-box").attachArticleMetrics) {
+            $("#main-article-count-box").attachArticleMetrics(articleId, {
+                articleMetricsView: true
+            });
+        }
+    });
+
+    var figshareWidget = $(".new_figshare_widget");
+    if (figshareWidget.length > 0) {
+        window.figshare.load("f1000", function(Widget) {
+            // Select a tag/tags defined in your page. In this tag we will place the widget.
+            _.map(figshareWidget, function(el){
+                var widget = new Widget({
+                    articleId: $(el).attr("figshare_articleId")
+                    //height:300 // this is the height of the viewer part. [Default: 550]
+                });
+                widget.initialize(); // initialize the widget
+                widget.mount(el); // mount it in a tag that's on your page
+                // this will save the widget on the global scope for later use from
+                // your JS scripts. This line is optional.
+                //window.widget = widget;
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        
+        var reportIds = {
+                           "64822": 2,
+                           "64823": 0,
+                    };
+
+        $(".referee-response-container,.js-referee-report").each(function(index, el) {
+            var reportId = $(el).attr("data-reportid"),
+                reportCount = reportIds[reportId] || 0;
+            $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+        });
+
+        var uuidInput = $("#article_uuid"),
+            oldUUId = uuidInput.val(),
+            newUUId = "8c1086f2-8230-426b-ba64-48ea1ecda7dd";
+        uuidInput.val(newUUId);
+
+        $("a[href*='article_uuid=']").each(function(index, el) {
+            var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+            $(el).attr("href", newHref);
+        });
+
+    });
+</script>              </div>
+        </div>
+
+        
+            
+            <div class="o-page__footer sticky-email-wrapper">
+                
+                
+
+                
+
+
+<footer class="c-footer t-inverted">
+
+    <div class="o-wrapper">
+        <div class="o-layout">
+
+
+                        
+            <div class="o-layout__item u-mb--3">
+                <div class="c-branding c-branding--research">
+                    <img src="/img/research/F1000Research_white.svg" alt="F1000Research">
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <p class="t-h3 u-mt--0 u-mb--0">An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing.</p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <div class="o-layout">
+                    <nav class="c-footer__nav">
+
+                            <div class="o-layout__item u-3/5@sm u-mb--3">
+
+
+                                <div class="o-columns o-columns--2">
+
+                                                                            <a href="/browse/articles" class="t-body c-footer__nav-item "      >Browse</a>
+                                                                            <a href="/gateways" class="t-body c-footer__nav-item "      >Gateways</a>
+                                                                            <a href="/collections" class="t-body c-footer__nav-item "      >Collections</a>
+                                                                            <a href="/about" class="t-body c-footer__nav-item "      >How it Works</a>
+                                                                            <a href="https://blog.f1000.com/blogs/f1000research/" class="t-body c-footer__nav-item "      >Blog</a>
+                                                                            <a href="/contact" class="t-body c-footer__nav-item "      >Contact</a>
+                                                                            <a href="/developers" class="t-body c-footer__nav-item u-hide u-show@navbar"      >For Developers</a>
+                                                                            <a href="/published/rss" class="t-body c-footer__nav-item "   title="RSS feed of published articles"     >RSS</a>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="o-layout__item u-2/5@sm u-center u-right@sm u-mb--3">
+
+                                <div class="u-hide u-show@lg">
+                                    <div class="_mdl-layout">
+                                        <a class="mdl-button mdl-js-button mdl-button--inverted mdl-button--no-shadow mdl-js-ripple-effect mdl-button--outline" href="/for-authors/publish-your-research"   data-test-id="footer_submit_research"  >Submit Your Research</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="o-layout__item u-mb--2">
+                <div class="c-footer__share">
+                        <div class="c-footer__share">
+        <span class="c-footer__share-icon" title="Open Access">
+            <span class="f1r-icon icon-100_open_access license-icon"></span>
+        </span>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/licenses" target="_blank" title="Creative Commons License CC-BY">
+            <span class="f1r-icon icon-116_cc license-icon license-icon-cc"></span>
+            <span class="f1r-icon icon-117_ccby license-icon license-icon-cc"></span>
+        </a>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/about/cc0" target="_blank" title="Creative Commons License CC0">
+            <span class="f1r-icon icon-118_cco license-icon"></span>
+        </a>
+
+    </div>
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="c-footer__social u-mt--0 u-mb--0 u-white--low-med">Follow us
+                    <a href="https://www.facebook.com/F1000" target="_blank" class="c-footer__social-icon f1r-icon icon-55_footer_facebook"></a>
+                    <a href="https://twitter.com/#!/F1000Research" target="_blank" class="c-footer__social-icon f1r-icon icon-56_footer_twitter"></a>
+                    <a href="http://www.youtube.com/user/F1000research" target="_blank" class="c-footer__social-icon f1r-icon icon-57_footer_youtube"></a></p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md u-right@md">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="t-caption u-white--low-med">&copy; 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | <a href="/about/legal" class="copyrightLegal">Legal</a> | Partner of <a target="_blank" href="http://www.who.int/hinari/en/">HINARI</a>  &bull; <a target="_blank" href="http://crossref.org/">CrossRef</a> &bull; <a target="_blank" href="http://about.orcid.org/">ORCID</a> &bull; <a target="_blank" href="http://www.fairsharing.org">FAIRSharing</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</footer>            </div>
+        
+    </div>
+
+            <div class="js-cookie-spacer"></div>
+        <div class="cookie-warning">
+            <div class="instruction">The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a class="js-scroll-to" href="/about/legal/privacypolicy#use-of-cookies" data-scroll-target="#use-of-cookies">Find out more &raquo;</a></div>
+            <div class="close-button"></div>
+        </div>
+    
+    <script>
+                    R.templateTests.simpleTemplate = R.template('<p class="$variable.one">$text</p><p class="${variable.two}">$text</p><p class="$!variable.three">$text</p><p class="$!{variable.four}">$text</p><p class="${selector}.five">$text</p>');
+            R.templateTests.runTests();
+        
+        var F1000platform = new F1000.Platform({
+            name: "f1000research",
+            displayName: "F1000Research",
+            hostName: "f1000research.com",
+            id: "1",
+            editorialEmail: "research@f1000.com",
+            infoEmail: "info@f1000.com",
+            usePmcStats: true
+        });
+
+                    $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+            // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+            $(document).ready(function () {
+                if ($(".cookie-warning").is(":visible")) {
+                    $(".sticky").css("margin-bottom", "35px");
+                    $(".devices").addClass("devices-and-cookie-warning");
+                }
+                $(".cookie-warning .close-button").click(function (e) {
+                    $(".devices").removeClass("devices-and-cookie-warning");
+                    $(".sticky").css("margin-bottom", "0");
+                });
+
+                $("#tweeter-feed .tweet-message").each(function (i, message) {
+                    var self = $(message);
+                    self.html(linkify(self.html()));
+                });
+
+                $(".partner").on("mouseenter mouseleave", function() {
+                    $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+                });
+            });
+        
+    </script>
+
+            
+<div class="sign-in-popup">
+	<!-- <a href="#" class="sign-in shadow">Sign in <span class="sign-in-image-active"></span></a> -->
+	<a href="#" class="sign-in ${locale}">Sign In <span class="arrow-closed sign-in-arrow-padding arrow-opened"></span></a>
+	<div class="sign-in-form">
+
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="googleOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-639.html"/>
+                            <input id="google-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-google" name="system" type="hidden" value="GOOGLE"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="facebookOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-639.html"/>
+                            <input id="facebook-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-fb" name="system" type="hidden" value="FACEBOOK"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="orcidOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-639.html"/>
+                            <input id="orcid-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-orcid" name="system" type="hidden" value="ORCID"/>
+    </form>
+		<form id="sign-in-form" class="login-container" action="https://f1000research.com/login" method="post" name="f">
+           <div id="sign-in-form-gfb-popup"></div>
+
+                                                            <input class="target-field" type="hidden" name="target" value="/articles/9-639.html"/>
+                            			<input type="text" name="username" id="signin-email-box" class="sign-in-input" placeholder="Email address" autocomplete="email">
+			<input type="password" name="password" id="signin-password-box" class="sign-in-input" placeholder="Password" autocomplete="current-password">
+			<div class="sign-in-remember">
+                <div class="checkbox-wrapper">
+    				<input type="checkbox" id="remember-me" name="remember_me" class="checkbox is-hidden">
+                </div>
+                <span class="checkbox-label">Remember me</span>
+			</div>
+			<a href="#" class="sign-in-link" id="forgot-password-link">Forgotten your password?</a>
+			<div class="sign-in-button-container margin-top margin-left-20 margin-bottom">
+				<button type="submit" id="sign-in-button" class="sign-in-buttons general-white-orange-button">Sign In</button>
+				<button type="button" id="sign-in-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="sign-in-error">Email or password not correct. Please try again</div>
+			<div class="sign-in-loading">Please wait...</div>
+		</form>
+		<div class="forgot-password-container">
+			
+<script type="text/javascript">
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("GOOGLE");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=facebookSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("FACEBOOK");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=orcidSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("ORCID");
+            $("form[id=oAuthForm]").submit();
+        });
+	});
+</script>
+
+<span class="text first">
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+    <p>The email address should be the one you originally registered with F1000.</p>
+</span>
+<input name="email" class="sign-in-input" id="email-forgot-password" type="text" placeholder="Email address">
+<div class="forgot-password-email-error">
+	Email address not valid, please try again
+</div>
+<div class="forgot-password-google-email-error">
+    <p>You registered with F1000 via Google, so we cannot reset your password.</p>
+	<p>To sign in, please click <a href="#" id="googleSignInButton">here</a>.</p>
+    <p>If you still need help with your Google account password, please click <a href="https://www.google.com/accounts/recovery">here</a>.</p>
+</div>
+<div class="forgot-password-facebook-email-error">
+    <p>You registered with F1000 via Facebook, so we cannot reset your password.</p>
+    <p>To sign in, please click <a href="#" id="facebookSignInButton">here</a>.</p>
+	<p>If you still need help with your Facebook account password, please click <a href="https://www.facebook.com/recover/initiate">here</a>.</p>
+</div>
+<div class="clearfix"></div>
+<div class="forgot-password-captcha-error">
+	Code not correct, please try again
+</div>
+<div class="clearfix"></div>
+<div class="sign-in-button-container margin-left-20 margin-bottom">
+	<button type="button" id="sign-in-reset-password" class="sign-in-buttons general-white-orange-button">Reset password</button>
+	<button type="button" id="forgot-password-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+	<div class="clearfix"></div>
+</div>
+<span class="text last">
+	<a href="mailto:">Email us</a> for further assistance.
+</span>
+<form action="https://f1000research.com/j_spring_oauth_security_check" id="oAuthForm" method="post" target="_top">
+                        <input class="target-field" type="hidden" name="target" value="/articles/9-639.html"/>
+                <input id="oAuthSystem" name="system" type="hidden"/>
+</form>
+			<div class="forgot-password-server-error">Server error, please try again.</div>
+			<div class="sign-in-success">
+                <p>We have sent an email to <span id="email-value"></span>, please follow the instructions to reset your password.</p>
+                <p>If you don't receive this email, please check your spam filters and/or contact .</p>
+            </div>
+			<div class="sign-in-loading">Please wait...</div>
+		</div>
+
+		<div class="sign-in-form-register-section">
+			<div class="sign-in-button-container margin-left-20 margin-bottom">
+				<a href="/register" title="Register"><button type="button" id="sign-in-register-button" class="sign-in-buttons general-white-orange-button">Register</button></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+    $(".target-field").each(function () {
+        var uris = $(this).val().split("/");
+        if (uris.pop() === "login") {
+        	$(this).val(uris.toString().replace(",","/"));
+        }
+    });
+});
+</script>
+        <div id="templateOverlay" class="is-hidden" hidden="hidden">
+  <div class="o-overlay js-overlay is-hidden" hidden="hidden"></div>
+</div>
+
+<div id="templateExternalMessages" class="is-hidden" hidden="hidden">
+  <div class="o-modal o-modal--auto@md js-external-messages is-hidden" hidden="hidden">
+    <div class="o-modal__body">
+      <section class="c-console">
+        <div class="_mdl-layout c-console__bdy js-external-messages-body"></div>
+        <footer class="_mdl-layout c-console__ftr o-flex o-flex--reverse js-external-messages-footer">
+          <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-console__btn js-external-messages-close" data-action="maintenance-close">I Understand</button>
+        </footer>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<script src="/js/namespace.js"></script>
+<script src="/js/constants.js"></script>
+<script src="/js/utilities.js"></script>
+
+<script>
+                  F1000.ExtenalMaintenanceItems = [
+    {
+      start: '2018-12-10T14:21:00Z',
+      end: '2018-12-13T16:00:00Z',
+      msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+      cookieName: 'outage23122018',
+      editor: false,
+    }
+  ];
+</script>
+
+<script src="/js/shared_scripts/cookie-helper.js"></script>
+<script src="/js/shared_scripts/mdl-helper.js"></script>
+
+<script src="/js/app/external-maintenance.js"></script>
+
+                <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5646075-11', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        
+                <script type="text/javascript" src="/js/app/research.analytics.js"></script>
+
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4475190.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    
+            <script src="https://my.hellobar.com/4e0495c6f18cbd68731a1dc1978195a144e767ba.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+
+</html>

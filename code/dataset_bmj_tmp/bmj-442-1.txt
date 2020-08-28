@@ -1,0 +1,163 @@
+This is a systematic review with network meta-analysis on the acute treatment of
+major depressive episodes in adults. The authors included 113 randomized
+controlled trials that compared different sets of 18 non-surgical brain stimulation
+protocols with the aim to investigate the efficacy in response, remission,
+acceptability and post-treatment depression severity scores of these protocols. While
+the authors tried to conform to PRISMA-NMA, there are still limitations in the
+analysis plan, presentation and interpretation of the results that hamper the quality
+of recommendations for clinical practice. My comments focus on these limitations
+and I hope that they will assist the authors to improve their work.
+Criteria for considering studies for this review
+The authors reported that they excluded meta-analyses; however, in the
+supplementary material, relevant meta-analyses were screened. The authors may
+consider writing that they excluded narrative reviews instead.
+Page 6, lines 167-168. The authors should explicitly justify both in the text and in
+the supplementary material whether merging sham controls is plausible (taking into
+account the similarity of their characteristics and the population assigned), otherwise
+it may seriously compromise the transitivity assumption (transitivity interpretation 1
+in Salanti(2012)) and by extent the credibility of the NMA results. If merging is
+deemed clinically implausible, then these controls should be considered individually
+in the NMA rather than as an amalgamation of dissimilar controls.
+Data synthesis
+Page 8, lines 225-226. It is not clear whether the authors investigated the validity of
+the intention-to treat analysis in the respective trials. Since intention-to-treat
+analysis is ‘notorious’ for being described and implemented inadequately in trials
+[Hollis and Campbell], the authors should not take at face value the reported results
+of the trials. Did the authors attempt to extract the outcome for the completers,
+where possible? In those trials that ITT was not employed, what assumptions were
+made for the missing outcomes? Overall, it is not clear how the authors addressed
+missing outcome data in their analysis. Proper handling of missing outcome data
+requires plausible scenarios and integration of the missing outcome data in the
+analysis using modeling – not data manipulation via exclusion or imputation as it
+irrationally implies certainty about the essentially untestable scenarios considered.
+The authors should refer to Chaimani et al (2018) in order to properly accommodate
+missing outcome data in NMA via the metamiss2 package in STATA.
+
+The authors have omitted to present all-cause discontinuation among the studied
+outcomes.
+Pairwise meta-analysis
+Statistical heterogeneity is estimated via the parameter τ2 (between-trial variance)
+– not via I2 – and there is guidance on how to properly interpret the extent of
+statistical heterogeneity [Salanti et al 2014] using available empirical distributions
+tailored to the studied outcome and intervention-comparator type. The authors
+should refer to Turner et al (2015) for binary outcomes, whereas to Rhodes et al
+(2015) for continuous outcomes. I2 reflects the % variability that is attributed to the
+statistical heterogeneity and it can be presented merely as supplementary of τ2. Like
+with τ2, there have been proposed empirical distributions tailored to the studied
+outcome and intervention-comparator type in order to interpret the extent of
+relative heterogeneity. The authors should abstain from employing abstract
+thresholds and instead, they should refer to Rhodes et al (2016) to select the proper
+distribution.
+Network meta-analysis
+The moderator analysis described for pairwise meta-analysis shall be performed for
+all outcomes in the NMA context with the aim to explain imminent between-trial
+variance and possible inconsistency, as well. Otherwise, it is not possible to direct
+any recommendations to target specific subgroups of patients as well as to indicate
+study design limitations that may have contributed to statistical heterogeneity (and
+inconsistency)
+The authors have not explored the presence of small-study effects (a common threat
+in systematic reviews) in NMA which is a proxy for the overall quality of the trials.
+This can be achieved using the ‘comparison-adjusted funnel plot’ as described in
+Chaimani et al (2013).
+The authors should cite the relevant literature they considered to compute the
+inconsistency factors.
+Results
+Without providing a Table of Characteristics, it is impossible to judge the validity of
+transitivity assumption.
+The risk of bias assessment lacks transparency on how the risk score was decided.
+The authors should accompany the risk score per domain with a quotation and/or
+comment to support their justification (as recommended in Chapter 8 of the
+Cochrane Handbook). For instance, the risk of attrition bias is overall ‘too good to be
+true’, especially when there is evidence on the misconduct of the intention-to-treat
+analysis and the inadequate reporting and handling of missing outcome data in trials
+[Hollis and Gampbell; Akl et al 2012].
+I do not agree with the authors regarding the validity of transitivity assumption.
+Transitivity assumption does not seem to hold for the co-existence of MDD and
+bipolar depression, patient type recruited (outpatients or inpatients) and the add-on
+role of brain stimulation. Without access to the Table of Characteristics, I cannot
+judge the possibility of transitivity assumption for baseline depression, age and
+gender.
+Pairwise meta-analysis
+In line with a relevant comment above, the authors should present both I2 with τ2
+in the text and Supplementary Table 2. Importantly, present also the 95%
+confidence intervals for both I2 with τ2. Furthermore, replace ‘random-effects’ with
+summary effect size.
+
+Page 10, line 300. The authors should either remove the range in ORs across all
+outcomes or replace it with outcome-specific ranges.
+Network meta-analysis
+Ranking plots in their current format are misleading. The y axis should reach 100%
+in order to properly read the plots. However, with maximum ranking probability
+being 60% or 40%, there seems to be low to very low confidence on what
+constitutes best ranked interventions.
+Even for those loops that are accompanied by IF = 1 within the CI, having IF above
+2 and/or particularly wide CI makes inferences on consistency particularly uncertain.
+So, considering also the magnitude of IF, the possible inconsistent loops may be
+more than those reported by the authors. Almost half of those loops include sham in
+Supplementary Figure 10. I am wondering whether lumping of sham controls may
+contribute to this inconsistency.
+Discussion
+Page 13, 376-377. While the quality of the included trials in terms of risk of bias is
+one factor to consider for the overall quality of the collected evidence, assessment of
+the directness of the collected trials, the risk of publication bias (no attempts have
+been made to investigate publication bias in the review), incoherence and
+imprecision of the treatment effects are required as well in order to have a complete
+insight in the quality of the collected evidence per outcome. Salanti et al (2014)
+provide directions on how to evaluate the quality of evidence from NMA with
+emphasis also on the quality of evidence for ranking.
+Another limitation pertains to the point estimate and CIs of the treatment effects for
+sham-comparisons which appear to be implausibly large and wide, particularly, for
+those comparisons below LMRUL vs Sham in Figure 3. For instance, while the results
+are favorable for the active protocol in terms of response (Figure 3), they are
+accompanied by great uncertainty. Therefore, I find these favorable results not to be
+appropriate for recommendations: for example, bITBS has been found to be much
+better than sham in terms of response but the upper bound of OR = 13 makes me
+‘unease’ about the reliability of this result.
+Minor comments
+Page 4, line 119. Knowing the treatment effects and uncertainty of all possible
+comparisons is much more informative for the potency (e.g. efficacy, acceptability
+and so on) of all relevant available interventions than their hierarchy – the latter has
+been criticized for having ‘a substantial degree of imprecision’ and hence, requiring
+greater caution in the interpretation [Trinquart et al 2016; Kibret et at 2014]. The
+overall hierarchy merely supplements the results on the NMA treatment effects.
+Page 4, lines 123-125. You may consider rephrasing this sentence in order to justify
+why NMA has been proposed as the highest level of evidence. For instance, ‘NMA,
+being an extension of pairwise meta-analysis, is able to synthesize both direct and
+indirect evidence in a single analysis, therefore, providing complete insights into the
+clinical efficacy and acceptability of all relevant interventions. Thus, NMA has been
+regarded as the highest level of evidence in treatment guidelines.’
+Page 6, lines 169-170. Randomization should refer to the interventions rather than
+the trial. So, jointly randomized implies that, if there was a multi-arm trial of 18
+non-surgical brain stimulation protocols, then all patients would be equally likely to
+be assigned to any of these 18 protocols.
+References
+
+Salanti G. Indirect and mixed-treatment comparison, network, or
+multiple-treatments meta-analysis: many names, many benefits, many concerns for
+the next generation evidence synthesis tool. Res Synth Methods. 2012;3(2):80-97.
+Hollis S, Campbell F. What is meant by intention to treat analysis? Survey of
+published randomised controlled trials. BMJ. 1999;319:670-4.
+Chaimani A, Mavridis D, Higgins JPT, Salanti G, White IR (2018). Allowing for
+informative missingness in aggregate data meta-analysis with continuous or binary
+outcomes: Extensions to metamiss. The Stata Journal 18 (3) pp. 716-740.
+Salanti G, Del Giovane C, Chaimani A, Caldwell DM, Higgins JP. Evaluating the
+quality of evidence from a network meta-analysis. PLoS One. 2014;9(7):e99682.
+Turner RM, Jackson D, Wei Y, Thompson SG, Higgins JP. Predictive distributions for
+between-study heterogeneity and simple methods for their application in Bayesian
+meta-analysis. Stat Med. 2015;34(6):984-98.
+Rhodes KM, Turner RM, Higgins JP. Predictive distributions were developed for the
+extent of heterogeneity in meta-analyses of continuous outcome data. J Clin
+Epidemiol. 2015;68(1):52-60.
+Rhodes KM, Turner RM, Higgins JP. Empirical evidence about inconsistency among
+studies in a pair-wise meta-analysis. Res Synth Methods. 2016;7(4):346-370.
+Chaimani A, Higgins JP, Mavridis D, Spyridonos P, Salanti G. Graphical tools for
+network meta-analysis in STATA. PLoS One. 2013 Oct 3;8(10):e76654.
+Akl EA, Briel M, You JJ, Sun X, Johnston BC, et al. Potential impact on estimated
+treatment effects of information lost to follow-up in randomised controlled trials
+(LOST-IT): systematic review. BMJ. 2012 May 18;344:e2809.
+Trinquart L, Attiche N, Bafeta A, Porcher R, Ravaud P. Uncertainty in Treatment
+Rankings: Reanalysis of Network Meta-analyses of Randomized Trials. Ann Intern
+Med. 2016;164(10):666-73.
+Kibret T, Richer D, Beyene J. Bias in identification of the best treatment in a
+Bayesian network meta-analysis for binary outcome: a simulation study. Clin
+Epidemiol. 2014;6:451-60.

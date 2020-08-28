@@ -1,0 +1,55 @@
+Name: Kristian Filion
+Position: Assistant Professor of Medicine
+Institution: McGill University
+GENERAL COMMENTS:
+In this nested case-control study from four European countries, Arfe and colleagues examine the
+association between non-steroidal anti-inflammatory drugs (NSAIDs) and the risk of heart failure
+(HF). This study, conducted as part of the larger SOS project, has several strengths, including the
+use of 5 population-based healthcare databases, which produced precise estimates and results that
+are likely highly generalizable. Other strengths include the inclusion of both a common data
+analysis (using a single database) and site-specific analyses with random-effects meta-analysis;
+the presentation of both provides key information regarding potential residual confounding and
+increases the transparency of such multi-site studies. However, there are several methodological
+issues that require clarification; these issues are described in detail in the specific comments
+below.
+SPECIFIC COMMENTS:
+1. The study cohorts consisted of new users of NSAIDs, with past users of NSAIDs (i.e., those with
+no use in the 183 days before the index date) as the reference group for all analyses. This
+reference group renders the results somewhat difficult to interpret. These past users will have
+discontinued use for a variety of reasons, including improved symptoms, the occurrence of side
+effects, and poor adherence. Did the authors consider using current users of one of the individual
+NSAIDs are the reference group? Such a comparison may also be more clinically relevant,
+particularly given the information presented in the second to last paragraph of the introduction.
+2. It is also likely that some of the past users were prescribed short-term NSAID therapy for an
+acute event (e.g., sports injury, dental work), and these patients may have an inherently different
+risk of HF relative to those who are using NSAIDs long-term to treat chronic conditions. Similarly,
+different NSAIDs may be prescribed preferentially for different indications. Some discussion of
+confounding by indication is warranted.
+3. Was a minimum duration of NSAID prescription required for cohort entry? In addition, was
+inclusion restricted based on route of NSAID administration? For example, could a patient enter the
+cohort due to a prescription of a topical NSAID?
+
+4. Controls were selected using incidence density sampling, matching on database, sex, age at
+cohort entry, and date of index prescription. With all patients entering the cohort on an NSAID
+prescription (and thus initially exposed), person-moments earlier during follow-up were thus more
+likely to be exposed to an NSAID than those later during follow-up. Did the authors consider also
+matching on duration of follow-up (via risk set sampling) to ensure that cases and controls had the
+same opportunity for exposure?
+5. In the Introduction, the authors discuss that current guidelines limit the use of NSAIDs in
+patients predisposed to HF and prohibit their use in patients with diagnosed HF. With
+approximately 9% of cases and 2.5% of controls having a history of HF, the inclusion of some
+subgroup analyses and/or tests for interaction would be informative.
+6. In site-specific analyses, covariates should be included in the model based on substantive
+knowledge and not p-values. If an automated variable selection process is used, the use of AIC or
+BIC is preferred.
+7. The inclusion of duration-response analyses would also be helpful. For example, some evidence
+suggests that the increase in myocardial infarction with rofecoxib only occurred after 18 months of
+use.
+8. Minor comments:
+a. Abstract, methods: Please mention how cases were matched to controls.
+b. Abstract, results: Please mention that the reference group was past users of NSAIDs.
+c. It would be helpful to mention in the “Harmonization and Data Processing” section that a
+common data model was used in the primary analysis.
+d. Covariates: Some of the descriptions of covariates are somewhat vague (e.g., “other drugs for
+CV diseases”, “specific drugs as proxies for certain diseases and conditions not well recorded in the
+databases”). Please provide a complete list as an appendix.

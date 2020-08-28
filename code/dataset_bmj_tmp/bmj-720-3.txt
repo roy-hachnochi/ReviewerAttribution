@@ -1,0 +1,74 @@
+This is a well-written and well reported article, as expected from the set of authors involved. The authors have clearly
+worked hard to address an important topic using the primary care database available. It is good to see that a protocol
+was published for this cohort study. I have reviewed this from a statistical perspective, and although standards are
+generally good as expected, I have some comments for improvement and areas for clarification to be addressed in any
+subsequent revision:
+1) When reading the article, my initial impression was that there are a lot of analyses here, for example across
+different 3 outcomes, different classes, individual drugs,, and different follow-up times. For the latter it says in the
+methods that ‘As sensitivity analyses we repeated the analyses firstly restricted to the first year of follow-up, then
+including the entire follow-up period’ and also time since starting treatment is investigated as categories, e.g. first 28
+days.
+But in the protocol, though 5 years and 28 days are mentioned, I cannot see mention about the 1-year analyses. Can
+the authors clarify please why they focused on 1-year in the end, if not mentioned in the protocol (perhaps I am
+missing something)?
+2) In relation to this point, most analyses over the 5 year period are not significant, but there are more significant
+results by 1 year. This suggests that the hazard ratio is not proportional over time, but this is not evaluated formally
+(statistically) and raises the question about the HRs from years 1 to 2, and 2 to 3 etc. Therefore I find the focus on 1year an incomplete picture, and wonder whether the authors could comment in the results about whether the
+proportional hazards assumption was appropriate (the methods say it was examined, but we don’t see the details). I
+would find it strange that the HRs at 1-year are significant but not at 5-years, if the proportional hazards assumption
+is actually ok.
+Many 1-year results are the main message in the abstract and conclusions, yet they are only given in the
+supplementary material in the actual paper. I think they should be brought into the main article tables, and this may
+link to a more detailed investigation of the proportional hazards assumption (if the HR is constant over time, or what
+the HR is within each year interval upto 5 years).
+Of fundamental interest: if the SRIs are associated with benefit for the first year but overall the 5 years there is no
+difference, does this mean that the SRIs are associated with harm in the latter years?
+3) Further, the authors look at 3 outcomes in the paper ‘arrhythmia, myocardial infarction and stroke or transient
+ischaemic attack’. Yet, in the protocol there were far more than 3 outcomes listed (see below), and none were
+mentioned as primary outcomes. Can the authors clarify why they looked at these three outcomes in this paper as a
+priority over other outcomes listed below:
+•all-cause mortality
+•suicide (including open verdicts)
+•attempted suicide/self-harm
+•sudden death
+•overdose/poisoning with an antidepressant
+•myocardial infarction
+•stroke/transient ischaemic attack (TIA)
+•cardiac arrhythmia
+•epilepsy/seizures
+•upper gastrointestinal bleeding
+•falls
+•fractures
+•adverse drug reactions (including bullous eruption)
+•motor vehicle crash.
+4) The authors adjust for confounding using Cox regression, and it is good to see that many confounders are indeed
+adjusted for. That being said, I would also have liked to see whether conclusions are robust to the use of propensity
+score matching methods. Or can they justify in the Discussion why this wasn’t considered beneficial over traditional
+regression adjustment? Perhaps, due to the time-varying nature of the use of antidepressants, this was problematic
+
+5) Can the authors clarify in the paper the use of the time-varying antidepressants covariate and its interpretation for
+an individual who stopped. If an individual stops antidepressants, then do they then (for subsequent follow-up periods)
+move to the non-treatment group? If so, then how does this handle the potential for events to be due to the earlier
+use of antidepressants? Could it be that the lack of any differences between groups is because some of those who
+were on anti-depressants or moving into the non-treatment group, and therefore any genuine difference is being
+attenuated?
+6) “Even for doses of citalopram ≥ 40 mg/day there was no significantly increased risk (adjusted hazard ratio=1.11,
+95% CI 0.72 to 1.71).” – though this statement is correct, the confidence interval is 0.72 to 1.71 and is therefore
+wide: is there low power? Indeed, there are not many events in many analyses. This is worthy of discussion please in
+the strengths and limitations section.
+7) I am also concerned about missing data: the authors say ‘We included all eligible patients in the database in our
+analyses to maximise power’ – but there are no details about how missing data were handled. I notice that under a
+table it says ‘5.0% of prescriptions had missing information on dosage.’, so there is some missing data – but how was
+it handled? It is also not mentioned in the protocol.
+8) The authors used ‘robust standard errors to allow for clustering of patients within practices’ – such methods are
+done when the model used is mis-specified (or the correct model is difficult to actually fit), and therefore the ‘robust’
+standard errors used to inflate uncertainty accordingly. However, here I do not understand why the clustering within
+practices was not accounted for by using, for example, using a stratified Cox model or adding a frailty term (with a
+random effect on the baseline hazard to allow for separate one for each practice). Though this is a minor point, I
+would like the article to clarify if alternative approaches to accounting for clustering affected the conclusions.
+9) In places, the authors infer a difference between individual drugs, which is often not justified. This is most apparent
+in the ‘absolute risks’ section, where they say ‘Absolute risks of arrhythmia and myocardial infarction were highest for
+lofepramine’ – this is not justified, as the CIs for the risks and NNH are very wide and overlap with the other drugs.
+This therefore needs to be re-written. Please check elsewhere for this issue too.
+In summary, this is an important piece of work, and I hope my comments help to improve the article further,
+especially in regard to the outcome investigated, the time-points considered and the use of time-varying covariate.

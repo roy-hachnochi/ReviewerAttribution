@@ -1,0 +1,22 @@
+This paper reports logistic regression analysis of the HFEA data to 2008, and predicts a couple's
+chances of a life birth when compared to the 1999-2008 recorded population.
+The motivation and analyses are sound (a minor point: it's become more common to report the
+coefficient of discrimination (Tjur 2012) than other estimates of model variation such as
+Nagelkerke's r squared), but there are important issues with the paper as submitted.
+First is the non-use of the HFEA data up to 2013. There was a change in the HFEA's collection
+method after 2008, but there have also been substantial improvements in assisted conception
+live birth rates (as evidenced by the Figure on page 29), so there is a real possibility that a
+couple's pre- and post-statistics in 2016 are not suitable for comparison with couples from at
+least 8-17 years ago.
+The second is the choice of predictor variables. It seems that candidate variables were chosen
+from the results of a review (the 2010 Hum Rep paper) rather than identified as part of the
+analysis of the specific HFEA data used. So it's entirely possible that the best predictors
+identified by the Dutch group in general are not the best predictors for these specific data.
+There are contradictory statements regarding validation. Line 30 of page 14 has the statement
+about internal not being relevant; line 30 of page 43 states that internal validation was
+performed using bootstrapping.
+Donor eggs are not mentioned in the study, although these are known to vary the chances of a
+live birth after analysis of the same data (doi: 10.1371/journal.pmed.1000386). In fact, it's hard
+to identify the contribution of the manuscript under review when compared to
+doi:10.1371/journal.pmed.1000386. Here logistic regression was used on the same data set to
+produce a method for estimating the chances of a live birth given a couple's characteristics.

@@ -1,0 +1,26 @@
+This manuscript describes a retrospective cohort study where two study cohorts were used to estimate
+association between use of 5alpha-reductase inhibitors dutasteride and finasteride and risk of incident
+type 2 diabetes mellitus (DM) compared to men using alpha-blockers. One study cohort was identified
+from UK Clinical Practice Research Datalink. Another cohort was formed using the Taiwan National
+Health Insurance Research Database. Imbalances in known background variables, such as BMI, duration
+of benign prostatic hyperplasia and use of other drugs were controlled by using propensity score
+matching. The study hypothesis was that dutasteride, but not finasteride or alpha-blockers would be
+associated with increased risk of type 2 DM.
+Increased risk of type 2 DM was indeed observed among users of dutasteride and also among finasteride
+users compared to alpha-blockers.
+I have the following comments:
+My main concern is that the observed risk association may be due to reverse causation, which
+has not been discussed as a possible explanation for the findings. Men who get a diagnosis of type 2 DM
+have probably had elevated blood glucose for years before the diagnosis. Diabetes and metabolic
+syndrome have been associated with greater prostate weight and development of benign prostatic
+hyperplasia. Thus it is quite plausible that diabetic men who were not yet diagnosed at baseline had
+bigger prostates in general compared to non-diabetic men, thus also more often using 5ARIs.
+Given the above alternative explanation, you should tone down your conclusions: this is not
+enough evidence to claim that 5ARIs “increased” the risk of type 2 diabetes, you have merely observed
+a risk association with uncertain causality.
+Statistical analysis, page 11: “Cox proportional hazard models was used before and after
+propensity matching”: Please clarify, which analysis were done before and which after propensity
+matching
+You should also describe in greater detail formation of propensity score in this analysis: which
+factors did you included in the score and how strong predictors they were for 5ARI use? You should also
+demonstrate how well you were able to match your cohorts by propensity score.

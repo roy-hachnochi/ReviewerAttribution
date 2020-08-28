@@ -1,0 +1,1448 @@
+
+
+    <!DOCTYPE html>
+<html class="">
+
+        
+<head>
+    <title>A current view of serotonin transporters | F1000Research</title>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+    <!--<meta lang="$locale">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="9-QVycOO2_ob3Z9QzRmXv2CF08A9oyYXqWyTiVdKPlU" />
+    <!-- This is commented out to fix display problems on mobile devices.
+    We may use it again once we implement a responsive design that supports native device resolutions.
+    <meta name="viewport" content="width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <link rel="alternate" title="Recent articles published in F1000Research" href="/rss" type="application/rss+xml">
+            <link rel="alternate" type="application/pdf" title="PDF" href="https://f1000research.com/articles/5-1884/pdf"/>
+        <link rel="canonical" href="https://f1000research.com/articles/5-1884" />
+    
+            <meta name="description" content="Read the original article in full on F1000Research: A current view of serotonin transporters" />
+    
+            <meta name="og:title" content="F1000Research Article: A current view of serotonin transporters.">
+            <meta name="og:description" content="Read the latest article version by Louis J. De Felice, at F1000Research.">
+            <meta name="og:image" content="/img/sharing/og_research.png">
+            <meta name="version-id" content="9017">
+            <meta name="article-id" content="8384">
+            <meta name="dc.title" content="A current view of serotonin transporters">
+            <meta name="dc.description" content="Serotonin transporters (SERTs) are largely recognized for one aspect of their function&mdash;to transport serotonin back into the presynaptic terminal after its release. Another aspect of their function, however, may be to generate currents large enough to have physiological consequences. The standard model for electrogenic transport is the alternating access model, in which serotonin is transported with a fixed ratio of co-transported ions resulting in net charge per cycle. The alternating access model, however, cannot account for all the observed currents through SERT or other monoamine transporters.&amp;nbsp; Furthermore, SERT agonists like ecstasy or antagonists like fluoxetine generate or suppress currents that the standard model cannot support.&amp;nbsp; Here we survey evidence for a channel mode of transport in which transmitters and ions move through a pore. Available structures for dopamine and serotonin transporters, however, provide no evidence for a pore conformation, raising questions of whether the proposed channel mode actually exists or whether the structural data are perhaps missing a transient open state.">
+            <meta name="dc.subject" content="5-HT, alternating access model, SLC6, electrogenic transport, Serotonin transporters, ">
+            <meta name="dc.creator" content="De Felice, Louis J.">
+            <meta name="dc.date" content="2016/07/28">
+            <meta name="dc.identifier" content="doi:10.12688/f1000research.8384.1">
+            <meta name="dc.source" content="F1000Research 2016 5:1884">
+            <meta name="dc.format" content="text/html">
+            <meta name="dc.language" content="en">
+            <meta name="dc.publisher" content="F1000 Research Limited">
+            <meta name="dc.rights" content="https://creativecommons.org/licenses/by/3.0/igo/">
+            <meta name="dc.type" content="text">
+            <meta name="prism.keyword" content="5-HT ">
+            <meta name="prism.keyword" content=" alternating access model ">
+            <meta name="prism.keyword" content=" SLC6 ">
+            <meta name="prism.keyword" content=" electrogenic transport ">
+            <meta name="prism.keyword" content=" Serotonin transporters ">
+            <meta name="prism.publication.Name" content="F1000Research">
+            <meta name="prism.publicationDate" content="2016/07/28">
+            <meta name="prism.volume" content="5">
+            <meta name="prism.number" content="1884">
+            <meta name="prism.versionIdentifier" content="1">
+            <meta name="prism.doi" content="10.12688/f1000research.8384.1">
+            <meta name="prism.url" content="https://f1000research.com/articles/5-1884">
+            <meta name="citation_title" content="A current view of serotonin transporters">
+            <meta name="citation_abstract" content="Serotonin transporters (SERTs) are largely recognized for one aspect of their function&mdash;to transport serotonin back into the presynaptic terminal after its release. Another aspect of their function, however, may be to generate currents large enough to have physiological consequences. The standard model for electrogenic transport is the alternating access model, in which serotonin is transported with a fixed ratio of co-transported ions resulting in net charge per cycle. The alternating access model, however, cannot account for all the observed currents through SERT or other monoamine transporters.&amp;nbsp; Furthermore, SERT agonists like ecstasy or antagonists like fluoxetine generate or suppress currents that the standard model cannot support.&amp;nbsp; Here we survey evidence for a channel mode of transport in which transmitters and ions move through a pore. Available structures for dopamine and serotonin transporters, however, provide no evidence for a pore conformation, raising questions of whether the proposed channel mode actually exists or whether the structural data are perhaps missing a transient open state.">
+            <meta name="citation_description" content="Serotonin transporters (SERTs) are largely recognized for one aspect of their function&mdash;to transport serotonin back into the presynaptic terminal after its release. Another aspect of their function, however, may be to generate currents large enough to have physiological consequences. The standard model for electrogenic transport is the alternating access model, in which serotonin is transported with a fixed ratio of co-transported ions resulting in net charge per cycle. The alternating access model, however, cannot account for all the observed currents through SERT or other monoamine transporters.&amp;nbsp; Furthermore, SERT agonists like ecstasy or antagonists like fluoxetine generate or suppress currents that the standard model cannot support.&amp;nbsp; Here we survey evidence for a channel mode of transport in which transmitters and ions move through a pore. Available structures for dopamine and serotonin transporters, however, provide no evidence for a pore conformation, raising questions of whether the proposed channel mode actually exists or whether the structural data are perhaps missing a transient open state.">
+            <meta name="citation_keywords" content="5-HT, alternating access model, SLC6, electrogenic transport, Serotonin transporters, ">
+            <meta name="citation_journal_title" content="F1000Research">
+            <meta name="citation_author" content="Louis J. De Felice">
+            <meta name="citation_author_institution" content="Physiology and Biophysics, School of Medicine, Virginia Commonwealth University, Richmond, VA, USA">
+            <meta name="citation_publication_date" content="2016/07/28">
+            <meta name="citation_volume" content="5">
+            <meta name="citation_publication_number" content="1884">
+            <meta name="citation_version_number" content="1">
+            <meta name="citation_doi" content="10.12688/f1000research.8384.1">
+            <meta name="citation_firstpage" content="1884">
+            <meta name="citation_pdf_url" content="https://f1000research.com/articles/5-1884/v1/pdf">
+    
+
+    
+    <link href="/img/favicon-research.ico" rel="shortcut icon" type="image/ico">
+    <link href="/img/favicon-research.ico" rel="icon" type="image/ico">
+
+        <link rel="stylesheet" href="/1597255280893/css/mdl/material-design-lite.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.2.43/css/materialdesignicons.min.css" />
+
+        
+            
+    <link rel="stylesheet" href="/1597255280893/css/F1000Research.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/animation.css" type="text/css" media="all" />
+
+        <!--[if IE 7]><link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons-ie7.css" media="all" /><![endif]-->
+
+                    <script>dataLayer = [];</script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54Z2SBK');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="/1597255280893/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="/1597255280893/js/shared_scripts/sticky.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/shared_scripts/menu.js"></script>
+    <script src="/1597255280893/js/shared_scripts/navbar.js"></script>
+    <script src="/1597255280893/js/shared_scripts/platforms.js"></script>
+    <script src="/1597255280893/js/shared_scripts/object-polyfills.js"></script>
+            <script src="/1597255280893/js/vendor/lodash.min.js"></script>
+        <script>CKEDITOR_BASEPATH='https://f1000research.com/js/ckeditor/'</script>
+    <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/plugins.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/app/research.js"></script>
+    <script>window.reactTheme = 'research';</script>
+    <script src="/1597255280893/js/public/bundle.js"></script>
+
+    <script src="/1597255280893/js/app/research.ui.js"></script>
+    <script src="/1597255280893/js/app/login.js"></script>
+    <script src="/1597255280893/js/app/main.js"></script>
+    <script src="/1597255280893/js/app/js-date-format.min.js"></script>
+    <script src="/1597255280893/js/app/search.js"></script>
+    <script src="/1597255280893/js/app/cookies_warning.js"></script>
+    <script src="/1597255280893/js/mdl/mdl.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/ckeditor.js"></script>
+            <script src="/js/ckeditor/adapters/jquery.js"></script>
+                <script src="/js/article/article_scrolling_module.js"></script>
+            <script src="/js/article/article_stats.js"></script>
+            <script src="/js/article/article.js"></script>
+            <script src="/js/shared_scripts/referee_timeline_pagination.js"></script>
+            <script src="/js/app/text_editor_controller.js"></script>
+            <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503e5e99593dc42c"></script>
+            <script src="/js/article/article_metrics.js"></script>
+        
+                                                                            <script>
+            if (window.location.hash == '#_=_'){
+                window.location = window.location.href.split('#')[0]
+            }
+        </script>
+
+                    
+        
+    <!-- pixelId: 1641728616063202 :: assetPixelId: 6034867600215 :: funderPixelId:  -->
+
+            <!-- Facebook pixel code (merged with EP GTM code) -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+
+            {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+            ;if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1641728616063202');
+
+            
+            fbq('track', "PixelInitialized", {});
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1641728616063202&noscript=1&amp;ev=PixelInitialized"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+                <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:917825,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+</head>
+<body  class="o-page-container no-js p-article o-layout-reset   ">
+
+    
+                            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54Z2SBK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+        
+    <div class="o-page">
+
+        <div id="notify-container"></div>
+        <div id="pageWarning"></div>
+        <div id="pageMessage"></div>
+        <div id="pageFooterMessage"></div>
+
+                                <div id="f1r-ga-data" data-name="f1r-ga-data" class="f1r-ga-data"
+                data-user-registered="false"
+                data-user-module=""
+                data-current-path=""
+                data-location=""
+                data-website="F1000Research"
+                data-websiteDisplayName="F1000Research">
+            </div>
+        
+                
+        
+        <div class="header-wrapper   js-navbar-space ">
+                            
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+                            
+    
+            
+
+
+
+<nav class="c-navbar js-navbar js-mini-nav js-sticky c-navbar--js-sticky c-navbar--userSite c-navbar__platform-bgcolor  c-navbar--bg-f1000research ">
+
+    <div class="c-navbar__content">
+
+                                <div class="c-navbar__extras">
+            <div class="o-wrapper">
+                <div class="o-actions o-actions--middle c-navbar__extras-row">
+                    <div class="o-actions__primary">
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="o-wrapper t-inverted js-sticky-start">
+
+            <div class="c-navbar__branding-row">
+                <div class="c-navbar__row">
+
+
+                                        
+                    <div class="c-navbar__primary u-mr--2">
+
+                                                                                                                                                                                                    <a href="/" class="c-navbar__branding u-ib u-middle"   data-test-id="nav_branding"  >
+                                <img class="u-ib u-middle" src="/img/research/F1000Research_white_solid.svg" alt="F1000Research">
+                            </a>
+                                            </div>
+
+                    <div class="c-navbar__secondary c-navbar__row">
+
+
+                                                
+                                                    <form action="/search" class="-navbar__secondary u-mr--2 c-search-form js-search-form u-hide u-show@navbar">
+                                <label for="searchInput" class="c-search-form__label _mdl-layout">
+                                    <input name="q" type="search" class="c-search-form__input" id="searchInput" placeholder="Search">
+                                    <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                </label>
+                            </form>
+                        
+                                                
+                                                    <div class="c-navbar__primary u-hide u-show@navbar">
+                                <div class="_mdl-layout c-navbar__cta">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--no-shadow mdl-button--multi-line mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                            </div>
+                        
+
+                                                
+                        <span class="u-hide@navbar _mdl-layout u-nowrap">
+
+                                                            <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" data-focus="#navbar_mob_search_input" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_search_mob"  ><i class="material-icons">search</i></button>
+                            
+                                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-button--multi-line c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" type="button" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_toggle_mob"  >
+                                    <i class="material-icons c-navbar__toggle-open">menu</i>
+                                    <i class="material-icons c-navbar__toggle-close">close</i>
+                                </button>
+                                                    </span>
+                    </div>
+
+                </div>
+            </div>
+
+                        
+                            <div class="c-navbar__menu-row js-navbar-block is-collapsed" id="navbarMenu">
+
+                                                                                                                                                
+                                                                    
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+
+                                                                
+                                                                                                                                                                                                                                
+                                            
+                    <div class="c-navbar__menu-row-content">
+
+                                                                            <div class="u-hide@navbar c-navbar__menu-bar-spacing">
+                                <form action="/search" class="c-search-form js-search-form">
+                                    <label for="navbar_mob_search_input" class="c-search-form__label _mdl-layout">
+                                        <input id="navbar_mob_search_input" name="q" type="search" class="c-search-form__input" placeholder="Search">
+                                        <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                    </label>
+                                </form>
+                            </div>
+                        
+                        <div class="o-actions o-actions--middle">
+
+                            <div class="o-actions__primary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="main-menu"   role="menubar" aria-label="Main Navigation"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/browse/articles" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="0"
+                              data-test-id="nav_browse"                              >Browse</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/gateways" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_gatewaysViewAndBrowse"                              >Gateways & Collections</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="2"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_for-authors"                              >How to Publish</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="How to Publish">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_submit-manuscript"                      href="/for-authors/publish-your-research"
+                    role="menuitem"
+                    tabindex="0">Submit your Research</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/for-authors/my-submissions"
+                    role="menuitem"
+                    tabindex="-1">My Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines"                      href="/for-authors/article-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines-new-versions"                      href="/for-authors/article-guidelines-new-versions"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines (New Versions)</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_data-guidelines"                      href="/for-authors/data-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Data Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_asset-guidelines"                      href="/for-authors/posters-and-slides-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Posters and Slides Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_document-guidelines"                      href="/for-authors/document-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Document Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-processing-charges"                      href="/for-authors/article-processing-charges"
+                    role="menuitem"
+                    tabindex="-1">Article Processing Charges</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_finding-referees"                      href="/for-authors/tips-for-finding-referees"
+                    role="menuitem"
+                    tabindex="-1">Finding Article Reviewers</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="3"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_about-contact"                              >About</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="About">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_about-page"                      href="/about"
+                    role="menuitem"
+                    tabindex="0">How it Works</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_referee-guidelines"                      href="/for-referees/guidelines"
+                    role="menuitem"
+                    tabindex="-1">For Reviewers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_advisoryPanel"                      href="/advisors"
+                    role="menuitem"
+                    tabindex="-1">Our Advisors</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_policy-page"                      href="/about/policies"
+                    role="menuitem"
+                    tabindex="-1">Policies</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_glossary-page"                      href="/glossary"
+                    role="menuitem"
+                    tabindex="-1">Glossary</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_faqs-page"                      href="/faqs"
+                    role="menuitem"
+                    tabindex="-1">FAQs</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              u-hide u-show@navbar"
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      u-hide u-show@navbar"
+                                          data-test-id="nav_for-developers"                      href="/developers"
+                    role="menuitem"
+                    tabindex="-1">For Developers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_newsroom-page"                      href="/newsroom"
+                    role="menuitem"
+                    tabindex="-1">Newsroom</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_contact-page"                      href="/contact"
+                    role="menuitem"
+                    tabindex="-1">Contact</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="4"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="https://blog.f1000.com/blogs/f1000research/" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                             target="_blank"                                                         tabindex="-1"
+                              data-test-id="nav_blog"                              >Blog</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                            <div class="o-actions__secondary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="secondary-items"   role="menubar" aria-label="My Account"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="0"
+                              data-test-id="nav_my-research"                              >My Research</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="My Research">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/login?originalPath=/my/submissions"
+                    role="menuitem"
+                    tabindex="0">Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-email-alerts"                      href="/login?originalPath=/my/email-alerts"
+                    role="menuitem"
+                    tabindex="-1">Content and Tracking Alerts</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-user-details"                      href="/login?originalPath=/my/user-details"
+                    role="menuitem"
+                    tabindex="-1">My Details</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/login?originalPath=/articles/5-1884.html" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_sign-in"                              >Sign In</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                                                                                        <div class="_mdl-layout c-navbar__cta u-hide@navbar c-navbar__menu-bar-spacing">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--multi-line mdl-button--no-shadow mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research_mob"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+            
+        </div>
+
+    </div>
+
+</nav>
+                    </div>
+
+        <div class="content-wrapper o-page__main row ">
+            <div id="highlight-area" class="content ">
+                
+
+
+
+
+
+<div id=article-metadata class=hidden> <input type=hidden name=versionId value=9017 /> <input type=hidden id=articleId name=articleId value=8384 /> <input type=hidden id=xmlUrl value="/articles/5-1884/v1/xml"/> <input type=hidden id=xmlFileName value="-5-1884-v1.xml"> <input type=hidden id=article_uuid value=7f36a330-9fad-4c84-a099-fce85be1ead8 /> <input type=hidden id=referer value=""/> <input type=hidden id=meta-article-title value="A current view of serotonin transporters"/> <input type=hidden id=workspace-export-url value="https://sciwheel.com/work/api/import/external?doi=10.12688/f1000research.8384.1"/> <input type=hidden id=versionDoi value="10.12688/f1000research.8384.1"/> <input type=hidden id=usePmcStats value=true /> </div> <main class="o-wrapper p-article__wrapper js-wrapper"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://f1000research.com/articles/5-1884"
+  },
+  "headline": "A current view of serotonin transporters",
+  "datePublished": "2016-07-28T14:29:18",
+  "dateModified": "2016-07-28T14:29:18",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Louis J. De Felice"
+    }  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F1000Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+      "height": 480,
+      "width": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+    "height": 1200,
+    "width": 150
+  },
+  "description": "Serotonin transporters (SERTs) are largely recognized for one aspect of their function&mdash;to transport serotonin back into the presynaptic terminal after its release. Another aspect of their function, however, may be to generate currents large enough to have physiological consequences. The standard model for electrogenic transport is the alternating access model, in which serotonin is transported with a fixed ratio of co-transported ions resulting in net charge per cycle. The alternating access model, however, cannot account for all the observed currents through SERT or other monoamine transporters.  Furthermore, SERT agonists like ecstasy or antagonists like fluoxetine generate or suppress currents that the standard model cannot support.  Here we survey evidence for a channel mode of transport in which transmitters and ions move through a pore. Available structures for dopamine and serotonin transporters, however, provide no evidence for a pore conformation, raising questions of whether the proposed channel mode actually exists or whether the structural data are perhaps missing a transient open state."
+}
+</script> <div class="o-layout o-layout--right-gutter"> <div id=article_secondary-column class="p-article__main o-layout__item u-font-size--legal u-2/3@article not-expanded "> <div class=float-left> <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+              {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@id": "https://f1000research.com/",
+            "name": "Home"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "2",
+          "item": {
+            "@id": "https://f1000research.com/browse/articles",
+            "name": "Browse"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "3",
+          "item": {
+            "@id": "https://f1000research.com/articles/5-1884.html",
+            "name": "A current view of serotonin transporters"
+          }
+        }          ]
+  }
+  </script> <div class="breadcrumbs js-breadcrumbs"> <a href="/" class=f1r-standard-link>Home</a> <span class=item_separator></span> <a href="/browse/articles" class=f1r-standard-link>Browse</a> <span class=item_separator></span> A current view of serotonin transporters </div> </div> <div class="article-badges-container u-mb--2"> <div class=crossmark-new> <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script> <a data-target=crossmark><img height=30 width=150 src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg"/></a> </div> <div id=crossmark-dialog style="display: none;" title=""> <iframe id=crossmark-dialog-frame frameborder=0></iframe> </div> <div class=clearfix></div> </div> <div class=article-interaction-container> <div id=main-article-count-box class=article-count-box> <div class="article-metrics-wrapper metrics-icon-wrapper" data-version-id=9017 data-id=8384 data-downloads="" data-views="" data-scholar="10.12688/f1000research.8384.1" data-recommended="" data-doi="10.12688/f1000research.8384.1" data-f1r-ga-helper="Article Page Metrics (Desktop)"> <span class="metrics-on-browse article-metrics-icon f1r-icon icon-89_metrics"></span> <div class="count-title article-metrics-text">ALL Metrics</div> <div class=js-article-metrics-container></div> </div> <div> <div class=count-delimiter></div> <div title="Total views from F1000Research and PubMed Central"> <div class="count-container view-count js-views-count">-</div> <div class=count-title><span class="count-title-icon count-title-views-icon"></span>Views</div> </div> <div class=download-counts hidden> <div class=count-delimiter></div> <div title="Total downloads from F1000Research and PubMed Central"> <div class="count-container js-downloads-count"></div> <div class=count-title><span class="count-title-icon f1r-icon icon-76_download_file"></span>Downloads</div> </div> </div> </div> </div> <div id=main-article-interaction-box class="article-interaction-box has-control-tab"> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-102_download_pdf"></span> <a href="https://f1000research.com/articles/5-1884/v1/pdf?article_uuid=7f36a330-9fad-4c84-a099-fce85be1ead8" title="Download PDF" class="button-link download pdf-download-helper" target=_blank>Get PDF</a> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-103_download_xml"></span> <a id=download-xml href="#" class="button-link download" title="Download XML">Get XML</a> </div> </div> <div class="article-interaction-info article-page"> <div class="cite-article-popup-wrapper article-page-interaction-box"> <div class="article-interaction-button cite-article-button" title="Cite this article" data-windowref=cite-article-popup-8384-1> <span class="f1r-icon icon-82_quote"></span> <a href="#" class="button-link cite-article-popup-link" title="Cite Article">Cite</a> </div> <div id=cite-article-popup-8384-1 class="popup-window-wrapper is-hidden"> <div class=cite-popup-background></div> <div class="popup-window top-popup cite-this-article-box research-layout"> <div class="popup-window-title small cite-title">How to cite this article</div> <span id=cite-article-text-8384-1 data-test-id=copy-citation_text> <span class="article-title-and-info in-popup">De Felice LJ. A current view of serotonin transporters [version 1; peer review: 3 approved]</span>. <i>F1000Research</i> 2016, <b>5</b>(F1000 Faculty Rev):1884 (<a class=new-orange href="https://doi.org/10.12688/f1000research.8384.1" target=_blank>https://doi.org/10.12688/f1000research.8384.1</a>) </span> <div class="popup-window-title small margin-top-20 margin-bottom-20 note"> <strong>NOTE:</strong> it is important to ensure the information in square brackets after the title is included in all citations of this article. </div> <div class=float-right> <button class="secondary no-fill orange-text-and-border margin-right-20 close-cite-popup uppercase">Close</button> <button id=copy-citation-details class="secondary orange copy-cite-article-version uppercase js-clipboard" title="Copy the current citation details to the clipboard." data-clipboard-target="#cite-article-text-8384-1" data-test-id=copy-citation_button>Copy Citation Details</button> </div> </div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-76_download_file"></span> <a id=export-citation href="#" class="button-link download" title="Export Citation">Export</a> </div> <div class="modal-window-wrapper is-hidden"> <div id=export-citation-popup class="modal-window padding-20"> <div class=modal-window-close-button></div> <div class=modal-window-title>Export Citation</div> <div class=modal-window-row> <div> <input type=radio name=export-citation-option value=WORKSPACE /> <span class=radio-label>Sciwheel</span> </div> <div> <input type=radio name=export-citation-option value=ENDNOTE /> <span class=radio-label>EndNote</span> </div> <div> <input type=radio name=export-citation-option value=REF_MANAGER /> <span class=radio-label>Ref. Manager</span> </div> <div> <input type=radio name=export-citation-option value=BIBTEX /> <span class=radio-label>Bibtex</span> </div> <div> <input type=radio name=export-citation-option value=PROCITE /> <span class=radio-label>ProCite</span> </div> <div> <input type=radio name=export-citation-option value=SENTE /> <span class=radio-label>Sente</span> </div> </div> <div class=modal-window-footer> <button class=general-white-orange-button id=export-citation-submit>EXPORT</button> </div> <div class=default-error style="display: none;">Select a format first</div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-90_track"></span> <a class="button-link track-article" data-article-id=8384 id=track-article-signin-8384 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/8384?target=/articles/5-1884.html">Track</a> </div> </div> <div class="article-interaction-info article-page"> <div class="article-interaction-button email-article"> <span class="f1r-icon icon-6_email"></span> <a href="#" class=button-link title="Email this article">Email</a> </div> <div class="email-article-version-container small-tooltip _chrome-fix"> <div class=close-icon><span class="f1r-icon icon-3_close_big"></span></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=9017 /> <input name=articleId type=hidden value=8384 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-34_share"></span> <a href="#" class="button-link last addthis_button share-article" title="Share this article">Share</a> </div> </div> </div> <div id=article-interaction-control-tab class=article-interaction-control-tab> <div id=hide-article-interaction class=article-interaction-control title="Hide Toolbox">&#9644;</div> <div id=show-article-interaction class="article-interaction-control open" title="Show Toolbox">&#10010;</div> </div> </div> <div class="article-header-information article-page"> <div class="f1r-article-mobile article-heading-bar"></div> <div class="article-type article-display">Review </div> <div class="article-title-and-info article-view highlighted-article" id=anchor-title> <h1>A current view of serotonin transporters</h1><span class=other-info> [version 1; peer review: 3 approved]</span> </div> <div class=article-subtitle></div> <div class=f1r-article-desk> <div class="authors _mdl-layout"><span class=""><a href="mailto:ljdefelice@vcu.edu" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Louis J. De Felice</span></a></span></div> </div> <div class=f1r-article-mobile> <div class="authors _mdl-layout"><span class=""><a href="mailto:ljdefelice@vcu.edu" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Louis J. De Felice</span></a></span></div> </div> <div class=f1r-article-mobile> <div class=article-pubinfo-mobile> PUBLISHED 28 Jul 2016 </div> </div> <span class=Z3988 title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft_id=info:doi/10.12688%2Ff1000research.8384.1"></span> <div class=f1r-article-desk> <div class="contracted-details first"> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> Physiology and Biophysics, School of Medicine, Virginia Commonwealth University, Richmond, VA, USA<br/> <p> </p> </div> </div> </div> <div class=f1r-article-mobile> <div class="article-page-section-box margin-bottom-40 research-layout"> <span class=box-title> <span class="f1r-icon icon-85_peer_review"></span> OPEN PEER REVIEW </span> <button class="tertiary grey float-right" data-scrollto=article-reports>DETAILS</button> <div class="status-row referee-reports-container"> REVIEWER STATUS <span class=status-icons> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=14389-15276></span> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=14391-15275></span> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=14392-15274></span> </span> </div> </div> </div> </div> <h2 class="article-headings article-page-abstract" id=anchor-abstract> <span class="f1r-article-mobile-inline abstract-heading-border"></span> Abstract </h2> <div class="article-abstract article-page-general-text-mobile research-layout"> <div class="abstract-text is-expanded"> Serotonin transporters (SERTs) are largely recognized for one aspect of their function—to transport serotonin back into the presynaptic terminal after its release. Another aspect of their function, however, may be to generate currents large enough to have physiological consequences. The standard model for electrogenic transport is the alternating access model, in which serotonin is transported with a fixed ratio of co-transported ions resulting in net charge per cycle. The alternating access model, however, cannot account for all the observed currents through SERT or other monoamine transporters.&nbsp; Furthermore, SERT agonists like ecstasy or antagonists like fluoxetine generate or suppress currents that the standard model cannot support.&nbsp; Here we survey evidence for a channel mode of transport in which transmitters and ions move through a pore. Available structures for dopamine and serotonin transporters, however, provide no evidence for a pore conformation, raising questions of whether the proposed channel mode actually exists or whether the structural data are perhaps missing a transient open state. </div> <div class=abstract-for-mobile> <div class="margin-top-30 padding-bottom-30 research-layout is-centered"> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border show" style="display: none;"> READ ALL <span class="f1r-icon icon-14_more_small orange vmiddle big"></span> </button> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border hide"> READ LESS <span class="f1r-icon icon-10_less_small orange vmiddle big"></span> </button> </div> </div> </div> <div class=clearfix></div> <div class="article-context no-divider"> <div class="article-abstract article-page-general-text-mobile research-layout generated-article-body"> <h2 class=main-title>Keywords</h2> <p class="u-mb--0 u-pb--2"> 5-HT, alternating access model, SLC6, electrogenic transport, Serotonin transporters, </p> </div> </div> <div class=article-information> <span class="info-separation padding-bottom"> <div id=corresponding-author-icon class="email-icon float-left"> <span class="f1r-icon icon-6_email orange"></span> <div id=corresponding-author-window class="margin-top-20 popup-window-wrapper is-hidden"> <div class="popup-window corresponding-authors-popup"> <div class=corresponding-author-container> <div class="popup-window-title small">Corresponding Author(s)</div> <div class=authors> Louis J. De Felice (<a href="mailto:ljdefelice@vcu.edu">ljdefelice@vcu.edu</a>) </div> </div> <div class="margin-top margin-bottom float-left"> <button id=close-popup-window class=general-white-orange-button>Close</button> </div> </div> </div> </div> <span class="icon-text float-left" data-test-id=box-corresponding-author> <b>Corresponding author:</b> Louis J. De Felice </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom competing-interests-display"> <span class=competing-interests-title>Competing interests:</span> The author declares that he has no competing interests. </span> <div class="info-separation padding-bottom grant-information-display"> <span class=grant-information-title>Grant information:</span> This work was supported by the National Institutes of Health (NIH) grant no. R01DA033930. <br/> </div> <span class="f1r-article-desk info-separation padding-bottom"> <span class="copywrite-icon float-left"> <span class="f1r-icon icon-100_open_access"></span> </span> <span class="icon-text float-left" data-test-id=box-copyright-text> <b>Copyright:</b>&nbsp; © 2016 De Felice LJ. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom" data-test-id=box-how-to-cite> <b>How to cite:</b> <span class="article-title-and-info in-article-box"> De Felice LJ. A current view of serotonin transporters [version 1; peer review: 3 approved]</span>. <i>F1000Research</i> 2016, <b>5</b>(F1000 Faculty Rev):1884 (<a href="https://doi.org/10.12688/f1000research.8384.1" target=_blank>https://doi.org/10.12688/f1000research.8384.1</a>) </span> <span class=info-separation data-test-id=box-first-published><b>First published:</b> 28 Jul 2016, <b>5</b>(F1000 Faculty Rev):1884 (<a href="https://doi.org/10.12688/f1000research.8384.1" target=_blank>https://doi.org/10.12688/f1000research.8384.1</a>)</span> <span class=info-separation data-test-id=box-latest-published><b>Latest published:</b> 28 Jul 2016, <b>5</b>(F1000 Faculty Rev):1884 (<a href="https://doi.org/10.12688/f1000research.8384.1" target=_blank>https://doi.org/10.12688/f1000research.8384.1</a>)</span> </div> <div class=clearfix></div> <div id=article-context class=article-context> <div id=article1-body class=generated-article-body><p class="" id=d27241e142>What happens when 5-hydroxytryptamine (5-HT) and therapeutic or abused drugs interact with the serotonin transporter? In addition to pharmacokinetics, drug metabolism, and the complexities of the serotonergic system, the events occurring directly at the serotonin transporter (SERT) will help us understand how therapeutic and abused drugs work. Neurotransmitter transporters and their role in synaptic transmission are broad subjects, and many topics, including the important role of 5-HT in the enteric nervous system, are not covered here. Previous reviews include<sup><a href="#ref-1">1</a>–<a href="#ref-10">10</a></sup>. This commentary focuses on the transporter and small molecules (neurotransmitters and drugs) that interact with the transporter. Our discussion inevitably involves the function of SERT in heterologous expression systems, other transporters like the dopamine transporter (DAT), and currently available structural data on the solute carrier 6 (SLC6) family of neurotransmitter transporters, of which both SERT and DAT are members. This commentary also broaches the concept of channel activity in SERT, as this property is one of the most controversial but least well understood.</p><p class="" id=d27241e152>Biochemical characterization of SERT began in 1977, when Gary Rudnick used plasma membrane vesicles from human platelets containing human SERT (hSERT)<sup><a href="#ref-11">11</a></sup> to study Na<sup>+</sup> and Cl<sup>−</sup> coupled 5-HT transport. Rudnick <i>et al.</i> concluded that SERT, in common with NET (norepinephrine transporter) and DAT, has an obligatory functional dependence on Na<sup>+</sup> and Cl<sup>−</sup>: 5-HT transport cannot occur without the co-transport of one Na<sup>+</sup> and one Cl<sup>−</sup> ion. The standard model for monoamine transporters, and SERT in particular, thus posits fixed stoichiometry of transmitter and ions, which, in the presence of ion gradients, can drive a transmitter against its own gradient<sup><a href="#ref-12">12</a>–<a href="#ref-22">22</a></sup>. In one form of this model, the influx of 5-HT (a monovalent cation at physiological pH) with Na<sup>+</sup> and Cl<sup>−</sup> is coupled to the efflux of one K<sup>+</sup> ion, thus rendering SERT electroneutral<sup><a href="#ref-23">23</a></sup>. However, we now know that SERT is electrogenic and that 5-HT transport generates current. It is critical to understand the molecular basis of these currents because they figure prominently in the action of antidepressants and drugs of abuse<sup><a href="#ref-22">22</a>,<a href="#ref-24">24</a>–<a href="#ref-29">29</a></sup>.</p><p class="" id=d27241e212>Two models have been proposed to explain the intriguing phenomenon of ion currents, neither of which is mutually exclusive. One model incorporates both uptake and current in one kinetic scheme<sup><a href="#ref-30">30</a></sup>, and so in this sense these two events are coupled. Another model attributes current to fixed stoichiometry, electrogenic alternating access transport with the ‘uncoupled’ current perhaps being caused by an occasional ‘slip’ into a channel mode. Such a phenomenon may occur in <i>Drosophila</i> SERT (dSERT)<sup><a href="#ref-31">31</a></sup>, which exhibits remarkably high currents, with 50 charges per 5-HT (at −80 mV) versus 5–12 charges for its mammalian counterparts<sup><a href="#ref-32">32</a></sup>. In dSERT, one of the putative extracellular gating residues is a polar asparagine instead of an acidic glutamate, as in hSERT, and thus presumably would be able to form only a hydrogen bond rather than a stronger salt bridge with its positively charged (arginine) gating partner. Regardless of the model invoked to explain transporter currents, the role of these currents at the serotonergic synapse remains unclear.</p><p class="" id=d27241e230>An important experiment potentially related to this question was performed by Dieter Bruns <i>et al.</i>, who used an <i>in vivo</i> preparation: the giant serotonergic synapse of the medicinal leech<sup><a href="#ref-33">33</a></sup>. This work measured pre- and postsynaptic currents in response to timed presynaptic 5-HT release. Distinguishing between presynaptic versus postsynaptic events as well as transporter versus receptor current was achieved by specific, targeted placement of recording electrodes and well-established pharmacological intervention. Interestingly, the postsynaptic ionotropic 5-HT3 receptor generated current <i>after</i> the presynaptic current associated with 5-HT transport back into the presynaptic terminal. Only a brief delay occurred between a presynaptic Ca<sup>++</sup> flash, release of 5-HT, and a presynaptic SERT current that was earlier than, but comparable in size to, the post-synaptic, 5-HT3-gated receptor current. It would seem impossible for traditional models to explain such large SERT currents, and these data suggest that a channel may exist within SERT, although no structural evidence yet exists for such a channel.</p><p class="" id=d27241e250>A recent study<sup><a href="#ref-34">34</a></sup> provided the first structural glimpse into hSERT, but only structures of a transport-deficient variant, dubbed “TS3”, in complex with two inhibitors, are described. The resolution of the transport-competent variant, dubbed “TS2”, is low (~4.5 Å) with no 5-HT, inhibitor or ions present in the electron density and consequently none in the deposited coordinate file. Higher-resolution structural studies coupled with sophisticated biophysical experiments of a transport-competent SERT in multiple conformations will be required to visualize a channel if one exists. Nevertheless, such a channel-like state may be transient and thus still be challenging to capture unless stabilized in some way. Note that existing crystal structures of homologous transporters, such as the bacterial SLC6 orthologue LeuT, which is widely used to model plasma membrane monoamine transporters, along with recent structures of <i>Drosophila</i> DAT (dDAT), provide evidence for the fixed stoichiometry, alternating access model, with no hint of a channel<sup><a href="#ref-35">35</a>–<a href="#ref-38">38</a></sup>. However, the absence of such a conformation does not disprove its existence. Indeed, the proteins used for crystallization either do not exhibit channel activity (LeuT) or are highly thermostabilized, transport-deficient/impaired mutants (hSERT and dDAT) that may simply be incapable of sampling the channel-like state present in the wild-type proteins.</p><p class="" id=d27241e267>Unlike the biogenic amine transporters, glutamate transporters, which belong to a functionally and structurally distinct neurotransmitter transporter family (SLC1), have been known for decades to embody an authentic Cl<sup>−</sup> channel and thus operate normally as both a glutamate carrier and a Cl<sup>−</sup> ion channel<sup><a href="#ref-39">39</a>–<a href="#ref-45">45</a></sup>. Is there any structural evidence for a channel in this family? Structural breakthroughs within the SLC1 family have emerged from work on an archaeal glutamate transporter homolog from <i>Pyroccocus horikoshii</i>, known as Glt<sub>ph</sub><sup><a href="#ref-46">46</a></sup>. Importantly, Glt<sub>ph</sub> has a bona-fide Cl<sup>−</sup> channel<sup><a href="#ref-47">47</a></sup>, akin to its eukaryotic counterparts. In the crystal structure of a crosslinked Glt<sub>ph</sub> mutant (Glt<sub>ph</sub>-V198C-A380C) with bound mercury, one of the protomers of the asymmetric trimer serendipitously assumes an intermediate outward-facing state in which a small cavity between the transport and trimerization domains appears to be accessible from both sides of the membrane. Although this conformation may be stabilized by crystal packing, as the authors remark, the structure offers a tantalizing molecular glimpse into a plausible channel-like state<sup><a href="#ref-48">48</a></sup>. By contrast, as mentioned above, none of the SLC6 structures solved to date reveals such an open pathway.</p><p class="" id=d27241e313>If a channel exists within SLC6 members, do currents that carry Na<sup>+</sup> or Cl<sup>−</sup> ions share a pathway with 5-HT? In 2011, Henry <i>et al.</i> studied the effect of an asparagine-to-alanine mutation at position 101 in TM1 of hSERT<sup><a href="#ref-49">49</a></sup>, which, according to LeuT-based homology models and the recent hSERT structure, resides within the transport permeation pathway, close to the putative 5-HT and ion-binding sites. Henry <i>et al.</i> found that the N101A mutation eliminated Cl<sup>−</sup> dependence of 5-HT transport, 5-HT-induced currents, and 5-HT-independent leak currents. In fact, the N101A mutant evoked a much greater 5-HT/charge flux ratio (relative to that found in the wild-type) despite its reduced surface expression. These data suggest that N101 likely determines both Na<sup>+</sup>-coupled transport and channel pathways.</p><p class="" id=d27241e339>We also know that SERT and DAT have distinct functional states<sup><a href="#ref-50">50</a>–<a href="#ref-52">52</a></sup>, and although these may reflect distinct structural pathways, there is no proof of this. However, we must conclude that perfectly coupled, fixed stoichiometric models are incomplete, if for no other reason than the existence of leak currents<sup><a href="#ref-53">53</a></sup>. Furthermore, 5-HT-induced macroscopic currents are 100 to 1,000 times larger than can be explained by a fixed stoichiometry, alternating access model, and this is another indirect argument for the existence of a channel-like pathway in SERT<sup><a href="#ref-4">4</a></sup>.</p><p class="" id=d27241e357>Theories of transport based on flux coupling (also called frictional models) can account for observed macroscopic currents and are consistent with the existence of single transporter events<sup><a href="#ref-4">4</a>,<a href="#ref-31">31</a>,<a href="#ref-33">33</a>,<a href="#ref-54">54</a>–<a href="#ref-59">59</a></sup>. Then how is it possible that present structural data of plasma membrane monoamine transporters provide no evidence for the existence of current-generating ion pathways? Perhaps channel states in this class of transporters are unstable, simply resistant to structural analysis, especially (as mentioned above) with the thermostabilized constructs normally required to grow diffraction-quality crystals, or perhaps they need to be crystallized within a membrane-like environment, as would occur in the lipidic cubic phase<sup><a href="#ref-60">60</a></sup> of phospholipid bilayer nanodiscs. Perhaps both a current-generating construct combined with a lipidic milieu are necessary and, though entirely speculative, may need to be partnered with a presynaptic regulatory protein as would actually occur in the cell. Regardless, without structural evidence for channels in plasma membrane monoamine transporters, the existing functional data will lie dormant.</p><p class="" id=d27241e380>Let us return to the original question: What happens when 5-HT, therapeutic drugs, or abused drugs arrive at the serotonin transporter? As 5-HT is transported, SERT generates large depolarizing currents that are incompatible with fixed stoichiometry models but consistent with channel models<sup><a href="#ref-4">4</a>,<a href="#ref-27">27</a>,<a href="#ref-31">31</a>,<a href="#ref-61">61</a></sup>. For drugs of abuse, consider as an example that ecstasy generates larger currents through SERT than 5-HT does. The resulting depolarization due to these currents is sufficient to open voltage-gated Ca<sup>++</sup> channels<sup><a href="#ref-29">29</a></sup>. The influx of Ca<sup>++</sup> could itself have effects, but certainly the resulting depolarization in serotonergic neurons would increase excitability and presynaptic 5-HT release. On the other hand, when uptake inhibitors interact with hSERT, in addition to blocking uptake they also block the inherent transporter leak current and that would hyperpolarize serotonergic neurons and decrease the probability of 5-HT release. These few examples suggest a larger picture of how transporter agonists and antagonists may influence the function of SERT in neurons given the channel-like properties of SERT. In conclusion, SERT is not only a 5-HT carrier but also may transiently act as an ion channel poised for pharmacological manipulation.</p></div><div id=article1-back class=generated-article-footer><div class=back-section><a name=d27241e1 class=n-a></a><h2 class=main-title id=d27374>Competing interests</h2><p class=metadata-entry><a name=d27241e66 class=n-a></a><p id=d27241e68> The author declares that he has no competing interests.</p></p></div><div class=back-section><a name=d27241e1 class=n-a></a><h2 class=main-title id=d27376>Grant information</h2><p>This work was supported by the National Institutes of Health (NIH) grant no. R01DA033930.</p></div><div class=back-section><a name=d27241e410 class=n-a></a><span class="research-layout prime-recommended-wrapper reference-heading"><span class="f1r-icon icon-79_faculty_recommended_badge red vmiddle default-cursor"></span><span class="prime-red big">F1000 recommended</span></span><h2 class=main-title id=d27582>References</h2><div class="section ref-list"><a name=d27241e410 class=n-a></a><ul><li><a name=ref-1 class=n-a></a><span class=label>1. </span>&nbsp;<span class=citation><a name=d27241e417 class=n-a></a>Amara SG: Neurotransmitter transporters: new insights into structure, function and pharmacology. <i>Rev Bras Biol.</i> 1996; <b>56</b>(Su 1 Pt 1): 5–19. <a target=xrefwindow id=d27241e425 href="http://www.ncbi.nlm.nih.gov/pubmed/9394486">PubMed Abstract </a></span></li><li><a name=ref-2 class=n-a></a><span class=label>2. </span>&nbsp;<span class=citation><a name=d27241e434 class=n-a></a>Blakely RD, DeFelice LJ: All aglow about presynaptic receptor regulation of neurotransmitter transporters. <i>Mol Pharmacol.</i> 2007; <b>71</b>(5): 1206–8. <a target=xrefwindow id=d27241e442 href="http://www.ncbi.nlm.nih.gov/pubmed/17329498">PubMed Abstract </a> | <a target=xrefwindow id=d27241e445 href="http://dx.doi.org/10.1124/mol.107.035493">Publisher Full Text </a></span></li><li><a name=ref-3 class=n-a></a><span class=label>3. </span>&nbsp;<span class=citation><a name=d27241e454 class=n-a></a>Bröer S, Gether U: The solute carrier 6 family of transporters. <i>Br J Pharmacol.</i> 2012; <b>167</b>(2): 256–78. <a target=xrefwindow id=d27241e462 href="http://www.ncbi.nlm.nih.gov/pubmed/22519513">PubMed Abstract </a> | <a target=xrefwindow id=d27241e465 href="http://dx.doi.org/10.1111/j.1476-5381.2012.01975.x">Publisher Full Text </a> | <a target=xrefwindow id=d27241e468 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3481037">Free Full Text </a></span></li><li><a name=ref-4 class=n-a></a><span class=label>4. </span>&nbsp;<span class=citation><a name=d27241e477 class=n-a></a>DeFelice LJ, Goswami T: Transporters as channels. <i>Annu Rev Physiol.</i> 2007; <b>69</b>: 87–112. <a target=xrefwindow id=d27241e485 href="http://www.ncbi.nlm.nih.gov/pubmed/17059369">PubMed Abstract </a> | <a target=xrefwindow id=d27241e488 href="http://dx.doi.org/10.1146/annurev.physiol.69.031905.164816">Publisher Full Text </a></span></li><li><a name=ref-5 class=n-a></a><span class=label>5. </span>&nbsp;<span class=citation><a name=d27241e497 class=n-a></a>Kristensen AS, Andersen J, Jørgensen TN, <i> et al.</i>: SLC6 neurotransmitter transporters: structure, function, and regulation. <i>Pharmacol Rev.</i> 2011; <b>63</b>(3): 585–640. <a target=xrefwindow id=d27241e508 href="http://www.ncbi.nlm.nih.gov/pubmed/21752877">PubMed Abstract </a> | <a target=xrefwindow id=d27241e511 href="http://dx.doi.org/10.1124/pr.108.000869">Publisher Full Text </a></span></li><li><a name=ref-6 class=n-a></a><span class=label>6. </span>&nbsp;<span class=citation><a name=d27241e521 class=n-a></a>Lester HA, Cao Y, Mager S: Listening to neurotransmitter transporters. <i>Neuron.</i> 1996; <b>17</b>(5): 807–10. <a target=xrefwindow id=d27241e529 href="http://www.ncbi.nlm.nih.gov/pubmed/8938113">PubMed Abstract </a> | <a target=xrefwindow id=d27241e532 href="http://dx.doi.org/10.1016/b978-0-12-374920-8.00821-3">Publisher Full Text </a></span></li><li><a name=ref-7 class=n-a></a><span class=label>7. </span>&nbsp;<span class=citation><a name=d27241e541 class=n-a></a>Naftalin RJ, De Felice LJ: 8.11 Transporters and Co-transporters in Theory and Practice. In: <i>Comprehensive Biophysics</i>. Elsevier, 2012; <b>8</b>: 228–264. <a target=xrefwindow id=d27241e549 href="http://dx.doi.org/10.1016/b978-0-12-374920-8.00821-3">Publisher Full Text </a></span></li><li><a name=ref-8 class=n-a></a><span class=label>8. </span>&nbsp;<span class=citation><a name=d27241e558 class=n-a></a>Rudnick G: Serotonin transporters--structure and function. <i>J Membr Biol.</i> 2006; <b>213</b>(2): 101–10. <a target=xrefwindow id=d27241e566 href="http://www.ncbi.nlm.nih.gov/pubmed/17417703">PubMed Abstract </a> | <a target=xrefwindow id=d27241e569 href="http://dx.doi.org/10.1007/s00232-006-0878-4">Publisher Full Text </a></span></li><li><a name=ref-9 class=n-a></a><span class=label>9. </span>&nbsp;<span class=citation><a name=d27241e578 class=n-a></a>Sulzer D: How addictive drugs disrupt presynaptic dopamine neurotransmission. <i>Neuron.</i> 2011; <b>69</b>(4): 628–49. <a target=xrefwindow id=d27241e586 href="http://www.ncbi.nlm.nih.gov/pubmed/21338876">PubMed Abstract </a> | <a target=xrefwindow id=d27241e589 href="http://dx.doi.org/10.1016/j.neuron.2011.02.010">Publisher Full Text </a> | <a target=xrefwindow id=d27241e592 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3065181">Free Full Text </a></span></li><li><a name=ref-10 class=n-a></a><span class=label>10. </span>&nbsp;<span class=citation><a name=d27241e601 class=n-a></a>Sulzer D, Galli A: Dopamine transport currents are promoted from curiosity to physiology. <i>Trends Neurosci.</i> 2003; <b>26</b>(4): 173–6. <a target=xrefwindow id=d27241e609 href="http://www.ncbi.nlm.nih.gov/pubmed/12689764">PubMed Abstract </a> | <a target=xrefwindow id=d27241e612 href="http://dx.doi.org/10.1016/S0166-2236(03)00063-8">Publisher Full Text </a></span></li><li><a name=ref-11 class=n-a></a><span class=label>11. </span>&nbsp;<span class=citation><a name=d27241e621 class=n-a></a>Rudnick G: Active transport of 5-hydroxytryptamine by plasma membrane vesicles isolated from human blood platelets. <i>J Biol Chem.</i> 1977; <b>252</b>(7): 2170–4. <a target=xrefwindow id=d27241e629 href="http://www.ncbi.nlm.nih.gov/pubmed/849926">PubMed Abstract </a></span></li><li><a name=ref-12 class=n-a></a><span class=label>12. </span>&nbsp;<span class=citation><a name=d27241e639 class=n-a></a>Gu H, Caplan MJ, Rudnick G: Cloned catecholamine transporters expressed in polarized epithelial cells: sorting, drug sensitivity, and ion-coupling stoichiometry. <i>Adv Pharmacol.</i> 1998; <b>42</b>: 175–9. <a target=xrefwindow id=d27241e647 href="http://www.ncbi.nlm.nih.gov/pubmed/9327872">PubMed Abstract </a> | <a target=xrefwindow id=d27241e650 href="http://dx.doi.org/10.1016/S1054-3589(08)60721-8">Publisher Full Text </a></span></li><li><a name=ref-13 class=n-a></a><span class=label>13. </span>&nbsp;<span class=citation><a name=d27241e659 class=n-a></a>Gu H, Wall SC, Rudnick G: Stable expression of biogenic amine transporters reveals differences in inhibitor sensitivity, kinetics, and ion dependence. <i>J Biol Chem.</i> 1994; <b>269</b>(10): 7124–30. <a target=xrefwindow id=d27241e667 href="http://www.ncbi.nlm.nih.gov/pubmed/8125921">PubMed Abstract </a></span></li><li><a name=ref-14 class=n-a></a><span class=label>14. </span>&nbsp;<span class=citation><a name=d27241e676 class=n-a></a>Gu HH, Ahn J, Caplan MJ, <i> et al.</i>: Cell-specific sorting of biogenic amine transporters expressed in epithelial cells. <i>J Biol Chem.</i> 1996; <b>271</b>(30): 18100–6. <a target=xrefwindow id=d27241e687 href="http://www.ncbi.nlm.nih.gov/pubmed/8663573">PubMed Abstract </a> | <a target=xrefwindow id=d27241e690 href="http://dx.doi.org/10.1074/jbc.271.30.18100">Publisher Full Text </a></span></li><li><a name=ref-15 class=n-a></a><span class=label>15. </span>&nbsp;<span class=citation><a name=d27241e699 class=n-a></a>Gu HH, Wall S, Rudnick G: Ion coupling stoichiometry for the norepinephrine transporter in membrane vesicles from stably transfected cells. <i>J Biol Chem.</i> 1996; <b>271</b>(12): 6911–6. <a target=xrefwindow id=d27241e707 href="http://www.ncbi.nlm.nih.gov/pubmed/8636118">PubMed Abstract </a> | <a target=xrefwindow id=d27241e710 href="http://dx.doi.org/10.1074/jbc.271.12.6911">Publisher Full Text </a></span></li><li><a name=ref-16 class=n-a></a><span class=label>16. </span>&nbsp;<span class=citation><a name=d27241e719 class=n-a></a>Gu HH, Wu X, Giros B, <i> et al.</i>: The NH(2)-terminus of norepinephrine transporter contains a basolateral localization signal for epithelial cells. <i>Mol Biol Cell.</i> 2001; <b>12</b>(12): 3797–807. <a target=xrefwindow id=d27241e730 href="http://www.ncbi.nlm.nih.gov/pubmed/11739781">PubMed Abstract </a> | <a target=xrefwindow id=d27241e733 href="http://dx.doi.org/10.1091/mbc.12.12.3797 ">Publisher Full Text </a> | <a target=xrefwindow id=d27241e737 href="http://www.ncbi.nlm.nih.gov/pmc/articles/60756">Free Full Text </a></span></li><li><a name=ref-17 class=n-a></a><span class=label>17. </span>&nbsp;<span class=citation><a name=d27241e746 class=n-a></a>Gu HH, Wu X, Han DD: Conserved serine residues in serotonin transporter contribute to high-affinity cocaine binding. <i>Biochem Biophys Res Commun.</i> 2006; <b>343</b>(4): 1179–85. <a target=xrefwindow id=d27241e754 href="http://www.ncbi.nlm.nih.gov/pubmed/16580636">PubMed Abstract </a> | <a target=xrefwindow id=d27241e757 href="http://dx.doi.org/10.1016/j.bbrc.2006.03.096">Publisher Full Text </a></span></li><li><a name=ref-18 class=n-a></a><span class=label>18. </span>&nbsp;<span class=citation><a name=d27241e767 class=n-a></a>Gu XF, Azmitia EC: Integrative transporter-mediated release from cytoplasmic and vesicular 5-hydroxytryptamine stores in cultured neurons. <i>Eur J Pharmacol.</i> 1993; <b>235</b>(1): 51–7. <a target=xrefwindow id=d27241e775 href="http://www.ncbi.nlm.nih.gov/pubmed/8100196">PubMed Abstract </a> | <a target=xrefwindow id=d27241e778 href="http://dx.doi.org/10.1016/0014-2999(93)90819-4">Publisher Full Text </a></span></li><li><a name=ref-19 class=n-a></a><span class=label>19. </span>&nbsp;<span class=citation><a name=d27241e787 class=n-a></a>Gu Y, Shrivastava IH, Amara SG, <i> et al.</i>: Molecular simulations elucidate the substrate translocation pathway in a glutamate transporter. <i>Proc Natl Acad Sci U S A.</i> 2009; <b>106</b>(8): 2589–94. <a target=xrefwindow id=d27241e798 href="http://www.ncbi.nlm.nih.gov/pubmed/19202063">PubMed Abstract </a> | <a target=xrefwindow id=d27241e801 href="http://dx.doi.org/10.1073/pnas.0812299106">Publisher Full Text </a> | <a target=xrefwindow id=d27241e805 href="http://www.ncbi.nlm.nih.gov/pmc/articles/2637273">Free Full Text </a></span></li><li><a name=ref-20 class=n-a></a><span class=label>20. </span>&nbsp;<span class=citation><a name=d27241e814 class=n-a></a>Rudnick G: Bioenergetics of neurotransmitter transport. <i>J Bioenerg Biomembr.</i> 1998; <b>30</b>(2): 173–85. <a target=xrefwindow id=d27241e822 href="http://www.ncbi.nlm.nih.gov/pubmed/9672239">PubMed Abstract </a> | <a target=xrefwindow id=d27241e825 href="http://dx.doi.org/10.1023/A:1020573325823">Publisher Full Text </a></span></li><li><a name=ref-21 class=n-a></a><span class=label>21. </span>&nbsp;<span class=citation><a name=d27241e834 class=n-a></a>Rudnick G: Ion-coupled neurotransmitter transport: thermodynamic vs. kinetic determinations of stoichiometry. <i>Meth Enzymol.</i> 1998; <b>296</b>: 233–47. <a target=xrefwindow id=d27241e842 href="http://www.ncbi.nlm.nih.gov/pubmed/9779452">PubMed Abstract </a> | <a target=xrefwindow id=d27241e845 href="http://dx.doi.org/10.1016/S0076-6879(98)96018-9">Publisher Full Text </a></span></li><li><a name=ref-22 class=n-a></a><span class=label>22. </span>&nbsp;<span class=citation><a name=d27241e854 class=n-a></a>Rudnick G, Wall SC: The molecular mechanism of "ecstasy" [3,4-methylenedioxy-methamphetamine (MDMA)]: serotonin transporters are targets for MDMA-induced serotonin release. <i>Proc Natl Acad Sci U S A.</i> 1992; <b>89</b>(5): 1817–21. <a target=xrefwindow id=d27241e862 href="http://www.ncbi.nlm.nih.gov/pubmed/1347426">PubMed Abstract </a> | <a target=xrefwindow id=d27241e865 href="http://dx.doi.org/10.1073/pnas.89.5.1817">Publisher Full Text </a> | <a target=xrefwindow id=d27241e868 href="http://www.ncbi.nlm.nih.gov/pmc/articles/48544">Free Full Text </a></span></li><li><a name=ref-23 class=n-a></a><span class=label>23. </span>&nbsp;<span class=citation><a name=d27241e877 class=n-a></a>Rudnick G, Nelson PJ: Platelet 5-hydroxytryptamine transport, an electroneutral mechanism coupled to potassium. <i>Biochemistry.</i> 1978; <b>17</b>(22): 4739–42. <a target=xrefwindow id=d27241e885 href="http://www.ncbi.nlm.nih.gov/pubmed/728383">PubMed Abstract </a> | <a target=xrefwindow id=d27241e888 href="http://dx.doi.org/10.1021/bi00615a021">Publisher Full Text </a></span></li><li><a name=ref-24 class=n-a></a><span class=label>24. </span>&nbsp;<span class=citation><a name=d27241e898 class=n-a></a>Baumann MH, Clark RD, Rothman RB: Locomotor stimulation produced by 3,4-methylenedioxymethamphetamine (MDMA) is correlated with dialysate levels of serotonin and dopamine in rat brain. <i>Pharmacol Biochem Behav.</i> 2008; <b>90</b>(2): 208–17. <a target=xrefwindow id=d27241e906 href="http://www.ncbi.nlm.nih.gov/pubmed/18403002">PubMed Abstract </a> | <a target=xrefwindow id=d27241e909 href="http://dx.doi.org/10.1016/j.pbb.2008.02.018">Publisher Full Text </a> | <a target=xrefwindow id=d27241e912 href="http://www.ncbi.nlm.nih.gov/pmc/articles/2491560">Free Full Text </a></span></li><li><a name=ref-25 class=n-a></a><span class=label>25. </span>&nbsp;<span class=citation><a name=d27241e921 class=n-a></a>Cameron KN, Kolanos R, Solis E Jr, <i> et al.</i>: <i>Bath salts</i> components mephedrone and methylenedioxypyrovalerone (MDPV) act synergistically at the human dopamine transporter. <i>Br J Pharmacol.</i> 2013; <b>168</b>(7): 1750–7. <a target=xrefwindow id=d27241e935 href="http://www.ncbi.nlm.nih.gov/pubmed/23170765">PubMed Abstract </a> | <a target=xrefwindow id=d27241e939 href="http://dx.doi.org/10.1111/bph.12061">Publisher Full Text </a> | <a target=xrefwindow id=d27241e942 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3605880">Free Full Text </a></span></li><li><a name=ref-26 class=n-a></a><span class=label>26. </span>&nbsp;<span class=citation><a name=d27241e951 class=n-a></a>Cameron K, Kolanos R, Vekariya R, <i> et al.</i>: Mephedrone and methylenedioxypyrovalerone (MDPV), major constituents of "bath salts," produce opposite effects at the human dopamine transporter. <i>Psychopharmacology (Berl).</i> 2013; <b>227</b>(3): 493–9. <a target=xrefwindow id=d27241e962 href="http://www.ncbi.nlm.nih.gov/pubmed/23371489">PubMed Abstract </a> | <a target=xrefwindow id=d27241e965 href="http://dx.doi.org/10.1007/s00213-013-2967-2">Publisher Full Text </a> | <a target=xrefwindow id=d27241e969 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3881434">Free Full Text </a></span></li><li><a name=ref-27 class=n-a></a><span class=label>27. </span>&nbsp;<span class=citation><a name=d27241e978 class=n-a></a>De Felice LJ, Glennon RA, Negus SS: Synthetic cathinones: chemical phylogeny, physiology, and neuropharmacology. <i>Life Sci.</i> 2014; <b>97</b>(1): 20–6. <a target=xrefwindow id=d27241e986 href="http://www.ncbi.nlm.nih.gov/pubmed/24231923">PubMed Abstract </a> | <a target=xrefwindow id=d27241e989 href="http://dx.doi.org/10.1016/j.lfs.2013.10.029">Publisher Full Text </a> | <a target=xrefwindow id=d27241e992 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3944897">Free Full Text </a></span></li><li><a name=ref-28 class=n-a></a><span class=label>28. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/719847810"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1001 class=n-a></a>Kehr J, Ichinose F, Yoshitake S, <i> et al.</i>: Mephedrone, compared with MDMA (ecstasy) and amphetamine, rapidly increases both dopamine and 5-HT levels in nucleus accumbens of awake rats. <i>Br J Pharmacol.</i> 2011; <b>164</b>(8): 1949–58. <a target=xrefwindow id=d27241e1012 href="http://www.ncbi.nlm.nih.gov/pubmed/21615721">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1015 href="http://dx.doi.org/10.1111/j.1476-5381.2011.01499.x">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1019 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3246659">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/719847810">F1000 Recommendation</a></span></li><li><a name=ref-29 class=n-a></a><span class=label>29. </span>&nbsp;<span class=citation><a name=d27241e1032 class=n-a></a>Ruchala I, Cabra V, Solis E Jr, <i> et al.</i>: Electrical coupling between the human serotonin transporter and voltage-gated Ca<sup>2+</sup> channels. <i>Cell Calcium.</i> 2014; <b>56</b>(1): 25–33. <a target=xrefwindow id=d27241e1046 href="http://www.ncbi.nlm.nih.gov/pubmed/24854234">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1050 href="http://dx.doi.org/10.1016/j.ceca.2014.04.003">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1053 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4052380">Free Full Text </a></span></li><li><a name=ref-30 class=n-a></a><span class=label>30. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/718182253"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1063 class=n-a></a>Sandtner W, Schmid D, Schicker K, <i> et al.</i>: A quantitative model of amphetamine action on the 5-HT transporter. <i>Br J Pharmacol.</i> 2014; <b>171</b>(4): 1007–18. <a target=xrefwindow id=d27241e1074 href="http://www.ncbi.nlm.nih.gov/pubmed/24251585">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1077 href="http://dx.doi.org/10.1111/bph.12520">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1081 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3925039">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/718182253">F1000 Recommendation</a></span></li><li><a name=ref-31 class=n-a></a><span class=label>31. </span>&nbsp;<span class=citation><a name=d27241e1094 class=n-a></a>Petersen CI, DeFelice LJ: Ionic interactions in the <i>Drosophila</i> serotonin transporter identify it as a serotonin channel. <i>Nat Neurosci.</i> 1999; <b>2</b>(7): 605–10. <a target=xrefwindow id=d27241e1105 href="http://www.ncbi.nlm.nih.gov/pubmed/10404179">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1108 href="http://dx.doi.org/10.1038/10158">Publisher Full Text </a></span></li><li><a name=ref-32 class=n-a></a><span class=label>32. </span>&nbsp;<span class=citation><a name=d27241e1117 class=n-a></a>Gerstbrein K, Sitte HH: Currents in neurotransmitter transporters. <i>Handb Exp Pharmacol.</i> 2006; (175): 95–111. <a target=xrefwindow id=d27241e1122 href="http://www.ncbi.nlm.nih.gov/pubmed/16722232">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1125 href="http://dx.doi.org/10.1007/3-540-29784-7_5">Publisher Full Text </a></span></li><li><a name=ref-33 class=n-a></a><span class=label>33. </span>&nbsp;<span class=citation><a name=d27241e1134 class=n-a></a>Bruns D, Engert F, Lux HD: A fast activating presynaptic reuptake current during serotonergic transmission in identified neurons of Hirudo. <i>Neuron.</i> 1993; <b>10</b>(4): 559–72. <a target=xrefwindow id=d27241e1142 href="http://www.ncbi.nlm.nih.gov/pubmed/8386524">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1145 href="http://dx.doi.org/10.1016/0896-6273(93)90159-O">Publisher Full Text </a></span></li><li><a name=ref-34 class=n-a></a><span class=label>34. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/726268077"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1154 class=n-a></a>Coleman JA, Green EM, Gouaux E: X-ray structures and mechanism of the human serotonin transporter. <i>Nature.</i> 2016; <b>532</b>(7599): 334–9. <a target=xrefwindow id=d27241e1162 href="http://www.ncbi.nlm.nih.gov/pubmed/27049939">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1165 href="http://dx.doi.org/10.1038/nature17629">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1168 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4898786">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/726268077">F1000 Recommendation</a></span></li><li><a name=ref-35 class=n-a></a><span class=label>35. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/13484090"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1181 class=n-a></a>Krishnamurthy H, Gouaux E: X-ray structures of LeuT in substrate-free outward-open and apo inward-open states. <i>Nature.</i> 2012; <b>481</b>(7382): 469–74. <a target=xrefwindow id=d27241e1189 href="http://www.ncbi.nlm.nih.gov/pubmed/22230955">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1192 href="http://dx.doi.org/10.1038/nature10737">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1195 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3306218">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/13484090">F1000 Recommendation</a></span></li><li><a name=ref-36 class=n-a></a><span class=label>36. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/725495971"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1209 class=n-a></a>Wang KH, Penmatsa A, Gouaux E: Neurotransmitter and psychostimulant recognition by the dopamine transporter. <i>Nature.</i> 2015; <b>521</b>(7552): 322–7. <a target=xrefwindow id=d27241e1217 href="http://www.ncbi.nlm.nih.gov/pubmed/25970245">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1220 href="http://dx.doi.org/10.1038/nature14431">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1223 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4469479">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/725495971">F1000 Recommendation</a></span></li><li><a name=ref-37 class=n-a></a><span class=label>37. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/1142860"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1236 class=n-a></a>Singh SK, Piscitelli CL, Yamashita A, <i> et al.</i>: A competitive inhibitor traps LeuT in an open-to-out conformation. <i>Science.</i> 2008; <b>322</b>(5908): 1655–61. <a target=xrefwindow id=d27241e1247 href="http://www.ncbi.nlm.nih.gov/pubmed/19074341">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1250 href="http://dx.doi.org/10.1126/science.1166777">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1254 href="http://www.ncbi.nlm.nih.gov/pmc/articles/2832577">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/1142860">F1000 Recommendation</a></span></li><li><a name=ref-38 class=n-a></a><span class=label>38. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/1027082"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1267 class=n-a></a>Yamashita A, Singh SK, Kawate T, <i> et al.</i>: Crystal structure of a bacterial homologue of Na<sup>+</sup>/Cl<sup>-</sup>-dependent neurotransmitter transporters. <i>Nature.</i> 2005; <b>437</b>(7056): 215–23. <a target=xrefwindow id=d27241e1285 href="http://www.ncbi.nlm.nih.gov/pubmed/16041361">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1288 href="http://dx.doi.org/10.1038/nature03978">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/1027082">F1000 Recommendation</a></span></li><li><a name=ref-39 class=n-a></a><span class=label>39. </span>&nbsp;<span class=citation><a name=d27241e1301 class=n-a></a>Arriza JL, Fairman WA, Wadiche JI, <i> et al.</i>: Functional comparisons of three glutamate transporter subtypes cloned from human motor cortex. <i>J Neurosci.</i> 1994; <b>14</b>(9): 5559–69. <a target=xrefwindow id=d27241e1312 href="http://www.ncbi.nlm.nih.gov/pubmed/7521911">PubMed Abstract </a></span></li><li><a name=ref-40 class=n-a></a><span class=label>40. </span>&nbsp;<span class=citation><a name=d27241e1321 class=n-a></a>Fairman WA, Vandenberg RJ, Arriza JL, <i> et al.</i>: An excitatory amino-acid transporter with properties of a ligand-gated chloride channel. <i>Nature.</i> 1995; <b>375</b>(6532): 599–603. <a target=xrefwindow id=d27241e1332 href="http://www.ncbi.nlm.nih.gov/pubmed/7791878">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1335 href="http://dx.doi.org/10.1038/375599a0">Publisher Full Text </a></span></li><li><a name=ref-41 class=n-a></a><span class=label>41. </span>&nbsp;<span class=citation><a name=d27241e1344 class=n-a></a>Kavanaugh MP, Arriza JL, North RA, <i> et al.</i>: Electrogenic uptake of gamma-aminobutyric acid by a cloned transporter expressed in <i>Xenopus</i> oocytes. <i>J Biol Chem.</i> 1992; <b>267</b>(31): 22007–9. <a target=xrefwindow id=d27241e1358 href="http://www.ncbi.nlm.nih.gov/pubmed/1429551">PubMed Abstract </a></span></li><li><a name=ref-42 class=n-a></a><span class=label>42. </span>&nbsp;<span class=citation><a name=d27241e1368 class=n-a></a>Larsson HP, Picaud SA, Werblin FS, <i> et al.</i>: Noise analysis of the glutamate-activated current in photoreceptors. <i>Biophys J.</i> 1996; <b>70</b>(2): 733–42. <a target=xrefwindow id=d27241e1379 href="http://www.ncbi.nlm.nih.gov/pubmed/8789090">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1382 href="http://dx.doi.org/10.1016/S0006-3495(96)79613-3">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1386 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1224973">Free Full Text </a></span></li><li><a name=ref-43 class=n-a></a><span class=label>43. </span>&nbsp;<span class=citation><a name=d27241e1395 class=n-a></a>Vandenberg RJ, Arriza JL, Amara SG, <i> et al.</i>: Constitutive ion fluxes and substrate binding domains of human glutamate transporters. <i>J Biol Chem.</i> 1995; <b>270</b>(30): 17668–71. <a target=xrefwindow id=d27241e1406 href="http://www.ncbi.nlm.nih.gov/pubmed/7629063">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1409 href="http://dx.doi.org/10.1074/jbc.270.30.17668">Publisher Full Text </a></span></li><li><a name=ref-44 class=n-a></a><span class=label>44. </span>&nbsp;<span class=citation><a name=d27241e1418 class=n-a></a>Wadiche JI, Amara SG, Kavanaugh MP: Ion fluxes associated with excitatory amino acid transport. <i>Neuron.</i> 1995; <b>15</b>(5): 721–8. <a target=xrefwindow id=d27241e1426 href="http://www.ncbi.nlm.nih.gov/pubmed/7546750">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1429 href="http://dx.doi.org/10.1016/0896-6273(95)90159-0">Publisher Full Text </a></span></li><li><a name=ref-45 class=n-a></a><span class=label>45. </span>&nbsp;<span class=citation><a name=d27241e1438 class=n-a></a>Wadiche JI, Arriza JL, Amara SG, <i> et al.</i>: Kinetics of a human glutamate transporter. <i>Neuron.</i> 1995; <b>14</b>(5): 1019–27. <a target=xrefwindow id=d27241e1449 href="http://www.ncbi.nlm.nih.gov/pubmed/7748550">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1452 href="http://dx.doi.org/10.1016/0896-6273(95)90340-2">Publisher Full Text </a></span></li><li><a name=ref-46 class=n-a></a><span class=label>46. </span>&nbsp;<span class=citation><a name=d27241e1461 class=n-a></a>Yernool D, Boudker O, Jin Y, <i> et al.</i>: Structure of a glutamate transporter homologue from <i>Pyrococcus horikoshii</i>. <i>Nature.</i> 2004; <b>431</b>(7010): 811–8. <a target=xrefwindow id=d27241e1475 href="http://www.ncbi.nlm.nih.gov/pubmed/15483603">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1479 href="http://dx.doi.org/10.1038/nature03018">Publisher Full Text </a></span></li><li><a name=ref-47 class=n-a></a><span class=label>47. </span>&nbsp;<span class=citation><a name=d27241e1488 class=n-a></a>Ryan RM, Mindell JA: The uncoupled chloride conductance of a bacterial glutamate transporter homolog. <i>Nat Struct Mol Biol.</i> 2007; <b>14</b>(5): 365–71. <a target=xrefwindow id=d27241e1496 href="http://www.ncbi.nlm.nih.gov/pubmed/17435767">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1499 href="http://dx.doi.org/10.1038/nsmb1230">Publisher Full Text </a></span></li><li><a name=ref-48 class=n-a></a><span class=label>48. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/14082956"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1509 class=n-a></a>Verdon G, Boudker O: Crystal structure of an asymmetric trimer of a bacterial glutamate transporter homolog. <i>Nat Struct Mol Biol.</i> 2012; <b>19</b>(3): 355–7. <a target=xrefwindow id=d27241e1517 href="http://www.ncbi.nlm.nih.gov/pubmed/22343718">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1520 href="http://dx.doi.org/10.1038/nsmb.2233">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1523 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3633560">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/14082956">F1000 Recommendation</a></span></li><li><a name=ref-49 class=n-a></a><span class=label>49. </span>&nbsp;<span class=citation><a name=d27241e1536 class=n-a></a>Henry LK, Iwamoto H, Field JR, <i> et al.</i>: A conserved asparagine residue in transmembrane segment 1 (TM1) of serotonin transporter dictates chloride-coupled neurotransmitter transport. <i>J Biol Chem.</i> 2011; <b>286</b>(35): 30823–36. <a target=xrefwindow id=d27241e1547 href="http://www.ncbi.nlm.nih.gov/pubmed/21730057">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1550 href="http://dx.doi.org/10.1074/jbc.M111.250308">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1554 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3162443">Free Full Text </a></span></li><li><a name=ref-50 class=n-a></a><span class=label>50. </span>&nbsp;<span class=citation><a name=d27241e1563 class=n-a></a>Mager S, Min C, Henry DJ, <i> et al.</i>: Conducting states of a mammalian serotonin transporter. <i>Neuron.</i> 1994; <b>12</b>(4): 845–59. <a target=xrefwindow id=d27241e1574 href="http://www.ncbi.nlm.nih.gov/pubmed/8161456">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1577 href="http://dx.doi.org/10.1016/0896-6273(94)90337-9">Publisher Full Text </a></span></li><li><a name=ref-51 class=n-a></a><span class=label>51. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/13382991"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1586 class=n-a></a>Rodriguez-Menchaca AA, Solis E JR, Cameron K, <i> et al.</i>: S(+)amphetamine induces a persistent leak in the human dopamine transporter: molecular stent hypothesis. <i>Br J Pharmacol.</i> 2012; <b>165</b>(8): 2749–57. <a target=xrefwindow id=d27241e1597 href="http://www.ncbi.nlm.nih.gov/pubmed/22014068">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1600 href="http://dx.doi.org/10.1111/j.1476-5381.2011.01728.x">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1604 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3423253">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/13382991">F1000 Recommendation</a></span></li><li><a name=ref-52 class=n-a></a><span class=label>52. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/1012341"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1617 class=n-a></a>Quick MW: Regulating the conducting states of a mammalian serotonin transporter. <i>Neuron.</i> 2003; <b>40</b>(3): 537–49. <a target=xrefwindow id=d27241e1625 href="http://www.ncbi.nlm.nih.gov/pubmed/14642278">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1628 href="http://dx.doi.org/10.1016/S0896-6273(03)00605-6">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/1012341">F1000 Recommendation</a></span></li><li><a name=ref-53 class=n-a></a><span class=label>53. </span>&nbsp;<span class=citation><a name=d27241e1641 class=n-a></a>Sonders MS, Zhu SJ, Zahniser NR, <i> et al.</i>: Multiple ionic conductances of the human dopamine transporter: the actions of dopamine and psychostimulants. <i>J Neurosci.</i> 1997; <b>17</b>(3): 960–74. <a target=xrefwindow id=d27241e1652 href="http://www.ncbi.nlm.nih.gov/pubmed/8994051">PubMed Abstract </a></span></li><li><a name=ref-54 class=n-a></a><span class=label>54. </span>&nbsp;<span class=citation><a name=d27241e1662 class=n-a></a>Adams SV, DeFelice LJ: Flux coupling in the human serotonin transporter. <i>Biophys J.</i> 2002; <b>83</b>(6): 3268–82. <a target=xrefwindow id=d27241e1670 href="http://www.ncbi.nlm.nih.gov/pubmed/12496095">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1673 href="http://dx.doi.org/10.1016/S0006-3495(02)75328-9">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1676 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1302403">Free Full Text </a></span></li><li><a name=ref-55 class=n-a></a><span class=label>55. </span>&nbsp;<span class=citation><a name=d27241e1685 class=n-a></a>Adams SV, DeFelice LJ: Ionic currents in the human serotonin transporter reveal inconsistencies in the alternating access hypothesis. <i>Biophys J.</i> 2003; <b>85</b>(3): 1548–59. <a target=xrefwindow id=d27241e1693 href="http://www.ncbi.nlm.nih.gov/pubmed/12944272">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1696 href="http://dx.doi.org/10.1016/S0006-3495(03)74587-1">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1699 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1303331">Free Full Text </a></span></li><li><a name=ref-56 class=n-a></a><span class=label>56. </span>&nbsp;<span class=citation><a name=d27241e1708 class=n-a></a>Carvelli L, McDonald PW, Blakely RD, <i> et al.</i>: Dopamine transporters depolarize neurons by a channel mechanism. <i>Proc Natl Acad Sci U S A.</i> 2004; <b>101</b>(45): 16046–51. <a target=xrefwindow id=d27241e1719 href="http://www.ncbi.nlm.nih.gov/pubmed/15520385">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1722 href="http://dx.doi.org/10.1073/pnas.0403299101">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1726 href="http://www.ncbi.nlm.nih.gov/pmc/articles/528740">Free Full Text </a></span></li><li><a name=ref-57 class=n-a></a><span class=label>57. </span>&nbsp;<span class=citation><a name=d27241e1735 class=n-a></a>Galli A, Blakely RD, DeFelice LJ: Patch-clamp and amperometric recordings from norepinephrine transporters: channel activity and voltage-dependent uptake. <i>Proc Natl Acad Sci U S A.</i> 1998; <b>95</b>(22): 13260–5. <a target=xrefwindow id=d27241e1743 href="http://www.ncbi.nlm.nih.gov/pubmed/9789076">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1746 href="http://dx.doi.org/10.1073/pnas.95.22.13260">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1749 href="http://www.ncbi.nlm.nih.gov/pmc/articles/23775">Free Full Text </a></span></li><li><a name=ref-58 class=n-a></a><span class=label>58. </span>&nbsp;<span class=citation><a name=d27241e1758 class=n-a></a>Lin F, Lester HA, Mager S: Single-channel currents produced by the serotonin transporter and analysis of a mutation affecting ion permeation. <i>Biophys J.</i> 1996; <b>71</b>(6): 3126–35. <a target=xrefwindow id=d27241e1766 href="http://www.ncbi.nlm.nih.gov/pubmed/8968583">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1769 href="http://dx.doi.org/10.1016/S0006-3495(96)79506-1">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1772 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1233801">Free Full Text </a></span></li><li><a name=ref-59 class=n-a></a><span class=label>59. </span>&nbsp;<span class=citation><a name=d27241e1781 class=n-a></a>Su A, Mager S, Mayo SL, <i> et al.</i>: A multi-substrate single-file model for ion-coupled transporters. <i>Biophys J.</i> 1996; <b>70</b>(2): 762–77. <a target=xrefwindow id=d27241e1792 href="http://www.ncbi.nlm.nih.gov/pubmed/8789093">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1795 href="http://dx.doi.org/10.1016/S0006-3495(96)79616-9">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1799 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1224976">Free Full Text </a></span></li><li><a name=ref-60 class=n-a></a><span class=label>60. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="http://f1000.com/prime/720551582"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d27241e1809 class=n-a></a>Cherezov V: Lipidic cubic phase technologies for membrane protein structural studies. <i>Curr Opin Struct Biol.</i> 2011; <b>21</b>(4): 559–66. <a target=xrefwindow id=d27241e1817 href="http://www.ncbi.nlm.nih.gov/pubmed/21775127">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1820 href="http://dx.doi.org/10.1016/j.sbi.2011.06.007">Publisher Full Text </a> | <a target=xrefwindow id=d27241e1823 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3164297">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="http://f1000.com/prime/720551582">F1000 Recommendation</a></span></li><li><a name=ref-61 class=n-a></a><span class=label>61. </span>&nbsp;<span class=citation><a name=d27241e1836 class=n-a></a>Ramsey IS, DeFelice LJ: Serotonin transporter function and pharmacology are sensitive to expression level: evidence for an endogenous regulatory factor. <i>J Biol Chem.</i> 2002; <b>277</b>(17): 14475–82. <a target=xrefwindow id=d27241e1844 href="http://www.ncbi.nlm.nih.gov/pubmed/11844791">PubMed Abstract </a> | <a target=xrefwindow id=d27241e1847 href="http://dx.doi.org/10.1074/jbc.M110783200">Publisher Full Text </a></span></li></ul></div></div></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 28 Jul 2016</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/5-1884.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/5-1884.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> <div class="f1r-article-mobile margin-bottom-30"> <div class=contracted-details> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> Physiology and Biophysics, School of Medicine, Virginia Commonwealth University, Richmond, VA, USA<br/> <p> </p> </div> </div> <div class=contracted-details> <a href="#" class=section-title>Article Versions (1)</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> <div> <a href="https://f1000research.com/articles/5-1884/v1" title="Open version 1 of this article." class="" gahelper=1>version 1</a> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div> Published: 28 Jul 2016, 5:1884 </div> <div class=""><a href="https://doi.org/10.12688/f1000research.8384.1">https://doi.org/10.12688/f1000research.8384.1</a></div> </div> </div> <div class=contracted-details> <a href="#" class=section-title> <span class="f1r-icon icon-100_open_access"></span> Copyright </a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> © 2016 De Felice LJ. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </div> </div> <div class="padding-top-30 research-layout"> <div class=article-toolbox-wrapper-mobile> <div class=article-tools-icon-mobile data-section=download> <span class="f1r-icon icon-76_download_file white"></span> </div> <div class="article-tools-icon-mobile mobile-metrics article-metrics-wrapper metrics-icon-wrapper" data-section=metrics data-version-id=9017 data-id=8384 data-downloads="" data-views="" data-scholar="10.12688/f1000research.8384.1" data-recommended="" data-f1r-ga-helper="Article Page Metrics (Mobile)"> <span class="f1r-icon icon-89_metrics white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=cite> <span class="f1r-icon icon-82_quote white"></span> </div> <div class="article-tools-icon-mobile " data-section=track> <span class="f1r-icon icon-90_track white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=share> <span class="f1r-icon icon-34_share white"></span> </div> <span class=article-toolbox-stretch></span> </div> <div class=article-toolbox-content-mobile> <div class="toolbox-section download"> <div class=toolbox-section-heading>Download</div> <div class=toolbox-section-content> <a href="https://f1000research.com/articles/5-1884/v1/pdf?article_uuid=7f36a330-9fad-4c84-a099-fce85be1ead8" title="Download PDF" class="no-decoration pdf-download-helper"> <span class="f1r-icon icon-102_download_pdf toolbox-section-icon"></span> </a> <div class=toolbox-section-option-divider>&nbsp;</div> <a id=mobile-download-xml class=no-decoration href="#" title="Download XML"> <span class="f1r-icon icon-103_download_xml toolbox-section-icon"></span> </a> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>Export To</div> <div class=toolbox-section-content> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=WORKSPACE>Sciwheel</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=BIBTEX>Bibtex</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=ENDNOTE>EndNote</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=PROCITE>ProCite</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=REF_MANAGER>Ref. Manager (RIS)</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=SENTE>Sente</button> </div> </div> <div class="toolbox-section metrics"> <div class="toolbox-section-heading no-top-border">metrics</div> <div class="toolbox-section-divider toolbox-section-divider--no-height"></div> <div class=article-metrics-pageinfo> <div class=c-article-metrics-table> <table class=c-article-metrics-table__table> <thead> <tr> <th></th> <th><span class=c-article-metrics-table__heading>Views</span></th> <th><span class=c-article-metrics-table__heading>Downloads</span></th> </tr> </thead> <tbody> <tr> <th class=c-article-metrics-table__row-heading><span class="c-article-metrics-table__platform u-platform--" data-test-id=metrics_platform_name_mob>F1000Research</span></th> <td class="c-article-metrics-table__value js-article-views-count" data-test-id=metrics_platform_views_mob>-</td> <td class="c-article-metrics-table__value js-article-downloads-count" data-test-id=metrics_platform_downloads_mob>-</td> </tr> <tr> <th class=c-article-metrics-table__row-heading> <span class="u-ib u-middle c-article-metrics-table__pmc" data-test-id=metrics_pmc_name_mob>PubMed Central</span> <div class="c-block-tip c-block-tip--centered c-article-metrics-table__tooltip c-block-tip--md-padding c-block-tip--small-arrow u-ib u-middle"> <button type=button class="u-black--medium u-black--high@hover u-ib u-middle c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content>Data from PMC are received and updated monthly.</div> </div> </th> <td class="c-article-metrics-table__value js-pmc-views-count" data-test-id=metrics_pmc_views_mob>-</td> <td class="c-article-metrics-table__value js-pmc-downloads-count" data-test-id=metrics_pmc_downloads_mob>-</td> </tr> </tbody> </table> </div> </div> <span class=metrics-citations-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-heading u-mb--1">Citations</div> <div> <div class=toolbox-section-colsplit> <div class=citations-scopus-logo> <a href="" target=_blank class="is-hidden metrics-citation-icon" title="View full citation details at www.scopus.com"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count scopus"> <a href='' class='scopus-citation-link is-hidden' target=_blank title='View full citation details at www.scopus.com'>0</a> </div> </div> <div class=toolbox-section-colsplit> <div class="citations-pubmed-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon f1000research" title="View full citation details"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count pubmed"> <a href='' class='pubmed-citation-link is-hidden' target=_blank title='View full citation details'>0</a> </div> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <div class="citations-scholar-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon google-scholar f1000research" title="View full citation details" data-scholar="10.12688/f1000research.8384.1"><i class="material-icons scopus-icon">open_in_new</i></a> </div> </div> </div> </span> <span class=metrics-details-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-content altmetric-section"> <div class=altmetrics-image></div> <div class=altmetrics-more-link> <a href="" target=_blank class=f1r-standard-link>SEE MORE DETAILS</a> </div> <div class=altmetric-mobile-column-counts></div> <div class=altmetric-mobile-column-readers></div> <div class=toolbox-section-divider></div> </div> </span> </div> <div class="toolbox-section cite"> <div class="toolbox-section-heading no-top-border">CITE</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>how to cite this article</div> <div id=citation-copy-mobile class="toolbox-section-content text-content heading9 small" data-test-id=mob_copy-citation_text> De Felice LJ. A current view of serotonin transporters [version 1; peer review: 3 approved] <i>F1000Research</i> 2016, <b>5</b>(F1000 Faculty Rev):1884 (<a href="https://doi.org/10.12688/f1000research.8384.1" target=_blank>https://doi.org/10.12688/f1000research.8384.1</a>) </div> <div class=toolbox-section-divider></div> <div class="toolbox-section-content text-content heading9 small"> NOTE: <em>it is important to ensure the information in <b>square brackets after the title</b> is included in all citations of this article.</em> </div> <div class=toolbox-section-content> <button class="primary orange extra-padding copy-cite-article-mobile js-clipboard" data-clipboard-target="#citation-copy-mobile" title="Copy the current citation details." data-test-id=mob_copy-citation_button-mob>COPY CITATION DETAILS</button> </div> </div> <div class="toolbox-section track"> <div class="toolbox-section-heading no-top-border">track</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>receive updates on this article</div> <div class="toolbox-section-content padding-left-20 padding-right-20 heading9 small"> Track an article to receive email alerts on any updates to this article. </div> <div class=toolbox-section-content> <a data-article-id=8384 id=mobile-track-article-signin-8384 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/8384?target=/articles/5-1884.html"> <button class="primary orange extra-padding"> TRACK THIS ARTICLE </button> </a> </div> </div> <div class="toolbox-section share"> <div class="toolbox-section-heading no-top-border">Share</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <a target=_blank class="f1r-shares-icon-square f1r-shares-email" title="Email this article"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-twitter" title="Share on Twitter"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-facebook" title="Share on Facebook"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-linkedin" title="Share on LinkedIn"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-reddit" title="Share on Reddit"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-mendelay" title="Share on Mendeley"></a> <div class="email-article-wrapper email-article-version-container"> <div class=toolbox-section-divider></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form-mobile research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=9017 /> <input name=articleId type=hidden value=8384 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> </div> </div> </div> <a name=article-reports></a> <div id=article-reports class="u-mt--3 reports-comments no-divider"> <div class="current-referee-status current-referee-status--faculty "> <h2 class=main-title id=current-referee-status> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-85_peer_review size30"></span> </span> Open Peer Review <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> <a name=current-referee-status></a> <div class=current-referee-status__content name=add-new-report-comment id=add-new-report-comment> Current Reviewer Status: <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile"> <div class=mobile-ref-status-help> Key to Reviewer Statuses <span class=referee-status-pointer></span> <span class="view-control float-right">VIEW</span> <span class="view-control float-right is-hidden">HIDE</span> <div class=mobile-ref-status-help-content> <div class="cf margin-top"> <span class="f1r-icon icon-86_approved status-green smaller float-left margin-bottom-40 margin-right" title=Approved></span> <span class=title>Approved</span>The paper is scientifically sound in its current form and only minor, if any, improvements are suggested </div> <div class="cf margin-top"> <span class="f1r-icon icon-87_approved_reservations status-green smaller float-left margin-bottom-40 margin-right" title="Approved with Reservations"></span> <span class=title>Approved with reservations</span> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </div> <div class="cf margin-top"> <span class="f1r-icon icon-88_not_approved status-red small float-left margin-bottom-30 margin-right" title="Not Approved"></span> <span class=title>Not approved</span>Fundamental flaws in the paper seriously undermine the findings and conclusions </div> </div> </div> </span> <div class=editorial-note> <h5 class=editorial-note__title>Editorial Note on the Review Process</h5> <p class=editorial-note__text><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home">Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> </div> <div class=approved-referee> <h4 class=approved-referee__title>Reviewers who approved this article</h4> <ol class=approved-referee__list> <li class="approved-referee__list-item "> <span class=approved-referee__co-referee> <strong>Henry A. Lester</strong>, Division of Biology and Biological Engineering, California Institute of Technology, USA </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> <li class="approved-referee__list-item margin-top-20"> <span class=approved-referee__co-referee> <strong>Michele Mazzanti</strong>, Department of Biosciences, University of Milano, Italy </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> <li class="approved-referee__list-item margin-top-20"> <span class=approved-referee__co-referee> <strong>Satinder K. Singh</strong>, Department of Cellular and Molecular Physiology, Yale University School of Medicine, USA </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> </ol> </div> </div> </div> </div> <div class="f1r-article-mobile research-layout"> <div class="mobile-sections-divider before-comments"></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 28 Jul 2016</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/5-1884.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/5-1884.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> </div> </div> <div id=article_main-column class="p-article__sidebar o-layout__item u-1/3 not-expanded js-article-sidebar"> <div class="o-tab p-article__column-toggle-container"> <button class="c-tab c-tab--left js-column-toggle p-article__column-toggle not-expanded " type=button data-target-main=article_main-column data-target-secondary=article_secondary-column><i class="c-tab__icon material-icons u-hide@expanded">keyboard_arrow_left</i><i class="c-tab__icon material-icons u-show@expanded">keyboard_arrow_right</i></button> </div> <div class=p-article__sidebar-content> <div class="p-article__sidebar-scroller js-article-sidebar-scroller"> <section class="p-article__sidebar-view js-article-sidebar-view js-article-sidebar-main u-pt u-pb--8" data-view=peer-review> <div class="o-layout o-layout--flush"> <div class="o-layout__item u-pl"> <h3 class="u-mt--0 u-mb--2 t-h3 u-weight--md u-pl" data-test-id=article_sidebar_heading>Open Peer Review</h3> </div> <div class=o-layout__item> <section class=""> <div class="p-article__sidebar-highlight u-mb--2 u-pr--1"> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md u-mr--1/2">Reviewer Status</h4> <div class="c-referee-status__icons u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=14389-15276></i> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=14391-15275></i> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=14392-15274></i> </div> </div> <div class="o-actions__secondary _mdl-layout"> <div class="c-block-tip p-article__sidebar-tooltip c-block-tip--below c-block-tip--small-arrow c-block-tip--sm-padding"> <button type=button class="c-button c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content> <p class="t-body u-mt--0 u-mb--0"><em class=u-weight--md>Alongside their report, reviewers assign a status to the article:</em></p> <dl class=c-definitions> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved</span></dt> <dd class="c-definitions__description t-caption">The paper is scientifically sound in its current form and only minor, if any, improvements are suggested</dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--reservations" title="Approved with Reservations" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved with reservations</span></dt> <dd class="c-definitions__description t-caption"> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--not-approved " title="Not Approved" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Not approved</span></dt> <dd class="c-definitions__description t-caption">Fundamental flaws in the paper seriously undermine the findings and conclusions</dd> </dl> </div> </div> </div> </div> </div> <div class="o-layout__item u-mb--1"><h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md">Reviewer Reports</h4></div> <table class="c-report-timeline u-mb--2"> <thead class=c-report-timeline__headings> <tr> <th></th> <th class="u-pb--1/2" colspan=3><em class="t-body u-weight--rg">Invited Reviewers</em></th> </tr> <tr class=c-report-timeline__headings-row> <th></th> <th class="c-report-timeline__headings-version p-article__color--dark">1</th> <th class="c-report-timeline__headings-version p-article__color--dark">2</th> <th class="c-report-timeline__headings-version p-article__color--dark">3</th> </tr> </thead> <tbody> <tr class="c-report-timeline__row c-report-timeline__row--selected "> <th class=c-report-timeline__version> <a data-test-id=sidebar_timeline_v1_version href="https://f1000research.com/articles/5-1884/v1">Version 1</a><br/> <span class=p-article__color--dark> <span data-test-id=sidebar_timeline_v1_date class=c-report-timeline__date>28 Jul 16</span> </span> </th> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> </tr> </tbody> </table> <div class=o-layout__item> <hr class="c-hr c-hr--low u-mb--2"> </div> </section> </div> <div class=o-layout__item> <div class="u-pl u-pr"> <p class="t-body u-mt--0 u-mb--2"><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home" target=_blank class=in-text-link>Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> <ol class="p-article__faculty-referee-list t-caption"> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Henry A. Lester</strong>, Division of Biology and Biological Engineering, California Institute of Technology, USA </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Michele Mazzanti</strong>, Department of Biosciences, University of Milano, Italy </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Satinder K. Singh</strong>, Department of Cellular and Molecular Physiology, Yale University School of Medicine, USA </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> </ol> </div> </div> <section class="o-layout__item u-pl"> <div class=u-pl> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--2">Comments on this article</h4> <div class=u-mb--4> <p class="u-mt--0 u-mb--1 t-h4"><a class=p-article__color--light href="#article-comments">All Comments</a><span class=" u-ib u-ml--1/2 p-article__color--light">(0)</span></p> <a class=t-h4 href="/login?originalPath=/articles/5-1884.html&scrollTo=add-new-comment" data-test-id=add-comment>Add a comment</a> </div> <hr class="c-hr c-hr--low c-hr--md u-mb--4"> <div class="research-layout f1r-article-desk"> <div class="heading6 c-ribbon-wrapper c-ribbon-wrapper--etoc f1000research "> <div class=c-ribbon-wrapper__body>Sign up for content alerts</div> </div> </div> <div class="research-layout sidebar-sign-up-form f1r-article-desk u-mb--4 "> <form class=js-email-alert-signup action="#" method=POST data-email=tocAlertWeekly> <input type=hidden name=isUserLoggedIn class=js-email-alert-signup-logged-in value=N /> <input type=hidden name=userId class=js-email-alert-signup-user-id value=""/> <input type=hidden name=frequency class=js-email-alert-signup-frequency value=WEEKLY /> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <input type=email name=emailAddress class="form-input-field js-email-alert-signup-address u-1/1 u-bb" required=required placeholder=Email /> </div> <div class=o-actions__secondary> <div class="_mdl-layout u-ml--1/2"> <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--small mdl-button--filled js-email-alert-signup-submit">Sign Up</button> </div> </div> </div> </form> <div id=sidebar-sign-up-message class="section-text js-email-alert-signup-msg is-hidden">You are now signed up to receive this alert</div> </div> <section class=js-terms-container> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--1">Browse by related subjects</h4> <div class="article-subcontainer article-subcontainer--sidebar"> <ul class=js-terms-list></ul> </div> </section> </div> </section> </div> </section> </div> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/read-more.js"></script> <script src="/js/article/article-router.js"></script> <script src="/js/article/article-sidebar.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/article/article-column-toggle.js"></script> </div> </div> </div> </main> <input type=hidden id=_articleVersionUrl value="https://f1000research.com/articles/5-1884/v1/"> <div class=research-help id=about-referee-status> <div class="research-layout research-help-content about-referee-status"> <span class="close-research-help dark-cross" title=Close></span> Alongside their report, reviewers assign a status to the article: <div class="cf research-help-row"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> <span class=research-help-text>Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested</span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-87_approved_reservations status-green smaller" title="Approved with Reservations"></span> <span class=research-help-text>Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-88_not_approved status-red small" title="Not Approved"></span> <span class=research-help-text>Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions</span> </div> </div> </div> <div id=datasets-info class=is-hidden> </div> <div class=article-interactive-content-container style="display: none;"> <a name=f-template class=n-a></a> <div class="interactive-content-wrapper padding-20"> <img src="" class=interactive-content-image title="Open the interactive image display"> <div class=interactive-content-title></div> <div class=interactive-content-text></div> <div class="f1r-article-desk interactive-content-ribbon" data-interactive-content-type=R-Script> <div class=interactive-content-label>Adjust parameters to alter display</div> <div class=interactive-content-button></div> </div> <div class="f1r-article-mobile mobile-interactive-note"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div id=article-interactive-omero-container class=article-interactive-omero-container style="display: none;"> <div class=interactive-content-wrapper> <div class="interactive-omero-button omero-content" title="Open the interactive content window." data-interactive-content-type=Omero></div> <div class=has-interactive-content-image> <span class=box-arrow></span> <span class=box-middle>Includes Interactive Elements</span> <span class=box-end></span> </div> <div class="fig panel clearfix" style="margin: 0; padding-bottom: 20px;"> <a name=templatelink class=n-a></a> <a target=_blank href="" class=link-for-omero-image> <img src="" class=interactive-omero-image title="Open the image display window."> </a> <div class=caption> <div class=interactive-content-title></div> <div class=interactive-content-text></div> </div> <div class="is-hidden omero-image-list"></div> </div> <div class="f1r-article-mobile mobile-interactive-note omero"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div class="add-comment-container shadow-box is-hidden" id=save-comment-container> <span id=save-comment-text class=intro-text>Edit comment</span> <textarea id=new-comment name=new-comment class="global-textarea comment margin-bottom margin-top"></textarea> <p><strong>Competing Interests</strong></p> <textarea id=new-competing-interests name=competing-interests class="global-textarea competing-interests margin-bottom check-xss"></textarea> <div class=clearfix></div> <button id=cancelComment type=button class="general-white-orange-button float-right no-background-button margin-left"> Cancel </button> <button id=save-comment-button commentId="" type=button class="general-white-orange-button float-right"> Save </button> <div class=clearfix></div> <div class="green-message margin-top is-hidden comment-is-saved">The comment has been saved.</div> <div class="red-message margin-top is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class="red-message margin-top is-hidden comment-enter-text ucf">Your must enter a comment.</div> <div class="red-message margin-top is-hidden comment-references-error references">References error.</div> </div> <div class="modal-window-wrapper is-hidden"> <div id=conflicts-interests class="modal-window padding-20"> <div class=modal-window__content> <h2 class=h2-title>Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div class="f1r-article-mobile research-layout"> <span class=modal-window-close-button></span> </div> </div> </div> <div class="o-modal c-email-alert-popup js-email-alert-popup is-hidden"> <div class="o-modal__body js-modal-body c-email-alert-popup__inner"> <h3 class=c-email-alert-popup__title>Stay Updated</h3> <p class=c-email-alert-popup__sub>Sign up for content alerts and receive a weekly or monthly email with all newly published articles</p> <p><a href="/register?originalPath=" class="c-email-alert-popup__lnk c-email-alert-popup__button js-email-alert-popup-action">Register with F1000Research</a></p> <p>Already registered? <a href="/login?originalPath=" class="c-email-alert-popup__lnk js-email-alert-popup-action">Sign in</a></p> <p class=c-email-alert-popup__footer><a class="c-email-alert-popup__lnk js-email-alert-popup-cancel" href="#">Not now, thanks</a></p> </div> </div> <div id=addCommentModal role=dialog aria-labelledby=addCommentModal_title aria-describedby=addCommentModal_description> <div class="c-modal js-modal is-closed p-article__add-comment-modal c-modal--xlarge js-article-comment-modal c-modal--scroll "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-bg--2 c-modal--scroll-always "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <div id=addCommentModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div class="js-add-comment-container t-caption u-black--high"> <div class=u-weight--bd>PLEASE NOTE</div> <div class=u-mt--1> <span class="red u-weight--bd">If you are an AUTHOR of this article,</span> please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a &ldquo;User Comment&rdquo;. </div> <div class=u-mt--1> <span class="red u-weight--bd">If you are a REVIEWER of this article,</span> please check that you have signed in with the account associated with this article and then go to your <a href="/my/referee">account</a> to submit your report, please do not post your review here. </div> <div class="u-mt--1 u-mb--1"> If you do not have access to your original account, please <a href="mailto:research@f1000.com">contact us</a>. </div> <p class=no-top-margin>All commenters must hold a formal affiliation as per our <a href="/about/policies#commentspolicy" target=_blank>Policies</a>. The information that you give us will be displayed next to your comment.</p> <p>User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the <a href="/about/legal/usercommenttermsandconditions" target=_blank>User Comment Terms and Conditions</a>. Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available.</p> <div class="comments-note margin-bottom" id=accept-user-comments> <input class=js-add-comment-accept-terms type=checkbox id=acceptedTermsAndConditions name=acceptedTermsAndConditions> I accept the <a href="/about/legal/usercommenttermsandconditions" target=_blank> User Comment Terms and Conditions</a> <span class=required>&nbsp;</span> </div> <div class="default-error margin-top is-hidden comment-accept-conditions utac">Please confirm that you accept the User Comment Terms and Conditions.</div> <div class="research-layout registration-form u-mb--2"> <div class="u-mb--1 u-mt--2"> <strong>Affiliation</strong> </div> <div class=form-field> <input type=text name=institution class="form-input-field check-xss js-add-comment-institution" placeholder="Organization *" autocomplete=off /> <div class="default-error margin-top is-hidden comment-enter-institution institution">Please enter your organisation.</div> </div> <div class=form-field> <input type=text name=place class="form-input-field check-xss js-add-comment-place" placeholder=Place> </div> <div class=form-field> <div class="form-input-wrapper hundred-percent-wide"> <div class="new-select-standard-wrapper half-width inline-display heading10"> <select name=countryId id=country class="form-select-menu smaller js-add-comment-country"> <option value=-1>Country*</option> <option value=840>USA</option> <option value=826>UK</option> <option value=124>Canada</option> <option value=156>China</option> <option value=250>France</option> <option value=276>Germany</option> <optgroup label=-----------------------------------------------></optgroup> <option value=4>Afghanistan</option> <option value=248>Aland Islands</option> <option value=8>Albania</option> <option value=12>Algeria</option> <option value=16>American Samoa</option> <option value=20>Andorra</option> <option value=24>Angola</option> <option value=660>Anguilla</option> <option value=10>Antarctica</option> <option value=28>Antigua and Barbuda</option> <option value=32>Argentina</option> <option value=51>Armenia</option> <option value=533>Aruba</option> <option value=36>Australia</option> <option value=40>Austria</option> <option value=31>Azerbaijan</option> <option value=44>Bahamas</option> <option value=48>Bahrain</option> <option value=50>Bangladesh</option> <option value=52>Barbados</option> <option value=112>Belarus</option> <option value=56>Belgium</option> <option value=84>Belize</option> <option value=204>Benin</option> <option value=60>Bermuda</option> <option value=64>Bhutan</option> <option value=68>Bolivia</option> <option value=70>Bosnia and Herzegovina</option> <option value=72>Botswana</option> <option value=74>Bouvet Island</option> <option value=76>Brazil</option> <option value=86>British Indian Ocean Territory</option> <option value=92>British Virgin Islands</option> <option value=96>Brunei</option> <option value=100>Bulgaria</option> <option value=854>Burkina Faso</option> <option value=108>Burundi</option> <option value=116>Cambodia</option> <option value=120>Cameroon</option> <option value=124>Canada</option> <option value=132>Cape Verde</option> <option value=136>Cayman Islands</option> <option value=140>Central African Republic</option> <option value=148>Chad</option> <option value=152>Chile</option> <option value=156>China</option> <option value=162>Christmas Island</option> <option value=166>Cocos (Keeling) Islands</option> <option value=170>Colombia</option> <option value=174>Comoros</option> <option value=178>Congo</option> <option value=184>Cook Islands</option> <option value=188>Costa Rica</option> <option value=384>Cote d'Ivoire</option> <option value=191>Croatia</option> <option value=192>Cuba</option> <option value=196>Cyprus</option> <option value=203>Czech Republic</option> <option value=180>Democratic Republic of the Congo</option> <option value=208>Denmark</option> <option value=262>Djibouti</option> <option value=212>Dominica</option> <option value=214>Dominican Republic</option> <option value=218>Ecuador</option> <option value=818>Egypt</option> <option value=222>El Salvador</option> <option value=226>Equatorial Guinea</option> <option value=232>Eritrea</option> <option value=233>Estonia</option> <option value=231>Ethiopia</option> <option value=238>Falkland Islands</option> <option value=234>Faroe Islands</option> <option value=583>Federated States of Micronesia</option> <option value=242>Fiji</option> <option value=246>Finland</option> <option value=250>France</option> <option value=254>French Guiana</option> <option value=258>French Polynesia</option> <option value=260>French Southern Territories</option> <option value=266>Gabon</option> <option value=268>Georgia</option> <option value=276>Germany</option> <option value=288>Ghana</option> <option value=292>Gibraltar</option> <option value=300>Greece</option> <option value=304>Greenland</option> <option value=308>Grenada</option> <option value=312>Guadeloupe</option> <option value=316>Guam</option> <option value=320>Guatemala</option> <option value=831>Guernsey</option> <option value=324>Guinea</option> <option value=624>Guinea-Bissau</option> <option value=328>Guyana</option> <option value=332>Haiti</option> <option value=334>Heard Island and Mcdonald Islands</option> <option value=336>Holy See (Vatican City State)</option> <option value=340>Honduras</option> <option value=344>Hong Kong</option> <option value=348>Hungary</option> <option value=352>Iceland</option> <option value=356>India</option> <option value=360>Indonesia</option> <option value=364>Iran</option> <option value=368>Iraq</option> <option value=372>Ireland</option> <option value=376>Israel</option> <option value=380>Italy</option> <option value=388>Jamaica</option> <option value=392>Japan</option> <option value=832>Jersey</option> <option value=400>Jordan</option> <option value=398>Kazakhstan</option> <option value=404>Kenya</option> <option value=296>Kiribati</option> <option value=901>Kosovo (Serbia and Montenegro)</option> <option value=414>Kuwait</option> <option value=417>Kyrgyzstan</option> <option value=418>Lao People's Democratic Republic</option> <option value=428>Latvia</option> <option value=422>Lebanon</option> <option value=426>Lesotho</option> <option value=430>Liberia</option> <option value=434>Libya</option> <option value=438>Liechtenstein</option> <option value=440>Lithuania</option> <option value=442>Luxembourg</option> <option value=446>Macao</option> <option value=807>Macedonia</option> <option value=450>Madagascar</option> <option value=454>Malawi</option> <option value=458>Malaysia</option> <option value=462>Maldives</option> <option value=466>Mali</option> <option value=470>Malta</option> <option value=584>Marshall Islands</option> <option value=474>Martinique</option> <option value=478>Mauritania</option> <option value=480>Mauritius</option> <option value=175>Mayotte</option> <option value=484>Mexico</option> <option value=581>Minor Outlying Islands of the United States</option> <option value=498>Moldova</option> <option value=492>Monaco</option> <option value=496>Mongolia</option> <option value=499>Montenegro</option> <option value=500>Montserrat</option> <option value=504>Morocco</option> <option value=508>Mozambique</option> <option value=104>Myanmar</option> <option value=516>Namibia</option> <option value=520>Nauru</option> <option value=524>Nepal</option> <option value=530>Netherlands Antilles</option> <option value=540>New Caledonia</option> <option value=554>New Zealand</option> <option value=558>Nicaragua</option> <option value=562>Niger</option> <option value=566>Nigeria</option> <option value=570>Niue</option> <option value=574>Norfolk Island</option> <option value=580>Northern Mariana Islands</option> <option value=408>North Korea</option> <option value=578>Norway</option> <option value=512>Oman</option> <option value=586>Pakistan</option> <option value=585>Palau</option> <option value=275>Palestinian Territory</option> <option value=591>Panama</option> <option value=598>Papua New Guinea</option> <option value=600>Paraguay</option> <option value=604>Peru</option> <option value=608>Philippines</option> <option value=612>Pitcairn</option> <option value=616>Poland</option> <option value=620>Portugal</option> <option value=630>Puerto Rico</option> <option value=634>Qatar</option> <option value=638>Reunion</option> <option value=642>Romania</option> <option value=643>Russian Federation</option> <option value=646>Rwanda</option> <option value=654>Saint Helena</option> <option value=659>Saint Kitts and Nevis</option> <option value=662>Saint Lucia</option> <option value=666>Saint Pierre and Miquelon</option> <option value=670>Saint Vincent and the Grenadines</option> <option value=882>Samoa</option> <option value=674>San Marino</option> <option value=678>Sao Tome and Principe</option> <option value=682>Saudi Arabia</option> <option value=686>Senegal</option> <option value=688>Serbia</option> <option value=690>Seychelles</option> <option value=694>Sierra Leone</option> <option value=702>Singapore</option> <option value=703>Slovakia</option> <option value=705>Slovenia</option> <option value=90>Solomon Islands</option> <option value=706>Somalia</option> <option value=710>South Africa</option> <option value=239>South Georgia and the South Sandwich Is</option> <option value=410>South Korea</option> <option value=724>Spain</option> <option value=144>Sri Lanka</option> <option value=736>Sudan</option> <option value=740>Suriname</option> <option value=744>Svalbard and Jan Mayen</option> <option value=748>Swaziland</option> <option value=752>Sweden</option> <option value=756>Switzerland</option> <option value=760>Syria</option> <option value=158>Taiwan</option> <option value=762>Tajikistan</option> <option value=834>Tanzania</option> <option value=764>Thailand</option> <option value=270>The Gambia</option> <option value=528>The Netherlands</option> <option value=626>Timor-Leste</option> <option value=768>Togo</option> <option value=772>Tokelau</option> <option value=776>Tonga</option> <option value=780>Trinidad and Tobago</option> <option value=788>Tunisia</option> <option value=792>Turkey</option> <option value=795>Turkmenistan</option> <option value=796>Turks and Caicos Islands</option> <option value=798>Tuvalu</option> <option value=800>Uganda</option> <option value=826>UK</option> <option value=804>Ukraine</option> <option value=784>United Arab Emirates</option> <option value=850>United States Virgin Islands</option> <option value=858>Uruguay</option> <option value=840>USA</option> <option value=860>Uzbekistan</option> <option value=548>Vanuatu</option> <option value=862>Venezuela</option> <option value=704>Vietnam</option> <option value=876>Wallis and Futuna</option> <option value=905>West Bank and Gaza Strip</option> <option value=732>Western Sahara</option> <option value=887>Yemen</option> <option value=894>Zambia</option> <option value=716>Zimbabwe</option> </select> </div> </div> <div class="default-error margin-top is-hidden comment-enter-country country">Please select your country.</div> </div> </div> <textarea data-test-id=article_add-comment_comment name=new-comment class="js-add-comment-comment comment margin-bottom margin-top"></textarea> <div class="default-error margin-top comment-enter-text comment-error is-hidden ">You must enter a comment.</div> <label class="comments-note u-mt--2 u-mb--2" for=competingInterests_1> <div class="u-mb--1 u-mt--2"><strong data-test-id=article_report-add-comment_competing-interests-title>Competing Interests</strong></div> <p class="u-mb--2 u-mt--0" data-test-id=article_report-add-comment_competing-interests-description>Please disclose any <a href="#article-competing-intersts-policy" class=js-modal-competing-intersts-toggle>competing interests</a> that might be construed to influence your judgment of the article's or peer review report's validity or importance.</p> </label> <div id=article-competing-intersts-policy class=js-article-competing-interests-policy style="display: none;"> <h2 class="h2-title u-mt--0 u-pt--0">Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div id=competingInterests_1 class="c-inline-editor js-inline-editor js-form_input u-bb--all u-mb--2 js-comment-competing-interests" data-name=competing-interests data-rows=3> <textarea id=competingInterests_1_input name=competing-interests placeholder="&nbsp;" required=false class="u-hide-visually js-inline-editor_input" tabindex=-1></textarea> <div class="c-inline-editor__editor js-inline-editor_editor o-box c-box o-box--tiny u-bg--11" data-target=competingInterests_1_input role=textbox required=false data-placeholder="&nbsp;" contenteditable=true></div> <span class="c-inline-editor__error js-inline-editor-message">Please state your competing interests</span> </div> <div data-test-id=article_add-comment_saved class="green-message comments is-hidden comment-is-saved">The comment has been saved.</div> <div data-test-id=article_add-comment_error class="default-error comments is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class=clearfix></div> <div class=js-hook></div> </div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" data-test-id=article_add-comment_cancel class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" data-test-id=article_add-comment_post class="c-button c-button--full js-modal__confirm c-button--primary">Post</a> </div> </aside> </div> </div> <style>
+                .at-icon-wrapper {
+        background-size: 100% !important;
+    }
+</style> <script src="/js/namespace.js"></script> <script src="/js/constants.js"></script> <script src="/js/utilities.js"></script> <script src="/js/article/alert-signup.js"></script> <script type='text/javascript'>
+    var lTitle = "A current view of serotonin transporters".replace("'", '');
+    var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-1884/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+    var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-1884/v1&title=" + encodeURIComponent(lTitle);
+
+    var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-1884/v1" + "&title=" + encodeURIComponent(lTitle);
+
+            linkedInUrl += encodeURIComponent('De Felice LJ');
+    
+    var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+    var addthis_config = {
+            ui_offset_top: offsetTop,
+                                    services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_custom : [
+                {
+                    name: "LinkedIn",
+                    url:  linkedInUrl,
+                    icon:"/img/icon/at_linkedin.svg"
+                },
+                {
+                    name: "Mendeley",
+                    url:  "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-1884/v1/mendeley",
+                    icon:"/img/icon/at_mendeley.svg"
+                },
+                {
+                    name: "Reddit",
+                    url:  redditUrl,
+                    icon:"/img/icon/at_reddit.svg"
+                },
+            ]
+        };
+
+
+    var addthis_share = {
+            url: "https://f1000research.com/articles/5-1884",
+            templates : {
+                twitter : "A current view of serotonin transporters. De Felice LJ, published by " + 
+               "@F1000Research"
+       + ", https://f1000research.com/articles/5-1884/v1"
+            }
+        };
+
+    if (typeof(addthis) != "undefined"){
+        addthis.addEventListener('addthis.ready', checkCount);
+        addthis.addEventListener('addthis.menu.share', checkCount);
+    }
+
+        $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+    $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+    $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+    $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+    $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+    function checkCount(){
+        setTimeout(function(){
+            $(".addthis_button_expanded").each(function(){
+                var count = $(this).text();
+                if (count !== "" && count != "0")
+                    $(this).removeClass("is-hidden");
+                else
+                    $(this).addClass("is-hidden");
+            });
+        }, 1000);
+    }
+</script> <div id=citeReportModal role=dialog aria-labelledby=citeReportModal_title aria-describedby=citeReportModal_description> <div class="c-modal js-modal is-closed c-modal--large js-cite-report-modal "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-black--high "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <h1 id=citeReportModal_title class="c-modal__title t-h3 u-mt--0 u-mb--2 u-weight--md">How to cite this report</h1> <div id=citeReportModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div id="" class=js-report-citation-container>{{reportCitation}}</div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" title="Copy the current citation details to the clipboard." data-clipboard-target="#referee-report-citation" data-test-id=report_copy-citation_button class="c-button c-button--full js-modal__confirm c-button--primary js-clipboard c-mini-tooltip--above">Copy Citation Details</a> </div> </aside> </div> </div> <script src="/js/referee/new/referee_validators.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/referee/new/referee_checkbox-input.js"></script> <script src="/js/referee/new/referee_inline-editor.js"></script> <script type="text/javascript">
+    $(function(){
+        var gaCat = "F1000Research";
+        if (gaCat === "") {
+            gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+        }
+        GAHelper.track({category: gaCat, action: "Article Page: A current view of serotonin transporters", label: "pageviews"});
+        GAHelper.track({category: gaCat, action: "Article Type: Review", label: "Article Page"});
+        $(".f1r-article-desk .collection-image").each(function (idx, el) {
+            var whatChannel = $(el).find("a").attr("href"),
+                channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+                gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+            GAHelper.track({category: 'ChannelStats', action: "Article Page: A current view of serotonin transporters", label: gaRef});
+        });
+    });
+</script> <script>
+    $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+    $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+</script> <script src="/js/article/track_article.js" type="text/javascript"></script> <script type="text/javascript">
+    $.get("/articles/acj/8384/9017")
+</script> <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script type="text/javascript" src="/js/app/messenger.js"></script> <script type="text/javascript" src="/js/article/article_mobiles.js"></script> <script src="/js/vendor/clipboard.min.js"></script> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/clipboard.js"></script> <script src="/js/article/thesaurus-terms-display.js"></script> <script>
+    new F1000.Clipboard();
+    new F1000.ThesaurusTermsDisplay("faculty-reviews", "article", "9017");
+</script> <script>
+    $(document).ready(function() {
+        $( "#frame1" ).on('load', function() {
+            var mydiv = $(this).contents().find("div");
+            var h     = mydiv.height();
+            console.log(h)
+        });
+
+        
+        var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+            titleLivingFigure = tooltipLivingFigure.attr("title");
+        tooltipLivingFigure.simpletip({
+            fixed: true,
+            position: ["-115", "30"],
+            baseClass: 'small-tooltip',
+            content:titleLivingFigure + "<div class='tooltip-arrow'></div>"
+        });
+        tooltipLivingFigure.removeAttr("title");
+
+        $("body").on("click", ".cite-living-figure", function(e) {
+            e.preventDefault();
+            var ref = $(this).attr("data-ref");
+            $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+        });
+        $("body").on("click", ".close-cite-living-figure", function(e) {
+            e.preventDefault();
+            $(this).closest(".popup-window-wrapper").fadeOut(200);
+        });
+
+                $(document).on("mouseup", function(e) {
+            var metricsContainer = $(".article-metrics-popover-wrapper");
+            if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+                $(".article-metrics-close-button").click();
+            }
+        });
+
+        var articleId = $('#articleId').val();
+
+        if($("#main-article-count-box").attachArticleMetrics) {
+            $("#main-article-count-box").attachArticleMetrics(articleId, {
+                articleMetricsView: true
+            });
+        }
+    });
+
+    var figshareWidget = $(".new_figshare_widget");
+    if (figshareWidget.length > 0) {
+        window.figshare.load("f1000", function(Widget) {
+            // Select a tag/tags defined in your page. In this tag we will place the widget.
+            _.map(figshareWidget, function(el){
+                var widget = new Widget({
+                    articleId: $(el).attr("figshare_articleId")
+                    //height:300 // this is the height of the viewer part. [Default: 550]
+                });
+                widget.initialize(); // initialize the widget
+                widget.mount(el); // mount it in a tag that's on your page
+                // this will save the widget on the global scope for later use from
+                // your JS scripts. This line is optional.
+                //window.widget = widget;
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        
+        var reportIds = {
+                           "15274": 0,
+                           "15275": 0,
+                           "15276": 0,
+                    };
+
+        $(".referee-response-container,.js-referee-report").each(function(index, el) {
+            var reportId = $(el).attr("data-reportid"),
+                reportCount = reportIds[reportId] || 0;
+            $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+        });
+
+        var uuidInput = $("#article_uuid"),
+            oldUUId = uuidInput.val(),
+            newUUId = "3a236f40-9c91-494e-9653-22ae52cb5aa2";
+        uuidInput.val(newUUId);
+
+        $("a[href*='article_uuid=']").each(function(index, el) {
+            var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+            $(el).attr("href", newHref);
+        });
+
+    });
+</script>              </div>
+        </div>
+
+        
+            
+            <div class="o-page__footer sticky-email-wrapper">
+                
+                
+
+                
+
+
+<footer class="c-footer t-inverted">
+
+    <div class="o-wrapper">
+        <div class="o-layout">
+
+
+                        
+            <div class="o-layout__item u-mb--3">
+                <div class="c-branding c-branding--research">
+                    <img src="/img/research/F1000Research_white.svg" alt="F1000Research">
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <p class="t-h3 u-mt--0 u-mb--0">An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing.</p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <div class="o-layout">
+                    <nav class="c-footer__nav">
+
+                            <div class="o-layout__item u-3/5@sm u-mb--3">
+
+
+                                <div class="o-columns o-columns--2">
+
+                                                                            <a href="/browse/articles" class="t-body c-footer__nav-item "      >Browse</a>
+                                                                            <a href="/gateways" class="t-body c-footer__nav-item "      >Gateways</a>
+                                                                            <a href="/collections" class="t-body c-footer__nav-item "      >Collections</a>
+                                                                            <a href="/about" class="t-body c-footer__nav-item "      >How it Works</a>
+                                                                            <a href="https://blog.f1000.com/blogs/f1000research/" class="t-body c-footer__nav-item "      >Blog</a>
+                                                                            <a href="/contact" class="t-body c-footer__nav-item "      >Contact</a>
+                                                                            <a href="/developers" class="t-body c-footer__nav-item u-hide u-show@navbar"      >For Developers</a>
+                                                                            <a href="/published/rss" class="t-body c-footer__nav-item "   title="RSS feed of published articles"     >RSS</a>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="o-layout__item u-2/5@sm u-center u-right@sm u-mb--3">
+
+                                <div class="u-hide u-show@lg">
+                                    <div class="_mdl-layout">
+                                        <a class="mdl-button mdl-js-button mdl-button--inverted mdl-button--no-shadow mdl-js-ripple-effect mdl-button--outline" href="/for-authors/publish-your-research"   data-test-id="footer_submit_research"  >Submit Your Research</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="o-layout__item u-mb--2">
+                <div class="c-footer__share">
+                        <div class="c-footer__share">
+        <span class="c-footer__share-icon" title="Open Access">
+            <span class="f1r-icon icon-100_open_access license-icon"></span>
+        </span>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/licenses" target="_blank" title="Creative Commons License CC-BY">
+            <span class="f1r-icon icon-116_cc license-icon license-icon-cc"></span>
+            <span class="f1r-icon icon-117_ccby license-icon license-icon-cc"></span>
+        </a>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/about/cc0" target="_blank" title="Creative Commons License CC0">
+            <span class="f1r-icon icon-118_cco license-icon"></span>
+        </a>
+
+    </div>
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="c-footer__social u-mt--0 u-mb--0 u-white--low-med">Follow us
+                    <a href="https://www.facebook.com/F1000" target="_blank" class="c-footer__social-icon f1r-icon icon-55_footer_facebook"></a>
+                    <a href="https://twitter.com/#!/F1000Research" target="_blank" class="c-footer__social-icon f1r-icon icon-56_footer_twitter"></a>
+                    <a href="http://www.youtube.com/user/F1000research" target="_blank" class="c-footer__social-icon f1r-icon icon-57_footer_youtube"></a></p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md u-right@md">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="t-caption u-white--low-med">&copy; 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | <a href="/about/legal" class="copyrightLegal">Legal</a> | Partner of <a target="_blank" href="http://www.who.int/hinari/en/">HINARI</a>  &bull; <a target="_blank" href="http://crossref.org/">CrossRef</a> &bull; <a target="_blank" href="http://about.orcid.org/">ORCID</a> &bull; <a target="_blank" href="http://www.fairsharing.org">FAIRSharing</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</footer>            </div>
+        
+    </div>
+
+            <div class="js-cookie-spacer"></div>
+        <div class="cookie-warning">
+            <div class="instruction">The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a class="js-scroll-to" href="/about/legal/privacypolicy#use-of-cookies" data-scroll-target="#use-of-cookies">Find out more &raquo;</a></div>
+            <div class="close-button"></div>
+        </div>
+    
+    <script>
+                    R.templateTests.simpleTemplate = R.template('<p class="$variable.one">$text</p><p class="${variable.two}">$text</p><p class="$!variable.three">$text</p><p class="$!{variable.four}">$text</p><p class="${selector}.five">$text</p>');
+            R.templateTests.runTests();
+        
+        var F1000platform = new F1000.Platform({
+            name: "f1000research",
+            displayName: "F1000Research",
+            hostName: "f1000research.com",
+            id: "1",
+            editorialEmail: "research@f1000.com",
+            infoEmail: "info@f1000.com",
+            usePmcStats: true
+        });
+
+                    $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+            // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+            $(document).ready(function () {
+                if ($(".cookie-warning").is(":visible")) {
+                    $(".sticky").css("margin-bottom", "35px");
+                    $(".devices").addClass("devices-and-cookie-warning");
+                }
+                $(".cookie-warning .close-button").click(function (e) {
+                    $(".devices").removeClass("devices-and-cookie-warning");
+                    $(".sticky").css("margin-bottom", "0");
+                });
+
+                $("#tweeter-feed .tweet-message").each(function (i, message) {
+                    var self = $(message);
+                    self.html(linkify(self.html()));
+                });
+
+                $(".partner").on("mouseenter mouseleave", function() {
+                    $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+                });
+            });
+        
+    </script>
+
+            
+<div class="sign-in-popup">
+	<!-- <a href="#" class="sign-in shadow">Sign in <span class="sign-in-image-active"></span></a> -->
+	<a href="#" class="sign-in ${locale}">Sign In <span class="arrow-closed sign-in-arrow-padding arrow-opened"></span></a>
+	<div class="sign-in-form">
+
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="googleOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/5-1884.html"/>
+                            <input id="google-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-google" name="system" type="hidden" value="GOOGLE"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="facebookOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/5-1884.html"/>
+                            <input id="facebook-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-fb" name="system" type="hidden" value="FACEBOOK"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="orcidOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/5-1884.html"/>
+                            <input id="orcid-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-orcid" name="system" type="hidden" value="ORCID"/>
+    </form>
+		<form id="sign-in-form" class="login-container" action="https://f1000research.com/login" method="post" name="f">
+           <div id="sign-in-form-gfb-popup"></div>
+
+                                                            <input class="target-field" type="hidden" name="target" value="/articles/5-1884.html"/>
+                            			<input type="text" name="username" id="signin-email-box" class="sign-in-input" placeholder="Email address" autocomplete="email">
+			<input type="password" name="password" id="signin-password-box" class="sign-in-input" placeholder="Password" autocomplete="current-password">
+			<div class="sign-in-remember">
+                <div class="checkbox-wrapper">
+    				<input type="checkbox" id="remember-me" name="remember_me" class="checkbox is-hidden">
+                </div>
+                <span class="checkbox-label">Remember me</span>
+			</div>
+			<a href="#" class="sign-in-link" id="forgot-password-link">Forgotten your password?</a>
+			<div class="sign-in-button-container margin-top margin-left-20 margin-bottom">
+				<button type="submit" id="sign-in-button" class="sign-in-buttons general-white-orange-button">Sign In</button>
+				<button type="button" id="sign-in-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="sign-in-error">Email or password not correct. Please try again</div>
+			<div class="sign-in-loading">Please wait...</div>
+		</form>
+		<div class="forgot-password-container">
+			
+<script type="text/javascript">
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("GOOGLE");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=facebookSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("FACEBOOK");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=orcidSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("ORCID");
+            $("form[id=oAuthForm]").submit();
+        });
+	});
+</script>
+
+<span class="text first">
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+    <p>The email address should be the one you originally registered with F1000.</p>
+</span>
+<input name="email" class="sign-in-input" id="email-forgot-password" type="text" placeholder="Email address">
+<div class="forgot-password-email-error">
+	Email address not valid, please try again
+</div>
+<div class="forgot-password-google-email-error">
+    <p>You registered with F1000 via Google, so we cannot reset your password.</p>
+	<p>To sign in, please click <a href="#" id="googleSignInButton">here</a>.</p>
+    <p>If you still need help with your Google account password, please click <a href="https://www.google.com/accounts/recovery">here</a>.</p>
+</div>
+<div class="forgot-password-facebook-email-error">
+    <p>You registered with F1000 via Facebook, so we cannot reset your password.</p>
+    <p>To sign in, please click <a href="#" id="facebookSignInButton">here</a>.</p>
+	<p>If you still need help with your Facebook account password, please click <a href="https://www.facebook.com/recover/initiate">here</a>.</p>
+</div>
+<div class="clearfix"></div>
+<div class="forgot-password-captcha-error">
+	Code not correct, please try again
+</div>
+<div class="clearfix"></div>
+<div class="sign-in-button-container margin-left-20 margin-bottom">
+	<button type="button" id="sign-in-reset-password" class="sign-in-buttons general-white-orange-button">Reset password</button>
+	<button type="button" id="forgot-password-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+	<div class="clearfix"></div>
+</div>
+<span class="text last">
+	<a href="mailto:">Email us</a> for further assistance.
+</span>
+<form action="https://f1000research.com/j_spring_oauth_security_check" id="oAuthForm" method="post" target="_top">
+                        <input class="target-field" type="hidden" name="target" value="/articles/5-1884.html"/>
+                <input id="oAuthSystem" name="system" type="hidden"/>
+</form>
+			<div class="forgot-password-server-error">Server error, please try again.</div>
+			<div class="sign-in-success">
+                <p>We have sent an email to <span id="email-value"></span>, please follow the instructions to reset your password.</p>
+                <p>If you don't receive this email, please check your spam filters and/or contact .</p>
+            </div>
+			<div class="sign-in-loading">Please wait...</div>
+		</div>
+
+		<div class="sign-in-form-register-section">
+			<div class="sign-in-button-container margin-left-20 margin-bottom">
+				<a href="/register" title="Register"><button type="button" id="sign-in-register-button" class="sign-in-buttons general-white-orange-button">Register</button></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+    $(".target-field").each(function () {
+        var uris = $(this).val().split("/");
+        if (uris.pop() === "login") {
+        	$(this).val(uris.toString().replace(",","/"));
+        }
+    });
+});
+</script>
+        <div id="templateOverlay" class="is-hidden" hidden="hidden">
+  <div class="o-overlay js-overlay is-hidden" hidden="hidden"></div>
+</div>
+
+<div id="templateExternalMessages" class="is-hidden" hidden="hidden">
+  <div class="o-modal o-modal--auto@md js-external-messages is-hidden" hidden="hidden">
+    <div class="o-modal__body">
+      <section class="c-console">
+        <div class="_mdl-layout c-console__bdy js-external-messages-body"></div>
+        <footer class="_mdl-layout c-console__ftr o-flex o-flex--reverse js-external-messages-footer">
+          <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-console__btn js-external-messages-close" data-action="maintenance-close">I Understand</button>
+        </footer>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<script src="/js/namespace.js"></script>
+<script src="/js/constants.js"></script>
+<script src="/js/utilities.js"></script>
+
+<script>
+                  F1000.ExtenalMaintenanceItems = [
+    {
+      start: '2018-12-10T14:21:00Z',
+      end: '2018-12-13T16:00:00Z',
+      msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+      cookieName: 'outage23122018',
+      editor: false,
+    }
+  ];
+</script>
+
+<script src="/js/shared_scripts/cookie-helper.js"></script>
+<script src="/js/shared_scripts/mdl-helper.js"></script>
+
+<script src="/js/app/external-maintenance.js"></script>
+
+                <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5646075-11', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        
+                <script type="text/javascript" src="/js/app/research.analytics.js"></script>
+
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4475190.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    
+            <script src="https://my.hellobar.com/4e0495c6f18cbd68731a1dc1978195a144e767ba.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+
+</html>

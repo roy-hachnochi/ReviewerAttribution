@@ -1,0 +1,592 @@
+ Title and Abstract: For clarity, the authors might consider replacing “various” with “World Health Organization and U.S. Environmental Protection Agency”. Article content: Using publicly available data produced from the 2007 USEPA National Lakes Assessment, the authors use conditional probability analysis to develop four chlorophyll concentration thresholds associated with two USEPA microcystin drinking water advisory targets, one WHO microcystin drinking water advisory target, and one WHO microcystin recreational use target. For most water resource managers, chlorophyll is much easier and cheaper to measure than microcystin. Given the threat that microcystins pose to human health, the purpose of this study is valuable. With that said, this study significantly overlaps with Yuan et al. (2014). The current study adds new advisory microcystin targets recently established by USEPA and uses a different statistical approach than Yuan et al. 2014. The authors cite relatively few studies. I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related studies that the authors might want to consider. I am certain that I have missed other relevant studies. Ahn et al. (2011) Beaver et al. (2014) Chan et al. (2007) Conti et al. (2005) Dolman et al. (2012) Downing et al. (2000) Giani et al. (2005) Graham et al. (2004) Graham et al. (2010) Jacoby et al. (2015) Kotak et al. (2000) Marion et al. (2012) Orihel et al. (2012) Sarnelle et al. (2010) Scott and Haggard (2015) Sinang et al. (2015) Stow et al. (2015) Su et al. (2015) Yuan and Pollard et al. (2015) Based on the 2007 National Lakes Assessment report, roughly two-thirds of the waterbodies reported no detectable microcystin (detection limit = 0.05 ug/L) despite covering a huge range of chlorophyll concentrations. And, Fig 2 suggests that a large number of sites had barely detectable concentration of microcystin across a wide range of chlorophyll. It is not clear from the text how the authors dealt with waterbodies with undetectable or barely detectable microcystin concentrations. Presenting histograms of chlorophyll and microcystin concentrations for the study lakes would be useful. I am not an expert on conditional probability analysis. Based on the authors’ text (second paragraph in Analytical Methods section), it appears that this analysis considers multiple events over time. If their dataset includes single measurements in a waterbody, I don’t understand where the temporal component comes into the analysis. Again, I could be totally misunderstanding how this analysis works and should probably read the relevant references the authors provided. Based on increasing error in the conditional probability plots as chlorophyll increases, the reported chlorophyll thresholds should not include significant digits (i.e., 0.1) but instead be whole numbers. I would organize the information in table 1 by either concentration (low to high) or advisory type (drinking or recreational) and concentration (low to high). It might also be useful to include the number of lakes represented in each category based on microcystin. In table 2, I would add the specific microcystin concentration target under each advisory type to avoid having to look back at table 1 for these data. Conclusions: The purpose of this study is to use a simple measurement (chlorophyll) to determine the threat that microcystins pose to a waterbody relative to existing microcystin concentration targets. Most waterbodies lacked microcystin and Figure 2 clearly shows that there are a huge number of waterbodies across a large chlorophyll range that apparently had microcystin concentrations at the detection limit of 0.05 ug/L. I am concerned about the microcystin data at the detection limit. They appear to be false positives. I agree with the authors who acknowledged that high chlorophyll is not always a good predictor of high microcystin. What should be done for those waterbodies with high concentrations of chlorophyll but that had no or barely detectable microcystin? Data: I am confused about the data collected and available for the 2007 National Lakes Assessment. For example, I organized this dataset in July 2010 and found that 1158 lakes were sampled once (1152 of these lakes included data for both chlorophyll and microcystin) and 95 of the 1158 originally sampled lakes were sampled a second time in 2007. Yuan et al. 2014 (Freshwater Biology) used data for 1077 sampled lakes. The current study (as well as the National Lakes Assessment website and report) describes data for 1028 lakes. Clarity about these discrepancies is not necessarily the authors’ job, but it would be good to understand why the differences exist across these datasets. Also, for this study, how were data used for lakes sampled twice in 2007? Although all of the National Lakes Assessment data are publicly available, the authors should provide the dataset that they used for this study. References 1. Ahn C, Oh H, Park Y: EVALUATION OF ENVIRONMENTAL FACTORS ON CYANOBACTERIAL BLOOM IN EUTROPHIC RESERVOIR USING ARTIFICIAL NEURAL NETWORKS1. Journal of Phycology . 2011; 47 (3): 495-504 Publisher Full Text 2. Beaver J, Manis E, Loftin K, Graham J, et al.: Land use patterns, ecoregion, and microcystin relationships in U.S. lakes and reservoirs: A preliminary evaluation. Harmful Algae . 2014; 36 : 57-62 Publisher Full Text 3. Chan WS, Recknagel F, Cao H, Park HD: Elucidation and short-term forecasting of microcystin concentrations in Lake Suwa (Japan) by means of artificial neural networks and evolutionary algorithms. Water Res . 2007; 41 (10): 2247-55 PubMed Abstract | Publisher Full Text 4. Conti AL, Guerrero JM, Regueira JM: Levels of microcystins in two Argentinean reservoirs used for water supply and recreation: differences in the implementation of safe levels. Environ Toxicol . 2005; 20 (3): 263-9 PubMed Abstract | Publisher Full Text 5. Dolman AM, Rücker J, Pick FR, Fastner J, et al.: Cyanobacteria and cyanotoxins: the influence of nitrogen versus phosphorus. PLoS One . 2012; 7 (6): e38757 PubMed Abstract | Publisher Full Text 6. Downing J, Watson S, McCauley E: Predicting Cyanobacteria dominance in lakes. Canadian Journal of Fisheries and Aquatic Sciences . 2001; 58 (10): 1905-1908 Publisher Full Text 7. Giani A, Bird D, Prairie Y, Lawrence J: Empirical study of cyanobacterial toxicity along a trophic gradient of lakes. Canadian Journal of Fisheries and Aquatic Sciences . 2005; 62 (9): 2100-2109 Publisher Full Text 8. Graham JL, Jones JR, Jones SB, Downing JA, et al.: Environmental factors influencing microcystin distribution and concentration in the Midwestern United States. Water Res . 2004; 38 (20): 4395-404 PubMed Abstract | Publisher Full Text 9. Graham JL, Loftin KA, Meyer MT, Ziegler AC: Cyanotoxin mixtures and taste-and-odor compounds in cyanobacterial blooms from the Midwestern United States. Environ Sci Technol . 2010; 44 (19): 7361-8 PubMed Abstract | Publisher Full Text 10. Jacoby J, Burghdoff M, Williams G, Read L, et al.: Dominant factors associated with microcystins in nine midlatitude, maritime lakes. Inland Waters . 2015; 5 (2): 187-202 Publisher Full Text 11. Kotak B, Lam A, Prepas E, Hrudey S: Role of chemical and physical variables in regulating microcystin-LR concentration in phytoplankton of eutrophic lakes. Canadian Journal of Fisheries and Aquatic Sciences . 2000; 57 (8): 1584-1593 Publisher Full Text 12. Marion JW, Lee J, Wilkins JR, Lemeshow S, et al.: In vivo phycocyanin flourometry as a potential rapid screening tool for predicting elevated microcystin concentrations at eutrophic lakes. Environ Sci Technol . 2012; 46 (8): 4523-31 PubMed Abstract | Publisher Full Text 13. Orihel D, Bird D, Brylinsky M, Chen H, et al.: High microcystin concentrations occur only at low nitrogen-to-phosphorus ratios in nutrient-rich Canadian lakes. Canadian Journal of Fisheries and Aquatic Sciences . 2012; 69 (9): 1457-1462 Publisher Full Text 14. Sarnelle O, Morrison J, Kaul R, Horst G, et al.: Citizen monitoring: Testing hypotheses about the interactive influences of eutrophication and mussel invasion on a cyanobacterial toxin in lakes. Water Res . 2010; 44 (1): 141-50 PubMed Abstract | Publisher Full Text 15. Scott JT, Haggard BE: Implementing Effects-Based Water Quality Criteria for Eutrophication in Beaver Lake, Arkansas: Linking Standard Development and Assessment Methodology. J Environ Qual . 2015; 44 (5): 1503-12 PubMed Abstract | Publisher Full Text 16. Sinang S, Reichwaldt E, Ghadouani A: Local nutrient regimes determine site-specific environmental triggers of cyanobacterial and microcystin variability in urban lakes. Hydrology and Earth System Sciences . 2015; 19 (5): 2179-2195 Publisher Full Text 17. Stow CA, Cha Y, Johnson LT, Confesor R, et al.: Long-term and seasonal trend decomposition of Maumee River nutrient inputs to western Lake Erie. Environ Sci Technol . 2015; 49 (6): 3392-400 PubMed Abstract | Publisher Full Text 18. Su X, Xue Q, Steinman AD, Zhao Y, et al.: Spatiotemporal Dynamics of Microcystin Variants and Relationships with Environmental Parameters in Lake Taihu, China. Toxins (Basel) . 2015; 7 (8): 3224-44 PubMed Abstract | Publisher Full Text 19. Yuan L, Pollard A: Deriving nutrient targets to prevent excessive cyanobacterial densities in U.S. lakes and reservoirs. Freshwater Biology . 2015; 60 (9): 1901-1916 Publisher Full Text 20. Yuan L, Pollard A, Pather S, Oliver J, et al.: Managing microcystin: identifying national-scale thresholds for total nitrogen and chlorophylla. Freshwater Biology . 2014; 59 (9): 1970-1981 Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Wilson AE. Reviewer Report For: Associations between chlorophyll a and various microcystin health advisory concentrations [version 2; peer review: 1 approved, 2 approved with reservations] . F1000Research 2016, 5 :151 ( https://doi.org/10.5256/f1000research.8562.r12330 ) The direct URL for this report is: https://f1000research.com/articles/5-151/v1#referee-response-12330 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 13 Jun 2016 Jeffrey Hollister , US Environmental Protection Agency, Narragansett, USA 13 Jun 2016 Author Response ## I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related ... Continue reading ## I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related studies that the authors might want to consider. - **Response:** First thanks for the fantastic list of refs! Having it linked with this publication is a resource in and of itself. We have looked at those carefully and have added several: including Ahn et al, Beaver et al, Yuan and Pollard, and Marion et al. We have not added signficantly to the background on this paper because our goal was to keep this research communication short and focused on on the chl and microcystin relationship. ## Based on the 2007 National Lakes Assessment report, roughly two-thirds of the waterbodies reported no detectable microcystin (detection limit = 0.05 ug/L) despite covering a huge range of chlorophyll concentrations. And, Fig 2 suggests that a large number of sites had barely detectable concentration of microcystin across a wide range of chlorophyll. It is not clear from the text how the authors dealt with waterbodies with undetectable or barely detectable microcystin concentrations. - **Response:** We have added some text to the Data section indicating how we deal with the detection limit. We feel it is important to keep these values in the analysis as removing them would inflate our confidence around the conditional probabilities. We hope this is clearer in our revision. ## Presenting histograms of chlorophyll and microcystin concentrations for the study lakes would be useful. - **Response:** We have chosen to present the distribution information in text and present for both chlorophyll and microcystin the range, mean, and median. Figure 2 also indicates the distribution of both. Lastly, the data are availble via [code from the GitHub repository](https://github.com/USEPA/Microcystinchla/blob/master/R/get_nla.R). ## I am not an expert on conditional probability analysis. Based on the authors’ text (second paragraph in Analytical Methods section), it appears that this analysis considers multiple events over time. If their dataset includes single measurements in a waterbody, I don’t understand where the temporal component comes into the analysis. Again, I could be totally misunderstanding how this analysis works and should probably read the relevant references the authors provided. - **Response:** We have added some additional text in the methods about the NLA as well as in the Discussion on NLA limitations. In short, this is not a temporal analysis and is based on a single snap shot. ## Based on increasing error in the conditional probability plots as chlorophyll increases, the reported chlorophyll thresholds should not include significant digits (i.e., 0.1) but instead be whole numbers. - **Response:** Done. NEED TO DO on table already in overleaf ## I would organize the information in table 1 by either concentration (low to high) or advisory type (drinking or recreational) and concentration (low to high). It might also be useful to include the number of lakes represented in each category based on microcystin. - **Response:** Table re-orderd based on concentration. Number of lakes (as percentage) included in text. Need to do directly on table in overleaf. ## In table 2, I would add the specific microcystin concentration target under each advisory type to avoid having to look back at table 1 for these data. - **Response:** Done. Need to transfer to overleaf. ## Most waterbodies lacked microcystin and Figure 2 clearly shows that there are a huge number of waterbodies across a large chlorophyll range that apparently had microcystin concentrations at the detection limit of 0.05 ug/L. I am concerned about the microcystin data at the detection limit. They appear to be false positives. I agree with the authors who acknowledged that high chlorophyll is not always a good predictor of high microcystin. What should be done for those waterbodies with high concentrations of chlorophyll but that had no or barely detectable microcystin? - **Response:** We added some discussion about this in the last paragraph of the Data section. We feel that these should be left in as removing them would erroneously inflate our confidence intervals and impact the conditional probabilities. Essentially these are lakes with very low microcystin but widely varying chlorophyll values. ## I am confused about the data collected and available for the 2007 National Lakes Assessment. For example, I organized this dataset in July 2010 and found that 1158 lakes were sampled once (1152 of these lakes included data for both chlorophyll and microcystin) and 95 of the 1158 originally sampled lakes were sampled a second time in 2007. Yuan et al. 2014 (Freshwater Biology) used data for 1077 sampled lakes. The current study (as well as the National Lakes Assessment website and report) describes data for 1028 lakes. Clarity about these discrepancies is not necessarily the authors’ job, but it would be good to understand why the differences exist across these datasets. Also, for this study, how were data used for lakes sampled twice in 2007? - **Response:** We share your confusion! There are many "types" of samples included with the raw NLA data. For this analysis, we only used the probability samples (i.e. no reference samples) and only used the first visit to a lake. Additionally, lakes that had no data reported for either chl or microsystin were not included. As noted, this results in 1028 samples ## Although all of the National Lakes Assessment data are publicly available, the authors should provide the dataset that they used for this study. - **Response:** Code to access the data is available from [USEPA/microcysinchla](https://github.com/USEPA/microcystinchla). We have also added in a static .csv file to this repository of the data used for our analysis. This is listed in the "Data and software availability" section. Thank you for your review. We have just submitted our revisions and expect the new version to be available in the next few days. Below are our responses to the specific issues you raise. We feel the paper is stronger after this revision. Any questions, feel free to contact us or comment here. Thanks again! ## Specific Edits: ### Title and Abstract: - For clarity, the authors might consider replacing “various” with “World Health Organization and U.S. Environmental Protection Agency”. - **Response:** As this has already been indexed, we thought it best to limit the edits to the title. ## I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related studies that the authors might want to consider. - **Response:** First thanks for the fantastic list of refs! Having it linked with this publication is a resource in and of itself. We have looked at those carefully and have added several: including Ahn et al, Beaver et al, Yuan and Pollard, and Marion et al. We have not added signficantly to the background on this paper because our goal was to keep this research communication short and focused on on the chl and microcystin relationship. ## Based on the 2007 National Lakes Assessment report, roughly two-thirds of the waterbodies reported no detectable microcystin (detection limit = 0.05 ug/L) despite covering a huge range of chlorophyll concentrations. And, Fig 2 suggests that a large number of sites had barely detectable concentration of microcystin across a wide range of chlorophyll. It is not clear from the text how the authors dealt with waterbodies with undetectable or barely detectable microcystin concentrations. - **Response:** We have added some text to the Data section indicating how we deal with the detection limit. We feel it is important to keep these values in the analysis as removing them would inflate our confidence around the conditional probabilities. We hope this is clearer in our revision. ## Presenting histograms of chlorophyll and microcystin concentrations for the study lakes would be useful. - **Response:** We have chosen to present the distribution information in text and present for both chlorophyll and microcystin the range, mean, and median. Figure 2 also indicates the distribution of both. Lastly, the data are availble via [code from the GitHub repository](https://github.com/USEPA/Microcystinchla/blob/master/R/get_nla.R). ## I am not an expert on conditional probability analysis. Based on the authors’ text (second paragraph in Analytical Methods section), it appears that this analysis considers multiple events over time. If their dataset includes single measurements in a waterbody, I don’t understand where the temporal component comes into the analysis. Again, I could be totally misunderstanding how this analysis works and should probably read the relevant references the authors provided. - **Response:** We have added some additional text in the methods about the NLA as well as in the Discussion on NLA limitations. In short, this is not a temporal analysis and is based on a single snap shot. ## Based on increasing error in the conditional probability plots as chlorophyll increases, the reported chlorophyll thresholds should not include significant digits (i.e., 0.1) but instead be whole numbers. - **Response:** Done. NEED TO DO on table already in overleaf ## I would organize the information in table 1 by either concentration (low to high) or advisory type (drinking or recreational) and concentration (low to high). It might also be useful to include the number of lakes represented in each category based on microcystin. - **Response:** Table re-orderd based on concentration. Number of lakes (as percentage) included in text. Need to do directly on table in overleaf. ## In table 2, I would add the specific microcystin concentration target under each advisory type to avoid having to look back at table 1 for these data. - **Response:** Done. Need to transfer to overleaf. ## Most waterbodies lacked microcystin and Figure 2 clearly shows that there are a huge number of waterbodies across a large chlorophyll range that apparently had microcystin concentrations at the detection limit of 0.05 ug/L. I am concerned about the microcystin data at the detection limit. They appear to be false positives. I agree with the authors who acknowledged that high chlorophyll is not always a good predictor of high microcystin. What should be done for those waterbodies with high concentrations of chlorophyll but that had no or barely detectable microcystin? - **Response:** We added some discussion about this in the last paragraph of the Data section. We feel that these should be left in as removing them would erroneously inflate our confidence intervals and impact the conditional probabilities. Essentially these are lakes with very low microcystin but widely varying chlorophyll values. ## I am confused about the data collected and available for the 2007 National Lakes Assessment. For example, I organized this dataset in July 2010 and found that 1158 lakes were sampled once (1152 of these lakes included data for both chlorophyll and microcystin) and 95 of the 1158 originally sampled lakes were sampled a second time in 2007. Yuan et al. 2014 (Freshwater Biology) used data for 1077 sampled lakes. The current study (as well as the National Lakes Assessment website and report) describes data for 1028 lakes. Clarity about these discrepancies is not necessarily the authors’ job, but it would be good to understand why the differences exist across these datasets. Also, for this study, how were data used for lakes sampled twice in 2007? - **Response:** We share your confusion! There are many "types" of samples included with the raw NLA data. For this analysis, we only used the probability samples (i.e. no reference samples) and only used the first visit to a lake. Additionally, lakes that had no data reported for either chl or microsystin were not included. As noted, this results in 1028 samples ## Although all of the National Lakes Assessment data are publicly available, the authors should provide the dataset that they used for this study. - **Response:** Code to access the data is available from [USEPA/microcysinchla](https://github.com/USEPA/microcystinchla). We have also added in a static .csv file to this repository of the data used for our analysis. This is listed in the "Data and software availability" section. Thank you for your review. We have just submitted our revisions and expect the new version to be available in the next few days. Below are our responses to the specific issues you raise. We feel the paper is stronger after this revision. Any questions, feel free to contact us or comment here. Thanks again! ## Specific Edits: ### Title and Abstract: - For clarity, the authors might consider replacing “various” with “World Health Organization and U.S. Environmental Protection Agency”. - **Response:** As this has already been indexed, we thought it best to limit the edits to the title. Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 13 Jun 2016 Jeffrey Hollister , US Environmental Protection Agency, Narragansett, USA 13 Jun 2016 Author Response ## I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related ... Continue reading ## I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related studies that the authors might want to consider. - **Response:** First thanks for the fantastic list of refs! Having it linked with this publication is a resource in and of itself. We have looked at those carefully and have added several: including Ahn et al, Beaver et al, Yuan and Pollard, and Marion et al. We have not added signficantly to the background on this paper because our goal was to keep this research communication short and focused on on the chl and microcystin relationship. ## Based on the 2007 National Lakes Assessment report, roughly two-thirds of the waterbodies reported no detectable microcystin (detection limit = 0.05 ug/L) despite covering a huge range of chlorophyll concentrations. And, Fig 2 suggests that a large number of sites had barely detectable concentration of microcystin across a wide range of chlorophyll. It is not clear from the text how the authors dealt with waterbodies with undetectable or barely detectable microcystin concentrations. - **Response:** We have added some text to the Data section indicating how we deal with the detection limit. We feel it is important to keep these values in the analysis as removing them would inflate our confidence around the conditional probabilities. We hope this is clearer in our revision. ## Presenting histograms of chlorophyll and microcystin concentrations for the study lakes would be useful. - **Response:** We have chosen to present the distribution information in text and present for both chlorophyll and microcystin the range, mean, and median. Figure 2 also indicates the distribution of both. Lastly, the data are availble via [code from the GitHub repository](https://github.com/USEPA/Microcystinchla/blob/master/R/get_nla.R). ## I am not an expert on conditional probability analysis. Based on the authors’ text (second paragraph in Analytical Methods section), it appears that this analysis considers multiple events over time. If their dataset includes single measurements in a waterbody, I don’t understand where the temporal component comes into the analysis. Again, I could be totally misunderstanding how this analysis works and should probably read the relevant references the authors provided. - **Response:** We have added some additional text in the methods about the NLA as well as in the Discussion on NLA limitations. In short, this is not a temporal analysis and is based on a single snap shot. ## Based on increasing error in the conditional probability plots as chlorophyll increases, the reported chlorophyll thresholds should not include significant digits (i.e., 0.1) but instead be whole numbers. - **Response:** Done. NEED TO DO on table already in overleaf ## I would organize the information in table 1 by either concentration (low to high) or advisory type (drinking or recreational) and concentration (low to high). It might also be useful to include the number of lakes represented in each category based on microcystin. - **Response:** Table re-orderd based on concentration. Number of lakes (as percentage) included in text. Need to do directly on table in overleaf. ## In table 2, I would add the specific microcystin concentration target under each advisory type to avoid having to look back at table 1 for these data. - **Response:** Done. Need to transfer to overleaf. ## Most waterbodies lacked microcystin and Figure 2 clearly shows that there are a huge number of waterbodies across a large chlorophyll range that apparently had microcystin concentrations at the detection limit of 0.05 ug/L. I am concerned about the microcystin data at the detection limit. They appear to be false positives. I agree with the authors who acknowledged that high chlorophyll is not always a good predictor of high microcystin. What should be done for those waterbodies with high concentrations of chlorophyll but that had no or barely detectable microcystin? - **Response:** We added some discussion about this in the last paragraph of the Data section. We feel that these should be left in as removing them would erroneously inflate our confidence intervals and impact the conditional probabilities. Essentially these are lakes with very low microcystin but widely varying chlorophyll values. ## I am confused about the data collected and available for the 2007 National Lakes Assessment. For example, I organized this dataset in July 2010 and found that 1158 lakes were sampled once (1152 of these lakes included data for both chlorophyll and microcystin) and 95 of the 1158 originally sampled lakes were sampled a second time in 2007. Yuan et al. 2014 (Freshwater Biology) used data for 1077 sampled lakes. The current study (as well as the National Lakes Assessment website and report) describes data for 1028 lakes. Clarity about these discrepancies is not necessarily the authors’ job, but it would be good to understand why the differences exist across these datasets. Also, for this study, how were data used for lakes sampled twice in 2007? - **Response:** We share your confusion! There are many "types" of samples included with the raw NLA data. For this analysis, we only used the probability samples (i.e. no reference samples) and only used the first visit to a lake. Additionally, lakes that had no data reported for either chl or microsystin were not included. As noted, this results in 1028 samples ## Although all of the National Lakes Assessment data are publicly available, the authors should provide the dataset that they used for this study. - **Response:** Code to access the data is available from [USEPA/microcysinchla](https://github.com/USEPA/microcystinchla). We have also added in a static .csv file to this repository of the data used for our analysis. This is listed in the "Data and software availability" section. Thank you for your review. We have just submitted our revisions and expect the new version to be available in the next few days. Below are our responses to the specific issues you raise. We feel the paper is stronger after this revision. Any questions, feel free to contact us or comment here. Thanks again! ## Specific Edits: ### Title and Abstract: - For clarity, the authors might consider replacing “various” with “World Health Organization and U.S. Environmental Protection Agency”. - **Response:** As this has already been indexed, we thought it best to limit the edits to the title. ## I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related studies that the authors might want to consider. - **Response:** First thanks for the fantastic list of refs! Having it linked with this publication is a resource in and of itself. We have looked at those carefully and have added several: including Ahn et al, Beaver et al, Yuan and Pollard, and Marion et al. We have not added signficantly to the background on this paper because our goal was to keep this research communication short and focused on on the chl and microcystin relationship. ## Based on the 2007 National Lakes Assessment report, roughly two-thirds of the waterbodies reported no detectable microcystin (detection limit = 0.05 ug/L) despite covering a huge range of chlorophyll concentrations. And, Fig 2 suggests that a large number of sites had barely detectable concentration of microcystin across a wide range of chlorophyll. It is not clear from the text how the authors dealt with waterbodies with undetectable or barely detectable microcystin concentrations. - **Response:** We have added some text to the Data section indicating how we deal with the detection limit. We feel it is important to keep these values in the analysis as removing them would inflate our confidence around the conditional probabilities. We hope this is clearer in our revision. ## Presenting histograms of chlorophyll and microcystin concentrations for the study lakes would be useful. - **Response:** We have chosen to present the distribution information in text and present for both chlorophyll and microcystin the range, mean, and median. Figure 2 also indicates the distribution of both. Lastly, the data are availble via [code from the GitHub repository](https://github.com/USEPA/Microcystinchla/blob/master/R/get_nla.R). ## I am not an expert on conditional probability analysis. Based on the authors’ text (second paragraph in Analytical Methods section), it appears that this analysis considers multiple events over time. If their dataset includes single measurements in a waterbody, I don’t understand where the temporal component comes into the analysis. Again, I could be totally misunderstanding how this analysis works and should probably read the relevant references the authors provided. - **Response:** We have added some additional text in the methods about the NLA as well as in the Discussion on NLA limitations. In short, this is not a temporal analysis and is based on a single snap shot. ## Based on increasing error in the conditional probability plots as chlorophyll increases, the reported chlorophyll thresholds should not include significant digits (i.e., 0.1) but instead be whole numbers. - **Response:** Done. NEED TO DO on table already in overleaf ## I would organize the information in table 1 by either concentration (low to high) or advisory type (drinking or recreational) and concentration (low to high). It might also be useful to include the number of lakes represented in each category based on microcystin. - **Response:** Table re-orderd based on concentration. Number of lakes (as percentage) included in text. Need to do directly on table in overleaf. ## In table 2, I would add the specific microcystin concentration target under each advisory type to avoid having to look back at table 1 for these data. - **Response:** Done. Need to transfer to overleaf. ## Most waterbodies lacked microcystin and Figure 2 clearly shows that there are a huge number of waterbodies across a large chlorophyll range that apparently had microcystin concentrations at the detection limit of 0.05 ug/L. I am concerned about the microcystin data at the detection limit. They appear to be false positives. I agree with the authors who acknowledged that high chlorophyll is not always a good predictor of high microcystin. What should be done for those waterbodies with high concentrations of chlorophyll but that had no or barely detectable microcystin? - **Response:** We added some discussion about this in the last paragraph of the Data section. We feel that these should be left in as removing them would erroneously inflate our confidence intervals and impact the conditional probabilities. Essentially these are lakes with very low microcystin but widely varying chlorophyll values. ## I am confused about the data collected and available for the 2007 National Lakes Assessment. For example, I organized this dataset in July 2010 and found that 1158 lakes were sampled once (1152 of these lakes included data for both chlorophyll and microcystin) and 95 of the 1158 originally sampled lakes were sampled a second time in 2007. Yuan et al. 2014 (Freshwater Biology) used data for 1077 sampled lakes. The current study (as well as the National Lakes Assessment website and report) describes data for 1028 lakes. Clarity about these discrepancies is not necessarily the authors’ job, but it would be good to understand why the differences exist across these datasets. Also, for this study, how were data used for lakes sampled twice in 2007? - **Response:** We share your confusion! There are many "types" of samples included with the raw NLA data. For this analysis, we only used the probability samples (i.e. no reference samples) and only used the first visit to a lake. Additionally, lakes that had no data reported for either chl or microsystin were not included. As noted, this results in 1028 samples ## Although all of the National Lakes Assessment data are publicly available, the authors should provide the dataset that they used for this study. - **Response:** Code to access the data is available from [USEPA/microcysinchla](https://github.com/USEPA/microcystinchla). We have also added in a static .csv file to this repository of the data used for our analysis. This is listed in the "Data and software availability" section. Thank you for your review. We have just submitted our revisions and expect the new version to be available in the next few days. Below are our responses to the specific issues you raise. We feel the paper is stronger after this revision. Any questions, feel free to contact us or comment here. Thanks again! ## Specific Edits: ### Title and Abstract: - For clarity, the authors might consider replacing “various” with “World Health Organization and U.S. Environmental Protection Agency”. - **Response:** As this has already been indexed, we thought it best to limit the edits to the title. Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 2 VERSION 2 PUBLISHED 09 Feb 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 2 (revision) 13 Jun 16 read Version 1 09 Feb 16 read read read Alan E. Wilson , Auburn University, Auburn, USA Jason W. Marion , Eastern Kentucky University, Richmond, USA Zofia E Taranu , Université de Montréal, Montreal, Canada Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Taranu Z. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 28 Jun 2016 | for Version 2 Zofia E Taranu , Department of Biological Sciences, Université de Montréal, Montreal, QC, Canada 0 Views copyright © 2016 Taranu Z. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Taranu ZE. Peer Review Report For: Associations between chlorophyll a and various microcystin health advisory concentrations [version 2; peer review: 1 approved, 2 approved with reservations] . F1000Research 2016, 5 :151 ( https://doi.org/10.5256/f1000research.9675.r14343) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-151/v2#referee-response-14343 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Taranu Z. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 11 Apr 2016 | for Version 1 Zofia E Taranu , Department of Biological Sciences, Université de Montréal, Montreal, QC, Canada 0 Views copyright © 2016 Taranu Z. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions General comments This study provides an elegant framework to predict the severe impairment of U.S. lakes and reservoirs by cyanobacterial harmful algal blooms. I especially appreciated the clever use of conditional probability analysis to identify chlorophyll a threshold above which MC concentrations exceed WHO drinking water and recreational provisional guidelines. Chlorophyll a is a regularly measured water quality variable, and this study indeed offers a promising approach that can me used in many lakes around the world to identify problematic lakes or regions. In that regard, it would have been interesting to account for the spatial heterogeneity across this landscape -- as indicated by Beaver et al. (2014), some regions of the continental U.S. are more likely to be MC hotspots. Accounting for this heterogeneity will likely help explain some of the noise in the biplot shown in Fig. 2. I have also analyzed the MC data from the same dataset and found that accounting for different ecoregions in my model (as presented in Beaver et al., 2014) helped further explain the probability of detecting versus failing to detect MC in lakes. I am curious to know how this would play out with your modeling approach (conditional probability analysis). Minor comments I recommend the following minor typographical corrections: P3 Change: “Yuan et al. (2014) explore these associations in detail and control for other related variables. In their analysis they find that total [...]” To: “Recently, Yuan et al. (2014) explored these associations in detail and controlled for other related variables and found that total [...]” Change: “Given these facts, it should be possible to identify chlorophyll a concentrations that would be associated with the [...]” To: “These findings suggest that chlorophyll a concentrations could also track the [...]” Change: “Identifying these associations would provide another tool for [...]” To: “Identifying this association would provide an important tool for [...]” Change: “We add to past studies by exploring associations with newly announced advisory [...]” To: “We build on past studies by exploring associations with the newly announced advisory [...]” P4 Change: “Thus, to identify chlorophyll a concentrations of concern we identify the value [...]” To: “Thus, to identify chlorophyll a concentrations of concern we identified the value [...]” Change: “were highly skewed right,” To: “were highly right skewed,” Change: “Lastly, we assess the ability of” To: “Lastly, we assessed the ability of” Change: “We use error matrices and calculate total accuracy” To: “We used error matrices and calculate total accuracy” Change: “For chlorophyll a, the range was” To: “Chlorophyll a ranged from” Please specify that this chlorophyll a range corresponds to a range from oligotrophic to hypereutrophic lakes. Change: “The associations between chlorophyll a and the upper confidence interval” To: “The association between chlorophyll a and the upper confidence interval” Figure 2 should first be presented in the Results section. Change: “This is the case as the probability of exceeding each of the four tested health advisory levels increases as a” To: “Indeed, the probability of exceeding each of the four tested health advisory levels increased as a” Change: “We used this association to identify chlorophyll a concentrations that are associated” To: “We used this association to identify chlorophyll a concentrations that were associated” References 1. Beaver J, Manis E, Loftin K, Graham J, et al.: Land use patterns, ecoregion, and microcystin relationships in U.S. lakes and reservoirs: A preliminary evaluation. Harmful Algae . 2014; 36 : 57-62 Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 13 Jun 2016 Jeffrey Hollister, US Environmental Protection Agency, Narragansett, USA Thank you for your review. We have just submitted our revisions and expect the new version to be available in the next few days. Below are our responses to the specific issues you raise. We feel the paper is stronger after this revision. Any questions, feel free to contact us or comment here. Thanks again! ## Spatial/Regional Heterogeneity in Chlorophyll/Microcystin realtionship We agree that there are likely regional differences and would like to account for this; however, sample sizes for each region vary (67 to 155) and are relatively small. The resulting conditional probability analysis would have very wide confidence intervals. Thus, comparison between regions would be difficult and inferring a pattern would not be possible. We have added additional text in the discussion (second to last paragraph) that raises this issue. Additionally, we have added the Beaver et al. reference in this discussion. ## Specific Edits ### P3 - Change: “Yuan et al. (2014) explore these associations in detail and control for other related variables. In their analysis they find that total [...]”, To: “Recently, Yuan et al. (2014) explored these associations in detail and controlled for other related variables and found that total [...]” - **Response:** Changed - Change: “Given these facts, it should be possible to identify chlorophyll a concentrations that would be associated with the [...]”, To: “These findings suggest that chlorophyll a concentrations could also track the [...]” - **Response:** Changed - Change: “Identifying these associations would provide another tool for [...]”, To: “Identifying this association would provide an important tool for [...]” - **Response:** Changed - Change: “We add to past studies by exploring associations with newly announced advisory [...]”, To: “We build on past studies by exploring associations with the newly announced advisory [...]” - **Response:** Changed ### P4 - Change: “Thus, to identify chlorophyll a concentrations of concern we identify the value [...]”, To: “Thus, to identify chlorophyll a concentrations of concern we identified the value [...]” - **Response:** Changed - Change: “were highly skewed right,”, To: “were highly right skewed,” - **Response:** Changed - Change: “Lastly, we assess the ability of”, To: “Lastly, we assessed the ability of” - **Response:** Changed - Change: “We use error matrices and calculate total accuracy”, To: “We used error matrices and calculate total accuracy” - **Response:** Changed - Change: “For chlorophyll a, the range was”, To: “Chlorophyll a ranged from” - **Response:** Changed - Please specify that this chlorophyll a range corresponds to a range from oligotrophic to hypereutrophic lakes. - **Response:** Changed - Change: “The associations between chlorophyll a and the upper confidence interval”, To: “The association between chlorophyll a and the upper confidence interval” - **Response:** Changed - Figure 2 should first be (Figure \ref{fig:chla_micro_scatter})presented in the Results section. - **Response:** We did not changes this as we fill Figure 2 is not presenting results of our analysis but justifying the approach as is a better fit to be introduced in the Discussion. - Change: “This is the case as the probability of exceeding each of the four tested health advisory levels increases as a”, To: “Indeed, the probability of exceeding each of the four tested health advisory levels increased as a” - **Response:** Changed - Change: “We used this association to identify chlorophyll a concentrations that are associated”, To: “We used this association to identify chlorophyll a concentrations that were associated” - **Response:** Changed View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Taranu ZE. Peer Review Report For: Associations between chlorophyll a and various microcystin health advisory concentrations [version 2; peer review: 1 approved, 2 approved with reservations] . F1000Research 2016, 5 :151 ( https://doi.org/10.5256/f1000research.8562.r12719) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-151/v1#referee-response-12719 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Marion J. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 05 Apr 2016 | for Version 1 Jason W. Marion , Department of Environmental Health Science, Eastern Kentucky University, Richmond, KY, USA 0 Views copyright © 2016 Marion J. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Overview: The manuscript/article addresses a critical question applicable to recreational and drinking water managers: Can we rapidly predict potentially harmful cyanobacteria blooms using traditional water quality methods? This question is likely to become more relevant according to the most current literature as blooms are expected to increase in frequency in the midst of a warming global climate facing more extreme storm and drought events 1 - 6 . Using the rather large and nationally applicable National Lakes Assessment database for the United States, the authors demonstrate some of the strengths and weaknesses of using chlorophyll a as an indicator for at-risk conditions that could warrant management action or follow-up testing for cyanotoxins. The authors are also able to assign action levels or at least share possible action levels for management action using conditional probabilities. The strengths and weaknesses of selected probabilities are described using analyses similar to specificity and sensitivity in the form of accuracy and ‘avoiding type II errors’. The authors do not propose using chlorophyll a as a proxy to replace toxin measurement, but as a tool to help facilitate targeted monitoring of toxins during at-risk conditions. Overall Comments: The article is meritorious in that it does provide a meaningful starting point for lakes with no phycocyanin measures and for providing a meaningful starting point for developing some semblance of an action level that could be employed by recreational water and drinking water managers concerned with cyanotoxins. The article does stand to improve significantly in some key areas, which are as follows: (1) Additional discussion in methods related to the National Lakes Assessment (2) Additional discussion needed on how the data were organized for data analysis (3) Improved discussion needed on alternative indicators for cHABs and cyanotoxins not assessed in the NLA (4) Consideration of region-specific criteria or limitations of national recommendations for chl a . (5) Greater discussion on limitations of NLA and need for model validation/future studies. (1) Additional discussion needed in methods related to the National Lakes Assessment: The readership may not be aware of the U.S. NLA performed in 2007. The author(s) should clarify where samples were collected (nearshore or from the surface in the deeper waters). NLA chlorophyll a samples were take from the profundal zone rather than the littoral zone. The readership may also be interested in how many chl a samples were collected from each lake. Where were the microcystin-LR samples collected? (2) Additional discussion needed on how the data were organized for data analysis: Were these samples paired (collected at the same time from the same locale) or are these some type of aggregated value over a lake season? Describing this in the methods will really help for understanding the importance of this work. Paired results (MC-LR and Chl a from the same day) are much more impactful for demonstrating the rapid advantage of chl a compated to using results that are a seasonal average indicating that the hypereutrophic and eutrophic lakes (ones with the highest chl a ) are also the ones that are most likely to have a cyanoHAB event sometime during the year. (3) Improved discussion needed on alternative indicators for cHABs and cyanotoxins not assessed in the NLA: Brief mention is given to phycocyanin (one study), and the additional language (about phycocyanin not always being available for measure and when measured, it is for only measuring pigment and not toxins) is equally relevant for chl a . The same in vivo handheld fluorometers and continuous monitoring solutions available for chl a are now widely available for phycocyanin, often at the same cost as a rapid measure for chl a . Phycocyanin, like chl a, does not measure toxin either, but phycocyanin in many studies has outperformed chl a , and in some studies it has not (especially when toxin concentration is low). Historical records on PC are likely not as great as chlorophyll a . Overall, several studies on this topic have been produced in the last two to four years (see Zamyadi and Dorner’s work), with one study using phycocyanin to predict non-alcoholic liver disease presuming a relationship with cyanotoxins (Zhang et al. 2015) (4) Consideration desired on region-specific criteria or limitations of national recommendations for chl a : With nearly 30% of the lakes in the temperate plains being coded as poor for chlorophyll a in the 2007 NLA, what impact would these conditional probabilities have on these lakes? Should the lake managers in this region be monitoring continuously all the time? What are the mean/median chlorophyll a levels for this part of the U.S? Regional variability may be really important and did the conditional probability approach take this into consideration or can it take it into consideration? Is there a way to evaluate if there are significant regional effects in the U.S? For nutrient standards in the U.S. and macroinvertebrate assessments, EPA has had to issue region-specific guidelines/criteria, etc. for some parameters. (5) Greater discussion needed on limitations of NLA and need for model validation/future studies: The paper fails to address the limitations of the NLA – as a reader, I’m not aware of the limitations. I have much respect for the NLA, but I do have questions regarding the number of samples for each lake. Furthermore, a statement or two discussing the need to validate modeled data may be worthwhile. Is there a way to see if the probabilities actually align with the accuracy and type II error rates predicted by the conditional probability approach? Abstract-Specific Comments: Near the bottom of the abstract, the units seem quite high for microcystins (g/L) rather than micrograms/L. The micro Greek symbol (mu) may have been lost during uploading. Results Comments: (1) In discussing the lake exceedances of the various recommended levels by EPA, the addition of ‘drinking water’ is appropriate in my opinion. Although it is mentioned earlier in the methods, further providing the information in the results is helpful to a novice reader or a person just becoming familiar with drinking water regulations and guidelines, as the U.S. EPA child level may be presumed by a reader to be a level for recreation in a lake rather than a level associated with finished drinking water after water treatment. (2) “All lakes had reported chl a concentrations that exceeded detection limits” Does this mean that some were over range? Or does this mean that “All lakes had detectable levels of chl a” Discussion Comments: The wedge pattern in figure 2 is not apparent in figure 2, however, the logic makes sense and is supported visually by the conditional probability plots in fig 1. If figure 2 could have two lines of best fit (similar to the way some researchers do for funnel plots on publication bias papers), it may be easier to see the wedge shape. Climate Articles Highlighting Current Importance of Topic: Harvell, C. D.; Kim, K.; Burkholder, J. M.; Colwell, R. R.; Epstein, P. R.; Grimes, D. J.; Hoffman, E. E.; Lipp,E. K.; Osterhaus, A. D. M. E.; Overstreet, R. M.; Porter, J. W.; Smith, G. W.; Vasta, G. R.Emerging marine diseases – climate links and anthropogenic factors Science 2000 , 285, 1505– 1510 Peperzak, L.Climate change and harmful algal blooms in the North Sea Acta Oecol. 2003 , 24, 139–144 Edwards, M.; Johns, D. G.; Leterme, S. C.; Svendsen, E.; Richardson, A. J.Regional climate change and harmful algal blooms in the northeast Atlantic Limnol. Oceanogr. 2006 , 51 ( 2) 820– 829 Ye, C.; Shen, Z.; Zhang, T.; Feng, M.; Lei, Y.; Zhang, J.Long-term joint effect of nutrients and temperature increase on algal growth in Lake Taihu, China J Environ. Sci. 2011 , 23 ( 2) 222– 227 Paerl, H. W.; Hall, N. S.; Calandrino, E. S.Controlling harmful cyanobacterial blooms in a world experiencing anthropogenic and climatic-induced change Sci. Total Environ. 2011 , 409, 1739– 1745 Davis, T. W.; Berry, D. L.; Boyer, G. L.; Gobler, C. J.The effects of temperature and nutrients on the growth and dynamics of toxic and non-toxic strains of Microcystis during cyanobacteria blooms Harmful Algae 2009 , 8, 715– 725 Articles on Phycocyanin and Toxin Indicators Ought to Be Considered: Ahn, C.-Y.; Joung, S.-H.; Yoon, S.-K.; Oh, H.-M.Alternative alert system for cyanobacterial bloom, using phycocyanin as a level determinant J. Microbiol. 2007 , 45 ( 2) 98– 104. Makarewicz, J. C.; Boyer, G. L.; Lewis, T. .; Guenther, W.; Atkinson, J.; Arnold, M.Spatial and temporal distribution of the cyanotoxin microcystin-LR in the Lake Ontario ecosystem: Coastal embayments, rivers, nearshore and offshore, and upland lakes J. Great Lakes Res. 2009 , 35, 83– 89. Murby, A. L.Assessing spatial distributions of cyanobacteria and microcystins in N.H. lakes with implications for lake monitoring. Master’s Thesis. University of New Hampshire, 2009 ; p 89. Lehman, E. M.Seasonal occurrence and toxicity of Microcystis in impoundments of the Huron River, Michigan, USA Water Res. 2007 , 41, 795– 802 Lee C, Marion JW, Cheung M, Lee CS, Lee J. Associations among Human-Associated Fecal Contamination, Microcystis aeruginosa, and Microcystin at Lake Erie Beaches. International journal of environmental research and public health. 2015 Sep 11;12(9):11466-85. Zamyadi A, Dorner S, Ndong M, Ellis D, Bolduc A, Bastien C, Prvost M. Application of in vivo measurements for the management of cyanobacteria breakthrough into drinking water treatment plants. Environmental Science: Processes Impacts. 2014;16(2):313-23. Zhang F, Lee J, Liang S, Shum CK. Cyanobacteria blooms and non-alcoholic liver disease: evidence from a county level ecological study in the United States. Environmental Health. 2015 May 7;14(1):41. References 1. Harvell CD, Kim K, Burkholder JM, Colwell RR, et al.: Emerging marine diseases--climate links and anthropogenic factors. Science . 1999; 285 (5433): 1505-10 PubMed Abstract 2. Peperzak L: Climate change and harmful algal blooms in the North Sea. Acta Oecologica . 2003; 24 : S139-S144 Publisher Full Text 3. Edwards M, Johns D, Leterme S, Svendsen E, et al.: Regional climate change and harmful algal blooms in the northeast Atlantic. Limnology and Oceanography . 2006; 51 (2): 820-829 Publisher Full Text 4. Ye C, Shen Z, Zhang T, Fan M, et al.: Long-term joint effect of nutrients and temperature increase on algal growth in Lake Taihu, China. J Environ Sci (China) . 2011; 23 (2): 222-7 PubMed Abstract 5. Paerl HW, Hall NS, Calandrino ES: Controlling harmful cyanobacterial blooms in a world experiencing anthropogenic and climatic-induced change. Sci Total Environ . 2011; 409 (10): 1739-45 PubMed Abstract | Publisher Full Text 6. Davis T, Berry D, Boyer G, Gobler C: The effects of temperature and nutrients on the growth and dynamics of toxic and non-toxic strains of Microcystis during cyanobacteria blooms. Harmful Algae . 2009; 8 (5): 715-725 Publisher Full Text 7. Ahn CY, Joung SH, Yoon SK, Oh HM: Alternative alert system for cyanobacterial bloom, using phycocyanin as a level determinant. J Microbiol . 2007; 45 (2): 98-104 PubMed Abstract 8. Makarewicz J, Boyer G, Lewis T, Guenther W, et al.: Spatial and temporal distribution of the cyanotoxin microcystin-LR in the Lake Ontario ecosystem: Coastal embayments, rivers, nearshore and offshore, and upland lakes. Journal of Great Lakes Research . 2009; 35 : 83-89 Publisher Full Text 9. Murlby AL: Assessing spatial distributions of cyanobacteria and microcystins in N.H. lakes with implications for lake monitoring. 2009; Master's Thesis (University of New Hampshire): 89 10. Lehman EM: Seasonal occurrence and toxicity of Microcystis in impoundments of the Huron River, Michigan, USA. Water Res . 2007; 41 (4): 795-802 PubMed Abstract | Publisher Full Text 11. Lee C, Marion JW, Cheung M, Lee CS, et al.: Associations among Human-Associated Fecal Contamination, Microcystis aeruginosa, and Microcystin at Lake Erie Beaches. Int J Environ Res Public Health . 2015; 12 (9): 11466-85 PubMed Abstract | Publisher Full Text 12. Zamyadi A, Dorner S, Ndong M, Ellis D, et al.: Application of in vivo measurements for the management of cyanobacteria breakthrough into drinking water treatment plants. Environ Sci Process Impacts . 2014; 16 (2): 313-23 PubMed Abstract | Publisher Full Text 13. Zhang F, Lee J, Liang S, Shum CK: Cyanobacteria blooms and non-alcoholic liver disease: evidence from a county level ecological study in the United States. Environ Health . 2015; 14 : 41 PubMed Abstract | Publisher Full Text Competing Interests Several of the recommended papers suggested for the author to consider in any subsequent revision of this manuscript involve authors for whom I have collaborated with on research. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 13 Jun 2016 Jeffrey Hollister, US Environmental Protection Agency, Narragansett, USA Thank you for your review. We have just submitted our revisions and expect the new version to be available in the next few days. Below are our responses to the specific issues you raise. We feel the paper is stronger after this revision. Any questions, feel free to contact us or comment here. Thanks again! ## Additional discussion needed in methods related to the National Lakes Assessment: The readership may not be aware of the U.S. NLA performed in 2007. The author(s) should clarify where samples were collected (nearshore or from the surface in the deeper waters). NLA chlorophyll a samples were take from the profundal zone rather than the littoral zone. The readership may also be interested in how many chl a samples were collected from each lake. Where were the microcystin-LR samples collected? - **Response:** We agree that additional information was needed describing the NLA. We have added this to the first paragraph on the Data section. ## Additional discussion needed on how the data were organized for data analysis: Were these samples paired (collected at the same time from the same locale) or are these some type of aggregated value over a lake season? Describing this in the methods will really help for understanding the importance of this work. Paired results (MC-LR and Chl a from the same day) are much more impactful for demonstrating the rapid advantage of chl a compated to using results that are a seasonal average indicating that the hypereutrophic and eutrophic lakes (ones with the highest chl a) are also the ones that are most likely to have a cyanoHAB event sometime during the year. - **Response:** We agree and have added some additional wording to the Data section indicating that the samples are taken at the same time. ## Improved discussion needed on alternative indicators for cHABs and cyanotoxins not assessed in the NLA: Brief mention is given to phycocyanin (one study), and the additional language (about phycocyanin not always beiThese blooms are expected to increase in frequecy and severity due to the impacts of climate change ng available for measure and when measured, it is for only measuring pigment and not toxins) is equally relevant for chl a. The same in vivo handheld fluorometers and continuous monitoring solutions available for chl a are now widely available for phycocyanin, often at the same cost as a rapid measure for chl a. Phycocyanin, like chl a, does not measure toxin either, but phycocyanin in many studies has outperformed chl a, and in some studies it has not (especially when toxin concentration is low). Historical records on PC are likely not as great as chlorophyll a. Overall, several studies on this topic have been produced in the last two to four years (see Zamyadi and Dorner’s work), with one study using phycocyanin to predict non-alcoholic liver disease presuming a relationship with cyanotoxins (Zhang et al. 2015) - **Response:** We agree that phycocyanin is more closely linked to microcystin than is chl *a*. Our paragraph mentioning phycocyanin was confusing and did suggest that chl *a* had a stronger association. Wording of that paragraph has been changed and the Ahn et al paper was added as reference. We feel that further discussion of phycocyanin, while important, is beyond the scope of our paper with its focus on chlorophyll. ## Consideration desired on region-specific criteria or limitations of national recommendations for chl a: With nearly 30% of the lakes in the temperate plains being coded as poor for chlorophyll a in the 2007 NLA, what impact would these conditional probabilities have on these lakes? Should the lake managers in this region be monitoring continuously all the time? What are the mean/median chlorophyll a levels for this part of the U.S? Regional variability may be really important and did the conditional probability approach take this into consideration or can it take it into consideration? Is there a way to evaluate if there are significant regional effects in the U.S? For nutrient standards in the U.S. and macroinvertebrate assessments, EPA has had to issue region-specific guidelines/criteria, etc. for some parameters. - **Response:** We agree that there are likely regional differences and would like to account for this; however, sample sizes for each region vary (67 to 155) and are relatively small. The resulting conditional probability analysis would have very wide confidence intervals. Thus, comparison between regions would be difficult and inferring a pattern would not be possible. We have added additional text in the discussion (second to last paragraph) that raises this issue. Additionally, we have added the Beaver et al. reference in this discussion. ## Greater discussion needed on limitations of NLA and need for model validation/future studies: The paper fails to address the limitations of the NLA – as a reader, I’m not aware of the limitations. I have much respect for the NLA, but I do have questions regarding the number of samples for each lake. Furthermore, a statement or two discussing the need to validate modeled data may be worthwhile. Is there a way to see if the probabilities actually align with the accuracy and type II error rates predicted by the conditional probability approach? - **Response:** We added a paragraph to the discussions about validation and the single sample limitations of the NLA. ## Specific Edits ### Abstract-Specific Comments: - Near the bottom of the abstract, the units seem quite high for microcystins (g/L) rather than micrograms/L. The micro Greek symbol (mu) may have been lost during uploading. - **Response:** Oops! Looks like it did occur during upload. Have double checked the final for the proper units. ### Results Comments: - In discussing the lake exceedances of the various recommended levels by EPA, the addition of ‘drinking water’ is appropriate in my opinion. Although it is mentioned earlier in the methods, further providing the information in the results is helpful to a novice reader or a person just becoming familiar with drinking water regulations and guidelines, as the U.S. EPA child level may be presumed by a reader to be a level for recreation in a lake rather than a level associated with finished drinking water after water treatment. - **Response:** Added this in. - “All lakes had reported chl a concentrations that exceeded detection limits” Does this mean that some were over range? Or does this mean that “All lakes had detectable levels of chl a” - **Response:** Changed wording to: All lakes had detectable levels of ... ### Discussion Comments: - The wedge pattern in figure 2 is not apparent in figure 2, however, the logic makes sense and is supported visually by the conditional probability plots in fig 1. If figure 2 could have two lines of best fit (similar to the way some researchers do for funnel plots on publication bias papers), it may be easier to see the wedge shape. - **Response:** Agreed that the wedge is not pronounced. We have changed the wording to better describe the pattern. Also, we disagree with the lines of best fit as those would then imply some sort of linear (presumably) pattern that we are not actually highlighting. Additionally the added lines would then require discussion and would detract from the focus on conditional probability. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Marion JW. Peer Review Report For: Associations between chlorophyll a and various microcystin health advisory concentrations [version 2; peer review: 1 approved, 2 approved with reservations] . F1000Research 2016, 5 :151 ( https://doi.org/10.5256/f1000research.8562.r12688) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-151/v1#referee-response-12688 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Wilson A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 22 Feb 2016 | for Version 1 Alan E. Wilson , School of Fisheries, Aquaculture, and Aquatic Sciences, College of Agriculture, Auburn University, Auburn, AL, USA 0 Views copyright © 2016 Wilson A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Title and Abstract: For clarity, the authors might consider replacing “various” with “World Health Organization and U.S. Environmental Protection Agency”. Article content: Using publicly available data produced from the 2007 USEPA National Lakes Assessment, the authors use conditional probability analysis to develop four chlorophyll concentration thresholds associated with two USEPA microcystin drinking water advisory targets, one WHO microcystin drinking water advisory target, and one WHO microcystin recreational use target. For most water resource managers, chlorophyll is much easier and cheaper to measure than microcystin. Given the threat that microcystins pose to human health, the purpose of this study is valuable. With that said, this study significantly overlaps with Yuan et al. (2014). The current study adds new advisory microcystin targets recently established by USEPA and uses a different statistical approach than Yuan et al. 2014. The authors cite relatively few studies. I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related studies that the authors might want to consider. I am certain that I have missed other relevant studies. Ahn et al. (2011) Beaver et al. (2014) Chan et al. (2007) Conti et al. (2005) Dolman et al. (2012) Downing et al. (2000) Giani et al. (2005) Graham et al. (2004) Graham et al. (2010) Jacoby et al. (2015) Kotak et al. (2000) Marion et al. (2012) Orihel et al. (2012) Sarnelle et al. (2010) Scott and Haggard (2015) Sinang et al. (2015) Stow et al. (2015) Su et al. (2015) Yuan and Pollard et al. (2015) Based on the 2007 National Lakes Assessment report, roughly two-thirds of the waterbodies reported no detectable microcystin (detection limit = 0.05 ug/L) despite covering a huge range of chlorophyll concentrations. And, Fig 2 suggests that a large number of sites had barely detectable concentration of microcystin across a wide range of chlorophyll. It is not clear from the text how the authors dealt with waterbodies with undetectable or barely detectable microcystin concentrations. Presenting histograms of chlorophyll and microcystin concentrations for the study lakes would be useful. I am not an expert on conditional probability analysis. Based on the authors’ text (second paragraph in Analytical Methods section), it appears that this analysis considers multiple events over time. If their dataset includes single measurements in a waterbody, I don’t understand where the temporal component comes into the analysis. Again, I could be totally misunderstanding how this analysis works and should probably read the relevant references the authors provided. Based on increasing error in the conditional probability plots as chlorophyll increases, the reported chlorophyll thresholds should not include significant digits (i.e., 0.1) but instead be whole numbers. I would organize the information in table 1 by either concentration (low to high) or advisory type (drinking or recreational) and concentration (low to high). It might also be useful to include the number of lakes represented in each category based on microcystin. In table 2, I would add the specific microcystin concentration target under each advisory type to avoid having to look back at table 1 for these data. Conclusions: The purpose of this study is to use a simple measurement (chlorophyll) to determine the threat that microcystins pose to a waterbody relative to existing microcystin concentration targets. Most waterbodies lacked microcystin and Figure 2 clearly shows that there are a huge number of waterbodies across a large chlorophyll range that apparently had microcystin concentrations at the detection limit of 0.05 ug/L. I am concerned about the microcystin data at the detection limit. They appear to be false positives. I agree with the authors who acknowledged that high chlorophyll is not always a good predictor of high microcystin. What should be done for those waterbodies with high concentrations of chlorophyll but that had no or barely detectable microcystin? Data: I am confused about the data collected and available for the 2007 National Lakes Assessment. For example, I organized this dataset in July 2010 and found that 1158 lakes were sampled once (1152 of these lakes included data for both chlorophyll and microcystin) and 95 of the 1158 originally sampled lakes were sampled a second time in 2007. Yuan et al. 2014 (Freshwater Biology) used data for 1077 sampled lakes. The current study (as well as the National Lakes Assessment website and report) describes data for 1028 lakes. Clarity about these discrepancies is not necessarily the authors’ job, but it would be good to understand why the differences exist across these datasets. Also, for this study, how were data used for lakes sampled twice in 2007? Although all of the National Lakes Assessment data are publicly available, the authors should provide the dataset that they used for this study. References 1. Ahn C, Oh H, Park Y: EVALUATION OF ENVIRONMENTAL FACTORS ON CYANOBACTERIAL BLOOM IN EUTROPHIC RESERVOIR USING ARTIFICIAL NEURAL NETWORKS1. Journal of Phycology . 2011; 47 (3): 495-504 Publisher Full Text 2. Beaver J, Manis E, Loftin K, Graham J, et al.: Land use patterns, ecoregion, and microcystin relationships in U.S. lakes and reservoirs: A preliminary evaluation. Harmful Algae . 2014; 36 : 57-62 Publisher Full Text 3. Chan WS, Recknagel F, Cao H, Park HD: Elucidation and short-term forecasting of microcystin concentrations in Lake Suwa (Japan) by means of artificial neural networks and evolutionary algorithms. Water Res . 2007; 41 (10): 2247-55 PubMed Abstract | Publisher Full Text 4. Conti AL, Guerrero JM, Regueira JM: Levels of microcystins in two Argentinean reservoirs used for water supply and recreation: differences in the implementation of safe levels. Environ Toxicol . 2005; 20 (3): 263-9 PubMed Abstract | Publisher Full Text 5. Dolman AM, Rücker J, Pick FR, Fastner J, et al.: Cyanobacteria and cyanotoxins: the influence of nitrogen versus phosphorus. PLoS One . 2012; 7 (6): e38757 PubMed Abstract | Publisher Full Text 6. Downing J, Watson S, McCauley E: Predicting Cyanobacteria dominance in lakes. Canadian Journal of Fisheries and Aquatic Sciences . 2001; 58 (10): 1905-1908 Publisher Full Text 7. Giani A, Bird D, Prairie Y, Lawrence J: Empirical study of cyanobacterial toxicity along a trophic gradient of lakes. Canadian Journal of Fisheries and Aquatic Sciences . 2005; 62 (9): 2100-2109 Publisher Full Text 8. Graham JL, Jones JR, Jones SB, Downing JA, et al.: Environmental factors influencing microcystin distribution and concentration in the Midwestern United States. Water Res . 2004; 38 (20): 4395-404 PubMed Abstract | Publisher Full Text 9. Graham JL, Loftin KA, Meyer MT, Ziegler AC: Cyanotoxin mixtures and taste-and-odor compounds in cyanobacterial blooms from the Midwestern United States. Environ Sci Technol . 2010; 44 (19): 7361-8 PubMed Abstract | Publisher Full Text 10. Jacoby J, Burghdoff M, Williams G, Read L, et al.: Dominant factors associated with microcystins in nine midlatitude, maritime lakes. Inland Waters . 2015; 5 (2): 187-202 Publisher Full Text 11. Kotak B, Lam A, Prepas E, Hrudey S: Role of chemical and physical variables in regulating microcystin-LR concentration in phytoplankton of eutrophic lakes. Canadian Journal of Fisheries and Aquatic Sciences . 2000; 57 (8): 1584-1593 Publisher Full Text 12. Marion JW, Lee J, Wilkins JR, Lemeshow S, et al.: In vivo phycocyanin flourometry as a potential rapid screening tool for predicting elevated microcystin concentrations at eutrophic lakes. Environ Sci Technol . 2012; 46 (8): 4523-31 PubMed Abstract | Publisher Full Text 13. Orihel D, Bird D, Brylinsky M, Chen H, et al.: High microcystin concentrations occur only at low nitrogen-to-phosphorus ratios in nutrient-rich Canadian lakes. Canadian Journal of Fisheries and Aquatic Sciences . 2012; 69 (9): 1457-1462 Publisher Full Text 14. Sarnelle O, Morrison J, Kaul R, Horst G, et al.: Citizen monitoring: Testing hypotheses about the interactive influences of eutrophication and mussel invasion on a cyanobacterial toxin in lakes. Water Res . 2010; 44 (1): 141-50 PubMed Abstract | Publisher Full Text 15. Scott JT, Haggard BE: Implementing Effects-Based Water Quality Criteria for Eutrophication in Beaver Lake, Arkansas: Linking Standard Development and Assessment Methodology. J Environ Qual . 2015; 44 (5): 1503-12 PubMed Abstract | Publisher Full Text 16. Sinang S, Reichwaldt E, Ghadouani A: Local nutrient regimes determine site-specific environmental triggers of cyanobacterial and microcystin variability in urban lakes. Hydrology and Earth System Sciences . 2015; 19 (5): 2179-2195 Publisher Full Text 17. Stow CA, Cha Y, Johnson LT, Confesor R, et al.: Long-term and seasonal trend decomposition of Maumee River nutrient inputs to western Lake Erie. Environ Sci Technol . 2015; 49 (6): 3392-400 PubMed Abstract | Publisher Full Text 18. Su X, Xue Q, Steinman AD, Zhao Y, et al.: Spatiotemporal Dynamics of Microcystin Variants and Relationships with Environmental Parameters in Lake Taihu, China. Toxins (Basel) . 2015; 7 (8): 3224-44 PubMed Abstract | Publisher Full Text 19. Yuan L, Pollard A: Deriving nutrient targets to prevent excessive cyanobacterial densities in U.S. lakes and reservoirs. Freshwater Biology . 2015; 60 (9): 1901-1916 Publisher Full Text 20. Yuan L, Pollard A, Pather S, Oliver J, et al.: Managing microcystin: identifying national-scale thresholds for total nitrogen and chlorophylla. Freshwater Biology . 2014; 59 (9): 1970-1981 Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 13 Jun 2016 Jeffrey Hollister, US Environmental Protection Agency, Narragansett, USA ## I think the authors need to more broadly consider the existing literature and describe how their findings relate to and build from past studies. Below, I provide some related studies that the authors might want to consider. - **Response:** First thanks for the fantastic list of refs! Having it linked with this publication is a resource in and of itself. We have looked at those carefully and have added several: including Ahn et al, Beaver et al, Yuan and Pollard, and Marion et al. We have not added signficantly to the background on this paper because our goal was to keep this research communication short and focused on on the chl and microcystin relationship. ## Based on the 2007 National Lakes Assessment report, roughly two-thirds of the waterbodies reported no detectable microcystin (detection limit = 0.05 ug/L) despite covering a huge range of chlorophyll concentrations. And, Fig 2 suggests that a large number of sites had barely detectable concentration of microcystin across a wide range of chlorophyll. It is not clear from the text how the authors dealt with waterbodies with undetectable or barely detectable microcystin concentrations. - **Response:** We have added some text to the Data section indicating how we deal with the detection limit. We feel it is important to keep these values in the analysis as removing them would inflate our confidence around the conditional probabilities. We hope this is clearer in our revision. ## Presenting histograms of chlorophyll and microcystin concentrations for the study lakes would be useful. - **Response:** We have chosen to present the distribution information in text and present for both chlorophyll and microcystin the range, mean, and median. Figure 2 also indicates the distribution of both. Lastly, the data are availble via [code from the GitHub repository](https://github.com/USEPA/Microcystinchla/blob/master/R/get_nla.R). ## I am not an expert on conditional probability analysis. Based on the authors’ text (second paragraph in Analytical Methods section), it appears that this analysis considers multiple events over time. If their dataset includes single measurements in a waterbody, I don’t understand where the temporal component comes into the analysis. Again, I could be totally misunderstanding how this analysis works and should probably read the relevant references the authors provided. - **Response:** We have added some additional text in the methods about the NLA as well as in the Discussion on NLA limitations. In short, this is not a temporal analysis and is based on a single snap shot. ## Based on increasing error in the conditional probability plots as chlorophyll increases, the reported chlorophyll thresholds should not include significant digits (i.e., 0.1) but instead be whole numbers. - **Response:** Done. NEED TO DO on table already in overleaf ## I would organize the information in table 1 by either concentration (low to high) or advisory type (drinking or recreational) and concentration (low to high). It might also be useful to include the number of lakes represented in each category based on microcystin. - **Response:** Table re-orderd based on concentration. Number of lakes (as percentage) included in text. Need to do directly on table in overleaf. ## In table 2, I would add the specific microcystin concentration target under each advisory type to avoid having to look back at table 1 for these data. - **Response:** Done. Need to transfer to overleaf. ## Most waterbodies lacked microcystin and Figure 2 clearly shows that there are a huge number of waterbodies across a large chlorophyll range that apparently had microcystin concentrations at the detection limit of 0.05 ug/L. I am concerned about the microcystin data at the detection limit. They appear to be false positives. I agree with the authors who acknowledged that high chlorophyll is not always a good predictor of high microcystin. What should be done for those waterbodies with high concentrations of chlorophyll but that had no or barely detectable microcystin? - **Response:** We added some discussion about this in the last paragraph of the Data section. We feel that these should be left in as removing them would erroneously inflate our confidence intervals and impact the conditional probabilities. Essentially these are lakes with very low microcystin but widely varying chlorophyll values. ## I am confused about the data collected and available for the 2007 National Lakes Assessment. For example, I organized this dataset in July 2010 and found that 1158 lakes were sampled once (1152 of these lakes included data for both chlorophyll and microcystin) and 95 of the 1158 originally sampled lakes were sampled a second time in 2007. Yuan et al. 2014 (Freshwater Biology) used data for 1077 sampled lakes. The current study (as well as the National Lakes Assessment website and report) describes data for 1028 lakes. Clarity about these discrepancies is not necessarily the authors’ job, but it would be good to understand why the differences exist across these datasets. Also, for this study, how were data used for lakes sampled twice in 2007? - **Response:** We share your confusion! There are many "types" of samples included with the raw NLA data. For this analysis, we only used the probability samples (i.e. no reference samples) and only used the first visit to a lake. Additionally, lakes that had no data reported for either chl or microsystin were not included. As noted, this results in 1028 samples ## Although all of the National Lakes Assessment data are publicly available, the authors should provide the dataset that they used for this study. - **Response:** Code to access the data is available from [USEPA/microcysinchla](https://github.com/USEPA/microcystinchla). We have also added in a static .csv file to this repository of the data used for our analysis. This is listed in the "Data and software availability" section. Thank you for your review. We have just submitted our revisions and expect the new version to be available in the next few days. Below are our responses to the specific issues you raise. We feel the paper is stronger after this revision. Any questions, feel free to contact us or comment here. Thanks again! ## Specific Edits: ### Title and Abstract: - For clarity, the authors might consider replacing “various” with “World Health Organization and U.S. Environmental Protection Agency”. - **Response:** As this has already been indexed, we thought it best to limit the edits to the title. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Wilson AE. Peer Review Report For: Associations between chlorophyll a and various microcystin health advisory concentrations [version 2; peer review: 1 approved, 2 approved with reservations] . F1000Research 2016, 5 :151 ( https://doi.org/10.5256/f1000research.8562.r12330) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-151/v1#referee-response-12330 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Associations between chlorophyll a and various...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-151/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-151/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-151/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Hollister JW and Kreakie BJ');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-151/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-151",
+ templates : {
+ twitter : "Associations between chlorophyll a and various microcystin health.... Hollister JW and Kreakie BJ, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-151/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Associations between chlorophyll a and various microcystin health advisory concentrations", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Associations between chlorophyll a and various microcystin health advisory concentrations", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/7955/9675")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "9675");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "12688": 20,
+ "14343": 7,
+ "14344": 0,
+ "14345": 0,
+ "12329": 0,
+ "12330": 36,
+ "12331": 0,
+ "12332": 0,
+ "12686": 0,
+ "12687": 0,
+ "12719": 16,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "ce6ef289-efba-405c-8d69-90655c559e81";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

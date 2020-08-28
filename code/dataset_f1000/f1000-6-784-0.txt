@@ -1,0 +1,1 @@
+The authors have mostly addressed the reviewers concerns. However, one minor point: the authors still mention the peaks called by MACS2 as differential peaks. As reviewer 1 explains, this is misleading. Differential peaks are those derived by comparison between 2 experiments, not whats MACS does (that is calculating enrichment in experiment over input).

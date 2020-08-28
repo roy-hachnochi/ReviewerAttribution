@@ -1,0 +1,74 @@
+* Originality - does the work add enough to what is already in the published literature? If so, what does it add? If not,
+please cite relevant references.
+The article describes an development and external validation study. The authors also compare their results to the current
+national guidelines. To me it was especially appealing that the authors performed an external validation in an
+independent cohort. As prediction modelling/risk scores are scarce for postpartum VTE, the work is original.
+* Importance of work to general readers - does this work matter to clinicians, patients, teachers, or policymakers? Is a
+general journal the right place for it?
+Targeted prescription of thromboprophylaxis is important and could have to reduce the number of VTEs. The developed
+prediction model can help to inform clinicians and patients on individual risk and guide decision making.
+* Scientific reliability
+Research Question - clearly defined and appropriately answered?
+I would suggest adding a second objective: comparison with current guidelines.
+Overall design of study - adequate
+Participants studied - adequately described and their conditions defined?
+
+Page 5, line 32: I wonder why the authors choose to exclude patients with a history of VTE. Would the authors suggest
+that this group of patients should have thromboprophylaxis anyway and is therefore beyond the scope of their prediction
+model?
+Methods - adequately described? Complies with relevant reporting standard - Eg CONSORT for randomised trials ?
+Ethical ?
+In general, a lot of references to previous studies, with little information to guide the international reader through the
+current method/study.
+Page 5, line 27: what do you mean by positive predictive values of 84%? Please make this more explicit.
+Page 5, line 48: “the personal identity …” this is a bit confusing. Is it correct that this is an explanation how the SMBR is
+set up? Or is this linkage something the authors did theirself?
+Page 5, line 59: “prescription data”: prescription of pharmaceuticals/thromboprophylaxis?
+Page 6: “Defining VTE”: see the general remark. Can some information be added on the algorithm used? Is this
+algorithm also suitable for the Swedish cohort? Are there any important changes in diagnostic tests over the years that
+might have influenced the incidence of VTE? If so, please state this.
+Supplementary Tables 1 and 2 are nice and informative, and will be very helpful for implementation or other external
+validation studies.
+Supplementary Table 1: Gestational length categories: normal/pro-longed (??weeks)/preterm (<37 weeks).
+Page 6, line 37: why did you choose to exclude women with missing information from your validation cohort? Because of
+the similar distribution of all others variables? Why didn’t you also impute your validation cohort as you did with your
+development cohort?
+Page 7, line 14: add reference for age at delivery in the model regardless of statistical significance.
+Page 7, line 28: confusing. I would suggest to write the risk score as you did for the predicted risk.
+Page 8, line 32: please specify which risk factors you were able to measure and which not.
+What was nice?
+- The sample size was calculated based on EPV per candidate predictor
+- Full insight in all candidate predictors and their definitions
+- Clear description of predictor selection
+- Interval validation and shrinkage.
+Results - answer the research question? Credible? Well presented?
+- Please reflect on differences in predictor distribution in both cohorts.
+- The calibration plots are nice.
+- Table 1: please add VTE yes/no to the table.
+- Table 3: Swedish data: 604,003 pregnancies and 464 VTE events. The text says (page 9, line 54) 521 women with
+VTE. Table 4 for has another sample size of Swedish data, and supplementary table 4 has a fourth sample size number.
+This is confusing.
+- Page 10, line 7: please be more explicit on the overprediction as all risks in the figure are below <0.005. To me it
+seems as there is overprediction in the one but last decile (also in figure 1a). Please explain how to assess
+overprediction for readers less familiar with it.
+- Page 10, line 23: this is vague.
+- Comparing to guidelines: see the comment on implications for clinical practice. I would suggest adding decision curve
+analysis.
+- Explain why you excluded women who were prescribed pharmacological thromboprophylaxis.
+Interpretation and conclusions - warranted by and sufficiently derived from/focused on the data? Message clear?
+Implications for clinical practice. Please discuss this in more detail. Reflect on the fair discrimination (I recognize the
+model identifies more VTE events, but it also still misses a large number of VTE events). At page 12, line 14 the authors
+state that the prediction model is supposed to function as a screening tool.
+The trade-off between not wanting to miss any patients with VTE and avoiding unnecessary medication/prophylaxis is a
+daily struggle for clinicians, the prediction model is supposed to guide this decision process. The authors applied two risk
+threshold cut-offs (6% and 35% according to current guidelines), however, the optimum of the prediction model might
+be somewhere in between and is completed missed with this strategy.
+I would suggest to add a decision curve analysis for the comparison of current guidelines and the prediction model (this
+might be instead of table 4). I also suggest to add a table with predicted risk categories (supplementary) and number of
+events/non-events per risk category to gain more insight for clinicians, policy makers. In this way, readers will be
+allowed to choose their own optimum cut-off instead of being forced to the 6% or 35% cut-off.
+References - up to date and relevant? Any glaring omissions?
+Abstract/summary/key messages/What this paper adds – reflect accurately what the paper says?
+The first sentence of objective could be removed, and the comparison with current guidelines can be added.
+I would suggest the study is generally well done and used robust methods, after revisions it would be acceptable for
+publication.

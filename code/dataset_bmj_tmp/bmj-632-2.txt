@@ -1,0 +1,62 @@
+The authors have performed a thoughtful and detailed analysis of an important question -- does
+discretionary day-of-surgery transfusion have an impact. By excluding patients that receive 5+ units
+over the hospital admission, or receive PRBCs on later postoperative days, the impact of procedurerelated anemia transfusion is more clearly identified.
+Methods
+- there is a multitude of testing performed. most of it appears to have been predefined. was a protocol
+submitted or registered that documents the various and many subgroup and sensitivity analyses
+- it is unclear to me whether all documented discharge diagnoses were available for the elixhauser
+comorbidity scoring -- how many diagnoses were the min/max/median?. the methods suggest primary
+and secondary were used. unclear if secondary includes comorbidity codes as opposed to pure
+"secondary" codes
+- why is the non-mixed model logistic regression presented or used at all? we know that there is
+clustering of patients at the hospital level and that fixed hospital covariates do not incorporate all of the
+unmeasured hospital-level effects. The authors are to be commended for using a mixed effects model,
+but I would recommend for simplicity and readability, that the mixed effects model, with hospital as a
+random effect, is the primary analyses presented. although it is described as the "primary logistic
+regression model", the methods section seems to describe a very iterative process where different
+pieces are added/removed. I presume the authors did not retain variables that were predictors in the
+standard model but eliminated in the mixed effects. However, the "manual iterative forward technique"
+leaves it unclear if the same thresholds were applied through all phases (fixed and mixed)
+- correct "compliment" to "complement"
+- the propensity score analysis is concerning given how poor the ROC for that regression is.
+Results
+- the term "packed red blood cells" should not be introduced in the results section. either use pRBC
+throughout, or stay with RBC. it makes the reader wonder
+- the obesity % in table 1 seem very underreported. is this purely ICD9 data, or are actual BMIs used?
+- is table 2 the mixed effects model results, or standard fixed effects logistic regression only?
+- I think univariate odds ratios are not helpful in table 2 and make it harder to read. thank you for the
+transparency, but it comes at the expense of readability
+- table 2: by orthopedic, you mean joint replacement, correct?
+- the title of the paper and the data presented are inconsistent..the title is regarding "single unit" while
+patients up to 4 units are included. maybe discretionary transfusion is a better title?
+Discussion
+- I think the discussion is divergent from the actual data presented and their unique value. instead of
+summarizing the known literature, I think the authors should be more focused on their data: that even 1
+unit of PRBC confers risk. the dose dependent relationship they have demonstrated is also impressive.
+The authors should focus on the "discretionary" transfusions aspect of their data.
+- other limitations include the absence of hemodynamic data. it remains unclear whether the alternatives
+to transfusion (crystalloid?) are preferable. the absence of any clinical data prevents us from knowing
+that the patients had similar hemodynamic profiles prior to transfusion
+
+Additional Questions:
+Please enter your name: Sachin Kheterpal
+Job Title: Associate Professor of Anesthesiology
+Institution: University of Michigan
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests (please see BMJ policy) please declare them here: None. Sponsored
+research funds paid to our department are in an unrelated clinical subject.
+
+END
+Date Sent:
+26-Mar-2015
+
+

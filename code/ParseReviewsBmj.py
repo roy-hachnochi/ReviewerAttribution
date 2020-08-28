@@ -47,7 +47,7 @@ for file in os.listdir(directory):
 # save labels:
 labels_all = [[fileNames[i], labelsName[i], labelsJob[i], labelsInstitution[i]] for i in range(len(labelsName))]
 labels_all = [[''.join(i for i in s if ord(i) < 128) for s in l] for l in labels_all]  # ignore non-ascii chars
-with open(folderName + "lables.csv", mode='w', newline='') as labels_file:
+with open(folderName + "labels.csv", mode='w', newline='') as labels_file:
     labels_writer = csv.writer(labels_file, delimiter=',')
     labels_writer.writerows(labels_all)
 print("Done.")

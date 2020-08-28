@@ -1,0 +1,73 @@
+The authors of this study performed a retrospective analysis of administrative data collected by Premier
+Inc. with the goal to determine if the perioperative transfusion of blood was associated with adverse
+outcome, specifically MI/stroke. They hypothesized that “transfusion of as little as 1 unit of pRBCs in the
+operating room or the day following would be associated with measurably increased odds for
+perioperative stroke and myocardial infarction (MI).” They concluded that indeed the transfusion of
+blood in the perioeprative period was associated with increased odds for stroke and/or MI.
+The topic is interesting and clinically relevant. The manuscript is well written and the methods are well
+described. The abstract conveys the main message.
+However, there are a number of issues that I would like to see addressed by the authors:
+The major issue, as with all database studies is the inability to determine causality. The authors
+rightfully speak of associations (and not causality), but nevertheless in the case of blood transfusions
+the question has to remain if the transfusion of blood is just a surrogate marker for other variables
+determining adverse outcome. In this context administrative databases such as Premier lack crucial
+clinical detail such as the amount of blood loss, hematocrits, transfusion triggers used, invasiveness of
+the procedure, the occurrence of intaroperative surgical complications, length of operation times,
+hemodynamic details and level of patient comorbidity burden. Even if some information is available, it is
+often presented in binary form (i.e. present or not via the ICD9 coding system), thus not allowing for
+determination of the severity of the condition. This is not to say that because of this, all studies utilizing
+databases are “not useful”. Quite the opposite is the case, especially when crucial observations have not
+yet been reported in the literature and/or cannot be obtained from clinical trials, databases can present
+a first look into a subject matter that can then lead to the formation of further hypotheses. In the case
+of blood transfusions, however, much evidence has been published on the ill-effects of liberal transfusion
+practices (although as the authors suggest data specifically for MI and stroke outcomes may be less
+common). Thus, the ability of the results from this study to add significant knowledge is limited. For
+example, without knowing which of these transfusions could be considered appropriate and which not
+(which is impossible without knowing any laboratory values, hemodynamic parameters and other clinical
+detail) conclusion that can be drawn are limited. The issue of using databases such as Premier for the
+topic of perioperative blood transfusions is particularly challenging (see Blood transfusions in total hip
+
+and knee arthroplasty: an analysis of outcomes.Danninger T, Rasul R, Poeran J, Stundner O, Mazumdar
+M, Fleischut PM, Poultsides L, Memtsoudis SG ScientificWorldJournal. 2014 Jan 21;2014:623460. ) In
+this publication, the same database was used to look into the particular problem of perioperative
+transfusions and various outcomes, and encountered multiple problems/limitations. While insights were
+gained into practice patterns, the inability to address the issue of cofounding had to be acknowledged
+and limited interpretations.
+Thus the authors should present a very convincing and strong argument regarding the novelty and
+additional importance of their study to the field.
+Other comments:
+1) Having mentioned the issue regarding the lack of the ability to establish causal relationships, did the
+authors consider that actual effect in their model would be the surgical intervention, stroke/MI the
+outcome and that the transfusion would function as a moderator? Would it be feasible to employ
+methodological methods to take this relationship into account?
+2) The authors present a possible pathophysiologic process by which transfusions may lead to adverse
+outcomes. This should be lauded and is important. In the case of MI/stroke and other cardiovascular
+problems however, other mechanisms are equally plausible. Anemia and resulting hypotension may be
+additional factors, which in this case may be the trigger for blood transfusions. This should be more
+thoroughly discussed.
+3) Did the authors consider evaluating the use of blood conservation methods, like cell saver, the use of
+colloids, use of anticoagulants/platelet agents and the utilization of resources such as ICUs? All these
+factors may affect the outcome or choice to transfuse PRBCs and are available in Premier.
+4) The authors present in their methodology an attempt to control for hospital level variables, but it
+remains unclear if they just include hospital type information or actually performed a multilevel analysis
+accounting for each individual hospital, which may take into account differences in local practice
+patterns.
+5) While the attempt to control for present on admission comorbidities is laudable, from my experience
+this variable has a high missingness in Premier. Can the authors comment on this and report
+missingness and how this issue was handled in general?
+6) What was the reason that the authors included stroke, MI and VF/VT in the composite variables.
+There is no right or wrong, but I think an explanation of this rational would help the reader understand.
+It is likely that by themselves these outcomes were to infrequent to allow for appropriate modeling, but
+one could ask why not other cardiovascular complications were also included.
+7) The authors should be lauded for using sophisticated methodological, including sensitivity analyses
+and methods to reduce the chance of residual cofounding.
+8) Looking at the tables, it becomes obvious that the presence of cardiovascular diseases are amongst
+the variables with the highest OR for adverse outcomes (higher than that for blood transfusions). Again
+this puts into question if it is not really the underlying disease that prompts clinicians to be more liberal
+in their transfusion practice to keep Hgb levels higher and ultimately drives the morbidity aspect. Would
+calculating attributable risk be of benefit? Of course this would also be limited but could shed some more
+light on this issue.
+9) Although the authors attempted to control for procedure type in their analysis, it must be noted that
+within those categories major differences determining morbidity may exist. For example spine surgery
+can span the spectrum between laminectomies to extensive scoliosis correction surgery with massive
+blood loss.

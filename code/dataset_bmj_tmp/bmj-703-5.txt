@@ -1,0 +1,35 @@
+General comments
+In this paper, the authors found no association between fluoroquinolones and serious arrhythmia in a
+Danish-Swedish cohort. The authors underline the limitation of previous studies related to confounding
+by indication. This paper is interesting and tried to shed lights on the complex relationship between
+fluoroquinolones-related cardiac arrhythmias. However, there are several aspects, which need
+clarifications and/or extension.
+Background
+With this statement:
+“However, it cannot be ruled out that the observed increased risk was attributable to either factors
+associated with the acute infection itself or confounding due to poorer baseline health of the
+fluoroquinolone users in these studies.”
+the authors underline the relevance of confounding by indication as the main shortcoming affecting
+previous studies. I partly agree with this statement. In any case, the paragraph should be extended to
+describe how prior studies did not exhaustively consider this bias. Indeed, some fluroquinolones showed
+more than 2-fold increased risk of arrhythmia, and it is hard to imagine that confounding by indication is
+able to explain this effect size in full.
+Methods
+Methodology is not easy to follow, and it should be clarified for the readers. My understanding is that
+antibiotic courses (a patient could be therefore split in different records and exposed to penicillin V and
+fluoroquinolones as well) are the exposure categories. Then, the follow-up is divided in three timewindows. Given that the event is very acute, why the authors did not limit the follow-up to a short-time
+period (e.g. a month)? In addition, cases of arrhythmia are not incident cases. Why the authors did not
+exclude previous event of arrhythmia? This approach should reduce selection bias and underestimation
+towards the null (see Ray et al., AJE 2003). Some additional analysis should be performed for incident
+cases only.
+Concerning the outcome definition, which kind of arrhythmia is under study? It is not clear whether
+ventricular or atrial fibrillations have been included or not. Did the authors include both of them?
+In addition, given the known difference in risk across molecules, I would suggest to stress the limitation
+concerning the fact that these results might be referred to ciprofloxacin only.
+My understanding is that the incidence rate of arrhythmia for fluoroquinolones and penicillin V was
+computed from the first prescription (index date) of penicillin V or fluoroquinolones. Given that a patient
+could be exposed to both of them, did the author adopted a time-dependent approach for the statistical
+analysis? I did not understand how GEE models have been estimated here. Furthermore, the matching
+procedures adopted for PS should be described more in depth.
+Discussion
+The discussion should be rewritten after addressing the aforementioned methodological concerns.

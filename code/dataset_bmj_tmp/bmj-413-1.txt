@@ -1,0 +1,59 @@
+SUMMARY: This is a concept piece which articulates several arguments that “big data
+screening” in the future world of “precision medicine” will lead to massive increases in
+overdiagnosis (through both overdetection of mild diseases unlikely to harm patients and
+overdefinition of disease states into the normal spectrum). Several different arguments
+(empirical, mathematical, and theoretical) are brought to bear on the central thesis of the
+manuscript. The conclusion is a grave warning about the future of precision medicine.
+Aside from the warning, the authors argue that we should move more slowly with
+technology implementation (“The degree to which big data will lead to overdiagnosis thus
+hinges on whether implementation of technologies is rushed - or conducted with careful
+consideration and patience. Large prognostic studies with 10-20 years of followup or more
+are needed to generate robust evidence about the predictive values of new screening
+tests.”)
+STREGNTHS: The conclusion that overdiagnosis is a major downstream risk of profligate
+screening using “big data” applied to the entire population is likely true. This idea is
+important to share with people.
+WEAKNESSES:
+1) The message is very limited. The basic message seems to be that “fancy new screening
+tests with poor test properties, when applied to large populations with low disease
+prevalence in a thoughtless way, will lead to large amounts of overdiagnosis.” Certainly
+there will be plenty of false positives, incidentalomas, and mild forms of disease that are
+unimportant to diagnose; if we further allow ourselves to overdefine these as true
+diseases, then overdiagnosis will escalate rapidly. However, this seems straightforward
+even without all of the detailed figures and online interactive application. Ultimately, there
+
+is very little offered other than a warning. Two sentences suggest we should move slowly
+and study new tests carefully over decades. I would have preferred to hear a more about
+how we could protect ourselves more effectively. For instance, when might “big data” be
+appropriately used for screening? What types of clinical scenarios or what parameter
+space would make it a good idea, rather than a bad idea?
+2) The figures are confusing. We generally look to figures to make things easier to
+understand, rather than harder. The first three pages of text had me engaged, and I was
+following the logic. As soon as I got to the sentence, “We illustrate the relation between
+overdiagnosis and screening in Figures 1 & 2,” I became derailed. I spent a long time
+trying to understand Figure 1, and, other than in a very superficial way, it still doesn’t
+really make sense to me. For instance, Group 1 represents patients “Defined with no
+asymptomatic abnormality.” This is said to be a “definitional” process, but itself seems to
+be a form of big data screening test that determines whether an asymptomatic
+abnormality is considered present or not. The downstream options for these patients
+include negative and positive tests, but each has only one theoretical state --- negatives
+may only be true negatives, while positives may only be false positives. If the other states
+(false negatives and true positives) are not options, then this implies that the group has
+only “non-disease.” But if Group 1 is patients with “non-disease,” then it should not be
+defined based on the results of a definitional process, but instead on the basis of
+underlying “Truth” (i.e., “target disease actually absent,” rather than “arbitrary definitions
+of asymptomatic abnormalities determine that disease appears absent”). Figure 2 was also
+busy and challenging. Then repeatedly the manuscript referred me back to these figures,
+nominally to illustrate/clarify the text… but then I found myself going through another
+cycle of trying to understand the figures.
+3) Similar sentiments have been previously expressed elsewhere about big data and
+precision medicine as risks to overdiagnosis. Here are two that I found with a quick
+Google search
+(https://www.smh.com.au/opinion/precision-medicine-runs-risk-of-overdiagnosis-201802
+02-h0sike.html;
+https://www.degruyter.com/view/j/cclm.2016.54.issue-3/cclm-2015-0762/cclm-2015-076
+2.xml). A lot has also been written about the overdiagnosis-related consequences of new
+diagnostic technologies that enhance sensitivity for finding asymptomatic “abnormalities”
+while sacrificing specificity for the diseases that matter to patient health
+(https://health.usnews.com/health-news/patient-advice/articles/2015/08/20/tmi-in-medic
+ine-the-problem-of-overdiagnosis).

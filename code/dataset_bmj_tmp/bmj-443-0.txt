@@ -1,0 +1,88 @@
+Thank you for the opportunity to review this article submitted to the BMJ. It was
+a very interesting and well-written paper. Generally I am cautious about
+
+nutritional epidemiology studies, due to the big issue of diet changing over time,
+missing confounders, and the exact definition of diet. For example, here, what
+type of meat do these findings relate to? And how much meat is actually good (or
+bad)? I find it hard to translate the findings.
+Below, there are some further comments to make, which I hope the authors can
+use to improve or refine their article further, going forward.
+1) The authors do multiple imputation in a sensitivity analysis, rather than the
+main analysis; ideally it should be the main analysis, but at least they confirm it
+does not change findings.
+2) “Low meat eaters and fish eaters also appeared to have a higher risk of total
+stroke compared with regular meat eaters (p for heterogeneity between all diet
+groups=0.03), but the difference was not statistically significant.” – contradiction
+as the p-value was small? Moreover, I would suggest caution about using the
+term statistically significant, and rather focus on the magnitude of effect and
+importance of values covered by the 95% CI. So, rather than tests of differences
+across groups, focus on the estimated differences and CIs.
+As an example of how the statements depend on arbitrary statistical significant
+see this: “When vegetarians and vegans were assessed separately, vegans had a
+borderline lower risk of IHD (0.78, 0.61-1.00) and a higher risk of total stroke
+(1.44, 1.01-2.05) compared with regular meat eaters” – the use of the word
+borderline in the first but not the second, even though the CIs are both basically
+ending at 1.00
+3) The authors convert hazard ratios to absolute risk at 10 years, though I
+wonder whether this should be made conditional on covariate values (because
+the hazard ratios are conditional on adjustment factors). So the absolute risk at
+10 years is for who? Perhaps show a patient with average covariate values?
+Also, how does this account for competing risks? For example, due to deaths to
+cancer? Is this a real world interpretation of the change in risk?
+4) My main concern is that I’m not comfortable with the dichotomisation of meat
+eaters into <50g versus > 50g per day. Maybe this is due to the information
+about meat eating that was available. Ideally, we would want this to be examined
+as continuous variable, and non-linear trends examined. But, perhaps
+participants did not know the amount of meat they eat each week anyway? We
+need clarity on this, as this dichotomisation could be driving the key findings. It is
+well-rehearsed in the statistical literature that the dichotomisation of continuous
+variables only serves to lose information and is rarely sensible; for example, why
+should a meat eater of 49g be different to one with 51g per day? And what if
+someone eats 49g one week and then 51g the week after?
+5) How may measurement error (in terms of the exact amount of meat eaten per
+week) have influenced these findings? Bear in mind that the error may be larger
+in those that eat more meat, and therefore the error is not consistent across the
+range of values.
+6) Another concern, or at least surprise, is that there is an associated benefit for
+IHD but an associated harm for stroke. I would expect this to be in the same
+direction, intuitively. Therefore, it makes me more worried about residual
+confounding.
+7) A related point - The findings are not dramatic: e.g. for total stroke, the low
+meat group has a HR of 1.17 (1.00 to 1.38), so no overly strong evidence of an
+
+association statistically (would be vulnerable to more confounders, for example)
+and not especially large in magnitude anyway. This is reflected by small absolute
+numbers that would additionally get a stroke by 10 years if they are meat.
+Further, would the dichotomisation of meat at 50g and the non-proportional
+hazards issue change things?
+8) Figure 1: important to note this is showing the rate ratio for one group
+compared to the regular meat eater groups.
+9) When interpreting HRs, I think lower risks of IHD should be changed to lower
+rates. (and conversely higher risks to higher rates for stroke). If you want to say
+risk then I think you should give the time-point that the risk relates to.
+10) “the associations for IHD were partially attenuated after adjustment for
+self-reported high blood cholesterol, high blood pressure, and diabetes, and to a
+larger extent body mass index.” – this is mentioned in the abstract but without
+any results, which is not helpful to the reader. Moreover, why did the authors not
+adjust for all these confounders to begin with?
+11) Conclusion of abstract: “Low meat eaters, fish eaters and vegetarians had
+lower risks …” – be more cautious. Low meat eaters, fish eaters and vegetarians
+were associated with a lower risk …
+12) “We utilised repeated measurements of diet and important time-varying
+confounders at follow-up to account for possible changes.” – I did not see this in
+your analysis? The follow up information as obtained in 2010, some 17 years
+after first recruitment, and so how were time-varying confounders actually
+measured in those 17 years? I wonder if this is misleading, as we actually do not
+have information (e.g. yearly) on current diet.
+This is actually a major concern, because “Of low meat eaters at baseline, 48%
+were regular meat eaters at follow-up, and 43% were low meat eaters.” –
+therefore there is much switch over during the middle period.
+In summary, I have a number of concerns for the BMJ to consider. These are
+typical of many nutritional epidemiology studies we encounter, and they make it
+hard to understand the meaning of the findings for the BMJ reader. The paper is
+well-written and raises interesting questions, but the grouping of meat eaters by
+50g, the potential for residual confounding, and the changing of diet over time,
+raises important caveats to the study findings. I truly hope my comments help
+the authors going forward, as they have clearly worked very hard on their study
+and project.
+Richard Riley

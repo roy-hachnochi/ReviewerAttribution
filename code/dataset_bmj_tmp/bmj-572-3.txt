@@ -1,0 +1,187 @@
+This is a case-control study which used the UK CPRD with linkage to the hospital episode statistics (HES) and Office of
+National Statistics (ONS) data to evaluate the association between testosterone use and risk of VTE in men. This is an
+important question, as there has been an increase in testosterone prescribing in the United States and Canada over
+the last decade. In contrast, in the UK (source of the CPRD data) there is relatively little testosterone use. Thus,
+despite the 1.8 million men at risk for VTE identified in the study population, <1% of cases and controls were current
+or recent users of testosterone. It must therefore be noted that the large size of the CPRD did not guarantee a large
+number of exposed and informant cases.
+The authors highlight the analysis of a subgroup of idiopathic VTE cases (those without other proximate causes for
+VTE) and their matched controls as the main principal finding of this study. However, this subgroup was not a main
+focus of the methods or results sections. If estimates based on this subgroup are to be presented as the main finding
+of the paper, the authors need to revise the methods, results, and discussion section to be consistent and to describe
+why the estimates from this subgroup are of upmost importance to their study question.
+In general, this paper is not well written and thus it is difficult to follow. The methods and results are not well
+communicated to the reader. The entire article would benefit from revision with an eye toward simplicity and clarity.
+The authors should keep in mind that the BMJ audience is largely comprised of clinicians, not statisticians and
+epidemiologists.
+Here are some specific points that the authors should consider:
+Abstract:
+1. This was a case-control study; however the authors present incidence rates and incidence rate ratios in the results
+section of the abstract. Please clarify.
+2. The overall risk estimate presented in the results was 1.25 (95%CI 0.94 to 1.66), which suggests that testosterone
+use is not associated with an elevated risk of VTE. However, the main conclusions highlighted in the abstract are based
+on the results of the stratified analysis that evaluated idiopathic VTE cases (n=37 exposed cases) where the risk was
+elevated (1.57, 95% CI 1.06 to 2.32). The authors should report the results consistently between the results and
+conclusion sections of the abstract.
+Introduction:
+1. The language in the introduction is perhaps a bit grandiose (for example, the use of “dramatic upsurge”). Further,
+the authors discuss large changes in prescribing in the US and Canada. This sets the stage for the reader to expect a
+large study, with a lot of data on testosterone exposure for an outcome with a large absolute risk. In contrast, in the
+UK (source of the data) there is relatively little testosterone use, and consequently there are only a total of 69
+testosterone exposed cases in the study, and a generally low absolute risk of VTE (reported in this study to be 15.8
+per 10,000 man-years). The authors might consider revising the introduction to present the problem in a more
+moderate, straightforward manner.
+Methods:
+1. The Herrett study referenced for the statement “CPRD has been validated in VTE research” (methods, Study Setting
+and design, page 5) provides a detailed description of the origin and uses of the CPRD data, but this article did not
+seek to validate recorded VTE diagnoses. Perhaps there is another article describing the validity of VTE diagnoses in
+the CPRD that the authors meant to reference?
+2. Source Population Identification: HES data linkage is not available for all general practices / patients in the CPRD.
+
+Was the source population restricted to the subset of GPs in the CPRD where HES is linkable?
+3. VTE Case Definition:
+a. I suggest that the authors expand on their methods to describe in detail the algorithm used to identify VTE cases,
+rather than referencing an article published elsewhere. The BMJ offers a generous word limit, thus the authors have
+plenty of room to provide detailed descriptions of all of the important aspects of their methods.
+b. As part of the comment above, the authors should describe how the three data sources were used to identify VTE
+cases. How did the authors handle patients with multiple VTE diagnoses across multiple data sources? Were the
+diagnoses in one data source prioritized over those in another data source? How many cases had VTE diagnoses
+recorded in multiple data sources?
+c. Please provide details of the “index VTE” definition. It would also be helpful if the definitions of the index date and
+exclusion criteria were moved earlier in the case identification paragraph, before the authors discuss classifying
+patients based on the presence or absence of risk factors.
+d. The authors classified patients by the presence of known risk factors and other proximate causes of VTE (such as
+cancer, surgery, trauma, and ‘medical condition’) recorded in the 90 day period before the VTE date, as well as by
+whether the patients had a history of cancer more than 90 days prior to the VTE.
+i. Risk factors and other proximate causes for VTE are different. Surgery, trauma, and fractures are other proximate
+causes for the VTE event.
+ii. Which diagnoses comprised “medical condition”?
+iii. It would be useful to understand if and how all three data sources were used to identify all risk factors (see
+comment 3b).
+iv. Unlike in medical claims data, where the indication for billing is repeatedly recorded, in the CPRD GPs often record
+a diagnosis only once, though the condition may be chronic and ongoing. How did the authors take this into
+consideration when determining whether or not patients had prevalent chronic disease risk factors within the 90 days
+prior to the index date?
+e. Validation of VTE diagnoses: The authors cite another study indicating that the sensitivity and specificity of VTE is
+quite good, however it is possible to use other codes to evaluate the validity of the VTE cases identified in this study.
+The authors could assess the presence of the VTE diagnosis in multiple data sources (CPRD, HES, and ONS, or
+multiple). Anticoagulant prescriptions recorded shortly after the index date should be used to validate the VTE
+diagnosis because patients with a confirmed VTE should receive anticoagulation. Anticoagulation codes provide
+evidence that the VTE diagnosis was a true diagnosis (true case). This is particularly important where there was no
+HES or ONS data for a particular patient.
+4. Matching of controls: The authors matched up to 50 controls to each case on calendar time (case’s index date),
+year of birth, history of primary or secondary hypogonadism, and presence of all known risk factors (surgery, trauma,
+‘medical illness’, active cancer) in the 90 days, and history of cancer 91 days or more before the index date.
+a. The authors should justify why a ratio of 50 controls:1 case was used. Although it is common to match more
+controls than cases to increase statistical power in studies with uncommon outcomes, the gain in power diminishes as
+the ratio increases beyond 4 controls:1 case. Also, the authors should state the ratio of controls successfully matched
+to cases, as, based on the number of controls in the analysis, the authors were not able to identify 50 controls for
+each case.
+b. There may be a concern about correlated data in this study. Cases were eligible to be controls up until the index
+date (risk set sampling). How many times were cases identified as controls and included in the data set? How many
+times was a patient identified as a control and matched to different cases? How did the authors evaluate this and
+handle this in the analysis?
+c. Please provide details about how controls were matched based on surgery, trauma, and ‘medical illness’ within 90
+days prior to the case’s index date? If a case had surgery in the 90 days prior to the index date, was the control also
+required to have had surgery, or were they required to have one of the risk factors (surgery, trauma, or ‘medical
+illness’)? Is the baseline risk of VTE different for each of these?
+d. In the section describing matching, the authors should provide the definition of primary and secondary
+hypogonadism and clarify that they matched on hypogonadism status (primary, secondary, or none).
+5. Exposures: The exposure definition section is confusing as written. It would be helpful if the authors presented how
+the testosterone prescription duration was calculated earlier in the paragraph, as this information was used to define
+current exposure, recent exposure, and not exposed. For example: We considered a person to be exposed for the
+length of a prescription plus a 30 day grace period. A person was considered currently exposed if they had a
+prescription whose use (prescription length + 30 days) extended to or beyond the index date. Recent use was use
+(prescription length + 30 days) that extended to the time from 2 years before to 1 day before the index date. Not
+exposed was all use that ended more than 2 years before the index date plus those who never received testosterone.
+6. Covariates
+a. Which of the data sources were used to identify covariates of interest?
+b. How were smoking and drinking status defined?
+c. For megestrol, systemic corticosteroids, NSAIDs, and antiplatelets – were these identified based on the presence of
+a prescription record within 90 days, or the calculated duration of a prescription (based on quantity prescribed and
+prescribing instructions) carrying over into the 90 day period before the index date?
+d. Were anticoagulant prescriptions considered as a covariate? Repeated anticoagulant prescriptions recorded before
+the index date may indicate that the patient had a history of VTE and should be excluded.
+e. Were other covariates evaluated for identifying, or as a proxy for, the indication for testosterone use? For example,
+Klinefelter syndrome diagnoses, or testosterone lab values, where repeated low lab values may indicate a testosterone
+deficiency. Erectile dysfunction and impotence are likely to have been under-recorded during the study period. The
+authors might consider evaluating prescriptions for phosphodiesterase type-5 inhibitors (PDE-5s, which include
+sildenafil, tadalafil, or vardenafil) where the strength and quantity are indicated for treatment of erectile dysfunction
+as an additional method to identify men with treated sexual dysfunction where no diagnosis is recorded.
+f. Were benign prostatic hypertrophy, prostate cancer, or elevated prostatic specific antigen levels considered as
+covariates? These are contraindications for testosterone use, and therefore may bias exposure status among cases
+
+and controls.
+7. Statistical Analyses: This was a case-control study, thus the authors used conditional logistic regression to estimate
+crude and adjusted odds ratios (OR). Because risk set sampling was employed, the resulting ORs estimate incidence
+rate ratios. The authors should be clear that ORs were calculated, but that they referred to the resulting estimates as
+rate ratios throughout the paper.
+Results:
+1. The title and methods indicate that this was a case-control study; however the authors present incidence rates.
+Figure 1 also suggests that a cohort approach was used. The authors should update the methods section to describe
+the methods used for the cohort portion of this study.
+2. Figure 1: Can the authors clarify how the 1,103,997 men were excluded for having a history of VTE, <2 years of
+recorded history, or were outside of the specified age range? Specifically, it is not clear “as of when” the criteria for
+these exclusion criteria were evaluated.
+3. How many of the VTE cases were identified based on information recorded in the CPRD, HES, ONS, or multiple data
+sources?
+4. Did the authors assess the presence of other codes in the data that would provide evidence that the VTE diagnosis
+was a true diagnosis? Were there diagnostic tests recorded in the HES data that would support the VTE diagnosis?
+How many cases had anticoagulant prescriptions recorded in the CPRD after the index date?
+5. The authors state that the proportion of cases and controls with polycythemia chronic pulmonary disease, diabetes,
+congestive heart failure, and peripheral vascular disease were “notably” different, however some of these proportions
+are quite similar.
+6. Table 1 presents the use of megestrol, NSAIDs, corticosteroids, and antiplatelet prescriptions recorded at any time
+before the index date. This differs from the approach described in the covariates section of the methods, where it
+states that use of these drugs within 90 days prior to the index date would be assessed.
+7. The tables would be clearer if the results stratified by hypogonadism status, as well as stratified by VTE risk factor
+status, were presented as separate tables.
+8. The overall rate ratio was null (1.25, 95% CI 0.94 to 1.66). This is likely because the overall analysis includes nonidiopathic cases (those with surgery, trauma, or other proximate causes within 90 days before the index date), which
+would bias the results to the null. In fact, in the analysis stratified by presence of other proximate causes of VTE, the
+rate ratio is higher among cases and matched controls with no risk factors or other proximate causes for VTE (rate
+ratio= 1.57, 95% CI 1.06-2.32). This is the main finding of the paper. In fact, the authors highlight this finding in the
+discussion; however they only briefly mentioned it in the second to last paragraph of the results (Table 3). Also, the
+distribution of characteristics among this subset of patients is likely to be very different from that of the overall
+population provided in Table 1.
+9. The authors report an elevated rate ratio of VTE among currently exposed men without hypogonadism (RR=1.69,
+95% CI 1.09-2.63), whereas the estimates were not elevated among men who had recorded diagnoses of primary or
+secondary hypogonadism. In other words, there was effect modification by indication for testosterone use. There is
+concern about potential misclassification of hypogonadism status in the group of men without a recorded diagnosis of
+primary or secondary hypogonadism, as these diagnoses may be under-recorded by GPs (see Methods Covariates
+comment E, above). If there were a disproportionate number of men with unrecorded primary or secondary
+hypogonadism in the cases compared to the controls, then this may explain the observed elevation in risk. It would be
+useful to evaluate the characteristics of cases and controls in this restricted analysis to evaluate whether differences in
+comorbidities, other proximate causes, and risk factors between cases and controls may explain the increased risk
+observed among current users of testosterone who do not have a recorded diagnosis of primary or secondary
+hypogonadism.
+Discussion:
+1. The principal finding highlighted in the discussion (that for the subset with idiopathic VTE, RR=1.57) is inconsistent
+with the results section, where the authors led with the overall rate ratio (1.25) and the idiopathic VTE subset were
+only briefly mentioned in a few sentences and not until Table 3 (almost as an afterthought). I agree that the result
+based on the idiopathic subset is the most interesting finding of the study, but the paper should be revised for
+consistency between all sections.
+2. In the statement of principal findings, the authors state that the findings of the study “reveals an association”. It
+would be appropriate to have a more conservative conclusion due to the small number of exposed men upon which
+this estimate was based (n=37) and the relatively small magnitude of the effect measure.
+3. A consistent finding of this study was that the risk of VTE was elevated among those who imitated treatment within
+6 months before the index date, however the authors chose to highlight a “63% increase” from the main analysis
+(n=36). This estimate is based on a different group of patients than the principal finding (see comment 1) presented
+earlier in the paragraph. It would be sufficient to simply state that the risk of VTE was elevated within the first six
+months after initiation of testosterone use.
+4. In the limitation section the authors state that they matched on a history of polycythemia, however this was not
+specified in the methods.
+5. Discussion, limitations, page 12: “Stratification by presence and absence of known risk factors for VTE showed
+similar results in those without known risk factors” – It is not clear what these results are similar to, or why this is
+being mentioned in the limitation section.
+6. The other case-control study (reference 13) is mentioned in multiple places in the discussion, but never described in
+detail. The authors should provide details of this study and discuss in comparison with their results.
+7. In the UK, there is relatively little testosterone use. It would be prudent to remind the reader that the results should
+be interpreted cautiously in light of the small number of exposed cases identified in this study. Additional studies using
+data from countries with more testosterone use would be useful for further evaluating the association between
+testosterone use and risk of VTE in men.
+Other comments:
+
+1. Please define all acronyms the first time they appear. For example, ‘UK’ in the introduction on page 4, and “T” in
+the results section (page 10)
+2. There is a typo for the confidence interval for the men without hypogonadism on page 10 of the results needs
+decimal points instead of dashes.

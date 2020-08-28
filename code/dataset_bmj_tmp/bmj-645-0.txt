@@ -1,0 +1,107 @@
+I start by saying that the PDF of the submitted article (which I used for my review below initially)
+does not seem to match the track changes version of the submission (labelled v2 in the
+supplementary material). That is, the PDF version does not contain most (perhaps any) of the
+changes highlighted in yellow. I’m not sure what has gone on there, but I spent 2 hours going
+through the PDF version and only at the end, when looking through the supplementary material,
+did I identify this discrepancy. I therefore do not know which version is right for me to be
+reviewing! However, I have checked whether the track changes version addresses my concerns,
+and it does not. Therefore, I think my comments below still stand.
+Following the response to comments, it is interesting to see that the odds of immediate death (on
+day of birth) are larger at weekends than during the week. But this information is only given in
+the response to comments, and I can’t see it detailed in the actual article! This is one of a few
+examples of where the authors have only gone part of the way to addressing my comments. No
+propensity score analysis was done; it’s still not clear how missing data was handled (not multiple
+imputation it seems); and clustering multiple babies from the same woman is still not accounted
+for. As mentioned, the reporting of the methods is still not adequate – for example, even though
+they respond to the comments, they have not always revised the paper in the same way (e.g.
+details about missing data and clustering are still missing in the paper) Therefore, I am not
+convinced the article is robust enough for the BMJ as it stands. I’m sorry to say that. I suggest
+further revisions and clarification are still needed:
+1) The authors say that missing data was handled by the regression analysis, but it is not clear
+how. They say in their response:
+“Missing data is not a significant problem in HES data due to the coding process and rules. For
+some variables, there are “unknown” responses which are accounted for the regression model.
+The extent of “unknown” values is given in Table 2. As described above, coding practice is not
+influenced the day of admission/birth so missing values are not likely to bias the results”
+Was ‘missing’ given its own category? Would the results be different if a multiple imputation
+approach was used? We need to know for robustness. I searched the article for ‘missing’ and
+can’t see anything.
+2) The authors still do not do a propensity score analysis, which is a real shame as I still feel the
+paper would be far stronger as a result. They say: ‘We did not undertake propensity score
+analysis but did validate the key results by using alternative methodological approaches (e.g.
+difference case-mix adjustment and use of hierarchical models). Such analysis would not address
+the limitation of residual confounding bias.’
+I agree that a propensity score model won’t solve the issue of potential residual confounding, but
+when matched propensity score analysis is done, the adjustment for confounding is less prone to
+
+influence of extreme individuals (i.e. those can’t be matched) in one of the groups than the
+regression models used. I think I would, at the very least, note the potential to consider
+propensity score analyses in the future for this type of study, and to explain why you did not do
+this.
+3) I do not understand why an analysis that accounts for clustering of multiple babies for the
+same woman does not converge. The authors infer this is due to such woman only being 2.9% of
+the total number. However, this still represents 36,679 babies, which is enormous. Is it because
+there are so few events in this set of babies? We need an explanation, and full details in the
+paper that you tried to do this but it did not work, as otherwise the paper could be severely
+criticised.
+4) Please present the unadjusted odds ratios in the table; it is only one additional column and it is
+not clear, as it stands, whether the ORs presented are unadjusted or adjusted anyway.
+5) The immediate deaths analysis is important and should be reported in the paper, surely? Or
+am I missing it somewhere? Otherwise, if death occurs 3 days later, then how do we know it was
+due to being born on a Saturday or something that happened on the Monday? The immediate
+death is therefore more pertinent.
+6) The abstract conclusion infers causality – there is no mention of the potential for residual
+confounding. I am disappointed by this, as in their response the authors clearly say that they
+have noted the limitations of their work more clearly now; yet this is not evident here.
+7) What this study adds says that the paper gives the ‘most comprehensive evaluation …’ – but
+with no accounting for clustering, no propensity score analysis, no multiple imputation of missing
+values, etc I can’t agree with this statement. Please tone down.
+8) The abstract says that 750 and 450 perinatal and maternal deaths extra occur at the weekend:
+but over what period? One year? Each weekend? Please be absolutely clear, and give confidence
+intervals for these pivotal numbers. And be clear what the population size these numbers relate
+to. 750 extra deaths out of how many total deaths, in a population of size of …
+9) I am still unclear, and I think the methods are still unclear in the paper, how events were
+defined in relation to the day of the week. So if a woman was admitted on a Saturday but had the
+event on a Tuesday, is this classed as a week day event? I think it is, but it needs to be explicitly
+stated.
+10) Further, another important issue that I think is unresolved. Please clarify how the days prior
+to the event are accounted for (if at all). For example, could the authors count for each individual
+how many weekend days they were exposed to? Then, they could look at including the number of
+weekend days as a covariate in a model, and (After adjustment for other things) ascertain
+whether there is an association between the number of weekend days of exposure and the rate of
+event.
+This is interesting for two reasons:
+(i) it is another way to examine if there is an indication that weekend care is having a negative
+impact on the whole (not just on the day of delivery itself).
+(ii) it may be that, after you adjust for the number of days exposed to weekend care, that the
+effect of the actual day of delivery disappears. Or it could be that both day of delivery and the
+number of exposure days are important, which would be revealing.
+11) The analysis described as follows it not clear enough to me still: ‘Using regression analysis on
+just the reference days (Tuesdays), probabilities of in-hospital perinatal death and puerperal
+infections (maternal) were derived. By matching these probabilities for each Tuesday admission,
+based on the mother’s or neonate’s characteristics, indirectly standardised estimates for the
+outcomes as if those non-Tuesday cases had had similar rates as their Tuesday counterparts were
+calculated.’
+- How was matching done? How close did the probability have to be in order to be matched? Was
+the matching random?
+- For deriving the predictions, what covariates were included? How were missing values dealt
+with?
+- Indirectly standardises estimates … of what? Odds ratios? Proportions? And How were they
+derived?
+12) “The most common day for giving birth is a Thursday (15%...)” – can we have a CI please for
+this estimate, otherwise this is just an observation. The CI should be very narrow given the large
+sample size.
+13) “Much of the difference is explained by number of elective …’ – please refer to the figure
+where this is apparent
+14) In their responses, the authors make the important statement that immediate death is also
+higher in those born at weekends. But
+15) The discussion says that the estimates of weekend effect are likely to be an underestimate – I
+don’t see the justification for this at all. Residual confounding is one reason why it may be an
+
+overestimate.
+16) Throughout the article, the authors use ‘rate’ when they really mean % or proportion. A rate
+is the number of events per period of time. Here though they look at the % with an event BY one
+time-point (e.g. by 3 days).
+I'm sorry to be so negative, but these are all genuinely important concerns and areas of worry for
+me. I sincerely hope these comments help improve the robustness and interpretation of the
+article moving forward.

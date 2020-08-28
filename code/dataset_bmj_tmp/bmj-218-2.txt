@@ -1,0 +1,41 @@
+Interesting and potentially impactful paper comparing first-line therapies for EGFR MT NSCLC
+patients. The paper has a number of issues in its present form.
+1. Grammatical errors throughout.
+2. First sentence of the introduction: Authors need to note that the EGFR mutation rate
+(>50%) that they state applies in Asia (or maybe China specifically). In Western populations
+EGFR mutation rate is closer to 15%.
+3. Description of Bayesian meta-analysis in 3rd paragraph of introduction has nothing to do
+with "Bayesian". All of the description would equally apply to a frequentist network
+meta-analysis. The Bayesian perspective enables you to make probability statements
+
+regarding treatment rankings, etc., as well as perform exact (as opposed to asymptotic,
+albeit model-based) inference in the presence of limited information, notably limited
+information on study to study heterogeneity.
+4. The rationale for the first exclusion criterion (trials reporting results from a sub-population
+analysis) needs to be explained. In an RCT, the subpopulations are randomized too. Is there
+a source of bias?
+5. Exclusion criterion (3) has a confusing wording. Are you excluding original publications on
+trials with more up-to-date reports?
+6. The wording of the last sentence in the first paragraph of "Data extraction and risk of bias
+assessment" is confusing. Please clarify how the control arm was handled in the FLAURA
+trial.
+7. The descriptions and interpretations of "Bayesian" concepts are incorrect in several
+locations. In the first paragraph of "Data synthesis and statistical analysis": credible intervals
+are NOT Bayesian equivalents of 95% confidence intervals. The credible interval contains a
+proportion of the posterior probability distribution of the relevant parameter. Confidence
+intervals are constructed by hypothesizing parameter values, then examining how extreme
+the observed data is under that assumption. In the results, "statistical significance" is
+mentioned, but you have not performed any Bayesian hypothesis testing. It is not
+appropriate to simply interpret a 95% credible interval as a confidence interval, then invert
+for a hypothesis test. Also, in several locations the imprecise term "possibility" is used.
+Please use the correct term "posterior probability".
+8. In the 4-6th lines of the 3rd paragraph of "Data synthesis and statistical analysis" the
+description of MCMC convergence, discarding burn-in, and choice of priors is garbled. The
+choice of priors is a separate issue from convergence and discarding MCMC draws before
+convergence. Please clarify.
+9. First paragraph of "NMAs in overall advanced EGFR-mutated patients": The description in
+the middle sentence is unclear. How was the OS HR extracted? From where?
+10. In the "Rank probabilities" section, lines 5-7: Description of rankings in terms of
+unacceptable AEs seems inconsistent. First, it is stated that Gef+PbCT is best in terms of
+AEs, then it is stated that icotinib is best. But the reported numbers suggest icotinib had
+highest rate of AEs. What are the percentages reported? Please clarify this section.

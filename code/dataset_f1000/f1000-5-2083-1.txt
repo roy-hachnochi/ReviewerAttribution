@@ -1,0 +1,578 @@
+This is an interesting and generally well-written article. I am unfamiliar with the field of reproductive physiology and female fertility regulation and so cannot be described as an expert reviewer. However, I do have expertise in the field of statistics and modelling and felt to understand the issues much better having read this article and that is a tribute to its general clarity. Nevertheless, at one or two points I felt the clarity could have been improved. The author is not always completely explicit on two points. The first is whether a conditional probability is being estimated (and if so conditional on what) and the second is the precise details of the mixed model being used. Since readers will not necessarily be familiar with the software an author uses, and since the more complex the subject the more likely an algorithm will differ between packages, one of the inevitable problems in a field of this complexity are 1) that it is quite likely that readers will not be familiar with some details of implementation and 2) results might differ somewhat from package to package. The author has used NONMEM, a package that is popular in nonlinear mixed effect modelling in pharmacokinetics but less well-known in other fields. This is a limitation of the article. (Not because NONMEM is not a suitable package to use but because it is the only package used.) For example, Makubate and Senn, modelling the effects of cross-over trials in infertility, found some differences depending on whether SAS, GenStat or R were used to implement what was ostensibly the same model, or indeed program it from scratch using Mathcad and in the field of estimating values below the limit of quantitation Senn, Holford and Hockey got different standard errors using NOMEM compared to SAS, GenStat and R, although such differences are not necessarily inherent to packages but may reflect implementation. On a more technical matter, the author has used a discrete mixture which some might regard as being excessively restrictive and a little unrealistic, although the author does claim " the published data do not support a model of uni-modal, albeit varied, fecundability ". A further issue is that unlike for causal studies, such as clinical trials, the degree to which the subjects studied are representative of a population of interest is important. Lacking knowledge of this particular field and the studies cited I cannot judge whether this condition is satisfied. It seems at least plausible that sub-fertile couples are more likely to be studied than those of average fertility. Nevertheless, this seems to be an interesting and valuable exercise in modelling a difficult field. References 1. Makubate B, Senn S: Planning and analysis of cross-over trials in infertility. Stat Med . 2010; 29 (30): 3203-10 PubMed Abstract | Publisher Full Text 2. Senn S, Holford N, Hockey H: The ghosts of departed quantities: approaches to dealing with observations below the limit of quantitation. Stat Med . 2012; 31 (30): 4280-95 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Senn SJ. Reviewer Report For: Estimating limits for natural human embryo mortality [version 2; peer review: 2 approved] . F1000Research 2016, 5 :2083 ( https://doi.org/10.5256/f1000research.10209.r15931 ) The direct URL for this report is: https://f1000research.com/articles/5-2083/v1#referee-response-15931 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 29 Nov 2016 Gavin Jarvis , , Development and Neuroscience, University of Cambridge, Cambridge, UK 29 Nov 2016 Author Response I would like to thank Professor Senn for his remarks 1 . I respond to his comments as follows: Representative Populations: This is an important point and Prof. Senn’s intuitive ... Continue reading I would like to thank Professor Senn for his remarks 1 . I respond to his comments as follows: Representative Populations: This is an important point and Prof. Senn’s intuitive concern is well-founded. The analysis attempts to introduce a little more focus to the data from the three particular studies 2-4 . Despite the similarities between the quantitative conclusions from the three studies, extrapolation to a general population is risky, given the known and likely variances in fertility associated with age, health and social status, level of education, ethnicity etc... However, the strength of these studies lies in the detail and density of the data, which is rare among other similar studies, and I believe this re-analysis does yield some additional insight. I have addressed some of the concern regarding differences in populations and other sources of reproductive variance in another article 5 . Conditional Probabilities: I hope the following makes my intention more explicit. If P(A|B) is the probability of event A, conditional on event B, then: (i) π LB = P(A|B), where A is a live birth, and B is a clinical pregnancy (ii) π CLIN = P(A|B), where A is a clinical pregnancy, and B is a positive hCG test (iii) π HCG = P(A|B), where A is a positive hCG test, and B is successful fertilisation (iv) π FERT = P(A|B), where A is successful fertilisation, and B is the in vivo co-localisation of ovum and sperm (v) π SOC = P(A|B), where A is the in vivo co-localisation of ovum and sperm, and B a single menstrual cycle Discrete mixture model: I agree that dividing the cohort into two discrete populations is a little unrealistic. However, in the absence of the original raw data, there is little else that could be done. The data conform markedly better to this bi-modal distribution, as compared to either a uni-modal or tri-modal model. I doubt if this model captures all the quantitative subtlety that subsists in the data; nevertheless, it does both confirm and quantify, albeit perhaps a little brutally, the clear impression expressed in the original reports that the study populations included subjects who were sub-fertile. Modelling packages: The point about differing outputs from different modelling software packages is also well made. My own instinct (which is admittedly not as refined as Prof. Senn’s) is that any difference is likely to be small, since, although I used NONMEM, there is no random effect (i.e., OMEGA) modelling other than the residual error variance (i.e., SIGMA). However, there are perhaps other reasons why performing the analysis in GenStat or R is preferable. At some point I will repeat the analysis and report back any differences in the output. I shall incorporate changes relating to points 1, 2 and 3 into a second version of the article. References Senn SJ: Referee Report For: Estimating limits for natural human embryo mortality [version 1; referees: 2 approved] . F1000Research . 2016; 5 : 2083. Wilcox AJ, Weinberg CR, O'Connor JF , et al. : Incidence of early loss of pregnancy . N Engl J Med . 1988; 319 (4): 189-94. PubMed PMID: 3393170. Zinaman MJ, Clegg ED, Brown CC , et al. : Estimates of human fertility and pregnancy loss . Fertil Steril . 1996; 65 (3): 503-9. PubMed PMID: 8774277. Epub 1996/03/01. eng. Wang X, Chen C, Wang L , et al. : Conception, early pregnancy loss, and time to clinical pregnancy: a population-based prospective study . Fertil Steril . 2003; 79 (3): 577-84. PubMed PMID: 12620443. Epub 2003/03/07. eng. Jarvis GE: Early embryo mortality in natural human reproduction: What the data say [version 1; referees: awaiting peer review] . F1000Research . 2016; 5 : 2765. I would like to thank Professor Senn for his remarks 1 . I respond to his comments as follows: Representative Populations: This is an important point and Prof. Senn’s intuitive concern is well-founded. The analysis attempts to introduce a little more focus to the data from the three particular studies 2-4 . Despite the similarities between the quantitative conclusions from the three studies, extrapolation to a general population is risky, given the known and likely variances in fertility associated with age, health and social status, level of education, ethnicity etc... However, the strength of these studies lies in the detail and density of the data, which is rare among other similar studies, and I believe this re-analysis does yield some additional insight. I have addressed some of the concern regarding differences in populations and other sources of reproductive variance in another article 5 . Conditional Probabilities: I hope the following makes my intention more explicit. If P(A|B) is the probability of event A, conditional on event B, then: (i) π LB = P(A|B), where A is a live birth, and B is a clinical pregnancy (ii) π CLIN = P(A|B), where A is a clinical pregnancy, and B is a positive hCG test (iii) π HCG = P(A|B), where A is a positive hCG test, and B is successful fertilisation (iv) π FERT = P(A|B), where A is successful fertilisation, and B is the in vivo co-localisation of ovum and sperm (v) π SOC = P(A|B), where A is the in vivo co-localisation of ovum and sperm, and B a single menstrual cycle Discrete mixture model: I agree that dividing the cohort into two discrete populations is a little unrealistic. However, in the absence of the original raw data, there is little else that could be done. The data conform markedly better to this bi-modal distribution, as compared to either a uni-modal or tri-modal model. I doubt if this model captures all the quantitative subtlety that subsists in the data; nevertheless, it does both confirm and quantify, albeit perhaps a little brutally, the clear impression expressed in the original reports that the study populations included subjects who were sub-fertile. Modelling packages: The point about differing outputs from different modelling software packages is also well made. My own instinct (which is admittedly not as refined as Prof. Senn’s) is that any difference is likely to be small, since, although I used NONMEM, there is no random effect (i.e., OMEGA) modelling other than the residual error variance (i.e., SIGMA). However, there are perhaps other reasons why performing the analysis in GenStat or R is preferable. At some point I will repeat the analysis and report back any differences in the output. I shall incorporate changes relating to points 1, 2 and 3 into a second version of the article. References Senn SJ: Referee Report For: Estimating limits for natural human embryo mortality [version 1; referees: 2 approved] . F1000Research . 2016; 5 : 2083. Wilcox AJ, Weinberg CR, O'Connor JF , et al. : Incidence of early loss of pregnancy . N Engl J Med . 1988; 319 (4): 189-94. PubMed PMID: 3393170. Zinaman MJ, Clegg ED, Brown CC , et al. : Estimates of human fertility and pregnancy loss . Fertil Steril . 1996; 65 (3): 503-9. PubMed PMID: 8774277. Epub 1996/03/01. eng. Wang X, Chen C, Wang L , et al. : Conception, early pregnancy loss, and time to clinical pregnancy: a population-based prospective study . Fertil Steril . 2003; 79 (3): 577-84. PubMed PMID: 12620443. Epub 2003/03/07. eng. Jarvis GE: Early embryo mortality in natural human reproduction: What the data say [version 1; referees: awaiting peer review] . F1000Research . 2016; 5 : 2765. Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 29 Nov 2016 Gavin Jarvis , , Development and Neuroscience, University of Cambridge, Cambridge, UK 29 Nov 2016 Author Response I would like to thank Professor Senn for his remarks 1 . I respond to his comments as follows: Representative Populations: This is an important point and Prof. Senn’s intuitive ... Continue reading I would like to thank Professor Senn for his remarks 1 . I respond to his comments as follows: Representative Populations: This is an important point and Prof. Senn’s intuitive concern is well-founded. The analysis attempts to introduce a little more focus to the data from the three particular studies 2-4 . Despite the similarities between the quantitative conclusions from the three studies, extrapolation to a general population is risky, given the known and likely variances in fertility associated with age, health and social status, level of education, ethnicity etc... However, the strength of these studies lies in the detail and density of the data, which is rare among other similar studies, and I believe this re-analysis does yield some additional insight. I have addressed some of the concern regarding differences in populations and other sources of reproductive variance in another article 5 . Conditional Probabilities: I hope the following makes my intention more explicit. If P(A|B) is the probability of event A, conditional on event B, then: (i) π LB = P(A|B), where A is a live birth, and B is a clinical pregnancy (ii) π CLIN = P(A|B), where A is a clinical pregnancy, and B is a positive hCG test (iii) π HCG = P(A|B), where A is a positive hCG test, and B is successful fertilisation (iv) π FERT = P(A|B), where A is successful fertilisation, and B is the in vivo co-localisation of ovum and sperm (v) π SOC = P(A|B), where A is the in vivo co-localisation of ovum and sperm, and B a single menstrual cycle Discrete mixture model: I agree that dividing the cohort into two discrete populations is a little unrealistic. However, in the absence of the original raw data, there is little else that could be done. The data conform markedly better to this bi-modal distribution, as compared to either a uni-modal or tri-modal model. I doubt if this model captures all the quantitative subtlety that subsists in the data; nevertheless, it does both confirm and quantify, albeit perhaps a little brutally, the clear impression expressed in the original reports that the study populations included subjects who were sub-fertile. Modelling packages: The point about differing outputs from different modelling software packages is also well made. My own instinct (which is admittedly not as refined as Prof. Senn’s) is that any difference is likely to be small, since, although I used NONMEM, there is no random effect (i.e., OMEGA) modelling other than the residual error variance (i.e., SIGMA). However, there are perhaps other reasons why performing the analysis in GenStat or R is preferable. At some point I will repeat the analysis and report back any differences in the output. I shall incorporate changes relating to points 1, 2 and 3 into a second version of the article. References Senn SJ: Referee Report For: Estimating limits for natural human embryo mortality [version 1; referees: 2 approved] . F1000Research . 2016; 5 : 2083. Wilcox AJ, Weinberg CR, O'Connor JF , et al. : Incidence of early loss of pregnancy . N Engl J Med . 1988; 319 (4): 189-94. PubMed PMID: 3393170. Zinaman MJ, Clegg ED, Brown CC , et al. : Estimates of human fertility and pregnancy loss . Fertil Steril . 1996; 65 (3): 503-9. PubMed PMID: 8774277. Epub 1996/03/01. eng. Wang X, Chen C, Wang L , et al. : Conception, early pregnancy loss, and time to clinical pregnancy: a population-based prospective study . Fertil Steril . 2003; 79 (3): 577-84. PubMed PMID: 12620443. Epub 2003/03/07. eng. Jarvis GE: Early embryo mortality in natural human reproduction: What the data say [version 1; referees: awaiting peer review] . F1000Research . 2016; 5 : 2765. I would like to thank Professor Senn for his remarks 1 . I respond to his comments as follows: Representative Populations: This is an important point and Prof. Senn’s intuitive concern is well-founded. The analysis attempts to introduce a little more focus to the data from the three particular studies 2-4 . Despite the similarities between the quantitative conclusions from the three studies, extrapolation to a general population is risky, given the known and likely variances in fertility associated with age, health and social status, level of education, ethnicity etc... However, the strength of these studies lies in the detail and density of the data, which is rare among other similar studies, and I believe this re-analysis does yield some additional insight. I have addressed some of the concern regarding differences in populations and other sources of reproductive variance in another article 5 . Conditional Probabilities: I hope the following makes my intention more explicit. If P(A|B) is the probability of event A, conditional on event B, then: (i) π LB = P(A|B), where A is a live birth, and B is a clinical pregnancy (ii) π CLIN = P(A|B), where A is a clinical pregnancy, and B is a positive hCG test (iii) π HCG = P(A|B), where A is a positive hCG test, and B is successful fertilisation (iv) π FERT = P(A|B), where A is successful fertilisation, and B is the in vivo co-localisation of ovum and sperm (v) π SOC = P(A|B), where A is the in vivo co-localisation of ovum and sperm, and B a single menstrual cycle Discrete mixture model: I agree that dividing the cohort into two discrete populations is a little unrealistic. However, in the absence of the original raw data, there is little else that could be done. The data conform markedly better to this bi-modal distribution, as compared to either a uni-modal or tri-modal model. I doubt if this model captures all the quantitative subtlety that subsists in the data; nevertheless, it does both confirm and quantify, albeit perhaps a little brutally, the clear impression expressed in the original reports that the study populations included subjects who were sub-fertile. Modelling packages: The point about differing outputs from different modelling software packages is also well made. My own instinct (which is admittedly not as refined as Prof. Senn’s) is that any difference is likely to be small, since, although I used NONMEM, there is no random effect (i.e., OMEGA) modelling other than the residual error variance (i.e., SIGMA). However, there are perhaps other reasons why performing the analysis in GenStat or R is preferable. At some point I will repeat the analysis and report back any differences in the output. I shall incorporate changes relating to points 1, 2 and 3 into a second version of the article. References Senn SJ: Referee Report For: Estimating limits for natural human embryo mortality [version 1; referees: 2 approved] . F1000Research . 2016; 5 : 2083. Wilcox AJ, Weinberg CR, O'Connor JF , et al. : Incidence of early loss of pregnancy . N Engl J Med . 1988; 319 (4): 189-94. PubMed PMID: 3393170. Zinaman MJ, Clegg ED, Brown CC , et al. : Estimates of human fertility and pregnancy loss . Fertil Steril . 1996; 65 (3): 503-9. PubMed PMID: 8774277. Epub 1996/03/01. eng. Wang X, Chen C, Wang L , et al. : Conception, early pregnancy loss, and time to clinical pregnancy: a population-based prospective study . Fertil Steril . 2003; 79 (3): 577-84. PubMed PMID: 12620443. Epub 2003/03/07. eng. Jarvis GE: Early embryo mortality in natural human reproduction: What the data say [version 1; referees: awaiting peer review] . F1000Research . 2016; 5 : 2765. Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 2 VERSION 2 PUBLISHED 26 Aug 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 2 (revision) 06 Dec 16 Version 1 26 Aug 16 read read Stephen J. Senn , Luxembourg Institute of Health, Strassen, Luxembourg Alan O. Trounson , Monash University, Clayton, Australia Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Trounson A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 03 Oct 2016 | for Version 1 Alan O. Trounson , Hudson Institute for Medical Research, Monash University, Clayton, VIC, Australia 0 Views copyright © 2016 Trounson A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This is a well thought out analysis of the data available on human pregnancy wastage. The conclusions are valid from the data explored but the major variant of failed fertilization and very early embryo loss cannot be estimated. Failed fertilization will always be an unknown in such studies but early embryo loss can be estimated from the large amount of IVF data published on embryo survival to the blastocyst stage (day 5-7). However, the vast bulk of this data comes from superovulated patients and this may not represent embryo loss in the natural ovulatory cycle. This data suggests that only 30% of conceptions end up as live babies at delivery (Macklon et al., 2002) Indeed embryonic arrest before day 5 can be attributed to whole chromosome abnormalities in more than half of human embryos (McCoy et al., 2015). The embryonic losses due to mitotic and meiotic support the high embryonic wastage in human reproduction. It is a pity the authors didn’t include this genetic data in support of their hypothesis References 1. Macklon NS, Geraedts JP, Fauser BC: Conception to ongoing pregnancy: the 'black box' of early pregnancy loss. Hum Reprod Update . 8 (4): 333-43 PubMed Abstract 2. McCoy RC, Demko ZP, Ryan A, Banjevic M, et al.: Evidence of Selection against Complex Mitotic-Origin Aneuploidy during Preimplantation Development. PLoS Genet . 2015; 11 (10): e1005601 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 29 Nov 2016 Gavin Jarvis, , Development and Neuroscience, University of Cambridge, Cambridge, UK I would like to thank Professor Trounson for his remarks 1 . I respond to his comments as follows: Use of IVF data: The study was intentionally restricted to the analysis of hCG data from a natural reproductive context, and from the three studies in particular 2-4 . As Prof. Trounson indicates, data from IVF may not be representative of natural cycles. Extrapolation of conclusions from a specific to a wider or different context should always be done with caution (see review by Prof. Senn 5 ). The use of IVF data to inform our understanding of natural reproduction can be particularly difficult, as I note elsewhere 6 . Macklon et al. , 2002 7 : This is a well-known and frequently cited review. I discuss the referenced value of 30% elsewhere 6 . However, contrary to what Prof. Trounson seems to imply, it is neither a summary of nor an extrapolation from IVF data. It is part of Macklon’s “ overview of the outcome of spontaneous human pregnancy ”, and is copied directly from an earlier review on the “ frequency of implantation and early pregnancy loss in natural cycles ” by Prof. Tim Chard 8 . Macklon is explicit in stating that the conditions from which in vitro data are obtained are “ far from ideal ” and “ do not reflect the normal situation ” 7 . He reviews several hCG studies concluding that many problems associated with these were addressed by Wilcox 2 and subsequently Zinaman 3 . Surprisingly however, the numerical estimates in Macklon (including the 30% survival value) do not reflect the outcome from these two studies, as I explain elsewhere 6 . McCoy et al. , 2015 9 : It is difficult to incorporate quantitative conclusions from McCoy into a model of natural human embryo loss. All McCoy’s data are from IVF embryos and are susceptible to criticism regarding their accuracy as a description of natural reproduction. As he himself states: “ specific rates of meiotic and mitotic error reported in this study are likely particular to the IVF population ” and “ studies also demonstrated that ovarian stimulation and IVF culture conditions can both influence rates of chromosome abnormalities ” 9 . McCoy cites Macklon 7 as authority for a 70% loss of all conceptions in human reproduction. Moreover, he goes further by associating this loss specifically with “ young, otherwise fertile couples ” 9 . McCoy also cites a published summary 10 of Edmonds, 1982 11 , an early hCG study. Edmonds' data lie at one extreme of the pre-Wilcox studies, with 56.8% of hCG+ cycles failing prior to clinical recognition. By contrast, Walker, 1988 12 reported no pre-clinical losses of hCG+ pregnancies. Neither Edmonds’ nor Walker’s estimates have been replicated since Wilcox, 1988 2 . Subsequent studies report a post-implantation, pre-clinical loss of approximately 20% 6 . Elsewhere 13 , McCoy states that “ Fewer than ~30% of conceptions result in successful pregnancy ”, citing Wilcox. However, Wilcox 2 reports that “ The total rate of pregnancy loss after implantation, including clinically recognized spontaneous abortions, was 31% ”. Therefore, McCoy’s conclusion that high levels of aneuploidy observed in IVF embryos can explain natural human embryo loss is not well-founded, since natural embryo loss is substantially lower than he claims. An alternative view is that the high level of aneuploidy observed in vitro is, at least in part, an artefact of the handling of human ova and the associated interventions of assisted reproductive technology, as suggested by Chard (“ it is possible that at least some of the abnormalities are the result of the experimental procedures themselves ” 8 ) and Braude (“ Experiments in our laboratories have suggested that the in vitro handling of oocytes can produce chromosomal aberrations at alarmingly high frequencies ” 14 ). The critical question is – how large is that part? These issues are addressed in more detail elsewhere 6 . References: Trounson A: Referee Report For: Estimating limits for natural human embryo mortality [version 1; referees: 2 approved]. F1000Research 2016; 5 : 2083. Wilcox AJ, Weinberg CR, O'Connor JF , et al. : Incidence of early loss of pregnancy . N Engl J Med . 1988; 319 (4): 189-94. PubMed PMID: 3393170. Zinaman MJ, Clegg ED, Brown CC , et al. : Estimates of human fertility and pregnancy loss . Fertil Steril . 1996; 65 (3): 503-9. PubMed PMID: 8774277. Epub 1996/03/01. eng. Wang X, Chen C, Wang L , et al. : Conception, early pregnancy loss, and time to clinical pregnancy: a population-based prospective study . Fertil Steril . 2003; 79 (3): 577-84. PubMed PMID: 12620443. Epub 2003/03/07. eng. Senn SJ: Referee Report For: Estimating limits for natural human embryo mortality [version 1; referees: 2 approved] . F1000Research . 2016; 5 : 2083. Jarvis GE: Early embryo mortality in natural human reproduction: What the data say [version 1; referees: awaiting peer review] . F1000Research . 2016; 5 : 2765. Macklon NS, Geraedts JP, Fauser BC: Conception to ongoing pregnancy: the 'black box' of early pregnancy loss . Hum Reprod Update . 2002; 8 (4): 333-43. PubMed PMID: 12206468. Epub 2002/09/11. eng. Chard T: Frequency of implantation and early pregnancy loss in natural cycles . Baillieres Clin Obstet Gynaecol . 1991; 5 (1): 179-89. PubMed PMID: 1855339. Epub 1991/03/01. eng. McCoy RC, Demko ZP, Ryan A , et al. : Evidence of Selection against Complex Mitotic-Origin Aneuploidy during Preimplantation Development . PLoS genetics . 2015; 11 (10): e1005601. PubMed PMID: 26491874. Pubmed Central PMCID: 4619652. Epub 2015/10/23. eng. Edmonds DK, Lindsay KS, Miller JF , et al. : Early embryonic mortality in women . Obstetrical and Gynecological Survey . 1983; 38 (7): 433-34. eng. Edmonds DK, Lindsay KS, Miller JF , et al. : Early embryonic mortality in women . Fertil Steril . 1982; 38 (4): 447-53. PubMed PMID: 7117572. Epub 1982/10/01. eng. Walker EM, Lewis M, Cooper W , et al. : Occult biochemical pregnancy: fact or fiction? Br J Obstet Gynaecol . 1988; 95 (7): 659-63. PubMed PMID: 3273753. Epub 1988/07/01. eng. McCoy RC, Demko Z, Ryan A , et al. : Common variants spanning PLK4 are associated with mitotic-origin aneuploidy in human embryos . Science . 2015; 348 (6231): 235-8. PubMed PMID: 25859044. Epub 2015/04/11. eng. Braude PR, Johnson MH, Pickering SJ , et al. Mechanisms of Early Embryonic Loss In Vivo and In Vitro . In: Chapman. M, Grudzinskas G, Chard T, editors. The Embryo: Normal and Abnormal Development and Growth. London: Springer-Verlag; 1991. p. 1-10. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Trounson AO. Peer Review Report For: Estimating limits for natural human embryo mortality [version 2; peer review: 2 approved] . F1000Research 2016, 5 :2083 ( https://doi.org/10.5256/f1000research.10209.r16765) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2083/v1#referee-response-16765 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Senn S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 19 Sep 2016 | for Version 1 Stephen J. Senn , Competence Center for Methodology and Statistics, Luxembourg Institute of Health, Strassen, Luxembourg 0 Views copyright © 2016 Senn S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This is an interesting and generally well-written article. I am unfamiliar with the field of reproductive physiology and female fertility regulation and so cannot be described as an expert reviewer. However, I do have expertise in the field of statistics and modelling and felt to understand the issues much better having read this article and that is a tribute to its general clarity. Nevertheless, at one or two points I felt the clarity could have been improved. The author is not always completely explicit on two points. The first is whether a conditional probability is being estimated (and if so conditional on what) and the second is the precise details of the mixed model being used. Since readers will not necessarily be familiar with the software an author uses, and since the more complex the subject the more likely an algorithm will differ between packages, one of the inevitable problems in a field of this complexity are 1) that it is quite likely that readers will not be familiar with some details of implementation and 2) results might differ somewhat from package to package. The author has used NONMEM, a package that is popular in nonlinear mixed effect modelling in pharmacokinetics but less well-known in other fields. This is a limitation of the article. (Not because NONMEM is not a suitable package to use but because it is the only package used.) For example, Makubate and Senn, modelling the effects of cross-over trials in infertility, found some differences depending on whether SAS, GenStat or R were used to implement what was ostensibly the same model, or indeed program it from scratch using Mathcad and in the field of estimating values below the limit of quantitation Senn, Holford and Hockey got different standard errors using NOMEM compared to SAS, GenStat and R, although such differences are not necessarily inherent to packages but may reflect implementation. On a more technical matter, the author has used a discrete mixture which some might regard as being excessively restrictive and a little unrealistic, although the author does claim " the published data do not support a model of uni-modal, albeit varied, fecundability ". A further issue is that unlike for causal studies, such as clinical trials, the degree to which the subjects studied are representative of a population of interest is important. Lacking knowledge of this particular field and the studies cited I cannot judge whether this condition is satisfied. It seems at least plausible that sub-fertile couples are more likely to be studied than those of average fertility. Nevertheless, this seems to be an interesting and valuable exercise in modelling a difficult field. References 1. Makubate B, Senn S: Planning and analysis of cross-over trials in infertility. Stat Med . 2010; 29 (30): 3203-10 PubMed Abstract | Publisher Full Text 2. Senn S, Holford N, Hockey H: The ghosts of departed quantities: approaches to dealing with observations below the limit of quantitation. Stat Med . 2012; 31 (30): 4280-95 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 29 Nov 2016 Gavin Jarvis, , Development and Neuroscience, University of Cambridge, Cambridge, UK I would like to thank Professor Senn for his remarks 1 . I respond to his comments as follows: Representative Populations: This is an important point and Prof. Senn’s intuitive concern is well-founded. The analysis attempts to introduce a little more focus to the data from the three particular studies 2-4 . Despite the similarities between the quantitative conclusions from the three studies, extrapolation to a general population is risky, given the known and likely variances in fertility associated with age, health and social status, level of education, ethnicity etc... However, the strength of these studies lies in the detail and density of the data, which is rare among other similar studies, and I believe this re-analysis does yield some additional insight. I have addressed some of the concern regarding differences in populations and other sources of reproductive variance in another article 5 . Conditional Probabilities: I hope the following makes my intention more explicit. If P(A|B) is the probability of event A, conditional on event B, then: (i) π LB = P(A|B), where A is a live birth, and B is a clinical pregnancy (ii) π CLIN = P(A|B), where A is a clinical pregnancy, and B is a positive hCG test (iii) π HCG = P(A|B), where A is a positive hCG test, and B is successful fertilisation (iv) π FERT = P(A|B), where A is successful fertilisation, and B is the in vivo co-localisation of ovum and sperm (v) π SOC = P(A|B), where A is the in vivo co-localisation of ovum and sperm, and B a single menstrual cycle Discrete mixture model: I agree that dividing the cohort into two discrete populations is a little unrealistic. However, in the absence of the original raw data, there is little else that could be done. The data conform markedly better to this bi-modal distribution, as compared to either a uni-modal or tri-modal model. I doubt if this model captures all the quantitative subtlety that subsists in the data; nevertheless, it does both confirm and quantify, albeit perhaps a little brutally, the clear impression expressed in the original reports that the study populations included subjects who were sub-fertile. Modelling packages: The point about differing outputs from different modelling software packages is also well made. My own instinct (which is admittedly not as refined as Prof. Senn’s) is that any difference is likely to be small, since, although I used NONMEM, there is no random effect (i.e., OMEGA) modelling other than the residual error variance (i.e., SIGMA). However, there are perhaps other reasons why performing the analysis in GenStat or R is preferable. At some point I will repeat the analysis and report back any differences in the output. I shall incorporate changes relating to points 1, 2 and 3 into a second version of the article. References Senn SJ: Referee Report For: Estimating limits for natural human embryo mortality [version 1; referees: 2 approved] . F1000Research . 2016; 5 : 2083. Wilcox AJ, Weinberg CR, O'Connor JF , et al. : Incidence of early loss of pregnancy . N Engl J Med . 1988; 319 (4): 189-94. PubMed PMID: 3393170. Zinaman MJ, Clegg ED, Brown CC , et al. : Estimates of human fertility and pregnancy loss . Fertil Steril . 1996; 65 (3): 503-9. PubMed PMID: 8774277. Epub 1996/03/01. eng. Wang X, Chen C, Wang L , et al. : Conception, early pregnancy loss, and time to clinical pregnancy: a population-based prospective study . Fertil Steril . 2003; 79 (3): 577-84. PubMed PMID: 12620443. Epub 2003/03/07. eng. Jarvis GE: Early embryo mortality in natural human reproduction: What the data say [version 1; referees: awaiting peer review] . F1000Research . 2016; 5 : 2765. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Senn SJ. Peer Review Report For: Estimating limits for natural human embryo mortality [version 2; peer review: 2 approved] . F1000Research 2016, 5 :2083 ( https://doi.org/10.5256/f1000research.10209.r15931) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2083/v1#referee-response-15931 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Jarvis GE. Dataset 1 in: Estimating limits for natural human embryo mortality. F1000Research 2016, 5 :2083 (https://doi.org/10.5256/f1000research.9479.d133951) Close Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Jarvis GE. Dataset 2 in: Estimating limits for natural human embryo mortality. F1000Research 2016, 5 :2083 (https://doi.org/10.5256/f1000research.9479.d133952) Close Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Jarvis GE. Dataset 3 in: Estimating limits for natural human embryo mortality. F1000Research 2016, 5 :2083 (https://doi.org/10.5256/f1000research.9479.d133953) Close Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Estimating limits for natural human embryo...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2083/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2083/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2083/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Jarvis GE');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2083/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2083",
+ templates : {
+ twitter : "Estimating limits for natural human embryo mortality. Jarvis GE, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2083/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Estimating limits for natural human embryo mortality", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Estimating limits for natural human embryo mortality", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/9479/11187")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "11187");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "16009": 0,
+ "16010": 0,
+ "16397": 0,
+ "16398": 0,
+ "16399": 0,
+ "18258": 0,
+ "18259": 0,
+ "16053": 0,
+ "16054": 0,
+ "15927": 0,
+ "15928": 0,
+ "15929": 0,
+ "15930": 0,
+ "15931": 55,
+ "16765": 43,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "c758442f-5a22-41c4-b85a-75e6170a8f26";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

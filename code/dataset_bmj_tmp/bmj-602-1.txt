@@ -1,0 +1,77 @@
+BMJ paper 2016.035406
+Barry et al.
+This review addresses an important topic, in effect asking if the NHS Diabetes Prevention Programme is based on good
+evidence. The covering letter suggests that it is not, but the Discussion (foot of page 14) in the paper is more favourable. One
+question would be whether the interventions used in the trials could be replicated in routine care, given that some
+interventions required a lot of resources.
+The stated aims are to review both the diagnostic accuracy of screening tests for “pre-diabetes” and the efficacy of lifestyle
+interventions and metformin for preventing progression to type 2 diabetes. I don’t like the term “pre-diabetes” because most
+people don’t go on to diabetes. So the statement on page 5 that “that if individuals do not take action they will develop
+diabetes” is incorrect. Two UK studies reported that most people with IGT did not develop diabetes. The Ely study reported
+10% progressed after 4.5 years, and 57% regressed to normal. The Bedford study reported that only 16% developed
+diabetes.
+I prefer “non-diabetic hyperglycaemia”. But pre-diabetes is very commonly used, so this is a minor quibble.
+The Abstract states that “In identifying pre-diabetes, HbA1c had a mean sensitivity of 0.50.” This statement, and the similar
+one on fasting plasma glucose, are meaningless without specifying the levels of HbA1c and FPG used. The sensitivity of HbA1c
+could be 100% if a low enough level was used. It appears that two cut-offs were used for HbA1c, 5.7% as in the American
+definition and 6.0% as in the WHO, though in appendix 5, an HbA1c cut-off of 6.4% also appears to be used. But these cutoffs were chosen to define non-diabetic hyperglycaemia, not for screening purposes. In a good screening study, several levels
+would be used, and paired forest plots used to illustrate the trade-off between sensitivity and specificity.
+
+Furthermore, we are not told whether the 50% sensitivity is based on the ADA or WHO thresholds. I would expect a much
+higher sensitivity with the 5.7% cut-off.
+Methods, page 6. Interventions included lifestyle and metformin. Why were other drugs not included? Liraglutide has been
+shown to reduce progression to type 2 diabetes (Pi-Sunyer et al NEJM 2015) as has pioglitazone (IRIS trial, Kernan 2016).
+When considering metformin, age should be taken into account.
+QUADAS is used to assess the quality of diagnostic studies, but nothing is done with the results. Two options could have been
+considered – exclusion of studies considered to be of poor quality; or a sensitivity analysis testing inclusion or exclusion or
+weaker studies. Table 1 shows that some studies were poor. Lin 2014 has three criteria with a high risk of bias rating. Lee
+2013 also has three high bias scores.
+Should the Valdes 2011, Skriver 2010 and Pajunen 2010 studies of HbA1c have been included? Systematic reviews usually
+included a list of studies considered but excluded.
+The 50g GCT test is not included amongst the screening tests. There are studies comparing it with the OGTT and HbA1c
+(Phillips 2009).
+There are also problems with the intervention studies. The Cochrane risk of bias was used to assess quality, but the detailed
+results are given only in the forest plots. No details are given of minimum quality for inclusion and it appears that all trials that
+provide adequate data were included. Again, a sensitivity analysis could have been used. The Ramachandran trial had the
+poorest score, but contributed 10% of the weight.
+The trials had very different lengths of intervention, but much more important is the timing of outcomes measures – in past
+reviews we have observed that results are often initially good, for example in terms of weight loss, while the intervention
+continues, but that after it ceases, results deteriorate. So the main outcome, development of type 2 diabetes, should have
+been assessed a reasonable time (at least 2 years?) after the intervention stopped.
+Figure 7 is mentioned in the text (page 10) as giving the results of the metformin trials, but it should say figure 8. Are all the
+outcomes reported in Figure 7 well after the intervention has stopped? If so, how long after?
+Not all trials were identified. I didn’t see the Melbourne Diabetes Prevention trial by Dunbar et al mentioned anywhere (BMJ
+Open Diabetes 2015) which is odd, since that trial was one of prevention of diabetes in a “real life” setting. Perhaps that was
+because screening was by FindRISC not a measure of blood glucose. But it was “screen and treat” so it seems relevant,
+especially as Barry and colleagues call (foot of page 15) for “pragmatic real-world studies”.
+Table 3 is difficult to use because the trials are in no logical order – alphabetical would have made checking things much
+easier. It would also have been useful to link different studies from the same trial, such as Lindstrom (not mentioned in table
+3, only in figure 7) and Tuomilehto. The post-GDM studies might be better in a separate table and analysed separately, though
+I note (page 11, para 3) that only one GDM trial was included in the meta-analysis
+The Perez-Ferre 2015 trial of Mediterranean lifestyle after GDM appears to have been missed.
+Looking at some of the figures 2 and 3, there is clearly considerable heterogeneity amongst studies. In such circumstances, a
+strategy to address heterogeneity is required. The methods section (page 5, para 2) says that heterogeneity was assessed
+using the I2 test. The I2 results are tucked away in an appendix and not reported in main text. The I2 results are very high –
+one of 99%. This suggests that the studies were too dissimilar to be combined in a meta-analysis. Strategies for dealing with
+very high heterogeneity include omitting outliers, using a random effects analysis, and not doing a meta-analysis at all. The
+random effect approach is used in this paper but without exploring reasons for heterogeneity.
+I liked figure 9 as a neat illustration of selection bias.
+Two of the appendices use “IGT as the reference standard”. But IGT is a condition, not a test. It is defined through the OGTT
+as having normal FPG but raised post-load results. So presumably IGT is short-hand for 2-hour OGTT results. But if so, was
+that not covered in appendices 4 and 5?
+Other odd results in the appendices are not discussed in the text. Appendix 4 used HbA1c threshold of 6.0% and gets
+sensitivity of 41%. Appendix 5 uses a higher cut-off of 6.4%. We would expect that to be much less sensitive, but sensitivity
+actually increases to 52%. Appendices 7 and 8 use different cut-offs for FPG, of 6.0 and 6.9mmol/l, but get almost identical
+sensitivity and specificity. This is not credible, and presumably reflects differences between studies using different thresholds.
+In appendix 8, there is one marked outlier which by the size of the circle, must carry more weight than any other study. The I2
+was 94%.
+Perhaps in Discussion, there should be some discussion of studies showing that HbA1c and FPG identify similar numbers of
+people with, for example, diabetes, but that the populations do not overlap well – the tests are picking up different groups.
+Mostafa et al in Leicester is one such study.
+Also for Discussion, is why screening should be done. Most people with type 2 diabetes die of cardiovascular disease. HbA1c is
+a better predictor of that than FPG. However the ADDITION trial (in diabetes not IGT) should no benefit of intensive
+intervention to reduce CVD.
+Minor points
+Discussion para 2, last sentence. IFG is a condition – the test is FPG.
+Methods. Most systematic reviews have data extractions checked in more than 20% of studies
+Definition of terms IEC diagnostic criteria – diagnostic of what?

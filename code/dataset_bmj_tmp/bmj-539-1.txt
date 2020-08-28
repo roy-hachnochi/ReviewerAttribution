@@ -1,0 +1,26 @@
+The authors have utilized a large healthcare database which contains rich clinical information with
+longitudinal follow up. The results are cleverly conceived with sophisticated analyses. I have a few
+comments listed below. Some definitions need more clarification in the manuscript.
+1. Page 7: Exposure interval definition is confusion. The 90 day interval started from the first
+prescription of any NIAA. In each 90 d-interval, patients may have experienced both SU-only and
+Met-only. How was the current, recent, and past classified, from the outcome count backwards? It
+will be better to explain more on the classification of the exposures. Drawing a graph to explain the
+definition may be helpful.
+2. Page 7: “We applied a new user design by excluding all patients who had a history of NIAA or
+insulin prescriptions or the outcome of interest before the index date”. While the index date was the
+first proscription date after the valid data collection, how to make sure the baseline period is
+long/complete enough for a new user cohort? If a patient’s first NIAA date happened to be at the
+same time when (or shortly after) the valid data collection started, the reliability of baseline
+information (eGFR and other) will be questionable.
+
+3. Table 3: SU user with renal impairment (RI) was compared to Met as overall (with and without
+renal impairment). Met patients had better renal function at baseline, thus the magnitude of the risk
+of hypoglycaemia associated with SU patients with RI might from mixed effect of SU and reduced
+renal function. It will be helpful to compare SU-only users to Met-only users within RI patients. It will
+give the evidence if Met is safer than SU in patients with RI and the magnitude of the risk associated
+with SU in RI is the same as that in patients with normal renal function.
+4. Other minor comments: Diabetes diagnosis was not examined. Some non-diabetic patients may
+also take NIAA for off-label use and the risk of hypoglycemia in those patients may be different from
+that in diabetic patients. Hypoglycemia may be a short term event. Some experienced diabetic
+patients may manage it without seeking medical care. Thus the rate of the event may be
+underestimated.

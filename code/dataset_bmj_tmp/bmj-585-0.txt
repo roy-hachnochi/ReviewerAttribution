@@ -1,0 +1,51 @@
+Revision of the manuscript BMJ.2016.034569
+Title:
+Prognosis after surgical aortic valve replacement and transcatheter aortic valve implantation in patients
+with severe symptomatic aortic stenosis: Systematic review of observational studies
+First author: Reed Siemieniuk
+This is a systematic review of observational studies reporting on the rate of death, stroke, atrial
+fibrillation, structural valve deterioration (SVD) and the length of in-hospital stay with bioprosthetic
+surgical aortic valve replacement (SAVR) and the frequency of SVD with transcatheter aortic valve
+implantation (TAVI). According to the authors, this study was conducted to inform recommendations for
+the first
+in a series of BMJ Rapidrecs, a new BMJ series of recommendations published in
+response to potentially practice-changing evidence. For such recommendations, the Rapidrecs
+panel requires estimates of absolute risk obtained by applying relative risk estimates from
+randomized trials to current best baseline risks.
+Searches were performed using MEDLINE, EMBASE, PubMed Cochrane Database of Systematic Reviews,
+and Cochrane CENTRAL from 2002 to June 2016.
+The investigators were able to select 97 original studies that included 54,496 patients with severe aortic
+stenosis undergoing aortic valve replacement.
+From a statistical standpoint, the authors Used an algorithm established by Guyot et al., which estimated
+and pooled individual patient data to obtain an overall estimate of survival and freedom from SVD. Due
+
+to the lack of Kaplan Meier curves for stroke and atrial fibrillation, the authors estimated incidence rates
+per 100 patient-years post-intervention for each outcome using Dersimonian and Laird random effects.
+The authors found that from the time of surgery, the approximate median survival in patients undergoing
+SAVR was 16 years in those ≤65 years, 12 years in patients between the ages of 65 and 75, 7 years in
+patients 75 and 85, and 6 years in patients greater than 85 years of age
+In addition, patients undergoing SAVR and participating in these studies experienced, over the
+decade following their surgery, a risk of stroke of under 3%, a risk of atrial fibrillation under
+30%, and a risk of SVD of under 10%. They therefore concluded that long-term survival of SAVR is very
+close to that of general populations of the same age.
+Finally, investigators looked at SVD after TAVI, which was an uncommon finding.
+The extensive and detailed analyses conducted by the authors is impressive. The manuscript is really well
+written and fluent. Tables look to me appropriate in number and content.
+I have a few questions and concerns, however, that the authors need to address.
+- I have some concerns regarding the analysis on SVD for two reasons: First, the estimate of SVD using
+the Kaplan-Meier method is fundamentally incorrect, as it does not consider the issue of competing risk.
+Indeed a competing risk event (death) may preclude the onset of the event of interest, or may modify
+the probability of the onset of the event of interest (SVD). I recognize that this is an issue that affect the
+source studies, but I wonder if there exist a way to correct this important limitation. Second, the
+definition of SVD may be different access studies. The authors should provide the definition of SVD used
+in the studies reporting this outcomes in table 1. In the case of remarkable heterogeneity, this should be
+stated in the limitations
+- Considering the focus of the study, I would consider to omit the analysis on SVD after TAVI. Also, the
+title of the paper may be misleading. In fact, no clinical outcomes on TAVI have been reported in the
+study.
+- The DerSimonian & Laird random-effects estimator, while simple to compute, performs very poorly
+when the number of studies is less than 18 or 20. While the number of total studies may support the use
+of the DL estimator, this is clearly the case for the analysis of stroke and atrial fibrillation. In fact, these
+outcomes are reported in 7 and 2 studies, respectively. I would tend to recommend that authors use
+more robust methods or omit this analysis. However, I would like abide with a statistical reviewer
+regarding this important point.

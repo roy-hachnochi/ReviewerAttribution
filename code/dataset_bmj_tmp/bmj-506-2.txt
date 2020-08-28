@@ -1,0 +1,39 @@
+The authors are to be commended for a novel approach and contribution to the ongoing debate regarding surgical resection
+versus SABR in early stage non-small cell lung cancer (NCSLC) patients. Their study design, which focused on 1) a more recent
+cohort of patients from 2007-2012 2) patients receiving sublobar resection and 3) thoracoscopic/minimally invasive
+approaches addresses several of the biases and limitations encountered in previous retrospective analyses on this topic. The
+manuscript is well written, and their propensity-matched analyses appear appropriate and sound. I do have a few
+questions/points of clarification for the authors:
+1) In the methods section (page 8, line 27) the authors state that histology was included as a matching variable. Does this
+mean that all SABR patients included in the analysis had a biopsy proven lung cancer? If so, the methods should state that
+patients without FNA/biopsy were excluded. If this was the case, I am also curious what percent of SABR patients were
+excluded on the basis of biopsy. This presents a small bias as this may represent a group of patients who were too sick or frail
+even for bronchoscopy or CT guided needle biopsy. If the SABR patients without histology were included in the analysis (coded
+as unknowns) this could influence the overall ‘health’ of the SABR group accordingly also.
+2) Why did the authors not include race as a matching variable? This is a patient variable that can certainly influence mortality,
+and is typically included in propensity matching models.
+3) Did the authors consider a subgroup analysis with SABR versus wedge and SABR versus segmentectomy accordingly? If
+done, this would be a meaningful contribution to the debate that segmentectomy is oncologically favorable to SABR, but
+wedges may be more or less equivalent. I am curious what happens to matched segments to matched SABR patients, and a
+wide enough caliper (0.2) was used that I think this type of analysis would be possible.
+4) Page 10, lines 26-30 “no statistical differences noted in gender or income, or distribution of the patients”, as phrased is
+vague…I am not sure what “distribution of the patients” is referring to.
+5) In the results section, page 11, line 14, the authors state that there was a statistically significant difference in 3-year cancer
+specific survival (91.2% vs 87.7%, p=0.061). In the methods section, the authors do not define their cutoff for significance,
+but convention would hold that it would be p<0.05. I think the authors should amend this statement (as well as the abstract)
+to say it approached, but did not reach significance. This should also be tempered/edited in their discussion (page 13, lines 510).
+6) Can the authors please state which variables were entered into the overall Cox proportional hazards model, and also list the
+hazard ratios from the matched cohort. CPH modeling in propensity matched groups should only have the group variable in the
+model (here, SABR versus surgery), can the authors confirm this, and list the respective hazard ratios for the matched cohort.
+7) In the discussion, the authors mention that it is unclear if “such a large-scale trial can be completed”, (page 13, lines 30-32,
+page 15, lines 12-16), however, it would be worthwhile to mention the ongoing multicenter Stablemates trial.
+https://clinicaltrials.gov/ct2/show/NCT02468024. With an alternative randomization scheme, it represents a new paradigm in
+recruitment and enrollment.
+8) Please develop the second paragraph on page 13 a little more, because this is an interesting point, that most of the
+mortality for these patients is coming from comorbidities, not lung cancer. This is implying and driving home the point that this
+is a sicker/high-risk population where a delicate balance between short- and long-term risks must be struck.
+9) Page 14, lines 9-12, this sentence is not clear, with typos.
+10) An additional limitation: for surgical patients identified in SEER, you do not know what percent of clinical Stage I patients
+were upstaged, and therefore not included in your analysis. This is a benefit of surgery: that patients receiving surgery may be
+appropriately staged, and you may have stage migration in your surgical arm, but not SABR arm. This could account for some
+survival differences also, and should be mentioned.

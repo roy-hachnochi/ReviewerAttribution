@@ -1,0 +1,69 @@
+This is clearly a large piece of work in an important clinical area. I have reviewed this from a statistical perspective, and
+have some important concerns and suggestions:
+1. The abstract and whole paper is heavily focused on statistical significance, and there is no quantification of the actual
+treatment effects (with CIs) in the abstract or results text to help disseminate clinical importance.
+2. Outcomes. When defining the outcomes in the Methods section, please explain whether these are binary or continuous
+in nature. For example, is ACR-50 response binary or continuous?
+3. For WDAE, the denominator is the total exposure time, and therefore I think the authors are looking at the rate of
+WDAE (i.e. a hazard rate), and thus a rate ratio should be of interest for the meta-analysis (i.e. a hazard ratio).
+Confusingly, the authors refer to odds ratios for the WDAE analyses. I don’t think this is appropriate. Can the authors
+clarify please why they have analysed this in terms of ORs, and not hazard (rate) ratios? That is, the meta-analysis
+should be done on the log hazard ratio scale I think, and not the log odds ratio scale. In other words, rather than
+modelling the data as binomial, it should be Poisson I think.
+4. Bayesian analyses are fitted, but the ‘significant’ language is used, when this is really a frequentist statistical
+argument relating to a p-value and a null hypothesis. I suggest the authors remove the ‘significant’ or ‘not significant’
+language throughout, and rather focus on effect sizes and CrIs, and if they want to talk about strength of evidence, they
+can talk in probabilistic language (there was a probability of >95% that …) due to the Bayesian nature of analysis.
+5. ‘Uninformative prior distributions were used for all parameters’ – in my experience, prior distributions are never
+uninformative in a Bayesian meta-analysis, especially in regard tau-squared (the between-study variance). Please see
+Lambert et al. The authors must tell us explicitly what prior distributions were used, and perform sensitivity analyses to
+the choice of priors (especially for tau); can the authors use any of the empirically-based prior distributions of Turner or
+Rhodes?
+P. C. Lambert, A. J. Sutton, P. R. Burton, K. R. Abrams and D. R. Jones, "How vague is vague? A simulation study of the
+impact of the use of prior distributions in MCMC using WinBUGS," Statistics in Medicine, vol. 24, pp. 2401-2428, 2005,
+2005.
+K. M. Rhodes, R. M. Turner and J. P. Higgins, "Predictive distributions were developed for the extent of heterogeneity in
+meta-analyses of continuous outcome data," J. Clin. Epidemiol., vol. 68, pp. 52-60, Jan, 2015.
+R. M. Turner, J. Davey, M. J. Clarke, S. G. Thompson and J. P. Higgins, "Predicting the extent of heterogeneity in metaanalysis, using empirical data from the Cochrane Database of Systematic Reviews," Int. J. Epidemiol., vol. 41, pp. 818827, Jun, 2012.
+6. The Bayesian approach is sensible I feel, but the Bayesian analysis model is not explained in enough detail. Just
+saying a Bayesian random-effects model was used is not sufficient. For each outcome, what was the model structure?
+
+Did the authors model the binomial nature of the study data directly for binary outcomes, or assume logOR estimates in
+each study were approx. normal distributed? What about for the adverse events outcome, and the continuous outcome?
+And what assumptions were made about the heterogeneity for each treatment contrast? Was it assumed the same, or
+allowed to be different? How was the correlation of multiple treatment effect estimates from the same study accounted
+for? What assumptions were made about the between-study correlation of the true treatment effects? Even more
+crucially, were conclusions sensitive to any of these assumptions?
+7. A big assumption for network meta-analysis is consistency. Did the models assume consistency (exchangeability of
+direct and indirect evidence)? Did the authors examine whether there was inconsistency? How vulnerable are the
+conclusions to this assumption? Perhaps this is what the authors are referring to when discussing ‘node splitting’, but
+they don’t mention the word consistency explicitly.
+Areti Angeliki Veroniki, Haris S Vasiliadis, Julian PT Higgins, and Georgia Salanti. Evaluation of inconsistency in networks
+of interventions. Int. J. Epidemiol. (2013) 42 (1): 332-345 doi:10.1093/ije/dys222
+8. Was publication bias a potential concern? In other words, was there evidence of small study effects?
+9. In the results, it is clear from table 1 that the trials were heterogeneous in the length of follow-up (from 24 to 91
+weeks). Therefore, why is the OR an appropriate summary measure? Why are hazard ratios not summarised, which as
+far less sensitive to the actual length of follow-up itself. HRs may remain constant over time, but ORs change depending
+on the time-point. See for example Perneger. Hence, this must be better justified
+Perneger TV. Estimating the relative hazard by the ratio of logarithms of event-free proportions. Contemp Clin Trials.
+2008 Sep;29(5):762-6. doi: 10.1016/j.cct.2008.06.002. Epub 2008 Jun 27.
+10. How did the authors translate the pooled SMD back onto the sharp vdh scale?
+11. Table 2 should give us more information, including the pairwise summary result and the estimate of tau-squared
+(amount of heterogeneity) in each analysis
+12. The treatment effects should be more clearly labelled as the summary treatment effects (or the average treatment
+effects) across studies. When labelled as simply treatment effect, it implies that the treatment effect is fixed across
+studies, which isn’t the case. Perhaps in the methods explain that the meta-analysis results provide the estimate of the
+average treatment effects. See:
+Riley RD, Higgins JP, Deeks JJ. Interpretation of random-effects meta-analyses. BMJ 2011; 342:d549
+13. Table 2 uses ‘low’ to indicate poor quality, but elsewhere ‘low’ is used to signal good quality (low risk of bias). Please
+be consistent.
+14. I would like to see a table giving the ranking of treatments, with the probability that each treatment is ‘best’. This is
+naturally derived from the bayesian approach. This is better than talking about statistical signficance or whether
+treatments are ‘similar’.
+15. Summary ORs should be given to 2 d.p.s consistently
+16. I can’t see the individual study results for each outcome – am I missing something?
+In summary, this is clearly an immense piece of work to review and summarise the evidence identified from 150 studies.
+However, there are critical areas for improvement in the translation and understanding of statistical models, choice of
+effect sizes, heterogeneity in follow-up times, sensitivity to model assumptions and presentation of results. I hope my
+comments helps the authors moving forward.
+With best wishes, Richard

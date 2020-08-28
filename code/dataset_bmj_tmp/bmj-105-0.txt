@@ -1,0 +1,48 @@
+Statistical Review
+I appreciate the authors’ explanation of the analysis of replacing red meat with other food types.
+you.
+
+Thank
+
+I think that it is important to draw readers’ attention to many assumptions and much weaker strength of
+this replacement food analysis compared to the simple analysis of changes in red meat intake. For
+reasons explained below, I propose that this analysis should be completely removed from the paper as I
+believe it is likely to be misleading, and currently is over-interpreted. As this appears to be one of the
+objectives of this paper, this will be a major change.
+The analysis of the red meat changes is based on identifying cohort members who we know did change
+their intake and observing their mortality. This change analysis is the main strength of this paper.
+However, the replacement analysis is a statistical modelling exercise utilising data across the whole
+cohort, without ever identifying whether there is a single individual in the cohort who actually replaced
+red meat with any of the other food types. From the authors’ explanation I understand that the analysis
+has estimated the change in mortality with unit change in each of the different food types (for example,
+an increase in mortality of x% with a unit increase in red meat, a decrease in mortality of y% with a unit
+increase in fish) and then has summed the two coefficients to predict what would happen if you made
+both changes together. There does not actually need to be any individual in the cohort to have made
+that combination of changes to obtain that estimate.
+I understand that this analysis is actually assuming that the changes in mortality with each food type are
+independent. Whilst the uncertainty is the estimate is taking account of shared variance (reflecting the
+correlation of changes in consumption of different food types across the cohorts) it is assuming, for
+
+example, that the change of mortality with different changes in fish consumption would be the same
+regardless of the changes in consumption of all other food types, including red meat.
+Understanding how replacement of one food type with another would actually impact on mortality would
+require investigation of interaction terms between each combination, for which these data are unlikely to
+have statistical power (it will depend on the exact numbers of participants who did actually substitute on
+food with another). And the reality is most likely that individuals reducing red meat are likely to replace
+it with a selection of different food types, and not a single food type, so such a simple analysis would be
+impossible.
+I fear that inclusion of the current replacement analysis is creating an illusion of understanding the
+actual impact of replacement when all the dataset can provide are independent estimates of how
+mortality changes with independent changes in each food type. For example, quoting from the abstract
+“A reduction in one serving/day of red meat accompanied by an increase in an alternative food choice
+was associated with a lower risk of death”. This is wrong as the model fitted has estimated how a
+change in the alternative impacts on risk of death REGARDLESS of whether it accompanies a reduction in
+red meat intake.
+I therefore cannot see what this analysis is adding over a table which summarises the change in
+mortality predicted with unit change of each of the food types (i.e. the main effects). These currently
+are not reported in the paper at all, although they are the key parameters included in the model from
+which these estimates are obtained. I would therefore urge the authors to abandon the reporting of
+this replacement analysis, potentially replacing it with reports of the impact of changes in other food
+types. Interpretation of the “replacement” question can only be speculative.
+There is much about this study which is strong and well reported, so I would strongly request that the
+authors’ consider this request.

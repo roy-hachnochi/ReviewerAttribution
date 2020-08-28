@@ -1,0 +1,38 @@
+Risk of hypoglucaemia related to DPP-4 inhibitors plus sulphonylureas: systematic review and metaanalysis
+I apologise for the delay in completing this report.
+The authors have conducted a meta-analysis of RCTs looking at the risk of hypoglycaemia. They
+undertake two analyses, a meta-analysis of relative risks (RR) and a meta-analysis of numbers
+needed to treat (NNT) to observe a harmful event.
+1. The RR meta-analysis method is described on page 7, and is based on either a fixed effect or
+random effects model dependent on the statistical significance of the test of heterogeneity (using a
+P<0.1 criteria). No method is described for comparing subgroups.
+2. The NNT meta-analysis method is described on page 8, and the methodological description simply
+described as “pooled in a forest plot”. This is an inadequate description and it is unclear what has
+been done.
+3. For the RR analysis, the authors report results of comparisons of subgroups (according to
+definition of hypoglycaemia, according to dose) but do not explain what test for the required tests
+for differences between subgroups have been undertaken. For the comparison of hypoglycaemia a
+P-value is reported for “evidence of heterogeneity between the groups” on line 7 of page 10, but we
+do not have a method. For comparison of doses the focus is on whether each group is statistically
+significant rather than assessing for differences between the groups (lines 9-10), which is regarded
+as a misleading way of undertaking subgroup analyses.
+4. It is not recommended that an average NNT is computed by pooling, as appears to have been
+done in this manuscript (although the method used is not clear). This is because NNTs
+mathematically depend on the underlying event rates, which typically vary across studies,
+introducing heterogeneity. For example, one determinant of event rates is length of follow-up,
+which always increases event rates. Thus pooling studies with mixed length of follow-up (here
+studies vary between White with 76 weeks follow-up and baseline event rate of 6.3% and Kikucho
+and Seino with 12 weeks followup both with baseline event rates of 1.0%) is likely to introduce
+heterogeneity for NNTs, whereas the relative effects are more likely to be consistent at different
+follow-up points.
+5. The recommended approach (as stated in the Cochrane Handbook) to estimate an average NNT is
+to obtain the pooled RR estimate from the meta-analysis and to estimate NNTs from it across a
+
+range of prevalences which reflect different settings. These prevalences may be obtained from the
+data in the trials, or from other sources. Clearly here it is important to standardise for the length of
+follow-up time, and the NNT needs to be stated conditional on that duration of treatment (the
+longer you treat for the more events will happen).
+6. I would also encourage the authors to stick with the notation and terminology introduced by
+Altman for NNTs, which is the NNT for one person to be harmed NNT(H) or benefit NNT(B). The
+authors introduce this at the beginning, but then slip into the rather inappropriate NNH – number
+needed to harm. Although widely used, this abbreviation is erroneous.

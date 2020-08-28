@@ -1,0 +1,124 @@
+M Mazzucato:
+In this succinct article, Nayak, Avorn and Kesselheim generate new and important insight to the
+understanding of the role of public investment in the drug discovery process, an increasingly critical
+angle for analysing the extent to which governments can and should take action to safeguard affordable
+access to innovative medicines for both policymakers and the more general audience in the medical
+community.
+Specifically, the authors sought to add to the existing body of knowledge and previous arguments on the
+topic – which have established the indisputable and indispensable role of publicly funded science in early
+drug development – by ascertaining public support in late stage drug discovery. To put together a
+credible and thorough picture of late-stage public contribution to drugs that were approved by the FDA
+between 2008 and 2017, they:
+Collected patent data from the FDA Organge Book, Merck Index, drug monograph database AdisInsight
+and published drug development histories and collected assignee information pertinent to the patents
+identified;
+Systematically examined the available data to look for direct evidence of the late-stage public support
+for a drug (declaration of government funding; explicit recognition of origin in publicly-supported
+institutions; contribution to active ingredients of a drug by publicly-supported research) and evidence of
+public support for the initial technology that resulted in the drug (history of publicly-supported research
+resulting in technology that led to the creation of spin-off companies and specific drugs based on the
+same technology);
+Identified and compared the approval pathways for drugs that were based on contributions from
+publicly-supported research and drugs that were not.
+The authors found that publicly-supported research contributed to the late stage development of a
+significant proportion of drugs (25%) in the period studied, and that drugs that received public support
+were more innovative (more likely to get expedited approval and to be first-in-class).
+Reviewer’s comments
+The reviewer generally favourable review and finds that the research summary and abstract accurately
+and satisfactorily describes the essence of the research. Some minor revisions and clarifications to the
+main text are recommended, per below.
+Introduction
+The introduction very well sets up the research by sufficiently situating it within existing literature
+(references 4 – 15) and explained clearly its rationale.
+The reviewer suggests a reword of the sentence on page 5: “The role of public-sector contributions
+versus those of the pharmaceutical industry to new drug discovery remains controversial”. The roles of
+public and private sectors in pharmaceutical innovation is in fact much better-understood than 10 years
+ago (to which the work of the two senior co-authors, Professors Avorn and Kesselheim, have made great
+contribution); what remains “controversial” is the narrative of the roles of different players. As a side
+note, it may be useful to include the response by Derek Lowe to Congresswoman Ocasio-Cortez’s recent
+hearing on public return on public investment, which Professor Kesselheim took part
+(http://blogs.sciencemag.org/pipeline/archives/2019/02/01/rep-ocasio-cortez-and-where-drugs-come-fr
+
+om and https://www.statnews.com/2019/02/08/alexandria-ocasio-cortez-drug-discovery/). This is a
+highly illustrative example of the conflict in narratives about public contribution to drug discovery for the
+reader.
+
+Methods
+While the analytical methods for the study is relatively straight-forward and capable of answering the
+research question (determining the contribution of publicly-supported research in late stage drug
+discovery), the methods section can be written with more clarity.
+The writing as it stands makes it difficult for the reader to immediately grasp the methodology; the
+reviewer has to work backwards to work out a summary of the research. Before diving into data sources,
+there should be an overview of purpose of the analysis, which connects immediately with the end of the
+introduction. The definition for late-stage research contribution from publicly-supported research also
+needs to come at the beginning of the section rather than at the end. Then there needs to be an
+explanation of why and how different data sources are required and used to achieve the purpose, which
+is where the detailed descriptions of different data sources can come in.
+Some analysis methods were not reported. The methods section fails to describe the use of statistical
+inference in the results in Table 3, where share of patents held by public-sector or spin-off are calculated
+with confidence intervals. It also fails to describe the use of the Fisher exact test of independence in
+Table 4, which compares the proportions of drugs of different origins approved through various
+pathways.
+Results
+The reporting of results is relatively short. Though this in itself is not a problem, there are places where
+better presentation and clarification are needed. At times, the reviewer feels that more could be done to
+more deeply explore and interpret the dataset. For example:
+Table S2 details “new approvals and origins by drug class”. 3 drug classes here are worth highlighting
+for later discussion for having higher-than-average proportion of drugs that resulted from late-stage
+public sector support. They are: diagnostic drugs (10/16, or 62.5%), hematologic-oncologic drugs
+(17/64, or 26.6%) and drugs that treat infectious diseases (13/39, or 33.3%). These are compared
+against an average of 62/248, or 25%. These are highly profitable drug classes, and the situation here
+may represent a high-than-average rate of private capture of public value.
+Table 1 is supposed to show how public contributions were related to the drug’s “discovery, synthesis,
+other key intellectual property”. But the information is actually absent from Table 1 – the column “US
+Government Contribution” only identifies presence and absence of a contribution, but not the specific
+drug discovery process to which it effects on. In the corresponding results section, it would be great to
+see summary statistics that gives a breakdown on this.
+It might be useful to get extra information on the revenue generated by drugs listed in Tables 1 and 2,
+highlight the blockbuster and mega blockbuster drugs (by, say, tabulating also their list prices in the
+United States and the annual revenue they generate) and possibly draw further comparisons between
+drugs with direct and indirect publicly-supported research contributions. The reviewer notes that the
+article does highlight three drugs in the discussion section (nusinersen, eliglustat and enzalutamide), but
+feels that issue to do with pricing and capture of public value should surface at the analysis stage.
+The reporting related to Table 3, which corresponds to “Patent Characteristics” in the results section, is
+unclear. Firstly, for the reader’s benefit, it may be useful to add a column heading “number of drugs by
+patent characteristics” to the table. Secondly, number and percentages are not presented in a consistent
+format. Percentages are often not presented in the table, though they are presented in the actual text.
+“Share of patents held by public sector or spin-off” is somehow reported separately as a percentage, and
+as mentioned before, the methodology for calculating this measure is unclear (it somehow involves the
+use of statistical inference). Thirdly, no explanation is given as to the difference between the measures
+related to “Number of drugs with Orange Book patents” and those related to “Drugs with >= public
+sector or spin-off patents listed in Orange Book”. The results section has reported on the latter measure
+
+(“Thirty-five drugs had Orange Book patents related to the drug’s substance, product or method of use”,
+which corresponds to the figure of 35 with an asterisk located in the fourth row from the bottom in Table
+3), but there is nothing said about the former. The reporting here is significantly lacking in detail.
+
+Discussion
+This article has provided a thoughtful discussion of the results in terms of their limitations and in relation
+to the existing literature and findings. Some minor revisions and suggestions are below.
+The article rightly points out that the patent-based approach will “underestimate the additional role of
+upstream basic and translational science research supported by public funds”. To enable better
+understanding by the reader, the article can elaborate a bit more on how publicly-funded research create
+significant direct and indirect economic value, and more importantly, how those value can be captured
+by the private sector (eg. Azoulay, P., Graff Zivin, J.S., Li, D. & Sampat, B.N. (2018) Public R&D
+Investments and Private-sector Patenting: Evidence from NIH Funding Rules. The Review of Economic
+Studies. 86 (1), 117–152.; Sussex, J., Feng, Y., Mestre-Ferrandiz, J., Pistollato, M., et al. (2016)
+Quantifying the economic impact of government and charity funding of medical research on private
+research and development funding in the United Kingdom. BMC Medicine. 14 (1), 32.). This discussion is
+especially important when there is currently an absence of mechanisms for the state to secure direct
+public return on public investment (eg. Mazzucato, M. (2018) The entrepreneurial state: debunking
+public vs. private sector myths. 2nd edition. London: Penguin Books.)
+In identifying policy levers in “drugs with late-stage publicly-supported research contributions,
+particularly those for which such institutions hold key patents”, it may be worth further strengthening
+the case for public return on public investment by highlighting the fact that increasing financialisation of
+the pharmaceutical innovation system in the United States have led to more significant private capture
+of public value (eg. Mazzucato, M. & Roy, V. (2018) Rethinking value in health innovation: from
+mystifications towards prescriptions. Journal of Economic Policy Reform. 1–19.; UCL Institute for
+Innovation and Public Purpose (2018) The people’s prescription: Re-imagining health innovation to
+deliver public value. London: IIPP, Global Justice Now, Just Treatment, STOPAIDS.)
+In communicating the trend of increasing public support in late-stage drug discovery – which is also
+mentioned in the introduction (“These studies found public-sector research institutions to be the sources
+of 4.6% of new molecular entities approved 1981-1990…” etc) – the article can insert a graphic
+representation of the figures with the addition of the new finding from this research (25% for drugs
+approved 2008-2017). This graphic will be especially useful for dissemination to the wider public.

@@ -1,0 +1,91 @@
+I thank the authors for a very detailed and clear response to my original
+comments, and for revising their manuscript. In particular, for going back and
+doing extra work, in terms of removing crude estimates and for establishing the
+methods of adjustment in the original articles, and for defining a core set of
+adjustment factors needed. I think the paper is much clearer, and summarises
+well this field and the evidence (and issues) therein.
+
+However there are some issues remaining, as their responses do not match the
+revised PDF version. So further, important comments remain, which will require
+further review. Especially see my point number 4 – it seems their submitted PDF
+of the final version is very different from their revised (marked) Word version
+submitted. This has confused me, and made it hard to review. I am unsure which
+I was supposed to review. After point 4, I decided to use the Word version as I
+fear the PDF is the original submission.
+1) “ Of these meta-analyses, 35% reported a decreased risk, 19% an increased
+risk and 46% found no association between diet and risk of T2D.” – how were
+these defined? By statistical significance? Not clear in the abstract
+2) When doing their random-effects meta-analyses, the authors use the
+Dersimonian and Laird approach for estimation. This is not the best method. See
+recent work. I would recommend the authors rather used REML following by
+confidence intervals derived using the Hartung Knapp approach.1 This is more
+robust. But if not done, the authors should mention this as a limitation and that
+new meta-analyses in this field should use this approach to pooling.
+3) The authors now provide predictions intervals AND dispersion around the SHR.
+But the latter is just a poor approximation of the genuine prediction interval, so I
+do not see the benefit of this.
+4) In their response, the authors say that I was right about the effect measure
+being hazard ratio, and so they now use summary hazard ratio, and not
+summary relative risk throughout. Yet, the revised article still uses relative risk! I
+cannot see the word hazard ratio anywhere. A related point. The authors say
+that they changed multivariate to multivariable – but this is not the case in their
+revision. I am unsure why this is some disconnect between their response to me
+and the actual revision I am reading.
+Similarly, the I-squared and heterogeneity issue has not been addressed,
+although they say it was in their reponse.
+Upon further investigation, I can see a Word version is attached with track
+changes nicely shown, which is the correct update that links to their response.
+But the PDF version is some hybrid, or even the original version? I’m very
+confused. I will therefore read the Word version with track changes here
+onwards.
+5) “. If more than one published meta-analysis on the same association was
+identified, we chose only one meta-analysis for each exposure to avoid the
+inclusion of duplicate studies. In that case, we included the one with the largest
+number of primary studies”
+- but what if the one with the larger number of primary studies also was the one
+with the lowest quality?
+6) “For each exposure the meta-analysis was recalculated using the maximally
+adjusted hazard ratios of the primary studies included in the published
+meta-analyses.” – this is an example of where it looks like the authors are
+pooling across meta-analyses. Change to: “For each exposure the chose
+meta-analysis was recalculated using the maximally adjusted hazard ratios of the
+primary studies included in that meta-analysis.”
+7) Was the proportional hazards assumption evaluated in the original
+meta-analyses (and primary studies) at all? This remains unaddressed from my
+first set of comments
+
+8) “There was no association between low-fat dairy products, high-fat dairy
+products, milk, low-fat milk, high-fat milk, cheese, cottage cheese, fermented
+dairy products, cream, sherbet, eggs, poultry, unprocessed red meat, total
+fish/seafood, lean fish, shellfish, fish, butter, refined grain, wheat germ, rice, soy
+products, legumes, nuts, fruit and vegetables, total fruit, citrus fruits, total
+vegetables, green leafy vegetables and cruciferous vegetables and risk incidence
+of T2D” – when the authors say no association, it is probably that they mean no
+strong evidence of an association? E.g. it is more likely they have low power or
+wide CIs, than to include there was no association. I would be cautious and
+clearer what this means.
+9) “As for the 95-% PIs, only 5% of the meta-analyses excluded the null-value,
+namely the high vs low analyses of healthy dietary pattern, unhealthy dietary
+pattern and breakfast skipping and the dose-response analyses of apples and
+pears, total coffee, artificially sweetened beverages, ligh, moderate and high
+wine intake and magnesium. That indicates that it is expected that findings in
+future studies on these exposure will point to the same directions. However, for
+the majority of the findings, it is likely that the estimate obtained in a future
+primary study might result in a null finding”
+- this is hard to read. Prediction intervals do not consider where a future
+ESTIMATE will lie. So the last sentence is wrong. They predict what the
+underlying true effect size will be. So, if the interval is wide and includes the null,
+then in some further studies or populations, the true effect may be small or be
+none at all in some populations. However, if the interval contains mainly values
+in one direction, that reassures me that – despite the heterogeneity – most of
+the evidence suggests an association in a particular direction (Even if the
+magnitude varies).
+These are the main comments I can see for now. But as mentioned, this will
+need further review when the authors send a clean, final version of their article
+that matches the changes indicated in their response. Apologies if they did
+already send this, but the PDF I have available on the system is definitely an
+older version, and I cannot see new Figures and tables
+Reference List
+1. Langan D, Higgins JPT, Jackson D, et al. A comparison of heterogeneity
+variance estimators in simulated random-effects meta-analyses. Res Synth
+Methods 2018.

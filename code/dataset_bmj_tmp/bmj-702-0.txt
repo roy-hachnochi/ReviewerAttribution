@@ -1,0 +1,10 @@
+The authors have addressed all my concerns.
+Regarding the calibration plots, the authors have concern that the revised plots may be difficult to
+interpret, primarily the miscalibration at the higher end of risks. Personally I would truncate these plots,
+the authors can confirm, but there will likely be very few events at this extreme (i.e. not much data, and
+therefore the model doesn't appear to work as well). so 1a and 1b have the plot region 0 to 0.3 on both x
+and y-axes and 1c and 1.d, have the plot region 0 to 0.2 on both axes. The authors can make a
+comment in the paper that there is some miscalibration at the higher end - this is the region where
+miscalibration is probably less important anyway, as they are high risk anyway.
+Presenting merely the calibration plots in groups of ten equal size (which is common practice), some
+would (and do) argue could be misleading, because of the arbitrarily grouping of patients...

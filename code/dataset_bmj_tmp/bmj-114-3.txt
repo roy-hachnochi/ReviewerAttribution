@@ -1,0 +1,38 @@
+This study evaluated the effects of ultra-processed food (UPF) consumption and mortality
+in a cohort of Spanish adults. This is an interesting report and consistent with findings in
+larger cohorts. However, the number of observed deaths was also not large and the
+estimated 95%CI are wide. I also think the potential for residual confounding is quite large
+(especially since some key confounders are often difficult to measure). There are several
+aspects of this paper that I have questions about, which are outlined below:
+1.
+What is the distribution of missing values for the cohort? The authors cite that
+missing values were set “as if they did not present the condition”
+2.
+Individuals who consumed more UPF were more likely to be smokers and were less
+likely to participate in physical activity. Did the authors complete an analysis restricted to
+non-smokers? It seems (as in the French Study which evaluated processed food
+consumption and cancer risk) that individuals with higher levels of UPF were more likely to
+be smokers. Analyses excluding individuals with depression at baseline could also be
+considered.
+3.
+Another weakness is the consideration of only confounders at baseline? Do the
+authors have any data on how the set of confounders considered (or diet) changed over
+follow-up)? I think the lack of consideration for time-varying confounders is important.
+Furthermore, while the tests for proportionality of hazards was not less than 0.05, results
+were a bit marginal. It would be good to know what the HR was <median follow-up vs.
+>=median follow-up – were they largely different?
+4.
+Perhaps more analyses could be presented that demonstrate that the foods
+contributing to the UPF are also associated with mortality in this cohort.
+
+5.
+What’s the correlation between the Mediterranean diet score and UPF levels? The
+difference in score between top vs. bottom quartiles of UPF is not very large.
+Minor comments:
+1.
+It seems that Tables 1 and 2 could be combined ( I do not think the cumulative R2
+is adding anything to this – these foods constitute the UPF, so of course the cumulative R2
+will increase)
+2.
+Figure 2 is largely repetitive of what’s described in the table (and also not very
+convincing).

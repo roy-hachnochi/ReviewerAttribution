@@ -1,0 +1,34 @@
+RCTs aren't so easy to conduct in the field of surgery, so non-randomised comparisons such as this one are common in
+this field. This paper reports a study that has been conducted very carefully, in cognisance of the potential problems of
+not having randomised allocation. I find the paper general very clearly written, and the interpretation of findings is
+appropriate.
+Reading this new draft led me to make a few comments, as detailed below. None is major.
+1. Initially I was confused by the hazard ratios being greater than 1 to indicate better survival in the identified group.
+So, for example, the Abstract includes this statement:
+“In our primary analysis of patients with tumours ≤2cm in size, the CSS diverged for both groups after one year with
+non-significantly higher three-year CSS found in patients undergoing thoracoscopic SLR (SABR vs. SLR: 82.6% vs.
+86.4%, HR 1.32, 95% CI 0.77-2.26, p=0.32).”
+The hazard ratio refers to (relative frequency of) events, not of non-events, so I’d expected HR<1 at the end of this
+sentence. Interestingly, looking at an earlier BMJ paper by this group (Chughtai et al 2015 – not in fact cited in this
+paper) the HR in the Abstract does indeed refer to events, not non-events. Later in the paper (e.g. Table 2) it simply
+isn’t clear which way round the HR was calculated. So I’d ask that the authors review the presentation of HRs
+throughout.
+2. P3: In last paragraph of Abstract there is a reference to “some cancer subgroups”. See also p18. I’m unclear which
+analyses these statements refer to. Is it perhaps related to tumour size, as discussed in my next point?
+3. I presume authors chose 2cm as max size for the primary analysis as non-surgical intervention is more likely to be
+competitive with surgery for less severe cases. This is borne out by the findings. The lack of statistical significance for
+tumours <2cm doesn’t of course demonstrate equivalence (comparability of the two interventions) for such patients and
+I feel this is discussed well in the main text Discussion but of course the nuances of the text cannot be conveyed in a
+short abstract.
+4. P8-9: please give a reference to the method described that treats paired patients as clusters.
+5. Likewise please mention and reference the use of Hall-Wellner bands.
+6. Please indicate numbers of events in each group in each analysis in figures 1 and 2. Please also mention tumour size
+cutoff used.
+7. “Overall survival” is used in the text but “all-cause mortality” in Table 2.
+
+8. There is no mention of the OS analyses in the Discussion. Given that these analyses are presented I feel that there
+should be, if only briefly.
+9. P15: What is unusual about the randomisation scheme for STABLEMATES and why is it relevant? I note that OS is the
+primary outcome of that trial.
+10. I’m always somewhat sceptical of the classification of cause of death, here as cancer-related or not. Perhaps some
+comment can be made about the reliability of CSS as an outcome.

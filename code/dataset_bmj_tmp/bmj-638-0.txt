@@ -1,0 +1,73 @@
+The authors conducted a study examining the accuracy and validity of “Symptom checkers”. Although research
+evaluating the Internet is in a fairly nascent state, the efforts of organizations such as the Journal of Medical Internet
+Research have sought to upgrade standards of rigor in reporting methodologies used. While an interesting subject and a
+worthwhile topic, the authors seem a little light on the details of what they did. No doubt if this were an observational
+study or a literature review or a clinical trial there would be no such ambiguity – I would ask the authors to consider
+upgrading their level of specificity to similar standards here.
+Introduction
+Perhaps brief mention should be given to the fact that it’s not just patients using conceptually similar tools but also
+clinicians e.g. AskMayExpert (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3961694/)
+In both the abstract and the final paragraph of the introduction the authors refer to “all available symptom trackers” –
+this is a very broad statement and needs to be better qualified (only checkers that are free and in English are included)
+and their methodology described in more detail. You would not say “all diabetes patients” in a study that only looked at
+patients from the Brigham, for instance, it’s a sample.
+Some widely used triage algorithms are mentioned – does this mean that we might expect similar results from a
+telephone triage service? As a reader I don’t know whether to be expecting the checkers to be 90% accurate or 10%
+accurate.
+Methods
+No mention is made of searching specific app stores or what search terms were used (as you would with a lit review) but
+then later in the methods there is reference to apps, which suggests that the app stores were searched but this was not
+reported. Methods should allow for replication and just to say “Internet search” is not enough (the Internet is a big
+place!) What terms were used, which engines, on what date was the search run, how were duplicates dealt with, were
+the searches archived in any way, etc. If this was a literature review we’d expect a protocol to be followed and reported
+out such as to allow replication, this is no different.
+
+Compete Pro provides one estimate of site traffic but this may be subject to its own sampling issues
+(https://blog.kissmetrics.com/free-analytics-accuracy/) as it only uses data from 2m users and as the symptom
+checkers were from all over the world it might not provide an accurate review. Perhaps check a few common sites and
+take an average?
+More should be said about the rationale for the SP’s selected. For example, is Rocky mountain fever something that we
+have evidence to believe patients are searching for a lot? It would seem rational to try and match the nature of the
+enquiry to where the bulk of the problem might be situated.
+In Supplemental Table 1, sometimes there is a URL, sometimes not.
+What are the baseline performance standards we should expect for a physician for these vignettes? Do we know? Is it
+100%? How about alternatives such as telephone triage or nurses? It is unclear without an a priori hypothesis what sort
+of threshold we should be expecting the symptom checkers to exhibit to be impressed vs. disappointed.
+Were the SP’s all entered by a single researcher? By multiple researchers with reliability checks to check for agreement?
+Results
+1.25m site visitors each or total? Is an average a mean or a median?
+Check journal style for stats reporting, should chi and (df) be reported?
+Table 2 is a diagram so complex I must salute the authors for constructing it in the first place, but I suggest going and
+reading the work of Tufte on the display of visual information to help bring this chart into a format that could be more
+easy to process. For instance if the story here is that some diseases are easier to get right than others, then this layout
+is fine but it should be sorted by descending frequency of correct diagnosis. If the story is that some engines are better
+than others then the table should be flipped i.e. engines as rows not columns. You could also try sorting by descending
+order of accuracy within the columns, so that we would be able to see the patterns more easily. The assistance of a
+visual designer could be sought, currently this looks like a game of MineSweeper.
+Table 2 – Ensure the grey box is in the right hand side legend too.
+Table 5 result – Page 10, Line 17 - The difference between 4% accuracy and 54% accuracy is non-significant? Must be a
+typo, doesn’t jive with the CI’s.
+Consider adding a table that shows summary statistics for each SP, so we can see at a glance for instance that
+appendicitis was done better than Rocky mountain fever or stroke in general.
+Only slightly terrifying to see the government-backed ones were the least effective!
+Discussion
+Because the authors didn’t specify a hypothesis up front or give the reader a sense of what to expect in terms of
+accuracy, I’m not sure they’re entitled to say that there were “clear deficits”. If you’re saying that in some situations a
+lay person in the middle of nowhere could, free of charge, enter their information into one of these algorithms (that
+didn’t have to go to med school for 10 years) and get a diagnosis that was 84% accurate, I’d say that’s not too bad! The
+problem is the variability, and the consequences.
+The authors have not detailed the consequences. What is the harm of a missed emergent diagnosis? What is the harm of
+a patient with the sniffles showing up at the ER? It would be useful to have a think about this in order to figure out how
+alarmed we should be about which finding.
+Is there evidence that patients see symptom checkers as a replacement for seeing a physician? Or more that the
+symptom checker is available instantly for free while a physician takes much longer and costs money? I think it’s a straw
+man to say patients with intense abdominal pain or that your pulmonary embolism patient, having just come out from
+an operation, is going to Google his symptoms before he calls a doctor. People know that the Internet is not as reliable
+as a doctor, so another important question is how would a patient use the result? Perhaps they would be non-compliant
+with the symptom checker’s instructions, use multiple symptom checkers, or engage in a more complex search such as
+checking Wikipedia, asking in a forum, or posting on social media to engage with other patients or even healthcare
+providers.
+In the UK there has been furore over the replacement for NHS Direct, 411, sending patients to A&E / the ER too often
+i.e. false positives. Might be worth alluding to.
+References
+3 – You can’t cite the Daily Mail in the BMJ.

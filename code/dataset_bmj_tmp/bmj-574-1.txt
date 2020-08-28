@@ -1,0 +1,10 @@
+The authors took into account my comments and they proceeded with the necessary revisions.
+However, I would like to re-direct the attention of authors to aspects that refer to heterogeneity and sesnitivity analysis
+on priors. Specifically, results from the common within network heterogeneity are not provided. A textual reference in
+the Results section as well as a comparison with the respective predictive distribution as provided by Turner et al would
+suffice. Regarding the pairwise meta-analysis, it is not stated which confidence interval strategy for the heterogeneity
+variance the authors used.
+In terms of prior sensitivity analysis, instead of being too general on the sensitivity analysis set-up, I would recommend
+to be succinct by creating a table where you can specify for each parameter which alternative priors you used (i.e.
+distribution and hyper-parameters). A simple reference of the results of this sensitivity analysis in the Result section will
+suffice. Particularly, the sensitivity of the heterogeneity variance on the prior specifications is very crucial.

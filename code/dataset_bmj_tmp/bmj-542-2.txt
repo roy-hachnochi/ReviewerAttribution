@@ -1,0 +1,29 @@
+This is a well-written, unique review on an important topic to all physicians and policy makers. The authors make use of a
+newly available dataset in the United States (CMS Open Payments dataset), and link it to another dataset (CMS Prescription
+Drug Event database for Medicare Part D enrollees) to find an association between pharmaceutical manufacturer payments and
+physician prescribing patterns (grouped into 306 regions for analysis purposes). Their results support a long-presumed
+association between payments to physicians and prescribing patterns.
+Introduction: There is an adequate literature review and rationale or study.
+Methods: The methods are very well described, including assumptions and reasons for particular assumptions. Inclusion /
+exclusion criteria is well described. The supplemental methods are useful. The statistical analysis is solid, and a number of
+covariates that may differ between HRRs are controlled for.
+Page 6, Line 13-15: Please add how many payments were excluded due to not being linked to and NPI (3437 according to
+supplement methods) and zip codes not being assigned a HRR; or indicate that this represented an extremely low percentage
+of all payments.
+Results:
+The results presented are concise and focused on the main study objectives without superfluous data. The table and figures
+
+represent the key data well.
+Discussion:
+The authors make explicit a number of limitations, which are well described. The main objectives of the paper are interesting,
+and the results support the rationale, hypotheses, and conclusion.
+The issues which should be addressed by the authors in the discussion include:
+1. What is the economic significance of the statistically significant results? Specifically, can the authors comment on the
+estimated incremental cost associated with additional days filled of the two classes of marketed drugs? Of course, this does not
+take into account any savings that may result from use of certain drugs (e.g. no need for laboratory monitoring) and should be
+acknowledged.
+2. Could there be system-wide savings and benefits to patients in using newer marketed drugs in these two categories (easier
+monitoring, fewer side effects, better compliance, etc.)? This is touched upon Page 14, Line 8-13 in which the authors state
+that payments are not necessary harmful to patients, but worthy of further discussion.
+3. Page 14, Line 20: The authors say that there is a potential negative effect on patients due to “inappropriate prescribing” or
+“prescribing of more expensive … medications.” This is not technically a negative effect on patients; please reword.

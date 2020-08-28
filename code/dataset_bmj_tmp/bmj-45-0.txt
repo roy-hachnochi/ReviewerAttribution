@@ -1,0 +1,87 @@
+Thanks for making the revisions. In light of the extra clarifications made and author
+responses to initial queries, I have a number of further concerns that I would like the
+authors to consider.
+1. Reporting Guideline: In the author’s response, they suggest that the review follows
+‘PRISMA protocol’. This is unclear because PRISMA is the guideline for final reporting of
+reviews but PRISMA-P is the protocol
+Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A, Petticrew M, Shekelle P, Stewart LA.
+Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P)
+2015 statement. Syst Rev. 2015;4(1):1
+For PRISMA, please use BMJ reference.
+2. Registration: In the author’s response, they suggest the study was registered with
+PROSPERO and the registration is still pending – if this is the case then this should be
+followed up. However, it seems unlikely that this would take this long if the study was
+registered prior to the reviews search being carried out – were attempts made to register
+this study retrospectively rather than prospectively – please be transparent. My experience
+is that registration can be rejected by PROSPERO if they believe much of the work has
+already been completed.
+
+3. Search Strategy: In the manuscript, the authors suggest that unpublished studies were
+excluded because they may be lower in quality than published studies without peer review.
+This is a strong claim - the authors need to provide some references to back this claim.
+There is in fact growing evidence that there may be little difference in the quality of articles
+without peer review (preprints) compared to those with peer review. The reviewers
+response is also confusing because they detail ‘strategies they used to identify unpublished
+studies’. So why would you look for unpublished studies then exclude them all based on
+quality? If there is a protocol, surely this exclusion criteria would have been documented?
+Incidentally a good review of how to search for unpublished data was published by BMJ.
+https://www.bmj.com/content/344/bmj.d8013
+4. Pg 6. Line 84. In the revision, the authors now specify that those studies that reported
+on survival rather than mortality were excluded. Can the authors explain the rationale for
+this? In addition, amongst the ‘effect sizes’ of interest you were including hazard ratios –
+these typically correspond to survival outcome.
+5. Risk of Bias Assessment: The authors originally used N-O scale which I did suggest was
+OK with the suggestion ‘ROBINs’ might be a more up-to-date tool to use. The authors now
+use ROBINS-I which is for interventions but they modified it for exposures. How did you do
+this? The exposures tool is currently under construction but there are some preliminary
+tools available for this purpose (see website).
+https://www.bristol.ac.uk/population-health-sciences/centres/cresyda/barr/riskofbias/robins
+-e/
+This reference might also be helpful:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6302384/
+6. Statistical methods: The authors might want to explain how and the rationale for
+converting ORs, RRs and HRs from the study papers in to log RR +/- SE. Is this to obtain a
+single ‘effect size’ from each study? This isn’t clear nor while you later refer to (page 8, line
+134) log OR/RR/HR – have you not already converted these to the same scale?
+Minor: pg 7 Line 115: >50%
+Pg 8 Line 124 ‘pre-defined criteria’ – what is this criteria?
+7. Results
+a) Figure 1: The text suggests that 57 full text articles were potentially relevant. Figure 1
+suggests this is 53. The statement about the total number of included studies also doesn’t
+marry quite right. The text suggests there were 31 studies from 30 publications but Figure
+1 suggests this is 30 studies (not publications). I would update the information in Figure 1
+for clarity, e.g. 31 studies from 30 publications if this is correct.
+b) Table 1-3: The male/female split under the sample size column is unclear, e.g. M/F 7216.
+How many were M/F?
+c) Table 1-3: I was also unclear what was meant by the column ‘Follow-up’
+d) Table 1-3: Information in the ‘Comparison’ column needs better explaining.
+e) I’ve done one spot check in the Tables. Pg 10 line 178 it is reported 16,085 CVD deaths.
+If you sum the cases in Table 2 this comes to 21,748 – is this correct? Please check all
+numbers in tables/text as I also believe other’s don’t match.
+
+f) RoB assessment ‘Pg 11, line 192’. The authors report that none of the included studies
+had a low RoB in all components. This is a bit misleading as about 11 studies did have an
+overall RoB assessment as ‘Low’ and a ‘Low’ assessment in 6 of the 7 domains. In the other
+domain, the authors report ‘No Information’
+From my point in 5) do domains 3 and 4 need to relate to ‘exposure’ and not ‘intervention’
+when being referred to in Supp Table 2. I would use the guidance from this reference again.
+Perhaps when put into this context there is some information on the ‘change from intended
+exposure’. Supp Table 2 would benefit from some information on how you arrive at the
+‘overall judgement’
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6302384/
+g) Page 11 ‘Findings from the systematic review’ : It is unclear to me which tables I need to
+refer to in order to find the information being discussed. This section reports 28 studies on
+the association between total protein intake and A/C mortality but Table 1 only lists 24
+studies? Perhaps you can indicate in the Table results somehow in the ‘ES (95%CI)’ column
+the different associations you found, e.g. demarcate ‘non-sig results’, ‘inverse association’
+and ‘positive association’.
+h) Pg 11, line 208. Looking at the Tables and the Forest plot together you have combined
+both data from HR and RR – this is not advisable. RR are based on a single time point.
+What you describe as the pooled ‘ES’ maybe seen as somewhat meaningless. Can you not
+do a subgroup analysis for those that report RR and HR? Perhaps what you have currently
+shown can be seen more as a sensitivity. See my point in 6 also where there is a suggestion
+you may have used the raw data from the individual studies to calculate the same effect
+estimate from each study. This reference might help
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1920534/pdf/1745-6215-8-16.pdf
+The approach in h) will follow on with the subsequent analysis in this paper, mainly the
+dose-response analysis.

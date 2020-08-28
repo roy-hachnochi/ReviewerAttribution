@@ -1,0 +1,57 @@
+Thank you for the opportunity to review your manuscript, "Publication and reporting of clinical trial results: cross sectional
+analysis across academic medical centers," in which you report the rate of dissemination of clinical trial results among trials
+run by researchers at academic medical centers. The dissemination of clinical trial results is a critically important topic which
+directly informs the reliability of published medical research, and this manuscript will be a nice addition to the existing
+literature on this topic. In general, the manuscript is very well written, and the methods are described with an appropriate
+level of detail. It is also relevant to a broad, general medical audience. Given the importance that an impeccable search
+strategy has for the validity of your results, my most important concerns deal with the description of your search. Please
+consider the following suggestions.
+You do not describe attempting to contact trial investigators in the event that your publication search was negative in order to
+confirm non-publication. While yields of attempted email communication for this purpose can be low, most similar high quality
+publications (including prior publications by the authors of the manuscript under question) have included this step. Ideally,
+your methods would have included this step. Given that most consumers of the medical literature won't resort to contacting
+investigators directly in the event that they are unable to locate a publication via electronic database search, I don't consider
+this a fatal flaw, but it should be discussed as a limitation.
+Similarly, most related publications have had at least two investigators perform independent literature searches in order to
+identify relevant published manuscripts (including
+Ross JS, et al. Trial publication after registration in ClinicalTrials.Gov: a cross-sectional analysis. PLoS Med. 2009; Jones CW, et
+al. Non-publication of large randomized clinical trials: cross sectional analysis. BMJ. 2013; Bourgeois FT et al. Outcome
+reporting among drug trials registered in ClinicalTrials.gov. Ann Intern Med. 2010, and many others). It appears that you had
+six individuals each perform searches for non-overlapping cohorts of your included trials, and then had a single investigator
+validate a 5% sample of each individual's search. However, we are not provided with information about the background or
+training of the individuals performing the searches, and we are not provided information about the agreement between the
+initial searches and the validation effort. More concerning, though, is that each investigator would need to have performed over
+700 searches. This is tedious work, and it is easy to miss relevant publications, particularly when the trials in question deal
+with common diseases and interventions. In my opinion, given how central this issue is to your analysis, having two qualified
+investigators independently search for each trial is a minimum requirement before it is declared unpublished.
+What fields did you use within Scopus to search for [intervention name], "clinical trial," etc? Title, abstract, keywords, or
+something else?
+In many cases the study enrollment field is not updated by investigators upon trial completion to reflect the actual number of
+enrolled participants. As a result, discounting a trial due to a sample size discrepancy which otherwise seems to match based
+on all of your criteria might lead you to miss some publications. It would be helpful to know how often a sample size
+discrepancy was the sole criteria by which a potential match was discounted, and it would be helpful to see a list of these trials,
+perhaps in an appendix.
+As a related point, I would recommend providing a list of your included trials along with publication status and the matching
+citation, when applicable, as a supplementary appendix.
+Given your list of included centers, I suspect that you limited this analysis to American medical centers, though I suppose it is
+possible that no other academic centers had at least 40 trials over the relevant time period. If this was limited to US centers, I
+recommend explicitly stating this in the abstract and methods.
+In Table 2 and in your figures, you excluded information about the 1455 trials for which results were not disseminated. I am
+confused as to why you chose not to include these trials as part of the denominator when displaying your results. For the "rate
+of results reported or publication with 24 months" column in Table 2, and for Figures 1 and 2, it seems to me that by excluding
+these trials you end up painting a picture which is rosier than it ought to be. The important finding here is not really the
+percentage of trials which are ultimately published which have timely dissemination of results. Rather it is simply the
+percentage of all conducted trials with timely dissemination of results.
+
+If you have the information available, it would be helpful to include information about how many trials were excluded because
+the lead investigator was not associated with an academic center, as well as the number excluded because the center in
+question didn't meet your 40-trial threshold.
+Minor issues:
+p5, line 45. I recommend noting that Scopus includes coverage of journals indexed in either Medline or Embase, as many
+readers may not know off hand how extensive its indexing is.
+I recommend changing the title of column 9 in Table 1 to "Overall rate of results reporting at ClinicalTrials.gov" to clarify that
+you are referring specifically to results reporting within the results database at ClinicalTrials.gov. Similarly, on page 6, under
+"Results Reporting," it would clarify the paragraph to state explicitly that you examined rates of results reporting on
+ClinicalTrials.gov.
+I believe that in Figure 4 you are specifically showing information about results reporting on ClinicalTrials.gov and excluding
+information related to manuscript publication, but it would clarify the figure to state this explicitly.

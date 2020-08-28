@@ -1,0 +1,568 @@
+Soneson, Love and Robinson tackle a crucial question for analysis of RNA deep sequencing data in this manuscript: what is the role of transcript diversity in the accuracy and statistical power associated with measurements of gene expression? The authors make and convincingly show three claims: gene-level estimation and inferences are more robust than those at the transcript-level, and incorporating transcript-level quantification into gene-level abundance leads to improved differential expression testing. The claims are convincingly proven, the manuscript is well written, and the subject matter is of considerable interest. Furthermore, the described R package tximport should be of broad interest to the RNA deep sequencing community. Overall comments: It may be useful to indicate explicitly in the text that the methods are contained within the (excellently written and formatted) supplementary material, as this was not apparent. It might be clearest to create a specific methods section that just references supplementary file 1. The clarity of scatter plots with more than ~hundreds of points (e.g. Figure 1A) could be improved by using partially transparent points to visualize density. Introduction: Paragraph 1: Cufflinks, RSEM and Bitseq are grouped with kallisto and Salmon and it is then stated that some of these methods bypass read alignment. It would be clearer if this were reworded to avoid the ambiguity as to which methods avoid read alignment. Paragraph 4: The third claim could be presented more clearly. While it is interesting that simple counting performs similarly to transcript-level quantification procedures, it seems more interesting to this reviewer that incorporating transcript-level information improves the accuracy of differential expression testing at the gene level. Perhaps these two concepts can be combined into one more concise point? Results: The assertion that “simple counts tended to show a high degree of robustness against incompleteness of the annotation catalog, as evidenced from estimation errors after first removing (at random) 20% of the transcripts” seems misleading since Salmon-derived gene-level abundances actually show a higher Spearman correlation than count-derived gene-level abundances when subjected to removing a random 20% of transcripts. Figure 1a bottom left shows that transcript-level abundances are strongly affected by removal of 20% of transcripts, but that gene-level abundances are not strongly changed whether estimated using counts or Salmon. This statement should be reworded. Two concerns are raised about DTE. It is certainly true that reads are spread across more features when performing DTE as opposed to DGE.However, it is not apparent why analysis of DTE involves grouping of transcripts together for interpretation. DTE implies analysis at the transcript level and therefore no grouping, while DGE could involve some level of grouping of transcripts or quantification at the gene level from the start. The clarity of this could be improved. It is a very interesting idea to separately frame questions regarding DGE and DTU, which should be adopted widely, as the two are separable questions. The authors state one possible workflow towards DGE analysis in the section “Incorporating transcript-level estimates leads to more accurate DGE results.” Alternative pipelines (e.g. cuffdiff) could be presented in brief. The observation that simplesum and featureCounts results are highly correlated and therefore that statistical methods based on the Negative Binomial distribution can be used on estimated counts seems of greater importance than is emphasized in the text. This should be elaborated upon in the discussion, since this means that estimated counts from kallisto, express, salmon, etc can be used directly by statistical packages assuming a NB distribution (edgeR, DESeq2, etc). This point is frequently debated in discussions of how to rigorously analyze sequencing data. The conclusion here that NB applies to estimated counts is thus quite important. Please explain the meaning of the name for each curve in the legend for Figure 3 (i.e. specify that “avetxl” means using the offset corresponding to average transcript length. Discussion: The assertion that “gene-level results are more accurate, powerful and interpretable than transcript-level results” seems an oversimplification given the result that incorporating transcript-level quantification leads to improved DGE detection performance (e.g. Fig 3). Please cite at minimum Roberts et al. , (2011) regarding sequence bias correction as this has been implemented in cufflinks, express and kallisto. Other relevant papers should also be included here, as attempts have been made to address both positional and sequence-specific bias in RNA sequencing data. Supplement: The usability of the supplemental info could be improved by substituting rasterized for vectorized plots for those with ~hundreds of points. Please explain the meaning of the name for each curve in the legend for Supplemental Figure 5. References 1. Roberts A, Trapnell C, Donaghey J, Rinn JL, et al.: Improving RNA-Seq expression estimates by correcting for fragment bias. Genome Biol . 2011; 12 (3): R22 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Floor SN. Reviewer Report For: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences [version 2; peer review: 2 approved] . F1000Research 2016, 4 :1521 ( https://doi.org/10.5256/f1000research.8143.r11761 ) The direct URL for this report is: https://f1000research.com/articles/4-1521/v1#referee-response-11761 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 29 Feb 2016 Mark Robinson , University of Zurich, Zurich, Switzerland 29 Feb 2016 Author Response Thank you for taking the time to read and review our paper. In the revised version, we have improved the clarity and usability of the figures and the supplement by ... Continue reading Thank you for taking the time to read and review our paper. In the revised version, we have improved the clarity and usability of the figures and the supplement by using partially transparent points and extending the figure captions. We have also modified the main text to refer more clearly to the method information provided in the supplementary material, and improved the clarity of the text in several places, according to your suggestions. For additional comments regarding references to bias correction studies, please see responses to Rob Patro. Thank you for taking the time to read and review our paper. In the revised version, we have improved the clarity and usability of the figures and the supplement by using partially transparent points and extending the figure captions. We have also modified the main text to refer more clearly to the method information provided in the supplementary material, and improved the clarity of the text in several places, according to your suggestions. For additional comments regarding references to bias correction studies, please see responses to Rob Patro. Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 29 Feb 2016 Mark Robinson , University of Zurich, Zurich, Switzerland 29 Feb 2016 Author Response Thank you for taking the time to read and review our paper. In the revised version, we have improved the clarity and usability of the figures and the supplement by ... Continue reading Thank you for taking the time to read and review our paper. In the revised version, we have improved the clarity and usability of the figures and the supplement by using partially transparent points and extending the figure captions. We have also modified the main text to refer more clearly to the method information provided in the supplementary material, and improved the clarity of the text in several places, according to your suggestions. For additional comments regarding references to bias correction studies, please see responses to Rob Patro. Thank you for taking the time to read and review our paper. In the revised version, we have improved the clarity and usability of the figures and the supplement by using partially transparent points and extending the figure captions. We have also modified the main text to refer more clearly to the method information provided in the supplementary material, and improved the clarity of the text in several places, according to your suggestions. For additional comments regarding references to bias correction studies, please see responses to Rob Patro. Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (4) Version 2 VERSION 2 PUBLISHED 29 Feb 2016 Revised Author Response 23 Feb 2018 Mark Robinson , University of Zurich, Zurich, Switzerland 23 Feb 2018 Author Response Written by Charlotte Soneson, Michael I Love and Mark D Robinson. One of the main points of our paper was to point out and illustrate that defining the null hypothesis of ... Continue reading Written by Charlotte Soneson, Michael I Love and Mark D Robinson. One of the main points of our paper was to point out and illustrate that defining the null hypothesis of interest is of great importance when it comes to choosing the right data processing and analysis approach (see e.g., the Introduction, or Table 2 for a summary). In particular, we considered three main null hypotheses on the gene level, testing for what we may denote: DGE (differential gene expression) DTE+G (differential transcript expression aggregated to the gene level) DTU (differential transcript usage). The first null hypothesis (tested in DGE analyses) is that the total "transcriptional output" of a gene* is the same between the compared groups. This is the null hypothesis considered in Figure 3, and indeed for most differential gene expression analyses to date. Now, consider for simplicity a gene with two isoforms of very different length, and assume that only the short isoform is expressed in experimental condition 1, and only the long isoform is expressed in condition 2, but that the total expression of the gene is the same in the two groups. Using the summarized gene counts (in the paper denoted as “simplesum”) to test the DGE null hypothesis will (falsely) detect a difference between the groups, since the observed gene count depends on the length of the expressed transcripts. Incorporating the average transcript length offsets, or using scaled TPMs instead of simplesum counts, addresses this problem and improves the inference (again, for the DGE null hypothesis) in situations with considerable differential transcript usage. We show this conceptually with (as stated) "extreme" simulated data, but we also illustrate that (as Dr. Pachter comments) for many real data sets, the overall effect is much smaller, and thus, simplesum aggregation indeed provides similar global performance as scaled TPMs. This does not exclude that there may be important effects for individual genes or for other data sets, and therefore we recommend users to follow the steps suggested in the tximport vignette (again, assuming that DGE is the relevant hypothesis to test). It is important to recall that the concern that DTU among isoforms of different length could induce false positives in DGE analysis was the main issue that Trapnell et al (2013) had with competing count-based statistical methods. From the Results section of that paper: When all of a gene's isoforms are up- or downregulated between two conditions, raw count methods recover true change in gene expression. However, when some isoforms are upregulated and others downregulated, raw count methods are inaccurate. In the comment, Dr. Pachter notes that our average transcript length or scaled TPM corrections for performing DGE, which protect against potential false positives induced by DTU, may provide similar global performance as simplesum for a given dataset. This would imply that the major concern of Trapnell et al (2013) with count-based statistical methods may not be a large problem for every dataset. However, this does not invalidate the concern of Trapnell et al (2013), rather it means that the problem primarily affects individual genes with DTU among isoforms of different length, and this may not occur in every dataset, or may not affect the global operating characteristics. The null hypothesis tested in Supplementary Figure 2 of the Ntranos/Yi et al paper mentioned by Dr. Pachter is very different from the DGE null hypothesis discussed above. In their figure, a gene is considered "truly differential" if any of its transcripts are truly differentially expressed between the compared groups. We consider this null hypothesis for bulk, full-length RNA-seq in our Supplementary Figure 9, and we show that, indeed, performing DGE on the simplesum counts detects more of the truly differential genes (defined as those with any transcript DE rather than where the total concentration of transcripts changes) than performing DGE by including the average transcript length offsets or using scaled TPMs. This is natural and expected, since the offsets are explicitly designed to eliminate the effect of DTU on the overall (aggregated) gene count, to avoid this affecting DGE analysis as described above. Thus, a gene as the one mentioned in the first paragraph will have different gene-level counts due (only) to the usage of different isoforms in the two conditions, not to a change in overall expression, and will be detected in a DGE analysis applied to summarized gene counts, but not if offsets are included. However, the important message of Supplementary Figure 9 is that neither of these gene-level summarization approaches should be applied if the goal is to find genes where any of the transcripts are differentially expressed (the hypothesis tested in Ntranos/Yi et al). Instead, in this situation, transcript-level information should be used. In our Supplementary Figure 9, we exemplify this by performing differential expression analysis on the individual transcript level, followed by aggregation of the test results to the gene level. As expected, this correctly detects many more of the genes with any transcript DE. Thus, as we discuss in depth in our paper, the answer to the question "How should I sum transcript counts on the gene level with tximport?" depends on the null hypothesis that one is interested in testing. If the null hypothesis of interest is that the total transcriptional output of a gene is the same between conditions, incorporating the average transcript length offsets or using scaled (or length-scaled) TPMs will protect against effects of expressed transcript length on observed gene abundances (these are the steps one will find for DGE analysis in the tximport vignette). If the null hypothesis of interest is that none of the transcripts of a gene are differentially expressed, then the transcript-level abundances should not be aggregated to the gene level. Instead, we recommend using transcript-level information to answer this question (see, for example the methods papers for DRIMSeq or stageR ). In the context of transcript-level analysis, it is worth noting that statements about our F1000 paper written in Dr. Pachter’s blog (and at RNASeqBlog ) are not true. In the 15 Feb 2018 version of Dr. Pachter’s blog, it is stated ‘Soneson et al. 2016 suggest that while DTE and DTU may be appropriate in certain niche applications, generally it’s better to choose DGE, and they therefore advise not to bother with transcript-level analysis’. However, we highly recommend transcript-level analysis, whether it be a combination of DGE and DTU, or via DTE+G; in particular, text from our Discussion is copied below with emphasis added: Our results highlight the importance of carefully specifying the question of interest before selecting a statistical approach. Summarization of abundance estimates at the gene level before performing the statistical testing should be the method of choice if the interest is in finding changes in the overall transcriptional output of a gene. However, it is suboptimal if the goal is to identify genes for which at least one of the transcripts show differences in transcriptional output, since it may miss genes where two transcripts change in opposite directions, or where a lowly expressed transcript changes . For gene-level detection of DTE (that is, whether any transcript showed a change in expression between the conditions), statistical testing applied to aggregated gene counts led to reduced power and slightly inflated FDR compared to performing the statistical test on the transcript level and aggregating results within genes (Supplementary Figure 9). Statistical inference on aggregated transcript TPMs (scaledTPM) showed low power for detecting changes that did not affect the overall transcriptional output of the gene, as expected. An alternative to DTE analysis, for potential improved interpretability, is to perform a combination of DGE and DTU analyses, both resulting in gene-level inferences. Table 2 summarizes our results and give suggested workflows for the different types of analyses we have considered. Our main message overall is that analysts should think about and carefully specify the differential expression question of interest among the many possibilities. * =concentration of transcript molecules, summed over all isoforms Written by Charlotte Soneson, Michael I Love and Mark D Robinson. One of the main points of our paper was to point out and illustrate that defining the null hypothesis of interest is of great importance when it comes to choosing the right data processing and analysis approach (see e.g., the Introduction, or Table 2 for a summary). In particular, we considered three main null hypotheses on the gene level, testing for what we may denote: DGE (differential gene expression) DTE+G (differential transcript expression aggregated to the gene level) DTU (differential transcript usage). The first null hypothesis (tested in DGE analyses) is that the total "transcriptional output" of a gene* is the same between the compared groups. This is the null hypothesis considered in Figure 3, and indeed for most differential gene expression analyses to date. Now, consider for simplicity a gene with two isoforms of very different length, and assume that only the short isoform is expressed in experimental condition 1, and only the long isoform is expressed in condition 2, but that the total expression of the gene is the same in the two groups. Using the summarized gene counts (in the paper denoted as “simplesum”) to test the DGE null hypothesis will (falsely) detect a difference between the groups, since the observed gene count depends on the length of the expressed transcripts. Incorporating the average transcript length offsets, or using scaled TPMs instead of simplesum counts, addresses this problem and improves the inference (again, for the DGE null hypothesis) in situations with considerable differential transcript usage. We show this conceptually with (as stated) "extreme" simulated data, but we also illustrate that (as Dr. Pachter comments) for many real data sets, the overall effect is much smaller, and thus, simplesum aggregation indeed provides similar global performance as scaled TPMs. This does not exclude that there may be important effects for individual genes or for other data sets, and therefore we recommend users to follow the steps suggested in the tximport vignette (again, assuming that DGE is the relevant hypothesis to test). It is important to recall that the concern that DTU among isoforms of different length could induce false positives in DGE analysis was the main issue that Trapnell et al (2013) had with competing count-based statistical methods. From the Results section of that paper: When all of a gene's isoforms are up- or downregulated between two conditions, raw count methods recover true change in gene expression. However, when some isoforms are upregulated and others downregulated, raw count methods are inaccurate. In the comment, Dr. Pachter notes that our average transcript length or scaled TPM corrections for performing DGE, which protect against potential false positives induced by DTU, may provide similar global performance as simplesum for a given dataset. This would imply that the major concern of Trapnell et al (2013) with count-based statistical methods may not be a large problem for every dataset. However, this does not invalidate the concern of Trapnell et al (2013), rather it means that the problem primarily affects individual genes with DTU among isoforms of different length, and this may not occur in every dataset, or may not affect the global operating characteristics. The null hypothesis tested in Supplementary Figure 2 of the Ntranos/Yi et al paper mentioned by Dr. Pachter is very different from the DGE null hypothesis discussed above. In their figure, a gene is considered "truly differential" if any of its transcripts are truly differentially expressed between the compared groups. We consider this null hypothesis for bulk, full-length RNA-seq in our Supplementary Figure 9, and we show that, indeed, performing DGE on the simplesum counts detects more of the truly differential genes (defined as those with any transcript DE rather than where the total concentration of transcripts changes) than performing DGE by including the average transcript length offsets or using scaled TPMs. This is natural and expected, since the offsets are explicitly designed to eliminate the effect of DTU on the overall (aggregated) gene count, to avoid this affecting DGE analysis as described above. Thus, a gene as the one mentioned in the first paragraph will have different gene-level counts due (only) to the usage of different isoforms in the two conditions, not to a change in overall expression, and will be detected in a DGE analysis applied to summarized gene counts, but not if offsets are included. However, the important message of Supplementary Figure 9 is that neither of these gene-level summarization approaches should be applied if the goal is to find genes where any of the transcripts are differentially expressed (the hypothesis tested in Ntranos/Yi et al). Instead, in this situation, transcript-level information should be used. In our Supplementary Figure 9, we exemplify this by performing differential expression analysis on the individual transcript level, followed by aggregation of the test results to the gene level. As expected, this correctly detects many more of the genes with any transcript DE. Thus, as we discuss in depth in our paper, the answer to the question "How should I sum transcript counts on the gene level with tximport?" depends on the null hypothesis that one is interested in testing. If the null hypothesis of interest is that the total transcriptional output of a gene is the same between conditions, incorporating the average transcript length offsets or using scaled (or length-scaled) TPMs will protect against effects of expressed transcript length on observed gene abundances (these are the steps one will find for DGE analysis in the tximport vignette). If the null hypothesis of interest is that none of the transcripts of a gene are differentially expressed, then the transcript-level abundances should not be aggregated to the gene level. Instead, we recommend using transcript-level information to answer this question (see, for example the methods papers for DRIMSeq or stageR ). In the context of transcript-level analysis, it is worth noting that statements about our F1000 paper written in Dr. Pachter’s blog (and at RNASeqBlog ) are not true. In the 15 Feb 2018 version of Dr. Pachter’s blog, it is stated ‘Soneson et al. 2016 suggest that while DTE and DTU may be appropriate in certain niche applications, generally it’s better to choose DGE, and they therefore advise not to bother with transcript-level analysis’. However, we highly recommend transcript-level analysis, whether it be a combination of DGE and DTU, or via DTE+G; in particular, text from our Discussion is copied below with emphasis added: Our results highlight the importance of carefully specifying the question of interest before selecting a statistical approach. Summarization of abundance estimates at the gene level before performing the statistical testing should be the method of choice if the interest is in finding changes in the overall transcriptional output of a gene. However, it is suboptimal if the goal is to identify genes for which at least one of the transcripts show differences in transcriptional output, since it may miss genes where two transcripts change in opposite directions, or where a lowly expressed transcript changes . For gene-level detection of DTE (that is, whether any transcript showed a change in expression between the conditions), statistical testing applied to aggregated gene counts led to reduced power and slightly inflated FDR compared to performing the statistical test on the transcript level and aggregating results within genes (Supplementary Figure 9). Statistical inference on aggregated transcript TPMs (scaledTPM) showed low power for detecting changes that did not affect the overall transcriptional output of the gene, as expected. An alternative to DTE analysis, for potential improved interpretability, is to perform a combination of DGE and DTU analyses, both resulting in gene-level inferences. Table 2 summarizes our results and give suggested workflows for the different types of analyses we have considered. Our main message overall is that analysts should think about and carefully specify the differential expression question of interest among the many possibilities. * =concentration of transcript molecules, summed over all isoforms Competing Interests: No competing interests were disclosed. Close Report a concern Reviewer Response 20 Feb 2018 Lior Pachter , University of California Berkeley, Berkeley, USA 20 Feb 2018 Reviewer Response Many users have inquired about which of the tximport options they should use when summing transcript-level abundances. The paper provides some mixed messaging in this regard, first stating that "Accounting for ... Continue reading Many users have inquired about which of the tximport options they should use when summing transcript-level abundances. The paper provides some mixed messaging in this regard, first stating that "Accounting for the potentially varying average transcript length across samples when performing DGE, either in the definition of the count matrix (scaledTPM) or by defining offsets (featureCounts_avetxl, simplesum_avetxl), led to considerably improved false discovery rate (FDR) control" and then "Experiments on various real data sets ( Supplementary Figure 20 ) show only small differences in the collections of significant genes found with the simplesum and simplesum_avetxl approaches, suggesting that the extent of the problem in many real data sets is limited." To shed further light on this question, we recently examined the performance of tximport in the single-cell RNA-Seq setting. In Supplementary Figure 2 of the paper Ntranos, Yi et al. 2018 we see almost identical performance when using tximport (+DESeq2) with the simplesum, scaledTPM or lengthscaledTPM options (current options available via countsFromAbundance in tximport). Our result is from a simulation study where the simulation parameters are based on transcript changes seen in a biological dataset. Our result indicates that simplesum may be adequate in practice (in our experiment even slightly outperforming the other normalizations), which is useful to know because the summation of transcript estimated counts to the gene-level is so simple to perform that it does not require tximport. Many users have inquired about which of the tximport options they should use when summing transcript-level abundances. The paper provides some mixed messaging in this regard, first stating that "Accounting for the potentially varying average transcript length across samples when performing DGE, either in the definition of the count matrix (scaledTPM) or by defining offsets (featureCounts_avetxl, simplesum_avetxl), led to considerably improved false discovery rate (FDR) control" and then "Experiments on various real data sets ( Supplementary Figure 20 ) show only small differences in the collections of significant genes found with the simplesum and simplesum_avetxl approaches, suggesting that the extent of the problem in many real data sets is limited." To shed further light on this question, we recently examined the performance of tximport in the single-cell RNA-Seq setting. In Supplementary Figure 2 of the paper Ntranos, Yi et al. 2018 we see almost identical performance when using tximport (+DESeq2) with the simplesum, scaledTPM or lengthscaledTPM options (current options available via countsFromAbundance in tximport). Our result is from a simulation study where the simulation parameters are based on transcript changes seen in a biological dataset. Our result indicates that simplesum may be adequate in practice (in our experiment even slightly outperforming the other normalizations), which is useful to know because the summation of transcript estimated counts to the gene-level is so simple to perform that it does not require tximport. Competing Interests: I have publicly accused the authors of another paper, Patro et al., Nature Methods 2017, of plagiarism. Mike Love (co-author of this paper) is a coauthor of the Patro et al. paper. Close Report a concern Comment ADD YOUR COMMENT Version 1 VERSION 1 PUBLISHED 30 Dec 2015 Discussion is closed on this version, please comment on the latest version above. Author Response 02 Feb 2016 Charlotte Soneson , University of Zurich, Zurich, Switzerland 02 Feb 2016 Author Response Hi Nick, thanks for your comments. Regarding the increased accuracy and robustness of gene-level estimates compared to transcript-level ones (even with the full annotation, bootstrap variances of gene estimates are lower than ... Continue reading Hi Nick, thanks for your comments. Regarding the increased accuracy and robustness of gene-level estimates compared to transcript-level ones (even with the full annotation, bootstrap variances of gene estimates are lower than those of transcript estimates), we agree that it is not surprising. However, we still found it worth pointing out since it implies that in some situations, gene-level statistical analyses may be preferred due to the increased precision of the input data. For your second point, note that Figure 2 does not in fact compare DGE to DTE, but rather DTE summarized on gene- and transcript-level. You are of course right that just reducing the number of tests does not automatically result in higher power. Instead, the difference between the gene- and transcript-level results in Figure 2 is largely due to the different null hypotheses (as outlined in the text) and, consequently, the type of signal we require to call a feature (gene or transcript) significant. In fact, the gene-level summarized analysis is answering a somewhat "easier" question, from the sensitivity point of view. Consider for example a gene with 5 differentially expressed transcripts. On the gene level, we can reach a power of 100% for this gene if any of the transcripts is considered significantly DE. On the transcript level, we would need all of the transcripts to be significant to reach the same power. Looking at this particular data set, for many of the genes that are found as true positives with the gene level test, not all truly DE transcripts are actually detected. This explains the lower power of the transcript-level analysis. We will clarify this in the revised version. Regarding the choice of DTE vs DGE+DTU, it is clear that one solution will not always be the optimal choice, and it will likely depend on the particular problem as well as on the person interpreting the results. However, we have found that in many of our own collaborations, the biological question can be more clearly stated in terms of DGE+DTU (not necessarily performed sequentially, rather in parallel). Part of the reason for this discussion was to encourage researchers to think about what question they really want to answer before starting their analyses. Finally, note that the only place where we are actually comparing "summarizing DTE at the gene level" and DGE is in Supplementary Figure 5 (on simulated data). In Figures 3-4, the question of interest is always comparing the total transcriptional output of a gene between conditions (i.e., DGE), and all methods are based on aggregating gene abundance estimates before the statistical test is applied. As you note, we don't see a big global effect of including offsets accounting for average transcript lengths for real data. However, there may of course still be important effects for individual genes, where isoforms of different lengths are expressed in different conditions. Thanks again for your comments, and we are glad you found the paper useful! Hi Nick, thanks for your comments. Regarding the increased accuracy and robustness of gene-level estimates compared to transcript-level ones (even with the full annotation, bootstrap variances of gene estimates are lower than those of transcript estimates), we agree that it is not surprising. However, we still found it worth pointing out since it implies that in some situations, gene-level statistical analyses may be preferred due to the increased precision of the input data. For your second point, note that Figure 2 does not in fact compare DGE to DTE, but rather DTE summarized on gene- and transcript-level. You are of course right that just reducing the number of tests does not automatically result in higher power. Instead, the difference between the gene- and transcript-level results in Figure 2 is largely due to the different null hypotheses (as outlined in the text) and, consequently, the type of signal we require to call a feature (gene or transcript) significant. In fact, the gene-level summarized analysis is answering a somewhat "easier" question, from the sensitivity point of view. Consider for example a gene with 5 differentially expressed transcripts. On the gene level, we can reach a power of 100% for this gene if any of the transcripts is considered significantly DE. On the transcript level, we would need all of the transcripts to be significant to reach the same power. Looking at this particular data set, for many of the genes that are found as true positives with the gene level test, not all truly DE transcripts are actually detected. This explains the lower power of the transcript-level analysis. We will clarify this in the revised version. Regarding the choice of DTE vs DGE+DTU, it is clear that one solution will not always be the optimal choice, and it will likely depend on the particular problem as well as on the person interpreting the results. However, we have found that in many of our own collaborations, the biological question can be more clearly stated in terms of DGE+DTU (not necessarily performed sequentially, rather in parallel). Part of the reason for this discussion was to encourage researchers to think about what question they really want to answer before starting their analyses. Finally, note that the only place where we are actually comparing "summarizing DTE at the gene level" and DGE is in Supplementary Figure 5 (on simulated data). In Figures 3-4, the question of interest is always comparing the total transcriptional output of a gene between conditions (i.e., DGE), and all methods are based on aggregating gene abundance estimates before the statistical test is applied. As you note, we don't see a big global effect of including offsets accounting for average transcript lengths for real data. However, there may of course still be important effects for individual genes, where isoforms of different lengths are expressed in different conditions. Thanks again for your comments, and we are glad you found the paper useful! Competing Interests: No competing interests were disclosed. Close Report a concern Reader Comment 29 Jan 2016 Nick Schurch , The Barton Group, Division of Computational Biology College of Life Sciences, University of Dundee, UK 29 Jan 2016 Reader Comment I read this work with great interest for a literature review and found it engaging and informative. I thought I'd post my resulting thoughts here. This paper focusses on the advantages ... Continue reading I read this work with great interest for a literature review and found it engaging and informative. I thought I'd post my resulting thoughts here. This paper focusses on the advantages and disadvantages of performing differential expression analysis at either the gene level or the transcript level, relying heavily on simulated data. Initially the authors use simulated data to show that gene level estimations of expression are more stable then transcript level estimations. They do this by showing that with the removal of ~20% of the transcripts from the annotation, the quantification the transcript level estimations becomes less accurate while the gene level estimation remains relatively unchanged. I found this conclusion to be unsurprising; the transcripts are the primary annotation used for transcript level quantification but are not the primary annotation for the gene level estimation. Except in rare cases where the removal of the transcripts result in the removal of the parent gene or removal of the longest transcripts results in a considerable change in the length of the parent gene, the gene annotation will remain largely unaltered by the removal of transcripts. The authors then consider the performance of differential expression at the gene level (DGE) vs differential expression at the transcript level (DTE), concluding that inference at the gene level is more robust, easier to interpret and has better statistical performance. While the argument for improved robustness is compelling, I found the arguments for improved inference and statistical performance a little misleading. The improved statistical performance of DGE is due essentially to performing fewer tests. By this argument, anything that reduced the number of tests always improves the inference (e.g., using a smaller annotation) which is clearly not always the case. The authors also suggest that rather than identifying DTE, a better approach with information summarized at the gene level may be to first identify which genes are changing and then identify differential isoform usage. There is no clear demonstration of the advantages of this approach or what the appropriate multiple testing correction is for the combined analysis. In particular, l find the interpretability of DTE far more straightforward than the combined approach. The paper also examined the differences between the differential gene expression conclusions resulting from summarizing DTE at the gene level and DGE called on simple gene counts on both simulated and real data and find that, again somewhat unsurprisingly in my opinion, that the difference in the results is smaller and less obvious for real datasets than for the simulated data where they have added a strong signal. I found the evidence for using an adjusted transcript length is compelling despite the relatively small apparent impact it has for real datasets. All in all I liked the paper and it was interesting to talk about it and discuss the issues it raises with my group. I read this work with great interest for a literature review and found it engaging and informative. I thought I'd post my resulting thoughts here. This paper focusses on the advantages and disadvantages of performing differential expression analysis at either the gene level or the transcript level, relying heavily on simulated data. Initially the authors use simulated data to show that gene level estimations of expression are more stable then transcript level estimations. They do this by showing that with the removal of ~20% of the transcripts from the annotation, the quantification the transcript level estimations becomes less accurate while the gene level estimation remains relatively unchanged. I found this conclusion to be unsurprising; the transcripts are the primary annotation used for transcript level quantification but are not the primary annotation for the gene level estimation. Except in rare cases where the removal of the transcripts result in the removal of the parent gene or removal of the longest transcripts results in a considerable change in the length of the parent gene, the gene annotation will remain largely unaltered by the removal of transcripts. The authors then consider the performance of differential expression at the gene level (DGE) vs differential expression at the transcript level (DTE), concluding that inference at the gene level is more robust, easier to interpret and has better statistical performance. While the argument for improved robustness is compelling, I found the arguments for improved inference and statistical performance a little misleading. The improved statistical performance of DGE is due essentially to performing fewer tests. By this argument, anything that reduced the number of tests always improves the inference (e.g., using a smaller annotation) which is clearly not always the case. The authors also suggest that rather than identifying DTE, a better approach with information summarized at the gene level may be to first identify which genes are changing and then identify differential isoform usage. There is no clear demonstration of the advantages of this approach or what the appropriate multiple testing correction is for the combined analysis. In particular, l find the interpretability of DTE far more straightforward than the combined approach. The paper also examined the differences between the differential gene expression conclusions resulting from summarizing DTE at the gene level and DGE called on simple gene counts on both simulated and real data and find that, again somewhat unsurprisingly in my opinion, that the difference in the results is smaller and less obvious for real datasets than for the simulated data where they have added a strong signal. I found the evidence for using an adjusted transcript length is compelling despite the relatively small apparent impact it has for real datasets. All in all I liked the paper and it was interesting to talk about it and discuss the issues it raises with my group. Competing Interests: No competing interests were disclosed. Close Report a concern Discussion is closed on this version, please comment on the latest version above. keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 2 (revision) 29 Feb 16 Version 1 30 Dec 15 read read Stephen N. Floor , University of California, Berkeley, Berkeley, USA Rob Patro , Stony Brook University, Stony Brook, USA Comments on this article All Comments (4) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Patro R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 12 Jan 2016 | for Version 1 Rob Patro , Department of Computer Science, Stony Brook University, Stony Brook, NY, USA 0 Views copyright © 2016 Patro R. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions In this manuscript, the authors address a few questions of considerable (and perennial) interest in the analysis of RNA-seq data. Specifically, they provide evidence that, using available methods (e.g. DESeq2 / edgeR), assessing differential expression at the gene-level (DGE) is more robust than at the transcript level (DTE). Further, they convincingly argue that estimating abundance at the level of transcripts, and then aggregating these abundances to the gene level leads to improved estimation of differential gene expression. They demonstrate that one of the major factors in this improved estimation is the availability of a sample-specific feature length for each gene (derived from the abundance-weighted length of the expressed transcripts of this gene), which is not possible to obtain with any fixed gene model used by count-based methods. Finally, the authors argue that much of the analysis of interest at the transcript level does not actually require differential transcript expression testing, but rather can be inferred from a combination of DGE and differential transcript usage (DTU); this is an interesting proposition that merits further discussion and analysis. Overall, this is a well-written paper, with extensive and compelling supplementary and supporting data, that addresses a ubiquitous analysis task involving RNA-seq. It should be of broad interest to the community and makes a valuable contribution. The accompanying software, tximport , is user-friendly and makes it easy to apply the type of analysis recommended herein; it too should be widely useful. Major comments: It would be very useful to provide the equations used for calculating each of the abundance measured considered directly. Section 4 of the supplementary information is useful to this end, but the reader still has to search a bit to see exactly how each metric is computed (though the fantastic R-Markdown included with the figures means that these computations can be found explicitly). Similarly, it would be useful to the reader to provide a description, in prose, of how specific experiments were performed (again, the reproducible nature of most of these experiments makes tracking down this information possible, but sometimes time-consuming). For example, how, precisely, was removal of transcripts handled at the level of the genome annotation? If a transcript consists only of constitutive exons, were all of those exons retained in the genome annotation used for STAR + featureCounts, while the transcript was removed in the Salmon index? The result that transcript-level abundance estimation is more sensitive to the removal of transcripts than gene-level abundance estimation — this seems intuitive. However, I agree with Dr. Floor’s suggestion that: "The assertion that “simple counts tended to show a high degree of robustness against incompleteness of the annotation catalog, as evidenced from estimation errors after first removing (at random) 20% of the transcripts” seems misleading since Salmon-derived gene-level abundances actually show a higher Spearman correlation than count-derived gene-level abundances when subjected to removing a random 20% of transcripts.” I would suggest rewording this sentence, as the main result seems to be that gene-level analysis is more robust to an incomplete annotation than transcript-level analysis. Transcript-level abundance estimation followed by gene-level analysis seems to perform just as well (actually, better) than gene-level counting in this scenario. The experiments in the section “Incorporating transcript-level estimates leads to more accurate DGE results” suggests the (reasonable) interpretation that the main benefit of incorporating transcript-level abundance estimates when assessing DGE is a more accurate measure of the “feature” length of the gene. The authors state “ It is important to note that this improvement is entirely attributable to an improved handling of genes with changes in isoform composition between the conditions.” This is supported by the fact that using the abundance-weighted average transcript length (i.e. offsets) with counting based approaches improves the results substantially. However, one other place where transcript-level abundance estimates are useful in the context of DGE is when assessing the expression of paralogous genes. While most multi-mapping reads that derive from different isoforms of the same gene will be uniquely mappable at the level of the genome, and hence will be included in the counts for that gene, reads that map ambiguously among paralogs may not be. In such cases, count-based methods do not have a principled way of apportioning a read between the paralogs involved, and discarding multi-mapping reads may negatively affect estimation of the abundance of the paralogs, even at the gene level. While this case is likely much less common than mis-estimation of DGE as a result of DTU, it is certainly of biological interest. I would suggest adding an analysis, restricted to sets of paralogous genes, comparing how the different approaches perform in this case. This may help to highlight the importance of not only deriving appropriately weighted and sample-dependent lengths for genes, but also on resolving multi-mapping ambiguity that occurs between genomically distinct loci. The argument that most transcript-level analyses of interest may be addressed by looking at DGE in conjunction with DTU is an interesting one. It is certainly that case that not all tasks for which DTE is used actually require assessing differential expression at the transcript level. One issue with the DGE + DTU-based analysis which warrants further discussion in the manuscript is that I believe that this approach, too, would require correcting for multiple hypothesis testing. Specifically, one is testing both the DGE and the DTU hypotheses for each gene (or for a relevant subset of interest). The correction here is likely to be less harsh than in the case of assessing DTE, but is still worth discussing. Minor comments: As per Dr. Floor’s statement, Salmon (and Sailfish) also incorporate sequence-specific bias correction. Further, RSEM and Salmon (and a few other transcript-level abundance estimation tools) also incorporate the modeling of non-uniform fragment start position distributions. Of course, modeling a non-uniform start position distribution cannot overcome a complete lack of sampling in critical regions that might make determining transcript-level fragment assignment impossible, but it may help in properly apportioning an ambiguously-mapped fragment between transcripts depending on its relative position in each. One potential added source of variability here is that all Salmon estimates presented in the manuscript make use of Salmon’s quasi-mapping of reads, while the STAR + featureCount pipeline makes use of “traditional” alignments. This is the primary intended usage mode of Salmon, and absolutely does represent a “typical” pipeline for methods that avoid alignment (Salmon, Sailfish, kallisto). However, it would probably be best to mention this as a potential (though likely negligible) additional source of variability. In the discussion, the authors argue that “... it is therefore imperative to continue improving abundance estimation and inference methods applicable to individual transcripts, since misestimation can propagate to the gene level.” This is, of course, an important and valid suggestion. Another direction, on which it would be useful to get the authors’ thoughts and suggestions, is the development of differential expression tools (at either the transcript or gene level) that can make use of the variance estimates that some tools (like Salmon) can provide. To what extent might incorporating this information help control false positive rates and improve DTE or even DGE estimates? Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 29 Feb 2016 Mark Robinson, University of Zurich, Zurich, Switzerland Thank you for taking the time to read and review our paper. As per your suggestions, we have expanded the supplementary pdf document with equations defining each of the abundance measures that we used as well as a detailed description of the generation of the incomplete annotation files. We have also reworded the paragraph discussing the influence of an incomplete annotation catalog, and added further discussion points regarding multiple testing correction for DGE+DTU as well as regarding new methods incorporating variance estimates into the differential analysis. However, a deeper discussion of the latter point falls outside the scope of this article. We found your suggestion to restrict the abundance accuracy comparison to paralogous genes interesting, and the supplement has been expanded with several examples comparing the accuracy of gene-level abundance estimates from Salmon and from STAR+featureCounts, restricted to sets of paralogous genes. While we see a clear advantage of Salmon for many of the paralogous gene groups, the overall difference is only slightly larger for sets of paralogous genes compared to random sets of genes (as can be seen in the revised version of Dataset 1). In addition, we have added the following text to the relevant section in the results: “...suggesting that the extent of the problem in many real data sets is limited... though some loss of sensitivity for certain genes may be encountered from discarding multi-mapping fragments, which may be recovered through the use of transcript abundance estimators such as Salmon.” While we acknowledge that many of the popular transcript abundance estimation methods incorporate some type of bias estimation/correction (albeit not at the fragment level), and that it is definitely an important (and difficult) research area, a thorough discussion on the relative merits of different bias correction approaches is outside the scope of this paper. We have added citations to relevant literature on coverage bias, have simplified and clarified the last paragraph of the discussion, and have reworded the sentence about unidentifiable estimation due to coverage biases: “While some extent of coverage variability might be alleviated by corrections for sequence- or position-specific biases, there remain cases where transcript expression cannot be inferred from data ( Figure 1C)” View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Patro R. Peer Review Report For: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences [version 2; peer review: 2 approved] . F1000Research 2016, 4 :1521 ( https://doi.org/10.5256/f1000research.8143.r11745) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-1521/v1#referee-response-11745 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Floor S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 04 Jan 2016 | for Version 1 Stephen N. Floor , Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA 0 Views copyright © 2016 Floor S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Soneson, Love and Robinson tackle a crucial question for analysis of RNA deep sequencing data in this manuscript: what is the role of transcript diversity in the accuracy and statistical power associated with measurements of gene expression? The authors make and convincingly show three claims: gene-level estimation and inferences are more robust than those at the transcript-level, and incorporating transcript-level quantification into gene-level abundance leads to improved differential expression testing. The claims are convincingly proven, the manuscript is well written, and the subject matter is of considerable interest. Furthermore, the described R package tximport should be of broad interest to the RNA deep sequencing community. Overall comments: It may be useful to indicate explicitly in the text that the methods are contained within the (excellently written and formatted) supplementary material, as this was not apparent. It might be clearest to create a specific methods section that just references supplementary file 1. The clarity of scatter plots with more than ~hundreds of points (e.g. Figure 1A) could be improved by using partially transparent points to visualize density. Introduction: Paragraph 1: Cufflinks, RSEM and Bitseq are grouped with kallisto and Salmon and it is then stated that some of these methods bypass read alignment. It would be clearer if this were reworded to avoid the ambiguity as to which methods avoid read alignment. Paragraph 4: The third claim could be presented more clearly. While it is interesting that simple counting performs similarly to transcript-level quantification procedures, it seems more interesting to this reviewer that incorporating transcript-level information improves the accuracy of differential expression testing at the gene level. Perhaps these two concepts can be combined into one more concise point? Results: The assertion that “simple counts tended to show a high degree of robustness against incompleteness of the annotation catalog, as evidenced from estimation errors after first removing (at random) 20% of the transcripts” seems misleading since Salmon-derived gene-level abundances actually show a higher Spearman correlation than count-derived gene-level abundances when subjected to removing a random 20% of transcripts. Figure 1a bottom left shows that transcript-level abundances are strongly affected by removal of 20% of transcripts, but that gene-level abundances are not strongly changed whether estimated using counts or Salmon. This statement should be reworded. Two concerns are raised about DTE. It is certainly true that reads are spread across more features when performing DTE as opposed to DGE.However, it is not apparent why analysis of DTE involves grouping of transcripts together for interpretation. DTE implies analysis at the transcript level and therefore no grouping, while DGE could involve some level of grouping of transcripts or quantification at the gene level from the start. The clarity of this could be improved. It is a very interesting idea to separately frame questions regarding DGE and DTU, which should be adopted widely, as the two are separable questions. The authors state one possible workflow towards DGE analysis in the section “Incorporating transcript-level estimates leads to more accurate DGE results.” Alternative pipelines (e.g. cuffdiff) could be presented in brief. The observation that simplesum and featureCounts results are highly correlated and therefore that statistical methods based on the Negative Binomial distribution can be used on estimated counts seems of greater importance than is emphasized in the text. This should be elaborated upon in the discussion, since this means that estimated counts from kallisto, express, salmon, etc can be used directly by statistical packages assuming a NB distribution (edgeR, DESeq2, etc). This point is frequently debated in discussions of how to rigorously analyze sequencing data. The conclusion here that NB applies to estimated counts is thus quite important. Please explain the meaning of the name for each curve in the legend for Figure 3 (i.e. specify that “avetxl” means using the offset corresponding to average transcript length. Discussion: The assertion that “gene-level results are more accurate, powerful and interpretable than transcript-level results” seems an oversimplification given the result that incorporating transcript-level quantification leads to improved DGE detection performance (e.g. Fig 3). Please cite at minimum Roberts et al. , (2011) regarding sequence bias correction as this has been implemented in cufflinks, express and kallisto. Other relevant papers should also be included here, as attempts have been made to address both positional and sequence-specific bias in RNA sequencing data. Supplement: The usability of the supplemental info could be improved by substituting rasterized for vectorized plots for those with ~hundreds of points. Please explain the meaning of the name for each curve in the legend for Supplemental Figure 5. References 1. Roberts A, Trapnell C, Donaghey J, Rinn JL, et al.: Improving RNA-Seq expression estimates by correcting for fragment bias. Genome Biol . 2011; 12 (3): R22 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response 29 Feb 2016 Mark Robinson, University of Zurich, Zurich, Switzerland Thank you for taking the time to read and review our paper. In the revised version, we have improved the clarity and usability of the figures and the supplement by using partially transparent points and extending the figure captions. We have also modified the main text to refer more clearly to the method information provided in the supplementary material, and improved the clarity of the text in several places, according to your suggestions. For additional comments regarding references to bias correction studies, please see responses to Rob Patro. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Floor SN. Peer Review Report For: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences [version 2; peer review: 2 approved] . F1000Research 2016, 4 :1521 ( https://doi.org/10.5256/f1000research.8143.r11761) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-1521/v1#referee-response-11761 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Soneson C, Love MI and Robinson MD. Dataset 1 in: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences. F1000Research 2016, 4 :1521 (https://doi.org/10.5256/f1000research.7563.d114722) Close Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Soneson C, Love MI and Robinson MD. Dataset 2 in: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences. F1000Research 2016, 4 :1521 (https://doi.org/10.5256/f1000research.7563.d114723) Close Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Soneson C, Love MI and Robinson MD. Dataset 3 in: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences. F1000Research 2016, 4 :1521 (https://doi.org/10.5256/f1000research.7563.d114724) Close Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Soneson C, Love MI and Robinson MD. Dataset 4 in: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences. F1000Research 2016, 4 :1521 (https://doi.org/10.5256/f1000research.7563.d114725) Close Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Soneson C, Love MI and Robinson MD. Dataset 5 in: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences. F1000Research 2016, 4 :1521 (https://doi.org/10.5256/f1000research.7563.d114726) Close Click here to access the data. The problem Spreadsheet data files may not format correctly if your computer is using different default delimiters (symbols used to separate values into separate cells) - a spreadsheet created in one region is sometimes misinterpreted by computers in other regions. You can change the regional settings on your computer so that the spreadsheet can be interpreted correctly. How to fix it Save downloaded CSV file Open spreadsheet program (e.g. Excel) Click the tab at the top Click the From text icon (top left) Browse for downloaded CSV file, click Ensure radio button is selected, click Check one of the appropriate delimiter checkboxes (you can visualize the formatting by looking at the data preview below these options) Click Downloaded data do not display as expected? Download the data Dataset citation: Soneson C, Love MI and Robinson MD. Dataset 6 in: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences. F1000Research 2016, 4 :1521 (https://doi.org/10.5256/f1000research.7563.d114730) Close Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Differential analyses for RNA-seq: transcript-level...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/4-1521/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/4-1521/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/4-1521/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Soneson C et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/4-1521/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/4-1521",
+ templates : {
+ twitter : "Differential analyses for RNA-seq: transcript-level estimates.... Soneson C et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/4-1521/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Method Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/7563/8770")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "8770");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "11761": 377,
+ "11745": 348,
+ "11746": 0,
+ "11747": 0,
+ "11748": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "9081cfd8-8fbe-4142-b0da-332d29a32bec";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

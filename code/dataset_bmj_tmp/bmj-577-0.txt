@@ -1,0 +1,31 @@
+Overall, the manuscript provides reassuring information that certain SSRIs purported to be “potent” CYP2D6 inhibitors
+do not elevate the risk of all-cause death in breast cancer patients who have used such drugs along with tamoxifen.
+This is an important finding because so many breast cancer survivors struggle with depression. The methods are
+thorough, and the authors did several sensitivity analysis that re-confirm their null finding. Attached here are
+consideration points for clarification, mainly for the Methods.
+Abstract: Consider inserting the actual mortality rates for the potent inhibitors vs. non-inhibitor groups (only HRs are
+shown).
+Methods: Lines 21-35: Why wasn’t exposure handled as a time-dependent variable, especially given that many
+patients switched antidepressants medications? For example, if patients switched from non-potent to potent, how was
+that handled in the analysis?
+Could tamoxifen medication adherence be assessed from the 5 databases? It seems as though low number of
+concomitant days might be due to the fact that tamoxifen might not have been taken daily.
+A distribution of the other SSRIs by drug’s name should be shown as well as fractions exposed to paroxetine only and
+fluoxetine only
+ICD9/CPT codes were used to identify breast cancer cases. Is it possible to identify the breast cancer cases by
+captured by SEER-affiliated registries that operate in the states served by the 5 various plans?
+Analysis: It appears that the distribution of covariates between the two groups were generally similar, even before
+propensity score matching. Was a conventional analysis approach also done (ie, without propensity scores)?
+Results: Table 1. Not clear why codes for Stage III-IV are included in Appendix A if Tables 1 only includes Stages 0-II?
+The fraction of women with DCIS (Stage 0) is very high in this study; generally in SEER data, DCIS is about 17-20% of
+women diagnosed with breast cancer in the U.S. annually. For clarity, the label for third variable should be Screening
+& breast cancer treatment” (remove “prior” as mastectomy/adjuvant treatment happen after pathologic diagnosis). Of
+note, the fraction of mastectomy (40-50%) is very high. Reasons for this might be included in the Discussion.
+Table 2 lay-out: Can this table show the mortality rates stratified by exposed vs. non-exposed group?
+
+Conclusion (lines 49-50): The main concerns (also acknowledged by authors) are the younger age group in the
+cohorts, and the median follow-up of approximately 2 years. Given this, a more germane outcome would have been
+breast cancer recurrence. Hence the conclusion that SSRI inhibition of CYP2D6 does not appear to reduce tamoxifen
+effectiveness in clinical practice could be supported if the drug interaction didn’t elevate breast cancer recurrence risk
+as well. Can the analysis examine this outcome, or are there other studies that could lend support to the current
+findings?

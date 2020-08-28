@@ -1,0 +1,23 @@
+This paper estimates the trend in concomitant benzodiazepine/opioid use over a thirteen year period and
+assesses the relationship between concomitant use and the risk of opioid overdose.
+There are some issues relating to the statistical analysis and the presentation of results that need to be
+addressed by the authors.
+1. My main concern relates to the statistical analysis of the risk of opioid overdose associated with
+concomitant use of benzodiazepines and opioids. The patients included in the study were continuously
+enrolled in private insurance plans over a thirteen year period. However, the primary analysis used is said
+to be a multivariable logistic regression with each observation as a ‘person-year’. No reference is made to
+the regression taking account of the repeated nature of the data (patients will contribute more than one
+person year to the dataset). Either a random effects model should be used or a longitudinal regression
+using general estimating equations which incorporates the correlated structure of the data.
+2. The sensitivity analysis using patient ‘fixed effects’ does not seem appropriate as it restricts the analysis
+to a ‘within patient’ comparison on a smaller (possibly biased) cohort.
+3. Linear regression analysis for binary outcomes (ie. opioid utilisation) rather than logistic/probit
+regression is not commonly used. It is unclear what “…computational difficulties….” were encountered to
+lead to this decision. More details should be given. Was an identity or logit link used to ensure predicted
+values were in the correct range? Were robust standard errors employed?
+4. Table 1. Is the descriptive information for the overall sample necessary? The analyses all relate to opioid
+users alone.
+5. Fig 3. There seems to be a mistake in labelling the barcharts here. The penultimate set should be
+labelled ‘Acute Users (+BZD)’ rather than ‘All Users (+BZD)’.
+6. Figure 4. It would seem more appropriate to label these as Odds Ratios rather than Relative Risks
+because they are derived from a multivariable logistic regression.

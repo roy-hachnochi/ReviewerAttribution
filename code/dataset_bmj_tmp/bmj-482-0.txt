@@ -1,0 +1,101 @@
+* Originality - does the work add enough to what is already in the
+published literature? If so, what does it add? If not, please cite relevant references.
+It is well-known that lower socio-economic position (SEP), tobacco use, high blood pressure and diabetes
+adversely affect health, so it would be expected that they also affect physical functioning.
+This study points out that addressing the WHO 25x25 risk factors and low SEP is likely to make a major
+difference to physical functioning at older ages. The authors make an important point that
+societal/structural factors as well as the lifestyle issues and health conditions in the WHO 25x25 risk
+factors need to be addressed in order to improve population health
+* Importance of work to general readers - does this work matter to clinicians, patients, teachers, or
+policymakers? Is a general journal the right place for it?
+It is important to appreciate that socio-economic factors are key to health.
+* Scientific reliability
+Research Question - clearly defined and appropriately answered?
+The question is very clearly defined. The authors conclude that socio-economic factors and the 25x25
+risk factors substantially reduce functional capacity at 60 years. They also say that addressing these risk
+factors will improve global health. Both of these conclusions are probably true. Whether, their analysis
+clearly demonstrates this is less clear, because they use a cross-sectional observational study, from
+which is difficult to demonstrate causality.
+Overall design of study - adequate?
+Use of a cross-sectional observational study to demonstrate causal effects is best achieved using a
+quasi-experimental design, such as instrumental variable analysis, regression discontinuity etc, so as to
+avoid confounding, selection bias and reverse causality.
+In this study, lack of physical activity may be a result of reduced functional capacity rather than its
+cause. In addition, the small effects of obesity, high alcohol intake and hypertension from 60 to 85 years
+are likely an artifact of selection bias, due to recruiting people at older ages and thereby missing the rest
+of the cohort vulnerable to the ill-effects of obesity, high alcohol intake and hypertension, because they
+are already dead and so were never included in the sample. This is a particularly widespread problem in
+studies of people recruited at older ages, as here explained here
+https://www.ncbi.nlm.nih.gov/pubmed/18414087 and here
+https://www.ncbi.nlm.nih.gov/pubmed/23747980.
+Selection bias arising in this way usually makes exposures look less harmful than they actually are, so
+the study may be under-estimating the contribution of each factor.
+
+Participants studied - adequately described and their conditions defined.
+Table S1 should be in the main results, so that the reader has an overview of the studies and can assess
+the amount of potential selection bias. It would also be helpful to know how well the studies represent
+the underlying populations
+Methods - adequately described? Complies with relevant reporting
+standard - Eg CONSORT for randomised trials ? Ethical ?
+Please justify the use of height as a confounder. Confounders are now understood to be common causes
+of exposure and outcome.
+Please explain how the number of knots in the splines were chosen.
+Please explain the causal interpretation of the mutually adjusted model. Causal models should be
+adjusted only for exposure outcome confounders, as explained here
+https://www.ncbi.nlm.nih.gov/pubmed/23371353.
+What was the underlying time variable in the Cox model?
+Results - answer the research question? Credible? Well presented?.
+Well, the study cannot really answer the research question, although some results are credible and are
+nicely presented.
+In Figure 3, please check that the CIs are symmetrical.
+Figure 5 seems to show much lower effects of the risk factors at older ages which could be a symptom of
+selection bias
+The contrast between high and low income countries should be shown in a graph, as it is easy to
+overlook.
+Given the study design it is difficult to be sure how to interpret the different associations for different
+factors.
+
+Interpretation and conclusions - warranted by and sufficiently derived from/focused on the data?
+Message clear?
+An analysis of observational data open to selection bias and possibly over- and under-adjusted for
+confounders is not an ideal basis for action. The authors may well be correct that addressing poor
+socio-economic circumstances may be critical to achieving healthy aging. It would be helpful if the
+authors could explain how reversing the effects of poor socio-economic circumstances could be achieved
+in a timely manner. Effects of socio-economic disadvantage on health have probably built up over a
+lifetime. What are the means for reversing them now or will it take another lifetime? To put it another
+way, how are these socio-economic disadvantages embodied and how can we answer the urgent
+question of addressing them with immediate effect?
+Another reason for a weaker association of socioeconomic status with physical functioning in LMIC is
+greater selection bias in studies from those countries. Lifespan in LMICs is shorter, so older people in
+LMICs are more strongly selected survivors than older people in HICs. If all the people in a study are
+survivors of a harmful exposure, the exposure will not appear to be harmful in that study, which is a
+manifestation of selection bias.
+The limitations should consider in detail whether the study is open to confounding or selection bias and
+how these biases might have affected the results.
+
+References - up to date and relevant? Any glaring omissions?
+Abstract/summary/key messages/What this paper adds – reflect accurately what the paper says?
+The abstract is a fair reflection of the paper.
+
+CM Schooling 1/10/2017
+
+Additional Questions:
+Please enter your name: CM Schooling
+Job Title: Associate Professor
+Institution: SPH, HKU
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests <A
+HREF='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/declaration-co
+mpeting-interests'target='_new'> (please see BMJ policy) </a>please declare them here: n/a
+
+Reviewer: 2
+Recommendation:

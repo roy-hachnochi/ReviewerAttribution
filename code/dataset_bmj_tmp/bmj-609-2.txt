@@ -1,0 +1,50 @@
+This study assesses the risk of opioid overdose from concurrent use of benzodiazepines. Analyzing
+privately insured non-elderly adults in the United States over 2001-2013, the authors find that the rate of
+concurrent use grew by nearly 30 percent over this period, and that the risk of an ER visit or inpatient
+admission for opioid overdose was highly elevated with concurrent use of benzodiazepines, with an odds
+ratio of 3.68 after adjusting for enrollee characteristics.
+The topic is certainly an important and timely one, from the perspective of both clinical practice and public
+policy. Case and Deaton (2015) recently determined that all-cause mortality has grown among mid-life
+non-Hispanic whites in the U.S. due to increasing prevalence of drug poisoning and suicide. On August 31,
+the U.S. Food and Drug Administration announced new drug labeling requirements warning of the risks of
+concurrent use of opioids and benzodiazepines.
+As the authors note, the current evidence is limited to specific populations, and external validity is a
+significant concern. In general, the methods strike me as appropriate, and the findings, while strong, have
+face validity. In these respects, the study makes a significant contribution to our understanding of an
+important problem.
+As the authors recognize, the main threat to validity here is that concurrent users could be systematically
+different from, and at higher risk for opioid overdose than, non-concurrent users. The authors are careful
+to adjust for a wide range of comorbidities, but the clear contrasts in comorbidity rates between concurrent
+users and non-concurrent users in Table 1 raises a potential concern about unmeasured confounding.
+Thus, my principal suggestion for strengthening the study is to perform a falsification analysis / placebo
+test of the kind done in Romley et al. (2015). The appropriate form of this exercise would be informed by
+clinical expertise which I do not possess.
+On another matter, the current guidelines for opioid prescribing from the U.S. Centers for Disease Control
+and Prevention reference a few additional studies on concurrent benzodiazepine use. The authors should
+place their study in the context of this related literature. For example, the authors could note that Jones
+and Dasgupta et al. (2016) is limited to a single U.S. state (North Carolina), while Gomes et al. (2011) is
+limited to a single Canadian province. By contrast, this study uses a broad national sample. While the
+Marketscan claims database is not perfectly representative of the U.S., my understanding is that it is
+reasonably so, and the authors could address this point.
+I do have some additional comments as follows:
+ In terms of assessing the contribution of concurrent use to overdose is useful, the authors should
+acknowledge that the elimination of all concurrent use of benzodiazepines could lead to other changes
+relative to the overdose, perhaps intensity of opioid utilization. While the true counterfactual is unknown,
+this is a general limitation of this kind of assessment, and the assessment performed by the authors is still
+worthwhile.
+ I did not understand why it is appropriate to use a linear probability model to determine the age-adjusted
+rate of drug utilization, but a logistic model to analyze overdose. Overdose is rare, and a logistic model is
+appropriate. But concurrent use was also rare for some populations in some years, and the concern about
+dealing with indicator variables would have also included numerous indicator variables (indeed, more of
+them, if I am not mistaken.)
+ For the purpose of statistical inference, do the authors allow for serial correlation in each enrollees’
+outcomes? I believe it would be appropriate to cluster standard errors at the enrollee level, or to
+incorporate a random effect at the enrollee level.
+ The authors sometime use the term “acute” to refer to non-chronic use of opioids, but the term
+“intermittent” at other times. I believe it would be clearer to use one or the other.
+ I did not follow the last sentence of the last complete paragraph on page 11.
+ On page 12, the authors state that a sensitivity analysis followed enrollees until they exited the sample
+(or the study end date arrived.) This language might suggest that a Cox analysis was done. I don’t
+believe that was the case, or was necessary, but simply encourage the authors to clarify.
+Sincerely,
+John A. Romley

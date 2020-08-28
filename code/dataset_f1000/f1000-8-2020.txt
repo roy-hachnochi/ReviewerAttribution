@@ -1,0 +1,1457 @@
+
+
+    <!DOCTYPE html>
+<html class="">
+
+        
+<head>
+    <title>Understanding neuromuscular disorders in chronic... | F1000Research</title>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+    <!--<meta lang="$locale">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="9-QVycOO2_ob3Z9QzRmXv2CF08A9oyYXqWyTiVdKPlU" />
+    <!-- This is commented out to fix display problems on mobile devices.
+    We may use it again once we implement a responsive design that supports native device resolutions.
+    <meta name="viewport" content="width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <link rel="alternate" title="Recent articles published in F1000Research" href="/rss" type="application/rss+xml">
+            <link rel="alternate" type="application/pdf" title="PDF" href="https://f1000research.com/articles/8-2020/pdf"/>
+        <link rel="canonical" href="https://f1000research.com/articles/8-2020" />
+    
+            <meta name="description" content="Read the original article in full on F1000Research: Understanding neuromuscular disorders in chronic fatigue syndrome" />
+    
+            <meta name="og:title" content="F1000Research Article: Understanding neuromuscular disorders in chronic fatigue syndrome.">
+            <meta name="og:description" content="Read the latest article version by Yves Jammes, Fr&eacute;d&eacute;rique Retornaz, at F1000Research.">
+            <meta name="og:image" content="/img/sharing/og_research.png">
+            <meta name="version-id" content="20429">
+            <meta name="article-id" content="18660">
+            <meta name="dc.title" content="Understanding neuromuscular disorders in chronic fatigue syndrome">
+            <meta name="dc.description" content="Muscle failure has been demonstrated in patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Neurophysiological tools demonstrate the existence of both central and peripheral fatigue in these patients. Central fatigue is deduced from the reduced amplitude of myopotentials evoked by transcranial magnetic stimulation of the motor cortex as well as by the muscle response to interpolated twitches during sustained fatiguing efforts. An impaired muscle membrane conduction velocity assessed by the reduced amplitude and lengthened duration of myopotentials evoked by direct muscle stimulation is the defining feature of peripheral fatigue. Some patients with ME/CFS show an increased oxidative stress response to exercise. The formation of lipid hydroperoxides in the sarcolemma, which alters ionic fluxes, could explain the reduction of muscle membrane excitability and potassium outflow often measured in these patients. In patients with ME/CFS, the formation of heat shock proteins (HSPs) is also reduced. Because HSPs protect muscle cells against the deleterious effects of reactive oxygen species, the lack of their production could explain the augmented oxidative stress and the consecutive alterations of myopotentials which could open a way for future treatment of ME/CFS.">
+            <meta name="dc.subject" content="myalgic encephalomyelitis, chronic fatigue syndrome, central fatigue, peripheral fatigue, oxidative stress, heat shock proteins, neurophysiology, physiology, neuromuscular disorders ">
+            <meta name="dc.creator" content="Jammes, Yves">
+            <meta name="dc.creator" content="Retornaz, Fr&eacute;d&eacute;rique">
+            <meta name="dc.date" content="2019/11/28">
+            <meta name="dc.identifier" content="doi:10.12688/f1000research.18660.1">
+            <meta name="dc.source" content="F1000Research 2019 8:2020">
+            <meta name="dc.format" content="text/html">
+            <meta name="dc.language" content="en">
+            <meta name="dc.publisher" content="F1000 Research Limited">
+            <meta name="dc.rights" content="https://creativecommons.org/licenses/by/3.0/igo/">
+            <meta name="dc.type" content="text">
+            <meta name="prism.keyword" content="myalgic encephalomyelitis">
+            <meta name="prism.keyword" content="chronic fatigue syndrome">
+            <meta name="prism.keyword" content="central fatigue">
+            <meta name="prism.keyword" content="peripheral fatigue">
+            <meta name="prism.keyword" content="oxidative stress">
+            <meta name="prism.keyword" content="heat shock proteins">
+            <meta name="prism.keyword" content="neurophysiology">
+            <meta name="prism.keyword" content="physiology">
+            <meta name="prism.keyword" content="neuromuscular disorders ">
+            <meta name="prism.publication.Name" content="F1000Research">
+            <meta name="prism.publicationDate" content="2019/11/28">
+            <meta name="prism.volume" content="8">
+            <meta name="prism.number" content="2020">
+            <meta name="prism.versionIdentifier" content="1">
+            <meta name="prism.doi" content="10.12688/f1000research.18660.1">
+            <meta name="prism.url" content="https://f1000research.com/articles/8-2020">
+            <meta name="citation_title" content="Understanding neuromuscular disorders in chronic fatigue syndrome">
+            <meta name="citation_abstract" content="Muscle failure has been demonstrated in patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Neurophysiological tools demonstrate the existence of both central and peripheral fatigue in these patients. Central fatigue is deduced from the reduced amplitude of myopotentials evoked by transcranial magnetic stimulation of the motor cortex as well as by the muscle response to interpolated twitches during sustained fatiguing efforts. An impaired muscle membrane conduction velocity assessed by the reduced amplitude and lengthened duration of myopotentials evoked by direct muscle stimulation is the defining feature of peripheral fatigue. Some patients with ME/CFS show an increased oxidative stress response to exercise. The formation of lipid hydroperoxides in the sarcolemma, which alters ionic fluxes, could explain the reduction of muscle membrane excitability and potassium outflow often measured in these patients. In patients with ME/CFS, the formation of heat shock proteins (HSPs) is also reduced. Because HSPs protect muscle cells against the deleterious effects of reactive oxygen species, the lack of their production could explain the augmented oxidative stress and the consecutive alterations of myopotentials which could open a way for future treatment of ME/CFS.">
+            <meta name="citation_description" content="Muscle failure has been demonstrated in patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Neurophysiological tools demonstrate the existence of both central and peripheral fatigue in these patients. Central fatigue is deduced from the reduced amplitude of myopotentials evoked by transcranial magnetic stimulation of the motor cortex as well as by the muscle response to interpolated twitches during sustained fatiguing efforts. An impaired muscle membrane conduction velocity assessed by the reduced amplitude and lengthened duration of myopotentials evoked by direct muscle stimulation is the defining feature of peripheral fatigue. Some patients with ME/CFS show an increased oxidative stress response to exercise. The formation of lipid hydroperoxides in the sarcolemma, which alters ionic fluxes, could explain the reduction of muscle membrane excitability and potassium outflow often measured in these patients. In patients with ME/CFS, the formation of heat shock proteins (HSPs) is also reduced. Because HSPs protect muscle cells against the deleterious effects of reactive oxygen species, the lack of their production could explain the augmented oxidative stress and the consecutive alterations of myopotentials which could open a way for future treatment of ME/CFS.">
+            <meta name="citation_keywords" content="myalgic encephalomyelitis, chronic fatigue syndrome, central fatigue, peripheral fatigue, oxidative stress, heat shock proteins, neurophysiology, physiology, neuromuscular disorders ">
+            <meta name="citation_journal_title" content="F1000Research">
+            <meta name="citation_author" content="Yves Jammes">
+            <meta name="citation_author_institution" content="C2VN Inserm Inra, Faculty of Medicine, Aix Marseille University, Marseille, France, France">
+            <meta name="citation_author" content="Fr&eacute;d&eacute;rique Retornaz">
+            <meta name="citation_author_institution" content="Department of Internal Medicine, European Hospital, Marseille, France, France">
+            <meta name="citation_publication_date" content="2019/11/28">
+            <meta name="citation_volume" content="8">
+            <meta name="citation_publication_number" content="2020">
+            <meta name="citation_version_number" content="1">
+            <meta name="citation_doi" content="10.12688/f1000research.18660.1">
+            <meta name="citation_firstpage" content="2020">
+            <meta name="citation_pdf_url" content="https://f1000research.com/articles/8-2020/v1/pdf">
+    
+
+    
+    <link href="/img/favicon-research.ico" rel="shortcut icon" type="image/ico">
+    <link href="/img/favicon-research.ico" rel="icon" type="image/ico">
+
+        <link rel="stylesheet" href="/1597255280893/css/mdl/material-design-lite.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.2.43/css/materialdesignicons.min.css" />
+
+        
+            
+    <link rel="stylesheet" href="/1597255280893/css/F1000Research.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/animation.css" type="text/css" media="all" />
+
+        <!--[if IE 7]><link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons-ie7.css" media="all" /><![endif]-->
+
+                    <script>dataLayer = [];</script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54Z2SBK');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="/1597255280893/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="/1597255280893/js/shared_scripts/sticky.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/shared_scripts/menu.js"></script>
+    <script src="/1597255280893/js/shared_scripts/navbar.js"></script>
+    <script src="/1597255280893/js/shared_scripts/platforms.js"></script>
+    <script src="/1597255280893/js/shared_scripts/object-polyfills.js"></script>
+            <script src="/1597255280893/js/vendor/lodash.min.js"></script>
+        <script>CKEDITOR_BASEPATH='https://f1000research.com/js/ckeditor/'</script>
+    <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/plugins.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/app/research.js"></script>
+    <script>window.reactTheme = 'research';</script>
+    <script src="/1597255280893/js/public/bundle.js"></script>
+
+    <script src="/1597255280893/js/app/research.ui.js"></script>
+    <script src="/1597255280893/js/app/login.js"></script>
+    <script src="/1597255280893/js/app/main.js"></script>
+    <script src="/1597255280893/js/app/js-date-format.min.js"></script>
+    <script src="/1597255280893/js/app/search.js"></script>
+    <script src="/1597255280893/js/app/cookies_warning.js"></script>
+    <script src="/1597255280893/js/mdl/mdl.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/ckeditor.js"></script>
+            <script src="/js/ckeditor/adapters/jquery.js"></script>
+                <script src="/js/article/article_scrolling_module.js"></script>
+            <script src="/js/article/article_stats.js"></script>
+            <script src="/js/article/article.js"></script>
+            <script src="/js/shared_scripts/referee_timeline_pagination.js"></script>
+            <script src="/js/app/text_editor_controller.js"></script>
+            <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503e5e99593dc42c"></script>
+            <script src="/js/article/article_metrics.js"></script>
+        
+                                                                            <script>
+            if (window.location.hash == '#_=_'){
+                window.location = window.location.href.split('#')[0]
+            }
+        </script>
+
+                    
+        
+    <!-- pixelId: 1641728616063202 :: assetPixelId: 6034867600215 :: funderPixelId:  -->
+
+            <!-- Facebook pixel code (merged with EP GTM code) -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+
+            {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+            ;if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1641728616063202');
+
+            
+            fbq('track', "PixelInitialized", {});
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1641728616063202&noscript=1&amp;ev=PixelInitialized"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+                <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:917825,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+</head>
+<body  class="o-page-container no-js p-article o-layout-reset   ">
+
+    
+                            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54Z2SBK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+        
+    <div class="o-page">
+
+        <div id="notify-container"></div>
+        <div id="pageWarning"></div>
+        <div id="pageMessage"></div>
+        <div id="pageFooterMessage"></div>
+
+                                <div id="f1r-ga-data" data-name="f1r-ga-data" class="f1r-ga-data"
+                data-user-registered="false"
+                data-user-module=""
+                data-current-path=""
+                data-location=""
+                data-website="F1000Research"
+                data-websiteDisplayName="F1000Research">
+            </div>
+        
+                
+        
+        <div class="header-wrapper   js-navbar-space ">
+                            
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+                            
+    
+            
+
+
+
+<nav class="c-navbar js-navbar js-mini-nav js-sticky c-navbar--js-sticky c-navbar--userSite c-navbar__platform-bgcolor  c-navbar--bg-f1000research ">
+
+    <div class="c-navbar__content">
+
+                                <div class="c-navbar__extras">
+            <div class="o-wrapper">
+                <div class="o-actions o-actions--middle c-navbar__extras-row">
+                    <div class="o-actions__primary">
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="o-wrapper t-inverted js-sticky-start">
+
+            <div class="c-navbar__branding-row">
+                <div class="c-navbar__row">
+
+
+                                        
+                    <div class="c-navbar__primary u-mr--2">
+
+                                                                                                                                                                                                    <a href="/" class="c-navbar__branding u-ib u-middle"   data-test-id="nav_branding"  >
+                                <img class="u-ib u-middle" src="/img/research/F1000Research_white_solid.svg" alt="F1000Research">
+                            </a>
+                                            </div>
+
+                    <div class="c-navbar__secondary c-navbar__row">
+
+
+                                                
+                                                    <form action="/search" class="-navbar__secondary u-mr--2 c-search-form js-search-form u-hide u-show@navbar">
+                                <label for="searchInput" class="c-search-form__label _mdl-layout">
+                                    <input name="q" type="search" class="c-search-form__input" id="searchInput" placeholder="Search">
+                                    <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                </label>
+                            </form>
+                        
+                                                
+                                                    <div class="c-navbar__primary u-hide u-show@navbar">
+                                <div class="_mdl-layout c-navbar__cta">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--no-shadow mdl-button--multi-line mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                            </div>
+                        
+
+                                                
+                        <span class="u-hide@navbar _mdl-layout u-nowrap">
+
+                                                            <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" data-focus="#navbar_mob_search_input" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_search_mob"  ><i class="material-icons">search</i></button>
+                            
+                                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-button--multi-line c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" type="button" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_toggle_mob"  >
+                                    <i class="material-icons c-navbar__toggle-open">menu</i>
+                                    <i class="material-icons c-navbar__toggle-close">close</i>
+                                </button>
+                                                    </span>
+                    </div>
+
+                </div>
+            </div>
+
+                        
+                            <div class="c-navbar__menu-row js-navbar-block is-collapsed" id="navbarMenu">
+
+                                                                                                                                                
+                                                                    
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+
+                                                                
+                                                                                                                                                                                                                                
+                                            
+                    <div class="c-navbar__menu-row-content">
+
+                                                                            <div class="u-hide@navbar c-navbar__menu-bar-spacing">
+                                <form action="/search" class="c-search-form js-search-form">
+                                    <label for="navbar_mob_search_input" class="c-search-form__label _mdl-layout">
+                                        <input id="navbar_mob_search_input" name="q" type="search" class="c-search-form__input" placeholder="Search">
+                                        <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                    </label>
+                                </form>
+                            </div>
+                        
+                        <div class="o-actions o-actions--middle">
+
+                            <div class="o-actions__primary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="main-menu"   role="menubar" aria-label="Main Navigation"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/browse/articles" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="0"
+                              data-test-id="nav_browse"                              >Browse</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/gateways" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_gatewaysViewAndBrowse"                              >Gateways & Collections</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="2"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_for-authors"                              >How to Publish</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="How to Publish">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_submit-manuscript"                      href="/for-authors/publish-your-research"
+                    role="menuitem"
+                    tabindex="0">Submit your Research</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/for-authors/my-submissions"
+                    role="menuitem"
+                    tabindex="-1">My Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines"                      href="/for-authors/article-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines-new-versions"                      href="/for-authors/article-guidelines-new-versions"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines (New Versions)</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_data-guidelines"                      href="/for-authors/data-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Data Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_asset-guidelines"                      href="/for-authors/posters-and-slides-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Posters and Slides Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_document-guidelines"                      href="/for-authors/document-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Document Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-processing-charges"                      href="/for-authors/article-processing-charges"
+                    role="menuitem"
+                    tabindex="-1">Article Processing Charges</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_finding-referees"                      href="/for-authors/tips-for-finding-referees"
+                    role="menuitem"
+                    tabindex="-1">Finding Article Reviewers</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="3"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_about-contact"                              >About</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="About">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_about-page"                      href="/about"
+                    role="menuitem"
+                    tabindex="0">How it Works</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_referee-guidelines"                      href="/for-referees/guidelines"
+                    role="menuitem"
+                    tabindex="-1">For Reviewers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_advisoryPanel"                      href="/advisors"
+                    role="menuitem"
+                    tabindex="-1">Our Advisors</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_policy-page"                      href="/about/policies"
+                    role="menuitem"
+                    tabindex="-1">Policies</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_glossary-page"                      href="/glossary"
+                    role="menuitem"
+                    tabindex="-1">Glossary</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_faqs-page"                      href="/faqs"
+                    role="menuitem"
+                    tabindex="-1">FAQs</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              u-hide u-show@navbar"
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      u-hide u-show@navbar"
+                                          data-test-id="nav_for-developers"                      href="/developers"
+                    role="menuitem"
+                    tabindex="-1">For Developers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_newsroom-page"                      href="/newsroom"
+                    role="menuitem"
+                    tabindex="-1">Newsroom</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_contact-page"                      href="/contact"
+                    role="menuitem"
+                    tabindex="-1">Contact</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="4"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="https://blog.f1000.com/blogs/f1000research/" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                             target="_blank"                                                         tabindex="-1"
+                              data-test-id="nav_blog"                              >Blog</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                            <div class="o-actions__secondary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="secondary-items"   role="menubar" aria-label="My Account"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="0"
+                              data-test-id="nav_my-research"                              >My Research</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="My Research">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/login?originalPath=/my/submissions"
+                    role="menuitem"
+                    tabindex="0">Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-email-alerts"                      href="/login?originalPath=/my/email-alerts"
+                    role="menuitem"
+                    tabindex="-1">Content and Tracking Alerts</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-user-details"                      href="/login?originalPath=/my/user-details"
+                    role="menuitem"
+                    tabindex="-1">My Details</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/login?originalPath=/articles/8-2020.html" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_sign-in"                              >Sign In</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                                                                                        <div class="_mdl-layout c-navbar__cta u-hide@navbar c-navbar__menu-bar-spacing">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--multi-line mdl-button--no-shadow mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research_mob"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+            
+        </div>
+
+    </div>
+
+</nav>
+                    </div>
+
+        <div class="content-wrapper o-page__main row ">
+            <div id="highlight-area" class="content ">
+                
+
+
+
+
+
+<div id=article-metadata class=hidden> <input type=hidden name=versionId value=20429 /> <input type=hidden id=articleId name=articleId value=18660 /> <input type=hidden id=xmlUrl value="/articles/8-2020/v1/xml"/> <input type=hidden id=xmlFileName value="-8-2020-v1.xml"> <input type=hidden id=article_uuid value=7c287bc5-35d1-43bb-9f67-364576689373 /> <input type=hidden id=referer value=""/> <input type=hidden id=meta-article-title value="Understanding neuromuscular disorders in chronic fatigue syndrome"/> <input type=hidden id=workspace-export-url value="https://sciwheel.com/work/api/import/external?doi=10.12688/f1000research.18660.1"/> <input type=hidden id=versionDoi value="10.12688/f1000research.18660.1"/> <input type=hidden id=usePmcStats value=true /> </div> <main class="o-wrapper p-article__wrapper js-wrapper"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://f1000research.com/articles/8-2020"
+  },
+  "headline": "Understanding neuromuscular disorders in chronic fatigue syndrome",
+  "datePublished": "2019-11-28T14:10:18",
+  "dateModified": "2019-11-28T14:10:18",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Yves Jammes"
+    },    {
+      "@type": "Person",
+      "name": "Fr&eacute;d&eacute;rique Retornaz"
+    }  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F1000Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+      "height": 480,
+      "width": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+    "height": 1200,
+    "width": 150
+  },
+  "description": "Muscle failure has been demonstrated in patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Neurophysiological tools demonstrate the existence of both central and peripheral fatigue in these patients. Central fatigue is deduced from the reduced amplitude of myopotentials evoked by transcranial magnetic stimulation of the motor cortex as well as by the muscle response to interpolated twitches during sustained fatiguing efforts. An impaired muscle membrane conduction velocity assessed by the reduced amplitude and lengthened duration of myopotentials evoked by direct muscle stimulation is the defining feature of peripheral fatigue. Some patients with ME/CFS show an increased oxidative stress response to exercise. The formation of lipid hydroperoxides in the sarcolemma, which alters ionic fluxes, could explain the reduction of muscle membrane excitability and potassium outflow often measured in these patients. In patients with ME/CFS, the formation of heat shock proteins (HSPs) is also reduced. Because HSPs protect muscle cells against the deleterious effects of reactive oxygen species, the lack of their production could explain the augmented oxidative stress and the consecutive alterations of myopotentials which could open a way for future treatment of ME/CFS."
+}
+</script> <div class="o-layout o-layout--right-gutter"> <div id=article_secondary-column class="p-article__main o-layout__item u-font-size--legal u-2/3@article not-expanded "> <div class=float-left> <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+              {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@id": "https://f1000research.com/",
+            "name": "Home"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "2",
+          "item": {
+            "@id": "https://f1000research.com/browse/articles",
+            "name": "Browse"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "3",
+          "item": {
+            "@id": "https://f1000research.com/articles/8-2020.html",
+            "name": "Understanding neuromuscular disorders in chronic fatigue syndrome"
+          }
+        }          ]
+  }
+  </script> <div class="breadcrumbs js-breadcrumbs"> <a href="/" class=f1r-standard-link>Home</a> <span class=item_separator></span> <a href="/browse/articles" class=f1r-standard-link>Browse</a> <span class=item_separator></span> Understanding neuromuscular disorders in chronic fatigue syndrome </div> </div> <div class="article-badges-container u-mb--2"> <div class=crossmark-new> <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script> <a data-target=crossmark><img height=30 width=150 src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg"/></a> </div> <div id=crossmark-dialog style="display: none;" title=""> <iframe id=crossmark-dialog-frame frameborder=0></iframe> </div> <div class=clearfix></div> </div> <div class=article-interaction-container> <div id=main-article-count-box class=article-count-box> <div class="article-metrics-wrapper metrics-icon-wrapper" data-version-id=20429 data-id=18660 data-downloads="" data-views="" data-scholar="10.12688/f1000research.18660.1" data-recommended="" data-doi="10.12688/f1000research.18660.1" data-f1r-ga-helper="Article Page Metrics (Desktop)"> <span class="metrics-on-browse article-metrics-icon f1r-icon icon-89_metrics"></span> <div class="count-title article-metrics-text">ALL Metrics</div> <div class=js-article-metrics-container></div> </div> <div> <div class=count-delimiter></div> <div title="Total views from F1000Research and PubMed Central"> <div class="count-container view-count js-views-count">-</div> <div class=count-title><span class="count-title-icon count-title-views-icon"></span>Views</div> </div> <div class=download-counts hidden> <div class=count-delimiter></div> <div title="Total downloads from F1000Research and PubMed Central"> <div class="count-container js-downloads-count"></div> <div class=count-title><span class="count-title-icon f1r-icon icon-76_download_file"></span>Downloads</div> </div> </div> </div> </div> <div id=main-article-interaction-box class="article-interaction-box has-control-tab"> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-102_download_pdf"></span> <a href="https://f1000research.com/articles/8-2020/v1/pdf?article_uuid=7c287bc5-35d1-43bb-9f67-364576689373" title="Download PDF" class="button-link download pdf-download-helper" target=_blank>Get PDF</a> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-103_download_xml"></span> <a id=download-xml href="#" class="button-link download" title="Download XML">Get XML</a> </div> </div> <div class="article-interaction-info article-page"> <div class="cite-article-popup-wrapper article-page-interaction-box"> <div class="article-interaction-button cite-article-button" title="Cite this article" data-windowref=cite-article-popup-18660-1> <span class="f1r-icon icon-82_quote"></span> <a href="#" class="button-link cite-article-popup-link" title="Cite Article">Cite</a> </div> <div id=cite-article-popup-18660-1 class="popup-window-wrapper is-hidden"> <div class=cite-popup-background></div> <div class="popup-window top-popup cite-this-article-box research-layout"> <div class="popup-window-title small cite-title">How to cite this article</div> <span id=cite-article-text-18660-1 data-test-id=copy-citation_text> <span class="article-title-and-info in-popup">Jammes Y and Retornaz F. Understanding neuromuscular disorders in chronic fatigue syndrome [version 1; peer review: 2 approved]</span>. <i>F1000Research</i> 2019, <b>8</b>(F1000 Faculty Rev):2020 (<a class=new-orange href="https://doi.org/10.12688/f1000research.18660.1" target=_blank>https://doi.org/10.12688/f1000research.18660.1</a>) </span> <div class="popup-window-title small margin-top-20 margin-bottom-20 note"> <strong>NOTE:</strong> it is important to ensure the information in square brackets after the title is included in all citations of this article. </div> <div class=float-right> <button class="secondary no-fill orange-text-and-border margin-right-20 close-cite-popup uppercase">Close</button> <button id=copy-citation-details class="secondary orange copy-cite-article-version uppercase js-clipboard" title="Copy the current citation details to the clipboard." data-clipboard-target="#cite-article-text-18660-1" data-test-id=copy-citation_button>Copy Citation Details</button> </div> </div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-76_download_file"></span> <a id=export-citation href="#" class="button-link download" title="Export Citation">Export</a> </div> <div class="modal-window-wrapper is-hidden"> <div id=export-citation-popup class="modal-window padding-20"> <div class=modal-window-close-button></div> <div class=modal-window-title>Export Citation</div> <div class=modal-window-row> <div> <input type=radio name=export-citation-option value=WORKSPACE /> <span class=radio-label>Sciwheel</span> </div> <div> <input type=radio name=export-citation-option value=ENDNOTE /> <span class=radio-label>EndNote</span> </div> <div> <input type=radio name=export-citation-option value=REF_MANAGER /> <span class=radio-label>Ref. Manager</span> </div> <div> <input type=radio name=export-citation-option value=BIBTEX /> <span class=radio-label>Bibtex</span> </div> <div> <input type=radio name=export-citation-option value=PROCITE /> <span class=radio-label>ProCite</span> </div> <div> <input type=radio name=export-citation-option value=SENTE /> <span class=radio-label>Sente</span> </div> </div> <div class=modal-window-footer> <button class=general-white-orange-button id=export-citation-submit>EXPORT</button> </div> <div class=default-error style="display: none;">Select a format first</div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-90_track"></span> <a class="button-link track-article" data-article-id=18660 id=track-article-signin-18660 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/18660?target=/articles/8-2020.html">Track</a> </div> </div> <div class="article-interaction-info article-page"> <div class="article-interaction-button email-article"> <span class="f1r-icon icon-6_email"></span> <a href="#" class=button-link title="Email this article">Email</a> </div> <div class="email-article-version-container small-tooltip _chrome-fix"> <div class=close-icon><span class="f1r-icon icon-3_close_big"></span></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=20429 /> <input name=articleId type=hidden value=18660 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-34_share"></span> <a href="#" class="button-link last addthis_button share-article" title="Share this article">Share</a> </div> </div> </div> <div id=article-interaction-control-tab class=article-interaction-control-tab> <div id=hide-article-interaction class=article-interaction-control title="Hide Toolbox">&#9644;</div> <div id=show-article-interaction class="article-interaction-control open" title="Show Toolbox">&#10010;</div> </div> </div> <div class="article-header-information article-page"> <div class="f1r-article-mobile article-heading-bar"></div> <div class="article-type article-display">Review </div> <div class="article-title-and-info article-view highlighted-article" id=anchor-title> <h1>Understanding neuromuscular disorders in chronic fatigue syndrome</h1><span class=other-info> [version 1; peer review: 2 approved]</span> </div> <div class=article-subtitle></div> <div class=f1r-article-desk> <div class="authors _mdl-layout"><span class=""><a href="mailto:yves.jammes@univ-amu.fr" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Yves Jammes</span></a><a href="https://orcid.org/0000-0002-4259-6098" target=_blank id=author-orcid-0><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-0><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-4259-6098</div><sup>1</sup>,&nbsp;</span><span class="">Fr&eacute;d&eacute;rique Retornaz<sup>2</sup></span></div> </div> <div class=f1r-article-mobile> <div class="authors _mdl-layout"><span class=""><a href="mailto:yves.jammes@univ-amu.fr" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Yves Jammes</span></a><a href="http://orcid.org/0000-0002-4259-6098" target=_blank id=mauthor-orcid-0><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-0><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-4259-6098</div><sup>1</sup>,&nbsp;</span><span class="">Fr&eacute;d&eacute;rique Retornaz<sup>2</sup></span></div> </div> <div class=f1r-article-mobile> <div class=article-pubinfo-mobile> PUBLISHED 28 Nov 2019 </div> </div> <span class=Z3988 title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft_id=info:doi/10.12688%2Ff1000research.18660.1"></span> <div class=f1r-article-desk> <div class="contracted-details first"> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> C2VN Inserm Inra, Faculty of Medicine, Aix Marseille University, Marseille, France, France<br/> <sup>2</sup> Department of Internal Medicine, European Hospital, Marseille, France, France<br/> <p> <div class=margin-bottom> Yves Jammes <br/> <span>Roles: </span> Conceptualization, Data Curation, Investigation, Methodology, Resources, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Fr&eacute;d&eacute;rique Retornaz <br/> <span>Roles: </span> Conceptualization, Formal Analysis, Funding Acquisition, Resources, Supervision, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> </div> <div class=f1r-article-mobile> <div class="article-page-section-box margin-bottom-40 research-layout"> <span class=box-title> <span class="f1r-icon icon-85_peer_review"></span> OPEN PEER REVIEW </span> <button class="tertiary grey float-right" data-scrollto=article-reports>DETAILS</button> <div class="status-row referee-reports-container"> REVIEWER STATUS <span class=status-icons> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=60396-56745></span> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved data-refInfo=60395-56744></span> </span> </div> </div> </div> </div> <h2 class="article-headings article-page-abstract" id=anchor-abstract> <span class="f1r-article-mobile-inline abstract-heading-border"></span> Abstract </h2> <div class="article-abstract article-page-general-text-mobile research-layout"> <div class="abstract-text is-expanded"> Muscle failure has been demonstrated in patients with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). Neurophysiological tools demonstrate the existence of both central and peripheral fatigue in these patients. Central fatigue is deduced from the reduced amplitude of myopotentials evoked by transcranial magnetic stimulation of the motor cortex as well as by the muscle response to interpolated twitches during sustained fatiguing efforts. An impaired muscle membrane conduction velocity assessed by the reduced amplitude and lengthened duration of myopotentials evoked by direct muscle stimulation is the defining feature of peripheral fatigue. Some patients with ME/CFS show an increased oxidative stress response to exercise. The formation of lipid hydroperoxides in the sarcolemma, which alters ionic fluxes, could explain the reduction of muscle membrane excitability and potassium outflow often measured in these patients. In patients with ME/CFS, the formation of heat shock proteins (HSPs) is also reduced. Because HSPs protect muscle cells against the deleterious effects of reactive oxygen species, the lack of their production could explain the augmented oxidative stress and the consecutive alterations of myopotentials which could open a way for future treatment of ME/CFS. </div> <div class=abstract-for-mobile> <div class="margin-top-30 padding-bottom-30 research-layout is-centered"> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border show" style="display: none;"> READ ALL <span class="f1r-icon icon-14_more_small orange vmiddle big"></span> </button> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border hide"> READ LESS <span class="f1r-icon icon-10_less_small orange vmiddle big"></span> </button> </div> </div> </div> <div class=clearfix></div> <div class="article-context no-divider"> <div class="article-abstract article-page-general-text-mobile research-layout generated-article-body"> <h2 class=main-title>Keywords</h2> <p class="u-mb--0 u-pb--2"> myalgic encephalomyelitis, chronic fatigue syndrome, central fatigue, peripheral fatigue, oxidative stress, heat shock proteins, neurophysiology, physiology, neuromuscular disorders </p> </div> </div> <div class=article-information> <span class="info-separation padding-bottom"> <div id=corresponding-author-icon class="email-icon float-left"> <span class="f1r-icon icon-6_email orange"></span> <div id=corresponding-author-window class="margin-top-20 popup-window-wrapper is-hidden"> <div class="popup-window corresponding-authors-popup"> <div class=corresponding-author-container> <div class="popup-window-title small">Corresponding Author(s)</div> <div class=authors> Yves Jammes (<a href="mailto:yves.jammes@univ-amu.fr">yves.jammes@univ-amu.fr</a>) </div> </div> <div class="margin-top margin-bottom float-left"> <button id=close-popup-window class=general-white-orange-button>Close</button> </div> </div> </div> </div> <span class="icon-text float-left" data-test-id=box-corresponding-author> <b>Corresponding author:</b> Yves Jammes </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom competing-interests-display"> <span class=competing-interests-title>Competing interests:</span> No competing interests were disclosed. </span> <div class="info-separation padding-bottom grant-information-display"> <span class=grant-information-title>Grant information:</span> The author(s) declared that no grants were involved in supporting this work. </div> <span class="f1r-article-desk info-separation padding-bottom"> <span class="copywrite-icon float-left"> <span class="f1r-icon icon-100_open_access"></span> </span> <span class="icon-text float-left" data-test-id=box-copyright-text> <b>Copyright:</b>&nbsp; © 2019 Jammes Y and Retornaz F. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom" data-test-id=box-how-to-cite> <b>How to cite:</b> <span class="article-title-and-info in-article-box"> Jammes Y and Retornaz F. Understanding neuromuscular disorders in chronic fatigue syndrome [version 1; peer review: 2 approved]</span>. <i>F1000Research</i> 2019, <b>8</b>(F1000 Faculty Rev):2020 (<a href="https://doi.org/10.12688/f1000research.18660.1" target=_blank>https://doi.org/10.12688/f1000research.18660.1</a>) </span> <span class=info-separation data-test-id=box-first-published><b>First published:</b> 28 Nov 2019, <b>8</b>(F1000 Faculty Rev):2020 (<a href="https://doi.org/10.12688/f1000research.18660.1" target=_blank>https://doi.org/10.12688/f1000research.18660.1</a>)</span> <span class=info-separation data-test-id=box-latest-published><b>Latest published:</b> 28 Nov 2019, <b>8</b>(F1000 Faculty Rev):2020 (<a href="https://doi.org/10.12688/f1000research.18660.1" target=_blank>https://doi.org/10.12688/f1000research.18660.1</a>)</span> </div> <div class=clearfix></div> <div id=article-context class=article-context> <div id=article1-body class=generated-article-body><h2 class=main-title id=d48294e152>Introduction</h2><p class="" id=d48294e155>Chronic fatigue syndrome (CFS), also called myalgic encephalomyelitis/CFS (ME/CFS), is a multisystem disease with immune dysfunction and autonomic abnormalities characterized by an intense fatigue worsened by physical/mental activity<sup><a href="#ref-1">1</a>,<a href="#ref-2">2</a></sup>. It is often associated with post-exertional malaise (PEM)<sup><a href="#ref-2">2</a>,<a href="#ref-3">3</a></sup>. Its pathogenesis appears to have a number of factors; different stressors (such as physical exertion, severe infections, or emotional stress or a combination of these) are continually reported in the medical history of patients with ME/CFS<sup><a href="#ref-4">4</a></sup>. An altered skeletal muscle function has been observed in ME/CFS pathogenesis<sup><a href="#ref-5">5</a>–<a href="#ref-9">9</a></sup>. In our studies<sup><a href="#ref-5">5</a>–<a href="#ref-8">8</a></sup>, alterations of the muscle membrane excitability in response to exercise was found in 86 out of 133 patients with ME/CFS (that is, 65%). Several ME/CFS studies have also reported an enhanced oxidative stress in response to exercise<sup><a href="#ref-4">4</a>–<a href="#ref-7">7</a></sup>. This mini-review focuses on the neurophysiological disorders found in patients with ME/CFS and changes in biochemical markers of exercise, such as the potassium outflow, oxidative stress, and heat shock protein (HSP) response.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d48294e201>The general mechanisms of muscle fatigue</h2><p class="" id=d48294e204>Muscle fatigue results primarily from the incapacity of the muscle fibers to contract. Muscle failure called “peripheral fatigue” may result from a failure of different metabolic processes such as the imbalance between oxygen demand and supply, the reduced excitation–contraction coupling involving altered intracellular calcium release and mobilization, and the impaired muscle membrane excitability due to the altered flux of potassium through the sarcolemma<sup><a href="#ref-10">10</a></sup>. “Peripheral fatigue” is generally preceded by the reduced recruitment of motoneurons which drive the highly fatiguing motor units. This phenomenon, called “central fatigue”, tends to delay the occurrence of “peripheral fatigue” (the “muscle wisdom” phenomenon). In humans, non-invasive tools are used to explore “peripheral” and “central” fatigue. Peripheral fatigue is assessed by the reduction of the contractile response (twitch) to direct electrical muscle stimulation. On the other hand, central fatigue is present when the interpolation of twitches elicited by repetitive electrical muscle stimulation or transcranial magnetic stimulation (TMS) of cortical motor areas restores a contractile response during fatiguing efforts. Muscle fatigue is closely linked to an excessive production of reactive oxygen species (ROS)<sup><a href="#ref-11">11</a></sup>. The sensory pathways carried by the group III and IV muscle afferents play key reflex roles in triggering the muscle wisdom phenomenon. The motor drive of both working and resting muscles is modulated by these muscle afferents through their spinal and supraspinal projections and their afferent pathways, supporting the sensation of muscle fatigue and pain<sup><a href="#ref-12">12</a>,<a href="#ref-13">13</a></sup>. Multiple stressors, such as fatiguing muscle contraction, muscle acidosis, hypoxia, ischemia, and ROS, stimulate these muscle afferents<sup><a href="#ref-14">14</a>–<a href="#ref-16">16</a></sup>. Their activation by muscle fatigue triggers the widespread production of HSPs<sup><a href="#ref-17">17</a></sup>.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d48294e236>In patients with myalgic encephalomyelitis/chronic fatigue syndrome, central and peripheral fatigue coexist</h2><div class=section><a name=d48294e239 class=n-a></a><h3 class=section-title>Central fatigue</h3><p class="" id=d48294e244>Some physiological studies using the twitch interpolation technique and analyzing the maximal voluntary contraction cannot support the hypothesis of central fatigue in patients with ME/CFS<sup><a href="#ref-18">18</a>,<a href="#ref-19">19</a></sup>. By contrast, numerous studies support the existence of central fatigue in these patients. Kent-Braun <i>et al</i>.<sup><a href="#ref-20">20</a></sup> showed that the voluntary contraction of the tibialis muscle during maximal isometric exercise was lowered. In patients with post-infectious CFS, Sacco <i>et al</i>.<sup><a href="#ref-21">21</a></sup> reported a reduced amplitude of motor potentials evoked by TMS of the motor cortex in the biceps brachii muscle. The authors also reported an increased interpolated twitch amplitude during sustained fatiguing efforts in patients with ME/CFS. The same observations were made by Schillings <i>et al</i>.<sup><a href="#ref-22">22</a></sup>. Davey <i>et al</i>.<sup><a href="#ref-23">23</a></sup> correlated day-to-day changes in ME/CFS symptomatology with the changes in simple reaction times (SRTs) and movement times of myopotentials evoked in muscles by TMS of the motor cortex, and corticospinal excitability was assessed by measuring the threshold TMS intensity. The authors reported slowed SRTs and increased threshold intensity, supporting the existence of a deficit in motor preparatory cortical areas. Siemionow <i>et al</i>.<sup><a href="#ref-24">24</a></sup> reported a modification of the central motor command to muscles during isometric handgrip and measured an increased relative power of electroencephalography theta frequency band in patients with ME/CFS compared with healthy volunteers. These observations suggest that ME/CFS pathology may be associated with an altered central nervous system command to muscles.</p><p class="" id=d48294e290>Perception of effort and pain seems to be accentuated in patients with ME/CFS. This was previously reported by Sacco <i>et al</i>.<sup><a href="#ref-21">21</a></sup> and more recently confirmed<sup><a href="#ref-25">25</a></sup>. The group III or IV metabosensitive muscle afferents present in all skeletal muscles are strongly activated by the oxygen free radicals<sup><a href="#ref-16">16</a></sup>, a situation amplified in patients with ME/CFS<sup><a href="#ref-5">5</a>,<a href="#ref-6">6</a></sup>. It is tempting to speculate that increased activation of muscle afferents in patients with ME/CFS could result in an accentuated perception of effort and pain (myalgia). The key role played by these muscle afferents in central fatigue (muscle wisdom phenomenon) could also explain the numerous observations of a diminished central activation, documented in ME/CFS<sup><a href="#ref-20">20</a>–<a href="#ref-24">24</a></sup>.</p></div><div class=section><a name=d48294e324 class=n-a></a><h3 class=section-title>Peripheral fatigue</h3><p class="" id=d48294e329>Delayed recovery from fatiguing exercise in patients with ME/CFS may be due to peripheral muscle fatigue<sup><a href="#ref-9">9</a>,<a href="#ref-26">26</a></sup>. During incremental cycling leg exercise approaching the maximal oxygen uptake (VO<sub>2</sub>), marked alterations of myopotentials in response to direct muscle stimulation (M-wave) have been observed in a number of patients with ME/CFS<sup><a href="#ref-5">5</a>–<a href="#ref-8">8</a></sup>. These M-wave changes began early in exercise and culminated at the end of a 30-min recovery. This suggests the existence of peripheral fatigue due to impaired muscle membrane excitability. Similar M-wave alterations are absent in healthy subjects, for whom the amplitude of myopotentials either does not vary or even increases with the incremental pedaling force<sup><a href="#ref-5">5</a></sup>.</p></div></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d48294e357>Biological events accompanying the electrophysiological disorders</h2><div class=section><a name=d48294e360 class=n-a></a><h3 class=section-title>Reduced ionic fluxes through the muscle membrane</h3><p class="" id=d48294e365>Alteration of ionic fluxes through the sarcolemma could explain the altered muscle membrane excitability reported in patients with ME/CFS. In healthy subjects, muscle biopsies demonstrated a physiological contraction-induced loss in myoplasmic potassium (K<sup>+</sup>) concentration<sup><a href="#ref-27">27</a></sup>. This potassium outflow is detectable in plasma, and the kinetics of plasma K<sup>+</sup> increase during and after an incremental exercise is well known<sup><a href="#ref-28">28</a></sup>. A study by Fulle <i>et al</i>.<sup><a href="#ref-29">29</a></sup> confirmed the presence of alterations in ryanodine channels and a deregulation of Na<sup>+</sup>/K<sup>+</sup> and Ca<sup>2+</sup>-ATPase pumps in the membranes of sarcoplasmic reticulum in patients with ME/CFS. To explain their data, Fulle <i>et al</i>.<sup><a href="#ref-30">30</a></sup> suggested that the deregulated pump activities could result from an increased fluidity of the sarcoplasmic reticulum membrane in these patients.</p></div><div class=section><a name=d48294e407 class=n-a></a><h3 class=section-title>Increased production of reactive oxygen species</h3><p class="" id=d48294e412>Several studies in patients with ME/CFS have examined changes in resting blood oxidant–anti-oxidant status and reported lower vitamin E concentration and higher levels of oxidized LDL, thiobarbituric acid reactive substances (TBARS), and malondialdehyde (MAL)<sup><a href="#ref-31">31</a>–<a href="#ref-33">33</a></sup>. In biopsies of vastus lateralis muscle of patients with ME/CFS, Fulle <i>et al</i>.<sup><a href="#ref-30">30</a></sup> detected oxidative damage to DNA and lipids and increased activity of intracellular anti-oxidants (catalase, glutathione peroxidase, and transferase). Other authors also found a correlation between musculoskeletal symptoms and an accentuated lipid peroxidation at rest in patients with ME/CFS<sup><a href="#ref-33">33</a>,<a href="#ref-34">34</a></sup>. Plasma markers of oxidative stress are the TBARS, a marker of lipid peroxidation, and reduced ascorbic acid, an endogenous anti-oxidant<sup><a href="#ref-5">5</a>–<a href="#ref-7">7</a>,<a href="#ref-31">31</a>–<a href="#ref-34">34</a></sup>.</p><p class="" id=d48294e449>In healthy subjects, exercise induces modest oxidative stress<sup><a href="#ref-5">5</a>,<a href="#ref-35">35</a>,<a href="#ref-36">36</a></sup>, whereas marked exercise-induced production of ROS has been found in patients with ME/CFS<sup><a href="#ref-5">5</a>–<a href="#ref-7">7</a></sup>. The muscle production of oxygen free radicals is proportional to that of VO<sub>2</sub><sup><a href="#ref-35">35</a>,<a href="#ref-36">36</a></sup>. From several reports<sup><a href="#ref-5">5</a>,<a href="#ref-37">37</a>,<a href="#ref-38">38</a></sup>, VO<sub>2</sub> measurement in exercising patients with ME/CFS indicated a normal aerobic function; indeed, their maximal VO<sub>2</sub> was in the normal range. However, a recent study<sup><a href="#ref-39">39</a></sup> showed that, perhaps because of PEM, patients with ME/CFS were unable to reproduce cardiopulmonary exercise testing during a second test. An <i>in vitro</i> study in skeletal muscle cell culture<sup><a href="#ref-40">40</a></sup> showed that, after electrical pulse stimulation mimicking PEM, patients with ME/CFS, compared with normal subjects, had no increase in AMPK phosphorylation, a defect of glucose uptake, and a reduction of interleukin-6 (IL-6) secretion, highlighting the reality of lowered metabolic performance of muscle cells during PEM. A recent study by Richardson <i>et al</i>.<sup><a href="#ref-41">41</a></sup> proposed using the weighted standing time as a proxy for PEM severity in patients with ME/CFS.</p><p class="" id=d48294e513>An inhibitory action on Na<sup>+</sup>-K<sup>+</sup> pump activity is exerted by increased production of ROS during exercise<sup><a href="#ref-11">11</a></sup> and this reduces muscle membrane excitability and potassium outflow. Published<sup><a href="#ref-5">5</a>–<a href="#ref-8">8</a></sup> and unpublished observations have noted that the magnitude of altered muscle membrane excitability (reduced M-wave amplitude) is proportional to the reduction of exercise-induced potassium outflow and to the magnitude of oxidative stress in patients with ME/CFS. Moreover, in 42% of the 69 patients with ME/CFS, PEM was associated with post-exercise alterations of muscle membrane excitability.</p></div><div class=section><a name=d48294e534 class=n-a></a><h3 class=section-title>Reduced heat shock protein production/expression</h3><p class="" id=d48294e539>The HSPs protect cells against the deleterious effects of ROS produced during exercise<sup><a href="#ref-42">42</a>,<a href="#ref-43">43</a></sup>, reducing the generation of ROS through the activation of anti-oxidants. The oxidant levels, in turn, increase the level of plasma HSP<sup><a href="#ref-43">43</a></sup>. In patients with ME/CFS, the responses of plasma HSP27 and HSP70 to exercise can be delayed and often reduced, and resting levels of plasma HSP70 are lower in these patients than in healthy volunteers<sup><a href="#ref-6">6</a></sup>. The lack of HSP response to exercise might explain the augmented oxidative stress measured in these patients. As already suggested<sup><a href="#ref-7">7</a></sup>, a downregulation of HSP production in some individuals could be caused by the repetition of exercise bouts at high energetic levels. As cited above, the activation of the group III or IV muscle afferents triggers the HSP production in working and resting muscles as well as in the brain and different organs<sup><a href="#ref-17">17</a></sup>. It may be hypothesized that the prolonged activation of these muscle afferents by the oxidative stress could induce a reduction of HSP production in patients with ME/CFS. Further studies, including in high-intensity sport programs and military training, are needed to show that the repetition of exercise bouts at high levels might depress the expression of the inducible factors of HSP However, HSP malfunction was also reported in different pathologies and may have origins other than the repetition of stressors. Thus, in patients with multiple sclerosis and systemic lupus erythematosus, Elfaitouri <i>et al</i>.<sup><a href="#ref-44">44</a></sup> measured an IgM to specific cross-reactive epitopes of human HSP60 compatible with infection-induced autoimmunity. HSP dysfunction was also reported in patients with chronic fatigue in primary Sjögren’s syndrome<sup><a href="#ref-45">45</a></sup>. Because antibodies to a microbial HSP60 may cross-react with human HSP60<sup><a href="#ref-46">46</a></sup>, it may be that infectious diseases often reported in patients with ME/CFS alter their HSP function.</p></div></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d48294e585>The role played by history of severe infections in the neuromuscular disorders of patients with myalgic encephalomyelitis/chronic fatigue syndrome</h2><p class="" id=d48294e588>In a previous study<sup><a href="#ref-6">6</a></sup>, it was reported that the history of infection in patients with ME/CFS was associated with a marked significant increase in M-wave alterations and a reduced exercise-induced potassium efflux. The post-exercise changes in M-wave amplitude were correlated to a significant reduction of the maximal potassium outflow measured at the end of the exercise and to the baseline TBARS level. A further study highlights the importance of infectious stressors in ME/CFS pathogenesis and biological expression. A significant reduction of muscle excitability during work and increased blood oxidant status disorders at rest were measured in ME/CFS patients who reported a recent severe infection due to H1N1 influenza, pneumonia, encephalomyelitis, or sepsis<sup><a href="#ref-7">7</a></sup>. It is well documented that acute infection constitutes a trigger for an oxidative stress<sup><a href="#ref-46">46</a>–<a href="#ref-48">48</a></sup>. A review by Rasa <i>et al</i>.<sup><a href="#ref-49">49</a></sup> compiles all of the studies carried out so far to investigate various viral agents that could be associated with ME/CFS. However, the role played by viral infection in ME/CFS pathogenesis is not clear. Recent observations by Bouquet <i>et al</i>.<sup><a href="#ref-50">50</a></sup> do not support immune cell dysregulation or viral reactivation in ME/CFS patients after exercise bouts inducing PEM.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d48294e625>Conclusions</h2><p class="" id=d48294e628>This review focuses on the neurophysiological modifications that associate central and peripheral fatigue, reduced potassium outflow from exercising muscles, altered equilibrium between pro- and anti-oxidants, and a reduced expression/production of HSPs in patients with ME/CFS. A mechanistic approach to the causes of neurobiological disorders in the ME/CFS pathology is proposed on the basis of a reduction in the protective role of HSP. Repeated and combined stressors (high exercise level, infections and perhaps also psychological stress) in the history of these patients might contribute to a depletion of HSP production or its expression or both. The consequences of a dysregulation of the oxidant/anti-oxidant status might result both in an altered muscle membrane excitability (peripheral fatigue) and in an augmented activation of the group III or IV muscle afferents which play a key role in the mechanism of central fatigue. Correcting any deficiency in HSP production could open a future way for the treatment of ME/CFS.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d48294e634>Abbreviations</h2><p class="" id=d48294e637>HSP, heat shock protein; ME/CFS, myalgic encephalomyelitis/chronic fatigue syndrome; M-wave, muscle action potential; PEM, post-exertional malaise; ROS, reactive oxygen species; SRT, simple reaction time; TBARS, thiobarbituric acid reactive substances; TMS, transcranial magnetic stimulation; VO<sub>2</sub>, oxygen uptake</p></div><div id=article1-back class=generated-article-footer><div class=back-section><a name=d48294e647 class=n-a></a><span class="research-layout prime-recommended-wrapper reference-heading"><span class="f1r-icon icon-79_faculty_recommended_badge red vmiddle default-cursor"></span><span class="prime-red big">F1000 recommended</span></span><h2 class=main-title id=d48603>References</h2><div class="section ref-list"><a name=d48294e647 class=n-a></a><ul><li><a name=ref-1 class=n-a></a><span class=label>1. </span>&nbsp;<span class=citation><a name=d48294e654 class=n-a></a>Fukuda K, Straus SE, Hickie I, <i> et al.</i>: The chronic fatigue syndrome: a comprehensive approach to its definition and study. International Chronic Fatigue Syndrome Study Group. <i>Ann Intern Med.</i> 1994; <b>121</b>(12): 953–9. <a target=xrefwindow id=d48294e665 href="http://www.ncbi.nlm.nih.gov/pubmed/7978722">PubMed Abstract </a> | <a target=xrefwindow id=d48294e668 href="https://doi.org/10.7326/0003-4819-121-12-199412150-00009">Publisher Full Text </a></span></li><li><a name=ref-2 class=n-a></a><span class=label>2. </span>&nbsp;<span class=citation><a name=d48294e677 class=n-a></a>Institute of Medicine of the National Academies: Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness. Committee on the Diagnostic Criteria for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome; Board on the Health of Select Populations. National Academics Press, Washington DC. 2015; <a target=xrefwindow id=d48294e679 href="http://www.nap-edu">www.nap-edu</a>. <a target=xrefwindow id=d48294e682 href="http://www.ncbi.nlm.nih.gov/pubmed/25695122">PubMed Abstract </a> | <a target=xrefwindow id=d48294e685 href="https://doi.org/10.17226/19012">Publisher Full Text </a></span></li><li><a name=ref-3 class=n-a></a><span class=label>3. </span>&nbsp;<span class=citation><a name=d48294e694 class=n-a></a>Carruthers BM: Definitions and aetiology of myalgic encephalomyelitis: how the Canadian consensus clinical definition of myalgic encephalomyelitis works. <i>J Clin Pathol.</i> 2007; <b>60</b>(2): 117–9. <a target=xrefwindow id=d48294e702 href="http://www.ncbi.nlm.nih.gov/pubmed/16935963">PubMed Abstract </a> | <a target=xrefwindow id=d48294e705 href="https://doi.org/10.1136/jcp.2006.042754">Publisher Full Text </a> | <a target=xrefwindow id=d48294e708 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1860613">Free Full Text </a></span></li><li><a name=ref-4 class=n-a></a><span class=label>4. </span>&nbsp;<span class=citation><a name=d48294e717 class=n-a></a>Prins JB, van der Meer JWM, Bleijenberg G: Chronic fatigue syndrome. <i>The Lancet.</i> 2006; <b>367</b>(9507): 346–55. <a target=xrefwindow id=d48294e725 href="http://www.ncbi.nlm.nih.gov/pubmed/16443043">PubMed Abstract </a> | <a target=xrefwindow id=d48294e728 href="https://doi.org/10.1016/S0140-6736(06)68073-2">Publisher Full Text </a></span></li><li><a name=ref-5 class=n-a></a><span class=label>5. </span>&nbsp;<span class=citation><a name=d48294e737 class=n-a></a>Jammes Y, Steinberg JG, Mambrini O, <i> et al.</i>: Chronic fatigue syndrome: assessment of increased oxidative stress and altered muscle excitability in response to incremental exercise. <i>J Intern Med.</i> 2005; <b>257</b>(3): 299–310. <a target=xrefwindow id=d48294e748 href="http://www.ncbi.nlm.nih.gov/pubmed/15715687">PubMed Abstract </a> | <a target=xrefwindow id=d48294e751 href="https://doi.org/10.1111/j.1365-2796.2005.01452.x">Publisher Full Text </a></span></li><li><a name=ref-6 class=n-a></a><span class=label>6. </span>&nbsp;<span class=citation><a name=d48294e761 class=n-a></a>Jammes Y, Steinberg JG, Delliaux S: Chronic fatigue syndrome: acute infection and history of physical activity affect resting levels and response to exercise of plasma oxidant/antioxidant status and heat shock proteins. <i>J Intern Med.</i> 2012; <b>272</b>(1): 74–84. <a target=xrefwindow id=d48294e769 href="http://www.ncbi.nlm.nih.gov/pubmed/22112145">PubMed Abstract </a> | <a target=xrefwindow id=d48294e772 href="https://doi.org/10.1111/j.1365-2796.2011.02488.x">Publisher Full Text </a></span></li><li><a name=ref-7 class=n-a></a><span class=label>7. </span>&nbsp;<span class=citation><a name=d48294e781 class=n-a></a>Fenouillet E, Vigouroux A, Steinberg JG, <i> et al.</i>: Association of biomarkers with health-related quality of life and history of stressors in myalgic encephalomyelitis/chronic fatigue syndrome patients. <i>J Transl Med.</i> 2016; <b>14</b>: 251. <a target=xrefwindow id=d48294e792 href="http://www.ncbi.nlm.nih.gov/pubmed/27580693">PubMed Abstract </a> | <a target=xrefwindow id=d48294e795 href="https://doi.org/10.1186/s12967-016-1010-x">Publisher Full Text </a> | <a target=xrefwindow id=d48294e799 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5006431">Free Full Text </a></span></li><li><a name=ref-8 class=n-a></a><span class=label>8. </span>&nbsp;<span class=citation><a name=d48294e808 class=n-a></a>Jammes Y, Guillaume Steinberg J, Guieu R, <i> et al.</i>: Chronic fatigue syndrome with history of severe infection combined altered blood oxidant status, and reduced potassium efflux and muscle excitability at exercise. <i>OJIM.</i> 2013; <b>03</b>(3): 98–105. <a target=xrefwindow id=d48294e819 href="https://doi.org/10.4236/ojim.2013.33023">Publisher Full Text </a></span></li><li><a name=ref-9 class=n-a></a><span class=label>9. </span>&nbsp;<span class=citation><a name=d48294e828 class=n-a></a>Samii A, Wassermann EM, Ikoma K, <i> et al.</i>: Decreased postexercise facilitation of motor evoked potentials in patients with chronic fatigue syndrome or depression. <i>Neurology.</i> 1996; <b>47</b>(6): 1410–4. <a target=xrefwindow id=d48294e839 href="http://www.ncbi.nlm.nih.gov/pubmed/8960719">PubMed Abstract </a> | <a target=xrefwindow id=d48294e842 href="https://doi.org/10.1212/WNL.47.6.1410">Publisher Full Text </a></span></li><li><a name=ref-10 class=n-a></a><span class=label>10. </span>&nbsp;<span class=citation><a name=d48294e851 class=n-a></a>Enoka RM, Stuart DG: Neurobiology of muscle fatigue. <i>J Appl Physiol.</i> 1992; <b>72</b>(5): 1631–48. <a target=xrefwindow id=d48294e859 href="http://www.ncbi.nlm.nih.gov/pubmed/1601767">PubMed Abstract </a> | <a target=xrefwindow id=d48294e862 href="https://doi.org/10.1152/jappl.1992.72.5.1631">Publisher Full Text </a></span></li><li><a name=ref-11 class=n-a></a><span class=label>11. </span>&nbsp;<span class=citation><a name=d48294e871 class=n-a></a>Juel C: Muscle fatigue and reactive oxygen species. <i>J Physiol.</i> 2006; <b>576</b>(Pt 1): 1. <a target=xrefwindow id=d48294e879 href="http://www.ncbi.nlm.nih.gov/pubmed/16901938">PubMed Abstract </a> | <a target=xrefwindow id=d48294e882 href="https://doi.org/10.1113/jphysiol.2006.118083">Publisher Full Text </a> | <a target=xrefwindow id=d48294e885 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1995652">Free Full Text </a></span></li><li><a name=ref-12 class=n-a></a><span class=label>12. </span>&nbsp;<span class=citation><a name=d48294e895 class=n-a></a>Ling LJ, Honda T, Shimada Y, <i> et al.</i>: Central projection of unmyelinated (C) primary afferent fibers from gastrocnemius muscle in the guinea pig. <i>J Comp Neurol.</i> 2003; <b>461</b>(2): 140–50. <a target=xrefwindow id=d48294e906 href="http://www.ncbi.nlm.nih.gov/pubmed/12724833">PubMed Abstract </a> | <a target=xrefwindow id=d48294e909 href="https://doi.org/10.1002/cne.10619">Publisher Full Text </a></span></li><li><a name=ref-13 class=n-a></a><span class=label>13. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/727023587"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d48294e918 class=n-a></a>Sidhu SK, Weavil JC, Mangum TS, <i> et al.</i>: Group III/IV locomotor muscle afferents alter motor cortical and corticospinal excitability and promote central fatigue during cycling exercise. <i>Clin Neurophysiol.</i> 2017; <b>128</b>(1): 44–55. <a target=xrefwindow id=d48294e929 href="http://www.ncbi.nlm.nih.gov/pubmed/27866119">PubMed Abstract </a> | <a target=xrefwindow id=d48294e932 href="https://doi.org/10.1016/j.clinph.2016.10.008">Publisher Full Text </a> | <a target=xrefwindow id=d48294e936 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5240388">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/727023587">F1000 Recommendation</a></span></li><li><a name=ref-14 class=n-a></a><span class=label>14. </span>&nbsp;<span class=citation><a name=d48294e949 class=n-a></a>Rotto DM, Kaufman MP: Effect of metabolic products of muscular contraction on discharge of group III and IV afferents. <i>J Appl Physiol (1985).</i> 1988; <b>64</b>(6): 2306–13. <a target=xrefwindow id=d48294e957 href="http://www.ncbi.nlm.nih.gov/pubmed/3136123">PubMed Abstract </a> | <a target=xrefwindow id=d48294e960 href="https://doi.org/10.1152/jappl.1988.64.6.2306">Publisher Full Text </a></span></li><li><a name=ref-15 class=n-a></a><span class=label>15. </span>&nbsp;<span class=citation><a name=d48294e969 class=n-a></a>Decherchi P, Darques JL, Jammes Y: Modifications of afferent activities from Tibialis anterior muscle in rat by tendon vibrations, increase of interstitial potassium or lactate concentration and electrically-induced fatigue. <i>J Peripher Nerv Syst.</i> 1998; <b>3</b>(4): 267–76. <a target=xrefwindow id=d48294e977 href="http://www.ncbi.nlm.nih.gov/pubmed/10970127">PubMed Abstract </a></span></li><li><a name=ref-16 class=n-a></a><span class=label>16. </span>&nbsp;<span class=citation><a name=d48294e986 class=n-a></a>Delliaux S, Brerro-Saby C, Steinberg JG, <i> et al.</i>: Reactive oxygen species activate the group IV muscle afferents in resting and exercising muscle in rats. <i>Pflugers Arch.</i> 2009; <b>459</b>(1): 143–50. <a target=xrefwindow id=d48294e997 href="http://www.ncbi.nlm.nih.gov/pubmed/19701650">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1000 href="https://doi.org/10.1007/s00424-009-0713-8">Publisher Full Text </a></span></li><li><a name=ref-17 class=n-a></a><span class=label>17. </span>&nbsp;<span class=citation><a name=d48294e1009 class=n-a></a>Jammes Y, Steinberg JG, Olivier M, <i> et al.</i>: The mechanisms of the widespread production of phosphorylated HSP25 after fatiguing muscle stimulation. <i>J Exp Biol.</i> 2013; <b>216</b>(Pt 19): 3620–6. <a target=xrefwindow id=d48294e1020 href="http://www.ncbi.nlm.nih.gov/pubmed/23788701">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1023 href="https://doi.org/10.1242/jeb.088898">Publisher Full Text </a></span></li><li><a name=ref-18 class=n-a></a><span class=label>18. </span>&nbsp;<span class=citation><a name=d48294e1033 class=n-a></a>Lloyd AR, Gandevia SC, Hales JP: Muscle performance, voluntary activation, twitch properties and perceived effort in normal subjects and patients with the chronic fatigue syndrome. <i>Brain.</i> 1991; <b>114</b>(Pt 1A): 85–98. <a target=xrefwindow id=d48294e1041 href="http://www.ncbi.nlm.nih.gov/pubmed/1998892">PubMed Abstract </a></span></li><li><a name=ref-19 class=n-a></a><span class=label>19. </span>&nbsp;<span class=citation><a name=d48294e1050 class=n-a></a>Stokes MJ, Cooper RG, Edwards RH: Normal muscle strength and fatigability in patients with effort syndromes. <i>BMJ.</i> 1988; <b>297</b>(6655): 1014–7. <a target=xrefwindow id=d48294e1058 href="http://www.ncbi.nlm.nih.gov/pubmed/3142592">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1061 href="https://doi.org/10.1136/bmj.297.6655.1014">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1064 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1834796">Free Full Text </a></span></li><li><a name=ref-20 class=n-a></a><span class=label>20. </span>&nbsp;<span class=citation><a name=d48294e1073 class=n-a></a>Kent-Braun JA, Sharma KR, Weiner MW, <i> et al.</i>: Central basis of muscle fatigue in chronic fatigue syndrome. <i>Neurology.</i> 1993; <b>43</b>(1): 125–31. <a target=xrefwindow id=d48294e1084 href="http://www.ncbi.nlm.nih.gov/pubmed/8423875">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1087 href="https://doi.org/10.1212/wnl.43.1_part_1.125">Publisher Full Text </a></span></li><li><a name=ref-21 class=n-a></a><span class=label>21. </span>&nbsp;<span class=citation><a name=d48294e1096 class=n-a></a>Sacco P, Hope PA, Thickbroom GW, <i> et al.</i>: Corticomotor excitability and perception of effort during sustained exercise in the chronic fatigue syndrome. <i>Clin Neurophysiol.</i> 1999; <b>110</b>(11): 1883–91. <a target=xrefwindow id=d48294e1107 href="http://www.ncbi.nlm.nih.gov/pubmed/10576483">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1110 href="https://doi.org/10.1016/s1388-2457(99)00144-3">Publisher Full Text </a></span></li><li><a name=ref-22 class=n-a></a><span class=label>22. </span>&nbsp;<span class=citation><a name=d48294e1119 class=n-a></a>Schillings ML, Kalkman JS, van der Werf SP, <i> et al.</i>: Diminished central activation during maximal voluntary contraction in chronic fatigue syndrome. <i>Clin Neurophysiol.</i> 2004; <b>115</b>(11): 2518–24. <a target=xrefwindow id=d48294e1130 href="http://www.ncbi.nlm.nih.gov/pubmed/15465441">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1133 href="https://doi.org/10.1016/j.clinph.2004.06.007">Publisher Full Text </a></span></li><li><a name=ref-23 class=n-a></a><span class=label>23. </span>&nbsp;<span class=citation><a name=d48294e1142 class=n-a></a>Davey NJ, Puri BK, Catley M, <i> et al.</i>: Deficit in motor performance correlates with changed corticospinal excitability in patients with chronic fatigue syndrome. <i>Int J Clin Pract.</i> 2003; <b>57</b>(4): 262–4. <a target=xrefwindow id=d48294e1153 href="http://www.ncbi.nlm.nih.gov/pubmed/12800454">PubMed Abstract </a></span></li><li><a name=ref-24 class=n-a></a><span class=label>24. </span>&nbsp;<span class=citation><a name=d48294e1163 class=n-a></a>Siemionow V, Fang Y, Calabrese L, <i> et al.</i>: Altered central nervous system signal during motor performance in chronic fatigue syndrome. <i>Clin Neurophysiol.</i> 2004; <b>115</b>(10): 2372–81. <a target=xrefwindow id=d48294e1174 href="http://www.ncbi.nlm.nih.gov/pubmed/15351380">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1177 href="https://doi.org/10.1016/j.clinph.2004.05.012">Publisher Full Text </a></span></li><li><a name=ref-25 class=n-a></a><span class=label>25. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/727543827"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d48294e1186 class=n-a></a>Gerwyn M, Maes M: Mechanisms Explaining Muscle Fatigue and Muscle Pain in Patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): a Review of Recent Findings. <i>Curr Rheumatol Rep.</i> 2017; <b>19</b>(1): 1. <a target=xrefwindow id=d48294e1194 href="http://www.ncbi.nlm.nih.gov/pubmed/28116577">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1197 href="https://doi.org/10.1007/s11926-017-0628-x">Publisher Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/727543827">F1000 Recommendation</a></span></li><li><a name=ref-26 class=n-a></a><span class=label>26. </span>&nbsp;<span class=citation><a name=d48294e1210 class=n-a></a>Paul L, Wood L, Behan WM, <i> et al.</i>: Demonstration of delayed recovery from fatiguing exercise in chronic fatigue syndrome. <i>Eur J Neurol.</i> 1999; <b>6</b>(1): 63–9. <a target=xrefwindow id=d48294e1221 href="http://www.ncbi.nlm.nih.gov/pubmed/10209352">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1224 href="https://doi.org/10.1046/j.1468-1331.1999.610063.x">Publisher Full Text </a></span></li><li><a name=ref-27 class=n-a></a><span class=label>27. </span>&nbsp;<span class=citation><a name=d48294e1233 class=n-a></a>Sjøgaard G: Exercise-induced muscle fatigue: the significance of potassium. <i>Acta Physiol Scand Suppl.</i> 1990; <b>593</b>: 1–63. <a target=xrefwindow id=d48294e1241 href="http://www.ncbi.nlm.nih.gov/pubmed/2239345">PubMed Abstract </a></span></li><li><a name=ref-28 class=n-a></a><span class=label>28. </span>&nbsp;<span class=citation><a name=d48294e1250 class=n-a></a>Marcos E, Ribas J: Kinetics of plasma potassium concentrations during exhausting exercise in trained and untrained men. <i>Eur J Appl Physiol Occup Physiol.</i> 1995; <b>71</b>(2–3): 207–14. <a target=xrefwindow id=d48294e1258 href="http://www.ncbi.nlm.nih.gov/pubmed/7588690">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1261 href="https://doi.org/10.1007/bf00854980">Publisher Full Text </a></span></li><li><a name=ref-29 class=n-a></a><span class=label>29. </span>&nbsp;<span class=citation><a name=d48294e1270 class=n-a></a>Fulle S, Belia S, Vecchiet J, <i> et al.</i>: Modification of the functional capacity of sarcoplasmic reticulum membranes in patients suffering from chronic fatigue syndrome. <i>Neuromuscul Disord.</i> 2003; <b>13</b>(6): 479–84. <a target=xrefwindow id=d48294e1281 href="http://www.ncbi.nlm.nih.gov/pubmed/12899875">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1284 href="https://doi.org/10.1016/s0960-8966(03)00042-7">Publisher Full Text </a></span></li><li><a name=ref-30 class=n-a></a><span class=label>30. </span>&nbsp;<span class=citation><a name=d48294e1294 class=n-a></a>Fulle S, Mecocci P, Fanó G, <i> et al.</i>: Specific oxidative alterations in vastus lateralis muscle of patients with the diagnosis of chronic fatigue syndrome. <i>Free Radic Biol Med.</i> 2000; <b>29</b>(12): 1252–9. <a target=xrefwindow id=d48294e1305 href="http://www.ncbi.nlm.nih.gov/pubmed/11118815">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1308 href="https://doi.org/10.1016/s0891-5849(00)00419-6">Publisher Full Text </a></span></li><li><a name=ref-31 class=n-a></a><span class=label>31. </span>&nbsp;<span class=citation><a name=d48294e1317 class=n-a></a>Kennedy G, Spence VA, McLaren M, <i> et al.</i>: Oxidative stress levels are raised in chronic fatigue syndrome and are associated with clinical symptoms. <i>Free Radic Biol Med.</i> 2005; <b>39</b>(5): 584–9. <a target=xrefwindow id=d48294e1328 href="http://www.ncbi.nlm.nih.gov/pubmed/16085177">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1331 href="https://doi.org/10.1016/j.freeradbiomed.2005.04.020">Publisher Full Text </a></span></li><li><a name=ref-32 class=n-a></a><span class=label>32. </span>&nbsp;<span class=citation><a name=d48294e1340 class=n-a></a>Manuel y Keenoy B, Moorkens G, Vertommen J, <i> et al.</i>: Antioxidant status and lipoprotein peroxidation in chronic fatigue syndrome. <i>Life Sci.</i> 2001; <b>68</b>(17): 2037–49. <a target=xrefwindow id=d48294e1351 href="http://www.ncbi.nlm.nih.gov/pubmed/11388705">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1354 href="https://doi.org/10.1016/s0024-3205(01)01001-3">Publisher Full Text </a></span></li><li><a name=ref-33 class=n-a></a><span class=label>33. </span>&nbsp;<span class=citation><a name=d48294e1363 class=n-a></a>Vecchiet J, Cipollone F, Falasca K, <i> et al.</i>: Relationship between musculoskeletal symptoms and blood markers of oxidative stress in patients with chronic fatigue syndrome. <i>Neurosci Lett.</i> 2003; <b>335</b>(3): 151–4. <a target=xrefwindow id=d48294e1374 href="http://www.ncbi.nlm.nih.gov/pubmed/12531455">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1377 href="https://doi.org/10.1016/s0304-3940(02)01058-3">Publisher Full Text </a></span></li><li><a name=ref-34 class=n-a></a><span class=label>34. </span>&nbsp;<span class=citation><a name=d48294e1386 class=n-a></a>Richards RS, Roberts TK, McGregor NR, <i> et al.</i>: Blood parameters indicative of oxidative stress are associated with symptom expression in chronic fatigue syndrome. <i>Redox Rep.</i> 2000; <b>5</b>(1): 35–41. <a target=xrefwindow id=d48294e1397 href="http://www.ncbi.nlm.nih.gov/pubmed/10905542">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1400 href="https://doi.org/10.1179/rer.2000.5.1.35">Publisher Full Text </a></span></li><li><a name=ref-35 class=n-a></a><span class=label>35. </span>&nbsp;<span class=citation><a name=d48294e1409 class=n-a></a>Steinberg JG, Ba A, Brégeon F, <i> et al.</i>: Cytokine and oxidative responses to maximal cycling exercise in sedentary subjects. <i>Med Sci Sports Exerc.</i> 2007; <b>39</b>(6): 964–8. <a target=xrefwindow id=d48294e1420 href="http://www.ncbi.nlm.nih.gov/pubmed/17545886">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1423 href="https://doi.org/10.1097/mss.0b013e3180398f4b">Publisher Full Text </a></span></li><li><a name=ref-36 class=n-a></a><span class=label>36. </span>&nbsp;<span class=citation><a name=d48294e1433 class=n-a></a>Jammes Y, Steinberg JG, Brégeon F, <i> et al.</i>: The oxidative stress in response to routine incremental cycling exercise in healthy sedentary subjects. <i>Respir Physiol Neurobiol.</i> 2004; <b>144</b>(1): 81–90. <a target=xrefwindow id=d48294e1444 href="http://www.ncbi.nlm.nih.gov/pubmed/15522705">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1447 href="https://doi.org/10.1016/j.resp.2004.07.015">Publisher Full Text </a></span></li><li><a name=ref-37 class=n-a></a><span class=label>37. </span>&nbsp;<span class=citation><a name=d48294e1456 class=n-a></a>Mullis R, Campbell IT, Wearden AJ, <i> et al.</i>: Prediction of peak oxygen uptake in chronic fatigue syndrome. <i>Br J Sports Med.</i> 1999; <b>33</b>(5): 352–6. <a target=xrefwindow id=d48294e1467 href="http://www.ncbi.nlm.nih.gov/pubmed/10522640">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1470 href="https://doi.org/10.1136/bjsm.33.5.352">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1474 href="http://www.ncbi.nlm.nih.gov/pmc/articles/1756205">Free Full Text </a></span></li><li><a name=ref-38 class=n-a></a><span class=label>38. </span>&nbsp;<span class=citation><a name=d48294e1483 class=n-a></a>Inbar O, Dlin R, Rotstein A, <i> et al.</i>: Physiological responses to incremental exercise in patients with chronic fatigue syndrome. <i>Med Sci Sports Exerc.</i> 2001; <b>33</b>(9): 1463–70. <a target=xrefwindow id=d48294e1494 href="http://www.ncbi.nlm.nih.gov/pubmed/11528333">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1497 href="https://doi.org/10.1097/00005768-200109000-00007">Publisher Full Text </a></span></li><li><a name=ref-39 class=n-a></a><span class=label>39. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/734049359"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d48294e1506 class=n-a></a>Stevens S, Snell C, Stevens J, <i> et al.</i>: Cardiopulmonary Exercise Test Methodology for Assessing Exertion Intolerance in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. <i>Front Pediatr.</i> 2018; <b>6</b>: 242. <a target=xrefwindow id=d48294e1517 href="http://www.ncbi.nlm.nih.gov/pubmed/30234078">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1520 href="https://doi.org/10.3389/fped.2018.00242">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1524 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6131594">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/734049359">F1000 Recommendation</a></span></li><li><a name=ref-40 class=n-a></a><span class=label>40. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/725419785"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d48294e1537 class=n-a></a>Brown AE, Jones DE, Walker M, <i> et al.</i>: Abnormalities of AMPK activation and glucose uptake in cultured skeletal muscle cells from individuals with chronic fatigue syndrome. <i>PLoS One.</i> 2015; <b>10</b>(4): e0122982. <a target=xrefwindow id=d48294e1548 href="http://www.ncbi.nlm.nih.gov/pubmed/25836975">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1551 href="https://doi.org/10.1371/journal.pone.0122982">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1555 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4383615">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/725419785">F1000 Recommendation</a></span></li><li><a name=ref-41 class=n-a></a><span class=label>41. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/733039674"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d48294e1568 class=n-a></a>Richardson AM, Lewis DP, Kita B, <i> et al.</i>: Weighting of orthostatic intolerance time measurements with standing difficulty score stratifies ME/CFS symptom severity and analyte detection. <i>J Transl Med.</i> 2018; <b>16</b>(1): 97. <a target=xrefwindow id=d48294e1579 href="http://www.ncbi.nlm.nih.gov/pubmed/29650052">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1582 href="https://doi.org/10.1186/s12967-018-1473-z">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1586 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5898049">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/733039674">F1000 Recommendation</a></span></li><li><a name=ref-42 class=n-a></a><span class=label>42. </span>&nbsp;<span class=citation><a name=d48294e1600 class=n-a></a>Whitham M, Fortes MB: Heat shock protein 72: release and biological significance during exercise. <i>Front Biosci.</i> 2008; <b>13</b>: 1328–39. <a target=xrefwindow id=d48294e1608 href="http://www.ncbi.nlm.nih.gov/pubmed/17981633">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1611 href="https://doi.org/10.2741/2765">Publisher Full Text </a></span></li><li><a name=ref-43 class=n-a></a><span class=label>43. </span>&nbsp;<span class=citation><a name=d48294e1620 class=n-a></a>Noble EG: Heat shock proteins and their induction with exercise. In: <i>Exercise and Stress Response</i>. Edited by Locke M, Noble EG. Boca Raton, London, New York, Washington DC: CRC Press, 2002; 43–78. <a target=xrefwindow id=d48294e1625 href="https://doi.org/10.1201/9781420042016.ch3">Publisher Full Text </a></span></li><li><a name=ref-44 class=n-a></a><span class=label>44. </span>&nbsp;<span class=citation><a name=d48294e1634 class=n-a></a>Elfaitouri A, Herrmann B, Bölin-Wiener A, <i> et al.</i>: Epitopes of microbial and human heat shock protein 60 and their recognition in myalgic encephalomyelitis. <i>PLoS One.</i> 2013; <b>8</b>(11): e81155. <a target=xrefwindow id=d48294e1645 href="http://www.ncbi.nlm.nih.gov/pubmed/24312270">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1648 href="https://doi.org/10.1371/journal.pone.0081155">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1652 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3842916">Free Full Text </a></span></li><li><a name=ref-45 class=n-a></a><span class=label>45. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/735968937"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d48294e1661 class=n-a></a>Bårdsen K, Nilsen MM, Kvaløy JT, <i> et al.</i>: Heat shock proteins and chronic fatigue in primary Sjögren's syndrome. <i>Innate Immun.</i> 2016; <b>22</b>(3): 162–7. <a target=xrefwindow id=d48294e1672 href="http://www.ncbi.nlm.nih.gov/pubmed/26921255">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1675 href="https://doi.org/10.1177/1753425916633236">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1679 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4804286">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/735968937">F1000 Recommendation</a></span></li><li><a name=ref-46 class=n-a></a><span class=label>46. </span>&nbsp;<span class=citation><a name=d48294e1692 class=n-a></a>Jones DB, Coulson AF, Duff GW: Sequence homologies between hsp60 and autoantigens. <i>Immunol Today.</i> 1993; <b>14</b>(3): 115–8. <a target=xrefwindow id=d48294e1700 href="http://www.ncbi.nlm.nih.gov/pubmed/8466626">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1703 href="https://doi.org/10.1016/0167-5699(93)90210-C">Publisher Full Text </a></span></li><li><a name=ref-47 class=n-a></a><span class=label>47. </span>&nbsp;<span class=citation><a name=d48294e1712 class=n-a></a>Biagioli MC, Kaul P, Singh I, <i> et al.</i>: The role of oxidative stress in rhinovirus induced elaboration of IL-8 by respiratory epithelial cells. <i>Free Radic Biol Med.</i> 1999; <b>26</b>(3–4): 454–62. <a target=xrefwindow id=d48294e1723 href="http://www.ncbi.nlm.nih.gov/pubmed/9895238">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1726 href="https://doi.org/10.1016/s0891-5849(98)00233-0">Publisher Full Text </a></span></li><li><a name=ref-48 class=n-a></a><span class=label>48. </span>&nbsp;<span class=citation><a name=d48294e1736 class=n-a></a>Choi AM, Knobil K, Otterbein SL, <i> et al.</i>: Oxidant stress responses in influenza virus pneumonia: gene expression and transcription factor activation. <i>Am J Physiol.</i> 1996; <b>271</b>(3 Pt 1): L383–91. <a target=xrefwindow id=d48294e1747 href="http://www.ncbi.nlm.nih.gov/pubmed/8843786">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1750 href="https://doi.org/10.1152/ajplung.1996.271.3.L383">Publisher Full Text </a></span></li><li><a name=ref-49 class=n-a></a><span class=label>49. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/734157568"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d48294e1759 class=n-a></a>Rasa S, Nora-Krukle Z, Henning N, <i> et al.</i>: Chronic viral infections in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). <i>J Transl Med.</i> 2018; <b>16</b>(1): 268. <a target=xrefwindow id=d48294e1770 href="http://www.ncbi.nlm.nih.gov/pubmed/30285773">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1773 href="https://doi.org/10.1186/s12967-018-1644-y">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1777 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6167797">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/734157568">F1000 Recommendation</a></span></li><li><a name=ref-50 class=n-a></a><span class=label>50. </span>&nbsp;<span class=citation><a target=_blank title="F1000 recommended" class="research-layout prime-recommended-reference" href="https://f1000.com/prime/735371015"><span class="f1r-icon icon-79_faculty_recommended_badge small red vmiddle"></span></a><a name=d48294e1790 class=n-a></a>Bouquet J, Li T, Gardy JL, <i> et al.</i>: Whole blood human transcriptome and virome analysis of ME/CFS patients experiencing post-exertional malaise following cardiopulmonary exercise testing. <i>PLoS One.</i> 2019; <b>14</b>(3): e0212193. <a target=xrefwindow id=d48294e1801 href="http://www.ncbi.nlm.nih.gov/pubmed/30897114">PubMed Abstract </a> | <a target=xrefwindow id=d48294e1804 href="https://doi.org/10.1371/journal.pone.0212193">Publisher Full Text </a> | <a target=xrefwindow id=d48294e1808 href="http://www.ncbi.nlm.nih.gov/pmc/articles/6428308">Free Full Text </a> | <a target=_blank title="F1000 recommended" href="https://f1000.com/prime/735371015">F1000 Recommendation</a></span></li></ul></div></div></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 28 Nov 2019</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/8-2020.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/8-2020.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> <div class="f1r-article-mobile margin-bottom-30"> <div class=contracted-details> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> C2VN Inserm Inra, Faculty of Medicine, Aix Marseille University, Marseille, France, France<br/> <sup>2</sup> Department of Internal Medicine, European Hospital, Marseille, France, France<br/> <p> <div class=margin-bottom> Yves Jammes <br/> <span>Roles: </span> Conceptualization, Data Curation, Investigation, Methodology, Resources, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Fr&eacute;d&eacute;rique Retornaz <br/> <span>Roles: </span> Conceptualization, Formal Analysis, Funding Acquisition, Resources, Supervision, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> <div class=contracted-details> <a href="#" class=section-title>Article Versions (1)</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> <div> <a href="https://f1000research.com/articles/8-2020/v1" title="Open version 1 of this article." class="" gahelper=1>version 1</a> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div> Published: 28 Nov 2019, 8:2020 </div> <div class=""><a href="https://doi.org/10.12688/f1000research.18660.1">https://doi.org/10.12688/f1000research.18660.1</a></div> </div> </div> <div class=contracted-details> <a href="#" class=section-title> <span class="f1r-icon icon-100_open_access"></span> Copyright </a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> © 2019 Jammes Y and Retornaz F. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </div> </div> <div class="padding-top-30 research-layout"> <div class=article-toolbox-wrapper-mobile> <div class=article-tools-icon-mobile data-section=download> <span class="f1r-icon icon-76_download_file white"></span> </div> <div class="article-tools-icon-mobile mobile-metrics article-metrics-wrapper metrics-icon-wrapper" data-section=metrics data-version-id=20429 data-id=18660 data-downloads="" data-views="" data-scholar="10.12688/f1000research.18660.1" data-recommended="" data-f1r-ga-helper="Article Page Metrics (Mobile)"> <span class="f1r-icon icon-89_metrics white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=cite> <span class="f1r-icon icon-82_quote white"></span> </div> <div class="article-tools-icon-mobile " data-section=track> <span class="f1r-icon icon-90_track white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=share> <span class="f1r-icon icon-34_share white"></span> </div> <span class=article-toolbox-stretch></span> </div> <div class=article-toolbox-content-mobile> <div class="toolbox-section download"> <div class=toolbox-section-heading>Download</div> <div class=toolbox-section-content> <a href="https://f1000research.com/articles/8-2020/v1/pdf?article_uuid=7c287bc5-35d1-43bb-9f67-364576689373" title="Download PDF" class="no-decoration pdf-download-helper"> <span class="f1r-icon icon-102_download_pdf toolbox-section-icon"></span> </a> <div class=toolbox-section-option-divider>&nbsp;</div> <a id=mobile-download-xml class=no-decoration href="#" title="Download XML"> <span class="f1r-icon icon-103_download_xml toolbox-section-icon"></span> </a> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>Export To</div> <div class=toolbox-section-content> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=WORKSPACE>Sciwheel</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=BIBTEX>Bibtex</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=ENDNOTE>EndNote</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=PROCITE>ProCite</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=REF_MANAGER>Ref. Manager (RIS)</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=SENTE>Sente</button> </div> </div> <div class="toolbox-section metrics"> <div class="toolbox-section-heading no-top-border">metrics</div> <div class="toolbox-section-divider toolbox-section-divider--no-height"></div> <div class=article-metrics-pageinfo> <div class=c-article-metrics-table> <table class=c-article-metrics-table__table> <thead> <tr> <th></th> <th><span class=c-article-metrics-table__heading>Views</span></th> <th><span class=c-article-metrics-table__heading>Downloads</span></th> </tr> </thead> <tbody> <tr> <th class=c-article-metrics-table__row-heading><span class="c-article-metrics-table__platform u-platform--" data-test-id=metrics_platform_name_mob>F1000Research</span></th> <td class="c-article-metrics-table__value js-article-views-count" data-test-id=metrics_platform_views_mob>-</td> <td class="c-article-metrics-table__value js-article-downloads-count" data-test-id=metrics_platform_downloads_mob>-</td> </tr> <tr> <th class=c-article-metrics-table__row-heading> <span class="u-ib u-middle c-article-metrics-table__pmc" data-test-id=metrics_pmc_name_mob>PubMed Central</span> <div class="c-block-tip c-block-tip--centered c-article-metrics-table__tooltip c-block-tip--md-padding c-block-tip--small-arrow u-ib u-middle"> <button type=button class="u-black--medium u-black--high@hover u-ib u-middle c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content>Data from PMC are received and updated monthly.</div> </div> </th> <td class="c-article-metrics-table__value js-pmc-views-count" data-test-id=metrics_pmc_views_mob>-</td> <td class="c-article-metrics-table__value js-pmc-downloads-count" data-test-id=metrics_pmc_downloads_mob>-</td> </tr> </tbody> </table> </div> </div> <span class=metrics-citations-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-heading u-mb--1">Citations</div> <div> <div class=toolbox-section-colsplit> <div class=citations-scopus-logo> <a href="" target=_blank class="is-hidden metrics-citation-icon" title="View full citation details at www.scopus.com"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count scopus"> <a href='' class='scopus-citation-link is-hidden' target=_blank title='View full citation details at www.scopus.com'>0</a> </div> </div> <div class=toolbox-section-colsplit> <div class="citations-pubmed-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon f1000research" title="View full citation details"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count pubmed"> <a href='' class='pubmed-citation-link is-hidden' target=_blank title='View full citation details'>0</a> </div> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <div class="citations-scholar-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon google-scholar f1000research" title="View full citation details" data-scholar="10.12688/f1000research.18660.1"><i class="material-icons scopus-icon">open_in_new</i></a> </div> </div> </div> </span> <span class=metrics-details-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-content altmetric-section"> <div class=altmetrics-image></div> <div class=altmetrics-more-link> <a href="" target=_blank class=f1r-standard-link>SEE MORE DETAILS</a> </div> <div class=altmetric-mobile-column-counts></div> <div class=altmetric-mobile-column-readers></div> <div class=toolbox-section-divider></div> </div> </span> </div> <div class="toolbox-section cite"> <div class="toolbox-section-heading no-top-border">CITE</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>how to cite this article</div> <div id=citation-copy-mobile class="toolbox-section-content text-content heading9 small" data-test-id=mob_copy-citation_text> Jammes Y and Retornaz F. Understanding neuromuscular disorders in chronic fatigue syndrome [version 1; peer review: 2 approved] <i>F1000Research</i> 2019, <b>8</b>(F1000 Faculty Rev):2020 (<a href="https://doi.org/10.12688/f1000research.18660.1" target=_blank>https://doi.org/10.12688/f1000research.18660.1</a>) </div> <div class=toolbox-section-divider></div> <div class="toolbox-section-content text-content heading9 small"> NOTE: <em>it is important to ensure the information in <b>square brackets after the title</b> is included in all citations of this article.</em> </div> <div class=toolbox-section-content> <button class="primary orange extra-padding copy-cite-article-mobile js-clipboard" data-clipboard-target="#citation-copy-mobile" title="Copy the current citation details." data-test-id=mob_copy-citation_button-mob>COPY CITATION DETAILS</button> </div> </div> <div class="toolbox-section track"> <div class="toolbox-section-heading no-top-border">track</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>receive updates on this article</div> <div class="toolbox-section-content padding-left-20 padding-right-20 heading9 small"> Track an article to receive email alerts on any updates to this article. </div> <div class=toolbox-section-content> <a data-article-id=18660 id=mobile-track-article-signin-18660 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/18660?target=/articles/8-2020.html"> <button class="primary orange extra-padding"> TRACK THIS ARTICLE </button> </a> </div> </div> <div class="toolbox-section share"> <div class="toolbox-section-heading no-top-border">Share</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <a target=_blank class="f1r-shares-icon-square f1r-shares-email" title="Email this article"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-twitter" title="Share on Twitter"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-facebook" title="Share on Facebook"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-linkedin" title="Share on LinkedIn"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-reddit" title="Share on Reddit"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-mendelay" title="Share on Mendeley"></a> <div class="email-article-wrapper email-article-version-container"> <div class=toolbox-section-divider></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form-mobile research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=20429 /> <input name=articleId type=hidden value=18660 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> </div> </div> </div> <a name=article-reports></a> <div id=article-reports class="u-mt--3 reports-comments no-divider"> <div class="current-referee-status current-referee-status--faculty "> <h2 class=main-title id=current-referee-status> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-85_peer_review size30"></span> </span> Open Peer Review <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> <a name=current-referee-status></a> <div class=current-referee-status__content name=add-new-report-comment id=add-new-report-comment> Current Reviewer Status: <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-desk-inline"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile float-right"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> </span> <span class="research-layout f1r-article-mobile"> <div class=mobile-ref-status-help> Key to Reviewer Statuses <span class=referee-status-pointer></span> <span class="view-control float-right">VIEW</span> <span class="view-control float-right is-hidden">HIDE</span> <div class=mobile-ref-status-help-content> <div class="cf margin-top"> <span class="f1r-icon icon-86_approved status-green smaller float-left margin-bottom-40 margin-right" title=Approved></span> <span class=title>Approved</span>The paper is scientifically sound in its current form and only minor, if any, improvements are suggested </div> <div class="cf margin-top"> <span class="f1r-icon icon-87_approved_reservations status-green smaller float-left margin-bottom-40 margin-right" title="Approved with Reservations"></span> <span class=title>Approved with reservations</span> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </div> <div class="cf margin-top"> <span class="f1r-icon icon-88_not_approved status-red small float-left margin-bottom-30 margin-right" title="Not Approved"></span> <span class=title>Not approved</span>Fundamental flaws in the paper seriously undermine the findings and conclusions </div> </div> </div> </span> <div class=editorial-note> <h5 class=editorial-note__title>Editorial Note on the Review Process</h5> <p class=editorial-note__text><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home">Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> </div> <div class=approved-referee> <h4 class=approved-referee__title>Reviewers who approved this article</h4> <ol class=approved-referee__list> <li class="approved-referee__list-item "> <span class=approved-referee__co-referee> <strong>Brett A Lidbury</strong>, National Centre for Epidemiology and Population Health, RSPH, College of Health and Medicine, The Australian National University, Australia </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> <li class="approved-referee__list-item margin-top-20"> <span class=approved-referee__co-referee> <strong>Christopher R Snell</strong>, Workwell Foundation, USA </span> <span class=approved-referee__competing-list> <strong>Competing interests:</strong> No competing interests were declared. (for version 1) <br> </span> </li> </ol> </div> </div> </div> </div> <div class="f1r-article-mobile research-layout"> <div class="mobile-sections-divider before-comments"></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 28 Nov 2019</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/8-2020.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/8-2020.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> </div> </div> <div id=article_main-column class="p-article__sidebar o-layout__item u-1/3 not-expanded js-article-sidebar"> <div class="o-tab p-article__column-toggle-container"> <button class="c-tab c-tab--left js-column-toggle p-article__column-toggle not-expanded " type=button data-target-main=article_main-column data-target-secondary=article_secondary-column><i class="c-tab__icon material-icons u-hide@expanded">keyboard_arrow_left</i><i class="c-tab__icon material-icons u-show@expanded">keyboard_arrow_right</i></button> </div> <div class=p-article__sidebar-content> <div class="p-article__sidebar-scroller js-article-sidebar-scroller"> <section class="p-article__sidebar-view js-article-sidebar-view js-article-sidebar-main u-pt u-pb--8" data-view=peer-review> <div class="o-layout o-layout--flush"> <div class="o-layout__item u-pl"> <h3 class="u-mt--0 u-mb--2 t-h3 u-weight--md u-pl" data-test-id=article_sidebar_heading>Open Peer Review</h3> </div> <div class=o-layout__item> <section class=""> <div class="p-article__sidebar-highlight u-mb--2 u-pr--1"> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md u-mr--1/2">Reviewer Status</h4> <div class="c-referee-status__icons u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=60396-56745></i> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=60395-56744></i> </div> </div> <div class="o-actions__secondary _mdl-layout"> <div class="c-block-tip p-article__sidebar-tooltip c-block-tip--below c-block-tip--small-arrow c-block-tip--sm-padding"> <button type=button class="c-button c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content> <p class="t-body u-mt--0 u-mb--0"><em class=u-weight--md>Alongside their report, reviewers assign a status to the article:</em></p> <dl class=c-definitions> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--approved " title=Approved #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved</span></dt> <dd class="c-definitions__description t-caption">The paper is scientifically sound in its current form and only minor, if any, improvements are suggested</dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--reservations" title="Approved with Reservations" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Approved with reservations</span></dt> <dd class="c-definitions__description t-caption"> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </dd> <dt class="c-definitions__term u-upper t-control u-weight--md u-black--high"><span class="u-ib u-middle"> <i class="c-icn--f1r-icon c-icn--not-approved " title="Not Approved" #data-refInfo=""></i> </span> <span class="u-middle u-ib u-ml--1/2">Not approved</span></dt> <dd class="c-definitions__description t-caption">Fundamental flaws in the paper seriously undermine the findings and conclusions</dd> </dl> </div> </div> </div> </div> </div> <div class="o-layout__item u-mb--1"><h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md">Reviewer Reports</h4></div> <table class="c-report-timeline u-mb--2"> <thead class=c-report-timeline__headings> <tr> <th></th> <th class="u-pb--1/2" colspan=2><em class="t-body u-weight--rg">Invited Reviewers</em></th> </tr> <tr class=c-report-timeline__headings-row> <th></th> <th class="c-report-timeline__headings-version p-article__color--dark">1</th> <th class="c-report-timeline__headings-version p-article__color--dark">2</th> </tr> </thead> <tbody> <tr class="c-report-timeline__row c-report-timeline__row--selected "> <th class=c-report-timeline__version> <a data-test-id=sidebar_timeline_v1_version href="https://f1000research.com/articles/8-2020/v1">Version 1</a><br/> <span class=p-article__color--dark> <span data-test-id=sidebar_timeline_v1_date class=c-report-timeline__date>28 Nov 19</span> </span> </th> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> <td class="c-report-timeline__report c-report-timeline__cell "> <i class="c-icn--f1r-icon c-icn--approved small" title=Approved #data-refInfo=""></i> </td> </tr> </tbody> </table> <div class=o-layout__item> <hr class="c-hr c-hr--low u-mb--2"> </div> </section> </div> <div class=o-layout__item> <div class="u-pl u-pr"> <p class="t-body u-mt--0 u-mb--2"><a href="/browse/faculty-reviews">Faculty Reviews</a> are review articles written by the prestigious Members of <a href="https://facultyopinions.com/prime/home" target=_blank class=in-text-link>Faculty Opinions</a>. The articles are commissioned and peer reviewed before publication to ensure that the final, published version is comprehensive and accessible. The reviewers who approved the final version are listed with their names and affiliations.</p> <ol class="p-article__faculty-referee-list t-caption"> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Brett A Lidbury</strong>, National Centre for Epidemiology and Population Health, RSPH, College of Health and Medicine, The Australian National University, Australia </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> <li> <p class=" u-mt--0 u-mb--1/2"><strong>Christopher R Snell</strong>, Workwell Foundation, USA </p> <div class="c-read-more js-read-more " data-lines=3> <div class="c-read-more__content js-read-more-content "> <p class="u-mt--0 u-mb--0 p-article__color--light"> <strong class=u-weight--md>Competing interests:</strong> No competing interests were declared. </p> </div> <a href="#" class="c-read-more__toggle js-read-more-toggle t-caption"> <span class=c-read-more__expand>View more</span> <span class=c-read-more__contract>View less</span> </a> </div> </li> </ol> </div> </div> <section class="o-layout__item u-pl"> <div class=u-pl> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--2">Comments on this article</h4> <div class=u-mb--4> <p class="u-mt--0 u-mb--1 t-h4"><a class=p-article__color--light href="#article-comments">All Comments</a><span class=" u-ib u-ml--1/2 p-article__color--light">(0)</span></p> <a class=t-h4 href="/login?originalPath=/articles/8-2020.html&scrollTo=add-new-comment" data-test-id=add-comment>Add a comment</a> </div> <hr class="c-hr c-hr--low c-hr--md u-mb--4"> <div class="research-layout f1r-article-desk"> <div class="heading6 c-ribbon-wrapper c-ribbon-wrapper--etoc f1000research "> <div class=c-ribbon-wrapper__body>Sign up for content alerts</div> </div> </div> <div class="research-layout sidebar-sign-up-form f1r-article-desk u-mb--4 "> <form class=js-email-alert-signup action="#" method=POST data-email=tocAlertWeekly> <input type=hidden name=isUserLoggedIn class=js-email-alert-signup-logged-in value=N /> <input type=hidden name=userId class=js-email-alert-signup-user-id value=""/> <input type=hidden name=frequency class=js-email-alert-signup-frequency value=WEEKLY /> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <input type=email name=emailAddress class="form-input-field js-email-alert-signup-address u-1/1 u-bb" required=required placeholder=Email /> </div> <div class=o-actions__secondary> <div class="_mdl-layout u-ml--1/2"> <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--small mdl-button--filled js-email-alert-signup-submit">Sign Up</button> </div> </div> </div> </form> <div id=sidebar-sign-up-message class="section-text js-email-alert-signup-msg is-hidden">You are now signed up to receive this alert</div> </div> <section class=js-terms-container> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--1">Browse by related subjects</h4> <div class="article-subcontainer article-subcontainer--sidebar"> <ul class=js-terms-list></ul> </div> </section> </div> </section> </div> </section> </div> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/read-more.js"></script> <script src="/js/article/article-router.js"></script> <script src="/js/article/article-sidebar.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/article/article-column-toggle.js"></script> </div> </div> </div> </main> <input type=hidden id=_articleVersionUrl value="https://f1000research.com/articles/8-2020/v1/"> <div class=research-help id=about-referee-status> <div class="research-layout research-help-content about-referee-status"> <span class="close-research-help dark-cross" title=Close></span> Alongside their report, reviewers assign a status to the article: <div class="cf research-help-row"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> <span class=research-help-text>Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested</span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-87_approved_reservations status-green smaller" title="Approved with Reservations"></span> <span class=research-help-text>Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-88_not_approved status-red small" title="Not Approved"></span> <span class=research-help-text>Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions</span> </div> </div> </div> <div id=datasets-info class=is-hidden> </div> <div class=article-interactive-content-container style="display: none;"> <a name=f-template class=n-a></a> <div class="interactive-content-wrapper padding-20"> <img src="" class=interactive-content-image title="Open the interactive image display"> <div class=interactive-content-title></div> <div class=interactive-content-text></div> <div class="f1r-article-desk interactive-content-ribbon" data-interactive-content-type=R-Script> <div class=interactive-content-label>Adjust parameters to alter display</div> <div class=interactive-content-button></div> </div> <div class="f1r-article-mobile mobile-interactive-note"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div id=article-interactive-omero-container class=article-interactive-omero-container style="display: none;"> <div class=interactive-content-wrapper> <div class="interactive-omero-button omero-content" title="Open the interactive content window." data-interactive-content-type=Omero></div> <div class=has-interactive-content-image> <span class=box-arrow></span> <span class=box-middle>Includes Interactive Elements</span> <span class=box-end></span> </div> <div class="fig panel clearfix" style="margin: 0; padding-bottom: 20px;"> <a name=templatelink class=n-a></a> <a target=_blank href="" class=link-for-omero-image> <img src="" class=interactive-omero-image title="Open the image display window."> </a> <div class=caption> <div class=interactive-content-title></div> <div class=interactive-content-text></div> </div> <div class="is-hidden omero-image-list"></div> </div> <div class="f1r-article-mobile mobile-interactive-note omero"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div class="add-comment-container shadow-box is-hidden" id=save-comment-container> <span id=save-comment-text class=intro-text>Edit comment</span> <textarea id=new-comment name=new-comment class="global-textarea comment margin-bottom margin-top"></textarea> <p><strong>Competing Interests</strong></p> <textarea id=new-competing-interests name=competing-interests class="global-textarea competing-interests margin-bottom check-xss"></textarea> <div class=clearfix></div> <button id=cancelComment type=button class="general-white-orange-button float-right no-background-button margin-left"> Cancel </button> <button id=save-comment-button commentId="" type=button class="general-white-orange-button float-right"> Save </button> <div class=clearfix></div> <div class="green-message margin-top is-hidden comment-is-saved">The comment has been saved.</div> <div class="red-message margin-top is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class="red-message margin-top is-hidden comment-enter-text ucf">Your must enter a comment.</div> <div class="red-message margin-top is-hidden comment-references-error references">References error.</div> </div> <div class="modal-window-wrapper is-hidden"> <div id=conflicts-interests class="modal-window padding-20"> <div class=modal-window__content> <h2 class=h2-title>Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div class="f1r-article-mobile research-layout"> <span class=modal-window-close-button></span> </div> </div> </div> <div class="o-modal c-email-alert-popup js-email-alert-popup is-hidden"> <div class="o-modal__body js-modal-body c-email-alert-popup__inner"> <h3 class=c-email-alert-popup__title>Stay Updated</h3> <p class=c-email-alert-popup__sub>Sign up for content alerts and receive a weekly or monthly email with all newly published articles</p> <p><a href="/register?originalPath=" class="c-email-alert-popup__lnk c-email-alert-popup__button js-email-alert-popup-action">Register with F1000Research</a></p> <p>Already registered? <a href="/login?originalPath=" class="c-email-alert-popup__lnk js-email-alert-popup-action">Sign in</a></p> <p class=c-email-alert-popup__footer><a class="c-email-alert-popup__lnk js-email-alert-popup-cancel" href="#">Not now, thanks</a></p> </div> </div> <div id=addCommentModal role=dialog aria-labelledby=addCommentModal_title aria-describedby=addCommentModal_description> <div class="c-modal js-modal is-closed p-article__add-comment-modal c-modal--xlarge js-article-comment-modal c-modal--scroll "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-bg--2 c-modal--scroll-always "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <div id=addCommentModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div class="js-add-comment-container t-caption u-black--high"> <div class=u-weight--bd>PLEASE NOTE</div> <div class=u-mt--1> <span class="red u-weight--bd">If you are an AUTHOR of this article,</span> please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a &ldquo;User Comment&rdquo;. </div> <div class=u-mt--1> <span class="red u-weight--bd">If you are a REVIEWER of this article,</span> please check that you have signed in with the account associated with this article and then go to your <a href="/my/referee">account</a> to submit your report, please do not post your review here. </div> <div class="u-mt--1 u-mb--1"> If you do not have access to your original account, please <a href="mailto:research@f1000.com">contact us</a>. </div> <p class=no-top-margin>All commenters must hold a formal affiliation as per our <a href="/about/policies#commentspolicy" target=_blank>Policies</a>. The information that you give us will be displayed next to your comment.</p> <p>User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the <a href="/about/legal/usercommenttermsandconditions" target=_blank>User Comment Terms and Conditions</a>. Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available.</p> <div class="comments-note margin-bottom" id=accept-user-comments> <input class=js-add-comment-accept-terms type=checkbox id=acceptedTermsAndConditions name=acceptedTermsAndConditions> I accept the <a href="/about/legal/usercommenttermsandconditions" target=_blank> User Comment Terms and Conditions</a> <span class=required>&nbsp;</span> </div> <div class="default-error margin-top is-hidden comment-accept-conditions utac">Please confirm that you accept the User Comment Terms and Conditions.</div> <div class="research-layout registration-form u-mb--2"> <div class="u-mb--1 u-mt--2"> <strong>Affiliation</strong> </div> <div class=form-field> <input type=text name=institution class="form-input-field check-xss js-add-comment-institution" placeholder="Organization *" autocomplete=off /> <div class="default-error margin-top is-hidden comment-enter-institution institution">Please enter your organisation.</div> </div> <div class=form-field> <input type=text name=place class="form-input-field check-xss js-add-comment-place" placeholder=Place> </div> <div class=form-field> <div class="form-input-wrapper hundred-percent-wide"> <div class="new-select-standard-wrapper half-width inline-display heading10"> <select name=countryId id=country class="form-select-menu smaller js-add-comment-country"> <option value=-1>Country*</option> <option value=840>USA</option> <option value=826>UK</option> <option value=124>Canada</option> <option value=156>China</option> <option value=250>France</option> <option value=276>Germany</option> <optgroup label=-----------------------------------------------></optgroup> <option value=4>Afghanistan</option> <option value=248>Aland Islands</option> <option value=8>Albania</option> <option value=12>Algeria</option> <option value=16>American Samoa</option> <option value=20>Andorra</option> <option value=24>Angola</option> <option value=660>Anguilla</option> <option value=10>Antarctica</option> <option value=28>Antigua and Barbuda</option> <option value=32>Argentina</option> <option value=51>Armenia</option> <option value=533>Aruba</option> <option value=36>Australia</option> <option value=40>Austria</option> <option value=31>Azerbaijan</option> <option value=44>Bahamas</option> <option value=48>Bahrain</option> <option value=50>Bangladesh</option> <option value=52>Barbados</option> <option value=112>Belarus</option> <option value=56>Belgium</option> <option value=84>Belize</option> <option value=204>Benin</option> <option value=60>Bermuda</option> <option value=64>Bhutan</option> <option value=68>Bolivia</option> <option value=70>Bosnia and Herzegovina</option> <option value=72>Botswana</option> <option value=74>Bouvet Island</option> <option value=76>Brazil</option> <option value=86>British Indian Ocean Territory</option> <option value=92>British Virgin Islands</option> <option value=96>Brunei</option> <option value=100>Bulgaria</option> <option value=854>Burkina Faso</option> <option value=108>Burundi</option> <option value=116>Cambodia</option> <option value=120>Cameroon</option> <option value=124>Canada</option> <option value=132>Cape Verde</option> <option value=136>Cayman Islands</option> <option value=140>Central African Republic</option> <option value=148>Chad</option> <option value=152>Chile</option> <option value=156>China</option> <option value=162>Christmas Island</option> <option value=166>Cocos (Keeling) Islands</option> <option value=170>Colombia</option> <option value=174>Comoros</option> <option value=178>Congo</option> <option value=184>Cook Islands</option> <option value=188>Costa Rica</option> <option value=384>Cote d'Ivoire</option> <option value=191>Croatia</option> <option value=192>Cuba</option> <option value=196>Cyprus</option> <option value=203>Czech Republic</option> <option value=180>Democratic Republic of the Congo</option> <option value=208>Denmark</option> <option value=262>Djibouti</option> <option value=212>Dominica</option> <option value=214>Dominican Republic</option> <option value=218>Ecuador</option> <option value=818>Egypt</option> <option value=222>El Salvador</option> <option value=226>Equatorial Guinea</option> <option value=232>Eritrea</option> <option value=233>Estonia</option> <option value=231>Ethiopia</option> <option value=238>Falkland Islands</option> <option value=234>Faroe Islands</option> <option value=583>Federated States of Micronesia</option> <option value=242>Fiji</option> <option value=246>Finland</option> <option value=250>France</option> <option value=254>French Guiana</option> <option value=258>French Polynesia</option> <option value=260>French Southern Territories</option> <option value=266>Gabon</option> <option value=268>Georgia</option> <option value=276>Germany</option> <option value=288>Ghana</option> <option value=292>Gibraltar</option> <option value=300>Greece</option> <option value=304>Greenland</option> <option value=308>Grenada</option> <option value=312>Guadeloupe</option> <option value=316>Guam</option> <option value=320>Guatemala</option> <option value=831>Guernsey</option> <option value=324>Guinea</option> <option value=624>Guinea-Bissau</option> <option value=328>Guyana</option> <option value=332>Haiti</option> <option value=334>Heard Island and Mcdonald Islands</option> <option value=336>Holy See (Vatican City State)</option> <option value=340>Honduras</option> <option value=344>Hong Kong</option> <option value=348>Hungary</option> <option value=352>Iceland</option> <option value=356>India</option> <option value=360>Indonesia</option> <option value=364>Iran</option> <option value=368>Iraq</option> <option value=372>Ireland</option> <option value=376>Israel</option> <option value=380>Italy</option> <option value=388>Jamaica</option> <option value=392>Japan</option> <option value=832>Jersey</option> <option value=400>Jordan</option> <option value=398>Kazakhstan</option> <option value=404>Kenya</option> <option value=296>Kiribati</option> <option value=901>Kosovo (Serbia and Montenegro)</option> <option value=414>Kuwait</option> <option value=417>Kyrgyzstan</option> <option value=418>Lao People's Democratic Republic</option> <option value=428>Latvia</option> <option value=422>Lebanon</option> <option value=426>Lesotho</option> <option value=430>Liberia</option> <option value=434>Libya</option> <option value=438>Liechtenstein</option> <option value=440>Lithuania</option> <option value=442>Luxembourg</option> <option value=446>Macao</option> <option value=807>Macedonia</option> <option value=450>Madagascar</option> <option value=454>Malawi</option> <option value=458>Malaysia</option> <option value=462>Maldives</option> <option value=466>Mali</option> <option value=470>Malta</option> <option value=584>Marshall Islands</option> <option value=474>Martinique</option> <option value=478>Mauritania</option> <option value=480>Mauritius</option> <option value=175>Mayotte</option> <option value=484>Mexico</option> <option value=581>Minor Outlying Islands of the United States</option> <option value=498>Moldova</option> <option value=492>Monaco</option> <option value=496>Mongolia</option> <option value=499>Montenegro</option> <option value=500>Montserrat</option> <option value=504>Morocco</option> <option value=508>Mozambique</option> <option value=104>Myanmar</option> <option value=516>Namibia</option> <option value=520>Nauru</option> <option value=524>Nepal</option> <option value=530>Netherlands Antilles</option> <option value=540>New Caledonia</option> <option value=554>New Zealand</option> <option value=558>Nicaragua</option> <option value=562>Niger</option> <option value=566>Nigeria</option> <option value=570>Niue</option> <option value=574>Norfolk Island</option> <option value=580>Northern Mariana Islands</option> <option value=408>North Korea</option> <option value=578>Norway</option> <option value=512>Oman</option> <option value=586>Pakistan</option> <option value=585>Palau</option> <option value=275>Palestinian Territory</option> <option value=591>Panama</option> <option value=598>Papua New Guinea</option> <option value=600>Paraguay</option> <option value=604>Peru</option> <option value=608>Philippines</option> <option value=612>Pitcairn</option> <option value=616>Poland</option> <option value=620>Portugal</option> <option value=630>Puerto Rico</option> <option value=634>Qatar</option> <option value=638>Reunion</option> <option value=642>Romania</option> <option value=643>Russian Federation</option> <option value=646>Rwanda</option> <option value=654>Saint Helena</option> <option value=659>Saint Kitts and Nevis</option> <option value=662>Saint Lucia</option> <option value=666>Saint Pierre and Miquelon</option> <option value=670>Saint Vincent and the Grenadines</option> <option value=882>Samoa</option> <option value=674>San Marino</option> <option value=678>Sao Tome and Principe</option> <option value=682>Saudi Arabia</option> <option value=686>Senegal</option> <option value=688>Serbia</option> <option value=690>Seychelles</option> <option value=694>Sierra Leone</option> <option value=702>Singapore</option> <option value=703>Slovakia</option> <option value=705>Slovenia</option> <option value=90>Solomon Islands</option> <option value=706>Somalia</option> <option value=710>South Africa</option> <option value=239>South Georgia and the South Sandwich Is</option> <option value=410>South Korea</option> <option value=724>Spain</option> <option value=144>Sri Lanka</option> <option value=736>Sudan</option> <option value=740>Suriname</option> <option value=744>Svalbard and Jan Mayen</option> <option value=748>Swaziland</option> <option value=752>Sweden</option> <option value=756>Switzerland</option> <option value=760>Syria</option> <option value=158>Taiwan</option> <option value=762>Tajikistan</option> <option value=834>Tanzania</option> <option value=764>Thailand</option> <option value=270>The Gambia</option> <option value=528>The Netherlands</option> <option value=626>Timor-Leste</option> <option value=768>Togo</option> <option value=772>Tokelau</option> <option value=776>Tonga</option> <option value=780>Trinidad and Tobago</option> <option value=788>Tunisia</option> <option value=792>Turkey</option> <option value=795>Turkmenistan</option> <option value=796>Turks and Caicos Islands</option> <option value=798>Tuvalu</option> <option value=800>Uganda</option> <option value=826>UK</option> <option value=804>Ukraine</option> <option value=784>United Arab Emirates</option> <option value=850>United States Virgin Islands</option> <option value=858>Uruguay</option> <option value=840>USA</option> <option value=860>Uzbekistan</option> <option value=548>Vanuatu</option> <option value=862>Venezuela</option> <option value=704>Vietnam</option> <option value=876>Wallis and Futuna</option> <option value=905>West Bank and Gaza Strip</option> <option value=732>Western Sahara</option> <option value=887>Yemen</option> <option value=894>Zambia</option> <option value=716>Zimbabwe</option> </select> </div> </div> <div class="default-error margin-top is-hidden comment-enter-country country">Please select your country.</div> </div> </div> <textarea data-test-id=article_add-comment_comment name=new-comment class="js-add-comment-comment comment margin-bottom margin-top"></textarea> <div class="default-error margin-top comment-enter-text comment-error is-hidden ">You must enter a comment.</div> <label class="comments-note u-mt--2 u-mb--2" for=competingInterests_1> <div class="u-mb--1 u-mt--2"><strong data-test-id=article_report-add-comment_competing-interests-title>Competing Interests</strong></div> <p class="u-mb--2 u-mt--0" data-test-id=article_report-add-comment_competing-interests-description>Please disclose any <a href="#article-competing-intersts-policy" class=js-modal-competing-intersts-toggle>competing interests</a> that might be construed to influence your judgment of the article's or peer review report's validity or importance.</p> </label> <div id=article-competing-intersts-policy class=js-article-competing-interests-policy style="display: none;"> <h2 class="h2-title u-mt--0 u-pt--0">Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div id=competingInterests_1 class="c-inline-editor js-inline-editor js-form_input u-bb--all u-mb--2 js-comment-competing-interests" data-name=competing-interests data-rows=3> <textarea id=competingInterests_1_input name=competing-interests placeholder="&nbsp;" required=false class="u-hide-visually js-inline-editor_input" tabindex=-1></textarea> <div class="c-inline-editor__editor js-inline-editor_editor o-box c-box o-box--tiny u-bg--11" data-target=competingInterests_1_input role=textbox required=false data-placeholder="&nbsp;" contenteditable=true></div> <span class="c-inline-editor__error js-inline-editor-message">Please state your competing interests</span> </div> <div data-test-id=article_add-comment_saved class="green-message comments is-hidden comment-is-saved">The comment has been saved.</div> <div data-test-id=article_add-comment_error class="default-error comments is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class=clearfix></div> <div class=js-hook></div> </div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" data-test-id=article_add-comment_cancel class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" data-test-id=article_add-comment_post class="c-button c-button--full js-modal__confirm c-button--primary">Post</a> </div> </aside> </div> </div> <style>
+                .at-icon-wrapper {
+        background-size: 100% !important;
+    }
+</style> <script src="/js/namespace.js"></script> <script src="/js/constants.js"></script> <script src="/js/utilities.js"></script> <script src="/js/article/alert-signup.js"></script> <script type='text/javascript'>
+    var lTitle = "Understanding neuromuscular disorders in...".replace("'", '');
+    var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/8-2020/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+    var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/8-2020/v1&title=" + encodeURIComponent(lTitle);
+
+    var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/8-2020/v1" + "&title=" + encodeURIComponent(lTitle);
+
+            linkedInUrl += encodeURIComponent('Jammes Y and Retornaz F');
+    
+    var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+    var addthis_config = {
+            ui_offset_top: offsetTop,
+                                    services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_custom : [
+                {
+                    name: "LinkedIn",
+                    url:  linkedInUrl,
+                    icon:"/img/icon/at_linkedin.svg"
+                },
+                {
+                    name: "Mendeley",
+                    url:  "http://www.mendeley.com/import/?url=https://f1000research.com/articles/8-2020/v1/mendeley",
+                    icon:"/img/icon/at_mendeley.svg"
+                },
+                {
+                    name: "Reddit",
+                    url:  redditUrl,
+                    icon:"/img/icon/at_reddit.svg"
+                },
+            ]
+        };
+
+
+    var addthis_share = {
+            url: "https://f1000research.com/articles/8-2020",
+            templates : {
+                twitter : "Understanding neuromuscular disorders in chronic fatigue syndrome. Jammes Y and Retornaz F, published by " + 
+               "@F1000Research"
+       + ", https://f1000research.com/articles/8-2020/v1"
+            }
+        };
+
+    if (typeof(addthis) != "undefined"){
+        addthis.addEventListener('addthis.ready', checkCount);
+        addthis.addEventListener('addthis.menu.share', checkCount);
+    }
+
+        $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+    $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+    $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+    $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+    $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+    function checkCount(){
+        setTimeout(function(){
+            $(".addthis_button_expanded").each(function(){
+                var count = $(this).text();
+                if (count !== "" && count != "0")
+                    $(this).removeClass("is-hidden");
+                else
+                    $(this).addClass("is-hidden");
+            });
+        }, 1000);
+    }
+</script> <div id=citeReportModal role=dialog aria-labelledby=citeReportModal_title aria-describedby=citeReportModal_description> <div class="c-modal js-modal is-closed c-modal--large js-cite-report-modal "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-black--high "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <h1 id=citeReportModal_title class="c-modal__title t-h3 u-mt--0 u-mb--2 u-weight--md">How to cite this report</h1> <div id=citeReportModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div id="" class=js-report-citation-container>{{reportCitation}}</div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" title="Copy the current citation details to the clipboard." data-clipboard-target="#referee-report-citation" data-test-id=report_copy-citation_button class="c-button c-button--full js-modal__confirm c-button--primary js-clipboard c-mini-tooltip--above">Copy Citation Details</a> </div> </aside> </div> </div> <script src="/js/referee/new/referee_validators.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/referee/new/referee_checkbox-input.js"></script> <script src="/js/referee/new/referee_inline-editor.js"></script> <script type="text/javascript">
+    $(function(){
+        var gaCat = "F1000Research";
+        if (gaCat === "") {
+            gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+        }
+        GAHelper.track({category: gaCat, action: "Article Page: Understanding neuromuscular disorders in chronic fatigue syndrome", label: "pageviews"});
+        GAHelper.track({category: gaCat, action: "Article Type: Review", label: "Article Page"});
+        $(".f1r-article-desk .collection-image").each(function (idx, el) {
+            var whatChannel = $(el).find("a").attr("href"),
+                channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+                gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+            GAHelper.track({category: 'ChannelStats', action: "Article Page: Understanding neuromuscular disorders in chronic fatigue syndrome", label: gaRef});
+        });
+    });
+</script> <script>
+    $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+    $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+</script> <script src="/js/article/track_article.js" type="text/javascript"></script> <script type="text/javascript">
+    $.get("/articles/acj/18660/20429")
+</script> <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script type="text/javascript" src="/js/app/messenger.js"></script> <script type="text/javascript" src="/js/article/article_mobiles.js"></script> <script src="/js/vendor/clipboard.min.js"></script> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/clipboard.js"></script> <script src="/js/article/thesaurus-terms-display.js"></script> <script>
+    new F1000.Clipboard();
+    new F1000.ThesaurusTermsDisplay("faculty-reviews", "article", "20429");
+</script> <script>
+    $(document).ready(function() {
+        $( "#frame1" ).on('load', function() {
+            var mydiv = $(this).contents().find("div");
+            var h     = mydiv.height();
+            console.log(h)
+        });
+
+        
+        var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+            titleLivingFigure = tooltipLivingFigure.attr("title");
+        tooltipLivingFigure.simpletip({
+            fixed: true,
+            position: ["-115", "30"],
+            baseClass: 'small-tooltip',
+            content:titleLivingFigure + "<div class='tooltip-arrow'></div>"
+        });
+        tooltipLivingFigure.removeAttr("title");
+
+        $("body").on("click", ".cite-living-figure", function(e) {
+            e.preventDefault();
+            var ref = $(this).attr("data-ref");
+            $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+        });
+        $("body").on("click", ".close-cite-living-figure", function(e) {
+            e.preventDefault();
+            $(this).closest(".popup-window-wrapper").fadeOut(200);
+        });
+
+                $(document).on("mouseup", function(e) {
+            var metricsContainer = $(".article-metrics-popover-wrapper");
+            if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+                $(".article-metrics-close-button").click();
+            }
+        });
+
+        var articleId = $('#articleId').val();
+
+        if($("#main-article-count-box").attachArticleMetrics) {
+            $("#main-article-count-box").attachArticleMetrics(articleId, {
+                articleMetricsView: true
+            });
+        }
+    });
+
+    var figshareWidget = $(".new_figshare_widget");
+    if (figshareWidget.length > 0) {
+        window.figshare.load("f1000", function(Widget) {
+            // Select a tag/tags defined in your page. In this tag we will place the widget.
+            _.map(figshareWidget, function(el){
+                var widget = new Widget({
+                    articleId: $(el).attr("figshare_articleId")
+                    //height:300 // this is the height of the viewer part. [Default: 550]
+                });
+                widget.initialize(); // initialize the widget
+                widget.mount(el); // mount it in a tag that's on your page
+                // this will save the widget on the global scope for later use from
+                // your JS scripts. This line is optional.
+                //window.widget = widget;
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        
+        var reportIds = {
+                           "56744": 0,
+                           "56745": 1,
+                    };
+
+        $(".referee-response-container,.js-referee-report").each(function(index, el) {
+            var reportId = $(el).attr("data-reportid"),
+                reportCount = reportIds[reportId] || 0;
+            $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+        });
+
+        var uuidInput = $("#article_uuid"),
+            oldUUId = uuidInput.val(),
+            newUUId = "6ad018ed-86ca-4739-8c0d-97d7b599d32e";
+        uuidInput.val(newUUId);
+
+        $("a[href*='article_uuid=']").each(function(index, el) {
+            var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+            $(el).attr("href", newHref);
+        });
+
+    });
+</script>              </div>
+        </div>
+
+        
+            
+            <div class="o-page__footer sticky-email-wrapper">
+                
+                
+
+                
+
+
+<footer class="c-footer t-inverted">
+
+    <div class="o-wrapper">
+        <div class="o-layout">
+
+
+                        
+            <div class="o-layout__item u-mb--3">
+                <div class="c-branding c-branding--research">
+                    <img src="/img/research/F1000Research_white.svg" alt="F1000Research">
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <p class="t-h3 u-mt--0 u-mb--0">An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing.</p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <div class="o-layout">
+                    <nav class="c-footer__nav">
+
+                            <div class="o-layout__item u-3/5@sm u-mb--3">
+
+
+                                <div class="o-columns o-columns--2">
+
+                                                                            <a href="/browse/articles" class="t-body c-footer__nav-item "      >Browse</a>
+                                                                            <a href="/gateways" class="t-body c-footer__nav-item "      >Gateways</a>
+                                                                            <a href="/collections" class="t-body c-footer__nav-item "      >Collections</a>
+                                                                            <a href="/about" class="t-body c-footer__nav-item "      >How it Works</a>
+                                                                            <a href="https://blog.f1000.com/blogs/f1000research/" class="t-body c-footer__nav-item "      >Blog</a>
+                                                                            <a href="/contact" class="t-body c-footer__nav-item "      >Contact</a>
+                                                                            <a href="/developers" class="t-body c-footer__nav-item u-hide u-show@navbar"      >For Developers</a>
+                                                                            <a href="/published/rss" class="t-body c-footer__nav-item "   title="RSS feed of published articles"     >RSS</a>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="o-layout__item u-2/5@sm u-center u-right@sm u-mb--3">
+
+                                <div class="u-hide u-show@lg">
+                                    <div class="_mdl-layout">
+                                        <a class="mdl-button mdl-js-button mdl-button--inverted mdl-button--no-shadow mdl-js-ripple-effect mdl-button--outline" href="/for-authors/publish-your-research"   data-test-id="footer_submit_research"  >Submit Your Research</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="o-layout__item u-mb--2">
+                <div class="c-footer__share">
+                        <div class="c-footer__share">
+        <span class="c-footer__share-icon" title="Open Access">
+            <span class="f1r-icon icon-100_open_access license-icon"></span>
+        </span>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/licenses" target="_blank" title="Creative Commons License CC-BY">
+            <span class="f1r-icon icon-116_cc license-icon license-icon-cc"></span>
+            <span class="f1r-icon icon-117_ccby license-icon license-icon-cc"></span>
+        </a>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/about/cc0" target="_blank" title="Creative Commons License CC0">
+            <span class="f1r-icon icon-118_cco license-icon"></span>
+        </a>
+
+    </div>
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="c-footer__social u-mt--0 u-mb--0 u-white--low-med">Follow us
+                    <a href="https://www.facebook.com/F1000" target="_blank" class="c-footer__social-icon f1r-icon icon-55_footer_facebook"></a>
+                    <a href="https://twitter.com/#!/F1000Research" target="_blank" class="c-footer__social-icon f1r-icon icon-56_footer_twitter"></a>
+                    <a href="http://www.youtube.com/user/F1000research" target="_blank" class="c-footer__social-icon f1r-icon icon-57_footer_youtube"></a></p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md u-right@md">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="t-caption u-white--low-med">&copy; 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | <a href="/about/legal" class="copyrightLegal">Legal</a> | Partner of <a target="_blank" href="http://www.who.int/hinari/en/">HINARI</a>  &bull; <a target="_blank" href="http://crossref.org/">CrossRef</a> &bull; <a target="_blank" href="http://about.orcid.org/">ORCID</a> &bull; <a target="_blank" href="http://www.fairsharing.org">FAIRSharing</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</footer>            </div>
+        
+    </div>
+
+            <div class="js-cookie-spacer"></div>
+        <div class="cookie-warning">
+            <div class="instruction">The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a class="js-scroll-to" href="/about/legal/privacypolicy#use-of-cookies" data-scroll-target="#use-of-cookies">Find out more &raquo;</a></div>
+            <div class="close-button"></div>
+        </div>
+    
+    <script>
+                    R.templateTests.simpleTemplate = R.template('<p class="$variable.one">$text</p><p class="${variable.two}">$text</p><p class="$!variable.three">$text</p><p class="$!{variable.four}">$text</p><p class="${selector}.five">$text</p>');
+            R.templateTests.runTests();
+        
+        var F1000platform = new F1000.Platform({
+            name: "f1000research",
+            displayName: "F1000Research",
+            hostName: "f1000research.com",
+            id: "1",
+            editorialEmail: "research@f1000.com",
+            infoEmail: "info@f1000.com",
+            usePmcStats: true
+        });
+
+                    $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+            // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+            $(document).ready(function () {
+                if ($(".cookie-warning").is(":visible")) {
+                    $(".sticky").css("margin-bottom", "35px");
+                    $(".devices").addClass("devices-and-cookie-warning");
+                }
+                $(".cookie-warning .close-button").click(function (e) {
+                    $(".devices").removeClass("devices-and-cookie-warning");
+                    $(".sticky").css("margin-bottom", "0");
+                });
+
+                $("#tweeter-feed .tweet-message").each(function (i, message) {
+                    var self = $(message);
+                    self.html(linkify(self.html()));
+                });
+
+                $(".partner").on("mouseenter mouseleave", function() {
+                    $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+                });
+            });
+        
+    </script>
+
+            
+<div class="sign-in-popup">
+	<!-- <a href="#" class="sign-in shadow">Sign in <span class="sign-in-image-active"></span></a> -->
+	<a href="#" class="sign-in ${locale}">Sign In <span class="arrow-closed sign-in-arrow-padding arrow-opened"></span></a>
+	<div class="sign-in-form">
+
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="googleOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/8-2020.html"/>
+                            <input id="google-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-google" name="system" type="hidden" value="GOOGLE"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="facebookOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/8-2020.html"/>
+                            <input id="facebook-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-fb" name="system" type="hidden" value="FACEBOOK"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="orcidOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/8-2020.html"/>
+                            <input id="orcid-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-orcid" name="system" type="hidden" value="ORCID"/>
+    </form>
+		<form id="sign-in-form" class="login-container" action="https://f1000research.com/login" method="post" name="f">
+           <div id="sign-in-form-gfb-popup"></div>
+
+                                                            <input class="target-field" type="hidden" name="target" value="/articles/8-2020.html"/>
+                            			<input type="text" name="username" id="signin-email-box" class="sign-in-input" placeholder="Email address" autocomplete="email">
+			<input type="password" name="password" id="signin-password-box" class="sign-in-input" placeholder="Password" autocomplete="current-password">
+			<div class="sign-in-remember">
+                <div class="checkbox-wrapper">
+    				<input type="checkbox" id="remember-me" name="remember_me" class="checkbox is-hidden">
+                </div>
+                <span class="checkbox-label">Remember me</span>
+			</div>
+			<a href="#" class="sign-in-link" id="forgot-password-link">Forgotten your password?</a>
+			<div class="sign-in-button-container margin-top margin-left-20 margin-bottom">
+				<button type="submit" id="sign-in-button" class="sign-in-buttons general-white-orange-button">Sign In</button>
+				<button type="button" id="sign-in-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="sign-in-error">Email or password not correct. Please try again</div>
+			<div class="sign-in-loading">Please wait...</div>
+		</form>
+		<div class="forgot-password-container">
+			
+<script type="text/javascript">
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("GOOGLE");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=facebookSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("FACEBOOK");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=orcidSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("ORCID");
+            $("form[id=oAuthForm]").submit();
+        });
+	});
+</script>
+
+<span class="text first">
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+    <p>The email address should be the one you originally registered with F1000.</p>
+</span>
+<input name="email" class="sign-in-input" id="email-forgot-password" type="text" placeholder="Email address">
+<div class="forgot-password-email-error">
+	Email address not valid, please try again
+</div>
+<div class="forgot-password-google-email-error">
+    <p>You registered with F1000 via Google, so we cannot reset your password.</p>
+	<p>To sign in, please click <a href="#" id="googleSignInButton">here</a>.</p>
+    <p>If you still need help with your Google account password, please click <a href="https://www.google.com/accounts/recovery">here</a>.</p>
+</div>
+<div class="forgot-password-facebook-email-error">
+    <p>You registered with F1000 via Facebook, so we cannot reset your password.</p>
+    <p>To sign in, please click <a href="#" id="facebookSignInButton">here</a>.</p>
+	<p>If you still need help with your Facebook account password, please click <a href="https://www.facebook.com/recover/initiate">here</a>.</p>
+</div>
+<div class="clearfix"></div>
+<div class="forgot-password-captcha-error">
+	Code not correct, please try again
+</div>
+<div class="clearfix"></div>
+<div class="sign-in-button-container margin-left-20 margin-bottom">
+	<button type="button" id="sign-in-reset-password" class="sign-in-buttons general-white-orange-button">Reset password</button>
+	<button type="button" id="forgot-password-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+	<div class="clearfix"></div>
+</div>
+<span class="text last">
+	<a href="mailto:">Email us</a> for further assistance.
+</span>
+<form action="https://f1000research.com/j_spring_oauth_security_check" id="oAuthForm" method="post" target="_top">
+                        <input class="target-field" type="hidden" name="target" value="/articles/8-2020.html"/>
+                <input id="oAuthSystem" name="system" type="hidden"/>
+</form>
+			<div class="forgot-password-server-error">Server error, please try again.</div>
+			<div class="sign-in-success">
+                <p>We have sent an email to <span id="email-value"></span>, please follow the instructions to reset your password.</p>
+                <p>If you don't receive this email, please check your spam filters and/or contact .</p>
+            </div>
+			<div class="sign-in-loading">Please wait...</div>
+		</div>
+
+		<div class="sign-in-form-register-section">
+			<div class="sign-in-button-container margin-left-20 margin-bottom">
+				<a href="/register" title="Register"><button type="button" id="sign-in-register-button" class="sign-in-buttons general-white-orange-button">Register</button></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+    $(".target-field").each(function () {
+        var uris = $(this).val().split("/");
+        if (uris.pop() === "login") {
+        	$(this).val(uris.toString().replace(",","/"));
+        }
+    });
+});
+</script>
+        <div id="templateOverlay" class="is-hidden" hidden="hidden">
+  <div class="o-overlay js-overlay is-hidden" hidden="hidden"></div>
+</div>
+
+<div id="templateExternalMessages" class="is-hidden" hidden="hidden">
+  <div class="o-modal o-modal--auto@md js-external-messages is-hidden" hidden="hidden">
+    <div class="o-modal__body">
+      <section class="c-console">
+        <div class="_mdl-layout c-console__bdy js-external-messages-body"></div>
+        <footer class="_mdl-layout c-console__ftr o-flex o-flex--reverse js-external-messages-footer">
+          <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-console__btn js-external-messages-close" data-action="maintenance-close">I Understand</button>
+        </footer>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<script src="/js/namespace.js"></script>
+<script src="/js/constants.js"></script>
+<script src="/js/utilities.js"></script>
+
+<script>
+                  F1000.ExtenalMaintenanceItems = [
+    {
+      start: '2018-12-10T14:21:00Z',
+      end: '2018-12-13T16:00:00Z',
+      msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+      cookieName: 'outage23122018',
+      editor: false,
+    }
+  ];
+</script>
+
+<script src="/js/shared_scripts/cookie-helper.js"></script>
+<script src="/js/shared_scripts/mdl-helper.js"></script>
+
+<script src="/js/app/external-maintenance.js"></script>
+
+                <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5646075-11', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        
+                <script type="text/javascript" src="/js/app/research.analytics.js"></script>
+
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4475190.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    
+            <script src="https://my.hellobar.com/4e0495c6f18cbd68731a1dc1978195a144e767ba.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+
+</html>

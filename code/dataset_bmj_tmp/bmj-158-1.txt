@@ -1,0 +1,42 @@
+General comments
+While the study design used in this manuscript was appropriate, results of this manuscript
+add little new knowledge to the literature. First, the dose-response association between
+accelerometer-measured moderate-intensity physical activity and all-cause mortality found
+in this review (Figure 3e) was very similar with the association found in NHANES
+2003-2006 participants alone (Figure 1A in Lee, 2016). Similarly, the dose-response
+association between accelerometer-measured sedentary behaviors and all-cause mortality
+found in this review (Figure 3f) was very similar with the association found in NHANES
+2003-2006 participants alone (Figure 1C in Lee, 2016). Second, besides categorizing the
+time spent on physical activity and sedentary behaviors by quartiles as the exposure
+variable, the crude time spent as continuous variables should also be tested, so that the
+results could be translated quantitatively into effect size.
+Reference
+Lee PH (2016) Examining Non-Linear Associations between Accelerometer-Measured
+Physical Activity, Sedentary Behavior, and All-Cause Mortality Using Segmented Cox
+Regression. Front Physiol https://doi.org/10.3389/fphys.2016.00272
+Specific comments
+
+Page 4, lines 15. No need to specify the search update. Same for page 7, line 23.
+Page 4, lines 19-24. Were there any requirements on the quality of the studies to be
+included? Same for page 8, lines 33-35.
+Page 4, lines 33-35. Did you mean that you used Cox proportional hazards regression to
+re-analyze the data, or the included studies used Cox proportional hazards regression to
+analyze the data?
+Page 4, line 43. “Did not participate”. Did you mean that individual level participant data
+were not available?
+Page 7, lines 27-34. Why not “accelerometry”?
+Page 7, line 55 – page 8, line 3. Did you mean that only studies that placed the
+accelerometers at hip were included? In order to justify the exclusion of these three
+studies, the authors should provide evidence showing the lack of association of movement
+count data between accelerometers worn at different parts of the body.
+Page 9, lines 3-19. These cutoffs were for ActiGraph accelerometer only.
+Page 9, lines 42-44. I don't understand the rationale behind the categorization of exposure
+data into quartiles. It made the interpretation of the results difficult and the conclusion
+could not be translated quantitatively into effect size nor recommendations (e.g., one
+additional hour per day of sedentary behavior was associated with an elevated hazard of
+mortality of XXX).
+Page 11, line 36. How were these two studies (26, 35) identified?
+Table 1. It maybe clearer to use “number of deaths” instead of “number of cases”.
+“Covariates” should be replaced by “Confounders”.
+Table 2. The unit for PA (min/d) was meaningless here as the volume of PA was
+categorized by quartiles.

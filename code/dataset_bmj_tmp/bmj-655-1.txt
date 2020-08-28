@@ -1,0 +1,309 @@
+Impact of BCG, DTP and measles-containing vaccines on childhood mortality: a systematic review
+Review by Frank Shann, Royal Children’s Hospital, Melbourne, Australia. shannf@netspace.net.au
+A huge amount of effort by the authors and the members of the WHO Working Group on the Non-Specific
+Effects (NSE) of Vaccines has gone into this analysis. This paper and the NSE of vaccines are very
+important indeed, with the potential to make substantial further reductions in child mortality at minimal
+cost using the current EPI vaccines. The statistical expertise of the analysis is impressive, however, the
+authors overlook some aspects of the pre-specified hypotheses relating to the non-specific (heterologous)
+effects of vaccines (Fine, TMIH 2007;12:1-4; Shann J Inf Dis 2011;204:182-4) - this is understandable,
+given that only one member of the WHO Working Group and no member of SAGE has contributed original
+data testing the NSE of vaccines. I note that the project was funded by WHO, and that the conclusions
+strongly support the current WHO immunisation schedule.
+The main comparisons are (1) BCG compared to unvaccinated, (2) DTP given after BCG compared to BCG
+alone, and (3) MCV given after the last dose of DTP compared to DTP. Other important comparisons are
+(4) DTP with BCG compared to DTP after BCG, (5) DTP with MCV compared to DTP before MCV, and (6)
+DTP after MCV compared to DTP before MCV. BCG represents BCG ± OPV and DTP represents DTP ± OPV
+throughout.
+1. The big picture: opposite effects within studies
+The main analysis in this manuscript assesses the effects of each vaccine (BCG v none, DTP v BCG, and
+MCV v DTP) separately. The authors find that both observational studies (with a high potential for bias)
+and clinical trials suggest “a beneficial effect of BCG on mortality”; that among the observational studies
+(with a high potential for bias) “the majority suggest a potential deleterious effect of DTP on mortality”;
+and that four clinical trials “pointed towards a beneficial effect of MCV” and 18 observational studies (with
+a high potential for bias) “consistently estimated the effect of measles-containing vaccines on mortality
+within the first 2-5 years of life to be beneficial”.
+However, it is very important to analyse the effects of DTP on all-cause mortality compared to the effects
+of both BCG and MCV *within studies* as well as between studies. Comparison within studies greatly
+reduces the potential for bias. I attach a forest plot of the data from all six observational studies from
+five different countries that provide estimates for BCG and DTP and MCV (and were classified as not
+having “too high” risk of bias). In five of the six studies, the MRR following DTP was higher than 1.00 (it
+increased mortality relative to BCG), and the MRR for both BCG and MCV was less than 1.00 (BCG
+reduced mortality relative to no vaccination, and MV reduced mortality relative to DTP); the results of the
+sixth study (PNG 1989-1994) also found that mortality after MCV was approximately half the rate after
+DTP, but it reported a non-significant reduction in mortality when DTP was given after BCG. It is highly
+unlikely that these findings in the six studies of all three vaccines are caused entirely by bias.
+For bias to explain the findings of the between-study and within-study comparisons, it is necessary to
+postulate bias that would cause BCG to approximately *halve* mortality compared to no vaccination,
+then cause DTP to approximately *double* mortality compared to BCG in the same community, then
+MCV to approximately *halve* morality compared to DTP in the same community. This is a crucial point
+that should be strongly emphasised in the discussion.
+In addition to the RCT evidence (with low bias) of the effect of BCG on neonatal mortality in GuineaBissau (Guinea-Bissau 2002-2008 early and late), these within-study comparisons strongly suggest that,
+until the next vaccine is given, DTP may be associated with higher mortality than BCG and MCV.
+
+I suggest that a version of my funnel plot should be included in the paper to illustrate the importance of
+examining the *differential* effects of BCG, DTP and MCV within single studies. In addition, the paper
+should emphasise the fact that bias is unlikely to be the sole explanation for these systematic differences
+within studies because the effects go in opposite directions from BCG to DTP, and from DTP to MCV.
+2. The analysis of DTP-after-BCG versus BCG-only
+The WHO schedule is for BCG to be given at birth, and the first dose of DTP (DTP1) at 6 weeks of age; so
+this is the timing that should be tested. (There is evidence that mortality may be less when DTP1 is given
+at the same time as BCG: Hirve, Vaccine 2012;30:7300-8, and Aaby, Int J Epi 2004;33:367-73).
+In Burkina Fasso 1985-1993, the mean age for BCG was 4.8 months and DTP1 6.3 months, so many
+(probably most) infants will have received DTP1 *with* BCG. In addition, there was survival bias in this
+study. It should be removed from the analysis of DTP.
+The DTP-after-BCG versus BCG-only data for Bangladesh 1986-2001 are from an unpublished re-analysis
+by Aaby and Ravn (ref 31). Dr Aaby kindly provided me with a copy of the re-analysis. It states, “If there
+were problems in registering subsequent vaccinations after the initial registration some children who died
+after having received the second or third dose may not have had these vaccinations registered and
+therefore ended up as a death in the first group; in other words mortality would be too high in the first
+group and too low in the subsequent vaccine dose groups. That something similar might have happened
+is suggested by an analysis of mortality in relation to vaccination status and distance from the hospital
+(Supplementary table 1); mortality among unvaccinated children did not differ by distance from the
+hospital but mortality for the BCG-only group was much higher with distance from the hospital and even
+higher than mortality in the unvaccinated groups. With such potential registration problems comparisons
+of the subsequent vaccinations might be biased, e. g. DTP1 (after BCG-first) versus BCG-first or DTP2
+versus BCG+DTP1. For these reasons, the main comparison in the present analysis is between the three
+ways of starting the vaccination schedule.” Bangladesh 1986-2001 should be removed from the analysis
+of DTP-after-BCG compared to BCG-alone, given that the investigators who calculated the MRR of 0.52
+(0.31-0.87) state that it is a biased estimate.
+For PNG 1989-1994 (Int J Epi 2005;34:138-148), the HR of 0.48 (0.22-1.09) is used from the 29d-5m
+section of Table 6, however, we are not told what group is being compared to DTP1 (we know only that
+all the children in Table 6 received BCG by 6m, but Table 3 shows that BCG was often given with or after
+DTP1); however, Table 3 says mortality for 29d-5m was 16/230369 (deaths/person days) with DTPafter-BCG, and 12/116245 with BCG-only, giving a MRR of 0.67 (0.30-1.56) (N = 2374). This is the
+estimate that should be used in Figure 3, as we know that DTP-after-BCG is being compared to BCG-only
+(and propensity scores are not required, as we are told on p.147 that adjustment made no difference
+when the analysis was confined to children who had received BCG). In the 1970s and 1980s, I was the
+paediatrician responsible for the Tari region of PNG where this information was collected, and the data
+are highly suspect: vaccines were given only at clinics, and sick children were not vaccinated (page 147);
+the 1-5mo unvaccinated children had a mortality rate of 230/1000py (Table 3) compared to an infant
+mortality rate in Tari of 68/1000 (page 147), so there was very large frailty bias among children who
+were unvaccinated or vaccinated late (had BCG, but had not yet had DTP). A strong case could be made
+for excluding this study for too high bias.
+The DTP estimate (in Figure 3) for Guinea-Bissau 1990-1996 (BMJ 2000;321:1435-1441) should be 2.50
+(1.31-4.78) which is adjusted for nutrition, and not 1.74 (1.10-2.75).
+With these changes, for DTP-after-BCG versus BCG-only, we have Benin, GB 1984-85, GB 1990-96 (RR
+2.50, 1.31-4.78), GB 2002-08, India, Malawi, PNG (0.67, 0.30-1.56), and Senegal; I2 is 33.7% with
+fixed effects MRR 1.85 (1.40-2.44), and random effects MRR 1.86 (1.31-2.64).
+3. A surprising lack of concern about the possible adverse effects of DTP
+The authors are remarkably complacent about the evidence that DTP given on-schedule after BCG may
+increase child mortality until MCV is given. The within-study comparisons (above) suggest that bias is
+unlikely to be the sole explanation for this increase in mortality.
+In the existing Figure 3, the point estimates for MRR for DTP-after-BCG are fixed effects 1.27 and
+random effects 1.38 - and the revised estimates are fixed effects MRR 1.85 and random effects 1.86.
+Importantly, the MRR is approximately 1.75 in fixed and random models in the within-studies
+comparison. These are extraordinary figures! If DTP increases all-cause mortality by approximately 27%
+(let alone 50% or 86%), then it is responsible for approximately 1.3 million excess under-5 deaths per
+year (there were 6.3 million under-5 deaths in 2013: 6.3/1.27 = 5.0, and 6.3 - 5.0 = 1.3); this will overestimate deaths in high-income countries, but most under-5 deaths occur in low-medium income
+countries.
+The confidence intervals for these estimates are wide, but the available evidence (especially from the
+within-study comparisons) strongly suggests that there may well be a very substantial problem. This
+should result in *urgent* action to obtain reliable evidence that DTP is safe. *Millions* of lives are at
+stake.
+It is inappropriate to downplay the importance of this signal in a misguided attempt to protect the
+immunisation programme. Immunisation is, of course, extremely important - but only because it saves
+lives. If one component of the programme may have a harmful effect, we need reliable estimates of its
+extent and how to minimise it while still protecting children against diphtheria, tetanus and pertussis.
+
+Any hint of a cover-up will do far more damage to immunisation in the long-term than urgent action now
+to determine the actual effect of DTP on all-cause mortality and minimise the problem if it is real. This
+should not be seen as a threat to immunisation, but rather as an exciting opportunity to further reduce
+child mortality at minimal cost - by exploiting the beneficial NSE of BCG and MCV, and minimising any
+potential harmful effects of DTP.
+Throughout this paper the implicit assumption is that strong evidence is needed that DTP is harmful
+*before* urgent action is taken - “the available evidence does not support a change”. This complacent
+attitude to the evidence that DTP may be causing over a million excess deaths a year in high-mortality
+countries is in striking contrast to the suspension of the administration of RotaShield vaccine in the USA
+after only 15 cases of intussusception (MMR 1999;48:1007); there is a worrying inconsistency here. The
+onus of proof is on those of us who advocate administration of DTP to every child in the world to provide
+evidence it is safe: we need robust evidence of safety, and we do not have that evidence.
+Not enough emphasis is given in this review to the importance of Guinea-Bissau 2004 (Aaby, Int J Epi
+2004;33:374-80), which is the *only* study of adequate size that has described the effect on all-cause
+mortality when DTP was first introduced - the MRR was 1.92 (1.04-3.52). This suggests that there was
+an increase in mortality even in the absence of herd immunity from previous use of DTP.
+Given that “the majority of studies indicated a potentially deleterious effect of DTP on mortality” (page 7,
+line 11), it is inappropriate to say that 8 observational studies “found a tendency for DTP to have a more
+beneficial effect in boys than girls”. The correct wording is, “a tendency for DTP to have a more harmful
+effect in girls than boys”.
+4. DTP with oral polio vaccine (OPV)
+The statement in the Abstract that there is insufficient evidence about DTP “in part because it was almost
+always administered with OPV” should be removed. First, BCG is also usually given with OPV. Second, if
+DTP with OPV may be harmful (as suggested by “the majority of studies”), then the harm is no less
+important than if it is caused by DTP alone. As is done for BCG and MCV, the Abstract should report the
+MRR for DTP (from studies with a high risk of bias), but say that this effect was also seen in within-study
+comparisons with much less risk of bias, and that randomised trials are urgently needed to obtain reliable
+information about the effects of DTP on all-cause mortality.
+The evidence suggests that OPV may have mildly beneficial NSE (Aaby, Vaccine 2004;22:3014-17);
+Aaby, Vaccine 2005;23:1746-51), so that DTP alone may be even worse than DTP with OPV. Further, IPV
+may have harmful NSE (Aaby Ped Inf Dis J 2007;26:247-52), so the proposed change from OPV (possible
+beneficial NSE) to IPV (possible harmful NSE) may substantially increase all-cause mortality in highmortality countries.
+5. Risk of bias
+The sources of bias considered in the analysis should be spelt out, and an indication given as to whether
+each one will give a conservative or exaggerated estimate. Studies with marked survival bias should be
+excluded. What evidence is there that selection after a vaccine has been given causes bias? It should be
+emphasised that bias is very unlikely to explain why BCG reduces mortality, then DTP increases
+mortality, then MCV reduces mortality (especially within individual studies).
+The nomenclature for risk of bias is clumsy (low, moderate, high, too high), why not say low, moderate,
+high, and very high? The results for studies that have very high (too high) risk of bias should not be
+reported in Figures 2-4, and data from these studies should not be used in Figures 5-7 - for example: for
+Figure 6, India 2006-2011 (BCG), GB 1989-1999 (DTP), India 2006-2011 (DTP), Philippines 1988-1991
+(DTP), Ghana 1984-1991 (MCV), India 2006-2011 (MCV), and Senegal 1989-1996 (MCV).
+6. BCG versus unvaccinated
+The combined results for the only two studies in the analysis with a low risk of bias (GB 2002 early and
+late) should be presented separately, as RR 0.52 (0.33- 0.82) from Ped Inf Dis J 2012;31:306-8 Table 1
+- they provide strong evidence for the use of BCG-Denmark in low-birth-weight babies, which is not
+current practice (note, however, that different strains of BCG should not be assumed to be equivalent,
+Comstock, Clin Inf Dis 2000;30[Suppl 3]:S250-3 and Favorov, PLoS ONE 2012;7[3]:e32567). Most of
+the studies of BCG in Figure 2 were not confined to the neonatal period, and this phrase should be
+removed from page 6 line 50.
+7. Effect of vaccine sequence
+Figure 5 provides evidence that DTP should not be given with or after MCV; in fact this effect is important
+in girls but not in boys (Aaby, BMJ Open 2012:2:e000707). This should change policy, and girls should
+not be given DTP once they have received MCV. It also suggests an urgent need for randomised trials of
+the effect on all-cause mortality of the booster dose of DTP in the second year of life (because it is given
+after MCV).
+In Figure 5, the estimate from Senegal 1996-1999 (TRSTMH 2015;109:77-84) should be 2.54 (1.235.24) for DTP-with-MCV from the Cox model and not 1.96 (0.95-4.04), and 2.74 (1.19-6.31) for DTPafter-MCV from the Cox model and not 2.40 (1.00-5.75). This will change the risk ratios.
+8. Effect of sex
+
+This should be analysed using female/male mortality ratios (which greatly reduce bias) - in addition to
+comparing vaccinated to unvaccinated children, which introduces a high risk of frailty bias (as shown by
+the fact that for DTP the three “inconsistent” studies had frailty or survival bias and showed benefit for
+girls, while all the other studies showed harm for girls). For female/male MR data, see Aaby, BMJ Open
+2012:2:e000707. Figure 6 should present deaths/children as in Figures 2-5 so the nature of the
+comparisons is clear.
+9. Effect of age at vaccination
+In Figure 7, Bangladesh 1986-2001 is listed as having “too high” bias in Figure 2 (BCG effects). Why is it
+included here? Under MCV, I suggest adding Aaby, Ped Inf Dis J 1989;8:197-200 (see Table 2).
+10. “Short-term” follow up
+The paper refers frequently to “short-term” follow up and implies that this is a shortcoming of these
+studies. In fact, it is an inevitable consequence of the hypothesis that the main NSE of a vaccine are seen
+only until a different vaccine is given (Fine, TMIH 2007;12:1-4; Shann, Clin Ther 2013;35:109-14). The
+WHO schedule is for BCG at birth; DTP at 6, 10 and 14 weeks (so BCG NSE occur from 1 to 5 weeks of
+age); MCV at 9 months (so DTP NSE occur 1.5-8 months); and DTP booster at 18 months (so MCV NSE
+occur 9-17 months). This should be explained, and the insinuations removed that that “short-term”
+follow up is inappropriate. Note that, in 2013, 4.6 million (73%) of the 6.3 million under-5 deaths
+occurred in the first year of life, and an even higher proportion occurred in the first 18 months.
+11. The Discussion
+Page 8, line 52 should say, “Receipt of BCG and measles-containing vaccine was associated with a
+reduced risk of all-cause mortality, but DTP was associated with an increased risk of mortality in 7
+studies and a decrease in 1 study. In comparisons within studies, DTP was associated with a higher risk
+of mortality than BCG and MCV.” (The estimate for Bangladesh is regarded as too biased by its
+originators, and a high proportion of infants in Burkina Fasso received DTP-with-BCG - so these estimates
+should not be used).
+Page 9, line 56, “Evidence concerning modification of the effects of any of the three vaccines on the risk
+of all-cause mortality by vitamin A status, or age at vaccination was generally insufficient to allow
+conclusions to be drawn. The data suggested that DTP given with or after MCV or BCG is likely to be
+associated with a higher risk of mortality in girls.” “In girls”, given the F/M ratios and Aaby, BMJ Open
+2012:2:e000707.
+Page 9, line 18, “Baseline confounding may have exaggerated the benefits of BCG and measles
+vaccination and underestimated the harm from DTP.”
+Page 9, line 26, “While the majority of studies of DPT vaccine suggested that vaccine recipients were at
+increased risk of all-cause mortality until they received MCV, we have little confidence in attributing the
+observed higher mortality to DPT vaccine. However, within-study analysis also suggested that DTP may
+increase all-cause mortality, and analysis of vaccine sequences suggested that mortality may be
+increased when DTP is given after BCG or MCV.” Please justify why do you have “little confidence”. Bias
+cannot explain why BCG reduces, then DTP increases, and then MCV reduces mortality between and
+(especially) within studies, and the sequence of vaccination analysis (Figure 5) also suggests increased
+mortality when DTP is the most recent vaccine. Confidence is at least “moderate”, and the findings
+should lead to urgent investigation.
+Page 9, line 34. “Follow-up periods were often short, particularly in observational studies, mostly to less
+than 12 months of age for BCG and to less than 9 months of age for DTP” - this should be removed, as
+explained above. Line 36, “A substantial proportion of the studies were conducted in a single country,
+and it is unclear whether the results are generalizable to infants and children in other settings” - this
+should be removed, see Sankoh, Int J Epi 2014;43:645-53, and note that the six important within-study
+comparisons come from five different countries. Page 9, line 38, “The studies typically took place in
+communities with many years of use of these vaccines. As a result, a combination of direct vaccine
+effects and herd immunity means that these communities had low incidences of the diseases targeted by
+the vaccines, so that the substantial net benefits of routine use of these vaccines may not have been
+apparent” - this is pure speculation, and is contradicted by the evidence in GB 1984-85 (Aaby, Int J Epi
+2004;33:374-80) where introduction of DTP was associated with a MR of 1.92 (1.04-3.52). The entire
+paragraph should be deleted.
+Page 9, line 48, “provide some support for the hypothesis”. Why not “substantial support”? Two RCTs for
+BCG in neonates, and the majority of observational studies showing benefit from BCG and MCV but harm
+from DTP (separately and within studies, and with interactions) - exactly as described in BMJ
+2000;321:1435-41.
+Page 10, line 5, “We do not believe that the available evidence supports a change in either the choice of
+vaccines or the timing or sequence of immunizations routinely administered to infants and children. We
+believe calls to alter the immunization schedule so as to maximize any possible beneficial effects of BCG
+and measles vaccine or to minimize any possible deleterious effects of DTP vaccine on all-cause mortality
+are premature.” The results of this analysis (especially after the corrections) suggest that BCG should be
+given to all babies at birth, rather than being withheld from all low-birth-weight babies and only given to
+term babies when there are enough babies present (policy should be changed to suggest opening a vial
+
+even if only one baby needs BCG). The policy that MCV not be given after 12 months should be changed
+(Fisker, Lancet Glob Health 2014;2:478-87), and the main indicator for EPI should be the proportion of
+children given MCV before 12 months of age (rather than the proportion given DTP3). The significant
+interactions between DTP and MCV suggest that it should be policy that DTP be given before MV, and not
+with or after MCV in girls. In addition, the analysis suggests an *urgent* need to test the effects of DTP
+on all-cause mortality, perhaps beginning with randomised trials of the booster dose of DTP (which is
+given in some countries but not in others).
+12. Minor issues
+Please could the reference numbers be included in Figures 2-7? It is a laborious process to identify a
+study in a Figure, then look in the appropriate section of Appendix 2 to find the reference number for that
+study, then look in the “References of included articles” section at the end of Appendix 2 to find the
+citation. This is made even more difficult by the fact that some studies are incorrectly named:
+Guinea-Bissau 1984-1985 should be Guinea-Bissau 1984-1987.
+Guinea-Bissau 1989-1999 should be Guinea-Bissau 1998-1999.
+Ghana 1984-1991 should be Ghana 1989-1991.
+Reference 12 is Trop Med Hyg Int Health 2013;18:1329-37.
+Reference 15 is Trans R Soc Trop Med Hyg 2015;109:77-84.
+“Sex” and “gender” are used interchangeably throughout the manuscript. It is normal practice to use
+“sex” to refer to biological effects (as in this paper), and use “gender” in “cultural or social contexts”
+(Oxford English dictionary). I suggest using “sex” throughout.
+13. Changes to data
+Delete all analyses of studies with too high bias in Figures 2-7.
+Present the combined BCG estimate for the low bias RCTs GB 2002-2008: MRR 0.52 (0.33-0.82).
+In Figure 3, delete Burkina Fasso 1985-1993 (many children got DTP with BCG).
+In Figure 3, delete Bangladesh 1986-2001 (too high bias in reanalysis).
+In Figure 3, PNG 1989-1994 should be 0.67 (0.30-1.56), N=2374 (DTP-after-BCG vs BCG only).
+In Figure 3, GB 1990-1996 should be 2.50 (1.31-4.78) which is adjusted for nutrition.
+In Figure 5, Senegal should be 2.54 (1.23-5.24) for DTP with MCV (Cox model).
+In Figure 5, Senegal should be 2.74 (1.19-6.31) for DTP after MCV (Cox model).
+For sex, add female/male mortality ratio analysis.
+14. Abstract
+The Results and Conclusions need to be revised.
+Results
+We identified results from 32 birth cohorts. Most evidence was from observational studies assessed as at
+high risk of bias, with some from clinical trials. Most studies reported on all-cause (rather than nonspecific) mortality. BCG vaccine appeared to reduce all-cause mortality: the average relative risks (RR)
+were 0.70; 95% confidence interval (CI) 0.49 to 1.01 from five clinical trials and 0.47; 95% CI 0.32 to
+0.69 from nine observational studies at high risk of bias. DTP appeared to increase all-cause mortality
+(RR 1.86; 95% CI 1.31 to 2.64) from eight observational studies at high risk of bias; this effect appeared
+stronger in girls than boys. MCV appeared to reduce all-cause mortality (RR 0.74; 95% CI 0.51 to 1.07
+from four clinical trials, RR 0.51; 95% CI 0.41 to 0.63 from 18 observational studies at high risk of bias):
+this effect appeared stronger in girls than boys.
+Conclusions and implications of key findings
+Bias is unlikely to be the sole explanation for the observed reduction in mortality after BCG, followed by
+an increase in mortality after DTP, then a reduction in mortality after MCV. There is limited evidence to
+suggest that BCG and MCV reduce overall mortality by more than expected through their effects on the
+diseases they prevent, and that DTP may increase all-cause mortality when there is herd immunity to
+diphtheria, tetanus and pertussis. The available evidence suggests that BCG should be given to as many
+babies as possible soon after birth, including low-birth-weight babies; that DTP should not be given to
+girls with or after MCV; and that children should be given MCV even if it has not been given by 12
+months of age. Further research is urgently required on the possible non-specific effects of
+immunizations on the immune system and on mortality in low income settings.
+15. What this study adds
+Through a comprehensive systematic review and risk of bias assessment, we found few randomized
+trials, and that many types of bias may have influenced the results of the numerous observational
+studies.
+We found limited evidence to suggest that BCG and measles-containing vaccines reduce overall mortality
+by more than expected through their effects on the diseases they prevent, and limited evidence that DTP
+may increase all-cause mortality when there is herd immunity to diphtheria, tetanus and pertussis.
+Bias is unlikely to be the sole explanation for a reduction in mortality after BCG, followed by an increase
+in mortality after DTP, then an reduction in mortality after MCV.
+
+Additional Questions:
+Please enter your name: Frank Shann
+Job Title: Professorial Fellow, IntensiveCare Unit
+Institution: Royal Children's Hospital, Melbourne
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests (please see BMJ policy) please declare them here: None
+Reviewer: 2
+Recommendation:

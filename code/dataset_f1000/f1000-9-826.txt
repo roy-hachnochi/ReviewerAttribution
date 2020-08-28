@@ -1,0 +1,1455 @@
+
+
+    <!DOCTYPE html>
+<html class="">
+
+        
+<head>
+    <title>Stage 1 Registered Report: Anomalous perception... | F1000Research</title>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+    <!--<meta lang="$locale">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="9-QVycOO2_ob3Z9QzRmXv2CF08A9oyYXqWyTiVdKPlU" />
+    <!-- This is commented out to fix display problems on mobile devices.
+    We may use it again once we implement a responsive design that supports native device resolutions.
+    <meta name="viewport" content="width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <link rel="alternate" title="Recent articles published in F1000Research" href="/rss" type="application/rss+xml">
+            <link rel="alternate" type="application/pdf" title="PDF" href="https://f1000research.com/articles/9-826/pdf"/>
+        <link rel="canonical" href="https://f1000research.com/articles/9-826" />
+    
+            <meta name="description" content="Read the original article in full on F1000Research: Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation" />
+    
+            <meta name="og:title" content="F1000Research Article: Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation.">
+            <meta name="og:description" content="Read the latest article version by Patrizio E. Tressoldi, Lance Storm, at F1000Research.">
+            <meta name="og:image" content="/img/sharing/og_research.png">
+            <meta name="version-id" content="27439">
+            <meta name="article-id" content="24868">
+            <meta name="dc.title" content="Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation">
+            <meta name="dc.description" content="This meta-analysis is an investigation into anomalous perception (i.e., conscious identification of information without any conventional sensorial means). The technique used for eliciting an effect is the ganzfeld condition (a form of sensory homogenization that eliminates distracting peripheral noise). The database consists of peer-reviewed studies published between January 1974 and June 2020 inclusive. The overall effect size will be estimated using a frequentist model and a Bayesian random model. Moderator analysis will be used to examine the influence of level of experience of participants and the type of task. Publication bias will be estimated by using three different tests. Trend analysis will be conducted on the cumulative database.">
+            <meta name="dc.subject" content="meta-analysis, ganzfeld; anomalous cognition, publication bias; consciousness">
+            <meta name="dc.creator" content="Tressoldi, Patrizio E.">
+            <meta name="dc.creator" content="Storm, Lance">
+            <meta name="dc.date" content="2020/07/30">
+            <meta name="dc.identifier" content="doi:10.12688/f1000research.24868.1">
+            <meta name="dc.source" content="F1000Research 2020 9:826">
+            <meta name="dc.format" content="text/html">
+            <meta name="dc.language" content="en">
+            <meta name="dc.publisher" content="F1000 Research Limited">
+            <meta name="dc.rights" content="https://creativecommons.org/licenses/by/3.0/igo/">
+            <meta name="dc.type" content="text">
+            <meta name="prism.keyword" content="meta-analysis">
+            <meta name="prism.keyword" content="ganzfeld; anomalous cognition">
+            <meta name="prism.keyword" content="publication bias; consciousness">
+            <meta name="prism.publication.Name" content="F1000Research">
+            <meta name="prism.publicationDate" content="2020/07/30">
+            <meta name="prism.volume" content="9">
+            <meta name="prism.number" content="826">
+            <meta name="prism.versionIdentifier" content="1">
+            <meta name="prism.doi" content="10.12688/f1000research.24868.1">
+            <meta name="prism.url" content="https://f1000research.com/articles/9-826">
+            <meta name="citation_title" content="Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation">
+            <meta name="citation_abstract" content="This meta-analysis is an investigation into anomalous perception (i.e., conscious identification of information without any conventional sensorial means). The technique used for eliciting an effect is the ganzfeld condition (a form of sensory homogenization that eliminates distracting peripheral noise). The database consists of peer-reviewed studies published between January 1974 and June 2020 inclusive. The overall effect size will be estimated using a frequentist model and a Bayesian random model. Moderator analysis will be used to examine the influence of level of experience of participants and the type of task. Publication bias will be estimated by using three different tests. Trend analysis will be conducted on the cumulative database.">
+            <meta name="citation_description" content="This meta-analysis is an investigation into anomalous perception (i.e., conscious identification of information without any conventional sensorial means). The technique used for eliciting an effect is the ganzfeld condition (a form of sensory homogenization that eliminates distracting peripheral noise). The database consists of peer-reviewed studies published between January 1974 and June 2020 inclusive. The overall effect size will be estimated using a frequentist model and a Bayesian random model. Moderator analysis will be used to examine the influence of level of experience of participants and the type of task. Publication bias will be estimated by using three different tests. Trend analysis will be conducted on the cumulative database.">
+            <meta name="citation_keywords" content="meta-analysis, ganzfeld; anomalous cognition, publication bias; consciousness">
+            <meta name="citation_journal_title" content="F1000Research">
+            <meta name="citation_author" content="Patrizio E. Tressoldi">
+            <meta name="citation_author_institution" content="Science of Consciousness Research Group, Universit&agrave; degli studi di Padova, Padova, ITALY, 35131, Italy">
+            <meta name="citation_author" content="Lance Storm">
+            <meta name="citation_author_institution" content="School of Psychology, University of Adelaide, Adelaide, Australia, 5005, Australia">
+            <meta name="citation_publication_date" content="2020/07/30">
+            <meta name="citation_volume" content="9">
+            <meta name="citation_publication_number" content="826">
+            <meta name="citation_version_number" content="1">
+            <meta name="citation_doi" content="10.12688/f1000research.24868.1">
+            <meta name="citation_firstpage" content="826">
+            <meta name="citation_pdf_url" content="https://f1000research.com/articles/9-826/v1/pdf">
+    
+
+    
+    <link href="/img/favicon-research.ico" rel="shortcut icon" type="image/ico">
+    <link href="/img/favicon-research.ico" rel="icon" type="image/ico">
+
+        <link rel="stylesheet" href="/1597255280893/css/mdl/material-design-lite.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.2.43/css/materialdesignicons.min.css" />
+
+        
+            
+    <link rel="stylesheet" href="/1597255280893/css/F1000Research.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/animation.css" type="text/css" media="all" />
+
+        <!--[if IE 7]><link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons-ie7.css" media="all" /><![endif]-->
+
+                    <script>dataLayer = [];</script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54Z2SBK');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="/1597255280893/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="/1597255280893/js/shared_scripts/sticky.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/shared_scripts/menu.js"></script>
+    <script src="/1597255280893/js/shared_scripts/navbar.js"></script>
+    <script src="/1597255280893/js/shared_scripts/platforms.js"></script>
+    <script src="/1597255280893/js/shared_scripts/object-polyfills.js"></script>
+            <script src="/1597255280893/js/vendor/lodash.min.js"></script>
+        <script>CKEDITOR_BASEPATH='https://f1000research.com/js/ckeditor/'</script>
+    <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/plugins.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/app/research.js"></script>
+    <script>window.reactTheme = 'research';</script>
+    <script src="/1597255280893/js/public/bundle.js"></script>
+
+    <script src="/1597255280893/js/app/research.ui.js"></script>
+    <script src="/1597255280893/js/app/login.js"></script>
+    <script src="/1597255280893/js/app/main.js"></script>
+    <script src="/1597255280893/js/app/js-date-format.min.js"></script>
+    <script src="/1597255280893/js/app/search.js"></script>
+    <script src="/1597255280893/js/app/cookies_warning.js"></script>
+    <script src="/1597255280893/js/mdl/mdl.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/ckeditor.js"></script>
+            <script src="/js/ckeditor/adapters/jquery.js"></script>
+                <script src="/js/article/article_scrolling_module.js"></script>
+            <script src="/js/article/article_stats.js"></script>
+            <script src="/js/article/article.js"></script>
+            <script src="/js/shared_scripts/referee_timeline_pagination.js"></script>
+            <script src="/js/app/text_editor_controller.js"></script>
+            <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503e5e99593dc42c"></script>
+            <script src="/js/article/article_metrics.js"></script>
+        
+                                                                            <script>
+            if (window.location.hash == '#_=_'){
+                window.location = window.location.href.split('#')[0]
+            }
+        </script>
+
+                    
+        
+    <!-- pixelId: 1641728616063202 :: assetPixelId: 6034867600215 :: funderPixelId:  -->
+
+            <!-- Facebook pixel code (merged with EP GTM code) -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+
+            {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+            ;if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1641728616063202');
+
+            
+            fbq('track', "PixelInitialized", {});
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1641728616063202&noscript=1&amp;ev=PixelInitialized"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+                <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:917825,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+</head>
+<body  class="o-page-container no-js p-article o-layout-reset   ">
+
+    
+                            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54Z2SBK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+        
+    <div class="o-page">
+
+        <div id="notify-container"></div>
+        <div id="pageWarning"></div>
+        <div id="pageMessage"></div>
+        <div id="pageFooterMessage"></div>
+
+                                <div id="f1r-ga-data" data-name="f1r-ga-data" class="f1r-ga-data"
+                data-user-registered="false"
+                data-user-module=""
+                data-current-path=""
+                data-location=""
+                data-website="F1000Research"
+                data-websiteDisplayName="F1000Research">
+            </div>
+        
+                
+        
+        <div class="header-wrapper   js-navbar-space ">
+                            
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+                            
+    
+            
+
+
+
+<nav class="c-navbar js-navbar js-mini-nav js-sticky c-navbar--js-sticky c-navbar--userSite c-navbar__platform-bgcolor  c-navbar--bg-f1000research ">
+
+    <div class="c-navbar__content">
+
+                                <div class="c-navbar__extras">
+            <div class="o-wrapper">
+                <div class="o-actions o-actions--middle c-navbar__extras-row">
+                    <div class="o-actions__primary">
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="o-wrapper t-inverted js-sticky-start">
+
+            <div class="c-navbar__branding-row">
+                <div class="c-navbar__row">
+
+
+                                        
+                    <div class="c-navbar__primary u-mr--2">
+
+                                                                                                                                                                                                    <a href="/" class="c-navbar__branding u-ib u-middle"   data-test-id="nav_branding"  >
+                                <img class="u-ib u-middle" src="/img/research/F1000Research_white_solid.svg" alt="F1000Research">
+                            </a>
+                                            </div>
+
+                    <div class="c-navbar__secondary c-navbar__row">
+
+
+                                                
+                                                    <form action="/search" class="-navbar__secondary u-mr--2 c-search-form js-search-form u-hide u-show@navbar">
+                                <label for="searchInput" class="c-search-form__label _mdl-layout">
+                                    <input name="q" type="search" class="c-search-form__input" id="searchInput" placeholder="Search">
+                                    <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                </label>
+                            </form>
+                        
+                                                
+                                                    <div class="c-navbar__primary u-hide u-show@navbar">
+                                <div class="_mdl-layout c-navbar__cta">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--no-shadow mdl-button--multi-line mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                            </div>
+                        
+
+                                                
+                        <span class="u-hide@navbar _mdl-layout u-nowrap">
+
+                                                            <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" data-focus="#navbar_mob_search_input" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_search_mob"  ><i class="material-icons">search</i></button>
+                            
+                                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-button--multi-line c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" type="button" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_toggle_mob"  >
+                                    <i class="material-icons c-navbar__toggle-open">menu</i>
+                                    <i class="material-icons c-navbar__toggle-close">close</i>
+                                </button>
+                                                    </span>
+                    </div>
+
+                </div>
+            </div>
+
+                        
+                            <div class="c-navbar__menu-row js-navbar-block is-collapsed" id="navbarMenu">
+
+                                                                                                                                                
+                                                                    
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+
+                                                                
+                                                                                                                                                                                                                                
+                                            
+                    <div class="c-navbar__menu-row-content">
+
+                                                                            <div class="u-hide@navbar c-navbar__menu-bar-spacing">
+                                <form action="/search" class="c-search-form js-search-form">
+                                    <label for="navbar_mob_search_input" class="c-search-form__label _mdl-layout">
+                                        <input id="navbar_mob_search_input" name="q" type="search" class="c-search-form__input" placeholder="Search">
+                                        <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                    </label>
+                                </form>
+                            </div>
+                        
+                        <div class="o-actions o-actions--middle">
+
+                            <div class="o-actions__primary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="main-menu"   role="menubar" aria-label="Main Navigation"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/browse/articles" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="0"
+                              data-test-id="nav_browse"                              >Browse</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/gateways" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_gatewaysViewAndBrowse"                              >Gateways & Collections</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="2"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_for-authors"                              >How to Publish</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="How to Publish">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_submit-manuscript"                      href="/for-authors/publish-your-research"
+                    role="menuitem"
+                    tabindex="0">Submit your Research</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/for-authors/my-submissions"
+                    role="menuitem"
+                    tabindex="-1">My Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines"                      href="/for-authors/article-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines-new-versions"                      href="/for-authors/article-guidelines-new-versions"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines (New Versions)</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_data-guidelines"                      href="/for-authors/data-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Data Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_asset-guidelines"                      href="/for-authors/posters-and-slides-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Posters and Slides Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_document-guidelines"                      href="/for-authors/document-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Document Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-processing-charges"                      href="/for-authors/article-processing-charges"
+                    role="menuitem"
+                    tabindex="-1">Article Processing Charges</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_finding-referees"                      href="/for-authors/tips-for-finding-referees"
+                    role="menuitem"
+                    tabindex="-1">Finding Article Reviewers</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="3"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_about-contact"                              >About</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="About">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_about-page"                      href="/about"
+                    role="menuitem"
+                    tabindex="0">How it Works</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_referee-guidelines"                      href="/for-referees/guidelines"
+                    role="menuitem"
+                    tabindex="-1">For Reviewers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_advisoryPanel"                      href="/advisors"
+                    role="menuitem"
+                    tabindex="-1">Our Advisors</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_policy-page"                      href="/about/policies"
+                    role="menuitem"
+                    tabindex="-1">Policies</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_glossary-page"                      href="/glossary"
+                    role="menuitem"
+                    tabindex="-1">Glossary</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_faqs-page"                      href="/faqs"
+                    role="menuitem"
+                    tabindex="-1">FAQs</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              u-hide u-show@navbar"
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      u-hide u-show@navbar"
+                                          data-test-id="nav_for-developers"                      href="/developers"
+                    role="menuitem"
+                    tabindex="-1">For Developers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_newsroom-page"                      href="/newsroom"
+                    role="menuitem"
+                    tabindex="-1">Newsroom</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_contact-page"                      href="/contact"
+                    role="menuitem"
+                    tabindex="-1">Contact</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="4"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="https://blog.f1000.com/blogs/f1000research/" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                             target="_blank"                                                         tabindex="-1"
+                              data-test-id="nav_blog"                              >Blog</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                            <div class="o-actions__secondary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="secondary-items"   role="menubar" aria-label="My Account"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="0"
+                              data-test-id="nav_my-research"                              >My Research</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="My Research">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/login?originalPath=/my/submissions"
+                    role="menuitem"
+                    tabindex="0">Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-email-alerts"                      href="/login?originalPath=/my/email-alerts"
+                    role="menuitem"
+                    tabindex="-1">Content and Tracking Alerts</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-user-details"                      href="/login?originalPath=/my/user-details"
+                    role="menuitem"
+                    tabindex="-1">My Details</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/login?originalPath=/articles/9-826.html" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_sign-in"                              >Sign In</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                                                                                        <div class="_mdl-layout c-navbar__cta u-hide@navbar c-navbar__menu-bar-spacing">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--multi-line mdl-button--no-shadow mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research_mob"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+            
+        </div>
+
+    </div>
+
+</nav>
+                    </div>
+
+        <div class="content-wrapper o-page__main row ">
+            <div id="highlight-area" class="content ">
+                
+
+
+
+
+
+<div id=article-metadata class=hidden> <input type=hidden name=versionId value=27439 /> <input type=hidden id=articleId name=articleId value=24868 /> <input type=hidden id=xmlUrl value="/articles/9-826/v1/xml"/> <input type=hidden id=xmlFileName value="-9-826-v1.xml"> <input type=hidden id=article_uuid value=bff480a2-0d23-413e-8ee6-537c37060f55 /> <input type=hidden id=referer value=""/> <input type=hidden id=meta-article-title value="Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation"/> <input type=hidden id=workspace-export-url value="https://sciwheel.com/work/api/import/external?doi=10.12688/f1000research.24868.1"/> <input type=hidden id=versionDoi value="10.12688/f1000research.24868.1"/> <input type=hidden id=usePmcStats value=true /> </div> <main class="o-wrapper p-article__wrapper js-wrapper"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://f1000research.com/articles/9-826"
+  },
+  "headline": "Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40...",
+  "datePublished": "2020-07-30T14:24:41",
+  "dateModified": "2020-07-30T14:24:41",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Patrizio E. Tressoldi"
+    },    {
+      "@type": "Person",
+      "name": "Lance Storm"
+    }  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F1000Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+      "height": 480,
+      "width": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+    "height": 1200,
+    "width": 150
+  },
+  "description": "This meta-analysis is an investigation into anomalous perception (i.e., conscious identification of information without any conventional sensorial means). The technique used for eliciting an effect is the ganzfeld condition (a form of sensory homogenization that eliminates distracting peripheral noise). The database consists of peer-reviewed studies published between January 1974 and June 2020 inclusive. The overall effect size will be estimated using a frequentist model and a Bayesian random model. Moderator analysis will be used to examine the influence of level of experience of participants and the type of task. Publication bias will be estimated by using three different tests. Trend analysis will be conducted on the cumulative database."
+}
+</script> <div class="o-layout o-layout--right-gutter"> <div id=article_secondary-column class="p-article__main o-layout__item u-font-size--legal u-2/3@article not-expanded "> <div class=float-left> <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+              {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@id": "https://f1000research.com/",
+            "name": "Home"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "2",
+          "item": {
+            "@id": "https://f1000research.com/browse/articles",
+            "name": "Browse"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "3",
+          "item": {
+            "@id": "https://f1000research.com/articles/9-826.html",
+            "name": "Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition..."
+          }
+        }          ]
+  }
+  </script> <div class="breadcrumbs js-breadcrumbs"> <a href="/" class=f1r-standard-link>Home</a> <span class=item_separator></span> <a href="/browse/articles" class=f1r-standard-link>Browse</a> <span class=item_separator></span> Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition... </div> </div> <div class="article-badges-container u-mb--2"> <div class=crossmark-new> <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script> <a data-target=crossmark><img height=30 width=150 src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg"/></a> </div> <div id=crossmark-dialog style="display: none;" title=""> <iframe id=crossmark-dialog-frame frameborder=0></iframe> </div> <div class=clearfix></div> </div> <div class=article-interaction-container> <div id=main-article-count-box class=article-count-box> <div class="article-metrics-wrapper metrics-icon-wrapper" data-version-id=27439 data-id=24868 data-downloads="" data-views="" data-scholar="10.12688/f1000research.24868.1" data-recommended="" data-doi="10.12688/f1000research.24868.1" data-f1r-ga-helper="Article Page Metrics (Desktop)"> <span class="metrics-on-browse article-metrics-icon f1r-icon icon-89_metrics"></span> <div class="count-title article-metrics-text">ALL Metrics</div> <div class=js-article-metrics-container></div> </div> <div> <div class=count-delimiter></div> <div title="Total views from F1000Research and PubMed Central"> <div class="count-container view-count js-views-count">-</div> <div class=count-title><span class="count-title-icon count-title-views-icon"></span>Views</div> </div> <div class=download-counts hidden> <div class=count-delimiter></div> <div title="Total downloads from F1000Research and PubMed Central"> <div class="count-container js-downloads-count"></div> <div class=count-title><span class="count-title-icon f1r-icon icon-76_download_file"></span>Downloads</div> </div> </div> </div> </div> <div id=main-article-interaction-box class="article-interaction-box has-control-tab"> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-102_download_pdf"></span> <a href="https://f1000research.com/articles/9-826/v1/pdf?article_uuid=bff480a2-0d23-413e-8ee6-537c37060f55" title="Download PDF" class="button-link download pdf-download-helper" target=_blank>Get PDF</a> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-103_download_xml"></span> <a id=download-xml href="#" class="button-link download" title="Download XML">Get XML</a> </div> </div> <div class="article-interaction-info article-page"> <div class="cite-article-popup-wrapper article-page-interaction-box"> <div class="article-interaction-button cite-article-button" title="Cite this article" data-windowref=cite-article-popup-24868-1> <span class="f1r-icon icon-82_quote"></span> <a href="#" class="button-link cite-article-popup-link" title="Cite Article">Cite</a> </div> <div id=cite-article-popup-24868-1 class="popup-window-wrapper is-hidden"> <div class=cite-popup-background></div> <div class="popup-window top-popup cite-this-article-box research-layout"> <div class="popup-window-title small cite-title">How to cite this article</div> <span id=cite-article-text-24868-1 data-test-id=copy-citation_text> <span class="article-title-and-info in-popup">Tressoldi PE and Storm L. Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation [version 1; peer review: awaiting peer review]</span>. <i>F1000Research</i> 2020, <b>9</b>:826 (<a class=new-orange href="https://doi.org/10.12688/f1000research.24868.1" target=_blank>https://doi.org/10.12688/f1000research.24868.1</a>) </span> <div class="popup-window-title small margin-top-20 margin-bottom-20 note"> <strong>NOTE:</strong> it is important to ensure the information in square brackets after the title is included in all citations of this article. </div> <div class=float-right> <button class="secondary no-fill orange-text-and-border margin-right-20 close-cite-popup uppercase">Close</button> <button id=copy-citation-details class="secondary orange copy-cite-article-version uppercase js-clipboard" title="Copy the current citation details to the clipboard." data-clipboard-target="#cite-article-text-24868-1" data-test-id=copy-citation_button>Copy Citation Details</button> </div> </div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-76_download_file"></span> <a id=export-citation href="#" class="button-link download" title="Export Citation">Export</a> </div> <div class="modal-window-wrapper is-hidden"> <div id=export-citation-popup class="modal-window padding-20"> <div class=modal-window-close-button></div> <div class=modal-window-title>Export Citation</div> <div class=modal-window-row> <div> <input type=radio name=export-citation-option value=WORKSPACE /> <span class=radio-label>Sciwheel</span> </div> <div> <input type=radio name=export-citation-option value=ENDNOTE /> <span class=radio-label>EndNote</span> </div> <div> <input type=radio name=export-citation-option value=REF_MANAGER /> <span class=radio-label>Ref. Manager</span> </div> <div> <input type=radio name=export-citation-option value=BIBTEX /> <span class=radio-label>Bibtex</span> </div> <div> <input type=radio name=export-citation-option value=PROCITE /> <span class=radio-label>ProCite</span> </div> <div> <input type=radio name=export-citation-option value=SENTE /> <span class=radio-label>Sente</span> </div> </div> <div class=modal-window-footer> <button class=general-white-orange-button id=export-citation-submit>EXPORT</button> </div> <div class=default-error style="display: none;">Select a format first</div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-90_track"></span> <a class="button-link track-article" data-article-id=24868 id=track-article-signin-24868 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/24868?target=/articles/9-826.html">Track</a> </div> </div> <div class="article-interaction-info article-page"> <div class="article-interaction-button email-article"> <span class="f1r-icon icon-6_email"></span> <a href="#" class=button-link title="Email this article">Email</a> </div> <div class="email-article-version-container small-tooltip _chrome-fix"> <div class=close-icon><span class="f1r-icon icon-3_close_big"></span></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=27439 /> <input name=articleId type=hidden value=24868 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-34_share"></span> <a href="#" class="button-link last addthis_button share-article" title="Share this article">Share</a> </div> </div> </div> <div id=article-interaction-control-tab class=article-interaction-control-tab> <div id=hide-article-interaction class=article-interaction-control title="Hide Toolbox">&#9644;</div> <div id=show-article-interaction class="article-interaction-control open" title="Show Toolbox">&#10010;</div> </div> </div> <div class="article-header-information article-page"> <div class="f1r-article-mobile article-heading-bar"></div> <div class="article-type article-display">Study Protocol </div> <div class="c-classifications u-mt--1"> <div title="Methods/proposed analyses are published & reviewed before research is conducted" class="c-classification c-classification--registered-report"> Registered report </div> </div> <div class="article-title-and-info article-view highlighted-article" id=anchor-title> <h1>Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation</h1><span class=other-info> [version 1; peer review: awaiting peer review]</span> </div> <div class=article-subtitle></div> <div class=f1r-article-desk> <div class="authors _mdl-layout"><span class=""><a href="mailto:patrizio.tressoldi@unipd.it" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Patrizio E. Tressoldi</span></a><a href="https://orcid.org/0000-0002-6404-0058" target=_blank id=author-orcid-0><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-0><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-6404-0058</div><sup>1</sup>,&nbsp;</span><span class="">Lance Storm<sup>2</sup></span></div> </div> <div class=f1r-article-mobile> <div class="authors _mdl-layout"><span class=""><a href="mailto:patrizio.tressoldi@unipd.it" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Patrizio E. Tressoldi</span></a><a href="http://orcid.org/0000-0002-6404-0058" target=_blank id=mauthor-orcid-0><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-0><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0002-6404-0058</div><sup>1</sup>,&nbsp;</span><span class="">Lance Storm<sup>2</sup></span></div> </div> <div class=f1r-article-mobile> <div class=article-pubinfo-mobile> PUBLISHED 30 Jul 2020 </div> </div> <span class=Z3988 title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft_id=info:doi/10.12688%2Ff1000research.24868.1"></span> <div class=f1r-article-desk> <div class="contracted-details first"> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> Science of Consciousness Research Group, Universit&agrave; degli studi di Padova, Padova, ITALY, 35131, Italy<br/> <sup>2</sup> School of Psychology, University of Adelaide, Adelaide, Australia, 5005, Australia<br/> <p> <div class=margin-bottom> Patrizio E. Tressoldi <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Software, Writing – Original Draft Preparation </div> <div class=margin-bottom> Lance Storm <br/> <span>Roles: </span> Conceptualization, Data Curation, Methodology, Supervision, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> </div> <div class=f1r-article-mobile> <div class="article-page-section-box margin-bottom-40 research-layout"> <span class=box-title> <span class="f1r-icon icon-85_peer_review"></span> OPEN PEER REVIEW </span> <div class="status-row referee-reports-container"> REVIEWER STATUS <span class=status-icons> <em>AWAITING PEER REVIEW</em> </span> </div> </div> </div> </div> <h2 class="article-headings article-page-abstract" id=anchor-abstract> <span class="f1r-article-mobile-inline abstract-heading-border"></span> Abstract </h2> <div class="article-abstract article-page-general-text-mobile research-layout"> <div class="abstract-text is-expanded"> This meta-analysis is an investigation into anomalous perception (i.e., conscious identification of information without any conventional sensorial means). The technique used for eliciting an effect is the ganzfeld condition (a form of sensory homogenization that eliminates distracting peripheral noise). The database consists of peer-reviewed studies published between January 1974 and June 2020 inclusive. The overall effect size will be estimated using a frequentist model and a Bayesian random model. Moderator analysis will be used to examine the influence of level of experience of participants and the type of task. Publication bias will be estimated by using three different tests. Trend analysis will be conducted on the cumulative database. </div> <div class=abstract-for-mobile> <div class="margin-top-30 padding-bottom-30 research-layout is-centered"> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border show" style="display: none;"> READ ALL <span class="f1r-icon icon-14_more_small orange vmiddle big"></span> </button> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border hide"> READ LESS <span class="f1r-icon icon-10_less_small orange vmiddle big"></span> </button> </div> </div> </div> <div class=clearfix></div> <div class="article-context no-divider"> <div class="article-abstract article-page-general-text-mobile research-layout generated-article-body"> <h2 class=main-title>Keywords</h2> <p class="u-mb--0 u-pb--2"> meta-analysis, ganzfeld; anomalous cognition, publication bias; consciousness </p> </div> </div> <div class=article-information> <span class="info-separation padding-bottom"> <div id=corresponding-author-icon class="email-icon float-left"> <span class="f1r-icon icon-6_email orange"></span> <div id=corresponding-author-window class="margin-top-20 popup-window-wrapper is-hidden"> <div class="popup-window corresponding-authors-popup"> <div class=corresponding-author-container> <div class="popup-window-title small">Corresponding Author(s)</div> <div class=authors> Patrizio E. Tressoldi (<a href="mailto:patrizio.tressoldi@unipd.it">patrizio.tressoldi@unipd.it</a>) </div> </div> <div class="margin-top margin-bottom float-left"> <button id=close-popup-window class=general-white-orange-button>Close</button> </div> </div> </div> </div> <span class="icon-text float-left" data-test-id=box-corresponding-author> <b>Corresponding author:</b> Patrizio E. Tressoldi </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom competing-interests-display"> <span class=competing-interests-title>Competing interests:</span> No competing interests were disclosed. </span> <div class="info-separation padding-bottom grant-information-display"> <span class=grant-information-title>Grant information:</span> The author(s) declared that no grants were involved in supporting this work. </div> <span class="f1r-article-desk info-separation padding-bottom"> <span class="copywrite-icon float-left"> <span class="f1r-icon icon-100_open_access"></span> </span> <span class="icon-text float-left" data-test-id=box-copyright-text> <b>Copyright:</b>&nbsp; © 2020 Tressoldi PE and Storm L. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom" data-test-id=box-how-to-cite> <b>How to cite:</b> <span class="article-title-and-info in-article-box"> Tressoldi PE and Storm L. Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation [version 1; peer review: awaiting peer review]</span>. <i>F1000Research</i> 2020, <b>9</b>:826 (<a href="https://doi.org/10.12688/f1000research.24868.1" target=_blank>https://doi.org/10.12688/f1000research.24868.1</a>) </span> <span class=info-separation data-test-id=box-first-published><b>First published:</b> 30 Jul 2020, <b>9</b>:826 (<a href="https://doi.org/10.12688/f1000research.24868.1" target=_blank>https://doi.org/10.12688/f1000research.24868.1</a>)</span> <span class=info-separation data-test-id=box-latest-published><b>Latest published:</b> 30 Jul 2020, <b>9</b>:826 (<a href="https://doi.org/10.12688/f1000research.24868.1" target=_blank>https://doi.org/10.12688/f1000research.24868.1</a>)</span> </div> <div class=clearfix></div> <div id=article-context class=article-context> <div id=article1-body class=generated-article-body><h2 class=main-title id=d43259e148>Introduction</h2><p class="" id=d43259e151>The possibility of identifying pictures or video clips without conventional (sensorial) means, in a ganzfeld environment, is a decades old controversy, dating back to the pioneering investigation of Charles Honorton, William Braud and Adrian Parker between 1974 and 1975 (<a href="#ref-18">Parker, 2017</a>).</p><p class="" id=d43259e157>In the ganzfeld, a German term meaning ‘whole field’, participants are immersed in an homogeneous sensorial field were peripheral visual information is masked out by red light diffused by translucent hemispheres (often split halves of ping-pong balls or special glasses) placed over the eyes, while a relaxing rhythmic sound, or white or pink noise, is fed through headphones to shield out peripheral auditory information. Once participants are sensorially isolated from external visual and auditory stimulation, they are in a favourable condition for producing inner mental contents about a randomly-selected target hidden amongst decoys. The mentation they produce can either be used by the participant to guide his/her target selection, or it can be used to assist in an independent judging process.</p><p class="" id=d43259e160>In the prototypical procedure, participants are tested in a room isolated from external sounds and visual information. After they made themselves comfortable in a reclining armchair, they receive the instructions related their task during the ganzfeld condition. Even if there are different verbatim versions, the instructions describe what they should do mentally in order to detect the information related to the target and how to filter out the mental contents not related to it. This information will be described aloud and recorded for playback before or during the target identification phase. After the relaxation phase, they are exposed to the ganzfeld condition for a period ranging from 15 to 30 minutes. During this phase, participants describe verbally all images, feelings, emotions, they deem related to the target usually a picture or a short videoclip of real objects or events.</p><p class="" id=d43259e163>Once the ganzfeld phase is completed, participants are presented with our choices (the target plus three decoys) of the same format, e.g. picture or videoclip, and they must choose which one is the target (binary decision). Alternatively, they may be asked to rate all four (e.g., from 0 to 100), to indicate the strength of relationship between the information detected during the ganzfeld phase and the images or video clips contents.</p><p class="" id=d43259e167>A variant of the judgment phase is to send the recording of the information retrieved during the ganzfeld phase to an external judge for independent ratings of the target. In order to prevent voluntary or involuntary leakage of information about the target by the experimenters, the research assistant who interact with the participants must be blind to the target identity until the participants’ rating task is over. The choice of the target and the decoys is usually made using automatic random procedures, and scores are automatically fed onto a scoring sheet.</p><div class=list><a name=d43259e170 class=n-a></a><ul style="list-style-type: none"><li><p id=d43259e176><span class=label></span> There are three different ganzfeld conditions:</p></li><li><p id=d43259e184><span class=label></span> -Type 1: the target is chosen after the judgment phase;</p></li><li><p id=d43259e192><span class=label></span> -Type 2: the target is chosen before the ganzfeld phase;</p></li><li><p id=d43259e200><span class=label></span> -Type 3: the target is chosen before the ganzfeld phase and presented to a partner of the participant isolated in a separate and distant room.</p></li></ul></div><p class="" id=d43259e205>These differences are related to some theoretical and perceptual concepts we will discuss later. It is important to note that type of task makes no difference to the participant who only engages in target identification <i>after</i> the ganzfeld phase.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d43259e214>Review of the Ganzfeld Meta-Analyses</h2><p class="" id=d43259e217>It is interesting to note that most of the cumulative findings (meta-analyses) of this line of investigation were periodically published in the mainstream journal <i>Psychological Bulletin</i>.</p><p class="" id=d43259e223><a href="#ref-11">Honorton (1985)</a> undertook one of the first meta-analyses of the many ganzfeld studies completed by the mid-1980s. In total, 28 studies yielded a collective hit rate of 38%, where mean chance expectation (MCE) was 25%. Various flaws in his approach were pointed out by <a href="#ref-9">Hyman (1985)</a>, but in their joint-communiqué they agree that “there is an overall significant effect in this database that cannot reasonably be explained by selective reporting or multiple analysis” (<a href="#ref-10">Hyman &amp; Honorton, 1986</a>, p. 351).</p><p class="" id=d43259e234>A second major meta-analysis on a set of ‘autoganzfeld’ studies was performed by <a href="#ref-2">Bem &amp; Honorton (1994)</a>. These studies followed the guidelines laid down by <a href="#ref-10">Hyman &amp; Honorton (1986)</a>. Moreover the autoganzfeld procedure avoids methodological flaws by using a computer-controlled target randomization, selection, and judging technique. They overall reported hit rate of 32.2% exceeded again the mean chance expectation.</p><p class="" id=d43259e243><a href="#ref-16">Milton &amp; Wiseman (1999)</a> meta-analysed further 30 studies collected for the period 1987 to 1997; reporting an overall nonsignificant standardized effect size of 0.013. However, Jessica Utts (personal communication, December 11, 2009) using the exact binomial test on trial counts only (<i>N</i> = 1198; Hits = 327), found a significant hit rate of 27% (<i>p</i> = 0.036).</p><p class="" id=d43259e255><a href="#ref-22">Storm &amp; Ertel (2001)</a> comparing <a href="#ref-16">Milton &amp; Wiseman’s (1999)</a> database with <a href="#ref-2">Bem &amp; Honorton’s (1994)</a> one, found the two did not differ significantly. Furthermore Storm and Ertel went on to compile a 79-study database, which had a statistically significant mean standardized effect size of 0.138.</p><p class="" id=d43259e266><a href="#ref-23">Storm <i>et al.</i> (2010)</a>, meta-analysed a database of 29 ganzfeld studies published during the period 1997 to 2008, yielding a standardized effect size of 0.14. <a href="#ref-19">Rouder <i>et al.</i> (2013)</a> reassessing <a href="#ref-23">Storm <i>et al.</i>’s (2010)</a> meta-analysis, with a Bayesian meta-analysis found evidence for the existence of an anomalous perception in the original dataset observing a Bayes Factor of 330 in support to the alternative hypothesis (p. 241). However they contended the effect could be due to “difficulties in randomization” (p. 241), arguing that ganzfeld studies with computerized randomization had smaller effects than those with manual randomization. The reanalysis by <a href="#ref-24">Storm <i>et al.</i>’s (2013)</a> showed that this conclusion was unconvincing as it was based on Rouder <i>et al.</i>’s faulty inclusion of different categories of study.</p><p class="" id=d43259e295>In the last meta-analysis by <a href="#ref-25">Storm &amp; Tressoldi (2020)</a>, related to the studies published from 2008 to 2018, the overall standardized effect size was 0.133; 95%CI: 0.06 - 0.18.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d43259e304>This study</h2><p class="" id=d43259e307>The main aim of this study is to meta-analyse all available ganzfeld studies dating from 1974 up to June 2020 in order to assess the overall effect size of the database and determine whether there are moderator variables that affect task performance; in particular, we hypothesize that participant type and type of task are two major moderators of effect size (see Methods section).</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d43259e313>Methods</h2><div class=section><a name=d43259e316 class=n-a></a><h3 class=section-title>Reporting guidelines</h3><p class="" id=d43259e321>This study will follow the guidelines of the APA Meta-Analysis Reporting Standard (<a href="#ref-1">Appelbaum <i>et al.</i>, 2018</a>) and the Preferred Reporting Items for Systematic Review and Meta-Analysis Protocols (PRISMA-P, <a href="#ref-17">Moher <i>et al.</i>, 2015</a>).</p></div><div class=section><a name=d43259e337 class=n-a></a><h3 class=section-title>Studies retrieval</h3><p class="" id=d43259e342>Retrieval of studies related to anomalous perception in a Ganzfeld environment is simplified, firstly by the fact that most of these studies have already been retrieved for previous meta-analyses, as cited in the introduction. Secondly, this line of investigation is carried out by a small community of researchers. Thirdly, most of the studies of interest to us are published in specialized journals that adopted the editorial policy of accepting paper with results that are statistically non-significant (according to the frequentist approach). This last condition is particularly relevant because it reduces the publication bias due to the non-rejection of the statistical null hypothesis often consequent to reduced statistical power. However, in order to integrate the previous retrieval method, we will carry-out an online search with <a target=xrefwindow href="https://scholar.google.com/" id=d43259e344>Google Scholar</a>, <a target=xrefwindow href="https://pubmed.ncbi.nlm.nih.gov/" id=d43259e347>PubMed</a> and <a target=xrefwindow href="https://www.scopus.com/home.uri" id=d43259e350>Scopus</a> databases of all papers from 1974 to 2020 including in the title and/or the abstract the word “ganzfeld” (e.g. for PubMed: Search: ganzfeld[Title/Abstract] Filters: from 1974 – 2020).</p></div><div class=section><a name=d43259e355 class=n-a></a><h3 class=section-title>Studies inclusion criteria</h3><p class="" id=d43259e360>The following inclusion criteria will be adopted:</p><div class=list><a name=d43259e363 class=n-a></a><ul style="list-style-type: none"><li><p id=d43259e370><span class=label>- </span> Studies related to anomalous perception in a ganzfeld environment;</p></li><li><p id=d43259e379><span class=label>- </span> Studies must use human participants only (not animals);</p></li><li><p id=d43259e388><span class=label>- </span> Number of participants must be in excess of two to avoid the inherent problems that are typical in case studies;</p></li><li><p id=d43259e397><span class=label>- </span> Target selection must be randomized by using a Random Number Generator (RNG) in a computer or similar electronic device, or a table of random numbers. Randomization procedures must not be manipulated by the experimenter or participant;</p></li><li><p id=d43259e406><span class=label>- </span> Studies must provide sufficient information (e.g., number of trials and outcomes) for the authors to calculate the direct hit-rates and effect size values, so that appropriate statistical tests can be conducted.</p></li><li><p id=d43259e416><span class=label>- </span> Peer reviewed studies even if published in proceedings;</p></li></ul></div></div><div class=section><a name=d43259e422 class=n-a></a><h3 class=section-title>Variables coding</h3><p class="" id=d43259e427>For each included study, one of the authors, expert in meta-analyses, will code the following variables:</p><div class=list><a name=d43259e430 class=n-a></a><ul style="list-style-type: none"><li><p id=d43259e437><span class=label>- </span> Authors;</p></li><li><p id=d43259e446><span class=label>- </span> Year of publication;</p></li><li><p id=d43259e455><span class=label>- </span> Number of trials;</p></li><li><p id=d43259e464><span class=label>- </span> Number of hits;</p></li><li><p id=d43259e473><span class=label>- </span> Number of choices of each trial;</p></li><li><p id=d43259e483><span class=label>- </span> Task type (Type 1,2 or 3);</p></li><li><p id=d43259e492><span class=label>- </span> Participants type (selected vs. unselected). The authors of the study will score as selected all participants that were screened for one or more particular characteristic deemed favourable for the performance in this type of task.</p></li></ul></div><p class="" id=d43259e497>The second author will randomly check 10% of all studies, and the data will be compared with those extracted by the other author. Discrepancies will be corrected by inspecting the original papers.</p><p class="" id=d43259e500>The complete database will be made available through open access posting within the dedicated project in the Open Science Framework (<a target=xrefwindow href="https://osf.io/t7sya/" id=d43259e502>https://osf.io/t7sya/</a>) platform.</p></div><div class=section><a name=d43259e508 class=n-a></a><h3 class=section-title>Effect size measures</h3><p class="" id=d43259e513>As standardized measure of effect size, we will use the following formula: Binomial Z score/√number of trials. The Binomial Z score will be obtained applying the formula implemented online at <a target=xrefwindow href="http://vassarstats.net/binomialX.html" id=d43259e515>http://vassarstats.net/binomialX.html</a></p><p class="" id=d43259e518>In order to take in account the effect size overestimation bias in small samples, the effect size will be transformed in the Hedge’s <i>g</i> effect size, obtaining the corresponding variance by applying the formula presented in <a href="#ref-3">Borenstein <i>et al.</i> (2009, pp. 27–28)</a>.</p></div><div class=section><a name=d43259e531 class=n-a></a><h3 class=section-title>Overall effect size estimation</h3><p class="" id=d43259e536>The overall effect size estimation of the whole database will be calculated by applying both a frequentist and a Bayesian random model for testing its robustness.</p></div><div class=section><a name=d43259e540 class=n-a></a><h3 class=section-title>Frequentist random model</h3><p class="" id=d43259e545>Following the recommendations of <a href="#ref-14">Langan <i>et al.</i> (2019)</a>, we will use the restricted maximum likelihood (REML) approach to estimate the heterogeneity variance with the Knapp and Hartung method for adjustment to the standard errors of the estimated coefficients (<a href="#ref-21">Rubio-Aparicio <i>et al.</i>, 2018</a>).</p><p class="" id=d43259e560>Furthermore, in order to control for possible influence of outliers, we will calculate the median and mode of the overall effect size applying the method suggested by <a href="#ref-6">Hartwig <i>et al.</i> (2020)</a>.</p><p class="" id=d43259e569>These calculations will be implemented in the <a target=xrefwindow href="https://www.r-project.org/" id=d43259e571>R</a> statistical environment with the <a target=xrefwindow href="https://cran.r-project.org/web/packages/metafor/index.html" id=d43259e574>metafor</a> package v. 2.4 (<a href="#ref-28">Viechtbauer, 2017</a>). See syntax provided as extended data (<a href="#ref-26">Tressoldi &amp; Storm, 2020</a>).</p></div><div class=section><a name=d43259e585 class=n-a></a><h3 class=section-title>Bayesian random model</h3><p class="" id=d43259e590>As priors for the overall effect size we will use a normal distribution with Mean = 0.01; <i>SD</i> =0.03, constrained positive, lower bound = 0 (<a href="#ref-20">Rouder <i>et al.</i>, 2019</a>), given our expectation of a positive value. This Bayesian meta-analysis will be implemented with the <a target=xrefwindow href="https://cran.r-project.org/web/packages/metaBMA/index.html" id=d43259e601>MetaBMA</a> package v. 0.6.3 (<a href="#ref-7">Heck <i>et al.</i>, 2017</a>). See Syntax in the Supporting Information.</p></div><div class=section><a name=d43259e612 class=n-a></a><h3 class=section-title>Publication bias tests</h3><p class="" id=d43259e617>Following the suggestions of <a href="#ref-4">Carter <i>et al.</i> (2019)</a>, we will apply three tests to assess publication bias:</p><div class=list><a name=d43259e626 class=n-a></a><ul style="list-style-type: none"><li><p id=d43259e633><span class=label>- </span> the 3-parameter selection model (3PSM), as implemented by <a href="#ref-5">Coburn &amp; Vevea (2019)</a> with the package ‘<a target=xrefwindow href="https://cran.r-project.org/web/packages/weightr/index.html" id=d43259e638>weightr</a>’ v.2.0.2;</p></li><li><p id=d43259e648><span class=label>- </span> the p-uniform* (star) v. 0.2.2 test as described by <a href="#ref-27">van Aert &amp; van Assen (2019)</a>, and</p></li><li><p id=d43259e660><span class=label>- </span> the sensitivity analysis using the <a href="#ref-15">Mathur &amp; VanderWeele (2020)</a> package <a target=xrefwindow href="https://cran.r-project.org/web/packages/PublicationBias/index.html" id=d43259e665>PublicationBias</a> v.2.2.0.</p></li></ul></div><p class="" id=d43259e671>The three parameters model represent the average true underlying effect, <i>δ</i>; the heterogeneity of the random effect sizes, τ<sup>2</sup>; and the probability that there is a nonsignificant effect in the pool of effect sizes. The probability parameter is modeled by a step function with a single cut point at <i>p</i> = 0.025 (one-tailed), which corresponds to a two-tailed <i>p</i> value of 0.05. This cut point divides the range of possible <i>p</i> values into two bins: significant and nonsignificant. The three parameters are estimated using maximum likelihood (<a href="#ref-4">Carter <i>et al.</i>, 2019</a>, p. 124).</p><p class="" id=d43259e696>The <i>p</i>-uniform* test, is an extension and improvement of the <i>p</i>-uniform method. P-uniform* improves upon <i>p</i>-uniform giving a more efficient estimator avoiding the overestimation of effect size in case of between-study variance in true effect sizes, thus enabling estimation and testing for the presence of between-study variance in true effect sizes. </p><p class="" id=d43259e709>Sensitivity analysis as implemented by <a href="#ref-15">Mathur &amp; VanderWeele (2020)</a>, assumes a publication process such that “statistically significant” results are more likely to be published than negative or “nonsigniﬁcant” results by an unknown ratio, <i>η</i> (eta). Using inverse-probability weighting and robust estimation that accommodates non-normal true eﬀects, small meta-analyses, and clustering, it enables statements such as: “For publication bias to shift the observed point estimate to the null, ‘signiﬁcant’ results would need to be at least 30-fold more likely to be published than negative or ‘nonsigniﬁcant’ results” (p. 1). Comparable statements can be made regarding shifting to a chosen non-null value or shifting the conﬁdence interval. See Syntax in the Supporting Information</p></div><div class=section><a name=d43259e719 class=n-a></a><h3 class=section-title>Cumulative meta-analysis</h3><p class="" id=d43259e724>In order to study the overall trend of the cumulative evidence and in particular for testing the presence of a decline or incline effect, we will perform a cumulative effect size estimation (see Syntax in the Supporting Information)</p></div><div class=section><a name=d43259e729 class=n-a></a><h3 class=section-title>Moderators effects</h3><p class="" id=d43259e734>We will compare the influence of the following two moderators: (i) Type of participant, and (ii) Type of task.</p><p class="" id=d43259e737>As described in the Variable Coding paragraph, the variable Type of participant, will be coded in a binary way: selected vs unselected. Type of task will be coded as Type 1, Type 2, and Type 3, as described in the Introduction. See Syntax in the Supporting Information.</p></div><div class=section><a name=d43259e741 class=n-a></a><h3 class=section-title>Statistical power</h3><p class="" id=d43259e746>Once the overall effect size and its precision are estimated, we will calculate the number of trials necessary to achieve a statistical power of at least .80 with an α = .05. With this estimation we can examine how many studies in the database reached this threshold.</p></div><div class=section><a name=d43259e750 class=n-a></a><h3 class=section-title>Reporting</h3><p class="" id=d43259e755>The search and selection of the studies will be presented by using a PRISMA flowchart.</p></div><div class=section><a name=d43259e759 class=n-a></a><h3 class=section-title>Descriptive statistics</h3><p class="" id=d43259e764>Descriptive statistics will be produced related to the variables, trials, hits, participant type, and task types.</p></div><div class=section><a name=d43259e768 class=n-a></a><h3 class=section-title>Overall effect size</h3><p class="" id=d43259e773>We will present the estimated average effect size along with the corresponding 95% Confidence Intervals or Credible Intervals of both the Frequentist and Random Models as described in the Methods section. We will calculate the values of τ<sup>2</sup> and I<sup>2</sup> (<a href="#ref-8">Higgins &amp; Thompson, 2002</a>), and their confidence intervals, as measures of between-study variance.</p></div><div class=section><a name=d43259e786 class=n-a></a><h3 class=section-title>Publication bias tests</h3><p class="" id=d43259e791>We will present the results of the three publication bias tests described in the Methods section.</p></div><div class=section><a name=d43259e796 class=n-a></a><h3 class=section-title>Cumulative effect size</h3><p class="" id=d43259e801>The results of the cumulative meta-analysis will be represented with a cumulative forest plot.</p></div><div class=section><a name=d43259e805 class=n-a></a><h3 class=section-title>Moderator effects</h3><p class="" id=d43259e810>We will present and compare the average effect size along with the corresponding 95% Confidence Intervals of the two types the participant, and of the three task types.</p></div><div class=section><a name=d43259e814 class=n-a></a><h3 class=section-title>Dissemination of information</h3><p class="" id=d43259e819>Apart the Registered Report, all information related to this study will be made available open access at Open Science Framework.</p></div><div class=section><a name=d43259e823 class=n-a></a><h3 class=section-title>Study status</h3><p class="" id=d43259e828>The study has not started yet.</p></div></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d43259e835>Discussion</h2><p class="" id=d43259e838>We will discuss the robustness of the overall results in order to determine a degree of confidence in the evidence for anomalous perception. In case of an insufficient degree of confidence in the evidence, we will consider whether it is worthwhile pursuing such a line of investigation and offer solutions to improve the evidence.</p><p class="" id=d43259e841>However, even if the overall results show a sufficient degree of evidence, we will discuss how this line of investigation can instil greater confidence by using a preregistration registry as proposed by <a href="#ref-29">Watt &amp; Kennedy (2016)</a> in order to reduce so-called questionable research practices (<a href="#ref-12">John <i>et al.</i>, 2012</a>), and provide more transparent procedures during data collection and analysis (see for example, the Transparent Psi Project; <a href="#ref-13">Kekecs <i>et al.</i>, 2019</a>).</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d43259e863>Data availability</h2><div class=section><a name=d43259e866 class=n-a></a><h3 class=section-title>Underlying data</h3><p class="" id=d43259e871>No data are associated with this article</p></div><div class=section><a name=d43259e875 class=n-a></a><h3 class=section-title>Extended data</h3><p class="" id=d43259e880>Figshare: Anomalous perception in a gazfeld condition: a meta-analysis of more than 40 years of investigation. <a target=xrefwindow href="https://doi.org/10.6084/m9.figshare.12674618.v1" id=d43259e882>https://doi.org/10.6084/m9.figshare.12674618.v1</a> (<a href="#ref-26">Tressoldi &amp; Storm, 2020</a>) </p><div class=list><a name=d43259e889 class=n-a></a><ul style="list-style-type: none"><li><p id=d43259e896><span class=label>- </span> Syntax Details.docx (Syntax related to all statistical analyses)</p></li></ul></div></div><div class=section><a name=d43259e902 class=n-a></a><h3 class=section-title>Reporting guidelines</h3><p class="" id=d43259e907>Figshare: PRISMA-P checklist for ‘Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation’ <a target=xrefwindow href="https://doi.org/10.6084/m9.figshare.12674618.v1" id=d43259e909>https://doi.org/10.6084/m9.figshare.12674618.v1</a> (<a href="#ref-26">Tressoldi &amp; Storm, 2020</a>) </p><p class="" id=d43259e916>Data are available under the terms of the <a target=xrefwindow href="https://creativecommons.org/licenses/by/4.0/legalcode" id=d43259e918>Creative Commons Attribution 4.0 International license</a> (CC-BY 4.0).</p></div></div><div id=article1-back class=generated-article-footer><div class=back-section><a name=d43259e927 class=n-a></a><span class="research-layout prime-recommended-wrapper reference-heading is-hidden"><span class=faculty-opinion-icon></span><span class="prime-red big">Faculty Opinions recommended</span></span><h2 class=main-title id=d43501>References</h2><div class="section ref-list"><a name=d43259e927 class=n-a></a><ul><li><a name=ref-1 class=n-a></a>&nbsp;<span class=citation><a name=d43259e931 class=n-a></a>Appelbaum M, Cooper H, Kline RB, <i> et al.</i>: Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report. <i>Am Psychol.</i> 2018; <b>73</b>(1): 3–25. <a target=xrefwindow id=d43259e942 href="http://www.ncbi.nlm.nih.gov/pubmed/29345484">PubMed Abstract </a> | <a target=xrefwindow id=d43259e945 href="https://doi.org/10.1037/amp0000191">Publisher Full Text </a></span></li><li><a name=ref-2 class=n-a></a>&nbsp;<span class=citation><a name=d43259e951 class=n-a></a>Bem DJ, Honorton C: Does psi exist? Replicable evidence for an anomalous process of information transfer. <i>Psychol Bull.</i> 1994; <b>115</b>(1): 4–18. <a target=xrefwindow id=d43259e959 href="https://doi.org/10.1037/0033-2909.115.1.4">Publisher Full Text </a></span></li><li><a name=ref-3 class=n-a></a>&nbsp;<span class=citation><a name=d43259e965 class=n-a></a>Borenstein M, Hedges LV, Higgins JPT, <i> et al.</i>: Introduction to Meta-Analysis. Chichester, UK: John Wiley &amp; Sons, Ltd. 2009. <a target=xrefwindow id=d43259e970 href="https://doi.org/10.1002/9780470743386">Publisher Full Text </a></span></li><li><a name=ref-4 class=n-a></a>&nbsp;<span class=citation><a name=d43259e976 class=n-a></a>Carter E, Schönbrodt F, Gervais W, <i> et al.</i>: Correcting-bias-in-psychology. <i>Adv Methods Pract Psychol Sci.</i> 2019; <b>2</b>(2): 115–144. <a target=xrefwindow id=d43259e987 href="https://doi.org/10.1177/2515245919847196">Publisher Full Text </a></span></li><li><a name=ref-5 class=n-a></a>&nbsp;<span class=citation><a name=d43259e993 class=n-a></a>Coburn KM, Vevea JL: Package ‘weightr’. Estimating Weight-Function Models for Publication Bias. 2019. <a target=xrefwindow id=d43259e995 href="https://cran.r-project.org/web/packages/weightr/weightr.pdf">Reference Source</a></span></li><li><a name=ref-6 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1002 class=n-a></a>Hartwig FP, Smith GD, Schmidt AF, <i> et al.</i>: The median and the mode as robust meta-analysis estimators in the presence of small-study effects and outliers. <i>Res Synth Methods.</i> 2020; <b>11</b>(3): 397–412. <a target=xrefwindow id=d43259e1013 href="http://www.ncbi.nlm.nih.gov/pubmed/32092231">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1016 href="https://doi.org/10.1002/jrsm.1402">Publisher Full Text </a> | <a target=xrefwindow id=d43259e1020 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7359861">Free Full Text </a></span></li><li><a name=ref-7 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1026 class=n-a></a>Heck DW, Gronau QF, Wagenmakers E: metaBMA: Bayesian model averaging for random and fixed effects meta-analysis. 2017. <a target=xrefwindow id=d43259e1028 href="https://doi.org/10.5281/zenodo.835494">Publisher Full Text </a></span></li><li><a name=ref-8 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1034 class=n-a></a>Higgins JPT, Thompson SG: Quantifying heterogeneity in a meta-analysis. <i>Stat Med.</i> 2002; <b>21</b>(11): 1539–1558. <a target=xrefwindow id=d43259e1042 href="http://www.ncbi.nlm.nih.gov/pubmed/12111919">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1045 href="https://doi.org/10.1002/sim.1186">Publisher Full Text </a></span></li><li><a name=ref-9 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1051 class=n-a></a>Hyman R: The ganzfeld psi experiment: A critical appraisal. <i>J Parapsychol.</i> 1985; <b>49</b>(1): 3–49. <a target=xrefwindow id=d43259e1059 href="https://search.proquest.com/openview/25ba027f7d2ac30955b32f502af1e3e8/1?pq-origsite=gscholar&amp;1818062">Reference Source</a></span></li><li><a name=ref-10 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1065 class=n-a></a>Hyman R, Honorton C: Joint communiqué: The psi ganzfeld controversy. <i>J Parapsychol.</i> 1986; <b>50</b>(4): 351–364. <a target=xrefwindow id=d43259e1073 href="https://psycnet.apa.org/record/1988-12537-001">Reference Source</a></span></li><li><a name=ref-11 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1079 class=n-a></a>Honorton C: Meta-analysis of psi ganzfeld research: A response to Hyman. <i>J Parapsychol.</i> 1985; <b>49</b>(1): 51–91. <a target=xrefwindow id=d43259e1087 href="https://psycnet.apa.org/record/1986-05165-001">Reference Source</a></span></li><li><a name=ref-12 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1094 class=n-a></a>John LK, Loewenstein G, Prelec D: Measuring the Prevalence of Questionable Research Practices With Incentives for Truth Telling. <i>Psychol Sci.</i> 2012; <b>23</b>(5): 524–532. <a target=xrefwindow id=d43259e1102 href="http://www.ncbi.nlm.nih.gov/pubmed/22508865">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1105 href="https://doi.org/10.1177/0956797611430953">Publisher Full Text </a></span></li><li><a name=ref-13 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1111 class=n-a></a>Kekecs Z, Aczel B, Palfi B, <i> et al.</i>: Raising the value of research studies in psychological science by increasing the credibility of research reports: The Transparent Psi Project - Preprint. 2019. <a target=xrefwindow id=d43259e1116 href="https://doi.org/10.31234/osf.io/uwk7y">Publisher Full Text </a></span></li><li><a name=ref-14 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1122 class=n-a></a>Langan D, Higgins JPT, Jackson D, <i> et al.</i>: A comparison of heterogeneity variance estimators in simulated random-effects meta-analyses. <i>Res Synth Methods.</i> 2019; <b>10</b>(1): 83–98. <a target=xrefwindow id=d43259e1133 href="http://www.ncbi.nlm.nih.gov/pubmed/30067315">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1136 href="https://doi.org/10.1002/jrsm.1316">Publisher Full Text </a></span></li><li><a name=ref-15 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1142 class=n-a></a>Mathur MB, VanderWeele TJ: Sensitivity analysis for publication bias in meta-analyses [preprint]. 2020. <a target=xrefwindow id=d43259e1144 href="https://osf.io/s9dp6/">Reference Source</a></span></li><li><a name=ref-16 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1150 class=n-a></a>Milton J, Wiseman R: Does psi exist? Lack of replication of an anomalous process of information transfer. <i>Psychol Bull.</i> 1999; <b>125</b>(4): 387–391. <a target=xrefwindow id=d43259e1158 href="http://www.ncbi.nlm.nih.gov/pubmed/10414223">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1161 href="https://doi.org/10.1037/0033-2909.125.4.387">Publisher Full Text </a></span></li><li><a name=ref-17 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1167 class=n-a></a>Moher D, Stewart L, Shekelle P, <i> et al.</i>: Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. <i>Syst Rev.</i> 2015; <b>4</b>(1): 1. <a target=xrefwindow id=d43259e1178 href="http://www.ncbi.nlm.nih.gov/pubmed/25554246">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1181 href="https://doi.org/10.1186/2046-4053-4-1">Publisher Full Text </a> | <a target=xrefwindow id=d43259e1185 href="http://www.ncbi.nlm.nih.gov/pmc/articles/4320440">Free Full Text </a></span></li><li><a name=ref-18 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1192 class=n-a></a>Parker A: ‘Ganzfeld’. Psi Encyclopedia. London: The Society for Psychical Research. 2017. <a target=xrefwindow id=d43259e1194 href="https://psi-encyclopedia.spr.ac.uk/articles/ganzfeld">Reference Source</a></span></li><li><a name=ref-19 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1200 class=n-a></a>Rouder JN, Morey RD, Province JM: A Bayes factor meta-analysis of recent extrasensory perception experiments: Comment on Storm, Tressoldi, and Di Risio (2010). <i>Psychol Bull.</i> 2013; <b>139</b>(1): 241–247. <a target=xrefwindow id=d43259e1208 href="http://www.ncbi.nlm.nih.gov/pubmed/23294092">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1211 href="https://doi.org/10.1037/a0029008">Publisher Full Text </a></span></li><li><a name=ref-20 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1217 class=n-a></a>Rouder JN, Haal JM, Davis-Stober CP, <i> et al.</i>: Beyond overall effects: A Bayesian approach to finding constraints in meta-analysis. <i>Psychol Methods.</i> 2019; <b>24</b>(5): 606–621. <a target=xrefwindow id=d43259e1228 href="http://www.ncbi.nlm.nih.gov/pubmed/31464466">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1231 href="https://doi.org/10.1037/met0000216">Publisher Full Text </a></span></li><li><a name=ref-21 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1237 class=n-a></a>Rubio-Aparicio M, López-López JA, Sánchez-Meca J, <i> et al.</i>: Estimation of an overall standardized mean difference in random-effects meta-analysis if the distribution of random effects departs from normal. <i>Res Synth Methods.</i> 2018; <b>9</b>(3): 489–503. <a target=xrefwindow id=d43259e1248 href="http://www.ncbi.nlm.nih.gov/pubmed/29989344">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1251 href="https://doi.org/10.1002/jrsm.1312">Publisher Full Text </a></span></li><li><a name=ref-22 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1257 class=n-a></a>Storm L, Ertel S: Does psi exist? Comments on Milton and Wiseman’s (1999) meta-analysis of ganzfeld research. <i>Psychol Bull.</i> 2001; <b>127</b>(3): 424–433, discussion 434-8. <a target=xrefwindow id=d43259e1265 href="http://www.ncbi.nlm.nih.gov/pubmed/11393304">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1268 href="https://doi.org/10.1037/0033-2909.127.3.424">Publisher Full Text </a></span></li><li><a name=ref-23 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1274 class=n-a></a>Storm L, Tressoldi PE, Di Risio L: Meta-analyses of free-response studies, 1992–2008: Assessing the noise reduction model in parapsychology. <i>Psychol Bull.</i> 2010; <b>136</b>(4): 471–485. <a target=xrefwindow id=d43259e1282 href="http://www.ncbi.nlm.nih.gov/pubmed/20565164">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1285 href="https://doi.org/10.1037/a0019457">Publisher Full Text </a></span></li><li><a name=ref-24 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1292 class=n-a></a>Storm L, Tressoldi PE, Utts J: Testing the Storm <i>et al.</i> (2010) meta-analysis using Bayesian and frequentist approaches: Reply to Rouder <i>et al.</i> (2013). <i>Psychol Bull.</i> 2013; <b>139</b>(1): 248–254. <a target=xrefwindow id=d43259e1306 href="http://www.ncbi.nlm.nih.gov/pubmed/23294093">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1310 href="https://doi.org/10.1037/a0029506">Publisher Full Text </a></span></li><li><a name=ref-25 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1316 class=n-a></a>Storm L, Tressoldi P: Meta-Analysis of Free-Response Studies 2009–2018: Assessing the Noise-Reduction Model Ten Years On. <i>PsyArxiv.</i> 2020. <a target=xrefwindow id=d43259e1321 href="https://doi.org/10.31234/osf.io/3d7at">Publisher Full Text </a></span></li><li><a name=ref-26 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1327 class=n-a></a>Tressoldi P, Storm L: Anomalous perception in a Ganzfeld condition: A meta-analysis of more than 40 years investigation. <i>figshare.</i> Online resource. 2020. <a target=xrefwindow id=d43259e1332 href="http://www.doi.org/10.6084/m9.figshare.12674618.v1">http://www.doi.org/10.6084/m9.figshare.12674618.v1</a></span></li><li><a name=ref-27 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1338 class=n-a></a>van Aert RCM, van Assen MALM: Correcting for publication bias in a Meta-Analysis with the P-Uniform* method. 2019. <a target=xrefwindow id=d43259e1340 href="https://doi.org/10.31222/osf.io/zqjr9">Publisher Full Text </a></span></li><li><a name=ref-28 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1346 class=n-a></a>Viechtbauer W: The metafor Package. 2017. <a target=xrefwindow id=d43259e1348 href="http://www.metafor-project.org/doku.php">Reference Source</a></span></li><li><a name=ref-29 class=n-a></a>&nbsp;<span class=citation><a name=d43259e1354 class=n-a></a>Watt CA, Kennedy JE: Options for Prospective Meta-Analysis and Introduction of Registration-Based Prospective Meta-Analysis. <i>Front Psychol.</i> 2016; <b>7</b>: 2030. <a target=xrefwindow id=d43259e1362 href="http://www.ncbi.nlm.nih.gov/pubmed/28101074">PubMed Abstract </a> | <a target=xrefwindow id=d43259e1365 href="https://doi.org/10.3389/fpsyg.2016.02030">Publisher Full Text </a> | <a target=xrefwindow id=d43259e1368 href="http://www.ncbi.nlm.nih.gov/pmc/articles/5209339">Free Full Text </a></span></li></ul></div></div></div> </div> <div class=f1r-article-desk> <section class="o-box o-box--medium u-bg--2 u-mt--2"> <h4 class="u-mt--0 u-mb--2 t-h3 u-weight--md">Looking for the Open Peer Review Reports?</h4> <p class="u-mt--0 u-mb--0 t-h4">They can now be found at the top of the panel on the right, linked from the box entitled Open Peer Review. Choose the reviewer report you wish to read and click the 'read' link. You can also read all the peer review reports by <a target=_blank href="https://f1000research.com/articles/9-826/v1/pdf?article_uuid=bff480a2-0d23-413e-8ee6-537c37060f55">downloading the PDF</a>.</p> </section> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 30 Jul 2020</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/9-826.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/9-826.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> <div class="f1r-article-mobile margin-bottom-30"> <div class=contracted-details> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> Science of Consciousness Research Group, Universit&agrave; degli studi di Padova, Padova, ITALY, 35131, Italy<br/> <sup>2</sup> School of Psychology, University of Adelaide, Adelaide, Australia, 5005, Australia<br/> <p> <div class=margin-bottom> Patrizio E. Tressoldi <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Software, Writing – Original Draft Preparation </div> <div class=margin-bottom> Lance Storm <br/> <span>Roles: </span> Conceptualization, Data Curation, Methodology, Supervision, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> <div class=contracted-details> <a href="#" class=section-title>Article Versions (1)</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> <div> <a href="https://f1000research.com/articles/9-826/v1" title="Open version 1 of this article." class="" gahelper=1>version 1</a> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div> Published: 30 Jul 2020, 9:826 </div> <div class=""><a href="https://doi.org/10.12688/f1000research.24868.1">https://doi.org/10.12688/f1000research.24868.1</a></div> </div> </div> <div class=contracted-details> <a href="#" class=section-title> <span class="f1r-icon icon-100_open_access"></span> Copyright </a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> © 2020 Tressoldi PE and Storm L. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </div> </div> <div class="padding-top-30 research-layout"> <div class=article-toolbox-wrapper-mobile> <div class=article-tools-icon-mobile data-section=download> <span class="f1r-icon icon-76_download_file white"></span> </div> <div class="article-tools-icon-mobile mobile-metrics article-metrics-wrapper metrics-icon-wrapper" data-section=metrics data-version-id=27439 data-id=24868 data-downloads="" data-views="" data-scholar="10.12688/f1000research.24868.1" data-recommended="" data-f1r-ga-helper="Article Page Metrics (Mobile)"> <span class="f1r-icon icon-89_metrics white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=cite> <span class="f1r-icon icon-82_quote white"></span> </div> <div class="article-tools-icon-mobile " data-section=track> <span class="f1r-icon icon-90_track white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=share> <span class="f1r-icon icon-34_share white"></span> </div> <span class=article-toolbox-stretch></span> </div> <div class=article-toolbox-content-mobile> <div class="toolbox-section download"> <div class=toolbox-section-heading>Download</div> <div class=toolbox-section-content> <a href="https://f1000research.com/articles/9-826/v1/pdf?article_uuid=bff480a2-0d23-413e-8ee6-537c37060f55" title="Download PDF" class="no-decoration pdf-download-helper"> <span class="f1r-icon icon-102_download_pdf toolbox-section-icon"></span> </a> <div class=toolbox-section-option-divider>&nbsp;</div> <a id=mobile-download-xml class=no-decoration href="#" title="Download XML"> <span class="f1r-icon icon-103_download_xml toolbox-section-icon"></span> </a> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>Export To</div> <div class=toolbox-section-content> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=WORKSPACE>Sciwheel</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=BIBTEX>Bibtex</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=ENDNOTE>EndNote</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=PROCITE>ProCite</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=REF_MANAGER>Ref. Manager (RIS)</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=SENTE>Sente</button> </div> </div> <div class="toolbox-section metrics"> <div class="toolbox-section-heading no-top-border">metrics</div> <div class="toolbox-section-divider toolbox-section-divider--no-height"></div> <div class=article-metrics-pageinfo> <div class=c-article-metrics-table> <table class=c-article-metrics-table__table> <thead> <tr> <th></th> <th><span class=c-article-metrics-table__heading>Views</span></th> <th><span class=c-article-metrics-table__heading>Downloads</span></th> </tr> </thead> <tbody> <tr> <th class=c-article-metrics-table__row-heading><span class="c-article-metrics-table__platform u-platform--" data-test-id=metrics_platform_name_mob>F1000Research</span></th> <td class="c-article-metrics-table__value js-article-views-count" data-test-id=metrics_platform_views_mob>-</td> <td class="c-article-metrics-table__value js-article-downloads-count" data-test-id=metrics_platform_downloads_mob>-</td> </tr> <tr> <th class=c-article-metrics-table__row-heading> <span class="u-ib u-middle c-article-metrics-table__pmc" data-test-id=metrics_pmc_name_mob>PubMed Central</span> <div class="c-block-tip c-block-tip--centered c-article-metrics-table__tooltip c-block-tip--md-padding c-block-tip--small-arrow u-ib u-middle"> <button type=button class="u-black--medium u-black--high@hover u-ib u-middle c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content>Data from PMC are received and updated monthly.</div> </div> </th> <td class="c-article-metrics-table__value js-pmc-views-count" data-test-id=metrics_pmc_views_mob>-</td> <td class="c-article-metrics-table__value js-pmc-downloads-count" data-test-id=metrics_pmc_downloads_mob>-</td> </tr> </tbody> </table> </div> </div> <span class=metrics-citations-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-heading u-mb--1">Citations</div> <div> <div class=toolbox-section-colsplit> <div class=citations-scopus-logo> <a href="" target=_blank class="is-hidden metrics-citation-icon" title="View full citation details at www.scopus.com"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count scopus"> <a href='' class='scopus-citation-link is-hidden' target=_blank title='View full citation details at www.scopus.com'>0</a> </div> </div> <div class=toolbox-section-colsplit> <div class="citations-pubmed-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon f1000research" title="View full citation details"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count pubmed"> <a href='' class='pubmed-citation-link is-hidden' target=_blank title='View full citation details'>0</a> </div> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <div class="citations-scholar-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon google-scholar f1000research" title="View full citation details" data-scholar="10.12688/f1000research.24868.1"><i class="material-icons scopus-icon">open_in_new</i></a> </div> </div> </div> </span> <span class=metrics-details-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-content altmetric-section"> <div class=altmetrics-image></div> <div class=altmetrics-more-link> <a href="" target=_blank class=f1r-standard-link>SEE MORE DETAILS</a> </div> <div class=altmetric-mobile-column-counts></div> <div class=altmetric-mobile-column-readers></div> <div class=toolbox-section-divider></div> </div> </span> </div> <div class="toolbox-section cite"> <div class="toolbox-section-heading no-top-border">CITE</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>how to cite this article</div> <div id=citation-copy-mobile class="toolbox-section-content text-content heading9 small" data-test-id=mob_copy-citation_text> Tressoldi PE and Storm L. Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation [version 1; peer review: awaiting peer review] <i>F1000Research</i> 2020, <b>9</b>:826 (<a href="https://doi.org/10.12688/f1000research.24868.1" target=_blank>https://doi.org/10.12688/f1000research.24868.1</a>) </div> <div class=toolbox-section-divider></div> <div class="toolbox-section-content text-content heading9 small"> NOTE: <em>it is important to ensure the information in <b>square brackets after the title</b> is included in all citations of this article.</em> </div> <div class=toolbox-section-content> <button class="primary orange extra-padding copy-cite-article-mobile js-clipboard" data-clipboard-target="#citation-copy-mobile" title="Copy the current citation details." data-test-id=mob_copy-citation_button-mob>COPY CITATION DETAILS</button> </div> </div> <div class="toolbox-section track"> <div class="toolbox-section-heading no-top-border">track</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>receive updates on this article</div> <div class="toolbox-section-content padding-left-20 padding-right-20 heading9 small"> Track an article to receive email alerts on any updates to this article. </div> <div class=toolbox-section-content> <a data-article-id=24868 id=mobile-track-article-signin-24868 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/24868?target=/articles/9-826.html"> <button class="primary orange extra-padding"> TRACK THIS ARTICLE </button> </a> </div> </div> <div class="toolbox-section share"> <div class="toolbox-section-heading no-top-border">Share</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <a target=_blank class="f1r-shares-icon-square f1r-shares-email" title="Email this article"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-twitter" title="Share on Twitter"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-facebook" title="Share on Facebook"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-linkedin" title="Share on LinkedIn"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-reddit" title="Share on Reddit"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-mendelay" title="Share on Mendeley"></a> <div class="email-article-wrapper email-article-version-container"> <div class=toolbox-section-divider></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form-mobile research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=27439 /> <input name=articleId type=hidden value=24868 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> </div> </div> </div> <a name=article-reports></a> <div id=article-reports class="u-mt--3 reports-comments no-divider"> <div class="current-referee-status no-border-and-margin "> <h2 class=main-title id=current-referee-status> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-85_peer_review size30"></span> </span> Open Peer Review <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> <a name=current-referee-status></a> <div class=current-referee-status__content name=add-new-report-comment id=add-new-report-comment> Current Reviewer Status: <div class=f1r-article-desk-inline><em>AWAITING PEER REVIEW</em></div> <div class="f1r-article-mobile-inline float-right"><em>AWAITING PEER REVIEW</em></div> <span class="circle-icon-small to-right" data-window=about-referee-status title=Help>?</span> <span class="research-layout f1r-article-mobile"> <div class=mobile-ref-status-help> Key to Reviewer Statuses <span class=referee-status-pointer></span> <span class="view-control float-right">VIEW</span> <span class="view-control float-right is-hidden">HIDE</span> <div class=mobile-ref-status-help-content> <div class="cf margin-top"> <span class="f1r-icon icon-86_approved status-green smaller float-left margin-bottom-40 margin-right" title=Approved></span> <span class=title>Approved</span>The paper is scientifically sound in its current form and only minor, if any, improvements are suggested </div> <div class="cf margin-top"> <span class="f1r-icon icon-87_approved_reservations status-green smaller float-left margin-bottom-40 margin-right" title="Approved with Reservations"></span> <span class=title>Approved with reservations</span> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </div> <div class="cf margin-top"> <span class="f1r-icon icon-88_not_approved status-red small float-left margin-bottom-30 margin-right" title="Not Approved"></span> <span class=title>Not approved</span>Fundamental flaws in the paper seriously undermine the findings and conclusions </div> </div> </div> </span> </div> </div> </div> <div class="f1r-article-mobile research-layout"> <div class="mobile-sections-divider before-comments"></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 30 Jul 2020</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/9-826.html&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/9-826.html&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> </div> </div> <div id=article_main-column class="p-article__sidebar o-layout__item u-1/3 not-expanded js-article-sidebar"> <div class="o-tab p-article__column-toggle-container"> <button class="c-tab c-tab--left js-column-toggle p-article__column-toggle not-expanded " type=button data-target-main=article_main-column data-target-secondary=article_secondary-column><i class="c-tab__icon material-icons u-hide@expanded">keyboard_arrow_left</i><i class="c-tab__icon material-icons u-show@expanded">keyboard_arrow_right</i></button> </div> <div class=p-article__sidebar-content> <div class="p-article__sidebar-scroller js-article-sidebar-scroller"> <section class="p-article__sidebar-view js-article-sidebar-view js-article-sidebar-main u-pt u-pb--8" data-view=peer-review> <div class="o-layout o-layout--flush"> <div class="o-layout__item u-pl"> <h3 class="u-mt--0 u-mb--2 t-h3 u-weight--md u-pl" data-test-id=article_sidebar_heading>Open Peer Review</h3> </div> <div class=o-layout__item> <div class="p-article__sidebar-highlight u-mb--2"> <h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md u-mr--1/2">Reviewer Status</h4> <div class="u-ib u-middle"><em>AWAITING PEER REVIEW</em></div> </div> </div> <section class="o-layout__item u-pl"> <div class=u-pl> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--2">Comments on this article</h4> <div class=u-mb--4> <p class="u-mt--0 u-mb--1 t-h4"><a class=p-article__color--light href="#article-comments">All Comments</a><span class=" u-ib u-ml--1/2 p-article__color--light">(0)</span></p> <a class=t-h4 href="/login?originalPath=/articles/9-826.html&scrollTo=add-new-comment" data-test-id=add-comment>Add a comment</a> </div> <hr class="c-hr c-hr--low c-hr--md u-mb--4"> <div class="research-layout f1r-article-desk"> <div class="heading6 c-ribbon-wrapper c-ribbon-wrapper--etoc f1000research "> <div class=c-ribbon-wrapper__body>Sign up for content alerts</div> </div> </div> <div class="research-layout sidebar-sign-up-form f1r-article-desk u-mb--4 "> <form class=js-email-alert-signup action="#" method=POST data-email=tocAlertWeekly> <input type=hidden name=isUserLoggedIn class=js-email-alert-signup-logged-in value=N /> <input type=hidden name=userId class=js-email-alert-signup-user-id value=""/> <input type=hidden name=frequency class=js-email-alert-signup-frequency value=WEEKLY /> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <input type=email name=emailAddress class="form-input-field js-email-alert-signup-address u-1/1 u-bb" required=required placeholder=Email /> </div> <div class=o-actions__secondary> <div class="_mdl-layout u-ml--1/2"> <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--small mdl-button--filled js-email-alert-signup-submit">Sign Up</button> </div> </div> </div> </form> <div id=sidebar-sign-up-message class="section-text js-email-alert-signup-msg is-hidden">You are now signed up to receive this alert</div> </div> <section class=js-terms-container> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--1">Browse by related subjects</h4> <div class="article-subcontainer article-subcontainer--sidebar"> <ul class=js-terms-list></ul> </div> </section> </div> </section> </div> </section> </div> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/read-more.js"></script> <script src="/js/article/article-router.js"></script> <script src="/js/article/article-sidebar.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/article/article-column-toggle.js"></script> </div> </div> </div> </main> <input type=hidden id=_articleVersionUrl value="https://f1000research.com/articles/9-826/v1/"> <div class=research-help id=about-referee-status> <div class="research-layout research-help-content about-referee-status"> <span class="close-research-help dark-cross" title=Close></span> Alongside their report, reviewers assign a status to the article: <div class="cf research-help-row"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> <span class=research-help-text>Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested</span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-87_approved_reservations status-green smaller" title="Approved with Reservations"></span> <span class=research-help-text>Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-88_not_approved status-red small" title="Not Approved"></span> <span class=research-help-text>Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions</span> </div> </div> </div> <div id=datasets-info class=is-hidden> </div> <div class=article-interactive-content-container style="display: none;"> <a name=f-template class=n-a></a> <div class="interactive-content-wrapper padding-20"> <img src="" class=interactive-content-image title="Open the interactive image display"> <div class=interactive-content-title></div> <div class=interactive-content-text></div> <div class="f1r-article-desk interactive-content-ribbon" data-interactive-content-type=R-Script> <div class=interactive-content-label>Adjust parameters to alter display</div> <div class=interactive-content-button></div> </div> <div class="f1r-article-mobile mobile-interactive-note"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div id=article-interactive-omero-container class=article-interactive-omero-container style="display: none;"> <div class=interactive-content-wrapper> <div class="interactive-omero-button omero-content" title="Open the interactive content window." data-interactive-content-type=Omero></div> <div class=has-interactive-content-image> <span class=box-arrow></span> <span class=box-middle>Includes Interactive Elements</span> <span class=box-end></span> </div> <div class="fig panel clearfix" style="margin: 0; padding-bottom: 20px;"> <a name=templatelink class=n-a></a> <a target=_blank href="" class=link-for-omero-image> <img src="" class=interactive-omero-image title="Open the image display window."> </a> <div class=caption> <div class=interactive-content-title></div> <div class=interactive-content-text></div> </div> <div class="is-hidden omero-image-list"></div> </div> <div class="f1r-article-mobile mobile-interactive-note omero"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div class="add-comment-container shadow-box is-hidden" id=save-comment-container> <span id=save-comment-text class=intro-text>Edit comment</span> <textarea id=new-comment name=new-comment class="global-textarea comment margin-bottom margin-top"></textarea> <p><strong>Competing Interests</strong></p> <textarea id=new-competing-interests name=competing-interests class="global-textarea competing-interests margin-bottom check-xss"></textarea> <div class=clearfix></div> <button id=cancelComment type=button class="general-white-orange-button float-right no-background-button margin-left"> Cancel </button> <button id=save-comment-button commentId="" type=button class="general-white-orange-button float-right"> Save </button> <div class=clearfix></div> <div class="green-message margin-top is-hidden comment-is-saved">The comment has been saved.</div> <div class="red-message margin-top is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class="red-message margin-top is-hidden comment-enter-text ucf">Your must enter a comment.</div> <div class="red-message margin-top is-hidden comment-references-error references">References error.</div> </div> <div class="modal-window-wrapper is-hidden"> <div id=conflicts-interests class="modal-window padding-20"> <div class=modal-window__content> <h2 class=h2-title>Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div class="f1r-article-mobile research-layout"> <span class=modal-window-close-button></span> </div> </div> </div> <div class="o-modal c-email-alert-popup js-email-alert-popup is-hidden"> <div class="o-modal__body js-modal-body c-email-alert-popup__inner"> <h3 class=c-email-alert-popup__title>Stay Updated</h3> <p class=c-email-alert-popup__sub>Sign up for content alerts and receive a weekly or monthly email with all newly published articles</p> <p><a href="/register?originalPath=" class="c-email-alert-popup__lnk c-email-alert-popup__button js-email-alert-popup-action">Register with F1000Research</a></p> <p>Already registered? <a href="/login?originalPath=" class="c-email-alert-popup__lnk js-email-alert-popup-action">Sign in</a></p> <p class=c-email-alert-popup__footer><a class="c-email-alert-popup__lnk js-email-alert-popup-cancel" href="#">Not now, thanks</a></p> </div> </div> <div id=addCommentModal role=dialog aria-labelledby=addCommentModal_title aria-describedby=addCommentModal_description> <div class="c-modal js-modal is-closed p-article__add-comment-modal c-modal--xlarge js-article-comment-modal c-modal--scroll "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-bg--2 c-modal--scroll-always "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <div id=addCommentModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div class="js-add-comment-container t-caption u-black--high"> <div class=u-weight--bd>PLEASE NOTE</div> <div class=u-mt--1> <span class="red u-weight--bd">If you are an AUTHOR of this article,</span> please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a &ldquo;User Comment&rdquo;. </div> <div class=u-mt--1> <span class="red u-weight--bd">If you are a REVIEWER of this article,</span> please check that you have signed in with the account associated with this article and then go to your <a href="/my/referee">account</a> to submit your report, please do not post your review here. </div> <div class="u-mt--1 u-mb--1"> If you do not have access to your original account, please <a href="mailto:research@f1000.com">contact us</a>. </div> <p class=no-top-margin>All commenters must hold a formal affiliation as per our <a href="/about/policies#commentspolicy" target=_blank>Policies</a>. The information that you give us will be displayed next to your comment.</p> <p>User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the <a href="/about/legal/usercommenttermsandconditions" target=_blank>User Comment Terms and Conditions</a>. Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available.</p> <div class="comments-note margin-bottom" id=accept-user-comments> <input class=js-add-comment-accept-terms type=checkbox id=acceptedTermsAndConditions name=acceptedTermsAndConditions> I accept the <a href="/about/legal/usercommenttermsandconditions" target=_blank> User Comment Terms and Conditions</a> <span class=required>&nbsp;</span> </div> <div class="default-error margin-top is-hidden comment-accept-conditions utac">Please confirm that you accept the User Comment Terms and Conditions.</div> <div class="research-layout registration-form u-mb--2"> <div class="u-mb--1 u-mt--2"> <strong>Affiliation</strong> </div> <div class=form-field> <input type=text name=institution class="form-input-field check-xss js-add-comment-institution" placeholder="Organization *" autocomplete=off /> <div class="default-error margin-top is-hidden comment-enter-institution institution">Please enter your organisation.</div> </div> <div class=form-field> <input type=text name=place class="form-input-field check-xss js-add-comment-place" placeholder=Place> </div> <div class=form-field> <div class="form-input-wrapper hundred-percent-wide"> <div class="new-select-standard-wrapper half-width inline-display heading10"> <select name=countryId id=country class="form-select-menu smaller js-add-comment-country"> <option value=-1>Country*</option> <option value=840>USA</option> <option value=826>UK</option> <option value=124>Canada</option> <option value=156>China</option> <option value=250>France</option> <option value=276>Germany</option> <optgroup label=-----------------------------------------------></optgroup> <option value=4>Afghanistan</option> <option value=248>Aland Islands</option> <option value=8>Albania</option> <option value=12>Algeria</option> <option value=16>American Samoa</option> <option value=20>Andorra</option> <option value=24>Angola</option> <option value=660>Anguilla</option> <option value=10>Antarctica</option> <option value=28>Antigua and Barbuda</option> <option value=32>Argentina</option> <option value=51>Armenia</option> <option value=533>Aruba</option> <option value=36>Australia</option> <option value=40>Austria</option> <option value=31>Azerbaijan</option> <option value=44>Bahamas</option> <option value=48>Bahrain</option> <option value=50>Bangladesh</option> <option value=52>Barbados</option> <option value=112>Belarus</option> <option value=56>Belgium</option> <option value=84>Belize</option> <option value=204>Benin</option> <option value=60>Bermuda</option> <option value=64>Bhutan</option> <option value=68>Bolivia</option> <option value=70>Bosnia and Herzegovina</option> <option value=72>Botswana</option> <option value=74>Bouvet Island</option> <option value=76>Brazil</option> <option value=86>British Indian Ocean Territory</option> <option value=92>British Virgin Islands</option> <option value=96>Brunei</option> <option value=100>Bulgaria</option> <option value=854>Burkina Faso</option> <option value=108>Burundi</option> <option value=116>Cambodia</option> <option value=120>Cameroon</option> <option value=124>Canada</option> <option value=132>Cape Verde</option> <option value=136>Cayman Islands</option> <option value=140>Central African Republic</option> <option value=148>Chad</option> <option value=152>Chile</option> <option value=156>China</option> <option value=162>Christmas Island</option> <option value=166>Cocos (Keeling) Islands</option> <option value=170>Colombia</option> <option value=174>Comoros</option> <option value=178>Congo</option> <option value=184>Cook Islands</option> <option value=188>Costa Rica</option> <option value=384>Cote d'Ivoire</option> <option value=191>Croatia</option> <option value=192>Cuba</option> <option value=196>Cyprus</option> <option value=203>Czech Republic</option> <option value=180>Democratic Republic of the Congo</option> <option value=208>Denmark</option> <option value=262>Djibouti</option> <option value=212>Dominica</option> <option value=214>Dominican Republic</option> <option value=218>Ecuador</option> <option value=818>Egypt</option> <option value=222>El Salvador</option> <option value=226>Equatorial Guinea</option> <option value=232>Eritrea</option> <option value=233>Estonia</option> <option value=231>Ethiopia</option> <option value=238>Falkland Islands</option> <option value=234>Faroe Islands</option> <option value=583>Federated States of Micronesia</option> <option value=242>Fiji</option> <option value=246>Finland</option> <option value=250>France</option> <option value=254>French Guiana</option> <option value=258>French Polynesia</option> <option value=260>French Southern Territories</option> <option value=266>Gabon</option> <option value=268>Georgia</option> <option value=276>Germany</option> <option value=288>Ghana</option> <option value=292>Gibraltar</option> <option value=300>Greece</option> <option value=304>Greenland</option> <option value=308>Grenada</option> <option value=312>Guadeloupe</option> <option value=316>Guam</option> <option value=320>Guatemala</option> <option value=831>Guernsey</option> <option value=324>Guinea</option> <option value=624>Guinea-Bissau</option> <option value=328>Guyana</option> <option value=332>Haiti</option> <option value=334>Heard Island and Mcdonald Islands</option> <option value=336>Holy See (Vatican City State)</option> <option value=340>Honduras</option> <option value=344>Hong Kong</option> <option value=348>Hungary</option> <option value=352>Iceland</option> <option value=356>India</option> <option value=360>Indonesia</option> <option value=364>Iran</option> <option value=368>Iraq</option> <option value=372>Ireland</option> <option value=376>Israel</option> <option value=380>Italy</option> <option value=388>Jamaica</option> <option value=392>Japan</option> <option value=832>Jersey</option> <option value=400>Jordan</option> <option value=398>Kazakhstan</option> <option value=404>Kenya</option> <option value=296>Kiribati</option> <option value=901>Kosovo (Serbia and Montenegro)</option> <option value=414>Kuwait</option> <option value=417>Kyrgyzstan</option> <option value=418>Lao People's Democratic Republic</option> <option value=428>Latvia</option> <option value=422>Lebanon</option> <option value=426>Lesotho</option> <option value=430>Liberia</option> <option value=434>Libya</option> <option value=438>Liechtenstein</option> <option value=440>Lithuania</option> <option value=442>Luxembourg</option> <option value=446>Macao</option> <option value=807>Macedonia</option> <option value=450>Madagascar</option> <option value=454>Malawi</option> <option value=458>Malaysia</option> <option value=462>Maldives</option> <option value=466>Mali</option> <option value=470>Malta</option> <option value=584>Marshall Islands</option> <option value=474>Martinique</option> <option value=478>Mauritania</option> <option value=480>Mauritius</option> <option value=175>Mayotte</option> <option value=484>Mexico</option> <option value=581>Minor Outlying Islands of the United States</option> <option value=498>Moldova</option> <option value=492>Monaco</option> <option value=496>Mongolia</option> <option value=499>Montenegro</option> <option value=500>Montserrat</option> <option value=504>Morocco</option> <option value=508>Mozambique</option> <option value=104>Myanmar</option> <option value=516>Namibia</option> <option value=520>Nauru</option> <option value=524>Nepal</option> <option value=530>Netherlands Antilles</option> <option value=540>New Caledonia</option> <option value=554>New Zealand</option> <option value=558>Nicaragua</option> <option value=562>Niger</option> <option value=566>Nigeria</option> <option value=570>Niue</option> <option value=574>Norfolk Island</option> <option value=580>Northern Mariana Islands</option> <option value=408>North Korea</option> <option value=578>Norway</option> <option value=512>Oman</option> <option value=586>Pakistan</option> <option value=585>Palau</option> <option value=275>Palestinian Territory</option> <option value=591>Panama</option> <option value=598>Papua New Guinea</option> <option value=600>Paraguay</option> <option value=604>Peru</option> <option value=608>Philippines</option> <option value=612>Pitcairn</option> <option value=616>Poland</option> <option value=620>Portugal</option> <option value=630>Puerto Rico</option> <option value=634>Qatar</option> <option value=638>Reunion</option> <option value=642>Romania</option> <option value=643>Russian Federation</option> <option value=646>Rwanda</option> <option value=654>Saint Helena</option> <option value=659>Saint Kitts and Nevis</option> <option value=662>Saint Lucia</option> <option value=666>Saint Pierre and Miquelon</option> <option value=670>Saint Vincent and the Grenadines</option> <option value=882>Samoa</option> <option value=674>San Marino</option> <option value=678>Sao Tome and Principe</option> <option value=682>Saudi Arabia</option> <option value=686>Senegal</option> <option value=688>Serbia</option> <option value=690>Seychelles</option> <option value=694>Sierra Leone</option> <option value=702>Singapore</option> <option value=703>Slovakia</option> <option value=705>Slovenia</option> <option value=90>Solomon Islands</option> <option value=706>Somalia</option> <option value=710>South Africa</option> <option value=239>South Georgia and the South Sandwich Is</option> <option value=410>South Korea</option> <option value=724>Spain</option> <option value=144>Sri Lanka</option> <option value=736>Sudan</option> <option value=740>Suriname</option> <option value=744>Svalbard and Jan Mayen</option> <option value=748>Swaziland</option> <option value=752>Sweden</option> <option value=756>Switzerland</option> <option value=760>Syria</option> <option value=158>Taiwan</option> <option value=762>Tajikistan</option> <option value=834>Tanzania</option> <option value=764>Thailand</option> <option value=270>The Gambia</option> <option value=528>The Netherlands</option> <option value=626>Timor-Leste</option> <option value=768>Togo</option> <option value=772>Tokelau</option> <option value=776>Tonga</option> <option value=780>Trinidad and Tobago</option> <option value=788>Tunisia</option> <option value=792>Turkey</option> <option value=795>Turkmenistan</option> <option value=796>Turks and Caicos Islands</option> <option value=798>Tuvalu</option> <option value=800>Uganda</option> <option value=826>UK</option> <option value=804>Ukraine</option> <option value=784>United Arab Emirates</option> <option value=850>United States Virgin Islands</option> <option value=858>Uruguay</option> <option value=840>USA</option> <option value=860>Uzbekistan</option> <option value=548>Vanuatu</option> <option value=862>Venezuela</option> <option value=704>Vietnam</option> <option value=876>Wallis and Futuna</option> <option value=905>West Bank and Gaza Strip</option> <option value=732>Western Sahara</option> <option value=887>Yemen</option> <option value=894>Zambia</option> <option value=716>Zimbabwe</option> </select> </div> </div> <div class="default-error margin-top is-hidden comment-enter-country country">Please select your country.</div> </div> </div> <textarea data-test-id=article_add-comment_comment name=new-comment class="js-add-comment-comment comment margin-bottom margin-top"></textarea> <div class="default-error margin-top comment-enter-text comment-error is-hidden ">You must enter a comment.</div> <label class="comments-note u-mt--2 u-mb--2" for=competingInterests_1> <div class="u-mb--1 u-mt--2"><strong data-test-id=article_report-add-comment_competing-interests-title>Competing Interests</strong></div> <p class="u-mb--2 u-mt--0" data-test-id=article_report-add-comment_competing-interests-description>Please disclose any <a href="#article-competing-intersts-policy" class=js-modal-competing-intersts-toggle>competing interests</a> that might be construed to influence your judgment of the article's or peer review report's validity or importance.</p> </label> <div id=article-competing-intersts-policy class=js-article-competing-interests-policy style="display: none;"> <h2 class="h2-title u-mt--0 u-pt--0">Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div id=competingInterests_1 class="c-inline-editor js-inline-editor js-form_input u-bb--all u-mb--2 js-comment-competing-interests" data-name=competing-interests data-rows=3> <textarea id=competingInterests_1_input name=competing-interests placeholder="&nbsp;" required=false class="u-hide-visually js-inline-editor_input" tabindex=-1></textarea> <div class="c-inline-editor__editor js-inline-editor_editor o-box c-box o-box--tiny u-bg--11" data-target=competingInterests_1_input role=textbox required=false data-placeholder="&nbsp;" contenteditable=true></div> <span class="c-inline-editor__error js-inline-editor-message">Please state your competing interests</span> </div> <div data-test-id=article_add-comment_saved class="green-message comments is-hidden comment-is-saved">The comment has been saved.</div> <div data-test-id=article_add-comment_error class="default-error comments is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class=clearfix></div> <div class=js-hook></div> </div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" data-test-id=article_add-comment_cancel class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" data-test-id=article_add-comment_post class="c-button c-button--full js-modal__confirm c-button--primary">Post</a> </div> </aside> </div> </div> <style>
+                .at-icon-wrapper {
+        background-size: 100% !important;
+    }
+</style> <script src="/js/namespace.js"></script> <script src="/js/constants.js"></script> <script src="/js/utilities.js"></script> <script src="/js/article/alert-signup.js"></script> <script type='text/javascript'>
+    var lTitle = "Stage 1 Registered Report: Anomalous perception...".replace("'", '');
+    var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/9-826/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+    var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/9-826/v1&title=" + encodeURIComponent(lTitle);
+
+    var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/9-826/v1" + "&title=" + encodeURIComponent(lTitle);
+
+            linkedInUrl += encodeURIComponent('Tressoldi PE and Storm L');
+    
+    var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+    var addthis_config = {
+            ui_offset_top: offsetTop,
+                                    services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_custom : [
+                {
+                    name: "LinkedIn",
+                    url:  linkedInUrl,
+                    icon:"/img/icon/at_linkedin.svg"
+                },
+                {
+                    name: "Mendeley",
+                    url:  "http://www.mendeley.com/import/?url=https://f1000research.com/articles/9-826/v1/mendeley",
+                    icon:"/img/icon/at_mendeley.svg"
+                },
+                {
+                    name: "Reddit",
+                    url:  redditUrl,
+                    icon:"/img/icon/at_reddit.svg"
+                },
+            ]
+        };
+
+
+    var addthis_share = {
+            url: "https://f1000research.com/articles/9-826",
+            templates : {
+                twitter : "Stage 1 Registered Report: Anomalous perception in a Ganzfeld.... Tressoldi PE and Storm L, published by " + 
+               "@F1000Research"
+       + ", https://f1000research.com/articles/9-826/v1"
+            }
+        };
+
+    if (typeof(addthis) != "undefined"){
+        addthis.addEventListener('addthis.ready', checkCount);
+        addthis.addEventListener('addthis.menu.share', checkCount);
+    }
+
+        $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+    $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+    $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+    $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+    $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+    function checkCount(){
+        setTimeout(function(){
+            $(".addthis_button_expanded").each(function(){
+                var count = $(this).text();
+                if (count !== "" && count != "0")
+                    $(this).removeClass("is-hidden");
+                else
+                    $(this).addClass("is-hidden");
+            });
+        }, 1000);
+    }
+</script> <div id=citeReportModal role=dialog aria-labelledby=citeReportModal_title aria-describedby=citeReportModal_description> <div class="c-modal js-modal is-closed c-modal--large js-cite-report-modal "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-black--high "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <h1 id=citeReportModal_title class="c-modal__title t-h3 u-mt--0 u-mb--2 u-weight--md">How to cite this report</h1> <div id=citeReportModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div id="" class=js-report-citation-container>{{reportCitation}}</div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" title="Copy the current citation details to the clipboard." data-clipboard-target="#referee-report-citation" data-test-id=report_copy-citation_button class="c-button c-button--full js-modal__confirm c-button--primary js-clipboard c-mini-tooltip--above">Copy Citation Details</a> </div> </aside> </div> </div> <script src="/js/referee/new/referee_validators.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/referee/new/referee_checkbox-input.js"></script> <script src="/js/referee/new/referee_inline-editor.js"></script> <script type="text/javascript">
+    $(function(){
+        var gaCat = "F1000Research";
+        if (gaCat === "") {
+            gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+        }
+        GAHelper.track({category: gaCat, action: "Article Page: Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation", label: "pageviews"});
+        GAHelper.track({category: gaCat, action: "Article Type: Study Protocol", label: "Article Page"});
+        $(".f1r-article-desk .collection-image").each(function (idx, el) {
+            var whatChannel = $(el).find("a").attr("href"),
+                channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+                gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+            GAHelper.track({category: 'ChannelStats', action: "Article Page: Stage 1 Registered Report: Anomalous perception in a Ganzfeld condition - A meta-analysis of more than 40 years investigation", label: gaRef});
+        });
+    });
+</script> <script>
+    $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+    $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+</script> <script src="/js/article/track_article.js" type="text/javascript"></script> <script type="text/javascript">
+    $.get("/articles/acj/24868/27439")
+</script> <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script type="text/javascript" src="/js/app/messenger.js"></script> <script type="text/javascript" src="/js/article/article_mobiles.js"></script> <script src="/js/vendor/clipboard.min.js"></script> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/clipboard.js"></script> <script src="/js/article/thesaurus-terms-display.js"></script> <script>
+    new F1000.Clipboard();
+    new F1000.ThesaurusTermsDisplay("articles", "article", "27439");
+</script> <script>
+    $(document).ready(function() {
+        $( "#frame1" ).on('load', function() {
+            var mydiv = $(this).contents().find("div");
+            var h     = mydiv.height();
+            console.log(h)
+        });
+
+        
+        var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+            titleLivingFigure = tooltipLivingFigure.attr("title");
+        tooltipLivingFigure.simpletip({
+            fixed: true,
+            position: ["-115", "30"],
+            baseClass: 'small-tooltip',
+            content:titleLivingFigure + "<div class='tooltip-arrow'></div>"
+        });
+        tooltipLivingFigure.removeAttr("title");
+
+        $("body").on("click", ".cite-living-figure", function(e) {
+            e.preventDefault();
+            var ref = $(this).attr("data-ref");
+            $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+        });
+        $("body").on("click", ".close-cite-living-figure", function(e) {
+            e.preventDefault();
+            $(this).closest(".popup-window-wrapper").fadeOut(200);
+        });
+
+                $(document).on("mouseup", function(e) {
+            var metricsContainer = $(".article-metrics-popover-wrapper");
+            if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+                $(".article-metrics-close-button").click();
+            }
+        });
+
+        var articleId = $('#articleId').val();
+
+        if($("#main-article-count-box").attachArticleMetrics) {
+            $("#main-article-count-box").attachArticleMetrics(articleId, {
+                articleMetricsView: true
+            });
+        }
+    });
+
+    var figshareWidget = $(".new_figshare_widget");
+    if (figshareWidget.length > 0) {
+        window.figshare.load("f1000", function(Widget) {
+            // Select a tag/tags defined in your page. In this tag we will place the widget.
+            _.map(figshareWidget, function(el){
+                var widget = new Widget({
+                    articleId: $(el).attr("figshare_articleId")
+                    //height:300 // this is the height of the viewer part. [Default: 550]
+                });
+                widget.initialize(); // initialize the widget
+                widget.mount(el); // mount it in a tag that's on your page
+                // this will save the widget on the global scope for later use from
+                // your JS scripts. This line is optional.
+                //window.widget = widget;
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        
+        var reportIds = {
+                           "68433": 0,
+                           "69157": 0,
+                           "68438": 0,
+                           "68427": 0,
+                           "68426": 0,
+                           "68974": 0,
+                    };
+
+        $(".referee-response-container,.js-referee-report").each(function(index, el) {
+            var reportId = $(el).attr("data-reportid"),
+                reportCount = reportIds[reportId] || 0;
+            $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+        });
+
+        var uuidInput = $("#article_uuid"),
+            oldUUId = uuidInput.val(),
+            newUUId = "ea60e2cc-b087-429d-9c6d-940ca463406b";
+        uuidInput.val(newUUId);
+
+        $("a[href*='article_uuid=']").each(function(index, el) {
+            var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+            $(el).attr("href", newHref);
+        });
+
+    });
+</script>              </div>
+        </div>
+
+        
+            
+            <div class="o-page__footer sticky-email-wrapper">
+                
+                
+
+                
+
+
+<footer class="c-footer t-inverted">
+
+    <div class="o-wrapper">
+        <div class="o-layout">
+
+
+                        
+            <div class="o-layout__item u-mb--3">
+                <div class="c-branding c-branding--research">
+                    <img src="/img/research/F1000Research_white.svg" alt="F1000Research">
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <p class="t-h3 u-mt--0 u-mb--0">An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing.</p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <div class="o-layout">
+                    <nav class="c-footer__nav">
+
+                            <div class="o-layout__item u-3/5@sm u-mb--3">
+
+
+                                <div class="o-columns o-columns--2">
+
+                                                                            <a href="/browse/articles" class="t-body c-footer__nav-item "      >Browse</a>
+                                                                            <a href="/gateways" class="t-body c-footer__nav-item "      >Gateways</a>
+                                                                            <a href="/collections" class="t-body c-footer__nav-item "      >Collections</a>
+                                                                            <a href="/about" class="t-body c-footer__nav-item "      >How it Works</a>
+                                                                            <a href="https://blog.f1000.com/blogs/f1000research/" class="t-body c-footer__nav-item "      >Blog</a>
+                                                                            <a href="/contact" class="t-body c-footer__nav-item "      >Contact</a>
+                                                                            <a href="/developers" class="t-body c-footer__nav-item u-hide u-show@navbar"      >For Developers</a>
+                                                                            <a href="/published/rss" class="t-body c-footer__nav-item "   title="RSS feed of published articles"     >RSS</a>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="o-layout__item u-2/5@sm u-center u-right@sm u-mb--3">
+
+                                <div class="u-hide u-show@lg">
+                                    <div class="_mdl-layout">
+                                        <a class="mdl-button mdl-js-button mdl-button--inverted mdl-button--no-shadow mdl-js-ripple-effect mdl-button--outline" href="/for-authors/publish-your-research"   data-test-id="footer_submit_research"  >Submit Your Research</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="o-layout__item u-mb--2">
+                <div class="c-footer__share">
+                        <div class="c-footer__share">
+        <span class="c-footer__share-icon" title="Open Access">
+            <span class="f1r-icon icon-100_open_access license-icon"></span>
+        </span>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/licenses" target="_blank" title="Creative Commons License CC-BY">
+            <span class="f1r-icon icon-116_cc license-icon license-icon-cc"></span>
+            <span class="f1r-icon icon-117_ccby license-icon license-icon-cc"></span>
+        </a>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/about/cc0" target="_blank" title="Creative Commons License CC0">
+            <span class="f1r-icon icon-118_cco license-icon"></span>
+        </a>
+
+    </div>
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="c-footer__social u-mt--0 u-mb--0 u-white--low-med">Follow us
+                    <a href="https://www.facebook.com/F1000" target="_blank" class="c-footer__social-icon f1r-icon icon-55_footer_facebook"></a>
+                    <a href="https://twitter.com/#!/F1000Research" target="_blank" class="c-footer__social-icon f1r-icon icon-56_footer_twitter"></a>
+                    <a href="http://www.youtube.com/user/F1000research" target="_blank" class="c-footer__social-icon f1r-icon icon-57_footer_youtube"></a></p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md u-right@md">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="t-caption u-white--low-med">&copy; 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | <a href="/about/legal" class="copyrightLegal">Legal</a> | Partner of <a target="_blank" href="http://www.who.int/hinari/en/">HINARI</a>  &bull; <a target="_blank" href="http://crossref.org/">CrossRef</a> &bull; <a target="_blank" href="http://about.orcid.org/">ORCID</a> &bull; <a target="_blank" href="http://www.fairsharing.org">FAIRSharing</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</footer>            </div>
+        
+    </div>
+
+            <div class="js-cookie-spacer"></div>
+        <div class="cookie-warning">
+            <div class="instruction">The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a class="js-scroll-to" href="/about/legal/privacypolicy#use-of-cookies" data-scroll-target="#use-of-cookies">Find out more &raquo;</a></div>
+            <div class="close-button"></div>
+        </div>
+    
+    <script>
+                    R.templateTests.simpleTemplate = R.template('<p class="$variable.one">$text</p><p class="${variable.two}">$text</p><p class="$!variable.three">$text</p><p class="$!{variable.four}">$text</p><p class="${selector}.five">$text</p>');
+            R.templateTests.runTests();
+        
+        var F1000platform = new F1000.Platform({
+            name: "f1000research",
+            displayName: "F1000Research",
+            hostName: "f1000research.com",
+            id: "1",
+            editorialEmail: "research@f1000.com",
+            infoEmail: "info@f1000.com",
+            usePmcStats: true
+        });
+
+                    $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+            // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+            $(document).ready(function () {
+                if ($(".cookie-warning").is(":visible")) {
+                    $(".sticky").css("margin-bottom", "35px");
+                    $(".devices").addClass("devices-and-cookie-warning");
+                }
+                $(".cookie-warning .close-button").click(function (e) {
+                    $(".devices").removeClass("devices-and-cookie-warning");
+                    $(".sticky").css("margin-bottom", "0");
+                });
+
+                $("#tweeter-feed .tweet-message").each(function (i, message) {
+                    var self = $(message);
+                    self.html(linkify(self.html()));
+                });
+
+                $(".partner").on("mouseenter mouseleave", function() {
+                    $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+                });
+            });
+        
+    </script>
+
+            
+<div class="sign-in-popup">
+	<!-- <a href="#" class="sign-in shadow">Sign in <span class="sign-in-image-active"></span></a> -->
+	<a href="#" class="sign-in ${locale}">Sign In <span class="arrow-closed sign-in-arrow-padding arrow-opened"></span></a>
+	<div class="sign-in-form">
+
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="googleOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-826.html"/>
+                            <input id="google-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-google" name="system" type="hidden" value="GOOGLE"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="facebookOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-826.html"/>
+                            <input id="facebook-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-fb" name="system" type="hidden" value="FACEBOOK"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="orcidOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-826.html"/>
+                            <input id="orcid-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-orcid" name="system" type="hidden" value="ORCID"/>
+    </form>
+		<form id="sign-in-form" class="login-container" action="https://f1000research.com/login" method="post" name="f">
+           <div id="sign-in-form-gfb-popup"></div>
+
+                                                            <input class="target-field" type="hidden" name="target" value="/articles/9-826.html"/>
+                            			<input type="text" name="username" id="signin-email-box" class="sign-in-input" placeholder="Email address" autocomplete="email">
+			<input type="password" name="password" id="signin-password-box" class="sign-in-input" placeholder="Password" autocomplete="current-password">
+			<div class="sign-in-remember">
+                <div class="checkbox-wrapper">
+    				<input type="checkbox" id="remember-me" name="remember_me" class="checkbox is-hidden">
+                </div>
+                <span class="checkbox-label">Remember me</span>
+			</div>
+			<a href="#" class="sign-in-link" id="forgot-password-link">Forgotten your password?</a>
+			<div class="sign-in-button-container margin-top margin-left-20 margin-bottom">
+				<button type="submit" id="sign-in-button" class="sign-in-buttons general-white-orange-button">Sign In</button>
+				<button type="button" id="sign-in-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="sign-in-error">Email or password not correct. Please try again</div>
+			<div class="sign-in-loading">Please wait...</div>
+		</form>
+		<div class="forgot-password-container">
+			
+<script type="text/javascript">
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("GOOGLE");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=facebookSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("FACEBOOK");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=orcidSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("ORCID");
+            $("form[id=oAuthForm]").submit();
+        });
+	});
+</script>
+
+<span class="text first">
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+    <p>The email address should be the one you originally registered with F1000.</p>
+</span>
+<input name="email" class="sign-in-input" id="email-forgot-password" type="text" placeholder="Email address">
+<div class="forgot-password-email-error">
+	Email address not valid, please try again
+</div>
+<div class="forgot-password-google-email-error">
+    <p>You registered with F1000 via Google, so we cannot reset your password.</p>
+	<p>To sign in, please click <a href="#" id="googleSignInButton">here</a>.</p>
+    <p>If you still need help with your Google account password, please click <a href="https://www.google.com/accounts/recovery">here</a>.</p>
+</div>
+<div class="forgot-password-facebook-email-error">
+    <p>You registered with F1000 via Facebook, so we cannot reset your password.</p>
+    <p>To sign in, please click <a href="#" id="facebookSignInButton">here</a>.</p>
+	<p>If you still need help with your Facebook account password, please click <a href="https://www.facebook.com/recover/initiate">here</a>.</p>
+</div>
+<div class="clearfix"></div>
+<div class="forgot-password-captcha-error">
+	Code not correct, please try again
+</div>
+<div class="clearfix"></div>
+<div class="sign-in-button-container margin-left-20 margin-bottom">
+	<button type="button" id="sign-in-reset-password" class="sign-in-buttons general-white-orange-button">Reset password</button>
+	<button type="button" id="forgot-password-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+	<div class="clearfix"></div>
+</div>
+<span class="text last">
+	<a href="mailto:">Email us</a> for further assistance.
+</span>
+<form action="https://f1000research.com/j_spring_oauth_security_check" id="oAuthForm" method="post" target="_top">
+                        <input class="target-field" type="hidden" name="target" value="/articles/9-826.html"/>
+                <input id="oAuthSystem" name="system" type="hidden"/>
+</form>
+			<div class="forgot-password-server-error">Server error, please try again.</div>
+			<div class="sign-in-success">
+                <p>We have sent an email to <span id="email-value"></span>, please follow the instructions to reset your password.</p>
+                <p>If you don't receive this email, please check your spam filters and/or contact .</p>
+            </div>
+			<div class="sign-in-loading">Please wait...</div>
+		</div>
+
+		<div class="sign-in-form-register-section">
+			<div class="sign-in-button-container margin-left-20 margin-bottom">
+				<a href="/register" title="Register"><button type="button" id="sign-in-register-button" class="sign-in-buttons general-white-orange-button">Register</button></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+    $(".target-field").each(function () {
+        var uris = $(this).val().split("/");
+        if (uris.pop() === "login") {
+        	$(this).val(uris.toString().replace(",","/"));
+        }
+    });
+});
+</script>
+        <div id="templateOverlay" class="is-hidden" hidden="hidden">
+  <div class="o-overlay js-overlay is-hidden" hidden="hidden"></div>
+</div>
+
+<div id="templateExternalMessages" class="is-hidden" hidden="hidden">
+  <div class="o-modal o-modal--auto@md js-external-messages is-hidden" hidden="hidden">
+    <div class="o-modal__body">
+      <section class="c-console">
+        <div class="_mdl-layout c-console__bdy js-external-messages-body"></div>
+        <footer class="_mdl-layout c-console__ftr o-flex o-flex--reverse js-external-messages-footer">
+          <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-console__btn js-external-messages-close" data-action="maintenance-close">I Understand</button>
+        </footer>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<script src="/js/namespace.js"></script>
+<script src="/js/constants.js"></script>
+<script src="/js/utilities.js"></script>
+
+<script>
+                  F1000.ExtenalMaintenanceItems = [
+    {
+      start: '2018-12-10T14:21:00Z',
+      end: '2018-12-13T16:00:00Z',
+      msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+      cookieName: 'outage23122018',
+      editor: false,
+    }
+  ];
+</script>
+
+<script src="/js/shared_scripts/cookie-helper.js"></script>
+<script src="/js/shared_scripts/mdl-helper.js"></script>
+
+<script src="/js/app/external-maintenance.js"></script>
+
+                <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5646075-11', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        
+                <script type="text/javascript" src="/js/app/research.analytics.js"></script>
+
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4475190.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    
+            <script src="https://my.hellobar.com/4e0495c6f18cbd68731a1dc1978195a144e767ba.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+
+</html>

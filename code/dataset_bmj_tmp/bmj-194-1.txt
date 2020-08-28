@@ -1,0 +1,28 @@
+The authors describe the development of model to predict fat mass in children and
+adolescents using IPD from multiple datasets. The authors are predicting a continuous
+outcome (which is surprisingly rare and a good example for others to follow), and the results
+from their model is impressive. The authors are generally following all the recommended
+approaches for developing and validating a prediction model using IPD from multiple
+datasets.
+The paper is well written and methodologically strong. My comments are minor and for
+clarification only.
+Unless I missed this, I couldn’t see how the datasets were identified? Through a search?
+Datasets are quite old now – is that a concern? Probably not.
+Stepwise variable selection isn’t great. But I’m sure the authors are aware of this.
+Complete case analysis, missing data omitted – but the % omitted is small and not likely to
+be of concern.
+Clarification on the bootstrapping: To get an estimate of the optimism (bias), bootstrapping
+is used but it’s not clear to me what is being bootstrapped, the final model? Important to
+replay or the variable selection procedures etc. otherwise this estimate of the bias is itself
+biased. But it appears some manual input during the model building, i.e. choosing the
+fractional polynomial terms can’t be automated. Can the authors clarify, and if it is my hunch
+they are bootstrapping the final model, then raise the issue that the optimism they estimate
+could be biased.
+Presumably, because of the previous point, is why the Van Houwelingen shrinkage factor
+was calculated and not the value through the bootstrapping?
+The resulting model shows impressive performance, with very high R-squared and
+impressive calibration. Providing there is a clinical need for such models (beyond the
+expertise of this reviewer), then the authors have demonstrated their model has high
+predictive accuracy.
+Figure 1 – should be square, the units of both axes are the same, yet the y-axis has been
+shrunk.

@@ -1,0 +1,49 @@
+This paper examines the effect of air pollution, specifically PM10, on mortality in China. The justification for a new multicity analysis was well made.
+Wind speed is not a confounder of the pollution-mortality association, because although it is associated with air pollution
+is not directly associated with death (to the best of my knowledge). It may be an effect modifier by increasing
+exposure.
+Temperature is a potential confounder and was fitted using a spline, but with no lag. There is a well known delayed
+association between temperature and death, so to fully adjust for temperature I would expect to see a lagged effect,
+perhaps up to 14 to 21 days prior to exposure.
+For the national effect I expected the beta slope to be a random effect with a varying effect in each city centred around a
+mean effect (equation at top of page 6).
+There was a focus on a binary split between results that were statistically significant or not, but I don't find this approach
+useful. Also a lot of subgroup analysis were based on only cities with a statistically significant result, which is not
+justified and seriously undermines generalisability. As the authors later say there is a problem with only statistically
+significant studies being published, but then they make the same selection in their subgroup analysis.
+Would the authors share the data if the paper were accepted?
+Minor comments
+- The analysis adjusted for long-term trends using year. A more elegant solution would be a smooth spline for time with
+2 degrees of freedom. Using year gives disjointed estimates between the end of December and start of January, whereas
+a spline allows for a gradual change in death rates.
+- page 3, line 16, largest cities in terms of area or population?
+- page 4, lines 9 to 21, I didn't think this detail on the DSPS was necessary
+- page 4, line 52, 'obtained' not 'collected'
+- page 5, line 12, there's no mention of the Poisson distribution but I assume this was used given the log link in the
+regression equation
+- page 6, line 43, seven degrees of freedom is very large and means that we expect the weather-death associations to
+have six change points, however most studies show a U- or V-shaped association with just one change points
+- page 7, line 46, the estimate in Xuzhou appears to be negative and statistically significant
+- page 9, lines 27 to 41, this was a long list of numbers, it would be better to highlight a few interesting/unusual results
+- page 11, line 43, 'associated' not 'correlated'
+- Figure 4, missing city label for top result
+- Figure 5, units needed on x and y-axis
+- Figure 6, units needed on x-axis
+
+Additional Questions:
+Please enter your name: Adrian Barnett
+Job Title: Statistician
+Institution: Queensland University of Technology
+Reimbursement for attending a symposium?: No
+A fee for speaking?: No
+A fee for organising education?: No
+Funds for research?: No
+Funds for a member of staff?: No
+Fees for consulting?: No
+Have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: No
+Do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: No
+If you have any competing interests <A HREF='http://www.bmj.com/about-bmj/resources-authors/forms-policies-andchecklists/declaration-competing-interests'target='_new'> (please see BMJ policy) </a>please declare them here:
+Reviewer: 2
+Recommendation:

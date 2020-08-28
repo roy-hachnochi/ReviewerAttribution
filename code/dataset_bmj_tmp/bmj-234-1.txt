@@ -1,0 +1,61 @@
+
+This is a useful study which investigates the real-world effects of TSH levels in
+hypothyroidism (taking replacement therapy) on long-term health outcomes using an
+extensive database of primary care data collected in routine clinical practice – giving the
+power of very large numbers of patients and TSH levels.
+I agree with the authors that this study “validates with hard evidence the latest …
+guidelines” on TSH levels in the management of hypothyroidism – guidelines which are all
+otherwise largely based on consensus expert opinion rather than on clinical trial or
+large-scale retrospective data.
+I think this sort of study based on large datasets collected from primary care is very
+valuable to validate and guide routine clinical practice outside the context of clinical trials.
+The authors generally describe their methods and their analysis fully and appropriately.
+The authors conclude that there is an increased risk of IHD and HF at TSH levels >10 and
+(perhaps surprisingly) a protective effect for HF at TSH <0.1.
+They found no increased risk of AF or stroke at high or low TSH concentrations – which is
+reassuring for those cases where endocrinologists might aim to keep TSH below normal
+(primary thyroid cancers) and perhaps surprising since suppressed TSH levels have
+previously been thought to be associated with an increased risk of AF (and one of the main
+clinical risks of this thought to be stroke) – indeed the authors report a marginal protective
+effect at TSH 0.1-0.4. I don’t know if the authors are able to offer any explanation was to
+why their dataset might give a result which is contrary to conventional opinion in this
+regard – but this difference should perhaps be included in discussion.
+I also find the findings on fracture contrary to routine expectations – since it is thyroid
+overactivity that is typically associated with osteoporosis – and we might therefore expect
+that increased fracture would be seen with low rather than high TSH. Again the authors
+might like to comment on possible reasons for this discrepancy – and whether it was
+indeed contrary to their a priori expectations.
+The above findings might tempt the clinician to think that their only target in
+hypothyroidism replacement should be to avoid a TSH >10. However, the data on overall
+mortality showed highly statistically significant increased risk at effectively all TSH levels
+outside the population normal range for TSH (i.e. when TSH was <0.1 or >4). The HR for
+mortality was much greater than the HR for IHD or HF at TSH >10 – and of course no
+increase in individual cardiovascular adverse outcomes had been seen at other TSH levels.
+These risk data for mortality reinforce the current guideline recommendations to maintain
+a normal level of TSH in hypothyroidism replacement – but it does raise the question – if
+there is no increase (or for some parameters with TSH> 10 a less marked increase) in IHD,
+HF, stroke or AF (which would be the obvious ways in which an abnormal TSH might
+change mortality) – then what is the mechanism of this increased mortality (that is, what
+are the patients dying of)? Are the authors able to shed any light from their data on which
+conditions are responsible for the death of these patients (and whether that is different
+from the background population)?.
+The choice of statistics to analyse such a large clinical dataset and the handling of the
+variation of TSH levels over time is a complex statistical issue on which I am not really
+qualified to comment. No doubt the editors will have requested a statistical review.
+I am a little surprised that in a study of data covering 23years, and for a condition in which
+treatment is lifelong after diagnosis, that the median follow up was only 6 years.
+Presumably the incidence of hypothyroidism was constant during that time. Are the
+authors able to shed any light on this?
+The authors also do not state whether or not they have excluded patients with pituitary
+disease (and therefore TSH deficiency rather than primary hypothyroidism) from analysis.
+Ideally one should do this, because in hypopituitarism the TSH levels will not reflect the
+prevailing levels of circulating (replacement) thyroid hormones since the deficiency itself is
+caused by inadequate secretion of TSH. In the Read code (v3) concept hierarchy “TSH
+deficiency” is a subtype of “Hypothyroidism” – and so it is likely to have been included in
+analysis unless specifically excluded. In addition, it seems possible that a primary care
+clinician might easily enter “Hypothyroidism” rather than “TSH deficiency” for a pituitary
+patient who required thyroxine replacement. For this reason, I think we need to know
+either that pituitary disease has been excluded from the analysis – or at very least know
+
+the proportion of cases (likely to be low) that have other Read-Code evidence of pituitary
+disease in their record.

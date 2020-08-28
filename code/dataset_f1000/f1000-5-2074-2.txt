@@ -1,0 +1,584 @@
+This paper continues Prof Frank’s investigation of the connections between observation and probability patterns in the natural sciences, in this case dealing specifically with power law size distributions. The paper is written in a tutorial style which is probably appropriate given the that the material covered is not standard reading in the life sciences. For those who are completely unfamiliar with the general subject area, I strongly advise reading reference [3] from the list in the current paper before or in conjunction with it. Students in the life sciences often have a difficult relationship with concepts of probability and statistics. It should not be that way, of course, since biological systems are inherently stochastic, but it seems that as biologists we often approach the existence of variance in our observations as a problem to be got round, rather than as the very stuff of biology which it is our job to explain. Worse yet, many of us encounter the idea of “transformation” to make data more normal as an entirely ad hoc, opaque, process that seems to rely on rules of thumb learned by rote, with no explanation as to why a particular transformation would be appropriate in some situations and not others. Frank’s paper offers an altogether more satisfying perspective on the subject of transformation. In addition to a wealth of other insights, this paper lays out a well-grounded theoretical basis for understanding which transformations to seek if one wishes to preserve the information content of original, non-normal, observations but express it in terms of a corresponding normal distribution; the paper focuses in particular on the case of tree size data that conform to a power-law on their original scale of measurement. Of course, the paper is not intended as a tutorial on data transformation (the fact that students could learn to think of transformation in a new, richer, sense from reading this work is a by-product) but more an introduction to a different perspective on biological observation and its relationship with the probability distributions to which the observations conform. Three key ideas carry the paper along: “A single underlying quantity captures the generic regularity in seemingly different patterns. That underlying quantity is the average distance of observations from the most common type.” A natural metric will exist, as some transformation of the original scale of measurement, such that when considered in terms of the square root of the natural metric, average distance of observations from the most common type will follow a normal distribution. With the transformation to the natural metric properly chosen, the information content of the original data distribution and the normal distribution for the data, when expressed in its natural metric, are the same (the invariance property). The general form p ( y ) = K exp(- L ( y , x )) in which K adjusts so that p ( y ) is a proper density function and L(y , x ) is any desired distance measure is, in the words of Jorma Rissanen, a simple device used already by Gauss . In the present case it forms a density function for the distance between individual observations and the most common type. In other cases (such as those which Rissanen had in mind) it may measure the distance between model predictions and observed data. The simple device forms a link between the work presented by Frank and the extensive literature on coding, model selection and statistical inference. Exploring those links lies well beyond the scope of Frank’s paper, but their shared basis in information theory and the notion of how much, and what, information can be obtained from Nature and then modeled is an area of research that biologists have largely ignored. The paper includes a number of other points during the exposition of its central ideas. These, together with the complexity of the ideas themselves, and the fact that the notation used to lay out the numerous (but necessary) equations is subject to somewhat arbitrary-seeming substitutions mean that the paper needs close reading, in spite of the clarity of Frank’s writing. Although signposts are provided along the way (often in the form of rhetorical questions) to let us know where we’re going next, the paper would benefit from a more comprehensive section by section guide in the introduction, so that the whole journey can be seen in a single view. Returning to my initial point concerning the way that the process of making data “more normal” is often learned by rote, the sections on deduction of appropriate natural metrics to express data should be particularly useful from a pedagogic perspective; they show that (at least in theory) an approach based on argument from principles is possible. Those who are unfamiliar with the ideas will still probably be left with the unwelcome impression that it will take considerable experience to become proficient at recognizing approaches that are likely to work, but one of the wider lessons of Frank’s publications in this general area is that rather few approaches are likely to account for the majority of observations most of us will encounter. References 1. Frank SA: The common patterns of nature. J Evol Biol . 2009; 22 (8): 1563-85 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. Close READ LESS CITE CITE HOW TO CITE THIS REPORT McRoberts N. Reviewer Report For: The invariances of power law size distributions [version 3; peer review: 2 approved] . F1000Research 2016, 5 :2074 ( https://doi.org/10.5256/f1000research.10181.r15871 ) The direct URL for this report is: https://f1000research.com/articles/5-2074/v1#referee-response-15871 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response ( F1000Research Advisory Board Member ) 28 Oct 2016 Steven Frank , University of California, Irvine, USA 28 Oct 2016 Author Response F1000Research Advisory Board Member Neil McRoberts’ summary provides an excellent overview of the broader subject and the place of my article within that wider context. McRoberts mentions the duality between the understanding of ... Continue reading Neil McRoberts’ summary provides an excellent overview of the broader subject and the place of my article within that wider context. McRoberts mentions the duality between the understanding of probability patterns and the complementary problems of inference. I originally came to this subject through that connection, particularly through my study of Jaynes pioneering work (see references to my earlier work in my article). However, I was not aware of several of the explicit connections mentioned by McRoberts, which I appreciate learning about from his review. McRoberts suggests that I provide “a more comprehensive section by section guide in the introduction.” I often provide such a guide in my longer articles. In this case, I had that kind of guide in my early drafts. However, the technical underlying nature of the work made the overview into what seemed like more of an obstacle than an invitation to the article. So I dropped it, allowing me to move the article very quickly into the example of tree size that I use throughout to help connect the underlying abstractions to real-world problems. Perhaps it would be possible to write a helpful introductory guide, but I have not yet found the right expression. The main difficulty with the current structure is that some readers may mistakenly focus on the tree size problem as the central message of the article. It is not. The main message is that we can understand almost all common probability patterns by a few simple underlying invariances. That understanding provides great insight into many aspects of commonly observed patterns, including patterns such as tree size. One advantage of the F1000Research format is that I can submit a revised version at any time. For now, I will keep the current structure, while I continue to think about how to improve the presentation. I welcome comments from readers. Neil McRoberts’ summary provides an excellent overview of the broader subject and the place of my article within that wider context. McRoberts mentions the duality between the understanding of probability patterns and the complementary problems of inference. I originally came to this subject through that connection, particularly through my study of Jaynes pioneering work (see references to my earlier work in my article). However, I was not aware of several of the explicit connections mentioned by McRoberts, which I appreciate learning about from his review. McRoberts suggests that I provide “a more comprehensive section by section guide in the introduction.” I often provide such a guide in my longer articles. In this case, I had that kind of guide in my early drafts. However, the technical underlying nature of the work made the overview into what seemed like more of an obstacle than an invitation to the article. So I dropped it, allowing me to move the article very quickly into the example of tree size that I use throughout to help connect the underlying abstractions to real-world problems. Perhaps it would be possible to write a helpful introductory guide, but I have not yet found the right expression. The main difficulty with the current structure is that some readers may mistakenly focus on the tree size problem as the central message of the article. It is not. The main message is that we can understand almost all common probability patterns by a few simple underlying invariances. That understanding provides great insight into many aspects of commonly observed patterns, including patterns such as tree size. One advantage of the F1000Research format is that I can submit a revised version at any time. For now, I will keep the current structure, while I continue to think about how to improve the presentation. I welcome comments from readers. Competing Interests: I have no competing interests. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response ( F1000Research Advisory Board Member ) 28 Oct 2016 Steven Frank , University of California, Irvine, USA 28 Oct 2016 Author Response F1000Research Advisory Board Member Neil McRoberts’ summary provides an excellent overview of the broader subject and the place of my article within that wider context. McRoberts mentions the duality between the understanding of ... Continue reading Neil McRoberts’ summary provides an excellent overview of the broader subject and the place of my article within that wider context. McRoberts mentions the duality between the understanding of probability patterns and the complementary problems of inference. I originally came to this subject through that connection, particularly through my study of Jaynes pioneering work (see references to my earlier work in my article). However, I was not aware of several of the explicit connections mentioned by McRoberts, which I appreciate learning about from his review. McRoberts suggests that I provide “a more comprehensive section by section guide in the introduction.” I often provide such a guide in my longer articles. In this case, I had that kind of guide in my early drafts. However, the technical underlying nature of the work made the overview into what seemed like more of an obstacle than an invitation to the article. So I dropped it, allowing me to move the article very quickly into the example of tree size that I use throughout to help connect the underlying abstractions to real-world problems. Perhaps it would be possible to write a helpful introductory guide, but I have not yet found the right expression. The main difficulty with the current structure is that some readers may mistakenly focus on the tree size problem as the central message of the article. It is not. The main message is that we can understand almost all common probability patterns by a few simple underlying invariances. That understanding provides great insight into many aspects of commonly observed patterns, including patterns such as tree size. One advantage of the F1000Research format is that I can submit a revised version at any time. For now, I will keep the current structure, while I continue to think about how to improve the presentation. I welcome comments from readers. Neil McRoberts’ summary provides an excellent overview of the broader subject and the place of my article within that wider context. McRoberts mentions the duality between the understanding of probability patterns and the complementary problems of inference. I originally came to this subject through that connection, particularly through my study of Jaynes pioneering work (see references to my earlier work in my article). However, I was not aware of several of the explicit connections mentioned by McRoberts, which I appreciate learning about from his review. McRoberts suggests that I provide “a more comprehensive section by section guide in the introduction.” I often provide such a guide in my longer articles. In this case, I had that kind of guide in my early drafts. However, the technical underlying nature of the work made the overview into what seemed like more of an obstacle than an invitation to the article. So I dropped it, allowing me to move the article very quickly into the example of tree size that I use throughout to help connect the underlying abstractions to real-world problems. Perhaps it would be possible to write a helpful introductory guide, but I have not yet found the right expression. The main difficulty with the current structure is that some readers may mistakenly focus on the tree size problem as the central message of the article. It is not. The main message is that we can understand almost all common probability patterns by a few simple underlying invariances. That understanding provides great insight into many aspects of commonly observed patterns, including patterns such as tree size. One advantage of the F1000Research format is that I can submit a revised version at any time. For now, I will keep the current structure, while I continue to think about how to improve the presentation. I welcome comments from readers. Competing Interests: I have no competing interests. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 3 VERSION 3 PUBLISHED 25 Aug 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 3 (revision) 28 Nov 16 Version 2 (revision) 07 Nov 16 read Version 1 25 Aug 16 read read Neil McRoberts , University of California, Davis, Davis, USA Scott E. Page , University of Michigan, Ann Arbor, USA Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Page S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 16 Nov 2016 | for Version 2 Scott E. Page , Department of Political Science, Center for the Study of Complex Systems, University of Michigan, Ann Arbor, MI, USA 0 Views copyright © 2016 Page S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The revised version is substantially clearer. The clarification between generic and particular on the tree model and the discussion of the log normal distribution (in my opinion) improve the paper. It's an EXCELLENT contribution. I now see how my previous critique was a bit of a misunderstanding on my part. The normal and log normal are really the same pattern (as stated in the appendix). Once you see that they are the same, one of the main ideas becomes much clearer. I have one suggestion . I think people will benefit by being pointed to the appendix early as the rest of the paper is more easily understood (at least by me) by first reading the description of normal, log normal, and power law because we get the functional forms. I would suggest one modification. Change the sentence: "The normal distribution calls to mind the great regularity in pattern that arises solely from the aggregation of an underlying stochastic process." to the following The familiar regular pattern exhibited by the normal distribution (or equivalently the log normal distribution - see appendix ) arises solely from the aggregation of an underlying stochastic process or processes. Not a deal breaker for me if they don't add this but it would be a loss if they did not point to the appendix with a teaser. I also think that by saying "normal and log normal" are the same pattern, the reader will suddenly get it!!!! Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response F1000Research Advisory Board Member 28 Nov 2016 Steven Frank, University of California, Irvine, USA I have revised the article to make the suggested change, noting an equivalence of the normal and lognormal distributions and pointing to the extended discussion of the lognormal distribution in the Appendix. I am grateful to Scott Page for pushing on this issue, which has significantly enhanced the scope and reduced the chance of misunderstanding. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Page SE. Peer Review Report For: The invariances of power law size distributions [version 3; peer review: 2 approved] . F1000Research 2016, 5 :2074 ( https://doi.org/10.5256/f1000research.10817.r17664) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2074/v2#referee-response-17664 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Page S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 26 Oct 2016 | for Version 1 Scott E. Page , Department of Political Science, Center for the Study of Complex Systems, University of Michigan, Ann Arbor, MI, USA 0 Views copyright © 2016 Page S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This is a provocative paper that should have high impact. It makes both a scholarly and educational contribution. I expect it to be widely cited and taught. When indexed, it will appear on the syllabus of a graduate class that I teach. That said, I have one major quibble with the paper. First some background. The standard way to teach distributions goes as follows: Normal Distributions arise from adding or averaging variation (as nicely explained here) Log Normal Distributions arise from multiplying shocks Power Law Distribution have multiple causes: self organized criticality, preferential attachment, random walk return times, etc. In this paper, Frank argues that we can connect some power law and log normal distributions to normal distributions by using different unit of analysis. Let’s take the standard story of why tree sizes have a log normal distribution. Trees grow by random rates each year. If rates of growth are proportional, then a tree of size S that has growth rates r(t) will be size S[1_r(1)] [1_r(2)] [1_r(3)] [1_r(4)].. [1_r(10)] In 10 years. If I take the logarithm of that size, it will be additive in the shocks, and thus normally distributed. Frank makes an alternative argument, that there is a natural metric for size, T = d 2 and that this when transformed produces a normal distribution. If d is normally distributed, then d 2 will be log normally distributed. He then makes a similar argument for enzyme reactions. (The tree model is more complicated as he includes a linear term and a log term but this captures the main idea). My quibble with the paper has to do with the difference between a log normal distribution or ( exponential ) and a power law distribution . Power law: y ~ x -a Exponential: y ~e x If you plot a log normal distribution on a log log plot, you get the sort of curvature that Frank shows in many of his graphs. What he is calling power laws would be characterized by many as log normal or exponential. I realize that his more general point is not that the tree size is either log normal or a power law. However, the paper would be much stronger and much clearer if he would make the following changes. Clarify the difference between power law and log normal (including mention of the curve on the log log plot) Explain that many of the “long tails” in biology such as tree size have “long tails” that can be explained using his method that separates the generic causes of the distribution from the particular. He might even separate out the generic and particular in the tree growth so we see why he cannot just use the log normal distribution. Ideally, he would also show how his approach can produce a true power law. I would be remiss to not add that the paper is a model of clarity of exposition and argumentation. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response F1000Research Advisory Board Member 31 Oct 2016 Steven Frank, University of California, Irvine, USA I appreciate Scott Page’s generous summary and helpful comments. With regard to his specific suggestions: I agree with Page’s main point that I should relate my approach to the widely used lognormal distribution and the common power law expressions. To address those issues, I have added an Appendix to the revised version. I show how the lognormal distribution arises as an approximate description of growth and size whenever one can reasonably consider the distribution of growth rates as approximately normally distributed. Because total growth can be thought of as the sum of sequential growth increments, total growth may often be approximately normally distributed as a consequence of the various central limit theorem type arguments. However, sums of random variables are often not normally distributed, so one must be cautious about the generality of lognormal distributions for size. In my original article, I did not mention the lognormal distribution. I find it useful to distinguish practical applications from approaches aimed at broad conceptual understanding of the relations between different distributions. In my opinion, the lognormal distribution provides a useful practical tool, but has some limitations with regard to the conceptual aims of my article. I discuss these points in a newly added section of the Appendix. The new Appendix also includes a section that shows how my approach leads to a true power law distribution. Finally, Page discussed how one might separate the generic factors that shape probability distributions from the specific factors that influence particular observable patterns. I agree that separating the generic from the particular is a key aspect of predicting and explaining patterns. In my article, the section on “Deductive: tree size example” attempts to show how one might evaluate particular generative processes of tree growth and size within my broader framework of the invariances that shape the generic form of probability distributions. I say at the end of that section: “I presented this derivation to encourage future study. The proper way to relate general growth processes to invariant probability patterns remains an open problem.” At present, I do not have anything sufficiently compelling to add, although I certainly agree that this is a key issue. A related article of mine, “Invariant death”, emphasizes the duality of the generic and particular aspects of pattern, and adds some analysis on this topic (see https://f1000research.com/articles/5-2076/v1 ). View more View less Competing Interests None reply Respond Report a concern 
+ 
+ Page SE. Peer Review Report For: The invariances of power law size distributions [version 3; peer review: 2 approved] . F1000Research 2016, 5 :2074 ( https://doi.org/10.5256/f1000research.10181.r17202) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2074/v1#referee-response-17202 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 McRoberts N. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 25 Oct 2016 | for Version 1 Neil McRoberts , Department of Plant Pathology, University of California, Davis, Davis, CA, USA 0 Views copyright © 2016 McRoberts N. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This paper continues Prof Frank’s investigation of the connections between observation and probability patterns in the natural sciences, in this case dealing specifically with power law size distributions. The paper is written in a tutorial style which is probably appropriate given the that the material covered is not standard reading in the life sciences. For those who are completely unfamiliar with the general subject area, I strongly advise reading reference [3] from the list in the current paper before or in conjunction with it. Students in the life sciences often have a difficult relationship with concepts of probability and statistics. It should not be that way, of course, since biological systems are inherently stochastic, but it seems that as biologists we often approach the existence of variance in our observations as a problem to be got round, rather than as the very stuff of biology which it is our job to explain. Worse yet, many of us encounter the idea of “transformation” to make data more normal as an entirely ad hoc, opaque, process that seems to rely on rules of thumb learned by rote, with no explanation as to why a particular transformation would be appropriate in some situations and not others. Frank’s paper offers an altogether more satisfying perspective on the subject of transformation. In addition to a wealth of other insights, this paper lays out a well-grounded theoretical basis for understanding which transformations to seek if one wishes to preserve the information content of original, non-normal, observations but express it in terms of a corresponding normal distribution; the paper focuses in particular on the case of tree size data that conform to a power-law on their original scale of measurement. Of course, the paper is not intended as a tutorial on data transformation (the fact that students could learn to think of transformation in a new, richer, sense from reading this work is a by-product) but more an introduction to a different perspective on biological observation and its relationship with the probability distributions to which the observations conform. Three key ideas carry the paper along: “A single underlying quantity captures the generic regularity in seemingly different patterns. That underlying quantity is the average distance of observations from the most common type.” A natural metric will exist, as some transformation of the original scale of measurement, such that when considered in terms of the square root of the natural metric, average distance of observations from the most common type will follow a normal distribution. With the transformation to the natural metric properly chosen, the information content of the original data distribution and the normal distribution for the data, when expressed in its natural metric, are the same (the invariance property). The general form p ( y ) = K exp(- L ( y , x )) in which K adjusts so that p ( y ) is a proper density function and L(y , x ) is any desired distance measure is, in the words of Jorma Rissanen, a simple device used already by Gauss . In the present case it forms a density function for the distance between individual observations and the most common type. In other cases (such as those which Rissanen had in mind) it may measure the distance between model predictions and observed data. The simple device forms a link between the work presented by Frank and the extensive literature on coding, model selection and statistical inference. Exploring those links lies well beyond the scope of Frank’s paper, but their shared basis in information theory and the notion of how much, and what, information can be obtained from Nature and then modeled is an area of research that biologists have largely ignored. The paper includes a number of other points during the exposition of its central ideas. These, together with the complexity of the ideas themselves, and the fact that the notation used to lay out the numerous (but necessary) equations is subject to somewhat arbitrary-seeming substitutions mean that the paper needs close reading, in spite of the clarity of Frank’s writing. Although signposts are provided along the way (often in the form of rhetorical questions) to let us know where we’re going next, the paper would benefit from a more comprehensive section by section guide in the introduction, so that the whole journey can be seen in a single view. Returning to my initial point concerning the way that the process of making data “more normal” is often learned by rote, the sections on deduction of appropriate natural metrics to express data should be particularly useful from a pedagogic perspective; they show that (at least in theory) an approach based on argument from principles is possible. Those who are unfamiliar with the ideas will still probably be left with the unwelcome impression that it will take considerable experience to become proficient at recognizing approaches that are likely to work, but one of the wider lessons of Frank’s publications in this general area is that rather few approaches are likely to account for the majority of observations most of us will encounter. References 1. Frank SA: The common patterns of nature. J Evol Biol . 2009; 22 (8): 1563-85 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (1) Author Response F1000Research Advisory Board Member 28 Oct 2016 Steven Frank, University of California, Irvine, USA Neil McRoberts’ summary provides an excellent overview of the broader subject and the place of my article within that wider context. McRoberts mentions the duality between the understanding of probability patterns and the complementary problems of inference. I originally came to this subject through that connection, particularly through my study of Jaynes pioneering work (see references to my earlier work in my article). However, I was not aware of several of the explicit connections mentioned by McRoberts, which I appreciate learning about from his review. McRoberts suggests that I provide “a more comprehensive section by section guide in the introduction.” I often provide such a guide in my longer articles. In this case, I had that kind of guide in my early drafts. However, the technical underlying nature of the work made the overview into what seemed like more of an obstacle than an invitation to the article. So I dropped it, allowing me to move the article very quickly into the example of tree size that I use throughout to help connect the underlying abstractions to real-world problems. Perhaps it would be possible to write a helpful introductory guide, but I have not yet found the right expression. The main difficulty with the current structure is that some readers may mistakenly focus on the tree size problem as the central message of the article. It is not. The main message is that we can understand almost all common probability patterns by a few simple underlying invariances. That understanding provides great insight into many aspects of commonly observed patterns, including patterns such as tree size. One advantage of the F1000Research format is that I can submit a revised version at any time. For now, I will keep the current structure, while I continue to think about how to improve the presentation. I welcome comments from readers. View more View less Competing Interests I have no competing interests. reply Respond Report a concern 
+ 
+ McRoberts N. Peer Review Report For: The invariances of power law size distributions [version 3; peer review: 2 approved] . F1000Research 2016, 5 :2074 ( https://doi.org/10.5256/f1000research.10181.r15871) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-2074/v1#referee-response-15871 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "The invariances of power law size distributions".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-2074/v3" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-2074/v3&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-2074/v3" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Frank SA');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-2074/v3/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-2074",
+ templates : {
+ twitter : "The invariances of power law size distributions. Frank SA, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-2074/v3"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: The invariances of power law size distributions", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: The invariances of power law size distributions", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/9452/11071")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "11071");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "17664": 13,
+ "15872": 0,
+ "15873": 0,
+ "17202": 16,
+ "15874": 0,
+ "16294": 0,
+ "16295": 0,
+ "18024": 0,
+ "17449": 0,
+ "18025": 0,
+ "17450": 0,
+ "15871": 22,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "3ea8bbfa-cdaa-4671-b20c-414ec8e0b1ec";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

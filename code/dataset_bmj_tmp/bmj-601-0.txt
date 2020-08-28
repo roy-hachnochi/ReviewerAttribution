@@ -1,0 +1,48 @@
+I thank the authors for their efforts to address my concerns and only have a few minor
+comments left:
+* "All analyses were performed separately on each of these imputed datasets and were
+averaged to determine the final performance measure". Although it is OK to average the results
+of each dataset, Rubin's rules should be applied to obtain summary estimates of uncertainty
+(such as standard errors). It is then no longer necessary to provide separate estimates of
+variability across imputed datasets ("In order to reflect the level of difference between the 20
+datasets, standard deviations of the AUC measures between the datasets were calculated." ).
+Note that MICE already provides code for Rubins'rules, using the function 'pool'.
+* In line with aforementioned comment, it is not clear how the different sources of uncertainty
+have been combined for "A 95% confidence interval (CI) for AUC measures of specific
+prediction tools as well as for the differences between tools was calculated using both the AUC
+variance of 1,000 bootstrap samples within each imputed dataset as well as the variance of the
+20 average AUCs between the imputed datasets.". This should be done using Rubin's rules, but
+is not mentioned anywhere
+* Analysis: please specify how patients with loss-to-follow-up have been treated. (excluded
+from the validation?, or treated as 'no fracture'?)
+* Analysis: please specify the time point at which all performance measures were calculated
+(i.e. at 5 years of follow-up)
+* Although FRAX appears to yield superior predictive accuracy, Figure 3 indicates substantial
+over-prediction in females (across the entire range of predicted probabilities). Hence, one may
+wonder whether FRAX should be used out-of-the-box to predict fracture in female Isreali
+residents. For this reason, I would like to see some discussion on the need for further model
+revision (e.g. update of intercept) before actual implementation of any of these tools.
+* Table 2: please add that discrimination performance was assessed for 5 years of follow-up
+
+* Table 2 and Table 5: why are the cells empty for the Garvan model (Major Osteoporotic
+Fractures)? Please provide a reason for this below the table.
+* Table 3a and 3b: Please add that reclassification measures were calculated for 5 years of
+follow-up
+* Please provide standard errors for NRI and weighted NRI
+* Table 4a and 4b: Please add that calibration was assessed at 5 years of follow-up
+* Table 5: please specify that performance measures were assessed at 5 years of follow-up
+* FIgure 2 and 3: please indicate at which time point performance was assessed
+* Figure 3 - females: it seems odd that the FRAX slope is 0.94 although there is substantial
+miscalibration in the figure. Could the authors please also provide estimates of calibration-inthe-large?
+* Last but not least, reference to relevant methodological work is lacking throughout the entire
+paper. For instance, the authors implemented several methods previously from Prof. Frank
+Harrell, Prof. Ewout Steyerberg, Prof. Donald Rubin and Prof. Stef van Buuren but do not credit
+their work anywhere in the manuscript.
+Finally, as I sidenote, I would like to mention that the authors may have missed a unique
+opportunity of having access to large EHR data. Although I understand it was not the aim of
+this paper, the authors could consider further research to evaluate how predictive performance
+of the models varies across different settings and locations.
+References:
+* Riley RD, Ensor J, Snell KIE, Debray TPA, Altman DG, Moons KGM, et al. External validation of
+clinical prediction models using big datasets from e-health records or IPD meta-analysis:
+opportunities and challenges. BMJ. 2016;353:i3140.

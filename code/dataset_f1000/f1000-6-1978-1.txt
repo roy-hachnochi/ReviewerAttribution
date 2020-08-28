@@ -1,0 +1,1 @@
+The article is improved, but still I have one problem - you have used one nominal scale with yes/no and two are ordinal scales. In this case you can't compute Pearson correlation. I think you have to use chi square and logistic regression. I would suggest to consult any statistics expert.

@@ -1,0 +1,61 @@
+Statistical Review BMJ.2014.023070.R1
+Consumption of sugar-sweetened beverages, artificially sweetened beverages and fruit juice
+and incidence of type 2 diabetes
+The authors have submitted a revised manuscript.
+The authors have now included a quality assessment process for the included studies which is
+based around the Cochrane ACROBAT-NSRI tool for assessing risk of bias in non-randomised
+intervention studies. I am not completely clear from the manuscript how they have undertaken
+this process or that the results of it have been appropriately presented.
+1. Page 6 – they do not describe whether the ACROBAT-NSRI assessment was undertaken by a
+single observer, checked by a second or done independently in duplicate.
+2. Page 6 -it also state here that sensitivity analysis was undertaken for each of the seven
+quality domains in the ACROBAT-NSRI tool, but no results of these are mentioned in the text or
+presented in any table.
+3. Page 9 – a key aspect of the ACROBAT-NSRI tool is documenting which confounders are
+balanced/matched/adjusted for in each study. There is no list of the confounders reported – the
+best description is given in the middle of page 9 as “socio-demographic variables, clinical
+factors (family history of diabetes or prevalent diseases) and lifestyle factors including a diet”.
+However, the adjustments used in Table 2 are noted in the footer as being only for
+“demographic and lifestyle covariates” which isn’t the same. The legend for Figure 1 doesn’t
+
+mention adjustment for these factors at all, which I presume is an oversight. I would have
+expected, particularly given the extension supplementary material provided, to have a
+tabulation of the actual adjustments made study-by-study. Table S4 gives the results of
+unadjusted and adjusted analyses and does not fully state what was adjusted for.
+4. It is also not clear what criteria were used to rate the risk of confounding. In Table S2 it is
+noted that only one study was rated as being at high risk of bias due to confounding. Table S4
+lists four studies of omitting adjustment for “diet and clinical factors” so it is not clear why
+these are also not flagged as being at risk of bias from confounding. Other studies may omit
+other key variables, but given that no list of variables is presented we cannot tell.
+5. There is no mention whether the analyses of the drink types are mutually adjusted for each
+other (for example, is the SSB analysis adjusted for ASB and fruit juice?) It is hard to think that
+consumption of each drink is independent.
+6. Table S2 and Supplementary material on page 17. Overall quality assessment has to make a
+leap from the ratings of the individual domains to obtaining an overall assessment of likelihood
+of bias. It is not clear what rule the authors used to achieve this. The text on page 17 does not
+describe a consistent system for doing this. For example, studies 25 and 48 are stated as being
+at high risk of bias because their classification of diet was wrong, but the other seven studies
+marked as having high risk of bias on the dietary measures domain are not classified as being
+at high risk of bias overall. The same problem appears across multiple domains in the tool.
+7. Page 13 – the authors indicate that publication bias created a false positive effect for ASB.
+However, the degree of publication bias seems rather small (not really visible at all in the
+funnel plot) and adjustment for it did not substantially change the magnitude of the effect.
+8. Page 11 - The authors make GRADE assessment and place two outcomes (ASB and fruit
+juice) as being of low quality and one (SSB) as being of moderate quality. There is no strong
+argument why SSB is argued to be of moderate quality. It is hard to see why one outcome
+would differ from the others given that they are all reported in the same studies which were
+done using the same methods and adjusted for the same confounders. Given that the estimates
+for both SSB and ASB shift considerably between the analyses adjusting for measurement
+error, confounders and publication bias, it is hard to attribute moderate or high credibility to
+any of them. The estimate for fruit juice seems to be close to a null effect in all analyses – the
+authors seem distracted by it moving either side of the null effect value, but it seems
+consistently close to it in all analyses.
+9. The population attributable fraction computations are based on assumptions of causality, and
+on reducing consumption of the three types of drink to zero. Given that the estimates of effect
+vary considerably between the sensitivity analyses, they perhaps should investigate how much
+the estimates varies. The authors do state the assumptions behind this, and indicate that
+causality is a concern, but are keen to promote intense public health interventions based on
+this evidence. Would not trials of SSB reduction be justified now rather than public health
+interventions? Also I wonder whether the illustration would be more helpful if it were based on
+the sort of magnitude of reduction in SSB that was achievable by a public health intervention
+and not an unachievable reduction to zero.

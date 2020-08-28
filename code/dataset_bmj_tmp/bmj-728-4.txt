@@ -1,0 +1,59 @@
+Manuscript ID: bmj.2015.029885 -” Non-steroidal anti-inflammatory drugs and the risk of heart
+failure: a nested case-control study from four European countries in the SOS Project”
+This study by Arfe et al is a multinational case-control study including data from 4 different
+countries in 5 databases, investigating the risk of hospitalization for heart failure associated with
+incident NSAID use. The study included 92,163 cases hospitalized for heart failure that were
+matched with 8,246,403 controls. The main results of the study that both traditional NSAIDS and
+selective COX-2 inhibitors were associated with increased risk of heart failure hospitalizations and
+there was evidence for dose-related increase in risk. Notably, the selective COX-2 inhibitor
+celecoxib was not associated with increased risk of heart failure hospitalization.
+General comments
+This is a carefully conducted study addressing an important topic related to the safety of NSAIDs in
+the general population. Although the results of the study are not novel, the study adds to the
+accumulating body of evidence linking NSAIDs with unfavourable cardiovascular safety.
+The study design is nested case-control study and suffers from the caveats encountered in such
+study design, but the authors carefully address weaknesses and potential confounders in the
+manuscript. The main strength of the study is that it includes a large cohort of cases and controls
+but data are from heterogeneous and multiple data sources that are sought harmonized during
+data management.
+Specific comments
+1. I had some problems understanding the datasets used for the study and how participants
+entered the database’s and the completeness of follow-up. This is a major issue and could
+influence detection of the primary outcome as well as exposure to NSAIDs. Please clarify.
+2. In the methods section you describe how you excluded individuals who did not have at least one
+year of uninterrupted observation prior to the index prescription date. How does this affect your
+prior history of e.g. heart failure or cardiovascular disease?
+3. There is lot of heterogeneity in data between the individual databases and you describe that you
+harmonized data during data management and before pooling datasets. Did that in any way
+influence cohort selection or completeness of data?
+4. I do not agree with your approach to only include primary discharge code of heart failure to
+define outcome since heart failure is often associated with other cardiovascular diagnoses, e.g.
+myocardial infarction or atrial fibrillation, and therefore affect detection of outcome events.
+Although the effect of this most likely would be non-differential, we know that NSAIDs increase risk
+of ischemic heart disease and atrial fibrillation which might affect how discharge codes were
+prioritized and therefore heart failure events missed.
+5. We know from other databases that the sensitivity of heart failure diagnosis is notoriously poor,
+but with acceptable positive predictive value and specificity. This would be even more pronounced
+by only including primary discharge coding diagnoses.
+6. Not all heart failure patients are hospitalized and many are managed as outpatients in
+specialized heart failure clinics or outpatient clinics. This is being more frequent during the last
+years and therefore this might affect detection of heart failure events if you only included
+inpatients.
+7. It is intriguing that you do not find any association between celecoxib and increased risk of heart
+failure hospitalization, which is further supported in the dose response analyses. During the study
+period, there has been lot of discussion on the unfavourable effect of NSAIDs on CV risk and in
+particular the selective COX-2 inhibitors. Thus, this could have directed physicians towards more
+use of non-selective NSAIDs and less use of celecoxib in high-risk patients. Did you see any trend
+towards change in use of different NSAIDs according to risk profile of patients (e.g. lower CV
+disease or hypertension in celecoxib users) during the study period?
+8. There are some important differences in baseline characteristics between the cases and controls
+
+that could influence the results. In particular, there is much more frequent use of cardiac
+pharmacotherapy in general among cases compared to controls. Use of these drugs could
+represent risk factors for heart failure (e.g. hypertension or atrial fibrillation) that are being
+treated, or established heart failure that had not yet been hospitalized and managed in outpatient
+clinic or primary care. This if quite fundamental and could influence results, therefore the authors
+could have considered matching fewer controls on each case (it is bit of an overkill to match 100
+controls on each case) and tried to achieve better balance in baseline characteristics between
+cases and controls, for example by using propensity score based matching or matching on more
+parameters. I would very much like to see results were

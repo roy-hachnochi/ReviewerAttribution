@@ -1,0 +1,103 @@
+Amit Kaura and colleagues performed a comprehensive retrospective cohort study in an
+unselected patient group where they investigated the association between various troponin
+levels and all-cause mortality across different ages. They also stratified the analyses on
+patients with versus without ACS, and looked at the impact of revascularization. In brief,
+they found an inverted U-shaped association between troponin level and mortality in all
+patients, which reverted to non-linear positive associations after stratification of ACS and
+non-ACS patients, respectively. They conclude that an elevated troponin should be taken
+seriously in all age groups, and their findings can help inform clinical practice and contribute
+to risk stratification algorithms in the future.
+Overall comments:
+I like this paper. It is original and contributes to the growing field of research on troponins
+and intriguing associations with future risk, this time in a wide and unselected patient
+population. I think the general scope of BMJ is a suitable place for the paper. It seems
+scientifically sound and the overall design and methodology is impressive. Moreover, it is
+excellently written and easy to follow despite an intricate study design. The results are
+presented nicely with various informative graphs (although I have some comments that will
+be found below). I believe that the interpretation of the data and the conclusions are fairly
+sufficiently formulated and definitely derived from the data, and not anything else (also have
+some comments regarding the conclusion below). The supplemental files including the SAP
+and description on how the data was handled makes it even easier for the reader to
+understand how the study was performed. The authors should be congratulated for their
+impressive work.
+The most important limitation is that the authors were not able to determine why the
+troponin test was taken, which would have been helpful to further interpret the clinical
+significance of the troponin test in a given specific scenario. The authors already discuss this
+in the limitations section in a satisfactory manner. Another limitation that I think deserves
+mention is the fact that the authors were not able to discern whether the troponin increase
+was part of a chronic increase (e.g. perhaps chronic myocardial injury) or an acute elevation.
+There are, of course, numerous disparate reasons for an increased troponin value, the
+authors should adress this a little bit more in the discussion (the second paragraph is a good
+start). See https://heart.bmj.com/content/103/1/10 by Chapman et al for a good review on
+the topic.
+I have some specific comments that I would like the authors to adress:
+1. In the SAP the authors report that they planned to set the uppermost troponin band to be
+”>10,000 xULN”, however looking at the methods section in the manuscript it seems that
+the uppermost band was >1,000 xULN. Why the discrepancy?
+2. The splines were adjusted for patient age, gender, haemoglobin, creatinine, white cell
+count and C-reactive protein. One can think of other important confounders such as a history
+
+of various heart disease. Did you not have the data to adjust for comorbidities (e.g. previous
+ICD-10 diagnosis codes, or other sources)? If you had the data, why did you decide not to?
+In line with my reasoning above, it may be especially interesting to investigate the
+troponin associations in patients without a prior history of heart disease (and possibly even
+excluding those who were admitted and discharged with cardiac ICD-10 codes). I recognize
+that this was not the aim of the present paper, but it is something that I encourage the
+authors to think about for future substudies.
+3. Why did the authors investigate Kaplan Meier survival curves in the three different age
+categories instead of the decade age groups described in the SAP? Too many figures?
+4. Can you please present the number of patients (n=) in each age category, either in the
+baseline table, or even more preferably, directly incorporated in graph 2A.
+5. Perhaps the results section has a bit too much reasoning (e.g. the paragraph at page 16,
+line 10). Normally, I would prefer if this was incorporated in the discussion. Can the authors
+elaborate on why that is not the case here?
+In fact, after reading your discussion, the reasoning is already there in the discussion. I
+would therefor suggest removing the aforementioned paragraph from the results altogether.
+6. Supplemental figure 3B: I don’t understand how the hazard ratio for all-cause mortality in
+the acute coronary syndrome group is significantly below 1.0 throughout almost all levels,
+how can this be the case? What is the reference here? Some mathematically derived
+troponin value? Please explain what the reference point is and how it was determined.
+7. Comment adds to the above: After reading through your paper carefully, I think you
+should clarify the methodology (e.g. how and where HR=1.0) in all splines so it is easy for
+the reader to understand. For instance, in figure 4 you present ”A, Unadjusted and B,
+adjusted association between troponin level and the hazard ratio for all-cause mortality
+using restricted cubic splines.” It leaves me wondering, what point was set to HR=1.0, and
+why was it put where it was? You should elaborate more on this in the methods section,
+”Fourth, we used mathematical modelling to model the relationship between troponin level,
+on a continuous scale, and mortality.” is a bit too cryptic.
+8. Another comment on the splines. Could you consider adding marginal plots to inform the
+reader of the distribution related to the troponin levels? As they are presented now, it is hard
+for the reader to understand where the bulk of the test values lie.
+9. Figure 1C: I see no Y scale here. Please add one as it is informative.
+10. Discussion, page 17, line 18 reads: ”Patients of all ages in routine clinical practice who
+undergo troponin measurement have a high mortality.” Don’t you mean Patients … who have
+a positive troponin? I don’t see any comparison with patients who did not have troponin
+testing performed.
+11. Discussion, page 20, line 52 reads: ”Angiography, followed by coronary revascularisation
+with PCI or CABG, when appropriate, has been associated with an improvement in clinical
+outcomes, including cardiovascular mortality in ACS.” I don’t think it’s correct to call this an
+association. I would formulate it as follows: ”Angiography, followed by coronary
+revascularisation with PCI or CABG, when appropriate, improves clinical outcomes, including
+cardiovascular mortality in ACS.” The benefit is established.
+12. In the final section of the discussion, before the limitations subsection, the authors
+comment on the associations between troponin levels and poor outcome in non-ACS
+patients. They reflect that these patients may have hidden underlying significant coronary
+artery disease, however I miss a small discussion segment on the role that non-CAD heart
+disease, e.g. structural heart disease, may play. Can the author’s elaborate a bit on other
+
+presumptive causes of troponin elevations in the non-CAD group unrelated to hidden
+coronary artery disease? Once again, I recommend the authors to visit
+https://heart.bmj.com/content/103/1/10 by Chapman and colleagues.
+13. Conclusion, page 23, line 13 reads: ”Although revascularisation was associated with
+lower cumulative mortality across all troponin bands, in both ACS and non-ACS patients, it is
+currently not known whether it would improve survival in some non-ACS patients with a
+positive troponin who may have a missed or concurrent ACS and are currently managed
+conservatively.” I would suggest reformulating this to suggest a more wide cardiac
+investigation instead of just revascularization. Troponin elevations can reflect other
+aetiologies than coronary artery disease as I have previously discussed. I suggest that you
+change the aforementioned text into something more general (to not lead the reader into
+thinking that anyone with a positive troponin should undergo invasive coronary
+investigations): ”Although revascularisation was associated with lower cumulative mortality
+across all troponin bands, in both ACS and non-ACS patients, there is currently no consensus
+on how to properly manage non-ACS patients with troponin elevations who may have
+significant underlying cardiac disease that is not adequately adressed” Or something similar.

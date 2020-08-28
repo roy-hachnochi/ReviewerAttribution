@@ -1,0 +1,57 @@
+The authors investigated the longitudinal association between arts engagement and
+mortality in a survival analysis using data from an observational study (ELISA) linked to
+national mortality data in the UK. They calculated hazard ratios comparing engagement
+levels in arts (never, infrequently, frequently) and calculated percentage of protective
+association explained by several covariates, including demographic, socioeconomic, and
+health related variables. The authors concluded on an association between engagement in
+arts and mortality, and on a potential protective effect of arts against mortality.
+This study was carefully conducted and treats a question implicating many and various
+interrelated variables. Despite of this difficulty, the authors made a great work in
+disentangling the concepts and applying them with care. The authors cautiously selected
+relevant variables to adjust for and used pertinent descriptive and causal inference
+methods. Also, they used an appropriate language to describe their findings, and
+concluded with caution on a potential causal relationship between engagement in arts and
+mortality. Nevertheless, there is one major and several minor points to be addressed:
+
+Major issue
+1. p.13, Table 2: It is not clear whether the hazard models are hierarchical, i.e. whether
+the mediators are progressively added to the first model (I guess not) or whether they are
+analysed separately. For instance, does the hazard ratio of “0.74 (0.69-0.79)” for wealth
+correspond to the model: “Basic model (age, gender) + education, occupational status &
+employment status + wealth” or to the model: “Basic model (age, gender) + wealth”?
+Also, it is not clear to me how the mediators are included in the analyses. Were the
+mediators made of different variables separately, or were the mediators created as a
+composite variable made from the different variables? For instance: “Mediator: +
+education, occupational status & employment status”, were these three variables added as
+separate variables in the model or composite variable created out of the three?
+If they were added as separate variables, there may be some collinearity issues, which
+bias the HRs and the PPAEs. I would suggest that the authors take this into account in
+their analyses.
+Minor issues
+1. I would suggest to add some information on the description of the participants in the
+methods section (p.5). I would suggest, for instance to mention, when the study (ELISA)
+started, and what are the “waves” and when they took place. It is not clear if wave 2 is a
+data collection wave, if wave 1 was the HSE, or if a wave is one recruitment wave among
+several in the study.
+2. I would suggest that the authors describe how the information listed on p.6, line 58 to
+p.7, line 8 was collected: “age (in years), gender (male or female), […] total non-pension
+wealth (quintiles) […] and occupational status (using the 5-item National Statistics
+Socio-economic Classification)”. If the information was self-reported, this could be of
+concern for the variable on “wealth”. If necessary, I would suggest that the author
+comment on this point.
+3. I would suggest that the authors state what kind of data linkage method was used
+(deterministic or probabilistic).
+4. I have several suggestions and comments on the definition of variables. First, I would
+suggest to give some more precisions about “employment status”, this variable is
+ambiguous, because “not working” can mean unemployed or retired, which has not the
+same impact on both mortality and engagement in arts. Second, I would suggest to
+replace “sedentary lifestyle” by “physical activity” (p.11, table 1) with the three levels of
+activity stated in the method (p.9). Third, I am not quite sure to understand what “output
+area” means, respectively what does “output” refer to.
+5. p.9, table 1: I would suggest to add a measure of variability (95% confidence interval)
+together with the p-value. I would also suggest that the authors mention what the
+p-values stand for (trend?).
+6. I would suggest three very minor edits: p.5 line 10: The abbreviation for the English
+Longitudinal Study of Ageing was not introduced. I would suggest to change “[…] Study of
+Ageing: a nationally[…] ” to “[…] Study of Ageing (ELISA): a nationally […]”.p.12, line 12:
+the upper bound of the 95% confidence is missing for the E-value.

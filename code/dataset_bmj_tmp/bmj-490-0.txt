@@ -1,0 +1,37 @@
+Statistical Review
+Risk of hypoglycaemia related to the addition of DPP-4 inhibitors to sulphonylureas: systematic review and metaanalysis
+The authors have taken on board comments about the computations of numbers needed to treat in their revised
+manuscript. I still have the following issues.
+1) I previously pointed out that computation of an NNT requires stating an expected event rate, and as more events
+accumulate the longer a group is followed, any computation of the NNT needs to be conditioned on a stated period of
+follow-up. In their response, the authors agree with this, and identified estimates of expected event rates for different
+durations. However, most of their NNT computations, including those in the abstract are for studies with mixed and
+unstated follow-up, which continues their original error. Whilst it is always possible to put together a set of studies with
+mixed follow-up to compute an expected event rate, the answer you obtain cannot be applied. I would request that any
+NNT that is stated in the paper is specific to a stated follow-up period.
+2) The authors have chosen to compute an expected event rate used for computation of NNTs using data from a
+different meta-analysis, and not the data in their meta-analysis. I am not convinced of why they needed to do this – and
+it is notable that the expected event rates in the chosen MA are around twice as high as in their data, leading to the
+NNTs being twice as strong (e.g. the NNT is 10 rather than an NNT of 20). Given that this computation is now post hoc,
+a very strong justification needs to be made as to why the studies in their meta-analysis are not suitable for making this
+computations, whereas the ones included in someone else’s meta-analysis are preferable.
+3) The statistical reporting in the abstract needs improvement, particularly the methods and results.
+4) Page 9 (all page numbers refer to track changed word file) states “The study was performed in accordance with
+PRISMA”. PRISMA is a reporting standard not a performance standard, so it could be reported in accordance with
+PRISMA.
+5) Page 9 – please check whether the abbreviation PBO is defined – I do not think it is now defined in the text.
+6) Statistical methods – page 10 states that the subgroups were compared with Cochrane Q test and I2 index. First it is
+Cochran, not Cochrane. Second the Cochran Q test measures the heterogeneity in a group, not a difference between
+groups. Please refer to the Cochrane Handbook for the correct way to describe this test.
+7) How did you judge that patient characteristics were imbalanced across groups? This is not included in the quality
+assessment, and is usually a very subjective judgement.
+8) In reporting the quality assessment, the only detail that is given is that three studies were judged to have a high risk
+of reporting bias and one a high risk of detection bias. Could you please explain why you came to these judgements?
+What was it about these studies which supports these judgements?
+9) IN the discussion page 15 that the risk of bias assessment indicated that study quality was high which was confirmed
+
+by the GRADE assessment. As GRADE is based (in part) on the quality assessment, it is rather a nonsense to imply that
+GRADE confirms the quality assessment was correct? Clearer expression is needed. There are other points in the
+discussion which need more careful wording – for example where the results of sensitivity analyses are interpreted as
+saying there was no significant change – no assessment of the significance of differences is undertaken in a sensitivity
+analysis.

@@ -1,0 +1,156 @@
+This is an interesting paper on the association of spicy foods and mortality in a very large Chinese cohort
+with carefully conducted analyses. I have a number of comments including one major concern about the
+validity of the exposure variable.
+The question used in this study to evaluated spicy food consumption asks participants “how often they
+had consumed spicy foods in the past month”. However, the spiciness of a food is subjective and whether
+a food/meal is perceived as spicy depends on other ingredients, other foods consumed at the same time
+and short-term and long-term exposure of the individual to spiciness. It is not reflective of the content of
+any potentially biologically active component. Furthermore the follow-up questions about consumption of
+chilli are likely to bias participants’ answers towards reporting spicy foods referring to heat. However
+spices are very diverse and although they include chilli they also include for example cinnamon, star
+anise and cardamom. The question asked in the study on which the main outcome variable is based is
+open to broad interpretation and susceptible to considerable bias and although reproducibility was
+evaluated in the study, validity was not.
+Because of the diversity of spices the analyses cannot answer questions pertaining to biology. They are
+also not particularly useful for public health messages given the varied interpretations of “spicy”. I would
+suggest that the authors change the focus of their paper to that of the secondary analysis carried out on
+chilli consumption as this being a more homogenous food would be useful in informing biology.
+Specific comments
+Major comments
+
+1. Throughout the manuscript the same variables are referred to by different names. The manuscript
+should be revised so that terminology is consistent throughout to avoid confusion.
+Introduction
+2. “Spices” is a very diverse group. The authors need to be more specific about which spices and avoid
+broad statements.
+Methods/Results
+3. Given that approx. 5% of the study population was excluded for various reasons, it would be
+appropriate to carry out an evaluation of potential introduction of bias by these exclusions.
+4. Methodology of measurement/estimation of covariates needs to be described.
+5a. What is the rational for stratification by sex? Please present the p for interaction for sex. If there is a
+clear rational then it should be described in the methods and the implications discussed in the
+discussion.
+5b. The main conclusions are based on the total cohort yet these analyses are secondary (included in
+supplementary tables) to the sex stratified analyses in the manuscript. I would suggest restructuring so
+that the total cohort analyses are the primary analyses and the sex stratified are secondary.
+6. The test for linear trend across categories may not be completely appropriate in this circumstance as
+the midpoint of the reference group is 0. This can lead to significant p-values for linearity that mask the
+true shape of the association because of a consumer versus non-consumer effect. The presence of such
+an effect is suggested in the results from the multivariate-adjusted analyses for all-cause mortality in
+men for example: HR(95% CI): 0.90(0.83-0.98), 0.90(0.83-0.99) and 0.90(0.85-0.96) and p-trend:
+0.001. Further analyses to evaluate the shape of the association should be carried out.
+7. The analyses are not adjusted for energy intake, is it not available? Dietary analyses that do not
+account for energy intake are likely to include a considerable amount of residual confounding. At the very
+least there should be a discussion of the potential effects of not adjusting for energy intake in the
+discussion.
+Discussion
+8. The strengths and limitations section would benefit from restructuring. A number of limitations
+precede the sentence “This study acknowledges a few limitations that should be noted”.
+9. A brief summary/discussion of the null associations is warranted. The authors should also consider
+including a statement in the abstract. Concluding that spicy food consumption was associated with causespecific mortality is a little misleading as it was only with certain causes not all specific causes evaluated.
+10. The conclusion could be more focused.
+Minor comments
+Abstract
+Page 3 lines 19 and 23: The authors swap over and back between the terms all-cause mortality and total
+mortality, and further on in the manuscript, total death. Using the same term throughout the article
+would make for easier reading.
+Page 3 line 38: “Inverse associations were observed for deaths due to cancer, ischaemic heart diseases
+and respiratory system diseases.”
+The inverse association with death due to respiratory system diseases was in both men and women but
+the inverse association for deaths due to cancer and ischaemic heart diseases were in women only. The
+authors’ sentence gives the impression of a more consistent result than the results in the main text
+suggest.
+Introduction
+Page 4 line 19: reference 4 is an ecological study. This should be made clear in the text.
+Page 4 line 26: “Moreover, spices exhibit antibacterial activity and affect gut microbiota populations,
+which have been recently related to risks of diabetes, cardiovascular disease, liver cirrhosis, and cancer
+in humans”
+In which direction is the association with gut microbiota and in turn the diseases listed?
+Methods
+Page 5 line 7: Please define “lost to follow-up immediately”.
+Page 5 line 26: For the option “other or don’t know”, were the participants given the opportunity to
+specify the “other”? If yes, what was done with these data?
+Page 5 line 33: Why limit the re-survey questionnaire to those who could complete it within an interval of
+less than 1.5 years? Why not use all 4 years of data? This appears to be an unnecessary introduction of
+bias.
+Page 5 line 38: It is not justified to say that the results of the test for reproducibility indicated that spicy
+food was reported “accurately”.
+Page 5 line 57: “…grouped into seven major categories…”
+This suggests that there were other minor categories but from further reading there does not appear to
+be.
+Page 6 line 10: What was the n for loss to follow-up? Given that death was ascertained through linkage
+with disease and death registries and therefore not dependent on contacting the participant it is not clear
+why would there be participants lost to follow-up? Please briefly detail the reasons for their loss.
+Page 6 line 20: “potential risk factors”. Are these the same as the suspected risk factors in the abstract?
+Page 6 line 30: “participants who reported fresh chilli pepper as one of their commonly used spices and
+those who did not”. How did you treat those who were not given the opportunity to answer this question
+i.e. those who were non-consumers or occasional consumers of spicy foods?
+Page 6 line 34: Stratification of alcohol consumption into current regular drinker and not is susceptible to
+bias from those who have quit or reduced their alcohol intake due to illness. I suggest categorising into
+
+never, quit and current, or even low and high current consumers given the J shaped curve of the
+association of alcohol consumption and mortality.
+Page 6 line 35: these cut-offs for BMI are odd. I would have expected 25 and 30 or if you wanted to use
+cut-offs specific for China wouldn’t these be 24 and 29? Please provide a justification and/or a reference
+for the cut-offs used or re-do with more widely accepted cut-offs.
+Page 6 line 36: Were the tests for interaction only carried out for all-cause?
+Page 6 line 42: Stata not “the Stata”
+Results:
+Page 6 line 51: “Regions”, “survey site” and “rural residency”. It is not clear what the difference is or if
+they are all the same.
+Page 6 line 53: “those who consumed spicy goods less frequently” this appears to be a new undefined
+group. Does this correspond with the never/almost/never/occasionally group? Do they correspond to the
+<1/wk in the table?
+Page 6 line 56: “more likely to smoke cigarettes” What about cigars, pipes? Does this mean smoking
+status was defined on the basis of cigarette smoking only?
+Page 6 line 57: “fresh and dried chilli peppers were the most commonly used types of spices among our
+participants” This isn’t strictly true as the questionnaire preferentially asked about chilli consumption. It
+would only be fair to say that fresh and dried chillies were the most commonly consumed chilli
+preparation in those that reported consuming spicy foods >1-2 days per week.
+Table 1: how was postmenopausal defined?
+How was physical activity measured?
+Was 0 used as the mid-point for never or almost never and occasionally for red meat etc? or did you
+have different categories for these foods than you had for spicy foods?
+Page 10 line 4: Saying 10 years of follow-up is a little misleading, listing the median 7.2 years is
+sufficient. It would be more informative if you additionally included a measure of distribution (e.g. IQR)
+around the median.
+Page 10 line 22: there was no description of a test for heterogeneity in the methods.
+Page 10 line 29: there was no mention of collection of these covariates in the methods.
+Table 2: Was age adjusted for as underlying time-scale or in addition to?
+“status with regard to a family history of cancer, heart attack, stroke, or diabetes in the corresponding
+analysis of causes-specific mortality” What adjustment for family history was carried out for all-cause?
+The footnote needs to include a description of the covariates and in what format they were included in
+the model e.g. alcohol consumption (continuous/ categories?)
+Why include level of physical activity when you have continuous METs?
+What does history of diabetes refer to? Is this prevalent diabetes? Why adjust for prevalent diabetes but
+exclude prevalent heart disease, stroke and cancer?
+Did you do a test for power? I’m mostly concerned about the very low number of cases for infections and
+whether it is appropriate to include this as an outcome.
+Page 15 line 17: the HR (95% CI) for diabetes was not significant 0.72 (0.55-1.01).
+Page 15 line 24: “which are rich in active ingredients such as … used spices” this would be more
+appropriate to include in the discussion.
+Page 15 line 42: The interpretation of this result is difficult given the strata inclusion criteria. See
+comment for Page 6 line 34.
+Discussion
+Page 16 line 4: the associations were only consistent for all-cause. As this sentence directly follows a
+conclusion for cause-specific it is misleading.
+Page 16 line 13: Can you provide a reference for this?
+Page 16 line 56: Beta-carotene is the form of vitamin A in fresh chilli peppers. Therefore it is not
+appropriate to list both vit A and beta-carotene.
+Page 18 line 4: Can you provide a reference for this?
+Page 18 line 41: “the strengths…” this would be better placed in the strengths and limitations section
+rather than the conclusion.
+What is already known on this topic
+Wouldn’t it be more accurate to say “a beneficial role of the bioactive components of spices…” given that
+most of the studies cited have investigated capsaicin.
+The use of the word surprising is a little emotive for scientific writing.
+What this study adds
+Why focus on the differential results for alcohol consumers here when it wasn’t included in the main
+conclusion?
+Figure legends
+Page 25 line 35: introduces new terminology “any cause”, it would make for easier reading if the same
+terminology was used throughout.
+Figure 1
+It would be informative to have p values for linearity included here.
+Supplementary tables
+Page 34: sex not gender in footnote

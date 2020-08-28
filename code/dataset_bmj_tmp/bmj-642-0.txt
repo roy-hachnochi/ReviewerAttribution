@@ -1,0 +1,22 @@
+A carefully done study of a topic of interest.
+Suggestions.
+1. Tighten/clarify the presentation. Some things I didn’t understand:
+p. 11 “Taking antithrombotic treatment alone was associated with a lower risk of gastrointestinal bleeding than
+when taking PPIs concurrently”
+p. 12 “There was a decreased risk of bleeding associated with concurrent PPI plus specific NSAIDs”
+Figure 2: The groups are unclear, particularly the difference between “PPI+NSAID” and “PPI on NSAID treatment”.
+Figure 3: Numbers don’t always agree with those in text.
+2. Discussion: tone down some of the “calls to action”, i.e. NSAIDs a public health problem, gastroprotective agents
+can substantially reduce morbidity/mortality
+3. Consider adding more covariates and time-dependent covariates that reflect bleeding risk.
+More covariates. As I understand, these come from the supplementary diagnoses associated with the hospital
+discharge leading to cohort entry. However, the history of encounters for a time preceding that hospitalization could
+add further information, for example, a patient with a history of hospitalization for peptic ulcer disease.
+Time-dependent covariates. As I understand, drug exposure is time-dependent, but covariates are not. That is
+understandable, given the worry about factors on the causal pathway. However, given that much of the exposure of
+interest starts well after cohort entry (see Figure 2), it is possible that baseline bleeding covariates do not reflect
+status well at the time joint NSAID-PPI use begins. For example, warfarin might have been started or the patient
+might have had an ulcer. An additional analysis with time-dependent covariates thus would be useful.
+4. Recognize limitation of small proportion of person-time on the exposures of interest. Of the 3229 outcomes, only
+387 occurred during NSAID use. Of these, 267 were non-users of PPIs and 60 PPI users (where did the other 60
+outcomes go?). Thus, it is possible that channeling by unmeasured factors influenced results.

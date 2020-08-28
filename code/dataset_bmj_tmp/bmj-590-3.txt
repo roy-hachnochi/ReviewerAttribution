@@ -1,0 +1,57 @@
+The authors substantially revised the paper, and I think the overall quality has improved.
+However, I still have major concerns about several issues.
+1) It seems that the implemented imputation procedure is overly simplistic:
+* The imputation models do not seem to account for estimation error. In particular, it seems
+that missing values have simply been replaced by predictions from a regression model. Also,
+there is no mention of combining results from multiple imputed datasets.
+* The imputation models appear to only use information from age and sex
+* The imputation models are based on linear regression, which might not be reliable for
+imputation of nonlinear data such as BMI.
+* Smoking status was imputed deterministically as "non-smoker"
+I would like to re-iterate that numerous recommendations have been published on how to deal
+
+with missing data. It is not clear to me why the authors did not consult any of these guidelines.
+2) The calibration plots in Figure 3 do not seem to be be generated using appropriate methods,
+and appear to be based on linear regression models that have been estimated from grouped
+points, rather than individual observations. Again, I strongly recommend to consult the
+literature on how to generate calibration plots, especially when the outcome represents a binary
+endpoint. Note that statistical software exists to generate advanced calibration plots, e.g. the
+"rms" package in R from Prof. Harrell.
+* Austin PC, Steyerberg EW. Graphical assessment of internal and external calibration of logistic
+regression models by using loess smoothers. Stat Med. 2014 Feb 10;33(3):517-35.
+* Harrell FE. Regression modeling strategies : with applications to linear models, logistic
+regression, and survival analysis. New York: Springer; 2001.
+* Moons KGM, Kengne AP, Grobbee DE, Royston P, Vergouwe Y, Altman DG, et al. Risk
+prediction models: II. External validation, model updating, and impact assessment. Heart. 2012
+Mar 7;98(9):691-8.
+* Royston P, Altman DG. Visualizing and assessing discrimination in the logistic regression
+model. Stat Med. 2010 Oct 30;29(24):2508-20.
+* Steyerberg EW. Clinical Prediction Models: A Practical Approach to Development, Validation,
+and Updating. 1st ed. New York: Springer; 2009. (Statistics for Biology and Health).
+3) I still miss requested measures of calibration performance such as the calibration slope.
+* Steyerberg EW. Clinical Prediction Models: A Practical Approach to Development, Validation,
+and Updating. 1st ed. New York: Springer; 2009. (Statistics for Biology and Health).
+4) The authors did not address my comment that updating the FRAX-10 model renders some
+comparisons of performance obsolete (e.g. total O/P ratios, senstivity and specificity). This is a
+major limitation of the FRAX-10 model.
+Minor comments
+1) I previously recommended Poisson approximations for adjusting the baseline hazard of the
+model. However, it seems that the authors actually used Poisson regression (i.e. using
+individual data points) to adjust the predicted risks into five-year probabilities. Regardless, I
+think it is ok in this case to say that all 10y probabilities have been multiplied by a factor of 0.5
+to generate 5y probabilities (but I wouldnt recommend the same approach for other types of
+validation studies)
+2) I am not a big fan of reclassification measures, and think that net benefit approaches would
+be more useful for translating measures of prediction model performance to potential impact in
+clinical practice.
+* Hilden J, Gerds TA. A note on the evaluation of novel biomarkers: do not rely on integrated
+discrimination improvement and net reclassification index. Statistics in Medicine.
+2014;33(19):3405–14.
+* Kerr KF, Wang Z, Janes H, McClelland RL, Psaty BM, Pepe MS. Net reclassification indices for
+evaluating risk prediction instruments: a critical review. Epidemiology. 2014 Jan;25(1):114–
+21.
+* Steyerberg EW, Vickers AJ, Cook NR, Gerds T, Gonen M, Obuchowski N, et al. Assessing the
+Performance of Prediction Models: A Framework for Traditional and Novel Measures.
+Epidemiology. 2010 Jan;21(1):128–38.
+* Vickers AJ, Van Calster B, Steyerberg EW. Net benefit approaches to the evaluation of
+prediction models, molecular markers, and diagnostic tests. BMJ. 2016;352:i6.

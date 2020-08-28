@@ -1,0 +1,82 @@
+This is a massive, landmark meta-epidemiological study examining the effects of blinding in
+randomized trials. Of particularly novelty is the distinction of various groups being blinded
+for different types of outcomes. The topic is highly relevant to stakeholders in research and
+healthcare. The presentation of methods and findings is excellent. My comments relate
+mainly to areas for further clarification and trying to explain the surprising results.
+1) The authors provide three explanations for the results: blinding is truly not as important
+as believed, meta-epidemiologic limitations, and lack of precision. Could there be additional
+explanations:
+a. Blinding of a single group (patient/provider/observer) in a trial might be insufficient to
+counteract the bias introduced by the non-blinding of the other groups (i.e. all groups may
+need to be blinded in a trial to reduce bias overall).
+b. “Blinded” trials were not actually blinded: The persons who were stated/intended to be
+blinded were aware of the intervention assignments (e.g. due to obvious adverse effects or
+efficacy; poorly matched placebo).
+c. Selective reporting of outcomes – assuming that blinding leads to smaller effect sizes, and
+that smaller effect sizes are less likely to be reported in a published paper, then the pooled
+estimate for a given outcome from blinded trials may be inflated, reducing the contrast with
+unblinded trials.
+d. Potential misclassification of blinding status in this review as “probably yes” versus
+“probably no”
+2) Page 4, line 55: It would be helpful to have examples of information that would lead to a
+classification of “probably yes/no”.
+3) Page 6, lines 8-24: It is challenging to disentangle the effects of blinding one, two, or all
+three types of persons in a trial (8 possible combinations). Each of the 5 main analyses
+compares two sets of trials that differ in terms of the type of persons blinded (see below).
+Set 1 lists the types of trials that are combined for comparison with trials listed in Set 2.
+ANALYSIS Ia (Observer N/A)
+Set 1: Patient and Provider
+Patient only
+Set 2: Provider only
+No blinding
+ANALYSIS Ib
+Set 1: Patient, Observer, Provider
+Patient and Observer only
+Set 2: Observer and Provider only
+Observer only
+ANALYSIS IIa
+
+Set 1: Provider, Observer, Patient
+Provider and Observer only
+Set 2: Patient only
+No blinding
+ANALYSIS IIb
+Set 1: Provider, Patient, Observer
+Provider and Observer only (if not patient-reported outcome)
+Set 2: Patient and Observer only
+Observer only (if not patient-reported outcome)
+ANALYSIS III
+Set 1: Observer only
+Observer and Patient only
+Observer and Provider only
+Observer, Patient, Provider
+Set 2: Patient only
+Provider only
+Patient and Provider only
+No blinding
+One might end up with comparisons that are hard to interpret depending on the mix of trials
+available in each analysis. As an illustrative (extreme) example, Analysis Ia could consist of
+trials with only Patient blinding (and unblinded Providers) in Set 1 being compared with trials
+where only the Providers are blinded in Set 2 (if there are no trials with everyone blinded,
+and no unblinded trials available). The interpretation of a non-significant result for this
+comparison would be that blinding of the patient alone is comparable to blinding of the
+provider alone for patient-reported outcomes. We would not conclude that blinding of the
+patient does not help reduce bias.
+Similarly, for Analysis III, one could end up with a mix of trials such that trials with only
+observers blinded are being compared with trials that only have patients blinded. Again, in
+this extreme simplified instance, one would not conclude that blinding of observers does not
+reduce detection bias, but that observer blinding is comparable to patient blinding.
+Would it be useful to evaluate the mix of trials in each analysis, in terms of the 8 potential
+categories of trial:
+• No blinding
+• Observer only
+• Patient only
+• Provider only
+• Patient and Provider only
+• Observer and Patient only
+• Observer and Provider only
+• Observer, Patient, Provider
+Would it be informative and feasible to compare:
+a) Sets of trials that only differ by the status of 1 blinded group, with the blinding status of
+the other groups being fixed to be the same
+b) Sets of trials with any group blinded versus trials with no blinding of any group

@@ -1,0 +1,30 @@
+There are several points/queries to make in addition to those of the reviewers and still of concern in the revised
+manuscript:
+1. Although the authors call this a natural experiment it is still observational and hence use of impact should be
+tempered. There was no association found and this was not different to control hospitals over the same period. However,
+there is a self-selection problem and no guarantee that the implementation hospitals are not different.
+- Suggested changes to wordings are for example : objectives (study cannot assess impact), conclusions (no overall
+negative ‘association’ were found) and what study adds (cannot evaluate how ‘affected’, nor the ‘impact’).
+2. Was each implementation hospital within a separate HRR or were some hospitals controls for more than one case? If
+the latter, how was this addressed in the analyses?
+3. Model as defined within statistical analysis section: Which factors are considered as random effects and which fixed?
+The ‘Covariates’ term may be misleading as this will lead to more than one beta value (whereas here it is quite clearly
+only one- beta4).
+Please verify that clustering within the same HRR is accounted for as well as clustering of patients within hospitals and
+admissions from the same patient over time. The description sounds as though fixed effects were used, but then this is
+given as a sensitivity analysis. Beta3 also requires a further subscript I think? Removing the equation and giving a
+written description may be clearer.
+Hierarchical logistic regression, with clustering of admissions within patients, patients within hospitals and hospitals
+within HRR, adjusting for covariates (as given in table 1) and MDC (how many terms does this entail? what are the
+categories?) should be used to model the probability of the outcomes (mortality, readmission, adverse event) to
+determine changes over time (pre to post implementation date) according to whether the hospital was an EHR
+implementer or control. An interaction term between the time and EHR indicators quantifies the difference-indifferences.
+4. Not enough information is given to replicate the power calculation. What is the anticipated starting percentage and is
+any account taken of ICC (different admissions for the same patient or within the same hospital/HRR)?
+5. Table 1: How useful is it to present significance tests pre-post within the study and control groups, especially given
+the large numbers of patients and hence significance of unimportant clinical differences. For example, it is not surprising
+that the race breakdown does not differ from pre to post and a relatively small difference in the % females is highly
+statistically significant. Of more interest perhaps is the fact that the control hospitals tended to have older and/or more
+white patients who didn’t stay as long on average and who had a different diagnostic distribution. How might these
+differences in patient mix affect interpretation of the results? At the very least, there should be discussion of the
+generalisability of results given this selection bias.

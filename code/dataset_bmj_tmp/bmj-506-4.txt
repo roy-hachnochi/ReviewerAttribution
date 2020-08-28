@@ -1,0 +1,21 @@
+Title, methods and discussion should state that analyses are limited to older patients (>65 years). Patients <65 years in the
+registry should be removed as they represent a very different population (ESRD, disability).
+Please clarify if analyses were limited to patients with histologically confirmed lung cancer, otherwise, analyses could be biased
+as SABR-treated patients do not have pathologic assessment. Additionally, please clarify inclusion/exclusion criteria based on
+stage and tumor size. SABR is not recommended for patients with tumor size >5 cm.
+A potential bias is that the LN status of SABR patients is only based on imaging data. This should be included in the
+discussion.
+There are inconsistencies regarding censoring date (2013 vs. 2014), please address. Additionally, need to clarify that lung
+cancer specific survival data is more limited as reporting usually lags by 3 years.
+Unclear if method to assess recurrences and disease free survival is accurate. Authors may consider removing this outcome
+from analyses
+There are several limitations in the propensity score analyses. The investigators only adjusted for few (albeit key)
+comorbidities. Given that comorbidities are a key factor in treatment assignment using a more robust comorbidity index would
+be preferable. Additionally, copd is a major confounder and there are claim-based algorithms to estimate copd severity that the
+investigators should consider applying to the data. Moreover, the models should adjust for preoperative use of PET and
+mediastinoscopy, two factors that may affect staging and treatment allocation. Data regarding post opearative chemotherapy
+should be also reported.
+Use of t-test to compare number of postoperative CTs is probably inappropriate as count data is usually not normally
+distributed. For analyses involving disease specific survival the authors should consider using competing risk methods given
+that majority of deaths are due to comorbidities
+In results, please clarify that adjusted differences in cancer-specific survival are not significantly different

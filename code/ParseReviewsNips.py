@@ -1,14 +1,19 @@
 import os
+import re
+from tqdm import tqdm
 
 # ======================================================================================================================
 folderName = "./dataset_nips/"
 startToken = '<div style=\"white-space: pre-wrap;\">'
-endToken = '</div>'
+endTokens = ['</div>']
+
+ignores = []  # tokens to ignore
+replaces = []  # replacements for ignored tokens
 
 # ======================================================================================================================
 # Parse reviews from files:
 directory = os.fsencode(folderName)
-for file in os.listdir(directory):
+for file in tqdm(os.listdir(directory)):
     filename = os.fsdecode(file)
     filetxt = filename.split(".")[0]
     if filename.endswith(".txt"):
@@ -17,10 +22,13 @@ for file in os.listdir(directory):
         if startToken in data:  # parse only files which contain an un-parsed review
             dataSplit = data.split(startToken)[1:]  # first object is html header
             for i, s in enumerate(dataSplit):
-                sNew = s.split(endToken)[0]  # get review text
+                for endToken in endTokens:
+                    s = s.split(endToken)[0]  # get review text
+                for ig, rep in zip(ignores, replaces):  # remove ignores
+                    s = re.sub(ig, rep, s)
                 newFilename = filetxt + "-" + str(i) + ".txt"
                 with open(folderName + newFilename, 'w+', encoding='utf-8') as newfile:
-                    newfile.write(sNew)
+                    newfile.write(s)
             os.remove(folderName + filename)
         continue
     else:

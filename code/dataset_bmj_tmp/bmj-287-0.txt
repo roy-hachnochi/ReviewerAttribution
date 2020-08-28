@@ -1,0 +1,74 @@
+Firstly, to be clear, I have no overt conflicts of interest in reviewing this paper, I am not
+personally familiar with any of the authors, nor institutions. I do not work in the UK, and the
+NHS system is unfamiliar to me. However, I do appreciate the clever acronym.
+Summary: This is a balanced cluster randomized implementation study to evaluate the
+impact of a package of practice-level enhancements as it relates to HCV screening in
+algorithmically identified patients at high-risk for HCV. It also includes a cost-effectiveness
+assessment.
+#1 Title: I ask that it might be changed to specify that it includes the robust
+cost-effectiveness assessment. (CHEERS checklist item #1)
+Abstract: Overall excellent summary of what might be split into two separate papers. The
+results section could be condensed.
+#2 Could eliminate several sentences p3 44-45, 52-55 (no longer relevant economic
+analysis.)
+
+#3 p3 lines 44-45: I recommend specifying that the positive screening yield was not
+significant (CI overlapping 1).
+Introduction: Overall good. The last paragraph adequately highlights the need to get highly
+generalizable information on the utility of broad screening efforts in general practice.
+Specific comments:
+#4 p5 lines 21-22 - the reference cited (10 - also from HepCATT) says only 28/2% of +HCV
+results were referred from primary care, not "over 30%." and rough calculations of overall
+tests done show a 26.5% testing proportion from GPs (468,481/1,766,515).
+Methods: I appreciate the smart cluster randomization strategy.
+#5 Because of the goal of generalizability, I'd like to know about the practices that didn't
+sign on to the study. Here I assume there are publically available NHS data on the practices
+that could be compared to those participating, forgive me if this is inaccurate.
+#6 As this is a screening intervention, I would like to know how much the "Audit+" software
+integrates into the electronic medical records used at these sites. Does it require extra steps,
+or pops up in the midst of the patient visit? Some of the logistical steps and nuances of the
+environment are quite nice to know, the previously published research protocol doesn't
+specify context either.
+#7 Please comment on if the screening of the patient lists resulted in changes in the
+statistical plan (were the removed patients still in the denominator of high risk patients who
+should be screened)? Because of the cost of doing this step, it would be appreciated to
+assessing its impact in a separate analysis, though perhaps this is too much to ask for this
+already extensive assessment. (see p11 lines 15-24)
+p8 34-35 - thank you for noting the sourcing of the cost estimates
+Results
+#8 p9 line 28 - should be "Table S8a" not "Table S8"
+#9 p10 line 13 - did table S7 become S14? I see no S7, but S14 looks to be the right table.
+#10 p10 line 34 - I assume PCT is a typo for PCR, otherwise should identify what this
+acronym means.
+#11 p10 line 55 - ok, maybe my own OCD, but does their need to be a supplementary table
+S8 and S8a and S8b when they aren't subsets of each other?
+#12 p11 lines 15-24 - this references an activity not specified in the methods section
+(though detailed in the previously published protocol), I recommend mentioning this at least
+briefly in the methods section.
+#13 p11 lines 53 - the claim of reduced utility for those who continue to inject drugs is
+focused on case finding and direct costs. The indirect cost and benefit to the community of
+decreased transmissibility (thus fewer new community infections) is worth considering. I
+reviewed the references (12 and 43) and was unable to identify the 16% utility decrease.
+The initial paper (43) evaluating this assumed that the knowledge of the diagnosis decreased
+QoL instead of the inverse correlation, thus the utility of a proactive approach to screening
+such as in here, could increase the QALYs gained per positive test.
+Discussion
+#14 p13 line 54-56 Several other screening studies have challenged the previous data and
+continued assumption that about 75% of folks with +ab have +rna. The other point worth
+mentioning in the investigation of the unexpected 40% +RNA rate is that the algorithm
+highlighted folks with *prior tests* (I suspect many may have been negative previously),
+prior positive tests may have already been referred and thus not retested perhaps. The
+population of interest here is also those folks who are connected with primary care, which
+may be a lower risk population than the population in general.
+
+Examples: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5527269/
+https://www.ncbi.nlm.nih.gov/pubmed/26033458
+#15 p14 lines 52-57 - I would recommend avoiding the speculative claim about age based
+screening.
+#16 p15 line 12 - contingency management for whom? The providers to order the tests or
+the patients to accept the test?
+Overall - An impressively and robust assessment of the implementation of screening. This is
+something that should be commended in an era when many changes and impositions to
+primary care are unquestioned. I certainly recommend publication with revisions, I defer to
+the editors as to the benefit of addressing points #5-#7 as they may require more than
+minor revisions.

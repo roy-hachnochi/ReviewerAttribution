@@ -1,0 +1,39 @@
+General comments:
+The authors report a retrospective cohort study on the association between perioperative transfusion of
+packed red blood cells (pRBC) and stroke or myocardial infarction (MI). Using data from a voluntary
+healthcare benchmarking database capturing approximately 20% of U.S. hospitalizations, the authors
+used time-stamped lab/procedure claims and ICD-9-CM diagnosis codes to ascertain pRBC transfusion
+and the outcomes of interest. They found a substantial association between pRBC transfusion and the
+risk of stroke and MI. This is a very well-written manuscript detailing a thoughtful analysis on an
+important clinical topic. Below are a few specific comments that may help to improve this paper.
+Specific comments:
+1. Page 7, line 9 states that a subgroup analysis was performed limited to patients who did not receive
+transfusion on postoperative days 1-7, but on page Page 5, line 15 it states that all patients undergoing
+transfusion on postoperative days 2-7 were excluded. Could the authors please clarify this? Do they
+simply mean that the primary analysis excluded those transfused from day 2-7, and the subgroup
+analysis additionally excluded those transfused on postoperative day 1? Also, what about patients with
+transfusion beyond postoperative day 7? I realize this would be rare, but it would be helpful to clarify.
+2. The statistical approach is nicely done and very clearly explained. I just have a few questions:
+a. Why not model the number of pRBCs as a continuous variable? In our paper (reference 2 in your
+paper), besides the primary finding of increased stroke/MI risk with hemorrhage requiring >4 units of
+pRBCs, in a seondary analysis we found a nicely linear relationship between the overall number of pRBCs
+transfused and the risk of stroke/MI.
+b. Why meqrlogit instead of xtmelogit?
+3. Page 10, line 49: Just to be completely correct, would add something like “Although not perfectly
+population-representative, these findings …”
+4. The inclusion of VT/VF in the composite outcome distracts from the overall message of the paper. At
+the very least, there should be an explanation of the rationale for including it, and it should be more
+consistently referred to (e.g., the the Results of the Abstract refer only to stroke/MI, as does Table 4). I
+would favor removing VT/VF altogether, or including it as a secondary outcome.
+5. I agree with the authors that a substantial portion of the association between transfusion and
+stroke/MI is likely to be causal. But it should be acknowledged that it is not possible to completely tease
+apart the deleterious effect of transfusion from the deleterious effect of bleeding. Even a single-unit
+transfusion may reflect surgical oozing that may activate innate hemostatic mechanisms. The data cited
+on transfusion after PCI is compelling, but it is not in a directly comparable population since one would
+expect generally more blood loss with surgery than with PCI. I think it would make the paper stronger to
+mention this in the limitations section.
+6. Conclusion: I think it is fine to call for more randomized trials, but given existing randomized trial
+results (refs 18 and 19), I think a somewhat stronger claim for transfusion-sparing strategies can be
+made. Something to the effect of, “Our findings of rare but serious adverse outcomes, combined with
+several randomized trials showing the safety of transfusion-sparing approaches in critical care and
+postoperative medicine, argue for …”

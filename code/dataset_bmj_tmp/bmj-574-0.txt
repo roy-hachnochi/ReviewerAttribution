@@ -1,0 +1,23 @@
+The authors have done a good job revising the document. I only have a few additional (minor) comments to make:
+
+I could not find the estimate for tau in the NMA in the paper or the supplement. Please give the estimate for
+heterogeneity in NMA along with its 95% CrI on the main paper, and commend on this value.
+Regarding inconsistency: authors say in the main text that no inconsistency was found, but do not refer to the actual
+results presented in the Supplement. I suggest adding a line in the main text, referring to tables 12 A-C for the actual
+results, so as to help the reader.
+Page 18: The authors give the DIC for the random effects model. DIC is a model selection criterion, i.e. it is used to
+compare models. Mentioning the value of DIC for a single model is meaningless, if it is not compared to something else.
+I suggest either mentioning the DIC for fixed effects, or deleting it.
+The total residual deviance should in general approximate the number of unconstrained points (as the authors mention),
+but there are no rules on what “approximate” exactly means. So I would suggest to rephrase slightly the wording,
+instead of writing “Model fit was appropriate with total residual deviance approximating the number of unconstrained
+data points” the authors could write something less strong, e.g. that “The total residual deviance was found to be
+[…],implying a good model fit”
+In the online supplement, statistical analyses, it writes: “For the prior distribution of between-trial standard deviation,
+we used a uniform distribution with a mean of 0 and large variance (5)”. This doesn’t make sense for many reasons (a
+uniform distribution is usually described by the lower and upper limits, not the mean and variance. The standard
+deviation is a positive number, the distribution the authors describe also gets negative values). The authors probably
+mean “a uniform distribution U(0,5)” , which means a uniform distribution from 0 to 5, not one with mean 0 and
+variance 5
+You use the abbreviation mITT without first defining it. Please define the term in page 10 (where you say about modified
+ITT analysis).

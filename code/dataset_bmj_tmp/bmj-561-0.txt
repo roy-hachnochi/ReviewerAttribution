@@ -1,0 +1,17 @@
+This is a very good revision and I am happy with their response to my statistical comments.
+They do adjust for baseline and have, most importantly, re-worded they interpretation of the
+results.
+Two minor issues remain:
+- It is not clear to me why the quartile baseline value of the FAO score, rather than the
+continuous baseline FAO score itself. I doubt this makes much difference, but it seems suboptimal. Perhaps the authors can simpy confirm in the paper that, in their continuous outcome
+analyses using SAS PROC MIXED, that the use of a continuous baseline score did not change
+findings?
+- Also, the authors say in the methods that: “This approach which used all available
+assessments including baseline as outcomes …” – I don’t think baseline was an outcome, but an
+adjustment factor (covariate), as later you say: “Predictors in the model included baseline FAOS
+quartile as a factor …”. You can’t have the baseline as both an outcome and an adjustment
+factor.
+- in the discussion the authors say that confounding is unlikely to be a problem and 'Baseline
+group comparisons essentially demonstrated equivalence on such factors' - yet Table 1 shows
+there is slight imbalance, with a higher grade 2 injury % in the physio group. I think the
+authors should be clearer about this and tone down their writing here.

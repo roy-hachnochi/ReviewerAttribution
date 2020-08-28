@@ -1,0 +1,61 @@
+The authors have addressed many of my points, but there remain some matters of concern.
+1. Table 1 summarises the cities in the analysis, giving mean daily PM10 and mortality. An important
+but unaddressed question is to what extent the mean PM10 scores in the different cities explain
+variation in mean mortality. I recognise that this is different from the main focus of the paper, the
+association between short-term changes in PM10 and mortality, but it is nevertheless fundamental to
+the research question - are mortality and PM10 linked?
+The mean daily deaths by city in Table 1 are unhelpful as they reflect population size more than
+anything else. I would like to see a plot of age-sex-standardised mortality vs mean PM10 by city, i.e.
+making use of the information in Table SM2.
+2. The fixed effects model (1) is described in great detail, whereas the random effects model (foot of
+page 9) is poorly described. Does it contain just the PM10 term in equation (1) omitting the other
+terms, or are the other terms included but applied to all cities? This needs to be made clear. Also it's
+not clear whether the fixed or random effects coefficients are being used in later analyses.
+3. There is no need to apply a chi-square test to Figure 2, as the I2 value summarises heterogeneity.
+Also using p = 0 or p = 0.000 is wrong, it should be p < 0.001 - this applies throughout.
+4. The discussion of the different lags in Figures 2 and SM1 to SM6 does not state whether using lagged
+PM10 in addition to concurrent PM10 added significantly. I'm not convinced that Figures SM1 to SM7
+add usefully to the paper, as they are hard to compare with each other. A table summarising the results
+for each lag or combination of lags should be provided.
+5. Figures 3 and 4 rank the cities in the same order, but differently from Figure 2. Better to use the
+Figure 2 order for Figures 3 and 4 as well. The I2 value for Figure 3 is virtually the same as for Figure 2
+(59%), whereas that for Figure 4 is appreciably smaller (38%). This is worth commenting on, as it
+shows that the cities are more homogeneous for non-CRD than for CRD mortality.
+6. Putting the various summary regression coefficients on pages 7-9 into a table rather than the text
+would make them easier to see and compare. The comparisons for sex and age group give the separate
+coefficients with CIs, but for comparison purposes the difference (i.e. the interaction with PM10) and its
+CI should be provided - to say that the separate CIs overlap is not sufficient. Also, to say that the PM10
+effect was (just) significant for those over 60 and not for those under 60 does not make the age groups
+significantly different - again the interaction term should be fitted with its CI. (The authors' response
+letter says that this age interaction is significant at p < 0.1, i.e. not significant).
+7. Using subgroups by sex and age group strikes me as both inefficient and potentially biased. If say the
+sexes are analysed separately then all the coefficients in equation (1) will differ by sex, and those that
+are correlated with PM10 (say weather conditions) will impact on the PM10 coefficient. Far better to
+include the sex and age terms in equation (1), which will also allow their interaction to be tested. This
+relates to point 2 above.
+8. The paper still focuses unnecessarily on statistical significance. On page 9 lines 48-50 the phrase "...
+and statistically significant at the 5-percent level" is both redundant and wrong - it is considerably more
+significant than that.
+9. The Notes with Figures SM9 and SM10 refer to "total mortality for cardiorespiratory and noncardiorespiratory deaths separately" which look incorrect.
+10. The comments above also apply to the city analyses for mean PM10, North vs South, GDP and %
+construction workers. The results need to be to presented as coefficients with confidence intervals, and
+when comparing groups (e.g. Figure SM 12) the interactions with CI should also be given. Several of the
+figures demonstrate the existence of one or more high outliers, which will bias the regression
+coefficient. Urumqi in Figure 1 is also a notable Western outlier that needs to be acknowledged.
+11. To say that air pollution effects were smaller in more polluted cities (Figure SM11) is not correct the p value of 0.07 is not significant. It should be made clear here that the "air pollution effect" is the
+city PM10 regression coefficient. Again I don't know if this is the fixed or random city effect.
+12. Table 3 needs some attention. The Constant terms are of no interest and should be omitted. Why
+are there only 18 cities for model 2 but 38 for all the others? Confidence intervals should be given for
+
+each coefficient, not p values. The numbers should be given to 2 or 3 significant digits, not 3 decimal
+places. The North vs South analysis should be given as the main effect (say North) and the difference
+between North and South. Is there any reason why sex and age are not included in the table?
+Presenting the results of six distinct models is excessive - better to focus on model (6) including mean
+PM10, North, South vs North, GDP, % construction, and perhaps sex and age group as well.
+13. The Discussion repeats several erroneous statements from the Results. There is not a significant
+age effect (at least it has not been shown), there is no sex effect (it is not significant), the air pollution
+effects were not smaller in more polluted cities (p = 0.07), also they were not more homogenous in
+northern cities than in southern cities (again the interaction is not shown to be significant), and the
+association with GDP was far from significant. There are also statements about significance at the 5%
+level that should be omitted. The only convincing association in Table 3 is that for the percentage of
+construction workers.

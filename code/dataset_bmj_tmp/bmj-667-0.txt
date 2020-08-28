@@ -1,0 +1,54 @@
+I have looked at this from a statistical perspective and have some comments.
+1) I understand the reasons why the authors do not perform meta-analysis, due to the heterogeneity in
+time-points, analysis results presented, inappropriate tests in primary studies, etc. However, though this
+overall decision is perhaps commendable at first glance (and is probably correct!), it is rather ‘broad brush’
+as perhaps there were subgroups of studies that were combinable (e.g. outcome measured at same timepoint, analysis methods appropriate and well reported)? Further, even when time-points differ, hazard
+ratios are combinable as we typically assumed HRs are constant over time.
+
+2) Thus, far more details are needed in regard how data extraction was performed regarding the effects of
+interest. For example, when hazard ratios are of interest but poorly reported, there is a multitude of
+methods to indirectly obtain them from other information (Even simply an exact p-value and the numbers
+of patients/events in each group) see ref [1]. Therefore, I would like reassurance that the authors have
+done their utmost to get the right data, before we can be sure that a lack of meta-analysis is entirely
+sensible.
+3) A related point is that the effect of interest is not clearly defined in the text. Are we looking at
+continuous outcomes, or binary outcomes? Are we looking at mean change, ORs, HRs, or …? Even though
+results are not being combined, we need clarity in the text as to the measures of effect being reported and
+extracted. I suggest a section, near the start of the results, that explains what exactly was extractable (in
+terms of effect estimates) for each outcomes, the scale(s) of this effect, and the why meta-analysis was
+not done.
+4) I imagine that the authors are ultimately right to not pool, but as mentioned above we need greater
+justification. But the issues of heterogeneity are very common in meta-analyses of lab based research, for
+example see all the quotes about the difficulties of doing meta-analysis in the ref [2] paper, so I
+sympathise and we need to address the issue of heterogeneity in these types of studies, and make sure
+research studies are combinable in the future. Prospectively planned IPD meta-analyses would really help
+us in this regard [2][3-5]
+5) Table 2 – why just report the statistically significant findings? I suggest the authors may simply be
+promoting selective reporting or chance findings by doing this, and are not being comprehensive in the
+review summary. At least, can the full results for each study be given in a supplementary material? This
+relates to the point 6 below, where I ask for all the results in the plots to be quantitatively summarised,
+where possible, in terms the estimate and CI of the ratio being presented.
+6) The authors present the results on a graph (Fig 2 and 3) by first creating a ratio of the response in the
+vaccine group compared to the non-vaccine group. These are not combinable, as they highlight in the
+methods, but allow us to get a feel for the direction of results. I think we need the authors to give far more
+details next to the results of each study in each plot, or in a separate companion table. In particular, what
+is the ratio of (means, odds, medians, etc) and what is the CI for the ratio (if derivable) for each bubble?
+Otherwise the reader may try to pool without due thought. In particular, uncertainty of the evidence is
+being completed ignored, in terms of the CI around each point. So these figures need to come with a clear
+warning that they are just for illustrative purposes, and the limitations of them must be emphasised!
+7) Figs 2 and 3 also need to be improved in terms of the size of the bubbles. Some bubbles are so big that
+they encompass other bubbles on lines above them. E.g. Page 19, Plot A, the bubbles on rows 2 to 4 are
+encompassed by one huge bubble, which makes it hard to follow. But I appreciate the authors are
+struggling to present the messy data.
+I hope my comments help improve the article going forward.
+[1] Parmar MK, Torri V, Stewart L. Extracting summary statistics to perform meta-analyses of the
+published literature for survival endpoints. Stat Med. 1998;17:2815-34.
+[2] Riley RD, Hayden JA, Steyerberg EW, Moons KG, Abrams K, Kyzas PA, et al. Prognosis Research
+Strategy (PROGRESS) 2: prognostic factor research. PLoS Med. 2013;10:e1001380.
+[3] Riley RD, Lambert PC, Abo-Zaid G. Meta-analysis of individual participant data: rationale, conduct, and
+reporting. BMJ. 2010;340:c221.
+[4] Altman DG, Riley RD. An evidence-based approach to prognostic markers. Nature Clinical Practice
+Oncology. 2005;2:466-72.
+[5] Riley RD, Abrams KR, Sutton AJ, Lambert PC, Jones DR, Heney D, et al. Reporting of prognostic
+markers: current problems and development of guidelines for evidence-based practice in the future. Br J
+Cancer. 2003;88:1191-8.

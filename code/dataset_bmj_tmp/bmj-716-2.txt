@@ -1,0 +1,60 @@
+This is an interesting paper which has good potential as a BMJ Christmas paper. Like a number of papers it looks at mortality
+rates but it does it properly (unlike some I have reviewed for the Christmas issue) by looking at cohorts of members entering
+the two houses, and for those who have died, the date of death, in relation to standard life tables. Data are properly censored
+(as for instance when those in the Lower House move to the Upper House). Overall it was a stimulating and interesting read,
+and I would have thought would interest many BMJ readers.
+The major findings are: a) that MPs and Lords have longer life expectancy than do the general population, b) that that better
+longevity has been increasing, and c) that differences between Labour and Conservative are present but are explained by
+educational differences. All of that is of general interest I would have thought.
+There are specific issues which do however need resolving and clarifying:
+1. Figure 1 is very interesting. Is there a trend test, and are the slopes the same in the Lords and MPs?
+2. A very interesting part of the analysis is the effect of education level, and in some ways it is the meat of the paper. However
+I was worried about the quality of the data, in particular after looking at Appendix table 4. ‘Graduate’ is missing in only about
+4% of cases, but ‘Oxbridge’ is missing in about 40%. It seems surprising that university is not known – few people don’t put it
+in their Who’s Who entry, and most MPs and Lords are in Who’s Who. What happened here? Ditto for school.
+3. If there are really such large amounts of missing data on education, how was it handled in the models? Was some form of
+multiple imputation used, or what? In Figure 2 where, for instance 18% of Labour MPs went to Oxbridge, that is confusing as
+while 47% didn’t go to Oxbridge, a further 47% are Missing. Since the missing proportions differ between Labour and Tory, the
+bars cannot be compared in any meaningful way.
+4. There was something confusing about referring on p.4 to “using the same models” (i.e. SMRs) to study relative mortality. If
+one looks at table 4, which refers to relative mortality, then it is clear that the oldest members and the ones in the earliest
+years have the highest SMRs. What does this mean? That members elected before the age of 30 are much likely to die young?
+(Or to die younger than the population of 30 years olds at the time they entered a House?). Somewhere this doesn’t seem
+right. I have probably misunderstood, but it would help if it were clarified.
+5. p.8. “Only in conservatives we observed evidence of an enhanced rate of mortality improvement relative to the large
+improvements already seen in the general population”. Not sure about this. Firstly, where is this tested (i.e. an interaction
+between linear year and party)? And secondly, how does it relate to the conclusions about education, where it is said that
+Tory/Labour differences disappear when education is taken into account? Are there shifts in educational level between Tory and
+Labour (and I can imagine that the Labour entrants of 1945 were far less likely to have degrees than those post-2010). Are
+these various statements compatible?
+6. Although fairly experienced in statistics, I am not experienced at these quite specialist SMR calculations and would
+recommend that they are also looked at by an expert.
+Minor issues
+1. The calculation of SMRs seems appropriate. In the tables, though, I wondered whether there shouldn’t also be ‘expected
+deaths’, to be compared with actual deaths.
+2. p.3 and elsewhere. Lords are not elected. “Appointed” is the probably the correct term for the non-hereditary peers. Should
+hereditary be distinguished from non-hereditary, and Lords Spiritual and Lords Temporal? Some comment needed. I presume
+some hereditary peers could have entered the Lords in their first year of life, in principle (death of Lordly father soon after birth
+of child).
+3. p.3 (and ? elsewhere). Data (as a word) is plural -- ‘were’ and not ‘was’.
+4. I liked the use of ‘strs’ in Stata, but a reference and a line or two of explanation might be helpful (and when a reviewer has
+to look at Google then probably the authors have not been quite explicit enough).
+5. “Measures of success”. Knighthoods cannot be counted as a measure of success in any simple way since Labour MPs rarely
+accept them on principle (although they do go into the Lords). The Labour MPs are therefore ‘structural zeros’ here, and need
+
+handling differently.
+6. p.9: “political leaders”. “Politicians” would be better – some of these individuals fortunately had little influence in the way of
+leadership…
+7. Graduate/postgraduate. Since one can’t be a post grad without being a graduate and graduates and postgraduates are not
+distinguished (which is a shame) surely “graduate” is all that is needed?
+8. “public secondary school”. Some description of the vagaries of “public school” in UK education might be useful for non-UK
+readers – “private sector (‘public school’)” is the sort of phraseology that helps.
+9. There seems to be no sex difference (and it should be sex and not gender, using standard medical and scientific use, unless
+there is some more information than I had realised on the gender roles and gender identities of members of the two Houses).
+But why aren’t the women living longer? Has that already been taken into account by using SMR? If so, a) it should be said,
+and b) it should be clarified what the meaning is in table 4 and elsewhere. I guess it means that women members did not live
+any more or less than female members of the population than did male members than the male population. Plenty of scope for
+confusion here.
+10. I did wonder whether years in government/opposition was related to outcome? Did a Labour MP newly elected in 1979
+have a different outcome from a Labour MP elected in 1997 or 1945? And indeed, how did years in Parliament affect things
+(clearly not relevant to Lords, who stay until they die). Shouldn’t be too hard to calculate.

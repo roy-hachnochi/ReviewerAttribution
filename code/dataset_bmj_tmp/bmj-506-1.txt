@@ -1,0 +1,81 @@
+The authors have performed a SEER-Medicare analysis comparing SABR with VATS-SLR for patients with lung cancer. Although
+they should be commended on trying to focus the analysis on minimally-invasive surgery, the analysis has several deep flaws
+that mar interpretation. The authors need to carefully evaluate their inclusion criteria, since a trivial number of patients with T2
+disease (and apparently no one with a tumor above 2 cm, which doesn’t make sense) were included in the SABR population.
+MAJOR COMMENTS:
+A critical problem in these types of studies is the method of staging. SEER will provide the surgical T and N stage if there is
+one, and the clinical T and N stage if there isn’t. Thus this analysis is comparing cT1-2 cN0 (SABR) with pT1-2 *pN0* (SLR),
+
+which profoundly biases the results against SABR. The authors must try to adjust for this. They can adjust for PET-CT at
+diagnosis between the arms. They should adjust for mediastinal staging between the arms (or at a minimum, report this
+number). There’s just no way around it… the differences in the staging variables makes these modality comparisons extremely
+challenging.
+Secondly, the authors are hinging the uniqueness of the analysis on their focus on minimally invasive surgery. Yet their data
+say the exact opposite thing. If you look at the hazard ratios of the PS-matched SABR vs surgery comparisons, there’s actually
+a greater overall mortality benefit with all SLR (HR 1.96) than with minimally invasive surgery (HR 1.85), and profoundly more
+cancer mortality with SABR in the all SLR comparison (SLR 4.25) than the thoracoscopic cohort (HR 1.77). These numbers
+actually suggest that open surgery is a better oncologic procedure AND safer… so I’m not sure why they focused on the
+minimally invasive cohort. If anything, these results suggest that the utility of minimally invasive surgery needs to be more
+carefully examined before considering it the standard-of-care. Bottom-line: for this analysis to focus on VATS and claim
+repeatedly that it’s better than open surgery and thus should be the comparator to SABR, the data should confirm this, and it
+doesn’t…
+SPECIFIC COMMENTS:
+Introduction
+1. "Radiotherapy has generally been considered a palliative alternative." This is a provocative and biased statement and not
+held by many people in the radiation oncology community. At a minimum, it should be referenced and probably not included.
+2. "SABR has emerged as a technology..." Sufficient data have emerged that it not just provides acceptable local control, but
+overall survival.
+3. Paragraph 2. Paragraph is a handful of non sequiturs. While minimally invasive surgery may limit some morbidity (mortality
+certainly not established), that is unrelated to the failed RCTs.
+Methods
+1. What stage of lung cancer was included? Absolutely critical information not included.
+2. Follow-up data for all patients or just surviving patients?
+3. It’s questionable whether recurrences can be properly coded here. This population is very frail and so chemotherapy may
+not be applied, especially in a local recurrence. This endpoint is exploratory, at best, and should be described as such.
+4. Especially given the established imbalances in comorbidities, the authors should use the modified Klabunde comorbidity
+index, using data from 1 year prior to diagnosis (thus limiting patients to age 66 or older). The authors may have been trying
+to increase their numbers by not excluding the 65 year-olds, but the analysis requires this covariate to have face validity. Not
+adjusting for this variable (in addition to or in place of the Elixhauser calculated comorbidities) is a significant omission (and
+fixable).
+5. Propensity score analyses are optimally used when there are few outcome events relative to the number of predictors. That
+is not the case here, so I think that it adds relatively little to the analysis. It’s certainly fine to include the propensity matching
+in the paper as a secondary analysis, but primary MVA using all the data will be more robust.
+6. How were the multivariable regressions performed? Was a selection algorithm used? Were the regressions for the whole
+cohort and PS-matched cohorts the same (they shouldn’t be…)?
+Results
+1. Evaluating the patient composition in Table 1 suggests some significant problems in the dataset. Why are only 15 (6.6%)
+patients presenting with T2 disease? Secondly, why does the size top out at 20 mm? This distribution is not consistent with
+other papers looking at SABR. For example, Shirvani et al (JAMA Surgery 2014) had 20% of patients T2, and 60% of patients
+with T sizes above 2 cm. *Something must be wrong with the identification of patients for SABR.*
+2. It is difficult to imagine that only 30 Medicare patients received SABR in 2007-2008. The authors must check their
+programming. In the Shirvani paper, 156 patients were treated with SABR over that time. This discrepancy must be resolved.
+A few patient difference here or there isn’t a huge deal… a 5-fold difference must be carefully evaluated. Similarly, in the
+Shirvani paper, 168 patients were treated with SABR in 2009 alone… here it’s only 111 for 2009 and 2010…
+3. Appendix Table 1 needs to be fleshed out further and report the specific, absolute differences between the matched cohorts.
+These are large standardized differences with relatively small improvements with propensity matching. The composition of the
+two cohorts needs to be made explicit.
+4. The p value for CSP is > 0.05, and this was stated to be statistically significant. That interpretation needs to be changed.
+5. It is interesting that the Cox regression showed CSP to be improved with surgery in the PS-matched cohorts, after the
+univariable comparison (on matched cohorts) was not significant. What other covariates were in this regression? Was it just
+the hospital level clustering? The PS-matched cohorts already account for the imbalances in the population… were baseline
+covariates double-counted in this regression?
+6. Table 2 should include the HR’s for all covariates included in the regression.
+7. The follow-up imaging analysis seems out of place for the analysis. I’m not sure what it adds to the manuscript. It is much
+more important to adjust for patients receiving pre-treatment PET-CT, to try to equalize the quality of the pre-treatment
+staging.
+8. With a median FU of under 3 years, the survival curves should end at 3 years. I find it very surprising that there was not 1
+SABR patient with an event after 3 years… the authors should check their programming.
+9. What is the 30-90 day mortality after surgery? Any difference between type of surgery?
+Discussion
+1. The authors claim that the cancer specific survival “appears modest but substantial.” Well, it was less than 4% and the p
+value was 0.06. This is relatively trivial given the profound biases favoring the surgical cohort (in particular, using the surgical
+stage rather than clinical stage for SABR).
+2. Implications of findings section is a bit grandiose given the limitations of the analysis: “Our analysis helps form the basis…
+other trials assessing the added benefit of novel immunomodulatory agents…” The authors should tone it down. This is a
+hypothesis-generating study, and it needs to be framed as such. Why are these outcomes different from the other papers? If
+the only difference is the minimally-invasive nature of the surgeries, then it would have been useful to show some type of
+difference between the surgical modalities in this paper.
+3. Limitations section… you are comparing surgical stage (SLR patients) with clinical stage (SABR)… this is a huge difference
+
+between the arms. The authors were not clear in the Methods on the stage selection process, but presumably it was stage I.
+This is an apples to oranges comparison with respect to stage, and the authors must mention this.

@@ -1,0 +1,588 @@
+Peer review is the most important instrument for assessing scientific research. However, the instrument is not without drawbacks. As the most important weaknesses, a missing reliability, fairness and predictive validity have been seen 1 . The study of Walker, Barros, Conejo, Neumann and Telefont (2015) deals with the fairness of the peer review process: They investigated social biases in the processes of Frontiers - an open access publishing house with a novel interactive peer review process, and two peer review processes from Spanish and international computer science conferences. The study is very interesting. I recommend that the authors revise the manuscript according to the following points: On page 5, Walker, et al . describe the process of normalizing authors and reviewers names. Here, Walker, et al. should ensure that the names are completely cleaned: the same author and the same institutional unit should receive the same name. A general problem of this kind of data from peer review processes is that they are not cleaned and contain several name variants. Walker, et al. present their results with the reporting of statistical significance information. I recommend that not only the statistical, but also the practical significance of the results (effect sizes) should be reported. 2 , 3 , 4 In the Discussion section the following major limitation of the study should be mentioned: The quality of the papers was not controlled. For example, Bornmann and Daniel (2009) 5 and Bornmann and Daniel (2010) 6 investigated the peer review processes of the Angewandte Chemie International Edition and Atmospheric Chemistry and Physics . They considered citations for the single papers as a proxy for quality. Although citations measure only one part of quality (namely impact), it is more favorable to consider them than doing not. When examining the association of bias variables and peer review outcomes without controlling quality it is impossible to establish unambiguously whether a particular group of papers receives more favorable recommendations or decisions due to these variables, or if the more favorable recommendations and decisions are simply a consequence of the papers scientific quality. References 1. Bornmann L: Scientific peer review. Annual Review of Information Science and Technology . 2011; 45 (1): 197-245 Publisher Full Text 2. Cohen J: Statistical power analysis for the behavioral sciences (2nd Ed).1988; Lawrence Erlbaum Associates Hillsdale, NJ, USA . Reference Source 3. Williams R: Using the margins command to estimate and interpret adjusted predictions and marginal effects. The Stata Journal . 2012; 12 (2): 308-311 Reference Source 4. Williams R, Bornmann L: The substantive and practical significance of citation impact differences between institutions: guidelines for the analysis of percentiles using effect sizes and confidence intervals. In Y. Ding, R. Rousseau & D. Wolfram (eds.), Measuring scholarly impact: methods and practice . 2014; Springer, Heidelberg, Germany : 258-281 Reference Source 5. Bornmann L, Daniel H-D: Reviewer and editor biases in journal peer review: an investigation of manuscript refereeing at Angewandte Chemie International Edition. Research Evaluation . 2009; 18 (4): 262-272 Publisher Full Text 6. Bornmann L, Daniel H: Do Author-Suggested Reviewers Rate Submissions More Favorably than Editor-Suggested Reviewers? A Study on Atmospheric Chemistry and Physics. Plos One . 2010; 5 (10). PubMed Abstract | Free Full Text | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Bornmann L. Reviewer Report For: Personal attributes of authors and reviewers, social bias and the outcomes of peer review: a case study [version 2; peer review: 2 approved] . F1000Research 2015, 4 :21 ( https://doi.org/10.5256/f1000research.6434.r7425 ) The direct URL for this report is: https://f1000research.com/articles/4-21/v1#referee-response-7425 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 12 Feb 2015 Richard Walker , Frontiers, EPFL Innovation Park, Lausanne, Switzerland 12 Feb 2015 Author Response I think these comments are very relevant and we will take them into account in the next version of our paper. As concerns the specific points you raise: In our study, ... Continue reading I think these comments are very relevant and we will take them into account in the next version of our paper. As concerns the specific points you raise: In our study, authors' and reviewers' names are relevant for gender assignment. Institution names are critical for assignment of language, region, and institutional prestige to author and reviewer institutions. Informal checks on our cleaning process suggest that it does not introduce substantial errors into our analysis. In the next version of our paper we will introduce more formal checks. We agree with the reviewer on this point. The next version of our paper will include estimates of the practical significance of our results. We completely agree with the reviewer that some differences in scores may be due to differences in scientific quality and tried to make this point in our text. In the next version, we will attempt to clarify this issue. I think these comments are very relevant and we will take them into account in the next version of our paper. As concerns the specific points you raise: In our study, authors' and reviewers' names are relevant for gender assignment. Institution names are critical for assignment of language, region, and institutional prestige to author and reviewer institutions. Informal checks on our cleaning process suggest that it does not introduce substantial errors into our analysis. In the next version of our paper we will introduce more formal checks. We agree with the reviewer on this point. The next version of our paper will include estimates of the practical significance of our results. We completely agree with the reviewer that some differences in scores may be due to differences in scientific quality and tried to make this point in our text. In the next version, we will attempt to clarify this issue. Competing Interests: No competing interests were disclosed. Close Report a concern Author Response 10 Jun 2015 Richard Walker , Frontiers, EPFL Innovation Park, Lausanne, Switzerland 10 Jun 2015 Author Response Thank you for your comments, which we found extremely useful and constructive. Particularly useful was your suggestion that we should include effect sizes in our analysis. This suggestion has been ... Continue reading Thank you for your comments, which we found extremely useful and constructive. Particularly useful was your suggestion that we should include effect sizes in our analysis. This suggestion has been implemented in this revised version of our paper. We would also like to thank you for your suggestions regarding quality control, complementing similar suggestions from Jigisha Patel. Thanks to these suggestions, we found a number of problems with the data, which had previously passed unnoticed. All these changes have been incorporated in the new version of the paper which we have just submitted. On page 5, Walker, et al. describe the process of normalizing authors’ and reviewers’ names. Here, Walker, et al. should ensure that the names are completely cleaned: the same author and the same institutional unit should receive the same name. A general problem of this kind of data from peer review processes is that they are not cleaned and contain several name variants. Thank you this comment, which, together with comments in a similar vein from Jigisha Patel led us to conduct a thorough review of our data. The review found that errors in the normalization of author, reviewer and institution names and missing values led to down-stream errors in automated gender assignment and in the assignment of university rankings. In the case of the university rankings we were able to correct a number of errors. In the case of the gender assignment, this would have been too onerous to be possible. Instead, as suggested by Jigisha Patel, we used sampling to check the error rates in our data, which we report in our text, together with a discussion of their significance. Walker, et al. present their results with the reporting of statistical significance information. I recommend that not only the statistical, but also the practical significance of the results (effect sizes) should be reported. 2,3,4 Thank you for this suggestion, which we have implemented in the revised version of our manuscript. We began by calculating Cohen's d for all our data. In the results and the discussion sections, we analyse the practical significance of the effects observed both in terms of the number of reviews concerned (which was always small) and the effects on publication decisions. In the cases we study, this was not large. However, in more selective review systems it could be larger. In the Discussion section the following major limitation of the study should be mentioned: The quality of the papers was not controlled. For example, Bornmann and Daniel (2009) 5 and Bornmann and Daniel (2010) 6 investigated the peer review processes of the Angewandte Chemie – International Edition and Atmospheric Chemistry and Physics. They considered citations for the single papers as a proxy for quality. Although citations measure only one part of quality (namely impact), it is more favourable to consider them than doing not. When examining the association of bias variables and peer review outcomes without controlling quality it is impossible to establish unambiguously whether a particular group of papers receives more favourable recommendations or decisions due to these variables, or if the more favourable recommendations and decisions are simply a consequence of the papers’ scientific quality We now make explicit reference to this limitation in our text. We go on to explain that most of the papers in our datasets have very few citations. This means, that in our case, we are unable to use citations as a proxy for quality. Thank you for your comments, which we found extremely useful and constructive. Particularly useful was your suggestion that we should include effect sizes in our analysis. This suggestion has been implemented in this revised version of our paper. We would also like to thank you for your suggestions regarding quality control, complementing similar suggestions from Jigisha Patel. Thanks to these suggestions, we found a number of problems with the data, which had previously passed unnoticed. All these changes have been incorporated in the new version of the paper which we have just submitted. On page 5, Walker, et al. describe the process of normalizing authors’ and reviewers’ names. Here, Walker, et al. should ensure that the names are completely cleaned: the same author and the same institutional unit should receive the same name. A general problem of this kind of data from peer review processes is that they are not cleaned and contain several name variants. Thank you this comment, which, together with comments in a similar vein from Jigisha Patel led us to conduct a thorough review of our data. The review found that errors in the normalization of author, reviewer and institution names and missing values led to down-stream errors in automated gender assignment and in the assignment of university rankings. In the case of the university rankings we were able to correct a number of errors. In the case of the gender assignment, this would have been too onerous to be possible. Instead, as suggested by Jigisha Patel, we used sampling to check the error rates in our data, which we report in our text, together with a discussion of their significance. Walker, et al. present their results with the reporting of statistical significance information. I recommend that not only the statistical, but also the practical significance of the results (effect sizes) should be reported. 2,3,4 Thank you for this suggestion, which we have implemented in the revised version of our manuscript. We began by calculating Cohen's d for all our data. In the results and the discussion sections, we analyse the practical significance of the effects observed both in terms of the number of reviews concerned (which was always small) and the effects on publication decisions. In the cases we study, this was not large. However, in more selective review systems it could be larger. In the Discussion section the following major limitation of the study should be mentioned: The quality of the papers was not controlled. For example, Bornmann and Daniel (2009) 5 and Bornmann and Daniel (2010) 6 investigated the peer review processes of the Angewandte Chemie – International Edition and Atmospheric Chemistry and Physics. They considered citations for the single papers as a proxy for quality. Although citations measure only one part of quality (namely impact), it is more favourable to consider them than doing not. When examining the association of bias variables and peer review outcomes without controlling quality it is impossible to establish unambiguously whether a particular group of papers receives more favourable recommendations or decisions due to these variables, or if the more favourable recommendations and decisions are simply a consequence of the papers’ scientific quality We now make explicit reference to this limitation in our text. We go on to explain that most of the papers in our datasets have very few citations. This means, that in our case, we are unable to use citations as a proxy for quality. Competing Interests: No competing interests were disclosed. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 12 Feb 2015 Richard Walker , Frontiers, EPFL Innovation Park, Lausanne, Switzerland 12 Feb 2015 Author Response I think these comments are very relevant and we will take them into account in the next version of our paper. As concerns the specific points you raise: In our study, ... Continue reading I think these comments are very relevant and we will take them into account in the next version of our paper. As concerns the specific points you raise: In our study, authors' and reviewers' names are relevant for gender assignment. Institution names are critical for assignment of language, region, and institutional prestige to author and reviewer institutions. Informal checks on our cleaning process suggest that it does not introduce substantial errors into our analysis. In the next version of our paper we will introduce more formal checks. We agree with the reviewer on this point. The next version of our paper will include estimates of the practical significance of our results. We completely agree with the reviewer that some differences in scores may be due to differences in scientific quality and tried to make this point in our text. In the next version, we will attempt to clarify this issue. I think these comments are very relevant and we will take them into account in the next version of our paper. As concerns the specific points you raise: In our study, authors' and reviewers' names are relevant for gender assignment. Institution names are critical for assignment of language, region, and institutional prestige to author and reviewer institutions. Informal checks on our cleaning process suggest that it does not introduce substantial errors into our analysis. In the next version of our paper we will introduce more formal checks. We agree with the reviewer on this point. The next version of our paper will include estimates of the practical significance of our results. We completely agree with the reviewer that some differences in scores may be due to differences in scientific quality and tried to make this point in our text. In the next version, we will attempt to clarify this issue. Competing Interests: No competing interests were disclosed. Close Report a concern Author Response 10 Jun 2015 Richard Walker , Frontiers, EPFL Innovation Park, Lausanne, Switzerland 10 Jun 2015 Author Response Thank you for your comments, which we found extremely useful and constructive. Particularly useful was your suggestion that we should include effect sizes in our analysis. This suggestion has been ... Continue reading Thank you for your comments, which we found extremely useful and constructive. Particularly useful was your suggestion that we should include effect sizes in our analysis. This suggestion has been implemented in this revised version of our paper. We would also like to thank you for your suggestions regarding quality control, complementing similar suggestions from Jigisha Patel. Thanks to these suggestions, we found a number of problems with the data, which had previously passed unnoticed. All these changes have been incorporated in the new version of the paper which we have just submitted. On page 5, Walker, et al. describe the process of normalizing authors’ and reviewers’ names. Here, Walker, et al. should ensure that the names are completely cleaned: the same author and the same institutional unit should receive the same name. A general problem of this kind of data from peer review processes is that they are not cleaned and contain several name variants. Thank you this comment, which, together with comments in a similar vein from Jigisha Patel led us to conduct a thorough review of our data. The review found that errors in the normalization of author, reviewer and institution names and missing values led to down-stream errors in automated gender assignment and in the assignment of university rankings. In the case of the university rankings we were able to correct a number of errors. In the case of the gender assignment, this would have been too onerous to be possible. Instead, as suggested by Jigisha Patel, we used sampling to check the error rates in our data, which we report in our text, together with a discussion of their significance. Walker, et al. present their results with the reporting of statistical significance information. I recommend that not only the statistical, but also the practical significance of the results (effect sizes) should be reported. 2,3,4 Thank you for this suggestion, which we have implemented in the revised version of our manuscript. We began by calculating Cohen's d for all our data. In the results and the discussion sections, we analyse the practical significance of the effects observed both in terms of the number of reviews concerned (which was always small) and the effects on publication decisions. In the cases we study, this was not large. However, in more selective review systems it could be larger. In the Discussion section the following major limitation of the study should be mentioned: The quality of the papers was not controlled. For example, Bornmann and Daniel (2009) 5 and Bornmann and Daniel (2010) 6 investigated the peer review processes of the Angewandte Chemie – International Edition and Atmospheric Chemistry and Physics. They considered citations for the single papers as a proxy for quality. Although citations measure only one part of quality (namely impact), it is more favourable to consider them than doing not. When examining the association of bias variables and peer review outcomes without controlling quality it is impossible to establish unambiguously whether a particular group of papers receives more favourable recommendations or decisions due to these variables, or if the more favourable recommendations and decisions are simply a consequence of the papers’ scientific quality We now make explicit reference to this limitation in our text. We go on to explain that most of the papers in our datasets have very few citations. This means, that in our case, we are unable to use citations as a proxy for quality. Thank you for your comments, which we found extremely useful and constructive. Particularly useful was your suggestion that we should include effect sizes in our analysis. This suggestion has been implemented in this revised version of our paper. We would also like to thank you for your suggestions regarding quality control, complementing similar suggestions from Jigisha Patel. Thanks to these suggestions, we found a number of problems with the data, which had previously passed unnoticed. All these changes have been incorporated in the new version of the paper which we have just submitted. On page 5, Walker, et al. describe the process of normalizing authors’ and reviewers’ names. Here, Walker, et al. should ensure that the names are completely cleaned: the same author and the same institutional unit should receive the same name. A general problem of this kind of data from peer review processes is that they are not cleaned and contain several name variants. Thank you this comment, which, together with comments in a similar vein from Jigisha Patel led us to conduct a thorough review of our data. The review found that errors in the normalization of author, reviewer and institution names and missing values led to down-stream errors in automated gender assignment and in the assignment of university rankings. In the case of the university rankings we were able to correct a number of errors. In the case of the gender assignment, this would have been too onerous to be possible. Instead, as suggested by Jigisha Patel, we used sampling to check the error rates in our data, which we report in our text, together with a discussion of their significance. Walker, et al. present their results with the reporting of statistical significance information. I recommend that not only the statistical, but also the practical significance of the results (effect sizes) should be reported. 2,3,4 Thank you for this suggestion, which we have implemented in the revised version of our manuscript. We began by calculating Cohen's d for all our data. In the results and the discussion sections, we analyse the practical significance of the effects observed both in terms of the number of reviews concerned (which was always small) and the effects on publication decisions. In the cases we study, this was not large. However, in more selective review systems it could be larger. In the Discussion section the following major limitation of the study should be mentioned: The quality of the papers was not controlled. For example, Bornmann and Daniel (2009) 5 and Bornmann and Daniel (2010) 6 investigated the peer review processes of the Angewandte Chemie – International Edition and Atmospheric Chemistry and Physics. They considered citations for the single papers as a proxy for quality. Although citations measure only one part of quality (namely impact), it is more favourable to consider them than doing not. When examining the association of bias variables and peer review outcomes without controlling quality it is impossible to establish unambiguously whether a particular group of papers receives more favourable recommendations or decisions due to these variables, or if the more favourable recommendations and decisions are simply a consequence of the papers’ scientific quality We now make explicit reference to this limitation in our text. We go on to explain that most of the papers in our datasets have very few citations. This means, that in our case, we are unable to use citations as a proxy for quality. Competing Interests: No competing interests were disclosed. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 2 VERSION 2 PUBLISHED 22 Jan 2015 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 2 (revision) 10 Jun 15 read read Version 1 22 Jan 15 read read Lutz Bornmann , Administrative Headquarters of the Max Planck Society, Munich, Germany Jigisha Patel , Biomed Central Ltd, London, UK Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2015 Patel J. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 22 Jun 2015 | for Version 2 Jigisha Patel , Biomed Central Ltd, London, UK 0 Views copyright © 2015 Patel J. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions My comments have all been addressed. The revised version presents the authors findings in a clearer and more precise way. This serves to highlight the contribution this study makes to the existing literature on bias in peer review. Their efforts to revise to this extent were well worth it. I dont have any further comments. Competing Interests I am an employee at BioMed Central. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Patel J. Peer Review Report For: Personal attributes of authors and reviewers, social bias and the outcomes of peer review: a case study [version 2; peer review: 2 approved] . F1000Research 2015, 4 :21 ( https://doi.org/10.5256/f1000research.7075.r8989) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-21/v2#referee-response-8989 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2015 Bornmann L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 16 Jun 2015 | for Version 2 Lutz Bornmann , Division for Science and Innovation Studies, Administrative Headquarters of the Max Planck Society, Munich, Germany 0 Views copyright © 2015 Bornmann L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions All reviewers points have been appropriately addressed. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Bornmann L. Peer Review Report For: Personal attributes of authors and reviewers, social bias and the outcomes of peer review: a case study [version 2; peer review: 2 approved] . F1000Research 2015, 4 :21 ( https://doi.org/10.5256/f1000research.7075.r8988) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-21/v2#referee-response-8988 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2015 Patel J. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 13 Feb 2015 | for Version 1 Jigisha Patel , Biomed Central Ltd, London, UK 0 Views copyright © 2015 Patel J. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions In this paper the authors analyses the relationship between the attributes of authors and reviewers and reviewer outcomes in three datasets, one an innovative peer-review model and two which use traditional peer review. They find no evidence of gender or institutional bias and limited interaction between author and reviewer region. Although social bias in peer review has been investigated in the past, I think this study is timely and the question of whether this previously found bias still exists with changing social norms and values is interesting. However, there is a need for some clarification of the methods before the significance of the authors findings can be determined. Major revisions The authors are very clear that their study investigates as defined by the interaction between author and reviewer attributes, or bias as a function of reviewer characteristics (ref 29). They make the point that their methodology cannot determine biases that are shared by all reviewers regardless of reviewer characteristics. In the Introduction, the authors switch between describing previous research on reviewer characteristics and previous research on author characteristics. For example, paragraph 2 is predominantly about studies of reviewer characteristics, but ends on author characteristics. Paragraph 3 appears to begins on author characteristics, but then cites studies on reviewer characteristics. It would be much easier for the reader to understand what contribution this study makes to the literature if the authors made a clearer distinction between current evidence on reviewer characteristics (including those studies which looked at both reviewer and author characteristics) and other research on bias, which would include research focused only on author characteristics. As part of the peer review process for Frontiers reviewers can, if they wish, complete the ratings questionnaire shown in Fig 1 and it was these ratings that were used in the study analysis. I think it would be useful for the authors to clarify the following: Do Frontiers reviewers complete the rating independently of each other before the collaborative process? If this is the case, it is not clear to me why individual scores for each paper were averaged for the Frontiers dataset, but apparently not for the other two datasets. If the aim of this study is to investigate the interaction between reviewer attributes and those of authors, wouldnt averaging the reviewer scores in this way confound this aim? Alternatively, if the ratings form is completed by reviewers after the collaborative process, how have the authors accounted for the potential confounding effect of the collaboration? Also, if reviewers complete the rating independently of each other, the characteristics of peer review for the Frontiers dataset used in this study are the same as that for the other datasets, i.e. it is single blind peer review. In all three datasets the reviewers are made aware of the authors names, but the authors do not know the reviewers is that correct? In the discussion the authors state that the findings of this study could be valid for a broad range of peer review systems. However, this study did not include the interactive component of Frontiers peer review process, or if it did, it is not clear how. All three datasets appear to have used the single blind system of peer review. This statement in the discussion should be rephrased. Minor Reference 31 is for a commentary. Can authors should provide the reference for the original Swedish study? Can the authors provide data on the error rate for their gender assignment process? I think the authors could provide a more informative title, for example, Bias in peer review: the interaction between reviewer and author characteristics. Please note, I do not have the expertise to comment on the model and statistical analysis used in this study. Competing Interests I am an employee of BioMed Central, an open access publisher. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 10 Jun 2015 Richard Walker, Frontiers, EPFL Innovation Park, Lausanne, Switzerland We have now submitted a new version of our paper, which we have revised in the light of your comments, which we found extremely useful and constructive, though they caused us significant extra work. We are particularly grateful for your suggestions concerning the organization of the introduction to the paper, which we have attempted to take on board, and for your points on quality control (which were in the same spirit as comments from Lutz Bornmann. Thanks to these suggestions, we found a number of problems with the data, which had previously passed unnoticed. Comment: The authors are very clear that their study investigates ‘bias’ as defined by the interaction between author and reviewer attributes, or bias as a function of reviewer characteristics (ref 29). They make the point that their methodology cannot determine biases that are shared by all reviewers regardless of reviewer characteristics. In the Introduction, the authors switch between describing previous research on reviewer characteristics and previous research on author characteristics. For example, paragraph 2 is predominantly about studies of reviewer characteristics, but ends on author characteristics. Paragraph 3 appears to begins on author characteristics, but then cites studies on reviewer characteristics. It would be much easier for the reader to understand what contribution this study makes to the literature if the authors made a clearer distinction between current evidence on reviewer characteristics (including those studies which looked at both reviewer and author characteristics) and other research on bias, which would include research focused only on author characteristics. This was an extremely useful suggestion. We have now reorganized our introduction to talk first about effects regarding author characteristics, then to interactions between author and reviewer characteristics and finally to the characteristics of reviewers. We believe the paper gains significantly in clarity from this reorganization. As part of the peer review process for Frontiers reviewers can, if they wish, complete the ratings questionnaire shown in Fig 1 and it was these ratings that were used in the study analysis. Do Frontiers reviewers complete the rating independently of each other before the collaborative process? If this is the case, it is not clear to me why individual scores for each paper were averaged for the Frontiers dataset, but apparently not for the other two datasets. If the aim of this study is to investigate the interaction between reviewer attributes and those of authors, wouldn’t averaging the reviewer scores in this way confound this aim? The ratings questionnaire is filled in in the initial non-interactive part of the review process. We have clarified this in the text. Also, if reviewers complete the rating independently of each other, the characteristics of peer review for the Frontiers dataset used in this study are the same as that for the other datasets, i.e. it is single blind peer review. In all three datasets the reviewers are made aware of the authors names, but the authors do not know the reviewers’ – is that correct? Yes this is correct. We have clarified our description of the Frontiers process to show that it is single-blind. In the discussion the authors state that the findings of this study could be valid for a broad range of peer review systems. However, this study did not include the interactive component of Frontiers peer review process, or if it did, it is not clear how. All three datasets appear to have used the single blind system of peer review. This statement in the discussion should be rephrased The differences between the datasets concern not just the way the review is organized (interactive vs. non-interactive) but also the disciplines covered, and the geographical distribution of authors and reviewers. In the text, we clarify that all three review systems in the study are single blind. However, we hypothesize that reviewers preparing for an interactive process may behave differently from reviewers in a traditional review process. Reference 31 is for a commentary. Can authors should provide the reference for the original Swedish study? As you correctly note, the reference (now reference 30) was published in the form of a commentary. De facto, however, the article represents the first publication of results from an original study, which, to our knowledge was not published elsewhere, prior to the date on which the commentary appeared. Can the authors provide data on the error rate for their gender assignment process? On the basis of random sampling, we estimate errors rates of 7.5%, 0.0% and 5.2% for the Frontiers, IEEE (Spain) and IEEE (International) datasets respectively. We give these figures and discuss their significance in the text. I think the authors could provide a more informative title, for example, 'Bias in peer review: the interaction between reviewer and author characteristics.' We agree with this suggestion and have revised our title accordingly. It now reads, "Personal attributes of authors and reviewers, social bias and the outcomes of peer review: a case study". View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Patel J. Peer Review Report For: Personal attributes of authors and reviewers, social bias and the outcomes of peer review: a case study [version 2; peer review: 2 approved] . F1000Research 2015, 4 :21 ( https://doi.org/10.5256/f1000research.6434.r7428) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-21/v1#referee-response-7428 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2015 Bornmann L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 02 Feb 2015 | for Version 1 Lutz Bornmann , Division for Science and Innovation Studies, Administrative Headquarters of the Max Planck Society, Munich, Germany 0 Views copyright © 2015 Bornmann L. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (2) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Peer review is the most important instrument for assessing scientific research. However, the instrument is not without drawbacks. As the most important weaknesses, a missing reliability, fairness and predictive validity have been seen 1 . The study of Walker, Barros, Conejo, Neumann and Telefont (2015) deals with the fairness of the peer review process: They investigated social biases in the processes of Frontiers - an open access publishing house with a novel interactive peer review process, and two peer review processes from Spanish and international computer science conferences. The study is very interesting. I recommend that the authors revise the manuscript according to the following points: On page 5, Walker, et al . describe the process of normalizing authors and reviewers names. Here, Walker, et al. should ensure that the names are completely cleaned: the same author and the same institutional unit should receive the same name. A general problem of this kind of data from peer review processes is that they are not cleaned and contain several name variants. Walker, et al. present their results with the reporting of statistical significance information. I recommend that not only the statistical, but also the practical significance of the results (effect sizes) should be reported. 2 , 3 , 4 In the Discussion section the following major limitation of the study should be mentioned: The quality of the papers was not controlled. For example, Bornmann and Daniel (2009) 5 and Bornmann and Daniel (2010) 6 investigated the peer review processes of the Angewandte Chemie International Edition and Atmospheric Chemistry and Physics . They considered citations for the single papers as a proxy for quality. Although citations measure only one part of quality (namely impact), it is more favorable to consider them than doing not. When examining the association of bias variables and peer review outcomes without controlling quality it is impossible to establish unambiguously whether a particular group of papers receives more favorable recommendations or decisions due to these variables, or if the more favorable recommendations and decisions are simply a consequence of the papers scientific quality. References 1. Bornmann L: Scientific peer review. Annual Review of Information Science and Technology . 2011; 45 (1): 197-245 Publisher Full Text 2. Cohen J: Statistical power analysis for the behavioral sciences (2nd Ed).1988; Lawrence Erlbaum Associates Hillsdale, NJ, USA . Reference Source 3. Williams R: Using the margins command to estimate and interpret adjusted predictions and marginal effects. The Stata Journal . 2012; 12 (2): 308-311 Reference Source 4. Williams R, Bornmann L: The substantive and practical significance of citation impact differences between institutions: guidelines for the analysis of percentiles using effect sizes and confidence intervals. In Y. Ding, R. Rousseau & D. Wolfram (eds.), Measuring scholarly impact: methods and practice . 2014; Springer, Heidelberg, Germany : 258-281 Reference Source 5. Bornmann L, Daniel H-D: Reviewer and editor biases in journal peer review: an investigation of manuscript refereeing at Angewandte Chemie International Edition. Research Evaluation . 2009; 18 (4): 262-272 Publisher Full Text 6. Bornmann L, Daniel H: Do Author-Suggested Reviewers Rate Submissions More Favorably than Editor-Suggested Reviewers? A Study on Atmospheric Chemistry and Physics. Plos One . 2010; 5 (10). PubMed Abstract | Free Full Text | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (2) Author Response 12 Feb 2015 Richard Walker, Frontiers, EPFL Innovation Park, Lausanne, Switzerland I think these comments are very relevant and we will take them into account in the next version of our paper. As concerns the specific points you raise: In our study, authors' and reviewers' names are relevant for gender assignment. Institution names are critical for assignment of language, region, and institutional prestige to author and reviewer institutions. Informal checks on our cleaning process suggest that it does not introduce substantial errors into our analysis. In the next version of our paper we will introduce more formal checks. We agree with the reviewer on this point. The next version of our paper will include estimates of the practical significance of our results. We completely agree with the reviewer that some differences in scores may be due to differences in scientific quality and tried to make this point in our text. In the next version, we will attempt to clarify this issue. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern Author Response 10 Jun 2015 Richard Walker, Frontiers, EPFL Innovation Park, Lausanne, Switzerland Thank you for your comments, which we found extremely useful and constructive. Particularly useful was your suggestion that we should include effect sizes in our analysis. This suggestion has been implemented in this revised version of our paper. We would also like to thank you for your suggestions regarding quality control, complementing similar suggestions from Jigisha Patel. Thanks to these suggestions, we found a number of problems with the data, which had previously passed unnoticed. All these changes have been incorporated in the new version of the paper which we have just submitted. On page 5, Walker, et al. describe the process of normalizing authors’ and reviewers’ names. Here, Walker, et al. should ensure that the names are completely cleaned: the same author and the same institutional unit should receive the same name. A general problem of this kind of data from peer review processes is that they are not cleaned and contain several name variants. Thank you this comment, which, together with comments in a similar vein from Jigisha Patel led us to conduct a thorough review of our data. The review found that errors in the normalization of author, reviewer and institution names and missing values led to down-stream errors in automated gender assignment and in the assignment of university rankings. In the case of the university rankings we were able to correct a number of errors. In the case of the gender assignment, this would have been too onerous to be possible. Instead, as suggested by Jigisha Patel, we used sampling to check the error rates in our data, which we report in our text, together with a discussion of their significance. Walker, et al. present their results with the reporting of statistical significance information. I recommend that not only the statistical, but also the practical significance of the results (effect sizes) should be reported. 2,3,4 Thank you for this suggestion, which we have implemented in the revised version of our manuscript. We began by calculating Cohen's d for all our data. In the results and the discussion sections, we analyse the practical significance of the effects observed both in terms of the number of reviews concerned (which was always small) and the effects on publication decisions. In the cases we study, this was not large. However, in more selective review systems it could be larger. In the Discussion section the following major limitation of the study should be mentioned: The quality of the papers was not controlled. For example, Bornmann and Daniel (2009) 5 and Bornmann and Daniel (2010) 6 investigated the peer review processes of the Angewandte Chemie – International Edition and Atmospheric Chemistry and Physics. They considered citations for the single papers as a proxy for quality. Although citations measure only one part of quality (namely impact), it is more favourable to consider them than doing not. When examining the association of bias variables and peer review outcomes without controlling quality it is impossible to establish unambiguously whether a particular group of papers receives more favourable recommendations or decisions due to these variables, or if the more favourable recommendations and decisions are simply a consequence of the papers’ scientific quality We now make explicit reference to this limitation in our text. We go on to explain that most of the papers in our datasets have very few citations. This means, that in our case, we are unable to use citations as a proxy for quality. View more View less Competing Interests No competing interests were disclosed. reply Respond Report a concern 
+ 
+ Bornmann L. Peer Review Report For: Personal attributes of authors and reviewers, social bias and the outcomes of peer review: a case study [version 2; peer review: 2 approved] . F1000Research 2015, 4 :21 ( https://doi.org/10.5256/f1000research.6434.r7425) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/4-21/v1#referee-response-7425 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Personal attributes of authors and reviewers,...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/4-21/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/4-21/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/4-21/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Walker R et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/4-21/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/4-21",
+ templates : {
+ twitter : "Personal attributes of authors and reviewers, social bias and.... Walker R et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/4-21/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Personal attributes of authors and reviewers, social bias and the outcomes of peer review: a case study", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Personal attributes of authors and reviewers, social bias and the outcomes of peer review: a case study", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/6012/7075")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "7075");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "7424": 0,
+ "7425": 68,
+ "7426": 0,
+ "7427": 0,
+ "7428": 54,
+ "8988": 16,
+ "8989": 16,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "7a524104-fe09-4307-ad03-bf72a86dc585";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

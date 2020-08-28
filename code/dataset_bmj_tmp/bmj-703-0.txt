@@ -1,0 +1,56 @@
+Thank you for inviting me to review this research article addressing a very important topic,
+arrhythmogenic effects of fluoroquinolone antibiotics. The authors determined the occurrence of serious
+arrhythmia (i.e., a diagnosis of ventricular tachycardia, ventricular flutter, cardiac arrest, or sudden
+death, in an emergency ward or hospital, or recorded as a cause of death) in a propensity-score matched
+sample of adult outpatient users of fluoroquinolones or penicillin V. The data sources were the national
+health databases for Denmark (1997-2011) and Sweden (2006-2013). The authors properly focused on
+the seven days following the prescription (defined as the period of current use). They found 144 events
+among 1.8 million subjects, with a rate ratio of 0.85 (95% CI 0.61-1.18) for fluoroquinolones versus
+penicillin V. For unclear reasons, the rate ratio in the younger subgroup of subjects showed a protective
+effect of fluoroquinolones.
+The article is well-written. I agree with the authors that this study has a number of strengths (including
+large sample size, use of a comparator antibiotic lacking arrhythmogenicity, use of propensity score
+matching to reduce confounding, and availability of comprehensive data from the Danish and Swedish
+databases). However, I have some concerns about the design and the interpretation of the results that I
+believe should be addressed to make the paper stronger.
+Major comments:
+1. The indication for the antibiotic was not accounted for in the analysis. The authors acknowledge this
+limitation, but I am concerned that lack of similarity in indications between the two groups could have
+affected the rate ratio. Specifically, chronic obstructive pulmonary disease has been associated with
+ventricular arrhythmias (Konecny et al., Am J Cardiol 2014; 114:227e277), and pneumonia has been
+associated with cardiac events (Corrales-Medina et al., Circulation 2012;125:773-81). So an imbalance in
+
+the proportion of subjects with those indications in particular might influence the rate ratio.
+2. The results reflect almost entirely a sample of ciprofloxacin users (82.6% of the fluoroquinolone
+users), which the authors correctly acknowledge in the text. However, the authors have generalized their
+findings to fluoroquinolones as a class. This limitation would be made more explicit by a subgroup
+analysis showing results for specific fluoroquinolone compounds; one suspects the study is powered
+adequately only for ciprofloxacin. In this regard, it is interesting to note that in two previous studies (Ray
+et al., reference 24, and Chou et al., reference 11), ciprofloxacin was also not associated with
+cardiovascular risks. One might even say that the null result in this study, rather than being in conflict
+with previous studies, matches previous results regarding ciprofloxacin.
+3. There was no examination of medical charts to validate the outcomes. The authors concede that the
+specific outcome used in this study has never been validated, though other cardiovascular outcomes
+apparently have been. Validity is less of a concern in a study showing a positive association, but more of
+a concern when the study finds no association, because nondifferential misclassification of outcomes will
+bias the risk estimate towards the null. To support a conclusion of an absence of risk, therefore, requires
+a strong case for the validity of the outcome, or perhaps a simultaneous demonstration of an association
+for a comparator known to have the effect (i.e., a positive control).
+Additional comments:
+1. There were differences in use between the two countries; the ratio of penicillin V courses to
+fluoroquinolone courses was about 10:1 in Denmark but less than 3:1 in Sweden. I recommend that
+country be added to Table 1 so the reader can see if there were imbalances that persisted despite the
+propensity score matching.
+2. On page 14, the authors state that there is no clear correlation between degree of QT prolongation
+and risk of torsades de pointes. An example of such a correlation may be found in the US prescribing
+information for sotalol (see
+http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/022306s000lbl.pdf, Table 1, which shows
+the incidence of torsades de pointes by dose and QTc).
+3. While the authors correctly state (page 13, line 42) that in the Ray study (reference 24), levofloxacin
+did not show a statistically significant risk for cardiovascular death versus amoxicillin, the estimated
+hazard ratio was 1.99 with a 95% confidence interval of 0.93-4.23, suggesting the issue could have been
+statistical power rather than lack of an effect.
+4. The authors note that in the Chou et al. study (reference 11), the persistence of an elevated risk with
+moxifloxacin over 30 days undermines the validity of the risk found over 7 days; however, in that 30 day
+follow-up analysis, the mean time to event for moxifloxacin was 9 days, suggesting the events were
+concentrated towards the beginning of the 30 days.

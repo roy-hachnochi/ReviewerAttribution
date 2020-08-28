@@ -1,0 +1,22 @@
+This manuscript describes results from two cohort studies exploring the association between use of 5-alpha reductase
+inhibitors (5ARIs) and erectile dysfunction (ED). The other cohort consists of 71.849 men with BPH, the other consists of
+12,346 men with alopecia. Use of 5-ARIs was not significantly associated with ED in either study group.
+The topic is of importance, as 5ARIs are a commonly used drug group, and they have been previously linked with sexual
+side effects such as ED. This study attempts to control for confounding by indication by limiting the analysis to a group
+of men who all share the indication for 5ARI usage.
+I have the following comments:
+- Methods, Patient Populations: A flow chart including inclusion criteria and exclusions would make it easier for the
+reader to understand how the two study populations were formed.
+- Methods, Patient Populations: Numbers of men included in each cohort should be reported here
+- Methods, Exposure Definition: the available prescription data should be characterised further: did you have data on
+each individual prescription of 5ARI for all participants in your cohort?
+- Methods, Exposure Definition: In the BPH cohort the exposure was categorized by recency of use, whereas in the
+alopecia cohort the model was more simplified, with all 5ARI users categorized as exposed until the censor date, without
+any subcategorizations. Why did you handle the exposure differently between the study cohorts?
+- Methods, Covariates of Interest: It seems odd that you did not take into account diabetes, which has been associated
+both with BPH and ED; thus it is a possible confounding factor which has not been accounted for
+- Methods: Statistical Analyses: Which variables did you include in the model when calculating adjusted ORs?
+- Results, Erectile Dysfunction in the BPH Population, last sentence: I am not sure whether this sentence is true: the
+proportions are little higher in 5ARI+AB users, but was the difference to other drug users statistically significant?
+Sincerely,
+Teemu Murtola

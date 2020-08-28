@@ -1,0 +1,39 @@
+This paper addresses the important topic of how valid BMI measures are for evaluating
+health risks in children with different racial backgrounds. The paper derives equations based
+on standard measures (height, weight, age, gender, race) to predict body fat, and reports
+significant coefficients for different ethnic groups and overall models. While this is an
+interesting analysis there are also some concerns.
+1. Deuterium dilution is used for the reference method for body fat. This method does have
+the advantage that there is no radiation, but it is problematic because it necessarily has to
+assume constants for the known overestimation of total body water by DD (usually 3%
+assumed) and the hydration of lean body mass (usually assumed to be 73% water) and we
+don’t know how good these constants are when comparing data across different races. Since
+the errors propagate, quite small inaccuracies in these constants can lead to big errors in the
+calculated primary data. The ideal here would be to have multicompartment body
+composition modeling data if that is available in the datasets, which would reduce the need
+to rely on assumptions. It is likely that both of the constants are race-specific, and by not
+taking them into account there are method biases that could potentially account for at least
+some of the significant (but small) racial effects that are seen here. For example, the degree
+of overestimation of body water by DD reflects the greater space that DD dilutes into, which
+seems to relate mostly to body protein content. Since body protein content differs between
+races it would be preferable to have a race-specific constant (which does not exist today),
+and this would necessarily change calculations of fat free mass and fat mass. In addition, we
+don’t know if the hydration of total body water is the same in children of different races and
+some studies in adults suggest it may not be. The combination of the uncertain constant for
+correcting the overestimation of total body water by DD and the uncertain constant for the
+hydration coefficient means we don’t have really solid data for fat free mass and fat mass on
+which to construct the paper’s models. At the least, this paper should use
+
+multicompartment data if available, and if not address the fundamental weaknesses of the
+DD method in the Discussion.
+2. The conclusions seem to be broadly consistent with an earlier paper by the same group
+(reference 15) which calculates BMI coefficients for different races and genders. It would
+seem to be more useful to use adjusted BMI standards for difference races rather than
+calculating body fat, since this is already an established technique used in public health. The
+paper does not clarify in what ways the approach described here is superior to the approach
+taken in reference 15.
+3. A final comment is that the paper needs to clarify recommended uses for the models.
+With the potential bias of the method in different ethnic groups (noted in #1, above) it would
+risk introducing bias into research studies of ethnicity, but it also seems quite complicated as
+a clinical tool. A clear articulation of what the authors propose for use of the method would
+be helpful.

@@ -1,0 +1,589 @@
+In reviewing “Metagenomic analysis of an ecological wastewater treatment plant’s microbial communities and their potential to metabolize pharmaceuticals,” I consider the intended breadth of the paper. The paper would accurately be described as a first look at a single ‘ecological wastewater treatment plant’ through the somewhat particular lenses of metagenomics and micropollutants. Micropollutants are not the primary target of wastewater treatment; prevention of infectious disease motivated the first sand filters and avoiding eutrophication or other bulk pollution is a common goal, which explains the focus on nitrogen, dissolved organic carbon, phosphorus, etc. Micropollutants are not successfully managed by most wastewater treatment paradigms, as the authors discuss. The authors integrated a number of methods to characterize micropollutants and communities in small-scale wastewater treatment facility that integrates plants and microbes into the treatment process. In general, the authors seem to be advocates for the special treatment process; the intention is to evaluate the processing of these recalcitrant pollutants; but no direct comparison is made to other processes. A single facility was sampled across the process at a single time. Input wastewater and waste in process was sampled and the influent and resident micropollutants were quantified. The enrichment cultures were performed with each of three pharmaceuticals as the sole carbon source, in replicate. Of 15 replicates, eight were selected based on visual inspection for microbial growth. Methods and Results: I do not have the background to critique the micropollutant quantification, which was done at a commercial lab using standard EPA methods. There are substantial problems with the sequencing methods. The shotgun metagenomics was done without a kit (true negative) control or a positive (synthetic) community standard. In addition, no standards were used to assess DNA extraction biases (such as reported by 1 3 . The EZNA Mollusc DNA kit was used; I am not sufficiently familiar with this specific kit, compared to the bacterial kits, for example. This is the only case in which that kit is used in bacterial shotgun metagenomics, to my knowledge. I do not know what kinds of bias this introduces to the analysis. Overall, the use of non-standard methods requires new controls; some of which should be performed even when standard methods are employed. Comparisons to non-sequencing methods (ie. microscopy, flow cytometry, qPCR from several DNA extractions) would also inform evaluation of bias and uncertainty. The bioinformatic methods reveal problems interpreting the data. MEGAN is the core of the bioinformatics pipeline, which was tested on two existing synthetic datasets. ~11-12% of the reads were excluded for quality. 50-60% of the remaining reads were protein reads from NCBI. However, environmental and enrichment culture reads differed greatly in their assignment to known taxonomy. Almost all enrichment culture reads were assigned; only 80% of the quality and protein reads from the environment could be assigned. Eukaryotes account for a substantial fraction of the reads in HR2_B, but not in the others samples. Fungi are specifically reported in the enrichment cultures, suggesting that eukaryotes are indeed sequenced and analyzed. Given all this information, the lack of plant DNA in the other HR samples is counter-intuitive. Typically, host-associated shotgun metagenomic sequencing effort would benefit from draft host genome sequencing, to allow the host DNA to be removed bioinformatically (the way it was with the PhiX spike-in). Alternative (wet) methods to remove host DNA are also not evident. The reported microbial community compositions are unexpectedly simple. Perhaps the depth of sampling was inadequate; this could be assessed with a method such as 16S rRNA sequencing at a greater depth. The comparison of ‘taxonomic,’ ‘community,’ or ‘metabolic’ structures is undermined by the need to map reads to the KEGG database without assembly and with a very low rate of read mapping to NCBI proteins. Further, rarefaction (normalizing the total number of reads) is problematic 2 . Given the difficulties with data analysis, however, it seems unnecessary to give a detailed critique of the downstream analyses. Some organisms were present in the original samples which apparently survived in the enrichment culture. Some of these have been identified by sequencing, but it is unclear how many more may be present. No attempt was made to return to the original samples with probes for the organisms found during enrichment, nor were genomes assembled. With a significantly greater number of enrichments, multi-sample strategies might have been used to assemble genomes from distinct organisms 4 . These could be used to map reads from the original samples. Conclusions: Given that so few samples were examined, the study is best scaled to pilot a larger examination of similar treatment facilities. Samples were not studied in technical replicate, nor repeated in space across the tanks, nor across time at short and long time scales, or across related facilities, or facilities with other processing strategies. No experiments were performed which perturbed or altered the plant or microbial processes in the facility. As a result, most of the conclusions must be drawn with very limited statistical evaluation. Most of the conclusions are not effectively supported because the sample variance could not be estimated. Conclusions like “The aqueous microbial metagenome, collectively, contained a greater total for xenobiotic metabolism gene copies…” are unsupported. A starting hypothesis is that the fraction of reads from a sample assigned to xenobiotic degradation is indistinguishable from sample to sample, rather than being ordered (“produced the greatest number of sequences…”). Similarly, statements about the taxonomy ("relative abundance of Bacilli in the immersed biofilm communities was highly variable") are unsupported by the data. The "role of plants" ("The role plants have on influencing the structure of the root-colonizing microbial communities appeared to increase after the first three treatment tanks") could not be examined by single observations of the root and water within individual tanks. Nor could conclusions be reached about microbial community variation over time (see: “are likely to change with time, fluctuating…”), given that only a single time point was sampled. The results do not indicate that “the ecological WWTP is performing well with regard to attenuating fecal coliforms” given that infection can be caused by a low number of cells and the sensitivity of the sequencing to minor populations was uncharacterized. The discussion of phase partitioning of micropollutants ("PPCPs in the wastewater" and "Removal of PPCPs by the ecological WWTP") is outside my area of expertise. Generalization of microbial behavior at the level of species is problematic, particularly when inferring activity on complex organic substrates. Generalizing to families and phyla ( Rhizobiales , Firmicutes , Mycobacteria ... ) is inappropriate. Experiments with specific strains are required for effective experimental annotation of novel degradation pathways. Overall Review: This is an interesting pilot experiment for studies which collectively may result in conclusions of the sort reported in the paper. Method development and the sequencing of specific microbial and plant reference genomes will prepare a team for the extensive sampling and experimentation needed to assess the effectiveness and impact of this wastewater treatment strategy. The concentrations of micropollutants observed in these few samples suggest that they can be altered by such treatment, but that they also may circulate at increased concentrations as water is reused. References 1. Albertsen M, Hansen LB, Saunders AM, Nielsen PH, et al.: A metagenome of a full-scale microbial community carrying out enhanced biological phosphorus removal. ISME J . 2012; 6 (6): 1094-106 PubMed Abstract | Publisher Full Text 2. McMurdie PJ, Holmes S: Waste not, want not: why rarefying microbiome data is inadmissible. PLoS Comput Biol . 2014; 10 (4): e1003531 PubMed Abstract | Publisher Full Text 3. Guo F, Zhang T: Biases during DNA extraction of activated sludge samples revealed by high throughput sequencing. Appl Microbiol Biotechnol . 2013; 97 (10): 4607-16 PubMed Abstract | Publisher Full Text 4. Sangwan N, Xia F, Gilbert JA: Recovering complete and draft population genomes from metagenome datasets. Microbiome . 2016; 4 : 8 PubMed Abstract | Publisher Full Text Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Kirkup​ BC. Reviewer Report For: Metagenomic analysis of an ecological wastewater treatment plant’s microbial communities and their potential to metabolize pharmaceuticals [version 1; peer review: 1 approved, 1 approved with reservations] . F1000Research 2016, 5 :1881 ( https://doi.org/10.5256/f1000research.9854.r16355 ) The direct URL for this report is: https://f1000research.com/articles/5-1881/v1#referee-response-16355 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Author Response 28 Sep 2016 Ian Balcom , Lyndon State College, Lyndonville, USA 28 Sep 2016 Author Response Thank you for the thoughtful review of our work and helpful feedback. We will be incorporating many of your suggestions into future studies, which will be focusing on increasing replication. ... Continue reading Thank you for the thoughtful review of our work and helpful feedback. We will be incorporating many of your suggestions into future studies, which will be focusing on increasing replication. Here are responses to some of your comments on the extraction methods used here: The Modified Omega Mollusc Kit protocol used in this study was modified to act as a pre -packaged CTAB kit described J Zhou and Ed Moore; DNA recovery from soils of diverse composition. Appl Environ Microbiol. 1996 Feb;62(2):316-22. Zhou J, Bruns MA, Tiedje JM. Simplified protocols for the preparation of genomic DNA from bacterial cultures. Molecular Microbial Ecology Manual, 2nd Edition 1.01: 3–18, 2004. E. Moore, A Arnscheidt, A. Kruger, C. Strompl, M. Mau This CTAB protocol has also been described in the following manuscript with the following modifications: A pre-extraction metagenomics bacterial cell wall digestion was performed using a multi-component enzyme mix described below in the MetaSub paper. This enzyme is manufactured by Sigma and will be commercially available in Q1 2017. The Metagenomics and Metadesign of the Subways and Urban Biomes (MetaSUB) International Consortium inaugural meeting report. The MetaSUB International Consortium. Microbiome. 2016 4:24 This Reference data and method is also available on the following websites : https://abrf.org/sites/default/files/temp/RGs/MGRG/narg-meta-2013_final_poster_forprinter.pptx http://extrememicrobiome.org/links/ Comments on DNA kit Negative and Library Negatives : Our core facility runs DNA extraction kit negatives on the lot of reagents from both Sigma and Omega BioTek as a "process control" and quantifies the negative using the Qubit High Sensitivity kit. We do not sequence negative controls that have values that are below detection limit [BDL]. A Negative control is processed for each group of DNA library samples. Comments on DNA extraction bias and microbial standards : Currently there is no approved microbial whole cell reference standards. However, the ABRF Metagenomics research group is currently in the process of distributing 6 through a collaboration with ATCC. The ABRF is the first group to make a whole cell microbial standard. Further the ABRF has assembled the Class 1 and Class1+ genomic microbial standard that will also be distributed through the ATCC. This topic was discussed at great length at the NIST Microbiome standards meeting in Gaitherburg MD on Aug 8th as communicated by Scott Tighe. Scott Tighe is the current lab manager that performed this work, is one of four co-leaders of the NIST International Microbiome Metagenomics Standards Alliance [IMMSA] and presented these bottle necks on day 2 session 3. It is well recognized that whole cell quantitative standards do not exist; therefore, the reviewer must understand that doing DNA extraction bias studies are a large undertaking. The ABRF-ATCC whole cell microbial Class 1 reference standard will help us understand the DNA biases in the the entire field of microbiome and not just rely on a simple MoBio protocol. It should be pointed out to the reviewer that Zymo's Zymobiotics bacterial standard is not whole cell, but rather suspended in SDS as a preservative and can not be used for DNA extraction bias studies. https://www.nist.gov/news-events/events/2016/08/standards-microbiome-measurements-workshop Thank you for the thoughtful review of our work and helpful feedback. We will be incorporating many of your suggestions into future studies, which will be focusing on increasing replication. Here are responses to some of your comments on the extraction methods used here: The Modified Omega Mollusc Kit protocol used in this study was modified to act as a pre -packaged CTAB kit described J Zhou and Ed Moore; DNA recovery from soils of diverse composition. Appl Environ Microbiol. 1996 Feb;62(2):316-22. Zhou J, Bruns MA, Tiedje JM. Simplified protocols for the preparation of genomic DNA from bacterial cultures. Molecular Microbial Ecology Manual, 2nd Edition 1.01: 3–18, 2004. E. Moore, A Arnscheidt, A. Kruger, C. Strompl, M. Mau This CTAB protocol has also been described in the following manuscript with the following modifications: A pre-extraction metagenomics bacterial cell wall digestion was performed using a multi-component enzyme mix described below in the MetaSub paper. This enzyme is manufactured by Sigma and will be commercially available in Q1 2017. The Metagenomics and Metadesign of the Subways and Urban Biomes (MetaSUB) International Consortium inaugural meeting report. The MetaSUB International Consortium. Microbiome. 2016 4:24 This Reference data and method is also available on the following websites : https://abrf.org/sites/default/files/temp/RGs/MGRG/narg-meta-2013_final_poster_forprinter.pptx http://extrememicrobiome.org/links/ Comments on DNA kit Negative and Library Negatives : Our core facility runs DNA extraction kit negatives on the lot of reagents from both Sigma and Omega BioTek as a "process control" and quantifies the negative using the Qubit High Sensitivity kit. We do not sequence negative controls that have values that are below detection limit [BDL]. A Negative control is processed for each group of DNA library samples. Comments on DNA extraction bias and microbial standards : Currently there is no approved microbial whole cell reference standards. However, the ABRF Metagenomics research group is currently in the process of distributing 6 through a collaboration with ATCC. The ABRF is the first group to make a whole cell microbial standard. Further the ABRF has assembled the Class 1 and Class1+ genomic microbial standard that will also be distributed through the ATCC. This topic was discussed at great length at the NIST Microbiome standards meeting in Gaitherburg MD on Aug 8th as communicated by Scott Tighe. Scott Tighe is the current lab manager that performed this work, is one of four co-leaders of the NIST International Microbiome Metagenomics Standards Alliance [IMMSA] and presented these bottle necks on day 2 session 3. It is well recognized that whole cell quantitative standards do not exist; therefore, the reviewer must understand that doing DNA extraction bias studies are a large undertaking. The ABRF-ATCC whole cell microbial Class 1 reference standard will help us understand the DNA biases in the the entire field of microbiome and not just rely on a simple MoBio protocol. It should be pointed out to the reviewer that Zymo's Zymobiotics bacterial standard is not whole cell, but rather suspended in SDS as a preservative and can not be used for DNA extraction bias studies. https://www.nist.gov/news-events/events/2016/08/standards-microbiome-measurements-workshop Competing Interests: No competing interests to declare. Close Report a concern Respond or Comment COMMENTS ON THIS REPORT Author Response 28 Sep 2016 Ian Balcom , Lyndon State College, Lyndonville, USA 28 Sep 2016 Author Response Thank you for the thoughtful review of our work and helpful feedback. We will be incorporating many of your suggestions into future studies, which will be focusing on increasing replication. ... Continue reading Thank you for the thoughtful review of our work and helpful feedback. We will be incorporating many of your suggestions into future studies, which will be focusing on increasing replication. Here are responses to some of your comments on the extraction methods used here: The Modified Omega Mollusc Kit protocol used in this study was modified to act as a pre -packaged CTAB kit described J Zhou and Ed Moore; DNA recovery from soils of diverse composition. Appl Environ Microbiol. 1996 Feb;62(2):316-22. Zhou J, Bruns MA, Tiedje JM. Simplified protocols for the preparation of genomic DNA from bacterial cultures. Molecular Microbial Ecology Manual, 2nd Edition 1.01: 3–18, 2004. E. Moore, A Arnscheidt, A. Kruger, C. Strompl, M. Mau This CTAB protocol has also been described in the following manuscript with the following modifications: A pre-extraction metagenomics bacterial cell wall digestion was performed using a multi-component enzyme mix described below in the MetaSub paper. This enzyme is manufactured by Sigma and will be commercially available in Q1 2017. The Metagenomics and Metadesign of the Subways and Urban Biomes (MetaSUB) International Consortium inaugural meeting report. The MetaSUB International Consortium. Microbiome. 2016 4:24 This Reference data and method is also available on the following websites : https://abrf.org/sites/default/files/temp/RGs/MGRG/narg-meta-2013_final_poster_forprinter.pptx http://extrememicrobiome.org/links/ Comments on DNA kit Negative and Library Negatives : Our core facility runs DNA extraction kit negatives on the lot of reagents from both Sigma and Omega BioTek as a "process control" and quantifies the negative using the Qubit High Sensitivity kit. We do not sequence negative controls that have values that are below detection limit [BDL]. A Negative control is processed for each group of DNA library samples. Comments on DNA extraction bias and microbial standards : Currently there is no approved microbial whole cell reference standards. However, the ABRF Metagenomics research group is currently in the process of distributing 6 through a collaboration with ATCC. The ABRF is the first group to make a whole cell microbial standard. Further the ABRF has assembled the Class 1 and Class1+ genomic microbial standard that will also be distributed through the ATCC. This topic was discussed at great length at the NIST Microbiome standards meeting in Gaitherburg MD on Aug 8th as communicated by Scott Tighe. Scott Tighe is the current lab manager that performed this work, is one of four co-leaders of the NIST International Microbiome Metagenomics Standards Alliance [IMMSA] and presented these bottle necks on day 2 session 3. It is well recognized that whole cell quantitative standards do not exist; therefore, the reviewer must understand that doing DNA extraction bias studies are a large undertaking. The ABRF-ATCC whole cell microbial Class 1 reference standard will help us understand the DNA biases in the the entire field of microbiome and not just rely on a simple MoBio protocol. It should be pointed out to the reviewer that Zymo's Zymobiotics bacterial standard is not whole cell, but rather suspended in SDS as a preservative and can not be used for DNA extraction bias studies. https://www.nist.gov/news-events/events/2016/08/standards-microbiome-measurements-workshop Thank you for the thoughtful review of our work and helpful feedback. We will be incorporating many of your suggestions into future studies, which will be focusing on increasing replication. Here are responses to some of your comments on the extraction methods used here: The Modified Omega Mollusc Kit protocol used in this study was modified to act as a pre -packaged CTAB kit described J Zhou and Ed Moore; DNA recovery from soils of diverse composition. Appl Environ Microbiol. 1996 Feb;62(2):316-22. Zhou J, Bruns MA, Tiedje JM. Simplified protocols for the preparation of genomic DNA from bacterial cultures. Molecular Microbial Ecology Manual, 2nd Edition 1.01: 3–18, 2004. E. Moore, A Arnscheidt, A. Kruger, C. Strompl, M. Mau This CTAB protocol has also been described in the following manuscript with the following modifications: A pre-extraction metagenomics bacterial cell wall digestion was performed using a multi-component enzyme mix described below in the MetaSub paper. This enzyme is manufactured by Sigma and will be commercially available in Q1 2017. The Metagenomics and Metadesign of the Subways and Urban Biomes (MetaSUB) International Consortium inaugural meeting report. The MetaSUB International Consortium. Microbiome. 2016 4:24 This Reference data and method is also available on the following websites : https://abrf.org/sites/default/files/temp/RGs/MGRG/narg-meta-2013_final_poster_forprinter.pptx http://extrememicrobiome.org/links/ Comments on DNA kit Negative and Library Negatives : Our core facility runs DNA extraction kit negatives on the lot of reagents from both Sigma and Omega BioTek as a "process control" and quantifies the negative using the Qubit High Sensitivity kit. We do not sequence negative controls that have values that are below detection limit [BDL]. A Negative control is processed for each group of DNA library samples. Comments on DNA extraction bias and microbial standards : Currently there is no approved microbial whole cell reference standards. However, the ABRF Metagenomics research group is currently in the process of distributing 6 through a collaboration with ATCC. The ABRF is the first group to make a whole cell microbial standard. Further the ABRF has assembled the Class 1 and Class1+ genomic microbial standard that will also be distributed through the ATCC. This topic was discussed at great length at the NIST Microbiome standards meeting in Gaitherburg MD on Aug 8th as communicated by Scott Tighe. Scott Tighe is the current lab manager that performed this work, is one of four co-leaders of the NIST International Microbiome Metagenomics Standards Alliance [IMMSA] and presented these bottle necks on day 2 session 3. It is well recognized that whole cell quantitative standards do not exist; therefore, the reviewer must understand that doing DNA extraction bias studies are a large undertaking. The ABRF-ATCC whole cell microbial Class 1 reference standard will help us understand the DNA biases in the the entire field of microbiome and not just rely on a simple MoBio protocol. It should be pointed out to the reviewer that Zymo's Zymobiotics bacterial standard is not whole cell, but rather suspended in SDS as a preservative and can not be used for DNA extraction bias studies. https://www.nist.gov/news-events/events/2016/08/standards-microbiome-measurements-workshop Competing Interests: No competing interests to declare. Close Report a concern COMMENT ON THIS REPORT Comments on this article Comments (0) Version 1 VERSION 1 PUBLISHED 28 Jul 2016 ADD YOUR COMMENT Comment keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 Version 1 28 Jul 16 read read Benjamin C. Kirkup , US Naval Research Laboratory, Washington, USA Andrew C. Singer , NERC (Natural Environment Research Council) Centre for Ecology & Hydrology (CEH) , Wallingford, UK Comments on this article All Comments (0) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Singer A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 14 Nov 2016 | for Version 1 Andrew C. Singer , NERC (Natural Environment Research Council) Centre for Ecology & Hydrology (CEH) , Wallingford, UK 0 Views copyright © 2016 Singer A. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions I found this to be an interesting field-based study. It is limited by all the typical factors that one finds in a field-based study (i.e., replication, no controls, etc), but that is to be expected and okay so long as the analysis and interpretation are consistent with theses limitations. I feel the authors largely stayed true to their experimental design and offered some useful insights into the processes of an ecological WWTP. I only have a few trivial suggestions to for (potentially) improving some elements of the paper, although it reads well and could largely remain as it stands. Specific suggestions: Would it be appropriate to denote "ecological wastewater treatment plants" as eWWTP, as they are clearly different from WWTPs in this context. The aim of the study does not immediately follow from the sentence in the abstract: "To determine whether the removal of micropollutants in ecological wastewater treatment plants (WWTPs) is promoted by the plant-microbe interactions..." You are assessing the correlation between wastewater input, treatment stage, PPCP removal, bacterial family and gene prevalence in plant and sand biofilms, planktonic cells and enrichment cultures. Granted there's no easy way to summarize this, but it is a more accurate description of the paper . You may wish to adjust the abstract to better reflect what was done. Sampling: It's not clear how samples were collected from the eWWTP, the replication or pooling that was done, the transportation conditions and storage. Clarify when sampling was of water and/or biofilm and depth of sample acquisition and whether roots were removed or scraped for the biofilm (and the sand filter?). The environmental conditions in the eWWTP need to be provided (temp, pH, atmosphere, etc). The observation that biodegradation/metabolism is dominated by benzoate degradation is quite interesting and leads to some useful insight into what might be going on in the eWWTP. It might be an option to make this a focus of the paper, i.e., in the title. If you choose to do this you might then rearrange the results to put this first as the sequence information really just supports this one result. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard. reply Respond to this report Responses (0) 
+ 
+ Singer AC. Peer Review Report For: Metagenomic analysis of an ecological wastewater treatment plant’s microbial communities and their potential to metabolize pharmaceuticals [version 1; peer review: 1 approved, 1 approved with reservations] . F1000Research 2016, 5 :1881 ( https://doi.org/10.5256/f1000research.9854.r17273) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-1881/v1#referee-response-17273 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2016 Kirkup​ B. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 27 Sep 2016 | for Version 1 Benjamin C. Kirkup , US Naval Research Laboratory, Washington, DC, USA 0 Views copyright © 2016 Kirkup​ B. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (1) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions In reviewing “Metagenomic analysis of an ecological wastewater treatment plant’s microbial communities and their potential to metabolize pharmaceuticals,” I consider the intended breadth of the paper. The paper would accurately be described as a first look at a single ‘ecological wastewater treatment plant’ through the somewhat particular lenses of metagenomics and micropollutants. Micropollutants are not the primary target of wastewater treatment; prevention of infectious disease motivated the first sand filters and avoiding eutrophication or other bulk pollution is a common goal, which explains the focus on nitrogen, dissolved organic carbon, phosphorus, etc. Micropollutants are not successfully managed by most wastewater treatment paradigms, as the authors discuss. The authors integrated a number of methods to characterize micropollutants and communities in small-scale wastewater treatment facility that integrates plants and microbes into the treatment process. In general, the authors seem to be advocates for the special treatment process; the intention is to evaluate the processing of these recalcitrant pollutants; but no direct comparison is made to other processes. A single facility was sampled across the process at a single time. Input wastewater and waste in process was sampled and the influent and resident micropollutants were quantified. The enrichment cultures were performed with each of three pharmaceuticals as the sole carbon source, in replicate. Of 15 replicates, eight were selected based on visual inspection for microbial growth. Methods and Results: I do not have the background to critique the micropollutant quantification, which was done at a commercial lab using standard EPA methods. There are substantial problems with the sequencing methods. The shotgun metagenomics was done without a kit (true negative) control or a positive (synthetic) community standard. In addition, no standards were used to assess DNA extraction biases (such as reported by 1 3 . The EZNA Mollusc DNA kit was used; I am not sufficiently familiar with this specific kit, compared to the bacterial kits, for example. This is the only case in which that kit is used in bacterial shotgun metagenomics, to my knowledge. I do not know what kinds of bias this introduces to the analysis. Overall, the use of non-standard methods requires new controls; some of which should be performed even when standard methods are employed. Comparisons to non-sequencing methods (ie. microscopy, flow cytometry, qPCR from several DNA extractions) would also inform evaluation of bias and uncertainty. The bioinformatic methods reveal problems interpreting the data. MEGAN is the core of the bioinformatics pipeline, which was tested on two existing synthetic datasets. ~11-12% of the reads were excluded for quality. 50-60% of the remaining reads were protein reads from NCBI. However, environmental and enrichment culture reads differed greatly in their assignment to known taxonomy. Almost all enrichment culture reads were assigned; only 80% of the quality and protein reads from the environment could be assigned. Eukaryotes account for a substantial fraction of the reads in HR2_B, but not in the others samples. Fungi are specifically reported in the enrichment cultures, suggesting that eukaryotes are indeed sequenced and analyzed. Given all this information, the lack of plant DNA in the other HR samples is counter-intuitive. Typically, host-associated shotgun metagenomic sequencing effort would benefit from draft host genome sequencing, to allow the host DNA to be removed bioinformatically (the way it was with the PhiX spike-in). Alternative (wet) methods to remove host DNA are also not evident. The reported microbial community compositions are unexpectedly simple. Perhaps the depth of sampling was inadequate; this could be assessed with a method such as 16S rRNA sequencing at a greater depth. The comparison of ‘taxonomic,’ ‘community,’ or ‘metabolic’ structures is undermined by the need to map reads to the KEGG database without assembly and with a very low rate of read mapping to NCBI proteins. Further, rarefaction (normalizing the total number of reads) is problematic 2 . Given the difficulties with data analysis, however, it seems unnecessary to give a detailed critique of the downstream analyses. Some organisms were present in the original samples which apparently survived in the enrichment culture. Some of these have been identified by sequencing, but it is unclear how many more may be present. No attempt was made to return to the original samples with probes for the organisms found during enrichment, nor were genomes assembled. With a significantly greater number of enrichments, multi-sample strategies might have been used to assemble genomes from distinct organisms 4 . These could be used to map reads from the original samples. Conclusions: Given that so few samples were examined, the study is best scaled to pilot a larger examination of similar treatment facilities. Samples were not studied in technical replicate, nor repeated in space across the tanks, nor across time at short and long time scales, or across related facilities, or facilities with other processing strategies. No experiments were performed which perturbed or altered the plant or microbial processes in the facility. As a result, most of the conclusions must be drawn with very limited statistical evaluation. Most of the conclusions are not effectively supported because the sample variance could not be estimated. Conclusions like “The aqueous microbial metagenome, collectively, contained a greater total for xenobiotic metabolism gene copies…” are unsupported. A starting hypothesis is that the fraction of reads from a sample assigned to xenobiotic degradation is indistinguishable from sample to sample, rather than being ordered (“produced the greatest number of sequences…”). Similarly, statements about the taxonomy ("relative abundance of Bacilli in the immersed biofilm communities was highly variable") are unsupported by the data. The "role of plants" ("The role plants have on influencing the structure of the root-colonizing microbial communities appeared to increase after the first three treatment tanks") could not be examined by single observations of the root and water within individual tanks. Nor could conclusions be reached about microbial community variation over time (see: “are likely to change with time, fluctuating…”), given that only a single time point was sampled. The results do not indicate that “the ecological WWTP is performing well with regard to attenuating fecal coliforms” given that infection can be caused by a low number of cells and the sensitivity of the sequencing to minor populations was uncharacterized. The discussion of phase partitioning of micropollutants ("PPCPs in the wastewater" and "Removal of PPCPs by the ecological WWTP") is outside my area of expertise. Generalization of microbial behavior at the level of species is problematic, particularly when inferring activity on complex organic substrates. Generalizing to families and phyla ( Rhizobiales , Firmicutes , Mycobacteria ... ) is inappropriate. Experiments with specific strains are required for effective experimental annotation of novel degradation pathways. Overall Review: This is an interesting pilot experiment for studies which collectively may result in conclusions of the sort reported in the paper. Method development and the sequencing of specific microbial and plant reference genomes will prepare a team for the extensive sampling and experimentation needed to assess the effectiveness and impact of this wastewater treatment strategy. The concentrations of micropollutants observed in these few samples suggest that they can be altered by such treatment, but that they also may circulate at increased concentrations as water is reused. References 1. Albertsen M, Hansen LB, Saunders AM, Nielsen PH, et al.: A metagenome of a full-scale microbial community carrying out enhanced biological phosphorus removal. ISME J . 2012; 6 (6): 1094-106 PubMed Abstract | Publisher Full Text 2. McMurdie PJ, Holmes S: Waste not, want not: why rarefying microbiome data is inadmissible. PLoS Comput Biol . 2014; 10 (4): e1003531 PubMed Abstract | Publisher Full Text 3. Guo F, Zhang T: Biases during DNA extraction of activated sludge samples revealed by high throughput sequencing. Appl Microbiol Biotechnol . 2013; 97 (10): 4607-16 PubMed Abstract | Publisher Full Text 4. Sangwan N, Xia F, Gilbert JA: Recovering complete and draft population genomes from metagenome datasets. Microbiome . 2016; 4 : 8 PubMed Abstract | Publisher Full Text Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (1) Author Response 28 Sep 2016 Ian Balcom, Lyndon State College, Lyndonville, USA Thank you for the thoughtful review of our work and helpful feedback. We will be incorporating many of your suggestions into future studies, which will be focusing on increasing replication. Here are responses to some of your comments on the extraction methods used here: The Modified Omega Mollusc Kit protocol used in this study was modified to act as a pre -packaged CTAB kit described J Zhou and Ed Moore; DNA recovery from soils of diverse composition. Appl Environ Microbiol. 1996 Feb;62(2):316-22. Zhou J, Bruns MA, Tiedje JM. Simplified protocols for the preparation of genomic DNA from bacterial cultures. Molecular Microbial Ecology Manual, 2nd Edition 1.01: 3–18, 2004. E. Moore, A Arnscheidt, A. Kruger, C. Strompl, M. Mau This CTAB protocol has also been described in the following manuscript with the following modifications: A pre-extraction metagenomics bacterial cell wall digestion was performed using a multi-component enzyme mix described below in the MetaSub paper. This enzyme is manufactured by Sigma and will be commercially available in Q1 2017. The Metagenomics and Metadesign of the Subways and Urban Biomes (MetaSUB) International Consortium inaugural meeting report. The MetaSUB International Consortium. Microbiome. 2016 4:24 This Reference data and method is also available on the following websites : https://abrf.org/sites/default/files/temp/RGs/MGRG/narg-meta-2013_final_poster_forprinter.pptx http://extrememicrobiome.org/links/ Comments on DNA kit Negative and Library Negatives : Our core facility runs DNA extraction kit negatives on the lot of reagents from both Sigma and Omega BioTek as a "process control" and quantifies the negative using the Qubit High Sensitivity kit. We do not sequence negative controls that have values that are below detection limit [BDL]. A Negative control is processed for each group of DNA library samples. Comments on DNA extraction bias and microbial standards : Currently there is no approved microbial whole cell reference standards. However, the ABRF Metagenomics research group is currently in the process of distributing 6 through a collaboration with ATCC. The ABRF is the first group to make a whole cell microbial standard. Further the ABRF has assembled the Class 1 and Class1+ genomic microbial standard that will also be distributed through the ATCC. This topic was discussed at great length at the NIST Microbiome standards meeting in Gaitherburg MD on Aug 8th as communicated by Scott Tighe. Scott Tighe is the current lab manager that performed this work, is one of four co-leaders of the NIST International Microbiome Metagenomics Standards Alliance [IMMSA] and presented these bottle necks on day 2 session 3. It is well recognized that whole cell quantitative standards do not exist; therefore, the reviewer must understand that doing DNA extraction bias studies are a large undertaking. The ABRF-ATCC whole cell microbial Class 1 reference standard will help us understand the DNA biases in the the entire field of microbiome and not just rely on a simple MoBio protocol. It should be pointed out to the reviewer that Zymo's Zymobiotics bacterial standard is not whole cell, but rather suspended in SDS as a preservative and can not be used for DNA extraction bias studies. https://www.nist.gov/news-events/events/2016/08/standards-microbiome-measurements-workshop View more View less Competing Interests No competing interests to declare. reply Respond Report a concern 
+ 
+ Kirkup​ BC. Peer Review Report For: Metagenomic analysis of an ecological wastewater treatment plant’s microbial communities and their potential to metabolize pharmaceuticals [version 1; peer review: 1 approved, 1 approved with reservations] . F1000Research 2016, 5 :1881 ( https://doi.org/10.5256/f1000research.9854.r16355) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/5-1881/v1#referee-response-16355 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Metagenomic analysis of an ecological wastewater...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/5-1881/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/5-1881/v1&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/5-1881/v1" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Balcom IN et al.');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/5-1881/v1/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/5-1881",
+ templates : {
+ twitter : "Metagenomic analysis of an ecological wastewater treatment plant\u2019s.... Balcom IN et al., published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/5-1881/v1"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Metagenomic analysis of an ecological wastewater treatment plant\u2019s microbial communities and their potential to metabolize pharmaceuticals", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Research Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Metagenomic analysis of an ecological wastewater treatment plant\u2019s microbial communities and their potential to metabolize pharmaceuticals", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/9157/9854")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "9854");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "16961": 0,
+ "16712": 0,
+ "15371": 0,
+ "15372": 0,
+ "15824": 0,
+ "15765": 0,
+ "15766": 0,
+ "15767": 0,
+ "16352": 0,
+ "16353": 0,
+ "16354": 0,
+ "16355": 36,
+ "15279": 0,
+ "15280": 0,
+ "15281": 0,
+ "15282": 0,
+ "15283": 0,
+ "15284": 0,
+ "15285": 0,
+ "15286": 0,
+ "16567": 0,
+ "17271": 0,
+ "16568": 0,
+ "17272": 0,
+ "17273": 21,
+ "16569": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "018b266a-6e13-4efb-8cd7-fc037774f608";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

@@ -1,0 +1,18 @@
+The authors have responded very positively to the reviewer comments. I have a few very
+minor further points.
+1. The term multivariate is used when it should be multivariable. Multivariate indicates
+multiple outcomes, whereas here there is just one - the models are univariate
+multivariable.
+2. Looking at the confidence intervals for the spline curves, I'm puzzled that they don't
+diverge at the extremes. In Figure 6 for example, the confidence limits for the left hand
+curve segments are essentially linear, whereas I would expect them to splay out at the
+ends in the way they do at the right end of the right hand curve. This arises due to
+uncertainty in the slope.
+However I'm not saying they're wrong, but do please check them.
+
+3. The numerical presentation is generally compact, and accords with guidelines I've
+published on the subject - https://adc.bmj.com/content/100/7/608. However percentages
+are given in the text to one decimal place where whole numbers would be easier to read
+and just as informative. In any case the percentages can often be calculated from the
+numbers. Alternatively one can use two significant digits.
+Tim Cole

@@ -1,0 +1,38 @@
+Petri Böckerman
+The paper examines the effect of education on cardiovascular disease in the UK. The
+effects are identified using mendelian randomization that is based on genetic markers. The
+paper makes a useful contribution to the existing empirical literature. But there are also
+issues that have to be addressed in the revised version, as detailed in the comments for
+the author(s).
+Comments to the author(s)
+1. The empirical context of the study should be motivated in the revised introduction.
+2. Are the data using the UK biobank nationally representative or not? This issue should be
+stated explicitly in the section on data.
+3. The paper should discuss more about the differences in the point estimates. Why the
+quantitative size of the IV estimate is substantially higher than the corresponding OLS
+estimate? What this pattern reveals about the contribution of unobservables and the
+omitted-variable bias in OLS estimation?
+
+4. The IV estimation using mendelian randomization based on generic markers identifies
+the LATE (Local Average Treatment Effect) for compliers, which is (generally) not the same
+parameter that is identified using OLS estimation. Is it possible to state useful facts about
+the compliers in IV estimation? This is an important issue, because the compliers may
+differ substantially from the average population in the UK biobank data. What is the
+external validity of the IV estimates that are presented in the paper? Is it appropriate to
+guide policy setting based on the IV estimates alone?
+5. Is it possible to estimate the IV models using different polygenic scores for education in
+order to assess the sensitivity of the IV estimates. Different polygenic scores may operate
+through different biological mechanisms and thus may have different LATEs that may be
+relevant for policy conclusions (see also point 4 above).
+6. The models are adjusted for covariates (page 9). Is birth distance from London a
+predetermined variable or not? It is a well-established fact that migration is highly
+selective.
+7. The revised version would benefit of mentioning that there are earlier empirical studies
+on the effect of years of education on health using mendelian randomization to identify
+causal effects (https://doi.org/10.1016/j.ypmed.2017.06.015).
+8. The empirical analysis does not consider the potential heterogeneity in the estimated
+effects. The relationships can differ significantly e.g. by gender/age. The average effects
+that are presented in the paper tend to mask substantial heterogeneity in the responses
+that are relevant for optimal policy design.
+9. The concluding section of the paper should discuss more about the practical policy
+lessons that can be drawn from the estimation results.

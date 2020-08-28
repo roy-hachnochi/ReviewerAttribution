@@ -1,0 +1,1503 @@
+
+
+    <!DOCTYPE html>
+<html class="">
+
+        
+<head>
+    <title>Case Report: Longitudinal assessment of a... | F1000Research</title>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>-->
+    <!--<meta lang="$locale">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="9-QVycOO2_ob3Z9QzRmXv2CF08A9oyYXqWyTiVdKPlU" />
+    <!-- This is commented out to fix display problems on mobile devices.
+    We may use it again once we implement a responsive design that supports native device resolutions.
+    <meta name="viewport" content="width=device-width"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <link rel="alternate" title="Recent articles published in F1000Research" href="/rss" type="application/rss+xml">
+            <link rel="alternate" type="application/pdf" title="PDF" href="https://f1000research.com/articles/9-972/pdf"/>
+        <link rel="canonical" href="https://f1000research.com/articles/9-972" />
+    
+            <meta name="description" content="Read the original article in full on F1000Research: Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic" />
+    
+            <meta name="og:title" content="F1000Research Article: Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic.">
+            <meta name="og:description" content="Read the latest article version by Rashid A. Chotani, Syed S. Ashraf, Fatima Aziz, Shakeel M. Thakurdas, Afham Chotani, Alize Ashraf, Khurram Nasir, M. Rizwan Sohail, Faisal H. Cheema, at F1000Research.">
+            <meta name="og:image" content="/img/sharing/og_research.png">
+            <meta name="version-id" content="27484">
+            <meta name="article-id" content="24911">
+            <meta name="dc.title" content="Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic">
+            <meta name="dc.description" content="Directional clinical evaluation and management of coronavirus disease (Covid-19) was initially presumptive based on the Wuhan data set as reported by World Health Organization (WHO). The current recommendations emanate primarily from the Chinese experience and subsequent Centers for Disease Control and Prevention (CDC) guidelines. Here we report a case with an &ldquo;atypical&rdquo; patient risk profile and variant longitudinal disease progression contrasting from existing recommendations. Our case report suggests that a universal 14-day quarantine timeline may not be sufficient; that correlation is needed between viral presence as determined by RT-PCR and a patient&rsquo;s humoral response tested by serologic immunoassay of IgM &amp;amp; IgG. Hence, a clinical decision-making algorithm that can help clinicians clear a patient from &ldquo;active infection&rdquo; status would require testing that is sufficiently reliable, and should include serological testing for immunity.">
+            <meta name="dc.subject" content="COVID-19, Coronavirus, Pandemic, Pneumonia, SARS, Respiratory, Throat swab">
+            <meta name="dc.creator" content="Chotani, Rashid A.">
+            <meta name="dc.creator" content="Ashraf, Syed S.">
+            <meta name="dc.creator" content="Aziz, Fatima">
+            <meta name="dc.creator" content="Thakurdas, Shakeel M.">
+            <meta name="dc.creator" content="Chotani, Afham">
+            <meta name="dc.creator" content="Ashraf, Alize">
+            <meta name="dc.creator" content="Nasir, Khurram">
+            <meta name="dc.creator" content="Sohail, M. Rizwan">
+            <meta name="dc.creator" content="Cheema, Faisal H.">
+            <meta name="dc.date" content="2020/08/11">
+            <meta name="dc.identifier" content="doi:10.12688/f1000research.24911.1">
+            <meta name="dc.source" content="F1000Research 2020 9:972">
+            <meta name="dc.format" content="text/html">
+            <meta name="dc.language" content="en">
+            <meta name="dc.publisher" content="F1000 Research Limited">
+            <meta name="dc.rights" content="https://creativecommons.org/licenses/by/3.0/igo/">
+            <meta name="dc.type" content="text">
+            <meta name="prism.keyword" content="COVID-19">
+            <meta name="prism.keyword" content="Coronavirus">
+            <meta name="prism.keyword" content="Pandemic">
+            <meta name="prism.keyword" content="Pneumonia">
+            <meta name="prism.keyword" content="SARS">
+            <meta name="prism.keyword" content="Respiratory">
+            <meta name="prism.keyword" content="Throat swab">
+            <meta name="prism.publication.Name" content="F1000Research">
+            <meta name="prism.publicationDate" content="2020/08/11">
+            <meta name="prism.volume" content="9">
+            <meta name="prism.number" content="972">
+            <meta name="prism.versionIdentifier" content="1">
+            <meta name="prism.doi" content="10.12688/f1000research.24911.1">
+            <meta name="prism.url" content="https://f1000research.com/articles/9-972">
+            <meta name="citation_title" content="Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic">
+            <meta name="citation_abstract" content="Directional clinical evaluation and management of coronavirus disease (Covid-19) was initially presumptive based on the Wuhan data set as reported by World Health Organization (WHO). The current recommendations emanate primarily from the Chinese experience and subsequent Centers for Disease Control and Prevention (CDC) guidelines. Here we report a case with an &ldquo;atypical&rdquo; patient risk profile and variant longitudinal disease progression contrasting from existing recommendations. Our case report suggests that a universal 14-day quarantine timeline may not be sufficient; that correlation is needed between viral presence as determined by RT-PCR and a patient&rsquo;s humoral response tested by serologic immunoassay of IgM &amp;amp; IgG. Hence, a clinical decision-making algorithm that can help clinicians clear a patient from &ldquo;active infection&rdquo; status would require testing that is sufficiently reliable, and should include serological testing for immunity.">
+            <meta name="citation_description" content="Directional clinical evaluation and management of coronavirus disease (Covid-19) was initially presumptive based on the Wuhan data set as reported by World Health Organization (WHO). The current recommendations emanate primarily from the Chinese experience and subsequent Centers for Disease Control and Prevention (CDC) guidelines. Here we report a case with an &ldquo;atypical&rdquo; patient risk profile and variant longitudinal disease progression contrasting from existing recommendations. Our case report suggests that a universal 14-day quarantine timeline may not be sufficient; that correlation is needed between viral presence as determined by RT-PCR and a patient&rsquo;s humoral response tested by serologic immunoassay of IgM &amp;amp; IgG. Hence, a clinical decision-making algorithm that can help clinicians clear a patient from &ldquo;active infection&rdquo; status would require testing that is sufficiently reliable, and should include serological testing for immunity.">
+            <meta name="citation_keywords" content="COVID-19, Coronavirus, Pandemic, Pneumonia, SARS, Respiratory, Throat swab">
+            <meta name="citation_journal_title" content="F1000Research">
+            <meta name="citation_author" content="Rashid A. Chotani">
+            <meta name="citation_author_institution" content="University of Nebraska Medical Center, Omaha, NE, USA">
+            <meta name="citation_author_institution" content="IEM, Morrisville, NC, USA">
+            <meta name="citation_author_institution" content="CareLife Medical, Fairfax, VA, USA">
+            <meta name="citation_author_institution" content="Washington Vascular Specialists, Takoma Park, MD, USA">
+            <meta name="citation_author" content="Syed S. Ashraf">
+            <meta name="citation_author_institution" content="CareLife Medical, Fairfax, VA, USA">
+            <meta name="citation_author" content="Fatima Aziz">
+            <meta name="citation_author_institution" content="CareLife Medical, Fairfax, VA, USA">
+            <meta name="citation_author" content="Shakeel M. Thakurdas">
+            <meta name="citation_author_institution" content="invinciMeD, Houston, TX, USA">
+            <meta name="citation_author" content="Afham Chotani">
+            <meta name="citation_author_institution" content="Lake Erie College of Osteopathic Medicine, Erie, PA, USA">
+            <meta name="citation_author" content="Alize Ashraf">
+            <meta name="citation_author_institution" content="Langley High School, Mclean, VA, USA">
+            <meta name="citation_author" content="Khurram Nasir">
+            <meta name="citation_author_institution" content="Houston Methodist DeBakey Heart and Vascular Center, Houston, TX, USA">
+            <meta name="citation_author" content="M. Rizwan Sohail">
+            <meta name="citation_author_institution" content="Mayo Clinic, Rochester, MN, USA">
+            <meta name="citation_author" content="Faisal H. Cheema">
+            <meta name="citation_author_institution" content="HCA Research Institute, Nashville, TN, USA">
+            <meta name="citation_author_institution" content="University of Houston College of Medicine, Houston, TX, USA">
+            <meta name="citation_author_institution" content="invinciMeD, Houston, TX, USA">
+            <meta name="citation_publication_date" content="2020/08/11">
+            <meta name="citation_volume" content="9">
+            <meta name="citation_publication_number" content="972">
+            <meta name="citation_version_number" content="1">
+            <meta name="citation_doi" content="10.12688/f1000research.24911.1">
+            <meta name="citation_firstpage" content="972">
+            <meta name="citation_pdf_url" content="https://f1000research.com/articles/9-972/v1/pdf">
+    
+
+    
+    <link href="/img/favicon-research.ico" rel="shortcut icon" type="image/ico">
+    <link href="/img/favicon-research.ico" rel="icon" type="image/ico">
+
+        <link rel="stylesheet" href="/1597255280893/css/mdl/material-design-lite.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/2.2.43/css/materialdesignicons.min.css" />
+
+        
+            
+    <link rel="stylesheet" href="/1597255280893/css/F1000Research.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/css/F1000ResearchFontIcons/animation.css" type="text/css" media="all" />
+
+        <!--[if IE 7]><link rel="stylesheet" href="/css/F1000ResearchFontIcons/F1000ResearchFontIcons-ie7.css" media="all" /><![endif]-->
+
+                    <script>dataLayer = [];</script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-54Z2SBK');</script>
+        <!-- End Google Tag Manager -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+    <script src="/1597255280893/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+    <script src="/1597255280893/js/shared_scripts/sticky.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/shared_scripts/menu.js"></script>
+    <script src="/1597255280893/js/shared_scripts/navbar.js"></script>
+    <script src="/1597255280893/js/shared_scripts/platforms.js"></script>
+    <script src="/1597255280893/js/shared_scripts/object-polyfills.js"></script>
+            <script src="/1597255280893/js/vendor/lodash.min.js"></script>
+        <script>CKEDITOR_BASEPATH='https://f1000research.com/js/ckeditor/'</script>
+    <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/plugins.js"></script>
+    <script src="/1597255280893/js/shared_scripts/helpers.js"></script>
+    <script src="/1597255280893/js/app/research.js"></script>
+    <script>window.reactTheme = 'research';</script>
+    <script src="/1597255280893/js/public/bundle.js"></script>
+
+    <script src="/1597255280893/js/app/research.ui.js"></script>
+    <script src="/1597255280893/js/app/login.js"></script>
+    <script src="/1597255280893/js/app/main.js"></script>
+    <script src="/1597255280893/js/app/js-date-format.min.js"></script>
+    <script src="/1597255280893/js/app/search.js"></script>
+    <script src="/1597255280893/js/app/cookies_warning.js"></script>
+    <script src="/1597255280893/js/mdl/mdl.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                <script src="https://f1000researchdata.s3-eu-west-1.amazonaws.com/js/ckeditor.js"></script>
+            <script src="/js/ckeditor/adapters/jquery.js"></script>
+                <script src="/js/article/article_scrolling_module.js"></script>
+            <script src="/js/article/article_stats.js"></script>
+            <script src="/js/article/article.js"></script>
+            <script src="/js/shared_scripts/referee_timeline_pagination.js"></script>
+            <script src="/js/app/text_editor_controller.js"></script>
+            <script src="//s7.addthis.com/js/250/addthis_widget.js#pubid=ra-503e5e99593dc42c"></script>
+            <script src="/js/article/article_metrics.js"></script>
+        
+                                                                            <script>
+            if (window.location.hash == '#_=_'){
+                window.location = window.location.href.split('#')[0]
+            }
+        </script>
+
+                    
+        
+    <!-- pixelId: 1641728616063202 :: assetPixelId: 6034867600215 :: funderPixelId:  -->
+
+            <!-- Facebook pixel code (merged with EP GTM code) -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+
+            {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+            ;if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1641728616063202');
+
+            
+            fbq('track', "PixelInitialized", {});
+        </script>
+
+        <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1641728616063202&noscript=1&amp;ev=PixelInitialized"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+    
+                <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:917825,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+    
+</head>
+<body  class="o-page-container no-js p-article o-layout-reset   ">
+
+    
+                            <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54Z2SBK"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+        
+    <div class="o-page">
+
+        <div id="notify-container"></div>
+        <div id="pageWarning"></div>
+        <div id="pageMessage"></div>
+        <div id="pageFooterMessage"></div>
+
+                                <div id="f1r-ga-data" data-name="f1r-ga-data" class="f1r-ga-data"
+                data-user-registered="false"
+                data-user-module=""
+                data-current-path=""
+                data-location=""
+                data-website="F1000Research"
+                data-websiteDisplayName="F1000Research">
+            </div>
+        
+                
+        
+        <div class="header-wrapper   js-navbar-space ">
+                            
+
+
+    
+
+
+
+
+
+
+
+
+
+
+        
+                            
+    
+            
+
+
+
+<nav class="c-navbar js-navbar js-mini-nav js-sticky c-navbar--js-sticky c-navbar--userSite c-navbar__platform-bgcolor  c-navbar--bg-f1000research ">
+
+    <div class="c-navbar__content">
+
+                                <div class="c-navbar__extras">
+            <div class="o-wrapper">
+                <div class="o-actions o-actions--middle c-navbar__extras-row">
+                    <div class="o-actions__primary">
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+
+        <div class="o-wrapper t-inverted js-sticky-start">
+
+            <div class="c-navbar__branding-row">
+                <div class="c-navbar__row">
+
+
+                                        
+                    <div class="c-navbar__primary u-mr--2">
+
+                                                                                                                                                                                                    <a href="/" class="c-navbar__branding u-ib u-middle"   data-test-id="nav_branding"  >
+                                <img class="u-ib u-middle" src="/img/research/F1000Research_white_solid.svg" alt="F1000Research">
+                            </a>
+                                            </div>
+
+                    <div class="c-navbar__secondary c-navbar__row">
+
+
+                                                
+                                                    <form action="/search" class="-navbar__secondary u-mr--2 c-search-form js-search-form u-hide u-show@navbar">
+                                <label for="searchInput" class="c-search-form__label _mdl-layout">
+                                    <input name="q" type="search" class="c-search-form__input" id="searchInput" placeholder="Search">
+                                    <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                </label>
+                            </form>
+                        
+                                                
+                                                    <div class="c-navbar__primary u-hide u-show@navbar">
+                                <div class="_mdl-layout c-navbar__cta">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--no-shadow mdl-button--multi-line mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                            </div>
+                        
+
+                                                
+                        <span class="u-hide@navbar _mdl-layout u-nowrap">
+
+                                                            <button type="button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" data-focus="#navbar_mob_search_input" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_search_mob"  ><i class="material-icons">search</i></button>
+                            
+                                                            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-button--multi-line c-navbar__toggle c-navbar__toggle--menu js-navbar-toggle" type="button" data-toggle="navbarMenu" data-target="navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation"   data-test-id="nav_menu_toggle_mob"  >
+                                    <i class="material-icons c-navbar__toggle-open">menu</i>
+                                    <i class="material-icons c-navbar__toggle-close">close</i>
+                                </button>
+                                                    </span>
+                    </div>
+
+                </div>
+            </div>
+
+                        
+                            <div class="c-navbar__menu-row js-navbar-block is-collapsed" id="navbarMenu">
+
+                                                                                                                                                
+                                                                    
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                            
+
+                                                                
+                                                                                                                                                                                                                                
+                                            
+                    <div class="c-navbar__menu-row-content">
+
+                                                                            <div class="u-hide@navbar c-navbar__menu-bar-spacing">
+                                <form action="/search" class="c-search-form js-search-form">
+                                    <label for="navbar_mob_search_input" class="c-search-form__label _mdl-layout">
+                                        <input id="navbar_mob_search_input" name="q" type="search" class="c-search-form__input" placeholder="Search">
+                                        <button type="submit" class="c-search-form__submit mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">search</i></button>
+                                    </label>
+                                </form>
+                            </div>
+                        
+                        <div class="o-actions o-actions--middle">
+
+                            <div class="o-actions__primary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="main-menu"   role="menubar" aria-label="Main Navigation"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/browse/articles" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="0"
+                              data-test-id="nav_browse"                              >Browse</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/gateways" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_gatewaysViewAndBrowse"                              >Gateways & Collections</a>
+
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="2"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_for-authors"                              >How to Publish</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="How to Publish">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_submit-manuscript"                      href="/for-authors/publish-your-research"
+                    role="menuitem"
+                    tabindex="0">Submit your Research</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/for-authors/my-submissions"
+                    role="menuitem"
+                    tabindex="-1">My Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines"                      href="/for-authors/article-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-guidelines-new-versions"                      href="/for-authors/article-guidelines-new-versions"
+                    role="menuitem"
+                    tabindex="-1">Article Guidelines (New Versions)</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_data-guidelines"                      href="/for-authors/data-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Data Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_asset-guidelines"                      href="/for-authors/posters-and-slides-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Posters and Slides Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_document-guidelines"                      href="/for-authors/document-guidelines"
+                    role="menuitem"
+                    tabindex="-1">Document Guidelines</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_article-processing-charges"                      href="/for-authors/article-processing-charges"
+                    role="menuitem"
+                    tabindex="-1">Article Processing Charges</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_finding-referees"                      href="/for-authors/tips-for-finding-referees"
+                    role="menuitem"
+                    tabindex="-1">Finding Article Reviewers</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="3"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="-1"
+                              data-test-id="nav_about-contact"                              >About</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="About">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_about-page"                      href="/about"
+                    role="menuitem"
+                    tabindex="0">How it Works</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_referee-guidelines"                      href="/for-referees/guidelines"
+                    role="menuitem"
+                    tabindex="-1">For Reviewers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_advisoryPanel"                      href="/advisors"
+                    role="menuitem"
+                    tabindex="-1">Our Advisors</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_policy-page"                      href="/about/policies"
+                    role="menuitem"
+                    tabindex="-1">Policies</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_glossary-page"                      href="/glossary"
+                    role="menuitem"
+                    tabindex="-1">Glossary</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_faqs-page"                      href="/faqs"
+                    role="menuitem"
+                    tabindex="-1">FAQs</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              u-hide u-show@navbar"
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      u-hide u-show@navbar"
+                                          data-test-id="nav_for-developers"                      href="/developers"
+                    role="menuitem"
+                    tabindex="-1">For Developers</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_newsroom-page"                      href="/newsroom"
+                    role="menuitem"
+                    tabindex="-1">Newsroom</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_contact-page"                      href="/contact"
+                    role="menuitem"
+                    tabindex="-1">Contact</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="4"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="https://blog.f1000.com/blogs/f1000research/" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                             target="_blank"                                                         tabindex="-1"
+                              data-test-id="nav_blog"                              >Blog</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                            <div class="o-actions__secondary">
+
+                                                                
+    <ul class="c-menubar c-navbar__menu-bar js-main-menu"   id="secondary-items"   role="menubar" aria-label="My Account"  data-menu-group="navbar" >
+
+        
+            
+                                                                
+                                
+                                
+                                    <li role="none"
+                        data-index="0"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                               c-menubar__item--selected c-navbar__menu-bar-item--parent ">
+
+                        <a href="#" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                         aria-haspopup="true" aria-expanded="false"                             tabindex="0"
+                              data-test-id="nav_my-research"                              >My Research</a>
+
+                                                    
+    <ul class="c-menu js-menu
+                is-collapsed                c-menubar__menu c-navbar__menu"
+                  role="menu"
+        aria-label="My Research">
+
+        
+            
+                                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-submissions"                      href="/login?originalPath=/my/submissions"
+                    role="menuitem"
+                    tabindex="0">Submissions</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-email-alerts"                      href="/login?originalPath=/my/email-alerts"
+                    role="menuitem"
+                    tabindex="-1">Content and Tracking Alerts</a>
+
+                </li>
+
+                    
+            
+                
+                                
+                <li class="c-menu__item js-menu-item
+                                              "
+                        role="none">
+
+                <a  class="c-menu__link js-menu-link
+                                                      "
+                                          data-test-id="nav_my-user-details"                      href="/login?originalPath=/my/user-details"
+                    role="menuitem"
+                    tabindex="-1">My Details</a>
+
+                </li>
+
+                        </ul>
+                                            </li>
+                
+            
+        
+            
+                                                                
+                
+                                
+                                    <li role="none"
+                        data-index="1"
+                        class="c-menubar__item js-menu-item  c-navbar__menu-bar-item
+                                                              ">
+
+                        <a href="/login?originalPath=/articles/9-972.html" class="c-navbar__menu-bar-link js-menu-link " role="menuitem"
+                                                                                    tabindex="-1"
+                              data-test-id="nav_sign-in"                              >Sign In</a>
+
+                                            </li>
+                
+            
+        
+    </ul>
+
+
+
+                            </div>
+
+                                                                                        <div class="_mdl-layout c-navbar__cta u-hide@navbar c-navbar__menu-bar-spacing">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--multi-line mdl-button--no-shadow mdl-js-ripple-effect mdl-button--inverted c-navbar__submit" href="/for-authors/publish-your-research"   data-test-id="nav_submit_research_mob"  ><i class="material-icons">file_upload</i>Submit your research</a>
+                                </div>
+                                                    </div>
+
+                    </div>
+
+                </div>
+            
+        </div>
+
+    </div>
+
+</nav>
+                    </div>
+
+        <div class="content-wrapper o-page__main row ">
+            <div id="highlight-area" class="content ">
+                
+
+
+
+
+
+<div id=article-metadata class=hidden> <input type=hidden name=versionId value=27484 /> <input type=hidden id=articleId name=articleId value=24911 /> <input type=hidden id=xmlUrl value="/articles/9-972/v1/xml"/> <input type=hidden id=xmlFileName value="-9-972-v1.xml"> <input type=hidden id=article_uuid value=7862845f-602e-4652-b937-4e3821744067 /> <input type=hidden id=referer value=""/> <input type=hidden id=meta-article-title value="Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic"/> <input type=hidden id=workspace-export-url value="https://sciwheel.com/work/api/import/external?doi=10.12688/f1000research.24911.1"/> <input type=hidden id=versionDoi value="10.12688/f1000research.24911.1"/> <input type=hidden id=usePmcStats value=true /> </div> <main class="o-wrapper p-article__wrapper js-wrapper"> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://f1000research.com/articles/9-972"
+  },
+  "headline": "Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic",
+  "datePublished": "2020-08-11T14:08:36",
+  "dateModified": "2020-08-11T14:08:36",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rashid A. Chotani"
+    },    {
+      "@type": "Person",
+      "name": "Syed S. Ashraf"
+    },    {
+      "@type": "Person",
+      "name": "Fatima Aziz"
+    },    {
+      "@type": "Person",
+      "name": "Shakeel M. Thakurdas"
+    },    {
+      "@type": "Person",
+      "name": "Afham Chotani"
+    },    {
+      "@type": "Person",
+      "name": "Alize Ashraf"
+    },    {
+      "@type": "Person",
+      "name": "Khurram Nasir"
+    },    {
+      "@type": "Person",
+      "name": "M. Rizwan Sohail"
+    },    {
+      "@type": "Person",
+      "name": "Faisal H. Cheema"
+    }  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "F1000Research",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+      "height": 480,
+      "width": 60
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://f1000research.com/img/AMP/F1000Research_image.png",
+    "height": 1200,
+    "width": 150
+  },
+  "description": "Directional clinical evaluation and management of coronavirus disease (Covid-19) was initially presumptive based on the Wuhan data set as reported by World Health Organization (WHO). The current recommendations emanate primarily from the Chinese experience and subsequent Centers for Disease Control and Prevention (CDC) guidelines. Here we report a case with an &ldquo;atypical&rdquo; patient risk profile and variant longitudinal disease progression contrasting from existing recommendations. Our case report suggests that a universal 14-day quarantine timeline may not be sufficient; that correlation is needed between viral presence as determined by RT-PCR and a patient&rsquo;s humoral response tested by serologic immunoassay of IgM &amp;amp; IgG. Hence, a clinical decision-making algorithm that can help clinicians clear a patient from &ldquo;active infection&rdquo; status would require testing that is sufficiently reliable, and should include serological testing for immunity."
+}
+</script> <div class="o-layout o-layout--right-gutter"> <div id=article_secondary-column class="p-article__main o-layout__item u-font-size--legal u-2/3@article not-expanded "> <div class=float-left> <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+              {
+          "@type": "ListItem",
+          "position": "1",
+          "item": {
+            "@id": "https://f1000research.com/",
+            "name": "Home"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "2",
+          "item": {
+            "@id": "https://f1000research.com/browse/articles",
+            "name": "Browse"
+          }
+        },              {
+          "@type": "ListItem",
+          "position": "3",
+          "item": {
+            "@id": "https://f1000research.com/articles/9-972/v1",
+            "name": "Case Report: Longitudinal assessment of a COVID-19 patient in the..."
+          }
+        }          ]
+  }
+  </script> <div class="breadcrumbs js-breadcrumbs"> <a href="/" class=f1r-standard-link>Home</a> <span class=item_separator></span> <a href="/browse/articles" class=f1r-standard-link>Browse</a> <span class=item_separator></span> Case Report: Longitudinal assessment of a COVID-19 patient in the... </div> </div> <div class="article-badges-container u-mb--2"> <div class=crossmark-new> <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script> <a data-target=crossmark><img height=30 width=150 src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg"/></a> </div> <div id=crossmark-dialog style="display: none;" title=""> <iframe id=crossmark-dialog-frame frameborder=0></iframe> </div> <div class=clearfix></div> </div> <div class=article-interaction-container> <div id=main-article-count-box class=article-count-box> <div class="article-metrics-wrapper metrics-icon-wrapper" data-version-id=27484 data-id=24911 data-downloads="" data-views="" data-scholar="10.12688/f1000research.24911.1" data-recommended="" data-doi="10.12688/f1000research.24911.1" data-f1r-ga-helper="Article Page Metrics (Desktop)"> <span class="metrics-on-browse article-metrics-icon f1r-icon icon-89_metrics"></span> <div class="count-title article-metrics-text">ALL Metrics</div> <div class=js-article-metrics-container></div> </div> <div> <div class=count-delimiter></div> <div title="Total views from F1000Research and PubMed Central"> <div class="count-container view-count js-views-count">-</div> <div class=count-title><span class="count-title-icon count-title-views-icon"></span>Views</div> </div> <div class=download-counts hidden> <div class=count-delimiter></div> <div title="Total downloads from F1000Research and PubMed Central"> <div class="count-container js-downloads-count"></div> <div class=count-title><span class="count-title-icon f1r-icon icon-76_download_file"></span>Downloads</div> </div> </div> </div> </div> <div id=main-article-interaction-box class="article-interaction-box has-control-tab"> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-102_download_pdf"></span> <a href="https://f1000research.com/articles/9-972/v1/pdf?article_uuid=7862845f-602e-4652-b937-4e3821744067" title="Download PDF" class="button-link download pdf-download-helper" target=_blank>Get PDF</a> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-103_download_xml"></span> <a id=download-xml href="#" class="button-link download" title="Download XML">Get XML</a> </div> </div> <div class="article-interaction-info article-page"> <div class="cite-article-popup-wrapper article-page-interaction-box"> <div class="article-interaction-button cite-article-button" title="Cite this article" data-windowref=cite-article-popup-24911-1> <span class="f1r-icon icon-82_quote"></span> <a href="#" class="button-link cite-article-popup-link" title="Cite Article">Cite</a> </div> <div id=cite-article-popup-24911-1 class="popup-window-wrapper is-hidden"> <div class=cite-popup-background></div> <div class="popup-window top-popup cite-this-article-box research-layout"> <div class="popup-window-title small cite-title">How to cite this article</div> <span id=cite-article-text-24911-1 data-test-id=copy-citation_text> <span class="article-title-and-info in-popup">Chotani RA, Ashraf SS, Aziz F <em>et al.</em> Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic [version 1; peer review: awaiting peer review]</span>. <i>F1000Research</i> 2020, <b>9</b>:972 (<a class=new-orange href="https://doi.org/10.12688/f1000research.24911.1" target=_blank>https://doi.org/10.12688/f1000research.24911.1</a>) </span> <div class="popup-window-title small margin-top-20 margin-bottom-20 note"> <strong>NOTE:</strong> it is important to ensure the information in square brackets after the title is included in all citations of this article. </div> <div class=float-right> <button class="secondary no-fill orange-text-and-border margin-right-20 close-cite-popup uppercase">Close</button> <button id=copy-citation-details class="secondary orange copy-cite-article-version uppercase js-clipboard" title="Copy the current citation details to the clipboard." data-clipboard-target="#cite-article-text-24911-1" data-test-id=copy-citation_button>Copy Citation Details</button> </div> </div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-76_download_file"></span> <a id=export-citation href="#" class="button-link download" title="Export Citation">Export</a> </div> <div class="modal-window-wrapper is-hidden"> <div id=export-citation-popup class="modal-window padding-20"> <div class=modal-window-close-button></div> <div class=modal-window-title>Export Citation</div> <div class=modal-window-row> <div> <input type=radio name=export-citation-option value=WORKSPACE /> <span class=radio-label>Sciwheel</span> </div> <div> <input type=radio name=export-citation-option value=ENDNOTE /> <span class=radio-label>EndNote</span> </div> <div> <input type=radio name=export-citation-option value=REF_MANAGER /> <span class=radio-label>Ref. Manager</span> </div> <div> <input type=radio name=export-citation-option value=BIBTEX /> <span class=radio-label>Bibtex</span> </div> <div> <input type=radio name=export-citation-option value=PROCITE /> <span class=radio-label>ProCite</span> </div> <div> <input type=radio name=export-citation-option value=SENTE /> <span class=radio-label>Sente</span> </div> </div> <div class=modal-window-footer> <button class=general-white-orange-button id=export-citation-submit>EXPORT</button> </div> <div class=default-error style="display: none;">Select a format first</div> </div> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-90_track"></span> <a class="button-link track-article" data-article-id=24911 id=track-article-signin-24911 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/24911?target=/articles/9-972/v1">Track</a> </div> </div> <div class="article-interaction-info article-page"> <div class="article-interaction-button email-article"> <span class="f1r-icon icon-6_email"></span> <a href="#" class=button-link title="Email this article">Email</a> </div> <div class="email-article-version-container small-tooltip _chrome-fix"> <div class=close-icon><span class="f1r-icon icon-3_close_big"></span></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=27484 /> <input name=articleId type=hidden value=24911 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> <div class="article-interaction-info article-page"> <div class=article-interaction-button> <span class="f1r-icon icon-34_share"></span> <a href="#" class="button-link last addthis_button share-article" title="Share this article">Share</a> </div> </div> </div> <div id=article-interaction-control-tab class=article-interaction-control-tab> <div id=hide-article-interaction class=article-interaction-control title="Hide Toolbox">&#9644;</div> <div id=show-article-interaction class="article-interaction-control open" title="Show Toolbox">&#10010;</div> </div> </div> <div class="article-header-information article-page"> <div class="f1r-article-mobile article-heading-bar"></div> <div class="article-type article-display">Case Report </div> <div class="article-title-and-info article-view highlighted-article" id=anchor-title> <h1>Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic</h1><span class=other-info> [version 1; peer review: awaiting peer review]</span> </div> <div class=article-subtitle></div> <div class=f1r-article-desk> <div class="authors _mdl-layout"><span class="">Rashid A. Chotani<sup>1-4</sup>,&nbsp;</span><span class="">Syed S. Ashraf<sup>3</sup>,&nbsp;</span><span class="">Fatima Aziz<sup>3</sup>,&nbsp;</span><a href="#" class=article-page-expand-authors>[...]&nbsp;</a><span class=article-page-hidden-authors>Shakeel M. Thakurdas<a href="https://orcid.org/0000-0003-4279-1827" target=_blank id=author-orcid-3><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-3><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0003-4279-1827</div><sup>5</sup>,&nbsp;</span><span class=article-page-hidden-authors>Afham Chotani<a href="https://orcid.org/0000-0001-7159-094X" target=_blank id=author-orcid-4><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-4><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0001-7159-094X</div><sup>6</sup>,&nbsp;</span><span class=article-page-hidden-authors>Alize Ashraf<sup>7</sup>,&nbsp;</span><span class="">Khurram Nasir<sup>8</sup>,&nbsp;</span><span class="">M. Rizwan Sohail<sup>9</sup>,&nbsp;</span><span class=""><a href="mailto:faisal.cheema@me.com" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Faisal H. Cheema</span></a><a href="https://orcid.org/0000-0003-0441-8028" target=_blank id=author-orcid-8><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=author-orcid-8><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0003-0441-8028</div><sup>5,10,11</sup></span><span class="author-display-control article-page-expand-authors f1r-icon icon-20_plus_big"></span><span class="author-display-control article-page-hidden-authors f1r-icon icon-12_minus_big"></span></div> </div> <div class=f1r-article-mobile> <div class="authors _mdl-layout"><span class="">Rashid A. Chotani<sup>1-4</sup>,&nbsp;</span><span class="">Syed S. Ashraf<sup>3</sup>,&nbsp;</span><a href="#" class=article-page-expand-authors>[...]&nbsp;</a><span class=article-page-hidden-authors>Fatima Aziz<sup>3</sup>,&nbsp;</span><span class=article-page-hidden-authors>Shakeel M. Thakurdas<a href="http://orcid.org/0000-0003-4279-1827" target=_blank id=mauthor-orcid-3><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-3><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0003-4279-1827</div><sup>5</sup>,&nbsp;</span><span class=article-page-hidden-authors>Afham Chotani<a href="http://orcid.org/0000-0001-7159-094X" target=_blank id=mauthor-orcid-4><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-4><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0001-7159-094X</div><sup>6</sup>,&nbsp;</span><span class=article-page-hidden-authors>Alize Ashraf<sup>7</sup>,&nbsp;</span><span class=article-page-hidden-authors>Khurram Nasir<sup>8</sup>,&nbsp;</span><span class="">M. Rizwan Sohail<sup>9</sup>,&nbsp;</span><span class=""><a href="mailto:faisal.cheema@me.com" title="Send email" class="cauthor research-layout"><span class='f1r-icon icon-6_email orange'></span><span>Faisal H. Cheema</span></a><a href="http://orcid.org/0000-0003-0441-8028" target=_blank id=mauthor-orcid-8><span class=orcid-logo-for-author-list></span></a><div class="mdl-tooltip mdl-tooltip--wider" for=mauthor-orcid-8><span class=orcid-logo-for-author-list></span> https://orcid.org/0000-0003-0441-8028</div><sup>5,10,11</sup></span><span class="author-display-control article-page-expand-authors f1r-icon icon-20_plus_big"></span><span class="author-display-control article-page-hidden-authors f1r-icon icon-12_minus_big"></span></div> </div> <div class=f1r-article-mobile> <div class=article-pubinfo-mobile> PUBLISHED 11 Aug 2020 </div> </div> <span class=Z3988 title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;rft_id=info:doi/10.12688%2Ff1000research.24911.1"></span> <div class=f1r-article-desk> <div class="contracted-details first"> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> University of Nebraska Medical Center, Omaha, NE, USA<br/> <sup>2</sup> IEM, Morrisville, NC, USA<br/> <sup>3</sup> CareLife Medical, Fairfax, VA, USA<br/> <sup>4</sup> Washington Vascular Specialists, Takoma Park, MD, USA<br/> <sup>5</sup> invinciMeD, Houston, TX, USA<br/> <sup>6</sup> Lake Erie College of Osteopathic Medicine, Erie, PA, USA<br/> <sup>7</sup> Langley High School, Mclean, VA, USA<br/> <sup>8</sup> Houston Methodist DeBakey Heart and Vascular Center, Houston, TX, USA<br/> <sup>9</sup> Mayo Clinic, Rochester, MN, USA<br/> <sup>10</sup> HCA Research Institute, Nashville, TN, USA<br/> <sup>11</sup> University of Houston College of Medicine, Houston, TX, USA<br/> <p> <div class=margin-bottom> Rashid A. Chotani <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Syed S. Ashraf <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Fatima Aziz <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Shakeel M. Thakurdas <br/> <span>Roles: </span> Data Curation, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Afham Chotani <br/> <span>Roles: </span> Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Alize Ashraf <br/> <span>Roles: </span> Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Khurram Nasir <br/> <span>Roles: </span> Validation, Writing – Review & Editing </div> <div class=margin-bottom> M. Rizwan Sohail <br/> <span>Roles: </span> Validation, Writing – Review & Editing </div> <div class=margin-bottom> Faisal H. Cheema <br/> <span>Roles: </span> Conceptualization, Data Curation, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> </div> <div class=f1r-article-mobile> <div class="article-page-section-box margin-bottom-40 research-layout"> <span class=box-title> <span class="f1r-icon icon-85_peer_review"></span> OPEN PEER REVIEW </span> <div class="status-row referee-reports-container"> REVIEWER STATUS <span class=status-icons> <em>AWAITING PEER REVIEW</em> </span> </div> </div> </div> </div> <h2 class="article-headings article-page-abstract" id=anchor-abstract> <span class="f1r-article-mobile-inline abstract-heading-border"></span> Abstract </h2> <div class="article-abstract article-page-general-text-mobile research-layout"> <div class="abstract-text is-expanded"> Directional clinical evaluation and management of coronavirus disease (Covid-19) was initially presumptive based on the Wuhan data set as reported by World Health Organization (WHO). The current recommendations emanate primarily from the Chinese experience and subsequent Centers for Disease Control and Prevention (CDC) guidelines. Here we report a case with an “atypical” patient risk profile and variant longitudinal disease progression contrasting from existing recommendations. Our case report suggests that a universal 14-day quarantine timeline may not be sufficient; that correlation is needed between viral presence as determined by RT-PCR and a patient’s humoral response tested by serologic immunoassay of IgM &amp; IgG. Hence, a clinical decision-making algorithm that can help clinicians clear a patient from “active infection” status would require testing that is sufficiently reliable, and should include serological testing for immunity. </div> <div class=abstract-for-mobile> <div class="margin-top-30 padding-bottom-30 research-layout is-centered"> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border show" style="display: none;"> READ ALL <span class="f1r-icon icon-14_more_small orange vmiddle big"></span> </button> <button class="primary orange-text white-bg bigger-text abstract-expand-button-mobile with-border hide"> READ LESS <span class="f1r-icon icon-10_less_small orange vmiddle big"></span> </button> </div> </div> </div> <div class=clearfix></div> <div class="article-context no-divider"> <div class="article-abstract article-page-general-text-mobile research-layout generated-article-body"> <h2 class=main-title>Keywords</h2> <p class="u-mb--0 u-pb--2"> COVID-19, Coronavirus, Pandemic, Pneumonia, SARS, Respiratory, Throat swab </p> </div> </div> <div class=article-information> <span class="info-separation padding-bottom"> <div id=corresponding-author-icon class="email-icon float-left"> <span class="f1r-icon icon-6_email orange"></span> <div id=corresponding-author-window class="margin-top-20 popup-window-wrapper is-hidden"> <div class="popup-window corresponding-authors-popup"> <div class=corresponding-author-container> <div class="popup-window-title small">Corresponding Author(s)</div> <div class=authors> Faisal H. Cheema (<a href="mailto:faisal.cheema@me.com">faisal.cheema@me.com</a>) </div> </div> <div class="margin-top margin-bottom float-left"> <button id=close-popup-window class=general-white-orange-button>Close</button> </div> </div> </div> </div> <span class="icon-text float-left" data-test-id=box-corresponding-author> <b>Corresponding author:</b> Faisal H. Cheema </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom competing-interests-display"> <span class=competing-interests-title>Competing interests:</span> No competing interests were disclosed. </span> <div class="info-separation padding-bottom grant-information-display"> <span class=grant-information-title>Grant information:</span> The author(s) declared that no grants were involved in supporting this work. </div> <span class="f1r-article-desk info-separation padding-bottom"> <span class="copywrite-icon float-left"> <span class="f1r-icon icon-100_open_access"></span> </span> <span class="icon-text float-left" data-test-id=box-copyright-text> <b>Copyright:</b>&nbsp; © 2020 Chotani RA <em>et al</em>. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </span> <div class=clearfix></div> </span> <span class="info-separation padding-bottom" data-test-id=box-how-to-cite> <b>How to cite:</b> <span class="article-title-and-info in-article-box"> Chotani RA, Ashraf SS, Aziz F <em>et al.</em> Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic [version 1; peer review: awaiting peer review]</span>. <i>F1000Research</i> 2020, <b>9</b>:972 (<a href="https://doi.org/10.12688/f1000research.24911.1" target=_blank>https://doi.org/10.12688/f1000research.24911.1</a>) </span> <span class=info-separation data-test-id=box-first-published><b>First published:</b> 11 Aug 2020, <b>9</b>:972 (<a href="https://doi.org/10.12688/f1000research.24911.1" target=_blank>https://doi.org/10.12688/f1000research.24911.1</a>)</span> <span class=info-separation data-test-id=box-latest-published><b>Latest published:</b> 11 Aug 2020, <b>9</b>:972 (<a href="https://doi.org/10.12688/f1000research.24911.1" target=_blank>https://doi.org/10.12688/f1000research.24911.1</a>)</span> </div> <div class=clearfix></div> <div id=article-context class=article-context> <div id=article1-body class=generated-article-body><h2 class=main-title id=d5905e315>Background</h2><p class="" id=d5905e318>Coronavirus disease 2019 (COVID-19) is a highly contagious viral pandemic caused by a novel strain of severe acute respiratory syndrome (SARS)-related coronavirus (CoV) named SARS-CoV-2<sup><a href="#ref-1">1</a></sup>. The virus is part of the family of coronaviruses which have been involved in previous infectious outbreaks, namely SARS 2003 and Middle East respiratory syndrome (MERS) 2012<sup><a href="#ref-2">2</a></sup>. Initially detected in December 2019 in the Hubei Province of China<sup><a href="#ref-3">3</a></sup>, information related to its epidemiology and virulence is constantly evolving as the disease spreads across the world. Overall global prevalence of the disease is difficult to assess with reasonable accuracy due to a paucity of standardized global testing and reporting<sup><a href="#ref-4">4</a></sup>, which in turn makes it difficult to accurately assess the mortality rate associated with the disease.</p><p class="" id=d5905e337>As of June 17, 2020, confirmed cases of COVID-19 are close to 8,200,000 with more than 444,000 deaths reported worldwide. The United States has become the epicenter of this pandemic with more than 2,137,000 confirmed cases and over 116,000 reported deaths<sup><a href="#ref-5">5</a></sup>. The information related to Covid-19 is evolving on a daily basis and recent reports indicate that there may be other Covid-19 strains affecting different areas of the globe<sup><a href="#ref-6">6</a></sup>.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d5905e351>Objective</h2><p class="" id=d5905e354>To describe the longitudinal assessment of a 50-year-old female, RT-PCR confirmed - COVID-19 patient, during an evolving pandemic and changing guidelines.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d5905e360>Clinical vignette</h2><p class="" id=d5905e363>We present the case report of a 50-year-old South Asian female who came to our clinic in the middle of April 2020, complaining of intermittent fever ranging between 100-102°F, chills, night sweats, fatigue, and myalgia for the past six days. The patient reported no past medical history, no recent international travel history or exposure to any known COVID-19 positive patient and is a nutritionist by profession. At the clinic (day 6 of symptom onset, see <a href="#f1">Figure 1</a>), she was noted to have a fever of 100.2℉. Two days prior (day 4 of symptoms, <a href="#f1">Figure 1</a>), she reported testing negative for <i>Streptococcus</i> (group A strep) and influenza at an urgent care facility. During her visit at our clinic, her physical exam was unremarkable and her lungs were clear on auscultation. In view of her clinical presentation and negative strep and influenza test, we decided to test her for COVID-19 and an oropharyngeal swab was collected and sent for RT-PCR analysis. One day after her visit to our clinic (day 7 of symptoms, <a href="#f1">Figure 1</a>), the patient developed shortness of breath (SOB) with persistent fever ranging between 100–102°F, chills, night sweats, fatigue and myalgia. She was started on a seven-day course of Levaquin (500 mg once daily) empirically for a presumptive diagnosis of community acquired pneumonia while awaiting RT-PCR results and albuterol inhaler (every four hours or as needed) for bronchospastic cough. The following day (day 8 of symptoms, <a href="#f1">Figure 1</a>), she returned to the clinic, and during auscultation of the lungs, bibasilar crackles were noted, greater on her left lung compared to the right lung. She was then sent to the emergency department (ED) of a nearby hospital where a chest x-ray was performed on the same day (<a href="#f2">Figure 2</a>). The chest x-ray revealed bilateral pulmonary infiltrates. Her laboratory work-up in the ED showed an elevated blood lactate level of 2.0mmol/L (normal: 0.5–1mmol/L), while her complete blood count and basic metabolic panel showed no abnormalities. Oxygen saturation rate was 97% and she was subsequently discharged to home. Three days after her visit to the ED (day 11 of symptoms, <a href="#f1">Figure 1</a>), the patient still reported persistent SOB and was sent by our clinic to the ED for follow-up evaluation and possible need for chest CT given concerns for Covid-19 related viral pneumonia. At the ED, another chest x-ray was done which showed patchy opacities with air bronchograms in the left mid-lung and left lower lobe as well as similar patchy peripheral opacities at the right upper lobe, suggesting infectious etiology and worsening pneumonia (<a href="#f3">Figure 3</a>). Oxygen saturation rate was still 97%, no other laboratory tests were reportedly done during this visit and she was again discharged to home. Four days later (day 15 of symptoms, <a href="#f1">Figure 1</a>), the patient became afebrile (97.6℉) and reported not having any chills but still complained of significant fatigue and myalgia; her SOB, however, was improving. The next day (day 16 of symptoms, <a href="#f1">Figure 1</a>), the patient returned to our clinic with a fever of 99.1℉. While her breathing was much better, she stated that she felt weak and had significant diffuse muscle pain. At the clinic, we performed a rapid COVID-19 specific IgM/IgG test, provided by Boston Biopharma, which came up positive for both IgM and IgG 16 days after the initial onset of symptoms (<a href="#f1">Figure 1</a>). Routine labs were also done that showed anemia with hemoglobin 10.5g/dl (normal: 11.7–15.5g/dl) and hematocrit 33.1% (normal: 35–45%) with mean corpuscular volume 74fl (normal: 80-100fl), mean corpuscular hemoglobin 23.5pg (normal: 27–33pg), mean corpuscular hemoglobin concentration 31.7g/dl (normal: 32–36g/dl), platelet count 857,000/ml (140–400K/ml), an elevated C-reactive protein level (CRP) of 30.4mg/l (normal: &lt;8.0), and creatine phosphokinase (CPK) of 39u/L (normal: 29–143 u/L). Her comprehensive metabolic panel (CMP), and white blood cell count with differential showed no abnormalities. On day 17 since symptom onset, the patient was afebrile (97.5℉) without dyspnea and no further labs were done after this point since the patient started to improve symptomatically. She did however complain of persistent weakness and myalgia. The patient’s husband and son had both remained asymptomatic during the entire episode and both tested negative with Boston Biopharma’s rapid COVID-19 antibody test on the same day as the patient was tested for antibodies (day 16 of patient’s symptoms, <a href="#f1">Figure 1</a>). However, results from nasopharyngeal swabs taken from both the husband and son for RT-PCR analysis returned a week later were positive for the husband only. The husband’s repeat IgM and IgG, checked twice seven days apart, remain negative and he has continued to remain asymptomatic.</p><a name=f1 class=n-a></a><div class="fig panel clearfix"><a target=_blank href="https://f1000researchdata.s3.amazonaws.com/manuscripts/27484/6edd6b15-aa82-4f63-9ce8-951f540d840d_figure1.gif"><img alt="6edd6b15-aa82-4f63-9ce8-951f540d840d_figure1.gif" src="https://f1000researchdata.s3.amazonaws.com/manuscripts/27484/6edd6b15-aa82-4f63-9ce8-951f540d840d_figure1.gif"></a><div class=caption><h3>Figure 1. Timeline of the patient’s symptoms and important events.</h3><p id=d5905e414>A graphic representation of some of the relevant events with respect to the day of symptom onset shown as D1 (red bar on the timeline). Even though pneumonia is not a symptom we thought it would be helpful to easily visualize the onset of signs of pneumonia on the timeline. At no point was the patient hospitalized perhaps because the O<sub>2</sub> saturation remained at or above 97%. SF, San Francisco; Pt, patient; GpA Strep, Group A <i>Streptococcus</i>; Influ, influenza; OP, oropharyngeal; CXR, chest x-ray; SOB, shortness of breath; Ab, antibody; CBC, complete blood count.</p></div></div><a name=f2 class=n-a></a><div class="fig panel clearfix"><a target=_blank href="https://f1000researchdata.s3.amazonaws.com/manuscripts/27484/6edd6b15-aa82-4f63-9ce8-951f540d840d_figure2.gif"><img alt="6edd6b15-aa82-4f63-9ce8-951f540d840d_figure2.gif" src="https://f1000researchdata.s3.amazonaws.com/manuscripts/27484/6edd6b15-aa82-4f63-9ce8-951f540d840d_figure2.gif"></a><div class=caption><h3>Figure 2. Chest x-ray of the patient done on day 7 from symptom onset. </h3><p id=d5905e437>The patient returned to the clinic one day after the onset of shortness of breath and was referred to the emergency department of a nearby hospital where this x-ray was done. The x-ray shows patchy bilateral opacities, left greater than right, concerning for pneumonia.</p></div></div><a name=f3 class=n-a></a><div class="fig panel clearfix"><a target=_blank href="https://f1000researchdata.s3.amazonaws.com/manuscripts/27484/6edd6b15-aa82-4f63-9ce8-951f540d840d_figure3.gif"><img alt="6edd6b15-aa82-4f63-9ce8-951f540d840d_figure3.gif" src="https://f1000researchdata.s3.amazonaws.com/manuscripts/27484/6edd6b15-aa82-4f63-9ce8-951f540d840d_figure3.gif"></a><div class=caption><h3>Figure 3. Chest x-ray of the patient done on day 11 from symptom onset.</h3><p id=d5905e454> The x-ray shows patchy opacities with air bronchograms in the left mid-lung and left lower lobe as well as similar patchy peripheral opacities at the right upper lobe suspicious for infectious etiology which appears mildly worsened.</p></div></div><p class="" id=d5905e462>All three individuals, the patient, her husband, and her son were interviewed again for any recollection of recent travel or secondary exposure. Her husband had returned just two weeks before the onset of her symptoms, after a week-long stay in San Francisco. Four days after his return from San Francisco, he travelled again to Atlanta for a day trip and attended a conference in Washington, DC before returning home the next day. Just a couple of days after the husband’s return the patient recalled going to an axe-throwing party with him and a group of friends. She also claimed that her husband developed a slight fever and a sore throat the day after this party and his symptoms lasted for at least three days (see <a href="#f1">Figure 1</a>). Of note, the patient herself had developed a sore throat and low-grade fever by this time and this was the onset of all her reported symptoms. We also learned that four people from the group that attended the axe-throwing party reported “some” illness. One couple (Couple 1) had high fever and cough that lasted for 2–3 days and were told to self-quarantine for 14 days by their primary care provider (no information is available if they were tested). Couple 2 had been in San Francisco the same week as patient’s husband, but they did not meet there. This couple also reported being sick with fever and cough that lasted three days around the same time as her husband’s symptoms. They were also advised by their primary care physician to self-quarantine for 14 days. All cases from the axe-throwing party (husband, Couple 1 and Couple 2) recovered without any worsening of symptoms in 2–3 days, and prior to the patient’s development of her symptoms.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d5905e471>Discussion</h2><p class="" id=d5905e474>The most common symptoms of Covid-19 are fever, cough, loss of energy or exhaustion, and to a varying degree, other bodily manifestations<sup><a href="#ref-7">7</a></sup>. The symptoms and findings suggestive of disease progression that should raise concern are chest discomfort (pressure, tightness)<sup><a href="#ref-8">8</a></sup>, confusion or change in mental status not otherwise related to another etiology<sup><a href="#ref-9">9</a></sup>, and hypoxia without necessarily experiencing shortness of breath<sup><a href="#ref-10">10</a></sup>. In more severe cases, infection can cause pneumonia, severe acute respiratory distress syndrome (ARDS), and even death. It is believed that ARDS and similar catastrophic respiratory changes may be related to a cytokine storm phenomenon<sup><a href="#ref-11">11</a></sup>. The period within which the symptoms seem to manifest is wide, ranging from two to 14 days<sup><a href="#ref-12">12</a></sup>. In our patient, a 50-year-old female with no international travel history, no co-morbidities but with potential exposure to multiple people who had traveled to a high Covid-19 exposure area, initial symptoms (fever, sore throat, chills, myalgia), appeared on the third day after being at the axe throwing party (a potential exposure event) and progressed in little over a week to dyspnea and worsening bilateral pneumonia. The husband, Couple 1 and Couple 2 seemed to have developed mild symptoms just a day or two after the axe-throwing party, suggesting that one of the members at this party was the source and probably an asymptomatic carrier. It is important to note that our patient who was Covid-19 positive (RT-PCR), developed bilateral pneumonia and was treated only with Levaquin and albuterol and recovered, indicating that in the absence of some major event such as a cytokine storm or ARDS, viral pneumonia due to SARS CoV-2 can clear by itself.</p><p class="" id=d5905e502>It is well established that the initial defense to a foreign antigen involves a complex immune response, both of innate and adaptive types. Antibody response in the form of IgM provides a critical defense during the early stages of a viral infection. Subsequent development of a longer-term IgG antibodies further augments the adaptive immune response and may eventually represent some form of immunological memory<sup><a href="#ref-13">13</a></sup>. In our patient, both IgM and IgG were positive 16 days after symptom onset. Testing of Covid-19 IgM and IgG antibodies is therefore an effective method for confirming whether an individual has had the Covid-19 infection. This has value both in diagnosis and monitoring for early or late infectivity response. While viral replication usually wanes within a week or two without significant illness in most healthy individuals, antibody response, especially IgG antibody, typically rises for a few weeks after exposure and can remain elevated for long periods of time, sometimes even years, which is in fact the driving principle behind vaccination. For this reason, antibody testing will likely be the most valuable tool to assess the prevalence of SARS-CoV-2 infection and the level of exposure within the population<sup><a href="#ref-14">14</a></sup>.</p><p class="" id=d5905e513>A recent study published in the Lancet concluded that RT-PCR alone may not be sufficient in diagnosing a patient with Covid-19 in the lower respiratory tract or in assessing infectivity after few weeks of exposure<sup><a href="#ref-15">15</a></sup>. Another study raises concern for the high false negative rates associated with nasopharyngeal and oropharyngeal swab sampling in an out-patient setting<sup><a href="#ref-16">16</a></sup>. In view of these findings, it is our opinion that rapid antibody testing is an important tool for the clinical assessment and management of Covid-19. Such a test would be ideal in the third week from symptom onset based on our current knowledge of the immune response to viral pathogens. Subsequent RT-PCR is warranted if IgM is found to be positive so that the patient may be fully assessed for continued viral infectiousness and possible isolation. Additionally, given the asymptomatic status of both husband and son in such proximity to a Covid-19 patient, a rapid antibody test can be valuable for determining a person’s Covid-19 disease status and for surveillance<sup><a href="#ref-17">17</a></sup>. In this case, the patient’s spouse tested positive with nasopharyngeal RT-PCR but negative with repeated serologic tests raising the possibility that he may be a nasal carrier.</p><p class="" id=d5905e528> Our patient also had elevated CPK levels with persistent weakness and myalgia suggestive of post-viral myopathy. A broader survey of COVID-19 patients can inform if this is a significant sequela of the disease.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d5905e534>Conclusion</h2><p class="" id=d5905e537>This case report helps to highlight the urgent need to answer some of the most pertinent questions associated with this pandemic such as the duration of quarantine, role of serologic antibody tests in diagnosing, management, and immunity assessment, and the role of various laboratory measurements in clinical follow-up. We recognize the limitations of this being a single case report (and of associated family members) and acknowledge that additional studies are necessary to determine how best to screen RT-PCR positive patients to assure that they are no longer infectious to their immediate contacts as well as the healthcare workers who are providing care for them<sup><a href="#ref-18">18</a></sup>.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d5905e548>Data availability</h2><p class="" id=d5905e551>All data underlying the results are available as part of the article and no additional source data are required.</p></div><div id=article1-body class=generated-article-body><h2 class=main-title id=d5905e557>Consent</h2><p class="" id=d5905e560>Written informed consent for publication of their clinical details and clinical images was obtained from the patient. Written informed consent was also obtained from the mentioned relatives of the patient for publication of their clinical details.</p></div><div id=article1-back class=generated-article-footer><div class=back-section><a name=d5905e567 class=n-a></a><h2 class=main-title id=d5905e569>Acknowledgement</h2><p class="" id=d5905e572>We thank Dr. Sadiya Naseem, DNP, FNP-BC for following up on the patient and helping collect information</p></div><div class=back-section><a name=d5905e576 class=n-a></a><span class="research-layout prime-recommended-wrapper reference-heading is-hidden"><span class=faculty-opinion-icon></span><span class="prime-red big">Faculty Opinions recommended</span></span><h2 class=main-title id=d6041>References</h2><div class="section ref-list"><a name=d5905e576 class=n-a></a><ul><li><a name=ref-1 class=n-a></a><span class=label>1. </span>&nbsp;<span class=citation><a name=d5905e583 class=n-a></a>Coronaviridae Study Group of the International Committee on Taxonomy of Viruses: The species <i>Severe acute respiratory syndrome-related coronavirus</i>: classifying 2019-nCoV and naming it SARS-CoV-2. <i>Nat Microbiol.</i> 2020; <b>5</b>(4): 536–544. <a target=xrefwindow id=d5905e594 href="http://www.ncbi.nlm.nih.gov/pubmed/32123347">PubMed Abstract </a> | <a target=xrefwindow id=d5905e597 href="https://doi.org/10.1038/s41564-020-0695-z">Publisher Full Text </a> | <a target=xrefwindow id=d5905e601 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7095448">Free Full Text </a></span></li><li><a name=ref-2 class=n-a></a><span class=label>2. </span>&nbsp;<span class=citation><a name=d5905e610 class=n-a></a>Peeri NC, Shrestha N, Rahman MS, <i> et al.</i>: The SARS, MERS and novel coronavirus (COVID-19) epidemics, the newest and biggest global health threats: what lessons have we learned? <i>Int J Epidemiol.</i> 2020; dyaa033. <a target=xrefwindow id=d5905e618 href="http://www.ncbi.nlm.nih.gov/pubmed/32086938">PubMed Abstract </a> | <a target=xrefwindow id=d5905e621 href="https://doi.org/10.1093/ije/dyaa033">Publisher Full Text </a> | <a target=xrefwindow id=d5905e624 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7197734">Free Full Text </a></span></li><li><a name=ref-3 class=n-a></a><span class=label>3. </span>&nbsp;<span class=citation><a name=d5905e633 class=n-a></a>Huang C, Wang Y, Li X, <i> et al.</i>: Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. <i>Lancet.</i> 2020; <b>395</b>(10223): 497–506. <a target=xrefwindow id=d5905e644 href="http://www.ncbi.nlm.nih.gov/pubmed/31986264">PubMed Abstract </a> | <a target=xrefwindow id=d5905e647 href="https://doi.org/10.1016/S0140-6736(20)30183-5">Publisher Full Text </a> | <a target=xrefwindow id=d5905e651 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7159299">Free Full Text </a></span></li><li><a name=ref-4 class=n-a></a><span class=label>4. </span>&nbsp;<span class=citation><a name=d5905e660 class=n-a></a>Haffajee RL, Mello MM: Thinking Globally, Acting Locally — The U.S. Response to Covid-19. <i>N Engl J Med.</i> 2020; <b>382</b>(22): e75. <a target=xrefwindow id=d5905e668 href="http://www.ncbi.nlm.nih.gov/pubmed/32240580">PubMed Abstract </a> | <a target=xrefwindow id=d5905e671 href="https://doi.org/10.1056/NEJMp2006740">Publisher Full Text </a></span></li><li><a name=ref-5 class=n-a></a><span class=label>5. </span>&nbsp;<span class=citation><a name=d5905e680 class=n-a></a>Johns Hopkins Coronavirus Resource. <a target=xrefwindow id=d5905e682 href="https://coronavirus.jhu.edu/map.html">Reference Source</a></span></li><li><a name=ref-6 class=n-a></a><span class=label>6. </span>&nbsp;<span class=citation><a name=d5905e692 class=n-a></a>Weise E: 8 strains of the coronavirus are circling the globe. Here’s what clues they’re giving scientists. Yahoo! news. 2020. <a target=xrefwindow id=d5905e694 href="https://news.yahoo.com/8-strains-coronavirus-circling-globe-182338255.html">Reference Source</a></span></li><li><a name=ref-7 class=n-a></a><span class=label>7. </span>&nbsp;<span class=citation><a name=d5905e703 class=n-a></a>Wang D, Hu B, Hu C, <i> et al.</i>: Clinical Characteristics of 138 Hospitalized Patients with 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China. <i>JAMA.</i> 2020; <b>323</b>(11): 1061–1069. <a target=xrefwindow id=d5905e714 href="http://www.ncbi.nlm.nih.gov/pubmed/32031570">PubMed Abstract </a> | <a target=xrefwindow id=d5905e717 href="https://doi.org/10.1001/jama.2020.1585">Publisher Full Text </a> | <a target=xrefwindow id=d5905e721 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7042881">Free Full Text </a></span></li><li><a name=ref-8 class=n-a></a><span class=label>8. </span>&nbsp;<span class=citation><a name=d5905e730 class=n-a></a>Inciardi RM, Lupi L, Zaccone G, <i> et al.</i>: Cardiac Involvement in a Patient with Coronavirus Disease 2019 (COVID-19). <i>JAMA Cardiol.</i> 2020; <b>5</b>(7): 1–6. <a target=xrefwindow id=d5905e741 href="http://www.ncbi.nlm.nih.gov/pubmed/32219357">PubMed Abstract </a> | <a target=xrefwindow id=d5905e744 href="https://doi.org/10.1001/jamacardio.2020.1096">Publisher Full Text </a> | <a target=xrefwindow id=d5905e748 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7364333">Free Full Text </a></span></li><li><a name=ref-9 class=n-a></a><span class=label>9. </span>&nbsp;<span class=citation><a name=d5905e757 class=n-a></a>Filatov A, Sharma P, Hindi F, <i> et al.</i>: Neurological Complications of Coronavirus Disease (COVID-19): Encephalopathy. <i>Cureus.</i> 2020; <b>12</b>(3): e7352. <a target=xrefwindow id=d5905e768 href="http://www.ncbi.nlm.nih.gov/pubmed/32328364">PubMed Abstract </a> | <a target=xrefwindow id=d5905e771 href="https://doi.org/10.7759/cureus.7352">Publisher Full Text </a> | <a target=xrefwindow id=d5905e775 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7170017">Free Full Text </a></span></li><li><a name=ref-10 class=n-a></a><span class=label>10. </span>&nbsp;<span class=citation><a name=d5905e784 class=n-a></a>Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). 2020. <a target=xrefwindow id=d5905e786 href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">Reference Source</a></span></li><li><a name=ref-11 class=n-a></a><span class=label>11. </span>&nbsp;<span class=citation><a name=d5905e795 class=n-a></a>Mehta P, McAuley DF, Brown M, <i> et al.</i>: COVID-19: consider cytokine storm syndromes and immunosuppression. <i>Lancet.</i> 2020; <b>395</b>(10229): 1033–1034. <a target=xrefwindow id=d5905e806 href="http://www.ncbi.nlm.nih.gov/pubmed/32192578">PubMed Abstract </a> | <a target=xrefwindow id=d5905e809 href="https://doi.org/10.1016/S0140-6736(20)30628-0">Publisher Full Text </a> | <a target=xrefwindow id=d5905e813 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7270045">Free Full Text </a></span></li><li><a name=ref-12 class=n-a></a><span class=label>12. </span>&nbsp;<span class=citation><a name=d5905e823 class=n-a></a>Paul G, Auwaerter MD: Johns Hopkins - Point of Care IT Guides. 2020. <a target=xrefwindow id=d5905e825 href="https://www.hopkinsmedicine.org/poc-it/">Reference Source</a></span></li><li><a name=ref-13 class=n-a></a><span class=label>13. </span>&nbsp;<span class=citation><a name=d5905e834 class=n-a></a>Warrington R, Watson W, Kim HL, <i> et al.</i>: An introduction to immunology and immunopathology. <i>Allergy Asthma Clin Immunol.</i> 2011; <b>7 Suppl 1</b>(Suppl 1): S1. <a target=xrefwindow id=d5905e845 href="http://www.ncbi.nlm.nih.gov/pubmed/22165815">PubMed Abstract </a> | <a target=xrefwindow id=d5905e848 href="https://doi.org/10.1186/1710-1492-7-S1-S1">Publisher Full Text </a> | <a target=xrefwindow id=d5905e852 href="http://www.ncbi.nlm.nih.gov/pmc/articles/3245432">Free Full Text </a></span></li><li><a name=ref-14 class=n-a></a><span class=label>14. </span>&nbsp;<span class=citation><a name=d5905e861 class=n-a></a>Zhao J, Yuan Q, Wang H, <i> et al.</i>: Antibody responses to SARS-CoV-2 in patients of novel coronavirus disease 2019. <i>Clin Infect Dis.</i> 2020; ciaa344. <a target=xrefwindow id=d5905e869 href="http://www.ncbi.nlm.nih.gov/pubmed/32221519">PubMed Abstract </a> | <a target=xrefwindow id=d5905e872 href="https://doi.org/10.1093/cid/ciaa344">Publisher Full Text </a> | <a target=xrefwindow id=d5905e875 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7184337">Free Full Text </a></span></li><li><a name=ref-15 class=n-a></a><span class=label>15. </span>&nbsp;<span class=citation><a name=d5905e884 class=n-a></a>Pan Y, Zhang D, Yang P, <i> et al.</i>: Viral load of SARS-CoV-2 in clinical samples. <i>Lancet Infect Dis.</i> 2020; <b>20</b>(4): 411–412. <a target=xrefwindow id=d5905e895 href="http://www.ncbi.nlm.nih.gov/pubmed/32105638">PubMed Abstract </a> | <a target=xrefwindow id=d5905e898 href="https://doi.org/10.1016/S1473-3099(20)30113-4">Publisher Full Text </a> | <a target=xrefwindow id=d5905e902 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7128099">Free Full Text </a></span></li><li><a name=ref-16 class=n-a></a><span class=label>16. </span>&nbsp;<span class=citation><a name=d5905e911 class=n-a></a>Wang W, Xu Y, Gao R, <i> et al.</i>: Detection of SARS-CoV-2 in Different Types of Clinical Specimens. <i>JAMA.</i> 2020; <b>323</b>(18): 1843–1844. <a target=xrefwindow id=d5905e922 href="http://www.ncbi.nlm.nih.gov/pubmed/32159775">PubMed Abstract </a> | <a target=xrefwindow id=d5905e925 href="https://doi.org/10.1001/jama.2020.3786">Publisher Full Text </a> | <a target=xrefwindow id=d5905e929 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7066521">Free Full Text </a></span></li><li><a name=ref-17 class=n-a></a><span class=label>17. </span>&nbsp;<span class=citation><a name=d5905e938 class=n-a></a>Guo L, Ren L, Yang S, <i> et al.</i>: Profiling Early Humoral Response to Diagnose Novel Coronavirus Disease (COVID-19). <i>Clin Infect Dis.</i> 2020; <b>71</b>(15): 778–785. <a target=xrefwindow id=d5905e949 href="http://www.ncbi.nlm.nih.gov/pubmed/32198501">PubMed Abstract </a> | <a target=xrefwindow id=d5905e952 href="https://doi.org/10.1093/cid/ciaa310">Publisher Full Text </a> | <a target=xrefwindow id=d5905e956 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7184472">Free Full Text </a></span></li><li><a name=ref-18 class=n-a></a><span class=label>18. </span>&nbsp;<span class=citation><a name=d5905e966 class=n-a></a>Lan L, Xu D, Ye G, <i> et al.</i>: Positive RT-PCR Test Results in Patients Recovered from COVID-19. <i>JAMA.</i> 2020; <b>323</b>(15): 1502–1503. <a target=xrefwindow id=d5905e977 href="http://www.ncbi.nlm.nih.gov/pubmed/32105304">PubMed Abstract </a> | <a target=xrefwindow id=d5905e980 href="https://doi.org/10.1001/jama.2020.2783">Publisher Full Text </a> | <a target=xrefwindow id=d5905e984 href="http://www.ncbi.nlm.nih.gov/pmc/articles/7047852">Free Full Text </a></span></li></ul></div></div></div> </div> <div class=f1r-article-desk> <section class="o-box o-box--medium u-bg--2 u-mt--2"> <h4 class="u-mt--0 u-mb--2 t-h3 u-weight--md">Looking for the Open Peer Review Reports?</h4> <p class="u-mt--0 u-mb--0 t-h4">They can now be found at the top of the panel on the right, linked from the box entitled Open Peer Review. Choose the reviewer report you wish to read and click the 'read' link. You can also read all the peer review reports by <a target=_blank href="https://f1000research.com/articles/9-972/v1/pdf?article_uuid=7862845f-602e-4652-b937-4e3821744067">downloading the PDF</a>.</p> </section> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 11 Aug 2020</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/9-972/v1&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/9-972/v1&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> <div class="f1r-article-mobile margin-bottom-30"> <div class=contracted-details> <a href="#" class="contracted-details-label author-affiliations"><span class=contracted></span>Author details</a> <a href="#" class=section-title>Author details</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details affiliations is-hidden"> <sup>1</sup> University of Nebraska Medical Center, Omaha, NE, USA<br/> <sup>2</sup> IEM, Morrisville, NC, USA<br/> <sup>3</sup> CareLife Medical, Fairfax, VA, USA<br/> <sup>4</sup> Washington Vascular Specialists, Takoma Park, MD, USA<br/> <sup>5</sup> invinciMeD, Houston, TX, USA<br/> <sup>6</sup> Lake Erie College of Osteopathic Medicine, Erie, PA, USA<br/> <sup>7</sup> Langley High School, Mclean, VA, USA<br/> <sup>8</sup> Houston Methodist DeBakey Heart and Vascular Center, Houston, TX, USA<br/> <sup>9</sup> Mayo Clinic, Rochester, MN, USA<br/> <sup>10</sup> HCA Research Institute, Nashville, TN, USA<br/> <sup>11</sup> University of Houston College of Medicine, Houston, TX, USA<br/> <p> <div class=margin-bottom> Rashid A. Chotani <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Syed S. Ashraf <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Fatima Aziz <br/> <span>Roles: </span> Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Shakeel M. Thakurdas <br/> <span>Roles: </span> Data Curation, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Afham Chotani <br/> <span>Roles: </span> Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Alize Ashraf <br/> <span>Roles: </span> Data Curation, Formal Analysis, Investigation, Methodology, Project Administration, Writing – Original Draft Preparation, Writing – Review & Editing </div> <div class=margin-bottom> Khurram Nasir <br/> <span>Roles: </span> Validation, Writing – Review & Editing </div> <div class=margin-bottom> M. Rizwan Sohail <br/> <span>Roles: </span> Validation, Writing – Review & Editing </div> <div class=margin-bottom> Faisal H. Cheema <br/> <span>Roles: </span> Conceptualization, Data Curation, Writing – Original Draft Preparation, Writing – Review & Editing </div> </p> </div> </div> <div class=contracted-details> <a href="#" class=section-title>Article Versions (1)</a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> <div> <a href="https://f1000research.com/articles/9-972/v1" title="Open version 1 of this article." class="" gahelper=1>version 1</a> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div> Published: 11 Aug 2020, 9:972 </div> <div class=""><a href="https://doi.org/10.12688/f1000research.24911.1">https://doi.org/10.12688/f1000research.24911.1</a></div> </div> </div> <div class=contracted-details> <a href="#" class=section-title> <span class="f1r-icon icon-100_open_access"></span> Copyright </a> <span class="f1r-icon icon-14_more_small section-control"></span> <span class="f1r-icon icon-10_less_small section-control"></span> <div class="expanded-details grant-information article-page is-hidden"> © 2020 Chotani RA <em>et al</em>. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/" target=_blank data-test-id=box-licence-link>Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </div> </div> <div class="padding-top-30 research-layout"> <div class=article-toolbox-wrapper-mobile> <div class=article-tools-icon-mobile data-section=download> <span class="f1r-icon icon-76_download_file white"></span> </div> <div class="article-tools-icon-mobile mobile-metrics article-metrics-wrapper metrics-icon-wrapper" data-section=metrics data-version-id=27484 data-id=24911 data-downloads="" data-views="" data-scholar="10.12688/f1000research.24911.1" data-recommended="" data-f1r-ga-helper="Article Page Metrics (Mobile)"> <span class="f1r-icon icon-89_metrics white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=cite> <span class="f1r-icon icon-82_quote white"></span> </div> <div class="article-tools-icon-mobile " data-section=track> <span class="f1r-icon icon-90_track white"></span> </div> <div class=article-tools-divider-mobile></div> <div class=article-tools-icon-mobile data-section=share> <span class="f1r-icon icon-34_share white"></span> </div> <span class=article-toolbox-stretch></span> </div> <div class=article-toolbox-content-mobile> <div class="toolbox-section download"> <div class=toolbox-section-heading>Download</div> <div class=toolbox-section-content> <a href="https://f1000research.com/articles/9-972/v1/pdf?article_uuid=7862845f-602e-4652-b937-4e3821744067" title="Download PDF" class="no-decoration pdf-download-helper"> <span class="f1r-icon icon-102_download_pdf toolbox-section-icon"></span> </a> <div class=toolbox-section-option-divider>&nbsp;</div> <a id=mobile-download-xml class=no-decoration href="#" title="Download XML"> <span class="f1r-icon icon-103_download_xml toolbox-section-icon"></span> </a> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>Export To</div> <div class=toolbox-section-content> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=WORKSPACE>Sciwheel</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=BIBTEX>Bibtex</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=ENDNOTE>EndNote</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=PROCITE>ProCite</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=REF_MANAGER>Ref. Manager (RIS)</button> <button class="primary no-fill orange-text-and-border mobile-export" data-etype=SENTE>Sente</button> </div> </div> <div class="toolbox-section metrics"> <div class="toolbox-section-heading no-top-border">metrics</div> <div class="toolbox-section-divider toolbox-section-divider--no-height"></div> <div class=article-metrics-pageinfo> <div class=c-article-metrics-table> <table class=c-article-metrics-table__table> <thead> <tr> <th></th> <th><span class=c-article-metrics-table__heading>Views</span></th> <th><span class=c-article-metrics-table__heading>Downloads</span></th> </tr> </thead> <tbody> <tr> <th class=c-article-metrics-table__row-heading><span class="c-article-metrics-table__platform u-platform--" data-test-id=metrics_platform_name_mob>F1000Research</span></th> <td class="c-article-metrics-table__value js-article-views-count" data-test-id=metrics_platform_views_mob>-</td> <td class="c-article-metrics-table__value js-article-downloads-count" data-test-id=metrics_platform_downloads_mob>-</td> </tr> <tr> <th class=c-article-metrics-table__row-heading> <span class="u-ib u-middle c-article-metrics-table__pmc" data-test-id=metrics_pmc_name_mob>PubMed Central</span> <div class="c-block-tip c-block-tip--centered c-article-metrics-table__tooltip c-block-tip--md-padding c-block-tip--small-arrow u-ib u-middle"> <button type=button class="u-black--medium u-black--high@hover u-ib u-middle c-button--icon c-button--text c-block-tip__toggle"><i class="material-icons c-button--icon__icon">info_outline</i></button> <div class=c-block-tip__content>Data from PMC are received and updated monthly.</div> </div> </th> <td class="c-article-metrics-table__value js-pmc-views-count" data-test-id=metrics_pmc_views_mob>-</td> <td class="c-article-metrics-table__value js-pmc-downloads-count" data-test-id=metrics_pmc_downloads_mob>-</td> </tr> </tbody> </table> </div> </div> <span class=metrics-citations-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-heading u-mb--1">Citations</div> <div> <div class=toolbox-section-colsplit> <div class=citations-scopus-logo> <a href="" target=_blank class="is-hidden metrics-citation-icon" title="View full citation details at www.scopus.com"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count scopus"> <a href='' class='scopus-citation-link is-hidden' target=_blank title='View full citation details at www.scopus.com'>0</a> </div> </div> <div class=toolbox-section-colsplit> <div class="citations-pubmed-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon f1000research" title="View full citation details"><i class="material-icons scopus-icon">open_in_new</i></a> </div> <div class="toolbox-section-count pubmed"> <a href='' class='pubmed-citation-link is-hidden' target=_blank title='View full citation details'>0</a> </div> </div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <div class="citations-scholar-logo f1000research"> <a href="" target=_blank class="is-hidden metrics-citation-icon google-scholar f1000research" title="View full citation details" data-scholar="10.12688/f1000research.24911.1"><i class="material-icons scopus-icon">open_in_new</i></a> </div> </div> </div> </span> <span class=metrics-details-container> <div class=toolbox-section-divider></div> <div class="toolbox-section-content altmetric-section"> <div class=altmetrics-image></div> <div class=altmetrics-more-link> <a href="" target=_blank class=f1r-standard-link>SEE MORE DETAILS</a> </div> <div class=altmetric-mobile-column-counts></div> <div class=altmetric-mobile-column-readers></div> <div class=toolbox-section-divider></div> </div> </span> </div> <div class="toolbox-section cite"> <div class="toolbox-section-heading no-top-border">CITE</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>how to cite this article</div> <div id=citation-copy-mobile class="toolbox-section-content text-content heading9 small" data-test-id=mob_copy-citation_text> Chotani RA, Ashraf SS, Aziz F <em>et al.</em> Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic [version 1; peer review: awaiting peer review] <i>F1000Research</i> 2020, <b>9</b>:972 (<a href="https://doi.org/10.12688/f1000research.24911.1" target=_blank>https://doi.org/10.12688/f1000research.24911.1</a>) </div> <div class=toolbox-section-divider></div> <div class="toolbox-section-content text-content heading9 small"> NOTE: <em>it is important to ensure the information in <b>square brackets after the title</b> is included in all citations of this article.</em> </div> <div class=toolbox-section-content> <button class="primary orange extra-padding copy-cite-article-mobile js-clipboard" data-clipboard-target="#citation-copy-mobile" title="Copy the current citation details." data-test-id=mob_copy-citation_button-mob>COPY CITATION DETAILS</button> </div> </div> <div class="toolbox-section track"> <div class="toolbox-section-heading no-top-border">track</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-heading>receive updates on this article</div> <div class="toolbox-section-content padding-left-20 padding-right-20 heading9 small"> Track an article to receive email alerts on any updates to this article. </div> <div class=toolbox-section-content> <a data-article-id=24911 id=mobile-track-article-signin-24911 title="Receive updates on new activity such as publication of new versions, peer reviews or author responses." href="/login?originalPath=/trackArticle/24911?target=/articles/9-972/v1"> <button class="primary orange extra-padding"> TRACK THIS ARTICLE </button> </a> </div> </div> <div class="toolbox-section share"> <div class="toolbox-section-heading no-top-border">Share</div> <div class=toolbox-section-divider></div> <div class=toolbox-section-content> <a target=_blank class="f1r-shares-icon-square f1r-shares-email" title="Email this article"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-twitter" title="Share on Twitter"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-facebook" title="Share on Facebook"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-linkedin" title="Share on LinkedIn"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-reddit" title="Share on Reddit"></a> <a target=_blank class="f1r-shares-icon-square f1r-shares-mendelay" title="Share on Mendeley"></a> <div class="email-article-wrapper email-article-version-container"> <div class=toolbox-section-divider></div> <script src='https://www.recaptcha.net/recaptcha/api.js'></script> <form class="recommend-version-form-mobile research-layout"> <p>All fields are required.</p> <input name=versionId type=hidden value=27484 /> <input name=articleId type=hidden value=24911 /> <input name=senderName class="form-input-field reg-form" value="" type=text placeholder="Your name"/> <input name=senderEmail class="form-input-field reg-form margin-top" value="" type=text placeholder="Your email address"/> <textarea name=recipientEmails class="form-textarea-field ninetynine-percent-wide margin-top no-resize" placeholder="Recipient email address(es) (comma delimited)"></textarea> <input class="form-input-field reg-form margin-top" name=subject type=text value="Interesting article on F1000Research" placeholder=Subject /> <textarea name=message class="form-textarea-field reg-form margin-top no-resize">I thought this article from F1000Research (https://f1000research.com) would be of interest to you.</textarea> <div class="g-recaptcha margin-top" data-sitekey=6LcHqxoUAAAAANP3_0TzpGG6qFvl4DhbUcuRzw7W></div> <input value="" name=captcha type=hidden /> <p>A full article citation will be automatically included.</p> <p><img class="ticker-email-article-details hidden" src="/img/ticker.gif" alt=loading /></p> <button class="secondary orange margin-bottom" data-test-id=version_share_email_send>SEND EMAIL</button> <div class="orange-message margin-bottom is-hidden" data-test-id=version_share_email_message></div> </form> </div> </div> </div> </div> </div> <a name=article-reports></a> <div id=article-reports class="u-mt--3 reports-comments no-divider"> <div class="current-referee-status no-border-and-margin "> <h2 class=main-title id=current-referee-status> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-85_peer_review size30"></span> </span> Open Peer Review <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> <a name=current-referee-status></a> <div class=current-referee-status__content name=add-new-report-comment id=add-new-report-comment> Current Reviewer Status: <div class=f1r-article-desk-inline><em>AWAITING PEER REVIEW</em></div> <div class="f1r-article-mobile-inline float-right"><em>AWAITING PEER REVIEW</em></div> <span class="circle-icon-small to-right" data-window=about-referee-status title=Help>?</span> <span class="research-layout f1r-article-mobile"> <div class=mobile-ref-status-help> Key to Reviewer Statuses <span class=referee-status-pointer></span> <span class="view-control float-right">VIEW</span> <span class="view-control float-right is-hidden">HIDE</span> <div class=mobile-ref-status-help-content> <div class="cf margin-top"> <span class="f1r-icon icon-86_approved status-green smaller float-left margin-bottom-40 margin-right" title=Approved></span> <span class=title>Approved</span>The paper is scientifically sound in its current form and only minor, if any, improvements are suggested </div> <div class="cf margin-top"> <span class="f1r-icon icon-87_approved_reservations status-green smaller float-left margin-bottom-40 margin-right" title="Approved with Reservations"></span> <span class=title>Approved with reservations</span> A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </div> <div class="cf margin-top"> <span class="f1r-icon icon-88_not_approved status-red small float-left margin-bottom-30 margin-right" title="Not Approved"></span> <span class=title>Not approved</span>Fundamental flaws in the paper seriously undermine the findings and conclusions </div> </div> </div> </span> </div> </div> </div> <div class="f1r-article-mobile research-layout"> <div class="mobile-sections-divider before-comments"></div> </div> <div id=article-comments class="article-comments padding-bottom-20"> <div class=current-article-comment-section> <h2 class=main-title name=add-new-comment id=add-new-comment> <span class="research-layout f1r-article-mobile-inline valign-middle"> <span class="f1r-icon icon-104_comments size30"></span> </span> <span class=f1r-article-desk-inline>Comments on this article</span> <span class=f1r-article-mobile-inline>Comments (0)</span> <span class="f1r-article-mobile-inline float-right"> <span class="f1r-icon icon-14_more_small"></span> <span class="f1r-icon icon-10_less_small"></span> </span> </h2> </div> <div class="f1r-article-desk-inline referee-report-info-box referee-report-version-box"> Version 1 </div> <div class="f1r-article-mobile research-layout mobile-version-info padding-top-30"> <span class=mversion>VERSION 1</span> <span class=details>PUBLISHED 11 Aug 2020</span> <span class="article-pubinfo-mobile versions-section"> </span> </div> <div class="f1r-article-mobile research-layout margin-top-20 is-centered"> <a href="/login?originalPath=/articles/9-972/v1&scrollTo=add-new-comment" class=register-report-comment-button data-test-id=add-comment_mob> <button class="primary orange extra-padding comment-on-this-report">ADD YOUR COMMENT</button> </a> </div> <a href="/login?originalPath=/articles/9-972/v1&scrollTo=add-new-comment" class="f1r-article-desk register-report-comment-button" data-test-id=add-comment> <span class=contracted></span>Comment </a> </div> </div> </div> <div id=article_main-column class="p-article__sidebar o-layout__item u-1/3 not-expanded js-article-sidebar"> <div class="o-tab p-article__column-toggle-container"> <button class="c-tab c-tab--left js-column-toggle p-article__column-toggle not-expanded " type=button data-target-main=article_main-column data-target-secondary=article_secondary-column><i class="c-tab__icon material-icons u-hide@expanded">keyboard_arrow_left</i><i class="c-tab__icon material-icons u-show@expanded">keyboard_arrow_right</i></button> </div> <div class=p-article__sidebar-content> <div class="p-article__sidebar-scroller js-article-sidebar-scroller"> <section class="p-article__sidebar-view js-article-sidebar-view js-article-sidebar-main u-pt u-pb--8" data-view=peer-review> <div class="o-layout o-layout--flush"> <div class="o-layout__item u-pl"> <h3 class="u-mt--0 u-mb--2 t-h3 u-weight--md u-pl" data-test-id=article_sidebar_heading>Open Peer Review</h3> </div> <div class=o-layout__item> <div class="p-article__sidebar-highlight u-mb--2"> <h4 class="u-mt--0 u-mb--0 u-ib u-middle t-h4 u-weight--md u-mr--1/2">Reviewer Status</h4> <div class="u-ib u-middle"><em>AWAITING PEER REVIEW</em></div> </div> </div> <section class="o-layout__item u-pl"> <div class=u-pl> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--2">Comments on this article</h4> <div class=u-mb--4> <p class="u-mt--0 u-mb--1 t-h4"><a class=p-article__color--light href="#article-comments">All Comments</a><span class=" u-ib u-ml--1/2 p-article__color--light">(0)</span></p> <a class=t-h4 href="/login?originalPath=/articles/9-972/v1&scrollTo=add-new-comment" data-test-id=add-comment>Add a comment</a> </div> <hr class="c-hr c-hr--low c-hr--md u-mb--4"> <div class="research-layout f1r-article-desk"> <div class="heading6 c-ribbon-wrapper c-ribbon-wrapper--etoc f1000research "> <div class=c-ribbon-wrapper__body>Sign up for content alerts</div> </div> </div> <div class="research-layout sidebar-sign-up-form f1r-article-desk u-mb--4 "> <form class=js-email-alert-signup action="#" method=POST data-email=tocAlertWeekly> <input type=hidden name=isUserLoggedIn class=js-email-alert-signup-logged-in value=N /> <input type=hidden name=userId class=js-email-alert-signup-user-id value=""/> <input type=hidden name=frequency class=js-email-alert-signup-frequency value=WEEKLY /> <div class="o-actions o-actions--middle"> <div class=o-actions__primary> <input type=email name=emailAddress class="form-input-field js-email-alert-signup-address u-1/1 u-bb" required=required placeholder=Email /> </div> <div class=o-actions__secondary> <div class="_mdl-layout u-ml--1/2"> <button class="mdl-button mdl-js-button mdl-button--colored mdl-button--small mdl-button--filled js-email-alert-signup-submit">Sign Up</button> </div> </div> </div> </form> <div id=sidebar-sign-up-message class="section-text js-email-alert-signup-msg is-hidden">You are now signed up to receive this alert</div> </div> <section class=js-terms-container> <hr class="c-hr c-hr--low c-hr--md u-mb--3"> <h4 class="t-h3 u-weight--md u-mt--0 u-mb--1">Browse by related subjects</h4> <div class="article-subcontainer article-subcontainer--sidebar"> <ul class=js-terms-list></ul> </div> </section> </div> </section> </div> </section> </div> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/read-more.js"></script> <script src="/js/article/article-router.js"></script> <script src="/js/article/article-sidebar.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/article/article-column-toggle.js"></script> </div> </div> </div> </main> <input type=hidden id=_articleVersionUrl value="https://f1000research.com/articles/9-972/v1/"> <div class=research-help id=about-referee-status> <div class="research-layout research-help-content about-referee-status"> <span class="close-research-help dark-cross" title=Close></span> Alongside their report, reviewers assign a status to the article: <div class="cf research-help-row"> <span class="f1r-icon icon-86_approved status-green smaller" title=Approved></span> <span class=research-help-text>Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested</span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-87_approved_reservations status-green smaller" title="Approved with Reservations"></span> <span class=research-help-text>Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. </span> </div> <div class="cf research-help-row"> <span class="f1r-icon icon-88_not_approved status-red small" title="Not Approved"></span> <span class=research-help-text>Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions</span> </div> </div> </div> <div id=datasets-info class=is-hidden> </div> <div class=article-interactive-content-container style="display: none;"> <a name=f-template class=n-a></a> <div class="interactive-content-wrapper padding-20"> <img src="" class=interactive-content-image title="Open the interactive image display"> <div class=interactive-content-title></div> <div class=interactive-content-text></div> <div class="f1r-article-desk interactive-content-ribbon" data-interactive-content-type=R-Script> <div class=interactive-content-label>Adjust parameters to alter display</div> <div class=interactive-content-button></div> </div> <div class="f1r-article-mobile mobile-interactive-note"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div id=article-interactive-omero-container class=article-interactive-omero-container style="display: none;"> <div class=interactive-content-wrapper> <div class="interactive-omero-button omero-content" title="Open the interactive content window." data-interactive-content-type=Omero></div> <div class=has-interactive-content-image> <span class=box-arrow></span> <span class=box-middle>Includes Interactive Elements</span> <span class=box-end></span> </div> <div class="fig panel clearfix" style="margin: 0; padding-bottom: 20px;"> <a name=templatelink class=n-a></a> <a target=_blank href="" class=link-for-omero-image> <img src="" class=interactive-omero-image title="Open the image display window."> </a> <div class=caption> <div class=interactive-content-title></div> <div class=interactive-content-text></div> </div> <div class="is-hidden omero-image-list"></div> </div> <div class="f1r-article-mobile mobile-interactive-note omero"> View on desktop for interactive features <img src="/img/icon/interactive_content.png" class="float-right margin-right-40"/> </div> <div class=clearfix></div> </div> </div> <div class="add-comment-container shadow-box is-hidden" id=save-comment-container> <span id=save-comment-text class=intro-text>Edit comment</span> <textarea id=new-comment name=new-comment class="global-textarea comment margin-bottom margin-top"></textarea> <p><strong>Competing Interests</strong></p> <textarea id=new-competing-interests name=competing-interests class="global-textarea competing-interests margin-bottom check-xss"></textarea> <div class=clearfix></div> <button id=cancelComment type=button class="general-white-orange-button float-right no-background-button margin-left"> Cancel </button> <button id=save-comment-button commentId="" type=button class="general-white-orange-button float-right"> Save </button> <div class=clearfix></div> <div class="green-message margin-top is-hidden comment-is-saved">The comment has been saved.</div> <div class="red-message margin-top is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class="red-message margin-top is-hidden comment-enter-text ucf">Your must enter a comment.</div> <div class="red-message margin-top is-hidden comment-references-error references">References error.</div> </div> <div class="modal-window-wrapper is-hidden"> <div id=conflicts-interests class="modal-window padding-20"> <div class=modal-window__content> <h2 class=h2-title>Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div class="f1r-article-mobile research-layout"> <span class=modal-window-close-button></span> </div> </div> </div> <div class="o-modal c-email-alert-popup js-email-alert-popup is-hidden"> <div class="o-modal__body js-modal-body c-email-alert-popup__inner"> <h3 class=c-email-alert-popup__title>Stay Updated</h3> <p class=c-email-alert-popup__sub>Sign up for content alerts and receive a weekly or monthly email with all newly published articles</p> <p><a href="/register?originalPath=" class="c-email-alert-popup__lnk c-email-alert-popup__button js-email-alert-popup-action">Register with F1000Research</a></p> <p>Already registered? <a href="/login?originalPath=" class="c-email-alert-popup__lnk js-email-alert-popup-action">Sign in</a></p> <p class=c-email-alert-popup__footer><a class="c-email-alert-popup__lnk js-email-alert-popup-cancel" href="#">Not now, thanks</a></p> </div> </div> <div id=addCommentModal role=dialog aria-labelledby=addCommentModal_title aria-describedby=addCommentModal_description> <div class="c-modal js-modal is-closed p-article__add-comment-modal c-modal--xlarge js-article-comment-modal c-modal--scroll "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-bg--2 c-modal--scroll-always "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <div id=addCommentModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div class="js-add-comment-container t-caption u-black--high"> <div class=u-weight--bd>PLEASE NOTE</div> <div class=u-mt--1> <span class="red u-weight--bd">If you are an AUTHOR of this article,</span> please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a &ldquo;User Comment&rdquo;. </div> <div class=u-mt--1> <span class="red u-weight--bd">If you are a REVIEWER of this article,</span> please check that you have signed in with the account associated with this article and then go to your <a href="/my/referee">account</a> to submit your report, please do not post your review here. </div> <div class="u-mt--1 u-mb--1"> If you do not have access to your original account, please <a href="mailto:research@f1000.com">contact us</a>. </div> <p class=no-top-margin>All commenters must hold a formal affiliation as per our <a href="/about/policies#commentspolicy" target=_blank>Policies</a>. The information that you give us will be displayed next to your comment.</p> <p>User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the <a href="/about/legal/usercommenttermsandconditions" target=_blank>User Comment Terms and Conditions</a>. Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available.</p> <div class="comments-note margin-bottom" id=accept-user-comments> <input class=js-add-comment-accept-terms type=checkbox id=acceptedTermsAndConditions name=acceptedTermsAndConditions> I accept the <a href="/about/legal/usercommenttermsandconditions" target=_blank> User Comment Terms and Conditions</a> <span class=required>&nbsp;</span> </div> <div class="default-error margin-top is-hidden comment-accept-conditions utac">Please confirm that you accept the User Comment Terms and Conditions.</div> <div class="research-layout registration-form u-mb--2"> <div class="u-mb--1 u-mt--2"> <strong>Affiliation</strong> </div> <div class=form-field> <input type=text name=institution class="form-input-field check-xss js-add-comment-institution" placeholder="Organization *" autocomplete=off /> <div class="default-error margin-top is-hidden comment-enter-institution institution">Please enter your organisation.</div> </div> <div class=form-field> <input type=text name=place class="form-input-field check-xss js-add-comment-place" placeholder=Place> </div> <div class=form-field> <div class="form-input-wrapper hundred-percent-wide"> <div class="new-select-standard-wrapper half-width inline-display heading10"> <select name=countryId id=country class="form-select-menu smaller js-add-comment-country"> <option value=-1>Country*</option> <option value=840>USA</option> <option value=826>UK</option> <option value=124>Canada</option> <option value=156>China</option> <option value=250>France</option> <option value=276>Germany</option> <optgroup label=-----------------------------------------------></optgroup> <option value=4>Afghanistan</option> <option value=248>Aland Islands</option> <option value=8>Albania</option> <option value=12>Algeria</option> <option value=16>American Samoa</option> <option value=20>Andorra</option> <option value=24>Angola</option> <option value=660>Anguilla</option> <option value=10>Antarctica</option> <option value=28>Antigua and Barbuda</option> <option value=32>Argentina</option> <option value=51>Armenia</option> <option value=533>Aruba</option> <option value=36>Australia</option> <option value=40>Austria</option> <option value=31>Azerbaijan</option> <option value=44>Bahamas</option> <option value=48>Bahrain</option> <option value=50>Bangladesh</option> <option value=52>Barbados</option> <option value=112>Belarus</option> <option value=56>Belgium</option> <option value=84>Belize</option> <option value=204>Benin</option> <option value=60>Bermuda</option> <option value=64>Bhutan</option> <option value=68>Bolivia</option> <option value=70>Bosnia and Herzegovina</option> <option value=72>Botswana</option> <option value=74>Bouvet Island</option> <option value=76>Brazil</option> <option value=86>British Indian Ocean Territory</option> <option value=92>British Virgin Islands</option> <option value=96>Brunei</option> <option value=100>Bulgaria</option> <option value=854>Burkina Faso</option> <option value=108>Burundi</option> <option value=116>Cambodia</option> <option value=120>Cameroon</option> <option value=124>Canada</option> <option value=132>Cape Verde</option> <option value=136>Cayman Islands</option> <option value=140>Central African Republic</option> <option value=148>Chad</option> <option value=152>Chile</option> <option value=156>China</option> <option value=162>Christmas Island</option> <option value=166>Cocos (Keeling) Islands</option> <option value=170>Colombia</option> <option value=174>Comoros</option> <option value=178>Congo</option> <option value=184>Cook Islands</option> <option value=188>Costa Rica</option> <option value=384>Cote d'Ivoire</option> <option value=191>Croatia</option> <option value=192>Cuba</option> <option value=196>Cyprus</option> <option value=203>Czech Republic</option> <option value=180>Democratic Republic of the Congo</option> <option value=208>Denmark</option> <option value=262>Djibouti</option> <option value=212>Dominica</option> <option value=214>Dominican Republic</option> <option value=218>Ecuador</option> <option value=818>Egypt</option> <option value=222>El Salvador</option> <option value=226>Equatorial Guinea</option> <option value=232>Eritrea</option> <option value=233>Estonia</option> <option value=231>Ethiopia</option> <option value=238>Falkland Islands</option> <option value=234>Faroe Islands</option> <option value=583>Federated States of Micronesia</option> <option value=242>Fiji</option> <option value=246>Finland</option> <option value=250>France</option> <option value=254>French Guiana</option> <option value=258>French Polynesia</option> <option value=260>French Southern Territories</option> <option value=266>Gabon</option> <option value=268>Georgia</option> <option value=276>Germany</option> <option value=288>Ghana</option> <option value=292>Gibraltar</option> <option value=300>Greece</option> <option value=304>Greenland</option> <option value=308>Grenada</option> <option value=312>Guadeloupe</option> <option value=316>Guam</option> <option value=320>Guatemala</option> <option value=831>Guernsey</option> <option value=324>Guinea</option> <option value=624>Guinea-Bissau</option> <option value=328>Guyana</option> <option value=332>Haiti</option> <option value=334>Heard Island and Mcdonald Islands</option> <option value=336>Holy See (Vatican City State)</option> <option value=340>Honduras</option> <option value=344>Hong Kong</option> <option value=348>Hungary</option> <option value=352>Iceland</option> <option value=356>India</option> <option value=360>Indonesia</option> <option value=364>Iran</option> <option value=368>Iraq</option> <option value=372>Ireland</option> <option value=376>Israel</option> <option value=380>Italy</option> <option value=388>Jamaica</option> <option value=392>Japan</option> <option value=832>Jersey</option> <option value=400>Jordan</option> <option value=398>Kazakhstan</option> <option value=404>Kenya</option> <option value=296>Kiribati</option> <option value=901>Kosovo (Serbia and Montenegro)</option> <option value=414>Kuwait</option> <option value=417>Kyrgyzstan</option> <option value=418>Lao People's Democratic Republic</option> <option value=428>Latvia</option> <option value=422>Lebanon</option> <option value=426>Lesotho</option> <option value=430>Liberia</option> <option value=434>Libya</option> <option value=438>Liechtenstein</option> <option value=440>Lithuania</option> <option value=442>Luxembourg</option> <option value=446>Macao</option> <option value=807>Macedonia</option> <option value=450>Madagascar</option> <option value=454>Malawi</option> <option value=458>Malaysia</option> <option value=462>Maldives</option> <option value=466>Mali</option> <option value=470>Malta</option> <option value=584>Marshall Islands</option> <option value=474>Martinique</option> <option value=478>Mauritania</option> <option value=480>Mauritius</option> <option value=175>Mayotte</option> <option value=484>Mexico</option> <option value=581>Minor Outlying Islands of the United States</option> <option value=498>Moldova</option> <option value=492>Monaco</option> <option value=496>Mongolia</option> <option value=499>Montenegro</option> <option value=500>Montserrat</option> <option value=504>Morocco</option> <option value=508>Mozambique</option> <option value=104>Myanmar</option> <option value=516>Namibia</option> <option value=520>Nauru</option> <option value=524>Nepal</option> <option value=530>Netherlands Antilles</option> <option value=540>New Caledonia</option> <option value=554>New Zealand</option> <option value=558>Nicaragua</option> <option value=562>Niger</option> <option value=566>Nigeria</option> <option value=570>Niue</option> <option value=574>Norfolk Island</option> <option value=580>Northern Mariana Islands</option> <option value=408>North Korea</option> <option value=578>Norway</option> <option value=512>Oman</option> <option value=586>Pakistan</option> <option value=585>Palau</option> <option value=275>Palestinian Territory</option> <option value=591>Panama</option> <option value=598>Papua New Guinea</option> <option value=600>Paraguay</option> <option value=604>Peru</option> <option value=608>Philippines</option> <option value=612>Pitcairn</option> <option value=616>Poland</option> <option value=620>Portugal</option> <option value=630>Puerto Rico</option> <option value=634>Qatar</option> <option value=638>Reunion</option> <option value=642>Romania</option> <option value=643>Russian Federation</option> <option value=646>Rwanda</option> <option value=654>Saint Helena</option> <option value=659>Saint Kitts and Nevis</option> <option value=662>Saint Lucia</option> <option value=666>Saint Pierre and Miquelon</option> <option value=670>Saint Vincent and the Grenadines</option> <option value=882>Samoa</option> <option value=674>San Marino</option> <option value=678>Sao Tome and Principe</option> <option value=682>Saudi Arabia</option> <option value=686>Senegal</option> <option value=688>Serbia</option> <option value=690>Seychelles</option> <option value=694>Sierra Leone</option> <option value=702>Singapore</option> <option value=703>Slovakia</option> <option value=705>Slovenia</option> <option value=90>Solomon Islands</option> <option value=706>Somalia</option> <option value=710>South Africa</option> <option value=239>South Georgia and the South Sandwich Is</option> <option value=410>South Korea</option> <option value=724>Spain</option> <option value=144>Sri Lanka</option> <option value=736>Sudan</option> <option value=740>Suriname</option> <option value=744>Svalbard and Jan Mayen</option> <option value=748>Swaziland</option> <option value=752>Sweden</option> <option value=756>Switzerland</option> <option value=760>Syria</option> <option value=158>Taiwan</option> <option value=762>Tajikistan</option> <option value=834>Tanzania</option> <option value=764>Thailand</option> <option value=270>The Gambia</option> <option value=528>The Netherlands</option> <option value=626>Timor-Leste</option> <option value=768>Togo</option> <option value=772>Tokelau</option> <option value=776>Tonga</option> <option value=780>Trinidad and Tobago</option> <option value=788>Tunisia</option> <option value=792>Turkey</option> <option value=795>Turkmenistan</option> <option value=796>Turks and Caicos Islands</option> <option value=798>Tuvalu</option> <option value=800>Uganda</option> <option value=826>UK</option> <option value=804>Ukraine</option> <option value=784>United Arab Emirates</option> <option value=850>United States Virgin Islands</option> <option value=858>Uruguay</option> <option value=840>USA</option> <option value=860>Uzbekistan</option> <option value=548>Vanuatu</option> <option value=862>Venezuela</option> <option value=704>Vietnam</option> <option value=876>Wallis and Futuna</option> <option value=905>West Bank and Gaza Strip</option> <option value=732>Western Sahara</option> <option value=887>Yemen</option> <option value=894>Zambia</option> <option value=716>Zimbabwe</option> </select> </div> </div> <div class="default-error margin-top is-hidden comment-enter-country country">Please select your country.</div> </div> </div> <textarea data-test-id=article_add-comment_comment name=new-comment class="js-add-comment-comment comment margin-bottom margin-top"></textarea> <div class="default-error margin-top comment-enter-text comment-error is-hidden ">You must enter a comment.</div> <label class="comments-note u-mt--2 u-mb--2" for=competingInterests_1> <div class="u-mb--1 u-mt--2"><strong data-test-id=article_report-add-comment_competing-interests-title>Competing Interests</strong></div> <p class="u-mb--2 u-mt--0" data-test-id=article_report-add-comment_competing-interests-description>Please disclose any <a href="#article-competing-intersts-policy" class=js-modal-competing-intersts-toggle>competing interests</a> that might be construed to influence your judgment of the article's or peer review report's validity or importance.</p> </label> <div id=article-competing-intersts-policy class=js-article-competing-interests-policy style="display: none;"> <h2 class="h2-title u-mt--0 u-pt--0">Competing Interests Policy</h2> <p> Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: </p> <div class=heading5>Examples of 'Non-Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper.</li> <li class=standard-padding>You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors.</li> <li class=standard-padding>You are a close professional associate of any of the authors (e.g. scientific mentor, recent student).</li> <li class=standard-padding>You work at the same institute as any of the authors.</li> <li class=standard-padding>You hope/expect to benefit (e.g. favour or employment) as a result of your submission.</li> <li class=standard-padding>You are an Editor for the journal in which the article is published.</li> </ol> <div class="heading5 padding-top">Examples of 'Financial Competing Interests'</div> <ol class="numbered-list no-padding"> <li class=standard-padding>You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements.</li> <li class=standard-padding>You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors.</li> <li class=standard-padding>You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on.</li> </ol> </div> <div id=competingInterests_1 class="c-inline-editor js-inline-editor js-form_input u-bb--all u-mb--2 js-comment-competing-interests" data-name=competing-interests data-rows=3> <textarea id=competingInterests_1_input name=competing-interests placeholder="&nbsp;" required=false class="u-hide-visually js-inline-editor_input" tabindex=-1></textarea> <div class="c-inline-editor__editor js-inline-editor_editor o-box c-box o-box--tiny u-bg--11" data-target=competingInterests_1_input role=textbox required=false data-placeholder="&nbsp;" contenteditable=true></div> <span class="c-inline-editor__error js-inline-editor-message">Please state your competing interests</span> </div> <div data-test-id=article_add-comment_saved class="green-message comments is-hidden comment-is-saved">The comment has been saved.</div> <div data-test-id=article_add-comment_error class="default-error comments is-hidden comment-not-added">An error has occurred. Please try again.</div> <div class=clearfix></div> <div class=js-hook></div> </div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" data-test-id=article_add-comment_cancel class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" data-test-id=article_add-comment_post class="c-button c-button--full js-modal__confirm c-button--primary">Post</a> </div> </aside> </div> </div> <style>
+                .at-icon-wrapper {
+        background-size: 100% !important;
+    }
+</style> <script src="/js/namespace.js"></script> <script src="/js/constants.js"></script> <script src="/js/utilities.js"></script> <script src="/js/article/alert-signup.js"></script> <script type='text/javascript'>
+    var lTitle = "Case Report: Longitudinal assessment of a...".replace("'", '');
+    var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/9-972/v1" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+    var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/9-972/v1&title=" + encodeURIComponent(lTitle);
+
+    var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/9-972/v1" + "&title=" + encodeURIComponent(lTitle);
+
+            linkedInUrl += encodeURIComponent('Chotani RA et al.');
+    
+    var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+    var addthis_config = {
+            ui_offset_top: offsetTop,
+                                    services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+            services_custom : [
+                {
+                    name: "LinkedIn",
+                    url:  linkedInUrl,
+                    icon:"/img/icon/at_linkedin.svg"
+                },
+                {
+                    name: "Mendeley",
+                    url:  "http://www.mendeley.com/import/?url=https://f1000research.com/articles/9-972/v1/mendeley",
+                    icon:"/img/icon/at_mendeley.svg"
+                },
+                {
+                    name: "Reddit",
+                    url:  redditUrl,
+                    icon:"/img/icon/at_reddit.svg"
+                },
+            ]
+        };
+
+
+    var addthis_share = {
+            url: "https://f1000research.com/articles/9-972",
+            templates : {
+                twitter : "Case Report: Longitudinal assessment of a COVID-19 patient in.... Chotani RA et al., published by " + 
+               "@F1000Research"
+       + ", https://f1000research.com/articles/9-972/v1"
+            }
+        };
+
+    if (typeof(addthis) != "undefined"){
+        addthis.addEventListener('addthis.ready', checkCount);
+        addthis.addEventListener('addthis.menu.share', checkCount);
+    }
+
+        $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+    $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+    $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+    $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+    $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+    function checkCount(){
+        setTimeout(function(){
+            $(".addthis_button_expanded").each(function(){
+                var count = $(this).text();
+                if (count !== "" && count != "0")
+                    $(this).removeClass("is-hidden");
+                else
+                    $(this).addClass("is-hidden");
+            });
+        }, 1000);
+    }
+</script> <div id=citeReportModal role=dialog aria-labelledby=citeReportModal_title aria-describedby=citeReportModal_description> <div class="c-modal js-modal is-closed c-modal--large js-cite-report-modal "> <aside class="c-modal__content u-black--high o-box u-pb--0 u-black--high "> <div class=c-modal__close> <button type=button class="c-button c-button--icon c-button--medium c-button--full@hover js-modal__close"><i class="c-button--icon__icon material-icons">close</i></button> </div> <h1 id=citeReportModal_title class="c-modal__title t-h3 u-mt--0 u-mb--2 u-weight--md">How to cite this report</h1> <div id=citeReportModal_description class="c-modal__description js-modal__content t-h4 u-mt--0 u-mb--2 u-black--medium"> <div id="" class=js-report-citation-container>{{reportCitation}}</div> <div class="c-modal__extra-message js-modal__extra-message t-h4 u-black--medium"></div></div> <div class="c-modal__actions o-box__actions"> <a href="#" class="c-button c-button--full js-modal__close c-button--secondary">Cancel</a> <a href="#" title="Copy the current citation details to the clipboard." data-clipboard-target="#referee-report-citation" data-test-id=report_copy-citation_button class="c-button c-button--full js-modal__confirm c-button--primary js-clipboard c-mini-tooltip--above">Copy Citation Details</a> </div> </aside> </div> </div> <script src="/js/referee/new/referee_validators.js"></script> <script src="/js/referee/new/referee_helpers.js"></script> <script src="/js/referee/new/referee_checkbox-input.js"></script> <script src="/js/referee/new/referee_inline-editor.js"></script> <script type="text/javascript">
+    $(function(){
+        var gaCat = "F1000Research";
+        if (gaCat === "") {
+            gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+        }
+        GAHelper.track({category: gaCat, action: "Article Page: Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic", label: "pageviews"});
+        GAHelper.track({category: gaCat, action: "Article Type: Case Report", label: "Article Page"});
+        $(".f1r-article-desk .collection-image").each(function (idx, el) {
+            var whatChannel = $(el).find("a").attr("href"),
+                channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+                gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+            GAHelper.track({category: 'ChannelStats', action: "Article Page: Case Report: Longitudinal assessment of a COVID-19 patient in the midst of a pandemic", label: gaRef});
+        });
+    });
+</script> <script>
+    $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+    $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+</script> <script src="/js/article/track_article.js" type="text/javascript"></script> <script type="text/javascript">
+    $.get("/articles/acj/24911/27484")
+</script> <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script type="text/javascript" src="/js/app/messenger.js"></script> <script type="text/javascript" src="/js/article/article_mobiles.js"></script> <script src="/js/vendor/clipboard.min.js"></script> <script src="/js/shared_scripts/modal-dialogue.js"></script> <script src="/js/shared_scripts/clipboard.js"></script> <script src="/js/article/thesaurus-terms-display.js"></script> <script>
+    new F1000.Clipboard();
+    new F1000.ThesaurusTermsDisplay("articles", "article", "27484");
+</script> <script>
+    $(document).ready(function() {
+        $( "#frame1" ).on('load', function() {
+            var mydiv = $(this).contents().find("div");
+            var h     = mydiv.height();
+            console.log(h)
+        });
+
+        
+        var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+            titleLivingFigure = tooltipLivingFigure.attr("title");
+        tooltipLivingFigure.simpletip({
+            fixed: true,
+            position: ["-115", "30"],
+            baseClass: 'small-tooltip',
+            content:titleLivingFigure + "<div class='tooltip-arrow'></div>"
+        });
+        tooltipLivingFigure.removeAttr("title");
+
+        $("body").on("click", ".cite-living-figure", function(e) {
+            e.preventDefault();
+            var ref = $(this).attr("data-ref");
+            $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+        });
+        $("body").on("click", ".close-cite-living-figure", function(e) {
+            e.preventDefault();
+            $(this).closest(".popup-window-wrapper").fadeOut(200);
+        });
+
+                $(document).on("mouseup", function(e) {
+            var metricsContainer = $(".article-metrics-popover-wrapper");
+            if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+                $(".article-metrics-close-button").click();
+            }
+        });
+
+        var articleId = $('#articleId').val();
+
+        if($("#main-article-count-box").attachArticleMetrics) {
+            $("#main-article-count-box").attachArticleMetrics(articleId, {
+                articleMetricsView: true
+            });
+        }
+    });
+
+    var figshareWidget = $(".new_figshare_widget");
+    if (figshareWidget.length > 0) {
+        window.figshare.load("f1000", function(Widget) {
+            // Select a tag/tags defined in your page. In this tag we will place the widget.
+            _.map(figshareWidget, function(el){
+                var widget = new Widget({
+                    articleId: $(el).attr("figshare_articleId")
+                    //height:300 // this is the height of the viewer part. [Default: 550]
+                });
+                widget.initialize(); // initialize the widget
+                widget.mount(el); // mount it in a tag that's on your page
+                // this will save the widget on the global scope for later use from
+                // your JS scripts. This line is optional.
+                //window.widget = widget;
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        
+        var reportIds = {
+                           "69309": 0,
+                           "69311": 0,
+                           "69310": 0,
+                    };
+
+        $(".referee-response-container,.js-referee-report").each(function(index, el) {
+            var reportId = $(el).attr("data-reportid"),
+                reportCount = reportIds[reportId] || 0;
+            $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+        });
+
+        var uuidInput = $("#article_uuid"),
+            oldUUId = uuidInput.val(),
+            newUUId = "0bb2408b-9d95-4df7-af23-0af1da6ba76d";
+        uuidInput.val(newUUId);
+
+        $("a[href*='article_uuid=']").each(function(index, el) {
+            var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+            $(el).attr("href", newHref);
+        });
+
+    });
+</script>              </div>
+        </div>
+
+        
+            
+            <div class="o-page__footer sticky-email-wrapper">
+                
+                
+
+                
+
+
+<footer class="c-footer t-inverted">
+
+    <div class="o-wrapper">
+        <div class="o-layout">
+
+
+                        
+            <div class="o-layout__item u-mb--3">
+                <div class="c-branding c-branding--research">
+                    <img src="/img/research/F1000Research_white.svg" alt="F1000Research">
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <p class="t-h3 u-mt--0 u-mb--0">An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing.</p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md">
+
+                <span class="c-hr c-hr--thick c-hr--low u-mb--2"></span>
+
+                <div class="o-layout">
+                    <nav class="c-footer__nav">
+
+                            <div class="o-layout__item u-3/5@sm u-mb--3">
+
+
+                                <div class="o-columns o-columns--2">
+
+                                                                            <a href="/browse/articles" class="t-body c-footer__nav-item "      >Browse</a>
+                                                                            <a href="/gateways" class="t-body c-footer__nav-item "      >Gateways</a>
+                                                                            <a href="/collections" class="t-body c-footer__nav-item "      >Collections</a>
+                                                                            <a href="/about" class="t-body c-footer__nav-item "      >How it Works</a>
+                                                                            <a href="https://blog.f1000.com/blogs/f1000research/" class="t-body c-footer__nav-item "      >Blog</a>
+                                                                            <a href="/contact" class="t-body c-footer__nav-item "      >Contact</a>
+                                                                            <a href="/developers" class="t-body c-footer__nav-item u-hide u-show@navbar"      >For Developers</a>
+                                                                            <a href="/published/rss" class="t-body c-footer__nav-item "   title="RSS feed of published articles"     >RSS</a>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="o-layout__item u-2/5@sm u-center u-right@sm u-mb--3">
+
+                                <div class="u-hide u-show@lg">
+                                    <div class="_mdl-layout">
+                                        <a class="mdl-button mdl-js-button mdl-button--inverted mdl-button--no-shadow mdl-js-ripple-effect mdl-button--outline" href="/for-authors/publish-your-research"   data-test-id="footer_submit_research"  >Submit Your Research</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                    </nav>
+                </div>
+
+            </div>
+
+            <div class="o-layout__item u-mb--2">
+                <div class="c-footer__share">
+                        <div class="c-footer__share">
+        <span class="c-footer__share-icon" title="Open Access">
+            <span class="f1r-icon icon-100_open_access license-icon"></span>
+        </span>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/licenses" target="_blank" title="Creative Commons License CC-BY">
+            <span class="f1r-icon icon-116_cc license-icon license-icon-cc"></span>
+            <span class="f1r-icon icon-117_ccby license-icon license-icon-cc"></span>
+        </a>
+
+        <a class="c-footer__share-icon" href="//creativecommons.org/about/cc0" target="_blank" title="Creative Commons License CC0">
+            <span class="f1r-icon icon-118_cco license-icon"></span>
+        </a>
+
+    </div>
+                </div>
+            </div>
+
+
+                        
+            <div class="o-layout__item u-1/3@md u-mb--3">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="c-footer__social u-mt--0 u-mb--0 u-white--low-med">Follow us
+                    <a href="https://www.facebook.com/F1000" target="_blank" class="c-footer__social-icon f1r-icon icon-55_footer_facebook"></a>
+                    <a href="https://twitter.com/#!/F1000Research" target="_blank" class="c-footer__social-icon f1r-icon icon-56_footer_twitter"></a>
+                    <a href="http://www.youtube.com/user/F1000research" target="_blank" class="c-footer__social-icon f1r-icon icon-57_footer_youtube"></a></p>
+
+            </div>
+
+
+                        
+            <div class="o-layout__item u-2/3@md u-right@md">
+
+                <span class="c-hr c-hr--low u-mb--3"></span>
+
+                <p class="t-caption u-white--low-med">&copy; 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | <a href="/about/legal" class="copyrightLegal">Legal</a> | Partner of <a target="_blank" href="http://www.who.int/hinari/en/">HINARI</a>  &bull; <a target="_blank" href="http://crossref.org/">CrossRef</a> &bull; <a target="_blank" href="http://about.orcid.org/">ORCID</a> &bull; <a target="_blank" href="http://www.fairsharing.org">FAIRSharing</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</footer>            </div>
+        
+    </div>
+
+            <div class="js-cookie-spacer"></div>
+        <div class="cookie-warning">
+            <div class="instruction">The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. <a class="js-scroll-to" href="/about/legal/privacypolicy#use-of-cookies" data-scroll-target="#use-of-cookies">Find out more &raquo;</a></div>
+            <div class="close-button"></div>
+        </div>
+    
+    <script>
+                    R.templateTests.simpleTemplate = R.template('<p class="$variable.one">$text</p><p class="${variable.two}">$text</p><p class="$!variable.three">$text</p><p class="$!{variable.four}">$text</p><p class="${selector}.five">$text</p>');
+            R.templateTests.runTests();
+        
+        var F1000platform = new F1000.Platform({
+            name: "f1000research",
+            displayName: "F1000Research",
+            hostName: "f1000research.com",
+            id: "1",
+            editorialEmail: "research@f1000.com",
+            infoEmail: "info@f1000.com",
+            usePmcStats: true
+        });
+
+                    $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+            // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+            $(document).ready(function () {
+                if ($(".cookie-warning").is(":visible")) {
+                    $(".sticky").css("margin-bottom", "35px");
+                    $(".devices").addClass("devices-and-cookie-warning");
+                }
+                $(".cookie-warning .close-button").click(function (e) {
+                    $(".devices").removeClass("devices-and-cookie-warning");
+                    $(".sticky").css("margin-bottom", "0");
+                });
+
+                $("#tweeter-feed .tweet-message").each(function (i, message) {
+                    var self = $(message);
+                    self.html(linkify(self.html()));
+                });
+
+                $(".partner").on("mouseenter mouseleave", function() {
+                    $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+                });
+            });
+        
+    </script>
+
+            
+<div class="sign-in-popup">
+	<!-- <a href="#" class="sign-in shadow">Sign in <span class="sign-in-image-active"></span></a> -->
+	<a href="#" class="sign-in ${locale}">Sign In <span class="arrow-closed sign-in-arrow-padding arrow-opened"></span></a>
+	<div class="sign-in-form">
+
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="googleOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-972.html"/>
+                            <input id="google-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-google" name="system" type="hidden" value="GOOGLE"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="facebookOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-972.html"/>
+                            <input id="facebook-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-fb" name="system" type="hidden" value="FACEBOOK"/>
+    </form>
+            <form action="https://f1000research.com/j_spring_oauth_security_check" id="orcidOAuth" method="post"  target="_top" >
+                                    <input class="target-field" type="hidden" name="target" value="/articles/9-972.html"/>
+                            <input id="orcid-remember-me" name="_spring_security_oauth_remember_me" type="hidden" value="true"/>
+        <input id="system-orcid" name="system" type="hidden" value="ORCID"/>
+    </form>
+		<form id="sign-in-form" class="login-container" action="https://f1000research.com/login" method="post" name="f">
+           <div id="sign-in-form-gfb-popup"></div>
+
+                                                            <input class="target-field" type="hidden" name="target" value="/articles/9-972.html"/>
+                            			<input type="text" name="username" id="signin-email-box" class="sign-in-input" placeholder="Email address" autocomplete="email">
+			<input type="password" name="password" id="signin-password-box" class="sign-in-input" placeholder="Password" autocomplete="current-password">
+			<div class="sign-in-remember">
+                <div class="checkbox-wrapper">
+    				<input type="checkbox" id="remember-me" name="remember_me" class="checkbox is-hidden">
+                </div>
+                <span class="checkbox-label">Remember me</span>
+			</div>
+			<a href="#" class="sign-in-link" id="forgot-password-link">Forgotten your password?</a>
+			<div class="sign-in-button-container margin-top margin-left-20 margin-bottom">
+				<button type="submit" id="sign-in-button" class="sign-in-buttons general-white-orange-button">Sign In</button>
+				<button type="button" id="sign-in-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="sign-in-error">Email or password not correct. Please try again</div>
+			<div class="sign-in-loading">Please wait...</div>
+		</form>
+		<div class="forgot-password-container">
+			
+<script type="text/javascript">
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("GOOGLE");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=facebookSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("FACEBOOK");
+            $("form[id=oAuthForm]").submit();
+        });
+        $("a[id=orcidSignInButton]").click(function(event){
+            event.preventDefault();
+            $("input[id=oAuthSystem]").val("ORCID");
+            $("form[id=oAuthForm]").submit();
+        });
+	});
+</script>
+
+<span class="text first">
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+    <p>The email address should be the one you originally registered with F1000.</p>
+</span>
+<input name="email" class="sign-in-input" id="email-forgot-password" type="text" placeholder="Email address">
+<div class="forgot-password-email-error">
+	Email address not valid, please try again
+</div>
+<div class="forgot-password-google-email-error">
+    <p>You registered with F1000 via Google, so we cannot reset your password.</p>
+	<p>To sign in, please click <a href="#" id="googleSignInButton">here</a>.</p>
+    <p>If you still need help with your Google account password, please click <a href="https://www.google.com/accounts/recovery">here</a>.</p>
+</div>
+<div class="forgot-password-facebook-email-error">
+    <p>You registered with F1000 via Facebook, so we cannot reset your password.</p>
+    <p>To sign in, please click <a href="#" id="facebookSignInButton">here</a>.</p>
+	<p>If you still need help with your Facebook account password, please click <a href="https://www.facebook.com/recover/initiate">here</a>.</p>
+</div>
+<div class="clearfix"></div>
+<div class="forgot-password-captcha-error">
+	Code not correct, please try again
+</div>
+<div class="clearfix"></div>
+<div class="sign-in-button-container margin-left-20 margin-bottom">
+	<button type="button" id="sign-in-reset-password" class="sign-in-buttons general-white-orange-button">Reset password</button>
+	<button type="button" id="forgot-password-cancel" class="sign-in-buttons sign-in-cancel-button margin-left">Cancel</button>
+	<div class="clearfix"></div>
+</div>
+<span class="text last">
+	<a href="mailto:">Email us</a> for further assistance.
+</span>
+<form action="https://f1000research.com/j_spring_oauth_security_check" id="oAuthForm" method="post" target="_top">
+                        <input class="target-field" type="hidden" name="target" value="/articles/9-972.html"/>
+                <input id="oAuthSystem" name="system" type="hidden"/>
+</form>
+			<div class="forgot-password-server-error">Server error, please try again.</div>
+			<div class="sign-in-success">
+                <p>We have sent an email to <span id="email-value"></span>, please follow the instructions to reset your password.</p>
+                <p>If you don't receive this email, please check your spam filters and/or contact .</p>
+            </div>
+			<div class="sign-in-loading">Please wait...</div>
+		</div>
+
+		<div class="sign-in-form-register-section">
+			<div class="sign-in-button-container margin-left-20 margin-bottom">
+				<a href="/register" title="Register"><button type="button" id="sign-in-register-button" class="sign-in-buttons general-white-orange-button">Register</button></a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+    $(".target-field").each(function () {
+        var uris = $(this).val().split("/");
+        if (uris.pop() === "login") {
+        	$(this).val(uris.toString().replace(",","/"));
+        }
+    });
+});
+</script>
+        <div id="templateOverlay" class="is-hidden" hidden="hidden">
+  <div class="o-overlay js-overlay is-hidden" hidden="hidden"></div>
+</div>
+
+<div id="templateExternalMessages" class="is-hidden" hidden="hidden">
+  <div class="o-modal o-modal--auto@md js-external-messages is-hidden" hidden="hidden">
+    <div class="o-modal__body">
+      <section class="c-console">
+        <div class="_mdl-layout c-console__bdy js-external-messages-body"></div>
+        <footer class="_mdl-layout c-console__ftr o-flex o-flex--reverse js-external-messages-footer">
+          <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored c-console__btn js-external-messages-close" data-action="maintenance-close">I Understand</button>
+        </footer>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+
+<script src="/js/namespace.js"></script>
+<script src="/js/constants.js"></script>
+<script src="/js/utilities.js"></script>
+
+<script>
+                  F1000.ExtenalMaintenanceItems = [
+    {
+      start: '2018-12-10T14:21:00Z',
+      end: '2018-12-13T16:00:00Z',
+      msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+      cookieName: 'outage23122018',
+      editor: false,
+    }
+  ];
+</script>
+
+<script src="/js/shared_scripts/cookie-helper.js"></script>
+<script src="/js/shared_scripts/mdl-helper.js"></script>
+
+<script src="/js/app/external-maintenance.js"></script>
+
+                <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-5646075-11', 'auto');
+            ga('require', 'displayfeatures');
+            ga('send', 'pageview');
+        </script>
+        
+                <script type="text/javascript" src="/js/app/research.analytics.js"></script>
+
+        <!-- Start of HubSpot Embed Code -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4475190.js"></script>
+        <!-- End of HubSpot Embed Code -->
+    
+            <script src="https://my.hellobar.com/4e0495c6f18cbd68731a1dc1978195a144e767ba.js" type="text/javascript" charset="utf-8" async="async"></script>
+    </body>
+
+</html>

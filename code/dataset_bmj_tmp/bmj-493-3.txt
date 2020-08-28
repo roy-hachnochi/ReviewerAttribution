@@ -1,0 +1,39 @@
+Dear all,
+This interesting paper studied the effects of age and gender on efficacy of beta-blockers (BBs) in heart failure patients with
+reduced ejection fraction (HFeRF) in sinus rhythm. The authors, using an IPD meta-analysis, found that beta-blockers have
+mortality and morbidity benefits regardless of age and gender.
+I have some important concerns about this study which I will report below.
+
+1- Current reporting guidelines from equator network (http://www.equator-network.org/reporting-guidelines/prisma-ipd/) is to
+use PRISMA-IPD and so a checklist is necessary. Please see the website above for extensions of prisma to adapt for IPD metaanalysis.
+2- Overall treatment effect of beta-blockers in HF with reduced ejection fraction in sinus rhythm is not reported. (to include
+relative risk reduction and confidence intervals with p values).
+3- In the protocol and study published by the authors (reference 9 and 10): the number of patients was 18,630 .The current
+number is13, 833: This means about 4797 subjects were missing? Interpretation?
+4- According to an analysis I conducted for peer review purpose, total deaths and not cause of death by gender are not similar
+in men compared to women. There is a statistically significant increase of deaths in women (p=0.002) compared to men. This
+means that being a man, you have almost 26% risk reduction ( OR.84, CI 0.75, 0.93)
+What does that all mean for you according to your analysis? Would that have any alteration to treatment effect estimation?
+20- Participation of women in the dataset is pretty ‘’small’’ (24%) compared to the prevalence of HF in clinical settings, this
+might be a limitation to be discussed and a call for more women participation in clinical trials is warranted.
+21- Elderly patients tend to die more (20%) compared to the other categories in your analysis. How that might affect the
+mortality reduction benefits! Does this explain the attenuation of reduction in HF hospitalization in the elderly?
+22- Tolerability was estimated by measuring dropouts or discontinuation of BBs. However, in your protocol referred above, you
+intended to evaluate the safety of BBs. Why you didn’t?
+Minor but still important points:
+23- Title modification: to indicate that the population is heart failure with reduced ejection fraction HFrEF in sinus rhythm
+rather than heart failure (HF).
+24- You mentioned that you searched in Medline and current contents : what is current contents? Flow chart is absent. It is
+very important and you will notice its relevance when you fill in the checklist of PRISMA-IPD.
+25- You used a fixed-effects model, would you please justify it compared to random model.
+26- Heterogeneity was measured by chi-squared test and I2. Test were not discussed and well reported in the text. I suggest
+also a Tau square because I2 has its limitations when number of studies is small as it is the case here.
+27- In section Tolerability of therapy page 10, please provide us with Confidence intervals and p-values and not only
+percentages of dropouts.
+28- The discussion is great but sometimes slightly too optimistic. This might be discussed by other peer reviewers.
+29- Adherence of BBs in the elderly is poor: is this related to adverse effects or to age?
+30- Reference 46, I am afraid to consider it a self-citation. Reference 47 is a ‘’candidate’’ for self-citation too.
+
+Thank you for being given the opportunity to review this paper.
+Best Regards,
+Muaamar Al-Gobari

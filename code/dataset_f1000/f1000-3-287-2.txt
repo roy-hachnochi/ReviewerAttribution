@@ -1,0 +1,1 @@
+The paper briefly describes BINAT, a new Cytoscape plugin to calculate several network features. The plugin provides an interface to export the results of the calculation in an excel file. The authors should have better described the advantages of using their plugin showing, for example, the computing time required to perform calculation on networks with different size.

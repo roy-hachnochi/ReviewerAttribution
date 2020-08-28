@@ -1,0 +1,56 @@
+Stats Report for BMJ – Efficacy and Safety of First-line Treatments for Advanced
+EGFR-mutated NSCLC: a systematic review and network meta-analysis
+The manuscript presents results from 19 trials evaluating several interventions used as
+first-line treatment for advanced EGFR-mutated NSCLC relying on a network meta-analysis
+to draw conclusions about comparable efficacy and safety across these interventions. The
+findings are novel and potentially relevant but there are several issues that need addressing
+to make sure that these are: a) accurate and b) placed in context given the sparsity of data
+in this area.
+• Major issue is one of data sparseness. The number of comparisons made and estimates
+obtained is way beyond the number of comparisons in the original studies. This has
+implications regarding the reliance on prior distributions and assumptions of transitivity and
+consistency of the network used to obtain these estimates. This needs to be highlighted in
+the Discussion section as a critical limitation.
+• Critical to know the AEs for each of the drugs, this is part of the same aspect of the
+evaluation. Please provide in your manuscript a description of the AE typically observed and
+particularly if these differ by type of intervention.
+• With regards to the reporting of the model used, more clarity is required about the priors
+used. It is unclear how given the low number of studies included, a non-informative prior will
+allow the model to converge. If possible, sensitivity analyses using alternative priors would
+allow evaluation of the robustness of your findings.
+• Related to the above, the reporting of the MCMC methods used is not adequate. In
+particular: the differences between three chains, the burn-in, the number of iterations (after
+burn in) and the way ‘convergence’ was assessed needs to be reported better and
+separately.
+• The statement that ‘Transitivity has been ensured’ is not scientific. This is impossible to
+ascertain. At best you can say that, ‘to minimise issues arising from potential lack of
+transitivity, …’. As part of this, please carry out an evaluation of important study and patient
+characteristics was done once data were collected to assess network transitivity and report
+this as well (including which characteristics were evaluated).
+• The assumption made for the FLAURA study, analysis of the erlotinib and gefitinib arm, is a
+strong one which needs evaluating as part of a sensitivity analysis to check what effect this
+has on the results. The simplest option would be to remove this trial in a sensitivity analysis
+but alternatives could also be explored.
+• For the pairwise meta-analysis, the approach of model selection based on heterogeneity
+creates a biased estimate. This is definitely NOT recommended. Please review this and
+adjust appropriately. The model selection should be based on previous assumptions of
+comparability/equivalence of interventions/outcomes and should be done before evaluation
+
+of heterogeneity. Sensitivity analyses based on alternative models could be an alternative
+(and reported as supplementary material).
+• Related to the above, as you have used a Fixed-effect approach for your Bayesian NMA
+then I would suggest that a FE model for the pairwise comparisons would also be applicable.
+If you decide to switch to a RE for the pairwise comparisons, this would also impact on
+potentially switching to a RE for the Bayesian NMA model. Regardless of your choice, this
+will need to be justified in the manuscript and commented on in the Discussion (Limitations).
+• Although you have assessed local inconsistency (pairwise comparisons estimates vs
+Bayesian NMA estimates) please also assess and report the global inconsistency of your
+network. See: Dias S, Welton NJ, Sutton AJ, et al. NICE DSU Technical Support Document 4:
+Inconsistency in Networks of Evidence Based on Randomised Controlled Trials. 2011; for
+reference. Regarding this, to deliver a proper comparison between NMA and pairwise
+comparisons, the same statistical approach (Bayesian or Frequentist) should be applied.
+Credible Intervals are not directly comparable with Confidence Intervals. This should at least
+need to be included in the Discussion section.
+• The funnel plots provided are of no use given the number of trials included in each
+comparison, please delete them and explain why these were not used in your Limitation
+section.

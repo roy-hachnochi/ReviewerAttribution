@@ -1,0 +1,45 @@
+Thank you for the opportunity to review this clearly-written paper on an important topic.
+The clinical importance of the potential interaction between tamoxifen and drugs that inhibit cyp2d6 is debated, as is the
+clinical importance of genetic polymorphisms affecting cyp2d6 metabolism in women who take tamoxifen. Therefore, this
+study addresses an important topic.
+Given that tamoxifen's survival benefit is presumed only for women with a history of breast cancer, I think the study
+question applies only to women with a history of breast cancer. Therefore, I would make this the primary rather than
+secondary study population. Otherwise, the confidence intervals overstate the true precision of the results for the actual
+study question / target population.
+Page 4, line 28-31: It might be more helpful to report the combined *prevalent* population size rather than the size of
+the population that was *ever* captured. If the authors prefer to report the "ever included" number, the paper should be
+explicit about that.
+The Intro notes that tamoxifen reduces breast cancer mortality by about a third. It would be even more helpful to note
+the proportional reduction in all-cause mortality conferred by use of tamoxifen in women with breast cancer (by stage, if
+known), as all-cause mortality is the outcome of the current paper.
+The Intro notes that it "is not clear why concomitant exposure to tamoxifen and paroxetine would increase mortality but
+not concomitant use of tamoxifen and fluoxetine." One reason to expect that paroxetine would have a bigger effect is
+that paroxetine is a mechanism-based (i.e., irreversible) inhibitor, while fluoxetine's inhibition is reversible (Bertelsen
+KM, Venkatakrishnan K, Von Moltke LL, Obach RS, Greenblatt DJ. Apparent mechanism-based inhibition of human
+CYP2D6 in vitro by paroxetine: comparison with fluoxetine and quinidine. Drug Metabolism and Disposition. 2003 Mar
+1;31(3):289-93.)
+The "intention-to-treat" (or first exposure carried forward) is conservative in that it makes it hard to find a difference. In
+a safety context this is actually anti-conservative, in that it makes it hard to find a difference. It would be helpful to note
+this in the discussion, and to present for each cohort (tamoxifen-triggered vs. SSRI-triggered) and each exposure group
+the proportion of follow-up time that was exposed to tamoxifen with SSRI; tamoxifen without SSRI; no tamoxifen with
+SSRI; and no tamoxifen without SSRI. Further, the results should focus on the upper 95% confidence limit, as that is the
+assurance it provides.
+Page 6, lie 57: It would be helpful to report what is known about the completeness and validity of administrative codes
+for breast cancer, stage, and site. This could be provided in the Appendix if there is not enough room in the paper.
+Table 2 reports on the results of a sensitivity analysis rather than the results of the primary analysis. This is unusual and
+disorienting. Please consider presenting the results of the primary analysis (which I would make the women with a
+breast cancer history) in Table 2 in addition to (or instead of) those of the sensitivity analysis.
+According to the results section, there were 1003 + 1024 = 2027 deaths. However, the bottom of Figure 1 says that
+there were 2043 deaths. This apparent discrepancy should be resolved or explained.
+It would be helpful to report in Table 2, for each cohort and each exposure group, the number of persons, person-years,
+deaths, and death rate, along with HR and 95% CIs.
+The first (and presumably most important) limitation listed in the Discussion section is potential confounding. For
+reasons explained elsewhere, I don't believe that this is the primary limitation. Rather, I believe that the primary
+limitation is limited ability to answer the question of whether taking potent cyp2d6 inhibiting SSRIs reduces the
+effectiveness of tamoxifen. This ability is limited because the study outcome (all-cause death) is quite down-stream from
+cancer recurrence (and includes many non-cancer deaths), which would thus dilute any real effect; because of the wide
+CIs in the women with a history of breast cancer; and possibly because of a low proportion of person-time in the groups
+exposed to the drug interaction (if that's the case). Granted, if women don't spend much time receiving the combo, then
+the combo can't have much of a real-world clinical effect. But it seems that this study is seeking to make inference on
+the biology of the potential interaction as well its clinical impact.
+Sean Hennessy

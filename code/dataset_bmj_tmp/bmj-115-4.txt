@@ -1,0 +1,100 @@
+BMJ-2018-047779: ALLOGRAFT LOSS RISK PREDICTION SCORE IN KIDNEY TRANSPLANT
+RECIPIENTS: AN INTERNATIONAL DERIVATION AND VALIDATION STUDY
+The authors report on an interesting study to develop and validate a model to predict
+long-term kidney allograft failure. A number of cohorts have been obtained and a number of
+analyses have been performed. There is much to like about this study but I have a number
+of concerns that I would like the authors to consider, some relate to reporting whilst some
+relate to methods. More generally, the manuscript is difficult and overly complex to read in
+places and would benefit from some pruning/improving clarity. I offer some suggestions in
+my review.
+The model is predicting risk at 3 time points; 3, 5 and 7 years, but there is no rationale as to
+why these time points. This should also be specified in the methods section under outcomes.
+Sample size. Text indicates there are 626 allograft loss outcome events, whilst table 2A
+reports 549 (by 7 years). Would be more useful to report the number of events by 3, 5 and
+7 years as these are the time points of interest (I think).
+It’s not clear on how many candidate predictors there were. The abstract indicates there
+were 33, whilst in section 1.3, the table lists many more (>60 candidate predictors). EPV
+<10 (based on 549 events), according table 1.3 in the appendix, whilst table 2A (main
+
+paper) only lists 30 of them (all bar 4 being statistically significant), thus what about the
+other 26? Presumably non significant and not listed for this reason. Some clarification would
+be useful.
+The authors used univariate screening to identify predictors to take forward to the
+multivariable modelling. This is widely acknowledged to be a poor approach, as it can
+exclude important predictors that become ‘statistically’ significant after adjustment for other
+predictors (Sun et al, J Clin Epidemiol 1996).
+It’s not entirely clear how the final model was developed. How were the predictors included
+in the final model? A subset of candidate predictors that were associated with the outcome
+(in a univariate manner, as note above) were included in the multivariable modelling, but
+how were these then selected to obtain the final model?
+Internal validation is an important step for all model development studies, and bootstrapping
+which the authors have attempted is the recommended approach, however, it looks like the
+authors have merely evaluated the final model in multiple bootstrap samples (which gives a
+biased estimate of the bias), they need to replay all the modelling in each bootstrap
+(including any univariate selection of variables) [see Box F of the TRIPOD Explanation &
+Elaboration paper, http://annals.org/article.aspx?articleid=2088542]. This needs clarification
+and probable re-analysis.
+The modelling is not entirely clear to me, particularly in reference to the competing risks.
+The ‘final’ model as far as I can tell was a Cox model, the competing risks was a sensitivity
+analysis to investigate the influence of competing risks, but I’m not convinced on this. Again,
+some clarification as to what this adds. This could be omitted or moved to the
+supplementary material.
+Why use both restricted cubic splines AND fractional polynomials to handle continuous
+predictors? It’s usually one or the other, and when was this done, before the univariate
+screening or just in the multivariable modelling.
+A centre effect has been investigated, by stratifying the model by centre and ‘confirmed’ that
+the eight prognostic parameters identified in the primary analysis remained independently
+associated with the outcome. This is not only vague but doesn’t fully investigate centre
+effects.
+Why is the model being normalised be in the range 0-5? I don’t fully understand the
+rationale for this. Why not just report the cox model? I find the reporting of the actual
+model, including the creation of risk groups, a little confusing. A number of different
+presentation formats are given, including in Appendix Figure 6, a nomogram, which is
+graphical presentation of a cox model.
+Hosmer-Lemeshow test (for survival data) has been calculated. There is a large body of
+(methodological) literature point out the various flaws of this. In addition to the calibration
+plots (see comments below on these), they authors could quantify estimates of calibration
+by calculating the calibration slope and intercept. Also the Hosmer-Lemeshow doesn’t
+account for censoring. (this is a test for logistic regression).
+Table 2B, is purportedly has the ‘final multivariable model’ (which contains predictors which
+tie into the model in section 1.5 of the appendix), but in the footnote, it says the model was
+adjusted for an additional 15 (or so) covariates – this is odd, they should then be included in
+the model. There is no baseline survival at any time point of interest, so I can’t implement
+the model. The presentation of the iBox (simplified model) isn’t the easiest presentation (1.5
+in the Appendix).
+
+External validation – would be useful to know how many outcome events are in each cohort
+(including the ‘additional external validation data’, which were small, n was between 38 and
+194). Some indication on completeness of data for the validation cohorts would be useful (in
+case I missed it), as well as assurance that all the predictors needed to implement the model
+were available. Sample size considerations for external validation are that 100 outcome
+events are recommended (Collins et al Stat Med 2016; Van Calster et al J Clin Epidemiol
+2016) – whilst this can be quite prohibitive, some reflection/limitations that the sample sizes
+for some of the external validation cohorts is required.
+Table 2B: The final column labelled ‘Internal validation’ is incorrect – this has nothing to do
+with internal validation, these look like bootstrapped confidence intervals.
+Figure 1C is not particularly informative. Calibration in the development cohort will always
+look good.
+Figure 2 (more interesting than Figure 1) mainly for the validation cohorts, why are there
+calibration plots the development cohort (which are evaluated in a different manner in Figure
+1C) also here in Figure 2.
+Also why in Figure 2 (and appendix Figure 5) is the assessment of calibration done by
+grouping (number of groups also change between cohorts, why? And they shouldn’t be
+joined together with a red line, they are point estimates, misleading to join them together),
+whereas the preferred approach (seen in Figure 1C, but fitting a nonparametric smoother), is
+not done? Also what model is being evaluated here, the Cox model of the simplified model?
+Presumably the cox model, but if the simplified model is the one being recommended then
+this should also be evaluated. As there is always some loss in predictive accuracy when
+models are simplified.
+Table 3 should include sample size (number of events), for all these subgroup analyses.
+There needs to be toning down on language in places. E.g., abstract ‘score exhibited
+accurate calibration’, and later in the manuscript (e.g., page 14), ‘the calibration plots
+showed optimal agreement’.
+Refs:
+Sun GW, Shook TL, Kay GL. Inappropriate use of bivariable analysis to screen risk factors for
+use in multivariable analysis. J Clin Epidemiol 1996;49(8):907-16.
+Collins GS, Ogundimu EO, Altman DG. Sample size considerations for the external validation
+of a multivariable prognostic model: a resampling study. Stat Med 2016;35:214-26. doi:
+10.1002/sim.6787
+Van Calster B, Nieboer D, Vergouwe Y, et al. A calibration hierarchy for risk models was
+defined: from utopia to empirical data. Journal of Clinical Epidemiology 2016;74:167-76

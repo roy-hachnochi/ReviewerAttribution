@@ -1,0 +1,1 @@
+The authors have addressed all concerns I raised in the first version of this paper. I note one small error: `num_sim` is used in the text, but in the package and example code this argument is `n_sim`.

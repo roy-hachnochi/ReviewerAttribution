@@ -1,0 +1,92 @@
+Peer review report BMJ.2016.034309
+Bob Siegerink, PhD
+bob.siegerink@charite.de / bobsiegerink.com
+To the editor and authors
+I have read with great interest the paper by Nagendran et al with the title “Do randomised trials with very large
+treatment effects make further trials unnecessary? An empirical assessment”, aka BMJ.2016.034309.
+The authors ask whether a very large treatment effect (RR >5 or its inverse) in a trial can be seen as an indication of
+no need for follow up trials. This question, linked to the day-to-day practice that small trials provide an “obvious
+benefit” and therefore clinical equipoise is not applicable anymore, is a relevant question as it addresses concepts like
+
+reproducibility of research, potential source of publication bias as well as introducing new treatments that potentially
+could harm patients.
+The authors use data from the Cochrane reviews to which they apply several methods to identify RCT with very large
+effects and subsequent large trials that either refute or uphold that effect. The results indicate very large effects are
+not a reliable marker for true clinical benefit. The authors even draw the conclusion that therefore these smaller trials
+might better be skipped and that a new treatment should be investigated with a large trial at the end.
+The paper is well written, clear in its approach, results well reported and the topic is both relevant as well as attractive
+and relevant for readers of the BMJ. Nonetheless, I have several comments and question, which I will provide below in
+a point-by-point fashion.
+Please note that I have no conflict of interest with regard to this paper and that I am very happy to relinquish my
+anonymity in this peer review process.
+Bob siegerink
+// Major comments.
+1. relative risks vs absolute risks. All calculations, selections and definitions are based on relative risks. Even though
+these measures are the most used measured to estimate the effect size of an intervention, they do not convey the
+true impact of an intervention. For this, a form of absolute measure is needed, which can either be an absolute risk
+reduction, number needed to treat or otherwise.
+This is not only relevant to understand what “very large effects” indeed mean in clinical practice, but is also important
+as the initial VLE trial and subsequent large trial can have similar RR while the NNT is different, and vice versa. The
+figure below shows a numeric example, in which only the absolute risk and total number of persons in the subsequent
+trials is changed. IN each of the subsequent trials, either the RR or the ARR is similar to the initial VLE trial even
+though the other measure is then not the same. This shows that there is a problem in interpretation of the RR between
+trials when there is no information on the absolute risk. It is not unrealistic to think that the subsequent analyses trial
+could have a different absolute risk compared to the VLE trial, either due to chance, different inclusion criteria, change
+in co-treatment over time periods, change in geographic location etc. I am not sure to what extend whether such
+scaling of the RR indeed hampers the interpretation of the results provided by the authors. Details on the absolute risk
+in both the VLE trials and subsequent trial (e.g. extra row in table 2) would help the reader to understand the impact
+of this scaling problem.
+<< please refer to pdf for table>>
+In line with this question on the absolute risk, where the authors able to ensure that there was sufficient overlap in the
+patient populations of the initial and subsequent trials (overlapping external validity?)
+2. upheld/refute. The definitions of “upheld” and “refute” are unclear to me. The authors describe their two methods
+on page 10 line 4 to 14. The first approach is clear, but the second approach is unclear, as it speaks of “agreed with
+the index trial” in which agreed which is not defined. After repeatedly reading the second approach, I think the authors
+mean that when multiple large trials are present, a meta analyses is performed and the result of this meta analyses is
+checked based on the same criteria as the first approach (effect in opposite direction or non-statistically significant
+effect). But if this is the case, does approach 1 not rule out that approach 2 is even possible?
+The figures provide some indication on the definitions, i.e. that everything that stays significant is upheld. Although
+understandably when it comes to clear definition, I doubt whether a statistical significant of RR 1.1-2 in a subsequent
+large trial should indeed be seen as “upheld”. It is quite dependent on the research question (PICO) whether the
+finding of this second trials should next to statistically significant also be seen as ‘just as clinically relevant” as the
+finding of the index trial.
+3. Selection bias. I wonder whether this analyses suffers from selection bias due to the definition of index trial. As is
+stated at page 7 line 35 an index trial is a VLE trial followed by at least one large trial. If this is the case selection bias
+might be introduced through this selection: consider all VLE trials that are possible. It is likely that the characteristics
+of those who are followed by a large trial are indeed different from those VLE trials who are not followed by large trials
+– and as such never reach the status of index trial-. Perhaps VLE trials who are followed by a large trial (i.e. index
+trial) are more “disbelieved” by the medical community, perhaps due subject matter knowledge of problems with the
+initial VLE trial. VLE trials who are not followed by a large trial are could indeed be more solid in terms of effect and
+these are, as far as I can judge, not part of this analyses. If this is the case, it is no wonder that VLE in the index trials
+are indeed a poor predictor of success in a subsequent large trial.
+There is some information in the paper which makes the it not easier for the reader to understand what is going on,
+being the reference in the flowchart which reads “index RCT not followed by RCT=2”. Does this mean that there are
+only 2 VLE trials which are not followed by a large and therefore cannot be coded as index trial or is this referring to
+the situation where the manual screening process have led to the exclusion of two VLE trials because the computerized
+algorithm falsely categorized these as index trials? If the former if the case, the described problem of selection bias is
+negligible, whereas the latter does not provide any information on the size and direction of this potential selection
+bias.
+// Minor comments
+1. Is there information whether trials where stopped early for “success”?
+2. PPV is a relevant and useful concept, but only introduced in the discussion section. Suggestion: Introduction of PPV
+somewhat earlier in the text might be useful for the reader; provide it with confidence limits and explanation as the
+use of PPV in this meta science concept might not be directly clear to all readers.
+3. Page 13 line 40 ‘one case...’ this is unclear to me, perhaps also because the definitions used are not clear to me.
+4. Page 17, last sentence “avoid small trials”: I would be a bit more cautious with this statement, especially of the
+above described selection bias is present – the word perhaps is in my view not cautious enough. The analyses on small
+trials with VLE do convey their point, but the reasoning mirrored to all small trials (including those without VLE) is not
+warranted and therefore the conclusion should not be drawn so general? How about small trials that help to identify
+those that will not have large enough of an effect to continue that line of research? (i.e. not VLE trials) also, how about
+trials in the so-called ‘rare-diseases’ with only a couple of hundred patients available for trial participation worldwide?
+5.
+// Editing:
+1. Page 18 line 34: new paragraph superfluous?
+// Tables and figures:
+
+Flowchart: It is unclear to me how one can have 45 cochrane reviews and only 44 forect plots. Where the presence of
+forst plots not needed for the automatic screening process? does the answer lie on page 12 line 24-33?
+Figures in general: please consider lay out that also is readable when plots are printed in black and white by using
+different shapes.
+Table 1: no comments
+Table 2: interesting table. The comprehensibility would be increased if the definition of “uphold” and “refute” would be
+repeated at this point. Next to this table, it would be interesting to see the refute table (perhaps as suppl file?)

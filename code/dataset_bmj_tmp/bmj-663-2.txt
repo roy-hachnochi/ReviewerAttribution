@@ -1,0 +1,67 @@
+Antenatal blood pressure for prediction for preeclampsia, preterm birth and small-for-gestational age:
+development and validation in two prospective cohorts
+The report on a study to develop and validate a prediction for pre-eclampsia using data from the ALSPAC
+for development and the SWS to validate (and recalibrate the model), focussing on the value of blood
+pressure measurements during the 2nd half of pregnancy.
+
+The study is largely well done, well written and an enjoyable read. I do have a number of issues largely
+to do with reporting (some methodological) that would enhance the manuscript, particularly in light of
+the recent TRIPOD Statement for reporting clinical prediction models
+(www.bmj.com/content/350/bmj.g7594).
+As the authors correctly point out a number of prediction models already exist for pre-eclampsia - the
+authors cite 8 references (a recent systematic review identified 69 models for preeclampsia;
+Kleinrouweler et al 2015; www.ncbi.nlm.nih.gov/pubmed/26070707). Therefore my question is why is
+another needed? It would also be a strength of the study if the model the authors propose is compared
+to existing models - that way a head-to-head comparison in the same data (using the SWS validation
+cohort) can be made.
+I’m not sure I fully understand the modelling. In the first part the authors looked at modelling MAP
+trajectories, the 2nd stage then develop separate models for preeclampsia, preterm birth and SGA. The
+authors then state ‘The parameters from the first stage multilevel model and the second stage logistic
+regression model were then applied to women in the SWS cohort in order to externally validate our
+prediction model’ - which is somewhat vague and what exactly was done. In the end were separate
+models developed for the 3 outcomes, or was a single unified models developed? I’m unclear. The web
+appendices, lists in detail which is impressive all the models for pre-eclampsia, but I don’t see anything
+for the other 2 outcomes - hence my slight confusion. Page 16 describes prediction of the other 2
+outcomes but doesn’t really say what these models are.
+Patient characteristics are tucked away in a web table (3) - having information on the patients used to
+derive and validate the models should, in my opinion, be in the manuscript. It would also be useful to
+have this broken down by event status, so 6 columns of patients characteristics: derivation; with
+outcome, without outcome, overall and validation with outcome, without outcome, overall. That way a
+closer inspection of the case-mix can be made to judge model transportability to a cohort with a different
+case-mix (item 13a of the TRIPOD Statement). Similarly, the authors comment on the different definition
+of preeclampsia when discussing the results, a summary table of all differences in outcome and predictor
+definitions (in the appendix) would be useful. A model which works in a cohort that used slightly different
+(maybe more contemporary) definitions should be seen as a strength of the model - even if a
+recalibration is required.
+For all natural continuous predictors, I would like to see the ranges of these values, particularly for the
+model development cohort, as these define, the inclusion criteria for using the model. Applying the model
+on patients whose value lie outside these values would be extrapolation, which I don’t particularly think
+is problematic, but it would be useful to know if I am extrapolating or not.
+Unless I missed it, I don’t see how many had preeclampsia, preterm birth and SGA in both cohorts important given the number of events is effectively the sample size and not n.
+Why the description of the multiple imputation is beautifully detailed, I have failed to see exactly what is
+missing, the authors state on page 11, line 32 ‘missing data on maternal characteristics’, which is rather
+vague. Therefore it would be useful to know what is missing, how much is missing for each variable and
+how many participants have complete data.
+Candidate predictors are reporting on page 12 lines 14-20 - how were these chosen?, were these
+selected from a larger pool of predictors, or were these chosen purely on availability of what was in the
+data? Page 9; lines 18-47; also mentions others measurements (education, social class etc.), were these
+not included in the modelling? Were any key predictors not included?
+I’m not entirely convinced on the usefulness of conducting the DeLong test for comparing AUROCs concerns have been raised on this test for nested models
+(http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3684152/).
+It would be useful to see in a table the predictors separately for preeclampsia, preterm birth and SGA.
+The authors examine the expected numbers (out of 1000) who would be classified as low or high risk etc
+using sensitivity/specificity, it would be useful to see if decision curve analysis (Vickers et al;
+www.ncbi.nlm.nih.gov/pubmed/17099194 ) would be more illuminating to offer insight to the clinical
+consequences or net benefits of using a prediction model at specific thresholds. Using this approach, the
+various models can be directly compared.
+Figure 1 (ROC Curves) - In the context of prediction models I find these rather uninformative particularly in the current presentation - they offer nothing above the area underneath them, namely the
+AUROCs (this is also discussed in the TRIPOD E&E paper (page W51;
+annals.org/article.aspx?articleid=2088542). If relevant cut-points are indicated on the curve, then at
+least sensitivity and specificity can be read off, but without these I find the usefulness limited.
+
+Figure 2 (calibration plot) - whilst there is nothing particularly wrong with these plots, they are commonly
+seen (including in papers of my own), there is a movement to supplement these plots with lowess
+smoothers, and report the calibration slope and intercept. Not essential, but preferable.
+My final comment is aid uptake of the model. I found it unclear on exactly which model the authors are
+proposing potential users should use. This could be made clearer in my opinion. A few clinical examples
+would also be useful and plugging them into the models at the various times points.

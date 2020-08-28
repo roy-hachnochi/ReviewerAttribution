@@ -1,0 +1,29 @@
+I thank the authors for addressing my comments and toned down the claims fairly. However,
+one of my comments was misunderstood:
+No doubt that there is NO weak instrument bias, this is not what I meant with my comment.
+Simply that if the instruments explained more of the exposure variance the authors could
+directly explore non-linear causal effects using summary statistics only (by fitting non-linear
+function to the outcome SNP effect vs exposure SNP effect scatter plot). Since this is not the
+case, non-linear causal effects cannot be assessed by summary statistics alone and that is
+why I was hoping that the authors (who would probably be best positioned to do so given
+their previous publications) have access to data with both calcium and BMD/fracture.
+Moreover, the UKB has just released serum calcium measurements
+[http://biobank.ctsu.ox.ac.uk/showcase/field.cgi?id=30680], so such analysis could be
+
+performed in a timely manner. Given the author’s previous paper
+[https://www.bmj.com/content/362/bmj.k3225], which already showed no effect of calcium
+intake from dairy sources having no effect on fracture risk, this current work seems to add
+marginally.
+My argument is that if hypothetically both too low and too high calcium levels could lead to
+fracture, a simple linear causal effect model would give zero causal effect, but still people
+with lower than “ideal” calcium levels could benefit from supplementation. Distinguishing this
+situation from an overly simplistic linear model around the population mean would be a real
+advance of the field. But it is the Editorial team who should decide whether they deem this
+current work sufficient advance in the field.
+
+Minor point:
+A: Next, we would like to re-emphasize that small changes in serum calcium have large
+biological effects. Serum calcium is a tightly regulated (for example, in large
+population-based cohorts the minimum to maximum range is often less than 1 mg/dL
+R: The scale is irrelevant here, instrument strength is expressed as explained variance
+(0.77%), this is regardless of what 1SD of calcium variation represents.

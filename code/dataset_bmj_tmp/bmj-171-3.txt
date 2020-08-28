@@ -1,0 +1,50 @@
+In this matched, prospective, population-based, primary care electronic healthcare record
+cohort study from the UK, the Netherlands, Italy, and Spain the authors evaluate whether
+codes for nonalcoholic fatty liver disease can be used to make inference on the incidence of
+fatal or nonfatal myocardial infarction or ischemic and unspecified stroke. Participants were
+matched by age, sex, practice sites, and visit recorded at six months of the date of
+diagnosis. For each exposed participant up to 100 patients were matched. During a mean
+follow-up of 2.1 to 5.1 years, the authors found a small increased risk of HR 1.17, which
+entirely attenuated after further adjustment for diabetes, systolic blood pressure, total
+cholesterol, study news, and hypertension. The authors conclude that the diagnosis of
+nonalcoholic fatty liver disease in current routine care does not equate to a high
+independent CVD risk.
+Overall, the study is well conducted and the results of interest to a general readership.
+Nevertheless, I have a few comments, that the authors may want to consider.
+1. the primary outcomes of the study are fatal and nonfatal acute myocardial infarction
+and ischemic as well as unspecified stroke. However, the authors make inference about
+CVD. As in general other endpoints are also included in a composite endpoint CVD (such as
+cardiovascular disease death), I suggest to focus on the primary outcomes.
+2. I find the term "independent" problematic. This study shows that the association
+between NAFLD and the primary outcomes are independent of the covariates that were
+used for matching and were included in the multivariable models. Whether this means that
+this association is entirely independent is a different question.
+3. The authors conclude that the cardiovascular risk assessment in patients diagnosed with
+NAFLD should be conducted in the same way as the general population. However, no data
+are provided in this study to support the statement.
+4. Patients are included in the study if they had at least six months of follow-up post
+NAFLD diagnosis. I assume this was also true for the matched unexposed group and I
+suggest to include this information into the methods section. Otherwise the study would
+suffer from immortal-time bias.
+5. I am unclear about the rationale for building the multivariable models ("progressive
+adjustment"). Why were these variables included? What about other potential
+confounders?
+6. In the results section, the authos show one P value for the hazard ratio for incident
+stroke. As no other P values for effect measures are shown, and information about 95%
+confidence intervals are provided, I think this P value can be removed.
+7. Only in the footnotes of the tables and the figures information about handling missing
+values is provided (unless I missed it). Please add information on how missing values were
+handled and what method was used to impute them.
+8. Please discuss limitations by potential confounders for which no measurement were
+available, such as lifestyle factors, nutritional factors, physical activity, and others.
+9. The authors argue that their results may differ to other studies by better accounting for
+social classes. However, this argument cannot be directly concluded from the provided
+data. Why matching of a large number of referent individuals has some benefit, it may also
+be problematic because of the distribution of covariates in the unexposed may be too
+similar to the exposed and due not reflect the distibution in the general population.
+
+10. I was not clear whether the factors used to match exposed and unexposed where
+incorporated in the analysis or not.
+11. I would recommend to not use the word "control" in this matched cohort study when
+referring to matched unexposed. This is rather a referent individual and different from a
+"control" in a case-control study.

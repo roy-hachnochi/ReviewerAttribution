@@ -1,0 +1,159 @@
+(* Please receive the PDF document from the editorial office. *)
+1 OVERVIEW
+==========
+Title: "Comparative effectiveness of biologics in rheumatoid
+arthritis: a systematic review and network meta-analysis including
+re-analysed individual patient data"
+In this report from the German health technology assessment institute
+(IQWiG), the authors systematically reviewed and meta-analyzed 38 RCTs
+on biological disease-modifying anti-rheumatic drugs (bDMARDs) use in
+rheumatoid arthritis (RA) after methotrexate (MTX) failure. Among
+these, 2 studies involved direct bDMARDs comparison. The remaining 36
+were comparison of bDMARDs+MTX and placebo+MTX, contributing indirect
+comparison information via the common comparators of placebo+MTX (see
+Figure 2).
+To standardize the results from RCTs spanning 1997-2011 (by start
+date), the authors requested the study sponsor entities to re-analyze
+individual-level data. Specifically, the re-analysis focused on a
+(sub)population of adult (>= 18 years) RA patients being treated with
+bDMARDs+MTX failure. The typical efficacy outcome definitions changed
+over time, the outcome analyses were standardized with clinical
+disease activity index (CDAI) remission and low disease activity.
+Based mostly on indirect comparisons in network meta-analysis, the
+authors compared 8 bDMARDs (anakinra, infliximab, adalimumab,
+etanercept, certolizumab pegol, golimumab, abatacept, and tocilizumab)
+for various efficacy and safety outcomes. They found that anakinra was
+significantly lower proportion of CDAI remission and/or CDAI low
+disease activity to all other bDMARDs except for etanercept, which did
+have similar point estimate to others. The authors also report that
+certolizumab pegol had statistically significantly higher proportions
+of serious adverse events and/or infections compared to all other
+bDMARDs. No other (mostly indirect) comparisons yielded statistically
+significant results for these outcome although infliximab did have RR
+estimates consistently greater than 1.0 (favorable direction) for CDAI
+remission and CDAI low disease activity against all other bDMARDs
+(only statistically significant against anakinra).
+This large-scale network meta-analysis study is a useful contribution
+overall, particularly because of the re-analysis efforts that went
+beyond what had been reported in each study. I have some minor points
+for clarification.
+
+2 REVIEWER
+==========
+Kazuki Yoshida, MD, ScD. Associate Epidemiologist. Division of
+Rheumatology, Immunology, and Immunity. Brigham and Women's
+Hospital. Boston, USA.
+I acknowledge I am not a network meta-analysis methodology expert.
+
+3 INTRODUCTION
+==============
+- "Treatment options for RA include non-steroidal anti-inflammatory
+drugs (NSAIDs), corticosteroids, and disease-modifying antirheumatic
+drugs (DMARDs) .": Neither NSAIDs nor corticosteroids are viable
+treatment choices in the absence of DMARDs. So stating them in
+parallel like this is inappropriate. For this sentence, please cite
+the latest ACR [singh2015AmericanCollege2016] and EULAR
+[smolenEULARRecommendationsManagement2017] recommendations and
+mention the cornerstone role DMARDs play in the up-to-date practice.
+
+4 METHODS
+=========
+- I could not tell whether the author acquired individual-level data
+and re-analyzed data themselves or asked the sponsor companies to
+conduct the requested re-analyses using in-house individual-level
+data (authors do not have access to individual-level data). Please
+clarify what the authors did vs what the sponsors did.
+
+4.1 Search strategy and study selection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- marketing authorization holders (MAH): Please explain which
+regulatory agencies were considered for this. Are these companies
+that received authorization by EMA? Also the abbreviation should be
+avoided if possible.
+- "two types of reanalyses for the studies included were requested
+from the study sponsors": Did IQWiG have some authority to enforce
+this or was this provided by the study sponsors on voluntary
+basis. What was the response rate?
+- Did the authors require a common definition of RA for this study?
+Did all the study included use the 1987
+[arnettAmericanRheumatismAssociation1988] criteria based RA? Did any
+of them focus on early arthritis?
+
+4.2 Data extraction
+~~~~~~~~~~~~~~~~~~~
+- public commenting procedure: Please provide some description (when?
+duration? language(s)?).
+- "DAS includes inflammatory parameters that may be influenced more by
+some biologics than by others": I believe the authors are talking
+about tocilizumab's (more) direct influence on inflammatory
+markers. Some more detail with citations may be useful here.
+
+4.3 Data synthesis and statistical analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- "assumptions of similarity, homogeneity, and consistency":
+
+References would be helpful here. As the readership is expected to
+be wide for this paper, briefly explaining when indirect comparisons
+via a common comparators is valid and how validity can be violated
+(here or in the Discussion) .
+
+5 RESULTS
+=========
+5.1 Study characteristics
+~~~~~~~~~~~~~~~~~~~~~~~~~
+- A brief mention of the year range of the studies (provided in sTable
+3) may give a better sense of how the practice changed during that
+period if the space permits.
+- Can the authors mention briefly how many studies went through
+eligibility re-definition (subpopulation re-analysis) and why?
+
+6 Discussion
+============
+6.1 Principal findings
+~~~~~~~~~~~~~~~~~~~~~~
+- "DAS28 remission criteria": I believe more than 20 swollen joints
+are permitted at 2.6 if other elements remain at their minimum
+values (although unlikely).
+- "The choice of a specific biologic should therefore be based on
+relevant patient characteristics (if possible)": Somewhat more
+concrete discussion or a pointer may be helpful
+here. [singh2015AmericanCollege2016] has some comments based on
+comorbidities.
+
+6.2 Strengths and limitations of this study
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- "severely ill patients": Something along the line of "RA patients
+with high disease activity" might be better suited here.
+
+7 Bibliography
+==============
+\renewcommand{\section}[2]{}
+
+Bibliography ============= [singh2015AmericanCollege2016] Singh, Saag,
+Bridges, Akl, Bannuru, Sullivan, Vaysbrot, McNaughton, Osani,
+Shmerling, Curtis, Furst, Parks, Kavanaugh, O'Dell, King, Leong,
+Matteson, Schousboe, Drevlow, Ginsberg, Grober, St Clair, Tindall,
+Miller, McAlindon \& American College of Rheumatology, 2015 {{American
+College}} of {{Rheumatology Guideline}} for the {{Treatment}} of
+{{Rheumatoid Arthritis}}, <em>{Arthritis Care Res (Hoboken)}</em>,
+
+<strong>68(1)</strong>, 1-25 (2016). <a href="">link</a>.
+href="http://dx.doi.org/10.1002/acr.22783">doi.
+[smolenEULARRecommendationsManagement2017] Smolen, Landew'e, Bijlsma,
+Burmester, Chatzidionysiou, Dougados, Nam, Ramiro, Voshaar, van
+Vollenhoven, Aletaha, Aringer, Boers, Buckley, Buttgereit, Bykerk,
+Cardiel, Combe, Cutolo, van Eijk-Hustings, Emery, Finckh, Gabay,
+Gomez-Reino, Gossec, Gottenberg, Hazes, Huizinga, Jani, Karateev,
+Kouloumas, Kvien, Li, Mariette, McInnes, Mysler, Nash, Pavelka,
+Po'or, Richez, van Riel, Rubbert-Roth, Saag, da Silva, Stamm,
+Takeuchi, Westhovens, de Wit \& van der Heijde, {{EULAR}}
+Recommendations for the Management of Rheumatoid Arthritis with
+Synthetic and Biological Disease-Modifying Antirheumatic Drugs: 2016
+Update, <em>{Ann. Rheum. Dis.}</em>, <strong>76(6)</strong>, 960-977 (2017).
+href="">link. href="http://dx.doi.org/10.1136/annrheumdis-2016-210715">doi.
+[arnettAmericanRheumatismAssociation1988] Arnett, Edworthy, Bloch,
+McShane, Fries, Cooper, Healey, Kaplan, Liang \& Luthra, The
+{{American Rheumatism Association}} 1987 Revised Criteria for the
+Classification of Rheumatoid Arthritis, <em>{Arthritis Rheum.}</em>,
+<strong>31(3)</strong>, 315-324 (1988). <a href="">link</a>.
+href="http://dx.doi.org/">doi.

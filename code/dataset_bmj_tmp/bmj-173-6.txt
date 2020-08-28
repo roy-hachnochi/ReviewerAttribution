@@ -1,0 +1,77 @@
+This interesting and timely review of risk scores provides an update to current methods of
+risk prediction, including the focus on using electronic health records. The models are for a
+
+variety of outcomes, making it challenging to compare them directly. The authors examine
+each model in terms of its derivation approach and how well it validates. A variety of
+modifications or additions could improve the paper.
+1. The second objective of the study was, “…to examine the variation in candidate EMR
+variables/features that were used for prediction.” It appears from the paper that the
+authors did not mean “candidate” variables, but instead focused on those variables that
+were actually significant predictors of the outcome in each model. It would be of value to
+actually focus on the candidate variables and break down whether they are actually useful
+for prediction and whether they were actually used in the risk scores. Some variables may
+have informative differences across studies for which ones were examined as possible
+predictors, which ones actually predicted the outcomes, and which ones were utilized in the
+risk scores. For example, on page 12, lines 24-26, it indicates that 15 independent
+variables were used for prediction, which appears to actually be the variables that were
+included in the risk scores, not those evaluated as potential predictors and not those that
+were significant in univariable or multivariable analyses. It would also be important to
+clarify whether the machine learning models that “used 115 variables” (page 12, line 38)
+were all the variables considered in the modeling or only those found to be predictive (or if
+determining this is part of the black box limitation). Table 2 needs to clarify which variables
+are being noted in the table.
+2. It is not clear whether the c-statistics that are quoted in the paper are those for the
+derivation or validation analyses. This is also the case in the tables. Further, the c-statistics
+used in the paper should be labeled as to source (i.e., derivation, validation,
+prospective/external validation). In Tables 1 and 2, some papers have two or more models
+in the validation column, but the number of c-statistics on that paper’s row in the table
+does not match the number of validations, including that some c-statistic boxes have fewer
+c-statistics than the number of validations and some have more than the number of
+validations. Further, the c-statistics in Table 2 do not seem to match those in Table 1 for
+some studies, thus those in Table 2 need to be labeled.
+3. On page 14, lines 10-15, it states, “Finally, since these studies used center-specific
+EMRs, predictive models were developed for particular hospital settings and all validations
+were done using internal data.” It is not clear in the paper whether the models only used
+internal validation data, or if external validations were performed. One paper is noted to
+have a prospective validation, but the source of those data relative to the retrospective
+validation or the derivation population is not addressed. Another paper is noted to have a
+validation population and an external validation, but the relationship of those populations
+to each other or the derivation is not noted. Did other papers have external validations?
+4. The use of natural language processing is discussed in some hyperbole. It is agreed that
+it has shown some promising results, but its use is also troubled by various challenges that
+remain today. It is unclear in which settings NLP should be used in clinical practice for risk
+factor extraction from an electronic health record or for which variables it is more or less
+useful. A more measured approach to the description of the one or two studies that are
+referenced here that employed NLP is in order.
+5. On page 15, lines 49-54, it states, “Although the majority of studies we reviewed used
+traditional regression modeling, the performance of the models – measured by C-statistics
+- that used ML was superior in comparison.” While average c-statistics for regression
+modeling vs. machine learning are quoted in the paper, no formal comparison between the
+two is performed. Confidence intervals of those average c-statistics and a p-value or test
+statistic are needed to test superiority, or that sentence should be re-written on page 15
+and in the abstract.
+6. On page 16, lines 6-8, it states, “For example, sophisticated ML methods such as neural
+network work like a black box, lacking transparency in the feature selection.” One of the
+issues that is not addressed in this paper or many like it is whether a physician or other
+clinician will use any given risk score. The use of electronic health record data assumes
+that the EHR could calculate the score, but the black box issue that the authors point out is
+often a fatal flaw that turns clinicians off to the use of a score, both with regard to the
+derivation of a score and the ability to actively observe how the model is built as it is used
+
+in clinical practice. The actual adoption rate or willingness to use a black box model or risk
+score in clinical medicine is a practical consideration in need of further investigation and
+another reason it is a limitation of machine learning models.
+7. The following sentence requires clarification, “Traditional regression modeling, despite its
+ease of use, fails to optimize the richness of data presented in most EMRs and uses only a
+subset of predictors.” Some would argue that machine learning is easy to use, and it is not
+clear what “richness” a regression model does not take into account.
+8. No discussion is made regarding the cost to benefit of using or the reliability of the data
+contained in specific predictor variables that are drawn from an electronic health record.
+For example, laboratory data are standardized, objective, repeatable measures of risk,
+while variables that are collected by humans such as via a history or physical exam can be
+prone to inter-rater variability or systematic errors. The amount of time, effort, and
+financial cost to collect data elements compared to their validity, reliability, and usability
+may be important. Further, no discussion is also made regarding whether hundreds of
+variables are actually needed to achieve similar or non-inferior levels of prediction that a
+parsimonious subset of variables may be able to describe.
+Benjamin D. Horne, Intermountain Medical Center Heart Institute

@@ -1,0 +1,29 @@
+Dear Editors,
+I read with great interest the manuscript from Loupy and colleagues regarding risk prediction
+of graft loss following kidney transplantation. The manuscript report results of a prospective
+cohort study of adult kidney transplant patients who underwent kidney transplantation
+between 2005 and 2014 in four hospitals in France. External validation was performed in 2
+cohorts, one from Europe and one from the US, and in 3 randomized controlled trials.
+The paper addresses a very important topic and the prediction model objective is clinically
+highly relevant. The availability of a valid prediction model would have great
+importance for patient care and future research. The authors have conducted a rigorous
+study that has a number of strengths: Their model building procedures were statistically
+sound. Of particular note is the use of both internal validation via a bootstrapping procedure
+and external validation in three groups. They have adhered to the TRIPOD guideline for
+prediction models. They have also compared (validated) two previously reported risk scores
+in literature with their model. Main limitations have been acknowledged.
+Overall, it is a well written manuscript, based on powerful and large data, analyzed properly
+using appropriate methods, and well interpreted.
+I have a few comments which are as under :
+1) One limitation of the iBox is that it is “static” and treats the variables in isolation without
+consideration of values over time. A “dynamic” approach to risk prediction would incorporate
+changes in results over time and would more closely simulate a transplant physician’s clinical
+approach to evaluating the patient. The authors should bring up this point in their
+discussion.
+2) I wonder why the authors did not include the KDPI risk score for donors in their
+univariable analysis? In fact the KDPI includes 10 donor variables that are known to have
+
+strong associations with graft outcome. What was the rationale for leaving out some of these
+donor variables associated with graft outcomes?
+3) It is not clear whether the ‘anti-HLA DSA’ used in the model is preexisting or de novo?
+Further, was the MFI used cumulative or of the immunodominant DSA?

@@ -1,0 +1,617 @@
+This opinion article is interesting and timely, as it is clear that the quantity of research using social media and other sources of personal data is increasing, and the potential concerns around this need to be considered by researchers and ethics committees. I found the current form of the paper to be rather unsatisfactory, however: it is not clear how or where the proposed guidelines would be applied, how they were developed, and most importantly there is no contextualisation of how this paper builds on the myriad discussions that have already taken place in this arena. The introductory section of the paper is fine, and provides a clear description of how Twitter works, which is no doubt of use for the intended audience. But the authors need to clearly describe the purpose of the guidelines. Indeed there needs to be some introductory text before the guidelines are introduced, as the current text is rather incongruent. Is the text on the Consumer Privacy Bill of Rights supposed to be in a separate section following the introduction? Moreover the aim and applicability of the guidelines is unclear. How would these guidelines be enforced? Would they be applied to all studies? Is there any mechanism for exceptions to this? For instance if I wanted to do a study comparing health behaviour on Twitter and Facebook, I would need to collect data from both networks. But this violates the guidelines. Or are these guidelines only for studies where IRB approval would not be obtained? There is much discussion over whether social media studies require any IRB approval at all 1 , 2 , 3 . But your last guideline seems to disagree with this. The title of the paper refers to big data but the paper itself really concerns itself with Twitter (with some discussion of linkability). Are the guidelines to apply to all big data studies? Given that this paper really only targets US ethics committees and IRBs, I was surprised that there was no discussion of the Common Rule or the recent Menlo Report 4 , 5 . An opinion article in Science last year also discussed US regulation 6 . One of the guidelines explicitly describes the context in which a tweet was sent. But there is no mention of contextual integrity 7 which seems to be the most common framework for studying this, and has indeed been applied to social media research 8 , 9 , 10 . Danah Boyd has talked widely about the ethics of big data research 11 , 12 and her work should be discussed. Concerns about Twitter specifically have also been raised 13 , 14 and Neuhaus and Webmoor specifically propose agile ethics for the study of such networks 15 . How would agile ethics fit in with your guidelines? The implicit assumption in your guidelines is that studies should occur without consent and involve trawling the firehose. But these kinds of studies in themselves are controversial 16 . Moreover is there any reason why informed consent could not be obtained for some of these studies, especially since you touch on consent when discussing your hypothetical shopping centre study? We have looked at this empirically 17 . One striking difference between research and the collection of data for business purposes is that researchers are typically interested in reproducibility. Indeed many research funding bodies worldwide are now insisting on data archiving and sharing as a requirement, and this would apply to social media studies as well (something that has been criticised in the past 18 ). Should your guidelines not address data sharing? Technical challenges exist, including the linkability problems that you discuss 19 and the difficulty of anonymising data 20 , while solutions are still nascent 21 , 22 . The BPS reference (13) should be updated 23 . Moreover you ought to compare and contrast other ethical guidelines for Internet research 24 , 25 , 26 , and other proposals for social media and health research 27 , 28 . At one point you mention privacy literacy but there is no reference and it was unclear what you mean here. Privacy has been discussed in the literature 29 but might be slightly different. Finally, I qualify my review by stating that I am not a life scientist and that this is the first review that I have written for F1000Research. Indeed, I had not heard of it prior to my review request. I do question the appropriateness of a scientific journal for this work. If the intention of the authors is, as stated, to encourage more discussion then it would be good to focus this in one place. Since F1000Research allows comments from readers, then perhaps this does provide a better avenue for discussion than over Twitter, which can be difficult over long time-scales and is not particularly persistent. But in my opinion an even better mechanism for discussion and debate would be to hold a workshop and then publish a workshop report. Certainly further discussion with other communities, and examination of the discussion that has already taken place, would be useful to inform and improve this document. In the first instance, I think it would be good to see a revised document that shows more awareness of the current work, and where controversy exists, discusses why the authors have taken their chosen stance when proposing their guidelines. References 1. Buchanan E, Aycock J, Dexter S, Dittrich D, et al.: Computer Science Security Research and Human Subjects: Emerging Considerations for Research Ethics Boards. Journal of Emperical Research on Human Ethics . 2011; 6 (2): 71-83 Publisher Full Text 2. Halavais A: Social science: Open up online research. Nature . 2011; 480 (7376): 174-175 PubMed Abstract | Publisher Full Text 3. Solberg LB: Data Mining on Facebook: A free space for researchers or an IRB nightmare?. University of Illinois Journal of Law, Technology & Policy . 2010; 2010 (2): 311-343 Reference Source 4. Dittrich D, Kenneally E: The Menlo Report: Ethical Principles Guiding Information and Communication Technology Research. Cooperative Association for Internet Data Analysis . 2012. Reference Source 5. Bailey M, Dittrich D, Kenneally E, Maughan D: The Menlo Report. IEEE Security & Privacy Magazine . 2012; 10 (2): 71-75 Publisher Full Text 6. Shapiro RB, Ossorio PN: Research Ethics. Regulation of online social network studies. Science . 2013; 339 (6116): 144-145 PubMed Abstract | Publisher Full Text 7. Nissenbaum HF: Privacy as Contextualo integrity. Washington Law Review . 2004; 79 (1): 119-157 Reference Source 8. Page X: Contextual integrity and preserving relationship boundaries in location- sharing social media In Proceedings of the ACM CSCW Workshop on Measuring Networked Social Privacy: Qualitative & Quantitative Approaches, San Antonio, TX, USA, February. 2013. Reference Source 9. Shi P, Xu H, Chen Y: Using contextual integrity to examine interpersonal information boundary on social network sites. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, PAris, France . 2013. 35-38 Publisher Full Text 10. Hull G, Lipford HR, Latulipe C: Contexual gaps: privacy issues on Facebook. Ethics Inf Technol . 2011; 13 (4): 289-302 Publisher Full Text 11. Boyd D: Privacy and publicity in the context of big data. Keynote at WWW ’10: the 19th International Conference on the World Wide Web, April. 2010. Reference Source 12. Boyd D, Crawford K: Critical questions for big data. Inf Commun Soc . 2012; 15 (5): 662-679 Publisher Full Text 13. Puschmann C, Burgess J: The politics of Twitter data. Social Science Research Network Working Paper Series, January. 2013. Reference Source 14. Vieweg S: The ethics of Twitter research. Revisiting Research Ethics in the Facebook Era: Challenges in Emerging CSCW Research, Savannah, GA, USA, February . 2010. Reference Source 15. Neuhaus F, Webmoor T: Agile ethics for massified research and visualization. Inf Commun Soc . 2012; 15 (1): 43-65 Publisher Full Text 16. Ioannidis JPA: Informed consent, big data, and the oxymoron of research that is not research. Am J Bioeth . 2013; 13 (4): 40-42 PubMed Abstract | Publisher Full Text 17. McNeilly S, Hutton L, Henderson T: Understanding ethical concerns in social media privacy studies. In Proceedings of the ACM CSCW Workshop on Measuring Networked Social Privacy: Qualitative & Quantitative Approaches, San Antonio, TX, USA, February . 2013. Reference Source 18. Huberman BA: Sociology of science: Big data deserve a bigger audience. Nature . 2012; 482 (7385): 308 PubMed Abstract | Publisher Full Text 19. Narayanan A, Shmatikov V: De-anonymizing social networks. Proceedings of the IEEE Symposium on Security and Privacy . 2009. 173-187 Publisher Full Text 20. Zimmer M: “But the data is already public”: on the ethics of research in Facebook. Ethics Inf Technol . 2010; 12 (4): 313-325 Publisher Full Text 21. Dwork C: Differential Privacy. M. Bugliesi, B. Preneel, V. Sassone, and I. Wegener, editors, Automata, Languages and Programming, volume 4052 of Lecture Notes in Computer Science, Springer, Berlin . 2006. 1-12 Publisher Full Text 22. Hutton L, Henderson T: An architecture for ethical and privacy-sensitive social network experiments. SIGMETRICS Perform. Eval. Rev . 2013; 40 (4): 90-95 Publisher Full Text 23. British Psychological Society: Ethics guidelines for Internet-mediated research. 2013. Reference Source 24. Buchanan EA, Ess C: Internet research ethics: The field and its critical issues. The Handbook of Information and Computer Ethics, number 11 . 2008. 273-292 Publisher Full Text 25. Eynon R, Schroeder R, Fry J: New techniques in online research: challenges for research ethics. Twenty-first Century Society . 2009; 4 (2): 187-199 Publisher Full Text 26. Felzmann H: Ethical issues in internet research: international good practice and Irish research ethics documents. In C. Fowley, C. English, and S. Thouësny, editors, Internet research, theory, and practice: perspectives from Ireland, pages 11–32. Research-publishing.net, Dublin, 1 edition. 2013. Reference Source 27. McKee R: Ethical issues in using social media for health and health care research. Health Policy . 2013; 110 (2-3): 298-301 PubMed Abstract | Publisher Full Text 28. Moreno MA, Fost NC, Christakis DA: Research ethics in the MySpace era. pediatrics . 2008; 121 (1): 157-161doi PubMed Abstract 29. Bonneau J, Preibusch S: The privacy jungle: On the market for data protection in social networks. Proceedings of The Eighth Workshop on the Economics of Information Security (WEIS 2009) . 2009. 121-167 Competing Interests: No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. Close READ LESS CITE CITE HOW TO CITE THIS REPORT Henderson T. Reviewer Report For: Ethical research standards in a world of big data [version 2; peer review: 3 approved with reservations] . F1000Research 2014, 3 :38 ( https://doi.org/10.5256/f1000research.3770.r3876 ) The direct URL for this report is: https://f1000research.com/articles/3-38/v1#referee-response-3876 NOTE: it is important to ensure the information in square brackets after the title is included in all citations of this article. COPY CITATION DETAILS Report a concern Respond or Comment COMMENT ON THIS REPORT Comments on this article Comments (2) Version 2 VERSION 2 PUBLISHED 21 Aug 2014 Revised Comment ADD YOUR COMMENT Version 1 VERSION 1 PUBLISHED 06 Feb 2014 Discussion is closed on this version, please comment on the latest version above. Author Response 11 Jun 2014 Caitlin RIvers , Virginia Bioinformatics Institute, Virginia Tech., Blacksburg, VA, USA 11 Jun 2014 Author Response Ernesto, thank you for contributing your blog post to the discussion about the ethics of Twitter research. This sort of community-wide conversation is exactly what we were hoping. First I’d ... Continue reading Ernesto, thank you for contributing your blog post to the discussion about the ethics of Twitter research. This sort of community-wide conversation is exactly what we were hoping. First I’d like to point out that our guidelines are not for mental health research only, but for Twitter research more broadly. That being said, I think we agree on a lot of points. Twitter is a wonderful datasource for a studies in a variety of fields. We ourselves have used it to study risky behaviors associated with the transmission of HIV. We are simply proposing that researchers take a few simple steps to protect the privacy of the users whose data they curate. For example, the study designs you mentioned and the guidelines we proposed are not incompatible. Under our suggested framework, large scale network and geo analyses are fine. We just ask that identifying information (user names, high-resolution geolocations) is not published. If you would like to follow specific users or publish identifiable information, then we suggest consulting an Institutional Review Board. Thanks again for adding your voice, we hope the conversation continues. -Caitlin Rivers and Bryan Lewis Ernesto, thank you for contributing your blog post to the discussion about the ethics of Twitter research. This sort of community-wide conversation is exactly what we were hoping. First I’d like to point out that our guidelines are not for mental health research only, but for Twitter research more broadly. That being said, I think we agree on a lot of points. Twitter is a wonderful datasource for a studies in a variety of fields. We ourselves have used it to study risky behaviors associated with the transmission of HIV. We are simply proposing that researchers take a few simple steps to protect the privacy of the users whose data they curate. For example, the study designs you mentioned and the guidelines we proposed are not incompatible. Under our suggested framework, large scale network and geo analyses are fine. We just ask that identifying information (user names, high-resolution geolocations) is not published. If you would like to follow specific users or publish identifiable information, then we suggest consulting an Institutional Review Board. Thanks again for adding your voice, we hope the conversation continues. -Caitlin Rivers and Bryan Lewis Competing Interests: We are the article authors. Close Report a concern Reader Comment 27 May 2014 Ernesto Priego , City University London, UK 27 May 2014 Reader Comment Inspired by this piece and the SA post that indirectly led me to it, I wrote this post: Twitter as Public Evidence and the Ethics of Twitter Research (27/05/14). Competing Interests: None. Inspired by this piece and the SA post that indirectly led me to it, I wrote this post: Twitter as Public Evidence and the Ethics of Twitter Research (27/05/14). Inspired by this piece and the SA post that indirectly led me to it, I wrote this post: Twitter as Public Evidence and the Ethics of Twitter Research (27/05/14). Competing Interests: None. Close Report a concern Discussion is closed on this version, please comment on the latest version above. keyboard_arrow_left keyboard_arrow_right Open Peer Review Reviewer Status info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions Reviewer Reports Invited Reviewers 1 2 3 Version 2 (revision) 21 Aug 14 read read Version 1 06 Feb 14 read read Tristan Henderson , University of St Andrews, Fife, UK Sherry Emery , University of Illinois at Chicago, Chicago, IL, USA Christophe Giraud-Carrier , Brigham Young University, Provo, UT, USA Comments on this article All Comments (2) Add a comment Sign up for content alerts Sign Up You are now signed up to receive this alert Browse by related subjects keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2015 Giraud-Carrier C. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 16 Dec 2015 | for Version 2 Christophe Giraud-Carrier , Data Mining Laboratory, Brigham Young University, Provo, UT, USA 0 Views copyright © 2015 Giraud-Carrier C. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The paper addresses an important issue and makes a number of interesting points. There are a couple of technical points that the authors should address. The authors do mention the Twitter Search API, but they say nothing about the Twitter Streaming API. These are two significantly different ways to access the content of Twitter. The Streaming API allows a program to collect all tweets that match a set of keywords as they are issued. In other words, the Search API allows to look backward, while the Streaming API allows to look forward. The authors suggest that it would be possible to build social networks (e.g., using mentions) from social media data, as if this was a future event. Many researchers have already done that, and this is indeed the strength of social media, i.e., access not only to the content of what one says, but the interaction he/she has with others. In spite of the points made by the authors, who try very hard to protect users against themselves, it may be valuable to add a discussion about the fact that as time goes on, there may no longer be any reasonable assumption of privacy in the online world. As recognized by the authors themselves, it is easy to collect all kinds of information from users by considering their profiles, the content they post, and the associations they maintain online. Countless studies have shown how political leaning, sexual orientation, and a number of other sensitive and/or private information can be inferred. This is the nature of the digital world. And for several platforms, such as Twitter, there is already no assumption of privacy. Presumably people put their thoughts, ideas, and emotions out there so others can find them. Usually these bits of information are spread out and users typically dot not consider the possibility that someone (or something, i.e., a machine) can piece them together to infer other information about them, or they do not express them explicitly for research purposes. Nevertheless it can be and is routinely done. This may warrant further discussion. As stated by the authors, when a tweet author (or blog writer) shares data about himself, "he does it to communicate with his digital community." It may be interesting to think that, when the content is public, then among others, researchers are part of that digital community. Unlike Facebook, anyone can follow anyone else on Twitter without the express consent of the individual being followed. In so doing, followers have access to all of the information of the persons they follow. Again, no assumption of privacy there. In turn, it could open the door to exploitation by researchers just the same as others, with the possible advantage that researchers are likely to use the information in a benevolent fashion (like all technologies social media does have two sides). It seems that while possibly protecting the users (although, as stated above, this may be more an illusion than a reality anymore in today's online world), putting too many restrictions on benevolent researchers (that others, especially malevolent individuals readily dispense with) would limit our ability to serve them and address important public health issues. Some discussion of these issues would be welcome. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Giraud-Carrier C. Peer Review Report For: Ethical research standards in a world of big data [version 2; peer review: 3 approved with reservations] . F1000Research 2014, 3 :38 ( https://doi.org/10.5256/f1000research.5016.r11384) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/3-38/v2#referee-response-11384 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2014 Henderson T. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 18 Nov 2014 | for Version 2 Tristan Henderson , Department of Computer Science, University of St Andrews, Fife, UK 0 Views copyright © 2014 Henderson T. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions The article has been improved since the original submission. The purpose has been clarified somewhat. The literature review has been expanded although there is still no discussion of Neuhaus and Webmoor who have already proposed similar guidelines for Twitter research, nor the BPS guidelines. With so many sets of guidelines, it is difficult for a researcher to know which to follow. It would be nice to see a concerted effort (see my next paragraph). I still have concerns about the appropriateness of this particular venue for developing guidelines. The authors suggest the use of the Twitter hashtag "#TACTICS" for discussion, but such a generic hashtag is not particularly useful. https://twitter.com/search?q=%23TACTICS just brings up tweets about sports and marketing strategy. I believe that some sort of more focused discussion, e.g. at a workshop, perhaps under the auspices of a relevant professional society, would be more appropriate. Since some people seemed to find the list of references in my previous review useful, here a couple of more recent ones: The Horizon Digital Economy Research Institutes (Nottingham, UK) response to a UK parliamentary select committee on social media analytics: http://drdrmc.blogspot.co.uk/2014/04/ethics-and-social-media.html A talk by Dan OConnor of the Wellcome Trust (again, UK) on ethics and social media research: http://www.youtube.com/watch?v=5VbQcYt0bkw Given that this document is by definition a work-in-progress, I keep my decision the same. Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Henderson T. Peer Review Report For: Ethical research standards in a world of big data [version 2; peer review: 3 approved with reservations] . F1000Research 2014, 3 :38 ( https://doi.org/10.5256/f1000research.5016.r6732) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/3-38/v2#referee-response-6732 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2014 Emery S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 01 Jul 2014 | for Version 1 Sherry Emery , Institute for Health Research and Policy, University of Illinois at Chicago, Chicago, IL, USA 0 Views copyright © 2014 Emery S. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions In general, I think this is a very helpful piece, which lays out some practical and legitimate privacy risks that arise when working with social media data. And the authors suggestions for the code of ethics are thoughtful, yet warrant some debate. My main concern is that corporate interests, most prominently Facebook - but also app developers and marketers by the legion - are using these data to both manipulate and profit from users digital networks and behaviors. More discussion of the appropriateness of applying traditional IRB standards to social media research is needed. In particular, the relative uselessness of the terms of use in the context of IRB standards is notable. But in practice, this is the standard that commercial entities are applying. For researchers to be held to a different standard risks abdicating social media research to corporate interests--and the public good of generating knowledge from these data will be lost unless that knowledge directly serves somebodys bottom line. Id like to see a more thorough consideration of the practical implications of potential privacy breaches from social media research. Would these meet the minimal risk criterion used by most IRBs? If so, then some of the suggestions in the proposed guidelines may be unnecessarily Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Emery S. Peer Review Report For: Ethical research standards in a world of big data [version 2; peer review: 3 approved with reservations] . F1000Research 2014, 3 :38 ( https://doi.org/10.5256/f1000research.3770.r5282) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/3-38/v1#referee-response-5282 
+ 
+ keyboard_arrow_left Back to all reports Reviewer Report 0 Views copyright © 2014 Henderson T. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. 06 Mar 2014 | for Version 1 Tristan Henderson , Department of Computer Science, University of St Andrews, Fife, UK 0 Views copyright © 2014 Henderson T. This is an open access peer review report distributed under the terms of the Creative Commons Attribution License , which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. format_quote Cite this report speaker_notes Responses (0) Approved With Reservations info_outline Alongside their report, reviewers assign a status to the article: Approved The paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved Fundamental flaws in the paper seriously undermine the findings and conclusions This opinion article is interesting and timely, as it is clear that the quantity of research using social media and other sources of personal data is increasing, and the potential concerns around this need to be considered by researchers and ethics committees. I found the current form of the paper to be rather unsatisfactory, however: it is not clear how or where the proposed guidelines would be applied, how they were developed, and most importantly there is no contextualisation of how this paper builds on the myriad discussions that have already taken place in this arena. The introductory section of the paper is fine, and provides a clear description of how Twitter works, which is no doubt of use for the intended audience. But the authors need to clearly describe the purpose of the guidelines. Indeed there needs to be some introductory text before the guidelines are introduced, as the current text is rather incongruent. Is the text on the Consumer Privacy Bill of Rights supposed to be in a separate section following the introduction? Moreover the aim and applicability of the guidelines is unclear. How would these guidelines be enforced? Would they be applied to all studies? Is there any mechanism for exceptions to this? For instance if I wanted to do a study comparing health behaviour on Twitter and Facebook, I would need to collect data from both networks. But this violates the guidelines. Or are these guidelines only for studies where IRB approval would not be obtained? There is much discussion over whether social media studies require any IRB approval at all 1 , 2 , 3 . But your last guideline seems to disagree with this. The title of the paper refers to big data but the paper itself really concerns itself with Twitter (with some discussion of linkability). Are the guidelines to apply to all big data studies? Given that this paper really only targets US ethics committees and IRBs, I was surprised that there was no discussion of the Common Rule or the recent Menlo Report 4 , 5 . An opinion article in Science last year also discussed US regulation 6 . One of the guidelines explicitly describes the context in which a tweet was sent. But there is no mention of contextual integrity 7 which seems to be the most common framework for studying this, and has indeed been applied to social media research 8 , 9 , 10 . Danah Boyd has talked widely about the ethics of big data research 11 , 12 and her work should be discussed. Concerns about Twitter specifically have also been raised 13 , 14 and Neuhaus and Webmoor specifically propose agile ethics for the study of such networks 15 . How would agile ethics fit in with your guidelines? The implicit assumption in your guidelines is that studies should occur without consent and involve trawling the firehose. But these kinds of studies in themselves are controversial 16 . Moreover is there any reason why informed consent could not be obtained for some of these studies, especially since you touch on consent when discussing your hypothetical shopping centre study? We have looked at this empirically 17 . One striking difference between research and the collection of data for business purposes is that researchers are typically interested in reproducibility. Indeed many research funding bodies worldwide are now insisting on data archiving and sharing as a requirement, and this would apply to social media studies as well (something that has been criticised in the past 18 ). Should your guidelines not address data sharing? Technical challenges exist, including the linkability problems that you discuss 19 and the difficulty of anonymising data 20 , while solutions are still nascent 21 , 22 . The BPS reference (13) should be updated 23 . Moreover you ought to compare and contrast other ethical guidelines for Internet research 24 , 25 , 26 , and other proposals for social media and health research 27 , 28 . At one point you mention privacy literacy but there is no reference and it was unclear what you mean here. Privacy has been discussed in the literature 29 but might be slightly different. Finally, I qualify my review by stating that I am not a life scientist and that this is the first review that I have written for F1000Research. Indeed, I had not heard of it prior to my review request. I do question the appropriateness of a scientific journal for this work. If the intention of the authors is, as stated, to encourage more discussion then it would be good to focus this in one place. Since F1000Research allows comments from readers, then perhaps this does provide a better avenue for discussion than over Twitter, which can be difficult over long time-scales and is not particularly persistent. But in my opinion an even better mechanism for discussion and debate would be to hold a workshop and then publish a workshop report. Certainly further discussion with other communities, and examination of the discussion that has already taken place, would be useful to inform and improve this document. In the first instance, I think it would be good to see a revised document that shows more awareness of the current work, and where controversy exists, discusses why the authors have taken their chosen stance when proposing their guidelines. References 1. Buchanan E, Aycock J, Dexter S, Dittrich D, et al.: Computer Science Security Research and Human Subjects: Emerging Considerations for Research Ethics Boards. Journal of Emperical Research on Human Ethics . 2011; 6 (2): 71-83 Publisher Full Text 2. Halavais A: Social science: Open up online research. Nature . 2011; 480 (7376): 174-175 PubMed Abstract | Publisher Full Text 3. Solberg LB: Data Mining on Facebook: A free space for researchers or an IRB nightmare?. University of Illinois Journal of Law, Technology & Policy . 2010; 2010 (2): 311-343 Reference Source 4. Dittrich D, Kenneally E: The Menlo Report: Ethical Principles Guiding Information and Communication Technology Research. Cooperative Association for Internet Data Analysis . 2012. Reference Source 5. Bailey M, Dittrich D, Kenneally E, Maughan D: The Menlo Report. IEEE Security & Privacy Magazine . 2012; 10 (2): 71-75 Publisher Full Text 6. Shapiro RB, Ossorio PN: Research Ethics. Regulation of online social network studies. Science . 2013; 339 (6116): 144-145 PubMed Abstract | Publisher Full Text 7. Nissenbaum HF: Privacy as Contextualo integrity. Washington Law Review . 2004; 79 (1): 119-157 Reference Source 8. Page X: Contextual integrity and preserving relationship boundaries in location- sharing social media In Proceedings of the ACM CSCW Workshop on Measuring Networked Social Privacy: Qualitative & Quantitative Approaches, San Antonio, TX, USA, February. 2013. Reference Source 9. Shi P, Xu H, Chen Y: Using contextual integrity to examine interpersonal information boundary on social network sites. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, PAris, France . 2013. 35-38 Publisher Full Text 10. Hull G, Lipford HR, Latulipe C: Contexual gaps: privacy issues on Facebook. Ethics Inf Technol . 2011; 13 (4): 289-302 Publisher Full Text 11. Boyd D: Privacy and publicity in the context of big data. Keynote at WWW ’10: the 19th International Conference on the World Wide Web, April. 2010. Reference Source 12. Boyd D, Crawford K: Critical questions for big data. Inf Commun Soc . 2012; 15 (5): 662-679 Publisher Full Text 13. Puschmann C, Burgess J: The politics of Twitter data. Social Science Research Network Working Paper Series, January. 2013. Reference Source 14. Vieweg S: The ethics of Twitter research. Revisiting Research Ethics in the Facebook Era: Challenges in Emerging CSCW Research, Savannah, GA, USA, February . 2010. Reference Source 15. Neuhaus F, Webmoor T: Agile ethics for massified research and visualization. Inf Commun Soc . 2012; 15 (1): 43-65 Publisher Full Text 16. Ioannidis JPA: Informed consent, big data, and the oxymoron of research that is not research. Am J Bioeth . 2013; 13 (4): 40-42 PubMed Abstract | Publisher Full Text 17. McNeilly S, Hutton L, Henderson T: Understanding ethical concerns in social media privacy studies. In Proceedings of the ACM CSCW Workshop on Measuring Networked Social Privacy: Qualitative & Quantitative Approaches, San Antonio, TX, USA, February . 2013. Reference Source 18. Huberman BA: Sociology of science: Big data deserve a bigger audience. Nature . 2012; 482 (7385): 308 PubMed Abstract | Publisher Full Text 19. Narayanan A, Shmatikov V: De-anonymizing social networks. Proceedings of the IEEE Symposium on Security and Privacy . 2009. 173-187 Publisher Full Text 20. Zimmer M: “But the data is already public”: on the ethics of research in Facebook. Ethics Inf Technol . 2010; 12 (4): 313-325 Publisher Full Text 21. Dwork C: Differential Privacy. M. Bugliesi, B. Preneel, V. Sassone, and I. Wegener, editors, Automata, Languages and Programming, volume 4052 of Lecture Notes in Computer Science, Springer, Berlin . 2006. 1-12 Publisher Full Text 22. Hutton L, Henderson T: An architecture for ethical and privacy-sensitive social network experiments. SIGMETRICS Perform. Eval. Rev . 2013; 40 (4): 90-95 Publisher Full Text 23. British Psychological Society: Ethics guidelines for Internet-mediated research. 2013. Reference Source 24. Buchanan EA, Ess C: Internet research ethics: The field and its critical issues. The Handbook of Information and Computer Ethics, number 11 . 2008. 273-292 Publisher Full Text 25. Eynon R, Schroeder R, Fry J: New techniques in online research: challenges for research ethics. Twenty-first Century Society . 2009; 4 (2): 187-199 Publisher Full Text 26. Felzmann H: Ethical issues in internet research: international good practice and Irish research ethics documents. In C. Fowley, C. English, and S. Thouësny, editors, Internet research, theory, and practice: perspectives from Ireland, pages 11–32. Research-publishing.net, Dublin, 1 edition. 2013. Reference Source 27. McKee R: Ethical issues in using social media for health and health care research. Health Policy . 2013; 110 (2-3): 298-301 PubMed Abstract | Publisher Full Text 28. Moreno MA, Fost NC, Christakis DA: Research ethics in the MySpace era. pediatrics . 2008; 121 (1): 157-161doi PubMed Abstract 29. Bonneau J, Preibusch S: The privacy jungle: On the market for data protection in social networks. Proceedings of The Eighth Workshop on the Economics of Information Security (WEIS 2009) . 2009. 121-167 Competing Interests No competing interests were disclosed. I confirm that I have read this submission and believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above. reply Respond to this report Responses (0) 
+ 
+ Henderson T. Peer Review Report For: Ethical research standards in a world of big data [version 2; peer review: 3 approved with reservations] . F1000Research 2014, 3 :38 ( https://doi.org/10.5256/f1000research.3770.r3876) 
+
+ NOTE: it is important to ensure the information in square brackets after the title is included in this citation. 
+
+ The direct URL for this report is:
+ https://f1000research.com/articles/3-38/v1#referee-response-3876 
+ 
+ Alongside their report, reviewers assign a status to the article: Approved - the paper is scientifically sound in its current form and only minor, if any, improvements are suggested Approved with reservations - A number of small changes, sometimes more significant revisions are required to address specific details and improve the papers academic merit. Not approved - fundamental flaws in the paper seriously undermine the findings and conclusions Adjust parameters to alter display View on desktop for interactive features Includes Interactive Elements View on desktop for interactive features Edit comment Competing Interests Cancel Save The comment has been saved. An error has occurred. Please try again. Your must enter a comment. References error. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Stay Updated Sign up for content alerts and receive a weekly or monthly email with all newly published articles Register with F1000Research Already registered? Sign in Not now, thanks close PLEASE NOTE If you are an AUTHOR of this article, please check that you signed in with the account associated with this article otherwise we cannot automatically identify your role as an author and your comment will be labelled as a User Comment. If you are a REVIEWER of this article, please check that you have signed in with the account associated with this article and then go to your account to submit your report, please do not post your review here. If you do not have access to your original account, please contact us . All commenters must hold a formal affiliation as per our Policies . The information that you give us will be displayed next to your comment. User comments must be in English, comprehensible and relevant to the article under discussion. We reserve the right to remove any comments that we consider to be inappropriate, offensive or otherwise in breach of the User Comment Terms and Conditions . Commenters must not use a comment for personal attacks. When criticisms of the article are based on unpublished data, the data should be made available. I accept the User Comment Terms and Conditions Please confirm that you accept the User Comment Terms and Conditions. Affiliation Please enter your organisation. Country* USA UK Canada China France Germany Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde Cayman Islands Central African Republic Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Cook Islands Costa Rica Cote d'Ivoire Croatia Cuba Cyprus Czech Republic Democratic Republic of the Congo Denmark Djibouti Dominica Dominican Republic Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands Federated States of Micronesia Fiji Finland France French Guiana French Polynesia French Southern Territories Gabon Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See (Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran Iraq Ireland Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo (Serbia and Montenegro) Kuwait Kyrgyzstan Lao People's Democratic Republic Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique Mauritania Mauritius Mayotte Mexico Minor Outlying Islands of the United States Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar Namibia Nauru Nepal Netherlands Antilles New Caledonia New Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands North Korea Norway Oman Pakistan Palau Palestinian Territory Panama Papua New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint Helena Saint Kitts and Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Senegal Serbia Seychelles Sierra Leone Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South Georgia and the South Sandwich Is South Korea Spain Sri Lanka Sudan Suriname Svalbard and Jan Mayen Swaziland Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand The Gambia The Netherlands Timor-Leste Togo Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands Tuvalu Uganda UK Ukraine United Arab Emirates United States Virgin Islands Uruguay USA Uzbekistan Vanuatu Venezuela Vietnam Wallis and Futuna West Bank and Gaza Strip Western Sahara Yemen Zambia Zimbabwe Please select your country. You must enter a comment. Competing Interests Please disclose any competing interests that might be construed to influence your judgment of the article's or peer review report's validity or importance. Competing Interests Policy Provide sufficient details of any financial or non-financial competing interests to enable users to assess whether your comments might lead a reasonable person to question your impartiality. Consider the following examples, but note that this is not an exhaustive list: Examples of 'Non-Financial Competing Interests' Within the past 4 years, you have held joint grants, published or collaborated with any of the authors of the selected paper. You have a close personal relationship (e.g. parent, spouse, sibling, or domestic partner) with any of the authors. You are a close professional associate of any of the authors (e.g. scientific mentor, recent student). You work at the same institute as any of the authors. You hope/expect to benefit (e.g. favour or employment) as a result of your submission. You are an Editor for the journal in which the article is published. Examples of 'Financial Competing Interests' You expect to receive, or in the past 4 years have received, any of the following from any commercial organisation that may gain financially from your submission: a salary, fees, funding, reimbursements. You expect to receive, or in the past 4 years have received, shared grant support or other funding with any of the authors. You hold, or are currently applying for, any patents or significant stocks/shares relating to the subject matter of the paper you are commenting on. Please state your competing interests The comment has been saved. An error has occurred. Please try again. Cancel Post 
+ .at-icon-wrapper {
+ background-size: 100% !important;
+ }
+ 
+ var lTitle = "Ethical research standards in a world of...".replace("'", '');
+ var linkedInUrl = "http://www.linkedin.com/shareArticle?url=https://f1000research.com/articles/3-38/v2" + "&title=" + encodeURIComponent(lTitle) + "&summary=" + encodeURIComponent('Read the article by ');
+
+ var deliciousUrl = "https://del.icio.us/post?url=https://f1000research.com/articles/3-38/v2&title=" + encodeURIComponent(lTitle);
+
+ var redditUrl = "http://reddit.com/submit?url=https://f1000research.com/articles/3-38/v2" + "&title=" + encodeURIComponent(lTitle);
+
+ linkedInUrl += encodeURIComponent('Rivers CM and Lewis BL');
+ 
+ var offsetTop = /chrome/i.test( navigator.userAgent ) ? 4 : -10; 
+ var addthis_config = {
+ ui_offset_top: offsetTop,
+ services_compact : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_expanded : "facebook,twitter,www.linkedin.com,www.mendeley.com,reddit.com",
+ services_custom : [
+ {
+ name: "LinkedIn",
+ url: linkedInUrl,
+ icon:"/img/icon/at_linkedin.svg"
+ },
+ {
+ name: "Mendeley",
+ url: "http://www.mendeley.com/import/?url=https://f1000research.com/articles/3-38/v2/mendeley",
+ icon:"/img/icon/at_mendeley.svg"
+ },
+ {
+ name: "Reddit",
+ url: redditUrl,
+ icon:"/img/icon/at_reddit.svg"
+ },
+ ]
+ };
+
+
+ var addthis_share = {
+ url: "https://f1000research.com/articles/3-38",
+ templates : {
+ twitter : "Ethical research standards in a world of big data. Rivers CM and Lewis BL, published by " + 
+ "@F1000Research"
+ + ", https://f1000research.com/articles/3-38/v2"
+ }
+ };
+
+ if (typeof(addthis) != "undefined"){
+ addthis.addEventListener('addthis.ready', checkCount);
+ addthis.addEventListener('addthis.menu.share', checkCount);
+ }
+
+ $(".f1r-shares-twitter").attr("href", "https://twitter.com/intent/tweet?text=" + addthis_share.templates.twitter);
+ $(".f1r-shares-facebook").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + addthis_share.url);
+ $(".f1r-shares-linkedin").attr("href", addthis_config.services_custom[0].url);
+ $(".f1r-shares-reddit").attr("href", addthis_config.services_custom[2].url);
+ $(".f1r-shares-mendelay").attr("href", addthis_config.services_custom[1].url);
+
+ function checkCount(){
+ setTimeout(function(){
+ $(".addthis_button_expanded").each(function(){
+ var count = $(this).text();
+ if (count !== "" && count != "0")
+ $(this).removeClass("is-hidden");
+ else
+ $(this).addClass("is-hidden");
+ });
+ }, 1000);
+ }
+ close How to cite this report {{reportCitation}} Cancel Copy Citation Details 
+ $(function(){
+ var gaCat = "F1000Research";
+ if (gaCat === "") {
+ gaCat = $("body").hasClass("wellcome-brand") ? "Wellcome Open Research" : "F1000Research";
+ }
+ GAHelper.track({category: gaCat, action: "Article Page: Ethical research standards in a world of big data", label: "pageviews"});
+ GAHelper.track({category: gaCat, action: "Article Type: Opinion Article", label: "Article Page"});
+ $(".f1r-article-desk .collection-image").each(function (idx, el) {
+ var whatChannel = $(el).find("a").attr("href"),
+ channelName = $.trim($(el).parent().find(".collection-detail a").text()),
+ gaRef = "(ID: " + whatChannel.replace("/collections/", "") + ") " + channelName;
+ GAHelper.track({category: 'ChannelStats', action: "Article Page: Ethical research standards in a world of big data", label: gaRef});
+ });
+ });
+ 
+ $(function(){R.ui.buttonDropdowns('.dropdown-for-downloads');});
+ $(function(){R.ui.toolbarDropdowns('.toolbar-dropdown-for-downloads');});
+ 
+ $.get("/articles/acj/3522/5016")
+ 
+ new F1000.Clipboard();
+ new F1000.ThesaurusTermsDisplay("articles", "article", "5016");
+ 
+ $(document).ready(function() {
+ $( "#frame1" ).on('load', function() {
+ var mydiv = $(this).contents().find("div");
+ var h = mydiv.height();
+ console.log(h)
+ });
+
+ 
+ var tooltipLivingFigure = jQuery(".interactive-living-figure-label .icon-more-info"),
+ titleLivingFigure = tooltipLivingFigure.attr("title");
+ tooltipLivingFigure.simpletip({
+ fixed: true,
+ position: ["-115", "30"],
+ baseClass: 'small-tooltip',
+ content:titleLivingFigure + " "
+ });
+ tooltipLivingFigure.removeAttr("title");
+
+ $("body").on("click", ".cite-living-figure", function(e) {
+ e.preventDefault();
+ var ref = $(this).attr("data-ref");
+ $(this).closest(".living-figure-list-container").find("#" + ref).fadeIn(200);
+ });
+ $("body").on("click", ".close-cite-living-figure", function(e) {
+ e.preventDefault();
+ $(this).closest(".popup-window-wrapper").fadeOut(200);
+ });
+
+ $(document).on("mouseup", function(e) {
+ var metricsContainer = $(".article-metrics-popover-wrapper");
+ if (!metricsContainer.is(e.target) && metricsContainer.has(e.target).length === 0) {
+ $(".article-metrics-close-button").click();
+ }
+ });
+
+ var articleId = $('#articleId').val();
+
+ if($("#main-article-count-box").attachArticleMetrics) {
+ $("#main-article-count-box").attachArticleMetrics(articleId, {
+ articleMetricsView: true
+ });
+ }
+ });
+
+ var figshareWidget = $(".new_figshare_widget");
+ if (figshareWidget.length > 0) {
+ window.figshare.load("f1000", function(Widget) {
+ // Select a tag/tags defined in your page. In this tag we will place the widget.
+ _.map(figshareWidget, function(el){
+ var widget = new Widget({
+ articleId: $(el).attr("figshare_articleId")
+ //height:300 // this is the height of the viewer part. [Default: 550]
+ });
+ widget.initialize(); // initialize the widget
+ widget.mount(el); // mount it in a tag that's on your page
+ // this will save the widget on the global scope for later use from
+ // your JS scripts. This line is optional.
+ //window.widget = widget;
+ });
+ });
+ }
+ 
+
+ 
+ $(document).ready(function () {
+
+ 
+ var reportIds = {
+ "10441": 0,
+ "4042": 0,
+ "10442": 0,
+ "4043": 0,
+ "10443": 0,
+ "4044": 0,
+ "6732": 39,
+ "10444": 0,
+ "4045": 0,
+ "4046": 0,
+ "3534": 0,
+ "3535": 0,
+ "4047": 0,
+ "3536": 0,
+ "3537": 0,
+ "3538": 0,
+ "4511": 0,
+ "4512": 0,
+ "5920": 0,
+ "4833": 0,
+ "3873": 0,
+ "4513": 0,
+ "5921": 0,
+ "5282": 99,
+ "4834": 0,
+ "3874": 0,
+ "4514": 0,
+ "4835": 0,
+ "3875": 0,
+ "4515": 0,
+ "3876": 175,
+ "4836": 0,
+ "3877": 0,
+ "11384": 23,
+ "11385": 0,
+ "11386": 0,
+ };
+
+ $(".referee-response-container,.js-referee-report").each(function(index, el) {
+ var reportId = $(el).attr("data-reportid"),
+ reportCount = reportIds[reportId] || 0;
+ $(el).find(".comments-count-container,.js-referee-report-views").html(reportCount);
+ });
+
+ var uuidInput = $("#article_uuid"),
+ oldUUId = uuidInput.val(),
+ newUUId = "1ed2e273-c506-46f6-82f5-2b25c7bccea5";
+ uuidInput.val(newUUId);
+
+ $("a[href*='article_uuid=']").each(function(index, el) {
+ var newHref = $(el).attr("href").replace(oldUUId, newUUId);
+ $(el).attr("href", newHref);
+ });
+
+ });
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ An innovative open access publishing platform offering rapid publication and open peer review, whilst supporting data deposition and sharing. 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ Browse 
+ Gateways 
+ Collections 
+ How it Works 
+ Blog 
+ Contact 
+ For Developers 
+ RSS 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Submit Your Research 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ Follow us
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 2012-2020 F1000 Research Ltd. ISSN 2046-1402 | Legal | Partner of HINARI CrossRef ORCID FAIRSharing 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ The F1000Research website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies. Find out more 
+ 
+ 
+ 
+ 
+ R.templateTests.simpleTemplate = R.template(' $text $text $text $text $text ');
+ R.templateTests.runTests();
+ 
+ var F1000platform = new F1000.Platform({
+ name: "f1000research",
+ displayName: "F1000Research",
+ hostName: "f1000research.com",
+ id: "1",
+ editorialEmail: "research@f1000.com",
+ infoEmail: "info@f1000.com",
+ usePmcStats: true
+ });
+
+ $(function(){R.ui.dropdowns('.dropdown-for-authors, .dropdown-for-about, .dropdown-for-myresearch');});
+ // $(function(){R.ui.dropdowns('.dropdown-for-referees');});
+
+ $(document).ready(function () {
+ if ($(".cookie-warning").is(":visible")) {
+ $(".sticky").css("margin-bottom", "35px");
+ $(".devices").addClass("devices-and-cookie-warning");
+ }
+ $(".cookie-warning .close-button").click(function (e) {
+ $(".devices").removeClass("devices-and-cookie-warning");
+ $(".sticky").css("margin-bottom", "0");
+ });
+
+ $("#tweeter-feed .tweet-message").each(function (i, message) {
+ var self = $(message);
+ self.html(linkify(self.html()));
+ });
+
+ $(".partner").on("mouseenter mouseleave", function() {
+ $(this).find(".gray-scale, .colour").toggleClass("is-hidden");
+ });
+ });
+ 
+ 
+
+ 
+ 
+	 Sign in -->
+	 Sign In 
+	 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+
+ 
+ 			 
+			 
+			 
+ 
+ 				 
+ 
+ Remember me 
+			 
+			 Forgotten your password? 
+			 
+				 Sign In 
+				 Cancel 
+				 
+			 
+			 Email or password not correct. Please try again 
+			 Please wait... 
+		 
+		 
+			
+ 
+	$(function(){
+		// Note: All the setup needs to run against a name attribute and *not* the id due the clonish
+		// nature of facebox...
+		$("a[id=googleSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("GOOGLE");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=facebookSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("FACEBOOK");
+ $("form[id=oAuthForm]").submit();
+ });
+ $("a[id=orcidSignInButton]").click(function(event){
+ event.preventDefault();
+ $("input[id=oAuthSystem]").val("ORCID");
+ $("form[id=oAuthForm]").submit();
+ });
+	});
+ 
+
+ 
+	If you've forgotten your password, please enter your email address below and we'll send you instructions on how to reset your password.
+ The email address should be the one you originally registered with F1000. 
+ 
+ 
+ 
+	Email address not valid, please try again
+ 
+ 
+ You registered with F1000 via Google, so we cannot reset your password. 
+	 To sign in, please click here . 
+ If you still need help with your Google account password, please click here . 
+ 
+ 
+ You registered with F1000 via Facebook, so we cannot reset your password. 
+ To sign in, please click here . 
+	 If you still need help with your Facebook account password, please click here . 
+ 
+ 
+ 
+	Code not correct, please try again
+ 
+ 
+ 
+	 Reset password 
+	 Cancel 
+	 
+ 
+ 
+	 Email us for further assistance.
+ 
+ 
+ 
+ 
+ 
+			 Server error, please try again. 
+			 
+ We have sent an email to , please follow the instructions to reset your password. 
+ If you don't receive this email, please check your spam filters and/or contact . 
+ 
+			 Please wait... 
+		 
+
+		 
+			 
+				 Register 
+				 
+			 
+		 
+
+	 
+ 
+
+ 
+$(document).ready(function () {
+
+ signIn.createSignInAsRow($("#sign-in-form-gfb-popup"));
+
+ $(".target-field").each(function () {
+ var uris = $(this).val().split("/");
+ if (uris.pop() === "login") {
+ 	$(this).val(uris.toString().replace(",","/"));
+ }
+ });
+});
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ I Understand 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ F1000.ExtenalMaintenanceItems = [
+ {
+ start: '2018-12-10T14:21:00Z',
+ end: '2018-12-13T16:00:00Z',
+ msg: 'This site will be down for a short time on XX December. It is advisable not to start any submissions on that day or you may lose your work unless you save regularly.',
+ cookieName: 'outage23122018',
+ editor: false,
+ }
+ ];
+ 
+
+ 
+ 
+
+ 
+
+ 
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-5646075-11', 'auto');
+ ga('require', 'displayfeatures');
+ ga('send', 'pageview');
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 

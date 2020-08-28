@@ -1,0 +1,39 @@
+Interesting well-written study leveraging an important and somewhat novel concept, specifically, using
+available (Big) data from the records of real world patients in usual clinical care settings to inform
+generalization of findings from RCTs (which often enroll highly selected and healthier participants), in this
+case the PEGASUS trial.
+I like this paper, although, in my opinion, the main effect described is well known and has been seen many
+times before. As such, the results are really not that surprising (often event rates are higher in the real
+world than in high-select healthy trial participants)
+Major Concerns
+1- My biggest concern is ascertainment of events, which could be a big problem for this study. Trial based
+adjudication of events is a significantly different process that recording of events in electronic health
+records….. For example, it is well known that real-world ‘billing’ and hospital administrative data records
+often are more sensitive for events, but less specific than RCT/rigorous epidemiological cohorts. Look at
+JAMA. 2014;311(14):1406-1415, for an example of how this can bias results significantly. Thus, it is
+imperative that the authors provide some methodological data evaluating the validity and reliability of the
+events coded in CALIBER against a gold standard of high-grade trial-quality event adjudication (I presume
+this has been done in a random subsample of events from CALIBER already- if not it should be).
+2- Correct me if I am wrong, but the authors did not exclude individuals who were on Plavix at one year
+out from MI from their 'real world' sample ? I understand that there was a falloff in Plavix use after 1 year,
+but it is likely that some (figure 2 suggests ~20%) persons in their real world sample continued Plavix well
+after 1 year. Thus, these patients are not be exactly the same as the PEGASUS placebo group. Of course,
+this would bias the results towards less events in the real world- so the differences in absolute risk between
+real world and PEGASUS trial participants may be even larger. I think this issue should be addressed.
+3- Given the marked differences in baseline characteristics between PEGASUS and, for example, the target
+sample of 1676, it is not clear to me why the authors use crude event rates and not at least age-and-sex
+adjusted event rates. It seems very unfair to compare events in a group of age 65 yrs (PEGASUS) with a
+group of age 77 (CALIBER TARGET sample). I think that age and sex adjustment is critical for accurate
+interpretation, or some other form of standardization. Right now this is comparing apples and oranges.
+Minor Concerns.
+-Methods Section, “the remainder for whom the AMI type was imputed based on ICD-10 code for hospital
+admission.” Please provide more specifics on this imputation process. Why was just the ICD-10 code used,
+and not other patient demographic variables?
+-Methods Section, “where missing data occurred HRs were estimated in complete cases for that variable”.
+Please state the amount of missing data in the models (put another way, please state the number of
+complete cases included in the Cox models). If this is <90% of the total sample (5279) provide justification
+for this approach (particularly because MCAR setting is unlikely) and for not using multiple imputation or
+other methods to deal with MAR data.
+-Limitations section, it must be stated that the relative risk reductions from PEGASUS are presumed to be
+the same in this population but cannot be known to be the same. This assumption should be cited in the
+paper.

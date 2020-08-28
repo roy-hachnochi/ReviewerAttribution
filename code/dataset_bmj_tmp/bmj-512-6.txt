@@ -1,0 +1,18 @@
+An interesting and generally well written paper. I have a few comments that the authors should seriously consider to
+improve their analyses.
+In the Methods the authors that labs will be different (time, cytology tests) therefore, I wonder why this wasn’t
+accounted for this in the analysis. It would’ve been relatively straight forward to account for this clustering, and this
+would strengthen the analysis and results.
+It would be nice to know the frequency in which these tests have been administered has changed over time, as I feel
+(as noted above) this will need to be factored into the analysis somehow. This information is presented in the
+Rozmeijer et al (Cancer Causes Control 2016) paper, and should be also included and summarised here to indicate
+what is happening.
+I find some of the terminology hard to follow. Nice clear definitions of screen-detected, and overall interval, and
+clinically detected cancer would be useful (unless I missed it).
+Some clarification on what was imputed (table 1 indicate SES and screening region had some missing data – is that
+all?). Also how were the 10 imputations combined, there is no information on this and what was done.
+Is this a conventional way to quantify SES in the Netherlands? Seems rather crude in that ~80% of the cohort are
+classed as ‘middle’, doesn’t seem that SES measured this coarsely could be particularly informative.
+Choosing confounders based on statistical significance isn’t a particular useful approach. It would be preferable to
+identify potential confounders before the analysis and include them in the model regardless of whether they are
+statistically significant or not.

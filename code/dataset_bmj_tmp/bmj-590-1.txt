@@ -1,0 +1,23 @@
+The authors have responded fully and very positively to all the reviewer comments made. With
+one exception they have addressed all my concerns.
+1. I pointed out that the plethora of confidence intervals and percentages to two decimal places
+made the results much less readable. In response the authors have removed some of the CIs,
+but the percentages all still have two decimal places. I have argued that generally speaking
+percentages are best with no decimal places except when comparing very similar percentages
+(see http://adc.bmj.com/cgi/content/full/archdischild-2014-307149). To justify two decimal
+places the percentages would need to be equal to the first decimal place, which is never the
+case. I encourage the authors to reduce the numbers of decimal places, either to 0 or 1
+depending on the context.
+Incidentally, the statement that CIs for AUCs allow the models to be compared ignores the fact
+that CIs for the difference between AUCs would be more appropriate. Also, note that Table 2
+refers to AUC 95% CIs which are no longer there.
+2. The authors have added in Table 3 a net reclassification analysis. However I find both the
+layout and the numbers in the table hard to follow. It refers to 10% high risk and low risk
+groups, so the low risk group should be labelled as 90% of the total and the high risk group as
+10%, with corresponding totals of 949333 and 105482. The denominator of 1054815 should
+also appear in the title. Having decoded these numbers I have failed to calculate the NRIs labelling the cells of the 2x2 table as a-b-c-d in the usual way, what is the formula for the NRI?
+The description refers to rates of events correctly and incorrectly reclassified, but does not
+make clear which denominators apply. Also the rows within the low risk and high risk categories
+are reversed, presumably corresponding to non-events and events for low risk, but the reverse
+for high risk. They need to be labelled, and consistently. The table layout would be improved
+with the NRI-ne row immediately below the low risk table.

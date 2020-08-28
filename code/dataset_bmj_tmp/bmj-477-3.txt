@@ -1,0 +1,58 @@
+This retrospective cohort study investigated whether haloperidol use was associated with an increased
+risk of death in hospitalized patients with acute myocardial infarction compared to atypical antipsychotics
+use. The large hospital administrative database guarantees sufficient power, but I have major concerns
+about the relevance and validity of the results.
+Major concerns
+Earlier research investigated the association between conventional versus atypical antipsychotics and the
+risk of mortality in elderly patients independent of the specific reason for hospital admission. The authors
+now focus on patients with myocardial infarction. It is not clear why an analysis in this subgroup adds
+additional information to the available evidence. The authors assume that the antipsychotics were given
+for symptoms of delirium, which seems plausible and might give a new perspective. However, the data
+are similar to that used in earlier publications by this and other groups (1). That is, delirium is often
+missed and if it is diagnosed, it is often not reported in medical records. Data on severity of illness are
+also lacking. As the data are similar to those of earlier publications, the results cannot be expected to be
+different.
+The main analysis is based on deaths within 7 days after start of an antipsychotic, and secondary
+analyses on deaths within 2, 3, 5, and 30 days. Fig 1 shows that the survival curves diverge at these
+points in time. However, the curves overlap at other points in time, i.e. at 13, 16, and 18 days. The
+chosen endpoints might suggest an increased risk of mortality, even though other endpoints suggest
+there is none. The overlapping curves violate the proportional hazard assumption of a Cox survival
+analysis. The authors should have investigated this problem, and discussed this finding. Plotting the log
+of negative log of the survival plot obscures this violation (fig S3).
+
+The analyses are based on just 6,578 of 28,303 patients with myocardial infarction that used an
+antipsychotic (fig S1). To avoid the inclusion of prevalent users, the authors excluded 17,434 patients
+that used an antipsychotic on the first and second day of admission, and patients with bipolar disorder
+and schizophrenia (but not patients with dementia?). In addition, they excluded patients with CABG. The
+selections severely limit the generalizability of the results. The conclusion does not reflect the actual
+(selected) patient population to which the results apply. (If CBAG increased the risk of delirium, related
+antipsychotic use, and risk of death, this could have been adjusted for without excluding patients with
+CBAG.)
+Propensity scores were used to adjust for confounding. Many variables were used to calculate these
+scores (table S2). In contrast to the claim of the authors, many variables do not predict choice of
+antipsychotic drug AND death within 7 days. Discharge information is the most obvious one. Moreover,
+severity of illness (terminal illness) is a likely and potentially strong confounder (1), but was not taken
+into account.
+In the introduction and discussion, the authors should quote the available observational evidence fairly
+(not just work from their own group), and include meta-analyses of trials and other papers that refute
+the association between conventional antipsychotics and an increased risk of mortality (1,2,3), and refer
+to them adequately (not abstracts but full papers). The discussion does not provide an in-depth
+evaluation of the study results either. For instance, the authors suggest that the results might be
+confounded by terminal illness but do not explain why.
+Minor concerns
+The title does not say that the outcome is mortality risk. It mentions delirium even though delirium
+diagnoses were not used to select the study population.
+The flow-diagram is inconsistent. Patient with non-oral use are excluded from the group of patients with
+oral use. Patients that had an in-hospital stay of less than three days are also patients that initiated
+antipsychotic use on the first or second day.
+H.J. Luijendijk
+References
+1 Luijendijk HJ, de Bruin NC, Hulshof TA, Koolman X. Terminal illness and the increased mortality risk of
+conventional antipsychotics in observational studies: a systematic review. Pharmacoepidemiol Drug Saf.
+2016; 25(2): 113-22.
+2 Jackson JW, VanderWeele TJ, Viswanathan A, Blacker D, Schneeweiss S. The explanatory role of
+stroke as a mediator of the mortality risk difference between older adults who initiate first- versus
+second-generation antipsychotic drugs. Am J Epidemiol. 2014; 180(8): 847-52.
+3 Hulshof TA, Zuidema SU, Ostelo RW, Luijendijk HJ. The Mortality Risk of Conventional Antipsychotics in
+Elderly Patients: A Systematic Review and Meta-analysis of Randomized Placebo-Controlled Trials. J Am
+Med Dir Assoc. 2015; 16(10): 817-24.

@@ -1,0 +1,40 @@
+The authors have responded to some of my initial concerns, however, a few still remain,
+the paper is still overly complex in places (including in the Appendix), with many analyses
+unnecessarily presented.
+The model: Table 2B presents the model (I believe) – however if I wanted to validate this
+model on my own data I can’t – there is no baseline survival at 7 years. In the footnote to
+this tables, some of the acronyms are no longer needed (e.g., BCA).
+Number of candidate predictors. I appreciate the authors clarifying their approach, but
+whether you’ve examined their univariate association or adjusted for one or more
+variables, you’ve still examined 60 variables? Whilst I still disagree with the use of
+univariate associations with the outcome as a procedure to select variables – the ultimate
+test is if the model works in an external validation – but maybe in the discussion this could
+be raised – statistical significance as a criteria to select variable is not ideal.
+
+Internal validation: in their response, the authors have clarified that they have repeated
+the variable selection/model building process in each of the bootstrap samples – but this is
+not reflected in the manuscript.
+Table 2B. Clarification. The model contains 8 variables. In the footnote it states “The final
+multivariable model was adjusted with the 8 variables that remained independently
+associated with allograft survival.” – this is unclear. If no additional variables are being
+adjusted for, i.e., the model only contains those 8 variables, then there is no need to say
+the final model was adjusted for 8 variables – as it implies there is a final model (with x
+variables) and an additional number of variables have then been adjusted for.
+Calibration plots. Calibration in the derivation cohorts is not particularly interesting, as they
+will always appear well calibrated. Can the authors clarify how the calibration plots were
+created. The calibration in the validation cohorts looks too good? Was this carried out using
+the val.surv function in the RMS library in R and thus accounting for censoring. I’m also not
+sure what the black line (observed events) is? A calibration plot is a plot of observed
+against predictions, so not sure what the black line is.
+Clarification is also needed on how the calibration slope and intercept have been calculated
+(again in the context of a Cox model) – it’s straightforward for a logistic model, but less so
+for a Cox model. The authors have stated they have been estimated from a linear
+regression, this is not the correct way to estimate these values.
+I’m still struggling to see the usefulness of the risk groups. Those either side of a cutpoint
+say from risk strata 1 and 2 will have very similar risk, but by categorising this risk they
+will treated differently.
+The presentation of the model in the appendix is still in a format that is unhelpfully
+complex – this should be simplified. I still don’t understand why this needs to be
+normalised on 0-5. Provide the baseline survival at 7 years, and then the predictive
+probabilities from the model will then range from 0 to 1, and thus more easily understood.
+The interface the authors have created does this, it creates a risk from 0 to 100%.

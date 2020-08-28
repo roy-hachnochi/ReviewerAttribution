@@ -1,0 +1,1 @@
+This paper presents a tool for importing adjacency matrices into Cytoscape. The tool is particularly useful to represent weighted biological networks, such as co-expression relationships of genes, confidence scores of predicted relationships, etc. Minor comment: In "files" parameter in the JSON code, the character codes of some double quotes (") are different from others. 

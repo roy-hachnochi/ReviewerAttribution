@@ -1,0 +1,43 @@
+The authors have done a fine job summarizing the state of multimorbidity indices in the
+clinical literature. There are however a number of issues that if the authors can address
+will make the manuscript much stronger.
+Currently, the review is quite descriptive, reads more like a catalogue, and as such I’m
+unclear who is the intended audience. I don’t think merely listing available tools with some
+basic characteristics is enough for someone to decide which tool to use.
+I think a more critical overview of the tools would be more useful. Many tools (prediction
+models) are often poorly developed and poorly reported, there have been numerous
+reviews published and thus there is no reason to think why multimorbidity tools won’t
+suffer the same shortcomings, and investigating this will make the manuscript stronger.
+How the predictive accuracy of the tools were evaluated would be useful to know, this is
+often poorly done, often incorrectly/only partially done, and often not following
+recommended guidance, e.g., for prediction models, those predicting mortality should
+assess both model discrimination (e.g. the AUC/c-statistics) but also calibration (see Moons
+et al, Ann Intern Med 2015). How was internal validation carried out (splitting the data,
+bootstrapping, cross-validation).
+Also do we know from the primary studies, how many reported the full model/index to
+allow other investigators to use it, we know from many reviews, that tools developed using
+regression often fail to report the full model (e.g., the intercept was not reported, or for a
+Cox model, the baseline survival at one or more time points wasn’t reported).
+When models were predicting mortality. How is mortality defined, is this any mortality at
+any time point, is it a 1-year mortality prediction?, Maybe include a column in one of the
+tables, defining the exact outcome.
+Similarly, external validation studies are also often poorly done, just because an
+investigator has carried out an external validation, doesn’t mean it was done well – they
+are often poor too (Collins et al, BMC Med Res Methodol 2014), so some discussion on the
+quality of external validation studies would be useful. Clearly label how many of the tools
+have been externally validated (this may have been reported I missed it) – and indicate
+how many were independently evaluated by different investigators from those who
+developed the index. Indicate, when validations were done, the sample size (number of
+events, if appropriate), dates, country, performance, etc.
+The Risk of Bias assessment is rather ad-hoc, I suggest the authors to look at the
+PROBAST risk of bias tool (Wolff et al, Ann Intern Med 2019; Moons et al, Ann Intern Med
+2019), which is targeted to tools such as this, particularly those focused on prognostic
+outcomes (such as mortality). And then discuss the risk of bias in more detail to critically
+evaluate the tools, highlight any common issues coming out in the RoB assessment (or
+within particular RoB domains).
+Categorsing/splitting the indices by what they are tapping into, prognostic outcomes,
+mental health etc…might make presentation better, i.e., have separate tables (splitting
+Table 3), and discuss under separate headings in the main text. Depending on the type of
+tool, the assessment of performance will be different too (i.e. how you assess a mental
+health index is different to how you would assess the performance of a tool predicting
+mortality), so might make it easier to read.
