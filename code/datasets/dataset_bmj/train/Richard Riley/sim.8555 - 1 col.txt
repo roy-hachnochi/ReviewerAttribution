@@ -1,0 +1,852 @@
+One-stage individual participant data meta-analysis models
+for continuous and binary outcomes: Comparison of
+treatment coding options and estimation methods
+
+A one-stage individual participant data (IPD) meta-analysis synthesizes IPD
+from multiple studies using a general or generalized linear mixed model. This
+produces summary results (eg, about treatment effect) in a single step, whilst
+accounting for clustering of participants within studies (via a stratified study
+intercept, or random study intercepts) and between-study heterogeneity (via
+random treatment effects). We use simulation to evaluate the performance of
+restricted maximum likelihood (REML) and maximum likelihood (ML) estimation of one-stage IPD meta-analysis models for synthesizing randomized trials
+with continuous or binary outcomes. Three key findings are identified. First,
+for ML or REML estimation of stratified intercept or random intercepts models, a t-distribution based approach generally improves coverage of confidence
+intervals for the summary treatment effect, compared with a z-based approach.
+Second, when using ML estimation of a one-stage model with a stratified intercept, the treatment variable should be coded using “study-specific centering” (ie,
+1/0 minus the study-specific proportion of participants in the treatment group),
+as this reduces the bias in the between-study variance estimate (compared with
+1/0 and other coding options). Third, REML estimation reduces downward bias
+in between-study variance estimates compared with ML estimation, and does
+not depend on the treatment variable coding; for binary outcomes, this requires
+REML estimation of the pseudo-likelihood, although this may not be stable in
+some situations (eg, when data are sparse). Two applied examples are used to
+illustrate the findings.
+KEYWORDS
+estimation methods, individual participant data, IPD, maximum likelihood., meta-analysis,
+treatment coding
+1 INTRODUCTION
+An individual participant data (IPD) meta-analysis synthesizes the raw individual-level data from multiple related studies
+to produce summary results, for example, about the effect of a treatment.1 A common approach to IPD meta-analysis is a
+two-stage framework, where the first step analyses the IPD from each study separately to produce aggregate data (such as
+a treatment effect estimate and its SE), which are then synthesized in the second step using a traditional meta-analysis,
+such as a random effects model to account for between-study heterogeneity in the (treatment) effect of interest. An alternative approach to IPD meta-analysis is a one-stage framework, in which all studies are analyzed simultaneously using a
+hierarchical model, such as a generalized linear mixed model or a frailty survival model, to produce summary results in
+a single step. The one-stage approach has been increasingly used in the past decade.2
+With a one-stage IPD meta-analysis model, it is essential to account for clustering of participants within studies to
+avoid misleading conclusions.3 In particular, in a generalized linear mixed model framework two options to account for
+this clustering are (i) by using a stratified intercept term in the analysis, which involves estimating a separate intercept
+for each study; or (ii) by assuming random study intercepts, whereby study intercepts are assumed to be drawn from a
+distribution (typically a normal distribution). We recently showed through simulation that, when applying a one-stage
+IPD meta-analysis of randomized controlled trials (RCTs) with a 1:1 treatment:control allocation ratio and a continuous
+outcome, the meta-analyst can choose either a stratified intercept or random intercepts model when restricted maximum
+likelihood (REML) is used for estimation.4 That is, the statistical properties of the estimate of summary treatment effect,
+the 95% confidence interval for the summary treatment effect, and the estimate of between-study variance of treatment
+effects are all very similar regardless of whether a stratified intercept or random intercepts model is used. However, when
+using maximum likelihood (ML) estimation, there was less downward bias in the estimate of between-study variance
+of the treatment effect when using random intercepts rather than a stratified intercept, due to fewer parameters being
+estimated.5,6 Consequently, for ML estimation, the coverage of 95% confidence intervals for the summary treatment effect
+was better (ie, closer to 95%) when random intercepts rather than a stratified intercept was used.
+A recommendation to use random study intercepts, rather than a stratified study intercept, for one-stage IPD
+meta-analysis models that require ML estimation (eg, for binary outcomes) may be disconcerting to some readers. In
+particular, the use of random intercepts is often considered inappropriate on philosophical grounds, because it allows
+across-trial information to inform the control group results, which may compromise randomization within each trial and
+bias the summary treatment effects. There is the potential for bias in situations when the allocation ratio is associated
+with the overall mean outcome (risk). In such situations the introduced bias will often be small,7 but may be substantial in extreme situations. For example, White et al8 show that when using extreme hypothetical binary outcome data
+in a network meta-analysis setting, there can be large potential bias in the summary treatment effect when using a random intercept; the summary treatment effect was an odds ratio of 1.35 when the truth was 1. Another issue is that it is
+usually recommended to allow the random effects on the intercept and treatment effect to be correlated; however, this
+might then allow the baseline risk to contribute toward the summary treatment effect estimates. As an extreme example,
+the model could incorporate randomized trials alongside observational studies that only provide information about the
+control (untreated group); the latter will then contribute (via the correlation) toward the summary treatment effect.
+In this article, we aim to build on previous work,4,5,9-11 and to improve ML estimation of the stratified intercept model
+so that it is at least comparable to that of the random intercepts model. Specifically, we focus on an IPD meta-analysis of
+randomized trials, and evaluate whether the coding of the treatment variable is important toward ML estimation properties. Our previous simulations focused on situations where the treatment:control allocation ratio was 1:1 in each study
+in the meta-analysis, and found a +0.5/−0.5 coding for the treatment variable (instead of 1/0) substantially improved ML
+estimation performance.5 Subsequently, we realized that a +0.5/−0.5 coding is the same as using the 1/0 coding minus
+the proportion in the treatment group (ie, using 1/0 - 0.5) when the treatment:control allocation ratio is 1:1 This raises the
+question about whether IPD meta-analysts should always use a +0.5/−0.5 coding of treatment in their one-stage models,
+or whether the choice should be context specific, especially when the actual allocation ratio is not 1:1. Therefore, in this
+article our primary aims to assess ML estimation performance of the stratified intercept model when using four treatment
+coding options:
+• the traditional 1/0 coding
+• the +0.5/−0.5 coding recommended by Jackson et al5
+• a coding of 1/0 minus the average proportion of participants in the treatment group in all trials (ie, an “overall
+centering” approach)
+• a coding of 1/0 minus the proportion of participants in the treatment group in that trial (ie, a “study-specific centering”
+approach)
+We evaluate which coding approach gives the smallest bias in the estimates of the summary treatment effect and
+between-study variance of treatment effects. Two additional objectives are also considered: (a) whether the coverage of
+95% confidence intervals for the summary treatment effect are improved by using a t-distribution rather the standard
+z-based (Wald) approach, and (b) whether REML estimation of the pseudo likelihood leads to better performance than
+ML estimation of the exact likelihood for one-stage IPD meta-analysis models of binary outcomes.
+The structure of this article is as follows. In Section 2, we introduce one-stage IPD meta-analysis models with a stratified intercept, for both continuous and binary outcomes. In Section 3 we evaluate the four treatment coding options in
+an extensive simulation study, for both continuous and binary outcomes. Section 4 provides real examples and Section 5
+concludes with discussion.
+2 ONE-STAGE MODEL SPECIFICATIONS AND TREATMENT CODING
+OPTIONS
+In this section we introduce one-stage IPD meta-analysis models for continuous and binary outcomes with either a
+stratified intercept or random intercepts model, and then define the various treatment coding options.
+2.1 Continuous outcomes
+Consider that IPD have been obtained from i = 1 to K RCTs, each of which has a parallel-group design investigating
+whether a treatment is effective (vs a control or existing treatment) at improving a continuous outcome. The treatment
+effect then relates to the mean difference (at some follow-up time) in the continuous outcome value between the treatment
+and control groups. Suppose that there are ni participants in trial i, and that YFij represents the end-of-trial final (F)
+continuous outcome value for participant j in trial i. Let the treatment group variable be denoted by Xij, with coding
+options (such 1/0 for treatment/control groups) discussed further in Section 2.3.
+In this situation, a one-stage IPD meta-analysis with a stratified study intercept (ie, a separate intercept per study to
+account for within-study clustering of individuals) and assuming between-study heterogeneity of the treatment effect,
+can be written as follows:
+Y𝐹 𝑖𝑗 = 𝛼i + (𝜃 + ui)X𝑖𝑗 + e𝑖𝑗
+ui ∼ N(0, 𝜏2
+)
+e𝑖𝑗 ∼ N(0, 𝜎2
+i ). (1)
+Here the outcome value (YFij) is assumed normally distributed in each study conditional on the included covariates
+(here just Xij, but additional covariates could also be included such as the baseline value of the continuous outcome12,13).
+There are K distinct intercept terms (𝛼i) and the main parameter of interest is 𝜃, which denotes the summary (average)
+treatment effect from the included studies. The true treatment effect in each study is assumed drawn from a normal
+distribution with mean 𝜃 and between-trial variance 𝜏2, and 𝜎2
+i denotes the study-specific residual variance which is
+assumed normally distributed (this could also be stratified by treatment group, but we do not consider this here). The
+choice of coding of Xij (eg, 1/0 or +0.5/−0.5 for treatment/control groups) does not alter the interpretation of 𝜃, our key
+parameter of interest; however, it does change interpretation of the 𝛼i and may have implications on estimation of 𝜏2, as
+discussed by Jackson et al.5 We evaluate this later in our simulations.
+Alternatively, a random intercepts model could be specified. For example, allowing for between-study correlation
+between the random effects of the intercept and the treatment effect, the model can be written as follows:
+Y𝐹 𝑖𝑗 = (𝛼 + u1i)+(𝜃 + u2i)X𝑖𝑗 + e𝑖𝑗
+(
+u1i
+u2i
+)
+∼ N
+(𝜏2
+𝛼 𝜏12
+𝜏12 𝜏2
+)
+e𝑖𝑗 ∼ N(0, 𝜎2
+i ) (2)
+The parameter terms are as defined for model (1), except now the study-specific intercepts are also assumed drawn
+from a normal distribution, with mean of 𝛼 and between trial variance of 𝜏2
+𝛼 , and the two random effects (u1i and u2i) are
+allowed to be correlated through the covariance term 𝜏12. Allowing for correlation imposes a between-study relationship
+of control group mean response and treatment effect, which might be viewed as controversial (see Discussion). To avoid
+this, 𝜏12 might be set to zero, but then the coding of treatment is potentially crucial (see later).11
+In a frequentist framework, models (1) and (2) are typically fitted using REML estimation. Following estimation, a 95%
+confidence interval for 𝜃 is conventionally derived using a (Wald) z-based method (𝜃
+̂ ± (1.96 × s.e.(𝜃
+̂))), but other options
+include the Satterthwaite and Kenward-Roger approaches, which replace 1.96 with the critical value of a t-distribution
+with a particular denominator degrees of freedom.4,14 In this article, we also consider using 𝜃
+̂ ± (tK−1,0.975 × s.e.(𝜃
+̂)), where
+K is the number of studies in the IPD meta-analysis. For brevity, we refer to this as the t-based confidence interval
+approach.
+2.2 Binary outcomes
+Now let us consider a binary outcome (eg, dead or alive 1 month after surgery), such that Yij is 1 for individuals with
+an event and 0 for those without an event. We use a logit-link function, such that our one-stage models have a logistic
+regression modeling framework (as suggested by Simmonds and Higgins15) and the treatment effect is measured by a log
+odds ratio. Again let the treatment group variable be denoted by Xij, with coding options (such 1/0 for treatment/control
+groups) discussed further in Section 2.3.
+In this situation, the stratified intercept model can be written as,
+Y𝑖𝑗 ∼ Bernoulli(𝜋𝑖𝑗)
+logit(𝜋𝑖𝑗) = 𝛼i + (𝜃 + ui)X𝑖𝑗
+ui ∼ N(0, 𝜏2
+), (3)
+where 𝜋ij is the event probability for individual j in study i. There are K distinct intercept terms, 𝛼i, and the model parameter 𝜃, denotes the summary (average) treatment effect (log odds ratio). The true treatment effects are again assumed
+drawn from a normal distribution with mean 𝜃, and between-trial variance 𝜏2. As in models (1) and (2), adjustment for
+baseline covariates is also possible.
+Alternatively specifying a random intercepts model, and allowing for between-study correlation of control group risk
+and treatment effect, we have5,11,16:
+Y𝑖𝑗 ∼ Bernoulli(𝜋𝑖𝑗)
+logit(𝜋𝑖𝑗)=(𝛼 + u1i)+(𝜃 + u2i)X𝑖𝑗
+(
+u1i
+u2i
+)
+∼ N
+(𝜏2
+𝛼 𝜏12
+𝜏12 𝜏2
+)
+. (4)
+The parameter terms are as defined for model (3), except now the study-specific intercepts are also assumed drawn
+from a normal distribution, with mean of 𝛼 and between trial variance of 𝜏2
+𝛼 , and the two random effects (u1i and u2i)
+are allowed to be correlated through the covariance term 𝜏12. As discussed for model (3), setting 𝜏12 to zero assumes no
+between-study correlation, but then treatment coding is more important (see below).
+Models (3) and (4) are typically fitted using ML estimation, via a numerical integration approach such as (adaptive)
+Gaussian quadrature. Unfortunately, there is no natural extension from ML to REML estimation for the exact likelihood
+defined by a GLMM of a binary, ordinal or count outcome, as the model residuals cannot be estimated separately from
+the main parameters. Thus ML estimation is generally the default frequentist estimation choice for IPD meta-analyses
+of noncontinuous outcomes, for which downward bias in between-study variance estimates and low coverage of confidence intervals is a strong concern, especially with 10 or fewer studies in the IPD meta-analysis. However, Wolfinger
+and O'Connell suggest using a pseudo-likelihood approximation of the exact likelihood,17 where the outcome response
+variable is transformed to an approximately linear scale. This allows REML to be used for GLMMs of noncontinuous
+outcomes, but at the expense of an approximate likelihood. This may be an acceptable trade-off in some situations, to
+improve between-study variance estimates and confidence interval coverage. We will investigate this in Section 3.
+2.3 Coding of treatment
+When a treatment variable is entered into a regression model as a covariate, it is typical practice for researchers to code
+the variable as 1/0 for treatment/control. However, a coding of +0.5/−0.5 has also been used by others, such as Morris
+et al9, Tudur-Smith et al,18 and Turner et al.11 For random intercepts models (2) and (4), which allow for between-study
+correlation in control group risk and treatment effect, the choice of treatment coding should be unimportant, because one
+can show mathematically a one-to-one correspondence of the model parameters with one coding and the model parameters with another coding, so that the maximized likelihood is the same.5,11 However, if the between-study correlation is
+set to zero, then Turner et al suggest a +0.5/−0.5 coding is crucial; in particular, for model (4) this ensures the variance of
+the log-odds in control group patients is modeled as equal to that in intervention group,11 as otherwise with a 1/0 treatment/control coding the variation for the intervention group is modeled as greater than or equal to the variance for the
+control group.
+For stratified intercept models (1) and (3), Jackson et al5 suggest a coding of +0.5/−0.5 improves ML estimation.
+However, they mainly evaluated situations where the treatment:control allocations were 1:1 in each trial. Therefore, in
+the following section we address unequal treatment:control allocations, and examine whether the following alternative
+treatment coding options improve ML estimation even further:
+• overall centering: a coding of 1/0 minus the average (unweighted across trials) of the proportion of participants in the
+treatment group in each trial. For example, if there are 10 studies within an IPD meta-analysis, with five of those
+studies having 70% of participants in the treatment group and the other five having 50% in the treatment group, then
+the unweighted average proportion treated per trial is 60%. In this situation, the treatment coding is 1/0 - 0.6 in all
+trials, and thus individuals in the treatment group are coded as +0.4, and those in the control group are coded as −0.6.
+• study-specific centering: a coding of 1/0 minus the study-specific proportion of participants in the treatment group.
+For example, for individuals in a trial where 40% of participants are in the treatment group, then an individual in the
+treatment group will be coded as 1−0.4 = +0.6, and an individual in the control group would be coded as 0−0.4 = −0.4.
+However, if another trial had 30% in the treatment group, then individuals in the treatment and control groups would
+be coded as +0.7 and −0.3, respectively.
+3 SIMULATION STUDY FOR CONTINUOUS AND BINARY OUTCOMES
+We now use a simulation study to compare the performance of IPD meta-analysis models with stratified intercept or random intercepts, first for continuous outcomes and then for binary outcomes. We have three research
+questions:
+Q1: Does an “overall centering” or “study-specific centering” coding of the treatment variable improve ML estimation
+of the between-study variance of the treatment effect, over and above the +0.5/−0.5 coding proposed by Jackson et al,
+for the stratified intercept models (1) and (3) in situations where one or more trials have an unequal treatment:control
+allocation ratio?
+Q2: Does a t-based approach to confidence interval derivation improve coverage compared with a standard z-based
+(Wald) approach, for both stratified intercept and random intercepts models?
+Q3: Does REML estimation of the pseudo-likelihood perform better than ML estimation of the exact likelihood for
+binary outcome models (3) and (4)?
+3.1 Continuous outcome simulation study
+In our first simulation, we extend the simulation study of Legha et al for one-stage IPD meta-analysis models of continuous
+outcomes to the situation when there are varying treatment:control allocation ratios.
+3.1.1 Methods
+Full details of the simulation methods are provided in Supplementary Material S1. Briefly, we simulated IPD according
+to model (2), with a 1/0 treatment/control coding and assuming no correlation of the pair of random effects (ie, 𝜏12 = 0)
+for simplicity to avoid a relationship between control group response and treatment effect. A range of different simulation scenarios were considered (see supplementary material S1), each involving varying treatment:control allocation
+ratios (randomly drawn from a U[0.1,0.9] distribution), and varying the number of studies, number of participants, and
+magnitude of between-study variance of treatment effects.
+One thousand IPD meta-analysis datasets were generated for each scenario. To each we fitted the random intercepts
+model (2) used to generate the data; that is, model (2) using a 1/0 treatment coding option, whilst forcing 𝜏12 to be 0 (its correct value) to avoid estimation issues that often arise when estimating between-study correlations.19 Then we also fitted
+the stratified intercept model (1) for each of the four treatment coding options. Both ML and REML estimation were examined, alongside z-based and Sattherwaite confidence intervals. Although REML is the preferred estimation method for
+one-stage IPD meta-analyses of continuous outcomes, we also considered ML estimation to inform subsequent extension
+to one-stage IPD meta-analyses of binary outcomes, for which ML estimation is usually the default (see Section 3.2).
+Performance was summarized by the bias in the summary treatment effect estimate (𝜃
+̂), the coverage of 95% confidence
+intervals for the summary treatment effect, and the bias in the between-study variance (𝜏̂2) of the treatment effects. For the
+latter, we calculated percentage difference between the estimated and true between-study variance of the treatment effect
+(ie, 100 × (𝜏̂2 − 𝜏2)∕𝜏2)), and report the mean and median of these percentages across the 1000 simulations. Distributions
+of 𝜏̂2 were extremely skewed across each set of 1000 results, and so presentation of median values helps indicate estimation
+problems in addition to the more formally correct mean bias.
+3.1.2 Results when using ML estimation
+The summary treatment effect estimates were approximately unbiased for all scenarios, modeling approaches, and treatment coding options. However, in most scenarios there was considerable downward bias in the estimated between trial
+variance (𝜏̂2) of the treatment effects (see Figure 1, and also see supplementary material Tables S2(a), (b), and (c)). The
+bias was largest when using the stratified intercept model (1) with a 1/0 treatment/control coding for the treatment variable, and the bias was least when using the “study-specific centering” coding. For example, under the stratified intercept
+model and setting B1-A1 (which involves five trials where the number of participants per trial was U(30, 1000), the median
+downward bias of 𝜏̂2 was 100% with 1/0 treatment/control coding, which improved to 65.4%, 61.4%, and 49.5%, with
++0.5/−0.5 coding, an “overall centering” coding, and a “study-specific centering” coding, respectively.
+Coverage of 95% confidence intervals for the summary treatment effect was also closest to 95% when using the
+“study-specific centering” approach. For example, in scenario B2 the stratified intercept model had a z-based confidence
+interval coverage of 79.70%, 84.20%, and 87.10% for the 1/0, +0.5/−0.5 and “study-specific centering” codings, respectively
+(Table S2(b)).
+Crucially, “study-specific centering” of the treatment variable not only improves ML estimation of stratified intercept
+model (1), but also makes it comparable (in terms of bias and coverage) to ML estimation of the data generating model (3)
+(ie, the random intercepts model with 1/0 coding). However, despite having the best performance, both approaches still
+have downward bias in 𝜏̂2 and gave z-based confidence interval coverage <95% for most scenarios. This appears worst in
+situations where the allocation ratio was most unbalanced (eg, see results in Table S2(a) where treatment prevalence was
+90% in all studies).
+3.1.3 Results when using REML estimation
+REML estimation also gives approximately unbiased summary treatment effect estimates for all scenarios, modeling
+approaches, and treatment coding options. It also reduces the downward bias in the ML estimate of 𝜏̂2 for all modelling
+options (although the downward bias was not removed entirely). Furthermore, unlike for ML estimation, the choice of
+treatment coding becomes irrelevant when fitting the stratified intercept model (1) using REML estimation. The median
+(or mean) bias in 𝜏̂2 was generally very similar regardless of the coding used (see Supplementary material Table S2[d]), as
+were the summary treatment effect estimates and their confidence intervals. Therefore, when using REML estimation of
+Random, 1/0:
+Stratified, 1/0:
+Stratified, +0.5/–0.5:
+Stratified, Average centred coding:
+Stratified, Study-specific centred coding:
+Random, 1/0:
+Stratified, 1/0:
+Stratified, +0.5/–0.5:
+Stratified, Average centred coding:
+Stratified, Study-specific centred coding:
+Random, 1/0:
+Stratified, 1/0:
+Stratified, +0.5/–0.5:
+Stratified, Average centred coding:
+Stratified, Study-specific centred coding:
+Random, 1/0:
+Stratified, 1/0:
+Stratified, +0.5/–0.5:
+Stratified, Average centred coding:
+Stratified, Study-specific centred coding:
+Random, 1/0:
+Stratified, 1/0:
+Stratified, +0.5/–0.5:
+Stratified, Average centred coding:
+Stratified, Study-specific centred coding:
+-100 -50 0 -100 -50 0 -100 -50 0
+Base case A1 A2
+B1 A1, B1 A2, B1
+B2 A1, B2 A2, B2
+B3 C1 C2
+D1 D2
+Median % bias in τ2
+FIGURE 1 The median percentage bias of the between-trial variance of treatment effects (𝜏̂2) for ML estimation of the stratified
+intercept model (1) and random intercepts model (2)*, for the continuous outcome simulation scenarios** described in Table S1, allowing for
+unequal treatment:control allocation ratios in each trial in the IPD meta-analysis from 10% to 90%. Circular points denote the estimated
+percentage bias, and a horizontal line is drawn from each estimate to the ideal value of 0. IPD, individual participant data; ML, maximum
+likelihood. *The random intercepts model refers to the data generating model, which was model (2) but with treatment coded as 1/0 and the
+between-study correlation assumed zero. **Scenarios are labeled “base case,” “A1,” “A2,” and so on. For explanation of each scenario setting,
+see Table S1. Briefly, the base case was K =10, ni =100, 𝜃 = −9.66, 𝜏2 =7.79. Then the other scenarios made changes of: A1: K =5; A2:
+K =20; B1: ni ∼ U(30,1000); B2: K =10, ni ∼ U(30,100) for trials 1 to 5, ni ∼ U(900,1000) for trials 6 to 10; A1,B1: K =5 and ni ∼ U(30,1000);
+A2,B1: K =20 and ni ∼ U(30,1000). A1,B2: ni ∼ U(30,100) for trials 1 and 2, ni ∼ U(900,1000) for trials 3 to 5. A2,B2: K =20, ni ∼ U(30,100) for
+trials 1 to 10, ni ∼ U(900,1000) for trials 11 to 20; B3: ni ∼ U(30,100); C1: halving variance of intercept; C2: doubling variance of intercept; D1:
+𝜏2 =3.9; D2: 𝜏2 =15.6
+the stratified intercept model (1), “study-specific centering” of the treatment variable does not improve performance over
+traditional 1/0 coding, and the coding is irrelevant. Results from the stratified intercept model were also comparable to
+REML estimation of the random intercepts model (2) with 1/0 coding. Coverage of z-based 95% confidence intervals for
+the summary treatment effect were generally too low, but improved close to 95% when using the Satterthwaite approach
+(as also shown by Legha et al4).
+3.2 Binary outcome simulation study
+In our second simulation study we extend the simulations of Jackson et al for IPD meta-analysis of binary outcomes,5 to
+evaluate the ML estimation performance of random intercepts model (4) with a 1/0 coding and the stratified intercept
+TABLE 1 Simulation study scenarios of Jackson et al5 that were extended in this article, by allowing for unequal treatment:control
+allocation ratios in each trial in the IPD meta-analysis
+Data generation
+scenario, as labeled
+by Jackson et al K 𝝉2
+Number of
+participants in the
+treatment group (N)
+Number of participants
+in the control groupa
+Baseline log-odds
+of the event in the
+control group (LOC)
+1 10 0.024 N ∼ U(50, 500) N LOc N(logit[0.2], 0.32)
+3 10 0.168 N ∼ U(50, 500) N LOc N(logit[0.2], 0.32)
+4 3 0.024 N ∼ U(50, 500) N LOc N(logit[0.2], 0.32)
+5 5 0.024 N ∼ U(50, 500) N LOc N(logit[0.2], 0.32)
+6 20 0.024 N ∼ U(50, 500) N LOc N(logit[0.2], 0.32)
+7 10 0.024 N ∼ U(10, 100) N LOc N(logit[0.2], 0.32)
+Note: All scenarios were performed with 𝜃 =0 and 𝜃 =log (2). For further details see Section 6 in Jackson et al.
+Abbreviation: IPD, individual participant data.
+aShows the number used in the control group of the Jackson et al simulation. However, in our simulations we changed the number in the control group of a
+trial to ensure the treatment group prevalence was one of the following (chosen at random): 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, or 90%.
+model (3) for each of the four treatment coding options. A variety of simulation settings are considered, allowing for
+unequal treatment:control allocation ratios in each trial within the IPD meta-analysis. We examine the estimate of the
+between-study variance (𝜏̂2) of the treatment effect, the estimate of the summary treatment effect (𝜃
+̂), and the coverage
+of the 95% confidence interval for the summary treatment effect.
+3.2.1 Methods
+We chose the simulation scenarios from Jackson et al5 that most closely correspond to those used for our continuous
+outcome simulations; that is, Jackson et al scenario settings 1, 3, 4, 5, 6, and 7, where the mean risk in the control group
+was 20%. These are summarized in Table 1, and cover a range of settings that vary in terms of the number of trials,
+number of participants per trial, and heterogeneity of parameters. We now consider these scenarios when we vary the
+treatment:control allocation ratio in the simulated trials. The omitted Jackson et al scenarios mainly corresponded to
+either zero or extremely large between-study heterogeneity, or a different logit data generating mechanism for the control
+group.
+For each scenario, 1000 simulated IPD meta-analysis datasets were created from model (4), with a 1/0 treatment/control coding, but assuming no correlation of the pair of random effects (ie, 𝜏12 = 0) for simplicity to avoid a
+relationship between baseline risk and treatment effect. Within each scenario we allowed for potential unequal treatment:control allocation ratios in each trial, by randomly drawing from a U(0.1,0.9) distribution. Each scenario was
+undertaken assuming the summary odds ratio of 1 for the treatment effect (ie, 𝜃 = ln (1) =0), and also assuming a summary odds ratio of 2 (ie, 𝜃 = ln (2)). Of note, the chosen magnitude of heterogeneity in setting 1 corresponded to a mean
+I2 of about 25% in the meta-analysis datasets simulated.
+To each simulated IPD meta-analysis dataset, ML estimation was used to fit the random intercepts model used to
+generate the data (ie, model (4) with a 1/0 coding option and forcing 𝜏12 = 0 to avoid estimation issues that often arise
+when estimating between-study correlation19), and the stratified intercept model (3) for each of the four treatment coding options. We used the lme4 R package (version 1.1-17),20 with ML estimation undertaken using adaptive Gaussian
+quadrature, with seven quadrature points.
+Across all 1000 results obtained for each scenario, the median percentage bias of the between-study variance was calculated, as well as the mean bias of the summary treatment effect, and the coverage of 95% confidence intervals for the
+summary treatment effect. The latter was derived as the proportion (across the 1000 results) of 95% confidence intervals that contained the true summary effect. Confidence intervals were calculated using the standard z-based method
+(𝜃
+̂ ± (1.96 × s.e.(𝜃
+̂))) and also by the t-based approach that replaces 1.96 with the critical value of a t-distribution with
+K−1 degrees of freedom (ie, use 𝜃
+̂ ± (tK−1,0.975 × s.e.(𝜃
+̂))).21 Given the 1000 simulations in each scenario, if coverage is
+truly 95%, then we would expect to observe an estimated coverage between 93.4% and 96.2%.
+Finally, we repeated our simulations using REML estimation of the pseudo likelihood. Given that all treatment coding options gave similar performance for REML estimation of continuous outcomes (Section 3.1.3), we only considered
+the 1/0 treatment variable coding when fitting the stratified intercept and random intercepts models. REML estimation
+was undertaken using MLWin, via the runmlwin package within Stata.22 We obtained parameter estimates using REML
+estimation of the first-order marginal quasi-likelihood linearization of the likelihood (“mql1” option). This linearization approach is noted in the runmlwin help file as being the most stable and fastest to converge, and so was deemed
+sensible for our large simulation study. In practice, more accurate (though potentially less stable) estimation options
+such as second-order penalized quasi-likelihood linearization (“pql2” option) could be used, with the estimates from the
+first-order approach used as initial values (see applied examples in Section 4 for further discussion on this).
+3.2.2 Results when using ML estimation of the exact likelihood and standard z-based
+confidence intervals
+Simulation results for the mean bias of the summary treatment effect estimate (𝜃
+̂) across all scenarios for a true treatment
+effect of 𝜃 =0 and of 𝜃 =1 are shown in Supplementary Tables S3 and S4, respectively. The bias of 𝜃
+̂was generally negligible
+in all cases.
+Figures 2 and 3 show the median percentage bias in the between-study variance of the treatment effect (𝜏̂2) for the
+𝜃 =0 and 𝜃 = ln (2) scenarios, respectively (and also Supplementary Tables S5 and S6 show the mean percentage bias).
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+-100 -50 0 -100 -50 0
+1 3
+4 5
+6 7
+Median % bias for τ2
+FIGURE 2 The median percentage bias of the between-trial variance of treatment effects (𝜏̂2)for ML estimation (exact likelihood) and
+REML estimation (pseudo likelihood) of the stratified intercept model (3) and random intercepts model (4)*, for simulation scenarios**
+where 𝜃 =0 and allowing for random treatment prevalences (10%-90%) for each study within the IPD meta-analysis. Circular points denote
+the estimated percentage bias, and a horizontal line is drawn from each estimate to the ideal value of 0. IPD, individual participant data; ML,
+maximum likelihood; REML, restricted maximum likelihood. *The random intercepts model refers to the data generating model, which was
+model (4) with treatment coded as 1/0 and the between-study correlation assumed zero. **See Table 1 for full details of the scenario
+corresponding to the number shown. True value for 𝜏2 is 0.024, except in setting 3 where 𝜏2 equals 0.168. All settings also allow the treatment
+prevalence for a particular study within a meta-analysis to vary, whereby this is selected from U(0.1,0.9) and then rounded to the nearest 0.1
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+-100 -50 0 -100 -50 0
+1 3
+4 5
+6 7
+Median % bias for τ2
+FIGURE 3 The median percentage bias of the between-trial variance of treatment effects (𝜏̂2)for ML estimation (exact likelihood) and
+REML estimation (pseudo likelihood) of the stratified intercept model (3) and random intercepts model (4)*, for simulation scenarios**
+where 𝜃 = ln (2) and allowing for random treatment prevalences (10%-90%) for each study within the IPD meta-analysis. Circular points
+denote the estimated percentage bias, and a horizontal line is drawn from each estimate to the ideal value of 0. IPD, individual participant
+data; ML, maximum likelihood; REML, restricted maximum likelihood. *The random intercepts model refers to the data generating model,
+which was model (4) with treatment coded as 1/0 and the between-study correlation assumed zero. **See Table 1 for full details of the
+scenario corresponding to the number shown. True value for 𝜏2 is 0.024, except in setting 3 where 𝜏2 equals 0.168. All settings also allow the
+treatment prevalence for a particular study within a meta-analysis to vary, whereby this is selected from U(0.1,0.9) and then rounded to the
+nearest 0.1 decimal place
+As observed for continuous outcomes, the results show that using the stratified intercept model (3) with a 1/0 treatment/control coding gives the most downwardly biased estimates of the between trial variance of treatment effect. Often
+the median downward bias was 100%, and mean downward bias typically between 40% and 80%. This downward bias was
+generally reduced when using either a +0.5/−0.5 treatment coding or the “overall centering” treatment coding, and by a
+similar amount. However, the downward bias was smallest when using a “study-specific centering” coding. For example,
+under setting 6 (involving 20 trials), the median downward bias of between study variance estimates from stratified intercept model (3) was 100% with a 1/0 treatment/control coding; this was slightly reduced to 80.2% and 79.5% with +0.5/−0.5
+coding or “overall centering” coding, but considerably reduced to 28.7% when using the “study-specific centering” coding.
+The mean downward bias shows a similar pattern; this was 80.8%, 44.5%, 43.3%, and 7.85% when using the 1/0, +0.5/−0.5,
+“overall centering,” and “study-specific centering,” respectively (Table S5).
+For stratified intercept model (3), the reduction in downward median and mean bias of 𝜏̂2 when using a “study-specific
+centering” coding of treatment also improves upon the z-based coverage of 95% confidence intervals for the summary
+treatment effect, as shown in Figures 4 and 5 (and also supplementary Tables S5 and S6) for the 𝜃 =0 and 𝜃 = ln (2)
+scenarios, respectively. For example, in setting three of Figure 4, the coverage of z-based confidence intervals from the
+1/0 coding is 84%, but this improves to 91% when using the “study-specific centering” coding. Furthermore, the z-based
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+0.85 0.90 0.95 0.85 0.90 0.95
+1 3
+4 5
+6 7
+z-based t-based
+CI coverage for θ
+FIGURE 4 Coverage (proportion) of z-based and t-based 95% confidence intervals for the summary treatment effect for ML estimation
+(exact likelihood) and REML estimation (pseudo likelihood) of the stratified intercept model (3) and random intercepts model (4)*, for
+simulation scenarios** where 𝜃 =0 and allowing for random treatment prevalences (10%-90%) for each study within the IPD meta-analysis.
+Circular points denote the estimated coverage, and a horizontal line is drawn from each estimate to the ideal value of 0.95. IPD, individual
+participant data; ML, maximum likelihood; REML, restricted maximum likelihood. *The random intercepts model refers to the data
+generating model, which was model (4) with treatment coded as 1/0 and the between-study correlation assumed zero. ** See Table 1 for full
+details of the scenario corresponding to the number shown. True value for 𝜏2 is 0.024, except in setting 3 where 𝜏2 equals 0.168. All settings
+also allow the treatment prevalence for a particular study within a meta-analysis to vary, whereby this is selected from U(0.1,0.9) and then
+rounded to the nearest 0.1
+coverage is always best (ie, closest to 95.0%) when using the “study-specific centering” coding, and also worst when using
+the 1/0 coding; the coverage of the +0.5/−0.5 and “overall centering” coding are similar and fall in between the z-based
+coverage when using the 1/0 coding and “study-specific centering” coding.
+Crucially, “study-specific centering” of the treatment variable not only improves ML estimation of stratified intercept
+model (3), but also makes it comparable to ML estimation of the random intercepts model (4) with 1/0 coding (ie, bias and
+coverage are very similar). However, despite having the best performance, both approaches still have (often considerable)
+downward bias in 𝜏̂2, and subsequently z-based coverage is less than 95% for most scenarios. The coverage appears closest
+to 95% in the scenario 7 setting (see Figure 5); this can be explained by the studies being smaller in this setting, and so
+the within-study variances dominate the total variability (ie, I2 is small), and so any downward bias in the between-study
+variance is less impactful.
+3.2.3 Results when using ML estimation and t-based confidence intervals
+For all treatment coding options, and for both stratified intercept and random intercepts models, coverage of 95% confidence intervals for the summary treatment effect was generally improved (ie, moved closer to 95%) by using the
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+Intercept Estimation Treatment coding
+Stratified ML 1/0
+Stratified ML +0.5/–0.5
+Stratified ML Avg. centering
+Stratified ML Study-specific centering
+Random ML 1/0
+Stratified REML 1/0
+Random REML 1/0
+0.85 0.90 0.95 0.85 0.90 0.95
+1 3
+4 5
+6 7
+z-based t-based
+CI coverage for θ
+FIGURE 5 Coverage (proportion) of z-based and t-based 95% confidence intervals for the summary treatment effect for ML estimation
+(exact likelihood) and REML estimation (pseudo likelihood) of the stratified intercept model (3) and random intercepts model (4)*, for
+simulation scenarios** where 𝜃 = ln (2) and allowing for random treatment prevalences (10%-90%) for each study within the IPD
+meta-analysis. Circular points denote the estimated coverage, and a horizontal line is drawn from each estimate to the ideal value of 0.95.
+IPD, individual participant data; ML, maximum likelihood; REML, restricted maximum likelihood. *The random intercepts model refers to
+the data generating model, which was model (4) with treatment coded as 1/0 and the between-study correlation assumed zero. **See Table 1
+for full details of the scenario corresponding to the number shown. True value for 𝜏2 is 0.024, except in setting 3 where 𝜏2 equals 0.168. All
+settings also allow the treatment prevalence for a particular study within a meta-analysis to vary, such that it is selected from U(0.1, 0.9) and
+then rounded to the nearest 0.1
+t-based approach to deriving confidence intervals based on the t-distribution with K−1 degrees of freedom (see Tables
+S5 and S6). For example, in Setting 1 when using stratified intercept model (3) with “study-specific centering” of the
+treatment variable, the coverage was 90.3% and 94.6% for z-based and t-based confidence intervals, respectively. Only
+in Setting 4, where the number of studies was only 3, is the t-based approach a concern as the coverage is close to
+100% and so too high; although arguably this is still preferable to the under-coverage from the corresponding z-based
+approach.
+3.2.4 Results when using REML estimation of the pseudo likelihood
+When using REML estimation of the pseudo-likelihood with a 1/0 treatment coding, results are shown in Table S7 for all
+scenarios. Stratified intercept model (3) and random intercepts model (4) have similar performance in all scenarios, and
+there is negligible or very small bias in the summary treatment effect estimates.
+Compared with ML estimation of the exact likelihood, REML estimation of the pseudo likelihood improved the
+between-study variance estimate (𝜏̂2), for both stratified intercept and random intercepts models. For example, in setting 1 and 𝜃 = ln (2), when using stratified model (3) the median (mean) bias in 𝜏̂2 was −20.93% (10.72%) using REML
+Box 1 A summary of the key findings based on our simulation study results and applied examples
+• For ML estimation of a one-stage IPD meta-analysis model with a stratified intercept, a “study-specific centering” coding of the treatment variable reduces downward bias of between-study variances and improves coverage
+of 95% confidence intervals for the summary (treatment) effect, as compared with other treatment coding options
+such as 1/0 for treatment/control. Supplementary material S8 also shows this mathematically for a simple case
+where all studies in the IPD meta-analysis are of the same size.
+• REML is better than ML estimation for continuous outcomes. For binary outcomes, the simulations do not
+suggest an important difference in terms of bias and coverage of confidence intervals for the summary treatment
+effect when using REML estimation of the pseudo likelihood compared with ML estimation of the exact likelihood. However, in most scenarios REML reduces the downward bias in the between-study variance estimates,
+which may be important when the focus is on predictive inferences (eg, the predicted treatment effect in a new
+study23). Thus both ML (exact likelihood) and REML (pseudo likelihood) estimation may be important to consider
+for binary outcomes.
+• For either ML or REML estimation, coverage of 95% confidence intervals for the summary treatment is
+generally too low when using a z-based approach. Improvements are generally made for REML estimation of continuous outcomes by using Satterthwaite or Kenward-Roger approaches, and for ML or pseudo REML estimation
+of binary outcomes by using ̂θ±(tK−1,0.975 × s.e.(̂θ)) where K is the number of studies in the meta-analysis.
+• For continuous outcomes, REML estimation is recommended over ML estimation for either stratified intercept or random intercepts models (see work of Legha et al4), as it improves estimates of between-study variances
+(though some downward bias may remain), whilst having negligible bias in the summary treatment effect
+estimate and does not depend on the treatment coding chosen.
+• For binary outcomes, when fitting a stratified intercept model both ML estimation of the exact likelihood
+(with “study-specific centering” treatment coding) and REML estimation of the pseudo likelihood (with 1/0 treatment coding) give negligible bias in the summary treatment effect estimate, and their coverage of 95% confidence
+intervals is close to 95% when using the t-based approach (unless the number of studies is less than 5). In addition,
+REML estimation of the pseudo likelihood often has less downward bias of between-study variance estimates
+than ML estimation.
+• For binary outcomes, REML estimation of the pseudo likelihood may be unstable in sparse data situations,
+such as when most studies in the IPD meta-analysis are small (in terms of participants or events).
+• The decision to use random study intercepts, rather than a stratified study intercept, depends on whether
+the researcher is willing to borrow information about control group risk across studies and/or assume a
+between-study relationship of control risk and treatment effect.
+estimation (with a 1/0 treatment/control coding) compared with −63.08% (−19.40%) when using ML estimation (with a
+“study-specific centering coding” for treatment).
+The coverage of confidence intervals from REML estimation were closest to 95% when using the t-based approach;
+for example, in setting (1) with 𝜃 = ln (2), the coverage from z-based and t-based confidence intervals was 91.6% and
+93.3%, respectively. Indeed, t-based coverage was consistently good in all settings, generally between 93% and 97%, and
+comparable to that when using ML estimation with “study-specific centering” and the t-based approach.
+3.3 Summary of our key findings
+A summary of key findings from the simulation study is shown in Box 1.
+4 ILLUSTRATION OF KEY FINDINGS IN APPLIED EXAMPLES
+We now illustrate the key findings in applied examples, which focus on binary outcomes. Example 2 has data similar to
+that used in the simulation studies, whilst example 1 considers more sparse data.
+TABLE 2 Summary of the IPD
+from seven trials examining the effect
+of hormone replacement therapy on
+the incidence of heart disease, as
+reported by Simmonds and Higgins15
+Number of women Number of cardiovascular disease events
+Study Control Treatment Control Treatment
+1 174 701 0 5
+2 14 15 1 0
+3 16 15 0 1
+4 20 20 1 1
+5 26 29 0 1
+6 84 84 3 1
+7 66 68 0 3
+Abbreviation: IPD, individual participant data.
+TABLE 3 Results from ML estimation of models (3) and (4) when fitted to the IPD summarized in Table 2
+Model
+Treatment
+coding
+Summary
+treatment
+effect, 𝜽̂ 95% CI: z-based 95% CI: t-based
+Between-study
+(co)variances
+Stratified intercept
+model (3)
+1/0 0.56 −0.53, 1.64 −0.80, 1.91 𝜏̂2 = 0
+“Study-specific
+centering”
+0.65 −0.69, 1.99 −1.02, 2.32 𝜏̂2 = 0.57
+Random intercepts model (4) 1/0 0.55 −1.10, 2.21 −1.51, 2.62 𝜏̂2 = 0.74
+𝜏12 = −0.81
+𝜏2
+𝛼 = 1.16
+Abbreviations: IPD, individual participant data; ML, maximum likelihood.
+4.1 Example 1: hormone replacement therapy and incidence of heart disease
+Simmonds et al combined IPD from seven trials examining the effect of hormone replacement therapy compared with
+control on the incidence of heart disease.15 The binary outcome data are sparse (Table 2), such that the number of events is
+few in all studies due to the outcome being rare, and some groups have zero events. In this situation, a traditional two-stage
+IPD meta-analysis (ie, estimating the treatment effect and its variance in each study separately, and then pooling the
+results in an inverse-variance weighted meta-analysis) is problematic. The treatment effect cannot be estimated in every
+study unless a continuity correction is applied in those studies with a zero event; further, the assumption in the second
+stage that study-specific treatment effect estimates are normally distributed with known variances may be inappropriate.
+A one-stage approach avoids these issues by analyzing the IPD in a single step, for example, using either stratified intercept
+model (3) or random intercepts model (4), and the results are shown in Table 3.
+4.1.1 Stratified intercept model results
+One of the studies in the IPD meta-analysis (study 1) had a treatment:control allocation ratio of about 4:1, whereas
+other studies have close to a 1:1 allocation ratio. Our simulation results showed that in this situation ML estimation of
+model (3) is improved by using a “study-specific centering” of the treatment variable, as this reduces downward bias in
+between-study variance estimates compared with a traditional 1/0 coding. The ML estimates in Table 2 reflect this, as
+𝜏̂2 = 0 when using a 1/0 coding and 𝜏̂2 = 0.57 when using “study-specific centering” coding. This led to a noticeably different summary treatment effect of 𝜃
+̂ = 0.65 (odds ratio of 1.91) when using “study-specific centering” compared with
+𝜃
+̂ = 0.56 (odds ratio of 1.74) when using 1/0 coding. Confidence intervals were also much wider.
+Another key finding of the simulation study was that z-based (Wald) confidence intervals are generally too narrow, and
+t-based confidence intervals are more appropriate. In our example, t-based confidence intervals were also considerably
+wider. For example, when using the “study-specific centering” coding for ML estimation of model (3), the confidence
+interval for the summary odds ratio was 0.36 to 10.15 when using t-based, compared with 0.59 to 6.77 when using the
+z-based approach.
+Although our simulations suggest REML estimation of the pseudo likelihood for model (3) performs well, the scenarios did not cover sparse data akin to that in Table 2. Indeed, when applying REML estimation to this example, parameter
+estimates were unstable; there were large differences in parameter estimates from first and second-order linearization of
+the likelihood, and even when changing the coding of treatment (which should not occur for REML; see Section 3.1.3).
+Therefore, the ML estimates in Table 3 based on the exact likelihood are more reliable for this example. Of note, these ML
+estimates were very different to those obtained from a traditional two-stage IPD meta-analysis with continuity corrections
+of +0.5 added to deal with zero cells. The latter gave a summary odds ratio of 1.31 and 𝜏̂2 = 0 from REML estimation,
+which are much lower than the ML estimates from the more exact one-stage model using “study-specific centering.”
+4.1.2 Comparison of results for stratified intercept and random intercepts models
+Unlike in the simulation study, the ML estimation results for random intercepts model (4) with 1/0 coding were not
+comparable to those from stratified intercept model (3) with “study-specific centering” coding (Table 3). The reason is that
+the simulation did not allow borrowing of information between baseline (control group) risk and treatment effect when
+generating the IPD. However, in the applied example model (4) estimated a strong negative correlation of −0.87 between
+the pair of random effects, which had a strong influence on the results. Furthermore, in our simulation study we knew
+that a normal distribution on the baseline risk was appropriate (as we simulated the IPD from this assumption). However,
+in this real example we did not know if such an assumption is correct, and it may even compromise randomization in
+each trial, especially given the sparse events in the included trials. The approach of stratified intercept model (4) avoids
+making any assumptions about the between-study distribution of baseline risk, or the between-study relationship between
+baseline risk and treatment effect.
+4.2 Example 2: Diet and lifestyle interventions and health outcomes during pregnancy
+In our second example, we used IPD from 36 randomized trials (12 477 women) evaluating the effect of diet and lifestyle
+interventions compared with control (usual care) on health outcomes during pregnancy.24 We focused on a subset of 10
+trials that recorded the binary outcome of large for gestational age (yes/no). Eight studies had approximately 1:1 treatment:control allocation, and the other two had a 2:1 allocation ratio. The outcome risk in the control group varied, but
+was about 15% on average, similar to that used in our simulation studies. Although the number of participants was reasonably large in most studies, often there are fewer than 10 events in each group (Table 4), which again raised doubt as
+to the suitability of a traditional two-stage approach.
+ML and REML estimates for one-stage model (3) are shown in Table 5. The findings again mirror those of the simulation study. When using ML estimation for model (3), the estimated between-study variance was much larger when
+using “study-specific centering” (𝜏̂2 = 0.42) rather than 1/0 coding (𝜏̂2 = 0.29) of the treatment variable, and this led
+to wider confidence intervals for the summary treatment effect. REML estimation of the pseudo likelihood was quite
+stable, with more similar estimates for first- and second-order linearizations of the likelihood. The REML estimates of
+between-study variances were larger than the ML estimates (Table 5), and this widened confidence intervals for the summary treatment effect. Results for model (4) were again somewhat different to model (3), for the same reasons described
+in the previous example. For all models, the widest confidence intervals arose when using the t-based rather than z-based
+approach.
+5 DISCUSSION
+Our simulation study and applied examples identify key findings for estimation of one-stage IPD meta-analysis models,
+which are summarized in Box 1. There are three major implications. First, for ML or REML estimation of stratified intercept or random intercepts models, z-based (Wald) confidence intervals for the summary treatment effect are generally
+too narrow; performance is generally improved by using the Satterthwaite (or Kenward-Roger) approaches for continuous outcomes,4,14 or a t-based approach with K−1 degrees of freedom for binary outcomes. Second, when using ML
+TABLE 4 Summary of the IPD
+from 10 trials examining the effect of
+diet and lifestyle interventions on
+large for gestational age
+Number of women Number of babies large for gestational age
+Study Control Treatment Control Treatment
+1 120 109 23 22
+2 37 33 5 7
+3 68 72 7 2
+4 33 34 1 2
+5 143 136 7 2
+6 63 134 5 11
+7 1095 1104 154 132
+8 47 46 27 5
+9 65 130 16 22
+10 50 51 11 14
+Abbreviation: IPD, individual participant data.
+TABLE 5 Results from maximum likelihood (ML) and restricted maximum likelihood (REML) estimation of models
+(3) and (4) when fitted to the individual participant data summarized in Table 4
+Model
+Estimation
+method
+Treatment
+coding
+Summary
+treatment
+effect, 𝜽̂ 95% CI:z-based 95% CI:t-based
+Between-study
+(co)variances
+Stratified
+intercept
+model (3)
+ML exact 1/0 −0.43 −0.89, 0.04 −0.96, 0.11 𝜏̂2 = 0.29
+ML exact “Study-specific
+centering”
+−0.40 −0.92, 0.12 −1.00, 0.20 𝜏̂2 = 0.42
+REML pseudo 1/0 −0.48 −1.06, 0.09 −1.14, 0.18 𝜏̂2 = 0.54
+Random
+intercepts
+model (4)
+ML exact 1/0 −0.38 −0.91, 0.16 −1.00, 0.24 𝜏̂2 = 0.43
+𝜏12 = −0.29
+𝜏2
+𝛼 = 0.81
+REML pseudo 1/0 −0.38 −0.94, 0.18 −1.03, 0.27 𝜏̂2 = 0.54
+𝜏12 = −0.36
+𝜏2
+𝛼 = 0.92
+Note: ML estimates-based numerical quadrature of the exact likelihood (with seven quadrature points), and REML estimates based on a
+second-order penalized quasi-likelihood linearization with the estimates from the first-order marginal quasi-likelihood linearization used as
+initial values.
+estimation of a one-stage model with a stratified intercept, a “study-specific centering” coding of the treatment variable
+should be chosen, as this reduces the bias in the between-study variance estimate (compared with 1/0 and other coding
+options). Third, REML estimation reduces downward bias in between-study variance estimates compared with ML estimation, and does not depend on the treatment coding chosen, thus should be used where possible; for IPD meta-analyses
+of binary outcomes, this requires REML estimation of the pseudo-likelihood, although it may be unstable when data are
+sparse.
+5.1 REML vs ML estimation
+Our simulations of continuous outcomes show that REML is better than ML estimation to improve variance estimates,
+which will not be a surprise to most readers. In particular, REML reduces the bias in 𝜏̂2 by adjusting for the total number
+of parameters being estimated.6,25,26 However, REML is not an option when using numerical integration of the exact likelihood for a one-stage IPD meta-analysis of a binary outcome, and therefore ML estimation is the most common method
+used. In most software packages the default estimation method to fit generalized linear mixed models is ML estimation
+via a numerical integration method such as quadrature. Therefore, our findings about the importance of “study-specific
+centering” coding are most relevant for one-stage IPD meta-analyses of binary outcomes, or other generalized linear
+mixed models or frailty models that apply ML estimation. Indeed, improving ML estimation by centering covariates has
+a REML essence to it, as both approaches aim to disentangle (ie, make uncorrelated) the estimation of main parameters
+of interest from other nuisance parameters.
+Given that considerable downward bias in between-study variance estimates often occurs using ML estimation (even
+after “study-specific” treatment coding; see Figures 1 to 3), REML estimation of the pseudo likelihood is appealing for
+binary outcomes.17 Our simulations do not suggest an important difference between REML and ML in terms of bias of the
+summary treatment effect estimate and coverage of t-based confidence intervals for the summary treatment effect. However, in most scenarios REML estimation did reduce the median downward bias in the between-study variance estimates,
+and therefore we suggest it is the default. However, caution is advised if the data are sparse, such that most studies are small
+and have few or even zero events. Our simulations did not cover scenarios with sparse data, but previous work suggests
+that REML estimation of pseudo likelihood is not accurate in such situations and ML estimation of the exact likelihood
+is preferred.27 Indeed, REML estimates may be unstable in such situations. Instability is evident when first-order and
+second-order linearizations of the likelihood lead to very different parameter estimates, or when reparametizations that
+should not affect REML (such as centering of covariates) do still change parameter estimates importantly. In our applied
+example using the trials in Table 2, the data were sparse, and these stability problems were evident when using REML
+estimation, and so the ML estimates with “study-specific centering” were deemed more reliable. A Bayesian approach
+could also be considered in such situations, which would retain the exact likelihood during parameter estimation and
+could be combined with empirically based prior distributions for the between-study variance.28,29
+Our findings warrant further evaluation in a wider variety of settings than those considered in our simulation, but
+concur with related work,30 including Piepho et al31 who evaluate frequentist network meta-analysis of binary outcomes.
+They too show that REML estimation of the pseudo-likelihood, and also the use of the h-likelihood, reduce bias in
+between-study variance estimates and give satisfactory coverage rates, especially when the Kenward-Roger approach is
+used to derive confidence intervals. They also consider improving ML estimation by various reparameterizations of the
+exact likelihood that aim to mimic the REML approach for linear mixed models. These reparameterizations also reduce
+the downward bias in ML estimates, but coverage of summary treatment effects is often too low. Our “study-specific centering of covariates” approach showed suitable coverage when using the t-based approach to confidence intervals, and is
+potentially simpler to implement in existing software. However, formal comparison of our proposal with those of Piepho
+et al is needed. Thomas et al also compare the performance of one-stage IPD meta-analyses for binary outcomes,30 but do
+not find a “meaningful difference” between results from REML of the pseudo likelihood and ML of the exact likelihood.
+However, the authors only considered 1:1 treatment:control allocations and implemented a +0.5/−0.5 treatment variable
+coding, and thus essentially adapted “study-specific centering” in their setting, which ensures ML estimation performs
+well. Still, their bias in between-study variances were generally lower using REML, akin to our findings. Coverage of
+confidence intervals was generally much lower than 95%, but were based on a z-based approach.
+Comparisons to the traditional two-stage IPD meta-analysis approach are also needed, for which REML is often recommended in the second stage.32 Although it assumes normality of the between-study variance of treatment effects,
+REML is quite robust to deviations from this assumption.33 We suspect that situations where REML estimation of the
+pseudo-likelihood performs well for a one-stage analysis of binary outcomes, a two-stage approach using REML will also
+perform well. Thomas et al30 recommend one-stage rather than two-stage analyses when data in the IPD meta-analysis
+are sparse. We agree with Langan et al32 that, especially in IPD meta-analyses of few studies, any heterogeneity variance
+estimate “should not be used as a reliable gauge for the extent of heterogeneity in a meta-analysis”.
+5.2 Implications of our findings
+Our findings have important consequences, as they allow researchers to apply one-stage IPD meta-analysis models with a
+stratified intercept, rather than random intercepts, when using either REML or ML estimation. This is important, as the use
+of random intercepts makes distributional assumptions and potentially compromises within-trial randomization, but this
+is avoided using a stratified intercept. Previously, we recommended random intercepts for one-stage IPD meta-analysis
+models fitted using ML estimation,4 as this approach had better estimates of between-study variances due to reducing
+the number of parameters. However, our simulations show that the “study-specific centering” makes the stratified intercept model comparable to the random intercepts model (when no borrowing of information across studies is allowed in
+control group risk). Such comparable performance is despite the data generating mechanism actually being based on the
+random intercepts model, and so the simulation set-up might be considered more favorable toward the random intercepts
+model.
+A potential limitation of stratified intercept models is that they may fail to converge when the number of events are
+rare, and in particular when some studies have a zero event in the control group (although this was not an issue for our
+first applied example). In that situation, assuming random study intercepts may help, because study-specific intercepts
+are not estimated directly, and studies rather contribute toward the estimation of the between-study distribution of intercepts (with the caveat of sharing information about control group risk across trials and thus potentially compromising
+randomization within trials). If between-study correlation is included in such random intercepts models (ie, model (4)
+is used), then the coding of treatment should not matter. However, if between-study correlation is assumed zero, then
+a +0.5/−0.5 coding is recommended. An alternative method is the hypergeometric-normal approach of Stijnen et al34
+(referred to as model (7) in Jackson et al5), which conditions out the study-specific intercepts (thus avoiding their estimation); in the scenarios of the Jackson et al simulation study, this approach performs well and comparable to using a
+stratified intercept with “study-specific centering”.
+5.3 Extensions
+Although we focused on randomized trials, our findings also apply more generally. In particular, any one-stage IPD
+meta-analysis model fitted using ML estimation should include covariates (treatments, prognostic factors, adjustment
+factors, and so on) centered by their study-specific means; for example, when synthesizing IPD from observational
+studies to evaluate risk or prognostic factors for binary or survival outcomes,35 the included factors and any adjustment covariates should be coded with “study-specific centering”. Indeed, exposure prevalence (eg, the proportion
+of individuals classed as biomarker positive) is likely to be more varied across included covariates in observational
+studies (than treatment prevalence in randomized trials), and thus “study-specific centering” will be even more
+important.
+We focused on parallel-group trials, for which our “study-specific centering” approach centers by the proportion in
+the treatment group; equivalently, we could center around the proportion in the control group. We considered binary
+variables, but “study-specific centering” should also be used for continuous variables where they are centered by the
+mean value. Indeed, it generalizes to any covariate: we simply center at the covariate's mean value in each study. For
+example, for an ordinal covariate with possible values of 0, 1, 2, and 3, the “study-specific centering” coding is the
+original value minus the mean value for all individuals in the same study. In our simulations, we assumed a uniform distribution or fixed treatment prevalences across studies. Similarly we generated control groups risks assuming
+a normal distribution, and did not allow any correlation between baseline risk and treatment effect. Other approaches
+could be considered for data generation in further work. We also only consider one treatment and one control group
+per study.
+Our simulations did not allow the between-study correlation to be estimated when fitting the random intercepts models (2) or (4), as we forced the correlation to be zero as it was in the data generating model. Further research might also
+consider how the random intercepts models perform when the correlation is freely estimated, although related simulations have shown that between-study correlations are difficult to estimate reliably, and often estimated values are +1 or
+−1.19
+6 CONCLUSIONS
+We recommend one-stage IPD meta-analysis models for continuous or binary outcomes use a stratified intercept. When
+using ML estimation to fit such models, researchers should use a “study-specific centering” coding of included variables.
+This will improve estimation of between-study variances and give more appropriate coverage of 95% confidence intervals
+for the summary (treatment) effects of interest. For continuous outcomes, REML estimation is recommended and then
+the coding should not be important. For binary outcomes, REML estimation of the pseudo likelihood will often improve
+upon ML estimation of the exact likelihood, although it may be unstable when data are sparse. For either ML or REML
+estimation, confidence intervals should be derived using an approach based on the t-distribution.

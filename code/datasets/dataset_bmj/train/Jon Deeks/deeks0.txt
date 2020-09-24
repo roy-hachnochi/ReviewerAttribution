@@ -1,0 +1,45 @@
+A methodological review of how heterogeneity has been examined in systematic reviews of diagnostic test accuracy
+
+Background
+Systematic reviews of therapeutic interventions are now commonplace in many if not most areas of healthcare, and in recent years interest has turned to applying similar techniques to research evaluating diagnostic tests. One of the key parts of any review is to consider how similar or different the available primary studies are and what impact any differences have on studies' results. Between-study differences or heterogeneity in results can result from chance, from errors in calculating accuracy indices or from true heterogeneity, that is, differences in design, conduct, participants, tests and reference tests. An important additional consideration for diagnostic studies is differences in results due to variations in the chosen threshold for a positive result for either the index or reference test.
+
+Dealing with heterogeneity is particularly challenging for diagnostic test reviews, not least because test accuracy is conventionally represented by a pair of statistics and not by a single measure of effect such as relative risk, and as a result a variety of statistical methods are available that differ in the way in which they tackle the bivariate nature of test accuracy data:
+
+methods that undertake independent analyses of each aspect of test performance
+methods that further summarise test performance into a single summary statistic
+methods that use statistical models that simultaneously consider both dimensions of test performance.
+The validity of a choice of meta-analytical method depends in part on the pattern of variability (heterogeneity) observed in the study results. However, currently there is no empirical guidance to judge which methods are appropriate in which circumstances, and the degree to which different methods yield comparable results. All this adds to the complexity and difficulty of undertaking systematic reviews of diagnostic test accuracy.
+
+Objectives
+Our objective was to review how heterogeneity has been examined in systematic reviews of diagnostic test accuracy studies.
+
+Methods
+Systematic reviews that evaluated a diagnostic or screening test by including studies that compared a test with a reference test were identified from the Centre for Reviews and Dissemination's Database of Abstracts of Reviews of Effects. Reviews for which structured abstracts had been written up to December 2002 were screened for inclusion. Data extraction was undertaken using standardised data extraction forms by one reviewer and checked by a second.
+
+Results
+A total of 189 systematic reviews met our inclusion criteria and were included in the review. The median number of studies included in the reviews was 18 [inter-quartile range (IQR) 20]. Meta-analyses (n = 133) have a higher number with a median of 22 studies (IQR 20) compared with 11 (IQR 13) for narrative reviews (n = 56).
+
+Identification of heterogeneity
+Graphical plots to demonstrate the spread in study results were provided in 56% of meta-analyses; in 79% of cases these were in the form of plots of sensitivity and specificity in the receiver operating characteristic (ROC) space (commonly termed 'ROC plots').
+
+Statistical tests to identify heterogeneity were used in 32% of reviews: 41% of meta-analyses and 9% of reviews using narrative syntheses. The χ2 test and Fisher's exact test to assess heterogeneity in individual aspects of test performance were most commonly used. In contrast, only 16% of meta-analyses used correlation coefficients to test for a threshold effect.
+
+Type of syntheses used
+A narrative synthesis was used in 30% of reviews. Of the meta-analyses, 52% carried out statistical pooling alone, 18% conducted only summary receiver operator characteristic (SROC) analyses and 30% used both methods of statistical synthesis. Of the reviews that pooled accuracy indices, most pooled each aspect of test performance separately with only a handful producing single summaries of test performance such as the diagnostic odds ratio. For those undertaking SROC analyses, the main differences between the models used were the weights chosen for the regression models. In fact, in 42% of cases (27/64) the use of, or choice of, weight was not provided by the review authors.
+
+The proportion of reviews using statistical pooling alone has declined over time from 67% in 1995 to 42% in 2001, with a corresponding increase in the use of SROC methods, from 33% to 58%. However, two-thirds of those using SROC methods also carried out statistical pooling rather than presenting only SROC models. Reviews using SROC analyses also tended to present their results as some combination of sensitivity and specificity rather than using alternative, perhaps less clinically meaningful, means of data presentation such as diagnostic odds ratios.
+
+Investigation of heterogeneity sources
+Three-quarters of meta-analyses attempted to investigate statistically possible sources of variation, using subgroup analysis (76) or regression analysis (44). The median number of variables investigated was four, ranging from one variable in 20% of reviews to over six in 27% of reviews. The ratio of median number of variables to median number of studies was 1:6.
+
+The impact of clinical or socio-demographic variables was investigated in 74% of these reviews and test- or threshold-related variables in 79%. At least one quality-related variable was investigated in 63% of reviews. Within this subset, the most commonly considered variables were the use of blinding (41% of reviews), sample size (33%), the reference test used (28%) and the avoidance of verification bias (25%).
+
+Conclusions
+The emphasis on pooling individual aspects of diagnostic test performance and the under-use of statistical tests and graphical approaches to identify heterogeneity perhaps reflect the uncertainty in the most appropriate methods to use and also greater familiarity with more traditional indices of test accuracy. This is an indication of the level of difficulty and complexity of carrying out these reviews. It is strongly suggested that in such reviews meta-analyses are carried out with the involvement of a statistician familiar with the field.
+
+Recommendations for further research
+The following areas are suggested for further research.
+
+Further methodological work on the statistical methods available for combining diagnostic test accuracy studies is needed.
+Sufficiently large, prospectively designed primary studies of diagnostic test accuracy that compare two or more tests for the same target disorder are needed so that sources of heterogeneity are minimised and comparative accuracy can be established in a wide spectrum of patients.
+Use of individual patient data meta-analysis in diagnostic test accuracy reviews should be explored to allow heterogeneity to be considered in more detail.

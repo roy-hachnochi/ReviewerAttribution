@@ -1,0 +1,118 @@
+Abstract
+Background and Purpose— Smoking is an established risk factor for ischemic stroke and subarachnoid hemorrhage (SAH), but the impact of smoking on intracerebral hemorrhage (ICH) is less clear.
+
+Methods— Prospective cohort study among 22 022 US male physicians participating in the Physicians’ Health Study. Incidence of stroke was measured by self-report and confirmed by medical record review. We used Cox proportional-hazards models to evaluate the association of smoking with risk of total hemorrhagic stroke, ICH, and SAH. We categorized smoking into 4 groups: never, past, or current smokers of <20 or of ≥20 cigarettes per day.
+
+Results— During 17.8 years of follow-up, 108 ICHs and 31 SAHs occurred. Never smokers and past smokers had equal rates of ICH and SAH. Current smokers of <20 cigarettes per day had multivariable-adjusted relative risks of 1.65 (95% CI, 0.61 to 4.50) for total hemorrhagic stroke, 1.60 (95% CI, 0.50 to 5.07) for ICH, and 1.75 (95% CI, 0.24 to 13.09) for SAH when compared with never smokers. Current smokers of ≥20 cigarettes had relative risks of 2.36 (95% CI, 1.38 to 4.02) for total hemorrhagic stroke, 2.06 (95% CI, 1.08 to 3.96) for ICH, and 3.22 (95% CI, 1.26 to 8.18) for SAH when compared with never smokers.
+
+Conclusions— This prospective study suggests an increased risk of total hemorrhagic stroke, ICH, and SAH in current cigarette smokers with a graded increase in risk that depended on how many cigarettes were smoked. The effect of smoking on ICH is of about the same magnitude as the effect of smoking on ischemic stroke. Our results add to the multiple health benefits that can be accrued by abstaining from cigarette smoking.
+
+Hemorrhagic stroke accounts for ≈20% of all stroke cases, and the incidence of intracerebral hemorrhage (ICH) is at least twice that of SAH.1 Despite attempts to improve its prognosis by medical or neurosurgical treatments, hemorrhagic stroke has high long-term disability and a mortality of ≈40 to 50%.1–3 Hence, identification and prevention of modifiable risk factors such as smoking remain of great importance.
+
+Cigarette smoking is a well-established risk factor for ischemic stroke4–6 and subarachnoid hemorrhage (SAH).7–11 However, the association between smoking and ICH remains controversial.8,12–20 One study found a positive association,20 another found an inverse association,8 and most of the remaining studies showed no significant association between cigarette smoking and ICH.12,15–19
+
+The Physicians’ Health Study (PHS)21 provided the opportunity to assess prospectively the association between smoking and the incidence of hemorrhagic stroke and its subtypes among >22 000 US male physicians 40 to 84 years of age at entry over a time period of >17 years of follow-up.
+
+Methods
+Study subjects were all participants of the PHS, a completed randomized trial of aspirin and beta carotene in the primary prevention of cardiovascular disease and cancer.21,22 Briefly, the entire study population consisted of 22 067 apparently healthy male physicians with no history of cardiovascular disease, cancer (except nonmelanoma skin cancer), or other major illnesses who began participation in 1982. After the scheduled end of the PHS in 1995, participants were followed up until March 2002, which is the date of inclusion of data used for our analyses. Morbidity and mortality data were available for >99% of the study participants.
+
+Baseline information was self-reported and collected by a mailed questionnaire that asked about many demographic, medical history, and lifestyle variables, including information about usual alcohol consumption, cigarette smoking, and exercise. Every 6 months for the first year and annually thereafter, participants were sent follow-up questionnaires asking about study compliance, medical history (including stroke), and health behaviors during the study period.
+
+Evaluation of Smoking Status
+In the baseline and 24-, 60-, and 144-month questionnaires, participants were asked about their smoking habits, including information about the amount of cigarettes smoked. With this information, we categorized smoking into never, past, or current. Current smoking was further categorized into <20 and ≥20 cigarettes per day. This categorization was used for each of the 4 assessments.
+
+The 40 participants for whom information on smoking status was missing were not included in the analyses. Baseline information on the amount of cigarettes smoked was missing for 27 of the current smokers. However, because this information became available at follow-up, they were included in the analyses.
+
+Evaluation of Stroke Cases
+All incident nonfatal and fatal stroke cases that occurred during the study period were considered for this analysis. Participants who reported stroke on a questionnaire were asked permission to review their medical records. The End Points Committee confirmed a diagnosis of stroke only after review of the medical records and results of laboratory tests. A stroke was defined as a focal neurological deficit of sudden onset and vascular mechanism lasting >24 hours. Stroke was classified according to the criteria established by the National Survey of Stroke23 into ischemic, hemorrhagic, and unknown subtype. Hemorrhagic stroke was further classified into ICH or SAH. Stroke classification was performed on the basis of medical records, reports of brain imaging, and the judgment of the neurologist on the End Points Committee. Hemorrhagic strokes that directly followed an intervention or procedure (n=2) or occurred under anticoagulant treatment (n=15) were not considered primary hemorrhagic stroke cases and were excluded from analysis. Cases of fatal stroke were documented by evidence of a cerebrovascular mechanism obtained from all available sources, including hospital records and death certificates. The interrater agreement in the classification of major stroke types and hemorrhagic subtypes was excellent over the entire study period.24,25
+
+At follow-up, 5 participants reported stroke events before randomization. These participants, as well as the 40 for whom information on smoking status was not available at baseline, were excluded, leaving a total sample of 22 022 subjects for this analysis.
+
+Statistical Analysis
+We compared the characteristics of participants with respect to their smoking status using direct standardization to adjust categorical variables for age in 5-year age groups and the general linear models procedure (SAS version 8.2, SAS Institute) to adjust continuous baseline measurements for age. We used Cox’s proportional-hazards model26 to evaluate the association of smoking status and incident stroke. Separate models were developed for hemorrhagic stroke, ICH, and SAH. We additionally evaluated the association between smoking and ischemic stroke. Smoking status was treated as a time-varying variable in the regression models. This approach incorporated changes in smoking habits over time.
+
+On the basis of known pathophysiological mechanisms and published findings, potential confounders were identified for inclusion in the multivariable models. A distinction was made between variables considered potential confounders and those considered intermediate steps—ie, variables suspected to be in the biological pathway between smoking and hemorrhagic stroke (body mass index, hypertension, and diabetes). However, because we wanted to measure the contribution of smoking to hemorrhagic stroke separately from the intermediate variables, analyses were performed separately with and without controlling for these variables.
+
+We calculated age- and multivariable-adjusted hazard ratios as a measure for the relative risk (RR) for total hemorrhagic strokes, ICH, SAH, and ischemic stroke. The first multivariable regression model controlled for age (continuous), alcohol consumption (≤1 drink per week, 2 to 6 drinks per week, ≥1 drink per day), exercise (<1 or ≥1 times per week), parental history of myocardial infarction before 60 years of age, and randomized treatment assignment. The second multivariable regression model controlled for all factors in model 1 plus body mass index (continuous), hypertension (defined as self-reported systolic blood pressure of ≥140 mm Hg, diastolic blood pressure ≥90 mm Hg, or current treatment of hypertension regardless of blood pressure), history of diabetes, and history of elevated cholesterol (≥240 mg/dL).
+
+Because only 31 total SAH cases occurred and thus the number of variables for inclusion in the models was restricted,27 we adjusted only for the most important confounders. In the first multivariable model, we adjusted only for age, exercise, and randomized treatment assignment; in the second model, we also adjusted for hypertension.
+
+We evaluated effect measure modification of smoking status by hypertension (yes, no), alcohol consumption (≤1 drink per week, 2 to 6 drinks per week, ≥1 drink per day), and age (<60 or ≥60 years). We tested the proportionality assumption of the models and found no violation.
+
+Results
+During a mean of 17.8 years of follow-up (385 419 person-years), a total of 1069 strokes occurred, of which 139 were hemorrhagic (108 ICH, 31 SAH), 913 were ischemic, and 17 were undefined. At baseline, 10 918 participants (49.6%) self-reported to have never smoked, 8668 (39.4%) reported past smoking, 849 (3.9%) reported current smoking of <20 cigarettes, and 1560 (7.1%) reported current smoking of ≥20 cigarettes. The age-adjusted baseline characteristics of participants according to their smoking status are shown in Table 1.
+
+TABLE 1. Age-Adjusted*Baseline Characteristics of Study Participants According to Smoking Status
+
+Variable	Never Smokers (n=10 918)	Past Smokers (n=8668)	Current Smokers (<20 cigarettes/d) (n=849)	Current Smokers (≥20 cigarettes/d) (n=1560)	P†
+Continuous values are means, and all other values are frequencies unless stated otherwise. n=21 995.
+*Adjusted for age (40–44, 45–49, 50–54, 55–59, 60–64, 65–69, and ≥70 years).
+†P value from general linear models for continuous variables and Mantel-Haenszel χ2 test using row mean score differences for categorical variables.
+‡Hypertension was defined as self-reported systolic blood pressure ≥140 mm Hg or diastolic blood pressure ≥90 mm Hg or current treatment of hypertension (regardless of blood pressure).
+§History of elevated total cholesterol level ≥240 mg/dL.
+¶Family history of myocardial infarction <60 years of age.
+Age (SD), y	52.2 (9.5)	54.5 (9.5)	52.7 (9.3)	53.2 (8.7)	<0.001
+Blood pressure (SE), mm Hg					
+    Systolic	125.5 (0.11)	126.4 (0.13)	126.5 (0.41)	128.5 (0.30)	<0.001
+    Diastolic	78.6 (0.08)	78.9 (0.09)	78.6 (0.27)	79.7 (0.20)	<0.001
+Hypertension, %‡	22.3	25.0	23.0	26.6	<0.001
+Body mass index, %					
+    <25 kg/m2	58.7	55.0	56.6	50.8	<0.001
+    25–29.9 kg/m2	36.2	39.2	38.5	41.7	
+    ≥30 kg/m2	5.1	5.8	5.0	7.5	
+Exercise ≥1 time/wk, %	73.3	73.2	70.1	60.9	<0.001
+Alcohol consumption, %					
+    ≤1/wk	48.3	31.1	30.9	34.3	<0.001
+    2–6/wk	33.0	38.1	37.1	28.0	
+    ≥1/d	17.8	30.0	30.9	37.2	
+Diabetes, %	2.3	2.4	3.0	2.9	0.074
+History of high cholesterol, %§	11.6	12.4	11.1	11.1	0.99
+Family history of myocardial infarction, %¶	9.0	9.3	10.4	10.8	<0.01
+Random aspirin assignment, %	49.7	50.3	51.0	48.8	0.99
+The age-adjusted and multivariable-adjusted RRs of total hemorrhagic stroke, ICH, and SAH according to time-varying smoking status are summarized in Table 2. Compared with never smokers, past smokers had no increase in the risk of total hemorrhagic stroke, ICH, or SAH. The multivariable-adjusted risk of developing a hemorrhagic stroke was 65% higher among current smokers of <20 cigarettes per day and 136% higher for current smokers of ≥20 cigarettes per day compared with never smokers. Smoking <20 cigarettes was associated with a 1.6-fold increase in the risk of ICH and a 1.8-fold increase in the risk of SAH compared with never smokers. Current smokers of ≥20 cigarettes had a 2.1-fold–increased risk of developing an ICH and a 3.2-fold–increased risk of developing an SAH compared with never smokers.
+
+TABLE 2. RR of Total Hemorrhagic Stroke and Hemorrhagic Stroke Subtypes According to Smoking Status
+
+Variable	Never Smokers (n=10 918)	Past Smokers (n=8668)	Current Smokers
+<20 Cigarettes/d (n=849)	≥20 Cigarettes/d (n=1560)
+*Adjusted for age as continuous term.
+†Model 1 was adjusted for age (continuous), exercise (<1 vs ≥1 times/wk), parental history of myocardial infarction before 60 years of age, alcohol consumption (≤1 drink/wk, 2–6 drinks/wk, ≥1 drink/d), and randomized treatment assignment.
+‡Model 2 was adjusted for variables in model 1 plus body mass index (continuous), history of hypertension (self-reported systolic blood pressure ≥140 mm Hg, or diastolic blood pressure ≥90 mm Hg or current treatment of hypertension regardless of blood pressure), history of diabetes, and history of elevated cholesterol ≥240 mg/dL.
+§Model 1 for SAH was adjusted for age, exercise, and randomized treatment assignment (categorized as before).
+¶Model 2 for SAH was adjusted for all variables as in model 1 for SAH plus history of hypertension (defined as before).
+RR (95% CI)	RR (95% CI)	RR (95% CI)
+Total hemorrhagic stroke				
+    Cases (n=139), n	68	50	6	15
+    Age adjusted*	1.00	0.80 (0.57–1.14)	1.64 (0.60–4.45)	2.34 (1.38–3.96)
+    Model 1†	1.00	0.76 (0.53–1.09)	1.65 (0.61–4.50)	2.36 (1.38–4.02)
+    Model 2‡	1.00	0.72 (0.49–1.06)	1.87 (0.68–5.11)	2.52 (1.45–4.39)
+ICH				
+    Cases (n=108), n	54	40	4	10
+    Age adjusted*	1.00	0.81 (0.55–1.20)	1.60 (0.51–5.09)	2.04 (1.07–3.89)
+    Model 1†	1.00	0.80 (0.54–1.20)	1.60 (0.50–5.07)	2.06 (1.08–3.96)
+    Model 2‡	1.00	0.75 (0.49–1.15)	1.80 (0.56–5.74)	2.08 (1.05–4.13)
+SAH				
+    Cases (n=31), n	14	10	2	5
+    Age adjusted*	1.00	0.79 (0.37–1.68)	1.78 (0.24–13.31)	3.31 (1.31–8.38)
+    Model 1§	1.00	0.79 (0.37–1.68)	1.75 (0.24–13.09)	3.22 (1.26–8.18)
+    Model 2¶	1.00	0.83 (0.38–1.79)	1.81 (0.24–13.57)	3.40 (1.32–8.71)
+We additionally compared all current smokers to never and past smokers. Current smoking yielded age-adjusted RRs for total hemorrhagic stroke, ICH, and SAH of 2.33 (95% CI, 1.43 to 3.80), 1.95 (95% CI, 1.06 to 3.58), and 3.61 (95% CI, 1.54 to 8.50), respectively. The multivariable adjusted (model 1) RRs were 2.41 (95% CI, 1.47 to 3.95), 1.98 (95% CI, 1.07 to 3.65), and 3.53 (95% CI, 1.50 to 8.32), respectively.
+
+The multivariable-adjusted RRs (model 1) of ischemic stroke for past smokers, current smokers of <20 cigarettes per day, and current smokers ≥20 cigarettes per day were 0.99 (95% CI, 0.86 to 1.14), 1.56 (95% CI, 1.03 to 2.37), and 2.25 (95% CI, 1.80 to 2.81), respectively, compared with never smokers. Current smoking was associated with a 2-fold increase in the risk of ischemic stroke (RR, 2.11; 95% CI, 1.72 to 2.60) compared with never and past smokers.
+
+Additional adjustment for potential biological mediators (model 2) did not substantially change the effect estimate of smoking status with any of the stroke subtypes. No significant effect measure modification was observed between smoking and age, hypertension, or alcohol consumption with respect to total hemorrhagic stroke, ICH, or SAH.
+
+Discussion
+We found an increased overall risk of total hemorrhagic stroke, ICH, SAH, and ischemic stroke in current smokers that increased with the amount of cigarettes smoked per day. Those who smoked ≥20 cigarettes per day had a multivariable-adjusted 2-fold increase in the risk of total hemorrhagic stroke (RR, 2.36; 95% CI, 1.38 to 4.02) and ICH (RR, 2.06; 95% CI, 1.08 to 3.96) and 3-fold increase in SAH (RR, 3.22; 95% CI, 1.26 to 8.18) compared with never smokers. The magnitude of the effect of smoking on ICH is about the same as the effect of smoking on ischemic stroke (RR, 2.25; 95% CI, 1.72 to 2.60). Additional adjustment for potential biological mediators (body mass index, hypertension, diabetes, and cholesterol) did not change the observed association between smoking and any of the stroke subtypes.
+
+Studies published in the 1980s and 1990s established smoking as a strong risk factor for ischemic stroke4–6,11,28 and SAH.7–11 In contrast, the association between smoking and ICH is less clear. A case-control study by Gill et al20 showed an 80% increased risk of ICH among male smokers compared with nonsmokers and a 30% increased risk for female smokers. This result, however, did not reach statistical significance, and the 95% CIs were wide. In contrast, a study from Korea by Park et al8 showed a significant inverse association between cigarette smoking and ICH. Current or past smokers had a 64% risk reduction of ICH compared with never smokers. This observation may be explained in part by the fact that the current and past smokers (and not past and never smokers) were collapsed into 1 group, and past smokers may have had a healthier lifestyle after they quit smoking than the average never smoker. Juvela13 reported that smoking is less prevalent in ICH patients compared with SAH patients. Because this was a case series, no effect estimate of the risk of ICH among smokers could be calculated. Other studies, most of them case-control studies, did not find a significantly increased risk of ICH among smokers.12,15–19
+
+A recent population-based case-control study by Woo et al29 suggested an association between smoking and specific locations of ICH. In their univariate analysis, they showed that current smoking was associated with lobar ICH (but not with nonlobar ICH) compared with never smokers. In their multivariable models, however, this effect of smoking on lobar ICH was not significant. Because we did not have data on the location of ICH in our cohort, we were unable to evaluate this potential association.
+
+There are several proposed mechanisms by which smoking could cause stroke. One mechanism that links smoking to ischemic stroke is structural artery wall damage and carotid atherosclerosis,30 leading to thrombosis or embolic phenomena.31 The mechanism of thrombogenesis is a short-term effect of smoking, which includes increased fibrinogen levels and platelet aggregability,32,33 elevated hematocrit values, and reduced cerebral blood flow as a result of arterial vasoconstriction.34 The role of these factors in promoting stroke in smokers is supported by the observed reduction in risk of ischemic stroke after smoking cessation.4,5,28,34,35 Structural damage to the arterial wall may also play a role in the development of ICH and SAH. For SAH, there is strong evidence for an association of smoking with aneurysm formation,36 growth,36 and rupture.37 Juvela et al36,37 showed that current smoking and recent heavy alcohol use were strong risk factors for aneurysmal SAH in men and women. In addition, other factors related to the biology of cerebral aneurysms have been linked to smoking: The presence of multiple cerebral aneurysms in subjects with38 and without39 SAH was highly correlated with smoking status and female sex, and the risk of formation of new aneurysms and growth of known aneurysms was strongly associated with smoking and female sex for growth of ≥1 mm and only with smoking for growth of ≥3 mm over a mean follow-up period of ≈19 years. These data provide further support for the notion that smoking relates to SAH and aneurysm biology via a direct effect on the cerebral vasculature. For ICH, the observed increased risk in smokers has less biological support than for SAH, and the possible mechanisms for the association are at this time speculative. Among potential mediators of the association between current smoking and ICH, the known increase in blood pressure40 and evidence for arterial wall damage30 in smokers may play a role in causing the rupture of small intraparenchymal arteries that cause ICH.
+
+The strength of this study is that, given the large number of incident stroke cases, we had sufficient power to prospectively evaluate the association of smoking and hemorrhagic stroke subtypes. All stroke cases were confirmed by detailed medical record review, and interrater agreement in the classification of stroke was excellent over the entire study period.24,25 Furthermore, >90% of the hemorrhagic stroke cases had confirmatory imaging data, and the remaining cases were diagnosed from positive evidence from lumbar puncture and/or autopsy reports. None of the hemorrhagic cases were only self-reported with no further diagnostic evidence of ICH or SAH. Information about smoking status and the amount of cigarettes smoked was updated during the follow-up period; thus, changes in smoking status or in the amount of cigarettes smoked could be incorporated into the analysis.
+
+There are several limitations to this study. One stems from the use of data that relate only to mostly (92.1%) white male physicians. Thus, extrapolation of the results to women or minority populations is only speculative. In addition, the low prevalence of current smokers in the PHS may have resulted in an underestimate of the true effect of smoking on stroke. Also, participants in the PHS who suffered a fatal smoking-related outcome (eg, myocardial infarction) add to the underestimation of the effect of smoking on stroke. The information on all covariates, like all data in the PHS, was collected by self-administered questionnaires. Although physicians are likely to provide health-related information appropriately, some of the information may not be accurate. In several validation studies of other cohorts, however, self-reports of smoking41 and other cardiovascular risk factors were reliable.42,43 Because we had very few cases of SAH, the effect estimate of smoking on SAH is imprecise despite the fact that it was statistically significant. We had 40 subjects with missing information on smoking status at baseline, 5 of whom had a subsequent stroke; because all 5 stroke events were nonhemorrhagic, the missing data had no impact on the conclusions we reached on the association between smoking and hemorrhagic stroke.
+
+In summary, this prospective study with >17 years of follow-up and updated smoking information establishes smoking as a risk factor for ICH. The effect of smoking on ICH is of about the same magnitude as smoking on ischemic stroke but less powerful than smoking on SAH. Our results add to the multiple health benefits that can be accrued by abstaining from cigarette smoking.

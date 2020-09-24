@@ -1,0 +1,697 @@
+Summary points
+Patients and healthcare professionals require clinical prediction models
+to accurately guide healthcare decisions
+Larger sample sizes lead to the development of more robust models
+Data should be of sufficient quality and representative of the target
+population and settings of application
+It is better to use all available data for model development (ie, avoid data
+splitting), with resampling methods (such as bootstrapping) used for
+internal validation
+When developing prediction models for binary or time-to-event outcomes,
+a well known rule of thumb for the required sample size is to ensure at
+least 10 events for each predictor parameter
+The actual required sample size is, however, context specific and depends
+not only on the number of events relative to the number of candidate
+predictor parameters but also on the total number of participants, the
+outcome proportion (incidence) in the study population, and the expected
+predictive performance of the model
+We propose to use such information to tailor sample size requirements
+to the specific setting of interest, with the aim of minimising the potential
+for model overfitting while targeting precise estimates of key parameters
+Our proposal can be implemented in a four step procedure and is
+applicable for continuous, binary, or time-to-event outcomes
+The pmsampsize package in Stata or R allows researchers to implement
+the procedure
+Clinical prediction models are needed to inform diagnosis and
+prognosis in healthcare.1-3 Well known examples include the
+Wells score,4 5 QRISK,6 7 and the Nottingham prognostic index.8 9
+Such models allow health professionals to predict an individual’s
+outcome value, or to predict an individual’s risk of an outcome
+being present (diagnostic prediction model) or developed in the
+future (prognostic prediction model). Most prediction models
+are developed using a regression model, such as linear regression
+for continuous outcomes (eg, pain score), logistic regression
+for binary outcomes (eg, presence or absence of pre-eclampsia),
+or proportional hazards regression models for time-to-event
+data (eg, recurrence of venous thromboembolism).10 An equation
+is then produced that can be used to predict an individual’s
+outcome value or outcome risk conditional on his or her values
+of multiple predictors, which might include basic characteristics
+such as age, weight, family history, and comorbidities; biological
+measurements such as blood pressure and biomarkers; and
+imaging or other test results. Supplementary material S1 shows
+examples of regression equations.
+Developing a prediction model requires a development dataset,
+which contains data from a sample of individuals from the target
+population, containing their observed predictor values (available
+at the intended moment of prediction11) and observed outcome.
+The sample size of the development dataset must be large
+enough to develop a prediction model equation that is reliable
+when applied to new individuals in the target population. What
+constitutes an adequately large sample size for model
+development is, however, unclear,12 with various blanket “rules
+of thumb” proposed and debated.13-17 This has created confusion
+about how to perform sample size calculations for studies aiming
+to develop a prediction model.
+In this article we provide practical guidance for calculating the
+sample size required for the development of clinical prediction
+models, which builds on our recent methodology papers.13-16 18
+We suggest that current minimum sample size rules of thumb
+are too simplistic and outline a more scientific approach that
+tailors sample size requirements to the specific setting of interest.
+We illustrate our proposal for continuous, binary, and
+time-to-event outcomes and conclude with some extensions.
+Moving beyond the 10 events per variable
+rule of thumb
+In a development dataset, the effective sample size for a
+continuous outcome is determined by the total number of study
+participants. For binary outcomes, the effective sample size is
+often considered about equal to the minimum of the number of
+events (those with the outcome) and non-events (those without
+the outcome); time-to-event outcomes are often considered
+roughly equal to the total number of events.10 When developing
+prediction models for binary or time-to-event outcomes, an
+established rule of thumb for the required sample size is to
+ensure at least 10 events for each predictor parameter (ie, each
+β term in the regression equation) being considered for inclusion
+in the prediction model equation.19-21 This is widely referred to
+as needing at least 10 events per variable (10 EPV). The word
+“variable” is, however, misleading as some predictors actually
+require multiple β terms in the model equation—for example,
+two β terms are needed for a categorical predictor with three
+categories (eg, tumour grades I, II, and III), and two or more β
+terms are needed to model any non-linear effects of a continuous
+predictor, such as age or blood pressure. The inclusion of
+interactions between two or more predictors also increases the
+number of model parameters. Hence, as prediction models
+usually have more parameters than actual predictors, it is
+preferable to refer to events per candidate predictor parameter
+(EPP). The word candidate is important, as the amount of model
+overfitting is dictated by the total number of predictor
+parameters considered, not just those included in the final model
+equation.
+The rule of at least 10 EPP has been widely advocated perhaps
+as a result of its simplicity, and it is regularly used to justify
+sample sizes within published articles, grant applications, and
+protocols for new model development studies, including by
+ourselves previously. The most prominent work advocating the
+rule came from simulation studies conducted in the 1990s,19-21
+although this work actually focused more on the bias and
+precision of predictor effect estimates than on the accuracy of
+risk predictions from a developed model. The adequacy of the
+10 EPP rule has often been debated. Although the rule provides
+a useful starting point, counter suggestions include either
+lowering the EPP to below 10 or increasing it to 15, 20, or even
+50.10 22-26 These inconsistent recommendations reflect that the
+required EPP is actually context specific and depends not only
+on the number of events relative to the number of candidate
+predictor parameters but also on the total number of participants,
+the outcome proportion (incidence) in the study population, and
+the expected predictive performance of the model.13-17 This
+finding is unsurprising as sample size considerations for other
+study designs, such as randomised trials of interventions, are
+all context dependent and tailored to the setting and research
+question. Rules of thumb have also been advocated in the
+continuous outcome setting, such as two participants per
+predictor,27 but these share the same concerns as for 10 EPP.16
+Sample size calculation to ensure precise
+predictions and minimise overfitting
+Recent work by van Smeden et al13 14 and Riley et al15 16 describe
+how to calculate the required sample size for prediction model
+development, conditional on the user specifying the overall
+outcome risk or mean outcome value in the target population,
+the number of candidate predictor parameters, and the
+anticipated model performance in terms of overall model fit
+(R2
+). These authors’ approaches can be implemented in a four
+step procedure. Each step leads to a sample size calculation,
+and ultimately the largest sample size identified is the one
+required. We describe these four steps, and, to aid general
+readers, provide the more technical details of each step in the
+figures.
+Step 1: What sample size will produce a
+precise estimate of the overall outcome risk
+or mean outcome value?
+Fundamentally, the sample size must allow the prediction
+model’s intercept to be precisely estimated, to ensure that the
+developed model can accurately predict the mean outcome value
+(for continuous outcomes) or overall outcome proportion (for
+binary or time-to-event outcomes). A simple way to do this is
+to calculate the sample size needed to precisely estimate (within
+a small margin of error) the intercept in a model when no
+predictors are included (the null model).15Figure 1 shows the
+calculation for binary and time-to-event outcomes, and we
+generally recommend aiming for a margin of error of ≤0.05 in
+the overall outcome proportion estimate. For example, with a
+binary outcome that occurs in half of individuals, a sample size
+of at least 385 people is needed to target a confidence interval
+of 0.45 to 0.55 for the overall outcome proportion, and thus an
+error of at most 0.05 around the true value of 0.5. To achieve
+the same margin of error with outcome proportions of 0.1 and
+0.2, at least 139 and 246 participants, respectively, are required.
+For time-to-event outcomes, a key time point needs to be
+identified, along with the anticipated outcome event rate. For
+example, with an anticipated event rate of 10 per 100 person
+years of the entire follow-up, the sample size must include a
+total of 2366 person years of follow-up to ensure an expected
+margin of error of ≤0.05 in the estimate of a 10 year outcome
+probability of 0.63, such that the expected confidence interval
+is 0.58 to 0.68.
+For continuous outcomes, the anticipated mean and variance of
+outcome values must be prespecified, alongside the anticipated
+percentage of variation explained by the prediction model (see
+supplementary material S2 for details).16
+Step 2: What sample size will produce
+predicted values that have a small mean error
+across all individuals?
+In addition to predicting the average outcome value precisely
+(see step 1), the sample size for model development should also
+aim for precise predictions across the spectrum of predicted
+values. For binary outcomes, van Smeden et al use simulation
+across a wide range of scenarios to evaluate how the error of
+predicted outcome probabilities from a developed model
+depends on various characteristics of the development dataset
+sampled from a target population.14 They found that the number
+of candidate predictor parameters, total sample size, and
+outcome proportion were the three main drivers of a model’s
+mean predictive accuracy. This led to a sample size formula
+(fig 2) to help ensure that new prediction models will, on
+average, have a small prediction error in the estimated outcome
+probabilities in the target population (as measured by the mean
+absolute prediction error, MAPE). The calculation requires the
+number of candidate predictor parameters and the anticipated
+outcome proportion in the target population to be prespecified.
+For example, with 10 candidate predictor parameters and an
+outcome proportion of 0.3, a sample size of at least 461
+participants and 13.8 EPP is required to target a mean absolute
+error of 0.05 between observed and true outcome probabilities
+(see fig 2 for calculation). The calculation is available as an
+interactive tool (https://mvansmeden.shinyapps.io/BeyondEPV/
+) and applicable to situations with 30 or fewer candidate
+predictors. Ongoing work aims to extend to larger numbers of
+candidate predictors and also to time-to-event outcomes.
+For continuous outcomes, accurate predictions across the
+spectrum of predicted values require the standard deviation of
+the residuals to be precisely estimated.10 16 Supplementary
+material S3 shows that to target a less than 10% multiplicative
+error in the estimated residual standard deviation, the required
+sample size is simply 234+P, where P is the number of predictor
+parameters considered.
+Step 3: What sample size will produce a small
+required shrinkage of predictor effects?
+Our third recommended step is to identify the sample size
+required to minimise the problem of overfitting.28 Overfitting
+is when a developed model’s predictions are more extreme than
+they ought to be for individuals in a new dataset from the same
+target population. For example, an overfitted prediction model
+for a binary outcome will give a predicted outcome probability
+too close to 1 for individuals with a higher than the average
+outcome probability and too close to 0 for individuals with a
+lower than the average outcome probability. Overfitting notably
+occurs when the sample size is too small. In particular, when
+the number of candidate predictor parameters is large relative
+to the number of participants in total (for continuous outcomes)
+or to the number of participants with the outcome event (for
+binary or time-to-event outcomes). A consequence of overfitting
+is that a developed model’s apparent predictive performance (as
+observed in the development dataset itself) will be optimistic
+(ie, too high), and its actual predictive performance in new data
+from the same target population will be lower (ie, worse).
+Shrinkage (also known as penalisation or regularisation)
+methods deal with the problem of overfitting by reducing the
+variability in the developed model’s predictions such that
+extreme predictions (eg, predicted probabilities close to 0 or 1)
+are pulled back toward the overall average.29-34 However, there
+is no guarantee that shrinkage will fully overcome the problem
+of overfitting when developing a prediction model. This is
+because the shrinkage or penalty factors (which dictate the
+magnitude of shrinkage required) are also estimated from the
+development dataset and, especially when the sample size is
+small, are often imprecise and so fail to tackle the magnitude
+of overfitting correctly in a particular application.30 Furthermore,
+a negative correlation tends to occur between the estimated
+shrinkage required and the apparent performance of a model.
+If the apparent model performance is excellent simply by chance,
+the required shrinkage is typically estimated too low.30 Thus,
+ironically, in those situations when overfitting is of most concern
+(and thus shrinkage is most urgently needed), the prediction
+model developer has insufficient assurance in selecting the
+proper amount of shrinkage to cancel the impact of overfitting.
+Riley et al therefore suggest identifying the sample size and
+number of candidate predictors that correspond to a small
+amount of desired shrinkage (≤10%) during model
+development.15 16 The sample size calculation (fig 3) requires
+the researcher to prespecify the number of candidate predictor
+parameters and, for binary or time-to-event outcomes, the
+anticipated outcome proportion or rate, respectively, in the target
+population. In addition, a (conservative) value for the anticipated
+model performance is required, as defined by the Cox-Snell R
+squared statistic (R2
+cs
+).15 35 The anticipated value of R2
+cs
+ is
+important because it reflects the signal:noise ratio, which has
+an impact on the estimation of multiple parameters and the
+potential for overfitting. When the signal:noise ratio is
+anticipated to be high (eg, R2
+cs
+ is close to 1 for a prediction
+model with a continuous outcome), true patterns are easier to
+detect and so overfitting is less of a concern, such that more
+predictor parameters can be estimated. However, when the
+signal:noise ratio is low (ie, R2
+cs
+ is anticipated to be close to 0),
+true patterns are harder to identify and there is more potential
+for overfitting, such that fewer predictor parameters can be
+estimated reliably.
+In the continuous outcome setting, R2
+cs
+ is simply the coefficient
+of determination R2
+, which quantifies the proportion of the
+variance of outcome values that is explained by the prediction
+model and thus is between 0 and 1. For example, when
+developing a prediction model for a continuous outcome with
+up to 30 predictor parameters and an anticipated R2
+cs
+ of 0.7, a
+sample size of 206 participants is required to ensure the expected
+shrinkage is 10% (see supplementary material S4 for full
+calculation). This corresponds to about seven participants for
+each predictor parameter considered.
+The R2
+cs
+ statistic generalises to non-continuous outcomes and
+allows sample size calculations to minimise the expected
+shrinkage when developing a prediction model for binary and
+time-to-event outcomes (fig 3). For example, when developing
+a new logistic regression model with up to 20 candidate predictor
+parameters and an anticipated R2
+cs
+ of at least 0.1, a sample size
+of 1698 participants is required to ensure the expected shrinkage
+is 10% (see fig 3 for full calculation). If the target setting has
+an outcome proportion of 0.3, this corresponds to an EPP of
+25.5. The required sample size and EPP are sensitive to the
+choice of R2
+cs
+, with lower anticipated values of R2
+cs
+ leading to
+higher required sample sizes. Therefore, a conservative choice
+of R2
+cs
+ is recommended (fig 4).
+As in sample size calculations for randomised trials evaluating
+intervention effects, external evidence and expert opinion are
+required to inform the values that need specifying in the sample
+size calculator. Figure 4 provides guidance for specifying R2
+cs
+.
+Importantly, unlike for continuous outcomes when R2
+cs
+ is
+bounded between 0 and 1, the R2
+cs
+ is bounded between 0 and
+max(R2
+cs
+) for binary and time-to-event outcomes. The max(R2
+cs
+)
+denotes the maximum possible value of R2
+cs
+, which is dictated
+by the overall outcome proportion or rate in the development
+dataset and is often much less than 1. Supplementary material
+S5 shows the calculation of max(R2
+cs
+). For logistic regression
+models with outcome proportions of 0.5, 0.4, 0.3, 0.2, 0.1, 0.05,
+and 0.01, the corresponding max(R2
+cs
+) values are 0.75, 0.74,
+0.71, 0.63, 0.48, 0.33, and 0.11, respectively. Thus the
+anticipated R2
+cs
+ might be small, even for a model with potentially
+good performance.
+Step 4: What sample size will produce a small
+optimism in apparent model fit?
+The sample size should also ensure a small difference in the
+developed models apparent and optimism adjusted values of
+R
+2
+Nagelkerke
+ (ie, R2
+cs
+/max(R2
+cs
+)), as this is a fundamental overall
+measure of model fit.10 38 The apparent R2
+Nagelkerke
+ value is simply
+the model’s observed performance in the same data as used to
+develop the model, whereas the optimism adjusted R2
+Nagelkerke
+value is a more realistic (approximately unbiased) estimate of
+the model’s fit in the target population. The sample size
+calculations are shown in supplementary material S6 for
+continuous outcomes and in figure 5 for binary and time-to-event
+outcomes. As before, they require the user to specify the
+anticipated R2
+cs
+ and the max(R2
+cs
+), as described in figure 4. For
+example, when developing a logistic regression model with an
+anticipated R2
+cs
+ of 0.2, and in a setting with an outcome
+proportion of 0.05 (such that the max(R2
+cs
+) is 0.33), 1079
+participants are required to ensure the expected optimism in the
+apparent R2
+Nagelkerke
+ is just 0.05 (see figure 5 for calculation).
+Recommendations and software
+Box 1 summarises our recommended steps for calculating the
+minimum sample size required for prediction model
+development. This involves four calculations for binary
+outcomes (B1 to B4), three for time-to-event outcomes (T1 to
+T3), and four for continuous outcomes (C1 to C4). To implement
+the calculations, we have written the pmsampsize package for
+Stata and R. The software calculates the sample size needed to
+meet all the criteria listed in box 1 (except B2, which is available
+at https://mvansmeden.shinyapps.io/BeyondEPV/), conditional
+on the user inputting values of required parameters such as the
+number of candidate predictors, the anticipated outcome
+proportion in the target population, and the anticipated R2
+cs
+. The
+calculations are especially helpful when prospective data
+collection (eg, new cohort study) are required before model
+development; however, they are also relevant when existing
+data are available to guide the number of predictors that can be
+considered.
+Box 1 Recommendations for calculating the sample size
+needed when developing a clinical prediction model for
+continuous, binary, and time-to-event outcomes
+To increase the potential for developing a robust prediction model,
+the sample size should be at least large enough to minimise
+model overfitting and to target sufficiently precise model
+predictions
+Binary outcomes
+For binary outcomes, ensure the sample size is enough to:
+Estimate the overall outcome proportion with sufficient precision
+(use equation in figure 1) (B1)
+Target a small mean absolute prediction error (use equation in
+figure 2, if number of predictor parameters is ≤30) (B2)
+Target a shrinkage factor of 0.9 (use equation in figure 3) (B3)
+Target small optimism of 0.05 in the apparent R2
+Nagelkerke (use
+equation in figure 5) (B4)
+Time-to-event outcomes
+For time-to-event outcomes, ensure the sample size is enough
+to:
+Estimate the overall outcome proportion with sufficient precision
+at one or more key time-points in follow-up (use equation in figure
+1) (T1)
+Target a shrinkage factor of 0.9 (use equation in figure 3) (T2)
+Target small optimism of 0.05 in the apparent R2
+Nagelkerke (use
+equation in figure 5) (T3)
+Continuous outcomes
+For continuous outcomes, ensure the sample size is enough to:
+Estimate the model intercept precisely (see supplementary
+material 1) (C1)
+Estimate the model residual variance with sufficient precision
+(see supplementary material 2) (C2)
+Target a shrinkage factor of 0.9 (use equation in figure 3) (C3)
+Target small optimism of 0.05 in the apparent R2
+Nagelkerke (use
+equation in figure 5) (C4)
+These approaches require researchers to specify the anticipated
+overall outcome risk or mean outcome value in the target
+population, the number of candidate predictor parameters, and
+the anticipated model performance in terms of overall model fit
+(R2
+cs
+). When the choice of values is uncertain, we generally
+recommend being conservative and so taking those values (eg,
+smallest R2
+cs
+) that give larger sample sizes
+When an existing dataset is already available (such that sample
+size is already defined), the calculations can be used to identify
+if the sample size is sufficient to estimate the overall outcome
+risk or the mean outcome value, and how many predictor
+parameters can be considered before overfitting becomes a
+concern
+Applied examples
+We now illustrate the recommendations in box 1 by using three
+examples.
+Example 1: Binary outcome
+North et al developed a model predicting pre-eclampsia in
+pregnant women based on clinical predictors measured at 15
+weeks’ gestation,43 including vaginal bleeding, age, previous
+miscarriage, family history, smoking, and alcohol consumption.
+The model included 13 predictor parameters and had a C statistic
+of 0.71. Emerging research aims to improve this and other
+pre-eclampsia prediction models by including additional
+predictors (eg, biomarkers and ultrasound measurements).
+As the outcome is binary, the sample size calculation for a new
+prediction model needs to examine criteria B1 to B4 in box 1.
+This requires us to input the overall proportion of women who
+will develop pre-eclampsia (0.05) and the number of candidate
+predictor parameters (assumed to be 30 for illustration). For an
+outcome proportion of 0.05, the max(R2
+cs
+) value is 0.33 (see
+
+supplementary material S5). If we assume, conservatively, that
+the new model will explain 15% of the variability, the
+anticipated R2
+cs
+ value is 0.15×0.33=0.05. Now we can check
+criteria B1, B3, and B4 by typing in Stata:
+pmsampsize, type(b) rsquared(0.05) parameters(30)
+prevalence(0.05)
+This indicates that at least 5249 women are required,
+corresponding to 263 events and an EPP of 8.75. This is driven
+by criterion B3, to ensure the expected shrinkage required is
+just 10% (to minimise the potential overfitting). To check
+criterion B2 in box 1, we can apply the formula in figure 2. This
+suggests that 544 women are needed to target a mean absolute
+error in predicted probabilities of ≤0.05. This is much lower
+than the 5249 women needed to meet criterion B3.
+If recruiting 5249 women is impractical (eg, because of time,
+cost, or practical constraints for data collection), the sample size
+required can be reduced by identifying a smaller number of
+candidate predictors (eg, based on existing evidence from
+systematic reviews44). For example, with 20 rather than 30
+candidate predictors, the required sample size to meet all four
+criteria is at least 3500 women and 175 events (still 8.75 EPP).
+Example 2: Time-to-event outcome
+Many prognostic models are available for the risk of a recurrent
+venous thromboembolism (VTE) after cessation of treatment
+for a first VTE.45 For example, the model of Ensor et al included
+predictors of age, sex, site of first clot, D-dimer level, and the
+lag time from cessation of treatment until measurement of
+D-dimer (often around 30 days).46 The model’s C statistic was
+0.69 and the adjusted R2
+cs
+ was 0.051 (corresponding to 8% of
+the total variation). Emerging research aims to extend such
+models by including additional predictors.
+The sample size required for a new model must at least meet
+criteria T1 to T3.15 This requires us to input a key time point for
+prediction of VTE recurrence risk (eg, two years), alongside
+the number of candidate predictor parameters (n=30), the
+anticipated mean follow-up (2.07 years), and outcome event
+rate (0.065, or 65 VTE recurrences for every 1000 person years
+of follow-up), and the conservative value of R2
+cs
+ (0.051), with
+all chosen values based on Ensor et al.46 Now criteria T1 to T3
+can be checked, for example by typing in Stata:
+pmsampsize, type(s) rsquared(0.051) parameters(30) rate(0.065)
+timepoint(2) meanfup(2.07)
+This indicates that at least 5143 participants are required,
+corresponding to 692 events and an EPP of 23.1. This is
+considerably more than 10 EPP, and is driven by a desired
+shrinkage factor (criterion T2) of only 10% to minimise
+overfitting based on just 8% of variation explained by the model.
+If the number of candidate predictor parameters is lowered to
+20, the required sample size is reduced to 3429 (still an EPP of
+23.1).
+Example 3: Continuous outcome
+Hudda et al developed a prediction model for fat free mass in
+children and adolescents aged 4 to 15 years, including 10
+predictor parameters based on height, weight, age, sex, and
+ethnicity.47 The model is needed to provide an estimate of an
+individual’s current fat mass (=weight minus predicted fat free
+mass). On external validation, the model had an R2
+cs
+ of 0.90.
+Let us assume that the model will need updating (eg, in 10 years
+owing to changes in the population behaviour and environment),
+and that an additional 10 predictor parameters (and thus a total
+of 20 parameters) will need to be considered in the model
+development.
+The sample size for a model development dataset must at least
+meet the four criteria of C1 to C4 in box 1. This requires us to
+specify the anticipated R2
+cs
+ (0.90), number of candidate predictor
+parameters (n=20), and mean (26.7 kg) and standard deviation
+(8.7 kg) of fat free mass in the target population (taken from
+Hudda et al47). For example, in Stata, after installation of
+pmsampsize (type: ssc install pmsampsize), we can type:
+pmsampsize, type(c) rsquared(0.9) parameters(20)
+intercept(26.7) sd(8.7)
+This returns that at least 254 participants are required, and so
+12.7 participants for each predictor parameter. The sample size
+of 254 is driven by the number needed to precisely estimate the
+model standard deviation (criterion C3), as only 68 participants
+are needed to minimise overfitting (criteria C1 and C2).
+Extensions and further topics
+Ensuring accurate predictions in key
+subgroups
+Alongside the criteria outlined in box 1, a more stringent task
+is to ensure model predictions are accurate in key subgroups
+defined by particular values or categories of included
+predictors.48 One way to tackle this is to ensure predictor effects
+in the model equation are precisely estimated, at least for key
+subgroups of interest.15 16 For binary and time-to-event outcomes,
+the precision of a predictor’s effect depends on its magnitude,
+the variance of the predictor’s values, the predictor’s correlation
+with other predictors in the model, the sample size, and the
+outcome proportion or rate in the study.49-51 For continuous
+outcomes, it depends on the sample size, the residual variance,
+the correlation of the predictor with other included predictors,
+and the variance of the predictor’s values.48 52-55 Note that for
+important categorical predictors large sample sizes might be
+needed to avoid separation issues (ie, where no events or
+non-events occur in some categories),13 and potential bias from
+sparse events.56
+Sample size considerations when using an
+existing dataset
+Our proposed sample size calculations (ie, based on the criteria
+in box 1) are still useful in situations when an existing dataset
+is already available, with a specific number of participants and
+predictors. Firstly, the calculations might identify that the dataset
+is too small (for example, if the overall outcome risk cannot be
+estimated precisely) and so the collection of further data is
+required.57 58 Secondly, the calculations might help identify how
+many predictors can be considered before overfitting becomes
+a concern. The shrinkage estimate obtained from fitting the full
+model (including all predictors) can be used to gauge whether
+the number of predictors could be reduced through data
+reduction techniques such as principal components analysis.10
+This process should be done blind to the estimated predictor
+effects in the full model, as otherwise decisions about predictor
+inclusion will be influenced by a “quick look” at the results
+(which increases the overfitting).
+Sample size requirements when using
+variable selection
+Further research on sample size requirements with variable
+selection is required, especially for the use of more modern
+penalisation methods such as the lasso (least absolute shrinkage
+and selection operator) or elastic net.33 59 Such methods allow
+shrinkage and variable selection to operate simultaneously, and
+they even allow the consideration of more predictor parameters
+than number of participants or outcome events (ie, in high
+dimensional settings). However, there is no guarantee such
+models solve the problem of overfitting in the dataset at hand.
+As mentioned, they require penalty and shrinkage factors to be
+estimated using the development dataset, and such estimates
+will often be hugely imprecise. Also, the subset of included
+predictors might be highly unstable60-63; that is, if the prediction
+model development was repeated on a different sample of the
+same size, a different subset of predictors might be selected and
+important predictors missed (especially if sample size is small).
+In healthcare the final set of predictors is a crucial consideration,
+owing to their cost, time, burden (eg, blood test, invasiveness),
+and measurement requirements.
+Larger sample sizes might be needed when
+using machine learning approaches to
+develop risk prediction models
+An alternative to regression based prediction models are those
+based on machine learning methods, such as random forests and
+neural networks (of which “deep learning” methods are a special
+case).64 When the focus is on individualised outcome risk
+prediction, it has been shown that extremely large datasets might
+be needed for machine learning techniques. For binary outcomes,
+machine learning techniques could need more than 10 times as
+many events for each predictor to achieve a small amount of
+overfitting compared with classic modelling techniques such
+as logistic regression, and might show instability and a high
+optimism even with more than 200 EPP.26 A major cause of this
+problem is that the number of predictor (“feature”) parameters
+considered by machine learning approaches will usually far
+exceed that for regression, even when the same set of predictors
+is considered, particularly because they routinely examine
+multiple interaction terms and categorise continuous predictors.
+Therefore, machine learning methods are not immune to sample
+size requirements, and actually might need truly “big data” to
+ensure their developed models have small overfitting, and for
+their potential advantages (eg, dealing with highly non-linear
+relations and complex interactions) to reach fruition. The size
+of most medical research datasets is better suited to using
+regression (including penalisation and shrinkage approaches),65
+especially as regression also leads to a transparent model
+equation that facilitates implementation, validation, and
+graphical displays.
+Sample size for model updating
+When an existing prediction model is updated, the existing
+model equation is revised using a new dataset. The required
+sample size for this dataset depends on how the model is to be
+updated and whether additional predictors are to be included.
+In our worked examples, we assumed that all parameters in the
+existing model will be re-estimated using the model updating
+dataset. In that situation, the researcher can still follow the
+guidance in box 1 for calculating the required sample size, with
+the total predictor parameters the same as in the original model
+plus those new parameters required for any additional predictors.
+Sometimes, however, only a subset of the existing model’s
+parameters is to be updated.66 67 In particular, to deal with
+calibration-in-the-large, researchers might only want to revise
+the model intercept (or baseline survival), while constraining
+the other parameter estimates to be the same as those in the
+existing model. In this case the required sample size only needs
+to be large enough to estimate the mean outcome value or
+outcome risk precisely (ie, to meet criteria C1, B1, or T1 in box
+1). Even if researchers also want to update the existing predictor
+effects, they might decide to constrain their updated values to
+be equal to the original values multiplied by a constant. Then,
+the sample size only needs to be large enough to estimate one
+predictor parameter (ie, the constant) for the existing predictors,
+plus any new parameters the researchers decide to add. Such
+model updating techniques therefore reduce the sample size
+needed (to meet the criteria in box 1) compared with when every
+predictor parameter is re-estimated without constraint.
+Conclusion
+Patients and healthcare professionals require clinical prediction
+models to accurately guide healthcare decisions.1
+ Larger sample
+sizes lead to more robust models being developed, and our
+guidance in box 1 outlines how to calculate the minimum sample
+size required. Clearly, the more data for model development
+the better; so if larger sample sizes are achievable than our
+guidance suggests, use it! Of course, any data collected should
+be of sufficient quality and representative of the target
+population and settings of application.68 69
+After data collection, careful model building is required using
+appropriate methods.1 3 10 In particular, we do not recommend
+data splitting (eg, into model training and testing samples), as
+this is inefficient and it is better to use all the data for model
+development, with resampling methods (such as bootstrapping)
+used for internal validation.70 71 Sometimes external information
+might be used to supplement the development dataset further.72-74
+Lastly, sample size requirements when externally validating an
+existing prediction model require a different approach, as
+discussed elsewhere.75-78

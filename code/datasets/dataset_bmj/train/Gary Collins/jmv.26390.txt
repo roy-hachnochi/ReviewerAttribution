@@ -1,0 +1,71 @@
+Statistical issues in the development of COVID‐19 prediction
+models
+To the Editor,
+Clinical prediction models to aid diagnosis, assess disease severity, or
+prognosis have enormous potential to aid clinical decision making
+during the coronavirus disease 2019 (COVID‐19) pandemic. A living
+systematic review has, so far, identified 145 COVID‐19 prediction
+models published (or preprinted) between 3 January and 5 May
+2020. Despite the considerable interest in developing COVID‐19
+prediction models, the review concluded that all models to date, with
+no exception, are at high risk of bias with concerns related to data
+quality, flaws in the statistical analysis, and poor reporting, and none
+are recommended for use.1 Disappointingly, the recent study by Yang
+et al2 describing the development of a prediction model to identify
+COVID‐19 patients with severe disease is no different. The study has
+failed to report important information needed to judge the study
+findings, but numerous methodological problems are apparent.2
+Our first point relates to the sample size. The sample size requirements in a prediction model study are largely influenced by the
+number of individuals experiencing the event to be predicted (in
+Yang's study, those with mild COVID‐19 disease, as this is the smaller
+of the two outcome categories). Using published sample size formulae for developing prediction models,3 based on information reported in the Yang study (40 predictors, outcome prevalence of
+0.489), the minimum sample size in the most optimistic scenario
+would be 538 individuals (264 events). To precisely estimate the
+intercept alone requires 384 individuals (188 events). The study by
+Yang included 133 individuals, where 65 had the outcome of mild
+disease, substantially lower than required.
+Developing a prediction model with a small sample size and a
+large number of predictors will result in a model that is overfit, including unimportant or spurious predictors, and overestimating the
+regression coefficients. This means that the model will appear to fit
+the data (used in its development) too well—leading to a model that
+has poor predictive accuracy in new data. An important step in all
+model development studies is to carry out an internal validation of
+the model building process (using either bootstrapping or cross‐
+validation), whereby the overestimation in regression coefficients can
+be determined and shrunk as well as estimating the optimism in
+model performance.4 This important step is absent in the study of
+Yang, who reported an area under the curve of 0.8842 in the same
+data used to develop their model—this will almost certainly be substantially overestimated.
+Another concern is the actual model. The final model contains seven
+predictors and the authors have fully reported this permitting individualized prediction. However, an obvious and major concern is the
+regression coefficient reported for procalcitonin, with a value of
+48.8309 and accompanying odds ratio with a confidence interval of
+“>999.999 (>999.999, >999.999)” (sic). This is clearly nonsensical, and to
+put it bluntly, makes the model unusable. The reason for the large regression value (standard error and confidence interval) is due to an issue
+called separation.
+5 This occurred because there was little or no overlap in
+the procalcitonin values between individuals with mild and severe disease. The statistical software used by the authors, SAS, will report odds
+ratios as greater than 999 when this occurs. Instead of retaining this in
+the model as is, one preferred approach would be to use Firth's correction, available in both SAS and R5. The authors used the model to
+develop an early warning score—this score has not been presented by
+the authors—and we caution against such an approach with a preference for alternative formats that permit estimation of absolute risk.6
+Other concerns include the handling of missing data. While the
+authors mention discarding observed values with more than 20%
+missing—it is unclear whether individuals were omitted, or whether
+entire predictors were omitted. Regardless, one can only assume a
+complete‐case analysis was conducted in preference for more suitable approaches using multiple imputations.7 Finally, we note the
+use of univariate screening, whereby predictors are omitted based on
+the lack of statistical association. This approach is largely discredited,
+as predictors can be spuriously retained or omitted.8
+We urge the authors and other investigators developing
+(COVID‐19) prediction models to read the transparent reporting of a
+multivariable prediction model for individual prognosis or diagnosis
+(TRIPOD) statement (www.tripod-statement.org) for key information
+to report when describing their study so that readers have the
+minimal information required to judge the quality of the study.9 The
+accompanying TRIPOD explanation and elaboration paper describes
+the rationale of the importance of transparent reporting, examples of
+good reporting, but also discusses methodological considerations.10
+Until improved methodological standards are adopted, we should not
+expect prediction models to benefit patients, and should consider the
+possibility that they might do more harm than good.

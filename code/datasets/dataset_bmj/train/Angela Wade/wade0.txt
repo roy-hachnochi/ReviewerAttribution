@@ -1,0 +1,409 @@
+Abstract
+Why might the average paediatrician need to get involved in understanding
+statistics? What do they need to know? Are there simple rules that can be followed
+in determining the appropriate analyses? Where can help be found?
+These are the questions that we aim to answer in this short review of
+how to design and analyze research studies.
+Keywords statistical-analyses; study-design; critical-appraisal
+Introduction
+In the modern day there is a plethora of information available at the
+practicing clinicians’ fingertips. Between 100 and 150 paediatric
+journals produce on average about 150,000 publications related to
+child health annually and these, together with research presented in
+journals not solely confined to paediatric medicine, contribute
+roughly 2 million paediatric related articles within PubMed online
+resource. In the US there are currently around 30,000 clinical trials
+being undertaken on children and these are mainly initiated by
+universities and institutes rather than drug companies.
+So, with all this happening, why is there any need to be able to
+understand the research process and statistics?Why not just leave it
+to the experts to do the work and provide the results?
+The problem is that not all published, or even all peer-reviewed,
+information is good information. Studies are not always optimally
+performed and analyses may be sub-standard. Anyone wishing to
+use the available literature to inform practice needs to be able to
+critically appraise content and not just skim abstracts. There is
+usually no malicious intent with badly performed research, but
+nonetheless it frequently exists and the reader needs to be able to
+identify potential flaws as well as useful and applicable research.
+Even if a study has been well designed, executed and presented,
+there will need to be verification that it is indeed generalisable to
+any context the reader may wish to apply the results in.
+To be fully commensurate with all aspects of medical statistics
+from research design through to analyses and interpretation of
+results however is too much of a daunting task for the majority of
+practicing clinicians. Thankfully, such in-depth knowledge is not
+necessary to be able to discern the good from the bad and to gain
+useful insights into the quality of publications, nor indeed to
+perform ones own research study. What is necessary is to understand
+the basics of design and also the thinking that underlines
+statistical analyses. This, plus the awareness to recognize where
+a fairly basic analysis may not be appropriate and it is time to enlist
+more expert help, should stand most readers in good stead.
+What do we want to know?
+Whether reviewing the work of others or aiming to undertake our
+own research, the first thing we need to do is to establish the
+correct research question.
+Sometimes data is collected primarily for clinical purposes
+and research a by-product i.e. individuals’ have information
+documented for their own benefit, but these individual bits may
+be combined within a research project. Alternatively, data may
+be collected specifically to address the research question posed.
+In the latter case data may be obtained that can more accurately
+address the research question.
+It is generally useful to consider a PICO breakdown of the
+research question:
+P e Patient, problem or population
+I e Intervention or exposure of interest
+C e Comparison
+O e Outcome
+For example, we may be interested in how to cure nits or find
+the risk factors for early onset asthma but these questions are too
+loose and it is not easy to see how they may be answered via
+a single study. By contrast, the questions:
+“In primary school children, does combing with conditioner
+post shampooing (as opposed to just shampooing) lead to less
+infestations of nits?”
+and
+“Are family history and introduction of solid food prior to
+6 months associated with onset of asthma before age 10?”
+are clearly answerable with obvious PICO elements.
+Note that not all elements occur in all research questions. For
+example, “What is the prevalence of asthma in 5 year olds?” is an
+answerable well-defined question that has a ‘P’ (5 year olds) and
+an ‘O’ (asthma yes/no), but no I or C.
+It is, however, useful to consider in each case whether there
+should be a P, I, C and O and what these are.
+Design, design, design!
+Design is of over-riding importance in any study. With even the
+most sophisticated elegant analyses, if basic data collection set
+up is less than ideal, then the conclusions must be tempered to
+take account of this.
+There are oftenmany differentways to address the same research
+question. If you are undertaking your own research, then youwould
+want to ensure that the most efficient and valid feasible design is
+used. If you are evaluating published research, then the decision to
+be made is whether the design they have used, even if not optimal,
+can usefully address the research question posed. In either case, it is
+worth remembering that it may be impossible to implement the best
+theoretical design due to practical, financial or ethical limitations.
+Not all designs fit into a neat framework. Figure 1 shows the
+most commonly cited designs where two groups of individuals
+are to be compared. They are split into observational studies,
+where the researcher does not change things but merely observes
+what is happening, and experimental where there is some
+manipulation of individuals for the study purposes.
+When observing individuals there are various approaches that
+can be taken:
+i) Consider past habits etc. that are associated with current
+outcomes (case-control).
+ii) Consider associations in the present time (cross-sectional).
+iii) Classify individuals and follow forward in time to observe
+outcomes (cohort).
+With experimental studies the researcher gets to decide who
+goes into which group. The split can be done systematically (nonrandomized)
+or randomly (randomized controlled trial). A before
+and after trial is a form of non-randomized experimental study
+which is rarely recommended as there will be no measure of what
+would have happened in the absence of treatment. Randomized
+controlled trials (RCT) where individuals are consented to the study
+and then randomly allocated to a treatment arm are generally
+considered the most effective way to show causal relationships. A
+crossover (or within person) RCT is where each individual receives
+both treatments in random order. A crossover trial is less likely to
+have hidden confounders but will only be appropriate to investigate
+a treatment giving short term relief of chronic symptoms.
+Sometimes the associations between behavior and outcomes
+of individuals are considered on a grouped basis:
+If the study is observational then this form of study is often
+known as ecological. For example, an ecological study compared
+childhood cancer rates between those born in hospitals with
+differing intramuscular vitamin K policies. No evidence was found
+of an association and this counteracted previous suggestions that
+administration of vitamin K may increase childhood cancer risk.
+If the study is a RCT, then the groups will be randomized en
+masse to different treatment arms and this is known as a cluster
+randomized trial. For example, villages were randomized to
+different educational programs in a bid to reduce infant mortality in
+rural areas of Nepal. The outcome for babies born in villages which
+received the new educational program were compared to those in
+the villages which did not receive additional input (controls).
+NOTE that the main named study types are given here BUT
+there are plenty of studies that do not easily pigeonhole into
+these mainstays and yet are equally valid.
+Is there anything that might get in the way of any
+comparisons?
+The majority of studies are designed to address comparative
+research questions. For example: do children with sickle cell
+anaemia have different sCD163 and/or plasma haptoglobin levels?
+Does giving antenatal corticosteroids (AC) reduce respiratory
+disorders in late preterm infants?
+Whether the study is observational or experimental, things we
+are not interested in may get in the way. They do this by having
+different distributions in the groups being compared and also
+being associated with outcome. When a variable behaves like
+this it is known as a confounder.
+Often studies are designed specifically to avoid confounding.
+Groups may be chosen to be similar with respect to the potential
+confounder(s), for example age and sex matched pairs, stratified
+randomization. A problem is that there may be many potential
+confounders, some of which are not even known, and it is not
+possible to consciously correct for all. A strength of randomized
+trials is that in a large enough trial all factors will be evened out
+between the groups and hence there will not be confounding.
+For example to address the question as to whether AC reduces
+respiratory disorders in late preterm infants, we need two groups
+of preterm infants: those given AC or not. There are several ways
+in which these two groups can be chosen relating to different
+types of study. i.e.:
+a) An ecological study: outcomes compared between hospitals
+with different AC policies.
+b) A case-control study: babies with and without respiratory
+disorders compared with respect to AC history.
+c) A cohort study: AC and not AC groups classified then followed
+to see who develops respiratory disorders.
+d) A randomized controlled trial of AC versus not AC.
+In designs (a)e(c), the observational studies, there is far more
+capacity for confounding and a causal relationship cannot be
+proved. With (d) there is less chance of confounding and it is
+possible to infer causality if a difference is found.
+How generalisable are any results?
+Generalisability is an issue whether the study is observational or
+experimental. A random sample of the target population (of the
+research question) should ideally be drawn whatever the study
+design. It is worth remembering that such an ideal sample is rarely
+obtained. For example, individuals were randomly sampled from
+those registered with the two largest unions in Hong Kong to
+investigate associations between lifestyle and obesity; schools were
+randomly selected in the Athens region when assessing the validity
+of a food questionnaire amongst school children; different doses of
+vitamin D were compared in a RCT in schoolchildren in Taleghan
+near Tehran. Although these may all provide suitably representative
+samples, we should consider whether they actually are
+generalisable outside of the groups the selection was from (unionregistered
+individuals in Hong Kong, schoolchildren in the Athens
+region or Taleghan). Very often there is no need to worry with RCTs
+in particular since what works in one sub-population will probably
+also work elsewhere. For example, if a RCT shows that a preparation
+is beneficial to asthmatics in Liverpool, then it will probably
+also be beneficial to asthmatics in the rest of the country (and
+possibly the world), so long as our population of asthmatics is
+similar. With observational studiesmore caution may be warranted
+as there is greater potential for confounding and effects may not be
+constant across different communities.
+Similarly, we should be happy that any sampling is representative
+on a time basis. For example, if a drug is trialed exclusively
+in Summer, will the effects be similar in Winter? When dealing
+with children there are often differences in diet and exercise during
+term time and outside which may confound the results if not
+properly adjusted for. Weekends and weekday habits also often
+differ: the Greek children were asked to complete food questionnaires
+on two consecutive weekdays and one weekend day.
+If comparisons are made over a long time period then causal
+agents may be very difficult to infer as there may be underlying
+improvements for all kinds of related reasons. For example,
+survival rates increased and levels of severe neurodevelopmental
+impairment decreased substantially between 1998 and 2003 for
+inborn infants with birthweight below 1000 g, but it would be
+hard to pinpoint one single causal factor.
+Summaries
+For any quantitative study, information is recorded for each individual
+and the values combined within the study groups to provide
+summaries of similarities and differences. The appropriate form of
+summary depends on whether the particular piece of information is
+numeric (such as height, weight, sCD163) or categoric (such as
+family history: yes/no, severity of disease: mild/moderate/severe,
+gender:male/female).Acategoric variable with only two categories
+(eg. yes/no, male/female) is known as binary.
+Numeric data should be summarized as either mean and standard
+deviation or median and range or inter-quartile range. The
+median is the 50th centile, with half the values being higher than
+this and half lower, whatever the distribution. The inter-quartile
+range is the 25the75th centiles i.e. the ‘middle half’ of the data if we
+chop of the top and bottom quarters. If the distribution of the
+variable is skew (tailing off in one direction), then the mean and
+standard deviation should NOT be used.
+For example, height does not have a skew distribution since
+there are as many short as there are tall people whereas incomes
+do have a skew distribution as there is a minimum level of earning
+and relatively few very high earners. For height, the mean and
+median will be approximately equal and either provides a good
+summary of average, the standard deviation can also be used. For
+income levels, the mean will not be representative of average
+earnings as it will be skewed by the few high earners, whereas the
+median and inter-quartile range will give a useful summary.
+Differences between groups can be quantified as the difference
+in means or medians as appropriate.
+Categoric data can be summarized using proportions who fall
+into one category and differences between groups quantified as
+either the absolute or relative difference. These are sometimes
+known as the ARR (Absolute Risk Reduction) and RR (Relative
+Risk) respectively. For example, a recent study showed antenatal
+corticosteroid treatment at 34e36 weeks gestation did not reduce
+the incidence of respiratory morbidity (36/143 ¼ 25% corticosteroid
+group; 30/130 23% placebo group). Hence ARR¼ 25e23
+¼ 2% and RR¼ 25/23 ¼ 1.09. Respiratory distress syndrome
+(RDS) incidences were also similar (2/143 ¼ 1.4% and 1/130 ¼
+0.77% respectively, yielding an ARR of 0.6% and RR of 1.40/0.77
+¼ 1.82).
+Note that no difference in absolute terms is given by zero,
+whereas for relative comparisons, no difference is defined as 1.
+An approximation to the RR which is often used is the Odds
+Ratio (OR), for which a value of 1 similarly means no difference
+between groups.
+How many is enough?
+It is important to study enough individuals to address the
+research question but unethical to waste time and subject more
+individuals to scrutiny than is necessary. All studies should have
+some stated rationale for the proposed numbers to be included
+prior to study commencement.
+There are many different sample size formulae and the
+correct one to use depends on the nature of the outcome
+(numeric or categoric) and the purpose of the study (to identify
+a difference between groups or to estimate a quantity with
+sufficient precision). Each formula will require you to provide
+several pieces of information, such as the size of difference
+that you want to detect, or the precision required. Note
+however, that there is a circular argument to sample size
+estimation which may initially appear confusing. Calculation is
+also based on outcome and if you had all the information to do
+the calculation properly you wouldn’t need to do the study!
+Hence, these calculations can only ever be educated guesswork
+but nonetheless it is always worth guessing. Some web
+links which contain suitable applications are given at the end
+of this article.
+Analyses
+Figure 2 shows when to use the seven most commonly cited
+tests for comparing a single outcome between two groups. The
+aim is either to compare the proportion in one category of
+a categoric outcome (left hand branch) or the mean (right hand
+branch, left side) or median (right hand branch, right side)
+between the groups. If the groups are paired (for example, age
+and sex matched pairs of individuals in the two groups or
+a crossover treatment trial yielding paired measurements within
+person) then the appropriate test is McNemars (categoric
+outcome), paired t-test or Wilcoxon’s test. If there is no pairing
+then the appropriate test to compare the groups is chi-square or
+Fishers exact (categoric), two sample t-test or ManneWhitney U
+test respectively.
+For example:
+Chi-square test was used to compare respiratory morbidity
+between AC and placebo treated groups (36/143 vs 30/130, p ¼
+0.69). The lownumbers with RDS (2/143 and 1/130) meant that
+Fishers Exact test was used for this comparison (p¼0.54).
+A two sample t-test would be used to compare sCD163 levels
+between patients with and without sickle cell anaemia.
+ManneWhitney U test would be used to compare plasma
+haemoglobin levels which have a skew distribution.
+If each child with sickle cell anaemia had a matched control
+selected from their class at school, then the data would consist
+of matched pairs and the appropriate tests would be a paired
+t-test and Wilcoxon paired test for the sCD163 and plasma
+haemoglobin comparisons respectively.
+If the aim is to make a comparison after adjustment for other
+factors or to build a predictive model, then regression will be
+appropriate. The type of regression to use depends on the nature
+of the outcome. Table 1 gives an overview of what type of
+regression to use when.
+For example:
+To compare respiratory morbidity rates between those given
+AC or not, adjusting for gestational age and gender, we would
+use a logistic regression since the outcome (respiratory
+morbidity) is binary (yes/no).
+Poisson regression is used for discrete (count) data and results
+are given as relative risks (RR). For example, a recent study
+showed that there was a significant decrease in mortality in
+the delivery room for babies with an estimated GA of 22
+weeks between 1998 and 2008: RR ¼ 0.47 (95% ci (0.24 to
+0.93)).
+Linear regression would be used to compare sCD163 between
+sickle cell children and controls taking into account age and
+weight.
+The extent to which onset of childhood asthma (yes/no) is
+associated with family history and early diet and infections can
+be investigated using a logistic regression model.
+Not the whole story
+Papers that only cite p-values as the results of statistical analyses,
+although commonplace, are flawed. It is not possible to ascertain
+the clinical impact of a finding using the p-value alone. The
+p-value merely shows how compatible the data obtained is with
+the hypothesis of no difference (average difference or ARR ¼ 0,
+RR or OR ¼ 1), but not how likely other scenarios might be.
+Estimates of effect size should always be given and presented
+with confidence intervals. A 95% confidence interval gives the
+range of population scenarios that the sample data is compatible
+with 95% confidence.
+For example:
+Neither respiratorymorbidity norRDS were significantly different
+in the trial of corticosteroid versus placebo (RR 1.09, p¼0.69 and
+1.82, p ¼ 0.54 respectively). However, confidence intervals for
+theRRreveal the range ofvalueswhich the trial is compatible with
+and paint a different picture. The 95%confidence intervals for the
+RR are (0.72, 1.66) formorbidity and (0.17, 19.8) for RDS.We are
+farmore confident in excluding large differences inmorbidity but
+for RDS the interval is very wide (due to the small number of
+events) and almost 20-fold differences cannot be excluded even
+though the difference is statistically non-significant.
+Filling the gaps
+Rarely is a study as simple as the textbook examples often given
+where a single outcome is compared between two or more groups
+of well-defined individuals. More commonly, there is a whole host
+of information collected from each participant that will be
+combined to give an overall picture. Some pieces of information
+may correlate with others to give a more comprehensive overview
+of the issues. Although this is a good thing to do and may lend
+validity to the ‘main’ question, the collection of large amounts of
+information carries with it pitfalls. Most notably, there is greater
+capacity for some individuals to have incomplete data. Unfortunately
+most statistical analyses require each individual to supply
+values for all variables included and so it is necessary to either fill
+the gaps or exclude those individuals with missing data.
+Figure 3 gives a guide to useful and not so useful techniques that
+can be used. Replacing the missing values by some substitute with
+no allowance for potential error in doing so is always wrong (left
+hand branch) since this will lead to overly precise results and
+possibly also bias. If the data are missing completely at random,
+then removing any individuals with any missing data (listwise
+deletion) will not introduce bias but precision may be less than it
+needs to be. ‘Missing at random’ means that the missing data could
+be inferred from that available. For example, if we have the age and
+gender of a child then we would be able to make a reasonable guess
+at their height. For data missing at random, or missing completely
+at random, the preferred option is multiple imputation and this will
+give unbiased results with the best possible precision. Multiple
+imputation techniques are now available in most large packages
+and details can be found in the references at the end of this article.
+Particular issues for paediatricians
+Mostly problems are the same as for any discipline. When
+dealing with frontline clinical medicine, as opposed to the laboratory
+scientist, there are the additional issues to face around
+recruitment of people who may choose not to be part of the study
+or may agree and then not provide all required data. They may
+not provide valid information (for example, they may be inaccurate
+in reporting gestation and self-reported smoking histories
+have long been known to be open to bias) or adhere to preferred
+time-scales (for example, a scheduled annual follow up may need
+to be undertaken much earlier or later due to illness or holidays).
+When dealing with children there are the added problems of
+whether ethics require assent from the child and/or consent
+from the parent/guardians, plus the aging process may mean
+that they are not a homogenous group. The latter is evidenced
+in the need for age (or growth) related standards to interpret
+individual data. For example, it is usual to interpret childhood
+lung function measurements with reference to the height of the
+child. Hence adjustment is often necessary for comparing
+groups of children unless those groups are only within a relatively
+small age range (in which case the results would not be
+generalisable outside of the range). This infers a need for more
+complex analyses.
+Making sense of it all!
+In this short article we have given an overviewof some issues facing
+the paediatrician either trying to interpret published research or
+undertaking their own study. It cannot be comprehensive but aims
+to provide a starting point. Further recommended reading is given
+below.
+To summarize, we hope that:
+P aediatricians have become more
+I nformed after reading this article
+C ompared to those who have not read it, with the longer term
+O utcome of better understanding of published research.
