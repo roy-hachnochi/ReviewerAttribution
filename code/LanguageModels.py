@@ -25,13 +25,13 @@ class Vocabulary:
         try:
             return self.word2int[word]
         except KeyError:
-            return -1
+            return self.word2int[UNK_TOKEN]
 
     def get_word(self, i):
         try:
             return self.int2word[i]
         except KeyError:
-            return ""
+            return UNK_TOKEN
 
     def transform(self, corpus):
         return [self.get_int(word) for word in corpus.split()]
@@ -73,7 +73,8 @@ class LanguageModelNN(nn.Module):
 
 # ======================================================================================================================
 class LanguageModel:
-    def __init__(self, fileName=None):
+    def __init__(self, name, fileName=None):
+        self.name = name
         self.NN = None
         self.vocab = Vocabulary()
         if fileName is not None:
@@ -220,7 +221,7 @@ if __name__ == '__main__':
         texts = [dataset_train[i] for i, l in enumerate(labels_train) if l == label]  # get all texts for this author
         dataset = Dataset(seq_length)
         dataset.prepare(texts)
-        model = LanguageModel()
+        model = LanguageModel(label)
         model.NN = LanguageModelNN(dataset.vocab.nWords).to(device)
         model.vocab = dataset.vocab
         train(dataset, model.NN, batch_size, max_epochs, lr, device, seq_length)

@@ -16,16 +16,16 @@ class FeatureExtractor:
         self.trigram = WordHistogram()
         self.fourgram = WordHistogram()
         self.fivegram = WordHistogram()
-        self.languageModels = None
+        self.languageModels = []
         self.nTokens = []
         self.ignore = ignore
         self.nFeatures = 0
 
-    def load_language_models(self, names):
+    def load_language_models(self, folderName, names):
         self.nFeatures += len(names) - len(self.languageModels)
         self.languageModels = []
         for name in names:
-            self.languageModels.append(LanguageModel(name))
+            self.languageModels.append(LanguageModel(name, folderName + name))
 
     def fit(self, dataset, nTokens):
         datasetClean = [[token for token in corpus if token not in self.ignore] for corpus in dataset]

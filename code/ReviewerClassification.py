@@ -52,6 +52,7 @@ if __name__ == '__main__':
     nTokens = [50, 70, 100, 30, 15]
     ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]
     pTrain = 0.6
+    LM_folderName = "./Language_Models/"
     plotFeatures = False
     plotConfMat = True
     TrainReviews = True
@@ -59,7 +60,7 @@ if __name__ == '__main__':
     # load and preprocess dataset:
     print('Preprocessing Data...')
     if TrainReviews:
-        dataset, labels = get_test("./datasets/dataset_f1000")
+        dataset, labels = get_test("./datasets/dataset_bmj/test")
         dataset_train, labels_train, dataset_test, labels_test = test_train_split_improved(dataset, labels, pTrain)
     else:
         dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
@@ -75,6 +76,7 @@ if __name__ == '__main__':
     # extract features:
     print('Extracting features...')
     feature_ext = FeatureExtractor(ignore=ignore)
+    feature_ext.load_language_models(LM_folderName, class_to_labels_dict)
     feature_ext.fit(dataset_train, nTokens=nTokens)
     print(feature_ext.unigram.frequentWords)
     print(feature_ext.bigram.frequentWords)
