@@ -7,20 +7,22 @@ import re
 UNK_TOKEN = '<UNK>'
 
 # ======================================================================================================================
-def tokenize(filename):
+def tokenize(filename, maxWords=np.inf):
     # Read text from file and convert from string to list of words/tokens.
     data = open(filename, "r", encoding='utf-8-sig').readlines()
     data = ''.join(str(line) for line in data)
     data = data.lower()
-    signs = ['.', ',', ':', '!', '?', '(', ')', '/', '\'', '\"', '[', ']', '{', '}', ';', '-']
+    signs = ['.', ',', ':', '!', '?', '(', ')', '/', '\'', '\"', '[', ']', '{', '}', ';', '-', '<', '>']
     for sign in signs:
         data = data.replace(sign, " " + sign + " ")
     tokens = data.split()
+    tokens = tokens[:min(len(tokens), maxWords)]
 
     lem = WordNetLemmatizer()
-    tokens = [lem.lemmatize(word, "v") for word in tokens]
-    tokens = [re.sub(r'[0-9][a-zA-Z]*[0-9]*', UNK_TOKEN, word) for word in tokens]
-    tokens = [UNK_TOKEN if UNK_TOKEN in word else word for word in tokens]
+    for i, word in enumerate(tokens):
+        word = lem.lemmatize(word, "v")
+        word = re.sub(r'[0-9][a-zA-Z]*[0-9]*', UNK_TOKEN, word)  # replace anything containing numbers with UNK
+        tokens[i] = UNK_TOKEN if UNK_TOKEN in word else word
     return tokens
 
 # ======================================================================================================================
@@ -39,8 +41,7 @@ def get_train(folderName, maxWords=np.inf):
         files = os.listdir(folderName + "/" + author)
         for file in files:
             if os.path.isfile(folderName + "/" + author + "/" + file):
-                tokens = tokenize(folderName + "/" + author + "/" + file)
-                tokens = [tokens[i] for i in range(min(len(tokens), maxWords))]
+                tokens = tokenize(folderName + "/" + author + "/" + file, maxWords)
                 dataset.append(tokens)
                 labels.append(author.lower())
     return dataset, labels

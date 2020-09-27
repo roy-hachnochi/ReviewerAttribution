@@ -77,6 +77,8 @@ class LanguageModel:
         self.name = name
         self.NN = None
         self.vocab = Vocabulary()
+        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        print('Using device: ' + str(self.device))
         if fileName is not None:
             self.load(fileName)
 
@@ -92,7 +94,7 @@ class LanguageModel:
     def load(self, fileName):
         self.vocab.load(fileName + "_vocab")
         self.NN = LanguageModelNN(self.vocab.nWords)
-        self.NN.load_state_dict(torch.load(fileName + "_state_dict.pt"))
+        self.NN.load_state_dict(torch.load(fileName + "_state_dict.pt", map_location=self.device))
         with open(fileName + "_params", 'rb') as file:
             params = pickle.load(file)
         self.NN.lstm_size = params['lstm_size']
@@ -101,6 +103,7 @@ class LanguageModel:
 
     def calc_perplexity(self, words):
         window_size = 5
+        self.NN.to(self.device)
         self.NN.eval()
 
         state_h, state_c = self.NN.init_state(window_size)
@@ -108,7 +111,7 @@ class LanguageModel:
         ent = 0
         for i in range(0, len(words) - window_size):
             # insert previous words to model, to get probabilities for next word:
-            x = torch.tensor([[self.vocab.get_int(w) for w in words[i:(i + window_size)]]])
+            x = torch.tensor([[self.vocab.get_int(w) for w in words[i:(i + window_size)]]]).to(self.device)
             y_pred, (state_h, state_c) = self.NN(x, (state_h, state_c))
 
             # get probabilities for next word:
@@ -158,7 +161,7 @@ def train(dataset, model, batch_size, max_epochs, lr, device, seq_length):
             y = y.to(device)
 
             y_pred, (state_h, state_c) = model(x, (state_h, state_c))
-            loss = criterion(y_pred.transpose(1, 2), y)  # TODO: why transpose?
+            loss = criterion(y_pred.transpose(1, 2), y)
 
             state_h = state_h.detach()
             state_c = state_c.detach()
@@ -172,14 +175,14 @@ def train(dataset, model, batch_size, max_epochs, lr, device, seq_length):
     model.vocab = dataset.vocab
 
 # ======================================================================================================================
-def predict(vocab, model, text, next_words=100):
+def predict(vocab, model, text, device, next_words=100):
     model.eval()
 
     words = text.split(' ')
     state_h, state_c = model.init_state(len(words))
 
     for i in range(0, next_words):
-        x = torch.tensor([[vocab.get_int(w) for w in words[i:]]])
+        x = torch.tensor([[vocab.get_int(w) for w in words[i:]]]).to(device)
         y_pred, (state_h, state_c) = model(x, (state_h, state_c))
 
         last_word_logits = y_pred[0][-1]
@@ -193,11 +196,9 @@ def predict(vocab, model, text, next_words=100):
 if __name__ == '__main__':
     # hyper-parameters:
     # TODO: set hyper-parameters
-    # TODO: function for calculating perplexity
     seq_length = 32
     batch_size = 32
     max_epochs = 2
-    seq_length = 32
     lr = 0.0001
     LM_folderName = "./Language_Models/"
 
@@ -207,6 +208,8 @@ if __name__ == '__main__':
     # load and preprocess dataset:
     print('Preprocessing data...')
     dataset_train, labels_train = get_test("./datasets/dataset_bmj/test")
+    # dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
+    # dataset_train, labels_train = get_train("../toy_data")
 
     # get labels dictionary:
     class_to_labels_dict = list(set(labels_train))
@@ -214,18 +217,16 @@ if __name__ == '__main__':
     nLabels = len(class_to_labels_dict)
 
     # create and train Language Model for each label:
-    print('Training Language Model...')
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    print('Using device: ' + str(device))
+    print('Training Language Models...')
     for label in class_to_labels_dict:
         texts = [dataset_train[i] for i, l in enumerate(labels_train) if l == label]  # get all texts for this author
         dataset = Dataset(seq_length)
         dataset.prepare(texts)
         model = LanguageModel(label)
-        model.NN = LanguageModelNN(dataset.vocab.nWords).to(device)
+        model.NN = LanguageModelNN(dataset.vocab.nWords).to(model.device)
         model.vocab = dataset.vocab
-        train(dataset, model.NN, batch_size, max_epochs, lr, device, seq_length)
-        print(predict(dataset.vocab, model.NN, text='i'))
+        train(dataset, model.NN, batch_size, max_epochs, lr, model.device, seq_length)
+        print(predict(dataset.vocab, model.NN, text='i', device=model.device))
         model.save(LM_folderName + label)
         print("perplexity = {}".format(model.calc_perplexity(texts[0])))
 
