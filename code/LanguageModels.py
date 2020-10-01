@@ -107,6 +107,8 @@ class LanguageModel:
         self.NN.eval()
 
         state_h, state_c = self.NN.init_state(window_size)
+        state_h = state_h.to(self.device)
+        state_c = state_c.to(self.device)
 
         ent = 0
         for i in range(0, len(words) - window_size):
@@ -156,6 +158,8 @@ def train(dataset, model, batch_size, max_epochs, lr, device, seq_length):
     for epoch in range(max_epochs):
         startTime = time.time()
         state_h, state_c = model.init_state(seq_length)
+        state_h = state_h.to(device)
+        state_c = state_c.to(device)
         for x, y in dataloader:
             x = x.to(device)
             y = y.to(device)
@@ -180,6 +184,8 @@ def predict(vocab, model, text, device, next_words=100):
 
     words = text.split(' ')
     state_h, state_c = model.init_state(len(words))
+    state_h = state_h.to(device)
+    state_c = state_c.to(device)
 
     for i in range(0, next_words):
         x = torch.tensor([[vocab.get_int(w) for w in words[i:]]]).to(device)
