@@ -102,7 +102,7 @@ class LanguageModel:
         self.NN.num_layers = params['num_layers']
 
     def calc_perplexity(self, words):
-        window_size = 5
+        window_size = 5  # TODO: choose window size
         self.NN.to(self.device)
         self.NN.eval()
 
@@ -118,7 +118,7 @@ class LanguageModel:
 
             # get probabilities for next word:
             last_word_logits = y_pred[0][-1]
-            p = F.softmax(last_word_logits, dim=0).detach().numpy()
+            p = F.softmax(last_word_logits, dim=0).detach().cpu().numpy()
 
             # get probability of true next word:
             wordInd = self.vocab.get_int(words[i + window_size])
@@ -192,7 +192,7 @@ def predict(vocab, model, text, device, next_words=100):
         y_pred, (state_h, state_c) = model(x, (state_h, state_c))
 
         last_word_logits = y_pred[0][-1]
-        p = F.softmax(last_word_logits, dim=0).detach().numpy()
+        p = F.softmax(last_word_logits, dim=0).detach().cpu().numpy()
         word_index = np.random.choice(len(last_word_logits), p=p)
         words.append(vocab.get_word(word_index))
 

@@ -12,15 +12,15 @@ def tokenize(filename, maxWords=np.inf):
     data = open(filename, "r", encoding='utf-8-sig').readlines()
     data = ''.join(str(line) for line in data)
     data = data.lower()
-    signs = ['.', ',', ':', '!', '?', '(', ')', '/', '\'', '\"', '[', ']', '{', '}', ';', '-', '<', '>']
-    for sign in signs:
-        data = data.replace(sign, " " + sign + " ")
+    signs = ['.', ',', ':', '!', '?', '(', ')', '/', '\'', '\"', '“', '[', ']', '{', '}', ';', '-', '<', '>']
+    # for sign in signs:
+    #     data = data.replace(sign, " " + sign + " ")
     tokens = data.split()
     tokens = tokens[:min(len(tokens), maxWords)]
 
     lem = WordNetLemmatizer()
     for i, word in enumerate(tokens):
-        word = lem.lemmatize(word, "v")
+        # word = lem.lemmatize(word, "v")
         word = re.sub(r'[0-9][a-zA-Z]*[0-9]*', UNK_TOKEN, word)  # replace anything containing numbers with UNK
         tokens[i] = UNK_TOKEN if UNK_TOKEN in word else word
     return tokens
