@@ -7,29 +7,31 @@ import re
 UNK_TOKEN = '<UNK>'
 
 # ======================================================================================================================
-def tokenize(filename, maxWords=np.inf):
-    # Read text from file and convert from string to list of words/tokens.
-    data = open(filename, "r", encoding='utf-8-sig').readlines()
-    data = ''.join(str(line) for line in data)
-    data = data.lower()
+def load_text(filename):
+    text = open(filename, "r", encoding='utf-8-sig').readlines()
+    text = ''.join(str(line) for line in text)
+    text = text.lower()
+    return text
+
+def tokenize(data, maxWords=np.inf):
+    # Convert data from string to list of words/tokens.
     signs = ['.', ',', ':', '!', '?', '(', ')', '/', '\'', '\"', '“', '[', ']', '{', '}', ';', '-', '<', '>']
-    # for sign in signs:
-    #     data = data.replace(sign, " " + sign + " ")
+    for sign in signs:
+        data = data.replace(sign, " " + sign + " ")
     tokens = data.split()
     tokens = tokens[:min(len(tokens), maxWords)]
 
     lem = WordNetLemmatizer()
     for i, word in enumerate(tokens):
-        # word = lem.lemmatize(word, "v")
+        word = lem.lemmatize(word, "v")
         word = re.sub(r'[0-9][a-zA-Z]*[0-9]*', UNK_TOKEN, word)  # replace anything containing numbers with UNK
         tokens[i] = UNK_TOKEN if UNK_TOKEN in word else word
     return tokens
 
 # ======================================================================================================================
-def get_train(folderName, maxWords=np.inf):
+def get_train(folderName):
     # Load train data.
     # Assume that training data is organized in folders, where the name of the folder is the label of all files inside.
-
     folders = []
     dataset = []
     labels = []
@@ -41,8 +43,8 @@ def get_train(folderName, maxWords=np.inf):
         files = os.listdir(folderName + "/" + author)
         for file in files:
             if os.path.isfile(folderName + "/" + author + "/" + file):
-                tokens = tokenize(folderName + "/" + author + "/" + file, maxWords)
-                dataset.append(tokens)
+                text = load_text(folderName + "/" + author + "/" + file)
+                dataset.append(text)
                 labels.append(author.lower())
     return dataset, labels
 
@@ -50,7 +52,6 @@ def get_train(folderName, maxWords=np.inf):
 def get_test(folderName, fileNameInd=0, labelsInd=1):
     # Load test data. Loads all texts from labels file.
     # Assume that labels are kept in a csv file named "labels.csv".
-
     with open(folderName + "/labels.csv", mode='r', newline='') as labels_file:
         labels_reader = csv.reader(labels_file, delimiter=',')
         labels_all = [row for row in labels_reader]  # list of lists of all labels
@@ -62,8 +63,8 @@ def get_test(folderName, fileNameInd=0, labelsInd=1):
     # load files:
     dataset = []
     for fileName in fileNames:
-        tokens = tokenize(folderName + "/" + fileName + ".txt")
-        dataset.append(tokens)
+        text = load_text(folderName + "/" + fileName + ".txt")
+        dataset.append(text)
     return dataset, labels
 
 # ======================================================================================================================

@@ -5,8 +5,9 @@ from matplotlib import cm
 from nltk.corpus import stopwords
 from nltk.util import ngrams
 import math
-
-from LanguageModels import LanguageModel
+import torch
+from LanguageModels import calculate_perplexity, load_lm
+from Preprocess import tokenize
 
 # ======================================================================================================================
 class FeatureExtractor:
@@ -16,19 +17,15 @@ class FeatureExtractor:
         self.trigram = WordHistogram()
         self.fourgram = WordHistogram()
         self.fivegram = WordHistogram()
-        self.languageModels = []
+        self.LM_foldernames = []
         self.nTokens = []
         self.ignore = ignore
         self.nFeatures = 0
 
-    def load_language_models(self, folderName, names):
-        self.nFeatures += len(names) - len(self.languageModels)
-        self.languageModels = []
-        for name in names:
-            self.languageModels.append(LanguageModel(name, folderName + name))
-
-    def fit(self, dataset, nTokens):
-        datasetClean = [[token for token in corpus if token not in self.ignore] for corpus in dataset]
+    def fit(self, dataset, nTokens, maxWords=np.inf, LM_foldername=None, labels=None):
+        assert((LM_foldername is not None and labels is not None) or (LM_foldername is None and labels is None))
+        datasetClean = [tokenize(text, maxWords=maxWords) for text in dataset]
+        datasetClean = [[token for token in tokens if token not in self.ignore] for tokens in datasetClean]
         datasetBi = get_ngrams(datasetClean, n=2)
         datasetTri = get_ngrams(datasetClean, n=3)
         datasetFour = get_ngrams(datasetClean, n=4)
@@ -38,11 +35,16 @@ class FeatureExtractor:
         self.trigram.fit(datasetTri, N=nTokens[2])
         self.fourgram.fit(datasetFour, N=nTokens[3])
         self.fivegram.fit(datasetFive, N=nTokens[4])
+        if LM_foldername is not None:
+            self.LM_foldernames = [LM_foldername + label for label in labels]
         self.nTokens = nTokens
-        self.nFeatures = sum(self.nTokens) + len(self.languageModels)
+        self.nFeatures = sum(self.nTokens) + len(self.LM_foldernames)
 
     def transform(self, dataset):
-        datasetClean = [[token for token in corpus if token not in self.ignore] for corpus in dataset]
+        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+        datasetClean = [tokenize(text) for text in dataset]
+        datasetClean = [[token for token in corpus if token not in self.ignore] for corpus in datasetClean]
         datasetBi = get_ngrams(datasetClean, n=2)
         datasetTri = get_ngrams(datasetClean, n=3)
         datasetFour = get_ngrams(datasetClean, n=4)
@@ -57,8 +59,11 @@ class FeatureExtractor:
             X[ind, featuresInds[1]:featuresInds[2]] = self.trigram.transform(corpusTri)
             X[ind, featuresInds[2]:featuresInds[3]] = self.fourgram.transform(corpusFour)
             X[ind, featuresInds[3]:featuresInds[4]] = self.fivegram.transform(corpusFive)
-            for i, lm in enumerate(self.languageModels):
-                X[ind, featuresInds[4] + i] = lm.calc_perplexity(corpus)
+
+        for i_lm, lm_foldername in enumerate(self.LM_foldernames):
+            model, tokenizer = load_lm(lm_foldername)
+            for ind, text in enumerate(dataset):
+                X[ind, featuresInds[4] + i_lm] = calculate_perplexity(text, model, tokenizer, device)
         return X
 
 # ======================================================================================================================

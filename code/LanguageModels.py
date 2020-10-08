@@ -1,242 +1,91 @@
-from Preprocess import *
-import numpy as np
 import torch
-from torch import nn, optim
-import torch.nn.functional as F
-from torch.utils.data import DataLoader
-import time
-import pickle
-import math
+import os
+from transformers import TextDataset, GPT2Tokenizer, GPT2Config, GPT2LMHeadModel, Trainer, TrainingArguments, DataCollatorForLanguageModeling
 
 # ======================================================================================================================
-class Vocabulary:
-    def __init__(self):
-        self.word2int = {}
-        self.int2word = {}
-        self.nWords = 0
+def calculate_perplexity(text, model, tokenizer, device):
+    encodings = tokenizer(text, return_tensors='pt')
+    max_length = model.config.n_positions
+    stride = 256
 
-    def fit(self, corpus):
-        uniqueWords = list(set(corpus.split()))
-        self.int2word = {i: word for i, word in enumerate(uniqueWords)}
-        self.word2int = {word: i for i, word in self.int2word.items()}
-        self.nWords = len(self.int2word)
+    lls = []
+    for i in range(0, encodings.input_ids.size(1), stride):
+        begin_loc = max(i + stride - max_length, 0)
+        end_loc = i + stride
+        input_ids = encodings.input_ids[:, begin_loc:end_loc].to(device)
+        target_ids = input_ids.clone()
+        target_ids[:, :-stride] = -100
 
-    def get_int(self, word):
-        try:
-            return self.word2int[word]
-        except KeyError:
-            return self.word2int[UNK_TOKEN]
+        with torch.no_grad():
+            outputs = model(input_ids, labels=target_ids)
+            log_likelihood = outputs[0] * stride
 
-    def get_word(self, i):
-        try:
-            return self.int2word[i]
-        except KeyError:
-            return UNK_TOKEN
+        lls.append(log_likelihood)
 
-    def transform(self, corpus):
-        return [self.get_int(word) for word in corpus.split()]
+    ppl = torch.exp(torch.stack(lls).sum() / i)
+    return ppl.item()
 
-    def save(self, fileName):
-        to_save = {'word2int': self.word2int,
-                   'int2word': self.int2word}
-        with open(fileName, 'wb+') as file:
-            pickle.dump(to_save, file)
 
-    def load(self, fileName):
-        with open(fileName, 'rb') as file:
-            loaded = pickle.load(file)
-        self.word2int = loaded['word2int']
-        self.int2word = loaded['int2word']
-        self.nWords = len(self.int2word)
-
-# ======================================================================================================================
-class LanguageModelNN(nn.Module):
-    def __init__(self, n_vocab):
-        super(LanguageModelNN, self).__init__()
-        self.lstm_size = 32
-        self.embedding_dim = 256
-        self.num_layers = 1
-
-        self.embedding = nn.Embedding(num_embeddings=n_vocab, embedding_dim=self.embedding_dim)
-        self.lstm = nn.LSTM(input_size=self.embedding_dim, hidden_size=self.lstm_size, num_layers=self.num_layers, dropout=0.2)
-        self.fc = nn.Linear(self.lstm_size, n_vocab)
-
-    def forward(self, x, prev_state):
-        wordEmbedding = self.embedding(x)
-        output, state = self.lstm(wordEmbedding, prev_state)
-        logits = self.fc(output)
-        return logits, state
-
-    def init_state(self, seq_length):
-        return (torch.zeros(self.num_layers, seq_length, self.lstm_size),
-                torch.zeros(self.num_layers, seq_length, self.lstm_size))
-
-# ======================================================================================================================
-class LanguageModel:
-    def __init__(self, name, fileName=None):
-        self.name = name
-        self.NN = None
-        self.vocab = Vocabulary()
-        self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-        print('Using device: ' + str(self.device))
-        if fileName is not None:
-            self.load(fileName)
-
-    def save(self, fileName):
-        torch.save(self.NN.state_dict(), fileName + "_state_dict.pt")
-        self.vocab.save(fileName + "_vocab")
-        params = {'lstm_size': self.NN.lstm_size,
-                  'embedding_dim': self.NN.embedding_dim,
-                  'num_layers': self.NN.num_layers}
-        with open(fileName + "_params", 'wb+') as file:
-            pickle.dump(params, file)
-
-    def load(self, fileName):
-        self.vocab.load(fileName + "_vocab")
-        self.NN = LanguageModelNN(self.vocab.nWords)
-        self.NN.load_state_dict(torch.load(fileName + "_state_dict.pt", map_location=self.device))
-        with open(fileName + "_params", 'rb') as file:
-            params = pickle.load(file)
-        self.NN.lstm_size = params['lstm_size']
-        self.NN.embedding_dim = params['embedding_dim']
-        self.NN.num_layers = params['num_layers']
-
-    def calc_perplexity(self, words):
-        window_size = 5  # TODO: choose window size
-        self.NN.to(self.device)
-        self.NN.eval()
-
-        state_h, state_c = self.NN.init_state(window_size)
-        state_h = state_h.to(self.device)
-        state_c = state_c.to(self.device)
-
-        ent = 0
-        for i in range(0, len(words) - window_size):
-            # insert previous words to model, to get probabilities for next word:
-            x = torch.tensor([[self.vocab.get_int(w) for w in words[i:(i + window_size)]]]).to(self.device)
-            y_pred, (state_h, state_c) = self.NN(x, (state_h, state_c))
-
-            # get probabilities for next word:
-            last_word_logits = y_pred[0][-1]
-            p = F.softmax(last_word_logits, dim=0).detach().cpu().numpy()
-
-            # get probability of true next word:
-            wordInd = self.vocab.get_int(words[i + window_size])
-            if wordInd >= 0:  # make sure that word exists in vocabulary
-                ent -= math.log(p[wordInd])
-
-        return math.exp(ent / (len(words) - window_size))
-
-# ======================================================================================================================
-class Dataset(torch.utils.data.Dataset):
-    def __init__(self, seq_length):
-        self.seq_length = seq_length
-        self.vocab = Vocabulary()
-        self.data = []
-
-    def prepare(self, texts):
-        corpus = [' '.join(text) for text in texts]
-        corpus = ' '.join(corpus)
-        self.vocab.fit(corpus)
-        self.data = self.vocab.transform(corpus)
-
-    def __len__(self):
-        return len(self.data) - self.seq_length
-
-    def __getitem__(self, index):
-        return (torch.tensor(self.data[index:(index + self.seq_length)]),
-                torch.tensor(self.data[(index + 1):(index + self.seq_length + 1)]))
-
-# ======================================================================================================================
-def train(dataset, model, batch_size, max_epochs, lr, device, seq_length):
-    model.train()
-
-    dataloader = DataLoader(dataset, batch_size=batch_size)
-    criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=lr)
-
-    for epoch in range(max_epochs):
-        startTime = time.time()
-        state_h, state_c = model.init_state(seq_length)
-        state_h = state_h.to(device)
-        state_c = state_c.to(device)
-        for x, y in dataloader:
-            x = x.to(device)
-            y = y.to(device)
-
-            y_pred, (state_h, state_c) = model(x, (state_h, state_c))
-            loss = criterion(y_pred.transpose(1, 2), y)
-
-            state_h = state_h.detach()
-            state_c = state_c.detach()
-
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
-
-        endTime = time.time()
-        print('Epoch: {} | Loss = {:.3f} | Elapsed time: {:.3f}'.format(epoch, loss.item(), endTime - startTime))
-    model.vocab = dataset.vocab
-
-# ======================================================================================================================
-def predict(vocab, model, text, device, next_words=100):
-    model.eval()
-
-    words = text.split(' ')
-    state_h, state_c = model.init_state(len(words))
-    state_h = state_h.to(device)
-    state_c = state_c.to(device)
-
-    for i in range(0, next_words):
-        x = torch.tensor([[vocab.get_int(w) for w in words[i:]]]).to(device)
-        y_pred, (state_h, state_c) = model(x, (state_h, state_c))
-
-        last_word_logits = y_pred[0][-1]
-        p = F.softmax(last_word_logits, dim=0).detach().cpu().numpy()
-        word_index = np.random.choice(len(last_word_logits), p=p)
-        words.append(vocab.get_word(word_index))
-
-    return ' '.join(words)
+def load_lm(foldername, device):
+    config = GPT2Config.from_pretrained(foldername)
+    model = GPT2LMHeadModel.from_pretrained(foldername, config=config).to(device)
+    tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+    return model, tokenizer
 
 # ======================================================================================================================
 if __name__ == '__main__':
-    # hyper-parameters:
-    # TODO: set hyper-parameters
-    seq_length = 32
-    batch_size = 32
-    max_epochs = 2
-    lr = 0.0001
-    LM_folderName = "./Language_Models/"
+    dataset_folder = "./datasets/dataset_bmj/forLM/"
+    ouput_folder = "./Language_Models/"
 
-    if not os.path.isdir(LM_folderName):
-        os.mkdir(LM_folderName)
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    if not os.path.isdir(ouput_folder):
+        os.mkdir(ouput_folder)
+    files = os.listdir(dataset_folder)
 
-    # load and preprocess dataset:
-    print('Preprocessing data...')
-    dataset_train, labels_train = get_test("./datasets/dataset_bmj/test")
-    # dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
-    # dataset_train, labels_train = get_train("../toy_data")
+    # Initialize models:
+    tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+    config = GPT2Config.from_pretrained('gpt2')
+    model = GPT2LMHeadModel.from_pretrained('gpt2', config=config)
+    data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-    # get labels dictionary:
-    class_to_labels_dict = list(set(labels_train))
-    labels_to_class_dict = {label: i for i, label in enumerate(class_to_labels_dict)}
-    nLabels = len(class_to_labels_dict)
+    # Train models:
+    for filename in files:
+        author = filename.split(".")[0]
 
-    # create and train Language Model for each label:
-    print('Training Language Models...')
-    for label in class_to_labels_dict:
-        texts = [dataset_train[i] for i, l in enumerate(labels_train) if l == label]  # get all texts for this author
-        dataset = Dataset(seq_length)
-        dataset.prepare(texts)
-        model = LanguageModel(label)
-        model.NN = LanguageModelNN(dataset.vocab.nWords).to(model.device)
-        model.vocab = dataset.vocab
-        train(dataset, model.NN, batch_size, max_epochs, lr, model.device, seq_length)
-        print(predict(dataset.vocab, model.NN, text='i', device=model.device))
-        model.save(LM_folderName + label)
-        print("perplexity = {}".format(model.calc_perplexity(texts[0])))
+        train_dataset = TextDataset(
+              tokenizer=tokenizer,
+              file_path=dataset_folder + filename,
+              block_size=128)
 
-    print()
+        training_args = TrainingArguments(
+            output_dir=ouput_folder + author,  # output directory
+            num_train_epochs=20,              # total # of training epochs
+            per_device_train_batch_size=16,  # batch size per device during training
+            warmup_steps=500,                # number of warmup steps for learning rate scheduler
+            weight_decay=0.01,               # strength of weight decay
+        )
+
+        trainer = Trainer(
+            model=model,                         # the instantiated 🤗 Transformers model to be trained
+            args=training_args,                  # training arguments, defined above
+            data_collator=data_collator,
+            train_dataset=train_dataset,         # training dataset
+        )
+
+        trainer.train()
+        trainer.save_model()
+
+        text = open(dataset_folder + filename, "r").read()
+        print(calculate_perplexity(text, model, tokenizer, device))
 
 
+# config = GPT2Config.from_pretrained(ouput_folder + 'angela wade')
+# model = GPT2LMHeadModel.from_pretrained(ouput_folder + 'angela wade', config=config).to(device)
 
+# def calculate_perplexity(text, model, tokenizer):
+#     tokenize_input = tokenizer.tokenize(text)
+#     tensor_input = torch.tensor([tokenizer.convert_tokens_to_ids(tokenize_input)])
+#     with torch.no_grad():
+#         loss = model(tensor_input, labels=tensor_input)[0]
+#     return math.exp(loss.item())
+#

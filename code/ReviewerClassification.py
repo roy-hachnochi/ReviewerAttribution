@@ -76,8 +76,7 @@ if __name__ == '__main__':
     # extract features:
     print('Extracting features...')
     feature_ext = FeatureExtractor(ignore=ignore)
-    feature_ext.load_language_models(LM_folderName, class_to_labels_dict)
-    feature_ext.fit(dataset_train, nTokens=nTokens)
+    feature_ext.fit(dataset_train, nTokens, LM_foldername=LM_folderName, labels=labels_train)
     print(feature_ext.unigram.frequentWords)
     print(feature_ext.bigram.frequentWords)
     print(feature_ext.trigram.frequentWords)

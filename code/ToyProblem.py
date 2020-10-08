@@ -135,7 +135,7 @@ def plot_features(features, nWords):
     plt.tight_layout()
 
 # ======================================================================================================================
-# TODO: out of date
+# Note: out of date!
 def plot_features_compare(features, labels, nWords):
     freqWords = features[:, :nWords]
     nonFreqWords = features[:, nWords:(2 * nWords)]
