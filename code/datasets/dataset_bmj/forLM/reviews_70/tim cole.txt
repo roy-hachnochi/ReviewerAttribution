@@ -1,0 +1,559 @@
+this is a large and statistically complex analysis of the impact of the feed the future
+program on the nutritional status of children from 33 countries in sub-saharan africa. i
+have comments on the study design, analysis, presentation and interpretation.
+1. the presentation involves two alternative formulae describing the regression models
+fitted, followed by the numerical results of many such models. the reader may or may not
+be comfortable with formulae, but no attempt is made to demonstrate the models visually.
+the nearest the paper comes to illustrating the model is efigure 1, which shows the
+regression lines for ftf and control up to 2011, i.e. before the intervention. but no
+corresponding lines are shown for post-2011. so the reader has to imagine the pattern of
+regression lines pre- and post-ftf to understand the model.
+it is important to show both the data and the superimposed regression lines for one or
+more of the regression models, to visualise the analysis and test the face validity of the fit.
+the raw mean country-year data are usefully shown as a series of country facets in
+efigures 2-4, but the figures are hidden away and i missed them on first reading - they
+need to be in the main paper. but in addition they need to be seen in a way that allows the
+model to be tested. this could be done by combining the data in each of efigures 2-4 as
+two plots, superimposing the ftf countries in one plot and the controls in another. this
+would allow the reader to look for an inflection in the ftf countries plot around 2011.
+the fitted regression lines for each country need to be shown superimposed on the country
+facets, to test the fit. in addition they could be shown combined in a single figure (without
+the data), providing a visual summary of the fitted model. it would also be plausible to
+provide more than one such combined figure, e.g. to contrast the impact of different
+assumptions on the fitted lines.
+2. the model in equations 1 and 2 assumes a step change in malnutrition following the
+intervention, i.e. parallel regression lines with different intercepts before and after. but it is
+unrealistic to think that the impact of the intervention will be visible on day 1, and a more
+realistic model would allow the effect to build over time. this model is tested in etable 8,
+but it needs to be introduced earlier on as a realistic alternative to the simpler model.
+3. the study design is multilevel, actually four levels, with data from country, year within
+country, household within year and child within household, yet the data are analysed with
+robust standard errors at a single level. it would be useful to explain why separate errors
+at the different levels are not estimated, with the intervention effect tested using the
+appropriate level error. in addition the cluster level at which the standard error is
+
+estimated varies from model to model, when surely the study design defines which level is
+appropriate.
+4. the data are weighted by survey design and by country population, but it’s important to
+recognise that weighting may not be relevant if the study aim is purely to show the
+statistical impact of the intervention. using weightings ensures that the estimated effect
+sizes apply to the underlying population, but it inevitably affects the significance of the
+findings. the key issue is how to interpret the study aim “to evaluate the impact of the
+feed the future program”. is the impact to be measured in the effect size or the
+significance of the effect size? for me the significance is what counts, and in this case
+weighting is not appropriate. so the impact of weighting on the significance levels needs to
+be demonstrated for one or more of the models.
+5. some more minor comments. implausible observations were excluded based on who
+criteria (page 7), but more detail should be given.
+6. the statistical approaches section (page 8) refers to the probability of stunting, waisting
+and underweight, but “probability” would be better replaced by “proportion”.
+7. in equation 2 the main effect terms for ftf and post are deliberately omitted due to
+collinearity. it is a fundamental principle when fitting interactions to include the main
+effects as well, so this is unconvincing. a better and simpler solution would be to centre
+(i.e. subtract the mean) of the ftf and post variables prior to analysis, which would
+obviate the need to include the main effects.
+8. the results at the top of page 13 speak of a “decrease” in prevalence associated with
+ftf, implying that ftf caused it. but as an observational study this assumption is not
+warranted, and the wording should be more nuanced. the next paragraph estimates the
+numbers of children “prevented” from being stunted due to ftf, and here the causal
+assumption needs to be explicitly stated.
+9. table 3 gives results for eight different models, showing how the ftf effect size varies
+according to the degree of covariate adjustment. however the models are not directly
+comparable, with fewer data for models 5-8. it would be better to use the smaller sample
+sizes for all eight models, allowing direct comparisons between them, and the loss of power
+would be small. also the lines in the table giving n could be omitted.
+a focus on levels of significance is now depracated, and the standard errors and asterisks
+in table 3 would be better replaced by confidence intervals. it would work better giving the
+values to one decimal place rather than two, as the extra precision is unwarranted (see
+https://adc.bmj.com/content/100/7/608). the standard errors are typically 0.8 or greater,
+so the confidence interval widths exceed 3. on this basis the second decimal place is
+uninformative, and the same applies to the etables.
+that said, the appendix includes results for 59 models (excluding the
+leave-one-country-out models), and it is hard to judge them against each other. presenting
+them all graphically (including those of table 3) in something like a forest plot would be
+useful, and this would emphasise the message of the paper that the conclusions are
+broadly robust to model perturbations.
+10. the final paragraph of the results explores to what extent the ftf and control
+countries were similar at baseline, as the did analysis assumes. it would make better
+sense to start with this, discussing it in the context of table 2, rather than coming to it as
+an afterthought. this might also be a better way to present the underlying model, by first
+describing it pre-ftf and then expanding it to include the intervention.
+
+11. i had difficulty matching the before-after effect sizes in figure 1 with those of model 8
+in table 3. in fact the histograms show differences corresponding to model 1, though this
+is not explained. the top lines in the figure, describing the model 8 differences, are
+confusing and unhelpful.
+tim cole
+
+
+<|EndOfText|>
+
+the authors have responded positively to most of my comments, but there remain some issues that need addressing.
+1 (previous point 1). the process of estimating somatotype at age 50 from bmi has been clarified, but the clarification
+itself raises some points.
+the paper fails to say why the age 50 somatotype needed to be estimated. the somatotypes from age 5 to 40 represent
+an impressive summary of body shape tracking for the first half of life. my guess is that a value at age 50 was felt to be
+needed to justify the phrase "early and middle life" in the title and elsewhere. however this is not stated, and it needs to
+be.
+the modelling process based on a mixed effects model is a clear improvement on the previous methodology. however it
+is the wrong way round, as they authors acknowledge. the aim is to predict somatotype at age 50 from bmi and
+previous somatotypes, so modelling bmi and inverting the regression equation to give somatotype is incorrect. a better
+approach would be to use polytomous regression with somatotype as the dependent variable. this would avoid having to
+invert the regression equation, and would also correctly predict a somatotype category at age 50 without the need to
+truncate the scale.
+the description of the process, although improved, still relies on the supplementary information to be clear. the second
+paragraph under body shape assessment on page 8 still does not mention bmi at age 40, and it does not explain why
+bmi is relevant when the main focus is on somatotype. i suggest this paragraph be completely rewritten, linking
+somatotype and bmi more obviously and summarising the ages when the data were available.
+2 (previous point 3). i suggested that excluding subjects with bmi < 18.5 was illogical, but the authors are keen to
+remove them. i find their argument unconvincing, that such bmi's are below the normal range and hence should be
+excluded. but how many bmi's were excluded as being above the normal range, and is not the conclusion of the study
+that high bmi increases mortality? this is inconsistent.
+the interest is in the natural history of bmi and its link to later mortality, so there is no good reason to arbitrarily omit
+subjects at the extremes of the bmi range. the authors cite reverse causation to justify the exclusion, yet their design
+has a built-in ten-year mortality delay (from age 50 to 60) to minimise the effects of reverse causation. i insist that
+there be no exclusions based solely on low (or high) bmi.
+3 (new). reviewer 2 asked for reference 24 (now 21) to include the journal name. this has been added, but the
+reference is still incomplete.
+
+<|EndOfText|>
+
+this rewrite of 49180 is much clearer than the original, but the authors still make it hard
+for the reader by their over-technical and unclear presentation. in addition they have by
+
+mistake omitted the genotype analysis of table 5 from the results, referring to it only in
+the discussion.
+1. the many acronyms are unhelpful, particularly where undefined, as they make the
+paper harder to read for non-specialists. just in the abstract there are tb (undefined),
+hhc, dst (undefined), mdr, inh (undefined), and ds (undefined). later there are dm
+(undefined), tst, pza (undefined), ipt (undefined) and drp (undefined). they should all
+be defined, even tb, and many (most?) could be avoided entirely, e.g. hhc would be far
+simpler and clearer as 'contacts'.
+2. the paper is about drug resistance, so it is important to be clear how it is categorised.
+individuals can be drug sensitive or susceptible (which? - both appear in different places)
+(ds), or drug resistant (dr) or multi-drug resistant (mdr). but tables 1 and s1 also have
+the categories pan-susceptible, mono-resistant, poly-resistant and multidrug-resistant. the
+latter two obviously involve resistance to more than one drug, and the distinction between
+them is apparently important, but it is nowhere explained. the footnote simply says that
+poly-resistance is resistant to more than one drug, but not mdr. this begs the question what is mdr?
+i encourage the authors to trawl through the paper identifying all the different drug
+resistance categories, collect them in one section, harmonise the notation, and explain
+what they all are. if this could be done without acronyms, so much the better.
+3. these categories relate to the first paragraph of the results, where 1274 patients with
+dsts were resistant to at least one drug; 538 to only one and 478 to both isoniazid and
+rifampicin. but this leaves a further 1274 - 538 - 478 = 258 who are not mentioned at all.
+this obviously relates to the categories in table 1, but because they are not explained it is
+impossible to make sense of the numbers. (incidentally the acronym dts here should be
+dst.)
+4. page 10. "... those exposed to inh mono-resistant tb had a 15% (95% ci: 5%-16%)
+higher risk of infection ...". these numbers do not appear in table 2, the relevant cell being
+1.17 (1.09-1.25).
+5. the terms univariate and multivariate in table 2 and elsewhere are used incorrectly.
+they describe the number of dependent variables in the analysis, in this case one, i.e.
+univariate. the number of independent variables is indicated by univariable/multivariable,
+which should be used instead. in addition pr should be expanded to prevalence ratio, and
+the abbreviated drug names need giving in full. the footnotes give percentages of missing
+data in models 2 and 3, which presumably means that the number column in the table
+applies only to the univariable analysis and hence is misleading. better to give the total
+numbers for each analysis in the column header.
+6. table 4 has tiny numbers, and looks underpowered to draw any useful conclusions.
+what is the denominator for the number column, and where do the n = 10099 and 10109
+come from? they are much larger than any previous numbers.
+7. i was surprised to see the discussion say that "patients with dr-tb were also more
+likely than those with ds-tb to be part of a cluster as defined by genotype", as up to this
+point i had not seen the word "genotype". doing a formal search for it threw up table 5 on
+page 58 of the submission, which is not referred to anywhere else. yet the discussion (foot
+of page 8) talks about the genotype findings. clearly table 5 and its commentary have
+been omitted from the results.
+8. phrases relating to "statistical significance" appear in the abstract and elsewhere. there
+is a global movement against such terminology, and they would be better expressed in
+terms of "importance" or similar, based on the confidence interval.
+
+9. "contacts were defined as secondary cases if diagnosed between days 15 and 455" page 7. where does the 455 days come from, as they were followed up to 12 months?
+10. miru is another undefined acronym that could be explained if there was a section
+describing the genotype analysis.
+11. what are the reference numbers for the ethical approvals?
+12. tables 1 and s1 look unnecessarily large to me. are all the covariates of interest? in
+addition the formatting could be improved by presenting the numbers and percentages in
+the format % (n), using whole percentages. i recommend whole percentages throughout
+(see https://adc.bmj.com/content/100/7/608), as they are easier to read; the decimal
+place is uninformative, and if people are desperate to know it they can calculate it from the
+numbers.
+tim cole
+
+
+<|EndOfText|>
+
+the authors have responded very positively to the reviewer comments. i have just two
+minor points.
+1. in response to a comment about the number of decimal places for the optimal
+bandwidth, the authors say "we have now rounded all bp values in the paper to the first
+integer, because it is indeed measured in whole mmhg." i'm not clear what is meant by
+"the first integer", do they mean that bp is rounded to one decimal place?
+2. in the discussion they speculate about factors that might explain the reduction in bp,
+listing weight loss, smoking, alcohol and exercise as having large effects. in each case the
+coefficient is far from one but the confidence interval brackets one, so i think they mean
+the confidence interval includes values that indicate a large effect (either positive or
+negative). this needs to be clearer.
+tim cole
+
+<|EndOfText|>
+
+i am happy with the revised version.
+
+<|EndOfText|>
+
+the authors have responded very positively to the reviewer comments. i just have three
+very minor points of detail.
+1. the abstract states that children not first born were excluded. this is not quite correct,
+in that a few fathers will have had a child before the cohort started in january 1994. the
+wording in the methods makes this clear - "the birth record of the first child born within
+the cohort interval was paired to the father".
+2. table 1 summarises the three groups of fathers, and in particular it shows that on
+average the ivf and icsi fathers had more years of formal education. this is of course
+adjusted for in the analyses, but it might still be worth pointing out.
+3. and a very tiny point - on page 10 line 183 it should be "sensitivity analyses _were_
+conducted".
+
+additional questions:
+please enter your name: tim cole
+job title: professor of medical statistics
+institution: ucl great ormond street institute of child health
+reimbursement for attending a symposium?: yes
+a fee for speaking?: no
+a fee for organising education?: no
+funds for research?: no
+funds for a member of staff?: no
+fees for consulting?: no
+have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: no
+do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: no
+if you have any competing interests <a
+href='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/d
+eclaration-competing-interests'target='_new'> (please see bmj policy) </a>please
+declare them here:
+
+reviewer: 2
+recommendation:
+
+
+<|EndOfText|>
+
+the paper is considerably improved on revision, with a much clearer message. i have a few
+minor comments.
+1. the dataset consisted of people receiving oat between 01/01/1996 and 30/11/2017.
+given that the paper's main message relates to recent changes in the patterns of opioid use
+and mortality due to fentanyl, would it be worthwhile extending the dataset to include more
+recent data, if they are available?
+2. mortality risk is calculated in groups of time since starting treatment, with the latest group
+>12 weeks. it seems odd that this group is open-ended - is there an upper limit for the time
+since starting treatment?
+3. section 3.4 of the results has a focus on the statistical significance of differences between
+rates which is now deprecated by the bmj. please rephrase this section in terms of clinically
+important differences, and avoid reference to significance where possible.
+
+4. table 1 refers to "mental health" as oud-related comorbidity. this should surely be
+"mental ill health". also the acronym oud has survived the revision, as it has in a couple of
+places in the supplementary material.
+5. the smr scale in figure 1 is nonlinear but not the expected log scale. the gap between 10
+and 20 is much greater than between 90 and 100, but if it were logged the distance from 1
+to 10 should match that from 10 to 100, which it clearly does not. it looks like a square root
+scale instead. i recommend the use of a log scale, perhaps a log2 scale with numbers in
+powers of 2 in the sequence:, 0.5, 1, 2, 4, 8 etc.
+6. similarly in figure 2 it is entirely unclear whether and how the smr scale is transformed,
+as it only has two numbers. please improve it in line with figure 1, and ensure the scale
+includes 1.
+7. figure 3 would be better in colour (at least in the pdf).
+8, the first line of section a2.1: word missing?
+9. section a2.3.1: the word 'identity" should be "identify".
+tim cole
+
+<|EndOfText|>
+
+the revision is considerably improved, with a clear structure and message. i have a couple
+of minor observations.
+1. the many acronyms complicate the story. it may be that they are familiar to the target
+audience, but i personally would be happier with fewer of them.
+2. the figures now are much clearer. i suggest in figure 1 omitting the all columns, to
+match figures 4-6, and reversing the legend to reflect the graph.
+tim cole
+
+<|EndOfText|>
+
+the authors have responded fully and very positively to all the reviewer comments made. with
+one exception they have addressed all my concerns.
+1. i pointed out that the plethora of confidence intervals and percentages to two decimal places
+made the results much less readable. in response the authors have removed some of the cis,
+but the percentages all still have two decimal places. i have argued that generally speaking
+percentages are best with no decimal places except when comparing very similar percentages
+(see http://adc.bmj.com/cgi/content/full/archdischild-2014-307149). to justify two decimal
+places the percentages would need to be equal to the first decimal place, which is never the
+case. i encourage the authors to reduce the numbers of decimal places, either to 0 or 1
+depending on the context.
+incidentally, the statement that cis for aucs allow the models to be compared ignores the fact
+that cis for the difference between aucs would be more appropriate. also, note that table 2
+refers to auc 95% cis which are no longer there.
+2. the authors have added in table 3 a net reclassification analysis. however i find both the
+layout and the numbers in the table hard to follow. it refers to 10% high risk and low risk
+groups, so the low risk group should be labelled as 90% of the total and the high risk group as
+10%, with corresponding totals of 949333 and 105482. the denominator of 1054815 should
+also appear in the title. having decoded these numbers i have failed to calculate the nris labelling the cells of the 2x2 table as a-b-c-d in the usual way, what is the formula for the nri?
+the description refers to rates of events correctly and incorrectly reclassified, but does not
+make clear which denominators apply. also the rows within the low risk and high risk categories
+are reversed, presumably corresponding to non-events and events for low risk, but the reverse
+for high risk. they need to be labelled, and consistently. the table layout would be improved
+with the nri-ne row immediately below the low risk table.
+
+<|EndOfText|>
+
+the systematic review shows clearly that current risk prediction models for hospital
+readmission have a long way to go before they become practically useful. the quality and
+quantity of relevant data are uneven, and the c-statistics currently achieved are mostly
+below 0.8 and hence reflect poor performance.
+1. i wonder if the authors might discuss the c-statistic, what it means in practice and how
+large it would need to be before the models would be useful. i note they responded to
+reviewers "we would hypothesize that the inclusion of these features in some of the
+
+predictive models that we have identified in our systematic review could potentially raise the
+c-statistic over the 0.8 threshold to be considered a strong predictive model." this implies
+that they view a c-statistic of above 0.8 as useful, but is that really true? i acknowledge the
+crude c-statistic classification that says >0.8 is a good model, but this may still reflect a
+sensitivity or specificity that is too low to be clinically useful.
+2. related to this, i am unclear how the outputs of these models are to be used. if a patient
+is thought to be at high risk of readmission, what exactly is the hospital to do about it? this
+also relates to the actionability of the models, i.e. whereabouts in the patient's hospital stay
+the information becomes available. of course the authors may not have much to say about
+this, but if they do it would be helpful to hear.
+3. the acronym sdoh is introduced and used in the abstract and main text, but it is entirely
+unmemorable and would be better avoided.
+4. a tiny point - it should be cox regression not cox regression.
+tim cole
+
+
+<|EndOfText|>
+
+the authors have provided a comprehensive response to my observation that the time
+interval between the two baseline tests could be informative. i am happy both with their
+extra analyses, and with their argument that adjusting for it is not appropriate, as it relates
+to the outcome measure of excessive testing.
+
+<|EndOfText|>
+
+i am happy with the revised version.
+
+<|EndOfText|>
+
+the authors have responded positively to all my comments, and table 3 in particular is now
+much clearer.
+i have a few further minor comments, which are more copy editing than statistical.
+1. table 2 contains small numbers labelled std following the auc values. they are said to be
+standard deviations, but are far too small for that. i suggest omitting them, as in supplements
+5 and 6.
+2. data are generally plural, and such phrases as "data contains", "data ... is", "data does",
+"data was" etc need attention.
+3. start of discussion. the main findings are principal not principle findings.
+4. page 42 line 9. i think it should be humerus not humerous.
+
+tim cole
+
+<|EndOfText|>
+
+the authors have addressed many of my points, but there remain some matters of concern.
+1. table 1 summarises the cities in the analysis, giving mean daily pm10 and mortality. an important
+but unaddressed question is to what extent the mean pm10 scores in the different cities explain
+variation in mean mortality. i recognise that this is different from the main focus of the paper, the
+association between short-term changes in pm10 and mortality, but it is nevertheless fundamental to
+the research question - are mortality and pm10 linked?
+the mean daily deaths by city in table 1 are unhelpful as they reflect population size more than
+anything else. i would like to see a plot of age-sex-standardised mortality vs mean pm10 by city, i.e.
+making use of the information in table sm2.
+2. the fixed effects model (1) is described in great detail, whereas the random effects model (foot of
+page 9) is poorly described. does it contain just the pm10 term in equation (1) omitting the other
+terms, or are the other terms included but applied to all cities? this needs to be made clear. also it's
+not clear whether the fixed or random effects coefficients are being used in later analyses.
+3. there is no need to apply a chi-square test to figure 2, as the i2 value summarises heterogeneity.
+also using p = 0 or p = 0.000 is wrong, it should be p < 0.001 - this applies throughout.
+4. the discussion of the different lags in figures 2 and sm1 to sm6 does not state whether using lagged
+pm10 in addition to concurrent pm10 added significantly. i'm not convinced that figures sm1 to sm7
+add usefully to the paper, as they are hard to compare with each other. a table summarising the results
+for each lag or combination of lags should be provided.
+5. figures 3 and 4 rank the cities in the same order, but differently from figure 2. better to use the
+figure 2 order for figures 3 and 4 as well. the i2 value for figure 3 is virtually the same as for figure 2
+(59%), whereas that for figure 4 is appreciably smaller (38%). this is worth commenting on, as it
+shows that the cities are more homogeneous for non-crd than for crd mortality.
+6. putting the various summary regression coefficients on pages 7-9 into a table rather than the text
+would make them easier to see and compare. the comparisons for sex and age group give the separate
+coefficients with cis, but for comparison purposes the difference (i.e. the interaction with pm10) and its
+ci should be provided - to say that the separate cis overlap is not sufficient. also, to say that the pm10
+effect was (just) significant for those over 60 and not for those under 60 does not make the age groups
+significantly different - again the interaction term should be fitted with its ci. (the authors' response
+letter says that this age interaction is significant at p < 0.1, i.e. not significant).
+7. using subgroups by sex and age group strikes me as both inefficient and potentially biased. if say the
+sexes are analysed separately then all the coefficients in equation (1) will differ by sex, and those that
+are correlated with pm10 (say weather conditions) will impact on the pm10 coefficient. far better to
+include the sex and age terms in equation (1), which will also allow their interaction to be tested. this
+relates to point 2 above.
+8. the paper still focuses unnecessarily on statistical significance. on page 9 lines 48-50 the phrase "...
+and statistically significant at the 5-percent level" is both redundant and wrong - it is considerably more
+significant than that.
+9. the notes with figures sm9 and sm10 refer to "total mortality for cardiorespiratory and noncardiorespiratory deaths separately" which look incorrect.
+10. the comments above also apply to the city analyses for mean pm10, north vs south, gdp and %
+construction workers. the results need to be to presented as coefficients with confidence intervals, and
+when comparing groups (e.g. figure sm 12) the interactions with ci should also be given. several of the
+figures demonstrate the existence of one or more high outliers, which will bias the regression
+coefficient. urumqi in figure 1 is also a notable western outlier that needs to be acknowledged.
+11. to say that air pollution effects were smaller in more polluted cities (figure sm11) is not correct the p value of 0.07 is not significant. it should be made clear here that the "air pollution effect" is the
+city pm10 regression coefficient. again i don't know if this is the fixed or random city effect.
+12. table 3 needs some attention. the constant terms are of no interest and should be omitted. why
+are there only 18 cities for model 2 but 38 for all the others? confidence intervals should be given for
+
+each coefficient, not p values. the numbers should be given to 2 or 3 significant digits, not 3 decimal
+places. the north vs south analysis should be given as the main effect (say north) and the difference
+between north and south. is there any reason why sex and age are not included in the table?
+presenting the results of six distinct models is excessive - better to focus on model (6) including mean
+pm10, north, south vs north, gdp, % construction, and perhaps sex and age group as well.
+13. the discussion repeats several erroneous statements from the results. there is not a significant
+age effect (at least it has not been shown), there is no sex effect (it is not significant), the air pollution
+effects were not smaller in more polluted cities (p = 0.07), also they were not more homogenous in
+northern cities than in southern cities (again the interaction is not shown to be significant), and the
+association with gdp was far from significant. there are also statements about significance at the 5%
+level that should be omitted. the only convincing association in table 3 is that for the percentage of
+construction workers.
+
+<|EndOfText|>
+
+the authors use two large cohorts to construct five shape trajectory groups from age 5 to 50, and then
+compare mortality in the diffferent groups. i have some comments on the study design, analysis and
+presentation.
+1. the key exposure here is the recalled somatotype at ages 5, 10, 20, 30 and 40, and the corresponding
+rating at age 50 is inferred from the age 40 rating. the way this is done strikes me as clunky, based on
+just the previous rating and ignoring the earlier ones. it also requires the age 40 rating to be present to
+estimate the age 50 rating. since the purpose is to represent shape over the life course it would surely be
+better to use all the available shape ratings and bmi at 40 to impute the age 50 rating.
+the description on page 39 implies, though does not state, that bmi was measured at ages 40 and 50:
+“…we assessed the average bmi from age 47 to 53 as the bmi for age 50. we then divided bmi at these
+two ages into 9 categories”. which two ages?
+“the cutoff points for each category were calculated as the median bmi of this category at age 40 plus a
+constant to account for weight gain from age 40 to 50”. but why use the median as the upper cut-off,
+which will misclassify half those in the group? surely one needs cutoffs midway between the group
+medians?
+also, using a single value of 1.5 kg/m2 for 10-year bmi gain ignores the fact that bmi is increasing over
+time in some groups but not in others. the calculation needs to take into account all the available
+information on individual trajectories.
+2. related to this, figure 1 shows that 28% of individuals were excluded as they had “missing somatotype
+data for more than two different age points”, or put more simply, fewer than 4 somatotypes. this serious
+data loss strikes me as unnecessary – figure 1 shows that the group trajectories are essentially linear
+(despite the cubic fit), which means that anyone with 2 or more somatotypes could reasonably be
+analysed. even requiring a minimum of 3 ought to reduce the dropout appreciably.
+3. a second data exclusion is for bmi < 18.5 kg/m2. i can see that this is meant to reduce reverse
+causation, but since the whole purpose is to model bmi, it seems illogical to omit individuals whose bmi is
+arbitrarily low. in any case the numbers involved are tiny and will make no difference to the results.
+4. related to point 6 above, the essential linearity of the group trajectories indicates that a simple randomslope-random-intercept model would lead to broadly the same conclusions, and the relative size of the
+slope and intercept random effects in predicting mortality would quantify the importance of mean bmi
+versus bmi gain.
+5. is there a way to superimpose on the group trajectories of figure 1 the mean bmi values appearing in
+table 1? it would provide some validation of the group allocation.
+6. the hazard ratios in tables 2 and subsequently are adjusted for a string of covariates including lifestyle
+factors such as physical activity, alcohol consumption and dietary score. are these factors not on the causal
+pathway, and hence should not be adjusted for? the research question involves the shape trajectories
+versus mortality, which must be due at least in part to lifestyle differences – so why adjust for them if the
+interest is in the trajectories themselves?
+7. table 2 shows that for deaths due to stroke in women smokers (though not in men), groups 3 and 4 are
+
+significantly protected relative to the lean-stable group. this is surely worth a mention.
+8. the interaction in figure 2b is said to be insignificant (p = 0.46), yet the two trends look strikingly
+different, and much more so than in figures 2a and 2c. is it correct? it’s not entirely clear what sort of
+interaction has been fitted – i assume it's comparing the linear trends across shape groups in the two
+diabetes groups.
+
+<|EndOfText|>
+
+the authors have addressed all the reviewer points to my satisfaction. i have two extremely minor
+further observations.
+1. page 15 line 435 includes three citations with full names that can be omitted.
+2. the last line of table 4 gives the range of observed/expected ratios. including the median as well
+would be useful.
+
+<|EndOfText|>
+
+the authors have responded very positively to the reviewer comments, in particular
+shifting the time of matching to the time of receiving fenofibrate, and restricting the ps
+analysis to data at the same time. however there remain a few points that need
+addressing.
+1. it's useful to understand why the fenofibrate group mortality appeared to be zero in the
+first three months. i'm not sure though that starting the mortality clock at 3 months, i.e.
+moving the km curve back 3 months solves the problem. would it not be better to start the
+fenofibrate clock when treatment started, and the benefit of fenofibrate would then
+gradually appear during the 3 months? the statistical methods do not mention excluding
+outcome events in the first 3 months.
+
+2. the results show a significant effect of fenofibrate on the composite coronary events
+outcome. in figure 3 this difference is tested in no fewer than 12 subgroup analyses, which
+are not described in the statistical methods so it is unclear if the analyses were
+prespecified. the conclusion is that high tg and/or low hdl-c patients particularly benefit
+from fenofibrate. however figure 3 also includes p-values for interaction, and none of them
+are significant, particularly for the constructed tg/hdl-c comparison where p = 0.2. so
+there are no grounds for claiming that fenofibrate benefits one patient group over another
+(the discussion acknowledges the non-significant interaction p-value). these claims in the
+abstract and results cannot be justified and should be removed.
+3. previously i said "the hr axis in figure 3 should be on a log scale, so that for example
+0.5 and 2 are equally distant from 1." unfortunately the authors have taken this to mean
+presenting the log hr, which few readers will understand. please give the hr in hr units
+(not log), but use a log scale for the axis so that 0.5 and 2 are equally distant from 1.
+4. some smaller points of presentation. the abstract states that patients were "matched
+up to 1:5". this is unclear, and i suggest instead something like "patients on combined
+therapy were matched with up to 5 patients on monotherapy".
+5. it's not clear why the abstract quotes the non-significant hazard ratios for chd and is,
+as they are not the primary outcome. and as already stated, the last sentence of the
+abstract results should be omitted. the same applies to the second item under what this
+study adds.
+6. the results section of risk of major cardiovascular events could be rearranged to
+advantage. the first paragraph could cite table 2 instead of repeating the relevant
+numbers in the text, and then point out that none of the three components of the
+composite score are significant. then the second paragraph can say the composite score is
+significant, without needing to mention the separate components. line 9 on page 12 can
+also be omitted, abut the insignificance and small numbers.
+7. the last sentence of the results describes a slight but not significant difference in the
+proportion of patients with high creatinine. if it's not significant i'm unclear why it is worth
+highlighting.
+8. the discussion first sentence suggests that the benefit of fenofibrate was achieved
+mainly by preventing chd. this is true in the sense that the numbers of events in the two
+groups were most different for chd. however the hr for chd was larger than for is or
+mortality, so actually its impact was less. i suggest omitting that phrase.
+9. the p-values would be better presented to one significant digit, see
+https://adc.bmj.com/content/100/7/608. and the percentages in the tables would be
+easier to read given in the format % (n) with the percentage as a whole number.
+
+<|EndOfText|>
+
+the systematic review looks to be well done, and makes a good case for working with
+incidence rather than prevalence, but the results are poorly presented.
+1. the research question relates to the mean time trend in diabetes incidence, but nowhere
+is this shown - it is all described in the text as numbers of papers showing rising and falling
+trends in different epochs. the attached graph summarises table 3 by coding papers with
+rising incidence as +1, falling incidence as -1 and level as 0, and it gives the mean score
+for each epoch with the symbol reflecting the number of papers it's based on. the authors
+argue that table 3 shows falling incidence, but for the most recent time period it is flat (12
+papers falling, 12 rising, 9 level). in addition there is little evidence of a long-term trend
+from the regression line, with higher trends from 1990 to 2005 but lower trends before
+1990.
+2. i encourage the authors to rethink their conclusions based on the figure, as it weakens
+their case that "the incidence of diagnosed diabetes has been stable or falling in the
+majority of populations studied since 2006". their complicated treatment of grouping that
+contrasts rising with stable/falling means that the value of zero trend for 2006/14 does not
+emerge clearly.
+
+3. the plots for individual countries by age group in figures 2a, 2b, 2c and 2d show very
+erratic values for us_cdc from year to year, which are hard to understand given the large
+sample sizes.
+4. it strikes me as very optimistic to think that the falling incidence (if true) is due to
+treatment.
+5. the incidence data should be plotted on log scales to include all the data in one plot.
+6. the authors need to explain the joinpoint analyses.
+7. table 2 could be traffic-light-colour-coded to distinguish between rising, level and falling
+trends.
+8. table 4 would be better without the p-values as they obscure the trend values.
+alternatively do present the p-values to one significant digit - see
+https://adc.bmj.com/content/100/7/608.
+tim cole

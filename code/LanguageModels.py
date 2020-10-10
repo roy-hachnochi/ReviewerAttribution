@@ -33,8 +33,8 @@ def load_lm(foldername, device):
 
 # ======================================================================================================================
 if __name__ == '__main__':
-    dataset_folder = "./datasets/dataset_bmj/forLM/"
-    ouput_folder = "./Language_Models/"
+    dataset_folder = "./datasets/dataset_bmj/forLM/articles_70"
+    ouput_folder = "./Language_Models/articles_70"
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     if not os.path.isdir(ouput_folder):

@@ -2,12 +2,15 @@ import heapq
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
+import nltk
 from nltk.corpus import stopwords
 from nltk.util import ngrams
 import math
 import torch
 from LanguageModels import calculate_perplexity, load_lm
 from Preprocess import tokenize
+
+nltk.download('stopwords')
 
 # ======================================================================================================================
 class FeatureExtractor:
@@ -61,9 +64,10 @@ class FeatureExtractor:
             X[ind, featuresInds[3]:featuresInds[4]] = self.fivegram.transform(corpusFive)
 
         for i_lm, lm_foldername in enumerate(self.LM_foldernames):
-            model, tokenizer = load_lm(lm_foldername)
+            model, tokenizer = load_lm(lm_foldername, device)
             for ind, text in enumerate(dataset):
-                X[ind, featuresInds[4] + i_lm] = calculate_perplexity(text, model, tokenizer, device)
+                ppl = calculate_perplexity(text, model, tokenizer, device)
+                X[ind, featuresInds[4] + i_lm] = min(ppl, 5000)  # TODO: check min value
         return X
 
 # ======================================================================================================================

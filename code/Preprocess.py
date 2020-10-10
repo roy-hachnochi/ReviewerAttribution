@@ -68,6 +68,29 @@ def get_test(folderName, fileNameInd=0, labelsInd=1):
     return dataset, labels
 
 # ======================================================================================================================
+def test_train_split(X, y, pTrain):
+    nSamples = len(X)
+    randGen = np.random.RandomState(0)
+
+    X_train = []
+    X_test = []
+    y_train = []
+    y_test = []
+    for label in list(set(y)):
+        indices = [i for i in range(nSamples) if y[i] == label]  # appearances of current label
+        n = len(indices)
+        n_samples_train = int(n * pTrain)
+        randGen.shuffle(indices)
+        train_indices = indices[:n_samples_train]
+        test_indices = indices[n_samples_train:]
+        X_train += [X[i] for i in train_indices]
+        X_test += [X[i] for i in test_indices]
+        y_train += [y[i] for i in train_indices]
+        y_test += [y[i] for i in test_indices]
+
+    return X_train, y_train, X_test, y_test
+
+# ======================================================================================================================
 if __name__ == '__main__':
     print("Test get_train:")
     trainData, trainLabels = get_train("./datasets/dataset_bmj/train")

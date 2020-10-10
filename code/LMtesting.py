@@ -1,7 +1,6 @@
 import torch
 import os
-from transformers import TextDataset, GPT2Tokenizer, GPT2Config, GPT2LMHeadModel, Trainer, TrainingArguments, DataCollatorForLanguageModeling
-from LanguageModels import calculate_perplexity
+from LanguageModels import calculate_perplexity, load_lm
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -10,7 +9,6 @@ if __name__ == '__main__':
     # dataset_folder = "./datasets/dataset_bmj/unitedReviews/"
     lm_folder = "./Language_Models/"
 
-    tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     data_files = os.listdir(dataset_folder)
@@ -18,8 +16,7 @@ if __name__ == '__main__':
     ppl_matrix = np.zeros((len(data_files), len(data_files)))
     for iLM, lm_filename in enumerate(data_files):
         lm_author = lm_filename.split(".")[0]
-        config = GPT2Config.from_pretrained(lm_folder + lm_author)
-        model = GPT2LMHeadModel.from_pretrained(lm_folder + lm_author, config=config).to(device)
+        model, tokenizer = load_lm(lm_folder + lm_author, device)
         for iData, data_filename in enumerate(data_files):
             author = data_filename.split(".")[0]
             text = open(dataset_folder + data_filename, "r").read()

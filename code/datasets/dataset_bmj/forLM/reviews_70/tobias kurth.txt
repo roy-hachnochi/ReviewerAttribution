@@ -1,0 +1,86 @@
+i want to thank the authors for providing detailed responses to my comments and for
+changing their paper. i have a few more suggestions for your consideration.
+1. i still think that the term "independent" is misleading, as discussed before. i strongly
+suggest to at least remove it from the title of the paper.
+2. in your conclusion, i suggest that you state that nafld is not associated with your
+outcomes in your study (not that it appears).
+
+3. i believe that you did not use multivariate models (i.e., models with multiple outcome
+levels or repeated measures) but a multivariable model. also, on page 12, it should read
+multivariable-adjusted (not multivariate).
+4. it should read cox proportional hazards (i.e., plural) models.
+5. please make sure that the people you list in the acknowledgment know that you list
+them (i just had an issue about that).
+6. can you please confirm that no ethical vote was needed for this study? i instead believe
+that the collection of data took place within another irb approval. if yes, these should be
+noted.
+7. data should be plural (figure legends.... ). please also check footnotes of the tables.
+8. when you refer to prevalence, you should give a time frame (i.e., life-time, one-year)
+
+<|EndOfText|>
+
+
+i have been asked to review the methods/statistics of this large, prospective
+population-based study. the main outcome is all-cause mortality, and the exposure is a
+food classification system based on the extent and purpose of industrial food processing
+(nov a).
+outcome: why did the authors chose all-cause mortality as their main outcome and did not
+focus on cause-specific deaths that may be more biologically related to processed food
+intake?
+i cannot follow the reasoning to use inverse probability weighting to adjust for age and sex
+to present the proportions of baseline covariates. for what reason was this used? i would
+be more interested in the unadjusted distribution of baseline covariates.
+i may have missed it, but what was the strategy to define confounding for this study?
+the authors assigned the "not having"certain characteristics to address missing
+information. could the authors run multiple imputations to assure readers that this choice
+of handling missing does not affect the results of the study?
+the authors used a test for linear trend across the nov a categories. i am not clear,
+however, when this was decided and why a linear trend was expected.
+the authors run a total of 17 subgroup analyses, which i think is by far too many in a
+non-hypothesis generation study. the authors should provide a rationale for each subgroup
+analyses on only run those that are meaningful. with this number of hypothesis-generating
+analyses, i am also questioning the chosen fix alpha of 0.05. further, which models were
+compared using the likelihood ratio test? i assume nested models with and without proper
+interaction dummies.
+a striking finding is the separation of effects only after about 10 years of follow up. how do
+the authors explain this finding? is this related to the design or analyses of the study? is
+there a biological cause? the graph also suggests that the effect is more a step function for
+q3 and q4 in contrast to the lower two quartiles.
+to address the critical question of whether the effects are observed because of the
+processing of the food and not by the individual ingredients of processed food, could the
+authors run appropriate mediation analyses?
+please report p values only to the 2nd decimal for p values exceeding 0.1.
+i do not think that a representative sample is necessary to address the research question.
+however, the prevalences and incidences may not reflect the ones in spain. this distinction
+may help readers to understand the issue of "representative" study sample better.
+i also do not think that the number of observed death is small. maybe small in some
+subgroup analyses but 335 deaths overall are undoubtedly sufficient to allow for a robust
+analysis of this research question.
+i suggest omitting the statement that this is the "first study... " as this is not an important
+marker of quality and may lead to unnecessary discussions with other groups that may
+have targeted this or a related question.
+
+<|EndOfText|>
+
+i think the authors for their detailed responses to mine and the other reviewers
+comments as well as providing several additional analysis to_the robustness of
+the data and to address the concerns of the reviewers. in particular, appreciate
+discussions about the methodological approach and its association with causal
+inference. my comments to the prior version may have been too strict as the
+authors clearly followed a causal inference methodology and this has now been
+made clear in the revised manuscript. however, i think that addition rewording is
+not necessary as the authors greatly discuss the limitations of their approach.
+thank you for testing the assumptions of the instrument and for specifying that it
+has not been used in the propensity score model. i agree with the careful
+interpretation of this analysis.
+i would recommend adding to the "what this study adds"section that the found
+increased risk where partly of small magnitude.
+it may be worth adding a section of the clinical implications as well as a
+suggestion of further targeted research to understand the found effects.
+i would suggest to not bold results in table 2, 3, 5 and 6 for which the 95% ci
+does not cross the null value.
+i believe that a statement of patient involvement and plan for distributing the
+results is missing.
+the authors may consider rewording the title of this study, as i'm not sure what
+is meant by the burden of death. i would also recommend being consistent when
+stating the title, the objectives, and the main outcome measures.

@@ -1,0 +1,618 @@
+bmj.053803
+association between newly-diagnosed atrial fibrillation and the excess risk of death: temporal trends
+over 40 years in the framingham heart study
+statistical review:
+in this article, the authors have unique data collected as part of the framingham heart study to analyse
+changes in the prognosis of af, specifically excess risk of death, over time. the results suggest that
+although there have been improvements in both early identification and treatment of this patient group,
+af is still strongly associated with an increased risk, impacting on a reduction in life expectancy of
+around 2years (compared to non-af).
+given the nature of the data, this study should be able not only to provide an adequate description of
+the continuing increased risk but also explore some of the potential issues regarding changes over time.
+specifically (as mentioned in the discussion) if there has been a change in the population identified as
+having af and/or in their treatment.
+in short, the main questions that they should be able to address (besides a pure description of a
+continuous elevated risk) are:
+
+a) what are the similarities/differences of these different ‘epochs’ overall (e.g. baseline characteristics
+like sbp, treatments, etc). are these pointing towards a ‘healthier’ cohort or a more multimorbid cohort
+in each ‘epoch’?
+b) what are the similarities/differences of these cohorts at time of diagnosis? specifically, for the af
+group, is the assumption of early identification of low-risk individuals (as mentioned in the discussion)
+valid?
+c) is the treatment provided to the af group changing (improving) over time? this is also touched on in
+the discussion and is mentioned as part of the limitation. given their timeline it would not be unlikely
+that the improvements suggested have reached a plateau and hence there is no evidence of a trend.
+this might be the case that any information (even if incomplete would be better than no information.
+it might be that no further information is available, in which case, a more extended limitation section in
+the discussion would be relevant to address these points.
+besides this, there are several issues (listed below) which would help clarify and expand on some of the
+findings presented.
+issues to clarify:
+choice of epochs
+-please provide an explanation for the decision to group the data into three epochs. currently, the
+manuscript does not specifically explain the choice of a) number of epochs nor b) the reasons for
+choosing those years as cut-offs.
+
+participants
+-please provide a figure with the timelines for the different cohorts/examinations/measures linking to the
+identification of the epochs. if possible, also include in this figure (or an alternative one) information for
+the identification of the data used in the ‘population analysis’ as well as for the ‘matched analysis’.
+-the identification of af is based on the visits/examinations during any given epoch. please provide
+information (possibly as a supplement) about the number of visits and who attended these visits. the
+increased number of diagnoses (proportional) in epoch 2 might need explaining too.
+-related, please comment if there is a bias created by controls providing information into several
+epochs.
+covariates included
+-given that the significant improvement observed over time has been on cvd mortality, it would have
+been particularly useful to have included lipid measures (at baseline) as a relevant covariate as well as
+lipid treatment (e.g. statins) in a similar way as antihypertensives are reported. if not available, this
+might need to be included as an important limitation.
+statistical analyses
+-the choice of different study designs (population based and matched cases-controls) is adequately
+described, but please expand here as to which is used as primary analysis and why.
+
+-i am unclear on the use of meta-regression to evaluate a time trend. is this based on 3 ‘datapoints’? if
+so, a comment on the power of such approach would be useful. related, there are a number of
+comparisons (for trend) presented in the paper, a mention in the limitation section of the potential for
+spurious finding given this would be appropriate.
+-critically, the analysis based on rmst reaches a different conclusion to that of the time-varying
+covariates cox model. please discuss include (probably in the limitations) an explanation as to why
+these differences occur. i imagine it is due to the way the time-varying covariates are incorporated to
+the models, but this might require some clarification.
+tables
+-table 2 gives total number and events but for the whole population. please provide these also for the
+af group for each of the epochs.
+figures
+- figure one will need some adjustments. current one has a problem with overlap of text confidence
+intervals and graphical ones. suggest maybe separating using lines?
+-figure 2. please provide light coloured grid to aid with comparisons across different epochs. (similar
+issue for figures s2 and s3)
+-figure s4 – substantial reduction in cumulative incidence of cardiovascular death. this would need
+some discussion/interpretation. see point above about lipid levels and use of lipid lowering drugs.
+
+
+<|EndOfText|>
+
+bmj 51219.r1
+association between prescription opioid cessation, duration on opioids, and overdose or
+suicide mortality among us veterans: an observational evaluation
+stats report:
+the authors have adjusted their manuscript accordingly and most of the comments made by
+the reviewers have been answered adequately. there are a few of minor points that are
+nevertheless important in relation to the correct reporting of this research.
+
+the first one is about the models used in their analysis. the authors mention the use of
+survival models but do not clarify what these are based on. most likely, given the reported
+use of sas phreg, is that these are cox proportional hazard models with time varying
+covariates to take into account the interaction observed between duration of opioid
+treatment and cessation with the outcome (overdose/suicide). in any case, the authors do
+need to be more explicit about the models used and, as requested initially, how they dealt
+with checking for the assumptions their model uses (like any model). these will only require
+a couple of sentences in the methods and if necessary adding some supplementary material
+as appendix.
+the second point is regarding their life table graphs. given the way the data are collected, it
+is not surprising that the majority of the events used in these estimates are concentrated in
+the first year. the impact of this is that the estimates towards the end of the second year
+are highly volatile, particularly for figure 1.b. i would suggest that to prevent people from
+focusing on these volatile estimates, the authors should present the data only for the first
+year of follow-up (or first 18 months) in the main manuscript. the current figures could be
+presented as supplementary material instead. providing a table with the absolute numbers,
+actual estimates, and the precision around these estimates would also be particularly useful
+(supplement).
+regarding this last point, the values reported for the models (e.g. table 2) with the hr and
+95%ci provide a good measure of the precision around these estimates. unfortunately as
+there are no hr reported for the interactions (correctly, to minimise confusion), there is not
+information regarding the precision around these estimates for the interaction. please
+provide a similar table as supplementary material with the parameter estimates and the
+standard errors for these estimates for the models reported in table 2 and appendix 3.
+finally, after reading the manuscript i could not find what they have used as index date for
+their survival analyses. i assume it was 1 october, 2012 as that was the start date for the
+cohort. in any case, please make it explicit somewhere.
+
+
+<|EndOfText|>
+
+stats review:
+critical (in abstract and main body of manuscript) - whenever reporting means (results), please also provide sds
+in abstract - please specify that these are number of coffees/person x years. there is some confusion here as in the
+‘outcome measures’ it says ‘total coffee purchased over a calendar year …’ but then in the results these are ported as
+per individuals ‘male doctors bought…’
+
+in ‘what this study adds’ depending on editors, this could read ‘purchasing habits’ instead of ‘drinking habits’. similarly
+‘surgeons purchase most coffee’. nevertheless purchasing can be regarded as a very good proxy for drinking (this might
+be included as a limitation or potentially in the background).
+statistical methods:
+if they are interested in pairwise comparisons, as they have several groups that can be compared they are likely to need
+some kind of adjustment for multiple comparisons (if they want to do formal hypothesis testing). the option of just
+presenting 95%ci does not deal with this multiple comparisons. having said that, if their intention is just to rank the
+specialties by coffee consumption then this should be ok and just use anova to say that there were differences.
+it depends on what they are interested in doing, formally test for differences or just present descriptive statistics of
+coffee consumption.
+they need to specify more clearly in the methods their unit of analysis. for their primary analysis it seems it is just total
+number of coffees consumed. however, for the specialty analysis (as well as gender) it appears to be coffees x person x
+year (and not coffees x year) by specialty. this is mention in the results but please clarify in the methods.
+same as above for the outcome of “rounds”
+
+<|EndOfText|>
+
+in this version of the manuscript, further adjustments for relevant conditions occurring
+within the exposure timeframe were carried out. the findings have remained robust to these
+adjustments and therefore the potential for reverse causality has been minimised.
+i think this current version is suitable for publication. i have one very minor point in the results section when describing the strength in association between paee and
+deltapaee with the different outcomes, the point estimates for all analyses are consistent
+but as the models adjust for more covariates and the number of participants/events
+decrease, the confidence intervals for the effect of pa on 'cancer mortality' includes 'no
+effect'. this is correctly reported for the sensitivity analyses but is not included in the
+reporting of the primary analysis. please correct for consistency.
+
+additional questions:
+please enter your name: rafael perera
+job title: professor of medical statistics
+institution: university of oxford
+reimbursement for attending a symposium?: no
+a fee for speaking?: no
+a fee for organising education?: no
+funds for research?: no
+funds for a member of staff?: no
+fees for consulting?: no
+have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?: no
+do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?: no
+if you have any competing interests <a
+href='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/dec
+laration-competing-interests'target='_new'> (please see bmj policy) </a>please declare
+them here: none
+
+
+
+<|EndOfText|>
+
+the current version of the manuscript has improved in general clarity and has corrected some incorrect
+analyses that assumed independence. i believe the authors have adequately replied to reviewers’
+comments. there are however some relatively minor issues that i believe still need to be addressed:
+1) the use of a composite outcome – treatment/mortality. in the discussion the comment regarding the
+use of a composite outcome is partially adequate. it would be useful to explain if there are any
+disadvantages of using a composite. particularly since this outcome is dominated by the ‘treatment’ part as
+the number of deaths are relatively few.
+2) the use of youden index to define thresholds is adequate but please can you clarify in the text if the
+thresholds were identified so that the y index was maximised?
+3) from the description of the data it was not entirely clear to me that glasgow, odense and trouro
+provided data – those at low risk still entered information although the management of these individuals
+was different to those in other centres. in the discussion there should be a statement as to how this might
+bias the results or if this is not relevant (with similar treatments being given to this group in other
+centres).
+4) missing data per score is reported but it is not clear in the report how this was handled. it is mentioned
+at several points in the manuscript that the authors used ‘complete case’ analysis such that only
+participants with all scores were included. this needs to be re-stated in the results, possibly using some
+form of flowchart/figure to describe this.
+5) supplementary table 5 – please provide p-values instead of stating ‘ns’ (not significant).
+
+<|EndOfText|>
+
+the authors have responded to reviewers comments adequately and i would be happy to
+support publication of the manuscript. having said that, there are three minor points that
+the authors might want to consider as i think will aid with some of the clarity in the
+results.
+1) figure(s) 2 - please provide within each subfigure a label to identify which exposure
+marker is being used for the comparison. this is done in the figure legends but given the
+number of subfigures, it would be much easier for a reader to keep track on each individual
+plot.
+2) figure(s) 3 - the points representing each one of the studies are misleading as, i
+believe, these are not what are being used to generate the splines. in a simple view, there
+is a perception that all dots are 'in the middle" suggesting generally that there is no
+association. the issue with this is that these dots are averages and do not take into
+consideration the differences within each study (which is the real strength in this paper).
+please could you either delete these dots or think of alternative ways to represent this
+information which would not confuse readers?
+3) the use of the newcastle-ottawa scale might attract criticism as robins-i is now seen
+as a better (certainly newer) option. please could you consider mentioning this in your
+limitations section? the robins-i page in cochrane even suggests that the n-o score is
+an alternative so this might be used as reference.
+
+
+<|EndOfText|>
+
+stats report:
+this manuscript uses medical and pharmacy administrative claims from a large
+database to evaluate the risk of gastrointestinal bleeding found in new cases of
+individuals taking dabigatran and rivaroxaban comparing against those found in new
+cases of people taking warfarin. as there are important differences in the
+characteristics of the individuals in each of these groups, the authors use propensity
+scores to obtain matched (1:1) samples between intervention and control. the
+authors present results separately for the group with and without atrial fibrillation
+and find little difference overall but significant interactions with age suggest that
+recommendations for treatment need to take age into consideration.
+after reviewing the authors’ replies to the reviewers of the original manuscript, i
+believe many of the queries have been solved but unfortunately not all. these are
+summarized below:
+main points:
+information in the abstract – the data source quoted here, although not incorrect, is
+misleading. the total population on which this analysis was based on is less than 20k
+individuals for each comparison. please correct/clarify. the “main outcomes” talk
+
+about incidence rates and cox proportional hazard ratios. however, the “results” only
+provide crude incidence rates of two of the groups (not for warfarin) and no hrs.
+please give incidence rates for all groups with confidence intervals (not currently
+provided) as well as the hrs (with cis) for the main comparisons – total bleeding by
+noac by af/non_af. i assume that the age interaction was part of the primary
+objective and hence at least the most relevant hrs (e.g. for age 75+) should also
+appear in the results so that the current “conclusion” is adequately supported.
+no inclusion of mortality/effectiveness data: - a major issue arising from the
+introduction is that, within rcts, evidence of equivalence in efficacy with extra rates
+of adverse events has been identified. the manuscript presents evidence that in “real
+life” there is no evidence of extra adverse events. however, the same analysis could
+(should?) be done to determine if in “real life” equivalence of effect (in stroke and
+systolic embolism) is found. from the data reported, although the authors do not
+have access to mortality data, they appear to have access to stroke (as an event).
+presenting if the finding of equivalence in effect on stroke prevention in the present
+data is maintained would therefore help to interpret the findings in light of the
+evidence obtained from rcts.
+one-to-one matching:- related to the issue of total sample size, the 1:1 matching
+seems excessive as many of the warfarin cases are not used (more than 50% lost).
+given that in some of these comparisons there are borderline statistically significant
+findings (“less gib found in the dabigatran group”) it would have made sense have
+tried for as many matches as possible. this needs at least to be mentioned in the
+discussion (excluded more than half of the information in the warfarin group). this
+has potential issues about generalizability of the findings to the overall population
+somewhat mentioned in the discussion when talking about o-t-c aspiring use.
+use of language about statistical significance:- in terms of reporting, the phrase
+“dabigatran had a slightly lower risk of gib” (page 10, line 5) needs changing. based
+on the 95%ci there is no evidence of difference between the risks in the two groups.
+figures 2 and 3:- please delete the multiple comparisons with the p-values associated
+(presented as text in the graphs). these would need to be adjusted (bonferroni?) to
+deal with multiple comparisons and in any case all the information is provided by the
+graph with the point estimate and confidence intervals. it would be more useful to
+instead provide the total sample for each of the age groups by intervention.
+new data:- the data for figures a7 to a10 in the appendix are not used/discussed in
+the manuscript. there seems to be a considerable difference between these graphs
+(a7 to a10) and what appears in table 3 and figures 1 and 2. going through the
+“response to reviewers” it is apparent that these are the crude event rates by age
+group used to create figures 2 and 3. please add explanation to these in the
+appendix.
+
+
+<|EndOfText|>
+
+bmj 49220- sacrospinous hysteropexy versus vaginal hysterectomy with uterosacral ligament
+suspension in women with uterine prolapse stage 2 or higher: 5-year follow-up of a multicentre
+randomised trial
+stats review:
+the manuscript reports on the 5-year follow-up from a trial which initially was setup to determine if
+sacrospinous hysteropexy (sh) was non-inferior to vaginal hysterectomy. in this manuscript the focus is
+now on superiority of sh instead of non-inferiority (established in the first paper with 2 year follow-up).
+the published protocol anticipated that superiority of sh could be identified and therefore this analysis is
+consistent with the published protocol.
+there is however an important issue with this reporting and is related to completeness of follow-up and
+use of the statistical analysis based on imputed values. the imputation of lvcf could be potentially
+biased depending on other factors related to the intervention. it is unclear to me (as a non-content
+expert) how this incomplete follow-up would impact on the assumptions required by the different
+imputation approaches used.
+instead, as the primary outcome and most of the outcomes for table 2 are ‘events’, i would suggest the
+use of a time-to-event approach, that is survival methods, even if the timing is not entirely well defined.
+this will allow for estimation of hazard ratios hr, assuming proportionality of hazards, and use of data
+up to the time of censoring reducing the need for imputation. even in the case that proportional hazards
+could not be used, kaplan-meir plots and estimates should be presented to describe the way these
+events occurred (for the primary and possibly for some of the relevant secondary outcomes).
+another important issue regarding the primary outcome is that as the number of events is small, it
+would be extremely useful to provide a table with the actual available data (event, when, if imputed,
+why) as part of the supplementary material.
+
+
+<|EndOfText|>
+
+bmj.56995 appropriate personal protective equipment protects healthcare professionals from covid-19
+stats report
+the current manuscript presents analyses of evidence of sars-cov-2 infection in a target group of 420
+health care providers that were directly treating covid-19 patients while wearing substantial (defined as
+‘appropriate’ by the authors) protective equipment; and two controls: i) 77 health care providers that
+were not in contact with covid-19 patients, and ii) 80 recovered covid-19 patients.
+the tests to evaluate evidence of infection were: rt-pcr (based on nasopharyngeal swabs) for active
+infection, and igm and igg (based on serum samples) for historic exposure to sars-cov-2. results
+from all three tests (rt-pcr, igm, and igg) are reported only for the target group (exposed hcp with
+‘appropriate’ protective equipment). only serology results (igm and igg) are available for the controls.
+the results show no active infection (rt-pcr) or historical exposure (igm or igg) in the target group.
+the control group of non-exposed hcp show no evidence of historical exposure (all igm and igg results
+below a predefined threshold), while for recovered covid019 patients, the igg levels all suggest past
+exposure. for this group, findings for igm are equivocal, with only 5/80 showing levels above the
+diagnostic threshold.
+these findings suggest that the protection used was indeed adequate. however, there are substantial
+gaps in the reporting to make sense of a) the intervention (‘adequate protective equipment and ways of
+using it’) and b) the baseline infection rate expected.
+a) intervention
+some of this information is likely to be better suited for supplementary material but we need to have a
+much better description of the intervention. please have a look at the tidier checklist (doi:
+https://doi.org/10.1136/bmj.g1687) for guidance of the level of information required. in particular,
+further information not only of the protective equipment but also of the training given for its use would
+be highly relevant. if possible, please provide either documents or other material (e.g. video) to describe
+this. the objective would be for someone reading this paper to be able to replicate this.
+b) baseline infection rate expected
+we need to be able to understand if these comparisons (exposed vs. controls) are meaningful. for this,
+we need to have greater detail about particularly about all groups on their characteristics regarding at
+least age and gender (all three groups). also, for the group of recovered patients, please provide:
+• some measures of use of health care system while identified as infected: basic information of
+treatment and if they were hospitalised and where
+• some measure of severity of illness (e.g. ventilators, etc.)
+• time between confirmed active sars and serology tests
+although not currently included in the manuscript, information of what were the infection rate in health
+care practitioners without appropriate protective equipment, would be very useful. it might be
+possible to get an estimate of this from historic records before the sars-cov-2 infection was recognised
+
+(and hence protective equipment were not being used). this will likely be an underestimate but it would
+help understand the baseline infection rate expected.
+other issues:
+reporting of tests. please provide how many of the tests reported valid results (all tests) and in case of
+invalid/missing please explain what approach was taken (complete case analysis, imputation, etc.).
+discussion: please comment on the lack of community transmission in in your health care provider
+groups (exposed and non-exposed). where they living in areas not normally exposed to this? other
+reasons?
+table 1 : please convert this into two separate tables. one providing characteristics for all groups (see
+point above). a second one providing information of agps operations carried out. this last one might be
+useful as supplementary material instead of main text.
+figure 1: is the reference range, red line, the threshold as specified by the test supplier? if not, please
+provide thresholds are based on test supplier data.
+
+
+<|EndOfText|>
+
+the authors have replied to all reviewers' comments. they have done an excellent job and the
+manuscript is clear and accurate. there are two very minor points that can be addressed as part of the
+final editorial process but have no impact on the adequacy of the science or the reporting. these are:
+a) for tables s3, s4, & s5 - please change label to read:
+'data are mean (standard deviation) or percentages.'
+and
+b) figures s5 to s8 - please provide grids to enhance comparability. similar to the ones given in figure
+2.
+i am happy to support publication of the current version of this manuscript in the bmj.
+
+<|EndOfText|>
+
+bmj-2020-059724.r1- pharmacologic treatment for covid-19: living systematic review and network
+meta-analysis
+
+i believe that the authors have responded to all reviewers’ questions. i was particularly glad to see that
+they have decided to include results only for those treatments where a minimum sample size (100
+patients or 20 events) had been accrued. having said that, this is likely to have been a post-hoc
+adjustment and requires a mention in the limitations section. related to this, given that the results are
+only given for those interventions with 100+ patients or 20 events, a sensitivity analysis of the models
+including only those interventions would be appropriate. consider running models to check that results
+are robust to this.
+major point for journal or for adjustment by authors:
+many thanks for including the information regarding the extracted data for all studies. as the authors
+comment, this information is easy to visualise and use as an excel spreadsheet but impossible to use as
+a pdf. please can the journal (with the authors) make sure this information is available to readers. as a
+related issue, the current pdf version of the manuscript has hundreds of pages that are impossible to
+read/use.
+critical issue:
+recommendations and conclusions (including abstract) for dexamethasone are based on the direct
+evidence estimate. given that you advocate for a nma as the main way of answering the question, there
+is a need for some nuance regarding this. i am a bit conflicted as i understand why you have done this
+but scientifically, i would have expected a primary analysis/results based on a nma estimates with
+discussion around why this might have not been robust. this is also important as the results are
+expected to be updated once new data are available.
+minor edits:
+- runaway sentence from a previous version of the sr looking at prevention:
+“outcomes of interest for prophylaxis of covid-19 include mortality, infection with covid-19,
+hospitalization, adverse events leading to discontinuation, and time to symptom resolution or clinical
+improvement.”
+- sentence needs writing in the past tense:
+“we will use a plausible prior for variance parameter, and uniform prior for the effect parameter
+suggested by turner et al based on empiric data.”
+- when explaining in the methods their use of absolute measures of risk:
+“for all other outcomes, we used the mean or median from all studies in which participants received
+standard of care for each outcome.”
+please explain how you pooled the data for the means (simple addition?).
+
+
+<|EndOfText|>
+
+stats report for bmj – efficacy and safety of first-line treatments for advanced
+egfr-mutated nsclc: a systematic review and network meta-analysis
+the manuscript presents results from 19 trials evaluating several interventions used as
+first-line treatment for advanced egfr-mutated nsclc relying on a network meta-analysis
+to draw conclusions about comparable efficacy and safety across these interventions. the
+findings are novel and potentially relevant but there are several issues that need addressing
+to make sure that these are: a) accurate and b) placed in context given the sparsity of data
+in this area.
+• major issue is one of data sparseness. the number of comparisons made and estimates
+obtained is way beyond the number of comparisons in the original studies. this has
+implications regarding the reliance on prior distributions and assumptions of transitivity and
+consistency of the network used to obtain these estimates. this needs to be highlighted in
+the discussion section as a critical limitation.
+• critical to know the aes for each of the drugs, this is part of the same aspect of the
+evaluation. please provide in your manuscript a description of the ae typically observed and
+particularly if these differ by type of intervention.
+• with regards to the reporting of the model used, more clarity is required about the priors
+used. it is unclear how given the low number of studies included, a non-informative prior will
+allow the model to converge. if possible, sensitivity analyses using alternative priors would
+allow evaluation of the robustness of your findings.
+• related to the above, the reporting of the mcmc methods used is not adequate. in
+particular: the differences between three chains, the burn-in, the number of iterations (after
+burn in) and the way ‘convergence’ was assessed needs to be reported better and
+separately.
+• the statement that ‘transitivity has been ensured’ is not scientific. this is impossible to
+ascertain. at best you can say that, ‘to minimise issues arising from potential lack of
+transitivity, …’. as part of this, please carry out an evaluation of important study and patient
+characteristics was done once data were collected to assess network transitivity and report
+this as well (including which characteristics were evaluated).
+• the assumption made for the flaura study, analysis of the erlotinib and gefitinib arm, is a
+strong one which needs evaluating as part of a sensitivity analysis to check what effect this
+has on the results. the simplest option would be to remove this trial in a sensitivity analysis
+but alternatives could also be explored.
+• for the pairwise meta-analysis, the approach of model selection based on heterogeneity
+creates a biased estimate. this is definitely not recommended. please review this and
+adjust appropriately. the model selection should be based on previous assumptions of
+comparability/equivalence of interventions/outcomes and should be done before evaluation
+
+of heterogeneity. sensitivity analyses based on alternative models could be an alternative
+(and reported as supplementary material).
+• related to the above, as you have used a fixed-effect approach for your bayesian nma
+then i would suggest that a fe model for the pairwise comparisons would also be applicable.
+if you decide to switch to a re for the pairwise comparisons, this would also impact on
+potentially switching to a re for the bayesian nma model. regardless of your choice, this
+will need to be justified in the manuscript and commented on in the discussion (limitations).
+• although you have assessed local inconsistency (pairwise comparisons estimates vs
+bayesian nma estimates) please also assess and report the global inconsistency of your
+network. see: dias s, welton nj, sutton aj, et al. nice dsu technical support document 4:
+inconsistency in networks of evidence based on randomised controlled trials. 2011; for
+reference. regarding this, to deliver a proper comparison between nma and pairwise
+comparisons, the same statistical approach (bayesian or frequentist) should be applied.
+credible intervals are not directly comparable with confidence intervals. this should at least
+need to be included in the discussion section.
+• the funnel plots provided are of no use given the number of trials included in each
+comparison, please delete them and explain why these were not used in your limitation
+section.
+
+
+<|EndOfText|>
+
+stats report:
+this manuscript uses medical and pharmacy administrative claims from a large
+database to evaluate the risk of gastrointestinal bleeding found in new cases of
+individuals taking dabigatran and rivaroxaban comparing against those found in new
+cases of people taking warfarin. as there are important differences in the
+characteristics of the individuals in each of these groups, the authors use propensity
+scores to obtain matched (1:1) samples between intervention and control. the
+authors present results separately for the group with and without atrial fibrillation
+and find little difference overall but significant interactions with age suggest that
+recommendations for treatment need to take age into consideration.
+after reviewing the authors’ replies to the reviewers of the original manuscript, i
+believe many of the queries have been solved but unfortunately not all. these are
+summarized below:
+main points:
+information in the abstract – the data source quoted here, although not incorrect, is
+misleading. the total population on which this analysis was based on is less than 20k
+individuals for each comparison. please correct/clarify. the “main outcomes” talk
+about incidence rates and cox proportional hazard ratios. however, the “results” only
+provide crude incidence rates of two of the groups (not for warfarin) and no hrs.
+please give incidence rates for all groups with confidence intervals (not currently
+provided) as well as the hrs (with cis) for the main comparisons – total bleeding by
+noac by af/non_af. i assume that the age interaction was part of the primary
+objective and hence at least the most relevant hrs (e.g. for age 75+) should also
+appear in the results so that the current “conclusion” is adequately supported.
+no inclusion of mortality/effectiveness data: - a major issue arising from the
+introduction is that, within rcts, evidence of equivalence in efficacy with extra rates
+of adverse events has been identified. the manuscript presents evidence that in “real
+life” there is no evidence of extra adverse events. however, the same analysis could
+(should?) be done to determine if in “real life” equivalence of effect (in stroke and
+systolic embolism) is found. from the data reported, although the authors do not
+have access to mortality data, they appear to have access to stroke (as an event).
+presenting if the finding of equivalence in effect on stroke prevention in the present
+data is maintained would therefore help to interpret the findings in light of the
+evidence obtained from rcts.
+one-to-one matching:- related to the issue of total sample size, the 1:1 matching
+seems excessive as many of the warfarin cases are not used (more than 50% lost).
+given that in some of these comparisons there are borderline statistically significant
+findings (“less gib found in the dabigatran group”) it would have made sense have
+tried for as many matches as possible. this needs at least to be mentioned in the
+discussion (excluded more than half of the information in the warfarin group). this
+has potential issues about generalizability of the findings to the overall population
+somewhat mentioned in the discussion when talking about o-t-c aspiring use.
+
+use of language about statistical significance:- in terms of reporting, the phrase
+“dabigatran had a slightly lower risk of gib” (page 10, line 5) needs changing. based
+on the 95%ci there is no evidence of difference between the risks in the two groups.
+figures 2 and 3:- please delete the multiple comparisons with the p-values associated
+(presented as text in the graphs). these would need to be adjusted (bonferroni?) to
+deal with multiple comparisons and in any case all the information is provided by the
+graph with the point estimate and confidence intervals. it would be more useful to
+instead provide the total sample for each of the age groups by intervention.
+new data:- the data for figures a7 to a10 in the appendix are not used/discussed in
+the manuscript. there seems to be a considerable difference between these graphs
+(a7 to a10) and what appears in table 3 and figures 1 and 2. going through the
+“response to reviewers” it is apparent that these are the crude event rates by age
+group used to create figures 2 and 3. please add explanation to these in the
+appendix.
+
+
+<|EndOfText|>
+
+bmj – stats review
+this systematic review evaluates the evidence for hospital hygiene promotion with particular emphasis on that
+identified for who-5 (system change, education, feedback, reminders, and institutional safety climate). reduced
+evidence was identified from rcts but the inclusion of other study designs, in particular interrupted time series,
+provides more information about the comparative effectiveness of several strategies. there is a major issue in
+that the current use of network meta-analysis given the sparse data is not adequate. this is highlighted by the
+estimate obtained for t8 (obtained from a double indirect comparison: t8 vs t3, t3 vs t11, t11 vs t1).
+one potential solution is to drop altogether the nma and focus only on the direct pairwise comparisons while an
+alternative is to restructure the current network and reclassify the interventions into 4 categories:t1, t2 to t6,
+t7, t7+. this way, a complete network could be created (leaving nodes not in the network out, such as t4, t5,
+and t8) and a comparison of who5 vs. none, who-5 vs who-5+ could be made. from the introduction and the
+discussion, this appears to be the main focus of the paper. the choice will clearly depend on the coherence of this
+grouping. if not appropriate, please drop the attempt to use nma and just report pairwise comparisons. clearly
+this change will mean a readjustment of the rest of the paper.
+please also provide a reference for the analysis of the its presented in appendix 3.
+
+<|EndOfText|>
+
+stats review bmj51219
+this article presents an analysis based on electronic health records from the veterans health
+administration. the focus is to examine the risk of overdose or suicide-related mortality
+(composite) associated with opioid cessation and in particular the impact that the vha opioid
+safety initiatives (osi) have had on this risk. to achieve this, they obtained data from two
+cohorts (fy2010 and fy2013) which provide them information before and after osi was
+implemented. the topic is very important at the data relevant and unique. however there
+are significant issues regarding the focus of the paper, the methods used and the reporting
+of the methods used. these are stated below:
+• focus: the aims and conclusions do not match up. the general aim was a comparison of
+the new safety initiatives (osi) established in 2013 to determine if these had any impact
+reducing/increasing risk of overdose or suicide-related mortality. based on the currently
+reported estimates, the guidance appears to have increased the risk. this has not been
+highlighted in the discussion which instead focuses on the risk after cessation and after
+initiation (more about these below). having said the above, there is no formal comparison
+of the two risks (these are presented individually for each cohort), which seems to me not to
+
+answer the initially proposed question. this formal comparison should be carried out,
+possibly as part of a full model.
+• the way the cohorts were created is particularly difficult to follow. we need more clarity
+regarding:
+o the type of opioid prescription should have a substantial impact on risk. stratified
+analysis and comparison (across cohorts) would be required to address this issue. the use
+of opioids appear to vary by cohorts and presenting separate estimate prevents adequate
+direct comparison.
+o the average length of an opioid prescription. the authors have partially included this as
+part of their prescription episode definition but it is unclear if this definition is adequate given
+that there is no information on the number of days an average prescription would cover.
+also, it is not reported if this is consistent in both cohorts.
+o the start of follow-up. the duration of prescription episode is likely to be an important
+covariate and this has not been included in the analysis. this needs to be reported as part of
+the patient characteristics. if possible using a figure for the distribution of this variable
+(could be as part of a supplementary material).
+o the index date which appears to vary depending on the type of analysis. a clear
+definition is required, ideally supported by a diagram/figure.
+o the possibility that individuals might appear in both cohorts. this needs to be discussed
+and quantified. a sensitivity analysis excluding these people should be carried out.
+o is it possible that individuals within the same cohort go from ‘users’ to ‘cessation’ to
+‘users’ again? if so, how was this treated?
+o with regards to ‘cessation’, is it possible to identify if the osi was used in these cases. if
+not, then it is unclear how the current analysis is actually evaluating these initiatives. should
+be at least an important limitation.
+• the use of cox models with time-varying covariates appears to me adequate to deal with
+the issue of immortal time bias, but this needs to be reported more clearly. please provide
+further information about which covariates were used and how the time-dependent covariate
+was created and incorporated, to address issues such as avoiding immortal time bias. in
+particular, what information was used for the ‘continuation group’ for this time-dependent
+covariate (if any). please also provide evidence that relevant assumptions for these models
+are adequate.
+• related to the above, i believe that the approach taken for the life tables is not correct for
+the ‘continuation group’. these are treated (and labelled) as ‘initiation’, while in reality the
+exposure has been experienced much before the date used as index. if it is a repeat
+prescription, the risk is not due to the treatment. the time of exposure should be taken
+from the moment the prescription episode started (possibly up to 5 years back). to be
+consistent with this analysis, this initiation risks should also include those in the cessation
+group (at the time of initiation).
+• it is possible that there is an increase risk every time that a change in prescription is
+meant to occur and is exacerbated if it doesn’t occur (cessation). in order to evaluate if the
+increase in risk is specific to opioids, a similar analysis based on a ‘negative control’ would be
+required to check if the risk of suicide/overdose is similar in both years (regardless of
+opioids). as stated above, this seems to diverge from the original aim although it is the
+main element of the discussion section (vulnerability during important life changes).
+• the exclusion of missing data could impact significantly on your findings as the missing
+rate is different for each one of the cohorts. imputation methods might be required to
+account for this. current approach of ‘complete case analysis’ is likely to provide bias
+comparisons.
+
+• the use of a composite outcome is valid only in certain scenarios. please report separately
+suicides and overdose episodes to verify similarities in risk magnitude and direction (this
+could be included as part of a supplement).

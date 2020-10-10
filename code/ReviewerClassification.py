@@ -6,53 +6,11 @@ import numpy as np
 from sklearn.metrics import plot_confusion_matrix
 
 # ======================================================================================================================
-def test_train_split(X, y, pTrain):
-    nSamples = len(X)
-
-    randGen = np.random.RandomState(0)
-    indices = np.arange(0, nSamples)
-    randGen.shuffle(indices)
-
-    n_samples_train = int(nSamples * pTrain)
-    train_indices = indices[:n_samples_train]
-    test_indices = indices[n_samples_train:]
-
-    X_train = [X[i] for i in train_indices]
-    X_test = [X[i] for i in test_indices]
-    y_train = [y[i] for i in train_indices]
-    y_test = [y[i] for i in test_indices]
-
-    return X_train, y_train, X_test, y_test
-
-
-def test_train_split_improved(X, y, pTrain):
-    nSamples = len(X)
-    randGen = np.random.RandomState(0)
-
-    X_train = []
-    X_test = []
-    y_train = []
-    y_test = []
-    for label in list(set(y)):
-        indices = [i for i in range(nSamples) if y[i] == label]  # appearances of current label
-        n = len(indices)
-        n_samples_train = int(n * pTrain)
-        randGen.shuffle(indices)
-        train_indices = indices[:n_samples_train]
-        test_indices = indices[n_samples_train:]
-        X_train += [X[i] for i in train_indices]
-        X_test += [X[i] for i in test_indices]
-        y_train += [y[i] for i in train_indices]
-        y_test += [y[i] for i in test_indices]
-
-    return X_train, y_train, X_test, y_test
-
-# ======================================================================================================================
 if __name__ == '__main__':
     nTokens = [50, 70, 100, 30, 15]
     ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]
-    pTrain = 0.6
-    LM_folderName = "./Language_Models/"
+    pTrain = 0.7
+    LM_folderName = "./Language_Models/"  # "./Language_Models/articles_all", "./Language_Models/articles_70", "./Language_Models/reviews_70"
     plotFeatures = False
     plotConfMat = True
     TrainReviews = True
@@ -61,7 +19,8 @@ if __name__ == '__main__':
     print('Preprocessing Data...')
     if TrainReviews:
         dataset, labels = get_test("./datasets/dataset_bmj/test")
-        dataset_train, labels_train, dataset_test, labels_test = test_train_split_improved(dataset, labels, pTrain)
+        # dataset, labels = get_train("./datasets/dataset_bmj/train")
+        dataset_train, labels_train, dataset_test, labels_test = test_train_split(dataset, labels, pTrain)
     else:
         dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
         dataset_test, labels_test = get_test("./datasets/dataset_bmj/test")

@@ -1,0 +1,391 @@
+the authors appear to have addressed the reviewer comments comprehensively.
+however, although they have changed the nomenclature for the retrospective self
+assessment at age 10 (thinner, plumper, about average) to early life body size, the
+abstract conclusions still state that lower bmi during childhood can increase risk regardless
+of later body size changes and similarly, the main conclusions paragraph talks of the
+association with early life adiposity and high body mass index.
+i also do still wonder whether there should be more emphasis throughout on the fact that
+this is the 'perception' of early life body size that is being discussed/investigated.
+
+<|EndOfText|>
+
+the authors have carefully addressed reviewer comments. i have nothing to add.
+
+<|EndOfText|>
+
+the authors have made extensive revisions and created a more readable paper which
+addresses the majority of the reviewer comments. however, i do have some concerns
+about the revised paper and these are detailed below (points 3 and 6 in particular are
+major concerns re interpretation of the results):
+1.
+the response to reviewer 4’s query re publication bias and more formal
+evaluation/investigation of this is a little weak. the funnel plots should be augmented with
+a formal test as appropriate.
+
+2.
+the authors state that measures using different scales were converted to a single
+scale. if this was done, then further details must be given to support this process.
+3.
+the authors state that they used change from baseline when available and
+otherwise end data. how is this possible? or likely to lead to any useful overall summary?
+the figures suggest that a variety of different summaries are combined without
+consideration of how the output can be validly interpreted (eg. figure 3: median changes
+from baseline, geometric means and medians combined with means). the cited reference
+(48) does not appear to lend any support to this approach.
+4.
+etc.)
+
+i did not understand the relevance of the numbering within figures 1-5 (30.1.1
+
+5.
+the values in table 2 for diagnosis of diabetes (rr 1.60 (0.22, 11.77)) do not
+match those in figure 2 (1.52 (0.19, 12.05)).
+
+6.
+despite the authors being clear that subgrouping results need to be interpreted
+with caution, that there were no significant differences between subgroups and that the
+result for >2.4 g/d lcn3 was based on few trials, they give this as a recommendation in
+the conclusions, policy implications, what this study adds and the abstract. this ‘finding’
+needs to be toned down and/or full results given in the main body of the paper (effect size
+with ci, results of comparisons with other doses, formal dose analysis). the current
+presentation also seems at odds to their response to reviewer 3 re adjustment for multiple
+comparisons (ie. this part of the presentation does appear to be based on statistical
+significance with no reference to actual effect size, hence adjustment would be necessary).
+furthermore, the cut-point of 2.4 in the analyses does not appear justified and additional
+tables 2-6 show that the actual categorisations were 2.4-4.4 and above 4.4. the only
+significant difference attributable to raised lcn3 in these tables appears to be for >4.4,
+associated confidence intervals are generally wide and not at odds with the point estimates
+in the lower categories.
+
+
+<|EndOfText|>
+
+this systematic review and meta-analysis combines results from randomised clinical trials
+to evaluate the effectiveness of perioperative interventions in reducing pcas.
+the abstract conclusion that ppcs are common is not supported by any information in the
+abstract. this statement is again made in the discussion, yet to find the information on
+prevalence requires reference to the appendices figures. the authors should perhaps make
+the information on the prevalence of ppcs more prominent, rather than emphasising just
+the rr and differences in means.
+figures 3-7 show the results from meta analyses presented more fully in appendix 2. the
+correspondence between these is not always consistent. for example, the values for
+post-operative bi-level ni and prophylactic inhaled beta agonist (0.78 (0.32, 1.90) and
+0.93 (0.67, 1.29) respectively, figure 3) do not seem to appear in the appendix and hence
+their derivation and numbers based on is unclear; in fig 4 incentive spirometry rr is given
+as 5.83 (0.63, 26.3), yet this is 5.38 (0.63, 46.30) in appendix 2.
+it may help to give the numbers of studies that each of the estimates in figure 3-7 is based
+on as well as the total numbers of patients included in those studies.
+
+figure 3 is cited twice as two different figures (from page 16 onwards the figure numbers
+should be increased by 1 ie. respiratory infection and atelectasis outcomes are shown in
+figure 4 and 5, not 3 and 4, etc.)
+for lung protective ventilation, the point estimate of the associations with respiratory
+infection and atelectasis outcomes is the same (0.56) with slightly different confidence
+intervals (0.28, 1.09) and (0.32, 0.99) respectively, so the interpretation should not be
+very different. however, the authors’ dependence on p-values leads them to discount one
+as significant and the other not without further discussion, giving the indication they are
+critically different.
+the paper would benefit from greater coherence between the main body of the text and
+the materials given in the appendix. for example, the authors refer to the results for
+ambroxol but do not guide the reader to the relevant meta-analysis shown in figure 4.2
+appendix 2.
+minimal information is given of the tsa and this should be expanded. the daris values
+should be given, compared to the actual numbers available, and the implications of these
+more fully explored. how many more are required? the authors state that there remains a
+need for large, well designed pragmatic trials of ppc prevention strategies. given that
+these will be added to the existing information, how large should these be (does this
+information follow directly from the daris investigation?)
+the authors should also clarify what additional information is given by the tsa/daris
+values that is not yielded by an examination of the confidence limits for the comparisons.
+the 2nd bullet of what the study adds states that incentive spirometry is equivalent to
+standard clinical care. this is again an interpretation based on p-values alone. the point
+estimate and confidence interval for developing respiratory infections for instance is 5.83
+with 95% ci (0.63, 26.3), which is not evidence on which to argue equivalence since very
+large (and undoubtedly clinically important) differences cannot be discounted.
+which particular statistics is the 3rd bullet of what the study adds referring to?
+how is the conclusion made that bundled groups of interventions (4th bullet) should be
+used? there does not appear to be any investigation of bundled groups in this paper on
+which to base an inference.
+publication bias should have been investigated.
+i could not see any available prisma documentation for this study.
+
+
+<|EndOfText|>
+
+there are several points/queries to make in addition to those of the reviewers and still of concern in the revised
+manuscript:
+1. although the authors call this a natural experiment it is still observational and hence use of impact should be
+tempered. there was no association found and this was not different to control hospitals over the same period. however,
+there is a self-selection problem and no guarantee that the implementation hospitals are not different.
+- suggested changes to wordings are for example : objectives (study cannot assess impact), conclusions (no overall
+negative ‘association’ were found) and what study adds (cannot evaluate how ‘affected’, nor the ‘impact’).
+2. was each implementation hospital within a separate hrr or were some hospitals controls for more than one case? if
+the latter, how was this addressed in the analyses?
+3. model as defined within statistical analysis section: which factors are considered as random effects and which fixed?
+the ‘covariates’ term may be misleading as this will lead to more than one beta value (whereas here it is quite clearly
+only one- beta4).
+please verify that clustering within the same hrr is accounted for as well as clustering of patients within hospitals and
+admissions from the same patient over time. the description sounds as though fixed effects were used, but then this is
+given as a sensitivity analysis. beta3 also requires a further subscript i think? removing the equation and giving a
+written description may be clearer.
+hierarchical logistic regression, with clustering of admissions within patients, patients within hospitals and hospitals
+within hrr, adjusting for covariates (as given in table 1) and mdc (how many terms does this entail? what are the
+categories?) should be used to model the probability of the outcomes (mortality, readmission, adverse event) to
+determine changes over time (pre to post implementation date) according to whether the hospital was an ehr
+implementer or control. an interaction term between the time and ehr indicators quantifies the difference-indifferences.
+4. not enough information is given to replicate the power calculation. what is the anticipated starting percentage and is
+any account taken of icc (different admissions for the same patient or within the same hospital/hrr)?
+5. table 1: how useful is it to present significance tests pre-post within the study and control groups, especially given
+the large numbers of patients and hence significance of unimportant clinical differences. for example, it is not surprising
+that the race breakdown does not differ from pre to post and a relatively small difference in the % females is highly
+statistically significant. of more interest perhaps is the fact that the control hospitals tended to have older and/or more
+white patients who didn’t stay as long on average and who had a different diagnostic distribution. how might these
+differences in patient mix affect interpretation of the results? at the very least, there should be discussion of the
+generalisability of results given this selection bias.
+
+<|EndOfText|>
+
+the authors have addressed my queries adequately.
+re response to point 4: non-normality does not preclude the calculation of confidence intervals for the
+difference in medians.
+
+<|EndOfText|>
+
+the authors have addressed my comments.
+
+<|EndOfText|>
+
+the authors have adequately addressed concerns
+
+<|EndOfText|>
+
+the authors present an ipma of diagnostic data. unfortunately, i found the manuscript was hard to
+follow with no clear message appearing due to the multiple separate analyses that did not always seem
+to relate to addressing an overall research question. some specific points to address are given below:
+1.
+the authors cite appropriate methodology for their meta-analyses but should state the number
+of quadrature points used within their models and the means they used to ensure that this provided
+sufficient accuracy.
+2.
+
+tables are wrongly referenced.
+
+3.
+the authors first compare statistics across cut-points (table 3a) and select that which maximises
+the sensitivity + specificity. thus equal weighting is given to false negatives and positives, but there is
+no justification for this choice. clinically i would imagine one mistake was more important than the
+other. the authors must justify this approach if used. furthermore, whilst 10 might be the derived
+cut-point (using this potentially flawed approach) from table 3a measures, it would not select this value
+using the mini reference standard (table 3b) nor for all the sub—categories in etables 3.
+4.
+tables 3a and 3b would be best combined to avoid replicating the semi-structured reference
+values. figure 1 does not add to the information in these tables.
+5.
+etables3 which refer to factors with more than 2 categories similarly repeat information. tables
+would be better formed with the 3 categories shown on the same table, which will require some
+re-organisation of the data given, but should be perfectly possible. (for example, having estimate (ci) in
+same columns rather than separating out.)
+6.
+it is unclear how any weighting from the studies might impact on results. the individual study
+prevalences are not incorporated since sensitivities and specificities are estimated and then combined to
+give ppv and npv estimates based on these and not individual datasets with their inherent prevalences.
+7.
+comparisons are made between those not currently diagnosed and all participants, yet this
+latter group contains the former. those not currently diagnosed should be compared to those diagnosed,
+so that each patient belongs in only one of the comparison groups (etables 3b, 3q and 3j).
+8.
+the authors present forest plots showing the study results between studies and then make
+statements about the differences in sensitivity and specificity using bootstrap approaches. the numerous
+figures and tables with separate analyses within categories are not easy to interpret and do not give an
+overall picture of the relationship between sensitivities, specificities and other patient features. given the
+authors have ipd, a random effects regression model could be used to properly investigate the
+
+relationships and to determine what are the important features that might impact sensitivity and
+specificity. clustering would be by study and interaction terms could also be investigated. this approach
+negates the need for an arbitrary dichotomy of age and allows for a better characterisation of this too.
+the results from the model should be presented in the body of the paper and will inform the conclusions.
+9.
+the authors make statements that sensitivity and specificity differ significantly between some
+subgroups and yet this information is not related to estimates of the differences with confidence
+intervals. precision estimates should be given for all such comparisons made. this would be a natural
+by-product of a regression approach as outlined above. (perhaps giving univariable differences firstly,
+followed by multivariable model results.)
+10.
+furthermore, the authors state that no comparisons found to be significantly different in one
+reference category were statistically significant in either of the other two, yet no formal comparison is
+made of these. if such findings are of importance, then there must be formal comparison and confidence
+intervals given for the differences. the regression approach could also incorporate terms for reference
+standard and make direct investigation of this in relation to patient features too.
+11.
+the authors give evidence in the introduction that the results of the 3 reference standards are
+expected to differ, with some being more accurate or over-inclusive than others. i do not agree
+therefore with the statement made in the first paragraph of the discussion that non-replication of
+differences between subgroups across reference standards infers that the phq-9 performs similarly for
+patient sub-populations. (it might be surprising to find the same results across difference reference
+standards and furthermore, no formal comparison is made of whether the results are actually different
+over and above some cross the p<0.05 and others do not.)
+12.
+there should be some discussion about the validity of using a single cut-off value. given the
+currently available technology for apps etc. which allow a clinician to quickly assimilate larger amounts
+of data, is such a binary approach warranted? the approach mooted does not distinguish between an
+individual who scores 1 or one who scores 9, yet the latter is probably far more likely to have major
+depression. it is a simple matter to convert the scores to the probability of depression, which will
+increase the higher the score. adding more patient features into this model would give greater accuracy
+of diagnosis. (for example, a logistic regression model can be used to give the odds of depression in a
+male, aged 72, with a phq-9 score of 8, which may differ to the odds of a 40 year old male with the
+same score.)
+
+
+<|EndOfText|>
+
+the authors have made major changes to the analyses including replacing the use of mean
+estimation of intake and the use of competing risk survival models. the main findings remain
+largely unchanged whilst addressing the previous methodological concerns. i am satisfied
+that the current submission has addressed all criticisms.
+
+<|EndOfText|>
+
+in this paper the author investigates 3 possible mechanisms that may explain what appears to be a curse
+on the wearer of the rainbow jersey. figure 1 nicely shows the hypothesised mechanisms. this is
+potentially a good application on which to illustrate the phenomenon of regression to the mean. i have
+several comments however that do need to be addressed regarding the analyses and presentation:
+1. according to the introduction there is far more to this supposed curse than a lack of cycling success,
+which in fact compared to other ails may be relatively minor. it should perhaps be noted that this paper
+considers just that one aspect that has been attributed to curse.
+2. why was a non-parametric test (wilcoxon) selected for comparing race wins between years within rider
+but parametric (t-test) for between race comparisons? if the distribution in race wins between riders is
+non-normal (thus suggesting the use of non-parametrics appropriate), then this is likely more of an issue
+with the unpaired rather than paired differences. (results of t-tests between races do not seem to be given
+in the results anyway.)
+3. poisson models are used to evaluate the hypotheses. an offset with the number of races undertaken
+should be included. if no account is taken of the number of races, how do we know that any reduction in
+wins is not merely attributable to the cyclist perhaps having a quieter season after working hard to achieve
+
+the championship in the previous year?
+4. negative binomial models could have been used to model the over-dispersion. why are these models not
+presented? how was over-dispersion ascertained?
+5. in the models, ‘i’ should be defined. the hierarchical models do in general need more explanation and
+probably also modification. a random effect of rider is given to account for their repeats over time in a
+given tournament. several won both tournaments and/or the same tournament two or more times and it is
+unclear whether this structure is adequately modelled. the multilevel models do need to capture the true
+hierarchy of some riders being involved in both tournaments and also across time.
+6. a pictorial representation of model 4 as defined on page 6 should be given in figure 1 (marked man plus
+regression to the mean).
+7. the saturated model should be given more explanation. what random effects are included here?
+8. the methods used only allow for formal comparison of nested models, which does not apply to model 2
+(marked man) versus model 3 (regression to the mean). the author should use a more flexible approach
+(aic or bic) to allow for this.
+9. adding the 2 winners from 2013 seems unnecessary since they cannot contribute a full dataset, it may
+be preferable to exclude them.
+10. the distribution of the number of wins per year (table 1) is clearly skew and so mean(sd) are not useful
+summaries. line plots of individual patterns should be given and the median (iqr) for each year within
+championship.
+11. when comparing between years (table 1), differences and confidence intervals should be given rather
+than simply p-values.
+12. some measures of within rider variation from the hierarchical models should also be given.
+13. the author only considers winners and individuals enter the dataset at a winning point. it would help to
+put the variation and apparent fall in year 1 in context perhaps if there were some assessment of within
+rider variation between years, including all participants and not just the winners.
+14. the conclusion is written in a way that implies a causal effect of regression to the mean, instead it
+should be termed as an explanation for the patterns seen.
+
+<|EndOfText|>
+
+although several issues remain to be resolved with this study, the most crucial is the lack
+of information and understanding around the primary outcome, a variant of the spin the
+pots task. i could not find the necessary relevant information in the references either.
+please explain further: the total number of stickers found is recorded as 1-8 for 15 months
+to 3.9 year olds, and 1-9 for 4-7 year olds. why can the number not be zero? there is then
+a standardisation by age group to produce z-scores. however, with such a limited number
+of integer possibilities (7 for the young and 8 for the older groups), standardisation can
+only produce 7 or 8 z-score values and does not turn a discrete outcome into a continuum.
+hence, the methods applied for continuous numeric data (linear mixed models) are not
+appropriate.
+other points that need addressing are given below:
+1. there should be some evidence of validation of the outcome measure, which (as noted
+above) must be summarised and analysed using methods appropriate to it’s type.
+2. secondary outcomes appear to all be continuous numeric and hence the analyses
+presented more suited to this type of data. please verify that the models used do satisfy
+the assumptions necessary and that model residuals are approximately normally
+distributed.
+3. some reasoning and justification should be given for the supplementation only being for
+5 days of the week. is there any information as to what the children ate on the other 2
+days? the potential effects of the 2 day ‘break’ should be discussed.
+
+4. the control breakfast is said to replicate a traditional breakfast for children, but no
+reference is given to support this. there should be discussion about any potential bias that
+may be introduced by providing a set breakfast rather than testing against the normal
+practice without intervention. one reasoning for having a control prepared breakfast may
+be to blind participants and evaluators, or to equalise other factors (time of contact etc.)
+between the study arms, but this does not appear to be the case.
+5. villages were a convenience sample. how representative are they of all rural villages in
+guinea-bissau? what evidence is there of this?
+
+6. did any families within the selected villages drop out after enrolment? if so, what biases
+might this introduce? (a free breakfast may be more of an incentive for some families than
+others. also the free rice on study completion. )
+7. was all randomisation simple? ie. there was no blocking or other procedure in place to
+ensure that allocations were not widely different (in total number or in confounders)
+between the 3 arms. was there any age stratification?
+8. the sample size paragraph is very unclear. do the mean differences of 0.56 and 0.28
+effects relate to z-score (standardised differences) in newsup and fbf compared to control
+respectively? otherwise an estimate of the sd of working memory is required. also required
+are estimates (with justification) of the icc within families and the distribution of family
+sizes. 80% power is very low.
+9. please define what is a clinically important difference in the primary outcome.
+10. the title refers to 3 outcomes, yet only one is deemed primary and there is no
+corresponding adjustment for multiple. the other outcomes noted are therefore secondary
+and should not be viewed with the same level of inference.
+11. analyses were mostly conducted with the 2 separate age groups. since there was also
+investigation of effect modification by age group via interaction terms, why were the
+separate models necessary?
+12. the discussion states that newsup caused a marked, significant improvement in
+working memory and that the difference of 0.5 sd is better than that of conventional
+feeding programs which have a negligible effect of approx 0.09 sds. in this trial fbf is
+designed to replicate the supplements often used, and so it is surprising that the
+differences between newsup and fbf in this trial are not large (table 3), despite minor
+differences in the p-values which deem newsup significant at 5% and fbf not.
+13. the authors should present the icc from their study to (a) compare to that used in the
+power calculation and (b) help inform others doing similar studies.
+14. in the discussion the authors mention the beneficial effect of newsup on hemaglobin in
+contrast to no significant difference for fbf, yet the difference between these is not
+significant at 5% (p=0.06) and no confidence interval for the difference is given to show
+the potential magnitude of any differences. similarly for other newsup and fbf effect
+differences that are of importance – average differences and confidence intervals should be
+presented to enable informed discussion.
+
+15. there is far too much emphasis on p-values and not enough on the confidence limits.
+for example, the data are compatible with differences as small as 0.02 sds for newsup
+compared to control. (in what study adds, the 0.4 (0.02, 0.78) difference in working
+
+memory on newsup is deemed a ‘significant beneficial effect’, whereas the 0.39 (-0.01,
+0.78) difference for fbf is only a ‘suggestive effect’.)
+16. the conclusion that cognitive benefit with newsup was of a magnitude previously seen
+with successful psychosocial interventions is not upheld (the data are compatible with
+differences as small as only 0.02 sd). nor is the accompanying statement that this was
+accompanied by substantial improvements in body composition (many differences shown in
+table 4 appear quite small).
+
+
+<|EndOfText|>
+
+the authors have addressed my points and in particular performed modelling with tsdd as a continuum,
+which has not changed the conclusions. if there are no objections from the reviewers re author responses
+then i have nothing to add. please let me know if you would like me to look at any outstanding issues.
+
+<|EndOfText|>
+
+the authors have addressed the points raised and i have just a few comments to make on the revised
+manuscript:
+1. although the authors have not addressed the query re meta-regression to identify factors associated
+with mrdt uptake (which as they state needs to be considered for interpretation), in the discussion
+they do warn against over-interpretation of the meta-analysis point estimate as this is a combination of
+data across highly variable epidemiological settings. hence the decision to not proceed with metaregression is reasonable.
+2. the range of rrs (figure 1 and table 3), page 12, ranged from 0.65 to 2.98, not 1.03 to 2.98. whilst
+i understand that the range given is of those with higher prescription rate where mrdts were
+introduced, the current presentation might be misleading and the sentence should be modified.
+3. what is the rationale for excluding the two trials which compared data from randomised intervention
+groups after mrdt implementation to baseline data? it should be clarified in the text that they are
+excluded and why.
+
+4. please clarify the methods for combining individual and cluster randomised trials within the metaanalysis. were clinics accounted for in the cluster trials?
