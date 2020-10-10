@@ -25,7 +25,6 @@ def calculate_perplexity(text, model, tokenizer, device):
     ppl = torch.exp(torch.stack(lls).sum() / i)
     return ppl.item()
 
-
 def load_lm(foldername, device):
     config = GPT2Config.from_pretrained(foldername)
     model = GPT2LMHeadModel.from_pretrained(foldername, config=config).to(device)
@@ -77,15 +76,3 @@ if __name__ == '__main__':
 
         text = open(dataset_folder + filename, "r").read()
         print(calculate_perplexity(text, model, tokenizer, device))
-
-
-# config = GPT2Config.from_pretrained(ouput_folder + 'angela wade')
-# model = GPT2LMHeadModel.from_pretrained(ouput_folder + 'angela wade', config=config).to(device)
-
-# def calculate_perplexity(text, model, tokenizer):
-#     tokenize_input = tokenizer.tokenize(text)
-#     tensor_input = torch.tensor([tokenizer.convert_tokens_to_ids(tokenize_input)])
-#     with torch.no_grad():
-#         loss = model(tensor_input, labels=tensor_input)[0]
-#     return math.exp(loss.item())
-#

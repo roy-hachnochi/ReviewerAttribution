@@ -102,7 +102,7 @@ class LanguageModel:
         self.NN.num_layers = params['num_layers']
 
     def calc_perplexity(self, words):
-        window_size = 5
+        window_size = 5  # TODO: choose window size
         self.NN.to(self.device)
         self.NN.eval()
 
@@ -201,6 +201,7 @@ def predict(vocab, model, text, device, next_words=100):
 # ======================================================================================================================
 if __name__ == '__main__':
     # hyper-parameters:
+    # TODO: set hyper-parameters
     seq_length = 32
     batch_size = 32
     max_epochs = 2
