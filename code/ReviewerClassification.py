@@ -53,7 +53,7 @@ if __name__ == '__main__':
     print('Training Model...')
     scaler = preprocessing.StandardScaler().fit(X_train)
     X_train_scaled = scaler.transform(X_train)
-    clf = svm.SVC()
+    clf = svm.SVC(class_weight='balanced')
     clf.fit(X_train_scaled, y_train)
 
     # get prediction and calculate metrics:
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     # print('{}: Cross Validation...'.format(ind))
     # scaler = preprocessing.StandardScaler().fit(X)
     # X_scaled = scaler.transform(X)
-    # clf = svm.SVC()
+    # clf = svm.SVC(class_weight='balanced')
     # y_pred = cross_val_predict(clf, X_scaled, y, cv=10)
     # accuracy = (y_pred == y).mean()
     # accuracyList.append(accuracy)
