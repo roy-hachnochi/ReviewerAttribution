@@ -1,14 +1,15 @@
 import csv
 import os
-
+from Preprocess import load_text
 # ======================================================================================================================
-directory = "./dataset_f1000"
-infilename = directory + "/labels5.csv"
+directory = "./dataset_bmj/test/"
+infilename = directory + "/labels_all.csv"
 outfilename = directory + "/labels.csv"
 minShows = 7  # minimum number of appearances to consider label as "good"
+minWords = 30  # minimum number of words in text to consider it as "good"
 labelsInd = 1  # which column of csv is the actual label
-# ======================================================================================================================
 
+# ======================================================================================================================
 with open(infilename, mode='r', newline='') as labels_file:
     labels_reader = csv.reader(labels_file, delimiter=',')
     labels_all = [row for row in labels_reader]  # list of lists of all labels
@@ -17,12 +18,14 @@ with open(infilename, mode='r', newline='') as labels_file:
 filenames = [labels[0] for labels in labels_all]
 labels = [labels[labelsInd] for labels in labels_all]
 
-# for all files - check that they aren't empty
+# for all files - check that they aren't empty and pass minWords
 valid_inds = []
 for i, filename in enumerate(filenames):
     filename = directory + "/" + filename + ".txt"
     if os.stat(filename).st_size != 0:
-        valid_inds.append(i)
+        text = load_text(filename)
+        if len(text.split()) >= minWords:
+            valid_inds.append(i)
 labels_all = [labels_all[i] for i in valid_inds]
 filenames = [filenames[i] for i in valid_inds]
 labels = [labels[i] for i in valid_inds]
