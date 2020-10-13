@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     dataset_folder = "./datasets/dataset_bmj/forLM/"
-    # dataset_folder = "./datasets/dataset_bmj/unitedReviews/"
     lm_folder = "./Language_Models/"
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

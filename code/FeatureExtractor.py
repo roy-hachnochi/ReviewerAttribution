@@ -14,7 +14,7 @@ nltk.download('stopwords')
 
 # ======================================================================================================================
 class FeatureExtractor:
-    def __init__(self, ignore=None):
+    def __init__(self, ignore=None, maxWords=np.inf):
         self.unigram = WordHistogram()
         self.bigram = WordHistogram()
         self.trigram = WordHistogram()
@@ -23,11 +23,12 @@ class FeatureExtractor:
         self.LM_foldernames = []
         self.nTokens = []
         self.ignore = ignore
+        self.maxWords = maxWords
         self.nFeatures = 0
 
-    def fit(self, dataset, nTokens, maxWords=np.inf, LM_foldername=None, labels=None):
+    def fit(self, dataset, nTokens, LM_foldername=None, labels=None):
         assert((LM_foldername is not None and labels is not None) or (LM_foldername is None and labels is None))
-        datasetClean = [tokenize(text, maxWords=maxWords) for text in dataset]
+        datasetClean = [tokenize(text, maxWords=self.maxWords) for text in dataset]
         datasetClean = [[token for token in tokens if token not in self.ignore] for tokens in datasetClean]
         datasetBi = get_ngrams(datasetClean, n=2)
         datasetTri = get_ngrams(datasetClean, n=3)
@@ -46,7 +47,7 @@ class FeatureExtractor:
     def transform(self, dataset):
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-        datasetClean = [tokenize(text) for text in dataset]
+        datasetClean = [tokenize(text, maxWords=self.maxWords) for text in dataset]
         datasetClean = [[token for token in corpus if token not in self.ignore] for corpus in datasetClean]
         datasetBi = get_ngrams(datasetClean, n=2)
         datasetTri = get_ngrams(datasetClean, n=3)

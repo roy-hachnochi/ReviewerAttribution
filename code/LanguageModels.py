@@ -35,8 +35,10 @@ def load_lm(foldername, device):
 if __name__ == '__main__':
     dataset_folder = "./datasets/dataset_bmj/forLM/articles_70"
     ouput_folder = "./Language_Models/articles_70"
+    epochs = 20
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    print("Using device: {}".format(device))
     if not os.path.isdir(ouput_folder):
         os.mkdir(ouput_folder)
     files = os.listdir(dataset_folder)
@@ -58,7 +60,7 @@ if __name__ == '__main__':
 
         training_args = TrainingArguments(
             output_dir=ouput_folder + author,  # output directory
-            num_train_epochs=20,              # total # of training epochs
+            num_train_epochs=epochs,              # total # of training epochs
             per_device_train_batch_size=16,  # batch size per device during training
             warmup_steps=500,                # number of warmup steps for learning rate scheduler
             weight_decay=0.01,               # strength of weight decay

@@ -2,6 +2,7 @@ from Preprocess import *
 from FeatureExtractor import *
 from sklearn import preprocessing
 from sklearn import svm
+from sklearn.cluster import OPTICS
 import numpy as np
 from sklearn.metrics import plot_confusion_matrix
 
@@ -13,11 +14,11 @@ if __name__ == '__main__':
     LM_folderName = "./Language_Models/"  # "./Language_Models/articles_all", "./Language_Models/articles_70", "./Language_Models/reviews_70"
     plotFeatures = False
     plotConfMat = True
-    TrainReviews = True
+    isSplitTrainTest = True
 
     # load and preprocess dataset:
     print('Preprocessing Data...')
-    if TrainReviews:
+    if isSplitTrainTest:
         dataset, labels = get_test("./datasets/dataset_bmj/test")
         # dataset, labels = get_train("./datasets/dataset_bmj/train")
         dataset_train, labels_train, dataset_test, labels_test = test_train_split(dataset, labels, pTrain)
@@ -43,6 +44,11 @@ if __name__ == '__main__':
     y_train = np.array([labels_to_class_dict[label] for label in labels_train])
     X_test = feature_ext.transform(dataset_test)
     y_test = np.array([labels_to_class_dict[label] for label in labels_test])
+
+    # Remove outliers from train data:  # TODO: remove outliers
+    # clusters = OPTICS(min_samples=8).fit_predict(X_train)
+    # X_train = X_train[clusters != -1, :]
+    # y_train = y_train[clusters != -1, :]
 
     # plot example of features:
     if plotFeatures:
