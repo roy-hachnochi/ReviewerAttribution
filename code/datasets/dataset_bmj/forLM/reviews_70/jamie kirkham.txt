@@ -1,75 +1,3 @@
-this is a through examination of the data - the methods in the revision are much
-clearer, particularly around the propensity score matching. the results have
-been verified in two independent cohorts which is credible. i have no further stats
-comments.
-there is a lot of material in this paper (tables/figures) particularly with the
-analysis of two cohorts analysed in two different way - i.e. the 'primary analysis'
-and the 'propensity score' approach - i think the authors would need to work with
-editors to determine which material should go into the main paper. table 2/5 i
-think are the most important - but these could easily be combined to show the
-results to both cohorts in one table.
-a couple of minors:
-
-methods - stats section. say that you will report numbers 'and percentages' for
-count data. in the results i then think it needs to be clearer in the tables when n
-(%) are reported.
-
-
-<|EndOfText|>
-
-this is an interesting study on an important topic area. my comments are aimed at
-improving some of the reporting of the results in the paper. most results are crude
-estimates - this is perhaps unusual but the authors do present some adjusted
-analyses in the supp material and show little differences.
-
-efigure 1: the flow diagram starts with the total number of women with first and
-second singleton deliveries and finishes with 302,192 women giving birth (after
-exclusions). however, he primary analysis considers only 284,225 women with a
-term first birth – this should be reflected in the flow diagram.
-the authors fit separate models for each complication with none of the 5
-complications as a reference. this seems plausible – the authors then run
-additional models when term complications co-occur in order to estimate
-associations between having one condition or 2 or more conditions. what were
-these additional models fitted? it is assumed that there may be some correlation
-between the ‘co-occurrence’ of these complications – how was this handled in the
-modelling?
-for all models fitted what were the model assumptions and were these assumptions
-satisfied.
-the impact over time was assessed by looking at three different time periods of the
-2nd birth. the three periods are not equally spaced – how were these derived?
-why not look at the effect over time as a continuous function given there is nearly
-50 years worth of data.
-table 1 list the demographics of the data. several other characteristics are used in
-the sensitivity analyses. to understand these later analyses better, it might be
-beneficial to include the demographics to all these variable used in table 1.
-table 1 – for the complications where the denominator is not 301,192, it would be
-beneficial to tell us what these are – it’s not clear form the % alone. perhaps list
-this next to the complication name.
-table 2 (left side) / figure 1 contain the same information. have the authors
-considered producing a forest plot that also presents the numerator / denominators
-and rr estimates and confidence intervals – similar to those produced in cochrane
-reviews. these can be produced in various software.
-also consider reporting the
-absolute risk reduction with ci’s for each complication compared to no complication
-the authors report “in the aggregate, having one of these complications led to an
-increased relative risk of preterm of 2.3 (2.2-2.5), while having two or more term
-complications produced a relative risk of 3.8 (3.3-4.5)”. i gather this is compare to
-having no complications. this seemed quite high level – i guess what would be of
-more interest is to understand the relationship between the different complications.
-e.g. what combinations of complications lead to preterm birth.
-the authors report “there was a general trend for these risks to increase over the
-three time periods” i prefer if the term ‘trend’ is not used if this isn’t more formally
-tested for. testing for trend is a specific statistical technique – this isn’t done here.
-table 2 (right side) – again the forest plot idea above could be utilised here. the
-reference categories used weren’t too obvious here. i guess the confusion to the
-current table 2 is that it is unclear if we should be looking down the columns or
-across the rows.
-in all supplementary tables, please present all the numerators/denominators when
-computing rr – this is important for reproducibility of results.
-
-
-<|EndOfText|>
-
 thanks for the suggested amendments.
 just a few more minors relating to the same issues i raised before but i don't necessarily
 need to see the changes.
@@ -105,67 +33,53 @@ them here:
 
 <|EndOfText|>
 
-this is a thorough review and thanks for addressing my comments. i have a few minors:
-1) the table numbers need checking, i think you only have two main tables but the manuscript text
-suggests there are 3. as an example, table 2 in the text i think is table 1
-2) i don't think some of the numbers in the manuscript text always correspond to the numbers in the
-relevant tables. this was particularly evident in the severity of preventable harm section on page 13
-lines 15-19 but there was at least one other place this occurred.
-this is an advisory point only, but typically with regression, i prefer the reference category to be the one
-with the largest number of studies.
+the authors have provided some detailed responses to reviewer/editorial comments. some of the
+understanding of this paper and indeed the 'science' behind the approach relies on previous research
+carried out by the authors - i think this has now been adequately addressed.
 
+however, i do still have a slight niggling issue (as did most reviewers) about the diagnostic test
+accuracy measures presented. the most common measures (sensitivity/specificity) and others were not
+reported in this paper (even though they were listed in the initial draft). the authors in their response
+suggested this was an oversight and referred to a protocol (ref 9). the protocol is however vague and
+mentions only 'diagnostic test accuracy measures' will be used. the same authors also conducted a
+review and meta-analysis on this topic (ref 5). in this review sens/spec was a measure of choice - this
+does raise some signals around selective reporting. perhaps the saving grace is that the authors do
+present the tp, fp, fn and tn values so in theory, readers could compute these metrics. does the
+presentation of these results tell a different story though? to remove and suspicion, it might be worth
+including them given they are relatively simple to compute.
+methods - when using backward selection is not more common to uses a retention p-value of <0.1
+rather than <0.05. i'm not suggesting repeat the analysis (as this can be seen as arbitrary) - but would
+it have made any difference?
+appendix 2/3 - what are the denominator values?
+the authors use pre-defined rules for plrs and nlrs. this authors comments on the point estimates
+which is fine, but you may also want to comment on the uncertainty (i.e. confidence intervals). as an
+example, while 'raised calcium' did not reach a plr of 5, the confidence interval includes this value.
+i think table 5 is referred to before 4 in the text.
 
 <|EndOfText|>
 
-this is an interesting study on an important topic area. my comments are aimed at
-improving some of the reporting of the results in the paper. most results are crude
-estimates - this is perhaps unusual but the authors do present some adjusted
-analyses in the supp material and show little differences.
+i'd like to thank the authors for their careful and detailed responses to my initial
+comments. the authors present the results in a way that they believe is most informative
+to researchers in a similar field. as a result, and from a statistical perspective, i am happy
+with the justifications provided on the approach that was taken. importantly the results
+presented are data driven and are reported transparently.
 
-efigure 1: the flow diagram starts with the total number of women with first and
-second singleton deliveries and finishes with 302,192 women giving birth (after
-exclusions). however, he primary analysis considers only 284,225 women with a
-term first birth – this should be reflected in the flow diagram.
-the authors fit separate models for each complication with none of the 5
-complications as a reference. this seems plausible – the authors then run
-additional models when term complications co-occur in order to estimate
-associations between having one condition or 2 or more conditions. what were
-these additional models fitted? it is assumed that there may be some correlation
-between the ‘co-occurrence’ of these complications – how was this handled in the
-modelling?
-for all models fitted what were the model assumptions and were these assumptions
-satisfied.
-the impact over time was assessed by looking at three different time periods of the
-2nd birth. the three periods are not equally spaced – how were these derived?
-why not look at the effect over time as a continuous function given there is nearly
-50 years worth of data.
-table 1 list the demographics of the data. several other characteristics are used in
-the sensitivity analyses. to understand these later analyses better, it might be
-beneficial to include the demographics to all these variable used in table 1.
-table 1 – for the complications where the denominator is not 301,192, it would be
-beneficial to tell us what these are – it’s not clear form the % alone. perhaps list
-this next to the complication name.
-table 2 (left side) / figure 1 contain the same information. have the authors
-considered producing a forest plot that also presents the numerator / denominators
-and rr estimates and confidence intervals – similar to those produced in cochrane
-reviews. these can be produced in various software.
-also consider reporting the
-absolute risk reduction with ci’s for each complication compared to no complication
-the authors report “in the aggregate, having one of these complications led to an
-increased relative risk of preterm of 2.3 (2.2-2.5), while having two or more term
-complications produced a relative risk of 3.8 (3.3-4.5)”. i gather this is compare to
-having no complications. this seemed quite high level – i guess what would be of
-more interest is to understand the relationship between the different complications.
-e.g. what combinations of complications lead to preterm birth.
-the authors report “there was a general trend for these risks to increase over the
-three time periods” i prefer if the term ‘trend’ is not used if this isn’t more formally
-tested for. testing for trend is a specific statistical technique – this isn’t done here.
-table 2 (right side) – again the forest plot idea above could be utilised here. the
-reference categories used weren’t too obvious here. i guess the confusion to the
-current table 2 is that it is unclear if we should be looking down the columns or
-across the rows.
-in all supplementary tables, please present all the numerators/denominators when
-computing rr – this is important for reproducibility of results.
+<|EndOfText|>
+
+main points:
+the original version of this paper is that it contained too much spin. the intervention only
+demonstrated a small benefit and emphasis was more focussed on the economic
+evaluation. as the intervention was low-cost, the authors were able to demonstrate that
+this would reach the thresholds for adoption by nice in the uk, and forms part of a uk
+wide health priority goal which is being implemented. in the revision, much of this spin
+has now been removed, such that the he analysis does not overshadow the efficacy
+benefits.
+the protocol was published in july 2016 (trials), and they do mention some health
+economics in this - recruitment began about this time, so i think the he evaluation was
+always planned in this study (the protocol certainly also contained well known health
+economists).
+this trial was well done, it’s now much better reported, transparent and balanced – we can
+tell what they did and it is important for uk policy at least.
 
 
 <|EndOfText|>
@@ -200,74 +114,6 @@ then the % difference for the others.
 it's not obvious the message is the same.
 11) line: 253. 'surgery groups and all signficantly higher than the non-obese group' significant in a statistical sense?
 how do you know? same when you refer to adjusted fracture risk being similar between surgical groups (pre-surgery) are they that similar? most seem closer to the obese group but agp seems stand-alone.
-
-<|EndOfText|>
-
-this is my second review of this manuscript and my initial comments were mainly focussed
-around how balanced the findings were reported. the authors appear to have done a good
-job of this in the revision and i think all the major limitations are now clearly stated in the
-
-discussion. the key as the authors describe is that the effect is 'modest' but the
-intervention is low-cost. given the current evidence base - this trial appears to add value
-and may influence policy, though it is unclear if this would extend outside the uk.
-the economic analysis is important it feels although i cannot comment on the methods
-used. there were however a couple of points.
-1) it was unclear to me why the researchers stratified by area (bristol vs non-bristol) why was this done?
-2) why did only half of the practices agree to participate? the reasons for declining would
-be useful information to include in the consort flow diagram- this may give the readers
-some insight on whether it is feasible to roll out the intervention in other sites.
-3) table 3 - in the subgroup analysis comparing opioid/idu and not opioid/idu, was there
-a reference category?
-
-
-<|EndOfText|>
-
-this is a credible study with an interesting and topical research question. from the
-plethora of reviews that have looked at harms, reviewing studies that have looked at
-preventable/avoidable harm is likely to be more novel – this stems from the
-difficulty in making such assessments.
-in a review that looked at adrs in a paediatric setting – the study also looked at
-causality, severity and avoidability. this maybe a good reference point as the study
-reported that only a few studies looked at an assessment of avoidability.
-https://www.ncbi.nlm.nih.gov/pmc/articles/pmc3293884/pdf/pone.0024061.pdf
-should any of the studies in this review that look at avoidability be included in this
-review, i.e. those published in 2010 onwards. for example should the gallagher
-2011 study be included which used the hallas tool to assess avoidability?
-i see your search strategy does include both the terms preventable and avoidable –
-this is important as these are often interchangeable terms.
-to assess risk of bias, the n-o scale was used. this is credible to assess the overall
-quality of the studies. however, in the context of this review, it may also be
-beneficial to have a review author assessment of the method of preventability
-assessment in each study. while there may be no tools to do this, the authors could
-define what they think is important criteria, for example, was a validated tool used,
-e.g. hallas, laat
-
-(https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0169393). who
-performed the assessments, was it a single assessor / consensus approach / were
-relevant guidelines referred to etc. a lot of studies appeared to use a likert scale
-with a score over 4 (on a 6 point scale) being defined as preventable. this seems
-hard to contemplate given that a harm being preventable or not is a binary
-outcome. how does the impact on the quality of the preventability tool used affect
-the conclusions to the review? [see comment below]
-the use of meta-analytic techniques to present the data seems reasonable - this
-provides a useful pictorial representation of the event rates for each study.
-however, the authors should consider whether presenting the pooled results is
-credible, given the very high levels of heterogeneity observed. the overall pooled
-result reported as the main finding is clearly influenced by those in an intensive care
-setting.
-pg 11 – line 24 table 2? not table 1? some of the results reported in the text are
-not found in this table – result of pooling preventable / non-preventable? again high
-levels of heterogeneity – is pooling always sensible?
-in the meta-regression, the method of preventability seems to be an important
-factor – again this needs to be put in the context of my point above about the
-quality of this assessment approach.
-
-
-<|EndOfText|>
-
-i would like to congratulate the authors for making the necessary amendments to the manuscript. my initial
-concern was around the imputation methods used which i am now satisfied with.
-one minor point, i would probably prefer to see the section on bias (line 167) in the discussion section.
 
 <|EndOfText|>
 
@@ -362,6 +208,59 @@ dose-response analysis.
 
 <|EndOfText|>
 
+this is an interesting study on an important topic area. my comments are aimed at
+improving some of the reporting of the results in the paper. most results are crude
+estimates - this is perhaps unusual but the authors do present some adjusted
+analyses in the supp material and show little differences.
+
+efigure 1: the flow diagram starts with the total number of women with first and
+second singleton deliveries and finishes with 302,192 women giving birth (after
+exclusions). however, he primary analysis considers only 284,225 women with a
+term first birth – this should be reflected in the flow diagram.
+the authors fit separate models for each complication with none of the 5
+complications as a reference. this seems plausible – the authors then run
+additional models when term complications co-occur in order to estimate
+associations between having one condition or 2 or more conditions. what were
+these additional models fitted? it is assumed that there may be some correlation
+between the ‘co-occurrence’ of these complications – how was this handled in the
+modelling?
+for all models fitted what were the model assumptions and were these assumptions
+satisfied.
+the impact over time was assessed by looking at three different time periods of the
+2nd birth. the three periods are not equally spaced – how were these derived?
+why not look at the effect over time as a continuous function given there is nearly
+50 years worth of data.
+table 1 list the demographics of the data. several other characteristics are used in
+the sensitivity analyses. to understand these later analyses better, it might be
+beneficial to include the demographics to all these variable used in table 1.
+table 1 – for the complications where the denominator is not 301,192, it would be
+beneficial to tell us what these are – it’s not clear form the % alone. perhaps list
+this next to the complication name.
+table 2 (left side) / figure 1 contain the same information. have the authors
+considered producing a forest plot that also presents the numerator / denominators
+and rr estimates and confidence intervals – similar to those produced in cochrane
+reviews. these can be produced in various software.
+also consider reporting the
+absolute risk reduction with ci’s for each complication compared to no complication
+the authors report “in the aggregate, having one of these complications led to an
+increased relative risk of preterm of 2.3 (2.2-2.5), while having two or more term
+complications produced a relative risk of 3.8 (3.3-4.5)”. i gather this is compare to
+having no complications. this seemed quite high level – i guess what would be of
+more interest is to understand the relationship between the different complications.
+e.g. what combinations of complications lead to preterm birth.
+the authors report “there was a general trend for these risks to increase over the
+three time periods” i prefer if the term ‘trend’ is not used if this isn’t more formally
+tested for. testing for trend is a specific statistical technique – this isn’t done here.
+table 2 (right side) – again the forest plot idea above could be utilised here. the
+reference categories used weren’t too obvious here. i guess the confusion to the
+current table 2 is that it is unclear if we should be looking down the columns or
+across the rows.
+in all supplementary tables, please present all the numerators/denominators when
+computing rr – this is important for reproducibility of results.
+
+
+<|EndOfText|>
+
 i would like to thanks the authors for using the most up-to-date data in their revision. i
 have an number of suggestions for improvement.
 on page 12 the tramadol only category was described as the comparison category in yet in
@@ -389,3 +288,110 @@ transparency i would recommend that the main analysis remains as planned using t
 updated dataset. this is to avoid any potential for bias from looking at the results form
 several analyses.. other analysis could be included if of interest and labelled something
 along the lines as 'post-hoc' analysis.
+
+
+<|EndOfText|>
+
+this is a through examination of the data - the methods in the revision are much
+clearer, particularly around the propensity score matching. the results have
+been verified in two independent cohorts which is credible. i have no further stats
+comments.
+there is a lot of material in this paper (tables/figures) particularly with the
+analysis of two cohorts analysed in two different way - i.e. the 'primary analysis'
+and the 'propensity score' approach - i think the authors would need to work with
+editors to determine which material should go into the main paper. table 2/5 i
+think are the most important - but these could easily be combined to show the
+results to both cohorts in one table.
+a couple of minors:
+
+methods - stats section. say that you will report numbers 'and percentages' for
+count data. in the results i then think it needs to be clearer in the tables when n
+(%) are reported.
+
+
+<|EndOfText|>
+
+i would like to congratulate the authors for making the necessary amendments to the manuscript. my initial
+concern was around the imputation methods used which i am now satisfied with.
+one minor point, i would probably prefer to see the section on bias (line 167) in the discussion section.
+
+<|EndOfText|>
+
+general:
+
+1)
+‘what is already known on this topic’: bullet point 1), the authors pose a question
+– under this section, this should ideally be a factual statement.
+statistics:
+1)
+procedures: can the authors justify the use of the 5 follow-up cohort years from
+diabetes onset – how does categorisation increase power?
+2)
+procedures: the authors suggest that the same patient might be observed in
+more than one cohort – how frequent was this? how was this accounted for in the analysis
+(i presume this is the gee model) – there is the potential that the inferences made may be
+affected if the same participants are used multiple times in the analysis?
+3)
+procedures: similarly can authors justify the reasons for the categorisation of
+hba1c and then using the continuous variable to estimate risk of complications? the latter
+is often preferred. there are a lot of numerical results in this paper and the categorisation
+clearly adds to this (table 2). what’s more, the number of events in some categories is
+small which in some cases leads to a reasonable degree of uncertainty in the results (wide
+confidence intervals).
+4)
+statistics: in the analysis of hypoglycaemia events, how was censoring taken into
+account which was described in the ‘procedures’
+5)
+statistics: the mention that no imputations were made. i did not get a sense of
+how much missing data there was. how impactful might this be on the analysis?
+6)
+units – this is not my area of expertise but can the authors clarify if the data
+relates to hbac1 achieved or targeted results? these may not necessarily be the same.
+also is there value in presenting results by % hba1c and using mmol/mol
+7)
+statistics: can the use of 6.5-6.9% be justified as the reference category in the
+regression. typically to assist with the inference, a category with the larger number of
+events is chosen, this may help with the point made in 3).
+8)
+the authors present a lot of results in the text – in particular in the abstract i felt
+the inclusion of no less than 10 results detracted from the main message. what are the
+key results?
+9)
+there are some disparities in the ‘significance’ of some of the results between
+adjusted and unadjusted analysis. it was good to see that the authors presented both
+results but i would recommend the use of the term ‘significant’ is dropped when describing
+these results. this largely falls back to the uncertainty in the estimates found –the true
+differences is best left as presenting the ci’s (though i’m not suggesting the p-values are
+removed from the table).
+10)
+figure 1 – i found this a little bit difficult to interpret given it was a little ‘busy’. i
+reviewed in black and white – does colour help with this? the actual numbers are provided
+in the supplementary which is helpful.
+11)
+figure 2.1 and 2.2. this is difficult to understand giving the point you are trying
+to make. you report that the deviation occurs at 8.1% for 16-20 years and 8.6% for
+shorter follow- up. this maybe true – but this covers a very tiny space on the plots to
+see this. you also talk about ‘decrease’ over time – this might be confusing to some
+readers as the lines ‘increase’. is there a better way to present/describe this? figure 2.2
+– for two of the lines you observe overlap – is there any rationale for this?
+
+additional questions:
+please enter your name: jamie kirkham
+job title: md
+institution: university of liverpool
+reimbursement for attending a symposium?:
+a fee for speaking?:
+a fee for organising education?:
+funds for research?:
+funds for a member of staff?:
+fees for consulting?:
+have you in the past five years been employed by an organisation that may
+in any way gain or lose financially from the publication of this paper?:
+do you hold any stocks or shares in an organisation that may in any way
+gain or lose financially from the publication of this paper?:
+if you have any competing interests <a
+href='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/d
+eclaration-competing-interests'target='_new'> (please see bmj policy) </a>please declare
+them here:
+
+

@@ -1,44 +1,3 @@
-risk of hypoglucaemia related to dpp-4 inhibitors plus sulphonylureas: systematic review and metaanalysis
-i apologise for the delay in completing this report.
-the authors have conducted a meta-analysis of rcts looking at the risk of hypoglycaemia. they
-undertake two analyses, a meta-analysis of relative risks (rr) and a meta-analysis of numbers
-needed to treat (nnt) to observe a harmful event.
-1. the rr meta-analysis method is described on page 7, and is based on either a fixed effect or
-random effects model dependent on the statistical significance of the test of heterogeneity (using a
-p<0.1 criteria). no method is described for comparing subgroups.
-2. the nnt meta-analysis method is described on page 8, and the methodological description simply
-described as “pooled in a forest plot”. this is an inadequate description and it is unclear what has
-been done.
-3. for the rr analysis, the authors report results of comparisons of subgroups (according to
-definition of hypoglycaemia, according to dose) but do not explain what test for the required tests
-for differences between subgroups have been undertaken. for the comparison of hypoglycaemia a
-p-value is reported for “evidence of heterogeneity between the groups” on line 7 of page 10, but we
-do not have a method. for comparison of doses the focus is on whether each group is statistically
-significant rather than assessing for differences between the groups (lines 9-10), which is regarded
-as a misleading way of undertaking subgroup analyses.
-4. it is not recommended that an average nnt is computed by pooling, as appears to have been
-done in this manuscript (although the method used is not clear). this is because nnts
-mathematically depend on the underlying event rates, which typically vary across studies,
-introducing heterogeneity. for example, one determinant of event rates is length of follow-up,
-which always increases event rates. thus pooling studies with mixed length of follow-up (here
-studies vary between white with 76 weeks follow-up and baseline event rate of 6.3% and kikucho
-and seino with 12 weeks followup both with baseline event rates of 1.0%) is likely to introduce
-heterogeneity for nnts, whereas the relative effects are more likely to be consistent at different
-follow-up points.
-5. the recommended approach (as stated in the cochrane handbook) to estimate an average nnt is
-to obtain the pooled rr estimate from the meta-analysis and to estimate nnts from it across a
-
-range of prevalences which reflect different settings. these prevalences may be obtained from the
-data in the trials, or from other sources. clearly here it is important to standardise for the length of
-follow-up time, and the nnt needs to be stated conditional on that duration of treatment (the
-longer you treat for the more events will happen).
-6. i would also encourage the authors to stick with the notation and terminology introduced by
-altman for nnts, which is the nnt for one person to be harmed nnt(h) or benefit nnt(b). the
-authors introduce this at the beginning, but then slip into the rather inappropriate nnh – number
-needed to harm. although widely used, this abbreviation is erroneous.
-
-<|EndOfText|>
-
 statistical review
 risk of hypoglycaemia related to the addition of dpp-4 inhibitors to sulphonylureas: systematic review and metaanalysis
 the authors have taken on board comments about the computations of numbers needed to treat in their revised
@@ -80,13 +39,204 @@ analysis.
 
 <|EndOfText|>
 
-bmj.2015.025078
-consumption of spicy foods and total and cause-specific mortality: a 7-year prospective study of 0.5 million
-chinese adults
-the authors have made substantial revisions to this manuscript in responses to comments made, and all
-addressed all important points.
-i have no further comments to make.
-my apologies over the time taken for me to complete this review of the revision.
+bmj.2014.023279.r1
+birthweight and later life adherence to healthy lifestyles in predicting type 2 diabetes: a prospective study
+the authors have responded to many of the points made by the peer reviewers and editors.
+i have several comments concerning the manuscript.
+the headlines from the manuscript are based on the calculation of the population attributable risk, which they
+state to be 91%. this is quite sensational, and i have concerns about it from several directions.
+1) first, is that it is based on the concept that it would be possible for everybody to achieve the baseline lifestyle
+and birthweight categorisation. in the cohorts studied, only 1.91% of participants actually were in this category. i
+imagine it must be the least likely category to be in. thus it is rather naïve to consider that this is possible –
+particularly to adjust birthweights and to reduce your bmi. it would be much more appropriate for the manuscript
+to consider the magnitude of reductions which could be achieved by interventions rather than consider a rather
+fanciful idea that all risk factors could be removed.
+2) second, despite the many comments from the reviewers, the authors do not seriously discuss the possibility
+that the relationships observed could in anyway be causal. they are clear that they are making an assumption of
+causality, but do not venture into discussion as to how likely it is that this could be the case.
+3) third, the analysis of the event rate in the baseline category is based on little data with few events – there are
+confidence intervals included, but it is wise to note that it is based on only 19 events across all the cohorts.
+4) finally the authors present data (table 4) which make it clear that bmi is the dominant factor which is driving
+the lifestyle relationships – adding bmi as a requirement for a healthy lifestyle increases the percentage
+attributable risk from 57.2 to 91.2 – thus it represents nearly 40% of the observed attributable risk. this certainly
+needs profiling and discussion – currently there is no mention of it in the text.
+5) i would also point to the strange use of “confident intervals”
+
+
+<|EndOfText|>
+
+statistical review
+i appreciate the authors’ explanation of the analysis of replacing red meat with other food types.
+you.
+
+thank
+
+i think that it is important to draw readers’ attention to many assumptions and much weaker strength of
+this replacement food analysis compared to the simple analysis of changes in red meat intake. for
+reasons explained below, i propose that this analysis should be completely removed from the paper as i
+believe it is likely to be misleading, and currently is over-interpreted. as this appears to be one of the
+objectives of this paper, this will be a major change.
+the analysis of the red meat changes is based on identifying cohort members who we know did change
+their intake and observing their mortality. this change analysis is the main strength of this paper.
+however, the replacement analysis is a statistical modelling exercise utilising data across the whole
+cohort, without ever identifying whether there is a single individual in the cohort who actually replaced
+red meat with any of the other food types. from the authors’ explanation i understand that the analysis
+has estimated the change in mortality with unit change in each of the different food types (for example,
+an increase in mortality of x% with a unit increase in red meat, a decrease in mortality of y% with a unit
+increase in fish) and then has summed the two coefficients to predict what would happen if you made
+both changes together. there does not actually need to be any individual in the cohort to have made
+that combination of changes to obtain that estimate.
+i understand that this analysis is actually assuming that the changes in mortality with each food type are
+independent. whilst the uncertainty is the estimate is taking account of shared variance (reflecting the
+correlation of changes in consumption of different food types across the cohorts) it is assuming, for
+
+example, that the change of mortality with different changes in fish consumption would be the same
+regardless of the changes in consumption of all other food types, including red meat.
+understanding how replacement of one food type with another would actually impact on mortality would
+require investigation of interaction terms between each combination, for which these data are unlikely to
+have statistical power (it will depend on the exact numbers of participants who did actually substitute on
+food with another). and the reality is most likely that individuals reducing red meat are likely to replace
+it with a selection of different food types, and not a single food type, so such a simple analysis would be
+impossible.
+i fear that inclusion of the current replacement analysis is creating an illusion of understanding the
+actual impact of replacement when all the dataset can provide are independent estimates of how
+mortality changes with independent changes in each food type. for example, quoting from the abstract
+“a reduction in one serving/day of red meat accompanied by an increase in an alternative food choice
+was associated with a lower risk of death”. this is wrong as the model fitted has estimated how a
+change in the alternative impacts on risk of death regardless of whether it accompanies a reduction in
+red meat intake.
+i therefore cannot see what this analysis is adding over a table which summarises the change in
+mortality predicted with unit change of each of the food types (i.e. the main effects). these currently
+are not reported in the paper at all, although they are the key parameters included in the model from
+which these estimates are obtained. i would therefore urge the authors to abandon the reporting of
+this replacement analysis, potentially replacing it with reports of the impact of changes in other food
+types. interpretation of the “replacement” question can only be speculative.
+there is much about this study which is strong and well reported, so i would strongly request that the
+authors’ consider this request.
+
+
+<|EndOfText|>
+
+bmj-2019-051763
+statistical review
+the authors report on a substantial review of studies which have evaluated the impact of
+media portrayal of suicide on subsequent suicide and attempted suicide rates. this is an
+important topic and the authors should be congratulated on their work. the review appears
+generally well done, but there are important aspects of presentation, analysis, reporting and
+interpretation which require attention. currently the reporting does not fully comply with the
+prisma guidelines.
+major point
+1. a major limitation of the current report is the lack of tabulation of the characteristics of
+the included studies. its absence creates a barrier for readers to be able to understand the
+content and methods of the included studies. please can the authors add such a table? as
+a minimum it should describe the participants (setting, location, time, recruitment), the
+source of the outcome data, the number and duration of different time periods considered
+before and after the media portrayal, the samples sizes before and after, confounders
+measured and adjusted for, and methods used to adjust for time trends.
+major point
+2. readers need to understand more about the study designs included. the authors name
+the designs as “ecological” studies, which is a concern, as ecological studies would include
+studies which compared average rates between different areas. from the brief descriptions
+in the text, i presume that studies which are included are in the same area, but from
+time-periods before and after the intervention. these have often been called interrupted
+time series (its) studies (a study that uses observations at multiple time points before and
+after an intervention (the ‘interruption’) - the design attempts to detect whether the
+intervention has had an effect significantly greater than any underlying trend over time.)
+please better explain the eligible designs, and reconsider the naming of the studies and give
+more information.
+major point
+3. the authors have developed their own quality assessment process for assessing the
+validity of these studies and not used any existing tool. i am not aware that there is a
+formalised and validated tool available for assessing study quality from its studies.
+however, the cochrane effective practice, organisation of care (epoc) group has suggested
+risk of bias criteria for its for epoc reviews on their website
+(https://epoc.cochrane.org/sites/epoc.cochrane.org/files/public/uploads/resources-for-autho
+rs2017/suggested_risk_of_bias_criteria_for_epoc_reviews.pdf) which the authors may
+usefully reflect on. the robins-i tool (https://www.bmj.com/content/355/bmj.i4919) was
+designed for cohort type non-randomised studies, and thus does not directly apply, but the
+concepts included should be reviewed. i am aware that the robins-i team are developing a
+
+new tool for its studies, but this is not yet published. it might be worth contacting the
+authors of robins-i to see whether they have any documents which are publicly available.
+4. one key issue that has not been considered are the number of time points before and
+after the intervention. it is not possible to adjust for time trends unless there are adequate
+numbers of points available. it sounds like there may be studies here with a single time
+point before and a single time point after which must be considered carefully as they may
+not give valid estimates of effects where there are underlying time trends.
+5. the current quality assessment is limited to consideration of three aspects, but these are
+not described in adequate detail to allow replication of the assessments, particularly for
+confounding and time-trends. there is also no tabulation of the assessments for the
+included studies. please could the authors give greater detail of the assessment criteria in
+an appendix document (maybe with some examples) and provide tabulations of the ratings
+by study and reasons for the judgements made?
+6. the process by which screening, eligibility, quality assessment and data extraction
+decisions were made in the review is not described. usually we would expect to see that
+these processes were done in duplicate independently, involving additional experts to resolve
+disagreements. please describe.
+7. why was embase not searched? embase contains many journals not included in
+medline. is scopus not the platform that hosts web of science? please explain.
+8. the exclusion criteria state papers were excluded if they did not include primary or
+secondary data. please explain what you mean by primary and secondary data.
+9. please can you more fully explain how you categorised study results into “increase”,
+“decrease” or “no change”. how were the numerical values used? e.g. what constituted a
+numerical “no change”? when there were no numbers presented on what basis was the
+categorisation made?
+10. please can you explain more what was presented in studies which did not provide
+sufficient information to extract quantitative estimates of risk. what stopped you using
+these studies further?
+11. the data synthesis section states that meta-analysis was done using a random effects
+model. later in the heterogeneity section it is stated that pooled estimates were computed
+using the knapp-hartung method – i think that this extra important detail belongs in the
+data synthesis section and not the heterogeneity section. the meta-regression model used
+is not properly described in the heterogeneity section (i expect that it was some form of
+random effects model, but please specify).
+12. the results section does not state how many potential articles were identified in the
+search and how many were considered in full – these details are in the prisma flow diagram
+but it would be appropriate to briefly refer to them in the results.
+13. figure 2 is labelled as both relative risk and rate ratio. please make it consistent. figure
+4 has “rate ratio differences” as a title which is confusing.
+14. it would be preferable that the rr anaylsis was used for all studies which requires
+appropriate data being obtained from studies only presenting rd values. all but two of the
+studies which presented rd values were authored by dr stack, who is a co-author of the
+review. is he not able to provide rr
+15. for all studies it is important to present the raw results in detail – this may be done in
+extra tables if the values cannot be incorporated in figure 2 or figure 3.
+
+16. to interpret funnel plots (figure 4) it is helpful to have the overall effect estimate
+plotted, as the consideration of asymmetry relates to the overall effect line and not the null
+effect line. the interpretation in the text is also considering asymmetry around the null line,
+which is not correct.
+17. table 1 reports the investigation of sources of heterogeneity. what statistic does irr
+relate to here? these values are ratios of risk ratios. this needs explanation in the table,
+and in the text. the interpretation of these figures on page 12 in paragraph 2 under
+heterogeneity is wrong. they are being interpreted as if they are actually relative risks.
+18. how is the r^2 value calculated for the meta-regression? i am not aware that random
+effects meta-regression can produce valid estimates of r^2
+major point
+19. the sensitivity analysis shows substantial attenuation of effect when low quality studies
+and studies with very long follow-up are removed. such findings should be given much
+greater emphasis in the interpretation of the results (including the abstract). currently this
+sensitivity analysis appears to be disregarded in the interpretation of the results. the
+bottom line of the paper, that the risk has increased 50-80% is not supported by this data.
+the estimates in the high quality studies are of a 6-13% increase – much much smaller.
+
+
+<|EndOfText|>
+
+statistical review
+bmj.2014.023058.r1
+arthroscopic surgery for the degenerative knee: a systematic review and meta-analysis of
+benefits and harms
+the authors have submitted a strong response to the comments made with an appropriately
+revised manuscript. they have updated the analysis as i suggested, and their key findings
+remain strong (if not stronger) than in the original manuscript.
+i have one comment that i would like them to address:
+1) the conversion of the effect size to the vas scale difference is not fully described. it must be
+made based upon some presumed value of the standard deviation of the vas scale. as an es of
+0.14 corresponds to a vas difference of 2.4mm, so i presume that the sd is about 17mm). it
+would be appropriate to fully explain this in the paper and explain where the value of 17mm
+has arisen from
+
 
 <|EndOfText|>
 
@@ -154,187 +304,52 @@ and not an unachievable reduction to zero.
 
 <|EndOfText|>
 
-bmj.2014.023279.r1
-birthweight and later life adherence to healthy lifestyles in predicting type 2 diabetes: a prospective study
-the authors have responded to many of the points made by the peer reviewers and editors.
-i have several comments concerning the manuscript.
-the headlines from the manuscript are based on the calculation of the population attributable risk, which they
-state to be 91%. this is quite sensational, and i have concerns about it from several directions.
-1) first, is that it is based on the concept that it would be possible for everybody to achieve the baseline lifestyle
-and birthweight categorisation. in the cohorts studied, only 1.91% of participants actually were in this category. i
-imagine it must be the least likely category to be in. thus it is rather naïve to consider that this is possible –
-particularly to adjust birthweights and to reduce your bmi. it would be much more appropriate for the manuscript
-to consider the magnitude of reductions which could be achieved by interventions rather than consider a rather
-fanciful idea that all risk factors could be removed.
-2) second, despite the many comments from the reviewers, the authors do not seriously discuss the possibility
-that the relationships observed could in anyway be causal. they are clear that they are making an assumption of
-causality, but do not venture into discussion as to how likely it is that this could be the case.
-3) third, the analysis of the event rate in the baseline category is based on little data with few events – there are
-confidence intervals included, but it is wise to note that it is based on only 19 events across all the cohorts.
-4) finally the authors present data (table 4) which make it clear that bmi is the dominant factor which is driving
-the lifestyle relationships – adding bmi as a requirement for a healthy lifestyle increases the percentage
-attributable risk from 57.2 to 91.2 – thus it represents nearly 40% of the observed attributable risk. this certainly
-needs profiling and discussion – currently there is no mention of it in the text.
-5) i would also point to the strange use of “confident intervals”
-
+bmj.2015.025078
+consumption of spicy foods and total and cause-specific mortality: a 7-year prospective study of 0.5 million
+chinese adults
+the authors have made substantial revisions to this manuscript in responses to comments made, and all
+addressed all important points.
+i have no further comments to make.
+my apologies over the time taken for me to complete this review of the revision.
 
 <|EndOfText|>
 
-statistical review
-bmj.2014.023058.r1
-arthroscopic surgery for the degenerative knee: a systematic review and meta-analysis of
-benefits and harms
-the authors have submitted a strong response to the comments made with an appropriately
-revised manuscript. they have updated the analysis as i suggested, and their key findings
-remain strong (if not stronger) than in the original manuscript.
-i have one comment that i would like them to address:
-1) the conversion of the effect size to the vas scale difference is not fully described. it must be
-made based upon some presumed value of the standard deviation of the vas scale. as an es of
-0.14 corresponds to a vas difference of 2.4mm, so i presume that the sd is about 17mm). it
-would be appropriate to fully explain this in the paper and explain where the value of 17mm
-has arisen from
-
-
-<|EndOfText|>
-
-statistical review bmj-2019-050974
-the manuscript reports a pooled analysis of data from 3 cohort studies reporting on the
-association between egg consumption and cardiovascular disease, and also contains a
-meta-analysis of cohort studies updated with the new data. the statistical methods and
-reporting in the manuscript are generally strong. the authors have access to three
-particularly good data sets, with large sample sizes, standardised repeated assessments of
-dietary intake, good covariate data allowing adjustment for major predictors of cvd events,
-and long follow-up with high numbers of events to allow precise estimates of risk. however,
-there are two main issues with the prospective studies and several issues with the additional
-meta-analysis which the authors need to pay attention to.
-1) the report includes a ‘replacement’ analysis, that hypothesises as to how switching egg
-consumption to other food types would affect cvd. this is a hypothetical modelling
-exercise, contrasting coefficients for egg consumption with each other food group in turn.
-the data set does not contain any empirical data that looks at individuals who have switched
-consumption between each of the two food types – this is simply a game of contrasting
-
-model coefficients and forecasting what the switch would create. it is based on an unstated
-set of assumptions concerning the independence of the different foods. whilst i appreciate
-that such analyses are in vogue in nutritional research, the strength of evidence which can
-be attributed to these results is exceptionally poor, and their inclusion is to the detriment of
-the excellent epidemiology in the rest of the manuscript. in particular including these
-estimates in the abstract and in the first paragraph of the discussion is poor scientific
-reporting as it is likely to mislead readers as to the credibility of these findings. the
-manuscript would be greatly strengthened by total removal of the pretence of evidence that
-this ‘replacement’ analysis depicts. particularly when you notice that those who consume
-eggs are the same as those who consume more red meat so the idea of people ‘switching’ is
-not evidence based, and unlikely to be true. the rest of the manuscript is really strong, this
-part is at high risk of being misleading and false.
-2) a strength of the datasets which are analysed is that they contain repeated dietary
-assessments. the authors discuss including ‘cumulative exposure up until each follow-up
-period’ but it is not really clear to me what this means. what is a follow-up period? there
-is no explanation whether the covariate values are changing over time, and if so how they
-are being incorporated into the regression models. are time-varying models being used?
-that would seem appropriate. it would also seem appropriate to include updated covariates
-for the other predictors of risk at the same time. can the authors please improve their
-explanation of the model, and if time varying covariate models are not being used, please
-can they investigate their usage.
-3) as there are three data sets in the analysis, i would expect all analyses to be stratified by
-study, and i think that the authors have done this. however, the text indicates that they are
-stratified by study(sex) – please can you be precise what has been done here (i suspect that
-the authors are using short hand to indicate that stratifying by study also stratifies by sex).
-4) the results appear to show overall that those with high egg consumption are more likely
-to have cvd events but that after adjustment for other differences between the egg
-consumption groups, the direction of the association is reversed (note the manuscript states
-‘attenuated’ – to me this indicates reduction of magnitude, not reversal of direction – the
-authors may want to check their wording). in all analyses, the confidence that the increase
-(or decrease) in effect exists is not high, but there is reasonable confidence that an
-important increase in risk is very unlikely. the authors could more clearly emphasis this
-difference between unadjusted and adjusted findings, and discuss the increases and
-decreases in risk which are compatible with the findings.
-5) please note that prisma is not a method, but a reporting guideline. it states the details
-of what needs to be included in a systematic review report, not how to do the systematic
-review.
-6) the search strategy and inclusion criteria for the systematic review are rather weak.
-inclusion of studies ad hoc is explicitly non-systematic – if there are important studies that
-the search strategy missed, it needs to be improved, rerun and new assessments made. if
-there are new studies then the strategy needs to be rerun. exclusion of non-english
-language studies (google translate greatly facilitates their assessment and inclusion) is an
-unnecessary restriction. the database selection is limited – why has embase not been
-searched? also, was a professional search specialist used to create the search? it seems a
-very brief strategy, and input from a professional may have helped ensure that an
-appropriately sensitive strategy is used.
-7) it is good to see the assessment of the quality of the non-randomised studies being
-undertaken rigorously including detailed assessment of the adjustments made in each
-analysis. could more be reported on these issues in the manuscript? currently there is no
-mention of the findings of these assessments in the results section of the manuscript – it is
-important to inform the reader of the certainty which can be attributed to the conclusions of
-
-these studies, and any limitations which were found which need to be considered. the data
-for this are all reported in the supplementary materials, but no summary is reported.
-8) there are a number of instances where the wording or presentation can be improved:
-a. results, page 14 paragraph 2. the link between the covariates and the results in table 1
-are not as clear as reported in the text. table 1 does not contain data for all participants in
-the study – please can the missing columns be inserted? they are important to be able to
-make sense of the numbers in the study.
-b. results, page 14 paragraph 3 – this is where the word ‘attenuated’ is used, which may be
-replaced with ‘reversed’. it is not always clear in this paragraph whether the quoted risks
-are unadjusted or adjusted.
-c. results, page 16 paragraph 4 – this is where i would expect to read some summary of the
-risk of bias in the included studies.
-d. results, page 17 paragraph 1 – ‘heterogeneity was <40%’ is an incomplete statement. i
-suspect you mean that the i^2 value was <40%
-e. table 1 – please include the missing columns.
-f. figure 1 – please drop this figure and reporting of these results
-g. figure 2 – please label the scale as hr or rr and not es. please choose appropriate
-points to mark on the x-axis and consider rescaling as there is so much white space to the
-left of the es=1 line.
-h. supplementary figure 4. labelling of the axes, and choice of data points to report again
-could be greatly improved.
-
-
-<|EndOfText|>
-
-whilst the authors agreed that my comments were insightful and appropriate,
-they have elected only to make made some very small additions following my
-previous comments, and to continue with reporting the “replacement food
-analysis” against my recommendations. in my opinion, including this analysis as
-currently reported makes the paper misleading and not acceptable for publication
-as it continues to imply that the authors can make stronger claims about the
-value of food replacement than are warranted. it is an overinterpretation of the
-data. it does not appropriately acknowledge that all the replacement analysis is
-a statistical modelling exercise. adding two sentences to the end of the
-discussion about this is inadequate.
-i have taken the opportunity to “test” the understanding of this analysis with
-some experienced colleagues here, all of whom have been misled by the claims
-which the authors are making. for example, the claims in the abstract that: “a
-reduction in one serving/day of red meat along with an increase in an alternative
-food choice was associated with a lower risk of death, and the largest benefits
-were seen for replacement by nuts”; “decreasing red meat and simultaneously
-increasing other healthier animal or plant foods over years was associated with
-lower mortality” are written implying that every person who i have shown this
-too has thought that you must be studying people who have made this change,
-rather than it being predicted from a statistical modelling exercise.
-as i indicated previously, the change data on red meat and other food product
-consumption that the authors have in this study is of value and importance. the
-replacement data is a hypothetical modelling exercise, is at best speculative, and
-should not be reported alongside the real cohort data.
-
-additional questions:
-please enter your name: jon deeks
-job title: professor of biostatistics
-institution: university of birmingham
-reimbursement for attending a symposium?: no
-a fee for speaking?: no
-a fee for organising education?: no
-funds for research?: no
-funds for a member of staff?: no
-fees for consulting?: no
-have you in the past five years been employed by an organisation that may
-in any way gain or lose financially from the publication of this paper?: no
-do you hold any stocks or shares in an organisation that may in any way
-gain or lose financially from the publication of this paper?: no
-if you have any competing interests <a
-href='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-ch
-ecklists/declaration-competing-interests'target='_new'> (please see bmj policy)
-</a>please declare them here:
-
-
+statistical review bmj.2015.024934.r1
+first, please note that i am working with three of the authors of this manuscript on a collaborative project
+(ben van calster, dirk timmerman and tom bourne). i believe that i have given a fair judgement of the
+paper, but please be aware of this potential conflict of interest.
+the authors report the experience of a cohort of women presenting with threatened miscarriage where the
+first us scan revealed a pregnancy of uncertain viability, and validate and develop ultrasound criteria that
+can be used to identify pregnancies which are nonviable.
+1. i found it challenging to identify the flow of women through the initial ultrasound presentations through
+to the second ultrasound examination. presentation as a flow chart would greatly assist.
+2. the current paper lacks a description of the analytical plan in the methods section. i would have liked to
+see a clearer divide in the paper between previously proposed which are being validated, and new criteria
+which are being derived from the data collected in this cohort. my understanding is that of the proposed
+criteria in table 4, only the 1st, the 3rd and the 4th are validations of existing criteria, all the others appear
+to be new or modified criteria. it is also not clear what strategy was used to derive the new criteria.
+3. i wondered why the authors did not present 95% confidence intervals of the positive predictive values.
+these statistics are the most informative to a woman and clinician, and it is important to be aware of the
+uncertainty with which they are estimated. in some cases, the number of women in the cohort meeting
+each criterion is very small, and thus the confidence intervals will be quite wide. for example, the initial
+scan criteria are based on detecting 0/12 and 0/17. 95% confidence intervals on these predictive values
+extend upwards to 26% and 20% respectively, so i am not as confident as the authors that they have
+conclusively shown these criteria to be robust. whereas the positive predictive value for absence of heart
+activity on two consecutive scans has an upper limit of 2.5%, which is much more convincing.
+4. given the difficulties in obtaining evidence for some of the criteria due to the small number of women
+involved, i wondered whether combining data with that from other studies in a meta-analysis would be
+possible and helpful? perhaps not for this paper.
+5. i found it hard to identify data in the paper supporting all of the criteria that are evaluated, particularly
+those which combine size by gestation age, size and growth, and size and absence of embryonic heart
+activity. there are lots of numbers given in the text, but it would be much preferable to have the evidence
+presented in tables like table 2 and 3 for each of the criteria. there is a risk that the “numerical sentences”
+in the text end up being ambiguous which presenting the data in a table avoids.
+6. it would be interesting to add a discussion about the yield associated with the different criteria. for
+example, there appear very few cases where a definitive diagnosis can be made on only the first scan, and
+the greatest yield is from noting on the second scan that a miscarriage has occurred (interesting it is not
+stated as a criteria that total absence on the second scan is perfectly predictive – is it too obvious? ).
+7. the authors have replied to the journal already concerning the informative drop-out. i would encourage
+more detail from their additional analysis to make its way into the paper.
 
 <|EndOfText|>
 
