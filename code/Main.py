@@ -16,6 +16,7 @@ if __name__ == '__main__':
     LM_folderName = "./Language_Models/articles_all/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
     results_folderName = "./results/reviewer_classification/"
     results_fileName = "all_features.csv"
+    saveFeatures = False
     plotFeatures = False
     plotConfMat = True
     isSplitTrainTest = False
@@ -65,7 +66,8 @@ if __name__ == '__main__':
     y_train = np.concatenate(y_train_inliers)
 
     # plot example of features:
-    np.savetxt(results_folderName + results_fileName, np.concatenate([X_train, X_test], axis=0), delimiter=",")
+    if saveFeatures:
+        np.savetxt(results_folderName + results_fileName, np.concatenate([X_train, X_test], axis=0), delimiter=",")
     if plotFeatures:
         plot_features(X_train[3, :], nTokens)
         plot_features_compare(X_train, y_train, nTokens)
