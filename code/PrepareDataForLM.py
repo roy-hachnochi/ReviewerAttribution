@@ -1,18 +1,18 @@
 from Preprocess import *
+import os
 
 # ======================================================================================================================
 if __name__ == '__main__':
-    out_folderName = "./datasets/dataset_bmj/forLM/reviews_70/"
+    out_folderName = "./datasets/dataset_bmj/forLM/articles_70/"
     endOfText_token = "\n\n<|EndOfText|>\n\n"
     pTrain = 0.7
 
-    if not os.path.isdir(out_folderName):
-        os.mkdir(out_folderName)
+    os.makedirs(out_folderName, exist_ok=True)
 
     # load and preprocess dataset:
     print('Preprocessing data...')
-    dataset_train, labels_train = get_test("./datasets/dataset_bmj/test")
-    # dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
+    #dataset_train, labels_train = get_test("./datasets/dataset_bmj/test")
+    dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
     # dataset_train, labels_train = get_train("./datasets/toy_data/train")
     dataset_train, labels_train, _, _ = test_train_split(dataset_train, labels_train, pTrain)
 

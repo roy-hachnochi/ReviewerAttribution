@@ -41,8 +41,7 @@ if __name__ == '__main__':
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print("Using device: {}".format(device))
-    if not os.path.isdir(ouput_folder):
-        os.mkdir(ouput_folder)
+    os.makedirs(ouput_folder, exist_ok=True)
     files = os.listdir(dataset_folder)
 
     # Initialize models:
