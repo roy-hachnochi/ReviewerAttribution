@@ -4,23 +4,27 @@ from sklearn import preprocessing
 from sklearn import svm
 from sklearn.cluster import OPTICS
 import numpy as np
+import os
 from sklearn.metrics import plot_confusion_matrix
 
 # ======================================================================================================================
 if __name__ == '__main__':
-    nTokens = [50, 70, 100, 30, 15]
-    ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]
-    pTrain = 0.7
-    LM_folderName = "./Language_Models/"  # "./Language_Models/articles_all", "./Language_Models/articles_70", "./Language_Models/reviews_70"
+    nTokens = [50, 70, 100, 30, 15]  # number of tokens for each n-gram histogram
+    ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]  # tokens to ignore
+    pTrain = 0.7  # train-test split
+    min_samples = 7  # minimum samples for clustering algorithm
+    LM_folderName = "./Language_Models/articles_all/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
+    results_folderName = "./results/reviewer_classification/"
+    results_fileName = "all_features.csv"
     plotFeatures = False
     plotConfMat = True
-    isSplitTrainTest = True
+    isSplitTrainTest = False
 
     # load and preprocess dataset:
     print('Preprocessing Data...')
     if isSplitTrainTest:
-        dataset, labels = get_test("./datasets/dataset_bmj/test")
-        # dataset, labels = get_train("./datasets/dataset_bmj/train")
+        # dataset, labels = get_test("./datasets/dataset_bmj/test")
+        dataset, labels = get_train("./datasets/dataset_bmj/train")
         dataset_train, labels_train, dataset_test, labels_test = test_train_split(dataset, labels, pTrain)
     else:
         dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
@@ -28,6 +32,8 @@ if __name__ == '__main__':
     if sorted(list(set(labels_train))) != sorted(list(set(labels_test))):
         print("Error: labels_train and labels_test are different")
         exit()
+
+    os.makedirs(results_folderName, exist_ok=True)
 
     # get labels dictionary:
     class_to_labels_dict = list(set(labels_train))
@@ -45,12 +51,21 @@ if __name__ == '__main__':
     X_test = feature_ext.transform(dataset_test)
     y_test = np.array([labels_to_class_dict[label] for label in labels_test])
 
-    # Remove outliers from train data:  # TODO: remove outliers
-    # clusters = OPTICS(min_samples=8).fit_predict(X_train)
-    # X_train = X_train[clusters != -1, :]
-    # y_train = y_train[clusters != -1, :]
+    # Remove outliers from train data:
+    X_train_inliers = []
+    y_train_inliers = []
+    for label in labels_to_class_dict.values():
+        X = X_train[y_train == label, :]
+        y = y_train[y_train == label]
+        clusters = OPTICS(min_samples=min_samples).fit_predict(X)  # TODO: choose min_samples
+        print(clusters)  # TODO: for debug, remove later
+        X_train_inliers.append(X[clusters != -1, :])
+        y_train_inliers.append(y[clusters != -1])
+    X_train = np.concatenate(X_train_inliers, axis=0)
+    y_train = np.concatenate(y_train_inliers)
 
     # plot example of features:
+    np.savetxt(results_folderName + results_fileName, np.concatenate([X_train, X_test], axis=0), delimiter=",")
     if plotFeatures:
         plot_features(X_train[3, :], nTokens)
         plot_features_compare(X_train, y_train, nTokens)

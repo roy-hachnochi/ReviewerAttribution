@@ -221,6 +221,701 @@ derived.
 
 <|EndOfText|>
 
+abstract
+background: minimisation can be used within treatment trials to ensure that prognostic factors
+are evenly distributed between treatment groups. the technique is relatively straightforward to
+apply but does require running tallies of patient recruitments to be made and some simple
+calculations to be performed prior to each allocation. as computing facilities have become more
+widely available, minimisation has become a more feasible option for many. although the technique
+has increased in popularity, the mode of application is often poorly reported and the choice of input
+parameters not justified in any logical way.
+methods: we developed an automated package for patient allocation which incorporated a
+simulation arm. we here demonstrate how simulation of data can help to determine the input
+parameters to be used in a subsequent application of minimisation.
+results: several scenarios were simulated. within the selected scenarios, increasing the number
+of factors did not substantially adversely affect the extent to which the treatment groups were
+balanced with respect to the prognostic factors. weighting of the factors tended to improve the
+balance when factors had many categories with only a slight negative effect on the factors with
+fewer categories. when interactions between factors were included as minimisation factors, there
+was no major reduction in the balance overall.
+conclusion: with the advent of widely available computing facilities, researchers can be better
+equipped to implement minimisation as a means of patient allocation. simulations prior to study
+commencement can assist in the choice of minimisation parameters and can be used to justify those
+selections.
+background
+most medical researchers are aware that it is necessary to
+perform a randomised controlled trial to effectively establish
+the usefulness of a new treatment. the aim is that
+treatments are compared on similar groups of patients.
+completely random allocation of patients to treatments
+does not, however, ensure that the patient groups are similar
+with respect to prognostic factors. for example, purely
+by chance one of the treatment groups may have been
+allocated older or more severely ill patients. if such an
+imbalance in prognostic factors has occurred then it may
+be difficult to attribute any differences to treatment, the
+analyses will require adjustment and the study will have
+less power.
+minimisation [1-3] is a dynamic allocation procedure that
+ensures treatment groups are similar with respect to a
+series of pre-specified prognostic factors. as patients are
+recruited to the trial they are allocated to the treatment
+group that will 'minimise' the differences in the distribution
+of those factors between the groups. one pitfall of
+this process is that the allocation is not random and hence
+could be predicted. this problem is addressed by randomising
+each patient but weighting the randomisation
+towards the minimisation favoured treatment group for
+that individual. by introducing weighted randomisation,
+the individual is more likely to be allocated to receive the
+preferred treatment, but is not guaranteed to do so. there
+is a trade-off between the size of the weighting used and
+the ability of the researcher to predict the next allocation.
+to apply minimisation requires only simple algebra but
+this may be problematic for the clinician with limited
+time and resources. the advent of greater access to computing
+technology has led to an increase in the usage of
+minimisation, which has previously been implemented
+relatively rarely. published trials increasingly cite the use
+of minimisation for patient allocation. for example, falk
+et al [4] minimized patients to receive immediate or
+delayed radiotherapy with groups balanced according to
+clinician, histology, presence of metastases and who performance
+status. pal et al [5] used minimisation to ensure
+even distribution within age groups (2–12 or 13–18
+years) and whether or not there was cerebral impairment
+when conducting a trial of phenobarbital versus phenytoin
+for seizure control amongst epileptic children in rural
+india. minimisation can similarly be used for allocation
+within cluster randomised controlled trials when confounding
+factors are applicable at the cluster level. for
+example, hilton et al [6] performed a cluster randomised
+trial of intervention to lessen individuals' cardiovascular
+risk with general practices allocated to intervention or
+control using minimisation for jarman score, ratio of
+patient to practice nurse hours per week and fundholding
+status.
+the benefits of minimisation have been debated recently
+[7,8] and a recent review of the usage of minimisation recommended
+'its wider adoption in the conduct of randomized
+controlled trials' [9].
+the technique has not been without its critics [10] as well
+as advocates, but it is acknowledged to be relatively simple
+to implement and perform comparably to more complex
+models where prognostic factors are non-numeric in
+basis [11]. a common criticism is that minimisation concentrates
+only on marginal distributions of prognostic factors
+and may not ensure that the interactions are similar
+between groups. for example, although there may be similar
+numbers of males, females, disease state positive and
+negative in the treatment groups post allocation, all of the
+positive males may receive one treatment and all of the
+positive females the other. if there is an interaction
+between disease state and gender on outcome, then this
+difference between the treatment arms may be problematic.
+however, the likelihood of imbalance is easily countered
+via a 4-category minimisation variable: male/
+positive, male/negative, female/positive, female/negative.
+the usefulness of minimisation as an allocation procedure
+within randomised controlled trials is therefore
+established and will continue to be recognised and utilised.
+however, it has been commonplace for published
+studies that have used minimisation to give little or no
+information as to how the process has been implemented.
+often they cite the minimisation variables but do not state
+what metric has been used to determine the preferred allocation
+group, whether and what randomisation weightings
+have been used for the allocations, whether and how
+the factors have been weighted, whether interactions have
+been accounted for or, where applicable, how cut-points
+for continuous prognostic factors were selected. the
+researcher who wishes to embark on a trial using minimisation
+as the means of patient allocation often has many
+questions to ask. several parameters need to be selected
+for each trial to which minimisation is to be applied.
+these parameters and, from our experience within the statistical
+consultancy, the most common associated questions
+related to the choice of each, are given below:
+1. number of factors
+• how many factors can be balanced simultaneously?
+• how does the balance for an individual factor change as
+more factors are incorporated?
+• in particular, what is the effect on other factors of adding
+a single, many-categoried factor such as centre?
+2. number of categories for each factor
+• how does choice of number of categories (for continuous
+prognostic factors) affect the allocation process?
+3. whether and how to weight the factors
+• how should the factors be weighted?
+4. the randomisation weighting to use
+• how much should the randomisation be weighted in
+favour of the preferred group?
+they also want to know
+• with a chosen randomisation weighting and given
+number of minimisation factors, how big a discrepancy
+can be expected for a specified sample size?
+and
+• how does inclusion of interactions between prognostic
+factors change all this?
+there is minimal information available in the published
+literature to inform researchers when addressing the
+above questions.
+we have developed a simple computer package to perform
+minimisation allocations subject to selected values
+of these 4 input parameters. we have also incorporated a
+simulation element that allows the researcher to investigate
+the size of discrepancies in allocation of prognostic
+factors between treatment groups subject to variation in
+the input parameters.
+we here present the results of some simulations for a
+hypothetical proposed trial and show how this process
+can assist the researcher in deciding on the parameter values
+to be used in their trial. subject to our chosen criteria
+for model comparison, we examine the extent to which
+varying the minimisation parameters may influence the
+equalisation of prognostic factors between treatment
+groups.
+methods
+for each new patient to be allocated, the process of minimisation
+considers the imbalance in selected prognostic
+factors and weights the randomisation of the next patient,
+according to his or her characteristics, in favour of the
+treatment that will make the treatment groups most similar
+with respect to the prognostic factors. to formalize this
+process, assume a trial where patients are allocated to one
+of two treatments, t1 and t2. suppose there are m prognostic
+factors and cj is the number of categories for the jth
+prognostic factor (j = 1,...,m). let anj be the value that the
+nth patient takes for the jth prognostic factor (anj∈
+{1,2,...,cj}) and let dj be a measure of the difference
+between the numbers of patients allocated to each of the
+two treatments who are in category anj after allocation of
+the (n-1)st patient. assume dj positive if more patients in
+category anj are currently receiving t2, negative if more are
+receiving t1 and zero if both treatments currently contain
+equal numbers of patients at this level for the jth confounder.
+therefore dn-1 = {d1, d2, ..., dm} is the vector of
+differences between the treatment groups with respect to
+the m prognostic factors at the levels seen in the nth
+patient prior to allocation of that patient. using minimisation,
+according to the size and direction of dn-1, randomisation
+of the nth patient will be weighted towards the
+treatment group that will make dn numerically smaller
+according to some chosen metric ie. the differences
+between the treatment groups will be minimised with
+respect to the prognostic factors.
+for example, consider a study where there are m = 4 minimisation
+criteria: gender, age (under/over 18), residency
+status of patient (in/out) and severity of disease (mild/
+moderate/severe). suppose that 34 patients have been
+recruited and allocated to one of 2 treatment arms (17 per
+arm) and that they are distributed amongst the minimisation
+criteria categories as follows:
+suppose that the 35th (n = 35) patient to be allocated (n =
+35) is an adult male in-patient with mild disease. prior to
+his allocation the numbers of patients falling into these
+categories is 8+3+7+4 = 22 in treatment arm t1 and
+9+5+7+3 = 24 in treatment arm t2. hence d34 = {8-9, 3-
+5, 7-7, 4-3} = {-1, -2, 0, 1} is the vector of differences
+between the treatment groups with respect to the 4 prognostic
+factors at the levels seen in the 35th patient prior to
+allocation of that patient. since there are fewer similar
+patients in t1, randomisation of the 35th patient should
+be weighted towards this group.
+choice of metric to minimise dn
+the simplest algorithm for allocation of the nth patient is
+to weight the randomisation in favour of t1 if ,
+in favour of t2 if and use simple randomisation
+(p = 1/2, where p is the probability with which the patient
+is allocated to the preferred treatment) if . this
+dj
+j
+m
+>
+= σ
+0
+1
+dj
+j
+m
+>
+= σ
+0
+1
+dj
+j
+m
+>
+= σ
+0
+1
+table 1
+treatment arm:
+t1 t2
+gender:
+male 8 9
+female 9 8
+age:
+under 18 14 12
+over 18 3 5
+residency status:
+in patient 7 7
+out patient 10 10
+severity of disease:
+mild 4 3
+moderate 12 11
+severe 1 3
+prognostic factors.
+the prognostic factors can be given different weightings
+(wj) according to their relative importance and
+used to determine the allocation. there are a variety of
+ways that the wj may be chosen. one potential system that
+seems reasonable is to weight according to the number of
+categories. for example, if 100 patients are allocated to
+two treatment groups then we would expect 25 within
+each category of a binary variable for each treatment
+group, and 10 within each category of a 5-category variable
+for each treatment (assuming, without loss of generality,
+equal probability of the categories occurring within
+each variable). a maximum difference of the same absolute
+magnitude between the two treatment allocations for
+any of the variable categories would probably be more
+clinically relevant for the 5-category than for the binary
+variable:
+the absolute (unweighted) differences are identical (= 10)
+but for the binary variable t2 contains 50% more patients
+within the first category, for the 5-category variable there
+are 200% more relative to t1. the deviations from
+expected are 20% (5/25) and 50% (5/10) respectively.
+weighting the absolute differences (= 10) by the number
+of categories gives weighted differences of 20 (10 × 2) and
+50 (= 10 × 5) for the 2 and 5 category variables respectively.
+the extent to which randomisation is more likely to
+favour one treatment over the other depends on the size
+of the randomisation weighting used. with p = 1/2 (simple
+randomisation) there is no preference for either group.
+when p = 1, the patient automatically receives the preferred
+treatment, there is no random element and allocation
+is said to be deterministic i.e. the researcher could
+predict the group allocation of the next patient if they
+knew the previous allocations. selecting a value 1/2 <p <
+1 will bias allocation in favour of the preferred treatment
+whilst retaining an element of randomness so that patient
+allocation cannot be predicted. more extreme values of p
+(greater bias) will lead to better balancing of prognostic
+factors between treatment groups.
+there must be a trade-off between introducing sufficient
+randomisation weighting (p large enough) and not allowing
+allocation of the next patient to be predicted (p not
+close to 1).
+quantification of balance
+the maximum absolute difference between the patients
+allocated to each of the categories within a given factor
+summarises how well that factor has been balanced by the
+minimisation process and is used as a summary measure
+of balance for that factor. in our simulations we summarise
+across factors with the same number of categories. for
+example, if we minimize according to 3 binary variables
+and one 15-category factor then there will be 2 summary
+measures of balance achieved for each simulated dataset:
+the maximum absolute differences allocated to (1) any of
+the binary variables i.e. the 6 categories which constitute
+these 3 factors and (2) any category within the 15 category
+factor.
+as previously noted [11] it is the behaviour of an individual
+design that is of interest to the researcher rather than
+the average over many applications. of interest is the
+value below which discrepancies are likely to occur for the
+majority of applications of minimisation with given criteria.
+an individual investigator is more likely to want to
+know the maximum discrepancy that s/he can reasonably
+expect with chosen allocation parameters rather than
+what the average will be for everyone using those parameters.
+for these reasons we prefer the 95th centile of the
+simulated distributions as more realistic and relevant
+measures than the means or medians which have previously
+been used to describe the success of a selected allocation
+process. the error in estimating the 95th centile is
+about 1 1/2 times the error when estimating the mean
+[12] but this difference becomes unimportant if a large
+number of simulations are taken.
+the 95th centiles of the distributions of simulated values
+are used to compare allocation schemes with varying
+input parameters (sample size, randomisation weighting,
+number and type of variables, weighting of variables).
+simulation options
+it was estimated that 200 simulations would allow quantification
+of the 95th centile of the distribution to within ±
+0.2 standard deviations of that distribution with 95% confidence.
+increasing the number of simulations to 2500 or
+5000 would increase this precision substantially to ± 0.06
+and 0.04 respectively. a further doubling of the number of
+simulations (to 10000) would only further increase precision
+by less than 0.01 standard deviations. hence it was
+wjdj
+j
+m
+= σ
+1
+table 2
+t1 t2 absolute difference t1 t2 absolute difference
+20 30 10 5 15 10
+25 25 0 10 10 0
+10 10 0
+10 10 0
+10 10 0
+decided that 5000 simulations would be adequate for a
+comparison of minimisation criteria. for each scenario
+5000 simulations were performed using a fortran program
+incorporating nag subroutines for random selection
+of patient characteristics.
+measure of balance
+the 95th centiles of the distributions of maximum absolute
+differences for each factor type were recorded and
+classified according to the number of potential categories
+within which each individual could fall. these differences
+are expressed as the proportionate difference from that
+expected by multiplying by the number of categories for
+that factor and dividing by the total sample size.
+randomisation weighting
+all simulations were repeated for p set at 1/2 (simple randomisation)
+and also for p taken to be 0.67, 0.75, 0.8,
+0.83, 0.88, 0.91, 0.95, 0.97, 0.99 and 0.999, values which
+equate respectively to allocation to the preferred treatment
+being 2, 3, 4, 5, 7, 10, 20, 30, 100 and 1000 times as
+likely as to the alternative.
+weighting of variables
+simulations were performed with prognostic factors both
+unweighted (wj = 1; j = 1,...,m) and with weights equal to
+the number of categories of the prognostic factor.
+to address the types of questions posed by potential
+researchers we here simulate several different scenarios:
+firstly, we investigate the effect on balance of increasing
+the number of factors. models with 1, 2, 3, 4, 5, 10, 20 and
+30 binary prognostic factors are compared. the sample
+size for each simulation was set at 500. since all factors are
+binary, weighting will not change the results and these
+models are only presented unweighted.
+secondly, we chose a study with three binary, one 3-category
+and one 4-category (total 5) prognostic factors to
+simulate. this scenario was chosen as being typical of the
+problems we were encountering in the local consultancy
+and not dissimilar to published studies citing minimisation
+criteria which commonly have several binary criteria
+and one or more multiple category confounders [4,6]. we
+investigated the extent to which balance was a function of
+sample size by simulating the scenario with each simulation
+based on samples of 40 and of 500 patients. for sample
+size of 500, we also considered the balance achieved
+when all 2-way interactions were used as the minimisation
+criteria (total of 10 interactions between the 5 confounders).
+finally, we generated simulations of
+allocations for a sample size of 500 based on 6 minimisation
+factors: the original 5 plus an additional 15- category
+confounder.
+practicalities of application
+the practicalities of application require some degree of
+automation. we have developed a package for clinical
+usage (simin) which both utilises simulations to facilitate
+the process of specification selection and provides a userfriendly
+front-end for the subsequent allocations within
+trial. the fortran programs which generate the simulations
+are embedded in this package. the purpose of this
+paper is to illustrate the types of patterns that can easily be
+determined via simulation and to show how this might
+assist the researcher, leading to more informed parameter
+selection and enhanced reporting of the decision process.
+results
+all results were equivalent for randomisation weights of
+100 and 1000. hence, only the results for 100 are shown
+in the figures.
+increasing the number of factors
+figure 1 shows the results of the simulations as the
+number of binary factors is set at 1, 5, 20 and 30. the output
+for 2, 3, 4 and 10 binary factors are not shown on the
+figure. as expected, the proportionate change from
+expected falls as the randomisation weighting is
+increased. the largest fall occurs after the introduction of
+any randomisation weighting i.e. between values of 1
+(simple randomisation) and 2. as the randomisation
+weighting is increased to 5 in favour of the preferred treatment
+there are further declines and less so between 5 and
+30. after 30 the proportionate change appears to have
+reached an asymptote. the differences in proportionate
+changes with increasing number of factors are approximately
+constant with changing randomisation weights.
+weighting the variables
+figure 2 shows the 95th centiles of the distributions of proportionate
+changes for the 5 prognostic factor (3 binary, 1
+3-category and 1 4-category) scenario with a sample size
+of 500. the dotted lines show the results when the prognostic
+factors are weighted according to the number of categories.
+again, any degree of randomisation weighting is associated
+with the largest fall in change from expected. proportionate
+differences increase with the number of categories.
+weighting of the prognostic factors has the effect of
+increasing the discrepancies for the binary factors but
+reducing them for the factors with more categories.
+changing the sample size
+figure 3 shows the 95th centiles of the distributions when
+a sample of only 40 patients is allocated using 5 minimisation
+factors (3 binary, 1 3-category and 1 4-category).
+the proportionate differences are much larger with the
+smaller sample size (c.f. figure 2).
+interactions
+figure 4 shows 95th centiles of the distributions of proportionate
+changes when minimisation is used to allocate
+500 patients to 2 groups with the aim of obtaining even
+distribution of all 2-way interactions of 5 confounders (3
+binary, 1 3-category and 1 4-category). if the distributions
+sof the interactions are similar, then the marginal distributions
+of the factors will be also.
+the differences are increased from the non-interaction
+model (figure 2) approximately 2-fold for the lower randomisation
+weights (and when simple randomisation is
+used) up to approximately 5-fold for large randomisation
+weighting. since the proportionate changes are smaller for
+larger randomisation weights, the absolute difference in
+the proportionate changes falls with increasing randomisation
+weights. it should be noted, however, that the interaction
+factors have more categories and the discrepancies
+are about the same in terms of the numbers of individuals
+allocated.
+the effect of weighting of the prognostic factors is similar
+to previous models. when factors are weighted according
+to the number of categories this has the effect of reducing
+the proportionate discrepancies for the factors with more
+categories (3 × 4 and 2 × 4 interactions) whilst having the
+opposite effect for the factors with fewer categories (2 × 2
+and 2 × 3 interactions).
+ifnicgrueraesi n1g the number of binary factors
+increasing the number of binary factors. 95th centiles of the distributions of proportionate changes from expected for
+randomisation weights from 1 to 100 obtained from 5000 simulations and a simulated sample size of 500. the number of minimisation
+variables is increased from 1 (black line) to 5 (dark green), 20 (lime green) and to 30 (red).
+adding a factor with many categories
+figure 5 shows the results when samples of 500 are simulated
+using 6 confounders (3 binary, 1 3-category, 1 4-category
+and 1 15-category). the inclusion of the 15-category
+variable has had little influence on the proportionate
+changes for the other factors in the unweighted model
+(figure 2). when the factors are weighted the proportionate
+changes for the 4-category factor are increased in the
+expanded model as opposed to having decreased previously.
+weighting of the prognostic factors has most effect
+on the extent to which the 15-category factor has a similar
+distribution for the 2 treatment groups.
+discussion
+in this paper we have simulated some common treatment
+trial scenarios and compared the results in terms of the
+distribution of discrepancies between treatment groups.
+whilst only a selection of potential scenarios can be
+shown, we have illustrated how prior investigation helps
+quantify the sensitivity of minimisation to the choice of
+input parameters (randomisation weights, weighting of
+prognostic factors, number and type of factors). assuming
+that numerically small differences between the groups are
+of little practical clinical importance, then we can make
+several useful statements regarding the selected scenarios:
+sfaigmuprlee s2ize 500, 5 prognostic factors (3 binary, 1 3-category, 1 4-category)
+sample size 500, 5 prognostic factors (3 binary, 1 3-category, 1 4-category). 95th centiles of the distributions of proportionate
+changes from expected for randomisation weights from 1 to 100 obtained from 5000 simulations. dotted lines
+show results when prognostic factors are weighted according to the number of categories. results for binary factors shown in
+black, 3-category in blue and 4-category in purple.
+• the number of factors to be taken into account can be
+increased quite substantially without severely affecting
+the overall balance.
+• weighting of the factors had most effect on the factors
+with many categories and was not highly detrimental to
+the factors with fewer categories (in keeping with the findings
+of weir and lees [13]).
+• including interaction terms in the minimisation did not
+greatly increase the overall discrepancies.
+• even weighting the randomisation by a small amount in
+favour of the preferred treatment had a large effect on the
+equality of the distribution of prognostic factors between
+treatments.
+• increasing the randomisation weights above 5 had little
+effect on the extent to which the treatment groups were
+similar.
+note that for a different number or type of minimisation
+factors the above statements may not hold. they are not
+meant to be universally true. these are statements about
+one particular hypothesised scenario to show how infor-
+sfaigmuprlee s3ize 40, 5 prognostic factors (3 binary, 1 3-category, 1 4-category)
+sample size 40, 5 prognostic factors (3 binary, 1 3-category, 1 4-category). 95th centiles of the distributions of proportionate
+changes from expected for randomisation weights from 1 to 100 obtained from 5000 simulations. dotted lines
+show results when prognostic factors are weighted according to the number of categories. results for binary factors shown in
+black, 3-category in blue and 4-category in purple.
+mation relating to that scenario can be easily generated via
+simulations.
+we believe that prior simulation according to expected
+sample size will be useful for clinicians embarking on a
+randomised controlled trial for which prognostic factors
+exist and should be equalised between treatment groups.
+simulation will help quantify the effect of different input
+parameters on the expected discrepancies. it may assist in
+the choice of randomisation weighting utilised and the
+trade-off between minimizing for more criteria and/or
+increasing the categories of minimisation where prognostic
+factors are continuous. however, it should be noted
+that the decision of which variables to include in the minimisation
+process should be informed primarily by the
+clinical importance of variables and their impact on outcome.
+vaughan reed and wickham [14] give further discussion
+to the choice of cut-points for continuous
+prognostic factors when performing minimisation. all
+minimisation variables should be adjusted for in the final
+analyses [1,9] and it is therefore important that only necessary
+variables are included to avoid over-parameterisation
+of the models. there is a trade-off between
+incorporating too many variables/unnecessarily increasing
+the number of categories used and allowing imbalance
+in important prognostic factors. the results of the
+mfiignuimreiz i4ng the difference of the interactions
+minimizing the difference of the interactions. 95th centiles of the distributions of proportionate changes from expected
+for randomisation weights from 1 to 100 obtained from 5000 simulations. all 10 2-way interactions from 5 prognostic factors
+(3 binary, 1 3-category, 1 4-category) used as minimisation criteria. dotted lines show results when prognostic factors are
+weighted according to the number of categories. results for the 3 2 × 2 interaction terms shown in black, for the 3 2 × 3 interactions
+in dark green, the 3 2 × 4 in lime green and the 1 3 × 4 interaction in red.
+simulation exercises can assist in the process but cannot
+be used as the sole, or even main, decision criteria for
+inclusion of a particular variable.
+in theory, the process of minimisation is relatively simple
+to undertake [15] but in practice we feel that clinicians do
+not find it easy to keep running totals and perform
+weighted randomisations. automation of the process (in
+addition to telephone allocation where available) reduces
+the propensity for conscious or unconscious interference
+with the allocation procedure. given the importance of
+allocation concealment, this is an additional benefit of
+employing minimisation. furthermore, simulated models
+are not necessarily straightforward to generate. consequently,
+we have developed a software package (simin)
+for clinical usage which enables not only easy minimisation
+but also generates simulations that may be useful
+prior to the commencement of the study to help in determining
+which input parameters to use. it is important that
+the person performing the allocations is independent of
+the trial team. having a quick and simple to use automated
+system makes it easier to enrol suitable individuals
+for this task.
+at study commencement it should be possible to justify
+the number and type of minimisation variables, their
+faidgduinrge a5 15-category factor
+adding a 15-category factor. 95th centiles of the distributions of proportionate change from expected for randomisation
+weights from 1 to 100 obtained from 5000 simulations. dotted lines show results when prognostic factors are weighted
+according to the number of categories. results for binary factors shown in black, 3-category in blue, 4-category in purple and
+15-category in green.
+weighting and the choice of randomisation weighting.
+simulation enables estimation of the discrepancies anticipated
+and their probability. for example, suppose a treatment
+trial is estimated to require 40 patients to be
+allocated to the new or standard treatments to obtain a
+reasonable power to detect differences in outcome of clinical
+importance. potential confounders are sex (male/
+female), age (under/over 18), whether the individual is an
+in- or out-patient, severity of disease (mild/moderate/
+severe) and ethnicity (4 categories). all categories of all
+minimisation variables are expected to be equally likely.
+(this latter criterion may not realistic but the density functions
+can be easily adjusted within the simulations.) if a
+randomisation weight of 2 (p = 0.67) is used then the proportionate
+change from expected of patients allocated to
+new and standard treatment is expected to be less than or
+equal to 0.35 for sex, age group and patient status (in- or
+out- patient), less than or equal to 0.45 for disease severity
+and less than or equal to 0.6 for ethnicity for 95% of random
+patient samples (figure 3). these are equivalent to
+absolute difference of 7, 6 and 6 patients respectively. a
+statement such as this could be incorporated into the protocol
+in a similar way to having a power calculation. i.e.
+the protocol could state, "sex, age (under/over 18), residency
+status of patient (in/out), severity of disease (mild/
+moderate/severe) and ethnicity (4 categories) were
+included as factors in the minimisation. factors were
+unweighted and a randomisation weighting of 2 was used
+for the allocations. it was estimated that the discrepancy
+between patients allocated to the 2 treatment groups
+would not exceed 7, 6 or 6 for the binary variables, disease
+state and ethnicity respectively with probability 0.95."
+frequently, very little information is given on randomisation
+weights, weighting of variables or even the categories
+used in description of minimisation procedures.
+whilst it should be possible to justify the minimisation
+criteria, the precise details of the allocation process should
+not be widely divulged until after the trial has completed.
+the less information that is accessible, the less chance
+there is of recruitment being biased by knowledge of the
+likely allocation of future patients. we recommend that
+the details of and justification for the allocation process
+being employed are documented and given in the final
+trial reports. however, we also recommend that these
+details are not revealed to the research team during the
+trial apart from where this is essential.
+the international conference on harmonisation e9
+guidelines [16] discuss the importance of minimising bias
+in the design of trials, with 'bias' defined as "the systematic
+tendency of any factors associated with the design,
+conduct, analysis and interpretation of the results of clinical
+trials to make the estimate of a treatment effect deviate
+from its true value." these guidelines also state that
+"good design should generally aim to achieve the same
+distribution of subjects to treatments within each centre
+and good management should maintain this design
+objective." the use of dynamic allocation of patients to
+treatments is one way to achieve these aims. in this paper
+we have investigated some of the issues that arise in the
+practical application of one allocation technique the use
+of which has risen sharply in recent years.
+we have performed simulations using the most common
+scenario of 2 treatment groups. a similar process could be
+done where there are more treatment groups and this
+option has been incorporated into our software.
+we have simulated datasets under different minimisation
+criteria to show how outcomes may vary as the input
+parameters are changed and suggest that this sort of
+approach should become standard practice. previously it
+has been noted that simulations can be usefully employed
+prior to study commencement to determine the best allocation
+method to use [9,11,13]. these studies have used
+relatively complex models to compare not only minimisation
+parameters but also alternative approaches such as
+stratification. in some cases they have incorporated existing
+data [13]. our results are in keeping with the findings
+of these more detailed studies. what we have aimed to
+show in this paper is how a relatively simple automatic
+algorithm, made available in package form, can be used to
+assist clinicians when they have decided to utilise minimisation
+and need to determine the optimal parameters. the
+package simplifies the practicalities of the process and
+hence may make this the preferred allocation method
+even when there are few prognostic factors to be taken
+into account and stratification is also a feasible option. it
+is important that researchers justify the choices they make
+with regards to the procedure for allocating patients. the
+arguments for this are not dissimilar to the argument for
+giving a power calculation or describing other details of
+the study protocol.
+conclusion
+the use of minimisation as a means of patient allocation
+is increasing. decisions need to be made regarding the
+precise mode of implementation. choice of input parameters
+may influence the extent to which the process is successful
+in ensuring equality of prognostic factors between
+treatment groups. we show how a simple automated
+package that we have developed locally can be used to
+allow researchers to investigate the effects of varying the
+input parameters prior to study commencement. the
+advent of the wide availability of computing technology
+makes minimisation a more realistic choice for many
+researchers. it is important that they utilise the technique
+most effectively. we have shown how simulations can be
+used prior to study commencement to ensure that the
+minimisation has a reasonable chance of providing comparable
+treatment groups.
+
+<|EndOfText|>
+
 fear or favour? statistics in pathology
 statistics have a role to play in most areas of
 medical research including the field of pathology.
@@ -572,285 +1267,339 @@ should be d valued forthwith.
 
 <|EndOfText|>
 
-our one-day introduction to sample size course has run 20 times since 2012. comprehensive
-written notes are given for use in conjunction with custom made excel sheets to perform
-calculations and these are openly available via a weblink. immediate feedback for the course is
-generally excellent. to gauge the extent to which course materials had ongoing usage, and whether
-post leaving the course perception of the material and its’ usefulness remained, a short survey was
-emailed to all 383 course participants from the 20 courses. attendees noted ongoing usage of the
-course materials, with over two thirds of respondents subsequently referring to these frequently or
-occasionally. even the most conservative estimate showed a substantial proportion still gaining
-direct benefit after 5 years.
-background
-for 10 years the ucl centre for applied statistics courses (casc) has presented 1 to 5
-day courses primarily aimed at non-statisticians in the workplace. attendees often aim to leave a
-course equipped to undertake their own research, as well as having an improved understanding of
-published research. the one-day introduction to sample size estimation has proved highly popular
-and runs on average three or four times per year with an audience of up to 20 participants. numbers
-are restricted by the fact that teaching takes place within a cluster room and participants are
-directed to custom made excel sheets to perform calculations. the excel sheets were originally
-available via cds given to students but are now accessed via a web link to which there is open
-access (http://www.ucl.ac.uk/ich/short-courses-events/about-stats-courses/samplesize ). a folder of
-comprehensive course notes is given to each course participant detailing all course material and
-usage of the excel sheets with examples.
-all casc courses request feedback from students via opinio, a web-based tool used to
-gather ratings and comments. this feedback, collected shortly after the day of the course, is
-consistently positive. there remains the question of how useful the participants find the training
-and material on an ongoing basis. the sample size course is unique in that the excel sheets are
-presented and their usage integral to the estimation processes introduced to the students.
-furthermore, the excel sheets remain available to the students for as long as they wish to use them.
-therefore, the sample size course, with its very specific estimation tools as well as written notes,
-was ideal for beginning an investigation into the ongoing potential benefits of our training we
-decided to contact attendees to the sample size courses held over the last five years to evaluate
-whether they continued to use the excel sheets and whether the course had in fact been of direct
-relevance to their work.
-the aim of this survey was to address the research questions:
-i) did participants of the one day sample size course utilise the information and tools given in
-the course in their work life?
-ii) was usage related to time since attendance at the course?
-data collection
-an online survey was developed asking whether individuals had referred back to the course
-material and whether they had continued to use the excel spreadsheets. both of these questions had
-the response options: ‘yes frequently’, ‘yes, occasionally’, ‘rarely’ and ‘no’. the individuals
-were also asked whether what they had learnt on the sample size course had been of direct
-relevance and use to their work, with response options ‘yes’ or ‘no’. all questions had space for
-comments and there was an additional overall comment box at the end asking for any other
-suggestions that may help improve the one-day introduction to sample size course. potential
-participants were sent an email requesting that they complete the web survey (via a link), which
-would consist of only 3 questions. by making the survey short and informing of length in the
-accompanying email, it was hoped to maximize the response rate (galesic and bosniak, 2009).
-the survey was sent via email to all 383 participants of the 20 one day courses held
-between 2012 and april 2017. there were 46 emails (12%) returned undeliverable with the
-proportion falling over time from 17/74 (23%) attendees at the three courses in 2012 to only one of
-the 39 (2.5%) in the two courses in the first half of 2017. since the survey was anonymous, and we
-did not wish to alienate future participants by repeated emails, no additional requests were made to
-those who may not have responded.
-results
-from the 337 emails that were successfully sent, responses were received from 62 (18.4%).
-most of the respondents (39/62, 63%) completed the form in a minute or less and over 90% in less
-than 5 minutes (56), two outliers were 26 and 13 minutes. over 80% (50) replied within 48 hours,
-and all but one within eight days. response rates were not dependent on time since course
-attendance being between 16 and 20% for all but two years, which were 2014 (13.9%) and 2013
-(25%).
-two people skipped the question about whether what they had learnt on the one-day
-sample size course had been of direct relevance to their work. of the 60 that submitted a completed
-survey form, the overwhelming response was ‘yes’ (55/60, 91.7%) and this was consistent across
-years. the five who did not find the course relevant, rarely (3) or never (2) used the course material
-and also rarely (1) or never (4) returned to use the excel sheets.
-all individuals answered the usage questions. most referred back to the course material and
-the excel spreadsheets occasionally or frequently. there was a strong correspondence between
-responses from the two questions (table 1). two individuals occasionally referred back to the
-course material but did not use the excel spreadsheets, a single individual made occasional use of
-the spreadsheets but did not refer to the course material.
-table 1: ongoing usage of course material and excel spreadsheets responses
-have you returned to the excel spreadsheets and used these?
-yes, frequently yes,
-occasionally
-rarely no total
-have you referred back to the
-course material?
-yes, frequently
-yes, occasionally
-rarely
-no
-total
-7
-1 0 0 8
-3
-24 6 2 35
+research is only worth doing if it provides useful
+information. medical research usually consists
+of studying groups of individuals with the
+aim of answering a predefined research question.
+most commonly in the field of sexually
+transmitted infections (sti), the prevalence of
+a virus or abnormality is to be estimated or
+prevalences compared, either over time or
+between different groups of people. alternatively,
+several therapies may be compared
+within a randomised controlled trial. one
+question that arises at the start of any study is
+“how many individuals should be included in
+this study?” there are several ways of answering
+this question. the number included may be
+based on practical issues—for instance, the
+length of time available to the researcher
+together with the time taken to recruit, treat,
+and test each individual and the expected
+patient accrual rate. these factors will vary
+from researcher to researcher and between different
+sources of patients—for example, accrual
+rates will differ between different hospitals.
+to use such variable quantities to
+determine the number needed to effectively
+answer a given research question is clearly
+flawed. ethically it is wrong to either underrecruit
+or overrecruit. on the one hand we may
+be left with insufficient numbers to conclusively
+answer the question. on the other hand,
+if we overrecruit, then the best scenario is not
+only do we waste time, but also we subject
+more individuals than necessary to any inconvenience
+associated with being studied. in the
+worst scenario, we may be allowing individuals
+to receive inferior treatment after sufficient
+numbers have been recruited to ensure that the
+best treatment is known.
+many researchers associate sample size
+calculation purely with randomised controlled
+trials. most of the studies presented in this
+journal do not fall into this category. however
+sample size estimation before study commencement
+is important for all types of study,
+including prevalence studies and observational
+comparisons. this article highlights the need
+for consideration of study size over and above
+issues of feasibility and practicality. information
+is presented on how to determine an
+appropriate sample size for the most commonly
+used study designs within the field of sti.
+why size matters
+a prevalence study finds that 25% of women in the
+outer hebrides have hsv-2 antibodies.
+we cannot interpret this information without
+knowing the numbers this figure was based on.
+for example, one out of four (25%) is a much
+less precise estimate than 100 out of 400
+(25%). a proper presentation of the results
+would include a confidence interval. the 95%
+confidence interval for the first scenario is (0.6,
+80.6%) and for the second (21.0, 29.5%). for
+each of the examples, these are the ranges
+within which we are 95% confident the
+population prevalence lies. as we would
+expect, with a much larger sample size, in the
+latter scenario we can make a more precise
+statement about the likely population prevalence.
+20% of pregnant outer hebrideans have
+hsv-2 antibodies compared with 20% of inner
+hebrideans.
+if the above statement were true and we randomly
+sampled and tested 30 individuals in
+each group, then we would expect to see about
+six antibody positive individuals in each group.
+however, we would not be unduly surprised to
+find four individuals with antibodies in one of
+the groups and eight in the other.
+however, we can quantify how likely, in the
+absence of a difference, we are to falsely
+conclude from our study that there is one. the
+statistical significance of a study is the probability
+that we will falsely identify a difference
+when none exists. the larger the study, the less
+likely this is to happen.
+20% of pregnant outer hebrideans have
+hsv-2 antibodies compared with 10% of mainland
+scots.
+if the above statement were true and we randomly
+sampled and tested 30 individuals in
+each group, then we would expect to see about
+six antibody positive individuals in the first
+group and three in the latter. however, we
+would not be unduly surprised to find four
+individuals with antibodies in each of the
+groups.
+key messages
++ sample size is an important issue for all
+contributors of studies to this journal.
++ the interpretation of study results depends
+on the sample size included that
+study.
++ sample size formulas are given for the
+most common scenarios encountered in
+the field of sti.
+question: how do we know that our study
+will not indicate there are differences when
+none exist?
+answer:we don’t.
+however, we can quantify how likely we are
+to find a difference of a given size if it exists.
+the power of a study, usually represented as a
+percentage, is the ability of a study of a given
+size to detect a difference of a given magnitude.
+the larger the difference the smaller the
+number needed.
+simple sums for sample sizing
+choosing the best sample size is not a precise
+art. equations exist for calculating the sample
+sizes needed to obtain a specified precision or
+to identify differences of a given size. the latter
+of these are called power calculations. sample
+size calculation relies on “guesstimates” of
+unknown quantities and hence obtained sizes
+are by definition unlikely to be correct. the
+extent to which sample size determination is
+influenced by erroneous estimates can be
+investigated by trying out different guesstimates
+in the formulas. below are details of
+sample size calculation for the most common
+scenarios in sti studies.
+(i) the approximate number of individuals
+required to estimate a prevalence within ± e%
+is given by the formula:
+the number required depends on the prevalence
+the study is designed to estimate!
+note that if the prevalence is x% then the
+sample size required is the same as if estimating
+a prevalence of (100 − x)%.
+for example, if the true prevalence is 25%
+and we want to estimate this prevalence to
+within ±5% then
+individuals are required.
+of course we do not know this prevalence
+before we undertake the study. our guesstimate
+of 25% may be inaccurate. if the true
+prevalence is actually 35%, then
+individuals would be required to give the same
+level of precision. if only 300 individuals are
+included (based on the guesstimate of 25%)
+then the prevalence will be estimated less precisely
+than anticipated.
+figure 1 shows the numbers required to
+detect various prevalences to within ±1%. for
+example, to estimate a prevalence of 25% with
+this precision will require approximately 7500
+individuals. (note that the same number would
+be required to estimate 75% —that is, 100 −
+25%, with the same precision.)
+if a prevalence needs to be estimated with
+greater precision then the sample size must be
+increased, for less precision smaller sample
+sizes are required.
+to estimate prevalences more or less precisely,
+the estimates given for ±1% can be
+divided by the required precision squared. for
+example:
+(a) to estimate to within ±2% the numbers
+given for 1% need to be divided by 22 (=4), this
+curve is shown on the figure. to estimate 25%
+to within ±2% requires approximately 7500/4
+or 1875 individuals.
+(b) to estimate to within ±0.5% the
+numbers given for 1% need to be divided by
+0.52 (= 0.25). part of this curve is shown on the
+figure. to estimate 25% to within ±0.5%
+requires approximately 7500/0.25 or 30 000
+individuals.
+(ii) if the prevalences within different groups
+are p1% and p2%, the approximate numbers of
+individuals required to detect this difference
+with 80% power at the 5% significance level
+are:
+table 1 shows n for selected p1% and p2%.
+for greater power the sample sizes need to
+be increased. similarly, larger samples are
+required to detect smaller differences between
+prevalences.
+for 90% power, the samples need to be
+increased by about one third.
+for example, if 10% of hebrideans and 20%
+of mainland scots have hsv-2 infection, then
+200 hebridean and 200 mainland scots need
+question: how do we know that our study
+will not fail to identify a difference of clinical
+importance that truly exists?
+answer:we don’t.
+figure 1 number need to estimate a single prevalence to
+within plus or minus 1%, 2%, and 0.5% with 95%
+confidence.
+10 000
+9000
+8000
+estimate to within:
+± 0.5%
+± 1%
+± 2%
+7000
+6000
+5000
+4000
+3000
+2000
+1000
 0
-3 6 6 15
-0
-1 0 3 4
-10 29 12 11 62
-when analysed according to year of attendance, there was no consistent pattern of more
-usage either if the course was more recent nor with increasing time since receiving (figure 1).
-figure 1: temporal changes in responses to usage questions
-comments
-a total of 53 comments were left by 34 individuals. comments attached to the usage
-questions were most often given by those who responded ‘rarely’ or ‘no’.
-there were six comments following the question about usage of course material with half
-from individuals who cited rare usage but explained their lack of need rather than problems with
-the material. one person who said they never referred back to the course material commented that
-they disliked using excel, whereas another person who rarely used the course material stated
-difficulties following the concepts. the final comment was from someone who occasionally
-referred back to the course material (“2 colleagues have asked me to help them with a power
-calculation and one colleague borrowed the course file”).
-there were 8 comments given following the question about usage of the spreadsheets,
-including the person who disliked excel and reiterated their previous comment. two of those
-commenting on this question stated that they had gone on to use stata (occasional user) or g power
-(never user). two individuals said they occasionally used the excel sheets and gave positive
-comments. the remaining three comments were very positive despite recording rare (“however, i
-think that this material it's very useful for working with”) or no (“i think it will come useful when i
-need to calculate sample size“ and “while i am very glad to have them and the process of
-reviewing them certainly helped understanding, the design of of (stet) research does require the
-calculations used the spread sheet“)
-of the 10 comments left after the relevance and usefulness in work question, eight were
-from individuals who answered positively and the only minor criticism was that stata may have
-been better to use on the course(“it was interesting but using more traditional software such as
-stata would have been far more helpful.”). two comments were from the five who said the course
-was not of direct relevance and use to their work. they said, “i typically use a repeated measure
-design, which was not covered in the workshop” and “it will be useful when i get to design my own
-study and as i have been developing a proteomics method i have not needed to use the course
-info”.
-27 of the 62 respondents left an overall comment at the end of the survey. of these 16
-made a comment that was purely positive with half of these specifically mentioning the usefulness
-of the excel sheets. there was only one negative comment, from someone who attended the course
-in 2014, rarely used material or excel sheet and did not find the course relevant to their work they
-said they “did not learn anything as it was not explained”. however, a review of the opinio
-feedback from 2014 did not yield any such negativity. three comments raised the issue of
-alternative software, with 2 of these also praising the excel sheets. one user of gpower mentioned
-the need to quote software used for publication, “i currently use g*power3 as it is more flexible
-than the spreadsheets. although the spreadsheets were useful i wonder if sometime spent on
-recognised software would be useful. i say this because, as part of getting published i have had to
-quote the software i used and the parameters i put in to generate the sample size and using
-g*power3 the reviewers can check my work”. five comments were from individuals who would
-like more advanced topics covered: these were sample size calculations for repeat measures (2
-comments), non-inferiority trials (these are given a brief mention in the course), unspecified
-‘epidemiological studies’ and multiple groups (such as 5 ethnic groups). despite each formula
-included in the course having at least one fully worked through example of usage, one participant
-wanted more. their comment was “more worked examples with answers would be useful when
-returning to the spreadsheets to be sure of using the correct one and inputting the correct figures”.
-the final comment felt the course might be shorter, but seemed generally positive, “was good,
-could be shorter, or just a half-day for more advanced users of excel/stats -overall it was very
-useful, if anything, it highlighted an often neglected issue in science ”.
-discussion
-a substantial proportion of those responding to the survey continued to refer to the course
-material and/or to use the online excel spreadsheets for calculation. some of those that did not
-currently use the material still cited the potential usefulness and intended to do so. almost all felt
-that the course had been of direct relevance and useful to their work. there was no evidence of
-these findings being related to time since course attendance.
-strengths and limitations
-the response rate was low at 18.1%, but this is to be expected with a one shot survey of
-this type. online survey response rates below 10% are not uncommon and rates are declining due
-to the volume that individuals currently receive (van mol, 2017). those responding may have been
-biased towards those who did engage with the material. conversely though they may have been
-biased towards those who found the course not very helpful. however, low response does not
-necessarily infer bias (fosnacht et al, 2017).
-we had access to email addresses of course attendees over the last five years. all
-presentations of the course were led by the same teacher and the content of the course remained
-similar throughout. we were asking about current usage and so we could evaluate the long term
-effect of the course. the numbers of non-deliverable emails declined over time as would be
-expected, but the response rates within those whose emails which were delivered did not show a
-temporal pattern.
-if we consider the numbers responding positively from those where an email was delivered
-(ie. assume a worse-case scenario that those who did not respond rarely or never used the materials
-or spreadsheets) there remains 14% (95% ci (7.3, 25.3%)) of those who attended the course five
-years ago still gaining direct benefit occasionally or frequently from the course materials and the
-excel sheets. we can consider this a very conservative lower limit.
-conclusion
-this study gives evidence of a long term benefit of attendance at the one day sample size
-course, with over two thirds of respondents who had attended the course stating that they
-subsequently referred to the course materials frequently or occasionally. even the most
-conservative estimate shows a substantial proportion of attendees continuing to use the course
-material directly in their work after 5 years.
-
-<|EndOfText|>
-
-are adolescents with constipation more likely to suffer psychological maladjustment?1 what percentage of chiari i-type headaches show improvement after foramen magnum decompression (fmd)?2 does bcg vaccination reduce early childhood hospitalisation in denmark?3 is diagnosis of coeliac disease associated with differences in adolescent anthropometry?4 does visual feedback affect the rate of chest compressions?5
-these are all questions asked in recent issues of this journal. in each case the authors collated information from a sample of individuals to yield an answer to their question. differing study types were used ranging from observational audits and surveys through to randomised parallel and crossover trials. the study designs, participants, settings, sample sizes and key statistics are summarised in table 1.
-table 1: description of the five studies
-study
-design
-participants
-setting
-sample size
-key statistics
-1
-cross-sectional survey
-13-18 year olds
-5 schools
-1697
-(114 constipated)
-33.3% of constipated and 14.5% of non-constipated had maladjustment:
-or 2.94 (1.95, 4.45)
-2
-retrospective review of audit database/ before-after study
-chiari i-type headache cases having fmd
-tertiary hospital
-39
-80% showed improvement post fmd
-3
-randomised controlled trial
-newborn babies
-3 danish hospitals
-4262 children
-(2129 bcg,
-2133 controls)
-1047 hospitalisations bcg group vs 1003 controls. hr 1.05 (0.93, 1.18)
-4
-general health examination database
-17 yr old israeli jews
-eligibility assessment for military service
-2,001,353 adolescents;
-(10,566 with coeliac disease (cd))
-boys with cd had lower bmi (average 21.2 vs 21.7)
-cd girls were shorter (161.5 vs 162.1 cm on average)
-5
-randomised crossover trial
-hospital staff
-tertiary hospital
-50 pairs of measurements – with and without visual feedback
-rate of chest compressions was lower and less variable in those receiving feedback
-despite these differences, the same basic principle is followed for each. a sample of the relevant group of individuals is identified and from observing what happens to this sample, inferences are made about the wider population. the inferences may be beneficial to similar individuals and those involved in their care. for example, clinicians trying to determine whether to perform fmd2 or parents considering the pros and cons of bcg vaccination. 3 how well a question is answered by the study depends on how large a sample was studied in conjunction with other factors such as the variability of the measurements and/or event rates. both researchers and patients intuitively understand that findings based on a larger sample are likely to be more accurate, and will have more confidence in results based on a randomised trial of 1,000 individuals than if only 10 patients had been recruited. what is less intuitive is that if a treatment is not shown to be effective in a small sample, it may still have benefits. similarly, we are generally less inclined to also apply such intuitive logic to observational descriptive studies. this article will explain the rationale behind consideration of sample size for all types of research study, wherever data is collated to address a proposed research question.
-making statements based on the available sample
-to explore these concepts further, consider the chiari i-type headache study2. here 32/39 of individuals showed improvement post fmd, which gives a sample estimate of 82.1% improvement rate. a 95% confidence interval for the rate is (67, 91%), which means that we are 95% confident that at least 67% of the population (in this case, chiari i-type headache sufferers) will improve. if we wanted a more accurate estimate, then a larger sample size would give this. for example, suppose 1000 had been assessed and of these 821 had improved, then this would still be a rate of 82.1%, but the 95% confidence interval would now be (80, 84%), and we would therefore be 95% confident that at least 80% would improve. the data that we have is compatible with population estimates anywhere within the 95% confidence interval at the 5% significance level. any hypothesised population estimate that we test against outside that interval will yield a p-value < 0.05 indicating a statistically significant difference and non-compatibility. there is a conceptual distinction between significance tests, which determine compatibility with a pre-specified hypothesised value, and confidence intervals, which have no prior hypothesis and seek only to identify a range of compatibility. for some study types one approach may be favoured over the other. significance tests are generally considered when presenting the results of a randomised trial, whereas an observational study may omit this approach entirely depending on the precise research question.for example, suppose that prior to the study the authors ascertained that improvement in at least 75% of patients would warrant routine use of fmd. when testing against a hypothesised value of 75%, the sample of 39 would have yielded a p-value >0.05, a non-significant difference, indicating compatibility with 75% (as also shown by the confidence interval which contains this value). for the sample of 1000 (where the 95% confidence interval does not contain 75%), a significant result would be obtained (p<0.05), indicating non-compatibility.
-this example illustrates the correspondences in interpretation between p-values and confidence intervals. larger samples lead to narrower confidence intervals as they enable more population scenarios to be excluded. note that if interest lies on the difference between two groups, for example the heights of 17 year olds with and without coeliac disease, then the hypothesised population value will be zero (ie. no difference in average height between the two groups). the confidence interval will be for the difference in means (or percentages) between the two groups. if this interval excludes zero then the difference is statistically significant.
-what do power calculations have to do with this?
-studies don’t always give a definitive, or even very useful, answer to the research question posed. for example, if the aim of the headache study had been to determine whether the improvement rate was at least 75%, then the sample of 39 would not have been sufficient. even though performing the significance test gives a non-significant p-value >0.05, this does not necessarily mean that the improvement rate is lower than 75%. the 95% confidence interval (67, 91%) shows that the data are in fact compatible with an improvement rate as high as 91% (as well as values below 75%). we still don’t know whether fmd yields the necessary improvement rate to warrant usage as the answer given from the available sample is too imprecise. if a larger sample had been studied then the results would have been more conclusive. before starting a study a decision needs to be made as to whether it is feasible to collect a sufficiently sized sample to address the research question within a plausible time frame. power calculations can tell us how many subjects are needed to obtain a significant p-value if there is a difference of a given size from the hypothesised value (75% in example above). alternatively, power calculations can give the number needed to estimate a specified size of estimate (again 75% in above example) with given precision.
-finding the right number
-there are formulae, that are known as power calculations, which can be used to identify how many need to be sampled to make the estimates sufficiently precise and/or statistical significance likely. these formulae can readily be identified in appropriate statistics textbooks and articles,6-13 or via the many online calculators available, identified by a simple google search. hence in theory this is a relatively easy process – locate a formula or online calculator, plug in a few values and get a number of individuals/items/things that you should collect information on to answer your specified research question. however, there are decisions to make as to which formula and/or online calculator to use, what values to plug into this and how to properly interpret the number that magically comes out. the aim of this short paper is to guide the reader through some calculations so that they are better equipped to address these issues. formulae are given and
-these relate to those found on our online calculators webpage.14 (http://tinyurl.com/samplesizecasc ).
-using a formula/online calculator
-there are two types of sample size formulae. the first of these is aligned with significance testing and providing p-values, the second is akin to confidence intervals. although within the results you will probably present both of these, you need only do one type of sample size calculation. it depends on whether the emphasis in your study is on detecting a difference, or on estimating parameters with sufficient precision.
-in this paper, both types of formulae are presented for both binary and numeric outcomes. a binary outcome is one which takes one of two values. for example, the headache study had a binary outcome - headaches either improved or not and the study was interested to identify the percentage who improved3. by contrast, a numeric outcome is usually summarised by the mean of the values. for example, the average of the changes in rates of chest compressions for a clinician using two feedback methods.5
-often the population parameter being estimated is the difference between two distinct groups of patients (with and without disease; treated vs control). in this case it is the difference in percentages or means between groups for binary and numeric outcomes respectively that is of interest. the difference may be between distinct groups of individuals, for example the percentage difference between those with and without constipation1, or the difference in mean bmi between boys with coeliac disease or not4. alternatively, measurements may be paired, within individual or by taking matched pairs of individuals, and these differences summarised, for example the rate of chest compression when the same clinician uses visual feedback or not.5 formulae are shown for these scenarios.
-only formulae for binary outcomes and means are given in this paper. whilst these are the most commonly used and widely applicable examples of power calculations, it should be noted that formulae exist for many other scenarios, such as non-normal data, hazard ratios, odds ratios and/or hierarchical data. the principles of these formulae are similar although they relate to more complex situations, and are hence beyond the scope of this paper.
-terms to understand
-if the outcome is numeric, then an estimate will be needed of the variability of the measurements. this is expressed as the standard deviation (sd). larger values of the sd indicate greater variation.
-with a numeric outcome, we can express the difference we would like to detect as a standardised difference (sdiff), which is the difference divided by the sd. for example, if the sd of the change in rates of chest compression using two methods is 13, a difference of 8 will be equivalent to a sdiff of 0.6 (8/13).
-power is the ability of a study to detect a difference if it exists, and is usually set at 80, 90 or 95%. a power of 80% means that if the difference exists there is an 80% chance that this study will identify it. hence there is a one in 5 (20% = 100-80%) chance of not identifying the
-difference, so although a power of 80% is often used (and will require smaller numbers), it is generally better to have a higher power.
-significance level is usually set at 5%. this is the chance of falsely declaring a difference when the population value is actually as hypothesised.
-precision is a measure of how closely we would to estimate the true value. the width of the confidence interval is synonymous with precision. when using the confidence interval based formulae, the precision needs to be expressed in the same terms as the outcome (percentage or mean range) and is defined, in the formulae presented here (and associated weblink given above) as half the width of the resultant confidence interval. for example, to estimate the difference in average height of coeliac and non-coeliac 17 year olds to within ± 0.1, the precision is entered as 0.1 and we expect to obtain a confidence interval of width 0.2
-some power calculations
-some commonly used formula are presented here with examples. as explained above, the appropriate formula depends on whether it is a difference that is to be detected or a precision attained, and whether the outcome is numeric or categoric. the formulae are organised accordingly.
-detecting a difference
-1) numeric outcomes
-to detect a specified difference sdiff with 90% power between two groups at the 5% significance level requires 𝟐𝟏𝒔𝒅𝒊𝒇𝒇𝟐 in each group.
-reduce this number by a quarter for 80% power and add a quarter for 95% power.
-for example, the sd of heights of 17 year olds is known to be about 10cm and a study aims to detect a difference in average height of coeliac and non-coeliac 17 year olds of 0.5 cm or more. this is a sdiff of 0.5/10 = 0.05.
-the sample size required to do this is 210.052=8400 per group ie. a total of 16,800 17 year olds, half of whom have coeliac disease.
-to detect the same difference with 80% power, would require 6300 per group (8400 x 0.75). for 95% power, the numbers per group need to be increased to 10,500 (8400 x 1.25).
-paired data
-if there are pairs of observations and it is the mean difference between pairs that is to be compared to an average of zero (implying no difference), then half the sample size given above is the number of paired observations that need to be made. note that the sdiff must be based on the sd of the within pair differences, which will be different to the sd within each group as the pairing removes variation due to differences between groups (such as differences in age, sex, diet, exercise level, disease status).
-for example, with the rate of chest compressions crossover trial, patients are measured using different methods but it is the difference that is of interest ie. each individual contributes one difference to the dataset despite having 2 measures made. to detect a difference between methods of 0.4 sdiff with 90% power at the 5% significance level will require 10.50.42=66 clinicians to make paired measurements. to detect the difference with 80% or 95% power requires 50 and 83 clinicians respectively.
-2) binary outcomes
-the percentages in each group with the outcome are to be compared. if these are %1 and %2, then this difference can be detected with 90% power at the 5% significance level if the following number are assessed in each group: 𝟏𝟎.𝟓{%𝟏(𝟏𝟎𝟎−%𝟏)+%𝟐(𝟏𝟎𝟎−%𝟐)}(%𝟏−%𝟐)𝟐 as before, this number reduces by a quarter for 80% and increases by a quarter for 95% power.
-for example: i) the randomised trial of bcg vaccination aimed to detect a fall in the hospitalisation rate of 20% to 16% or lower. for 90% power, 5% significance, this requires:
-10.5{20(100−20)+16(100−16)}(20−16)2=10.5(1600+1344)42 = 1932 per group, a total of 3864 randomised to 2 equal sized groups (bcg vaccinated or not). ii) assuming 15% of normal children and 25% of children with constipation have psychological maladjustment, this difference can be identified with 90% power at the 5% significance level with two groups of 331 children (10.5{25(100−25)+15(100−15)}(25−15)2=10.5(1875+1275)100=331). for 80% power the sample could be reduced to 249 per group.
-notice that the above two examples relate to quite different study forms, a rct and an observational study, yet the sample size formula required is the same. the formula required depends on the outcome (in this case difference in percentages in two groups) and the power and significance required.
-being sufficiently precise divide the quantity stated by the precision required squared (ie. precision2) to give the sample size required to estimate with 95% confidence.
-1) numeric outcomes
-8sd2 per group
-for example, to estimate the difference in average height between coeliac and non-coeliac 17 year olds to within ± 1cm ( precision = 1), assuming a sd of 10 cm, will require 8 𝑥 10212=800 per group, total 1600.
-for a more precise estimate within ± 0.5 cm, requires a larger sample of 8 𝑥 1020.52=3200 per group, total 6400.
-paired data for paired measurements, the number of pairs required is half of the sample size per group as given above (ie. 4sd2 paired measurements). for example, to estimate the average difference between rates of compression using 2 methods to within ± 4, where the sd of the within pair differences is 13, requires 4 𝑥 13242=43 clinicians making paired assessments.
-2) binary outcomes to estimate a single percentage ( %1 ): 4 %1 (100 - %1) for example, if 80% of patients with chiari i-type headaches improve then this can be estimated to within ± 8% with 95% confidence using a sample of 4𝑥80(100−80)82=320 𝑥 20 64=100 patients.
-to estimate a difference in percentages (%1, %2) : 4 {%1 (100 - %1)+ %2 (100 - %2)} for example, to estimate a fall in percentages hospitalised when given bcg vaccination from 20% to 16% with a precision of 2.5% (ie. confidence interval width 5%) would require a sample of 4 𝑥 (20.80+16.84)2.52=117766.25=1885 per group, a total of 3770 children.
-unequal groups
-sometimes when two groups are to be compared it is not anticipated that they will be of equal size. for example, in the study to compare psychological maladjustment rates between adolescents with and without constipation, this was a survey across schools and the numbers in the two groups would not be expected to be equal. an imbalance can be adjusted for by increasing the overall sample size.7 if the above formulae estimate that n per group is required assuming equal sized groups, this is a total sample of 2n. to account for an imbalance between groups of k:1, the total sample size will need to be increased to 𝒏(𝟏+𝒌)𝟐𝟐𝒌 for example, in the constipation study it was anticipated that about 10% of the children would have constipation. this is an imbalance of 9:1 ie. for every 9 that are healthy, there will be 1 who is constipated and hence k=9. the previous formula showed that 249 per group were required to detect a difference of 10% in psychological maladjustment (15% and 25% per group) with 80% power and 5% significance. this is a total sample of 598. to adjust for the smaller numbers of constipated children, the sample needs to be increased to 249 𝑥 (1+9)22 𝑥 9=2490018=1384, which will consist of 138 with constipation (10%) and 1246 without.
-some points to note
-each of the formulae requires estimation of some quantities, for example the sd of the measures or the percentages in each group. this may appear nonsensical. for example, if we knew the percentages of bcg vaccinated and non-vaccinated who were hospitalised (to put into the formula), we would not be doing a study to estimate the percentage difference between the groups!
-sample size estimation is not a precise art. it can give guidance and ball-park figures, but if all information for exact calculation were available we would not need to do the study.
-this does not mean that sample size calculation is not worth doing. it is important to ensure that a study is likely to have a reasonable chance of yielding useful information. it is unlikely that we would have no idea of the likely range of estimates required and these can be used to inform calculation.
-the size of difference to be detected, sdiff or the difference in percentages, should be informed by an understanding of the minimal clinically important difference. it is important that all estimates are clinically plausible and suitably justified, with estimation never determined with reference to the available or preferred sample size.
-in the above calculations, the formulae give the minimum number required and in all cases, where this is not a whole number, has been rounded up. the number given is the minimum
-number for statistical analyses, consideration needs to be given when designing the study to the proportion of eligible participants that will refuse to take part and the likelihood of missing data and/or loss to follow up. these factors will impact on the feasibility of attaining the necessary sample size in the timeframe available. there are some relatively minor discrepancies with the sample size estimates given in the example papers and the numbers given here, but this does not indicate errors. all calculations agree to a reasonable extent, with differences attributable to differing approximations in the formulae used. there are often other factors that should be considered. for example, if we compare heights between those with and without coeliac disease, we may wish to adjust for differences in age, sex and ethnicity of children as well as other potential confounders associated with anthropometry. it is worth noting that in this case, taking into account these covariables will only serve to reduce overall variation (sd), so estimation not taking them into account will be conservative. the formulae given are based on a single primary outcome. if there are multiple comparisons, then the sample sizes will need to be larger. as noted earlier, only the most basic calculations are given in this paper, further formulae exist for more complex scenarios. no amount of increasing the sample size can account for biases in the data.
-“but i’m not doing a clinical trial so this is irrelevant”
-it’s a common misconception that power calculations are only required for clinical trials of the randomised controlled type variety. this is untrue. wherever sampled data is used to address a research question, the sample size needs to be adequate to give a useable answer to that question. in this paper, a variety of examples are given to illustrate applicability. the headache study was a single sample descriptive study, the differences in constipated and non-constipated an observational comparison.
-conclusions this article should provide a large enough sample of information to enable the reader to understand that sample size calculation should always be given consideration before commencing a study with 95% confidence. it should be borne in mind that having an adequate sample size is only one important facet of research design. samples selected should be representative and measures of outcome both reliable and valid. no amount of increasing the sample can correct for such deficits in design and doing so will merely result in obtaining a more precise estimate of the wrong answer, or the right answer to the wrong question.
-when preparing a manuscript for publication this journal refers authors equator guidelines15 which aim to ensure that whatever type of study is being undertaken all important statistical considerations are made. the majority of the guidelines make reference to sample size determination, including those for observational (strobe16) and diagnostic testing (stard17) studies. this paper explains the basis of sample size calculation with simple examples given as manual calculations, replicable via online calculators if preferred. sample size estimation need not be overly complex nor a black-box affair. the aim of this paper is to enhance adherence to guidelines and incorporation of this important element of research in practice.
+50
+percentage prevalence
+number needed
+0 5 10 15 20 25 30 35 40 45
+table 1 number required in each group to detect
+differences with 80% power at the 5% significance level
+given that group prevalences are p1% and p2%
+prevalence
+(p1%):
+prevalence (p2%):
+10 20 30 40 50 60 70
+5 440 74 33 19 12 8 5
+10 200 60 30 17 11 7
+20 296 80 37 20 12
+30 360 92 40 21
+40 392 96 40
+50 392 92
+60 360
+to be tested to detect this difference with 80%
+power at the 5% significance level. for 90%
+power a total of 266 (= 200 ´ 1.33) will need to
+be tested in each group.
+as before, the sample size estimate is based
+on guesstimates of the study outcome. for the
+purposes of sample size determination, the
+magnitude of the difference in prevalences
+between groups may be chosen on the basis of
+what is a clinically important difference that we
+want to detect. for example, the best available
+evidence may suggest that the hebrideans only
+have 5% fewer hsv-2 infections but we decide
+to undertake a study to detect a difference of
+10% since this could represent a clinically
+important difference (in terms of allocating
+resources, etc), whereas 5% would not.
+often there is more than one factor to
+consider. for example, outer hebrideans may
+be older than the average scottish person and it
+would be of interest to know whether the
+difference in prevalence of hsv-2 can be
+explained by the difference in ages of the
+groups. sample size estimation in these scenarios
+is more complex and will depend on the
+extent to which the factors are related.1
+more of one than the other
+when comparisons are made between two or
+more groups, power will be maximised (for a
+given overall total number enrolled) if each
+group is of the same size. to accommodate an
+imbalance in numbers while retaining the same
+power, the total sample size needs to be
+increased accordingly.2
+ones that got away
+calculations give the estimated numbers required
+for statistical analysis. sometimes it will
+be necessary to recruit many more to ensure
+that sufficient are obtained for that analysis. on
+the basis of the expected refusal and compliance
+rates, the study should be designed so that
+sufficient are contacted/approached/recruited
+to account for these losses.
+ones that never happen
+in some studies, individuals are recruited and
+monitored for variable lengths of time with the
+aim of comparing times to some defined event,
+such as death or infection, between subgroups
+of individuals. the nature of the outcome is
+that not all individuals will have the event and
+a straightforward comparison of percentages
+dying or becoming infected is invalidated
+because of the variable follow up times.
+similarly, comparing average times to death/
+infection would also be invalid. a special type
+of analysis is required3 and the sample size will
+be based on the number of individuals for
+whom the event occurs.4 so for a rare event
+larger numbers will be required. extending the
+length of follow up may be used to increase the
+numbers of events occurring.
+ones that flock together
+if treatments are allocated on a group basis, the
+effective sample size will not equal the total
+number of individuals. adjustment must be
+made according to the extent to which
+individual outcomes are influenced by the fact
+that they form part of a homogeneous group.5 6
+for example, the introduction of trained
+specialists within randomly selected clinics7 to
+identify whether these specialists have an effect
+on adverse outcomes. individuals from the
+same clinic may be more alike, perhaps because
+of social and ethnic similarities, than those
+from different clinics in terms of their tendency
+to be recorded as having a problem even before
+any intervention. a study that randomises by
+clinic will effectively be putting groups of similar
+individuals into the same arm of the trial en
+bloc. a similar situation occurs when individuals
+within the same family, ward/hospital, etc,
+are jointly allocated to treatments.
+summary
+in conclusion, this short article has addressed
+the issues surrounding the determination of
+appropriate study size. only the sample size
+equations relating to the most common study
+types in the field of sti are presented. for
+more complex but common situations, the
+important issues to consider are highlighted.
+many other sample size equations exist—for
+example, when the outcome is continuous,
+such as cd4 count, or more than two groups
+are compared. several useful references are
+given in the further reading section. this
+article raises awareness of the need to perform
+studies of the correct size for the given purpose
+and informs the researcher in sexually transmitted
+infections of the particular points that
+they may need to consider.
 
 <|EndOfText|>
 
@@ -1102,6 +1851,181 @@ be to incorporate serial observations into the cross-sectional references using 
 correlation within individuals. the precision with which centiles are estimated under differing correlation
 structures, model forms, and/or sample sizes can be readily compared using simulations to identify the
 most appropriate recruitment method to use.
+
+<|EndOfText|>
+
+our one-day introduction to sample size course has run 20 times since 2012. comprehensive
+written notes are given for use in conjunction with custom made excel sheets to perform
+calculations and these are openly available via a weblink. immediate feedback for the course is
+generally excellent. to gauge the extent to which course materials had ongoing usage, and whether
+post leaving the course perception of the material and its’ usefulness remained, a short survey was
+emailed to all 383 course participants from the 20 courses. attendees noted ongoing usage of the
+course materials, with over two thirds of respondents subsequently referring to these frequently or
+occasionally. even the most conservative estimate showed a substantial proportion still gaining
+direct benefit after 5 years.
+background
+for 10 years the ucl centre for applied statistics courses (casc) has presented 1 to 5
+day courses primarily aimed at non-statisticians in the workplace. attendees often aim to leave a
+course equipped to undertake their own research, as well as having an improved understanding of
+published research. the one-day introduction to sample size estimation has proved highly popular
+and runs on average three or four times per year with an audience of up to 20 participants. numbers
+are restricted by the fact that teaching takes place within a cluster room and participants are
+directed to custom made excel sheets to perform calculations. the excel sheets were originally
+available via cds given to students but are now accessed via a web link to which there is open
+access (http://www.ucl.ac.uk/ich/short-courses-events/about-stats-courses/samplesize ). a folder of
+comprehensive course notes is given to each course participant detailing all course material and
+usage of the excel sheets with examples.
+all casc courses request feedback from students via opinio, a web-based tool used to
+gather ratings and comments. this feedback, collected shortly after the day of the course, is
+consistently positive. there remains the question of how useful the participants find the training
+and material on an ongoing basis. the sample size course is unique in that the excel sheets are
+presented and their usage integral to the estimation processes introduced to the students.
+furthermore, the excel sheets remain available to the students for as long as they wish to use them.
+therefore, the sample size course, with its very specific estimation tools as well as written notes,
+was ideal for beginning an investigation into the ongoing potential benefits of our training we
+decided to contact attendees to the sample size courses held over the last five years to evaluate
+whether they continued to use the excel sheets and whether the course had in fact been of direct
+relevance to their work.
+the aim of this survey was to address the research questions:
+i) did participants of the one day sample size course utilise the information and tools given in
+the course in their work life?
+ii) was usage related to time since attendance at the course?
+data collection
+an online survey was developed asking whether individuals had referred back to the course
+material and whether they had continued to use the excel spreadsheets. both of these questions had
+the response options: ‘yes frequently’, ‘yes, occasionally’, ‘rarely’ and ‘no’. the individuals
+were also asked whether what they had learnt on the sample size course had been of direct
+relevance and use to their work, with response options ‘yes’ or ‘no’. all questions had space for
+comments and there was an additional overall comment box at the end asking for any other
+suggestions that may help improve the one-day introduction to sample size course. potential
+participants were sent an email requesting that they complete the web survey (via a link), which
+would consist of only 3 questions. by making the survey short and informing of length in the
+accompanying email, it was hoped to maximize the response rate (galesic and bosniak, 2009).
+the survey was sent via email to all 383 participants of the 20 one day courses held
+between 2012 and april 2017. there were 46 emails (12%) returned undeliverable with the
+proportion falling over time from 17/74 (23%) attendees at the three courses in 2012 to only one of
+the 39 (2.5%) in the two courses in the first half of 2017. since the survey was anonymous, and we
+did not wish to alienate future participants by repeated emails, no additional requests were made to
+those who may not have responded.
+results
+from the 337 emails that were successfully sent, responses were received from 62 (18.4%).
+most of the respondents (39/62, 63%) completed the form in a minute or less and over 90% in less
+than 5 minutes (56), two outliers were 26 and 13 minutes. over 80% (50) replied within 48 hours,
+and all but one within eight days. response rates were not dependent on time since course
+attendance being between 16 and 20% for all but two years, which were 2014 (13.9%) and 2013
+(25%).
+two people skipped the question about whether what they had learnt on the one-day
+sample size course had been of direct relevance to their work. of the 60 that submitted a completed
+survey form, the overwhelming response was ‘yes’ (55/60, 91.7%) and this was consistent across
+years. the five who did not find the course relevant, rarely (3) or never (2) used the course material
+and also rarely (1) or never (4) returned to use the excel sheets.
+all individuals answered the usage questions. most referred back to the course material and
+the excel spreadsheets occasionally or frequently. there was a strong correspondence between
+responses from the two questions (table 1). two individuals occasionally referred back to the
+course material but did not use the excel spreadsheets, a single individual made occasional use of
+the spreadsheets but did not refer to the course material.
+table 1: ongoing usage of course material and excel spreadsheets responses
+have you returned to the excel spreadsheets and used these?
+yes, frequently yes,
+occasionally
+rarely no total
+have you referred back to the
+course material?
+yes, frequently
+yes, occasionally
+rarely
+no
+total
+7
+1 0 0 8
+3
+24 6 2 35
+0
+3 6 6 15
+0
+1 0 3 4
+10 29 12 11 62
+when analysed according to year of attendance, there was no consistent pattern of more
+usage either if the course was more recent nor with increasing time since receiving (figure 1).
+figure 1: temporal changes in responses to usage questions
+comments
+a total of 53 comments were left by 34 individuals. comments attached to the usage
+questions were most often given by those who responded ‘rarely’ or ‘no’.
+there were six comments following the question about usage of course material with half
+from individuals who cited rare usage but explained their lack of need rather than problems with
+the material. one person who said they never referred back to the course material commented that
+they disliked using excel, whereas another person who rarely used the course material stated
+difficulties following the concepts. the final comment was from someone who occasionally
+referred back to the course material (“2 colleagues have asked me to help them with a power
+calculation and one colleague borrowed the course file”).
+there were 8 comments given following the question about usage of the spreadsheets,
+including the person who disliked excel and reiterated their previous comment. two of those
+commenting on this question stated that they had gone on to use stata (occasional user) or g power
+(never user). two individuals said they occasionally used the excel sheets and gave positive
+comments. the remaining three comments were very positive despite recording rare (“however, i
+think that this material it's very useful for working with”) or no (“i think it will come useful when i
+need to calculate sample size“ and “while i am very glad to have them and the process of
+reviewing them certainly helped understanding, the design of of (stet) research does require the
+calculations used the spread sheet“)
+of the 10 comments left after the relevance and usefulness in work question, eight were
+from individuals who answered positively and the only minor criticism was that stata may have
+been better to use on the course(“it was interesting but using more traditional software such as
+stata would have been far more helpful.”). two comments were from the five who said the course
+was not of direct relevance and use to their work. they said, “i typically use a repeated measure
+design, which was not covered in the workshop” and “it will be useful when i get to design my own
+study and as i have been developing a proteomics method i have not needed to use the course
+info”.
+27 of the 62 respondents left an overall comment at the end of the survey. of these 16
+made a comment that was purely positive with half of these specifically mentioning the usefulness
+of the excel sheets. there was only one negative comment, from someone who attended the course
+in 2014, rarely used material or excel sheet and did not find the course relevant to their work they
+said they “did not learn anything as it was not explained”. however, a review of the opinio
+feedback from 2014 did not yield any such negativity. three comments raised the issue of
+alternative software, with 2 of these also praising the excel sheets. one user of gpower mentioned
+the need to quote software used for publication, “i currently use g*power3 as it is more flexible
+than the spreadsheets. although the spreadsheets were useful i wonder if sometime spent on
+recognised software would be useful. i say this because, as part of getting published i have had to
+quote the software i used and the parameters i put in to generate the sample size and using
+g*power3 the reviewers can check my work”. five comments were from individuals who would
+like more advanced topics covered: these were sample size calculations for repeat measures (2
+comments), non-inferiority trials (these are given a brief mention in the course), unspecified
+‘epidemiological studies’ and multiple groups (such as 5 ethnic groups). despite each formula
+included in the course having at least one fully worked through example of usage, one participant
+wanted more. their comment was “more worked examples with answers would be useful when
+returning to the spreadsheets to be sure of using the correct one and inputting the correct figures”.
+the final comment felt the course might be shorter, but seemed generally positive, “was good,
+could be shorter, or just a half-day for more advanced users of excel/stats -overall it was very
+useful, if anything, it highlighted an often neglected issue in science ”.
+discussion
+a substantial proportion of those responding to the survey continued to refer to the course
+material and/or to use the online excel spreadsheets for calculation. some of those that did not
+currently use the material still cited the potential usefulness and intended to do so. almost all felt
+that the course had been of direct relevance and useful to their work. there was no evidence of
+these findings being related to time since course attendance.
+strengths and limitations
+the response rate was low at 18.1%, but this is to be expected with a one shot survey of
+this type. online survey response rates below 10% are not uncommon and rates are declining due
+to the volume that individuals currently receive (van mol, 2017). those responding may have been
+biased towards those who did engage with the material. conversely though they may have been
+biased towards those who found the course not very helpful. however, low response does not
+necessarily infer bias (fosnacht et al, 2017).
+we had access to email addresses of course attendees over the last five years. all
+presentations of the course were led by the same teacher and the content of the course remained
+similar throughout. we were asking about current usage and so we could evaluate the long term
+effect of the course. the numbers of non-deliverable emails declined over time as would be
+expected, but the response rates within those whose emails which were delivered did not show a
+temporal pattern.
+if we consider the numbers responding positively from those where an email was delivered
+(ie. assume a worse-case scenario that those who did not respond rarely or never used the materials
+or spreadsheets) there remains 14% (95% ci (7.3, 25.3%)) of those who attended the course five
+years ago still gaining direct benefit occasionally or frequently from the course materials and the
+excel sheets. we can consider this a very conservative lower limit.
+conclusion
+this study gives evidence of a long term benefit of attendance at the one day sample size
+course, with over two thirds of respondents who had attended the course stating that they
+subsequently referred to the course materials frequently or occasionally. even the most
+conservative estimate shows a substantial proportion of attendees continuing to use the course
+material directly in their work after 5 years.
 
 <|EndOfText|>
 
@@ -2160,6 +3084,113 @@ members in the locality benefit from this intervention.
 
 <|EndOfText|>
 
+are adolescents with constipation more likely to suffer psychological maladjustment?1 what percentage of chiari i-type headaches show improvement after foramen magnum decompression (fmd)?2 does bcg vaccination reduce early childhood hospitalisation in denmark?3 is diagnosis of coeliac disease associated with differences in adolescent anthropometry?4 does visual feedback affect the rate of chest compressions?5
+these are all questions asked in recent issues of this journal. in each case the authors collated information from a sample of individuals to yield an answer to their question. differing study types were used ranging from observational audits and surveys through to randomised parallel and crossover trials. the study designs, participants, settings, sample sizes and key statistics are summarised in table 1.
+table 1: description of the five studies
+study
+design
+participants
+setting
+sample size
+key statistics
+1
+cross-sectional survey
+13-18 year olds
+5 schools
+1697
+(114 constipated)
+33.3% of constipated and 14.5% of non-constipated had maladjustment:
+or 2.94 (1.95, 4.45)
+2
+retrospective review of audit database/ before-after study
+chiari i-type headache cases having fmd
+tertiary hospital
+39
+80% showed improvement post fmd
+3
+randomised controlled trial
+newborn babies
+3 danish hospitals
+4262 children
+(2129 bcg,
+2133 controls)
+1047 hospitalisations bcg group vs 1003 controls. hr 1.05 (0.93, 1.18)
+4
+general health examination database
+17 yr old israeli jews
+eligibility assessment for military service
+2,001,353 adolescents;
+(10,566 with coeliac disease (cd))
+boys with cd had lower bmi (average 21.2 vs 21.7)
+cd girls were shorter (161.5 vs 162.1 cm on average)
+5
+randomised crossover trial
+hospital staff
+tertiary hospital
+50 pairs of measurements – with and without visual feedback
+rate of chest compressions was lower and less variable in those receiving feedback
+despite these differences, the same basic principle is followed for each. a sample of the relevant group of individuals is identified and from observing what happens to this sample, inferences are made about the wider population. the inferences may be beneficial to similar individuals and those involved in their care. for example, clinicians trying to determine whether to perform fmd2 or parents considering the pros and cons of bcg vaccination. 3 how well a question is answered by the study depends on how large a sample was studied in conjunction with other factors such as the variability of the measurements and/or event rates. both researchers and patients intuitively understand that findings based on a larger sample are likely to be more accurate, and will have more confidence in results based on a randomised trial of 1,000 individuals than if only 10 patients had been recruited. what is less intuitive is that if a treatment is not shown to be effective in a small sample, it may still have benefits. similarly, we are generally less inclined to also apply such intuitive logic to observational descriptive studies. this article will explain the rationale behind consideration of sample size for all types of research study, wherever data is collated to address a proposed research question.
+making statements based on the available sample
+to explore these concepts further, consider the chiari i-type headache study2. here 32/39 of individuals showed improvement post fmd, which gives a sample estimate of 82.1% improvement rate. a 95% confidence interval for the rate is (67, 91%), which means that we are 95% confident that at least 67% of the population (in this case, chiari i-type headache sufferers) will improve. if we wanted a more accurate estimate, then a larger sample size would give this. for example, suppose 1000 had been assessed and of these 821 had improved, then this would still be a rate of 82.1%, but the 95% confidence interval would now be (80, 84%), and we would therefore be 95% confident that at least 80% would improve. the data that we have is compatible with population estimates anywhere within the 95% confidence interval at the 5% significance level. any hypothesised population estimate that we test against outside that interval will yield a p-value < 0.05 indicating a statistically significant difference and non-compatibility. there is a conceptual distinction between significance tests, which determine compatibility with a pre-specified hypothesised value, and confidence intervals, which have no prior hypothesis and seek only to identify a range of compatibility. for some study types one approach may be favoured over the other. significance tests are generally considered when presenting the results of a randomised trial, whereas an observational study may omit this approach entirely depending on the precise research question.for example, suppose that prior to the study the authors ascertained that improvement in at least 75% of patients would warrant routine use of fmd. when testing against a hypothesised value of 75%, the sample of 39 would have yielded a p-value >0.05, a non-significant difference, indicating compatibility with 75% (as also shown by the confidence interval which contains this value). for the sample of 1000 (where the 95% confidence interval does not contain 75%), a significant result would be obtained (p<0.05), indicating non-compatibility.
+this example illustrates the correspondences in interpretation between p-values and confidence intervals. larger samples lead to narrower confidence intervals as they enable more population scenarios to be excluded. note that if interest lies on the difference between two groups, for example the heights of 17 year olds with and without coeliac disease, then the hypothesised population value will be zero (ie. no difference in average height between the two groups). the confidence interval will be for the difference in means (or percentages) between the two groups. if this interval excludes zero then the difference is statistically significant.
+what do power calculations have to do with this?
+studies don’t always give a definitive, or even very useful, answer to the research question posed. for example, if the aim of the headache study had been to determine whether the improvement rate was at least 75%, then the sample of 39 would not have been sufficient. even though performing the significance test gives a non-significant p-value >0.05, this does not necessarily mean that the improvement rate is lower than 75%. the 95% confidence interval (67, 91%) shows that the data are in fact compatible with an improvement rate as high as 91% (as well as values below 75%). we still don’t know whether fmd yields the necessary improvement rate to warrant usage as the answer given from the available sample is too imprecise. if a larger sample had been studied then the results would have been more conclusive. before starting a study a decision needs to be made as to whether it is feasible to collect a sufficiently sized sample to address the research question within a plausible time frame. power calculations can tell us how many subjects are needed to obtain a significant p-value if there is a difference of a given size from the hypothesised value (75% in example above). alternatively, power calculations can give the number needed to estimate a specified size of estimate (again 75% in above example) with given precision.
+finding the right number
+there are formulae, that are known as power calculations, which can be used to identify how many need to be sampled to make the estimates sufficiently precise and/or statistical significance likely. these formulae can readily be identified in appropriate statistics textbooks and articles,6-13 or via the many online calculators available, identified by a simple google search. hence in theory this is a relatively easy process – locate a formula or online calculator, plug in a few values and get a number of individuals/items/things that you should collect information on to answer your specified research question. however, there are decisions to make as to which formula and/or online calculator to use, what values to plug into this and how to properly interpret the number that magically comes out. the aim of this short paper is to guide the reader through some calculations so that they are better equipped to address these issues. formulae are given and
+these relate to those found on our online calculators webpage.14 (http://tinyurl.com/samplesizecasc ).
+using a formula/online calculator
+there are two types of sample size formulae. the first of these is aligned with significance testing and providing p-values, the second is akin to confidence intervals. although within the results you will probably present both of these, you need only do one type of sample size calculation. it depends on whether the emphasis in your study is on detecting a difference, or on estimating parameters with sufficient precision.
+in this paper, both types of formulae are presented for both binary and numeric outcomes. a binary outcome is one which takes one of two values. for example, the headache study had a binary outcome - headaches either improved or not and the study was interested to identify the percentage who improved3. by contrast, a numeric outcome is usually summarised by the mean of the values. for example, the average of the changes in rates of chest compressions for a clinician using two feedback methods.5
+often the population parameter being estimated is the difference between two distinct groups of patients (with and without disease; treated vs control). in this case it is the difference in percentages or means between groups for binary and numeric outcomes respectively that is of interest. the difference may be between distinct groups of individuals, for example the percentage difference between those with and without constipation1, or the difference in mean bmi between boys with coeliac disease or not4. alternatively, measurements may be paired, within individual or by taking matched pairs of individuals, and these differences summarised, for example the rate of chest compression when the same clinician uses visual feedback or not.5 formulae are shown for these scenarios.
+only formulae for binary outcomes and means are given in this paper. whilst these are the most commonly used and widely applicable examples of power calculations, it should be noted that formulae exist for many other scenarios, such as non-normal data, hazard ratios, odds ratios and/or hierarchical data. the principles of these formulae are similar although they relate to more complex situations, and are hence beyond the scope of this paper.
+terms to understand
+if the outcome is numeric, then an estimate will be needed of the variability of the measurements. this is expressed as the standard deviation (sd). larger values of the sd indicate greater variation.
+with a numeric outcome, we can express the difference we would like to detect as a standardised difference (sdiff), which is the difference divided by the sd. for example, if the sd of the change in rates of chest compression using two methods is 13, a difference of 8 will be equivalent to a sdiff of 0.6 (8/13).
+power is the ability of a study to detect a difference if it exists, and is usually set at 80, 90 or 95%. a power of 80% means that if the difference exists there is an 80% chance that this study will identify it. hence there is a one in 5 (20% = 100-80%) chance of not identifying the
+difference, so although a power of 80% is often used (and will require smaller numbers), it is generally better to have a higher power.
+significance level is usually set at 5%. this is the chance of falsely declaring a difference when the population value is actually as hypothesised.
+precision is a measure of how closely we would to estimate the true value. the width of the confidence interval is synonymous with precision. when using the confidence interval based formulae, the precision needs to be expressed in the same terms as the outcome (percentage or mean range) and is defined, in the formulae presented here (and associated weblink given above) as half the width of the resultant confidence interval. for example, to estimate the difference in average height of coeliac and non-coeliac 17 year olds to within ± 0.1, the precision is entered as 0.1 and we expect to obtain a confidence interval of width 0.2
+some power calculations
+some commonly used formula are presented here with examples. as explained above, the appropriate formula depends on whether it is a difference that is to be detected or a precision attained, and whether the outcome is numeric or categoric. the formulae are organised accordingly.
+detecting a difference
+1) numeric outcomes
+to detect a specified difference sdiff with 90% power between two groups at the 5% significance level requires 𝟐𝟏𝒔𝒅𝒊𝒇𝒇𝟐 in each group.
+reduce this number by a quarter for 80% power and add a quarter for 95% power.
+for example, the sd of heights of 17 year olds is known to be about 10cm and a study aims to detect a difference in average height of coeliac and non-coeliac 17 year olds of 0.5 cm or more. this is a sdiff of 0.5/10 = 0.05.
+the sample size required to do this is 210.052=8400 per group ie. a total of 16,800 17 year olds, half of whom have coeliac disease.
+to detect the same difference with 80% power, would require 6300 per group (8400 x 0.75). for 95% power, the numbers per group need to be increased to 10,500 (8400 x 1.25).
+paired data
+if there are pairs of observations and it is the mean difference between pairs that is to be compared to an average of zero (implying no difference), then half the sample size given above is the number of paired observations that need to be made. note that the sdiff must be based on the sd of the within pair differences, which will be different to the sd within each group as the pairing removes variation due to differences between groups (such as differences in age, sex, diet, exercise level, disease status).
+for example, with the rate of chest compressions crossover trial, patients are measured using different methods but it is the difference that is of interest ie. each individual contributes one difference to the dataset despite having 2 measures made. to detect a difference between methods of 0.4 sdiff with 90% power at the 5% significance level will require 10.50.42=66 clinicians to make paired measurements. to detect the difference with 80% or 95% power requires 50 and 83 clinicians respectively.
+2) binary outcomes
+the percentages in each group with the outcome are to be compared. if these are %1 and %2, then this difference can be detected with 90% power at the 5% significance level if the following number are assessed in each group: 𝟏𝟎.𝟓{%𝟏(𝟏𝟎𝟎−%𝟏)+%𝟐(𝟏𝟎𝟎−%𝟐)}(%𝟏−%𝟐)𝟐 as before, this number reduces by a quarter for 80% and increases by a quarter for 95% power.
+for example: i) the randomised trial of bcg vaccination aimed to detect a fall in the hospitalisation rate of 20% to 16% or lower. for 90% power, 5% significance, this requires:
+10.5{20(100−20)+16(100−16)}(20−16)2=10.5(1600+1344)42 = 1932 per group, a total of 3864 randomised to 2 equal sized groups (bcg vaccinated or not). ii) assuming 15% of normal children and 25% of children with constipation have psychological maladjustment, this difference can be identified with 90% power at the 5% significance level with two groups of 331 children (10.5{25(100−25)+15(100−15)}(25−15)2=10.5(1875+1275)100=331). for 80% power the sample could be reduced to 249 per group.
+notice that the above two examples relate to quite different study forms, a rct and an observational study, yet the sample size formula required is the same. the formula required depends on the outcome (in this case difference in percentages in two groups) and the power and significance required.
+being sufficiently precise divide the quantity stated by the precision required squared (ie. precision2) to give the sample size required to estimate with 95% confidence.
+1) numeric outcomes
+8sd2 per group
+for example, to estimate the difference in average height between coeliac and non-coeliac 17 year olds to within ± 1cm ( precision = 1), assuming a sd of 10 cm, will require 8 𝑥 10212=800 per group, total 1600.
+for a more precise estimate within ± 0.5 cm, requires a larger sample of 8 𝑥 1020.52=3200 per group, total 6400.
+paired data for paired measurements, the number of pairs required is half of the sample size per group as given above (ie. 4sd2 paired measurements). for example, to estimate the average difference between rates of compression using 2 methods to within ± 4, where the sd of the within pair differences is 13, requires 4 𝑥 13242=43 clinicians making paired assessments.
+2) binary outcomes to estimate a single percentage ( %1 ): 4 %1 (100 - %1) for example, if 80% of patients with chiari i-type headaches improve then this can be estimated to within ± 8% with 95% confidence using a sample of 4𝑥80(100−80)82=320 𝑥 20 64=100 patients.
+to estimate a difference in percentages (%1, %2) : 4 {%1 (100 - %1)+ %2 (100 - %2)} for example, to estimate a fall in percentages hospitalised when given bcg vaccination from 20% to 16% with a precision of 2.5% (ie. confidence interval width 5%) would require a sample of 4 𝑥 (20.80+16.84)2.52=117766.25=1885 per group, a total of 3770 children.
+unequal groups
+sometimes when two groups are to be compared it is not anticipated that they will be of equal size. for example, in the study to compare psychological maladjustment rates between adolescents with and without constipation, this was a survey across schools and the numbers in the two groups would not be expected to be equal. an imbalance can be adjusted for by increasing the overall sample size.7 if the above formulae estimate that n per group is required assuming equal sized groups, this is a total sample of 2n. to account for an imbalance between groups of k:1, the total sample size will need to be increased to 𝒏(𝟏+𝒌)𝟐𝟐𝒌 for example, in the constipation study it was anticipated that about 10% of the children would have constipation. this is an imbalance of 9:1 ie. for every 9 that are healthy, there will be 1 who is constipated and hence k=9. the previous formula showed that 249 per group were required to detect a difference of 10% in psychological maladjustment (15% and 25% per group) with 80% power and 5% significance. this is a total sample of 598. to adjust for the smaller numbers of constipated children, the sample needs to be increased to 249 𝑥 (1+9)22 𝑥 9=2490018=1384, which will consist of 138 with constipation (10%) and 1246 without.
+some points to note
+each of the formulae requires estimation of some quantities, for example the sd of the measures or the percentages in each group. this may appear nonsensical. for example, if we knew the percentages of bcg vaccinated and non-vaccinated who were hospitalised (to put into the formula), we would not be doing a study to estimate the percentage difference between the groups!
+sample size estimation is not a precise art. it can give guidance and ball-park figures, but if all information for exact calculation were available we would not need to do the study.
+this does not mean that sample size calculation is not worth doing. it is important to ensure that a study is likely to have a reasonable chance of yielding useful information. it is unlikely that we would have no idea of the likely range of estimates required and these can be used to inform calculation.
+the size of difference to be detected, sdiff or the difference in percentages, should be informed by an understanding of the minimal clinically important difference. it is important that all estimates are clinically plausible and suitably justified, with estimation never determined with reference to the available or preferred sample size.
+in the above calculations, the formulae give the minimum number required and in all cases, where this is not a whole number, has been rounded up. the number given is the minimum
+number for statistical analyses, consideration needs to be given when designing the study to the proportion of eligible participants that will refuse to take part and the likelihood of missing data and/or loss to follow up. these factors will impact on the feasibility of attaining the necessary sample size in the timeframe available. there are some relatively minor discrepancies with the sample size estimates given in the example papers and the numbers given here, but this does not indicate errors. all calculations agree to a reasonable extent, with differences attributable to differing approximations in the formulae used. there are often other factors that should be considered. for example, if we compare heights between those with and without coeliac disease, we may wish to adjust for differences in age, sex and ethnicity of children as well as other potential confounders associated with anthropometry. it is worth noting that in this case, taking into account these covariables will only serve to reduce overall variation (sd), so estimation not taking them into account will be conservative. the formulae given are based on a single primary outcome. if there are multiple comparisons, then the sample sizes will need to be larger. as noted earlier, only the most basic calculations are given in this paper, further formulae exist for more complex scenarios. no amount of increasing the sample size can account for biases in the data.
+“but i’m not doing a clinical trial so this is irrelevant”
+it’s a common misconception that power calculations are only required for clinical trials of the randomised controlled type variety. this is untrue. wherever sampled data is used to address a research question, the sample size needs to be adequate to give a useable answer to that question. in this paper, a variety of examples are given to illustrate applicability. the headache study was a single sample descriptive study, the differences in constipated and non-constipated an observational comparison.
+conclusions this article should provide a large enough sample of information to enable the reader to understand that sample size calculation should always be given consideration before commencing a study with 95% confidence. it should be borne in mind that having an adequate sample size is only one important facet of research design. samples selected should be representative and measures of outcome both reliable and valid. no amount of increasing the sample can correct for such deficits in design and doing so will merely result in obtaining a more precise estimate of the wrong answer, or the right answer to the wrong question.
+when preparing a manuscript for publication this journal refers authors equator guidelines15 which aim to ensure that whatever type of study is being undertaken all important statistical considerations are made. the majority of the guidelines make reference to sample size determination, including those for observational (strobe16) and diagnostic testing (stard17) studies. this paper explains the basis of sample size calculation with simple examples given as manual calculations, replicable via online calculators if preferred. sample size estimation need not be overly complex nor a black-box affair. the aim of this paper is to enhance adherence to guidelines and incorporation of this important element of research in practice.
+
+<|EndOfText|>
+
 the journal of clinical pathology publishes
 about nine papers a month presenting
 comparative (mostly primary) data. their
@@ -2568,1034 +3599,3 @@ is vital to this. our hope is that
 this article will help researchers to make
 the best use of the data they have
 collected.
-
-<|EndOfText|>
-
-research is only worth doing if it provides useful
-information. medical research usually consists
-of studying groups of individuals with the
-aim of answering a predefined research question.
-most commonly in the field of sexually
-transmitted infections (sti), the prevalence of
-a virus or abnormality is to be estimated or
-prevalences compared, either over time or
-between different groups of people. alternatively,
-several therapies may be compared
-within a randomised controlled trial. one
-question that arises at the start of any study is
-“how many individuals should be included in
-this study?” there are several ways of answering
-this question. the number included may be
-based on practical issues—for instance, the
-length of time available to the researcher
-together with the time taken to recruit, treat,
-and test each individual and the expected
-patient accrual rate. these factors will vary
-from researcher to researcher and between different
-sources of patients—for example, accrual
-rates will differ between different hospitals.
-to use such variable quantities to
-determine the number needed to effectively
-answer a given research question is clearly
-flawed. ethically it is wrong to either underrecruit
-or overrecruit. on the one hand we may
-be left with insufficient numbers to conclusively
-answer the question. on the other hand,
-if we overrecruit, then the best scenario is not
-only do we waste time, but also we subject
-more individuals than necessary to any inconvenience
-associated with being studied. in the
-worst scenario, we may be allowing individuals
-to receive inferior treatment after sufficient
-numbers have been recruited to ensure that the
-best treatment is known.
-many researchers associate sample size
-calculation purely with randomised controlled
-trials. most of the studies presented in this
-journal do not fall into this category. however
-sample size estimation before study commencement
-is important for all types of study,
-including prevalence studies and observational
-comparisons. this article highlights the need
-for consideration of study size over and above
-issues of feasibility and practicality. information
-is presented on how to determine an
-appropriate sample size for the most commonly
-used study designs within the field of sti.
-why size matters
-a prevalence study finds that 25% of women in the
-outer hebrides have hsv-2 antibodies.
-we cannot interpret this information without
-knowing the numbers this figure was based on.
-for example, one out of four (25%) is a much
-less precise estimate than 100 out of 400
-(25%). a proper presentation of the results
-would include a confidence interval. the 95%
-confidence interval for the first scenario is (0.6,
-80.6%) and for the second (21.0, 29.5%). for
-each of the examples, these are the ranges
-within which we are 95% confident the
-population prevalence lies. as we would
-expect, with a much larger sample size, in the
-latter scenario we can make a more precise
-statement about the likely population prevalence.
-20% of pregnant outer hebrideans have
-hsv-2 antibodies compared with 20% of inner
-hebrideans.
-if the above statement were true and we randomly
-sampled and tested 30 individuals in
-each group, then we would expect to see about
-six antibody positive individuals in each group.
-however, we would not be unduly surprised to
-find four individuals with antibodies in one of
-the groups and eight in the other.
-however, we can quantify how likely, in the
-absence of a difference, we are to falsely
-conclude from our study that there is one. the
-statistical significance of a study is the probability
-that we will falsely identify a difference
-when none exists. the larger the study, the less
-likely this is to happen.
-20% of pregnant outer hebrideans have
-hsv-2 antibodies compared with 10% of mainland
-scots.
-if the above statement were true and we randomly
-sampled and tested 30 individuals in
-each group, then we would expect to see about
-six antibody positive individuals in the first
-group and three in the latter. however, we
-would not be unduly surprised to find four
-individuals with antibodies in each of the
-groups.
-key messages
-+ sample size is an important issue for all
-contributors of studies to this journal.
-+ the interpretation of study results depends
-on the sample size included that
-study.
-+ sample size formulas are given for the
-most common scenarios encountered in
-the field of sti.
-question: how do we know that our study
-will not indicate there are differences when
-none exist?
-answer:we don’t.
-however, we can quantify how likely we are
-to find a difference of a given size if it exists.
-the power of a study, usually represented as a
-percentage, is the ability of a study of a given
-size to detect a difference of a given magnitude.
-the larger the difference the smaller the
-number needed.
-simple sums for sample sizing
-choosing the best sample size is not a precise
-art. equations exist for calculating the sample
-sizes needed to obtain a specified precision or
-to identify differences of a given size. the latter
-of these are called power calculations. sample
-size calculation relies on “guesstimates” of
-unknown quantities and hence obtained sizes
-are by definition unlikely to be correct. the
-extent to which sample size determination is
-influenced by erroneous estimates can be
-investigated by trying out different guesstimates
-in the formulas. below are details of
-sample size calculation for the most common
-scenarios in sti studies.
-(i) the approximate number of individuals
-required to estimate a prevalence within ± e%
-is given by the formula:
-the number required depends on the prevalence
-the study is designed to estimate!
-note that if the prevalence is x% then the
-sample size required is the same as if estimating
-a prevalence of (100 − x)%.
-for example, if the true prevalence is 25%
-and we want to estimate this prevalence to
-within ±5% then
-individuals are required.
-of course we do not know this prevalence
-before we undertake the study. our guesstimate
-of 25% may be inaccurate. if the true
-prevalence is actually 35%, then
-individuals would be required to give the same
-level of precision. if only 300 individuals are
-included (based on the guesstimate of 25%)
-then the prevalence will be estimated less precisely
-than anticipated.
-figure 1 shows the numbers required to
-detect various prevalences to within ±1%. for
-example, to estimate a prevalence of 25% with
-this precision will require approximately 7500
-individuals. (note that the same number would
-be required to estimate 75% —that is, 100 −
-25%, with the same precision.)
-if a prevalence needs to be estimated with
-greater precision then the sample size must be
-increased, for less precision smaller sample
-sizes are required.
-to estimate prevalences more or less precisely,
-the estimates given for ±1% can be
-divided by the required precision squared. for
-example:
-(a) to estimate to within ±2% the numbers
-given for 1% need to be divided by 22 (=4), this
-curve is shown on the figure. to estimate 25%
-to within ±2% requires approximately 7500/4
-or 1875 individuals.
-(b) to estimate to within ±0.5% the
-numbers given for 1% need to be divided by
-0.52 (= 0.25). part of this curve is shown on the
-figure. to estimate 25% to within ±0.5%
-requires approximately 7500/0.25 or 30 000
-individuals.
-(ii) if the prevalences within different groups
-are p1% and p2%, the approximate numbers of
-individuals required to detect this difference
-with 80% power at the 5% significance level
-are:
-table 1 shows n for selected p1% and p2%.
-for greater power the sample sizes need to
-be increased. similarly, larger samples are
-required to detect smaller differences between
-prevalences.
-for 90% power, the samples need to be
-increased by about one third.
-for example, if 10% of hebrideans and 20%
-of mainland scots have hsv-2 infection, then
-200 hebridean and 200 mainland scots need
-question: how do we know that our study
-will not fail to identify a difference of clinical
-importance that truly exists?
-answer:we don’t.
-figure 1 number need to estimate a single prevalence to
-within plus or minus 1%, 2%, and 0.5% with 95%
-confidence.
-10 000
-9000
-8000
-estimate to within:
-± 0.5%
-± 1%
-± 2%
-7000
-6000
-5000
-4000
-3000
-2000
-1000
-0
-50
-percentage prevalence
-number needed
-0 5 10 15 20 25 30 35 40 45
-table 1 number required in each group to detect
-differences with 80% power at the 5% significance level
-given that group prevalences are p1% and p2%
-prevalence
-(p1%):
-prevalence (p2%):
-10 20 30 40 50 60 70
-5 440 74 33 19 12 8 5
-10 200 60 30 17 11 7
-20 296 80 37 20 12
-30 360 92 40 21
-40 392 96 40
-50 392 92
-60 360
-to be tested to detect this difference with 80%
-power at the 5% significance level. for 90%
-power a total of 266 (= 200 ´ 1.33) will need to
-be tested in each group.
-as before, the sample size estimate is based
-on guesstimates of the study outcome. for the
-purposes of sample size determination, the
-magnitude of the difference in prevalences
-between groups may be chosen on the basis of
-what is a clinically important difference that we
-want to detect. for example, the best available
-evidence may suggest that the hebrideans only
-have 5% fewer hsv-2 infections but we decide
-to undertake a study to detect a difference of
-10% since this could represent a clinically
-important difference (in terms of allocating
-resources, etc), whereas 5% would not.
-often there is more than one factor to
-consider. for example, outer hebrideans may
-be older than the average scottish person and it
-would be of interest to know whether the
-difference in prevalence of hsv-2 can be
-explained by the difference in ages of the
-groups. sample size estimation in these scenarios
-is more complex and will depend on the
-extent to which the factors are related.1
-more of one than the other
-when comparisons are made between two or
-more groups, power will be maximised (for a
-given overall total number enrolled) if each
-group is of the same size. to accommodate an
-imbalance in numbers while retaining the same
-power, the total sample size needs to be
-increased accordingly.2
-ones that got away
-calculations give the estimated numbers required
-for statistical analysis. sometimes it will
-be necessary to recruit many more to ensure
-that sufficient are obtained for that analysis. on
-the basis of the expected refusal and compliance
-rates, the study should be designed so that
-sufficient are contacted/approached/recruited
-to account for these losses.
-ones that never happen
-in some studies, individuals are recruited and
-monitored for variable lengths of time with the
-aim of comparing times to some defined event,
-such as death or infection, between subgroups
-of individuals. the nature of the outcome is
-that not all individuals will have the event and
-a straightforward comparison of percentages
-dying or becoming infected is invalidated
-because of the variable follow up times.
-similarly, comparing average times to death/
-infection would also be invalid. a special type
-of analysis is required3 and the sample size will
-be based on the number of individuals for
-whom the event occurs.4 so for a rare event
-larger numbers will be required. extending the
-length of follow up may be used to increase the
-numbers of events occurring.
-ones that flock together
-if treatments are allocated on a group basis, the
-effective sample size will not equal the total
-number of individuals. adjustment must be
-made according to the extent to which
-individual outcomes are influenced by the fact
-that they form part of a homogeneous group.5 6
-for example, the introduction of trained
-specialists within randomly selected clinics7 to
-identify whether these specialists have an effect
-on adverse outcomes. individuals from the
-same clinic may be more alike, perhaps because
-of social and ethnic similarities, than those
-from different clinics in terms of their tendency
-to be recorded as having a problem even before
-any intervention. a study that randomises by
-clinic will effectively be putting groups of similar
-individuals into the same arm of the trial en
-bloc. a similar situation occurs when individuals
-within the same family, ward/hospital, etc,
-are jointly allocated to treatments.
-summary
-in conclusion, this short article has addressed
-the issues surrounding the determination of
-appropriate study size. only the sample size
-equations relating to the most common study
-types in the field of sti are presented. for
-more complex but common situations, the
-important issues to consider are highlighted.
-many other sample size equations exist—for
-example, when the outcome is continuous,
-such as cd4 count, or more than two groups
-are compared. several useful references are
-given in the further reading section. this
-article raises awareness of the need to perform
-studies of the correct size for the given purpose
-and informs the researcher in sexually transmitted
-infections of the particular points that
-they may need to consider.
-
-<|EndOfText|>
-
-abstract
-background: minimisation can be used within treatment trials to ensure that prognostic factors
-are evenly distributed between treatment groups. the technique is relatively straightforward to
-apply but does require running tallies of patient recruitments to be made and some simple
-calculations to be performed prior to each allocation. as computing facilities have become more
-widely available, minimisation has become a more feasible option for many. although the technique
-has increased in popularity, the mode of application is often poorly reported and the choice of input
-parameters not justified in any logical way.
-methods: we developed an automated package for patient allocation which incorporated a
-simulation arm. we here demonstrate how simulation of data can help to determine the input
-parameters to be used in a subsequent application of minimisation.
-results: several scenarios were simulated. within the selected scenarios, increasing the number
-of factors did not substantially adversely affect the extent to which the treatment groups were
-balanced with respect to the prognostic factors. weighting of the factors tended to improve the
-balance when factors had many categories with only a slight negative effect on the factors with
-fewer categories. when interactions between factors were included as minimisation factors, there
-was no major reduction in the balance overall.
-conclusion: with the advent of widely available computing facilities, researchers can be better
-equipped to implement minimisation as a means of patient allocation. simulations prior to study
-commencement can assist in the choice of minimisation parameters and can be used to justify those
-selections.
-background
-most medical researchers are aware that it is necessary to
-perform a randomised controlled trial to effectively establish
-the usefulness of a new treatment. the aim is that
-treatments are compared on similar groups of patients.
-completely random allocation of patients to treatments
-does not, however, ensure that the patient groups are similar
-with respect to prognostic factors. for example, purely
-by chance one of the treatment groups may have been
-allocated older or more severely ill patients. if such an
-imbalance in prognostic factors has occurred then it may
-be difficult to attribute any differences to treatment, the
-analyses will require adjustment and the study will have
-less power.
-minimisation [1-3] is a dynamic allocation procedure that
-ensures treatment groups are similar with respect to a
-series of pre-specified prognostic factors. as patients are
-recruited to the trial they are allocated to the treatment
-group that will 'minimise' the differences in the distribution
-of those factors between the groups. one pitfall of
-this process is that the allocation is not random and hence
-could be predicted. this problem is addressed by randomising
-each patient but weighting the randomisation
-towards the minimisation favoured treatment group for
-that individual. by introducing weighted randomisation,
-the individual is more likely to be allocated to receive the
-preferred treatment, but is not guaranteed to do so. there
-is a trade-off between the size of the weighting used and
-the ability of the researcher to predict the next allocation.
-to apply minimisation requires only simple algebra but
-this may be problematic for the clinician with limited
-time and resources. the advent of greater access to computing
-technology has led to an increase in the usage of
-minimisation, which has previously been implemented
-relatively rarely. published trials increasingly cite the use
-of minimisation for patient allocation. for example, falk
-et al [4] minimized patients to receive immediate or
-delayed radiotherapy with groups balanced according to
-clinician, histology, presence of metastases and who performance
-status. pal et al [5] used minimisation to ensure
-even distribution within age groups (2–12 or 13–18
-years) and whether or not there was cerebral impairment
-when conducting a trial of phenobarbital versus phenytoin
-for seizure control amongst epileptic children in rural
-india. minimisation can similarly be used for allocation
-within cluster randomised controlled trials when confounding
-factors are applicable at the cluster level. for
-example, hilton et al [6] performed a cluster randomised
-trial of intervention to lessen individuals' cardiovascular
-risk with general practices allocated to intervention or
-control using minimisation for jarman score, ratio of
-patient to practice nurse hours per week and fundholding
-status.
-the benefits of minimisation have been debated recently
-[7,8] and a recent review of the usage of minimisation recommended
-'its wider adoption in the conduct of randomized
-controlled trials' [9].
-the technique has not been without its critics [10] as well
-as advocates, but it is acknowledged to be relatively simple
-to implement and perform comparably to more complex
-models where prognostic factors are non-numeric in
-basis [11]. a common criticism is that minimisation concentrates
-only on marginal distributions of prognostic factors
-and may not ensure that the interactions are similar
-between groups. for example, although there may be similar
-numbers of males, females, disease state positive and
-negative in the treatment groups post allocation, all of the
-positive males may receive one treatment and all of the
-positive females the other. if there is an interaction
-between disease state and gender on outcome, then this
-difference between the treatment arms may be problematic.
-however, the likelihood of imbalance is easily countered
-via a 4-category minimisation variable: male/
-positive, male/negative, female/positive, female/negative.
-the usefulness of minimisation as an allocation procedure
-within randomised controlled trials is therefore
-established and will continue to be recognised and utilised.
-however, it has been commonplace for published
-studies that have used minimisation to give little or no
-information as to how the process has been implemented.
-often they cite the minimisation variables but do not state
-what metric has been used to determine the preferred allocation
-group, whether and what randomisation weightings
-have been used for the allocations, whether and how
-the factors have been weighted, whether interactions have
-been accounted for or, where applicable, how cut-points
-for continuous prognostic factors were selected. the
-researcher who wishes to embark on a trial using minimisation
-as the means of patient allocation often has many
-questions to ask. several parameters need to be selected
-for each trial to which minimisation is to be applied.
-these parameters and, from our experience within the statistical
-consultancy, the most common associated questions
-related to the choice of each, are given below:
-1. number of factors
-• how many factors can be balanced simultaneously?
-• how does the balance for an individual factor change as
-more factors are incorporated?
-• in particular, what is the effect on other factors of adding
-a single, many-categoried factor such as centre?
-2. number of categories for each factor
-• how does choice of number of categories (for continuous
-prognostic factors) affect the allocation process?
-3. whether and how to weight the factors
-• how should the factors be weighted?
-4. the randomisation weighting to use
-• how much should the randomisation be weighted in
-favour of the preferred group?
-they also want to know
-• with a chosen randomisation weighting and given
-number of minimisation factors, how big a discrepancy
-can be expected for a specified sample size?
-and
-• how does inclusion of interactions between prognostic
-factors change all this?
-there is minimal information available in the published
-literature to inform researchers when addressing the
-above questions.
-we have developed a simple computer package to perform
-minimisation allocations subject to selected values
-of these 4 input parameters. we have also incorporated a
-simulation element that allows the researcher to investigate
-the size of discrepancies in allocation of prognostic
-factors between treatment groups subject to variation in
-the input parameters.
-we here present the results of some simulations for a
-hypothetical proposed trial and show how this process
-can assist the researcher in deciding on the parameter values
-to be used in their trial. subject to our chosen criteria
-for model comparison, we examine the extent to which
-varying the minimisation parameters may influence the
-equalisation of prognostic factors between treatment
-groups.
-methods
-for each new patient to be allocated, the process of minimisation
-considers the imbalance in selected prognostic
-factors and weights the randomisation of the next patient,
-according to his or her characteristics, in favour of the
-treatment that will make the treatment groups most similar
-with respect to the prognostic factors. to formalize this
-process, assume a trial where patients are allocated to one
-of two treatments, t1 and t2. suppose there are m prognostic
-factors and cj is the number of categories for the jth
-prognostic factor (j = 1,...,m). let anj be the value that the
-nth patient takes for the jth prognostic factor (anj∈
-{1,2,...,cj}) and let dj be a measure of the difference
-between the numbers of patients allocated to each of the
-two treatments who are in category anj after allocation of
-the (n-1)st patient. assume dj positive if more patients in
-category anj are currently receiving t2, negative if more are
-receiving t1 and zero if both treatments currently contain
-equal numbers of patients at this level for the jth confounder.
-therefore dn-1 = {d1, d2, ..., dm} is the vector of
-differences between the treatment groups with respect to
-the m prognostic factors at the levels seen in the nth
-patient prior to allocation of that patient. using minimisation,
-according to the size and direction of dn-1, randomisation
-of the nth patient will be weighted towards the
-treatment group that will make dn numerically smaller
-according to some chosen metric ie. the differences
-between the treatment groups will be minimised with
-respect to the prognostic factors.
-for example, consider a study where there are m = 4 minimisation
-criteria: gender, age (under/over 18), residency
-status of patient (in/out) and severity of disease (mild/
-moderate/severe). suppose that 34 patients have been
-recruited and allocated to one of 2 treatment arms (17 per
-arm) and that they are distributed amongst the minimisation
-criteria categories as follows:
-suppose that the 35th (n = 35) patient to be allocated (n =
-35) is an adult male in-patient with mild disease. prior to
-his allocation the numbers of patients falling into these
-categories is 8+3+7+4 = 22 in treatment arm t1 and
-9+5+7+3 = 24 in treatment arm t2. hence d34 = {8-9, 3-
-5, 7-7, 4-3} = {-1, -2, 0, 1} is the vector of differences
-between the treatment groups with respect to the 4 prognostic
-factors at the levels seen in the 35th patient prior to
-allocation of that patient. since there are fewer similar
-patients in t1, randomisation of the 35th patient should
-be weighted towards this group.
-choice of metric to minimise dn
-the simplest algorithm for allocation of the nth patient is
-to weight the randomisation in favour of t1 if ,
-in favour of t2 if and use simple randomisation
-(p = 1/2, where p is the probability with which the patient
-is allocated to the preferred treatment) if . this
-dj
-j
-m
->
-= σ
-0
-1
-dj
-j
-m
->
-= σ
-0
-1
-dj
-j
-m
->
-= σ
-0
-1
-table 1
-treatment arm:
-t1 t2
-gender:
-male 8 9
-female 9 8
-age:
-under 18 14 12
-over 18 3 5
-residency status:
-in patient 7 7
-out patient 10 10
-severity of disease:
-mild 4 3
-moderate 12 11
-severe 1 3
-prognostic factors.
-the prognostic factors can be given different weightings
-(wj) according to their relative importance and
-used to determine the allocation. there are a variety of
-ways that the wj may be chosen. one potential system that
-seems reasonable is to weight according to the number of
-categories. for example, if 100 patients are allocated to
-two treatment groups then we would expect 25 within
-each category of a binary variable for each treatment
-group, and 10 within each category of a 5-category variable
-for each treatment (assuming, without loss of generality,
-equal probability of the categories occurring within
-each variable). a maximum difference of the same absolute
-magnitude between the two treatment allocations for
-any of the variable categories would probably be more
-clinically relevant for the 5-category than for the binary
-variable:
-the absolute (unweighted) differences are identical (= 10)
-but for the binary variable t2 contains 50% more patients
-within the first category, for the 5-category variable there
-are 200% more relative to t1. the deviations from
-expected are 20% (5/25) and 50% (5/10) respectively.
-weighting the absolute differences (= 10) by the number
-of categories gives weighted differences of 20 (10 × 2) and
-50 (= 10 × 5) for the 2 and 5 category variables respectively.
-the extent to which randomisation is more likely to
-favour one treatment over the other depends on the size
-of the randomisation weighting used. with p = 1/2 (simple
-randomisation) there is no preference for either group.
-when p = 1, the patient automatically receives the preferred
-treatment, there is no random element and allocation
-is said to be deterministic i.e. the researcher could
-predict the group allocation of the next patient if they
-knew the previous allocations. selecting a value 1/2 <p <
-1 will bias allocation in favour of the preferred treatment
-whilst retaining an element of randomness so that patient
-allocation cannot be predicted. more extreme values of p
-(greater bias) will lead to better balancing of prognostic
-factors between treatment groups.
-there must be a trade-off between introducing sufficient
-randomisation weighting (p large enough) and not allowing
-allocation of the next patient to be predicted (p not
-close to 1).
-quantification of balance
-the maximum absolute difference between the patients
-allocated to each of the categories within a given factor
-summarises how well that factor has been balanced by the
-minimisation process and is used as a summary measure
-of balance for that factor. in our simulations we summarise
-across factors with the same number of categories. for
-example, if we minimize according to 3 binary variables
-and one 15-category factor then there will be 2 summary
-measures of balance achieved for each simulated dataset:
-the maximum absolute differences allocated to (1) any of
-the binary variables i.e. the 6 categories which constitute
-these 3 factors and (2) any category within the 15 category
-factor.
-as previously noted [11] it is the behaviour of an individual
-design that is of interest to the researcher rather than
-the average over many applications. of interest is the
-value below which discrepancies are likely to occur for the
-majority of applications of minimisation with given criteria.
-an individual investigator is more likely to want to
-know the maximum discrepancy that s/he can reasonably
-expect with chosen allocation parameters rather than
-what the average will be for everyone using those parameters.
-for these reasons we prefer the 95th centile of the
-simulated distributions as more realistic and relevant
-measures than the means or medians which have previously
-been used to describe the success of a selected allocation
-process. the error in estimating the 95th centile is
-about 1 1/2 times the error when estimating the mean
-[12] but this difference becomes unimportant if a large
-number of simulations are taken.
-the 95th centiles of the distributions of simulated values
-are used to compare allocation schemes with varying
-input parameters (sample size, randomisation weighting,
-number and type of variables, weighting of variables).
-simulation options
-it was estimated that 200 simulations would allow quantification
-of the 95th centile of the distribution to within ±
-0.2 standard deviations of that distribution with 95% confidence.
-increasing the number of simulations to 2500 or
-5000 would increase this precision substantially to ± 0.06
-and 0.04 respectively. a further doubling of the number of
-simulations (to 10000) would only further increase precision
-by less than 0.01 standard deviations. hence it was
-wjdj
-j
-m
-= σ
-1
-table 2
-t1 t2 absolute difference t1 t2 absolute difference
-20 30 10 5 15 10
-25 25 0 10 10 0
-10 10 0
-10 10 0
-10 10 0
-decided that 5000 simulations would be adequate for a
-comparison of minimisation criteria. for each scenario
-5000 simulations were performed using a fortran program
-incorporating nag subroutines for random selection
-of patient characteristics.
-measure of balance
-the 95th centiles of the distributions of maximum absolute
-differences for each factor type were recorded and
-classified according to the number of potential categories
-within which each individual could fall. these differences
-are expressed as the proportionate difference from that
-expected by multiplying by the number of categories for
-that factor and dividing by the total sample size.
-randomisation weighting
-all simulations were repeated for p set at 1/2 (simple randomisation)
-and also for p taken to be 0.67, 0.75, 0.8,
-0.83, 0.88, 0.91, 0.95, 0.97, 0.99 and 0.999, values which
-equate respectively to allocation to the preferred treatment
-being 2, 3, 4, 5, 7, 10, 20, 30, 100 and 1000 times as
-likely as to the alternative.
-weighting of variables
-simulations were performed with prognostic factors both
-unweighted (wj = 1; j = 1,...,m) and with weights equal to
-the number of categories of the prognostic factor.
-to address the types of questions posed by potential
-researchers we here simulate several different scenarios:
-firstly, we investigate the effect on balance of increasing
-the number of factors. models with 1, 2, 3, 4, 5, 10, 20 and
-30 binary prognostic factors are compared. the sample
-size for each simulation was set at 500. since all factors are
-binary, weighting will not change the results and these
-models are only presented unweighted.
-secondly, we chose a study with three binary, one 3-category
-and one 4-category (total 5) prognostic factors to
-simulate. this scenario was chosen as being typical of the
-problems we were encountering in the local consultancy
-and not dissimilar to published studies citing minimisation
-criteria which commonly have several binary criteria
-and one or more multiple category confounders [4,6]. we
-investigated the extent to which balance was a function of
-sample size by simulating the scenario with each simulation
-based on samples of 40 and of 500 patients. for sample
-size of 500, we also considered the balance achieved
-when all 2-way interactions were used as the minimisation
-criteria (total of 10 interactions between the 5 confounders).
-finally, we generated simulations of
-allocations for a sample size of 500 based on 6 minimisation
-factors: the original 5 plus an additional 15- category
-confounder.
-practicalities of application
-the practicalities of application require some degree of
-automation. we have developed a package for clinical
-usage (simin) which both utilises simulations to facilitate
-the process of specification selection and provides a userfriendly
-front-end for the subsequent allocations within
-trial. the fortran programs which generate the simulations
-are embedded in this package. the purpose of this
-paper is to illustrate the types of patterns that can easily be
-determined via simulation and to show how this might
-assist the researcher, leading to more informed parameter
-selection and enhanced reporting of the decision process.
-results
-all results were equivalent for randomisation weights of
-100 and 1000. hence, only the results for 100 are shown
-in the figures.
-increasing the number of factors
-figure 1 shows the results of the simulations as the
-number of binary factors is set at 1, 5, 20 and 30. the output
-for 2, 3, 4 and 10 binary factors are not shown on the
-figure. as expected, the proportionate change from
-expected falls as the randomisation weighting is
-increased. the largest fall occurs after the introduction of
-any randomisation weighting i.e. between values of 1
-(simple randomisation) and 2. as the randomisation
-weighting is increased to 5 in favour of the preferred treatment
-there are further declines and less so between 5 and
-30. after 30 the proportionate change appears to have
-reached an asymptote. the differences in proportionate
-changes with increasing number of factors are approximately
-constant with changing randomisation weights.
-weighting the variables
-figure 2 shows the 95th centiles of the distributions of proportionate
-changes for the 5 prognostic factor (3 binary, 1
-3-category and 1 4-category) scenario with a sample size
-of 500. the dotted lines show the results when the prognostic
-factors are weighted according to the number of categories.
-again, any degree of randomisation weighting is associated
-with the largest fall in change from expected. proportionate
-differences increase with the number of categories.
-weighting of the prognostic factors has the effect of
-increasing the discrepancies for the binary factors but
-reducing them for the factors with more categories.
-changing the sample size
-figure 3 shows the 95th centiles of the distributions when
-a sample of only 40 patients is allocated using 5 minimisation
-factors (3 binary, 1 3-category and 1 4-category).
-the proportionate differences are much larger with the
-smaller sample size (c.f. figure 2).
-interactions
-figure 4 shows 95th centiles of the distributions of proportionate
-changes when minimisation is used to allocate
-500 patients to 2 groups with the aim of obtaining even
-distribution of all 2-way interactions of 5 confounders (3
-binary, 1 3-category and 1 4-category). if the distributions
-sof the interactions are similar, then the marginal distributions
-of the factors will be also.
-the differences are increased from the non-interaction
-model (figure 2) approximately 2-fold for the lower randomisation
-weights (and when simple randomisation is
-used) up to approximately 5-fold for large randomisation
-weighting. since the proportionate changes are smaller for
-larger randomisation weights, the absolute difference in
-the proportionate changes falls with increasing randomisation
-weights. it should be noted, however, that the interaction
-factors have more categories and the discrepancies
-are about the same in terms of the numbers of individuals
-allocated.
-the effect of weighting of the prognostic factors is similar
-to previous models. when factors are weighted according
-to the number of categories this has the effect of reducing
-the proportionate discrepancies for the factors with more
-categories (3 × 4 and 2 × 4 interactions) whilst having the
-opposite effect for the factors with fewer categories (2 × 2
-and 2 × 3 interactions).
-ifnicgrueraesi n1g the number of binary factors
-increasing the number of binary factors. 95th centiles of the distributions of proportionate changes from expected for
-randomisation weights from 1 to 100 obtained from 5000 simulations and a simulated sample size of 500. the number of minimisation
-variables is increased from 1 (black line) to 5 (dark green), 20 (lime green) and to 30 (red).
-adding a factor with many categories
-figure 5 shows the results when samples of 500 are simulated
-using 6 confounders (3 binary, 1 3-category, 1 4-category
-and 1 15-category). the inclusion of the 15-category
-variable has had little influence on the proportionate
-changes for the other factors in the unweighted model
-(figure 2). when the factors are weighted the proportionate
-changes for the 4-category factor are increased in the
-expanded model as opposed to having decreased previously.
-weighting of the prognostic factors has most effect
-on the extent to which the 15-category factor has a similar
-distribution for the 2 treatment groups.
-discussion
-in this paper we have simulated some common treatment
-trial scenarios and compared the results in terms of the
-distribution of discrepancies between treatment groups.
-whilst only a selection of potential scenarios can be
-shown, we have illustrated how prior investigation helps
-quantify the sensitivity of minimisation to the choice of
-input parameters (randomisation weights, weighting of
-prognostic factors, number and type of factors). assuming
-that numerically small differences between the groups are
-of little practical clinical importance, then we can make
-several useful statements regarding the selected scenarios:
-sfaigmuprlee s2ize 500, 5 prognostic factors (3 binary, 1 3-category, 1 4-category)
-sample size 500, 5 prognostic factors (3 binary, 1 3-category, 1 4-category). 95th centiles of the distributions of proportionate
-changes from expected for randomisation weights from 1 to 100 obtained from 5000 simulations. dotted lines
-show results when prognostic factors are weighted according to the number of categories. results for binary factors shown in
-black, 3-category in blue and 4-category in purple.
-• the number of factors to be taken into account can be
-increased quite substantially without severely affecting
-the overall balance.
-• weighting of the factors had most effect on the factors
-with many categories and was not highly detrimental to
-the factors with fewer categories (in keeping with the findings
-of weir and lees [13]).
-• including interaction terms in the minimisation did not
-greatly increase the overall discrepancies.
-• even weighting the randomisation by a small amount in
-favour of the preferred treatment had a large effect on the
-equality of the distribution of prognostic factors between
-treatments.
-• increasing the randomisation weights above 5 had little
-effect on the extent to which the treatment groups were
-similar.
-note that for a different number or type of minimisation
-factors the above statements may not hold. they are not
-meant to be universally true. these are statements about
-one particular hypothesised scenario to show how infor-
-sfaigmuprlee s3ize 40, 5 prognostic factors (3 binary, 1 3-category, 1 4-category)
-sample size 40, 5 prognostic factors (3 binary, 1 3-category, 1 4-category). 95th centiles of the distributions of proportionate
-changes from expected for randomisation weights from 1 to 100 obtained from 5000 simulations. dotted lines
-show results when prognostic factors are weighted according to the number of categories. results for binary factors shown in
-black, 3-category in blue and 4-category in purple.
-mation relating to that scenario can be easily generated via
-simulations.
-we believe that prior simulation according to expected
-sample size will be useful for clinicians embarking on a
-randomised controlled trial for which prognostic factors
-exist and should be equalised between treatment groups.
-simulation will help quantify the effect of different input
-parameters on the expected discrepancies. it may assist in
-the choice of randomisation weighting utilised and the
-trade-off between minimizing for more criteria and/or
-increasing the categories of minimisation where prognostic
-factors are continuous. however, it should be noted
-that the decision of which variables to include in the minimisation
-process should be informed primarily by the
-clinical importance of variables and their impact on outcome.
-vaughan reed and wickham [14] give further discussion
-to the choice of cut-points for continuous
-prognostic factors when performing minimisation. all
-minimisation variables should be adjusted for in the final
-analyses [1,9] and it is therefore important that only necessary
-variables are included to avoid over-parameterisation
-of the models. there is a trade-off between
-incorporating too many variables/unnecessarily increasing
-the number of categories used and allowing imbalance
-in important prognostic factors. the results of the
-mfiignuimreiz i4ng the difference of the interactions
-minimizing the difference of the interactions. 95th centiles of the distributions of proportionate changes from expected
-for randomisation weights from 1 to 100 obtained from 5000 simulations. all 10 2-way interactions from 5 prognostic factors
-(3 binary, 1 3-category, 1 4-category) used as minimisation criteria. dotted lines show results when prognostic factors are
-weighted according to the number of categories. results for the 3 2 × 2 interaction terms shown in black, for the 3 2 × 3 interactions
-in dark green, the 3 2 × 4 in lime green and the 1 3 × 4 interaction in red.
-simulation exercises can assist in the process but cannot
-be used as the sole, or even main, decision criteria for
-inclusion of a particular variable.
-in theory, the process of minimisation is relatively simple
-to undertake [15] but in practice we feel that clinicians do
-not find it easy to keep running totals and perform
-weighted randomisations. automation of the process (in
-addition to telephone allocation where available) reduces
-the propensity for conscious or unconscious interference
-with the allocation procedure. given the importance of
-allocation concealment, this is an additional benefit of
-employing minimisation. furthermore, simulated models
-are not necessarily straightforward to generate. consequently,
-we have developed a software package (simin)
-for clinical usage which enables not only easy minimisation
-but also generates simulations that may be useful
-prior to the commencement of the study to help in determining
-which input parameters to use. it is important that
-the person performing the allocations is independent of
-the trial team. having a quick and simple to use automated
-system makes it easier to enrol suitable individuals
-for this task.
-at study commencement it should be possible to justify
-the number and type of minimisation variables, their
-faidgduinrge a5 15-category factor
-adding a 15-category factor. 95th centiles of the distributions of proportionate change from expected for randomisation
-weights from 1 to 100 obtained from 5000 simulations. dotted lines show results when prognostic factors are weighted
-according to the number of categories. results for binary factors shown in black, 3-category in blue, 4-category in purple and
-15-category in green.
-weighting and the choice of randomisation weighting.
-simulation enables estimation of the discrepancies anticipated
-and their probability. for example, suppose a treatment
-trial is estimated to require 40 patients to be
-allocated to the new or standard treatments to obtain a
-reasonable power to detect differences in outcome of clinical
-importance. potential confounders are sex (male/
-female), age (under/over 18), whether the individual is an
-in- or out-patient, severity of disease (mild/moderate/
-severe) and ethnicity (4 categories). all categories of all
-minimisation variables are expected to be equally likely.
-(this latter criterion may not realistic but the density functions
-can be easily adjusted within the simulations.) if a
-randomisation weight of 2 (p = 0.67) is used then the proportionate
-change from expected of patients allocated to
-new and standard treatment is expected to be less than or
-equal to 0.35 for sex, age group and patient status (in- or
-out- patient), less than or equal to 0.45 for disease severity
-and less than or equal to 0.6 for ethnicity for 95% of random
-patient samples (figure 3). these are equivalent to
-absolute difference of 7, 6 and 6 patients respectively. a
-statement such as this could be incorporated into the protocol
-in a similar way to having a power calculation. i.e.
-the protocol could state, "sex, age (under/over 18), residency
-status of patient (in/out), severity of disease (mild/
-moderate/severe) and ethnicity (4 categories) were
-included as factors in the minimisation. factors were
-unweighted and a randomisation weighting of 2 was used
-for the allocations. it was estimated that the discrepancy
-between patients allocated to the 2 treatment groups
-would not exceed 7, 6 or 6 for the binary variables, disease
-state and ethnicity respectively with probability 0.95."
-frequently, very little information is given on randomisation
-weights, weighting of variables or even the categories
-used in description of minimisation procedures.
-whilst it should be possible to justify the minimisation
-criteria, the precise details of the allocation process should
-not be widely divulged until after the trial has completed.
-the less information that is accessible, the less chance
-there is of recruitment being biased by knowledge of the
-likely allocation of future patients. we recommend that
-the details of and justification for the allocation process
-being employed are documented and given in the final
-trial reports. however, we also recommend that these
-details are not revealed to the research team during the
-trial apart from where this is essential.
-the international conference on harmonisation e9
-guidelines [16] discuss the importance of minimising bias
-in the design of trials, with 'bias' defined as "the systematic
-tendency of any factors associated with the design,
-conduct, analysis and interpretation of the results of clinical
-trials to make the estimate of a treatment effect deviate
-from its true value." these guidelines also state that
-"good design should generally aim to achieve the same
-distribution of subjects to treatments within each centre
-and good management should maintain this design
-objective." the use of dynamic allocation of patients to
-treatments is one way to achieve these aims. in this paper
-we have investigated some of the issues that arise in the
-practical application of one allocation technique the use
-of which has risen sharply in recent years.
-we have performed simulations using the most common
-scenario of 2 treatment groups. a similar process could be
-done where there are more treatment groups and this
-option has been incorporated into our software.
-we have simulated datasets under different minimisation
-criteria to show how outcomes may vary as the input
-parameters are changed and suggest that this sort of
-approach should become standard practice. previously it
-has been noted that simulations can be usefully employed
-prior to study commencement to determine the best allocation
-method to use [9,11,13]. these studies have used
-relatively complex models to compare not only minimisation
-parameters but also alternative approaches such as
-stratification. in some cases they have incorporated existing
-data [13]. our results are in keeping with the findings
-of these more detailed studies. what we have aimed to
-show in this paper is how a relatively simple automatic
-algorithm, made available in package form, can be used to
-assist clinicians when they have decided to utilise minimisation
-and need to determine the optimal parameters. the
-package simplifies the practicalities of the process and
-hence may make this the preferred allocation method
-even when there are few prognostic factors to be taken
-into account and stratification is also a feasible option. it
-is important that researchers justify the choices they make
-with regards to the procedure for allocating patients. the
-arguments for this are not dissimilar to the argument for
-giving a power calculation or describing other details of
-the study protocol.
-conclusion
-the use of minimisation as a means of patient allocation
-is increasing. decisions need to be made regarding the
-precise mode of implementation. choice of input parameters
-may influence the extent to which the process is successful
-in ensuring equality of prognostic factors between
-treatment groups. we show how a simple automated
-package that we have developed locally can be used to
-allow researchers to investigate the effects of varying the
-input parameters prior to study commencement. the
-advent of the wide availability of computing technology
-makes minimisation a more realistic choice for many
-researchers. it is important that they utilise the technique
-most effectively. we have shown how simulations can be
-used prior to study commencement to ensure that the
-minimisation has a reasonable chance of providing comparable
-treatment groups.

@@ -1,3 +1,226 @@
+derivation versus validation
+assessing the probable clinical course of children presenting
+to their care is one of the day to day dilemmas facing
+the practising paediatrician. with accurate prognostication,
+invasive or expensive treatment may be targeted
+towards those most likely to benefit. there is little point in
+expending vital resources on, or administering invasive
+treatments to, children who are likely to recover without
+such intervention. children with certain characteristics
+may tend to do better or worse than others. for example,
+younger children or those with specific clinical signs might
+be expected to deteriorate more rapidly. past experience
+often acts as a guide for the experienced paediatrician.
+algorithms (or prognostic models) can be developed to
+provide a means of transferring expert knowledge to the
+novice. for example, apgar scores are routinely used to
+assess the health of newborn babies, and apache scores
+can be used as a measure of prognostication among admissions
+to paediatric intensive care.1 in this issue, brogan and
+raffles2 present an algorithm for identifying children
+presenting to a&e with fever and petechiae who are at
+increased risk of significant bacterial sepsis. it is interesting
+to note that of the many prognostic models that are
+published each year,3 4 relatively few are sufficiently
+validated and fewer still find their way into clinical
+practice.5
+determining which patients will benefit from treatment
+is only one use of prognostic algorithms. they also provide
+a means of informing parents of the likely outcome and can
+be used in research to give baseline measures of severity in
+different groups.
+derivation of prognostic models
+an experienced clinician accumulates knowledge via the
+patients that he or she has cared for from initial presentation
+through to final outcome. what has happened to these
+cases will inform the future decisions that the clinician
+makes. the process can be formalised by documenting
+information on newly referred patients who are then
+tracked until their outcome is known. when a suitably
+sized sample has been collected, statistical techniques may
+be used to build an algorithm designed to predict poor
+outcome in future patients.
+the most common way of deriving a prognostic model
+from existing data is via regression analyses. the development
+of prognostic models is extensively covered in many
+medical statistics texts. from the competing models one
+may be chosen that is both practical and statistically
+acceptable. in particular, models may be preferred on the
+grounds that they require only routinely collected and reliable
+data and do not have substantially less predictive ability
+than alternative models that require invasive or
+non-routine data. decisions may need to be made quickly
+and algorithms should be simple and user friendly.
+one problem with the development of algorithms for
+prognostication is that derivation will be driven by the
+available dataset. quirks individual to that dataset may
+appear to be prognostic and be encapsulated in the predictive
+algorithm. for example, time between symptoms and
+presentation may be unrelated to outcome but by chance
+those patients with the poorest outcome in the available
+dataset tended to present soon after the first appearance of
+symptoms. a prognostic model designed to be applied at
+presentation which incorporates time from symptoms as a
+factor would under diagnose those presenting late.
+unusual features or extreme but random differences
+between prognostic groups within the development dataset
+may not be replicated elsewhere, leading to the creation of
+a non-transportable model. where there are many
+variables competing for inclusion this problem may be
+extreme. hence, analyses that are not pre-specified but are
+data dependent are liable to give a better fit than is
+obtained when the model is applied elsewhere. the problem
+is further compounded when cut off points for
+continuous variables are selected to give the best prognostication
+based on the development dataset.6 for example,
+respiratory rate was dichotomised at 40, 50, 60, 70, and
+80/min to identify the cut off point giving the best sensitivity
+and specificity for predicting hypoxia in acutely ill
+infants.7 although arbitrary thresholds for continuous
+variables are not generally recommended,5 they are often
+preferred because of the simplicity that they confer on the
+final algorithm.
+the converse problem is that of under fitting. important
+prognostic variables may not be identified in the derivation
+dataset and there are several reasons this could occur. random
+or chance variation may mean that the values of a
+truly prognostic variable are not significantly different
+between prognostic groups within the available dataset. for
+example, suppose time from first symptoms to presentation
+is predictive of outcome but that, in the development dataset,
+it just happens that the patients with the worse
+outcome were unusual in that they tended to present early.
+alternatively prognostic factors may not be identified
+because the patient set used for derivation is limited in
+some way. for example, age may be highly prognostic but
+does not enter into the algorithm because the model was
+derived from data collected only from children in a very
+narrow age range.
+methods of model checking are available with most statistical
+computer packages and tend to be well covered in
+most regression texts. however, these methods merely
+detect whether the chosen model adequately describes the
+trends in the dataset on which it has been developed. they
+cannot inform on whether the model is suitable for use in
+clinical practice or an accurate description of the
+population trends.
+validation
+the actual evidence that the application of a
+prognostic model alters medical practice and
+improves the outcome of patients has to be
+established additionally which is in accordance with
+phase iv studies of diagnostic tests.8
+model validation is the process whereby the derived (or
+fitted) model is shown to be suitable for the purpose for
+which it was developed. it addresses the question of
+whether the model has wider applicability. as the aim of
+most published papers is to present results that will be
+generally useful, these are questions of major importance
+that cannot be overlooked. surprisingly few medical statis-
+tics textbooks discuss techniques for model validation and
+most do not even mention its importance or relevance to
+model interpretation.
+in addition to being user friendly and statistically sound,
+a prognostic algorithm needs to be generalisable to be
+clinically useful. a model based on variables which have
+low reliability will not tend to be valid in a sample other
+than that for which it was developed. one of the reasons
+published algorithms may not find their way into standard
+practice is the lack of evidence that they are applicable to
+patients from establishments other than where they were
+developed. generalisability needs to be established by testing
+the prognostic algorithm in numerous and diverse settings.
+9 in the words of a recent article10 on the subject of
+model validation, “usefulness is determined by how well a
+model works in practice, not by how many zeros there are
+in the associated p-values.”
+techniques for model validation
+it is well recognised that deriving and validating a model on
+the same dataset will by definition lead to over optimistic
+estimates of the model’s accuracy. an alternative approach
+is to split the dataset into two parts, one part for derivation
+and the other for validation. a major drawback is that the
+precision of the fitted parameters will clearly be reduced as
+only a portion of the dataset is used for model derivation.11
+a variety of methods have been advocated for dividing the
+dataset. automated procedures exist for choosing two
+halves that are homogeneous but these will also clearly give
+over optimistic estimates of model validity. if some
+measure of internal validity is required then it is
+recommended that the data are split in a non-random way.
+data from different time periods could be used3 and this is
+the same as validation using a more recent cohort or prospective
+validation using an algorithm derived from a
+retrospective dataset. alternatively, one of the less arbitrary
+“leave one out” approaches may be used.12 13
+external validity
+the model should be externally validated by assessing its
+applicability to data collected at another centre or by
+different individuals. altman and royston10 present a series
+of examples of models that have been derived, internally
+validated, and then validated elsewhere. they note that
+authors tend to confirm the validity of their own models
+but that others are less successful at doing so. this finding
+could be the result of a form of publication bias; if the
+authors’ internal validation was weak it is doubtful that
+they would attempt to publish the results. alternatively
+there may be real differences between centres and the
+model, while being internally valid, is not transportable
+and hence of limited use.
+statistical versus clinical validity
+in general authors show no appreciation of a
+distinction between statistically and clinically valid
+models.10
+a model that is statistically valid will yield unbiased
+predictions when applied to new datasets. this quality
+however does not necessarily mean that the model has
+clinical validity. to be clinically valid the model must be
+accurate enough to serve the purpose for which it was
+developed. for example, abnormal white cell might be significantly
+associated with increased risk of significant bacterial
+sepsis among children presenting to a&e with rash.
+this finding, even if replicated across hospitals and hence
+statistically valid, may be of little clinical relevance if only a
+few extra children with poor outcome are identified as a
+result. there are different clinical implications if application
+of the algorithm means that an additional child in 50
+or an additional child in four with poor outcome is identified
+early. consideration must of course also be given to
+whether there are other children who achieve a worse outcome,
+perhaps because treatment is withheld that would
+normally have been administered, as a result of applying
+the algorithm. similarly a statistically invalid model is not
+necessarily clinically invalid. the algorithm may not be
+consistent in the extent to which it identifies children with
+poor outcome but it may always identify enough to warrant
+its implementation on a regular basis. scores need to be
+reliable enough for the purpose they were developed for,
+even if this reliability is relatively low.14 there will be a trade
+off between the additional workload entailed in applying
+the model and the likely benefit derived by the patients.
+conclusion
+simple diagnostic models may be more portable than
+more complex models.15
+when kennedy et al made the above observation they were
+commenting on the statistical aspects of deriving a model
+which is then used elsewhere, but it is of course true in
+more ways than one. models based only on factors which
+are highly related to outcome will be more likely to be
+similarly predictive in another setting. complex models
+incorporating multiple factors, for some of which any predictive
+value may be highly specific to that dataset, are less
+likely to be similarly predictive elsewhere. from a practical
+viewpoint simple models are more likely to be readily
+incorporated into clinical practice with minimal disruption.
+model derivation and validation are two separate and
+important parts of the same process, the identification of
+clinically useful models. it is to be remembered that the
+final test of a model should always be whether it is accurate
+and generalisable enough for the purpose for which it was
+derived.
+
+<|EndOfText|>
+
 abstract
 background: minimisation can be used within treatment trials to ensure that prognostic factors
 are evenly distributed between treatment groups. the technique is relatively straightforward to
@@ -1044,257 +1267,6 @@ should be d valued forthwith.
 
 <|EndOfText|>
 
-summary
-cross-sectional covariate-related reference ranges are widely used in clinical medicine to put individual
-observations in the context of population values. usually, such reference ranges are created from data
-sets of independent observations. if multiple measurements per individual are available, then ignoring the
-within-person correlation between repeats will lead to overestimation of centile precision. furthermore, if
-abnormal measurements have triggered more frequent assessment, the data set will be biased thus producing
-biased centiles. where multiple measures per individual exist, the methods commonly used are either
-randomly or systematically to select one observation per individual or to model individual trajectories and
-combine these. the first of these approaches may result in discarding a large proportion of the available
-data and may itself cause bias and the latter requires the form of the changes within individuals to be
-characterized. we have developed an approach to the modeling of the median, spread, and skew across
-individuals using maximum likelihood, which can incorporate correlations between dependent observations.
-heavily biased data sets are simulated to illustrate how the methodology can eliminate the biases
-inherent in the data collection process and produce valid centiles plus estimates of the within-person correlations.
-the “select one per individual” approach is shown to be liable to bias and to produce less precise
-centiles.we recommend that the maximum likelihood method incorporating correlations be used with existing
-data sets. furthermore, this is a potentially more efficient approach to be considered when planning
-the future collection of data solely for the purposes of creating cross-sectional covariate-related reference
-ranges.
-keywords: age-related reference ranges; correlated measurements; dependence; serial measures; unbiased;
-z-scores.
-1. introduction
-covariate-adjusted reference ranges may be used to assess individuals at a single point in time (crosssectional)
-or to monitor changes within individuals over time (velocity or conditional). most commonly,
-the covariate used is age. if an individual presents for diagnosis/assessment and repeat measurements are
-available, then it will generally be advisable to utilize all of these. however, there are many occasions
-on which only a single measurement is available and this needs to be evaluated against population values
-using a covariate-adjusted cross-sectional reference range.
-the methodologies for constructing population-based covariate-adjusted cross-sectional reference centiles
-are now well established and were recently reviewed by the world health organization (borghi and
-others, 2006, for the world health organization [who] multicentre growth reference study group).
-these methodologies commonly assume that the measurements used for construction are independent. if
-the data set contains serial measurements from individuals, then these will be correlated within person and
-hence the independence assumption is not satisfied. one approach has been to circumvent the problem
-by systematically or randomly selecting one observation per individual to create a data set of independent
-measurements (e.g. kurmanavicius, wright, royston, wisser and others, 1999; kurmanavicius, wright,
-royston, zimmermann and others, 1999; wade and ades, 1994). however, this is wasteful of the data
-and may lead to bias.
-this paper is concerned specifically with the construction of cross-sectional reference ranges using
-serial measurements from individuals. the need for any marginal analyses to include assumptions about
-the form of the correlation has been well documented within other applications (diggle and others, 2002).
-the laird–ware model (1982) gives a general framework for modeling which allows for variable spacing
-of observations and varying structures between individuals. the estimation of parameters for this model
-form has received much coverage (davidian and giltinan, 1995; hand and crowder, 1996; vonesh and
-chinchilli, 1997; lindsey, 1999; diggle and others, 2002). however, very little of the available literature
-applies specifically to the reference range problem. within the majority of texts, characterization of the
-average pattern is of primary importance followed by estimation of the covariance/correlation structure
-between repeats within individuals where these exist. when reference ranges are to be constructed, the
-estimation of any skewness and the spread of values at each covariate are at least as important as quantification
-of the median. this shift of emphasis is necessary as it is usually the extreme centiles that are
-of most clinical use. by contrast, estimation of the covariance/correlation structure is generally of little or
-no direct interest in this scenario.
-the who review recommended the use of methodologies that model the covariate-related changes
-in distributional features and then combine these to obtain centiles. commonly, the underlying distribution
-is assumed to be some transformation of the normal distribution and the kurtosis, skew, spread,
-and median are modeled. the form of the models used for the distributional features and the mode of
-identifying the best fit parameters vary according to the specific method chosen (cole, 1988, cole and
-green, 1992; wright and royston, 1997). previously, we used this methodology within a maximum likelihood
-framework with exponential models to create age-related centiles for cd4 counts (wade and ades,
-1994), randomly selecting one measurement per child. we subsequently extended the approach by incorporating
-suitable correlation structure into the likelihood and thus additionally modeled the correlation
-between repeats from the same individual as smooth functions of age and time (wade and ades, 1998),
-hence utilizing the entire data set. this extension may be viewed as a generalization of models developed
-to identify trends in longitudinal data with explicit modeling of the serial correlation (diggle, 1988).
-despite a strong correlation structure, incorporation did not substantially alter the fitted centiles. this
-finding was not unexpected because measurements were made at ages defined within a strict protocol,
-and hence, frequency of measuring was independent of previous measurements. a similar approach that
-has been used is systematically, as opposed to randomly, to select one measurement per individual. for
-example, kurmanavicius, wright, royston, wisser and others (1999) and kurmanavicius, wright,
-royston, zimmermann and others (1999) used only the first of serial measurements made during pregnancy
-to create cross-sectional centiles for fetal biometry.
-while it is generally appreciated that incorporation of dependent observations without adjustment for
-correlations will lead to overestimation of centile precision, the propensity for bias invalidating the centiles
-has received little discussion. when the number and/or timing of observations are related to outcome,
-for example, when an abnormal measurement is likely to trigger more frequent assessment for clinical
-purposes, then the incorporation of correlations may have a large impact on the centiles by reducing
-or removing the bias inherent in the collection process. the problem is one of informative observation
-times, whereby future measurement frequency is related to the values of existing measurements for that
-individual (lin and others, 2004).
-the who review (borghi and others, 2006) identified the following 2 approaches that incorporated
-correlated measurements into the construction of cross-sectional reference ranges. laird and ware (1982)
-proposed 2-stage random-effects models, while goldstein (1986) proposed a more general framework of
-multilevel models which could be parameterized to allow for complex covariance structures and multiple
-explanatory variables. marginal distributions obtained from these models would identify cross-sectional
-patterns of change (pan and goldstein, 1997). while these models are flexible and present a solution to
-the specific problem posed here, they require explicit characterization of a common underlying form for
-expected trajectories within individuals. goldstein and others (1994) recognized that the methodology
-for conditional (longitudinal) references can theoretically yield cross-sectional references. the second
-approach cited by the who review was our previously described maximum likelihood method (wade
-and ades, 1998) requiring characterization only of population changes irrespective of how individual
-trajectories vary.
-in this paper, we illustrate how biases may be removed and precision increased via appropriate modeling
-even for heavily biased simulated data sets. we compare the precision with which centiles are
-estimated when correlations are incorporated versus the alternative systematic or random “select one”
-approach. the methodology is illustrated by application to serial fetal ultrasound measurements collected
-at the university hospital in zurich (uhz) and previously modeled using only a subset of the
-data (kurmanavicius, wright, royston, wisser and others, 1999; kurmanavicius, wright, royston,
-zimmermann and others, 1999).
-2. methods
-2.1 statistical methods
-in previous papers, we have demonstrated the use of splines, fractional polynomials, and exponentials
-within the maximum likelihood methodology. any data collection protocol can be accommodated, as
-can any amount of variation between the number and timing of measurements per individual. formal
-significance tests are easily performed between nested models and confidence intervals constructed for the
-model parameters and/or the centiles (wade and ades, 1994, 1998). thompson and fatti (1997) extended
-the methodology to create multivariate centile charts. in the analyses presented in this paper, we assume
-that a transformation of the normal distribution is appropriate at each covariate value and we model the
-changes in the skewness, spread, and median. we maximize the likelihood incorporating a correlation
-structure between repeated measurements within the same individual.
-we used fortran programs incorporating numerical algorithms group subroutines, which are available
-within the supplementary material, available at biostatistics online. an alternative would be to use generalized
-additive models for location, scale, and shape (gamlss; rigby and stasinopoulis, 2005). the
-gamlss command in r can be used to fit centiles with incorporation of random effects for individuals to
-account for serial correlation.
-2.2 simulations
-full details and results from the simulations are given in the supplementary material, available at biostatistics
-online. the features and findings were as follows.
-underlying models were assumed so that median and spread were both increasing with gestational age,
-as this would be typical in most applications. simulations were based around a scenario often encountered
-during pregnancy where measurements are made between 15 and 40 weeks and abnormally low values
-trigger additional repeated measurements. repeated measurements within an individual were generated
-with an exponentially decaying correlation function.
-the extent of bias in the data sets was dependent on how the frequency of repeat measurements was
-determined. fitted centiles based on an assumption of independence were heavily biased. the extent of
-the correlations between repeats was typically underestimated within the correlation models, although the
-centiles obtained were not biased. both precision and accuracy were improved for the correlation model
-compared to that assuming independence.
-with “select one”, the precision of the centile estimates was reduced and the centile estimates were
-biased. this latter finding shows that selecting a subset of independent measurements does not necessarily
-yield unbiased centiles. at later gestations, there were more measurements from those fetuses previously
-with abnormally low values and hence there was more chance of selecting biased assessments in this
-gestational age range.
-3. application to ultrasound data set
-3.1 the data set
-ultrasound measurements were taken from clinic records of pregnant women examined at the uhz, where
-routine examinations were performed at 11–13, 18–21, and 28–32 weeks of gestation. high-risk pregnancies
-were examined at shorter intervals, every 2 or 3 weeks until delivery. referrals at later gestations from
-other ultrasound centers were also included. a relatively common reason for such referral would be suspected
-intrauterine growth retardation (iugr) due to placental insufficiency which manifests after 25–28
-weeks of gestation with reduced growth of the fetal abdomen. such women then undergo repeat tests until
-a definitive diagnosis is made. small values of abdominal circumference (ac) indicate potential iugr,
-whereas biparietal diameter (bpd), a measure of skull size, is not expected to be affected by iugr. the
-only measurements excluded from the data set were for fetuses found to have a congenital abnormality.
-the original analysis used the first fetal measurements made between 12 and 42 weeks from 6557
-pregnant women (6557 bpds and 5807 acs). fractional polynomials were used to model age-related
-changes in the mean and standard deviation, and shapiro–francia w test was used to check the normality
-of the z-scores. for these 2 fetal measurements, a linear cubic in age for the mean and linear model for the
-standard deviation were found to be suitable (kurmanavicius, wright, royston, wisser and others, 1999;
-kurmanavicius, wright, royston, zimmermann and others, 1999).
-the current data set, which has expanded since its use in 1999, consists of information from 12 480
-women measured between 1 and 28 times. a total of 48 005 bpds and 45 352 acs are included. hence,
-any select one approach would utilize only about 25% of the available measurements. since the purpose
-was to illustrate the effects of this modeling, we used the same model forms as kurmanavicius and others
-had previously (linear-cubic model for the mean, linear model for the standard deviation, and no skew)
-and estimated only their parameters. we allowed the correlation between repeats from the same individual
-to fall as the time between those repeats increased and characterized this as a 2-parameter exponential
-model (ρ1e−ρ2diff). hence, we estimated 5 parameters for the independence and select one models
-(3 for the mean and 2 for the standard deviation) and an additional 2 (for the correlation structure) for
-the correlation incorporated models. we compare the fitted centiles with those previously presented by
-kurmanavicius, wright, royston, wisser and others (1999) and kurmanavicius, wright, royston,
-zimmermann and others (1999).
-3.2 fitted models
-figures 1(a) and (b) show the 5th, 50th, and 95th centiles from the independence models, the exponentially
-correlated models, and those previously presented by kurmanavicius, wright, royston, wisser and
-others (1999) and kurmanavicius, wright, royston, zimmermann and others (1999). for both ac and
-bpd, taking into account the correlations reduces the centile range at earlier gestations. this pattern
-is compatible with a greater frequency of measurement of fetuses with extreme values. the centiles fitted
-by kurmanavicius, wright, royston, wisser and others (1999) and kurmanavicius, wright, royston,
-zimmermann and others (1999) lie between the correlation and independence models at early gestations
-but become increasingly like the independence centiles at later ages.
-the effect of incorporating correlations on the centiles at later gestations differs between ac and
-bpd. the increased ac 5th centile beyond 30 weeks of gestation may be explained by the inclusion of
-late referrals to uhz for suspected iugr. by contrast, bpd is a skull measurement, large values of which
-may be of greater concern near to term (40 weeks of gestation). the pattern of differences shown in figure
-1(b) suggests that the fetuses with larger bpd were more likely to be measured more frequently in the last
-5 weeks of pregnancy. incorporation of correlations reduces the effect of these larger measurements, and
-the centiles based on the correlation model are lower.
-figures 1(a) and (b) show how incorporation of correlations can remove the selection bias inherent
-in clinical data sets. the patterns observed were not anticipated but with hindsight have clinically valid
-fig. 1. estimated 5th, 50th, and 95th centiles. the solid lines show the estimated centiles when all measures are
-assumed independent and the thick dashed lines when correlations between repeats are incorporated. the lighter
-dashed lines show the fitted centiles as presented by kurmanavicius, wright, royston, wisser and others (1999) and
-kurmanavicius, wright, royston, zimmermann and others (1999). (a) ac obtained using 45 352 ultrasound measurements
-from 12 480 pregnancies. (b) bpd obtained using 48 005 ultrasound measurements from 12 226 pregnancies.
-explanations. the results show that the adjustments for correlation will not be uniform in either direction
-or quantity even for seemingly highly related measurements, that is, different assessments of growth
-from the same ultrasounds in the same group of women. it is perhaps surprising that the centiles based
-on the first measurement from each fetus (kurmanavicius, wright, royston, wisser and others, 1999;
-kurmanavicius, wright, royston, zimmermann and others, 1999) were more akin to those obtained from
-the data set of all measurements. however, this is compatible with the finding of the simulation study.
-selecting an independent subset does not necessarily remove bias as late referrals to uhz are probably
-atypical.
-4. discussion
-our simulations and application demonstrate that incorporation of a correlation structure within the fitting
-algorithm is to be preferred to the select one approach. although select one is computationally simpler, our
-analysis shows that the precision and accuracy of the centiles may be severely affected. the simulations
-were developed to represent typical clinical scenarios. the irremovable bias obtained was not expected,
-although easily explained with hindsight. it is important to note that such biases may occur in any data set
-and will yield biased centiles if select one is used.
-simulations are necessarily limited by choice of the parameters and assumptions incorporated. in
-particular, we assumed very similar correlation structures within the data generation and fitting phases.we
-do know that if the correlation structure is severely misspecified, then this will lead to invalid estimation.
-the comparison with the independence model of zero correlation between repeats within individuals is an
-extreme case and clearly illustrates this point. there must therefore be some degree of misspecification
-that can lead to invalidation of the centiles. for all cases where we modeled the correlation structure, we
-assumed exponential decline with increasing time, a reasonable assumption for clinical applications. the
-extent of any decline was estimated, and estimates were often biased. however, the model did allow for
-any extent of decline (including zero), and the simulations illustrate that biased parameter estimates do
-not necessarily lead to biased centile estimates. when constructing cross-sectional reference ranges from
-correlated data, estimation of the correlation structure is not of direct interest, but rather is a means toward
-the important end of obtaining unbiased estimates of centiles.
-the data set we describe consists of longitudinal measurements with informative observation times.
-techniques that specifically model the timing mechanism could be employed and would give additional
-information. however, this would necessitate the specification of the conditional distribution of an observation
-given the history of the process and the centile estimates may not be robust to misspecification
-(lin and others, 2004). for the purposes of creating cross-sectional covariate-related reference ranges, the
-biases in the measurement process that we wish to eliminate are a function of the clinical scenario. our
-simulations show that the method we present is capable of producing unbiased centiles from messy data
-sets of the form likely to be found in clinical practice. the extent and direction of centile adjustment when
-correlations are incorporated may yield information about the nature of biases inherent in the data set.
-despite the numerous advantages of incorporating some form of correlation, the technique has not
-been widely used, perhaps because of a mistaken belief that the added complexity of modeling is not
-warranted. in this paper, we have shown that simpler methods applied to data with informative observation
-times lead to invalid centile estimation. the process of selecting the first observation per individual,
-as previously used by kurmanavicius, wright, royston, wisser and others (1999) and kurmanavicius,
-wright, royston, zimmermann and others (1999), may lead to a biased solution and necessitates discarding
-a large proportion of the data. the resulting reduction in precision will be a function of the percentage
-of data discarded and the extent of the within-individual correlation. the reduction may not be uniform
-across the age range since selecting the first measurement from each pregnancy will lead to greater loss
-of precision at later gestations where there will be fewer women presenting. the uhz received referrals
-for suspected problems, based on abnormal ultrasound measurements, from other hospitals. while fetuses
-subsequently found to have a congenital abnormality were excluded, biases are still likely to remain. the
-simulation results show that incorporating correlation structure into the modeling has the capacity to reduce
-biases such as these in estimating centiles. the extent of the bias reduction will depend on the degree
-to which the correlation structure has been adequately modeled.
-if data are to be collected specifically for the purposes of creating cross-sectional reference ranges,
-then the most precise centiles for a given total number of observations will be obtained when these observations
-are independent. however, there may be a trade-off between the recruitment cost per individual
-and the cost of following individuals serially (goldstein, 1979). if subsequent measurements for a recruited
-individual are easier and/or cheaper to obtain than measurements from new recruits, then some
-consideration should be given at the design stage to the most efficient way to proceed. it may be ethically
-easier to justify serial collection from a smaller pool of prospective subjects, or the pool may be
-limited (e.g. children born to hiv-1-infected mothers). often, the remit is to produce both cross-sectional
-and conditional or velocity references (borghi and others, 2006). in this case, the optimal approach will
-be to incorporate serial observations into the cross-sectional references using appropriate adjustment for
-correlation within individuals. the precision with which centiles are estimated under differing correlation
-structures, model forms, and/or sample sizes can be readily compared using simulations to identify the
-most appropriate recruitment method to use.
-
-<|EndOfText|>
-
 research is only worth doing if it provides useful
 information. medical research usually consists
 of studying groups of individuals with the
@@ -1631,753 +1603,429 @@ they may need to consider.
 
 <|EndOfText|>
 
-abstract
-background: a randomised controlled trial of participatory women's groups in rural nepal previously
-showed reductions in maternal and newborn mortality. in addition to the outcome data we also collected
-previously unreported information from the subgroup of women who had been pregnant prior to study
-commencement and conceived during the trial period. to determine the mechanisms via which the
-intervention worked we here examine the changes in perinatal care of these women. in particular we use
-the information to study factors affecting positive behaviour change in pregnancy, childbirth and newborn
-care.
-methods: women's groups focusing on perinatal care were introduced into 12 of 24 study clusters
-(average cluster population 7000). a total of 5400 women of reproductive age enrolled in the trial had
-previously been pregnant and conceived during the trial period.
-for each of four outcomes (attendance at antenatal care; use of a boiled blade to cut the cord; appropriate
-dressing of the cord; not discarding colostrum) each of these women was classified as better, good,
-bad or worse to describe whether and how she changed her pre-trial practice. multilevel multinomial
-models were used to identify women most responsive to intervention.
-results: among those not initially following good practice, women in intervention areas were significantly
-more likely to do so later for all four outcomes (or 1.92 to 3.13). within intervention clusters, women
-who attended groups were more likely to show a positive change than non-group members with regard
-to antenatal care utilisation and not discarding colostrum, but non-group members also benefited.
-conclusion: women's groups promoted significant behaviour change for perinatal care amongst women
-not previously following good practice. positive changes attributable to intervention were not restricted
-to specific demographic subgroups.
-background
-maternal and newborn mortality rates remain unacceptably
-high in the developing world. most births and newborn
-deaths occur outside health facilities, so behaviour
-change in relation to home care practices and care-seeking
-behaviour is an essential component of any strategy to
-reduce deaths. we reported previously a cluster randomised
-controlled trial of the effects of participatory
-women's groups on neonatal outcomes in rural nepal[1].
-the trial intervention was a woman facilitator (who was
-not a trained health worker) within each area paid to instigate
-and guide women's groups focused on care in the
-perinatal period. the trial showed significant falls in neonatal
-(30%) and maternal mortality (78%), and appeared
-to be cost effective[2].
-married women of reproductive age (15–49 years) living
-in the study areas at the time of study inception were eligible.
-before the trial started, each eligible woman was
-asked about her most recent pregnancy. if this resulted in
-a stillbirth, infant care practices were asked in respect of
-the most recent live birth. information as to who was
-present at the birth and whether it took place in an institution
-was recorded. in particular it was ascertained
-whether there was a skilled attendant at the birth. the
-woman was asked whether she had attended antenatal
-care, which implement was used to cut the cord, what was
-applied to the cord after it was cut (the criterion for cleanliness
-was that either nothing or antiseptic was used) and
-whether or not she had discarded colostrum before starting
-to breastfeed, a practice distinct from discarding the
-foremilk at each feed. the evidence base for deciding
-which care practices are beneficial for good perinatal outcome
-is limited[3]. however, the practices recorded
-within the trial (antenatal care, skilled birth attendance,
-measures of cleanliness and good breastfeeding practice)
-have long been accepted as important[4-8].
-after the baseline interview each woman became a member
-of the closed cohort who were randomised within village
-development committee areas (vdcs) and followed
-prospectively. in the original trial the efficacy of women's
-groups was measured for all women living within intervention
-areas (compared with control areas), even though
-many did not attend groups. the use of pre-trial pregnancy
-data allowed us to investigate the precise patterns of
-behaviour change within individual women and subgroups
-of women. some women, in both arms of the trial,
-did not have the capacity for positive change attributable
-to intervention because they followed good practice in a
-pre-trial pregnancy. for women who did not follow good
-practice before the trial, our study gives us greater insight
-into factors affecting positive behaviour change, such as
-group membership, socioeconomic status, ethnicity and
-maternal age. the subset of women used for these analyses
-had by definition a pre-trial pregnancy and the results
-are not necessarily generalisable to women whose first
-pregnancy occurred in the trial.
-methods
-details of the original trial are reported elsewhere[9,10].
-briefly, 24 cluster units comprising village development
-committee areas (vdcs) – existing geopolitical units of
-population about 7000 – were placed into 12 matched
-pairings of similar topography, ethnicity and population
-densities. one vdc area of each matched pair was randomly
-assigned to receive the intervention and the other
-formed a control. all eligible women were identified and
-details of pregnancies, births and deaths were recorded
-prospectively for 33 months.
-the analysis includes women who had reported a previous
-pregnancy and who had a subsequent pregnancy during
-the surveillance period. twin pregnancies were
-included only once in the dataset as the process outcomes
-under consideration mostly related to the delivery or
-woman at that time rather than the individual child.
-repeated pregnancies were included in the analysis with
-the appropriate clustering to account for within-woman
-correlation of outcomes and responses.
-statistical analysis
-the practices undertaken in each trial pregnancy were
-compared with those practices a woman had reported in
-her pre-trial pregnancy. each practice was classified for
-each pregnancy as:
-1) better – lack of good practice in the preceding pregnancy
-followed by good practice in the trial pregnancy.
-2) good – good practice in both preceding and trial
-pregnancies.
-3) bad – lack of good practice in both preceding and trial
-pregnancies.
-4) worse – good practice in the preceding pregnancy but
-not in the trial pregnancy.
-we fitted multilevel multinomial models, taking into
-account the pairing of vdc area clusters, the clustering of
-women within vdc areas and households, and the correspondence
-between repeat prospective pregnancies in the
-same woman, to the 4-category outcomes. multinomial
-models were preferred to logistic regressions of the trial
-practices corrected for pre-trial behaviour since they distinguished
-between changes from bad to good or from
-good to bad practice.
-multinomial models are extensions of logistic models.
-associations between the outcomes and various features
-of the women are quantified and presented as coefficients
-for the ratios falling into the better category relative to
-the other categories. this representation of the model
-results was chosen as being the easiest to interpret clinically.
-for all 3 ratios thus obtained, larger values were
-associated with more favourable outcome. all coefficients
-are presented with 95% confidence intervals adjusted for
-the clustered nature of the data. for each feature, separate
-coefficients are given to quantify the ratios:
-1) better relative to good – quantifies the extent to
-which women following good practice in the trial pregnancy
-were doing so as a result of positive change (as
-opposed to continuing the good practices they had
-adopted pre-trial).
-2) better relative to bad – quantifies the extent to which
-women who were following bad practice in the pre-trial
-pregnancy improved their practice within the trial. this
-coefficient is of particular interest as it describes the extent
-to which opportunities for positive change were taken.
-3) better relative to worse – quantifies the extent to
-which those women who changed practice made a positive,
-as opposed to negative, change.
-a series of multilevel multinomial models were fitted to
-each of the process variables. firstly, models were used to
-quantify differences in patterns of change between control
-and intervention clusters and the additional effect of
-attending a women's group for women within intervention
-clusters.
-secondly, a series of models were fitted to investigate
-whether the effect of intervention varied between women
-of differing ages, literacy levels and education, or between
-those living within households of differing ethnicity,
-assets or food sufficiency. for each of these demographic
-variables, a model which incorporated the demographic
-variable, a variable representing intervention status, and a
-term for the interaction between these two variables was
-used. the intervention and demographic variables were
-independently significantly associated with outcomes in
-all models. the coefficients for the fitted interaction terms
-showed which groups of women were most likely to
-respond to intervention and these are presented. coefficients
-greater than 1 indicate that the women in the intervention
-clusters within that demographic subgroup had a
-more favourable distribution compared to the baseline
-category which was over and above any increase in favourable
-practices that could be attributed to intervention
-across all subgroups. coefficients less than 1 are associated
-with a less favourable response for that demographic
-subgroup of women in the intervention compared with
-control clusters.
-ethics and consent
-the study was registered as an international standard randomised
-controlled trial, number isrctn31137309. it
-was approved by the nepal health research council and
-the ethical committee of the institute of child health and
-great ormond street hospital for children, and was conducted
-in collaboration with his majesty's government
-ministry of health, nepal. the aims and design of the trial
-were discussed at both national and local meetings, after
-which consent to cluster involvement was given by chairpersons
-of vdc areas and the makwanpur district development
-committee. women who chose to participate in
-the study gave oral consent, were free to decline to be
-interviewed at any time, and the information they provided
-remained confidential.
-results
-of the women for whom information regarding a previous
-pregnancy had been recorded, 4929 had one further
-pregnancy during the trial surveillance period, 228 had 2
-pregnancies and 5 had 3 pregnancies. hence, there were a
-total of 5400 within-trial pregnancies from women with
-retrospectively recorded information.
-most women delivered at home (93%), without a trained
-attendant (92%) or any government health personnel
-present (90%), in either the preceding or study pregnancy.
-the sentinel care practices of antenatal care uptake, use of
-a clean blade to cut the umbilical cord, appropriate dressing
-of the cord and feeding of colostrum to the baby were
-more variably followed. table 1 shows the demographic
-breakdown of the women and the extent to which good
-practice was being followed prior to commencement of
-the study.
-approximately three quarters of the women were appropriately
-dressing the cord initially and this proportion was
-fairly constant across demographic subgroups. attendance
-at antenatal care, boiling of the blade and not discarding
-colostrum were all more prevalent amongst the
-more highly educated and literate women from wealthier
-households.
-the effect of being in an intervention vdc
-table 2 shows the percentages of pregnancy pairings falling
-into each of the 4 categories (better, good, bad,
-worse) for the 4 outcomes for women in intervention
-and control arms of the trial.
-the percentage of women who were following good practice
-during their trial pregnancies can be obtained by adding
-together the percentages falling into the better and
-good categories. for each of the 4 outcomes a greater
-percentage of the women in the intervention clusters followed
-good practice during the trial.
-combining the better and bad categories gives the percentage
-of women who were following bad practice pretrial
-(and hence had the capacity to change for the better).
-for all outcomes apart from the discarding of colostrum,
-control clusters had more women with that capacity than
-intervention clusters. the percentages of women who
-recalled discarding colostrum in their preceding births
-were approximately equal between control and intervention
-clusters. the percentages lying within the bad category
-represent missed opportunities for positive change
-and there were consistently fewer women within intervention
-clusters falling into this category for each of the 4 outcomes.
-women who changed their practice between preceding
-and study pregnancies fell into the better and worse
-categories. the percentage of women in the intervention
-clusters falling into the better category was greater than
-the percentage in the worse category, showing that
-women were more likely to make a positive, as opposed
-to detrimental, change for all outcomes. women in the
-control clusters were more likely to stop, as opposed to
-table 1: practices in pre-trial pregnancies according to demographic variables
-number following good practice pre-trial (% of total)
-antenatal care attendance boiling the blade appropriate dressing of
-cord
-not discarding colostrum
-n = 5373 (%) n = 5216 (%) n = 5216 (%) n = 5120 (%)
-household
-ethnicity:
-tamang 757 (21.2) 648 (18.6) 2654 (76.3) 1543 (45.3)
-brahmin-chhetri 551 (67.0) 512 (65.0) 601 (76.3) 535 (68.8)
-magar 103 (40.9) 83 (33.5) 187 (75.4) 151 (61.9)
-other 212 (29.2) 258 (36.8) 526 (74.9) 407 (59.0)
-no assets listed 651 (22.1) 634 (22.2) 2175 (76.0) 1333 (47.5)
-clock, radio, iron, bicycle 569 (31.9) 517 (29.8) 1305 (75.2) 896 (52.6)
-more costly appliances 403 (62.5) 350 (56.6) 488 (79.0) 407 (66.8)
-mother
-illiterate 704 (18.6) 713 (19.3) 2816 (76.3) 1628 (45.0)
-reads with difficulty 320 (45.3) 285 (41.5) 522 (76.1) 418 (62.1)
-reads with ease 599 (68.5) 503 (60.0) 630 (75.2) 590 (71.3)
-no formal education 949 (21.8) 933 (22.1) 3219 (76.2) 1959 (47.3)
-primary schooling only 395 (57.2) 325 (48.7) 503 (75.3) 424 (64.4)
-secondary or higher 279 (82.8) 243 (75.7) 246 (76.6) 253 (79.3)
-total 1623 (30.2) 1501 (28.8) 3968 (76.1) 2636 (51.5)
-median (interquartile range) for those following good (g) and bad (b) practice retrospectively:
-household
-number of months with g: 10 (7,12) g: 12 (7,12) g: 10 (7, 12) g: 10 (7, 12)
-sufficient food b: 9 (7,12) b: 9 (7,12) b: 9 (7, 12) b: 10 (7, 12)
-mother
-age (per additional year) g: 22.2
-(19.9, 26.2)
-g: 22.7
-(20.1, 27.0)
-g: 24.6
-(20.9, 29.8)
-g: 24.0
-(20.8, 28.8)
-b: 25.8
-(21.6, 31.2)
-b: 25.3
-(21.3, 30.9)
-b: 24.4
-(20.9, 29.9)
-b: 25.2
-(21.1, 30.9)
-note: numbers are less than 5400 for each outcome since some women did not have pregnancies that progressed to the stage for that outcome to
-be appropriate. for example, 280 of the eligible pregnancies did not result in a live birth of a surviving mother and hence the discarding of
-colostrum was only appropriate as an outcome for 5120 women.
-start, appropriate dressing of the cord, but otherwise their
-changes were similarly more likely to be in a positive
-direction.
-the differences between women in the intervention and
-control vdcs are further quantified by the fitting of multinomial
-models to the 4 outcomes with intervention status
-as a predictor. the coefficients and confidence intervals
-are given for the better/bad and better/worse
-ratios. these are all significantly different to 1. for all four
-practices women who were initially following bad practice
-were significantly more likely to change to good practice
-if they lived in an intervention vdc (better/bad ratios).
-for example, women who did not attend antenatal care in
-preceding pregnancies were more than twice as likely to
-do so during the study period if they lived in an intervention
-area (odds ratio 2.04 95% ci (1.82, 2.27 times)). of
-the women who changed practice these changes were significantly
-more likely to be in a positive direction for all
-outcomes except antenatal care attendance (better/
-worse ratio).
-women attending antenatal care and/or using a boiled
-blade to cut the cord in pregnancies falling within the
-study period were significantly less likely to be doing so as
-a result of a positive change in practice if they lived in an
-intervention vdc (better/good ratios). these results
-are not unexpected given the larger percentages of women
-within the intervention vdcs following good practice for
-these outcomes pre-trial.
-the independent effect of attending a women's group
-about one in twelve married women of reproductive age,
-and about one third of newly pregnant women in intervention
-clusters attended the women's groups. there were
-few differences between the percentages of women who
-did and did not attend women's groups falling into each
-of the 4 categories.
-the effect of attending a group over and above the
-improvements attributable to living within an intervention
-area was greatest for antenatal care attendance. the
-percentages of women who attended the groups falling
-table 2: behaviour change over time between pre-trial and trial pregnancies for four perinatal care practices.
-antenatal care
-attendance
-boiling the blade appropriate dressing
-of cord
-not discarding
-colostrum
-intervention n = 2535 n = 2454 n = 2454 n = 2409
-control n = 2838 n = 2762 n = 2762 n = 2711
-% better intervention 19.1 21.8 17.9 29.7
-control 16.6 12.1 16.3 23.2
-% good intervention 36.0 32.5 63.2 41.7
-control 12.5 12.8 56.7 34.7
-% bad intervention 36.8 39.2 4.2 17.5
-control 65.6 68.1 9.3 26.5
-% worse intervention 8.2 6.4 14.7 11.2
-control 5.2 7.0 17.8 15.5
-total (%) intervention 100 100 100 100
-control 100 100 100 100
-intervention/control
-comparisons : odds
-ratios (95%
-confidence interval)
-%better/%bad
-ratio *
-2.04 (1.82, 2.27) 3.13 (2.78, 3.45) 2.44 (1.92, 3.13) 1.92 (1.69, 2.22)
-%better/%worse
-ratio*
-0.73 (0.59, 0.91) 1.96 (1.59, 2.44) 1.33 (1.15, 1.54) 1.79 (1.52, 2.08)
-%better/%good
-ratio*
-0.40 (0.35, 0.46) 0.71 (0.61, 0.81) 0.99 (0.88, 1.10) 1.06 (0.95, 1.19)
-*results from multilevel multinomial models. the estimates and intervals are adjusted to take account of the correlations between pregnancies
-within the same women, women from the same household, households from the same vdc and vdcs within the same matched pair. all odds
-ratios are significantly different to 1. coefficients greater than 1 indicate that the women in the intervention clusters had a more favourable
-distribution, those less than 1 are associated with a less favourable response for the women in the intervention compared with control clusters.
-into the better, good, bad and worse categories
-were 22.3, 37.3, 33.7 and 6.7 respectively, compared to
-17.8, 34.9, 38.9 and 9.1 of those within intervention
-vdcs who did not attend groups. hence, a larger percentage
-of those attending the women's groups improved their
-practice (22.3 vs 17.8%) or maintained previous good
-practice (37.3 vs 34.9%). the significantly lower odds of
-making a positive as opposed to negative change (better/
-worse ratio) in the intervention vdcs were counter-
-acted in the subgroup who attended the women's
-groups. the women who attended the groups were significantly
-more likely to make positive changes than nonattending
-women within intervention vdcs (better/
-worse ratio 1.77 (1.30, 2.40)). similarly, the women
-within intervention vdcs who attended the groups but
-did not attend antenatal care in their previous pregnancies
-were significantly more likely to start doing so than the
-women within those same vdcs who did not attend
-(better/bad ratio 1.51 (1.28, 1.79)). this difference
-was additional to the 2.04 fold increase seen in the intervention
-vdcs overall. the better/good ratio for
-attenders vs non-attenders was also significant (1.22
-(1.04, 1.45)). women attending the groups were significantly
-more likely to make positive changes compared to
-non-attending women in the same vdcs with respect to
-discarding colostrum (better/worse ratio 1.03 (1.01,
-1.06)) and there was some evidence that if they were discarding
-colostrum previously they were more likely to
-stop doing so (better/bad ratio 1.02 (1.00, 1.04)).
-there were no other significant differences.
-were specific subgroups of women with the capacity for
-positive change more likely to respond to intervention?
-table 3 shows the increase in the better/bad ratios for
-the intervention group compared to the women in control
-areas. values greater than 1 indicate that the intervention
-was more successful in those subgroups of women relative
-to the baseline demographic category. significant differences
-in the effects of intervention on the four process outcomes
-were not consistent across demographic
-subgroups.
-were women who changed practice more likely to do so
-positively if they were from specific subgroups?
-the extent to which women made positive, as opposed to
-negative, changes in practice is quantified by the better/
-worse model coefficients. patterns were not consistent
-(table 4) but they were based on the smallest groups
-(table 2). women from households with more assets
-within intervention vdcs were significantly more likely
-to make a positive change to dressing the cord but a negative
-change with respect to the treatment of colostrum. it
-was the older women, those who were less literate and the
-less well educated who were significantly more likely to
-have stopped, as opposed to started, discarding colostrum
-if they lived in intervention, as opposed to control, vdcs.
-were women from specific subgroups who followed good
-practice during the trial more likely to be doing so as a
-result of a positive change?
-these differences are quantified in table 5 (better/
-good ratios). this table is presented for completeness.
-however, it is of the least clinical interest due to the
-dependence on the variability between groups of the percentages
-who show no changes but continue good practice
-throughout.
-discussion
-within a large scale trial of a community group intervention,
-women were followed prospectively to document
-patterns of behaviour change for perinatal care. this helps
-to understand how primary trial outcomes may be
-explained by changes in the practices of individuals
-within the communities. of the 6380 women who
-became pregnant and were included in the main trial
-analyses, a subset of 5162 (77.3%) had a pregnancy pretrial
-with which to compare their trial pregnancy behaviour.
-within this subgroup we have investigated the
-changes for women undergoing their second or subsequent
-pregnancies. the findings cannot be extrapolated to
-women in their first pregnancies.
-as expected, there were strong relationships between past
-and present behaviour. those who followed good practice
-in previous pregnancies were likely to do so again, regardless
-of whether they were allocated to the intervention or
-control arm of the trial. having a skilled birth attendant is
-known to be an important indicator of outcome. less
-than 1 in 12 of the women had such a person present at
-either their pre-trial or any trial pregnancy. the numbers
-therefore were too low to investigate any impact the intervention
-may have had on improving skilled birth attendance.
-however, it was possible to investigate changes in
-other factors known to be important: antenatal care,
-cleanliness of blade and cord, and discarding of colostrum.
-the intervention effectively promoted significant
-change in all four care behaviours amongst the group of
-women not previously following good practice (table 2).
-positive changes in antenatal care attendance and the discarding
-of colostrum were more likely to be made by
-women who attended the groups, but behaviour change
-in hygienic cutting and dressing is observed generally in
-the intervention areas. the lack of uniform relationship
-between group attendance and outcome was expected.
-the presence of groups in an area has a wider impact than
-merely on the women who attend. in our study only 8%
-of married women of reproductive age joined our groups,
-but 37% of newly pregnant women attended at least once.
-whilst group members showed a greater tendency to posbmc
-itive behaviour change than non-group members, this
-effect is unlikely to explain the overall improved behaviour
-change in intervention versus control clusters. our
-data provides evidence that the activities and existence of
-the group stimulate wider behaviour change in their communities.
-the group intervention is a dynamic process
-that is uniform only in its participatory method, thus further
-study is necessary to explore these processes of behaviour
-change. we hoped to bring about behaviour change
-by giving women and grandmothers the knowledge they
-need to make informed choices, and by creating favourable
-social conditions, and an enabling environment in
-which they could take these decisions[11-13]. preliminary
-analysis of qualitative data, and the data presented here
-suggest that this has been the case in the intervention
-areas.
-most of the responses to intervention were positive. significantly
-greater percentages of women in intervention
-vdcs who were following bad practice pre-trial stopped
-doing so after the commencement of the women's groups.
-it was surprising that significantly more of the intervention
-area women stopped as opposed to started attending
-antenatal care compared to the women within control
-vdcs. this difference was mostly attributable to the
-greater proportion of women in intervention vdcs who
-stopped attending. for the other 3 practices a greater percentage
-of control women stopped previous good practice
-and for all 4 practices there was a lower percentage who
-started. it is possible that the women in the intervention
-vdcs saw women's groups as a replacement for antenatal
-care. this potentially detrimental effect of the intervention
-requires further investigation, perhaps via the use of
-focus groups in similar future initiatives.
-since allocation was random, we would not expect baseline
-differences between women in control and intervention
-vdcs. despite similar mortality rates at baseline[1],
-some differences in practices were found in the subgroup
-with a previous pregnancy reported here. in particular,
-women within intervention vdcs were more likely to
-have attended antenatal care (44.2% intervention, 17.7%
-table 3: coefficients and 95% confidence intervals for the extent to which women in the intervention vdcs, relative to women in the
-control vdcs, within different demographic subgroups were more (or less) likely to make a positive change, relative to those in the
-baseline subgroup, if they were not initially following good practice (%better/%bad ratio)
-antenatal care attendance
-n = 5373
-boiling the blade prior to
-cord cutting n = 5216
-appropriate dressing of the
-cord n = 5216
-not discarding colostrum n
-= 5120
-household:
-ethnicity:
-tamang 1 1 1 1
-...brahmin-chhetri 1.41 (0.98, 2.04) 0.43 (0.28, 0.68) 1.11 (0.55, 2.22) 1.16 (0.70, 1.89)
-magar 4.17 (2.27, 7.69) 0.95 (0.54, 1.67) 0.38 (0.12, 1.27) 2.50 (1.01, 6.25)
-other 1.85 (1.23, 2.86) 0.74 (0.52, 1.06) 8.33 (1.92, 33.33) 1.61 (1.04, 2.50)
-no assets listed 1 1 1 1
-clock, radio, iron, bicycle 0.84 (0.65, 1.08) 0.96 (0.75, 1.23) 1.10 (0.65, 1.82) 1.02 (0.76, 1.37)
-more costly appliances 0.73 (0.48, 1.11) 1.06 (0.70, 1.59) 1.92 (0.85, 4.35) 0.77 (0.44, 1.33)
-number of months with
-sufficient food
-1.01 (0.97, 1.05) 0.97 (0.93, 1.01) 1.10 (1.01, 1.20) 1.05 (1.00, 1.10)
-mother:
-age (per additional year) 0.99 (0.97, 1.01) 1.00 (0.98, 1.02) 0.93 (0.91, 0.97) 1.00 (0.99, 1.02)
-illiterate 1 1 1 1
-reads with difficulty 0.59 (0.41, 0.83) 1.08 (0.76, 1.54) 1.09 (0.54, 2.17) 0.67 (0.42, 1.04)
-reads with ease 0.73 (0.50, 1.08) 0.68 (0.46, 1.00) 0.89 (0.44, 1.79) 1.04 (0.64, 1.69)
-no formal education 1 1 1 1
-primary schooling only 0.57 (0.40, 0.83) 0.42 (0.29, 0.61) 1.47 (1.08, 2.04) 1.28 (0.81, 2.04)
-secondary or higher 0.25 (0.11, 0.58) 0.53 (0.21, 1.35) 0.92 (0.57, 1.47) 0.50 (0.13, 1.92)
-(results from multilevel multinomial models. the estimates and intervals are adjusted to take account of the correlations between pregnancies
-within the same women, women from the same household, households from the same vdc and vdcs within the same matched pair. significant
-differences are shown in bold.)
-control) and to have boiled the blade (38.9% and 19.8%
-respectively) in their pre-trial pregnancies. the analyses
-presented in this paper show that multigravid women in
-intervention vdcs were significantly more likely to continue
-or begin good practices after accounting for baseline
-differences. these significant differences in behaviour
-within this subgroup of just over three-quarters of the
-women who fell pregnant within the trial period are compatible
-with the reductions in major outcomes found
-within the trial.
-we have presented secondary analyses of the dataset.
-many comparisons are presented and these are meant to
-be interpreted in unison and with the main outcome analyses.
-the study was not originally designed to detect subgroup
-differences and the results should not be
-interpreted as though they were primary objectives. what
-we have aimed to do is to identify patterns that might be
-clinically relevant and informative to future studies. we
-have not identified any major consistent patterns, a finding
-which is itself of interest. having identified significant
-differences which could be attributed to the intervention[
-1], this analysis investigates the modes via which
-those differences may have been achieved. we would
-expect to observe differences in process outcomes since
-these are known to be related to mortality outcomes. the
-finding that the intervention was associated with
-increased uptake of good practices in those previously not
-following them is both important and as expected: in this
-paper we attempt to quantify the degree of difference. it is
-also important to note that no tendency for the intervention
-to target only subgroups of privileged or non-privileged
-women was found. prior to performing these
-analyses we had no notion of the direction that any intervention
-bias might fall.
-if women were already following good practice, the capacity
-for the women's groups to effect positive change was
-limited. it was important that those following good practices
-continued to do so. therefore, we have considered all
-patterns of change and how they related to features of the
-mother, the household in which she lived and whether or
-not she resided in an intervention area. four pre-trial practices
-were found to have a large capacity for positive
-change and for there to have been significant alterations
-during the study period. the women's groups discussed
-table 4: coefficients and 95% confidence intervals for the extent to which women in the intervention vdcs, relative to women in the
-control vdcs, within different demographic subgroups were more (or less) likely to make positive as opposed to negative changes,
-relative to those in the baseline subgroup, (%better/%worse ratio)
-ante-natal care attendance
-n = 5373
-boiling the blade prior to
-cord cutting n = 5216
-appropriate dressing of the
-cord n = 5216
-not discarding colostrum n
-= 5120
-household:
-ethnicity:
-tamang 1 1 1 1
-...brahmin-chhetri 0.58 (0.39, 0.88) 0.76 (0.45, 1.28) 1.85 (1.14, 2.94) 0.79 (0.47, 1.35)
-magar 0.67 (0.39, 1.15) 1.30 (0.37, 4.55) 0.65 (0.32, 1.30) 3.57 (1.32, 10.00)
-other 0.83 (0.59, 1.16) 0.59 (0.29, 1.19) 2.38 (1.52, 3.85) 2.27 (1.33, 3.85)
-no assets listed 1 1 1 1
-clock, radio, iron, bicycle 0.92 (0.57, 1.47) 1.15 (0.71, 1.85) 1.37 (0.98, 1.89) 0.99 (0.68, 1.43)
-more costly appliances 1.92 (0.97, 3.85) 0.89 (0.44, 1.82) 2.33 (1.45, 3.85) 0.36 (0.18, 0.70)
-number of months with
-sufficient food
-0.97 (0.89, 1.05) 0.98 (0.89, 1.06) 1.02 (0.96, 1.08) 0.99 (0.93, 1.05)
-mother:
-age (per additional year) 0.96 (0.93, 1.00) 1.01 (0.97, 1.04) 0.98 (0.96, 1.01) 1.04 (1.01, 1.06)
-illiterate 1 1 1 1
-reads with difficulty 0.91 (0.51, 1.64) 1.20 (0.66, 2.22) 1.03 (0.62, 1.72) 0.31 (0.18, 0.52)
-reads with ease 1.54 (0.89, 2.63) 1.19 (0.69, 2.04) 1.47 (0.97, 2.22) 0.61 (0.36, 1.05)
-no formal education 1 1 1
-primary schooling only 1.08 (0.60, 1.96) 1.03 (0.56, 1.92) 1.11 (0.84, 1.47) 0.49 (0.27, 0.87)
-secondary or higher 2.04 (0.93, 4.55) 0.99 (0.46, 2.17) 0.97 (0.95, 1.00) 0.79 (0.34, 1.85)
-(results from multilevel multinomial models. the estimates and intervals are adjusted to take account of the correlations between pregnancies
-within the same women, women from the same household, households from the same vdc and vdcs within the same matched pair. significant
-differences are shown in bold.)
-the prevention of neonatal deaths, home care practices
-that might help, and the use of health services for either
-routine or emergency care. the issues of antenatal care,
-the use of clean cord-cutting implements, avoidance of
-unhygienic dressings and the benefits of colostrum feeding
-arose as subjects of discussion on many occasions.
-these issues could, and were, easily translated into specific
-actions.
-it was clear that the less educated and illiterate women
-were less likely to be following good practice initially.
-although these women were significantly targeted by the
-intervention for some outcomes, the differences were not
-uniform. there were benefits across all of the demographic
-subgroups of women.
-conclusion
-in conclusion, peer-education and empowerment of
-women through women's groups has positive effects on
-perinatal care practices for women in their second or subsequent
-pregnancies. both group members and nongroup
-members in the locality benefit from this intervention.
+summary
+cross-sectional covariate-related reference ranges are widely used in clinical medicine to put individual
+observations in the context of population values. usually, such reference ranges are created from data
+sets of independent observations. if multiple measurements per individual are available, then ignoring the
+within-person correlation between repeats will lead to overestimation of centile precision. furthermore, if
+abnormal measurements have triggered more frequent assessment, the data set will be biased thus producing
+biased centiles. where multiple measures per individual exist, the methods commonly used are either
+randomly or systematically to select one observation per individual or to model individual trajectories and
+combine these. the first of these approaches may result in discarding a large proportion of the available
+data and may itself cause bias and the latter requires the form of the changes within individuals to be
+characterized. we have developed an approach to the modeling of the median, spread, and skew across
+individuals using maximum likelihood, which can incorporate correlations between dependent observations.
+heavily biased data sets are simulated to illustrate how the methodology can eliminate the biases
+inherent in the data collection process and produce valid centiles plus estimates of the within-person correlations.
+the “select one per individual” approach is shown to be liable to bias and to produce less precise
+centiles.we recommend that the maximum likelihood method incorporating correlations be used with existing
+data sets. furthermore, this is a potentially more efficient approach to be considered when planning
+the future collection of data solely for the purposes of creating cross-sectional covariate-related reference
+ranges.
+keywords: age-related reference ranges; correlated measurements; dependence; serial measures; unbiased;
+z-scores.
+1. introduction
+covariate-adjusted reference ranges may be used to assess individuals at a single point in time (crosssectional)
+or to monitor changes within individuals over time (velocity or conditional). most commonly,
+the covariate used is age. if an individual presents for diagnosis/assessment and repeat measurements are
+available, then it will generally be advisable to utilize all of these. however, there are many occasions
+on which only a single measurement is available and this needs to be evaluated against population values
+using a covariate-adjusted cross-sectional reference range.
+the methodologies for constructing population-based covariate-adjusted cross-sectional reference centiles
+are now well established and were recently reviewed by the world health organization (borghi and
+others, 2006, for the world health organization [who] multicentre growth reference study group).
+these methodologies commonly assume that the measurements used for construction are independent. if
+the data set contains serial measurements from individuals, then these will be correlated within person and
+hence the independence assumption is not satisfied. one approach has been to circumvent the problem
+by systematically or randomly selecting one observation per individual to create a data set of independent
+measurements (e.g. kurmanavicius, wright, royston, wisser and others, 1999; kurmanavicius, wright,
+royston, zimmermann and others, 1999; wade and ades, 1994). however, this is wasteful of the data
+and may lead to bias.
+this paper is concerned specifically with the construction of cross-sectional reference ranges using
+serial measurements from individuals. the need for any marginal analyses to include assumptions about
+the form of the correlation has been well documented within other applications (diggle and others, 2002).
+the laird–ware model (1982) gives a general framework for modeling which allows for variable spacing
+of observations and varying structures between individuals. the estimation of parameters for this model
+form has received much coverage (davidian and giltinan, 1995; hand and crowder, 1996; vonesh and
+chinchilli, 1997; lindsey, 1999; diggle and others, 2002). however, very little of the available literature
+applies specifically to the reference range problem. within the majority of texts, characterization of the
+average pattern is of primary importance followed by estimation of the covariance/correlation structure
+between repeats within individuals where these exist. when reference ranges are to be constructed, the
+estimation of any skewness and the spread of values at each covariate are at least as important as quantification
+of the median. this shift of emphasis is necessary as it is usually the extreme centiles that are
+of most clinical use. by contrast, estimation of the covariance/correlation structure is generally of little or
+no direct interest in this scenario.
+the who review recommended the use of methodologies that model the covariate-related changes
+in distributional features and then combine these to obtain centiles. commonly, the underlying distribution
+is assumed to be some transformation of the normal distribution and the kurtosis, skew, spread,
+and median are modeled. the form of the models used for the distributional features and the mode of
+identifying the best fit parameters vary according to the specific method chosen (cole, 1988, cole and
+green, 1992; wright and royston, 1997). previously, we used this methodology within a maximum likelihood
+framework with exponential models to create age-related centiles for cd4 counts (wade and ades,
+1994), randomly selecting one measurement per child. we subsequently extended the approach by incorporating
+suitable correlation structure into the likelihood and thus additionally modeled the correlation
+between repeats from the same individual as smooth functions of age and time (wade and ades, 1998),
+hence utilizing the entire data set. this extension may be viewed as a generalization of models developed
+to identify trends in longitudinal data with explicit modeling of the serial correlation (diggle, 1988).
+despite a strong correlation structure, incorporation did not substantially alter the fitted centiles. this
+finding was not unexpected because measurements were made at ages defined within a strict protocol,
+and hence, frequency of measuring was independent of previous measurements. a similar approach that
+has been used is systematically, as opposed to randomly, to select one measurement per individual. for
+example, kurmanavicius, wright, royston, wisser and others (1999) and kurmanavicius, wright,
+royston, zimmermann and others (1999) used only the first of serial measurements made during pregnancy
+to create cross-sectional centiles for fetal biometry.
+while it is generally appreciated that incorporation of dependent observations without adjustment for
+correlations will lead to overestimation of centile precision, the propensity for bias invalidating the centiles
+has received little discussion. when the number and/or timing of observations are related to outcome,
+for example, when an abnormal measurement is likely to trigger more frequent assessment for clinical
+purposes, then the incorporation of correlations may have a large impact on the centiles by reducing
+or removing the bias inherent in the collection process. the problem is one of informative observation
+times, whereby future measurement frequency is related to the values of existing measurements for that
+individual (lin and others, 2004).
+the who review (borghi and others, 2006) identified the following 2 approaches that incorporated
+correlated measurements into the construction of cross-sectional reference ranges. laird and ware (1982)
+proposed 2-stage random-effects models, while goldstein (1986) proposed a more general framework of
+multilevel models which could be parameterized to allow for complex covariance structures and multiple
+explanatory variables. marginal distributions obtained from these models would identify cross-sectional
+patterns of change (pan and goldstein, 1997). while these models are flexible and present a solution to
+the specific problem posed here, they require explicit characterization of a common underlying form for
+expected trajectories within individuals. goldstein and others (1994) recognized that the methodology
+for conditional (longitudinal) references can theoretically yield cross-sectional references. the second
+approach cited by the who review was our previously described maximum likelihood method (wade
+and ades, 1998) requiring characterization only of population changes irrespective of how individual
+trajectories vary.
+in this paper, we illustrate how biases may be removed and precision increased via appropriate modeling
+even for heavily biased simulated data sets. we compare the precision with which centiles are
+estimated when correlations are incorporated versus the alternative systematic or random “select one”
+approach. the methodology is illustrated by application to serial fetal ultrasound measurements collected
+at the university hospital in zurich (uhz) and previously modeled using only a subset of the
+data (kurmanavicius, wright, royston, wisser and others, 1999; kurmanavicius, wright, royston,
+zimmermann and others, 1999).
+2. methods
+2.1 statistical methods
+in previous papers, we have demonstrated the use of splines, fractional polynomials, and exponentials
+within the maximum likelihood methodology. any data collection protocol can be accommodated, as
+can any amount of variation between the number and timing of measurements per individual. formal
+significance tests are easily performed between nested models and confidence intervals constructed for the
+model parameters and/or the centiles (wade and ades, 1994, 1998). thompson and fatti (1997) extended
+the methodology to create multivariate centile charts. in the analyses presented in this paper, we assume
+that a transformation of the normal distribution is appropriate at each covariate value and we model the
+changes in the skewness, spread, and median. we maximize the likelihood incorporating a correlation
+structure between repeated measurements within the same individual.
+we used fortran programs incorporating numerical algorithms group subroutines, which are available
+within the supplementary material, available at biostatistics online. an alternative would be to use generalized
+additive models for location, scale, and shape (gamlss; rigby and stasinopoulis, 2005). the
+gamlss command in r can be used to fit centiles with incorporation of random effects for individuals to
+account for serial correlation.
+2.2 simulations
+full details and results from the simulations are given in the supplementary material, available at biostatistics
+online. the features and findings were as follows.
+underlying models were assumed so that median and spread were both increasing with gestational age,
+as this would be typical in most applications. simulations were based around a scenario often encountered
+during pregnancy where measurements are made between 15 and 40 weeks and abnormally low values
+trigger additional repeated measurements. repeated measurements within an individual were generated
+with an exponentially decaying correlation function.
+the extent of bias in the data sets was dependent on how the frequency of repeat measurements was
+determined. fitted centiles based on an assumption of independence were heavily biased. the extent of
+the correlations between repeats was typically underestimated within the correlation models, although the
+centiles obtained were not biased. both precision and accuracy were improved for the correlation model
+compared to that assuming independence.
+with “select one”, the precision of the centile estimates was reduced and the centile estimates were
+biased. this latter finding shows that selecting a subset of independent measurements does not necessarily
+yield unbiased centiles. at later gestations, there were more measurements from those fetuses previously
+with abnormally low values and hence there was more chance of selecting biased assessments in this
+gestational age range.
+3. application to ultrasound data set
+3.1 the data set
+ultrasound measurements were taken from clinic records of pregnant women examined at the uhz, where
+routine examinations were performed at 11–13, 18–21, and 28–32 weeks of gestation. high-risk pregnancies
+were examined at shorter intervals, every 2 or 3 weeks until delivery. referrals at later gestations from
+other ultrasound centers were also included. a relatively common reason for such referral would be suspected
+intrauterine growth retardation (iugr) due to placental insufficiency which manifests after 25–28
+weeks of gestation with reduced growth of the fetal abdomen. such women then undergo repeat tests until
+a definitive diagnosis is made. small values of abdominal circumference (ac) indicate potential iugr,
+whereas biparietal diameter (bpd), a measure of skull size, is not expected to be affected by iugr. the
+only measurements excluded from the data set were for fetuses found to have a congenital abnormality.
+the original analysis used the first fetal measurements made between 12 and 42 weeks from 6557
+pregnant women (6557 bpds and 5807 acs). fractional polynomials were used to model age-related
+changes in the mean and standard deviation, and shapiro–francia w test was used to check the normality
+of the z-scores. for these 2 fetal measurements, a linear cubic in age for the mean and linear model for the
+standard deviation were found to be suitable (kurmanavicius, wright, royston, wisser and others, 1999;
+kurmanavicius, wright, royston, zimmermann and others, 1999).
+the current data set, which has expanded since its use in 1999, consists of information from 12 480
+women measured between 1 and 28 times. a total of 48 005 bpds and 45 352 acs are included. hence,
+any select one approach would utilize only about 25% of the available measurements. since the purpose
+was to illustrate the effects of this modeling, we used the same model forms as kurmanavicius and others
+had previously (linear-cubic model for the mean, linear model for the standard deviation, and no skew)
+and estimated only their parameters. we allowed the correlation between repeats from the same individual
+to fall as the time between those repeats increased and characterized this as a 2-parameter exponential
+model (ρ1e−ρ2diff). hence, we estimated 5 parameters for the independence and select one models
+(3 for the mean and 2 for the standard deviation) and an additional 2 (for the correlation structure) for
+the correlation incorporated models. we compare the fitted centiles with those previously presented by
+kurmanavicius, wright, royston, wisser and others (1999) and kurmanavicius, wright, royston,
+zimmermann and others (1999).
+3.2 fitted models
+figures 1(a) and (b) show the 5th, 50th, and 95th centiles from the independence models, the exponentially
+correlated models, and those previously presented by kurmanavicius, wright, royston, wisser and
+others (1999) and kurmanavicius, wright, royston, zimmermann and others (1999). for both ac and
+bpd, taking into account the correlations reduces the centile range at earlier gestations. this pattern
+is compatible with a greater frequency of measurement of fetuses with extreme values. the centiles fitted
+by kurmanavicius, wright, royston, wisser and others (1999) and kurmanavicius, wright, royston,
+zimmermann and others (1999) lie between the correlation and independence models at early gestations
+but become increasingly like the independence centiles at later ages.
+the effect of incorporating correlations on the centiles at later gestations differs between ac and
+bpd. the increased ac 5th centile beyond 30 weeks of gestation may be explained by the inclusion of
+late referrals to uhz for suspected iugr. by contrast, bpd is a skull measurement, large values of which
+may be of greater concern near to term (40 weeks of gestation). the pattern of differences shown in figure
+1(b) suggests that the fetuses with larger bpd were more likely to be measured more frequently in the last
+5 weeks of pregnancy. incorporation of correlations reduces the effect of these larger measurements, and
+the centiles based on the correlation model are lower.
+figures 1(a) and (b) show how incorporation of correlations can remove the selection bias inherent
+in clinical data sets. the patterns observed were not anticipated but with hindsight have clinically valid
+fig. 1. estimated 5th, 50th, and 95th centiles. the solid lines show the estimated centiles when all measures are
+assumed independent and the thick dashed lines when correlations between repeats are incorporated. the lighter
+dashed lines show the fitted centiles as presented by kurmanavicius, wright, royston, wisser and others (1999) and
+kurmanavicius, wright, royston, zimmermann and others (1999). (a) ac obtained using 45 352 ultrasound measurements
+from 12 480 pregnancies. (b) bpd obtained using 48 005 ultrasound measurements from 12 226 pregnancies.
+explanations. the results show that the adjustments for correlation will not be uniform in either direction
+or quantity even for seemingly highly related measurements, that is, different assessments of growth
+from the same ultrasounds in the same group of women. it is perhaps surprising that the centiles based
+on the first measurement from each fetus (kurmanavicius, wright, royston, wisser and others, 1999;
+kurmanavicius, wright, royston, zimmermann and others, 1999) were more akin to those obtained from
+the data set of all measurements. however, this is compatible with the finding of the simulation study.
+selecting an independent subset does not necessarily remove bias as late referrals to uhz are probably
+atypical.
+4. discussion
+our simulations and application demonstrate that incorporation of a correlation structure within the fitting
+algorithm is to be preferred to the select one approach. although select one is computationally simpler, our
+analysis shows that the precision and accuracy of the centiles may be severely affected. the simulations
+were developed to represent typical clinical scenarios. the irremovable bias obtained was not expected,
+although easily explained with hindsight. it is important to note that such biases may occur in any data set
+and will yield biased centiles if select one is used.
+simulations are necessarily limited by choice of the parameters and assumptions incorporated. in
+particular, we assumed very similar correlation structures within the data generation and fitting phases.we
+do know that if the correlation structure is severely misspecified, then this will lead to invalid estimation.
+the comparison with the independence model of zero correlation between repeats within individuals is an
+extreme case and clearly illustrates this point. there must therefore be some degree of misspecification
+that can lead to invalidation of the centiles. for all cases where we modeled the correlation structure, we
+assumed exponential decline with increasing time, a reasonable assumption for clinical applications. the
+extent of any decline was estimated, and estimates were often biased. however, the model did allow for
+any extent of decline (including zero), and the simulations illustrate that biased parameter estimates do
+not necessarily lead to biased centile estimates. when constructing cross-sectional reference ranges from
+correlated data, estimation of the correlation structure is not of direct interest, but rather is a means toward
+the important end of obtaining unbiased estimates of centiles.
+the data set we describe consists of longitudinal measurements with informative observation times.
+techniques that specifically model the timing mechanism could be employed and would give additional
+information. however, this would necessitate the specification of the conditional distribution of an observation
+given the history of the process and the centile estimates may not be robust to misspecification
+(lin and others, 2004). for the purposes of creating cross-sectional covariate-related reference ranges, the
+biases in the measurement process that we wish to eliminate are a function of the clinical scenario. our
+simulations show that the method we present is capable of producing unbiased centiles from messy data
+sets of the form likely to be found in clinical practice. the extent and direction of centile adjustment when
+correlations are incorporated may yield information about the nature of biases inherent in the data set.
+despite the numerous advantages of incorporating some form of correlation, the technique has not
+been widely used, perhaps because of a mistaken belief that the added complexity of modeling is not
+warranted. in this paper, we have shown that simpler methods applied to data with informative observation
+times lead to invalid centile estimation. the process of selecting the first observation per individual,
+as previously used by kurmanavicius, wright, royston, wisser and others (1999) and kurmanavicius,
+wright, royston, zimmermann and others (1999), may lead to a biased solution and necessitates discarding
+a large proportion of the data. the resulting reduction in precision will be a function of the percentage
+of data discarded and the extent of the within-individual correlation. the reduction may not be uniform
+across the age range since selecting the first measurement from each pregnancy will lead to greater loss
+of precision at later gestations where there will be fewer women presenting. the uhz received referrals
+for suspected problems, based on abnormal ultrasound measurements, from other hospitals. while fetuses
+subsequently found to have a congenital abnormality were excluded, biases are still likely to remain. the
+simulation results show that incorporating correlation structure into the modeling has the capacity to reduce
+biases such as these in estimating centiles. the extent of the bias reduction will depend on the degree
+to which the correlation structure has been adequately modeled.
+if data are to be collected specifically for the purposes of creating cross-sectional reference ranges,
+then the most precise centiles for a given total number of observations will be obtained when these observations
+are independent. however, there may be a trade-off between the recruitment cost per individual
+and the cost of following individuals serially (goldstein, 1979). if subsequent measurements for a recruited
+individual are easier and/or cheaper to obtain than measurements from new recruits, then some
+consideration should be given at the design stage to the most efficient way to proceed. it may be ethically
+easier to justify serial collection from a smaller pool of prospective subjects, or the pool may be
+limited (e.g. children born to hiv-1-infected mothers). often, the remit is to produce both cross-sectional
+and conditional or velocity references (borghi and others, 2006). in this case, the optimal approach will
+be to incorporate serial observations into the cross-sectional references using appropriate adjustment for
+correlation within individuals. the precision with which centiles are estimated under differing correlation
+structures, model forms, and/or sample sizes can be readily compared using simulations to identify the
+most appropriate recruitment method to use.
 
 <|EndOfText|>
 
-are adolescents with constipation more likely to suffer psychological maladjustment?1 what percentage of chiari i-type headaches show improvement after foramen magnum decompression (fmd)?2 does bcg vaccination reduce early childhood hospitalisation in denmark?3 is diagnosis of coeliac disease associated with differences in adolescent anthropometry?4 does visual feedback affect the rate of chest compressions?5
-these are all questions asked in recent issues of this journal. in each case the authors collated information from a sample of individuals to yield an answer to their question. differing study types were used ranging from observational audits and surveys through to randomised parallel and crossover trials. the study designs, participants, settings, sample sizes and key statistics are summarised in table 1.
-table 1: description of the five studies
-study
-design
-participants
-setting
-sample size
-key statistics
-1
-cross-sectional survey
-13-18 year olds
-5 schools
-1697
-(114 constipated)
-33.3% of constipated and 14.5% of non-constipated had maladjustment:
-or 2.94 (1.95, 4.45)
-2
-retrospective review of audit database/ before-after study
-chiari i-type headache cases having fmd
-tertiary hospital
-39
-80% showed improvement post fmd
+our one-day introduction to sample size course has run 20 times since 2012. comprehensive
+written notes are given for use in conjunction with custom made excel sheets to perform
+calculations and these are openly available via a weblink. immediate feedback for the course is
+generally excellent. to gauge the extent to which course materials had ongoing usage, and whether
+post leaving the course perception of the material and its’ usefulness remained, a short survey was
+emailed to all 383 course participants from the 20 courses. attendees noted ongoing usage of the
+course materials, with over two thirds of respondents subsequently referring to these frequently or
+occasionally. even the most conservative estimate showed a substantial proportion still gaining
+direct benefit after 5 years.
+background
+for 10 years the ucl centre for applied statistics courses (casc) has presented 1 to 5
+day courses primarily aimed at non-statisticians in the workplace. attendees often aim to leave a
+course equipped to undertake their own research, as well as having an improved understanding of
+published research. the one-day introduction to sample size estimation has proved highly popular
+and runs on average three or four times per year with an audience of up to 20 participants. numbers
+are restricted by the fact that teaching takes place within a cluster room and participants are
+directed to custom made excel sheets to perform calculations. the excel sheets were originally
+available via cds given to students but are now accessed via a web link to which there is open
+access (http://www.ucl.ac.uk/ich/short-courses-events/about-stats-courses/samplesize ). a folder of
+comprehensive course notes is given to each course participant detailing all course material and
+usage of the excel sheets with examples.
+all casc courses request feedback from students via opinio, a web-based tool used to
+gather ratings and comments. this feedback, collected shortly after the day of the course, is
+consistently positive. there remains the question of how useful the participants find the training
+and material on an ongoing basis. the sample size course is unique in that the excel sheets are
+presented and their usage integral to the estimation processes introduced to the students.
+furthermore, the excel sheets remain available to the students for as long as they wish to use them.
+therefore, the sample size course, with its very specific estimation tools as well as written notes,
+was ideal for beginning an investigation into the ongoing potential benefits of our training we
+decided to contact attendees to the sample size courses held over the last five years to evaluate
+whether they continued to use the excel sheets and whether the course had in fact been of direct
+relevance to their work.
+the aim of this survey was to address the research questions:
+i) did participants of the one day sample size course utilise the information and tools given in
+the course in their work life?
+ii) was usage related to time since attendance at the course?
+data collection
+an online survey was developed asking whether individuals had referred back to the course
+material and whether they had continued to use the excel spreadsheets. both of these questions had
+the response options: ‘yes frequently’, ‘yes, occasionally’, ‘rarely’ and ‘no’. the individuals
+were also asked whether what they had learnt on the sample size course had been of direct
+relevance and use to their work, with response options ‘yes’ or ‘no’. all questions had space for
+comments and there was an additional overall comment box at the end asking for any other
+suggestions that may help improve the one-day introduction to sample size course. potential
+participants were sent an email requesting that they complete the web survey (via a link), which
+would consist of only 3 questions. by making the survey short and informing of length in the
+accompanying email, it was hoped to maximize the response rate (galesic and bosniak, 2009).
+the survey was sent via email to all 383 participants of the 20 one day courses held
+between 2012 and april 2017. there were 46 emails (12%) returned undeliverable with the
+proportion falling over time from 17/74 (23%) attendees at the three courses in 2012 to only one of
+the 39 (2.5%) in the two courses in the first half of 2017. since the survey was anonymous, and we
+did not wish to alienate future participants by repeated emails, no additional requests were made to
+those who may not have responded.
+results
+from the 337 emails that were successfully sent, responses were received from 62 (18.4%).
+most of the respondents (39/62, 63%) completed the form in a minute or less and over 90% in less
+than 5 minutes (56), two outliers were 26 and 13 minutes. over 80% (50) replied within 48 hours,
+and all but one within eight days. response rates were not dependent on time since course
+attendance being between 16 and 20% for all but two years, which were 2014 (13.9%) and 2013
+(25%).
+two people skipped the question about whether what they had learnt on the one-day
+sample size course had been of direct relevance to their work. of the 60 that submitted a completed
+survey form, the overwhelming response was ‘yes’ (55/60, 91.7%) and this was consistent across
+years. the five who did not find the course relevant, rarely (3) or never (2) used the course material
+and also rarely (1) or never (4) returned to use the excel sheets.
+all individuals answered the usage questions. most referred back to the course material and
+the excel spreadsheets occasionally or frequently. there was a strong correspondence between
+responses from the two questions (table 1). two individuals occasionally referred back to the
+course material but did not use the excel spreadsheets, a single individual made occasional use of
+the spreadsheets but did not refer to the course material.
+table 1: ongoing usage of course material and excel spreadsheets responses
+have you returned to the excel spreadsheets and used these?
+yes, frequently yes,
+occasionally
+rarely no total
+have you referred back to the
+course material?
+yes, frequently
+yes, occasionally
+rarely
+no
+total
+7
+1 0 0 8
 3
-randomised controlled trial
-newborn babies
-3 danish hospitals
-4262 children
-(2129 bcg,
-2133 controls)
-1047 hospitalisations bcg group vs 1003 controls. hr 1.05 (0.93, 1.18)
-4
-general health examination database
-17 yr old israeli jews
-eligibility assessment for military service
-2,001,353 adolescents;
-(10,566 with coeliac disease (cd))
-boys with cd had lower bmi (average 21.2 vs 21.7)
-cd girls were shorter (161.5 vs 162.1 cm on average)
-5
-randomised crossover trial
-hospital staff
-tertiary hospital
-50 pairs of measurements – with and without visual feedback
-rate of chest compressions was lower and less variable in those receiving feedback
-despite these differences, the same basic principle is followed for each. a sample of the relevant group of individuals is identified and from observing what happens to this sample, inferences are made about the wider population. the inferences may be beneficial to similar individuals and those involved in their care. for example, clinicians trying to determine whether to perform fmd2 or parents considering the pros and cons of bcg vaccination. 3 how well a question is answered by the study depends on how large a sample was studied in conjunction with other factors such as the variability of the measurements and/or event rates. both researchers and patients intuitively understand that findings based on a larger sample are likely to be more accurate, and will have more confidence in results based on a randomised trial of 1,000 individuals than if only 10 patients had been recruited. what is less intuitive is that if a treatment is not shown to be effective in a small sample, it may still have benefits. similarly, we are generally less inclined to also apply such intuitive logic to observational descriptive studies. this article will explain the rationale behind consideration of sample size for all types of research study, wherever data is collated to address a proposed research question.
-making statements based on the available sample
-to explore these concepts further, consider the chiari i-type headache study2. here 32/39 of individuals showed improvement post fmd, which gives a sample estimate of 82.1% improvement rate. a 95% confidence interval for the rate is (67, 91%), which means that we are 95% confident that at least 67% of the population (in this case, chiari i-type headache sufferers) will improve. if we wanted a more accurate estimate, then a larger sample size would give this. for example, suppose 1000 had been assessed and of these 821 had improved, then this would still be a rate of 82.1%, but the 95% confidence interval would now be (80, 84%), and we would therefore be 95% confident that at least 80% would improve. the data that we have is compatible with population estimates anywhere within the 95% confidence interval at the 5% significance level. any hypothesised population estimate that we test against outside that interval will yield a p-value < 0.05 indicating a statistically significant difference and non-compatibility. there is a conceptual distinction between significance tests, which determine compatibility with a pre-specified hypothesised value, and confidence intervals, which have no prior hypothesis and seek only to identify a range of compatibility. for some study types one approach may be favoured over the other. significance tests are generally considered when presenting the results of a randomised trial, whereas an observational study may omit this approach entirely depending on the precise research question.for example, suppose that prior to the study the authors ascertained that improvement in at least 75% of patients would warrant routine use of fmd. when testing against a hypothesised value of 75%, the sample of 39 would have yielded a p-value >0.05, a non-significant difference, indicating compatibility with 75% (as also shown by the confidence interval which contains this value). for the sample of 1000 (where the 95% confidence interval does not contain 75%), a significant result would be obtained (p<0.05), indicating non-compatibility.
-this example illustrates the correspondences in interpretation between p-values and confidence intervals. larger samples lead to narrower confidence intervals as they enable more population scenarios to be excluded. note that if interest lies on the difference between two groups, for example the heights of 17 year olds with and without coeliac disease, then the hypothesised population value will be zero (ie. no difference in average height between the two groups). the confidence interval will be for the difference in means (or percentages) between the two groups. if this interval excludes zero then the difference is statistically significant.
-what do power calculations have to do with this?
-studies don’t always give a definitive, or even very useful, answer to the research question posed. for example, if the aim of the headache study had been to determine whether the improvement rate was at least 75%, then the sample of 39 would not have been sufficient. even though performing the significance test gives a non-significant p-value >0.05, this does not necessarily mean that the improvement rate is lower than 75%. the 95% confidence interval (67, 91%) shows that the data are in fact compatible with an improvement rate as high as 91% (as well as values below 75%). we still don’t know whether fmd yields the necessary improvement rate to warrant usage as the answer given from the available sample is too imprecise. if a larger sample had been studied then the results would have been more conclusive. before starting a study a decision needs to be made as to whether it is feasible to collect a sufficiently sized sample to address the research question within a plausible time frame. power calculations can tell us how many subjects are needed to obtain a significant p-value if there is a difference of a given size from the hypothesised value (75% in example above). alternatively, power calculations can give the number needed to estimate a specified size of estimate (again 75% in above example) with given precision.
-finding the right number
-there are formulae, that are known as power calculations, which can be used to identify how many need to be sampled to make the estimates sufficiently precise and/or statistical significance likely. these formulae can readily be identified in appropriate statistics textbooks and articles,6-13 or via the many online calculators available, identified by a simple google search. hence in theory this is a relatively easy process – locate a formula or online calculator, plug in a few values and get a number of individuals/items/things that you should collect information on to answer your specified research question. however, there are decisions to make as to which formula and/or online calculator to use, what values to plug into this and how to properly interpret the number that magically comes out. the aim of this short paper is to guide the reader through some calculations so that they are better equipped to address these issues. formulae are given and
-these relate to those found on our online calculators webpage.14 (http://tinyurl.com/samplesizecasc ).
-using a formula/online calculator
-there are two types of sample size formulae. the first of these is aligned with significance testing and providing p-values, the second is akin to confidence intervals. although within the results you will probably present both of these, you need only do one type of sample size calculation. it depends on whether the emphasis in your study is on detecting a difference, or on estimating parameters with sufficient precision.
-in this paper, both types of formulae are presented for both binary and numeric outcomes. a binary outcome is one which takes one of two values. for example, the headache study had a binary outcome - headaches either improved or not and the study was interested to identify the percentage who improved3. by contrast, a numeric outcome is usually summarised by the mean of the values. for example, the average of the changes in rates of chest compressions for a clinician using two feedback methods.5
-often the population parameter being estimated is the difference between two distinct groups of patients (with and without disease; treated vs control). in this case it is the difference in percentages or means between groups for binary and numeric outcomes respectively that is of interest. the difference may be between distinct groups of individuals, for example the percentage difference between those with and without constipation1, or the difference in mean bmi between boys with coeliac disease or not4. alternatively, measurements may be paired, within individual or by taking matched pairs of individuals, and these differences summarised, for example the rate of chest compression when the same clinician uses visual feedback or not.5 formulae are shown for these scenarios.
-only formulae for binary outcomes and means are given in this paper. whilst these are the most commonly used and widely applicable examples of power calculations, it should be noted that formulae exist for many other scenarios, such as non-normal data, hazard ratios, odds ratios and/or hierarchical data. the principles of these formulae are similar although they relate to more complex situations, and are hence beyond the scope of this paper.
-terms to understand
-if the outcome is numeric, then an estimate will be needed of the variability of the measurements. this is expressed as the standard deviation (sd). larger values of the sd indicate greater variation.
-with a numeric outcome, we can express the difference we would like to detect as a standardised difference (sdiff), which is the difference divided by the sd. for example, if the sd of the change in rates of chest compression using two methods is 13, a difference of 8 will be equivalent to a sdiff of 0.6 (8/13).
-power is the ability of a study to detect a difference if it exists, and is usually set at 80, 90 or 95%. a power of 80% means that if the difference exists there is an 80% chance that this study will identify it. hence there is a one in 5 (20% = 100-80%) chance of not identifying the
-difference, so although a power of 80% is often used (and will require smaller numbers), it is generally better to have a higher power.
-significance level is usually set at 5%. this is the chance of falsely declaring a difference when the population value is actually as hypothesised.
-precision is a measure of how closely we would to estimate the true value. the width of the confidence interval is synonymous with precision. when using the confidence interval based formulae, the precision needs to be expressed in the same terms as the outcome (percentage or mean range) and is defined, in the formulae presented here (and associated weblink given above) as half the width of the resultant confidence interval. for example, to estimate the difference in average height of coeliac and non-coeliac 17 year olds to within ± 0.1, the precision is entered as 0.1 and we expect to obtain a confidence interval of width 0.2
-some power calculations
-some commonly used formula are presented here with examples. as explained above, the appropriate formula depends on whether it is a difference that is to be detected or a precision attained, and whether the outcome is numeric or categoric. the formulae are organised accordingly.
-detecting a difference
-1) numeric outcomes
-to detect a specified difference sdiff with 90% power between two groups at the 5% significance level requires 𝟐𝟏𝒔𝒅𝒊𝒇𝒇𝟐 in each group.
-reduce this number by a quarter for 80% power and add a quarter for 95% power.
-for example, the sd of heights of 17 year olds is known to be about 10cm and a study aims to detect a difference in average height of coeliac and non-coeliac 17 year olds of 0.5 cm or more. this is a sdiff of 0.5/10 = 0.05.
-the sample size required to do this is 210.052=8400 per group ie. a total of 16,800 17 year olds, half of whom have coeliac disease.
-to detect the same difference with 80% power, would require 6300 per group (8400 x 0.75). for 95% power, the numbers per group need to be increased to 10,500 (8400 x 1.25).
-paired data
-if there are pairs of observations and it is the mean difference between pairs that is to be compared to an average of zero (implying no difference), then half the sample size given above is the number of paired observations that need to be made. note that the sdiff must be based on the sd of the within pair differences, which will be different to the sd within each group as the pairing removes variation due to differences between groups (such as differences in age, sex, diet, exercise level, disease status).
-for example, with the rate of chest compressions crossover trial, patients are measured using different methods but it is the difference that is of interest ie. each individual contributes one difference to the dataset despite having 2 measures made. to detect a difference between methods of 0.4 sdiff with 90% power at the 5% significance level will require 10.50.42=66 clinicians to make paired measurements. to detect the difference with 80% or 95% power requires 50 and 83 clinicians respectively.
-2) binary outcomes
-the percentages in each group with the outcome are to be compared. if these are %1 and %2, then this difference can be detected with 90% power at the 5% significance level if the following number are assessed in each group: 𝟏𝟎.𝟓{%𝟏(𝟏𝟎𝟎−%𝟏)+%𝟐(𝟏𝟎𝟎−%𝟐)}(%𝟏−%𝟐)𝟐 as before, this number reduces by a quarter for 80% and increases by a quarter for 95% power.
-for example: i) the randomised trial of bcg vaccination aimed to detect a fall in the hospitalisation rate of 20% to 16% or lower. for 90% power, 5% significance, this requires:
-10.5{20(100−20)+16(100−16)}(20−16)2=10.5(1600+1344)42 = 1932 per group, a total of 3864 randomised to 2 equal sized groups (bcg vaccinated or not). ii) assuming 15% of normal children and 25% of children with constipation have psychological maladjustment, this difference can be identified with 90% power at the 5% significance level with two groups of 331 children (10.5{25(100−25)+15(100−15)}(25−15)2=10.5(1875+1275)100=331). for 80% power the sample could be reduced to 249 per group.
-notice that the above two examples relate to quite different study forms, a rct and an observational study, yet the sample size formula required is the same. the formula required depends on the outcome (in this case difference in percentages in two groups) and the power and significance required.
-being sufficiently precise divide the quantity stated by the precision required squared (ie. precision2) to give the sample size required to estimate with 95% confidence.
-1) numeric outcomes
-8sd2 per group
-for example, to estimate the difference in average height between coeliac and non-coeliac 17 year olds to within ± 1cm ( precision = 1), assuming a sd of 10 cm, will require 8 𝑥 10212=800 per group, total 1600.
-for a more precise estimate within ± 0.5 cm, requires a larger sample of 8 𝑥 1020.52=3200 per group, total 6400.
-paired data for paired measurements, the number of pairs required is half of the sample size per group as given above (ie. 4sd2 paired measurements). for example, to estimate the average difference between rates of compression using 2 methods to within ± 4, where the sd of the within pair differences is 13, requires 4 𝑥 13242=43 clinicians making paired assessments.
-2) binary outcomes to estimate a single percentage ( %1 ): 4 %1 (100 - %1) for example, if 80% of patients with chiari i-type headaches improve then this can be estimated to within ± 8% with 95% confidence using a sample of 4𝑥80(100−80)82=320 𝑥 20 64=100 patients.
-to estimate a difference in percentages (%1, %2) : 4 {%1 (100 - %1)+ %2 (100 - %2)} for example, to estimate a fall in percentages hospitalised when given bcg vaccination from 20% to 16% with a precision of 2.5% (ie. confidence interval width 5%) would require a sample of 4 𝑥 (20.80+16.84)2.52=117766.25=1885 per group, a total of 3770 children.
-unequal groups
-sometimes when two groups are to be compared it is not anticipated that they will be of equal size. for example, in the study to compare psychological maladjustment rates between adolescents with and without constipation, this was a survey across schools and the numbers in the two groups would not be expected to be equal. an imbalance can be adjusted for by increasing the overall sample size.7 if the above formulae estimate that n per group is required assuming equal sized groups, this is a total sample of 2n. to account for an imbalance between groups of k:1, the total sample size will need to be increased to 𝒏(𝟏+𝒌)𝟐𝟐𝒌 for example, in the constipation study it was anticipated that about 10% of the children would have constipation. this is an imbalance of 9:1 ie. for every 9 that are healthy, there will be 1 who is constipated and hence k=9. the previous formula showed that 249 per group were required to detect a difference of 10% in psychological maladjustment (15% and 25% per group) with 80% power and 5% significance. this is a total sample of 598. to adjust for the smaller numbers of constipated children, the sample needs to be increased to 249 𝑥 (1+9)22 𝑥 9=2490018=1384, which will consist of 138 with constipation (10%) and 1246 without.
-some points to note
-each of the formulae requires estimation of some quantities, for example the sd of the measures or the percentages in each group. this may appear nonsensical. for example, if we knew the percentages of bcg vaccinated and non-vaccinated who were hospitalised (to put into the formula), we would not be doing a study to estimate the percentage difference between the groups!
-sample size estimation is not a precise art. it can give guidance and ball-park figures, but if all information for exact calculation were available we would not need to do the study.
-this does not mean that sample size calculation is not worth doing. it is important to ensure that a study is likely to have a reasonable chance of yielding useful information. it is unlikely that we would have no idea of the likely range of estimates required and these can be used to inform calculation.
-the size of difference to be detected, sdiff or the difference in percentages, should be informed by an understanding of the minimal clinically important difference. it is important that all estimates are clinically plausible and suitably justified, with estimation never determined with reference to the available or preferred sample size.
-in the above calculations, the formulae give the minimum number required and in all cases, where this is not a whole number, has been rounded up. the number given is the minimum
-number for statistical analyses, consideration needs to be given when designing the study to the proportion of eligible participants that will refuse to take part and the likelihood of missing data and/or loss to follow up. these factors will impact on the feasibility of attaining the necessary sample size in the timeframe available. there are some relatively minor discrepancies with the sample size estimates given in the example papers and the numbers given here, but this does not indicate errors. all calculations agree to a reasonable extent, with differences attributable to differing approximations in the formulae used. there are often other factors that should be considered. for example, if we compare heights between those with and without coeliac disease, we may wish to adjust for differences in age, sex and ethnicity of children as well as other potential confounders associated with anthropometry. it is worth noting that in this case, taking into account these covariables will only serve to reduce overall variation (sd), so estimation not taking them into account will be conservative. the formulae given are based on a single primary outcome. if there are multiple comparisons, then the sample sizes will need to be larger. as noted earlier, only the most basic calculations are given in this paper, further formulae exist for more complex scenarios. no amount of increasing the sample size can account for biases in the data.
-“but i’m not doing a clinical trial so this is irrelevant”
-it’s a common misconception that power calculations are only required for clinical trials of the randomised controlled type variety. this is untrue. wherever sampled data is used to address a research question, the sample size needs to be adequate to give a useable answer to that question. in this paper, a variety of examples are given to illustrate applicability. the headache study was a single sample descriptive study, the differences in constipated and non-constipated an observational comparison.
-conclusions this article should provide a large enough sample of information to enable the reader to understand that sample size calculation should always be given consideration before commencing a study with 95% confidence. it should be borne in mind that having an adequate sample size is only one important facet of research design. samples selected should be representative and measures of outcome both reliable and valid. no amount of increasing the sample can correct for such deficits in design and doing so will merely result in obtaining a more precise estimate of the wrong answer, or the right answer to the wrong question.
-when preparing a manuscript for publication this journal refers authors equator guidelines15 which aim to ensure that whatever type of study is being undertaken all important statistical considerations are made. the majority of the guidelines make reference to sample size determination, including those for observational (strobe16) and diagnostic testing (stard17) studies. this paper explains the basis of sample size calculation with simple examples given as manual calculations, replicable via online calculators if preferred. sample size estimation need not be overly complex nor a black-box affair. the aim of this paper is to enhance adherence to guidelines and incorporation of this important element of research in practice.
+24 6 2 35
+0
+3 6 6 15
+0
+1 0 3 4
+10 29 12 11 62
+when analysed according to year of attendance, there was no consistent pattern of more
+usage either if the course was more recent nor with increasing time since receiving (figure 1).
+figure 1: temporal changes in responses to usage questions
+comments
+a total of 53 comments were left by 34 individuals. comments attached to the usage
+questions were most often given by those who responded ‘rarely’ or ‘no’.
+there were six comments following the question about usage of course material with half
+from individuals who cited rare usage but explained their lack of need rather than problems with
+the material. one person who said they never referred back to the course material commented that
+they disliked using excel, whereas another person who rarely used the course material stated
+difficulties following the concepts. the final comment was from someone who occasionally
+referred back to the course material (“2 colleagues have asked me to help them with a power
+calculation and one colleague borrowed the course file”).
+there were 8 comments given following the question about usage of the spreadsheets,
+including the person who disliked excel and reiterated their previous comment. two of those
+commenting on this question stated that they had gone on to use stata (occasional user) or g power
+(never user). two individuals said they occasionally used the excel sheets and gave positive
+comments. the remaining three comments were very positive despite recording rare (“however, i
+think that this material it's very useful for working with”) or no (“i think it will come useful when i
+need to calculate sample size“ and “while i am very glad to have them and the process of
+reviewing them certainly helped understanding, the design of of (stet) research does require the
+calculations used the spread sheet“)
+of the 10 comments left after the relevance and usefulness in work question, eight were
+from individuals who answered positively and the only minor criticism was that stata may have
+been better to use on the course(“it was interesting but using more traditional software such as
+stata would have been far more helpful.”). two comments were from the five who said the course
+was not of direct relevance and use to their work. they said, “i typically use a repeated measure
+design, which was not covered in the workshop” and “it will be useful when i get to design my own
+study and as i have been developing a proteomics method i have not needed to use the course
+info”.
+27 of the 62 respondents left an overall comment at the end of the survey. of these 16
+made a comment that was purely positive with half of these specifically mentioning the usefulness
+of the excel sheets. there was only one negative comment, from someone who attended the course
+in 2014, rarely used material or excel sheet and did not find the course relevant to their work they
+said they “did not learn anything as it was not explained”. however, a review of the opinio
+feedback from 2014 did not yield any such negativity. three comments raised the issue of
+alternative software, with 2 of these also praising the excel sheets. one user of gpower mentioned
+the need to quote software used for publication, “i currently use g*power3 as it is more flexible
+than the spreadsheets. although the spreadsheets were useful i wonder if sometime spent on
+recognised software would be useful. i say this because, as part of getting published i have had to
+quote the software i used and the parameters i put in to generate the sample size and using
+g*power3 the reviewers can check my work”. five comments were from individuals who would
+like more advanced topics covered: these were sample size calculations for repeat measures (2
+comments), non-inferiority trials (these are given a brief mention in the course), unspecified
+‘epidemiological studies’ and multiple groups (such as 5 ethnic groups). despite each formula
+included in the course having at least one fully worked through example of usage, one participant
+wanted more. their comment was “more worked examples with answers would be useful when
+returning to the spreadsheets to be sure of using the correct one and inputting the correct figures”.
+the final comment felt the course might be shorter, but seemed generally positive, “was good,
+could be shorter, or just a half-day for more advanced users of excel/stats -overall it was very
+useful, if anything, it highlighted an often neglected issue in science ”.
+discussion
+a substantial proportion of those responding to the survey continued to refer to the course
+material and/or to use the online excel spreadsheets for calculation. some of those that did not
+currently use the material still cited the potential usefulness and intended to do so. almost all felt
+that the course had been of direct relevance and useful to their work. there was no evidence of
+these findings being related to time since course attendance.
+strengths and limitations
+the response rate was low at 18.1%, but this is to be expected with a one shot survey of
+this type. online survey response rates below 10% are not uncommon and rates are declining due
+to the volume that individuals currently receive (van mol, 2017). those responding may have been
+biased towards those who did engage with the material. conversely though they may have been
+biased towards those who found the course not very helpful. however, low response does not
+necessarily infer bias (fosnacht et al, 2017).
+we had access to email addresses of course attendees over the last five years. all
+presentations of the course were led by the same teacher and the content of the course remained
+similar throughout. we were asking about current usage and so we could evaluate the long term
+effect of the course. the numbers of non-deliverable emails declined over time as would be
+expected, but the response rates within those whose emails which were delivered did not show a
+temporal pattern.
+if we consider the numbers responding positively from those where an email was delivered
+(ie. assume a worse-case scenario that those who did not respond rarely or never used the materials
+or spreadsheets) there remains 14% (95% ci (7.3, 25.3%)) of those who attended the course five
+years ago still gaining direct benefit occasionally or frequently from the course materials and the
+excel sheets. we can consider this a very conservative lower limit.
+conclusion
+this study gives evidence of a long term benefit of attendance at the one day sample size
+course, with over two thirds of respondents who had attended the course stating that they
+subsequently referred to the course materials frequently or occasionally. even the most
+conservative estimate shows a substantial proportion of attendees continuing to use the course
+material directly in their work after 5 years.
 
 <|EndOfText|>
 

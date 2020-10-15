@@ -9,6 +9,7 @@ import math
 import torch
 from LanguageModels import calculate_perplexity, load_lm
 from Preprocess import tokenize
+from tqdm import tqdm
 
 nltk.download('stopwords')
 
@@ -66,11 +67,11 @@ class FeatureExtractor:
 
         datasetReduced = [text.split() for text in dataset]
         datasetReduced = [' '.join(tokens[:min(self.maxWords, len(tokens))]) for tokens in datasetReduced]
-        for i_lm, lm_foldername in enumerate(self.LM_foldernames):
+        for i_lm, lm_foldername in tqdm(enumerate(self.LM_foldernames)):
             model, tokenizer = load_lm(lm_foldername, device)
             for ind, text in enumerate(datasetReduced):
                 ppl = calculate_perplexity(text, model, tokenizer, device)
-                X[ind, featuresInds[4] + i_lm] = min(ppl, 5000)  # TODO: check min value
+                X[ind, featuresInds[4] + i_lm] = min(ppl, 5000)  # TODO: check min ppl value
         return X
 
 # ======================================================================================================================
