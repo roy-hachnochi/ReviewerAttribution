@@ -1,9 +1,11 @@
 import torch
 import os
+import logging
 from transformers import TextDataset, GPT2Tokenizer, GPT2Config, GPT2LMHeadModel, Trainer, TrainingArguments, DataCollatorForLanguageModeling
 
 # ======================================================================================================================
 def calculate_perplexity(text, model, tokenizer, device):
+    logging.getLogger("transformers.tokenization_utils_base").setLevel(logging.ERROR)  # for warning suppression
     encodings = tokenizer(text, return_tensors='pt')
     max_length = model.config.n_positions
     stride = 256

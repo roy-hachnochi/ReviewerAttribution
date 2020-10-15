@@ -1,3 +1,78 @@
+the authors describe the development of model to predict fat mass in children and
+adolescents using ipd from multiple datasets. the authors are predicting a continuous
+outcome (which is surprisingly rare and a good example for others to follow), and the results
+from their model is impressive. the authors are generally following all the recommended
+approaches for developing and validating a prediction model using ipd from multiple
+datasets.
+the paper is well written and methodologically strong. my comments are minor and for
+clarification only.
+unless i missed this, i couldn’t see how the datasets were identified? through a search?
+datasets are quite old now – is that a concern? probably not.
+stepwise variable selection isn’t great. but i’m sure the authors are aware of this.
+complete case analysis, missing data omitted – but the % omitted is small and not likely to
+be of concern.
+clarification on the bootstrapping: to get an estimate of the optimism (bias), bootstrapping
+is used but it’s not clear to me what is being bootstrapped, the final model? important to
+replay or the variable selection procedures etc. otherwise this estimate of the bias is itself
+biased. but it appears some manual input during the model building, i.e. choosing the
+fractional polynomial terms can’t be automated. can the authors clarify, and if it is my hunch
+they are bootstrapping the final model, then raise the issue that the optimism they estimate
+could be biased.
+presumably, because of the previous point, is why the van houwelingen shrinkage factor
+was calculated and not the value through the bootstrapping?
+the resulting model shows impressive performance, with very high r-squared and
+impressive calibration. providing there is a clinical need for such models (beyond the
+expertise of this reviewer), then the authors have demonstrated their model has high
+predictive accuracy.
+figure 1 – should be square, the units of both axes are the same, yet the y-axis has been
+shrunk.
+
+
+<|EndOfText|>
+
+
+the authors have conducted an individual participant data meta-analysis, comprising
+15 cohorts from europe and the us. whilst this is an impressive amount of work, i
+felt there are a number of details that have been omitted by the authors, that need
+clarification and explanation.
+how were these cohorts were identified and gathered (obtaining data for an ipd
+meta-analysis is notoriously difficult) – are other cohorts available?
+were these cohorts identified by a search? what eligibility criteria were used to
+include the cohorts?
+can the authors describe how these data sets were requested, obtained, managed?,
+some details on data checking.
+it would be helpful if the authors consulted the prisma-ipd reporting guideline
+(jama 2015; 313: 1657-1665) to ensure all relevant bits of information have been
+reported.
+missing data were both omitted (if they had missing exposure or outcome data) and
+included for other variables using the missing indicator approach – why use this
+flawed approach (large literature discouraging this type of analysis – groenwold et al
+cmaj 2012; 184: 1265-1269)? i also couldn’t see (unless i missed it) what was
+missing and how much was missing. can the authors clarify? also why not consider
+multiple imputation.
+it would be useful to have some more basic information in this table on the cohorts,
+dates, country etc. this information is in the supplementary material, but you have
+to work to digest it and having it in an easily accessible format would help.
+table 1: presumably the +/indicates standard deviations, should avoid +/.
+reviewers have pointed out the incorrect hrs in the abstract, and on page 16 of the
+text.
+the models were adjusted for a number of covariates – were these all recorded in all
+cohorts and all on the same scale? i’d be surprised, if they were there covariates
+that were recorded as continuous for some cohorts whilst categorical for others? this
+is often the case? if so, how was this handled in the analyses? some information on
+harmonization of covariates.
+also were all covariates available in all cohorts? (or was this part of the inclusion
+criteria?) – if not how was this handled? systematically missing covariates is a
+problem with ipd ma – though methods to impute these type of covaraites have
+recently been published (resche-rignon et al 2013; stat med; 32: 4890-4905).
+it’s also usually recommended to conduct a risk of bias assessment – i could see no
+evidence of this.
+an assessment of the impact of moderator variables was carried – but why was this
+done by categorising age and bmi, why not retain on the continuous scale.
+
+
+<|EndOfText|>
+
 the authors have done a fine job summarizing the state of multimorbidity indices in the
 clinical literature. there are however a number of issues that if the authors can address
 will make the manuscript much stronger.
@@ -45,93 +120,6 @@ mortality), so might make it easier to read.
 
 <|EndOfText|>
 
-the authors have generally clarified most of my previous concerns.
-however, i still remain unclear regarding the inclusion of the prediction model in this paper. it is a
-distraction from the main aim of the paper, which is about diagnostic accuracy of ct angiography, mr
-angiography etc. the authors are reporting a lot of information which deserves to be split into two papers
-so that the message of the two aims do not become diluted.
-i fully appreciate that prospectively collecting data to externally validate is not a trivial exercise and will
-take time. but suggesting that the model should be used is problematic without demonstrating it ‘works’
-- particular when the sample size is moderate. was any attempt made to identify existing datasets that
-the model could be evaluated on? developing a prediction model is a separate study and deserves to be
-seen as such so that all aspects in deriving and internally validating the model can be explored in more
-detail than is currently described here (again adhering to the tripod statement for prediction models;
-www.bmj.com/content/350/bmj.g7594 and annals.org/article.aspx?articleid=2088542 - which the
-authors appear to have overlooked despite being previously pointed towards tripod). the actual
-development of the prediction model looks well done and thus just confirms my opinion that this should
-be a separate paper.
-as an aside presenting roc curves without labelling particular cut-offs on the curve is uninformative,
-labelling the curve can then allow sens/spec to be read off at particular cut-offs. the calibration plot is
-ok, but it is widely recommended to also superimpose a lowess calibration curve in addition to the
-observed and mean predicted probabilities at fifths of predicted risk. quintiles is incorrectly used, a
-quintile is a cut--point to create equal sized groups, the correct term if fifths (see the bmj stats notes,
-www.ncbi.nlm.nih.gov/pubmed/7950724). hosmer-lemeshow test is an uninformative measure and does
-not assess calibration, widely influence by sample size and grouping, but importantly doesn’t assess
-direction of magnitude of (mis)calibration). (see tripod explanation & elaboration paper for more
-details; annals.org/article.aspx?articleid=2088542).
-the sample size for the main diagnostic accuracy study has now been reported but included in a
-supplementary box. why? this should be in the main body of the paper and not tucked away in
-supplementary materials.
-
-<|EndOfText|>
-
-
-the authors have conducted an individual participant data meta-analysis, comprising
-15 cohorts from europe and the us. whilst this is an impressive amount of work, i
-felt there are a number of details that have been omitted by the authors, that need
-clarification and explanation.
-how were these cohorts were identified and gathered (obtaining data for an ipd
-meta-analysis is notoriously difficult) – are other cohorts available?
-were these cohorts identified by a search? what eligibility criteria were used to
-include the cohorts?
-can the authors describe how these data sets were requested, obtained, managed?,
-some details on data checking.
-it would be helpful if the authors consulted the prisma-ipd reporting guideline
-(jama 2015; 313: 1657-1665) to ensure all relevant bits of information have been
-reported.
-missing data were both omitted (if they had missing exposure or outcome data) and
-included for other variables using the missing indicator approach – why use this
-flawed approach (large literature discouraging this type of analysis – groenwold et al
-cmaj 2012; 184: 1265-1269)? i also couldn’t see (unless i missed it) what was
-missing and how much was missing. can the authors clarify? also why not consider
-multiple imputation.
-it would be useful to have some more basic information in this table on the cohorts,
-dates, country etc. this information is in the supplementary material, but you have
-to work to digest it and having it in an easily accessible format would help.
-table 1: presumably the +/indicates standard deviations, should avoid +/.
-reviewers have pointed out the incorrect hrs in the abstract, and on page 16 of the
-text.
-the models were adjusted for a number of covariates – were these all recorded in all
-cohorts and all on the same scale? i’d be surprised, if they were there covariates
-that were recorded as continuous for some cohorts whilst categorical for others? this
-is often the case? if so, how was this handled in the analyses? some information on
-harmonization of covariates.
-also were all covariates available in all cohorts? (or was this part of the inclusion
-criteria?) – if not how was this handled? systematically missing covariates is a
-problem with ipd ma – though methods to impute these type of covaraites have
-recently been published (resche-rignon et al 2013; stat med; 32: 4890-4905).
-it’s also usually recommended to conduct a risk of bias assessment – i could see no
-evidence of this.
-an assessment of the impact of moderator variables was carried – but why was this
-done by categorising age and bmi, why not retain on the continuous scale.
-
-
-<|EndOfText|>
-
-the authors have done a good job in revising their manuscript based on the reviewers
-comments. the additional information in the supplementary tables is a good addition, along
-with the authors recommendation on their potential usefulness is good.
-i probably don't fully agree with not using probast, but am happy with the authors
-response, and no further work needs to be done on this.
-i still think table 3 is far too long (10 pages!) and would urge you to split this up by type of
-index or what their aim is. contrary to the authors response, this would not increase the
-length, as no more information is being requested merely an alternative and easier to read
-presentation of this table. my comment is to improve readability.
-table 1 is not needed - either place into the text or merge into figure 1 (prisma flow
-diagram).
-
-<|EndOfText|>
-
 if this systematic review/meta-analysis contained non-overlapping studies, my comments would be relatively minor. however,
 the seer database was used in 11 of the included studies. the authors seem to have followed a sensible approach to avoid
 over-counting by selecting one study for each scenario, using various criteria defined on page 8. i’m not sure how differently i
@@ -157,6 +145,46 @@ reviews of ransdomised trials: a cross-sectional study. bmj open 2013; 3: e00334
 
 <|EndOfText|>
 
+the authors have generally clarified most of my previous concerns.
+however, i still remain unclear regarding the inclusion of the prediction model in this paper. it is a
+distraction from the main aim of the paper, which is about diagnostic accuracy of ct angiography, mr
+angiography etc. the authors are reporting a lot of information which deserves to be split into two papers
+so that the message of the two aims do not become diluted.
+i fully appreciate that prospectively collecting data to externally validate is not a trivial exercise and will
+take time. but suggesting that the model should be used is problematic without demonstrating it ‘works’
+- particular when the sample size is moderate. was any attempt made to identify existing datasets that
+the model could be evaluated on? developing a prediction model is a separate study and deserves to be
+seen as such so that all aspects in deriving and internally validating the model can be explored in more
+detail than is currently described here (again adhering to the tripod statement for prediction models;
+www.bmj.com/content/350/bmj.g7594 and annals.org/article.aspx?articleid=2088542 - which the
+authors appear to have overlooked despite being previously pointed towards tripod). the actual
+development of the prediction model looks well done and thus just confirms my opinion that this should
+be a separate paper.
+as an aside presenting roc curves without labelling particular cut-offs on the curve is uninformative,
+labelling the curve can then allow sens/spec to be read off at particular cut-offs. the calibration plot is
+ok, but it is widely recommended to also superimpose a lowess calibration curve in addition to the
+observed and mean predicted probabilities at fifths of predicted risk. quintiles is incorrectly used, a
+
+quintile is a cut--point to create equal sized groups, the correct term if fifths (see the bmj stats notes,
+www.ncbi.nlm.nih.gov/pubmed/7950724). hosmer-lemeshow test is an uninformative measure and does
+not assess calibration, widely influence by sample size and grouping, but importantly doesn’t assess
+direction of magnitude of (mis)calibration). (see tripod explanation & elaboration paper for more
+details; annals.org/article.aspx?articleid=2088542).
+the sample size for the main diagnostic accuracy study has now been reported but included in a
+supplementary box. why? this should be in the main body of the paper and not tucked away in
+supplementary materials.
+
+<|EndOfText|>
+
+the authors have made substantial changes based on earlier comments.
+minor: there is still only a partial risk of bias assessment - i.e. only 3 components of the cochrane rob tool is being
+assessed - domains “incomplete outcome data” and “selective reporting” have been assessed - why not - in the
+response, it is mentioned that only the first 3 are being assessed, why are't the other 2 domains of relevant?
+
+also table 3 'quality of trial' column should be re-labelled as 'risk of bias'
+
+<|EndOfText|>
+
 the authors have generally responded to my earlier comments and the addition of more
 contemporary data has resolved some of the problems and this is a good addition to the
 analysis.
@@ -172,82 +200,36 @@ table 1 is improved by including n, but have n at the top of the column under 'o
 
 <|EndOfText|>
 
-the authors have done an excellent job in revising what was already a good manuscript. i have 2
-comments. (1) could the authors mention they have reported according to tripod (and cite) in the
-manuscript, they completed the checklist. (2) the calibration plots, the authors have added a lowess
-smoother (at my request), but i'm suspicious as to whether this has been implemented correctly. the
-sample size isn't huge, yet the line goes exactly (or appears to) through all points. i wouldn't expect this,
-unless the author have fit a smoother to the 10 points - which is incorrect, as it should be on the individual
-patients predictions/outcome.
+the authors have done a good job in revising their manuscript based on the reviewers
+comments. the additional information in the supplementary tables is a good addition, along
+with the authors recommendation on their potential usefulness is good.
+i probably don't fully agree with not using probast, but am happy with the authors
+response, and no further work needs to be done on this.
+i still think table 3 is far too long (10 pages!) and would urge you to split this up by type of
+index or what their aim is. contrary to the authors response, this would not increase the
+length, as no more information is being requested merely an alternative and easier to read
+presentation of this table. my comment is to improve readability.
+table 1 is not needed - either place into the text or merge into figure 1 (prisma flow
+diagram).
 
 <|EndOfText|>
 
-the authors have satisfactorily responded to my concerns. no outstanding issues.
+the is a solid, well done piece of work. i'm not sure i entirely agree with the authors about the risk of bias
+assessment and it would've been preferable to have done a quips rob assessment upfront - however, i
+think what the authors have done is satisfactory and i have no outstanding queries.
 
 <|EndOfText|>
 
-the authors have responded to some of my initial concerns, however, a few still remain,
-the paper is still overly complex in places (including in the appendix), with many analyses
-unnecessarily presented.
-the model: table 2b presents the model (i believe) – however if i wanted to validate this
-model on my own data i can’t – there is no baseline survival at 7 years. in the footnote to
-this tables, some of the acronyms are no longer needed (e.g., bca).
-number of candidate predictors. i appreciate the authors clarifying their approach, but
-whether you’ve examined their univariate association or adjusted for one or more
-variables, you’ve still examined 60 variables? whilst i still disagree with the use of
-univariate associations with the outcome as a procedure to select variables – the ultimate
-test is if the model works in an external validation – but maybe in the discussion this could
-be raised – statistical significance as a criteria to select variable is not ideal.
-
-internal validation: in their response, the authors have clarified that they have repeated
-the variable selection/model building process in each of the bootstrap samples – but this is
-not reflected in the manuscript.
-table 2b. clarification. the model contains 8 variables. in the footnote it states “the final
-multivariable model was adjusted with the 8 variables that remained independently
-associated with allograft survival.” – this is unclear. if no additional variables are being
-adjusted for, i.e., the model only contains those 8 variables, then there is no need to say
-the final model was adjusted for 8 variables – as it implies there is a final model (with x
-variables) and an additional number of variables have then been adjusted for.
-calibration plots. calibration in the derivation cohorts is not particularly interesting, as they
-will always appear well calibrated. can the authors clarify how the calibration plots were
-created. the calibration in the validation cohorts looks too good? was this carried out using
-the val.surv function in the rms library in r and thus accounting for censoring. i’m also not
-sure what the black line (observed events) is? a calibration plot is a plot of observed
-against predictions, so not sure what the black line is.
-clarification is also needed on how the calibration slope and intercept have been calculated
-(again in the context of a cox model) – it’s straightforward for a logistic model, but less so
-for a cox model. the authors have stated they have been estimated from a linear
-regression, this is not the correct way to estimate these values.
-i’m still struggling to see the usefulness of the risk groups. those either side of a cutpoint
-say from risk strata 1 and 2 will have very similar risk, but by categorising this risk they
-will treated differently.
-the presentation of the model in the appendix is still in a format that is unhelpfully
-complex – this should be simplified. i still don’t understand why this needs to be
-normalised on 0-5. provide the baseline survival at 7 years, and then the predictive
-probabilities from the model will then range from 0 to 1, and thus more easily understood.
-the interface the authors have created does this, it creates a risk from 0 to 100%.
-
-
-<|EndOfText|>
-
-an interesting and generally well written paper. i have a few comments that the authors should seriously consider to
-improve their analyses.
-in the methods the authors that labs will be different (time, cytology tests) therefore, i wonder why this wasn’t
-accounted for this in the analysis. it would’ve been relatively straight forward to account for this clustering, and this
-would strengthen the analysis and results.
-it would be nice to know the frequency in which these tests have been administered has changed over time, as i feel
-(as noted above) this will need to be factored into the analysis somehow. this information is presented in the
-rozmeijer et al (cancer causes control 2016) paper, and should be also included and summarised here to indicate
-what is happening.
-i find some of the terminology hard to follow. nice clear definitions of screen-detected, and overall interval, and
-clinically detected cancer would be useful (unless i missed it).
-some clarification on what was imputed (table 1 indicate ses and screening region had some missing data – is that
-all?). also how were the 10 imputations combined, there is no information on this and what was done.
-is this a conventional way to quantify ses in the netherlands? seems rather crude in that ~80% of the cohort are
-classed as ‘middle’, doesn’t seem that ses measured this coarsely could be particularly informative.
-choosing confounders based on statistical significance isn’t a particular useful approach. it would be preferable to
-identify potential confounders before the analysis and include them in the model regardless of whether they are
-statistically significant or not.
+the authors have addressed all my concerns.
+regarding the calibration plots, the authors have concern that the revised plots may be difficult to
+interpret, primarily the miscalibration at the higher end of risks. personally i would truncate these plots,
+the authors can confirm, but there will likely be very few events at this extreme (i.e. not much data, and
+therefore the model doesn't appear to work as well). so 1a and 1b have the plot region 0 to 0.3 on both x
+and y-axes and 1c and 1.d, have the plot region 0 to 0.2 on both axes. the authors can make a
+comment in the paper that there is some miscalibration at the higher end - this is the region where
+miscalibration is probably less important anyway, as they are high risk anyway.
+presenting merely the calibration plots in groups of ten equal size (which is common practice), some
+would (and do) argue could be misleading, because of the arbitrarily grouping of patients...
 
 <|EndOfText|>
 
@@ -376,29 +358,68 @@ date sent: 14-apr-2016
 
 <|EndOfText|>
 
-table 1 reports the baseline characteristics of the propensity score match cohort. it’s usually good
-practice to report baseline characteristics of the unmatched and matched populations, along with a
-metric to show balance across each of the baseline characteristics (i.e. an absolute standardized
-difference; not p-values).
-the methods are somewhat vague. more information is required on the matching procedure. simply
-saying it was 1:1 is vague, what was the caliper width, did they use a greedy matching algorithm etc…no
-mention is made in the methods (under ‘propensity scores’) as to how balance was assessed after
-matching. there are 7.6 million courses of penicillin, did the authors not consider 1:2 or 1:3 matching, to
-make use of more data?
-i could not see any mention of missing data/data completeness. there are lots of covariates (table s2).
-how was missing data handled? presumably they were omitted, which may be a concern. but we have no
-idea how many were omitted.
-the unit of analysis is course of fluoroquinolone/penicillin, not at the patient level. so how many patients
-did ~2 million courses cover? so in table 1, if n is number of courses and not number of patients, what
-is ‘male sex’, because won’t there be over counting (i.e. if one man has 5 courses, has is this counted in
-the number of men in table 1, as 5 or 1?), because of multiple courses per patient? similar comment to
-age. the analysis uses appropriate methods for multiple courses per patient (i.e. the gee analysis), but
-i’m unclear as to whether one needs to balance at the patient or the course level. i think the reader
-needs to be reassured that the two populations are comparable. can the authors clarify.
-the two countries are quite different in terms of prescribing. sweden had nearly double the
-flouroquinolone courses than denmark, but the reverse for penicillin (denmark had over double the
-number of courses compared to sweden). does this matter for balancing? can the authors comment on
-this, and satisfy the reader that this is not a concern.
+an interesting and generally well written paper. i have a few comments that the authors should seriously consider to
+improve their analyses.
+in the methods the authors that labs will be different (time, cytology tests) therefore, i wonder why this wasn’t
+accounted for this in the analysis. it would’ve been relatively straight forward to account for this clustering, and this
+would strengthen the analysis and results.
+it would be nice to know the frequency in which these tests have been administered has changed over time, as i feel
+(as noted above) this will need to be factored into the analysis somehow. this information is presented in the
+rozmeijer et al (cancer causes control 2016) paper, and should be also included and summarised here to indicate
+what is happening.
+i find some of the terminology hard to follow. nice clear definitions of screen-detected, and overall interval, and
+clinically detected cancer would be useful (unless i missed it).
+some clarification on what was imputed (table 1 indicate ses and screening region had some missing data – is that
+all?). also how were the 10 imputations combined, there is no information on this and what was done.
+is this a conventional way to quantify ses in the netherlands? seems rather crude in that ~80% of the cohort are
+classed as ‘middle’, doesn’t seem that ses measured this coarsely could be particularly informative.
+choosing confounders based on statistical significance isn’t a particular useful approach. it would be preferable to
+identify potential confounders before the analysis and include them in the model regardless of whether they are
+statistically significant or not.
+
+<|EndOfText|>
+
+the authors have responded to some of my initial concerns, however, a few still remain,
+the paper is still overly complex in places (including in the appendix), with many analyses
+unnecessarily presented.
+the model: table 2b presents the model (i believe) – however if i wanted to validate this
+model on my own data i can’t – there is no baseline survival at 7 years. in the footnote to
+this tables, some of the acronyms are no longer needed (e.g., bca).
+number of candidate predictors. i appreciate the authors clarifying their approach, but
+whether you’ve examined their univariate association or adjusted for one or more
+variables, you’ve still examined 60 variables? whilst i still disagree with the use of
+univariate associations with the outcome as a procedure to select variables – the ultimate
+test is if the model works in an external validation – but maybe in the discussion this could
+be raised – statistical significance as a criteria to select variable is not ideal.
+
+internal validation: in their response, the authors have clarified that they have repeated
+the variable selection/model building process in each of the bootstrap samples – but this is
+not reflected in the manuscript.
+table 2b. clarification. the model contains 8 variables. in the footnote it states “the final
+multivariable model was adjusted with the 8 variables that remained independently
+associated with allograft survival.” – this is unclear. if no additional variables are being
+adjusted for, i.e., the model only contains those 8 variables, then there is no need to say
+the final model was adjusted for 8 variables – as it implies there is a final model (with x
+variables) and an additional number of variables have then been adjusted for.
+calibration plots. calibration in the derivation cohorts is not particularly interesting, as they
+will always appear well calibrated. can the authors clarify how the calibration plots were
+created. the calibration in the validation cohorts looks too good? was this carried out using
+the val.surv function in the rms library in r and thus accounting for censoring. i’m also not
+sure what the black line (observed events) is? a calibration plot is a plot of observed
+against predictions, so not sure what the black line is.
+clarification is also needed on how the calibration slope and intercept have been calculated
+(again in the context of a cox model) – it’s straightforward for a logistic model, but less so
+for a cox model. the authors have stated they have been estimated from a linear
+regression, this is not the correct way to estimate these values.
+i’m still struggling to see the usefulness of the risk groups. those either side of a cutpoint
+say from risk strata 1 and 2 will have very similar risk, but by categorising this risk they
+will treated differently.
+the presentation of the model in the appendix is still in a format that is unhelpfully
+complex – this should be simplified. i still don’t understand why this needs to be
+normalised on 0-5. provide the baseline survival at 7 years, and then the predictive
+probabilities from the model will then range from 0 to 1, and thus more easily understood.
+the interface the authors have created does this, it creates a risk from 0 to 100%.
+
 
 <|EndOfText|>
 
@@ -447,75 +468,6 @@ tripod guidelines for reporting clinical prediction models.
 
 <|EndOfText|>
 
-sample size: no rationale for the effect size (why 13%?), what is this based on? no citations to where
-the estimates for the sample size calculation have come from, neither in the paper nor the protocol.
-13% is also twice as large as the effect size reported in the introduction in the chinese rct. can the
-authors provide the missing information. also can the authors clarify the significance level used in the
-calculation? if 0.01 as specified in the paper, then i am unable to reproduce the numbers, if 0.05 (as
-specified in the protocol), then i can. i presume the 0.01 in the paper (page 8) is a typo.
-table 1: would be useful to include the minimization factors in this table.
-table 2, p values should be removed.
-table 4: can the authors confirm all these outcomes were pre-specified? from a look at the trial registry
-and the protocol, it appears not. e.g., the maternal complications, prematurity. for clarity it would be
-easier if all the secondary outcomes were reported in the same table (for the itt analysis).
-i couldn’t see the results from the qol?
-i’m not sure i agree with the conclusion, based on the findings of this trial. ’currently, there is no
-indication supporting the wide use of a freeze-all strategy in the broad population of ivf patients.
-present evidence suggests that the freeze-all strategy should be adapted as part of individualised patient
-care only in women with pcos or those at increased risk of ohss and not in the general ivf population.’
-there is also no discussion on costs-effectiveness (a pre-specified outcome). (note from dr. loder: if
-you plan to publish a separate ce analysis, it is fine to simply state that this will be reported in a
-separate paper.)
-
-additional questions:
-<b><em>the bmj</em> uses compulsory open peer review. your name and institution will be included
-with your comments when they are sent to the authors. if the manuscript is accepted, your review,
-name and institution will be published alongside the article.</b>
-
-if this manuscript is rejected from <em>the bmj</em>, it may be transferred to another bmj journal
-along with your reviewer comments. if the article is selected for publication in another bmj journal,
-depending on the editorial policy of the journal your review may also be published. you will be contacted
-for your permission before this happens.
-
-for more information, please see our <a href="https://www.bmj.com/about-bmj/resources-reviewers"
-target="_blank">peer review terms and conditions</a>.
-
-<b>please confirm that you understand and consent to the above terms and conditions.</b>: i consent
-to the publication of this review
-please enter your name: gary collins
-job title: professor of medical statistics
-institution: university of oxford
-reimbursement for attending a symposium?: no
-a fee for speaking?: no
-a fee for organising education?: no
-funds for research?: no
-funds for a member of staff?: no
-fees for consulting?: no
-have you in the past five years been employed by an organisation that may
-in any way gain or lose financially from the publication of this paper?: no
-do you hold any stocks or shares in an organisation that may in any way
-gain or lose financially from the publication of this paper?: no
-if you have any competing interests <a
-href='http://www.bmj.com/about-bmj/resources-authors/forms-policies-and-checklists/declaration-co
-mpeting-interests'target='_new'> (please see bmj policy) </a>please declare them here:
-
-
-
-<|EndOfText|>
-
-the authors have addressed all my concerns.
-regarding the calibration plots, the authors have concern that the revised plots may be difficult to
-interpret, primarily the miscalibration at the higher end of risks. personally i would truncate these plots,
-the authors can confirm, but there will likely be very few events at this extreme (i.e. not much data, and
-therefore the model doesn't appear to work as well). so 1a and 1b have the plot region 0 to 0.3 on both x
-and y-axes and 1c and 1.d, have the plot region 0 to 0.2 on both axes. the authors can make a
-comment in the paper that there is some miscalibration at the higher end - this is the region where
-miscalibration is probably less important anyway, as they are high risk anyway.
-presenting merely the calibration plots in groups of ten equal size (which is common practice), some
-would (and do) argue could be misleading, because of the arbitrarily grouping of patients...
-
-<|EndOfText|>
-
 the authors have generally clarified most of my previous concerns.
 however, i still remain unclear regarding the inclusion of the prediction model in this paper. it is a
 distraction from the main aim of the paper, which is about diagnostic accuracy of ct angiography, mr
@@ -535,8 +487,7 @@ as an aside presenting roc curves without labelling particular cut-offs on the c
 labelling the curve can then allow sens/spec to be read off at particular cut-offs. the calibration plot is
 ok, but it is widely recommended to also superimpose a lowess calibration curve in addition to the
 observed and mean predicted probabilities at fifths of predicted risk. quintiles is incorrectly used, a
-
-quintile is a cut--point to create equal sized groups, the correct term if fifths (see the bmj stats notes,
+quintile is a cut--point to create equal sized groups, the correct term if fifths (see the bmj stats notes,
 www.ncbi.nlm.nih.gov/pubmed/7950724). hosmer-lemeshow test is an uninformative measure and does
 not assess calibration, widely influence by sample size and grouping, but importantly doesn’t assess
 direction of magnitude of (mis)calibration). (see tripod explanation & elaboration paper for more

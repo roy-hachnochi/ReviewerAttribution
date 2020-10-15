@@ -22,7 +22,7 @@ class FeatureExtractor:
         self.fivegram = WordHistogram()
         self.LM_foldernames = []
         self.nTokens = []
-        self.ignore = ignore
+        self.ignore = [] if ignore is None else ignore
         self.maxWords = maxWords
         self.nFeatures = 0
 
@@ -64,9 +64,11 @@ class FeatureExtractor:
             X[ind, featuresInds[2]:featuresInds[3]] = self.fourgram.transform(corpusFour)
             X[ind, featuresInds[3]:featuresInds[4]] = self.fivegram.transform(corpusFive)
 
+        datasetReduced = [text.split() for text in dataset]
+        datasetReduced = [' '.join(tokens[:min(self.maxWords, len(tokens))]) for tokens in datasetReduced]
         for i_lm, lm_foldername in enumerate(self.LM_foldernames):
             model, tokenizer = load_lm(lm_foldername, device)
-            for ind, text in enumerate(dataset):
+            for ind, text in enumerate(datasetReduced):
                 ppl = calculate_perplexity(text, model, tokenizer, device)
                 X[ind, featuresInds[4] + i_lm] = min(ppl, 5000)  # TODO: check min value
         return X

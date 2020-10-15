@@ -36,7 +36,7 @@ if __name__ == '__main__':
     # extract features:
     print('Extracting features...')
     feature_ext = FeatureExtractor(ignore=ignore)
-    feature_ext.fit(dataset_train, nTokens, LM_foldername=LM_folderName, labels=labels_train)
+    feature_ext.fit(dataset_train, nTokens, LM_foldername=LM_folderName, labels=list(labels_to_class_dict))
     print(feature_ext.unigram.frequentWords)
     print(feature_ext.bigram.frequentWords)
     print(feature_ext.trigram.frequentWords)
