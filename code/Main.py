@@ -16,6 +16,7 @@ if __name__ == '__main__':
     LM_folderName = "./Language_Models/articles_all/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
     results_folderName = "./results/reviewer_classification/"
     results_fileName = "all_features.csv"
+    results_labels_fileName = "all_labels.csv"
     saveFeatures = False
     plotFeatures = False
     plotConfMat = True
@@ -58,7 +59,7 @@ if __name__ == '__main__':
     for label in labels_to_class_dict.values():
         X = X_train[y_train == label, :]
         y = y_train[y_train == label]
-        clusters = OPTICS(min_samples=min_samples).fit_predict(X)  # TODO: choose min_samples
+        clusters = OPTICS(min_samples=min_samples).fit_predict(X)
         print(clusters)  # TODO: for debug, remove later
         X_train_inliers.append(X[clusters != -1, :])
         y_train_inliers.append(y[clusters != -1])
@@ -68,6 +69,7 @@ if __name__ == '__main__':
     # plot example of features:
     if saveFeatures:
         np.savetxt(results_folderName + results_fileName, np.concatenate([X_train, X_test], axis=0), delimiter=",")
+        np.savetxt(results_folderName + results_labels_fileName, np.concatenate([y_train, y_test], axis=0), delimiter=",")
     if plotFeatures:
         plot_features(X_train[3, :], nTokens)
         plot_features_compare(X_train, y_train, nTokens)

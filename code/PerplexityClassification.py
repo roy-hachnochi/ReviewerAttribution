@@ -50,10 +50,8 @@ if __name__ == '__main__':
             # train svm:
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=(1-pTrain), random_state=i)
             scaler = preprocessing.StandardScaler().fit(X_train)  # TODO: maybe remove scaling
-            # X_train_scaled = scaler.transform(X_train)
-            # X_test_scaled = scaler.transform(X_test)
-            X_train_scaled = X_train
-            X_test_scaled = X_test
+            X_train_scaled = scaler.transform(X_train)
+            X_test_scaled = scaler.transform(X_test)
             clf = svm.SVC(class_weight='balanced')
             clf.fit(X_train_scaled, y_train)
 
@@ -80,8 +78,8 @@ if __name__ == '__main__':
     eps_argmin = stats.norm.ppf(1 - a / 2) * (np.array(acc_std_argmin) / np.sqrt(nSamples))
     eps_svm = stats.norm.ppf(1 - a / 2) * (np.array(acc_std_svm) / np.sqrt(nSamples))
     plt.figure()
-    plt.errorbar(maxWords_list, acc_mean_argmin, yerr=eps_argmin, fmt='o-b')
-    plt.errorbar(maxWords_list, acc_mean_svm, yerr=eps_svm, fmt='o-r')
+    plt.errorbar(maxWords_list, acc_mean_argmin, yerr=eps_argmin, fmt='o-b', label="Argmin")
+    plt.errorbar(maxWords_list, acc_mean_svm, yerr=eps_svm, fmt='o-r', label="SVM")
     plt.title('Accuracy vs. Text Length (Perplexity Only)')
     plt.xlabel('Max Number of Words')
     plt.ylabel('Accuracy')
