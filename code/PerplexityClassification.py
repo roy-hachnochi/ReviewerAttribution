@@ -3,6 +3,7 @@ from FeatureExtractor import *
 from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 from sklearn import svm
+from scipy import stats
 import numpy as np
 import os
 
@@ -12,8 +13,9 @@ if __name__ == '__main__':
     LM_folderName = "./Language_Models/toy_60/"
     results_folderName = "./results/ppl_classification/toy/"
     pTrain = 0.6
-    # maxWords_list = [200, 500, 1000, 2000, 5000, 7000, 10000, 50000, 80000, 100000, 200000]
-    maxWords_list = [8000, np.inf]
+    maxWords_list = [200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900]
+    nSamples = 100  # number of times to calculate accuracy, used for creating confidence interval
+    a = 0.05  # confidence interval
 
     # ==================================================================================================================
     os.makedirs(results_folderName, exist_ok=True)
@@ -28,8 +30,10 @@ if __name__ == '__main__':
     class_to_labels_dict = list(set(labels))
     labels_to_class_dict = {label: i for i, label in enumerate(class_to_labels_dict)}
 
-    acq_list_svm = []
-    acq_list_argmin = []
+    acc_mean_argmin = []
+    acc_mean_svm = []
+    acc_std_argmin = []
+    acc_std_svm = []
     for ind, maxWords in enumerate(maxWords_list):
         # extract features:
         print('{}: Extracting features...'.format(ind))
@@ -39,34 +43,48 @@ if __name__ == '__main__':
         y = np.array([labels_to_class_dict[label] for label in labels])
         np.savetxt(results_folderName + "ppl_{}_words.csv".format(maxWords), X, delimiter=",")
 
-        # train svm:
-        print('{}: Training Model...'.format(ind))
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=(1-pTrain), random_state=0)
-        scaler = preprocessing.StandardScaler().fit(X_train)
-        X_train_scaled = scaler.transform(X_train)
-        X_test_scaled = scaler.transform(X_test)
-        clf = svm.SVC(class_weight='balanced')
-        clf.fit(X_train_scaled, y_train)
-
-        # get prediction and calculate metrics:
         print('{}: Classifying...'.format(ind))
-        y_pred_argmin = np.argmin(X_test, axis=1)
-        y_pred_svm = clf.predict(X_test_scaled)
-        accuracy_argmin = (y_pred_argmin == y_test).mean()
-        accuracy_svm = (y_pred_svm == y_test).mean()
-        print('{0}: Argmin Accuracy: {1} | SVM Accuracy: {2}'.format(ind, accuracy_argmin, accuracy_svm))
-        acq_list_argmin.append(accuracy_argmin)
-        acq_list_svm.append(accuracy_svm)
+        accuracy_argmin_list = []
+        accuracy_svm_list = []
+        for i in range(nSamples):
+            # train svm:
+            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=(1-pTrain), random_state=i)
+            scaler = preprocessing.StandardScaler().fit(X_train)  # TODO: maybe remove scaling
+            # X_train_scaled = scaler.transform(X_train)
+            # X_test_scaled = scaler.transform(X_test)
+            X_train_scaled = X_train
+            X_test_scaled = X_test
+            clf = svm.SVC(class_weight='balanced')
+            clf.fit(X_train_scaled, y_train)
 
-    np.savetxt(results_folderName + "ppl_acc_argmin_toyProblem.csv", np.array(acq_list_argmin), delimiter=",")
-    np.savetxt(results_folderName + "ppl_acc_svm_toyProblem.csv", np.array(acq_list_svm), delimiter=",")
+            # get prediction and calculate metrics:
+            y_pred_argmin = np.argmin(X_test, axis=1)
+            y_pred_svm = clf.predict(X_test_scaled)
+            accuracy_argmin = (y_pred_argmin == y_test).mean()
+            accuracy_svm = (y_pred_svm == y_test).mean()
+            accuracy_argmin_list.append(accuracy_argmin)
+            accuracy_svm_list.append(accuracy_svm)
+
+        acc_mean_argmin.append(np.mean(accuracy_argmin_list))
+        acc_mean_svm.append(np.mean(accuracy_svm_list))
+        acc_std_argmin.append(np.std(accuracy_argmin_list))
+        acc_std_svm.append(np.std(accuracy_svm_list))
+        print('{0}: Argmin Accuracy: {1} | SVM Accuracy: {2}'.format(ind, acc_mean_argmin[-1], acc_mean_svm[-1]))
+
+    np.savetxt(results_folderName + "ppl_acc_mean_argmin_unscaled.csv", np.array(acc_mean_argmin), delimiter=",")
+    np.savetxt(results_folderName + "ppl_acc_mean_svm_unscaled.csv", np.array(acc_mean_svm), delimiter=",")
+    np.savetxt(results_folderName + "ppl_acc_std_argmin_unscaled.csv", np.array(acc_std_argmin), delimiter=",")
+    np.savetxt(results_folderName + "ppl_acc_std_svm_unscaled.csv", np.array(acc_std_svm), delimiter=",")
+
+    # plot results:
+    eps_argmin = stats.norm.ppf(1 - a / 2) * (np.array(acc_std_argmin) / np.sqrt(nSamples))
+    eps_svm = stats.norm.ppf(1 - a / 2) * (np.array(acc_std_svm) / np.sqrt(nSamples))
     plt.figure()
-    plt.plot(maxWords_list, acq_list_argmin, 'o-b', label="argmin")
-    plt.plot(maxWords_list, acq_list_svm, 'o-r', label="SVM")
+    plt.errorbar(maxWords_list, acc_mean_argmin, yerr=eps_argmin, fmt='o-b')
+    plt.errorbar(maxWords_list, acc_mean_svm, yerr=eps_svm, fmt='o-r')
     plt.title('Accuracy vs. Text Length (Perplexity Only)')
     plt.xlabel('Max Number of Words')
     plt.ylabel('Accuracy')
     plt.legend()
     plt.grid()
     plt.show()
-    print()
