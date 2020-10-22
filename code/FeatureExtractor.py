@@ -44,6 +44,7 @@ class FeatureExtractor:
             self.LM_foldernames = [LM_foldername + label for label in labels]
         self.nTokens = nTokens
         self.nFeatures = sum(self.nTokens) + len(self.LM_foldernames)
+        # self.nFeatures = sum(self.nTokens) + 1  # TODO: decide between argmin and vector for ppl
 
     def transform(self, dataset):
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -67,11 +68,14 @@ class FeatureExtractor:
 
         datasetReduced = [text.split() for text in dataset]
         datasetReduced = [' '.join(tokens[:min(self.maxWords, len(tokens))]) for tokens in datasetReduced]
+        # ppl_mat = np.zeros((X.shape[0], len(self.LM_foldernames)))  # TODO: decide between argmin and vector for ppl
         for i_lm, lm_foldername in tqdm(enumerate(self.LM_foldernames)):
             model, tokenizer = load_lm(lm_foldername, device)
             for ind, text in enumerate(datasetReduced):
                 ppl = calculate_perplexity(text, model, tokenizer, device)
-                X[ind, featuresInds[4] + i_lm] = min(ppl, 5000)  # TODO: check min ppl value
+                X[ind, featuresInds[4] + i_lm] = ppl  # TODO: check min ppl value
+                # ppl_mat[ind, i_lm] = ppl  # TODO: decide between argmin and vector for ppl + return min with 5000 when svm only
+        # X[:, -1] = np.argmin(ppl_mat, axis=1)  # TODO: decide between argmin and vector for ppl
         return X
 
 # ======================================================================================================================
