@@ -15,18 +15,18 @@ if __name__ == '__main__':
     min_samples = 7  # minimum samples for clustering algorithm
     LM_folderName = "./Language_Models/articles_all/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
     results_folderName = "./results/reviewer_classification/"
-    results_fileName = "all_features.csv"
-    results_labels_fileName = "all_labels.csv"
+    results_fileName = "reviews_features.csv"
+    results_labels_fileName = "reviews_labels.csv"
     saveFeatures = False
     plotFeatures = False
     plotConfMat = True
-    isSplitTrainTest = False
+    isSplitTrainTest = True
 
     # load and preprocess dataset:
     print('Preprocessing Data...')
     if isSplitTrainTest:
-        # dataset, labels = get_test("./datasets/dataset_bmj/test")
-        dataset, labels = get_train("./datasets/dataset_bmj/train")
+        dataset, labels = get_test("./datasets/dataset_bmj/test")
+        # dataset, labels = get_train("./datasets/dataset_bmj/train")
         dataset_train, labels_train, dataset_test, labels_test = test_train_split(dataset, labels, pTrain)
     else:
         dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
