@@ -12,12 +12,12 @@ if __name__ == '__main__':
     nTokens = [50, 70, 100, 30, 15]  # number of tokens for each n-gram histogram
     ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]  # tokens to ignore
     pTrain = 0.7  # train-test split
-    min_samples = 7  # minimum samples for clustering algorithm
-    LM_folderName = "./Language_Models/articles_all/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
+    min_samples = 5  # minimum samples for clustering algorithm
+    LM_folderName = "./Language_Models/toy_60/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
     results_folderName = "./results/reviewer_classification/"
-    results_fileName = "reviews_features.csv"
-    results_labels_fileName = "reviews_labels.csv"
-    saveFeatures = False
+    results_fileName = "toy_features.csv"
+    results_labels_fileName = "toy_labels.csv"
+    saveFeatures = True
     plotFeatures = False
     plotConfMat = True
     isSplitTrainTest = True
@@ -25,8 +25,9 @@ if __name__ == '__main__':
     # load and preprocess dataset:
     print('Preprocessing Data...')
     if isSplitTrainTest:
-        dataset, labels = get_test("./datasets/dataset_bmj/test")
+        dataset, labels = get_train("./datasets/toy_data/train")
         # dataset, labels = get_train("./datasets/dataset_bmj/train")
+        # dataset, labels = get_test("./datasets/dataset_bmj/test")
         dataset_train, labels_train, dataset_test, labels_test = test_train_split(dataset, labels, pTrain)
     else:
         dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")

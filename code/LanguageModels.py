@@ -8,7 +8,7 @@ def calculate_perplexity(text, model, tokenizer, device):
     logging.getLogger("transformers.tokenization_utils_base").setLevel(logging.ERROR)  # for warning suppression
     encodings = tokenizer(text, return_tensors='pt')
     max_length = model.config.n_positions
-    stride = 256
+    stride = 32
 
     lls = []
     for i in range(0, encodings.input_ids.size(1), stride):
