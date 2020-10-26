@@ -156,6 +156,8 @@ def num_words(corpus, ignore=None):
 # ======================================================================================================================
 # TODO: out of date
 def plot_features(features, nWords):
+    print('plot_features is out of date!')
+    pass
     freqWords = features[:nWords]
     avgWordLen = features[-2]
     numWords = features[-1]
@@ -171,6 +173,8 @@ def plot_features(features, nWords):
 # ======================================================================================================================
 # TODO: out of date
 def plot_features_compare(features, labels, nWords):
+    print('plot_features_compare is out of date!')
+    pass
     freqWords = features[:, :nWords]
     avgWordLen = features[:, -2]
     numWords = features[:, -1]

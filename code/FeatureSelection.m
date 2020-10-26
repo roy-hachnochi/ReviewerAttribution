@@ -1,5 +1,5 @@
-features_filename = fullfile('results','reviewer_classification','articles_features.csv');
-labels_filename = fullfile('results','reviewer_classification','articles_labels.csv');
+features_filename = fullfile('results','reviewer_classification','toy_features.csv');
+labels_filename = fullfile('results','reviewer_classification','toy_labels.csv');
 k = 10; % number of neighbors for reliefF
 nFeatures = [50, 70, 100, 30, 15, 7]; % number of features for each feature type
 feature_names = {'unigram hist',...

@@ -3,58 +3,83 @@ from FeatureExtractor import *
 from sklearn import preprocessing
 from sklearn import svm
 from sklearn.cluster import OPTICS
+from skrebate import ReliefF
 import numpy as np
 import os
 from sklearn.metrics import plot_confusion_matrix
+import matplotlib.pyplot as plt
 
 # ======================================================================================================================
 if __name__ == '__main__':
     nTokens = [50, 70, 100, 30, 15]  # number of tokens for each n-gram histogram
     ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]  # tokens to ignore
     pTrain = 0.7  # train-test split
-    min_samples = 5  # minimum samples for clustering algorithm
+    min_samples = 7  # minimum samples for clustering algorithm
     LM_folderName = "./Language_Models/toy_60/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
     results_folderName = "./results/reviewer_classification/"
-    results_fileName = "toy_features.csv"
-    results_labels_fileName = "toy_labels.csv"
-    saveFeatures = True
+    features_fileName = "articles_features.csv"
+    labels_fileName = "articles_labels.csv"
+    loadData = False
+    saveFeatures = False
     plotFeatures = False
     plotConfMat = True
     isSplitTrainTest = True
 
-    # load and preprocess dataset:
-    print('Preprocessing Data...')
-    if isSplitTrainTest:
-        dataset, labels = get_train("./datasets/toy_data/train")
-        # dataset, labels = get_train("./datasets/dataset_bmj/train")
-        # dataset, labels = get_test("./datasets/dataset_bmj/test")
-        dataset_train, labels_train, dataset_test, labels_test = test_train_split(dataset, labels, pTrain)
-    else:
-        dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
-        dataset_test, labels_test = get_test("./datasets/dataset_bmj/test")
-    if sorted(list(set(labels_train))) != sorted(list(set(labels_test))):
-        print("Error: labels_train and labels_test are different")
-        exit()
-
     os.makedirs(results_folderName, exist_ok=True)
+
+    if loadData:
+        if isSplitTrainTest:
+            X = np.loadtxt(results_folderName + features_fileName, delimiter=",")
+            labels = list(np.loadtxt(results_folderName + labels_fileName, delimiter=",", dtype='str'))
+            X_train, labels_train, X_test, labels_test = test_train_split(X, labels, pTrain)
+            X_train = np.array(X_train)
+            X_test = np.array(X_test)
+        else:
+            X_train = np.loadtxt("./results/reviewer_classification/articles_features.csv", delimiter=",")
+            labels_train = np.loadtxt("./results/reviewer_classification/articles_labels.csv", delimiter=",", dtype='str')
+            X_test = np.loadtxt("./results/reviewer_classification/reviews_features.csv", delimiter=",")
+            labels_test = np.loadtxt("./results/reviewer_classification/reviews_labels.csv", delimiter=",", dtype='str')
+    else:
+        # load and preprocess dataset:
+        print('Preprocessing Data...')
+        if isSplitTrainTest:
+            # dataset, labels = get_train("./datasets/toy_data/train")
+            dataset, labels = get_train("./datasets/dataset_bmj/train")
+            # dataset, labels = get_test("./datasets/dataset_bmj/test")
+            dataset_train, labels_train, dataset_test, labels_test = test_train_split(dataset, labels, pTrain)
+        else:
+            dataset_train, labels_train = get_train("./datasets/dataset_bmj/train")
+            dataset_test, labels_test = get_test("./datasets/dataset_bmj/test")
+        if sorted(list(set(labels_train))) != sorted(list(set(labels_test))):
+            print("Error: labels_train and labels_test are different")
+            exit()
+
+        # extract features:
+        print('Extracting features...')
+        feature_ext = FeatureExtractor(ignore=ignore)
+        feature_ext.fit(dataset_train, nTokens, LM_foldername=LM_folderName, labels=list(set(labels_train)))
+        print(feature_ext.unigram.frequentWords)
+        print(feature_ext.bigram.frequentWords)
+        print(feature_ext.trigram.frequentWords)
+        X_train = feature_ext.transform(dataset_train)
+        X_test = feature_ext.transform(dataset_test)
 
     # get labels dictionary:
     class_to_labels_dict = list(set(labels_train))
     labels_to_class_dict = {label: i for i, label in enumerate(class_to_labels_dict)}
-
-    # extract features:
-    print('Extracting features...')
-    feature_ext = FeatureExtractor(ignore=ignore)
-    feature_ext.fit(dataset_train, nTokens, LM_foldername=LM_folderName, labels=list(labels_to_class_dict))
-    print(feature_ext.unigram.frequentWords)
-    print(feature_ext.bigram.frequentWords)
-    print(feature_ext.trigram.frequentWords)
-    X_train = feature_ext.transform(dataset_train)
     y_train = np.array([labels_to_class_dict[label] for label in labels_train])
-    X_test = feature_ext.transform(dataset_test)
     y_test = np.array([labels_to_class_dict[label] for label in labels_test])
 
-    # Remove outliers from train data:
+    # plot example of features:
+    if saveFeatures:
+        np.savetxt(results_folderName + features_fileName, np.concatenate([X_train, X_test], axis=0), delimiter=",")
+        np.savetxt(results_folderName + labels_fileName, np.concatenate([labels_train, labels_test], axis=0),
+                   delimiter=",", fmt='%s')
+    if plotFeatures:
+        plot_features(X_train[3, :], nTokens)
+        plot_features_compare(X_train, y_train, nTokens)
+
+    # remove outliers from train data:
     X_train_inliers = []
     y_train_inliers = []
     for label in labels_to_class_dict.values():
@@ -67,13 +92,13 @@ if __name__ == '__main__':
     X_train = np.concatenate(X_train_inliers, axis=0)
     y_train = np.concatenate(y_train_inliers)
 
-    # plot example of features:
-    if saveFeatures:
-        np.savetxt(results_folderName + results_fileName, np.concatenate([X_train, X_test], axis=0), delimiter=",")
-        np.savetxt(results_folderName + results_labels_fileName, np.concatenate([y_train, y_test], axis=0), delimiter=",")
-    if plotFeatures:
-        plot_features(X_train[3, :], nTokens)
-        plot_features_compare(X_train, y_train, nTokens)
+    # select good features:
+    n_features = X_train.shape[1] // 2
+    n_neighbors = 10
+    r = ReliefF(n_features_to_select=n_features, n_neighbors=n_neighbors)
+    r.fit(X_train, y_train)
+    X_train = r.transform(X_train)
+    X_test = r.transform(X_test)
 
     # train model:
     print('Training Model...')
