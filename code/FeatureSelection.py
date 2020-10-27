@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 # ======================================================================================================================
 if __name__ == '__main__':
-    features_filename = "./results/reviewer_classification/toy_features.csv"
-    labels_filename = "./results/reviewer_classification/toy_labels.csv"
+    features_filename = "./results/main/toy_features.csv"
+    labels_filename = "./results/main/toy_labels.csv"
     n_features = 10
     n_neighbors = 10
     nFeatures = [50, 70, 100, 30, 15, 10]  # number of features for each feature type
@@ -20,6 +20,8 @@ if __name__ == '__main__':
     r = ReliefF(n_features_to_select=n_features, n_neighbors=n_neighbors)
     r.fit(X, y)
 
+    # TODO: add other features to plot
+    # TODO: plot sorted features
     colors = ['r', 'y', 'g', 'c', 'b', 'm']
     plt.figure()
     ind = 0

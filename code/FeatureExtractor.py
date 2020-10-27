@@ -24,6 +24,7 @@ class FeatureExtractor:
         self.LM_foldernames = []
         self.nTokens = []
         self.ignore = [] if ignore is None else ignore
+        self.punctuations = [',', '-', ':']
         self.maxWords = maxWords
         self.nFeatures = 0
 
@@ -43,7 +44,7 @@ class FeatureExtractor:
         if LM_foldername is not None:
             self.LM_foldernames = [LM_foldername + label for label in labels]
         self.nTokens = nTokens
-        self.nFeatures = sum(self.nTokens) + len(self.LM_foldernames)
+        self.nFeatures = sum(self.nTokens) + len(self.LM_foldernames) + len(self.punctuations) + 2
         # self.nFeatures = sum(self.nTokens) + 1  # TODO: decide between argmin and vector for ppl
 
     def transform(self, dataset):
@@ -58,6 +59,8 @@ class FeatureExtractor:
 
         N = len(datasetClean)
         X = np.zeros((N, self.nFeatures))
+
+        # n-gram features:
         featuresInds = np.cumsum(self.nTokens)
         for ind, (corpus, corpusBi, corpusTri, corpusFour, corpusFive) in enumerate(zip(datasetClean, datasetBi, datasetTri, datasetFour, datasetFive)):
             X[ind, :featuresInds[0]] = self.unigram.transform(corpus)
@@ -66,6 +69,7 @@ class FeatureExtractor:
             X[ind, featuresInds[2]:featuresInds[3]] = self.fourgram.transform(corpusFour)
             X[ind, featuresInds[3]:featuresInds[4]] = self.fivegram.transform(corpusFive)
 
+        # perplexity features:
         datasetReduced = [text.split() for text in dataset]
         datasetReduced = [' '.join(tokens[:min(self.maxWords, len(tokens))]) for tokens in datasetReduced]
         # ppl_mat = np.zeros((X.shape[0], len(self.LM_foldernames)))  # TODO: decide between argmin and vector for ppl
@@ -76,6 +80,18 @@ class FeatureExtractor:
                 X[ind, featuresInds[4] + i_lm] = ppl  # TODO: check min ppl value
                 # ppl_mat[ind, i_lm] = ppl  # TODO: decide between argmin and vector for ppl + return min with 5000 when svm only
         # X[:, -1] = np.argmin(ppl_mat, axis=1)  # TODO: decide between argmin and vector for ppl
+
+        # punctuation features:
+        n_LM = len(self.LM_foldernames)
+        n_punct = len(self.punctuations)
+        for ind, corpus in enumerate(datasetClean):
+            X[ind, (featuresInds[4] + n_LM):(featuresInds[4] + n_LM + n_punct)] = np.array(list(tf(corpus, self.punctuations).values()))
+
+        # other features:
+        for ind, corpus in enumerate(datasetClean):
+            X[ind, featuresInds[4] + n_LM + n_punct] = average_word_length(corpus)
+            X[ind, featuresInds[4] + n_LM + n_punct + 1] = average_words_in_sentence(corpus)
+
         return X
 
 # ======================================================================================================================
@@ -139,7 +155,7 @@ def tf(corpus, words):
         tfDict[token] = val / float(len(corpus))
     return tfDict
 
-
+# ======================================================================================================================
 def average_word_length(corpus, ignore=None):
     words = corpus
     if ignore is not None:
@@ -152,6 +168,15 @@ def num_words(corpus, ignore=None):
     if ignore is not None:
         words = [word for word in words if word not in ignore]
     return len(words)
+
+
+def average_words_in_sentence(corpus, ignore=None):
+    words = corpus
+    n_sentences = words.count('.')
+    if ignore is not None:
+        words = [word for word in words if word not in ignore]
+    n_words = len(words) - n_sentences  # len(words) also counts number of dots, so we subtract it
+    return n_words / n_sentences
 
 # ======================================================================================================================
 # TODO: out of date
