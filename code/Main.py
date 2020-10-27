@@ -1,5 +1,5 @@
 from Preprocess import *
-from FeatureExtractor import *
+# from FeatureExtractor import *
 from sklearn import preprocessing
 from sklearn import svm
 from sklearn.cluster import OPTICS
@@ -15,15 +15,16 @@ if __name__ == '__main__':
     ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]  # tokens to ignore
     pTrain = 0.7  # train-test split
     min_samples = 7  # minimum samples for clustering algorithm
+    nFeatures_factor = 0.67  # factor for feature selection
     LM_folderName = "./Language_Models/toy_60/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
     results_folderName = "./results/reviewer_classification/"
-    features_fileName = "articles_features.csv"
-    labels_fileName = "articles_labels.csv"
-    loadData = False
-    saveFeatures = False
-    plotFeatures = False
-    plotConfMat = True
-    isSplitTrainTest = True
+    features_fileName = "toy_features.csv"
+    labels_fileName = "toy_labels.csv"
+    loadData = True  # load features and labels instead of creating them
+    saveFeatures = False  # save feature matrices and labels
+    plotFeatures = False  # plot example of features
+    plotConfMat = True  # plot confusion matrix
+    isSplitTrainTest = True  # perform train-test split, if False - read separate train and test data
 
     os.makedirs(results_folderName, exist_ok=True)
 
@@ -39,6 +40,7 @@ if __name__ == '__main__':
             labels_train = np.loadtxt("./results/reviewer_classification/articles_labels.csv", delimiter=",", dtype='str')
             X_test = np.loadtxt("./results/reviewer_classification/reviews_features.csv", delimiter=",")
             labels_test = np.loadtxt("./results/reviewer_classification/reviews_labels.csv", delimiter=",", dtype='str')
+            # TODO: fix train test loading
     else:
         # load and preprocess dataset:
         print('Preprocessing Data...')
@@ -65,7 +67,7 @@ if __name__ == '__main__':
         X_test = feature_ext.transform(dataset_test)
 
     # get labels dictionary:
-    class_to_labels_dict = list(set(labels_train))
+    class_to_labels_dict = sorted(list(set(labels_train)))
     labels_to_class_dict = {label: i for i, label in enumerate(class_to_labels_dict)}
     y_train = np.array([labels_to_class_dict[label] for label in labels_train])
     y_test = np.array([labels_to_class_dict[label] for label in labels_test])
@@ -92,24 +94,26 @@ if __name__ == '__main__':
     X_train = np.concatenate(X_train_inliers, axis=0)
     y_train = np.concatenate(y_train_inliers)
 
+    # scaling:
+    scaler = preprocessing.StandardScaler().fit(X_train)
+    X_train_scaled = scaler.transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+
     # select good features:
-    n_features = X_train.shape[1] // 2
+    n_features = int(X_train_scaled.shape[1] * nFeatures_factor)
     n_neighbors = 10
     r = ReliefF(n_features_to_select=n_features, n_neighbors=n_neighbors)
-    r.fit(X_train, y_train)
-    X_train = r.transform(X_train)
-    X_test = r.transform(X_test)
+    r.fit(X_train_scaled, y_train)
+    X_train_scaled = r.transform(X_train_scaled)
+    X_test_scaled = r.transform(X_test_scaled)
 
     # train model:
     print('Training Model...')
-    scaler = preprocessing.StandardScaler().fit(X_train)
-    X_train_scaled = scaler.transform(X_train)
     clf = svm.SVC(class_weight='balanced')
     clf.fit(X_train_scaled, y_train)
 
     # get prediction and calculate metrics:
     print('Classifying...')
-    X_test_scaled = scaler.transform(X_test)
     y_pred = clf.predict(X_test_scaled)
     accuracy = (y_pred == y_test).mean()
     for i in range(len(y_pred)):

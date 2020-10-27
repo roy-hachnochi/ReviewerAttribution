@@ -70,13 +70,13 @@ def get_test(folderName, fileNameInd=0, labelsInd=1):
 # ======================================================================================================================
 def test_train_split(X, y, pTrain):
     nSamples = len(X)
-    randGen = np.random.RandomState(0)
+    randGen = np.random.RandomState(seed=0)
 
     X_train = []
     X_test = []
     y_train = []
     y_test = []
-    for label in list(set(y)):
+    for label in sorted(list(set(y))):
         indices = [i for i in range(nSamples) if y[i] == label]  # appearances of current label
         n = len(indices)
         n_samples_train = int(n * pTrain)
