@@ -1,5 +1,5 @@
 from Preprocess import *
-# from FeatureExtractor import *
+from FeatureExtractor import *
 from sklearn import preprocessing
 from sklearn import svm
 from sklearn.cluster import OPTICS
@@ -15,16 +15,16 @@ if __name__ == '__main__':
     ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]  # tokens to ignore
     pTrain = 0.7  # train-test split
     min_samples = 7  # minimum samples for clustering algorithm
-    nFeatures_factor = 0.67  # factor for feature selection
+    nFeatures_factor = 0.3  # factor for feature selection
     LM_folderName = "./Language_Models/toy_60/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
-    results_folderName = "./results/reviewer_classification/"
+    results_folderName = "./results/main/"
     features_fileName = "toy_features.csv"
     labels_fileName = "toy_labels.csv"
     loadData = True  # load features and labels instead of creating them
     saveFeatures = False  # save feature matrices and labels
     plotFeatures = False  # plot example of features
     plotConfMat = True  # plot confusion matrix
-    isSplitTrainTest = True  # perform train-test split, if False - read separate train and test data
+    isSplitTrainTest = False  # perform train-test split, if False - read separate train and test data
 
     os.makedirs(results_folderName, exist_ok=True)
 
@@ -36,11 +36,12 @@ if __name__ == '__main__':
             X_train = np.array(X_train)
             X_test = np.array(X_test)
         else:
-            X_train = np.loadtxt("./results/reviewer_classification/articles_features.csv", delimiter=",")
-            labels_train = np.loadtxt("./results/reviewer_classification/articles_labels.csv", delimiter=",", dtype='str')
-            X_test = np.loadtxt("./results/reviewer_classification/reviews_features.csv", delimiter=",")
-            labels_test = np.loadtxt("./results/reviewer_classification/reviews_labels.csv", delimiter=",", dtype='str')
-            # TODO: fix train test loading
+            X = np.loadtxt("./results/main/all_features.csv", delimiter=",")
+            labels = np.loadtxt("./results/main/all_labels.csv", delimiter=",", dtype='str')
+            X_train = X[:70, :]
+            labels_train = labels[:70]
+            X_test = X[70:, :]
+            labels_test = labels[70:]
     else:
         # load and preprocess dataset:
         print('Preprocessing Data...')
