@@ -30,8 +30,8 @@ class FeatureExtractor:
 
     def fit(self, dataset, nTokens, LM_foldername=None, labels=None):
         assert((LM_foldername is not None and labels is not None) or (LM_foldername is None and labels is None))
-        datasetClean = [tokenize(text, maxWords=self.maxWords) for text in dataset]
-        datasetClean = [[token for token in tokens if token not in self.ignore] for tokens in datasetClean]
+        datasetTokens = [tokenize(text, maxWords=self.maxWords) for text in dataset]
+        datasetClean = [[token for token in tokens if token not in self.ignore] for tokens in datasetTokens]
         datasetBi = get_ngrams(datasetClean, n=2)
         datasetTri = get_ngrams(datasetClean, n=3)
         datasetFour = get_ngrams(datasetClean, n=4)
@@ -50,8 +50,8 @@ class FeatureExtractor:
     def transform(self, dataset):
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-        datasetClean = [tokenize(text, maxWords=self.maxWords) for text in dataset]
-        datasetClean = [[token for token in corpus if token not in self.ignore] for corpus in datasetClean]
+        datasetTokens = [tokenize(text, maxWords=self.maxWords) for text in dataset]
+        datasetClean = [[token for token in corpus if token not in self.ignore] for corpus in datasetTokens]
         datasetBi = get_ngrams(datasetClean, n=2)
         datasetTri = get_ngrams(datasetClean, n=3)
         datasetFour = get_ngrams(datasetClean, n=4)
@@ -88,8 +88,8 @@ class FeatureExtractor:
             X[ind, (featuresInds[4] + n_LM):(featuresInds[4] + n_LM + n_punct)] = np.array(list(tf(corpus, self.punctuations).values()))
 
         # other features:
-        for ind, corpus in enumerate(datasetClean):
-            X[ind, featuresInds[4] + n_LM + n_punct] = average_word_length(corpus)
+        for ind, (corpus, corpusClean) in enumerate(zip(datasetTokens, datasetClean)):
+            X[ind, featuresInds[4] + n_LM + n_punct] = average_word_length(corpusClean)
             X[ind, featuresInds[4] + n_LM + n_punct + 1] = average_words_in_sentence(corpus)
 
         return X
