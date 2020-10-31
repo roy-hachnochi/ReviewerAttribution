@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 
 # ======================================================================================================================
 if __name__ == '__main__':
-    features_filename = "./results/main/toy_features.csv"
-    labels_filename = "./results/main/toy_labels.csv"
+    features_filename = "./results/main/reviews_features.csv"
+    labels_filename = "./results/main/reviews_labels.csv"
     n_features = 10
     n_neighbors = 10
-    nFeatures = [50, 70, 100, 30, 15, 10]  # number of features for each feature type
+    nFeatures = [50, 70, 100, 30, 15, 7]  # number of features for each feature type
     feature_names = ['unigram hist', 'bigram hist', 'trigram hist', 'fourgram hist', 'fivegram hist', 'LM perplexity']
 
     X = np.loadtxt(features_filename, delimiter=",")
@@ -20,14 +20,14 @@ if __name__ == '__main__':
     r = ReliefF(n_features_to_select=n_features, n_neighbors=n_neighbors)
     r.fit(X, y)
 
-    # TODO: add other features to plot
     # TODO: plot sorted features
-    colors = ['r', 'y', 'g', 'c', 'b', 'm']
+    colors = ['r', 'y', 'g', 'c', 'b', 'm', 'k']
     plt.figure()
     ind = 0
     for i in range(len(nFeatures)):
         plt.bar(range(ind, ind + nFeatures[i]), r.feature_importances_[ind:(ind + nFeatures[i])], label=feature_names[i], color=colors[i])
         ind = ind + nFeatures[i]
+    plt.bar(range(ind, len(r.feature_importances_)), r.feature_importances_[ind:], label='other', color=colors[-1])
     plt.grid()
     plt.title('Feature Importance')
     plt.xlabel('Feature')

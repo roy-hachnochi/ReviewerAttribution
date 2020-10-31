@@ -3,10 +3,13 @@ from FeatureExtractor import *
 from sklearn import preprocessing
 from sklearn import svm
 from sklearn.cluster import OPTICS
+from sklearn.model_selection import cross_val_predict
+from sklearn.metrics import plot_confusion_matrix, confusion_matrix
 from skrebate import ReliefF
 import numpy as np
+import seaborn as sn
+import pandas as pd
 import os
-from sklearn.metrics import plot_confusion_matrix
 import matplotlib.pyplot as plt
 
 # ======================================================================================================================
@@ -15,7 +18,7 @@ if __name__ == '__main__':
     ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]  # tokens to ignore
     pTrain = 0.7  # train-test split
     min_samples = 7  # minimum samples for clustering algorithm
-    nFeatures_factor = 0.3  # factor for feature selection
+    nFeatures_factor = 0.2  # factor for feature selection
     LM_folderName = "./Language_Models/toy_60/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
     results_folderName = "./results/main/"
     features_fileName = "toy_features.csv"
@@ -24,7 +27,8 @@ if __name__ == '__main__':
     saveFeatures = False  # save feature matrices and labels
     plotFeatures = False  # plot example of features
     plotConfMat = True  # plot confusion matrix
-    isSplitTrainTest = False  # perform train-test split, if False - read separate train and test data
+    isSplitTrainTest = True  # perform train-test split, if False - read separate train and test data
+    isCrossVal = True  # perform cross validation
 
     os.makedirs(results_folderName, exist_ok=True)
 
@@ -128,28 +132,25 @@ if __name__ == '__main__':
         plt.show()
 
     # cross validation:
-    # print('{}: Cross Validation...'.format(ind))
-    # scaler = preprocessing.StandardScaler().fit(X)
-    # X_scaled = scaler.transform(X)
-    # clf = svm.SVC(class_weight='balanced')
-    # y_pred = cross_val_predict(clf, X_scaled, y, cv=10)
-    # accuracy = (y_pred == y).mean()
-    # accuracyList.append(accuracy)
-    # print('{0}: Accuracy: {1}'.format(ind, accuracy))
-    # if plotConfMat:
-    #     conf_mat = confusion_matrix(y, y_pred)
-    #     df_cm = pd.DataFrame(conf_mat, index=[label for label in class_to_labels_dict],
-    #                          columns=[label.split()[-1] for label in class_to_labels_dict])
-    #     plt.figure()
-    #     sn.heatmap(df_cm, annot=True, cmap="Blues")
-    #     plt.title('Cross Validation Results')
-    #     plt.show()
-    #
-    # plt.figure()
-    # plt.plot(np.inf, accuracyList, 'o-')
-    # plt.title('Accuracy vs. Text Length')
-    # plt.xlabel('Max Number of Words')
-    # plt.ylabel('Accuracy')
-    # plt.grid()
-    # plt.show()
-    # print()
+    if isCrossVal:
+        if not isSplitTrainTest:
+            print('Can\'t perform cross validation for articles-reviews setting')
+        else:
+            print('Cross Validation...')
+            X = np.concatenate([X_train, X_test], axis=0)
+            y = np.concatenate([y_train, y_test], axis=0)
+            scaler = preprocessing.StandardScaler().fit(X)
+            X_scaled = scaler.transform(X)
+            X_scaled = r.transform(X_scaled)
+            clf = svm.SVC(class_weight='balanced')
+            y_pred = cross_val_predict(clf, X_scaled, y, cv=10)
+            accuracy = (y_pred == y).mean()
+            print('Accuracy: {0}'.format(accuracy))
+            if plotConfMat:
+                conf_mat = confusion_matrix(y, y_pred)
+                df_cm = pd.DataFrame(conf_mat, index=[label for label in class_to_labels_dict],
+                                     columns=[label.split()[-1] for label in class_to_labels_dict])
+                plt.figure()
+                sn.heatmap(df_cm, annot=True, cmap="Blues")
+                plt.title('Cross Validation Results')
+                plt.show()
