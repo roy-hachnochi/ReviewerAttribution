@@ -1,7 +1,6 @@
 from Preprocess import *
 from FeatureExtractor import *
-from sklearn import preprocessing
-from sklearn import svm
+from sklearn import preprocessing, svm
 from sklearn.cluster import OPTICS
 from sklearn.model_selection import cross_val_predict
 from sklearn.metrics import plot_confusion_matrix, confusion_matrix
