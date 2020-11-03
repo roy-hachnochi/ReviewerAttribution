@@ -44,7 +44,7 @@ class FeatureExtractor:
         if LM_foldername is not None:
             self.LM_foldernames = [LM_foldername + label for label in labels]
         self.nTokens = nTokens
-        self.nFeatures = sum(self.nTokens) + len(self.LM_foldernames) + len(self.punctuations) + 2
+        self.nFeatures = sum(self.nTokens) + len(self.LM_foldernames) + len(self.punctuations) + 3
         # self.nFeatures = sum(self.nTokens) + 1  # TODO: decide between argmin and vector for ppl
 
     def transform(self, dataset):
@@ -89,8 +89,9 @@ class FeatureExtractor:
 
         # other features:
         for ind, (corpus, corpusClean) in enumerate(zip(datasetTokens, datasetClean)):
-            X[ind, featuresInds[4] + n_LM + n_punct] = average_word_length(corpusClean)
-            X[ind, featuresInds[4] + n_LM + n_punct + 1] = average_words_in_sentence(corpus)
+            X[ind, featuresInds[4] + n_LM + n_punct] = average_word_length(corpusClean, ignore=self.ignore)
+            X[ind, featuresInds[4] + n_LM + n_punct + 1] = average_words_in_sentence(corpus, ignore=self.ignore)
+            X[ind, featuresInds[4] + n_LM + n_punct + 2] = num_words(corpus, ignore=self.ignore)
 
         return X
 

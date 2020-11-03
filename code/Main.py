@@ -22,6 +22,7 @@ if __name__ == '__main__':
     results_folderName = "./results/main/"
     features_fileName = "toy_features.csv"
     labels_fileName = "toy_labels.csv"
+    kernel = 'sigmoid'  # kernel for SVM
     loadData = True  # load features and labels instead of creating them
     saveFeatures = False  # save feature matrices and labels
     plotFeatures = False  # plot example of features
@@ -92,7 +93,6 @@ if __name__ == '__main__':
         X = X_train[y_train == label, :]
         y = y_train[y_train == label]
         clusters = OPTICS(min_samples=min_samples).fit_predict(X)
-        print(clusters)  # TODO: for debug, remove later
         X_train_inliers.append(X[clusters != -1, :])
         y_train_inliers.append(y[clusters != -1])
     X_train = np.concatenate(X_train_inliers, axis=0)
@@ -113,7 +113,7 @@ if __name__ == '__main__':
 
     # train model:
     print('Training Model...')
-    clf = svm.SVC(class_weight='balanced')
+    clf = svm.SVC(class_weight='balanced', kernel=kernel)
     clf.fit(X_train_scaled, y_train)
 
     # get prediction and calculate metrics:
@@ -141,7 +141,6 @@ if __name__ == '__main__':
             scaler = preprocessing.StandardScaler().fit(X)
             X_scaled = scaler.transform(X)
             X_scaled = r.transform(X_scaled)
-            clf = svm.SVC(class_weight='balanced')
             y_pred = cross_val_predict(clf, X_scaled, y, cv=10)
             accuracy = (y_pred == y).mean()
             print('Accuracy: {0}'.format(accuracy))
