@@ -1,5 +1,5 @@
 from Preprocess import *
-# from FeatureExtractor import *
+from FeatureExtractor import *
 from sklearn import preprocessing, svm
 from sklearn.cluster import OPTICS
 from sklearn.model_selection import cross_val_predict
@@ -15,18 +15,18 @@ import matplotlib.pyplot as plt
 if __name__ == '__main__':
     nTokens = [50, 70, 100, 30, 15]  # number of tokens for each n-gram histogram
     ignore = ['.', '[', ']', '/', '(', ')', ';', UNK_TOKEN]  # tokens to ignore
-    pTrain = 0.7  # train-test split
-    min_samples = 7  # minimum samples for clustering algorithm
-    nFeatures_factor = 0.2  # factor for feature selection
+    pTrain = 0.6  # train-test split
+    min_samples = 5  # minimum samples for clustering algorithm
+    nFeatures_factor = 0.5  # factor for feature selection
     LM_folderName = "./Language_Models/toy_60/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
     results_folderName = "./results/main/"
     features_fileName = "toy_features.csv"
     labels_fileName = "toy_labels.csv"
     kernel = 'sigmoid'  # kernel for SVM
-    loadData = True  # load features and labels instead of creating them
-    saveFeatures = False  # save feature matrices and labels
+    loadData = False  # load features and labels instead of creating them
+    saveFeatures = True  # save feature matrices and labels
     plotFeatures = False  # plot example of features
-    plotConfMat = True  # plot confusion matrix
+    plotConfMat = False  # plot confusion matrix
     isSplitTrainTest = True  # perform train-test split, if False - read separate train and test data
     isCrossVal = True  # perform cross validation
 
@@ -50,8 +50,8 @@ if __name__ == '__main__':
         # load and preprocess dataset:
         print('Preprocessing Data...')
         if isSplitTrainTest:
-            # dataset, labels = get_train("./datasets/toy_data/train")
-            dataset, labels = get_train("./datasets/dataset_bmj/train")
+            dataset, labels = get_train("./datasets/toy_data/train")
+            # dataset, labels = get_train("./datasets/dataset_bmj/train")
             # dataset, labels = get_test("./datasets/dataset_bmj/test")
             dataset_train, labels_train, dataset_test, labels_test = test_train_split(dataset, labels, pTrain)
         else:
