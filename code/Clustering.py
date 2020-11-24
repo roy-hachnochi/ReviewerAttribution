@@ -9,18 +9,17 @@ from sklearn.decomposition import KernelPCA
 
 # ======================================================================================================================
 if __name__ == '__main__':
-    pTrain = 0.7
-    n_components = 2
+    n_components = 3
     n_neighbors = 10
     nFeatures_factor = 0.5
-    features_filename = "./results/main/reviews_features.csv"
-    labels_filename = "./results/main/reviews_labels.csv"
+    features_filename = "results/Main/articles_features.csv"
+    labels_filename = "results/Main/articles_labels.csv"
     isArticlesReviews = True
     isUseArticles = False
 
     if isArticlesReviews:
-        X = np.loadtxt("./results/main/all_features.csv", delimiter=",")
-        labels = np.loadtxt("./results/main/all_labels.csv", delimiter=",", dtype='str')
+        X = np.loadtxt("./results/Main/all_features.csv", delimiter=",")
+        labels = np.loadtxt("./results/Main/all_labels.csv", delimiter=",", dtype='str')
         if isUseArticles:
             X = X[:70, :]
             labels = labels[:70]
@@ -50,10 +49,10 @@ if __name__ == '__main__':
     print('Clustering...')
     methods = OrderedDict()
     methods['KPCA'] = KernelPCA(n_components, kernel='sigmoid', random_state=0)
-    methods['LLE'] = manifold.LocallyLinearEmbedding(n_neighbors, n_components, method='standard')
-    methods['Isomap'] = manifold.Isomap(n_neighbors, n_components)
-    methods['MDS'] = manifold.MDS(n_components, max_iter=100, n_init=1)
-    methods['SE'] = manifold.SpectralEmbedding(n_components=n_components, n_neighbors=n_neighbors)
+    # methods['LLE'] = manifold.LocallyLinearEmbedding(n_neighbors, n_components, method='standard')
+    # methods['Isomap'] = manifold.Isomap(n_neighbors, n_components)
+    # methods['MDS'] = manifold.MDS(n_components, max_iter=100, n_init=1)
+    # methods['SE'] = manifold.SpectralEmbedding(n_components=n_components, n_neighbors=n_neighbors)
     methods['t-SNE'] = manifold.TSNE(n_components=n_components, init='pca', random_state=0)
 
     # Plot results
@@ -63,13 +62,13 @@ if __name__ == '__main__':
         Y = method.fit_transform(X)
         print("{}".format(label))
         if n_components == 2:
-            ax = fig.add_subplot(2, 3, i + 1)
+            ax = fig.add_subplot(1, 2, i + 1)
             ax.scatter(Y[:, 0], Y[:, 1], c=y, cmap=plt.cm.Spectral)
         elif n_components == 3:
-            ax = fig.add_subplot(2, 3, i + 1, projection='3d')
+            ax = fig.add_subplot(1, 2, i + 1, projection='3d')
             ax.scatter(Y[:, 0], Y[:, 1], Y[:, 2], c=y, cmap=plt.cm.Spectral)
         else:
-            ax = fig.add_subplot(2, 3, i + 1)
+            ax = fig.add_subplot(1, 2, i + 1)
             print("Can't plot components...")
         ax.set_title("{}".format(label))
         ax.xaxis.set_major_formatter(NullFormatter())

@@ -19,15 +19,15 @@ if __name__ == '__main__':
     min_samples = 5  # minimum samples for clustering algorithm
     nFeatures_factor = 0.5  # factor for feature selection
     LM_folderName = "./Language_Models/toy_60/"  # "./Language_Models/articles_all/", "./Language_Models/articles_70/", "./Language_Models/reviews_70/"
-    results_folderName = "./results/main/"
+    results_folderName = "./results/Main/"
     features_fileName = "toy_features.csv"
     labels_fileName = "toy_labels.csv"
     kernel = 'sigmoid'  # kernel for SVM
-    loadData = False  # load features and labels instead of creating them
-    saveFeatures = True  # save feature matrices and labels
+    loadData = True  # load features and labels instead of creating them
+    saveFeatures = False  # save feature matrices and labels
     plotFeatures = False  # plot example of features
-    plotConfMat = False  # plot confusion matrix
-    isSplitTrainTest = True  # perform train-test split, if False - read separate train and test data
+    plotConfMat = True  # plot confusion matrix
+    isSplitTrainTest = False  # perform train-test split, if False - read separate train and test data
     isCrossVal = True  # perform cross validation
 
     os.makedirs(results_folderName, exist_ok=True)
@@ -40,8 +40,8 @@ if __name__ == '__main__':
             X_train = np.array(X_train)
             X_test = np.array(X_test)
         else:
-            X = np.loadtxt("./results/main/all_features.csv", delimiter=",")
-            labels = np.loadtxt("./results/main/all_labels.csv", delimiter=",", dtype='str')
+            X = np.loadtxt("./results/Main/all_features.csv", delimiter=",")
+            labels = np.loadtxt("./results/<ain/all_labels.csv", delimiter=",", dtype='str')
             X_train = X[:70, :]
             labels_train = labels[:70]
             X_test = X[70:, :]
@@ -126,8 +126,9 @@ if __name__ == '__main__':
     if plotConfMat:
         disp = plot_confusion_matrix(clf, X_test_scaled, y_test, display_labels=class_to_labels_dict, cmap=plt.cm.Blues,
                                      normalize='true')
-        disp.ax_.set_title('Confusion Matrix')
+        plt.title('Confusion Matrix\n Accuracy: {}%'.format(accuracy*100))
         plt.xticks([], [])
+        plt.tight_layout()
         plt.show()
 
     # cross validation:
@@ -150,5 +151,6 @@ if __name__ == '__main__':
                                      columns=[label.split()[-1] for label in class_to_labels_dict])
                 plt.figure()
                 sn.heatmap(df_cm, annot=True, cmap="Blues")
-                plt.title('Cross Validation Results')
+                plt.title('Cross Validation Results\n Accuracy: {}%'.format(accuracy*100))
+                plt.tight_layout()
                 plt.show()

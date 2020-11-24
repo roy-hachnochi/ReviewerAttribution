@@ -11,7 +11,7 @@ import os
 if __name__ == '__main__':
     nTokens = [0, 0, 0, 0, 0]
     LM_folderName = "./Language_Models/toy_60/"
-    results_folderName = "./results/ppl_classification/toy/"
+    results_folderName = "./results/PerplexityClassification/toy/"
     pTrain = 0.6
     maxWords_list = [200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900]
     nSamples = 100  # number of times to calculate accuracy, used for creating confidence interval

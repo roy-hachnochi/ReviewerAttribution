@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 # ======================================================================================================================
 if __name__ == '__main__':
-    features_filename = "./results/main/reviews_features.csv"
-    labels_filename = "./results/main/reviews_labels.csv"
+    features_filename = "results/Main/reviews_features.csv"
+    labels_filename = "results/Main/reviews_labels.csv"
     nFeatures_factor = 0.3
     n_neighbors = 10
     nFeatures = [50, 70, 100, 30, 15, 7]  # number of features for each feature type
